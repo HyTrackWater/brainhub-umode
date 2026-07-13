@@ -13,6 +13,8 @@
 ### Data de abertura
 
 ## Taxonomia CX Hub
+### Vinculada ao CX Hub?
+[Não — padrão pra demanda nova/interna / Sim — ID: XXXX]
 ### Quadro
 [Operação / Tech]
 ### Área (CX Hub)

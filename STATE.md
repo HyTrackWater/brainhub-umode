@@ -491,3 +491,40 @@
   nenhuma das 14 áreas** — pastas existem, conteúdo real nunca foi levantado, gap pré-existente
   não introduzido nesta sessão, só agora identificado porque foi a primeira vez que essa camada
   foi auditada especificamente. Nada inventado para fechar o gap — fica como próximo passo.
+- **10 jul 2026** — Sessão 22: migração completa pro Git resolvida a pedido do Vinicius, que
+  precisa levar o projeto pra um novo workspace do Claude Code em breve e queria garantir que
+  nada do trabalho de 21 sessões ficasse perdido. Achado crítico: só existia 1 commit trivial
+  no repositório — tudo (CONTEXT.md, CLAUDE.md, STATE.md, `uMode/` inteiro, protocolos,
+  templates, conteúdo real dos 4 clientes) estava como alteração não commitada, sem nenhum
+  backup real além da máquina local. Resolvido: commit + push de tudo (1267 arquivos,
+  `github.com/HyTrackWater/brainhub-umode`, branch `main`), incluindo as pastas de dados
+  brutos usadas como fonte (decisão explícita do Vinicius: "tudo que estamos documentando de
+  forma padronizada será o cérebro... não faz sentido" deixar algo de fora). No caminho, achado
+  e resolvido um limite real do Windows (260 caracteres por caminho) que travava o `git add` em
+  ~146 arquivos de sub-exports do Notion muito aninhados — corrigido encurtando nomes de pasta
+  (sem tocar em `git config`, proibido pelas minhas regras), não excluindo nada.
+  Na sequência, começou o desenho de telas da plataforma (agentes que aplicam mudança direto na
+  tela, tipo Lovable interno) por perfil de usuário/cadeira. Dois erros reais cometidos e
+  corrigidos no processo: (1) montei um mockup usando dado inventado a partir de notas próprias
+  sobre o Mapa-mãe, sem checar se já existia um artefato real — existia:
+  `docs/brainhub_plataforma.html`, um protótipo navegável de 764 linhas já construído antes
+  desta sessão, com 9 telas (Início, uGentes, Builder, Cérebro, Conversa, Aprovações, Aferição,
+  Plataformas, Verticais); (2) ao descobrir esse arquivo, tratei ele (e o organograma
+  V2.2/Mapa-mãe do Drive) como fonte válida pra desenhar telas novas — o Vinicius corrigiu:
+  nada de artefato antigo/externo vale como fonte de estrutura agora, só o que já está
+  formalizado na nossa própria hierarquia (`CONTEXT.md`, os MDs reais). Reiniciado do zero.
+  Alinhamento de produto resultante (sem nenhuma tela construída ainda): (a) visibilidade por
+  perfil é função de campos que já existem na ficha de Pessoa (`Cadeira`, `Área organizacional`,
+  `Clientes atuais atendidos`), não uma tabela de permissão nova; (b) o fluxo de aprovação que
+  o Vinicius descreveu (agente de área faz "conferência", abre demanda, alguém aprova, contexto
+  é atualizado) já existe formalizado por inteiro em `protocolo-gestao-demanda.md` — só nunca
+  virou tela; (c) **decisão de modelagem travada**: toda demanda nasce "interna" (BrainHub,
+  manutenção do ecossistema/contexto) e pode, dependendo do que for, ganhar um card real no CX
+  Hub depois — não são dois tipos de documento, é a mesma `Demanda`, com a seção "Taxonomia CX
+  Hub" inteira condicional a um novo campo `Vinculada ao CX Hub?` (Não/Sim + ID). As 236
+  demandas já formalizadas (histórico migrado, todas nasceram como card real) foram
+  retrofitadas com esse campo (`Sim — ID: [mesmo valor de ID legado]`), revalidadas por diff —
+  0 divergências. Também decidido: quando um agente de área abre a demanda sozinho (sem
+  triagem humana prévia), o campo `Criador` aceita nome de agente, não só pessoa física —
+  registrado no protocolo. Próximo passo: desenhar as telas (Feed conversacional filtrável +
+  Conversa da demanda + área de Ferramentas/Plataformas) partindo só do que já é nosso.
