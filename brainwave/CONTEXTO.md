@@ -1,11 +1,20 @@
-# BRAINWAVE.md — Referência de produto para prompts do BrainWave
+# brainwave/CONTEXTO.md — Referência de produto para prompts do BrainWave
 
 > **Isto não é lido pelo BrainWave.** O BrainWave é uma ferramenta tipo Lovable — sem acesso a
 > este repositório, sem leitura de arquivo nenhum. Ele só aplica, direto no frontend, o que o
 > Vinicius digita nele. Este documento é a fonte que **nós** usamos aqui pra derivar o texto
-> desses prompts (ver `BRAINWAVE_TAREFA_ESQUELETO.md` para o primeiro, já pronto pra colar).
-> Vive na raiz do repositório, ao lado de `CLAUDE.md`/`CONTEXT.md`/`STATE.md`, mas com público
-> diferente: é referência de quem escreve o prompt, não instrução de quem o executa.
+> dos prompts de tarefa. É referência de quem escreve o prompt, não instrução de quem executa.
+
+## A pasta `brainwave/`
+
+Guarda o histórico de toda instrução de frontend já dada ao BrainWave. Convenção:
+- `CONTEXTO.md` (este arquivo) — referência de produto, sempre atual, nunca numerado.
+- `01-esqueleto.md`, `02-...md`, `03-...md` — uma tarefa por arquivo, em ordem cronológica,
+  numeração nunca reaproveitada mesmo se uma tarefa for abandonada.
+- Cada arquivo de tarefa tem uma seção `## Resultado`, preenchida depois — **o Vinicius é a
+  interface entre o BrainWave e este repositório**: ele cola o prompt na ferramenta, e quando
+  ela responde, traz o resultado de volta pra cá pra registrar. Eu (ou quem estiver na sessão)
+  nunca invento o que o BrainWave fez — só registro o que o Vinicius reportar.
 
 ## Fonte de verdade pra quem escreve o prompt
 

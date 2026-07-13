@@ -42,3 +42,14 @@ antes de plugar conteúdo.
 3. Qualquer dúvida antes de eu pedir a próxima etapa.
 
 Não avance para dado real, telas de detalhe ou criação/edição até eu confirmar esta etapa.
+
+---
+
+## Resultado
+
+[a preencher — Vinicius roda o prompt acima no BrainWave e traz o resultado de volta pra cá:
+o que foi construído, decisões que o BrainWave tomou sozinho, dúvidas levantadas. Até isso
+acontecer, esta tarefa está registrada como enviada, não como concluída.]
+
+### Status
+Enviado — aguardando resultado.

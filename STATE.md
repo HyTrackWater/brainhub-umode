@@ -566,3 +566,12 @@
   `BRAINWAVE.md` virou referência interna nossa pra escrever prompt (não é lido pelo
   BrainWave); `BRAINWAVE_TAREFA_ESQUELETO.md` reescrito como texto 100% autocontido, pronto
   pra colar direto na ferramenta, sem nenhuma referência a "leia X".
+  Criada a pasta `brainwave/` (raiz do repositório) pra guardar o histórico de toda instrução
+  de frontend já dada ao BrainWave — pedido explícito do Vinicius. Estrutura: `CONTEXTO.md`
+  (a antiga `BRAINWAVE.md`, movida pra dentro, sempre atual, nunca numerada) + arquivos de
+  tarefa numerados sequencialmente (`01-esqueleto.md` é o primeiro, movido da raiz). Cada
+  arquivo de tarefa ganhou uma seção `## Resultado`, hoje `[a preencher]` com status "Enviado
+  — aguardando resultado" — **o Vinicius é a interface entre o BrainWave e este repositório**:
+  ele cola o prompt na ferramenta e traz o resultado de volta pra registrar aqui; nunca se
+  inventa o que o BrainWave fez. `START.md` atualizado pra apontar pro novo caminho
+  (`brainwave/CONTEXTO.md` em vez de `BRAINWAVE.md` na raiz).
