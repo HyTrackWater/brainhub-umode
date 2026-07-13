@@ -15,7 +15,13 @@
       — Moda Objetiva: ✅ concluído (v1)
       — Cliente 5: pausado — prioridade agora é pilotar o modelo de demandas com 1 cliente
         já cadastrado antes de expandir para um 5º
-- [ ] Migração para repositório Git (Claude Code) — em andamento
+- [x] Migração para repositório Git (Claude Code) — **concluída em 10 jul 2026**. Todo o
+      projeto (CONTEXT.md, CLAUDE.md, STATE.md, `uMode/`, `docs/`, `scripts/`, e as pastas de
+      dados brutos usadas como fonte) commitado e enviado (`push`) para
+      `github.com/HyTrackWater/brainhub-umode` (branch `main`, commit `6867890`, 1267 arquivos).
+      Antes só existia 1 commit trivial no repositório — 21 sessões de trabalho estavam
+      sentadas como alterações não commitadas na máquina local, sem backup nenhum. Corrigido a
+      pedido explícito do Vinicius (preparação para migrar de workspace do Claude Code).
 - [x] Piloto de demandas com Lofty Style — **formalizado**. 85 arquivos `D-AAAA-NNN.md` em
       `uMode/_Clientes/Lofty Style/00_Institucional/_demandas/`, estrutura idêntica ao
       template (validado por diff), campos vazios sempre `[a preencher]`
