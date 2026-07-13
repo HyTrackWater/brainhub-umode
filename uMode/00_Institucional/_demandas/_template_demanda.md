@@ -11,6 +11,10 @@
 ### Destino (organizacional)
 [casa/área/subárea/pessoa responsável]
 ### Data de abertura
+### Status (interno)
+[Aberta / Em andamento / Concluída / Cancelada — ver protocolo-gestao-demanda.md. Se Vinculada
+ao CX Hub? = Sim, "Concluída" significa que o card foi criado e vinculado, não que o trabalho
+foi executado — a execução é acompanhada pelo Status do CX Hub, abaixo]
 
 ## Taxonomia CX Hub
 ### Vinculada ao CX Hub?

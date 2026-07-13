@@ -650,3 +650,32 @@
   acesso a este repositório), com seção `## Resultado` aguardando o Vinicius rodar e reportar.
   Sessão perto de trocar de workspace — toda a documentação relevante está atualizada nesta
   entrada; nada pendente de escrita no momento desta nota.
+- **13 jul 2026** — Sessão 23: (1) Removidas do repositório as 3 pastas de dado bruto usadas só
+  como fonte pra gerar demandas/RFIs (`Demandas Totais CSV e Markdown/`, `RFIs Gerais - Lofty/`,
+  `RFIs Totais CSV e Markdown/` — 947 arquivos, CSV/HTML/planilhas/PDFs do Notion/Drive), a
+  pedido do Vinicius: o repositório é essencialmente só `.md`, nada referencia essas pastas.
+  (2) `brainwave/03-uMode-e-clientes.md` (redigido e validado antes, nunca commitado) e
+  `brainwave/04-seletor-cliente-ativo.md` — o Vinicius navegou no resultado da tarefa 03 e notou
+  que o "cliente ativo" da aba Clientes não ficava visível/trocável fora da sub-aba Instituições;
+  tarefa 04 corrige com seletor fixo nas 4 sub-abas + estado vazio + filtro opcional por Área em
+  Pessoas. `brainwave/CONTEXTO.md` atualizado pra refletir as duas. (3) **Correção de
+  nomenclatura Demanda vs. CX Hub**, a pedido do Vinicius, depois de reler
+  `protocolo-gestao-demanda.md` por inteiro (regra obrigatória): a separação conceitual já
+  estava travada (toda demanda nasce interna, CX Hub é destino opcional), mas faltava um campo
+  de status pra demandas que nunca vinculam ao CX Hub e não mudam nenhum MD (ex.: "avisar que
+  fulano saiu da empresa", "mandar e-mail de detalhamento de permissionamento") — hoje nenhum
+  campo dizia se essas foram concluídas. Adicionado `Status (interno)` (`Aberta / Em andamento /
+  Concluída / Cancelada`) em `## Identificação`, terceiro eixo de status, separado do `Status`
+  operacional do CX Hub e do `Ciclo de vida institucional` (aprovação de contexto). Refinamento
+  do próprio Vinicius: quando `Vinculada ao CX Hub? = Sim`, `Status (interno) = Concluída`
+  significa que a demanda foi criada e vinculada ao CX Hub — não que o trabalho foi executado (a
+  execução segue no `Status` do CX Hub, campo separado). Aplicado nos 2 templates (Casa e
+  cliente) e retrofitado nas 236 demandas já formalizadas via
+  `scripts/retrofit-status-interno.ps1` — todas ganharam `Concluída` (as 236 já eram `Vinculada
+  ao CX Hub? = Sim`). **Bug de encoding recorrente**: primeira rodada do script gerou mojibake
+  (`ConcluÃ­da`) porque o `.ps1` foi salvo sem BOM UTF-8 — mesmo problema já visto em sessões
+  anteriores com literais acentuados em PowerShell 5.1. Revertidos os 236 arquivos via
+  `git checkout --`, script resalvo com BOM (`Set-Content -Encoding UTF8`), rerodado com
+  sucesso; também corrigido um typo próprio ("ja"/"execucao" sem acento) nos 236 arquivos e no
+  script. Revalidado por diff de headings — 0 divergências; confirmado que os 236 arquivos têm
+  o campo novo.

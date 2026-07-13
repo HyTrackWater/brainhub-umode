@@ -183,9 +183,31 @@ enum (ex.: valor numérico solto como `"2"`) ficam `[a preencher]`, registrados 
 padrão — é trabalho entre a Casa e aquele cliente, mesmo quando "Quem solicitou" está vazio
 (nesse caso, a origem provável é a própria Casa observando algo no cliente).
 
+## Status (interno) — execução da demanda dentro do BrainHub
+> Adicionado em 13 jul 2026, junto com `Vinculada ao CX Hub?` — fecha uma lacuna real: demandas
+> que nunca viram card no CX Hub (ex.: "avisar que fulano saiu da empresa", "mandar e-mail com
+> detalhamento de permissionamento") não tinham nenhum campo que dissesse se foram concluídas.
+
+Um terceiro eixo, em `## Identificação`, separado tanto do `Status` operacional do CX Hub
+(existe só quando `Vinculada ao CX Hub? = Sim`) quanto do `Ciclo de vida institucional` abaixo
+(existe só quando há `Contexto impactado`). `Status (interno)` existe **sempre**, em toda
+demanda, e responde a uma pergunta só: "o BrainHub já cumpriu a parte que era dele aqui?"
+
+Enum: `Aberta` · `Em andamento` · `Concluída` · `Cancelada`.
+
+O que "Concluída" significa depende de `Vinculada ao CX Hub?`:
+- **`Não`** — acompanha a demanda inteira, do início ao fim. "Concluída" quer dizer que a
+  atividade em si foi feita (o e-mail foi enviado, o MD foi atualizado etc.).
+- **`Sim`** — acompanha só a parte que cabe ao BrainHub: perceber a demanda e fazê-la virar um
+  card real no CX Hub, com o vínculo (`Vinculada ao CX Hub? = Sim` + `ID legado`) registrado.
+  Assim que esse vínculo existe, `Status (interno) = Concluída` — **não** significa que o
+  trabalho foi executado, só que a demanda foi criada e entregue pro CX Hub. A execução de fato
+  segue seu próprio ciclo no `Status` operacional do CX Hub (seção acima), fora do escopo deste
+  campo.
+
 ## Ciclo de vida institucional (aprovação de contexto)
-Este é um eixo **separado** do `Status` operacional do CX Hub — um controla a execução da
-demanda, o outro controla especificamente a permissão para escrever em contexto institucional:
+Um quarto eixo, também separado dos outros três acima — controla especificamente a permissão
+para escrever em contexto institucional, não a execução da demanda em si:
 `Nenhuma aprovação pendente` → `Aguardando aprovação de contexto` → `Aprovada` → `Aplicada`.
 
 ## Marcos
