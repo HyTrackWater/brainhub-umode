@@ -553,9 +553,16 @@
   real disponível; (2) o stack técnico do BrainWave não foi informado — o próprio agente vai
   declarar isso sozinho, mesmo princípio do `START.md`; (3) escopo do primeiro entregável
   definido como só a casca de navegação, sem dado, sem tela de detalhe, sem criação/edição.
-  Criado `BRAINWAVE_TAREFA_ESQUELETO.md` (raiz) — a tarefa concreta de execução (2ª mensagem da
-  sessão, depois de `START.md`): construir as 6 abas com rota funcionando, cada uma com
-  placeholder textual (nome + descrição de uma linha, copiado de `BRAINWAVE.md`), Áreas sem
-  virar 7ª aba, nenhum dado real ou inventado, e um contrato de saída pedindo que o BrainWave
-  liste decisões próprias tomadas por falta de definição, sem prosseguir pra próxima tarefa
-  sem confirmação.
+  Criado `BRAINWAVE_TAREFA_ESQUELETO.md` (raiz) — a tarefa concreta de execução: construir as 6
+  abas com rota funcionando, cada uma com placeholder textual (nome + descrição de uma linha,
+  copiado de `BRAINWAVE.md`), Áreas sem virar 7ª aba, nenhum dado real ou inventado, e um
+  contrato de saída pedindo que o BrainWave liste decisões próprias tomadas por falta de
+  definição, sem prosseguir pra próxima tarefa sem confirmação.
+  **Correção do Vinicius, importante pra não repetir**: BrainWave não é uma sessão de Claude
+  Code que lê o repositório — é ferramenta tipo Lovable, sem acesso a arquivo nenhum daqui.
+  Ele só aplica no frontend o que é digitado direto nele; o Vinicius usa o resultado pra abrir
+  PR pra equipe tech. O fluxo "Leia START.md" é exclusivo de sessões de Claude Code (ex.: a
+  migração de workspace discutida antes) — nunca do BrainWave. Corrigidos os dois arquivos:
+  `BRAINWAVE.md` virou referência interna nossa pra escrever prompt (não é lido pelo
+  BrainWave); `BRAINWAVE_TAREFA_ESQUELETO.md` reescrito como texto 100% autocontido, pronto
+  pra colar direto na ferramenta, sem nenhuma referência a "leia X".

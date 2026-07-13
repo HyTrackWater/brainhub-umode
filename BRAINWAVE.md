@@ -1,15 +1,18 @@
-# BRAINWAVE.md — Instruções para o agente de frontend BrainWave
+# BRAINWAVE.md — Referência de produto para prompts do BrainWave
 
-> Este arquivo não faz parte do cérebro institucional (a hierarquia em `uMode/`). É a instrução
-> de trabalho pro agente de frontend interno **BrainWave**, que vai construir a interface visual
-> da plataforma BrainHub em cima do cérebro que já existe. Vive na raiz do repositório, ao lado
-> de `CLAUDE.md`/`CONTEXT.md`/`STATE.md` — mesmo padrão, público diferente.
+> **Isto não é lido pelo BrainWave.** O BrainWave é uma ferramenta tipo Lovable — sem acesso a
+> este repositório, sem leitura de arquivo nenhum. Ele só aplica, direto no frontend, o que o
+> Vinicius digita nele. Este documento é a fonte que **nós** usamos aqui pra derivar o texto
+> desses prompts (ver `BRAINWAVE_TAREFA_ESQUELETO.md` para o primeiro, já pronto pra colar).
+> Vive na raiz do repositório, ao lado de `CLAUDE.md`/`CONTEXT.md`/`STATE.md`, mas com público
+> diferente: é referência de quem escreve o prompt, não instrução de quem o executa.
 
-## Antes de qualquer tela
+## Fonte de verdade pra quem escreve o prompt
 
-Leia, nesta ordem, por inteiro: `CLAUDE.md`, `CONTEXT.md`, `STATE.md`. Eles definem a
-hierarquia, as regras de padronização e o estado atual do projeto. Não pule essa leitura — é a
-mesma regra que qualquer agente que trabalha neste repositório segue.
+Antes de escrever ou revisar um prompt pro BrainWave, releia por inteiro: `CLAUDE.md`,
+`CONTEXT.md`, `STATE.md`. Eles definem a hierarquia, as regras de padronização e o estado atual
+do projeto — o prompt precisa refletir isso corretamente, já que o BrainWave não vai conferir
+sozinho.
 
 **Regra mais importante deste arquivo:** o repositório é a fonte de verdade. `uMode/` já tem
 toda a estrutura, os templates e o conteúdo real de 4 clientes-piloto (Lofty Style, Cambos,
