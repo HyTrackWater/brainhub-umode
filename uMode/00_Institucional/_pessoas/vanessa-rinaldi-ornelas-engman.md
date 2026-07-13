@@ -1,6 +1,8 @@
 # Vanessa Rinaldi Ornelas Engman · Pessoa
 
 ## Identificação
+### Foto
+[a preencher]
 ### Nome completo
 Vanessa Rinaldi Ornelas Engman
 ### Nome preferido / como é chamado(a)
@@ -11,11 +13,17 @@ Vanessa Rinaldi
 Lidera Qualificação (Vendas) e co-lidera Gestão de Contrato/Onboarding — confirmado no
 organograma v2.2 (Design Org & Metas 2026). No CRM "Mapa de Clientes", aparece como
 "Consultor de Negócios" na conta Lofty Style.
+### Nível HIC
+[a preencher — critério de triagem/escala ainda não definido]
 ### Área (organizacional)
 Comercial [inferência a partir das cadeiras "Qualificação"/"Vendas" no organograma — ver nota
 em `protocolo-gestao-pessoas.md` sobre Cadeira ≠ Área]
 ### Data de entrada na uMode
 [a preencher]
+### Status na uMode
+Ativo
+### Data de saída da uMode
+[não aplicável — Status Ativo]
 
 ## Papel
 ### Missão da cadeira
@@ -46,6 +54,19 @@ do piloto, não verificado
 ### O que a diferencia
 [a preencher]
 ### Curiosidade / algo pessoal
+[a preencher]
+
+## Competências
+[preenchido só com fonte real citada — currículo/CV, LinkedIn, certificado, ou resposta da
+própria pessoa via formulário. Nunca inferido do cargo/cadeira ou de como a pessoa aparece em
+outro documento — ver protocolo-gestao-pessoas.md]
+### Experiência profissional anterior
+[a preencher]
+### Skills / habilidades técnicas
+[a preencher]
+### Cursos e certificações
+[a preencher]
+### Ferramentas e plataformas que domina
 [a preencher]
 
 ## Governança

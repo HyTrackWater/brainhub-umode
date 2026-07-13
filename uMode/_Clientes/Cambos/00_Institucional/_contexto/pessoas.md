@@ -1,10 +1,12 @@
 # Cambos · Pessoas
 
 ## Responsável de atendimento (uMode)
-Laura Delgado Cardoso (Key Account) · Andrea Goulart Holmer dos Santos (Key Account)
+Laura Delgado Cardoso (Key Account)
 
-> Par confirmado via CRM "Mapa de Clientes" e base "Reuniões Compartilhadas com Clientes" —
-> mesmo par que atende Lofty Style, Luiza Barcelos e Moda Objetiva (varredura de 09 jul 2026).
+> Par com Andrea Goulart Holmer dos Santos (Key Account) confirmado via CRM "Mapa de Clientes"
+> e base "Reuniões Compartilhadas com Clientes" — mesmo par que atendia Lofty Style, Luiza
+> Barcelos e Moda Objetiva (varredura de 09 jul 2026). Andrea saiu do time da uMode
+> (atualizado em 13 jul 2026) — time de atendimento atual não confirmado além de Laura.
 
 ---
 

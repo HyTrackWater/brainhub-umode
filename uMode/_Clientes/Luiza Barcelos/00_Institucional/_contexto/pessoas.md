@@ -1,11 +1,14 @@
 # Luiza Barcelos · Pessoas
 
 ## Responsável de atendimento (uMode)
-**Laura Delgado Cardoso** (Key Account) · **Andrea Goulart Holmer dos Santos** (Key Account) ·
-**Marina Gonçalves Santoro** (Consultora de Negócios)
+**Laura Delgado Cardoso** (Key Account) · **Marina Gonçalves Santoro** (Consultora de
+Negócios)
 
 > Confirmado via CRM "Mapa de Clientes" e base "Reuniões Compartilhadas com Clientes"
-> (varredura de 09 jul 2026). Marina Santoro conduziu o onboarding em 2024.
+> (varredura de 09 jul 2026). Marina Santoro conduziu o onboarding em 2024. **Andrea Goulart
+> Holmer dos Santos** (Key Account) atendia este cliente em par com Laura, mas saiu do time
+> da uMode (atualizado em 13 jul 2026) — time de atendimento atual não confirmado além de
+> Laura.
 
 ---
 

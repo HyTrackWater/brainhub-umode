@@ -166,23 +166,26 @@
 - [x] Decisão refinada: cada Produto carrega atributo `conecta_area_cliente`
 
 ## Próximas atividades (fila da Sprint 02)
-1. Preencher `contexto-area.md` real das 14 áreas em pelo menos 1 cliente-piloto (gap achado na
+1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md` e `brainwave/02-home.md`
+   enviados, ambos aguardando o Vinicius rodar no BrainWave e trazer o `## Resultado` de volta
+   pra registrar aqui. Próxima tarefa (03) só depois de confirmação da 02.
+2. Preencher `contexto-area.md` real das 14 áreas em pelo menos 1 cliente-piloto (gap achado na
    auditoria final de 10 jul — 0 de 56 combinações cliente×área preenchidas hoje; exige dado
    real por área, não dá para formalizar sem levantamento novo)
-2. Decidir com o Vinicius: formalizar o variante 1ª-pessoa de `contexto-area.md` das 8 Áreas da
+3. Decidir com o Vinicius: formalizar o variante 1ª-pessoa de `contexto-area.md` das 8 Áreas da
    Casa como template próprio (`_pendencias-gerais.md` item 8)
-3. Continuar a varredura Google Drive com foco em ferramentas internas × Áreas — próximos
+4. Definir a escala/critério de triagem do campo `Nível HIC` (Pessoa) — hoje só o campo existe
+5. Continuar a varredura Google Drive com foco em ferramentas internas × Áreas — próximos
    destinos: pasta Drive própria de Lofty, 3 páginas Notion linkadas no CRM
-4. Concluir migração para repositório Git (Claude Code)
-5. Revisar com o Vinicius as pendências centralizadas em `_pendencias-gerais.md` (9 itens):
+6. Revisar com o Vinicius as pendências centralizadas em `_pendencias-gerais.md` (9 itens):
    Cadeira×Área (3 taxonomias diferentes), `Área (CX Hub)`="OPERAÇÃO" sem match, Tamanho
    atendimento×Grupo de segmentação, Taís Moser (uMode ou cliente?), "Laura" da Alocação
    contratual, `### ERP`/`### Notion` em Luiza Barcelos, CRM desatualizado, os 2 achados da
    auditoria final (itens 8 e 9)
-6. Cadastrar cliente 5 e fechar validação do template com 5 cases (retomado após o piloto
+7. Cadastrar cliente 5 e fechar validação do template com 5 cases (retomado após o piloto
    de demandas)
-7. Montar simulação de fluxos para apresentação 17/07
-8. Decidir sobre o formulário de personificação de Pessoas (Lovable) — campos documentáveis
+8. Montar simulação de fluxos para apresentação 17/07
+9. Decidir sobre o formulário de personificação de Pessoas (Lovable) — campos documentáveis
    já estão preenchidos nas 4 fichas existentes; falta só a parte de personificação
 
 ## Backlog (não priorizado / aguardando a fila andar)
@@ -575,3 +578,67 @@
   ele cola o prompt na ferramenta e traz o resultado de volta pra registrar aqui; nunca se
   inventa o que o BrainWave fez. `START.md` atualizado pra apontar pro novo caminho
   (`brainwave/CONTEXTO.md` em vez de `BRAINWAVE.md` na raiz).
+  **Combinado novo com o Vinicius sobre cadência de commit**: não commitar/dar push a cada
+  alteração — só manter a documentação sempre atualizada (o que este próprio log faz). Ele
+  commita manualmente quando quiser; a documentação corrente é que garante segurança pra
+  trocar de sessão, não a frequência dos commits. Registrado como memória de feedback pra não
+  esquecer em sessões futuras.
+  Desenho da tela **Home** (personalizada por pessoa/cadeira) iniciado. Avaliação do template
+  de Pessoa: quase suficiente — único campo realmente faltando era **Foto** (nunca existiu).
+  Adicionado `### Foto` em `_template_pessoa.md` (Identificação, logo após Nome preferido/
+  antes... na verdade logo no início da seção) + `protocolo-gestao-pessoas.md` atualizado +
+  as 4 fichas reais retrofitadas (`[a preencher]`) e revalidadas por diff — 0 divergências.
+  Resto do que a Home precisa já existia: Data de entrada (tempo na uMode é calculado, não
+  campo novo), Cadeira, Missão/Responsabilidades (serve de resumo documentável quando
+  Personificação ainda não foi respondida — é o caso das 4 fichas hoje), Clientes atuais
+  atendidos. O "Inbox" da Home não precisa de campo novo — é um recorte filtrado de `Demanda`
+  (Criador/Responsável = a pessoa), mesma lógica já desenhada pra aba Demandas.
+  **Dado real atualizado**: Andrea Goulart Holmer dos Santos não faz mais parte do time da
+  uMode (informado pelo Vinicius, 13 jul 2026 — data exata de saída não informada). Isso
+  expôs um campo que faltava na ficha de Pessoa: não existia jeito de marcar alguém como
+  inativo. Adicionados `Status na uMode` (Ativo/Inativo) e `Data de saída da uMode` ao
+  template + protocolo + nas 4 fichas reais (3 Ativo, Andrea Inativo). Ficha da Andrea:
+  `Clientes atuais atendidos` movido pra `Clientes atendidos historicamente` (ela não atende
+  mais de verdade, mesmo que o registro documental do que fez fique). Ficha da Laura:
+  removida a menção "sempre em par com Andrea" de Responsabilidades/Interfaces — `Interfaces`
+  volta a `[a preencher]` com nota do que mudou, sem inventar um par novo que não foi
+  confirmado. **Pendência aberta, não resolvida ainda**: Andrea também aparece em 11 outros
+  arquivos (institucional/jornada/pessoas.md dos 4 clientes-piloto) como Key Account ativa —
+  o Vinicius pediu só os dados da Laura nesta rodada; esses 11 arquivos ficam desatualizados
+  até confirmação explícita de que devem ser atualizados também.
+  **Nova 3ª classe de campo criada na ficha de Pessoa: Competências** (Experiência
+  profissional anterior, Skills/habilidades técnicas, Cursos e certificações, Ferramentas e
+  plataformas que domina) — pedido do Vinicius, com um propósito de produto explícito
+  registrado no protocolo: virar fonte de busca de "quem sabe sobre X" quando as fichas
+  estiverem interligadas com Demanda/Produto/Área (nenhuma busca construída ainda, só a
+  estrutura de dado). Mesma disciplina de nunca inferir — só com fonte real citada (CV,
+  LinkedIn, certificado) ou resposta via formulário. Adicionada ao template, ao protocolo
+  (que passou de "duas classes de campo" pra "três"), e às 4 fichas reais — todas `[a
+  preencher]` hoje, nenhum dado real disponível ainda. Revalidado por diff — 0 divergências.
+  **Pendência dos 11 arquivos resolvida** (a pedido do Vinicius: "pode atualizar"). Atualizados
+  8 dos 11 (`institucional.md` × 4 — seção "Responsável de atendimento" + Governança — e
+  `pessoas.md` × 4): Andrea removida da lista de time **atual**, com nota explícita de que saiu
+  (13 jul 2026) e que o time de atendimento atual não está confirmado além da Laura. Os outros
+  3 (`jornada.md` de Cambos/Lofty Style/Luiza Barcelos) **não foram tocados de propósito** —
+  citam a Andrea dentro de Marcos (tabela append-only de reuniões que realmente aconteceram
+  com ela presente) e numa observação de "última reunião registrada" também histórica; alterar
+  isso seria reescrever fato passado, o que contraria a mesma regra de Marcos já aplicada a
+  Demanda. Revalidado por diff todas as 8 edições — só as divergências já conhecidas (nome do
+  cliente no H1, `### ERP`/`### Notion` pendente da Luiza Barcelos), nada novo quebrado.
+  **Campo novo na ficha de Pessoa: `Nível HIC`** — pedido do Vinicius, representa a jornada de
+  aprendizagem/uso de ferramentas e conhecimento em IA do colaborador (conceito HIC já definido
+  em `CONTEXT.md` → Taxonomia). Só o campo foi criado — a escala/critério de triagem **ainda
+  não existe**, decisão explícita de não inventar uma provisória. Adicionado ao template
+  (Identificação, logo após Cadeira), ao protocolo, e às 4 fichas reais (todas `[a preencher]`).
+  Revalidado por diff — 0 divergências.
+  Criado `brainwave/02-home.md` — segunda tarefa de execução pro BrainWave: construir o
+  conteúdo da aba Home (personalizada por pessoa logada). Campos especificados: Foto (vazia),
+  Nome preferido, Cadeira, Nível HIC (omitido quando vazio, não quebra layout), Área
+  organizacional, **Data de entrada na uMode mostrada explicitamente** (pedido do Vinicius —
+  antes só o "Tempo na uMode" calculado estava no mockup, faltava a data crua) + Tempo na uMode
+  calculado, Resumo (autodescrição se existir, senão papel/responsabilidades, com indicação de
+  qual fonte foi usada), Clientes atuais atendidos, e Inbox (demandas em aberto onde é
+  Criador/Responsável). Autocontido, dado só de exemplo marcado como tal (BrainWave segue sem
+  acesso a este repositório), com seção `## Resultado` aguardando o Vinicius rodar e reportar.
+  Sessão perto de trocar de workspace — toda a documentação relevante está atualizada nesta
+  entrada; nada pendente de escrita no momento desta nota.

@@ -45,8 +45,10 @@ Ongoing
 Safe Tech
 
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso (Key Account) · Andrea Goulart Holmer dos Santos (Key Account) ·
-Marina Gonçalves Santoro (Consultora de Negócios)
+Laura Delgado Cardoso (Key Account) · Marina Gonçalves Santoro (Consultora de Negócios)
+> Andrea Goulart Holmer dos Santos (Key Account) atendia este cliente em par com Laura, mas
+> saiu do time da uMode (atualizado em 13 jul 2026) — time de atendimento atual não confirmado
+> além de Laura.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
@@ -85,7 +87,8 @@ https://app.notion.com/p/umode/Luiza-Barcelos-b0c819c0bda449528d9d984b3200f07f
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso · Andrea Goulart Holmer dos Santos
+Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, atualizado em
+13 jul 2026)
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

@@ -39,8 +39,10 @@ Ongoing
 ### ERP / Integração
 SPI · Totvs Virtual Age · Banner
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso · Andrea Goulart Holmer dos Santos (par confirmado via CRM "Time de
-Atendimento: Holmer & Laura" e registros de reunião a partir de set/2025)
+Laura Delgado Cardoso (atendia em par com Andrea Goulart Holmer dos Santos, confirmado via CRM
+"Time de Atendimento: Holmer & Laura" e registros de reunião a partir de set/2025 — Andrea
+saiu do time da uMode, atualizado em 13 jul 2026; time de atendimento atual não confirmado
+além de Laura)
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
@@ -71,6 +73,7 @@ https://drive.google.com/drive/folders/17HOz4vDW9Am9Z0GSPlPOUBi4_kKhytVN
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso · Andrea Goulart Holmer dos Santos
+Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, atualizado em
+13 jul 2026)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

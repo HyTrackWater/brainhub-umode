@@ -1,11 +1,12 @@
 # Moda Objetiva · Pessoas
 
 ## Responsável de atendimento (uMode)
-Laura Delgado Cardoso (Key Account) · Andrea Goulart Holmer dos Santos (Key Account) ·
-Vanessa Rinaldi Ornelas Engman (Consultora de Negócios)
+Laura Delgado Cardoso (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultora de Negócios)
 
 > Confirmado via CRM "Mapa de Clientes" e base "Reuniões Compartilhadas com Clientes"
-> (varredura de 09 jul 2026).
+> (varredura de 09 jul 2026). Andrea Goulart Holmer dos Santos (Key Account) atendia este
+> cliente em par com Laura, mas saiu do time da uMode (atualizado em 13 jul 2026) — time de
+> atendimento atual não confirmado além de Laura.
 
 ---
 

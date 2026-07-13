@@ -1,6 +1,8 @@
 # Marina Gonçalves Santoro · Pessoa
 
 ## Identificação
+### Foto
+[a preencher]
 ### Nome completo
 Marina Gonçalves Santoro
 ### Nome preferido / como é chamado(a)
@@ -11,11 +13,17 @@ Marina Santoro
 PO Integração (uConnect) — confirmado no organograma v2.2 (Design Org & Metas 2026, populado
 12/05/2026). Aparece também como "Consultora de Negócios" no CRM "Mapa de Clientes" de Luiza
 Barcelos — mesma pessoa, dois rótulos em fontes diferentes.
+### Nível HIC
+[a preencher — critério de triagem/escala ainda não definido]
 ### Área (organizacional)
 Tecnologia [inferência a partir da cadeira "PO Integração" no organograma — não é rótulo
 explícito de Área BrainHub, ver nota em `protocolo-gestao-pessoas.md` sobre Cadeira ≠ Área]
 ### Data de entrada na uMode
 [a preencher]
+### Status na uMode
+Ativo
+### Data de saída da uMode
+[não aplicável — Status Ativo]
 
 ## Papel
 ### Missão da cadeira
@@ -50,6 +58,19 @@ não consolidada nesta varredura
 ### O que a diferencia
 [a preencher]
 ### Curiosidade / algo pessoal
+[a preencher]
+
+## Competências
+[preenchido só com fonte real citada — currículo/CV, LinkedIn, certificado, ou resposta da
+própria pessoa via formulário. Nunca inferido do cargo/cadeira ou de como a pessoa aparece em
+outro documento — ver protocolo-gestao-pessoas.md]
+### Experiência profissional anterior
+[a preencher]
+### Skills / habilidades técnicas
+[a preencher]
+### Cursos e certificações
+[a preencher]
+### Ferramentas e plataformas que domina
 [a preencher]
 
 ## Governança

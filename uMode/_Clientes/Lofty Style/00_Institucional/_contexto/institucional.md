@@ -37,11 +37,12 @@ Operação Assistida
 ### ERP / Integração
 Linx
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso (Key Account) · Andrea Goulart Holmer dos Santos (Key Account) ·
-Vanessa Rinaldi Ornelas Engman (Consultora de Negócios)
-> Time de atendimento atual conforme CRM ("Holmer & Laura") e confirmado pelos registros de
-> reunião — houve um time anterior (Marina Santoro, PO Integração, conduzindo onboarding) até
-> ~set/2025, quando o atendimento passou para Andrea Holmer + Laura Delgado. Ver `jornada.md`.
+Laura Delgado Cardoso (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultora de Negócios)
+> Time de atendimento histórico conforme CRM ("Holmer & Laura") e confirmado pelos registros
+> de reunião — houve um time anterior (Marina Santoro, PO Integração, conduzindo onboarding)
+> até ~set/2025, quando o atendimento passou para Andrea Holmer + Laura Delgado. Andrea
+> Goulart Holmer dos Santos (Key Account) saiu do time da uMode (atualizado em 13 jul 2026) —
+> time de atendimento atual não confirmado além de Laura. Ver `jornada.md`.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
@@ -62,6 +63,7 @@ https://drive.google.com/drive/folders/1sP7YqvkGtyoCXkk6BUZwaUzIBaK9JHXV
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso · Andrea Goulart Holmer dos Santos
+Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, atualizado em
+13 jul 2026)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
