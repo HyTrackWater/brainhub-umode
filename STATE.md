@@ -541,3 +541,9 @@
   das 6 abas, o mecanismo de aprovação (já formalizado, só precisa de interface), a regra de
   visibilidade por Cadeira/Área/Clientes atendidos, e a lista explícita do que ainda não existe
   (Agente formal, `contexto-area.md` real, automação Demanda→CX Hub) pra não ser inventado.
+  Criado também `START.md` (raiz) — ponto de entrada único pra qualquer sessão nova (BrainWave
+  ou não): define a ordem exata de leitura (`CLAUDE.md` → `CONTEXT.md` → `STATE.md` →
+  `BRAINWAVE.md`), proíbe qualquer alteração na primeira resposta, e trava um contrato de saída
+  de 4 pontos (o que é o projeto, qual o papel da sessão, última atividade registrada, próximo
+  passo) — pedido explícito do Vinicius pra nunca precisar reexplicar o projeto do zero. A
+  primeira mensagem de qualquer sessão nova passa a ser só "Leia START.md".
