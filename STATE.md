@@ -547,3 +547,15 @@
   de 4 pontos (o que é o projeto, qual o papel da sessão, última atividade registrada, próximo
   passo) — pedido explícito do Vinicius pra nunca precisar reexplicar o projeto do zero. A
   primeira mensagem de qualquer sessão nova passa a ser só "Leia START.md".
+  Antes de escrever o prompt de execução real pro BrainWave, 3 parâmetros do setup dele foram
+  confirmados (perguntados, não presumidos): (1) BrainWave constrói num repositório separado
+  de `brainhub-umode`, hoje sem acesso de leitura a ele — nesta primeira tarefa não há dado
+  real disponível; (2) o stack técnico do BrainWave não foi informado — o próprio agente vai
+  declarar isso sozinho, mesmo princípio do `START.md`; (3) escopo do primeiro entregável
+  definido como só a casca de navegação, sem dado, sem tela de detalhe, sem criação/edição.
+  Criado `BRAINWAVE_TAREFA_ESQUELETO.md` (raiz) — a tarefa concreta de execução (2ª mensagem da
+  sessão, depois de `START.md`): construir as 6 abas com rota funcionando, cada uma com
+  placeholder textual (nome + descrição de uma linha, copiado de `BRAINWAVE.md`), Áreas sem
+  virar 7ª aba, nenhum dado real ou inventado, e um contrato de saída pedindo que o BrainWave
+  liste decisões próprias tomadas por falta de definição, sem prosseguir pra próxima tarefa
+  sem confirmação.
