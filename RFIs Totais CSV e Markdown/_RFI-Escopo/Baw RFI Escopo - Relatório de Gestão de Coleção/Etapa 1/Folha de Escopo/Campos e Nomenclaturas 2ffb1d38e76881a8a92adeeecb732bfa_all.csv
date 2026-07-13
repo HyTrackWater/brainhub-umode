@@ -1,0 +1,23 @@
+﻿Campo do banco,Aparece no relatório?,Banco,Estrutura na Plataforma,Exemplo (value),Hierarquia uMode,ID,Nome na Plataforma,Nome no Front,Tabela do Banco,Tipo de campo
+name,Não,umode_production,,,Não se aplica,1,,,jumper_entities,Nativo
+id,Não,umode_production,,,brand,36,,,umode_brands,Nativo
+name,Sim,umode_production,,,brand,37,,Marca,umode_brands,Nativo
+id,Não,umode_production,,,theme,38,,,umode_themes,Nativo
+name,Não,umode_production,,,theme,39,,,umode_themes,Nativo
+collection_id,Não,umode_production,,,collection,40,,,umode_products,Nativo
+name,Sim,umode_production,,,collection,41,,Coleção,umode_collections,Nativo
+id,Não,umode_production,,,product,42,,,umode_products,Nativo
+name,Não,umode_production,,,product,43,,,umode_products,Nativo
+reference,Não,umode_production,,,product,44,,,umode_products,Nativo
+status,Sim,umode_production,,,product,45,,Status do produto,umode_products,Nativo
+name,Sim,umode_production,,,product type,46,,Grupo de Produto,umode_product_types,Nativo
+name,Sim,umode_production,,,user,47,,Responsável,jumper_users,Nativo
+id,Não,umode_production,,,product variant,48,,,umode_product_variants,Nativo
+sku,Não,umode_production,,,product variant,49,,,umode_product_variants,Nativo
+name,Não,umode_production,,,product variant,50,,,umode_product_variants,Nativo
+created_at,Não,umode_production,,,product variant,51,,,umode_product_variants,Nativo
+name,Sim,umode_production,,,supplier,52,,Fornecedor,umode_suppliers,Nativo
+manufactory_price_cents (formatted in SELECT),Não,umode_production,,,supplier,53,,,umode_product_manufacturers,Nativo
+reference,Sim,umode_production,,,product,54,,Referência da Tabela,umode_measurement_tables,Nativo
+name,Sim,umode_production,,,product,55,,Nome da Tabela,umode_measurement_tables,Nativo
+size (aggregated via GROUP_CONCAT),Sim,umode_production,,,product,56,,Grade de tamanhos,umode_grid_size_item,Nativo

@@ -1,0 +1,12 @@
+# updated_at
+
+Aparece no relatório?: Não
+Banco: umode_production
+Estrutura na Plataforma: -
+Exemplo (value): 11/10/24 18:15
+Hierarquia uMode: task
+ID: 8
+Nome na Plataforma: -
+Nome no Front: -
+Tabela do Banco: jumper_tasks (jt)
+Tipo de campo: Nativo

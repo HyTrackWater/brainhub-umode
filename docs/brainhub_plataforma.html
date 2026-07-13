@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrainHub · Plataforma (protótipo navegável)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:240 10% 6%; --card:240 10% 9%; --muted:240 10% 14%; --border:240 10% 17%;
+    --fg:0 0% 95%; --mfg:240 5% 66%; --primary:271 82% 62%; --accent:271 40% 18%; --accent-fg:271 60% 80%;
+    --ok:160 72% 44%; --warn:38 92% 56%; --crit:0 84% 66%; --r:0.5rem;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Inter',sans-serif;background:hsl(var(--bg));color:hsl(var(--fg));-webkit-font-smoothing:antialiased;line-height:1.5;
+    background-image:radial-gradient(circle at top left,hsl(var(--accent)/0.4),transparent 35%);min-height:100vh;display:flex;}
+  a{color:inherit;text-decoration:none;cursor:pointer;}
+  ::-webkit-scrollbar{width:9px;height:9px;}::-webkit-scrollbar-thumb{background:hsl(var(--border));border-radius:6px;}
+
+  /* SIDEBAR */
+  .side{width:248px;flex-shrink:0;border-right:1px solid hsl(var(--border)/0.8);height:100vh;position:sticky;top:0;padding:16px 12px;overflow-y:auto;background:hsl(240 10% 7%/0.6);}
+  .logo{display:flex;align-items:center;gap:11px;padding:10px 10px;margin-bottom:18px;}
+  .logo .mk{width:38px;height:38px;border-radius:9px;background:linear-gradient(135deg,hsl(271 82% 58%/0.9),hsl(271 82% 40%/0.9));display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px hsl(271 82% 58%/0.35);}
+  .logo b{font-size:15px;} .logo span{font-size:11px;color:hsl(var(--mfg));}
+  .navgrp{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:hsl(var(--mfg)/0.7);font-weight:700;padding:14px 12px 6px;}
+  .navi{display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:9px;font-size:14px;font-weight:500;color:hsl(var(--fg)/0.82);transition:.12s;}
+  .navi:hover{background:hsl(var(--muted)/0.6);}
+  .navi.on{background:hsl(var(--accent)/0.55);color:#fff;box-shadow:inset 2px 0 0 hsl(var(--primary));}
+  .navi .em{width:20px;text-align:center;}
+  .navi .pill{margin-left:auto;font-size:10px;font-weight:700;background:hsl(var(--primary)/0.2);color:hsl(var(--primary));border-radius:20px;padding:2px 8px;}
+  .side .ver{font-size:10px;color:hsl(var(--mfg)/0.6);padding:14px 12px;letter-spacing:.1em;}
+
+  /* MAIN */
+  .main{flex:1;min-width:0;}
+  .top{position:sticky;top:0;z-index:20;background:hsl(var(--bg)/0.82);backdrop-filter:blur(14px);border-bottom:1px solid hsl(var(--border)/0.7);padding:15px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .top .ttl{font-size:13px;color:hsl(var(--mfg));}
+  .top .ttl b{color:hsl(var(--fg));font-size:15px;}
+  .p..{}
+  .av{width:34px;height:34px;border-radius:50%;background:hsl(var(--accent));border:1px solid hsl(var(--border));display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:hsl(var(--accent-fg));}
+  .content{padding:30px 32px 60px;max-width:1180px;}
+
+  .screen{display:none;animation:fade .35s ease;}
+  .screen.active{display:block;}
+  @keyframes fade{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+
+  .eyebrow{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:hsl(var(--primary));font-weight:700;}
+  h1{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:8px 0 8px;}
+  h1 .g{background:linear-gradient(135deg,hsl(271 82% 70%),hsl(271 82% 50%));-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .sub{font-size:15px;color:hsl(var(--mfg));max-width:780px;margin-bottom:24px;}
+  h2{font-size:19px;font-weight:700;margin:28px 0 14px;}
+  .crumb{font-size:13px;color:hsl(var(--mfg));margin-bottom:6px;} .crumb b{color:hsl(var(--primary));}
+
+  .grid{display:grid;gap:14px;}
+  .g4{grid-template-columns:repeat(4,1fr);}.g3{grid-template-columns:repeat(3,1fr);}.g2{grid-template-columns:repeat(2,1fr);}
+  @media(max-width:1000px){.g4{grid-template-columns:repeat(2,1fr);}.g3{grid-template-columns:repeat(2,1fr);}}
+
+  .kpi{background:hsl(var(--card));border:1px solid hsl(var(--border));border-radius:14px;padding:16px 18px;}
+  .kpi .v{font-size:30px;font-weight:800;color:#fff;} .kpi.p .v{color:hsl(var(--primary));}
+  .kpi .l{font-size:12.5px;color:hsl(var(--mfg));margin-top:2px;}
+
+  .face{position:relative;overflow:hidden;border-radius:18px;padding:24px;border:1px solid hsl(var(--border));cursor:pointer;transition:.15s;}
+  .face:hover{transform:translateY(-3px);border-color:hsl(var(--primary)/0.5);}
+  .face.dentro{background:linear-gradient(135deg,hsl(271 50% 20%),hsl(240 10% 9%));}
+  .face.fora{background:linear-gradient(135deg,hsl(240 10% 13%),hsl(240 10% 8%));}
+  .face .tg{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:hsl(var(--accent-fg));}
+  .face h3{font-size:22px;font-weight:800;margin:8px 0 6px;} .face p{font-size:13.5px;color:hsl(var(--mfg));} .face .arr{margin-top:16px;color:hsl(var(--primary));font-weight:700;font-size:14px;}
+
+  .area{background:hsl(var(--card));border:1px solid hsl(var(--border));border-radius:14px;padding:16px;border-top:3px solid hsl(var(--primary));cursor:pointer;transition:.15s;}
+  .area:hover{transform:translateY(-2px);border-color:hsl(var(--primary)/0.5);}
+  .area .ic{width:30px;height:30px;border-radius:8px;background:hsl(var(--accent)/0.7);display:inline-flex;align-items:center;justify-content:center;font-size:15px;}
+  .area h3{font-size:15.5px;font-weight:700;margin:10px 0 3px;} .area .m{font-size:12px;color:hsl(var(--mfg));}
+  .area .st{display:flex;gap:6px;margin-top:11px;font-size:11px;}
+  .dot{display:inline-flex;align-items:center;gap:4px;} .dot::before{content:'';width:7px;height:7px;border-radius:50%;}
+  .dot.ok::before{background:hsl(var(--ok));} .dot.draft::before{background:hsl(var(--warn));} .dot.idle::before{background:hsl(var(--mfg));}
+
+  .agent{background:hsl(var(--card));border:1px solid hsl(var(--border));border-radius:13px;padding:15px;border-left:3px solid hsl(var(--border));}
+  .agent.live{border-left-color:hsl(var(--ok));} .agent.draft{border-left-color:hsl(var(--warn));} .agent.idle{border-left-color:hsl(var(--mfg));}
+  .agent .h{display:flex;justify-content:space-between;align-items:center;gap:8px;}
+  .agent .an{font-weight:700;font-size:14.5px;} .agent .bg{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;}
+  .bg.live{background:hsl(var(--ok)/0.16);color:hsl(var(--ok));} .bg.draft{background:hsl(var(--warn)/0.16);color:hsl(var(--warn));} .bg.idle{background:hsl(var(--muted));color:hsl(var(--mfg));}
+  .agent .ad{font-size:12.5px;color:hsl(var(--mfg));margin:6px 0 9px;} .agent .meta{display:flex;gap:14px;font-size:11.5px;color:hsl(var(--mfg));flex-wrap:wrap;}
+  .agent .meta b{color:hsl(var(--fg));}
+
+  .plat{background:hsl(var(--card));border:1px solid hsl(var(--border));border-radius:12px;padding:13px 14px;transition:.15s;}
+  .plat:hover{border-color:hsl(var(--primary)/0.55);transform:translateY(-2px);}
+  .plat .pn{font-weight:700;font-size:14px;color:#fff;} .plat .pd{font-size:11.5px;color:hsl(var(--mfg));margin-top:2px;}
+  .plat .bd{display:inline-block;font-size:9.5px;font-weight:700;text-transform:uppercase;padding:2px 7px;border-radius:5px;margin-top:8px;letter-spacing:.04em;}
+  .bd.n{background:hsl(var(--primary)/0.2);color:hsl(var(--primary));}.bd.c{background:hsl(var(--ok)/0.15);color:hsl(var(--ok));}.bd.h{background:hsl(var(--accent)/0.7);color:hsl(var(--accent-fg));}.bd.s{background:hsl(var(--muted));color:hsl(var(--mfg));}
+
+  .etapa{background:hsl(var(--card));border:1px solid hsl(var(--border));border-radius:12px;padding:15px;}
+  .etapa .n{font-size:11px;color:hsl(var(--primary));font-weight:700;}.etapa .en{font-weight:700;font-size:15px;margin-top:2px;}.etapa .ed{font-size:12px;color:hsl(var(--mfg));margin-top:5px;}.etapa .cn{display:inline-block;margin-top:10px;font-size:11px;font-weight:700;background:hsl(var(--accent)/0.7);color:hsl(var(--accent-fg));border-radius:20px;padding:3px 11px;}
+
+  .builder{background:linear-gradient(135deg,hsl(271 40% 14%),hsl(240 10% 9%));border:1px solid hsl(var(--primary)/0.4);border-radius:18px;padding:26px;box-shadow:0 0 50px hsl(271 82% 58%/0.12);}
+  .prompt{background:hsl(var(--bg)/0.6);border:1px solid hsl(var(--border));border-radius:12px;padding:16px 18px;color:hsl(var(--mfg));font-size:15px;margin:14px 0 16px;display:flex;justify-content:space-between;align-items:center;}
+  .kbd{font-size:11px;border:1px solid hsl(var(--border));border-radius:5px;padding:2px 7px;}
+  .insp{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;}@media(max-width:760px){.insp{grid-template-columns:1fr;}}
+  .insp .i{background:hsl(var(--card));border:1px solid hsl(var(--border));border-radius:11px;padding:12px 14px;cursor:pointer;}.insp .i:hover{border-color:hsl(var(--primary)/0.5);}
+  .insp .it{font-weight:700;font-size:13.5px;}.insp .is{font-size:11.5px;color:hsl(var(--mfg));margin-top:3px;}
+  .flow{text-align:center;margin-top:16px;font-size:13px;color:hsl(var(--accent-fg));}
+
+  .btn{display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,hsl(271 82% 58%),hsl(271 82% 44%));color:#fff;border:none;border-radius:9px;padding:9px 16px;font-size:13.5px;font-weight:600;cursor:pointer;font-family:inherit;}
+  .btn.ghost{background:transparent;border:1px solid hsl(var(--border));color:hsl(var(--fg));}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px;}
+  .filter{font-size:13px;background:hsl(var(--muted));border:1px solid hsl(var(--border));border-radius:8px;padding:7px 13px;color:hsl(var(--fg));}
+  .panel{background:hsl(var(--card)/0.85);border:1px solid hsl(var(--border)/0.75);border-radius:16px;padding:18px 20px;}
+  .logrow{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px dashed hsl(var(--border));font-size:13px;}.logrow:last-child{border-bottom:none;}
+  .badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;margin-left:auto;}.b-ok{background:hsl(var(--ok)/0.16);color:hsl(var(--ok));}.b-w{background:hsl(var(--warn)/0.16);color:hsl(var(--warn));}.b-c{background:hsl(var(--crit)/0.16);color:hsl(var(--crit));}
+  .ladder{display:flex;flex-direction:column;gap:7px;}
+  .rung{display:flex;align-items:center;gap:12px;background:hsl(var(--muted)/0.5);border:1px solid hsl(var(--border));border-radius:10px;padding:10px 15px;}
+  .rung .lv{font-size:10.5px;color:hsl(var(--primary));font-weight:700;min-width:60px;}.rung .nm{font-weight:700;}.rung .cn{margin-left:auto;font-size:12px;font-weight:700;color:hsl(var(--accent-fg));background:hsl(var(--accent)/0.6);border-radius:20px;padding:2px 11px;}
+  .rung.top{background:linear-gradient(90deg,hsl(var(--primary)/0.25),hsl(var(--muted)/0.4));}
+
+  /* CONVERSA — console de agentes (estilo messaging) */
+  .seg{display:inline-flex;background:hsl(var(--muted));border:1px solid hsl(var(--border));border-radius:9px;padding:3px;gap:2px;}
+  .segbtn{font-size:12.5px;font-weight:600;color:hsl(var(--mfg));background:transparent;border:none;border-radius:7px;padding:6px 13px;cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:6px;}
+  .segbtn.on{background:hsl(var(--primary)/0.9);color:#fff;}
+  .tier{font-size:9px;font-weight:800;padding:2px 6px;border-radius:5px;letter-spacing:.04em;}
+  .tier.t2{background:hsl(var(--ok)/0.16);color:hsl(var(--ok));}
+  .tier.t1{background:hsl(var(--warn)/0.16);color:hsl(var(--warn));}
+  .tier.t0{background:hsl(var(--crit)/0.16);color:hsl(var(--crit));}
+
+  .msgapp{display:grid;grid-template-columns:272px 1fr;border:1px solid hsl(var(--border));border-radius:16px;overflow:hidden;background:hsl(var(--card));min-height:600px;}
+  @media(max-width:900px){.msgapp{grid-template-columns:1fr;}}
+
+  /* lista de conversas */
+  .convlist{border-right:1px solid hsl(var(--border));background:hsl(240 10% 7.5%);display:flex;flex-direction:column;}
+  .convsearch{padding:13px 14px;border-bottom:1px solid hsl(var(--border));}
+  .convsearch .s{background:hsl(var(--bg)/0.6);border:1px solid hsl(var(--border));border-radius:9px;padding:8px 12px;font-size:12.5px;color:hsl(var(--mfg));display:flex;align-items:center;gap:8px;}
+  .convscroll{overflow-y:auto;flex:1;padding:8px 8px 12px;}
+  .convgrp{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:hsl(var(--mfg)/0.7);font-weight:700;padding:12px 10px 6px;}
+  .convitem{display:flex;gap:10px;align-items:center;padding:9px 10px;border-radius:10px;cursor:pointer;transition:.12s;}
+  .convitem:hover{background:hsl(var(--muted)/0.55);}
+  .convitem.on{background:hsl(var(--accent)/0.5);box-shadow:inset 2px 0 0 hsl(var(--primary));}
+  .convitem .pic{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;background:hsl(var(--muted));border:1px solid hsl(var(--border));position:relative;}
+  .convitem .pic .sd{position:absolute;right:-1px;bottom:-1px;width:11px;height:11px;border-radius:50%;border:2px solid hsl(240 10% 7.5%);}
+  .sd.live{background:hsl(var(--ok));}.sd.draft{background:hsl(var(--warn));}.sd.idle{background:hsl(var(--mfg));}
+  .convitem .tx{min-width:0;flex:1;}
+  .convitem .nm{font-weight:700;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .convitem .pv{font-size:11.5px;color:hsl(var(--mfg));white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .convitem .un{font-size:9.5px;font-weight:800;background:hsl(var(--primary));color:#fff;border-radius:20px;padding:1px 7px;flex-shrink:0;}
+
+  /* área principal */
+  .convmain{display:flex;flex-direction:column;min-width:0;}
+  .convtop{display:flex;align-items:center;gap:12px;padding:13px 18px;border-bottom:1px solid hsl(var(--border));flex-wrap:wrap;}
+  .convtop .pic{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,hsl(271 82% 58%),hsl(271 82% 40%));display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0;}
+  .convtop .nm{font-weight:700;font-size:15px;} .convtop .rl{font-size:11.5px;color:hsl(var(--mfg));}
+  .convtop .right{margin-left:auto;display:flex;gap:10px;align-items:center;}
+  .scope{font-size:10px;font-weight:800;padding:3px 10px;border-radius:20px;letter-spacing:.05em;}
+  .scope.int{background:hsl(var(--ok)/0.16);color:hsl(var(--ok));} .scope.ext{background:hsl(var(--warn)/0.16);color:hsl(var(--warn));}
+
+  /* chat */
+  .msgs{flex:1;padding:20px;display:flex;flex-direction:column;gap:12px;overflow-y:auto;background:radial-gradient(circle at top right,hsl(var(--accent)/0.18),transparent 45%);}
+  .bubble{max-width:74%;padding:11px 14px;border-radius:14px;font-size:13.5px;line-height:1.55;}
+  .bubble.me{align-self:flex-end;background:hsl(var(--primary)/0.9);color:#fff;border-bottom-right-radius:4px;}
+  .bubble.ai{align-self:flex-start;background:hsl(var(--muted));border:1px solid hsl(var(--border));border-bottom-left-radius:4px;}
+  .bubble.block{align-self:flex-start;background:hsl(var(--crit)/0.1);border:1px solid hsl(var(--crit)/0.4);border-bottom-left-radius:4px;}
+  .bubble .src{display:block;margin-top:7px;font-size:10.5px;color:hsl(var(--accent-fg));opacity:.85;}
+  .chatbar{display:flex;gap:9px;padding:13px 16px;border-top:1px solid hsl(var(--border));align-items:center;}
+  .chatbar .inp{flex:1;background:hsl(var(--bg)/0.6);border:1px solid hsl(var(--border));border-radius:10px;padding:10px 14px;color:hsl(var(--mfg));font-size:13px;}
+  .emptyscope{margin:auto;text-align:center;color:hsl(var(--mfg));font-size:13px;max-width:300px;padding:30px;}
+
+  /* config (estilo GPT Maker "Dados do agente") */
+  .cfgwrap{display:grid;grid-template-columns:210px 1fr;flex:1;min-height:0;}
+  @media(max-width:760px){.cfgwrap{grid-template-columns:1fr;}}
+  .vtabs{border-right:1px solid hsl(var(--border));padding:12px 10px;display:flex;flex-direction:column;gap:3px;overflow-y:auto;}
+  .vtab{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:9px;font-size:13px;font-weight:500;color:hsl(var(--fg)/0.8);cursor:pointer;transition:.12s;}
+  .vtab:hover{background:hsl(var(--muted)/0.55);} .vtab.on{background:hsl(var(--accent)/0.55);color:#fff;}
+  .vtab .em{width:18px;text-align:center;}
+  .cfgpanel{padding:22px 24px;overflow-y:auto;}
+  .cfgpanel h3{font-size:16px;font-weight:700;margin-bottom:4px;} .cfgpanel .d{font-size:12.5px;color:hsl(var(--mfg));margin-bottom:18px;}
+  .field{margin-bottom:14px;} .field .fl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:hsl(var(--mfg));font-weight:700;margin-bottom:6px;}
+  .field .fv{background:hsl(var(--bg)/0.5);border:1px solid hsl(var(--border));border-radius:9px;padding:10px 13px;font-size:13px;color:hsl(var(--fg));}
+  .field .fv.area{color:hsl(var(--fg)/0.85);line-height:1.6;min-height:74px;}
+  .modelpick{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:hsl(var(--primary));background:hsl(var(--accent)/0.5);border:1px solid hsl(var(--primary)/0.35);border-radius:9px;padding:8px 13px;width:max-content;}
+  .mdchip{display:flex;align-items:center;gap:9px;padding:10px 12px;border-radius:10px;background:hsl(var(--muted)/0.5);border:1px solid hsl(var(--border));margin-bottom:8px;font-size:12.5px;}
+  .mdchip.off{opacity:.42;} .mdchip .nm{font-weight:600;flex:1;} .mdchip .mk{font-size:12px;}
+  .row2{display:flex;align-items:flex-start;gap:12px;padding:13px 0;border-bottom:1px dashed hsl(var(--border));}
+  .row2:last-child{border-bottom:none;} .row2 .ic2{font-size:17px;width:22px;flex-shrink:0;text-align:center;}
+  .row2 .t{font-weight:600;font-size:13.5px;} .row2 .s{font-size:12px;color:hsl(var(--mfg));margin-top:2px;line-height:1.5;}
+  .sw{margin-left:auto;width:38px;height:21px;border-radius:20px;background:hsl(var(--muted));border:1px solid hsl(var(--border));position:relative;flex-shrink:0;}
+  .sw::after{content:'';position:absolute;top:1px;left:1px;width:17px;height:17px;border-radius:50%;background:hsl(var(--mfg));transition:.15s;}
+  .sw.on{background:hsl(var(--primary)/0.9);border-color:hsl(var(--primary));} .sw.on::after{left:18px;background:#fff;}
+  .conn{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed hsl(var(--border));} .conn:last-child{border-bottom:none;}
+  .conn .lo{width:34px;height:34px;border-radius:9px;background:hsl(var(--muted));border:1px solid hsl(var(--border));display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+  .conn .t{font-weight:600;font-size:13.5px;} .conn .s{font-size:11.5px;color:hsl(var(--mfg));margin-top:1px;}
+  .conn .tag{margin-left:auto;font-size:9.5px;font-weight:700;padding:3px 9px;border-radius:20px;flex-shrink:0;}
+  .tag.on2{background:hsl(var(--ok)/0.16);color:hsl(var(--ok));} .tag.off2{background:hsl(var(--muted));color:hsl(var(--mfg));}
+  .guard{font-size:11.5px;color:hsl(var(--mfg));margin-top:10px;line-height:1.55;background:hsl(var(--warn)/0.08);border:1px solid hsl(var(--warn)/0.3);border-radius:9px;padding:10px 12px;}
+  .guard b{color:hsl(var(--warn));}
+</style>
+</head>
+<body>
+
+<aside class="side">
+  <div class="logo"><div class="mk"><img src="data:image/png;base64,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" alt="uMode" style="width:100%;height:100%;object-fit:contain;padding:5px;"></div><div><b>BrainHub</b><br><span>by uMode</span></div></div>
+  <div class="navgrp">Dentro · fábrica</div>
+  <a class="navi on" data-s="inicio"><span class="em">🏠</span>Início</a>
+  <a class="navi" data-s="ugentes"><span class="em">🤖</span>uGentes<span class="pill">8 áreas</span></a>
+  <a class="navi" data-s="builder"><span class="em">✨</span>Builder</a>
+  <a class="navi" data-s="cerebro"><span class="em">🧠</span>Cérebro</a>
+  <a class="navi" data-s="conversa"><span class="em">💬</span>Conversa<span class="pill">novo</span></a>
+  <a class="navi" data-s="aprovacoes"><span class="em">✓</span>Aprovações<span class="pill">3</span></a>
+  <a class="navi" data-s="afericao"><span class="em">🎖️</span>Aferição</a>
+  <div class="navgrp">Fora · prateleira</div>
+  <a class="navi" data-s="plataformas"><span class="em">📦</span>Plataformas</a>
+  <a class="navi" data-s="verticais"><span class="em">🧵</span>Verticais</a>
+  <div class="ver">BRAINHUB · PROTÓTIPO V1</div>
+</aside>
+
+<div class="main">
+  <div class="top">
+    <div class="ttl" id="topttl"><b>Início</b></div>
+    <div class="av">JP</div>
+  </div>
+  <div class="content">
+
+    <!-- INÍCIO -->
+    <div class="screen active" id="inicio">
+      <div class="eyebrow">Cérebro operacional</div>
+      <h1>Boa tarde, <span class="g">João</span> 👋</h1>
+      <p class="sub">O que a uMode roda em casa, e o que ela vende. Um motor só, dois lados do balcão.</p>
+      <div class="grid g4" style="margin-bottom:8px">
+        <div class="kpi p"><div class="v">2</div><div class="l">agentes vivos (Frota)</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">áreas · uGentes</div></div>
+        <div class="kpi"><div class="v">16</div><div class="l">plataformas no arsenal</div></div>
+        <div class="kpi"><div class="v">3</div><div class="l">propostas pra aprovar</div></div>
+      </div>
+      <h2>Por onde entrar</h2>
+      <div class="grid g2">
+        <div class="face dentro" onclick="go('ugentes')"><div class="tg">Dentro · a fábrica</div><h3>uGentes por área</h3><p>A força de trabalho de IA que opera a uMode — Financeiro, Tech, Comercial… cada cadeira com sua equipe de especialistas.</p><div class="arr">Abrir uGentes →</div></div>
+        <div class="face fora" onclick="go('plataformas')"><div class="tg">Fora · a prateleira</div><h3>Plataformas & Verticais</h3><p>O arsenal que a uMode vende (PlanejAI…GerenciAI, VendeAI, AlocAI) e os agentes por vertical de cliente.</p><div class="arr">Abrir Plataformas →</div></div>
+      </div>
+      <h2>Atalho: criar um agente</h2>
+      <div class="panel" style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+        <div><b style="font-size:15px">Tem uma dor repetitiva?</b><div style="font-size:13px;color:hsl(var(--mfg));margin-top:3px">Descreve no Builder — o BrainHub projeta o uGente e joga na Frota.</div></div>
+        <button class="btn" onclick="go('builder')">✨ Abrir Builder</button>
+      </div>
+    </div>
+
+    <!-- UGENTES -->
+    <div class="screen" id="ugentes">
+      <div class="eyebrow">① Dentro · força de trabalho por área</div>
+      <h1>uGentes</h1>
+      <p class="sub">Cada cadeira do organograma da uMode ganha uma equipe de IA, com especialistas por tema. Clique numa área pra ver os agentes.</p>
+      <div class="row"><span class="filter">Todas as áreas ▾</span><span class="filter">Status ▾</span><span style="margin-left:auto;font-size:13px;color:hsl(var(--mfg))">8 áreas · 47 especialistas mapeados</span></div>
+      <div class="grid g4">
+        <div class="area" onclick="openArea('fin')"><span class="ic">💰</span><h3>Financeiro / Controladoria</h3><div class="m">6 especialistas</div><div class="st"><span class="dot ok">1 vivo</span><span class="dot draft">2 rascunho</span><span class="dot idle">3 ideia</span></div></div>
+        <div class="area" onclick="openArea('com')"><span class="ic">💼</span><h3>Comercial / Vendas</h3><div class="m">6 especialistas</div><div class="st"><span class="dot ok">1 vivo</span><span class="dot idle">5 ideia</span></div></div>
+        <div class="area" onclick="openArea('mkt')"><span class="ic">📣</span><h3>Marketing / Growth</h3><div class="m">6 especialistas</div><div class="st"><span class="dot draft">1 rascunho</span><span class="dot idle">5 ideia</span></div></div>
+        <div class="area" onclick="openArea('prod')"><span class="ic">🧩</span><h3>Produto</h3><div class="m">6 especialistas</div><div class="st"><span class="dot idle">6 ideia</span></div></div>
+        <div class="area" onclick="openArea('tech')"><span class="ic">⚙️</span><h3>Tecnologia</h3><div class="m">7 especialistas</div><div class="st"><span class="dot draft">2 rascunho</span><span class="dot idle">5 ideia</span></div></div>
+        <div class="area" onclick="openArea('jur')"><span class="ic">⚖️</span><h3>Jurídico</h3><div class="m">5 especialistas</div><div class="st"><span class="dot idle">5 ideia</span></div></div>
+        <div class="area" onclick="openArea('cs')"><span class="ic">🎧</span><h3>CS / Atendimento</h3><div class="m">5 especialistas</div><div class="st"><span class="dot idle">5 ideia</span></div></div>
+        <div class="area" onclick="openArea('cult')"><span class="ic">🧭</span><h3>Cultura / Pessoas</h3><div class="m">5 especialistas</div><div class="st"><span class="dot idle">5 ideia</span></div></div>
+      </div>
+    </div>
+
+    <!-- ÁREA (data-driven) -->
+    <div class="screen" id="area"></div>
+
+    <!-- BUILDER -->
+    <div class="screen" id="builder">
+      <div class="eyebrow">⊕ Transversal · da dor ao agente</div>
+      <h1>Builder</h1>
+      <p class="sub">Descreve a dor ou o processo. O BrainHub projeta o uGente completo — agente + treinamento + crivos — e joga na Frota. É o Smart Code automatizado.</p>
+      <div class="builder">
+        <div class="eyebrow">Builder</div>
+        <div class="prompt"><span>O que vamos construir? Descreva a dor ou o processo…</span><span class="kbd">⌘ Enter</span></div>
+        <div style="font-size:12px;color:hsl(var(--mfg));margin-bottom:10px">Comece com uma inspiração:</div>
+        <div class="insp">
+          <div class="i"><div class="it">Agente de inadimplência</div><div class="is">monitora vencidos, prioriza cobrança, escala casos.</div></div>
+          <div class="i"><div class="it">Analista de fluxo de caixa</div><div class="is">consolida entradas/saídas, alerta ruptura.</div></div>
+          <div class="i"><div class="it">Especialista AWS</div><div class="is">revisa infra, custo e segurança da stack.</div></div>
+        </div>
+        <div class="flow">descreve a dor → projeta o uGente (agente + treinamento + crivos) → <b>entra na Frota</b> → governança valida</div>
+      </div>
+    </div>
+
+    <!-- CÉREBRO -->
+    <div class="screen" id="cerebro">
+      <div class="eyebrow">② Cérebro · contexto vivo por área</div>
+      <h1>Cérebro</h1>
+      <p class="sub">A fonte única — os treinamentos (MDs) que os agentes leem. Editáveis e versionados; nada muda sem rastro.</p>
+      <div class="grid g2">
+        <div class="agent"><div class="h"><span class="an">classificador-cunho.md</span><span class="bg live">v3</span></div><div class="ad">taxonomia fechada: assunto × tipo × dono/tier.</div><div class="meta"><span>editado <b>hoje</b></span><span>Governança</span></div></div>
+        <div class="agent"><div class="h"><span class="an">roteador-tier.md</span><span class="bg live">v2</span></div><div class="ad">empresa × João × pessoa + regra de privacidade.</div><div class="meta"><span>editado <b>ontem</b></span></div></div>
+        <div class="agent"><div class="h"><span class="an">contexto-financeiro.md</span><span class="bg draft">v1</span></div><div class="ad">regras da área: inadimplência, prazos, alçadas.</div><div class="meta"><span>em construção</span></div></div>
+        <div class="agent"><div class="h"><span class="an">juiz-contradicao.md</span><span class="bg live">v2</span></div><div class="ad">atualização × contradição × refino; nunca deleta.</div><div class="meta"><span>editado 08/06</span></div></div>
+      </div>
+    </div>
+
+    <!-- CONVERSA -->
+    <div class="screen" id="conversa">
+      <div class="eyebrow">③ Conversa · console de agentes</div>
+      <h1>Conversa</h1>
+      <p class="sub">Cada conversa é um agente — <b>uGente</b> (fábrica), <b>agente de produto</b> de moda ou <b>vertical de cliente</b>. A lista vem dos repos reais do GitHub (cada agente mostra seu repositório de origem). Conversa de um lado; do outro, configura tudo: persona, modelo, <b>contexto = MDs vivos</b>, intenções, integrações e <b>servidores MCP</b>. UX inspirada no GPT Maker, tokens do <code>designsystem.umode.tech</code> — o cérebro é nosso.</p>
+      <div class="msgapp">
+        <!-- LISTA -->
+        <aside class="convlist">
+          <div class="convsearch"><div class="s">🔍 Buscar agente…</div></div>
+          <div class="convscroll" id="convscroll"></div>
+        </aside>
+        <!-- PRINCIPAL -->
+        <section class="convmain">
+          <div class="convtop">
+            <div class="pic" id="ct-pic">🧵</div>
+            <div><div class="nm" id="ct-nm">—</div><div class="rl" id="ct-rl">—</div></div>
+            <div class="right">
+              <div class="seg" id="scopeseg">
+                <button class="segbtn on" id="sc-interno" onclick="renderChat('interno')">🏠 Interno</button>
+                <button class="segbtn" id="sc-externo" onclick="renderChat('externo')">🌐 Cliente</button>
+              </div>
+              <div class="seg">
+                <button class="segbtn on" id="md-chat" onclick="setMode('chat')">💬 Conversa</button>
+                <button class="segbtn" id="md-cfg" onclick="setMode('config')">⚙️ Configurar</button>
+              </div>
+            </div>
+          </div>
+          <!-- view: chat -->
+          <div id="chatview" style="display:flex;flex-direction:column;flex:1;min-height:0">
+            <div class="msgs" id="chatbody"></div>
+            <div class="chatbar"><div class="inp">Escreva uma pergunta ao agente…</div><button class="btn">Enviar</button></div>
+          </div>
+          <!-- view: config -->
+          <div id="cfgview" style="display:none;flex:1;min-height:0">
+            <div class="cfgwrap">
+              <nav class="vtabs" id="vtabs"></nav>
+              <div class="cfgpanel" id="cfgpanel"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- APROVAÇÕES -->
+    <div class="screen" id="aprovacoes">
+      <div class="eyebrow">④ Governança · fila de aprovação</div>
+      <h1>Aprovações</h1>
+      <p class="sub">O que os agentes propõem espera teu crivo. Aceita → vira contexto oficial e volta pro Cérebro.</p>
+      <div class="panel">
+        <div class="logrow"><span>📝 3 notas da call Cambos → contexto Cliente</span><span class="badge b-w">revisar</span></div>
+        <div class="logrow"><span>💰 Mudança de pricing enterprise → contexto Comercial</span><span class="badge b-c">escalar a João</span></div>
+        <div class="logrow"><span>🔒 Caso sensível de colaborador → tier restrito</span><span class="badge b-w">quarentena</span></div>
+        <div class="logrow"><span>✅ Glossário Risolês — 2 termos novos</span><span class="badge b-ok">auto-ok</span></div>
+      </div>
+    </div>
+
+    <!-- AFERIÇÃO -->
+    <div class="screen" id="afericao">
+      <div class="eyebrow">⑤ Aferição · AI-Ready People</div>
+      <h1>Aferição</h1>
+      <p class="sub">Credencia o uModer pela entrega real através dos seus agentes — não por conclusão de curso. Vira selo organizacional.</p>
+      <div class="ladder">
+        <div class="rung top"><span class="lv">Nível 7</span><span class="nm">Mestre · AI-native</span><span class="cn">1</span></div>
+        <div class="rung"><span class="lv">Nível 5</span><span class="nm">Instrutor · multiplier</span><span class="cn">4</span></div>
+        <div class="rung"><span class="lv">Nível 3</span><span class="nm">Piloto · practitioner</span><span class="cn">12</span></div>
+        <div class="rung"><span class="lv">Nível 1</span><span class="nm">Observador · aware</span><span class="cn">24</span></div>
+      </div>
+    </div>
+
+    <!-- PLATAFORMAS -->
+    <div class="screen" id="plataformas">
+      <div class="eyebrow">⑥ Fora · o arsenal uMode</div>
+      <h1>Plataformas</h1>
+      <p class="sub">Os produtos que a uMode vende. Cada um é um lar de uGentes verticalizados.</p>
+      <div class="grid g4">
+        <div class="plat"><div class="pn">CadastrAI</div><div class="pd">fonte única · governante</div><span class="bd n">Núcleo</span></div>
+        <div class="plat"><div class="pn">PlanejAI</div><div class="pd">do histórico ao mix</div><span class="bd c">Ciclo</span></div>
+        <div class="plat"><div class="pn">CriAI</div><div class="pd">briefing → criação</div><span class="bd c">Ciclo</span></div>
+        <div class="plat"><div class="pn">DesenvolvAI</div><div class="pd">croqui → lacre</div><span class="bd c">Ciclo</span></div>
+        <div class="plat"><div class="pn">FornecAI</div><div class="pd">ambiente fornecedor</div><span class="bd c">Ciclo</span></div>
+        <div class="plat"><div class="pn">EnriqueceAI</div><div class="pd">lacre → catálogo</div><span class="bd c">Ciclo</span></div>
+        <div class="plat"><div class="pn">GerenciAI</div><div class="pd">planejado × realizado</div><span class="bd c">Ciclo</span></div>
+        <div class="plat"><div class="pn">AlocAI</div><div class="pd">alocação & distribuição</div><span class="bd h">Produto</span></div>
+        <div class="plat"><div class="pn">VendeAI</div><div class="pd">motor de vendas</div><span class="bd h">Produto</span></div>
+        <div class="plat"><div class="pn">CliprocAI</div><div class="pd">decisão CLI×PRO×CA</div><span class="bd h">Produto</span></div>
+        <div class="plat"><div class="pn">CX Hub</div><div class="pd">experiência do cliente</div><span class="bd h">Interno</span></div>
+        <div class="plat"><div class="pn">ONB HUB</div><div class="pd">onboarding & operação</div><span class="bd h">Interno</span></div>
+        <div class="plat"><div class="pn">IntHub</div><div class="pd">integrações · gold</div><span class="bd h">Interno</span></div>
+        <div class="plat"><div class="pn">Gest Hub</div><div class="pd">gestão interna</div><span class="bd h">Interno</span></div>
+        <div class="plat"><div class="pn">Taxonomia</div><div class="pd">padrão de atributos</div><span class="bd n">Base</span></div>
+        <div class="plat"><div class="pn">Sales Hub</div><div class="pd">em construção</div><span class="bd s">Soon</span></div>
+      </div>
+    </div>
+
+    <!-- VERTICAIS -->
+    <div class="screen" id="verticais">
+      <div class="eyebrow">⑦ Fora · agentes por área do cliente</div>
+      <h1>Verticais de cliente</h1>
+      <p class="sub">O recheio dos produtos. Primeira vertical: <b>Moda</b> — 6 etapas do ciclo, ~40 agentes.</p>
+      <div class="grid g3">
+        <div class="etapa"><div class="n">01 · Planejamento</div><div class="en">Do histórico ao mix</div><div class="ed">curva de aprendizado · pirâmide de mix · cluster dinâmico · sinal fraco</div><span class="cn">7 agentes</span></div>
+        <div class="etapa"><div class="n">02 · Criação</div><div class="en">Do briefing ao desenho</div><div class="ed">geração por atributos · try-on virtual · DNA da marca · moodboard · plágio</div><span class="cn">8 agentes</span></div>
+        <div class="etapa"><div class="n">03 · Desenvolvimento</div><div class="en">Do croqui ao lacre</div><div class="ed">ficha auto-completável · predição V1 · sinal de morte · piloto × ficha</div><span class="cn">7 agentes</span></div>
+        <div class="etapa"><div class="n">04 · Suprimento</div><div class="en">Fornecedor → catálogo reativo</div><div class="ed">matching demanda × oferta · score de fornecedor · pedido reativo</div><span class="cn">6 agentes</span></div>
+        <div class="etapa"><div class="n">05 · Cadastro</div><div class="en">Lacre → catálogo</div><div class="ed">descrição tríplice · enriquecimento · auditoria de taxonomia</div><span class="cn">5 agentes</span></div>
+        <div class="etapa"><div class="n">06 · Gestão</div><div class="en">Planejado × realizado</div><div class="ed">desvio loja a loja · realocação · ruptura iminente</div><span class="cn">6 agentes</span></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const titles={inicio:"Início",ugentes:"uGentes · força de trabalho",builder:"Builder · da dor ao agente",cerebro:"Cérebro · contexto",conversa:"Conversa · console de agentes",aprovacoes:"Aprovações",afericao:"Aferição AI-Ready",plataformas:"Plataformas · arsenal",verticais:"Verticais de cliente",area:"Financeiro / Controladoria"};
+
+  /* ===== CONVERSA · console de agentes ===== */
+  const AGENTS={
+    cambos:{ic:'🧵',nome:'Especialista Cambos',papel:'Vertical de cliente · Moda',grupo:'Verticais',repo:'protótipo CliprocAI · piloto Cambos',status:'live',preview:'155 Campeões = 84,6% do lucro…',unread:0,exposto:true,
+      modelo:'Claude Sonnet 4.5',persona:'Consultor de moda que pensa como controlador. Direto, usa caso concreto, sem enrolação.',
+      trabalho:'Responde sobre a conta Cambos cruzando os MDs vivos. Internamente entrega custo/margem/ranking; pro cliente, só o que é liberado.',
+      mds:[['CONTEXTO_CAMBOS_FATOS.md','t1',1],['contexto-financeiro.md','t1',1],['cambos-publico.md','t2',1],['classificador-cunho.md','t2',1]],
+      intencoes:[['📊','Pedir números do ranking','dispara consulta ao MD de fatos e devolve Campeões/Abacaxis.'],['📅','Agendar reunião','cria evento no Google Calendar e manda convite.']],
+      integracoes:[['🔗','N8N (motor BrainHub)','recebe webhook e cruza call × MD.',1],['📅','Google Calendar','agenda imersão e calls.',1],['🔊','ElevenLabs','resposta em áudio (desligado).',0]],
+      mcp:[['🗄️','Supabase MCP','lê fatos atômicos e ranking ao vivo.',1],['📁','Drive MCP','acessa a pasta Clientes/Cambos.',1],['🧠','Cérebro MCP','resolve qual MD vale por tier.',1]],
+      canais:[['🖥️','Console interno','time uMode conversa aqui.',1],['💬','WhatsApp (cliente)','contato Cambos fala com escopo externo.',1],['🌐','Web chat','widget no portal do cliente.',0]],
+      cfg:{transferir:1,resumo:1,horario:'Seg–Sex · 8h–19h',tier:'T1 interno · T2 externo'},
+      chat:{interno:{msgs:[
+          {who:'me',t:'Qual a margem da confecção e onde está o lucro?'},
+          {who:'ai',t:'Confecção a <b>15,1% de margem ponderada</b> (jan–jun/26): R$ 27,1M fat., R$ 4,1M lucro. Concentrado: <b>155 Campeões = 84,6% do lucro</b>; 155 Abacaxis a −12,2%.',src:'CONTEXTO_CAMBOS_FATOS.md · T1 · versão atual'},
+          {who:'me',t:'Meta da confecção até fim de 2026?'},
+          {who:'ai',t:'200–250 mil peças (hoje ~150 mil/ano). Foco de crescimento — mais valor agregado que vender tecido.',src:'CONTEXTO_CAMBOS_FATOS.md · T1'}],
+        guard:'Escopo <b>interno</b>: enxerga MDs T1 (custo, margem, ranking). Nunca sai da uMode.'},
+        externo:{msgs:[
+          {who:'me',t:'Qual a margem de vocês e quanto cada produto lucra?'},
+          {who:'ai',t:'🔒 Esse dado é confidencial da operação e não fica disponível neste canal. Posso ajudar com status, prazos e próximos passos.',cls:'block'},
+          {who:'me',t:'Tranquilo. Quando é a imersão e o que entra no piloto?'},
+          {who:'ai',t:'Imersão uMode em <b>10/07/2026</b>. Piloto é o CliprocAI (cliente × produto × canal), protótipo de 21 telas sobre dados reais.',src:'cambos-publico.md · T2'}],
+        guard:'Escopo <b>externo</b>: a trava de tier <b>bloqueia T1/T0</b>. Cliente só fala com o subconjunto T2.'}}
+    },
+    gesthub:{ic:'💰',nome:'Gest Hub',papel:'uGente · Financeiro gerencial',grupo:'uGentes',repo:'umode-gesthub (remote gest-hub-elevate)',status:'live',preview:'3 casos de inadimplência escalados',unread:3,exposto:false,
+      modelo:'Claude Sonnet 4.5',persona:'Controlador implacável e justo. Substitui a planilha "Budget 2026". Prioriza por risco, não por barulho.',
+      trabalho:'Centraliza ingestão, classificação, rateio, MRR, DRE, fluxo de caixa, saldos e pipeline. Monitora vencidos e escala casos acima da alçada.',
+      mds:[['contexto-financeiro.md','t1',1],['roteador-tier.md','t2',1],['classificador-cunho.md','t2',1]],
+      intencoes:[['⚠️','Escalar caso','acima da alçada → joga pra fila de Aprovações.'],['📊','Fechar DRE','consolida plano × realizado do mês.']],
+      integracoes:[['🔗','N8N (motor)','roda a cada 6h e puxa vencidos.',1],['📧','E-mail','dispara régua de cobrança (rascunho).',0]],
+      mcp:[['🗄️','Supabase MCP','lê recebíveis, MRR e fluxo.',1],['🧠','Cérebro MCP','aplica alçada e tier.',1]],
+      canais:[['🖥️','Console interno','só time financeiro/diretoria.',1]],
+      cfg:{transferir:1,resumo:0,horario:'Diário · 7h',tier:'T1 · interno apenas'},
+      chat:{interno:{msgs:[
+          {who:'me',t:'Quais casos preciso decidir hoje?'},
+          {who:'ai',t:'3 acima da alçada: <b>Cliente A</b> (R$ 42k, 38 dias), <b>Cliente B</b> (R$ 28k, protesto sugerido), <b>Cliente C</b> (negociação pedida). Mandei os 3 pra Aprovações.',src:'contexto-financeiro.md · T1'}],
+        guard:'Escopo <b>interno</b>: dado financeiro T1 (custo, MRR, margem). Single-tenant, não exposto a cliente.'},
+        externo:null}
+    },
+    inthub:{ic:'🔌',nome:'IntHub',papel:'uGente · Saúde de integrações',grupo:'uGentes',repo:'integration-pulse-check (GOLD STANDARD)',status:'live',preview:'Farol: 2 clientes em Atenção',unread:0,exposto:false,
+      modelo:'Claude Sonnet 4.5',persona:'Engenheiro de confiabilidade. Vê o farol antes de o cliente reclamar. Acende a luz no quarto escuro.',
+      trabalho:'Acompanha a saúde das integrações PLM ↔ ERP por cliente, com farol (Ativa/Atenção/Erro/Inativa) por dimensão (Leitura · Escrita · Alertas · Auditoria) e runbook acionável.',
+      mds:[['runbook-integracoes.md','t2',1],['catalogo-clientes-int.md','t1',1]],
+      intencoes:[['🚨','Abrir incidente','farol vermelho → cria card e aciona runbook.']],
+      integracoes:[['🔗','N8N','health-check agendado por cliente.',1],['📡','Webhooks ERP','recebe pulso de leitura/escrita.',1]],
+      mcp:[['🗄️','Supabase MCP','lê histórico de sync por campo.',1],['🧠','Cérebro MCP','resolve owner e severidade.',1]],
+      canais:[['🖥️','Console interno','Squad Integração (João + Marina).',1]],
+      cfg:{transferir:1,resumo:1,horario:'24/7 · monitor',tier:'T1 · interno (co-titular Marina)'},
+      chat:{interno:{msgs:[
+          {who:'me',t:'Algum cliente em risco de integração agora?'},
+          {who:'ai',t:'Dois em <b>Atenção</b>: um com divergência de Escrita num campo de SKU, outro com Auditoria atrasada 6h. Runbook já anexado nos dois cards.',src:'runbook-integracoes.md · T2'}],
+        guard:'Escopo <b>interno</b>: gold standard de formato. Single-tenant, não exposto a cliente.'},
+        externo:null}
+    },
+    cxhub:{ic:'🎧',nome:'CX Hub',papel:'uGente · Customer Success',grupo:'uGentes',repo:'gist-sparkle (oficial)',status:'draft',preview:'Saúde da conta: 1 risco de churn',unread:1,exposto:false,
+      modelo:'GPT-5',persona:'CS que lê sinal de uso antes do barulho. Land and expand: abre upsell na hora certa.',
+      trabalho:'Lê saúde da conta, antecipa churn e organiza a relação com cada cliente da uMode.',
+      mds:[['playbook-cs.md','t2',1],['saude-contas.md','t1',1]],
+      intencoes:[['📉','Sinalizar churn','queda de uso → alerta o CSM responsável.']],
+      integracoes:[['🔗','N8N','puxa eventos de uso.',1],['📧','E-mail','dispara follow-up de relacionamento.',0]],
+      mcp:[['🗄️','Supabase MCP','lê uso e tickets.',1],['🧠','Cérebro MCP','tier por cliente.',1]],
+      canais:[['🖥️','Console interno','time de CS.',1]],
+      cfg:{transferir:1,resumo:1,horario:'Seg–Sex',tier:'T1 · interno (RLS por conta)'},
+      chat:{interno:{msgs:[
+          {who:'me',t:'Quem está em risco essa semana?'},
+          {who:'ai',t:'1 conta com uso caindo 40% em 3 semanas e ticket sem resposta há 5 dias. Sugiro contato proativo do CSM antes de virar churn.',src:'saude-contas.md · T1'}],
+        guard:'Escopo <b>interno</b>: dado de conta T1. Single-tenant.'},
+        externo:null}
+    },
+    onbhub:{ic:'🚀',nome:'ONB HUB',papel:'uGente · Onboarding / Implantação',grupo:'uGentes',repo:'umode-gest-o-de-opera-o',status:'draft',preview:'Implantação PLM · 2 em andamento',unread:0,exposto:false,
+      modelo:'GPT-5',persona:'Conduz o cliente ao primeiro valor rápido. Trocar o pneu com o carro andando.',
+      trabalho:'Gestão de implementações PLM para consultores e clientes: cronograma, marcos e primeiro acesso.',
+      mds:[['playbook-implantacao.md','t2',1],['cronograma-onb.md','t2',1]],
+      intencoes:[['✅','Avançar marco','fecha etapa e libera a próxima.']],
+      integracoes:[['🔗','N8N','sincroniza status de implantação.',1]],
+      mcp:[['🗄️','Supabase MCP','lê progresso por projeto.',1],['🧠','Cérebro MCP','contexto do cliente em onboarding.',1]],
+      canais:[['🖥️','Console interno','consultores de implantação.',1]],
+      cfg:{transferir:1,resumo:0,horario:'Seg–Sex',tier:'T2 · interno'},
+      chat:{interno:{msgs:[
+          {who:'me',t:'Como estão as implantações abertas?'},
+          {who:'ai',t:'2 em andamento: uma no marco de "primeiro acesso" (no prazo) e outra aguardando dado do ERP do cliente há 3 dias — sugiro cobrar.',src:'cronograma-onb.md · T2'}],
+        guard:'Escopo <b>interno</b>: ferramenta de consultoria/implantação.'},
+        externo:null}
+    },
+    saleshub:{ic:'📞',nome:'Sales Hub',papel:'uGente · Comercial',grupo:'uGentes',repo:'— (sem repo local · SOON)',status:'idle',preview:'não construído',unread:0,exposto:false,
+      modelo:'GPT-5',persona:'Vendedor consultivo. Faca na caveira, com forma. SPIN selling.',
+      trabalho:'Gestão do pipeline comercial da uMode: qualificação, proposta e fechamento. Ainda não construído.',
+      mds:[['playbook-comercial.md','t2',0]],
+      intencoes:[['📈','Ler pipeline','aponta gargalo e previsão de fechamento.']],
+      integracoes:[['🔗','N8N','sincroniza leads (planejado).',0]],
+      mcp:[['🗄️','Supabase MCP','lê funil (planejado).',0]],
+      canais:[['🖥️','Console interno','time comercial.',0]],
+      cfg:{transferir:0,resumo:0,horario:'—',tier:'T2 · interno'},
+      chat:{interno:{msgs:[{who:'me',t:'Em que pé está o Sales Hub?'},{who:'ai',t:'Ainda como ideia — sem repo local e sem treino. Continua SOON no inventário.',src:'MANIFEST.md'}],guard:'Escopo <b>interno</b>: agente ainda não construído.'},externo:null}
+    },
+    imersao:{ic:'🎟️',nome:'Imersão uMode',papel:'uGente · Plataforma de imersão',grupo:'uGentes',repo:'journey-insight-whisper',status:'draft',preview:'Jornada do participante · insights',unread:0,exposto:false,
+      modelo:'GPT-5',persona:'Anfitrião que transforma evento em insight. Organiza a jornada do participante.',
+      trabalho:'Suporta a Plataforma uMode Imersão: jornada do participante, captura de insights e follow-up do evento.',
+      mds:[['roteiro-imersao.md','t2',1]],
+      intencoes:[['📝','Capturar insight','registra aprendizado da sessão.']],
+      integracoes:[['🔗','N8N','consolida respostas da imersão.',1]],
+      mcp:[['🗄️','Supabase MCP','lê jornada do participante.',1]],
+      canais:[['🖥️','Console interno','time da imersão.',1],['🌐','App do evento','participante acessa.',0]],
+      cfg:{transferir:0,resumo:1,horario:'Durante eventos',tier:'T2'},
+      chat:{interno:{msgs:[{who:'me',t:'O que a plataforma de imersão faz?'},{who:'ai',t:'Acompanho a jornada de cada participante e capturo insights da sessão pra virar follow-up — o evento deixa rastro.',src:'roteiro-imersao.md · T2'}],guard:'Escopo <b>interno</b>: plataforma de evento/imersão.'},externo:null}
+    },
+    planejai:{ic:'📊',nome:'PlanejAI',papel:'Produto · do histórico ao mix',grupo:'Produtos',repo:'umode-planejai',status:'draft',preview:'Pirâmide de mix sugerida para SS26',unread:0,exposto:true,
+      modelo:'GPT-5',persona:'Planejador de coleção orientado a dado de venda. Empurrado vs. puxado.',
+      trabalho:'Lê histórico de vendas do cliente e propõe mix, curva e pirâmide. Conhecimento por vertical de moda.',
+      mds:[['vertical-moda-planejamento.md','t2',1],['cliente-config.md','t2',1],['CONTEXTO_CAMBOS_FATOS.md','t1',0]],
+      intencoes:[['📈','Gerar pirâmide de mix','calcula a partir do histórico carregado.']],
+      integracoes:[['🔗','N8N','ETL do histórico de vendas.',1],['🗂️','CadastrAI','puxa taxonomia de produto.',1]],
+      mcp:[['🗄️','Supabase MCP','lê base de vendas do cliente.',1],['🧠','Cérebro MCP','seleciona o contexto da vertical.',1]],
+      canais:[['🖥️','Console interno','time uMode opera.',1],['🌐','App do produto','cliente usa dentro do PlanejAI.',1]],
+      cfg:{transferir:0,resumo:1,horario:'Sob demanda',tier:'T2 · contexto por cliente'},
+      chat:{interno:{msgs:[
+          {who:'me',t:'Monta a pirâmide de mix pra próxima coleção da Cambos.'},
+          {who:'ai',t:'Com base no histórico: calça domina (~46%), feminino 81%, plus size 23%. Sugiro reforçar Campeões e cortar 7 itens de Promoção a −74%. Quer o detalhamento por linha?',src:'vertical-moda-planejamento.md · T2'}],
+        guard:'Escopo <b>interno</b>: vê o contexto operacional do cliente (T2).'},
+        externo:{msgs:[
+          {who:'me',t:'Como o PlanejAI me ajuda a montar a coleção?'},
+          {who:'ai',t:'Eu leio seu histórico de vendas e proponho mix, curva e pirâmide — o que produzir, quanto e em qual proporção, puxado pela demanda real. Quer começar subindo sua base?',src:'cliente-config.md · T2'}],
+        guard:'Escopo <b>externo</b>: cliente vê só o próprio contexto. Dados de custo/margem (T1) ficam fora.'}}
+    },
+    cliproc:{ic:'🎯',nome:'CliprocAI',papel:'Produto · decisão CLI×PRO×CA',grupo:'Produtos',repo:'protótipo (21 telas) · piloto Cambos',status:'draft',preview:'Piloto Cambos · meta ≥25% conversão',unread:0,exposto:true,
+      modelo:'Claude Sonnet 4.5',persona:'Camada de decisão: cliente × produto × canal. Mostra ação→pedido.',
+      trabalho:'Cruza cliente, produto e canal pra sugerir a ação certa. Piloto na Cambos.',
+      mds:[['prd-cliprocai.md','t2',1],['vertical-moda-planejamento.md','t2',1],['CONTEXTO_CAMBOS_FATOS.md','t1',0]],
+      intencoes:[['🎯','Sugerir ação','gera ação cliente×produto×canal com base no ranking.']],
+      integracoes:[['🔗','N8N','orquestra a recomendação.',1],['🛒','VendeAI','entrega a ação ao vendedor.',1]],
+      mcp:[['🗄️','Supabase MCP','lê 744 produtos / 1.668 clientes.',1]],
+      canais:[['🖥️','Console interno','time uMode + cliente piloto.',1]],
+      cfg:{transferir:0,resumo:1,horario:'Sob demanda',tier:'T2 · piloto'},
+      chat:{interno:{msgs:[
+          {who:'me',t:'Qual a métrica norte do piloto?'},
+          {who:'ai',t:'Taxa de Conversão Ação→Pedido (% de ações que viram pedido confirmado em 30d). Meta: <b>≥25% em 90 dias</b> pós-launch.',src:'prd-cliprocai.md · T2'}],
+        guard:'Escopo <b>interno</b>: contexto do produto e do piloto (T2).'},
+        externo:{msgs:[
+          {who:'me',t:'O que o CliprocAI sugere pra mim?'},
+          {who:'ai',t:'A ação certa pra cada cliente: qual produto oferecer, em qual canal, na hora certa — vender o produto certo, pro cliente certo, na hora certa.',src:'prd-cliprocai.md · T2'}],
+        guard:'Escopo <b>externo</b>: cliente vê recomendações; números confidenciais (T1) ficam fora.'}}
+    },
+    vendeai:{ic:'🛒',nome:'VendeAI',papel:'Produto · sell-out / curadoria',grupo:'Produtos',repo:'umode-vendeai · piloto NK',status:'draft',preview:'não construído',unread:0,exposto:true,
+      modelo:'GPT-5',persona:'Vendedor consultivo (Spin Selling). Faca na caveira, com forma.',
+      trabalho:'Apoia o time comercial do cliente: prioriza carteira, sugere abordagem e próxima ação.',
+      mds:[['vertical-moda-vendas.md','t2',1],['cliente-config.md','t2',1]],
+      intencoes:[['📞','Próxima melhor ação','prioriza quem chamar e com qual oferta.']],
+      integracoes:[['🔗','N8N','sincroniza pedidos.',1]],
+      mcp:[['🗄️','Supabase MCP','lê carteira do vendedor.',1]],
+      canais:[['🌐','App do produto','vendedor do cliente usa.',1]],
+      cfg:{transferir:0,resumo:0,horario:'Sob demanda',tier:'T2'},
+      chat:{interno:{msgs:[{who:'me',t:'Em que pé está o VendeAI?'},{who:'ai',t:'Ainda em ideia — sem treino e sem MD de contexto amarrado. Quando subir a base de vendas, eu priorizo a carteira.',src:'vertical-moda-vendas.md · T2'}],guard:'Escopo <b>interno</b>: agente em rascunho.'},
+        externo:{msgs:[{who:'me',t:'Pra que serve o VendeAI?'},{who:'ai',t:'Eu te digo quem chamar primeiro e com qual oferta — a próxima melhor ação de venda, baseada na sua carteira.',src:'cliente-config.md · T2'}],guard:'Escopo <b>externo</b>: visão de produto, sem dado sensível.'}}
+    },
+    enriquece:{ic:'🏷️',nome:'EnriqueceAI',papel:'Produto · lacre → catálogo',grupo:'Produtos',repo:'catalogcraft-ai (ex-CadastroAI)',status:'draft',preview:'301/744 fichas enriquecidas',unread:0,exposto:false,
+      modelo:'GPT-5 Mini',persona:'Catalogador meticuloso. Descrição tríplice, atributo correto.',
+      trabalho:'Enriquece o cadastro de produto: foto, atributos e descrição a partir do lacre.',
+      mds:[['vertical-moda-cadastro.md','t2',1],['taxonomia.md','t2',1]],
+      intencoes:[['🖼️','Enriquecer ficha','roda visão sobre a foto e completa atributos.']],
+      integracoes:[['🔗','N8N','pipeline de visão (Gemini/Vision).',0]],
+      mcp:[['🗄️','Supabase MCP','grava ai_attributes.',1]],
+      canais:[['🖥️','Console interno','time de cadastro.',1]],
+      cfg:{transferir:0,resumo:0,horario:'Em lote',tier:'T2 · interno'},
+      chat:{interno:{msgs:[{who:'me',t:'Quantas fotos faltam no catálogo Cambos?'},{who:'ai',t:'301 de 744 prontas. Falta completar via URLs cloudfront e rodar o pipeline de visão pra enriquecer atributos.',src:'vertical-moda-cadastro.md · T2'}],guard:'Escopo <b>interno</b>: ferramenta de catálogo.'},externo:null}
+    },
+    cadastrai:{ic:'🗂️',nome:'CadastrAI',papel:'Produto · núcleo governante',grupo:'Produtos',repo:'taxonomia_v1',status:'draft',preview:'Taxonomia sustenta todo o fluxo',unread:0,exposto:false,
+      modelo:'Claude Sonnet 4.5',persona:'Guardião da taxonomia. Não está no fluxo — sustenta o fluxo. Sem cadastro decente não se procura tendência.',
+      trabalho:'Núcleo de governança: define e mantém a taxonomia de produto que todos os outros módulos consomem. Linhas sólidas = governança.',
+      mds:[['taxonomia.md','t2',1],['governanca-cadastro.md','t2',1]],
+      intencoes:[['🧱','Validar atributo','garante que o cadastro segue a taxonomia.']],
+      integracoes:[['🔗','N8N','propaga taxonomia aos módulos.',1]],
+      mcp:[['🗄️','Supabase MCP','grava o dicionário de atributos.',1],['🧠','Cérebro MCP','versão atual da taxonomia.',1]],
+      canais:[['🖥️','Console interno','time de produto/dado.',1]],
+      cfg:{transferir:0,resumo:0,horario:'Sempre',tier:'T2 · base transversal'},
+      chat:{interno:{msgs:[{who:'me',t:'Por que o CadastrAI é o núcleo?'},{who:'ai',t:'Porque ele não está no fluxo — ele <b>sustenta</b> o fluxo. Toda criação, enriquecimento e venda lê a taxonomia que eu governo. Cadastro ruim quebra tudo lá na frente.',src:'governanca-cadastro.md · T2'}],guard:'Escopo <b>interno</b>: base estruturante consumida por todos os módulos.'},externo:null}
+    },
+    criai:{ic:'🎨',nome:'CriAI',papel:'Produto · atributos → criação',grupo:'Produtos',repo:'CriAI/ai-mood-creator',status:'draft',preview:'Mood e referências por tendência',unread:0,exposto:true,
+      modelo:'GPT-5',persona:'Criador de moda que parte do dado, não do achismo. Mood board com lastro de atributo.',
+      trabalho:'Gera mood, referências e direção de criação a partir dos atributos e do histórico — da intenção à peça.',
+      mds:[['vertical-moda-criacao.md','t2',1],['taxonomia.md','t2',1]],
+      intencoes:[['🖌️','Gerar mood','monta direção criativa a partir dos atributos.']],
+      integracoes:[['🔗','N8N','puxa atributos do CadastrAI.',1],['🗂️','CadastrAI','herda a taxonomia.',1]],
+      mcp:[['🗄️','Supabase MCP','lê histórico criativo.',1]],
+      canais:[['🖥️','Console interno','time uMode.',1],['🌐','App do produto','estilista do cliente usa.',1]],
+      cfg:{transferir:0,resumo:1,horario:'Sob demanda',tier:'T2 · contexto por cliente'},
+      chat:{interno:{msgs:[{who:'me',t:'Pra que serve o CriAI?'},{who:'ai',t:'Eu transformo atributo e tendência em direção de criação — mood, cartela e referências com lastro no que vende, não no achismo.',src:'vertical-moda-criacao.md · T2'}],guard:'Escopo <b>interno</b>: contexto criativo (T2).'},
+        externo:{msgs:[{who:'me',t:'Como o CriAI ajuda na coleção?'},{who:'ai',t:'Eu te dou a direção criativa puxada pelo dado: o que está performando, em qual atributo, e como traduzir isso em peça nova.',src:'vertical-moda-criacao.md · T2'}],guard:'Escopo <b>externo</b>: só o contexto criativo do próprio cliente (T2).'}}
+    },
+    desenvolvai:{ic:'🧪',nome:'DesenvolvAI',papel:'Produto · piloto → lacre',grupo:'Produtos',repo:'umode-desenvolvai (migra uFlow)',status:'draft',preview:'Gestão de desenvolvimento de produto',unread:0,exposto:true,
+      modelo:'GPT-5',persona:'Engenheiro de produto de moda. Do piloto ao lacre, sem perder o fio. Migra 6 anos de uFlow.',
+      trabalho:'Gerencia o desenvolvimento de produto: ficha técnica, piloto, aprovação e lacre. Substitui o legado uFlow.',
+      mds:[['vertical-moda-desenvolvimento.md','t2',1],['schema-uflow.md','t2',1]],
+      intencoes:[['🔬','Aprovar piloto','fecha a etapa e libera o lacre.']],
+      integracoes:[['🔗','N8N','sincroniza fichas técnicas.',1]],
+      mcp:[['🗄️','Supabase MCP','lê desenvolvimento por coleção.',1]],
+      canais:[['🖥️','Console interno','time uMode.',1],['🌐','App do produto','desenvolvimento do cliente.',1]],
+      cfg:{transferir:0,resumo:1,horario:'Sob demanda',tier:'T2 · contexto por cliente'},
+      chat:{interno:{msgs:[{who:'me',t:'O que o DesenvolvAI faz?'},{who:'ai',t:'Eu levo a peça do piloto ao lacre: ficha técnica, aprovação e versão. É a migração moderna dos 6 anos de uFlow.',src:'vertical-moda-desenvolvimento.md · T2'}],guard:'Escopo <b>interno</b>: contexto de desenvolvimento (T2). Repo defasado (Mar/24).'},
+        externo:{msgs:[{who:'me',t:'Como acompanho o desenvolvimento da minha coleção?'},{who:'ai',t:'Você vê cada peça do piloto ao lacre — ficha, status e aprovações num lugar só, sem planilha solta.',src:'vertical-moda-desenvolvimento.md · T2'}],guard:'Escopo <b>externo</b>: só o desenvolvimento do próprio cliente (T2).'}}
+    },
+    fornecai:{ic:'🏭',nome:'FornecAI',papel:'Produto · ambiente do fornecedor',grupo:'Produtos',repo:'— (só na arquitetura V1)',status:'idle',preview:'não construído',unread:0,exposto:true,
+      modelo:'GPT-5',persona:'Ponte com o fornecedor. Organiza o ambiente externo da cadeia (3 jornadas).',
+      trabalho:'Dá ao fornecedor um ambiente para receber ficha, confirmar e devolver status. Ainda não construído.',
+      mds:[['vertical-moda-fornecedor.md','t2',0]],
+      intencoes:[['📦','Confirmar produção','fornecedor aceita e devolve prazo.']],
+      integracoes:[['🔗','N8N','troca status com o fornecedor (planejado).',0]],
+      mcp:[['🗄️','Supabase MCP','lê pedidos ao fornecedor (planejado).',0]],
+      canais:[['🌐','App do fornecedor','fornecedor do cliente acessa.',0]],
+      cfg:{transferir:0,resumo:0,horario:'—',tier:'T2 · contexto por cliente'},
+      chat:{interno:{msgs:[{who:'me',t:'Em que pé está o FornecAI?'},{who:'ai',t:'Ainda como ideia — existe na arquitetura V1 (ambiente fornecedor, 3 jornadas) mas sem repo construído.',src:'arquitetura_umode_190626.html'}],guard:'Escopo <b>interno</b>: agente ainda não construído.'},
+        externo:{msgs:[{who:'me',t:'O que o FornecAI vai me dar?'},{who:'ai',t:'Um ambiente pro seu fornecedor receber a ficha, confirmar produção e devolver prazo — sem ida e volta de e-mail.',src:'vertical-moda-fornecedor.md · T2'}],guard:'Escopo <b>externo</b>: visão de produto, sem dado sensível.'}}
+    },
+    alocai:{ic:'🧮',nome:'AlocAI',papel:'Produto · mix → loja',grupo:'Produtos',repo:'umode-design-guardian',status:'draft',preview:'Distribui o mix por loja',unread:0,exposto:true,
+      modelo:'Claude Sonnet 4.5',persona:'Alocador que pensa por loja, não por média. Coloca a peça certa onde ela gira.',
+      trabalho:'Distribui o mix de coleção por loja/canal conforme perfil e histórico — do mix à prateleira.',
+      mds:[['vertical-moda-alocacao.md','t2',1],['perfil-lojas.md','t2',1]],
+      intencoes:[['🏬','Sugerir grade','calcula grade ideal por loja.']],
+      integracoes:[['🔗','N8N','puxa mix do PlanejAI.',1],['📊','PlanejAI','herda a pirâmide de mix.',1]],
+      mcp:[['🗄️','Supabase MCP','lê perfil e venda por loja.',1]],
+      canais:[['🖥️','Console interno','time uMode.',1],['🌐','App do produto','planejamento do cliente.',1]],
+      cfg:{transferir:0,resumo:1,horario:'Sob demanda',tier:'T2 · contexto por cliente'},
+      chat:{interno:{msgs:[{who:'me',t:'O que o AlocAI resolve?'},{who:'ai',t:'Eu pego o mix definido e distribuo por loja — grade, profundidade e curva por perfil de ponto, pra peça certa girar onde gira.',src:'vertical-moda-alocacao.md · T2'}],guard:'Escopo <b>interno</b>: contexto de alocação (T2).'},
+        externo:{msgs:[{who:'me',t:'Como o AlocAI me ajuda na distribuição?'},{who:'ai',t:'Eu sugiro quanto de cada peça mandar pra cada loja, com base no perfil e no histórico dela — menos ruptura, menos encalhe.',src:'vertical-moda-alocacao.md · T2'}],guard:'Escopo <b>externo</b>: só o contexto do próprio cliente (T2).'}}
+    },
+    gerenciai:{ic:'📈',nome:'GerenciAI',papel:'Produto · insights · governança',grupo:'Produtos',repo:'— (só na arquitetura V1)',status:'idle',preview:'não construído',unread:0,exposto:true,
+      modelo:'Claude Sonnet 4.5',persona:'Painel que vira dado em decisão. Refina o petróleo em gasolina.',
+      trabalho:'Camada de insights e governança sobre todo o fluxo — lê o resultado e aponta a próxima ação. Ainda não construído.',
+      mds:[['vertical-moda-insights.md','t2',0]],
+      intencoes:[['🔍','Gerar insight','cruza o fluxo e aponta gargalo/oportunidade.']],
+      integracoes:[['🔗','N8N','consolida dados dos módulos (planejado).',0]],
+      mcp:[['🗄️','Supabase MCP','lê o fluxo inteiro (planejado).',0]],
+      canais:[['🖥️','Console interno','gestor do cliente.',0]],
+      cfg:{transferir:0,resumo:0,horario:'—',tier:'T2 · contexto por cliente'},
+      chat:{interno:{msgs:[{who:'me',t:'O que o GerenciAI fará?'},{who:'ai',t:'Vou ler o fluxo inteiro (do mix ao sell-out) e devolver insight acionável — onde está o gargalo e a próxima decisão. Hoje só existe na arquitetura V1.',src:'arquitetura_umode_190626.html'}],guard:'Escopo <b>interno</b>: agente ainda não construído.'},
+        externo:{msgs:[{who:'me',t:'Que insight o GerenciAI me dá?'},{who:'ai',t:'Eu transformo seu dado de operação em decisão: o que está performando, o que travou e o que fazer a seguir.',src:'vertical-moda-insights.md · T2'}],guard:'Escopo <b>externo</b>: só insights do próprio cliente (T2).'}}
+    },
+    copai:{ic:'⚽',nome:'CopAI',papel:'Produto · rede social Copa 2026',grupo:'Produtos',repo:'CopAI/collect-connect-cheer',status:'draft',preview:'Troca de figurinhas com IA',unread:0,exposto:true,
+      modelo:'GPT-5 Mini',persona:'Curador de coleção divertido. Marcação e matching de trocas com IA. Produto lateral.',
+      trabalho:'Rede social de figurinhas da Copa do Mundo 2026 com IA para marcação e matching automático de trocas.',
+      mds:[['copai-produto.md','t2',1]],
+      intencoes:[['🔄','Sugerir troca','faz match entre repetidas e faltantes.']],
+      integracoes:[['🔗','N8N','sincroniza álbuns.',1]],
+      mcp:[['🗄️','Supabase MCP','lê coleção do usuário.',1]],
+      canais:[['🌐','App público','usuário final usa em copai.umode.tech.',1]],
+      cfg:{transferir:0,resumo:0,horario:'24/7',tier:'T2 · produto público'},
+      chat:{interno:{msgs:[{who:'me',t:'O que é o CopAI?'},{who:'ai',t:'Rede social de figurinhas da Copa 2026: a IA marca a figurinha pela foto e faz o match de trocas automaticamente. Domínio V0 copai.umode.tech.',src:'copai-produto.md · T2'}],guard:'Escopo <b>interno</b>: produto lateral, time uMode.'},
+        externo:{msgs:[{who:'me',t:'Como faço uma troca no CopAI?'},{who:'ai',t:'Tira foto da repetida que eu reconheço a figurinha e te mostro quem tem a que você precisa — match automático de troca.',src:'copai-produto.md · T2'}],guard:'Escopo <b>externo</b>: produto público, sem dado sensível.'}}
+    }
+  };
+
+  const CFGTABS=[['perfil','👤','Perfil'],['trabalho','🗂️','Trabalho'],['contexto','🧠','Contexto · MDs'],['intencoes','🎯','Intenções'],['integracoes','🔗','Integrações'],['mcp','🧩','Servidores MCP'],['canais','🌐','Canais'],['config','⚙️','Configurações']];
+  let CUR='cambos', SCOPE='interno', CFGTAB='perfil';
+  const sw=on=>'<span class="sw'+(on?' on':'')+'"></span>';
+
+  function renderConvList(){
+    const grupos=[['uGentes','uGentes · fábrica (rodam a uMode)'],['Produtos','Agentes de produto · moda (prateleira)'],['Verticais','Verticais de cliente']];
+    document.getElementById('convscroll').innerHTML=grupos.map(([g,label])=>{
+      const items=Object.entries(AGENTS).filter(([,a])=>a.grupo===g).map(([id,a])=>
+        '<div class="convitem'+(id===CUR?' on':'')+'" onclick="selectAgent(\''+id+'\')">'
+        +'<div class="pic">'+a.ic+'<span class="sd '+a.status+'"></span></div>'
+        +'<div class="tx"><div class="nm">'+a.nome+'</div><div class="pv">'+a.preview+'</div></div>'
+        +(a.unread?'<span class="un">'+a.unread+'</span>':'')+'</div>').join('');
+      return '<div class="convgrp">'+label+'</div>'+items;
+    }).join('');
+  }
+  function selectAgent(id){
+    CUR=id; SCOPE='interno'; CFGTAB='perfil';
+    const a=AGENTS[id];
+    document.getElementById('ct-pic').textContent=a.ic;
+    document.getElementById('ct-nm').textContent=a.nome;
+    document.getElementById('ct-rl').textContent=a.papel+' · modelo '+a.modelo;
+    renderConvList(); setMode('chat'); renderChat('interno'); buildVtabs(); showCfg('perfil');
+  }
+  function renderChat(scope){
+    SCOPE=scope; const a=AGENTS[CUR]; const c=a.chat[scope];
+    document.getElementById('sc-interno').classList.toggle('on',scope==='interno');
+    document.getElementById('sc-externo').classList.toggle('on',scope==='externo');
+    const body=document.getElementById('chatbody');
+    if(!c){ body.innerHTML='<div class="emptyscope">🔒 <b>'+a.nome+'</b> é um agente interno — não exposto a cliente. A trava de tier mantém esse contexto dentro da uMode.'; return; }
+    body.innerHTML=c.msgs.map(m=>{const cls=m.cls?('bubble '+m.cls):('bubble '+m.who);
+      return '<div class="'+cls+'">'+m.t+(m.src?'<span class="src">📄 '+m.src+'</span>':'')+'</div>';}).join('');
+  }
+  function setMode(m){
+    document.getElementById('chatview').style.display=(m==='chat')?'flex':'none';
+    document.getElementById('cfgview').style.display=(m==='config')?'flex':'none';
+    document.getElementById('md-chat').classList.toggle('on',m==='chat');
+    document.getElementById('md-cfg').classList.toggle('on',m==='config');
+    document.getElementById('scopeseg').style.display=(m==='chat')?'inline-flex':'none';
+  }
+  function buildVtabs(){
+    document.getElementById('vtabs').innerHTML=CFGTABS.map(([k,e,n])=>
+      '<div class="vtab'+(k===CFGTAB?' on':'')+'" onclick="showCfg(\''+k+'\')"><span class="em">'+e+'</span>'+n+'</div>').join('');
+  }
+  function showCfg(tab){
+    CFGTAB=tab; buildVtabs(); const a=AGENTS[CUR]; let h='';
+    if(tab==='perfil'){h='<h3>Perfil</h3><div class="d">Identidade e cérebro de raciocínio do agente.</div>'
+      +'<div class="field"><div class="fl">Nome</div><div class="fv">'+a.nome+'</div></div>'
+      +'<div class="field"><div class="fl">Papel</div><div class="fv">'+a.papel+'</div></div>'
+      +(a.repo?'<div class="field"><div class="fl">Repositório (origem)</div><div class="fv"><code>'+a.repo+'</code></div></div>':'')
+      +'<div class="field"><div class="fl">Modelo de IA</div><div class="modelpick">✨ '+a.modelo+' ▾</div></div>'
+      +'<div class="field"><div class="fl">Persona</div><div class="fv area">'+a.persona+'</div></div>';}
+    else if(tab==='trabalho'){h='<h3>Trabalho</h3><div class="d">O que o agente faz e seu escopo.</div>'
+      +'<div class="field"><div class="fl">Instrução de trabalho</div><div class="fv area">'+a.trabalho+'</div></div>';}
+    else if(tab==='contexto'){
+      const chips=a.mds.map(([nm,tier,on])=>{const ext=(tier==='t2'&&on);
+        return '<div class="mdchip'+(on?'':' off')+'"><span class="nm">'+nm+'</span><span class="tier '+tier+'">'+tier.toUpperCase()+'</span><span class="mk">int '+(on?'✅':'🚫')+' · ext '+(ext?'✅':'🚫')+'</span></div>';}).join('');
+      h='<h3>Contexto · MDs vivos</h3><div class="d">Em vez de subir arquivo, você <b>seleciona MDs do Cérebro</b>. O agente lê a versão atual a cada pergunta — sem snapshot, sem drift.</div>'+chips
+      +'<div class="guard">Trava de tier: MDs <b>T1/T0</b> só valem no escopo interno. No externo (cliente) só passam MDs <b>T2</b> ligados. Por isso "ext 🚫" nos confidenciais.</div>';}
+    else if(tab==='intencoes'){h='<h3>Intenções</h3><div class="d">Gatilhos que o agente reconhece e a ação que dispara (via instrução ou webhook).</div>'
+      +a.intencoes.map(([ic,t,s])=>'<div class="row2"><span class="ic2">'+ic+'</span><div><div class="t">'+t+'</div><div class="s">'+s+'</div></div></div>').join('');}
+    else if(tab==='integracoes'){h='<h3>Integrações</h3><div class="d">Conectores do agente a outros apps e ao motor.</div>'
+      +a.integracoes.map(([lo,t,s,on])=>'<div class="conn"><span class="lo">'+lo+'</span><div><div class="t">'+t+'</div><div class="s">'+s+'</div></div><span class="tag '+(on?'on2':'off2')+'">'+(on?'ATIVA':'off')+'</span></div>').join('');}
+    else if(tab==='mcp'){h='<h3>Servidores MCP</h3><div class="d">Ferramentas plugadas via MCP — é como o agente alcança o Cérebro, o Supabase e o Drive.</div>'
+      +a.mcp.map(([lo,t,s,on])=>'<div class="conn"><span class="lo">'+lo+'</span><div><div class="t">'+t+'</div><div class="s">'+s+'</div></div><span class="tag '+(on?'on2':'off2')+'">'+(on?'CONECTADO':'off')+'</span></div>').join('');}
+    else if(tab==='canais'){h='<h3>Canais</h3><div class="d">Onde o agente atende. O canal define o escopo (interno vs. cliente).</div>'
+      +a.canais.map(([lo,t,s,on])=>'<div class="conn"><span class="lo">'+lo+'</span><div><div class="t">'+t+'</div><div class="s">'+s+'</div></div><span class="tag '+(on?'on2':'off2')+'">'+(on?'LIGADO':'off')+'</span></div>').join('');}
+    else if(tab==='config'){const c=a.cfg;h='<h3>Configurações</h3><div class="d">Comportamento operacional e trava de tier.</div>'
+      +'<div class="row2"><span class="ic2">🔄</span><div><div class="t">Transferir para humano</div><div class="s">manda pra fila do operador responsável.</div></div>'+sw(c.transferir)+'</div>'
+      +'<div class="row2"><span class="ic2">📝</span><div><div class="t">Resumo ao transferir</div><div class="s">gera resumo da conversa no handoff.</div></div>'+sw(c.resumo)+'</div>'
+      +'<div class="row2"><span class="ic2">🕒</span><div><div class="t">Horário de atendimento</div><div class="s">'+c.horario+'</div></div></div>'
+      +'<div class="row2"><span class="ic2">🛡️</span><div><div class="t">Trava de tier</div><div class="s">'+c.tier+'</div></div></div>';}
+    document.getElementById('cfgpanel').innerHTML=h;
+  }
+  selectAgent('cambos');
+  const AREAS = {"fin": {"ic": "💰", "nome": "Financeiro / Controladoria", "agents": [["Inadimplência", "live", "monitora vencidos, prioriza cobrança e escala casos críticos.", "⏱ a cada 6h · $0.12/run · 14 runs"], ["Fluxo de caixa", "draft", "consolida entradas/saídas, projeta caixa e alerta ruptura.", "⏱ diário 7h · treino em edição"], ["Contas a receber", "draft", "acompanha recebíveis, concilia e sinaliza atrasos.", "⏱ diário · aguarda aprovação"], ["Contas a pagar", "idle", "organiza vencimentos, evita multa e otimiza prazo.", "não construído"], ["DRE", "idle", "monta o resultado, compara plano × realizado.", "não construído"], ["Margem × giro", "idle", "cruza margem e giro por produto/cliente (Campeões × Abacaxis).", "não construído"]]}, "com": {"ic": "💼", "nome": "Comercial / Vendas", "agents": [["Prospecção", "live", "garimpa e enriquece leads no perfil ICP; abre cadência.", "⏱ diário · $0.09/run · 22 runs"], ["Qualificação de leads", "idle", "aplica SPIN/BANT, pontua e prioriza o pipeline.", "não construído"], ["Follow-up", "idle", "retoma conversas paradas no timing certo.", "não construído"], ["Propostas", "idle", "monta proposta a partir da dor e do caso concreto.", "não construído"], ["Pipeline", "idle", "lê o funil, aponta gargalo e previsão de fechamento.", "não construído"], ["Objeções", "idle", "trata objeção com argumento e caso, não elogio.", "não construído"]]}, "mkt": {"ic": "📣", "nome": "Marketing / Growth", "agents": [["Conteúdo", "draft", "gera pauta e copy no tom Risolês; vende a dor.", "treino em edição"], ["Social selling", "idle", "transforma autoridade em pipeline no LinkedIn.", "não construído"], ["SEO", "idle", "cobre intenção de busca e oportunidades de ranqueamento.", "não construído"], ["Campanhas", "idle", "planeja, dispara e lê resultado de campanha.", "não construído"], ["Posicionamento", "idle", "afia a mensagem 'a uMode pensa moda por dentro'.", "não construído"], ["Branding", "idle", "guarda a identidade e a consistência da marca.", "não construído"]]}, "prod": {"ic": "🧩", "nome": "Produto", "agents": [["Discovery", "idle", "investiga a dor antes de construir a solução.", "não construído"], ["PRD", "idle", "escreve o requisito com ADRs e crivos.", "não construído"], ["Roadmap", "idle", "sequencia 'um andar de cada vez'.", "não construído"], ["Especificação", "idle", "detalha telas, fluxos e regras.", "não construído"], ["Priorização", "idle", "corta o que não é arroz com feijão.", "não construído"], ["Métricas", "idle", "liga feature a número de negócio.", "não construído"]]}, "tech": {"ic": "⚙️", "nome": "Tecnologia", "agents": [["Backend", "draft", "APIs, contratos e regras de negócio estáveis.", "treino em edição"], ["Frontend", "draft", "telas no design system uMode (shadcn/React).", "treino em edição"], ["AWS", "idle", "revisa infra, custo e segurança da stack.", "não construído"], ["Mongo / DB", "idle", "modela dado, índice e performance.", "não construído"], ["DevOps", "idle", "CI/CD, observabilidade e deploy.", "não construído"], ["QA", "idle", "testa antes de blindar; quebra pra não quebrar em produção.", "não construído"], ["Segurança", "idle", "LGPD-safe, segredo e superfície de ataque.", "não construído"]]}, "jur": {"ic": "⚖️", "nome": "Jurídico", "agents": [["Contratos", "idle", "redige e revisa cláusula (lição CrossX: desempate).", "não construído"], ["LGPD", "idle", "mapeia dado pessoal e base legal.", "não construído"], ["Societário", "idle", "cap table, acordo de sócios e governança.", "não construído"], ["Compliance", "idle", "políticas e conformidade.", "não construído"], ["Trabalhista", "idle", "vínculo, risco e rotina trabalhista.", "não construído"]]}, "cs": {"ic": "🎧", "nome": "CS / Atendimento", "agents": [["Onboarding", "idle", "leva o cliente ao primeiro valor rápido.", "não construído"], ["Suporte", "idle", "resolve e documenta a dúvida recorrente.", "não construído"], ["Saúde da conta", "idle", "lê sinais de uso e risco.", "não construído"], ["Churn", "idle", "antecipa o cliente em risco antes de perder.", "não construído"], ["Expansão", "idle", "land and expand: abre upsell no momento certo.", "não construído"]]}, "cult": {"ic": "🧭", "nome": "Cultura / Pessoas", "agents": [["Recrutamento", "idle", "encontra o perfil que recolhe os corpos.", "não construído"], ["JDs", "idle", "descreve a cadeira por entrega, não cargo.", "não construído"], ["Glossário Risolês", "idle", "guarda e ensina a língua da casa.", "não construído"], ["Aferição AI-Ready", "idle", "credencia pela entrega real via agentes.", "não construído"], ["Treinamento", "idle", "forma o uModer no método uMode.", "não construído"]]}};
+
+  const BADGE={live:'VIVO',draft:'RASCUNHO',idle:'IDEIA'};
+  function openArea(key){
+    const a=AREAS[key]; if(!a) return;
+    const cards=a.agents.map(([nome,st,desc,meta])=>{
+      const metaHtml=meta.split(' · ').map(p=>'<span>'+p+'</span>').join('');
+      return '<div class="agent '+st+'"><div class="h"><span class="an">'+nome+'</span>'
+        +'<span class="bg '+st+'">'+BADGE[st]+'</span></div>'
+        +'<div class="ad">'+desc+'</div><div class="meta">'+metaHtml+'</div></div>';
+    }).join('');
+    document.getElementById('area').innerHTML =
+      '<div class="crumb"><b onclick="go(\'ugentes\')">uGentes</b> / '+a.nome+'</div>'
+      +'<h1>'+a.ic+' '+a.nome+'</h1>'
+      +'<p class="sub">Os agentes especialistas desta cadeira. Cada um lê o contexto da área no Cérebro, age e devolve — sob os crivos do operador responsável.</p>'
+      +'<div class="row"><button class="btn" onclick="go(\'builder\')">+ Novo agente da dor</button>'
+      +'<button class="btn ghost" onclick="go(\'cerebro\')">🧠 Contexto da área</button></div>'
+      +'<div class="grid g3">'+cards+'</div>';
+    titles.area=a.nome;
+    go('area');
+  }
+
+  function go(id){
+    document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    document.querySelectorAll('.navi').forEach(n=>n.classList.toggle('on', n.dataset.s===id));
+    document.getElementById('topttl').innerHTML='<b>'+(titles[id]||id)+'</b>';
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+  document.querySelectorAll('.navi').forEach(n=>n.addEventListener('click',()=>go(n.dataset.s)));
+</script>
+</body>
+</html>

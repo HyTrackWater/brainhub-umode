@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volumetria &amp; hierarquia — registro de arquitetura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1c1c1a; --muted:#5f5e5a; --faint:#8a897f;
+    --paper:#ffffff; --panel:#f7f6f2; --line:#e6e3d9;
+    --casa:#0f6e56; --casa-bg:#e7f4ee; --casa-line:#bfe3d3;
+    --cli:#4f47ac; --cli-bg:#edecfb; --cli-line:#cdc9f1;
+    --plat:#5f5e5a; --plat-bg:#f1efe8;
+    --disp:"Space Grotesk",sans-serif; --body:"Inter",sans-serif; --mono:"Space Mono",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:var(--body);color:var(--ink);background:#eceae3;line-height:1.6;
+    -webkit-font-smoothing:antialiased;padding:40px 20px}
+  .sheet{max-width:960px;margin:0 auto;background:var(--paper);
+    border:1px solid var(--line);border-radius:4px;overflow:hidden}
+
+  header{padding:48px 56px 40px;border-bottom:1px solid var(--line)}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--faint);display:flex;gap:14px;align-items:center}
+  .eyebrow::before{content:"";width:28px;height:1px;background:var(--faint)}
+  h1{font-family:var(--disp);font-weight:600;font-size:42px;line-height:1.05;
+    letter-spacing:-.02em;margin:18px 0 10px}
+  .lede{font-size:16px;color:var(--muted);max-width:62ch}
+  .meta{margin-top:22px;font-family:var(--mono);font-size:12px;color:var(--faint);
+    display:flex;gap:18px;flex-wrap:wrap}
+  .meta b{color:var(--ink);font-weight:700}
+
+  section{padding:40px 56px;border-bottom:1px solid var(--line)}
+  .sec-label{font-family:var(--mono);font-size:12px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--faint);margin-bottom:22px;
+    display:flex;justify-content:space-between;align-items:baseline}
+  .sec-label .n{color:var(--cli)}
+
+  .platform{background:var(--plat-bg);border:1px dashed #c9c7bb;border-radius:6px;
+    padding:16px 22px;margin-bottom:26px;display:flex;align-items:baseline;
+    justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .platform .t{font-family:var(--disp);font-weight:500;font-size:15px;color:var(--plat)}
+  .platform .s{font-size:13px;color:var(--muted)}
+
+  .houses{display:grid;grid-template-columns:1fr 84px 1fr;gap:0;align-items:stretch}
+  .house{border:1px solid;border-radius:8px;overflow:hidden}
+  .house.casa{border-color:var(--casa-line)}
+  .house.cli{border-color:var(--cli-line)}
+  .h-head{padding:16px 18px 14px}
+  .casa .h-head{background:var(--casa-bg)}
+  .cli  .h-head{background:var(--cli-bg)}
+  .h-head .name{font-family:var(--disp);font-weight:600;font-size:17px}
+  .casa .h-head .name{color:var(--casa)}
+  .cli  .h-head .name{color:var(--cli)}
+  .h-head .role{font-size:12.5px;color:var(--muted);margin-top:2px}
+
+  .level{display:flex;align-items:center;gap:12px;padding:13px 18px;
+    border-top:1px solid var(--line);background:var(--paper)}
+  .level .tag{font-family:var(--mono);font-size:11px;color:var(--faint);
+    width:18px;text-align:center;flex:none}
+  .level .nm{font-family:var(--disp);font-weight:500;font-size:15px}
+  .level .note{font-size:12px;color:var(--faint);margin-left:auto;font-style:italic}
+  .level.flex{background:repeating-linear-gradient(135deg,#fff,#fff 7px,#fbfaf6 7px,#fbfaf6 14px)}
+
+  .channel{display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:18px;padding:8px 4px}
+  .flow{text-align:center}
+  .flow .arr{font-family:var(--mono);font-size:18px;line-height:1}
+  .flow .lab{font-family:var(--mono);font-size:11px;letter-spacing:.04em;margin-top:4px}
+  .flow.out .arr,.flow.out .lab{color:var(--casa)}
+  .flow.in  .arr,.flow.in  .lab{color:var(--cli)}
+
+  .rules{list-style:none;display:grid;gap:2px}
+  .rule{display:grid;grid-template-columns:200px 1fr;gap:22px;padding:16px 0;
+    border-top:1px solid var(--line);align-items:start}
+  .rule:first-child{border-top:none}
+  .rule .k{font-family:var(--disp);font-weight:500;font-size:14.5px;color:var(--ink)}
+  .rule .v{font-size:14.5px;color:var(--muted)}
+  .rule .v code{font-family:var(--mono);font-size:13px;color:var(--ink);
+    background:var(--panel);padding:1px 6px;border-radius:4px}
+  .same{color:var(--casa);font-weight:500}
+  .diff{color:var(--cli);font-weight:500}
+
+  .addr{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:18px 22px;margin-top:8px;font-family:var(--mono);font-size:13.5px;
+    color:var(--ink);overflow-x:auto}
+  .addr .sep{color:var(--faint);padding:0 6px}
+  .addr .c-casa{color:var(--casa)}
+  .addr .c-cli{color:var(--cli)}
+
+  footer{padding:26px 56px;font-family:var(--mono);font-size:11.5px;
+    color:var(--faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+  @media (max-width:680px){
+    body{padding:16px 0}
+    .sheet{border-radius:0;border-left:none;border-right:none}
+    header,section,footer{padding-left:24px;padding-right:24px}
+    h1{font-size:32px}
+    .houses{grid-template-columns:1fr;gap:14px}
+    .channel{flex-direction:row;justify-content:center;gap:30px;padding:6px 0}
+    .rule{grid-template-columns:1fr;gap:4px}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .sheet{animation:rise .5s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  }
+  @media print{
+    body{background:#fff;padding:0}
+    .sheet{border:none}
+    .sheet{animation:none}
+  }
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <header>
+    <div class="eyebrow">Registro de arquitetura · v0.2</div>
+    <h1>Volumetria &amp; hierarquia</h1>
+    <p class="lede">Como o contexto se organiza para institucionalizar o uso de IA. Cada instituição é uma casa com a mesma hierarquia; a Casa interna é o foco, e os clientes são casas iguais e isoladas que se comunicam com ela. Demandas são o nível mais granular — onde pessoas, áreas e casas efetivamente se conectam.</p>
+    <div class="meta">
+      <span><b>Status</b> estável</span>
+      <span><b>Criado</b> 30 jun 2026</span>
+      <span><b>Atualizado</b> 06 jul 2026</span>
+      <span><b>Base</b> Google Drive</span>
+      <span><b>Próximo</b> pilotar demandas e RFIs com 1 cliente real</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-label"><span>Estrutura</span><span class="n">01</span></div>
+
+    <div class="platform">
+      <span class="t">Plataforma · schema e método comum</span>
+      <span class="s">a mesma hierarquia vale para todas as casas</span>
+    </div>
+
+    <div class="houses">
+      <div class="house casa">
+        <div class="h-head">
+          <div class="name">Casa (interno)</div>
+          <div class="role">foco da institucionalização</div>
+        </div>
+        <div class="level"><span class="tag">1</span><span class="nm">Institucional</span></div>
+        <div class="level"><span class="tag">2</span><span class="nm">Áreas</span></div>
+        <div class="level flex"><span class="tag">3</span><span class="nm">Subáreas</span><span class="note">nomes livres</span></div>
+        <div class="level"><span class="tag">4</span><span class="nm">Pessoas</span><span class="note">o time</span></div>
+      </div>
+
+      <div class="channel" aria-label="comunicação entre Casa e cliente">
+        <div class="flow out"><div class="arr">&rarr;</div><div class="lab">demanda</div></div>
+        <div class="flow in"><div class="arr">&larr;</div><div class="lab">contexto</div></div>
+      </div>
+
+      <div class="house cli">
+        <div class="h-head">
+          <div class="name">Cliente</div>
+          <div class="role">uma casa cada · isolado</div>
+        </div>
+        <div class="level"><span class="tag">1</span><span class="nm">Institucional</span></div>
+        <div class="level"><span class="tag">2</span><span class="nm">Áreas</span></div>
+        <div class="level flex"><span class="tag">3</span><span class="nm">Subáreas</span><span class="note">nomes livres</span></div>
+        <div class="level"><span class="tag">4</span><span class="nm">Pessoas</span><span class="note">do cliente</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-label"><span>Regras &amp; convenções</span><span class="n">02</span></div>
+    <div class="rules">
+      <div class="rule">
+        <div class="k">Áreas e Pessoas</div>
+        <div class="v"><span class="same">iguais</span> entre a Casa e os clientes — mesma definição, mesma forma.</div>
+      </div>
+      <div class="rule">
+        <div class="k">Subáreas</div>
+        <div class="v"><span class="diff">nomes livres</span> — podem diferir entre a Casa e cada cliente, conforme a realidade de cada organização.</div>
+      </div>
+      <div class="rule">
+        <div class="k">Pessoas do cliente</div>
+        <div class="v">são as pessoas <b>do próprio cliente</b> (stakeholders, aprovadores, contatos). Nunca um colaborador interno copiado para dentro do cliente.</div>
+      </div>
+      <div class="rule">
+        <div class="k">Pessoa interna no cliente</div>
+        <div class="v">vive só em <code>Casa › Pessoas</code>. Alcança o cliente por <b>vínculo de atendimento</b> (pessoa da Casa + escopo do cliente), sem duplicar identidade.</div>
+      </div>
+      <div class="rule">
+        <div class="k">Comunicação</div>
+        <div class="v"><b>demanda</b> é a unidade de trabalho que move o ecossistema — pode ser 100% interna, entre áreas, dentro de uma área, ou ligar a Casa a um cliente. Quando cruza Casa↔cliente, <b>contexto</b> retorna do cliente para a Casa.</div>
+      </div>
+      <div class="rule">
+        <div class="k">Isolamento</div>
+        <div class="v">cada cliente é uma casa fechada. Contexto de um cliente não vaza para outro.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-label"><span>Endereçamento de volume</span><span class="n">03</span></div>
+    <p class="lede" style="margin-bottom:14px">Todo volume de controle tem um endereço previsível — é o que permite, mais adiante, que pessoas e agentes encontrem o contexto certo de forma automática.</p>
+    <div class="addr">
+      <span class="c-casa">Casa</span><span class="sep">›</span>Comercial<span class="sep">›</span>Pré-vendas<span class="sep">›</span>Pessoas<span class="sep">›</span>fulano
+    </div>
+    <div class="addr" style="margin-top:10px">
+      <span class="c-cli">Cliente:Acme</span><span class="sep">›</span>Compras<span class="sep">›</span>Pessoas<span class="sep">›</span>aprovador
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-label"><span>Demandas &amp; RFI</span><span class="n">04</span></div>
+
+    <div class="platform">
+      <span class="t">Duas taxonomias · organizacional (BrainHub) + operacional (CX Hub)</span>
+      <span class="s">nunca se fundem — todo campo que colide de nome carrega a etiqueta de origem</span>
+    </div>
+
+    <div class="rules">
+      <div class="rule">
+        <div class="k">Onde vivem</div>
+        <div class="v">Demanda: <code>_demandas/</code>, subpasta fixa só no Institucional de cada casa — nunca duplicada por área. RFI: <code>_rfis/</code>, só do lado de cliente (sempre tem um cliente associado).</div>
+      </div>
+      <div class="rule">
+        <div class="k">Natureza (demanda)</div>
+        <div class="v">interna · inter-área · intra-área · casa-cliente — não é limitada por área, complexidade, ou por envolver um cliente.</div>
+      </div>
+      <div class="rule">
+        <div class="k">Marcos</div>
+        <div class="v">log append-only de decisões dentro de uma demanda — distinto dos "Marcos da jornada" (fases macro da relação uMode↔cliente).</div>
+      </div>
+      <div class="rule">
+        <div class="k">Pai/filha</div>
+        <div class="v">uma demanda mãe pode gerar N demandas filhas em áreas ou casas diferentes; cada filha marca se bloqueia ou não a conclusão da mãe.</div>
+      </div>
+      <div class="rule">
+        <div class="k">RFI</div>
+        <div class="v">nem toda demanda vira RFI; toda RFI nasce de uma demanda, criada de dentro do próprio card — nunca como registro independente.</div>
+      </div>
+      <div class="rule">
+        <div class="k">Retroalimentação</div>
+        <div class="v">mudança de contexto institucional só é aplicada após aprovação da pessoa registrada no campo "Governança" do MD-alvo — registrada como marco, rastreabilidade ponta a ponta.</div>
+      </div>
+    </div>
+
+    <div class="addr" style="margin-top:18px">
+      <span class="c-casa">Casa</span><span class="sep">›</span>Demandas<span class="sep">›</span>D-2026-014
+    </div>
+    <div class="addr" style="margin-top:10px">
+      <span class="c-cli">Cliente:Acme</span><span class="sep">›</span>RFIs<span class="sep">›</span>RFI-2026-005
+    </div>
+  </section>
+
+  <footer>
+    <span>Volumetria &amp; hierarquia · registro v0.2</span>
+    <span>institucionalização de IA · uso interno</span>
+  </footer>
+
+</main>
+</body>
+</html>

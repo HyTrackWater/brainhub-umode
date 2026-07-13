@@ -1,0 +1,9 @@
+﻿Nome do Bloco,Anexos,Criado em,Criado por,Dataset da seção,Filtro aplicado no bloco,Granularidade,ID,Status,Tipo de visualização,Índice,Última edição,Última edição por
+Tipo de Tarefa | Quantidade,,15 de janeiro de 2026 09:37,Vinícius Risoléo,Tarefas 'finalizadas' e tarefas 'backlog',Yes,Tarefa,1,Aprovado,Gráfico de barras,1,26 de janeiro de 2026 11:50,Vinícius Risoléo
+Responsável | Quantidade,,21 de janeiro de 2026 18:34,Vinícius Risoléo,Tarefas 'finalizadas' e tarefas 'backlog',Yes,Tarefa,3,Aprovado,Gráfico de barras,2,26 de janeiro de 2026 11:51,Vinícius Risoléo
+Responsável | Tempo para Conclusão,,21 de janeiro de 2026 18:35,Vinícius Risoléo,Tarefas 'finalizadas',Yes,Tarefa,5,Aprovado,Gráfico de barras,4,26 de janeiro de 2026 11:51,Vinícius Risoléo
+Tipo de Tarefa | Tempo para Conclusão,,21 de janeiro de 2026 18:35,Vinícius Risoléo,Tarefas 'finalizadas',Yes,Tarefa,4,Aprovado,Gráfico de barras,3,26 de janeiro de 2026 11:51,Vinícius Risoléo
+Tipo de Tarefa | Conclusão No prazo x Atrasada,,21 de janeiro de 2026 18:35,Vinícius Risoléo,"Tarefas abertas e fora do prazo, Tarefas abertas no prazo, Tarefas finalizadas dentro do prazo, Tarefas finalizadas depois do prazo",Yes,Tarefa,6,Aprovado,Gráfico de barras,5,26 de janeiro de 2026 11:52,Vinícius Risoléo
+Top 10 Tarefas mais atrasadas,,21 de janeiro de 2026 18:35,Vinícius Risoléo,Tarefas 'backlog' e atrasadas,Yes,Tarefa,8,Aprovado,Tabela simples,7,26 de janeiro de 2026 11:53,Vinícius Risoléo
+Responsável | Conclusão No prazo x Atrasada,,21 de janeiro de 2026 18:35,Vinícius Risoléo,"Tarefas abertas e fora do prazo, Tarefas abertas no prazo, Tarefas finalizadas dentro do prazo, Tarefas finalizadas depois do prazo",Yes,Tarefa,7,Aprovado,Gráfico de barras,6,26 de janeiro de 2026 11:52,Vinícius Risoléo
+Top 10 Tarefas mais atrasadas por usuário,,21 de janeiro de 2026 18:35,Vinícius Risoléo,Tarefas 'backlog' e atrasadas,Yes,Tarefa,9,Aprovado,Tabela aninhada,8,26 de janeiro de 2026 11:53,Vinícius Risoléo

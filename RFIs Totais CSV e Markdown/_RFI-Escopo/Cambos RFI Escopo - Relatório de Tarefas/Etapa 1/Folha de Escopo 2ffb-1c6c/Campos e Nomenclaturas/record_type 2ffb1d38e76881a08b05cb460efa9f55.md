@@ -1,0 +1,11 @@
+# record_type
+
+Aparece no relatório?: Não
+Banco: umode_production
+Estrutura na Plataforma: -
+Hierarquia uMode: task relationship
+ID: 2
+Nome na Plataforma: Relacionamento da Tarefa
+Nome no Front: -
+Tabela do Banco: jumper_task_relationships (jtr)
+Tipo de campo: Nativo

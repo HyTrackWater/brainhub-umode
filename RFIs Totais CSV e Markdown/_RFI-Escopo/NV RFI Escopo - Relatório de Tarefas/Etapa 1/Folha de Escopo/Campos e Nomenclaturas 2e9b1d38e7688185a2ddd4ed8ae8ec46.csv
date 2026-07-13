@@ -1,0 +1,38 @@
+﻿ID,Campo do banco,Banco,Tabela do Banco,Nome na Plataforma,Hierarquia uMode,Exemplo (value),Nome no Front,Aparece no relatório?,Tipo de campo,Estrutura na Plataforma
+21,entity_id,umode_production,jumper_tasks (jt),-,customer,3357,-,Não,Nativo,-
+22,id,umode_production,jumper_tasks (jt),-,task,94601,-,Não,Nativo,URL da Tarefa
+23,title,umode_production,jumper_tasks (jt),Título,task,ALTERAÇÃO DE MATERIAIS,Título,Sim,Nativo,Aba “Tarefa”
+24,description,umode_production,jumper_tasks (jt),Descrição,task,"<div>&nbsp;Preciso de
+  algumas[...] </div>",Descrição,Sim,Nativo,Aba “Tarefa”
+25,status,umode_production,jumper_tasks (jt),Status da Tarefa,task,done,Status da Tarefa,Sim,Nativo,-
+26,deadline,umode_production,jumper_tasks (jt),Prazo,task,10/10/24 3:00,Prazo,Sim,Nativo,"Aba “Tarefa”, “Nova Tarefa”"
+27,created_at,umode_production,jumper_tasks (jt),Criado em,task,9/10/24 13:17,Data da criação,Sim,Nativo,Aba “Tarefa”
+28,updated_at,umode_production,jumper_tasks (jt),-,task,11/10/24 18:15,-,Não,Nativo,-
+29,completed_at,umode_production,jumper_tasks (jt),Finalizado em,task,11/10/24 18:15,-,Não,Nativo,"Aba “Tarefa”, “Tarefa Concluída”"
+30,time,umode_production,jumper_tasks (jt),Horário,task,20:00:00,-,Não,Nativo,"Aba “Tarefa”, “Nova Tarefa”"
+31,created_by_id,umode_production,jumper_tasks (jt),-,task,4861,-,Não,Nativo,Aba “Tarefa”
+32,completed_by_id,umode_production,jumper_tasks (jt),-,task,4262,-,Não,Nativo,Aba “Tarefa”
+33,name,umode_production,jumper_task_types (jtt),Tipo de Tarefa,task,,Tipo de Tarefa,Sim,Nativo,-
+34,name,umode_production,jumper_users (ju),-,user,,Usuário ou Perfil,Sim,Nativo,-
+35,email,umode_production,jumper_users (ju),-,user,,E-mail,Sim,Nativo,-
+36,name,umode_production,jumper_users (ju2),-,user,,-,Sim,Nativo,-
+37,email,umode_production,jumper_users (ju2),-,user,,-,Sim,Nativo,-
+38,id,umode_production,jumper_user_or_policy_accesses (juopa),-,task,,-,Não,Nativo,-
+39,target_id,umode_production,jumper_user_or_policy_accesses (juopa),-,task,,-,Não,Nativo,-
+40,target_type,umode_production,jumper_user_or_policy_accesses (juopa),-,task,J3::Task,-,Não,Nativo,-
+41,record_id,umode_production,jumper_user_or_policy_accesses (juopa),-,Não se aplica,,-,Não,Nativo,-
+42,record_type,umode_production,jumper_user_or_policy_accesses (juopa),-,Não se aplica,,-,Não,Nativo,-
+43,name,umode_production,jumper_users (ju_assigned),Usuários e/ou Perfis de Usuário,user,,Usuário ou Perfil,Sim,Nativo,-
+44,email,umode_production,jumper_users (ju_assigned),-,user,,E-mail,Sim,Nativo,-
+45,status,umode_production,jumper_users (ju_assigned),-,user,,-,Não,Nativo,-
+46,policy_id,umode_production,"subquery
+  valid roles (rv ← user_roles ur)",-,user,,-,Não,Nativo,-
+47,name,umode_production,policies (pol_user),-,user,,Usuário ou Perfil,Sim,Nativo,-
+48,name,umode_production,policies (pol),-,user,,Perfil,Sim,Nativo,-
+49,id,umode_production,jumper_task_relationships (jtr),-,task relationship,,-,Não,Nativo,-
+50,record_type,umode_production,jumper_task_relationships (jtr),Relacionamento da Tarefa,task relationship,,-,Não,Nativo,-
+51,record_id,umode_production,jumper_task_relationships (jtr),-,product,,-,Não,Nativo,-
+52,collection_id,umode_production,umode_products (p),-,collection,,-,Não,Nativo,-
+53,name,umode_production,umode_collections (c),Coleção,collection,,Coleção,Sim,Nativo,-
+54,brand_id,umode_production,umode_collections (c),-,brand,,-,Não,Nativo,-
+55,name,umode_production,umode_brands (b),Marca,brand,,-,Não,Nativo,-

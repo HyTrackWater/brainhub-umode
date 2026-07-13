@@ -1,0 +1,26 @@
+﻿Campo do banco,Aparece no relatório?,Banco,Estrutura na Plataforma,Exemplo (value),Hierarquia uMode,ID,Nome na Plataforma,Nome no Front,Tabela do Banco,Tipo de campo
+name,Não,umode_production,,,Não se aplica,1,,,jumper_entities,Nativo
+id,Não,umode_production,,,product,4,,,umode_products,Nativo
+id,Não,umode_production,,,fabrics,11,,,umode_fabrics,Nativo
+name,Não,umode_production,,,product,6,,,umode_products,Nativo
+reference,Sim,umode_production,,,fabrics,13,,Ref. Material,umode_fabrics,Nativo
+id,Não,umode_production,,,fabric variants,14,,,umode_fabric_variant_suppliers,Nativo
+name,Não,umode_production,,,fabric variants,15,,,umode_fabric_variants,Nativo
+name,Sim,umode_production,,,collection,3,,Coleção,umode_collections,Nativo
+name,Sim,umode_production,,,brand,2,,Marca,umode_brands,Nativo
+id,Não,umode_production,,,product variants,8,,,umode_product_variants,Nativo
+name,Não,umode_production,,,theme,7,,,umode_themes,Nativo
+sku,Não,umode_production,,,product variants,9,,,umode_product_variants,Nativo
+name,Não,umode_production,,,product variants,10,,,umode_product_variants,Nativo
+reference,Não,umode_production,,,product,5,,,umode_products,Nativo
+name,Sim,umode_production,,,fabrics,12,,Nome,umode_fabrics,Nativo
+price_unit,Sim,umode_production,,,fabric variants,20,,Unidade cadastro,umode_fabric_variant_suppliers,Nativo
+name,Sim,umode_production,,,supplier,17,,Fornecedor,umode_suppliers,Nativo
+consumption_unit,Não,umode_production,,,fabric variants,18,,,umode_product_fabric_variants,Nativo
+conversion_factor (JSON_EXTRACT from this field),Sim,umode_production,,,fabric variants,21,,Fator Conversão,umode_fabric_variant_suppliers,Nativo
+price (cast/replace formatting in SELECT),Sim,umode_production,,,fabric variants,19,,Custo de Material,umode_fabric_variant_suppliers,Nativo
+conversion_factor (JSON_EXTRACT from this field),Não,umode_production,,,fabric variants,22,,,umode_fabric_variant_suppliers,Nativo
+reference,Sim,umode_production,,,fabric variants,16,,Ref. Variante do Material,umode_fabric_variants,Nativo
+updated_at (DATE_FORMAT in SELECT),Não,umode_production,,,fabric variants,23,,,umode_product_fabric_variants,Nativo
+consumption_values,Não,umode_production,,,fabric variants,24,,,umode_product_fabric_variants,Nativo
+id (used to build the URL),Não,umode_production,,,product,25,,,umode_products,Nativo

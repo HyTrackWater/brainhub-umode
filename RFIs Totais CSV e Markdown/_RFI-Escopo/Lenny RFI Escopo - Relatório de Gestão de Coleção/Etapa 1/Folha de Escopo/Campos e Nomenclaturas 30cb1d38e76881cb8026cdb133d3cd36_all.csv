@@ -1,0 +1,28 @@
+﻿Campo do banco,Aparece no relatório?,Banco,Estrutura na Plataforma,Exemplo (value),Hierarquia uMode,ID,Nome na Plataforma,Nome no Front,Tabela do Banco,Tipo de campo
+consumption_values,Não,umode_production,,,accessory variant,2,,,umode_product_accessory_variants,Nativo
+id (used to build the URL),Não,umode_production,,,product,1,,,umode_products,Nativo
+updated_at (DATE_FORMAT in SELECT),Não,umode_production,,,accessory variant,3,,,umode_product_accessory_variants,Nativo
+reference,Não,umode_production,,,product,10,,,umode_products,Nativo
+id,Não,umode_production,,,product variants,5,,,umode_product_variants,Nativo
+id,Não,umode_production,,,accessory variant,8,,,umode_accessory_variant_suppliers,Nativo
+sku,Não,umode_production,,,product variants,4,,,umode_product_variants,Nativo
+"price (cast/replace
+  formatting in SELECT)",Sim,umode_production,,,accessory variant,9,,Custo de Material,umode_accessory_variant_suppliers,Nativo
+name,Não,umode_production,,,theme,6,,,umode_themes,Nativo
+name,Não,umode_production,,,product variants,7,,,umode_product_variants,Nativo
+price_unit,Sim,umode_production,,,accessory variant,13,,Unidade cadastro,umode_accessory_variant_suppliers,Nativo
+conversion_factor (JSON_UNQUOTE/JSON_EXTRACT from this field),Não,umode_production,,,accessory variant,17,,,umode_accessory_variant_suppliers,Nativo
+name,Sim,umode_production,,,brand,14,,Marca,umode_brands,Nativo
+id,Não,umode_production,,,product,12,,,umode_products,Nativo
+name,Sim,umode_production,,,collection,18,,Coleção,umode_collections,Nativo
+reference,Não,umode_production,,,accessories,16,,,umode_accessories,Nativo
+id,Sim,umode_production,,,accessories,11,,Nome,umode_accessories,Nativo
+conversion_factor (JSON_UNQUOTE/JSON_EXTRACT from this field),Sim,umode_production,,,accessory variant,15,,Fator Conversão,umode_accessory_variant_suppliers,Nativo
+name,Sim,umode_production,,,accessory variant,22,,Ref. Variante do Material,umode_accessory_variants,Nativo
+"name (join alias s, via
+umode_accessory_variant_suppliers.supplier_id)",Não,umode_production,,,supplier,21,,,umode_suppliers,Nativo
+reference,Sim,umode_production,,,accessory variant,23,,Fornecedor,umode_accessory_variants,Nativo
+name,Sim,umode_production,,,accessories,19,,Ref. Material,umode_accessories,Nativo
+name,Não,umode_production,,,product,20,,,umode_products,Nativo
+name,Não,umode_production,,,Não se aplica,25,,,jumper_entities,Nativo
+consumption_unit,Não,umode_production,,,accessory variant,24,,,umode_product_accessory_variants,Nativo

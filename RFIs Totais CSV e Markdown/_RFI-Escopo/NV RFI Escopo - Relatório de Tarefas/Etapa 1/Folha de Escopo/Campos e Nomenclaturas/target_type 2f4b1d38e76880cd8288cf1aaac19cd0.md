@@ -1,0 +1,12 @@
+# target_type
+
+Aparece no relatório?: Não
+Banco: umode_production
+Estrutura na Plataforma: -
+Exemplo (value): J3::Task
+Hierarquia uMode: task
+ID: 40
+Nome na Plataforma: -
+Nome no Front: -
+Tabela do Banco: jumper_user_or_policy_accesses (juopa)
+Tipo de campo: Nativo

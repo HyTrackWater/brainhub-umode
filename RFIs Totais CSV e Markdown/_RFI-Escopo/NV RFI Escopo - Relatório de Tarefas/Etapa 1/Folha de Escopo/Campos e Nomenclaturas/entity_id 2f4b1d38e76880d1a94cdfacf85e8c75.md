@@ -1,0 +1,12 @@
+# entity_id
+
+Aparece no relatório?: Não
+Banco: umode_production
+Estrutura na Plataforma: -
+Exemplo (value): 3357
+Hierarquia uMode: customer
+ID: 21
+Nome na Plataforma: -
+Nome no Front: -
+Tabela do Banco: jumper_tasks (jt)
+Tipo de campo: Nativo

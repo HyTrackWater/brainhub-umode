@@ -1,0 +1,9 @@
+﻿Nome do Bloco,Anexos,Criado em,Criado por,Dataset da seção,Filtro aplicado no bloco,Granularidade,ID,Status,Tipo de visualização,Índice,Última edição,Última edição por
+Tipo de Tarefa | Quantidade,,6 de fevereiro de 2026 09:23,Marina Santoro,Tarefas 'finalizadas' e tarefas 'backlog',Yes,Tarefa,1,Aprovado,Gráfico de barras,1,6 de fevereiro de 2026 09:23,Marina Santoro
+Responsável | Tempo para Conclusão,,6 de fevereiro de 2026 09:23,Marina Santoro,Tarefas 'finalizadas',Yes,Tarefa,4,Aprovado,Gráfico de barras,4,6 de fevereiro de 2026 09:23,Marina Santoro
+Responsável | Quantidade,,6 de fevereiro de 2026 09:23,Marina Santoro,Tarefas 'finalizadas' e tarefas 'backlog',Yes,Tarefa,5,Aprovado,Gráfico de barras,2,6 de fevereiro de 2026 09:23,Marina Santoro
+Tipo de Tarefa | Conclusão No prazo x Atrasada,,6 de fevereiro de 2026 09:23,Marina Santoro,"Tarefas abertas e fora do prazo, Tarefas abertas no prazo, Tarefas finalizadas dentro do prazo, Tarefas finalizadas depois do prazo",Yes,Tarefa,2,Aprovado,Gráfico de barras,5,6 de fevereiro de 2026 09:23,Marina Santoro
+Top 10 Tarefas mais atrasadas por usuário,,6 de fevereiro de 2026 09:23,Marina Santoro,Tarefas 'backlog' e atrasadas,Yes,Tarefa,3,Aprovado,Tabela aninhada,8,6 de fevereiro de 2026 09:23,Marina Santoro
+Tipo de Tarefa | Tempo para Conclusão,,6 de fevereiro de 2026 09:23,Marina Santoro,Tarefas 'finalizadas',Yes,Tarefa,6,Aprovado,Gráfico de barras,3,6 de fevereiro de 2026 09:23,Marina Santoro
+Responsável | Conclusão No prazo x Atrasada,,6 de fevereiro de 2026 09:23,Marina Santoro,"Tarefas abertas e fora do prazo, Tarefas abertas no prazo, Tarefas finalizadas dentro do prazo, Tarefas finalizadas depois do prazo",Yes,Tarefa,7,Aprovado,Gráfico de barras,6,6 de fevereiro de 2026 09:23,Marina Santoro
+Top 10 Tarefas mais atrasadas,,6 de fevereiro de 2026 09:23,Marina Santoro,Tarefas 'backlog' e atrasadas,Yes,Tarefa,8,Aprovado,Tabela simples,7,6 de fevereiro de 2026 09:23,Marina Santoro

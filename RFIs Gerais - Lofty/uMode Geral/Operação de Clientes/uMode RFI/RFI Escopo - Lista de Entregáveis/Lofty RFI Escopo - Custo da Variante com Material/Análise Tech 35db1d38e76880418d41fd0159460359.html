@@ -1,0 +1,767 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Análise Tech</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+/* For default-background callouts, render the border outline. */
+.callout.block-color-default_background {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+figure,
+aside,
+details {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding-inline: 0.125rem;
+	padding-block: 0.375rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+table {
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+/*
+ * Render emoji icons using a ::before pseudo-element to keep the glyph
+ * out of the DOM textContent traversal. This avoids double-rendering icons
+ * in callouts and page titles.
+ * NOTE(slim/html-export-pseudo-icons): I can't tagref this because it will
+ * flag as a duplicate tag after codegen.
+ */
+.icon[data-emoji]::before {
+	content: attr(data-emoji);
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	margin-right: 0.4em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.tab {
+	margin: 1.25em 0;
+	padding-inline: 1rem;
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="35db1d38-e768-8041-8d41-fd0159460359" class="page sans"><header><h1 class="page-title" dir="auto">Análise Tech</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><h1 id="861519be-4ed8-4ab0-8f17-10ee4f58857e" class="" dir="auto"><a href="https://linear.app/umode/issue/INTEG-924/lofty-estimar-esforco-para-custo-por-variante-considerando-material">INTEG-924</a> <strong>— Estimativa para validação técnica</strong></h1><p id="d3e711df-04d5-4ebd-a9a3-58f05ea3595e" class="" dir="auto"><strong>Linear:</strong> <a href="https://linear.app/umode/issue/INTEG-924">INTEG-924</a> <strong>RFI completo:</strong> <code>docs/integ-924-custo-variante-material-por-tamanho.md</code> <strong>Data:</strong> 2026-05-08</p><blockquote id="2c13c251-e4b1-45ce-84b3-1301c4609c31" class="" dir="auto">Documento focado em <strong>validar a estimativa com outro dev</strong>. Resume contexto, mapeamento técnico e premissas. Para o RFI completo (escopo cliente, dúvidas, próximos passos) ver o doc do RFI.</blockquote><hr id="e89e5dc5-3fa4-4cad-bcc5-0050fdf82adc" dir="auto"/><h2 id="c264e756-8613-4fae-be04-289a60b9c31d" class="" dir="auto"><strong>Contexto rápido</strong></h2><p id="969c934d-9145-4dcb-9dff-c3df22148450" class="" dir="auto">Lofty/Reserva: a formação do custo da variante hoje <strong>soma todo material empenhado</strong>, sem distinguir o que é aplicado <strong>por tamanho</strong> (que deveria contar 1 vez só). Usuário corrige manualmente.</p><p id="0364da38-4c82-4f0c-b8eb-aeeea7899648" class="" dir="auto">Dois caminhos discutidos em reunião com cliente (29/04):</p><ol type="1" id="36782806-1a5e-44a4-bf79-8e82a38799db" class="numbered-list" start="1" dir="auto"><li><strong>Ajuste técnico</strong> — flag por linha de empenho que define se o material entra no custo da variante. <strong>Sem agregação min/max/média</strong> (alinhado com Marina Santoro 2026-05-07): usa o valor que está no material marcado.</li></ol><ol type="1" id="4fcffd13-b70a-42c8-85a4-2f011d4254b2" class="numbered-list" start="2" dir="auto"><li><strong>Estruturada</strong> — modelo <code>MaterialGroup</code> persistido + CRUD + regra de cálculo por grupo. Premissa: regra fixa = média.</li></ol><hr id="bb55572c-1dc6-4b16-8582-612efdcf4b91" dir="auto"/><h2 id="546eec90-8f40-4d26-a9a5-2961a99df81b" class="" dir="auto"><strong>Mapeamento técnico (descoberta)</strong></h2><p id="bcd65e1c-f103-4203-9875-d37cd31b5db1" class="" dir="auto">A infra de &quot;agrupar e contar 1x&quot; <strong>já existe parcialmente</strong>:</p><table id="8bcfb1ff-49b3-4ed7-af0d-a6feb6b352de" class="simple-table" dir="ltr"><thead class="simple-table-header"><tr id="ac65b565-e30e-4d7b-a13b-78cdb7a10cc7" dir="ltr"><th id="zcUN" class="simple-table-header-color simple-table-header">Componente</th><th id="}Dc?" class="simple-table-header-color simple-table-header">Onde</th><th id="etT@" class="simple-table-header-color simple-table-header">O que faz hoje</th></tr></thead><tbody><tr id="7fbd5917-6249-4960-860f-cca26487e51c" dir="ltr"><td id="zcUN" class="">Cálculo central</td><td id="}Dc?" class=""><code>app/models/product_variant.rb:215-235</code> <code>#product_material_for_cost_report</code></td><td id="etT@" class="">Agrupa por <code>variable_consumption_per_size_group</code> (texto livre) e pega <code>max_by(&amp;:price)</code>. Para itens sem grupo, agrupa por <code>material_variant_id</code> e também pega <code>max_by(&amp;:price)</code>.</td></tr><tr id="c8d7b34d-21fe-40ba-a6aa-7e795bd729b7" dir="ltr"><td id="zcUN" class="">Concern por tamanho</td><td id="}Dc?" class=""><code>app/models/concerns/consumption_per_size.rb</code></td><td id="etT@" class="">Gerencia <code>consumption_values</code> (JSON com 1 valor por tamanho da grade).</td></tr><tr id="9794c4cd-69b9-4fd2-b875-9b5593ed1798" dir="ltr"><td id="zcUN" class="">Campo de agrupamento legado</td><td id="}Dc?" class=""><code>fabric_variant_supplier</code>, <code>accessory_variant_supplier</code> (col <code>variable_consumption_per_size_group</code>)</td><td id="etT@" class="">Texto livre, migration <code>20210212141711</code>.</td></tr><tr id="f848f16c-50c3-4e2d-8d6c-05fc62d13bb0" dir="ltr"><td id="zcUN" class="">Consumidor</td><td id="}Dc?" class=""><code>app/reports/product_cost_report.rb:69-117</code> <code>#calculate_fabrics_cost</code>/<code>#calculate_accessories_cost</code></td><td id="etT@" class="">Itera o resultado de <code>product_material_for_cost_report</code> e soma.</td></tr><tr id="a74492e1-6f38-4901-bdbd-3a1a1585e295" dir="ltr"><td id="zcUN" class="">Persistência</td><td id="}Dc?" class=""><code>app/services/product_cost_service.rb:87-95</code></td><td id="etT@" class="">Recálculo + grava em <code>ProductCostSheet</code>.</td></tr><tr id="eb837afb-0384-4e63-9eb6-8b632ed3312b" dir="ltr"><td id="zcUN" class="">UI ponto natural</td><td id="}Dc?" class=""><code>app/views/datasheet/product_materials/edit.html.slim:50-51</code></td><td id="etT@" class="">Já tem checkbox <code>consumption_per_size</code> — flag nova entra ao lado.</td></tr></tbody></table><p id="c3b8a1cd-2d8c-4d6c-a354-6ac3189fc36f" class="" dir="auto"><strong>Não existe hoje:</strong> modelo <code>MaterialGroup</code>, regra de agregação configurável (sempre <code>max</code>), CRUD de grupos.</p><p id="d2f3b210-f2b7-443d-8722-ae6246c44300" class="" dir="auto"><strong>Cobertura de specs:</strong> baixíssima. <code>spec/models/product_variant_spec.rb</code> cobre parcialmente <code>#product_material_for_cost_report</code>. <strong>Não há</strong> specs dedicados para <code>ProductCostReport</code> nem <code>ProductCostService</code>.</p><hr id="4af2c66f-62bf-4937-9681-a0bd9a7629dd" dir="auto"/><h2 id="3a82ba50-d0ed-4cd8-bc44-34f6affbc111" class="" dir="auto"><strong>Caminho 1 — Ajuste técnico — \~12h</strong></h2><p id="f2fee798-9487-477a-8919-628dd1755870" class="" dir="auto">Adicionar flag booleana em cada linha de empenho. Se a flag estiver desligada, o material é ignorado no cálculo do custo da variante. Sem agregação nova.</p><h3 id="b7500707-69f0-4d43-bd99-a0fbfe85a8cd" class="" dir="auto"><strong>Arquivos afetados</strong></h3><ul id="ed94a809-1050-4f65-b95d-bf3c2a25e26b" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>db/migrate/&lt;ts&gt;_add_include_in_variant_cost_to_product_materials.rb</code> (novo)</li></ul><ul id="56f3f610-8cfe-4ac3-b2cb-e09e428c7c97" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>app/models/product_fabric_variant.rb</code>, <code>app/models/product_accessory_variant.rb</code></li></ul><ul id="4ecba6aa-75ff-473d-97b0-5d7e1b5b5841" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>app/reports/product_cost_report.rb:69-117</code> <strong>OU</strong> <code>app/models/product_variant.rb:215-235</code></li></ul><ul id="e990d84d-f3ba-4d5d-8469-6946d229bdd0" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>app/views/datasheet/product_materials/edit.html.slim</code></li></ul><ul id="4711e68f-821b-4d05-8d83-7c9683b82758" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>app/views/datasheet/product_materials/_material_row.html.slim</code></li></ul><ul id="cd1a955f-a892-492e-a3c1-9d23c72ddf88" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>app/controllers/datasheet/product_materials_controller.rb</code> (strong params)</li></ul><ul id="e923e23a-0540-42f0-8078-7447e56949e6" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>config/locales/*.yml</code></li></ul><ul id="166d3875-fc7a-4448-8485-c0f7513057dc" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>spec/models/product_variant_spec.rb</code>, <code>spec/reports/product_cost_report_spec.rb</code> (novo)</li></ul><h3 id="cc9f7635-5a8a-48cf-ba31-3d385dac81bd" class="" dir="auto"><strong>Decomposição</strong></h3><table id="ee53a181-693a-4595-8b09-8f69188e6662" class="simple-table" dir="ltr"><thead class="simple-table-header"><tr id="5476a576-9b9c-40f2-ae5a-2c6a94c12edb" dir="ltr"><th id="QIn}" class="simple-table-header-color simple-table-header">Frente</th><th id="rYvt" class="simple-table-header-color simple-table-header">Esforço</th></tr></thead><tbody><tr id="b62e8892-a29e-42f2-8adb-eba1798f0676" dir="ltr"><td id="QIn}" class="">Migration: <code>include_in_variant_cost</code> boolean default true em <code>product_fabric_variants</code> e <code>product_accessory_variants</code></td><td id="rYvt" class="">1h</td></tr><tr id="e951a98f-4dc1-4425-9284-1ec93263a2f1" dir="ltr"><td id="QIn}" class="">Filtro em <code>ProductCostReport#calculate_*</code> (ou <code>ProductVariant#product_material_for_cost_report</code>) — apenas pula linhas com flag false</td><td id="rYvt" class="">2h</td></tr><tr id="8b70d937-68db-42d0-86cd-77460e807153" dir="ltr"><td id="QIn}" class="">UI: checkbox no <code>_form</code> / <code>_material_row</code></td><td id="rYvt" class="">2.5h</td></tr><tr id="9d5983cc-cec0-4f8f-aa44-d26b532d2547" dir="ltr"><td id="QIn}" class="">Strong params</td><td id="rYvt" class="">0.5h</td></tr><tr id="2c72afcb-df8a-4b47-b060-318ae04738cf" dir="ltr"><td id="QIn}" class="">Specs (default, alguns excluídos, todos excluídos)</td><td id="rYvt" class="">4h</td></tr><tr id="0515bd49-a34f-4f38-84ea-de855ac852dd" dir="ltr"><td id="QIn}" class="">I18n pt-BR</td><td id="rYvt" class="">0.5h</td></tr><tr id="e6777e7a-e283-4da8-bbea-ab207ec056a1" dir="ltr"><td id="QIn}" class="">Code review + ajustes</td><td id="rYvt" class="">1.5h</td></tr><tr id="dfdf8345-74da-49e1-8c47-7dbc5f7b7aba" dir="ltr"><td id="QIn}" class=""><strong>Total</strong></td><td id="rYvt" class=""><strong>\~12h</strong></td></tr></tbody></table><h3 id="61dcd1db-3310-4687-9700-9c767a59f714" class="" dir="auto"><strong>Premissas (caminho 1)</strong></h3><ul id="bf4958ad-1972-4b98-ac89-cd72ae2f4cdc" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Flag granular por linha de empenho (cada <code>ProductFabricVariant</code>/<code>ProductAccessoryVariant</code>).</li></ul><ul id="0747146b-edf7-4b6d-af4b-417807c07da6" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Default <code>true</code> → comportamento atual preservado, sem migração de dados.</li></ul><ul id="7728be3f-fc49-42a3-86d5-790289467a14" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Sem alteração na lógica de <code>variable_consumption_per_size_group</code> ou <code>max_by(&amp;:price)</code> existente.</li></ul><ul id="bc8bc7f1-79be-4b35-b183-20f300029e5b" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Default por <code>Fabric</code>/<code>Accessory</code> (herança automática) <strong>não está incluso</strong> — seria +2h.</li></ul><hr id="c9b1c792-6024-4978-bd79-d5f4cfeafc69" dir="auto"/><h2 id="f1e5d05a-dca2-4ed3-bc51-d1fb6780c64f" class="" dir="auto"><strong>Caminho 2 — Estruturada (</strong><code>MaterialGroup</code>) — <strong>\~22h</strong></h2><p id="a988b58a-556d-49fa-826f-a4a5850d45c2" class="" dir="auto">Modela <code>MaterialGroup</code> como entidade persistida, com CRUD enxuto e regra de cálculo fixa em <strong>média</strong> por grupo.</p><h3 id="260bc218-b6ca-467f-9afc-7247fdaa2c9a" class="" dir="auto"><strong>Arquivos</strong></h3><ul id="ac0567fa-2db5-4bec-84b2-7f17470d733e" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Novos: <code>app/models/material_group.rb</code>, <code>app/models/material_group_item.rb</code>, controller <code>Datasheet::MaterialGroupsController</code>, views (<code>index</code>, <code>_form</code>), policy mínima, 2 migrations, specs.</li></ul><ul id="71bd2d2e-b8ec-4c2c-a2b1-1ec578271bcd" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Alterados: <code>config/routes.rb</code>, <code>app/models/product_variant.rb:215-235</code>, <code>app/views/datasheet/product_materials/_material_row.html.slim</code>, sidebar/menu.</li></ul><h3 id="7f6d414a-4e53-4f4a-ac90-99e1301677b9" class="" dir="auto"><strong>Decomposição</strong></h3><table id="7be41f13-c8cb-4e1b-bd30-95e7f595e0c0" class="simple-table" dir="ltr"><thead class="simple-table-header"><tr id="fbc744ad-5630-4a78-8ce2-e42c528c61d8" dir="ltr"><th id="m{\r" class="simple-table-header-color simple-table-header">Frente</th><th id="lFl~" class="simple-table-header-color simple-table-header">Esforço</th></tr></thead><tbody><tr id="3a17faf5-031e-4633-b117-3a0ac0e58693" dir="ltr"><td id="m{\r" class="">Migrations (<code>material_groups</code> + <code>material_group_items</code> polymórfico Fabric/Accessory + FKs)</td><td id="lFl~" class="">1.5h</td></tr><tr id="e0de2bc2-49b8-44e3-9f09-171516baa3be" dir="ltr"><td id="m{\r" class="">Modelos + associations + validações + scope por entity</td><td id="lFl~" class="">2.5h</td></tr><tr id="c50db1b8-9483-4979-b043-30b8ea35e2ec" dir="ltr"><td id="m{\r" class="">Controller CRUD + routes + policy mínima (segue padrão de outros datasheets)</td><td id="lFl~" class="">3h</td></tr><tr id="9061e61f-d849-480a-a9f9-69ef43d545de" dir="ltr"><td id="m{\r" class="">Views CRUD enxutas (<code>index</code> listando + <code>_form</code> único reusado em new/edit) + entrada no menu</td><td id="lFl~" class="">4h</td></tr><tr id="eda22677-9ab1-41fa-964e-856b46d3ae21" dir="ltr"><td id="m{\r" class="">Refator <code>#product_material_for_cost_report</code> para considerar <code>material_group_id</code> (média por grupo)</td><td id="lFl~" class="">3h</td></tr><tr id="3e72f910-ebc7-495e-a347-9fb957e97561" dir="ltr"><td id="m{\r" class="">Tela empenho: select do grupo no <code>_material_row.html.slim</code></td><td id="lFl~" class="">2h</td></tr><tr id="d4600283-41f5-4c27-895a-06f0efa05bcb" dir="ltr"><td id="m{\r" class="">Specs essenciais: model (group + item) + report integrado; controller só smoke happy path</td><td id="lFl~" class="">5h</td></tr><tr id="65d65ca1-a241-4f32-a82b-a3ec208fdff5" dir="ltr"><td id="m{\r" class="">I18n pt-BR</td><td id="lFl~" class="">0.5h</td></tr><tr id="5b5c4d1a-3c9f-4350-bb5e-c4b1fcce79f3" dir="ltr"><td id="m{\r" class="">Code review + ajustes</td><td id="lFl~" class="">1.5h</td></tr><tr id="6850287d-c871-4375-8eed-f8575cf6412d" dir="ltr"><td id="m{\r" class=""><strong>Total</strong></td><td id="lFl~" class=""><strong>\~22h</strong></td></tr></tbody></table><h3 id="6bd0ceb5-9c9a-4272-83e5-184508a12677" class="" dir="auto"><strong>Premissas (caminho 2)</strong></h3><ul id="a10d3936-839e-461e-aaa2-a7b9aba3321a" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Grupo por entity, material em no máximo 1 grupo (1:N). N:N seria +3-4h.</li></ul><ul id="d8ec5179-78c6-4181-a9b5-fd3339a6e99a" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Regra fixa = <strong>média</strong>. Configurável (min/max/avg) seria +5h.</li></ul><ul id="7b82f1c4-a586-4a18-a326-7eb0247d8ad1" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Não migra dados de <code>variable_consumption_per_size_group</code> para os novos grupos. ETL seria +4-6h.</li></ul><ul id="9335018c-ac3c-4a4a-a01b-8536cacbb8c4" class="bulleted-list" dir="auto"><li style="list-style-type:disc">CRUD enxuto: sem filtros/busca avançada na lista, sem auditoria, sem soft-delete. Se algum desses for requisito, +3-5h cada.</li></ul><ul id="62179a84-71ad-489c-9140-e974ae6d36c6" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><code>material_group_id</code> novo e <code>variable_consumption_per_size_group</code> legado convivem; novo tem precedência.</li></ul><hr id="92c1437a-1a28-423c-8b74-60a7d6fdc7ce" dir="auto"/><h2 id="d6ba9b31-1e71-4a3c-b3ad-5e15d99f1c77" class="" dir="auto"><strong>Resumo</strong></h2><table id="166050b6-08a6-43cb-b10e-053c39d57030" class="simple-table" dir="ltr"><thead class="simple-table-header"><tr id="9d8d0ebd-8f9b-4b03-a725-54a1797b41b6" dir="ltr"><th id="IQ[k" class="simple-table-header-color simple-table-header">Caminho</th><th id="gext" class="simple-table-header-color simple-table-header">Estimativa</th><th id="P^;y" class="simple-table-header-color simple-table-header">Esforço onde concentra</th></tr></thead><tbody><tr id="df0481b2-f56f-4fc6-b113-c237ac095c49" dir="ltr"><td id="IQ[k" class="">1 — Ajuste técnico</td><td id="gext" class=""><strong>\~12h</strong></td><td id="P^;y" class="">Specs (4h) + UI (2.5h)</td></tr><tr id="eff29089-7ebd-4550-a97a-5876eca71b4e" dir="ltr"><td id="IQ[k" class="">2 — Estruturada (enxuta)</td><td id="gext" class=""><strong>\~22h</strong></td><td id="P^;y" class="">Specs (5h) + Views (4h) + Controller (3h) + Refator (3h)</td></tr></tbody></table><p id="49e26e7f-1818-4149-a37f-4d4ac8152655" class="" dir="auto">Estimativas cobrem <strong>dev + specs</strong>. Não incluem QA manual, migração de dados, discovery adicional.</p><p id="4eb91a05-6879-49d6-96b5-f34fd8bb6c3d" class="" dir="auto">@marina.santoro</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

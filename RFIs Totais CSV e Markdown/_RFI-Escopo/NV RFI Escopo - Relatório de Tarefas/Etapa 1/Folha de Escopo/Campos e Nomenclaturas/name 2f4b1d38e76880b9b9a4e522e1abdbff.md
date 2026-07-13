@@ -1,0 +1,11 @@
+# name
+
+Aparece no relatório?: Sim
+Banco: umode_production
+Estrutura na Plataforma: -
+Hierarquia uMode: user
+ID: 43
+Nome na Plataforma: Usuários e/ou Perfis de Usuário
+Nome no Front: Usuário ou Perfil
+Tabela do Banco: jumper_users (ju_assigned)
+Tipo de campo: Nativo

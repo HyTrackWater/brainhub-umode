@@ -1,0 +1,13 @@
+# description
+
+Aparece no relatório?: Sim
+Banco: umode_production
+Estrutura na Plataforma: Aba “Tarefa”
+Exemplo (value): <div>&nbsp;Preciso de
+  algumas[...] </div>
+Hierarquia uMode: task
+ID: 17
+Nome na Plataforma: Descrição
+Nome no Front: Descrição
+Tabela do Banco: jumper_tasks (jt)
+Tipo de campo: Nativo
