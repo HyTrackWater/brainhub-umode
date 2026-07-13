@@ -1,8 +1,0 @@
-# sku
-
-Aparece no relatório?: Não
-Banco: umode_production
-Hierarquia uMode: product variants
-ID: 21
-Tabela do Banco: umode_product_variants
-Tipo de campo: Nativo

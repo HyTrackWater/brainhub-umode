@@ -1,8 +1,0 @@
-# reference
-
-Aparece no relatório?: Não
-Banco: umode_production
-Hierarquia uMode: product
-ID: 24
-Tabela do Banco: umode_products
-Tipo de campo: Nativo
