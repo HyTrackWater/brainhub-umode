@@ -30,7 +30,7 @@
    está correto.** Se algo no `STATE.md` parecer desatualizado ou incompleto, diga isso
    explicitamente em vez de seguir em frente.
 
-## Como usar
+## Como usar (instrução para o usuário que usará a interface para acionar a LLM)
 
 Cole só isto como primeira mensagem da sessão:
 

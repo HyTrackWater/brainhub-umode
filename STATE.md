@@ -166,9 +166,17 @@
 - [x] Decisão refinada: cada Produto carrega atributo `conecta_area_cliente`
 
 ## Próximas atividades (fila da Sprint 02)
-1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md` e `brainwave/02-home.md`
-   enviados, ambos aguardando o Vinicius rodar no BrainWave e trazer o `## Resultado` de volta
-   pra registrar aqui. Próxima tarefa (03) só depois de confirmação da 02.
+1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md`, `brainwave/02-home.md`,
+   `brainwave/03-uMode-e-clientes.md` e `brainwave/04-seletor-cliente-ativo.md` enviados, todos
+   aguardando o Vinicius trazer o `## Resultado` formal de volta pra registrar aqui. A tarefa 03
+   reestrutura o menu principal (remove as abas soltas "Instituições" e "Pessoas", cria "uMode" e
+   "Clientes", cada uma com 4 sub-abas: Instituições/Áreas/Subáreas(desabilitada)/Pessoas, com
+   "cliente ativo" escopando Áreas/Pessoas dentro da aba Clientes) — conteúdo validado pelo
+   Vinicius em 13 jul 2026. Ao navegar no resultado da tarefa 03, o Vinicius identificou que o
+   "cliente ativo" não ficava visível/trocável fora da sub-aba Instituições — a tarefa 04 corrige
+   isso: seletor de cliente fixo em todas as 4 sub-abas, estado vazio quando nenhum cliente está
+   ativo, e filtro opcional por Área na sub-aba Pessoas. `brainwave/CONTEXTO.md` (tabela de
+   navegação) já atualizado pra refletir as tarefas 03 e 04.
 2. Preencher `contexto-area.md` real das 14 áreas em pelo menos 1 cliente-piloto (gap achado na
    auditoria final de 10 jul — 0 de 56 combinações cliente×área preenchidas hoje; exige dado
    real por área, não dá para formalizar sem levantamento novo)

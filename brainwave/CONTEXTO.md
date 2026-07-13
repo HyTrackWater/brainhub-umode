@@ -40,11 +40,33 @@ edição e criação por cima.
 
 ## As 6 abas de navegação
 
+**Alterado em 13 jul 2026 (task 03, confirmada pelo Vinicius):** "Instituições" e "Pessoas"
+deixaram de ser abas de topo independentes. No lugar, existem duas abas de topo — **uMode** e
+**Clientes** — cada uma com a mesma estrutura interna fixa em 4 sub-abas: **Instituições ·
+Áreas · Subáreas · Pessoas** (Subáreas presente porém desabilitada — sem template/dado ainda).
+A aba uMode tem só 1 instituição (a Casa); a aba Clientes lista os clientes (hoje 4) na sua
+sub-aba Instituições, e escolher um define o "cliente ativo" que escopa o que aparece nas
+sub-abas Áreas e Pessoas daquela aba, até outro cliente ser escolhido. Ver
+`brainwave/03-uMode-e-clientes.md` pro prompt completo.
+
+**Alterado em 13 jul 2026 (task 04, confirmada pelo Vinicius):** o "cliente ativo" da aba
+Clientes precisa ficar visível e trocável **de dentro de qualquer uma das 4 sub-abas** — um
+seletor fixo no topo, não só clicável via cartão em Instituições. Sem cliente ativo escolhido,
+Áreas e Pessoas mostram estado vazio ("selecione um cliente"), nunca uma lista misturada de
+todos os clientes. A sub-aba Pessoas (com cliente ativo já escolhido) ganha também um filtro
+**opcional** por Área, por padrão "todas". A aba uMode não tem esse seletor — só 1 instituição,
+sem necessidade de escolha. Ver `brainwave/04-seletor-cliente-ativo.md` pro prompt completo.
+
 | Aba | Lista | Abre (detalhe) | Navega pra | Cria |
 |---|---|---|---|---|
-| **Instituições** | Casa uMode + cada Cliente (hoje: 4 pilotos) | `institucional.md` + `jornada.md` + `pessoas.md` daquela instituição | Áreas dela (ver abaixo) · Pessoas que atendem | Novo cliente — segue `uMode/00_Institucional/_protocolos/protocolo-criacao-cliente.md` (5 passos) |
-| **↳ Áreas** (só dentro de uma Instituição, não é aba de topo) | As 8 internas (Casa) ou as 14 canônicas (cliente aberto) | `contexto-area.md` | Produto conectado · Pessoas da área · Demandas com Origem/Destino nessa área | Não é fluxo de uso comum — lista de áreas é fixa/travada em `CONTEXT.md` |
-| **Pessoas** | Fichas da Casa (`uMode/00_Institucional/_pessoas/`) + pessoas listadas em `pessoas.md` de cada cliente | Ficha individual (Casa) ou o bloco dela dentro de `pessoas.md` (cliente) | Clientes que atende · Área/Cadeira · Demandas onde é Criador/Responsável | Nova ficha — `protocolo-gestao-pessoas.md` |
+| **uMode** ↳ Instituições | Só a uMode (Casa), 1 cartão | `institucional.md` da Casa | Sub-abas Áreas/Pessoas abaixo, já no escopo Casa | Não é fluxo de uso comum |
+| **uMode** ↳ Áreas | As 8 internas | `contexto-area.md` da Casa | Produto conectado · Pessoas da área · Demandas com Origem/Destino nessa área | Não é fluxo de uso comum — lista de áreas é fixa/travada em `CONTEXT.md` |
+| **uMode** ↳ Subáreas | *(desabilitada — sem template/dado ainda)* | — | — | — |
+| **uMode** ↳ Pessoas | Fichas da Casa (`uMode/00_Institucional/_pessoas/`), em cartão (nome/email/área) | *(tela de detalhe ainda não construída — fora do escopo da task 03)* | — | Nova ficha — `protocolo-gestao-pessoas.md` |
+| **Clientes** ↳ Instituições | Cada Cliente (hoje: 4 pilotos), em cartão | `institucional.md` + `jornada.md` + `pessoas.md` daquele cliente | Define o "cliente ativo" das sub-abas Áreas/Pessoas abaixo | Novo cliente — segue `uMode/00_Institucional/_protocolos/protocolo-criacao-cliente.md` (5 passos) |
+| **Clientes** ↳ Áreas | As 14 canônicas do cliente ativo | `contexto-area.md` do cliente ativo (hoje quase tudo `[a preencher]` — esperado) | Produto conectado · Pessoas da área · Demandas com Origem/Destino nessa área | Não é fluxo de uso comum |
+| **Clientes** ↳ Subáreas | *(desabilitada — sem template/dado ainda)* | — | — | — |
+| **Clientes** ↳ Pessoas | Pessoas listadas em `pessoas.md` do cliente ativo, em cartão (nome/email/área), com filtro opcional por Área (task 04) | *(tela de detalhe ainda não construída — fora do escopo da task 03)* | — | Nova ficha — `protocolo-gestao-pessoas.md` |
 | **Produtos** | Os 16 do Portfólio (`CONTEXT.md` → "Decisão: camada Produto na hierarquia") — 9 voltados ao cliente + 7 internos | Descrição · Área conectada (`conecta_area_cliente`) · clientes que usam (via "Módulos contratados" de cada `institucional.md`) | Área · Agentes que rodam nele (ver Agentes) | Não é fluxo de uso comum — Portfólio é decisão travada |
 | **Demandas** | Feed conversacional, Casa + todos os clientes | A demanda renderizada como conversa — cada linha da tabela `Marcos` (append-only) vira uma mensagem na thread | Cliente/Área (Origem/Destino organizacional) · RFI vinculada · MD impactado · card no CX Hub (se `Vinculada ao CX Hub? = Sim`) | Pessoa **ou agente** abre — mecanismo já formalizado em `protocolo-gestao-demanda.md` |
 | **RFIs** | Por cliente, com dado comercial (horas, valor) | Escopo, comercial, aprovação de escopo | Demanda de origem (sempre exatamente 1, nunca solta) | Nasce sempre de dentro de uma Demanda — nunca criada do zero |
