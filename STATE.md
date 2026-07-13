@@ -526,5 +526,18 @@
   retrofitadas com esse campo (`Sim — ID: [mesmo valor de ID legado]`), revalidadas por diff —
   0 divergências. Também decidido: quando um agente de área abre a demanda sozinho (sem
   triagem humana prévia), o campo `Criador` aceita nome de agente, não só pessoa física —
-  registrado no protocolo. Próximo passo: desenhar as telas (Feed conversacional filtrável +
-  Conversa da demanda + área de Ferramentas/Plataformas) partindo só do que já é nosso.
+  registrado no protocolo.
+  Na sequência, alinhamento de produto pra desenho de telas (papel de responsável técnico,
+  pensando em produtos/áreas/agentes): proposta e travamento de **6 abas de navegação**
+  (Instituições — com Áreas navegável só por dentro dela, não é aba de topo —, Pessoas,
+  Produtos, Demandas, RFIs, Agentes), cada uma mapeada 1:1 a uma entidade já formalizada na
+  hierarquia, com relação clara de o que lista/abre/navega/cria. Decisão explícita: "Agentes"
+  ainda não é entidade formal (sem template, sem protocolo, sem onde vive) — desenhamos a aba
+  com dado de exemplo agora, formalizamos a entidade depois, quando o uso real deixar claro o
+  formato — mesma disciplina já usada pra Demanda/RFI/Pessoa, só que na ordem inversa
+  (protótipo primeiro, modelo formal depois, por decisão explícita do Vinicius desta vez).
+  Criado `BRAINWAVE.md` (raiz do repositório, fora da hierarquia `uMode/`) — brief de
+  instrução pro agente interno de frontend "BrainWave" construir essas telas, com a estrutura
+  das 6 abas, o mecanismo de aprovação (já formalizado, só precisa de interface), a regra de
+  visibilidade por Cadeira/Área/Clientes atendidos, e a lista explícita do que ainda não existe
+  (Agente formal, `contexto-area.md` real, automação Demanda→CX Hub) pra não ser inventado.
