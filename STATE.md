@@ -167,16 +167,21 @@
 
 ## Próximas atividades (fila da Sprint 02)
 1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md`, `brainwave/02-home.md`,
-   `brainwave/03-uMode-e-clientes.md` e `brainwave/04-seletor-cliente-ativo.md` enviados, todos
-   aguardando o Vinicius trazer o `## Resultado` formal de volta pra registrar aqui. A tarefa 03
-   reestrutura o menu principal (remove as abas soltas "Instituições" e "Pessoas", cria "uMode" e
-   "Clientes", cada uma com 4 sub-abas: Instituições/Áreas/Subáreas(desabilitada)/Pessoas, com
-   "cliente ativo" escopando Áreas/Pessoas dentro da aba Clientes) — conteúdo validado pelo
-   Vinicius em 13 jul 2026. Ao navegar no resultado da tarefa 03, o Vinicius identificou que o
-   "cliente ativo" não ficava visível/trocável fora da sub-aba Instituições — a tarefa 04 corrige
-   isso: seletor de cliente fixo em todas as 4 sub-abas, estado vazio quando nenhum cliente está
-   ativo, e filtro opcional por Área na sub-aba Pessoas. `brainwave/CONTEXTO.md` (tabela de
-   navegação) já atualizado pra refletir as tarefas 03 e 04.
+   `brainwave/03-uMode-e-clientes.md`, `brainwave/04-seletor-cliente-ativo.md` e
+   `brainwave/05-solucoes.md` enviados, todos aguardando o Vinicius trazer o `## Resultado`
+   formal de volta pra registrar aqui. A tarefa 03 reestrutura o menu principal (remove as abas
+   soltas "Instituições" e "Pessoas", cria "uMode" e "Clientes", cada uma com 4 sub-abas:
+   Instituições/Áreas/Subáreas(desabilitada)/Pessoas, com "cliente ativo" escopando Áreas/Pessoas
+   dentro da aba Clientes) — conteúdo validado pelo Vinicius em 13 jul 2026. Ao navegar no
+   resultado da tarefa 03, o Vinicius identificou que o "cliente ativo" não ficava
+   visível/trocável fora da sub-aba Instituições — a tarefa 04 corrige isso: seletor de cliente
+   fixo em todas as 4 sub-abas, estado vazio quando nenhum cliente está ativo, e filtro opcional
+   por Área na sub-aba Pessoas. A tarefa 05 renomeia "Produtos" pra **"Soluções"**: grade única
+   dos 16 do Portfólio (sem sub-abas), filtros combináveis (Destino/Geração/Maturidade — os dois
+   últimos são campos novos), cadastro por solução, com "Clientes que contrataram" deixado como
+   pendente/placeholder (ver "Decisões em aberto" abaixo — entidade Solução×Cliente ainda não
+   formalizada). `brainwave/CONTEXTO.md` (tabela de navegação) já atualizado pra refletir as
+   tarefas 03, 04 e 05.
 2. Preencher `contexto-area.md` real das 14 áreas em pelo menos 1 cliente-piloto (gap achado na
    auditoria final de 10 jul — 0 de 56 combinações cliente×área preenchidas hoje; exige dado
    real por área, não dá para formalizar sem levantamento novo)
@@ -205,7 +210,13 @@
 - Definição de agentes (tipo, escopo, gatilho)
 
 ## Decisões em aberto
-- Nenhuma.
+- **Entidade "Solução × Cliente".** O Vinicius travou em 13 jul 2026 que a relação entre uma
+  Solução do Portfólio e um Cliente que a contratou precisa virar entidade própria (condução,
+  integração, particularidades por cliente) — não só um campo de referência. Formalizar
+  (protocolo + template + onde vive) fica pra depois da varredura de nomenclatura legado→novo
+  (ver `CONTEXT.md` → "Nomenclatura legado → novo Portfólio"). A tela de Soluções (task 05 do
+  BrainWave) já foi desenhada prevendo esse link, com o clique em "Clientes que contrataram"
+  reservado/placeholder até a entidade existir.
 
 ## Log de sessões
 - **30 jun 2026** — Sessão 1: volumetria desenhada e travada; HTML gerado; CONTEXT.md e

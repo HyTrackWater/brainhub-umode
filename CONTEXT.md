@@ -100,6 +100,12 @@ qual estrutura ele vem:
 - Agentes e automação do "download" de contexto.
 - Banco de dados (perfis e permissionamento fino) — resolvido por governança de perfis depois.
 - Matriz de permissão detalhada por tipo de demanda.
+- **Entidade "Solução × Cliente"** — travado em 13 jul 2026 (ver `## Decisões em aberto` em
+  `STATE.md`): a relação entre uma Solução do Portfólio e um Cliente que a contratou não é só
+  uma referência solta — tem condução, integração e particularidades próprias por cliente
+  (diferente do texto livre em `Módulos contratados` de hoje). Formalizar como protocolo +
+  template só depois da varredura de nomenclatura legado→novo (ver nota abaixo em "Decisão:
+  camada Produto").
 
 ## Glossário
 - **Casa** — a organização interna (foco).
@@ -140,6 +146,19 @@ operacionais. Endereçamento: `Casa › Produto & Soluções › PlanejAI`.
 Justificativa: preserva a hierarquia limpa de 4 níveis. Um 5º nível será adicionado somente
 quando a complexidade real exigir — e a migração será simples porque o atributo já estará
 registrado desde agora.
+
+### Nomenclatura legado → novo Portfólio (linhagem, não taxonomia paralela)
+> Esclarecido pelo Vinicius em 13 jul 2026, ainda não varrido nos arquivos reais.
+
+Historicamente a uMode nomeava suas soluções como `uFlow`, `uRocket`, `uConnect`, `uDash` etc.
+Parte desse portfólio legado foi rebatizada com os nomes atuais do Portfólio acima — é
+**linhagem de nome da mesma solução**, não duas taxonomias sem relação (diferente do caso já
+resolvido de `Área CX Hub` × `Área organizacional`). Confirmado até agora: `uPlan` → `PlanejAI`;
+`uFlow` (módulo de Gestão de Coleção, ainda carro-chefe) → `DesenvolvAI`. As demais
+correspondências **não foram confirmadas** — não presumir mapeamento a partir do nome parecido.
+O campo `Módulos contratados` dos clientes reais (ex.: Lofty Style, Cambos) hoje só cita nomes
+legados em texto livre, sem vínculo de dado nenhum com os 16 itens do Portfólio — resolver isso
+é trabalho da varredura de ferramentas ainda pendente (ver `## Fora de escopo agora`).
 
 ### Portfólio completo de produtos e soluções
 Divididos em duas categorias: **voltados ao cliente** (têm `conecta_area_cliente`) e

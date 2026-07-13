@@ -38,6 +38,13 @@ mais duas entidades transversais — `Demanda` e `RFI` — que registram trabalh
 contexto. Tudo isso já vive como Markdown padronizado; a plataforma é a camada de visualização,
 edição e criação por cima.
 
+**Uma terceira entidade transversal está a caminho, ainda não formalizada:** "Solução ×
+Cliente" — a relação entre uma solução do Portfólio e um cliente que a contratou (condução,
+integração, particularidades por cliente). Travado como decisão em aberto em 13 jul 2026 (ver
+`STATE.md` → "Decisões em aberto" e `CONTEXT.md` → "Fora de escopo agora"). Não construir essa
+entidade nem inventar seus campos até o protocolo existir — a tela de Soluções (task 05) já
+prevê o link, mas com o clique reservado/placeholder.
+
 ## As 6 abas de navegação
 
 **Alterado em 13 jul 2026 (task 03, confirmada pelo Vinicius):** "Instituições" e "Pessoas"
@@ -67,7 +74,7 @@ sem necessidade de escolha. Ver `brainwave/04-seletor-cliente-ativo.md` pro prom
 | **Clientes** ↳ Áreas | As 14 canônicas do cliente ativo | `contexto-area.md` do cliente ativo (hoje quase tudo `[a preencher]` — esperado) | Produto conectado · Pessoas da área · Demandas com Origem/Destino nessa área | Não é fluxo de uso comum |
 | **Clientes** ↳ Subáreas | *(desabilitada — sem template/dado ainda)* | — | — | — |
 | **Clientes** ↳ Pessoas | Pessoas listadas em `pessoas.md` do cliente ativo, em cartão (nome/email/área), com filtro opcional por Área (task 04) | *(tela de detalhe ainda não construída — fora do escopo da task 03)* | — | Nova ficha — `protocolo-gestao-pessoas.md` |
-| **Produtos** | Os 16 do Portfólio (`CONTEXT.md` → "Decisão: camada Produto na hierarquia") — 9 voltados ao cliente + 7 internos | Descrição · Área conectada (`conecta_area_cliente`) · clientes que usam (via "Módulos contratados" de cada `institucional.md`) | Área · Agentes que rodam nele (ver Agentes) | Não é fluxo de uso comum — Portfólio é decisão travada |
+| **Soluções** (renomeada de "Produtos" na task 05) | Os 16 do Portfólio (`CONTEXT.md` → "Decisão: camada Produto na hierarquia") — grade única, filtros combináveis: Destino (Cliente/Interna) · Geração (Legado/Nativa) · Maturidade (Escalável/MVP/Ideação, campo novo, tudo `[a preencher]`) | Descrição · Nome legado (se houver — ver "Nomenclatura legado → novo Portfólio" em `CONTEXT.md`) · Área conectada (`conecta_area_cliente`) · Clientes que contrataram (**pendente** — cruzamento legado→novo ainda não confiável, ver Decisões em aberto) | Área · Agentes que rodam nele (ver Agentes) · futuramente, relação Solução×Cliente (entidade ainda não formalizada) | Não é fluxo de uso comum — Portfólio é decisão travada |
 | **Demandas** | Feed conversacional, Casa + todos os clientes | A demanda renderizada como conversa — cada linha da tabela `Marcos` (append-only) vira uma mensagem na thread | Cliente/Área (Origem/Destino organizacional) · RFI vinculada · MD impactado · card no CX Hub (se `Vinculada ao CX Hub? = Sim`) | Pessoa **ou agente** abre — mecanismo já formalizado em `protocolo-gestao-demanda.md` |
 | **RFIs** | Por cliente, com dado comercial (horas, valor) | Escopo, comercial, aprovação de escopo | Demanda de origem (sempre exatamente 1, nunca solta) | Nasce sempre de dentro de uma Demanda — nunca criada do zero |
 | **Agentes** | *(entidade ainda não formalizada — ver seção abaixo)* | — | Produto e/ou Área onde roda · Demandas que abriu como Criador | — |
