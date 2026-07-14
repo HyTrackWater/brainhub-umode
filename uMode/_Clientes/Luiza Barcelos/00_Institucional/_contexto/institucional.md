@@ -38,6 +38,10 @@ Ongoing
 - Relatórios
 - Integração
 - Fornecedores
+- uDash (ferramenta legada de relatórios — confirmado como contratado na base "Mapa de
+  Clientes" do CRM, achado em 14 jul 2026, não estava registrado aqui antes; segundo o
+  Vinicius, está caindo em desuso à medida que o novo sistema (Portfólio atual) se estrutura —
+  sem substituto 1:1 confirmado ainda, ver `_pendencias-gerais.md`)
 - Confirmado via CRM: produto uFlow + uDash · 15 usuários internos + 2 uDash + 3 externos ·
   3 Relatórios
 

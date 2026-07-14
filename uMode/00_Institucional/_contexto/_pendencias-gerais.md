@@ -5,6 +5,58 @@
 > antes de virar decisão travada". Quando resolvida, uma pendência sai daqui e vira nota no
 > documento definitivo (`CONTEXT.md`, protocolo, ou MD do cliente/área correspondente).
 
+> **Nota de processo (13 jul 2026, confirmada pelo Vinicius):** este documento continuará
+> crescendo por varredura; em algum momento futuro haverá uma passada dedicada de triagem —
+> "o que o CEO precisa responder", "o que Operação precisa completar", etc. — para dar dono a
+> cada item abaixo. Essa triagem **ainda não aconteceu**; não atribuir responsável a nenhum item
+> por conta própria até lá.
+
+## Portfólio / Ferramentas — nomenclatura legado → novo
+
+10. **`uBuy` ≈ `FornecAI`? Não confirmado — pendência explícita.** Hipótese levantada a partir
+    da categoria "COMPRAS" no backlog real de produto (`_varredura-drive-notas.md`), mas o
+    Vinicius não confirma: "uBuy era algo próximo a um módulo de gestão de carteira. Não sei se
+    o FornecAI tem esse viés." Não presumir a equivalência até confirmação real.
+11. **`uRocket`** — produto de mensageria (montagem de campanhas via WhatsApp). **Descontinuado**
+    (confirmado pelo Vinicius, 13 jul 2026). Não corresponde a nenhum dos 16 itens do Portfólio
+    atual — fica registrado como ferramenta legada encerrada, não como Solução ativa.
+12. **`uPick`** — módulo de "apostas" (achado real: aparece como módulo "Apostas" na base
+    "Mapa de Clientes"). Se existir equivalente no Portfólio novo, seria `ApostAI` — **não
+    confirmado que esse item existe hoje na lista travada de 16** (ver `CONTEXT.md` →
+    "Decisão: camada Produto na hierarquia"). Gap real, possivelmente uma área/solução ainda
+    sem contraparte formal.
+13. **`uTrack`** — descontinuado (confirmado pelo Vinicius, 13 jul 2026). Sem sucessor conhecido.
+14. **`uMetrics`** — o Vinicius acha que nunca foi pra frente como produto, mas classificou a
+    própria resposta como "achismo" — não tratar como fato confirmado.
+15. **`uDash`** — ferramenta legada de relatórios, contratada por Luiza Barcelos (já registrado
+    em `institucional.md` dela). Segundo o Vinicius, está caindo em desuso à medida que o novo
+    sistema (Portfólio atual) se estrutura — **sem substituto 1:1 confirmado ainda**.
+16. **`ISPS`** — aparece uma vez na base "Mapa de Clientes" (combo de módulos de 1 cliente). O
+    Vinicius não sabe do que se trata. Não investigado ainda.
+
+## Template de Produto — achados do teste contra dado real (14 jul 2026) — ✅ resolvidos
+> Os 4 itens abaixo (17-20) foram decididos pelo Vinicius em 14 jul 2026 e já aplicados em
+> `protocolo-gestao-produto.md` e `_template_produto.md` — mantidos aqui só como histórico do
+> teste que os originou, não são mais pendência ativa: (17) regra de tradução do Score de
+> maturidade travada (produção/piloto/conceito, métrica numérica é só evidência de apoio); (18)
+> `Clientes que contrataram` agora exige qualificador `(contratado)`/`(piloto)`; (19)
+> `Adoção por cliente` vira "Não aplicável" quando Destino = Interna; (20) Governança separou
+> `Owner / Estratégia` de `Operador`.
+
+## Repositórios reais do Portfólio — confirmação manual pendente (14 jul 2026)
+
+21. **Confirmação de repositório real por item do Portfólio — tarefa manual do Vinicius, sem
+    prazo definido.** A varredura via Drive já achou repositório próprio pra 9 dos 16 itens
+    (PlanejAI, CriAI, DesenvolvAI, VendeAI, CX Hub, Gest Hub, ONB HUB, IntHub, Taxonomia) e não
+    achou pra 6 (FornecAI, EnriqueceAI, GerenciAI, AlocAI, CliprocAI, Sales Hub) — candidato a
+    maturidade Ideação, não confirmado. O Vinicius vai trazer a confirmação real (quais
+    repositórios existem de fato, incluindo os que estão em conta GitHub paralela à principal da
+    uMode — sinal adicional de MVP já registrado em `protocolo-gestao-produto.md`) quando puder;
+    é atividade manual dele, não retomar a varredura desse ponto sozinho até a devolução chegar.
+    Relacionado: item 2 do "Template de Produto" (`catalogcraft-ai`/`umode-catalog-ai` = CadastrAI?)
+    e a pergunta 3 sobre `CopAI`/`umode-identidade`/`umode-design-guardian`/
+    `journey-insight-whisper`/`u-mode-blueprint` (`_varredura-drive-notas.md`).
+
 ## Taxonomia / estrutura
 
 1. **Cadeira (organograma) vs. Área (BrainHub) — não reconciliadas, e agora uma 3ª lista.**

@@ -147,6 +147,13 @@ Justificativa: preserva a hierarquia limpa de 4 níveis. Um 5º nível será adi
 quando a complexidade real exigir — e a migração será simples porque o atributo já estará
 registrado desde agora.
 
+**Cadastro de cada produto:** template e critério de avaliação de conteúdo novo em
+`uMode/00_Institucional/_protocolos/protocolo-gestao-produto.md` (criado 14 jul 2026). As 16
+pastas de produto reais **ainda não foram criadas** — depende de resolver primeiro o backlog
+"Subáreas internas da Casa por Área (nomes — contexto vem com o CEO)"; até lá, o protocolo e o
+template em `uMode/03_Produto-e-Solucoes/_template_produto/` servem para avaliar achados da
+varredura de nomenclatura legado→novo, sem criar registro real ainda.
+
 ### Nomenclatura legado → novo Portfólio (linhagem, não taxonomia paralela)
 > Esclarecido pelo Vinicius em 13 jul 2026, ainda não varrido nos arquivos reais.
 

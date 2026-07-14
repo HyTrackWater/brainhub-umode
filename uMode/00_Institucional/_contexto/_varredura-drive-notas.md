@@ -413,11 +413,193 @@ além do que a tabela de marcos (já construída a partir do metadado "Reuniões
 cobre. Por decisão do Vinicius, não lidas as 53 atas restantes — amostra de 5 foi suficiente
 para confirmar o padrão. Frente da varredura encerrada aqui.
 
+## ⭐⭐⭐⭐⭐ Varredura de nomenclatura legado→novo Portfólio (14 jul 2026)
+> Disparada pela necessidade da tela de Soluções (BrainWave task 05): o cruzamento "clientes
+> que contrataram" ficou pendente porque o dado real dos clientes usa nomes legado (`uFlow`,
+> `uRocket`...) que não batiam, sem confirmação, com os 16 nomes do Portfólio atual. Acesso
+> Drive usado nesta passada: MCP de Google Drive (`search_files`/`download_file_content`).
+
+### Base "Mapa de Clientes" (CSV completo, 49 clientes — antes só 1 linha/Lofty tinha sido lida)
+Colunas até então não vistas: `Produto`, `Módulos`, `Módulos contratados`, `Fashion AI - Escopo
+Geral`, `Fashion AI - Integração`, `uRocket - Contatos/Instâncias/Integração/Mensagens/Módulos
+Contratados`. Vocabulário legado real, extraído de valores distintos:
+**uFlow, uPlan, uBuy, uPick, uRocket, uTrack, uDash, uMetrics, ISPS, Cronograma, Fashion AI.**
+
+Cruzamento com nossos 4 clientes-piloto (`Produto` / `Módulos contratados` reais na base):
+| Cliente | Produto | Módulos contratados | ⚠ |
+|---|---|---|---|
+| Lofty Style | (vazio) | uFlow | bate com `institucional.md` atual |
+| Luiza Barcelos | uFlow | **uDash, uFlow** | `institucional.md` atual só cita "Gestão de Coleção, Integração, Relatórios" — **uDash não está registrado** |
+| Cambos | uFlow, uRocket | **uFlow, uRocket** | `institucional.md` atual só cita "Gestão de Coleção, Integração, Relatórios" — **uRocket não está registrado** |
+| Moda Objetiva | (vazio) | uFlow | bate com `institucional.md` atual |
+
+**uRocket** parece ser ferramenta de mensageria/WhatsApp (campos próprios: Contatos
+Contratados, Instâncias contratas, Mensagens Contratadas, ao lado de "Grupo do Whatsapp
+Oficial" na mesma base) — **não confirmado se corresponde a algum dos 16 itens do Portfólio ou
+é uma 17ª ferramenta fora do Portfólio documentado.** Não presumir.
+
+**Fashion AI** aparece como campo próprio (`Fashion AI - Escopo Geral` = "Padrão" pra 1
+cliente), formato de tier/pacote de serviço, não claramente uma ferramenta como as outras —
+não confundir com o conceito comercial "modo Fazemos por você" do deck Sistema-Operacional.
+
+### Base "[Produto] Backlog Geral" (CSV, 207 linhas — backlog real de features por cliente)
+Coluna `Módulo`/`Produtos` usa categorias macro (não os nomes legado nem os novos!):
+**COMPRAS, DESENVOLVIMENTO, PLANEJAMENTO, GESTÃO/CRONOGRAMA, PENDURICALHOS.** Alinhamento
+visual forte com o pipeline do Portfólio (COMPRAS↔FornecAI, DESENVOLVIMENTO↔DesenvolvAI,
+PLANEJAMENTO↔PlanejAI) — **hipótese, não confirmada pelo Vinicius.** Texto livre dentro do CSV
+também cita "uBuy" no contexto de COMPRAS ("padrão de uBuy"), reforçando a hipótese
+`uBuy ≈ COMPRAS ≈ FornecAI`, ainda sem confirmação formal.
+
+### ⭐⭐⭐⭐⭐ Repositórios reais por produto — achado maior desta passada
+Achados via busca `fullText contains 'DesenvolvAI'`: pastas `umode-desenvolvai/` e
+`umode-planejai/` (repositórios de produto reais, não conceito) e um `CLAUDE_PROJETO.md`
+completo do **CriAI** com dado estruturado que serve direto pro cadastro de Solução que a tela
+de Soluções vai precisar:
+- **Pipeline confirmado, com fonte primária de código:** `PlanejAI → CriAI → DesenvolvAI → ERP
+  Linx` (CriAI produz "ficha inicial pré-preenchida pronta para Desenvolvimento" → DesenvolvAI
+  lacra → ERP). Bate 100% com `arquitetura_umode_4.extracted.txt` já lido antes.
+- **Maturidade real, com número:** CriAI = "V0 entregue + evoluções... Robustez de produção:
+  87.75%" — é exatamente o tipo de dado que preencheria o campo `Score de maturidade` da tela
+  de Soluções (hoje `[a preencher]` em tudo). Não apliquei a nenhum MD ainda — é sinal de que
+  esse dado **existe e é extraível**, não que já decidimos o formato do campo.
+- **`uMode_DLM360_Previa_27-04.pptx`** (deck de vendas real, abr/2026) confirma a mesma lista de
+  5 módulos do ciclo (PlanejAI/CriAI/DesenvolvAI/EnriqueceAI/GerenciAI) com a mesma
+  nomenclatura do Portfólio — mais uma fonte primária confirmando os nomes atuais.
+- **`PRD_IDEACAO_NV.md`** confirma DesenvolvAI = "PLM" (ficha técnica, FUPs, compras,
+  engenharia, produção) — consistente com "DesenvolvAI = antigo uFlow" já dito pelo Vinicius.
+
+### Respostas do Vinicius (13 jul 2026) — resolve as 4 perguntas acima
+1. **`uBuy ≈ FornecAI`? Não confirmado.** "Não consigo afirmar isso. O módulo uBuy era algo
+   próximo a um módulo de gestão de carteira. Não sei se o FornecAI tem esse viés." Fica
+   **pendência explícita** (`_pendencias-gerais.md` item 10) — não presumir.
+2. **`uRocket`** = produto de mensageria (montagem de campanhas via WhatsApp). **Descontinuado.**
+   Não é um dos 16 do Portfólio — ferramenta legada encerrada (`_pendencias-gerais.md` item 11).
+3. **`uPick`** = módulo de "apostas" — bate com o valor "Apostas" já visto na coluna `Módulos`
+   da base "Mapa de Clientes". Se existir equivalente novo, seria `ApostAI`, mas **não
+   confirmado que esse item exista na lista travada de 16** — gap real, possível área/solução
+   sem contraparte formal ainda (item 12). `uTrack` = descontinuado, sem sucessor (item 13).
+   `uMetrics` = o próprio Vinicius classificou como "achismo" que nunca foi pra frente — não
+   tratar como fato (item 14). `uDash` = ferramenta de relatórios caindo em desuso com a
+   estruturação do novo sistema, sem substituto 1:1 confirmado (item 15). `ISPS` = desconhecido
+   até pelo Vinicius — não investigado (item 16).
+4. **Confirmado — aplicado.** `uDash` adicionado a `Módulos contratados` de Luiza Barcelos e
+   `uRocket` a Cambos, cada um com nota explícita de que é ferramenta legada
+   descontinuada/em desuso, não ativa hoje — ver `institucional.md` de cada um.
+
+> **Instrução do Vinicius sobre como tratar toda fonte externa daqui em diante:** "lembre que a
+> verdade absoluta em termos de organização é nossa. Todas as fontes de conteúdos serão
+> tratadas para entrar nos nossos modelos definidos e padronizados." Reforça a regra já em
+> `brainwave/CONTEXTO.md`/`CLAUDE.md`: Drive/CRM/Notion são fonte de **informação**, nunca de
+> **estrutura** — todo achado aqui passa pelo nosso próprio modelo antes de virar decisão.
+
+### Próxima rodada (autorizada pelo Vinicius, 13 jul 2026)
+Continuar puxando `CLAUDE_PROJETO.md` (ou equivalente) dos demais 15 itens do Portfólio, mesmo
+padrão do CriAI: descrição, pipeline/relações, maturidade real. Achados continuam entrando
+aqui — nenhum vira campo definitivo de MD sem reconciliação com nosso próprio modelo.
+
+### 2 produtos a mais lidos nesta rodada — achados de maturidade real (14 jul 2026)
+
+**VendeAI** — confirmado por fonte primária (`ARQUITETURA_UMODE_REF.md` do próprio repo):
+"VendeAI **NÃO está** na Arquitetura uMode V1" oficial (que cobre só 6 módulos:
+PlanejAI→CriAI→DesenvolvAI→FornecAI→EnriqueceAI→GerenciAI + CadastrAI + Hub de Agentes). Status
+real: **piloto de validação de tese com a NK** — vira módulo oficial só se a hipótese for
+validada (metas citadas: conversão sessão→venda ≥30%, NPS vendedor ≥7, NPS cliente ≥8). Sprints
+1-6 todos `⏳` (não iniciados/em andamento) no doc-fonte. **Sinal direto de maturidade "MVP" ou
+"Ideação"** (categoria que o Vinicius pediu pra tela de Soluções), não "Escalável" — mas ainda
+não é decisão nossa, é leitura do dado real.
+
+**CX Hub** — confirmado como a MESMA ferramenta operacional que já modelamos em
+`protocolo-gestao-demanda.md` (campo `Vinculada ao CX Hub?`), com maturidade real muito mais
+avançada do que o "atendimento interno" resumido em `CONTEXT.md`: "em produção e evolução
+acelerada. Fases 0–9 concluídas." Desde a Fase 7 incorporou módulo de Demandas/Tickets
+(Kanban), Projetos, Time Tracking, Pautas de Reunião e dashboards Tech/CX — bate exatamente com
+a "Taxonomia operacional (CX Hub)" que já formalizamos. **Sinal direto de maturidade
+"Escalável".**
+
+**CliprocAI** ainda não encontrado nesta rodada (0 resultados na busca combinada). Pausado
+aqui — retomar quando o Vinicius confirmar se seguimos varrendo os 12 restantes de uma vez ou
+aos poucos.
+
+## ⭐⭐⭐ Teste do template de Produto contra dado real (14 jul 2026)
+
+> Pedido do Vinicius: rodar CriAI/VendeAI/CX Hub contra `protocolo-gestao-produto.md` /
+> `_template_produto.md` **antes** de seguir varrendo os 12 itens restantes, pra ver se o
+> template aguenta o dado real. **Isto é rascunho de avaliação, não registro real** — as 16
+> pastas de produto continuam não criadas (decisão pendente do backlog de Subáreas).
+
+### CriAI (preenchimento de teste — final, 14 jul 2026)
+- Nome atual: CriAI · Nome legado: `[a preencher — nenhuma fonte lida até agora sugere linhagem]`
+- Descrição: módulo criativo de entrada do pipeline — canvas + coleta de referências + pesquisa
+  IA + bibliotecas + ideação de produto
+- Destino: Voltada ao cliente · Área conectada: Estilo/Criação · Geração: `[a preencher —
+  ausência de nome legado não é confirmação de "Nativa", só ausência de evidência]`
+- Score de maturidade: **Escalável** (regra aplicada: "V0 entregue" = sinal de entrega/produção,
+  reforçado por "Robustez de produção: 87.75%" como evidência de apoio, não como decisor) ·
+  Fonte: CLAUDE_PROJETO.md do repositório do CriAI, varredura 14 jul 2026
+- Pipeline: consome de PlanejAI (mix planejado por caixinha) · produz para DesenvolvAI (ficha
+  pré-preenchida) → ERP Linx · relacionado a VendeAI (compartilha design system/pipeline IA)
+- Clientes que contrataram: `[a preencher — não investigado; NV é cliente prioritário só do
+  submódulo de ideação dentro do CriAI, não confirmado como "contratante" do CriAI inteiro]`
+- Governança: Owner/Estratégia — João Risoléo (CEO/Diretor de Produto), confirmado na fonte ·
+  Operador — `[a preencher, não confirmado se é o próprio João ou outra pessoa]`
+
+### VendeAI (preenchimento de teste — final, 14 jul 2026)
+- Nome atual: VendeAI · Nome legado: `[a preencher]`
+- Descrição: plataforma mobile-first — vendedor cura looks, cliente decide por swipe, try-on
+  virtual com IA
+- Destino: Voltada ao cliente · Área conectada: Comercial/Vendas · Geração: `[a preencher]`
+- Score de maturidade: **MVP** (regra aplicada: arquitetura/schema definidos + piloto rodando
+  com a NK, mas explicitamente fora da Arquitetura V1 oficial e sprints ainda não concluídos —
+  não é Escalável; já passou de conceito puro, então não é Ideação) · Fonte:
+  `ARQUITETURA_UMODE_REF.md` + `CLAUDE_PROJETO.md` do repo VendeAI, varredura 14 jul 2026
+- Pipeline: consome de CadastrAI (catálogo/taxonomia) e CriAI (pipeline IA/design system) ·
+  produz para PDV/WhatsApp do varejista (fora do Portfólio interno) · relacionado a CadastrAI,
+  CriAI, e "paralelo ao GerenciAI" (posicionamento provável, ainda não confirmado)
+- Clientes que contrataram: NK (piloto) — qualificador obrigatório aplicado, distinto de uma
+  contratação formal
+- Governança: Owner/Estratégia — `[a preencher, não reafirmado explicitamente na fonte lida]` ·
+  Operador — `[a preencher]`
+
+### CX Hub (preenchimento de teste — final, 14 jul 2026)
+- Nome atual: CX Hub · Nome legado: `[a preencher]`
+- Descrição: plataforma interna de gestão de CX — centraliza interações multi-canal, classifica
+  por IA, desde a Fase 7 também opera Demandas/Tickets (Kanban), Projetos, Time Tracking, Pautas
+- Destino: Interna · Área conectada: N/A · Geração: `[a preencher]`
+- Score de maturidade: **Escalável** (leitura direta — "em produção", "Fases 0-9 concluídas") ·
+  Fonte: CLAUDE_PROJETO.md do repo CX Hub (`gist-sparkle`/`gist-insights-hub`), varredura 14 jul
+  2026
+- Pipeline: consome de múltiplos canais (WhatsApp, chat Gist, Discord, e-mail) · produz Demandas
+  internas (é o mesmo sistema do campo `Vinculada ao CX Hub?` já formalizado)
+- Adoção por cliente: **Não aplicável — produto interno, usado pela Casa para atender clientes,
+  não contratado individualmente por eles** (regra aplicada, Destino = Interna)
+- Governança: Owner/Estratégia — João Risoléo · Operador — Victor (papéis distintos, confirmados
+  na fonte)
+
+### Achados do teste — 4 ajustes decididos e aplicados (14 jul 2026)
+Os 4 pontos abaixo foram decididos pelo Vinicius e já aplicados em `protocolo-gestao-produto.md`
+e `_template_produto.md` (histórico completo em `_pendencias-gerais.md`, itens 17-20, marcados
+resolvidos):
+1. Enum de maturidade ganhou regra de tradução fixa (produção/piloto/conceito) — métrica
+   numérica é evidência de apoio, nunca decide o balde sozinha.
+2. `Clientes que contrataram` agora exige qualificador `(contratado)`/`(piloto)`.
+3. `Adoção por cliente` vira "Não aplicável" com texto fixo quando Destino = Interna.
+4. Governança separou `Owner / Estratégia` de `Operador` (repetir nome quando é a mesma pessoa).
+
+Teste validado: com as 4 regras aplicadas, os 3 preenchimentos acima ficaram completos e sem
+ambiguidade nos campos onde havia dado real — os `[a preencher]` restantes são gaps de dado
+genuínos (nome legado, operador, clientes contratantes confirmados), não falha de template.
+
+**Nenhum desses 4 achados foi aplicado ao template ainda** — registrados aqui como teste real
+contra dado real, aguardando decisão do Vinicius antes de estender `protocolo-gestao-produto.md`
+(mesma regra que o próprio protocolo define para conteúdo novo — item 2 de "Regra de avaliação").
+
 ## Pendente de explorar (mapeado mas não aberto ainda)
 - `Notion-Export/uMode Geral/Operação de Clientes/RFIs/` — pode ser redundante com o que já
   processamos em `Particular e Compartilhado/`, ou ter mais RFIs de outros clientes
-- `Notion-Export/uMode Geral/Databases/Portal do Cliente` — não aberto
-- `Notion-Export/uMode Geral/uFlow/`, `/Engenharia de Software/`, `/Produto/` — não abertos
+- `Notion-Export/uMode Geral/Databases/Portal do Cliente` — pasta mapeada (`1zV2muir7...`), CSV
+  específico ainda não aberto (14 jul 2026)
+- `uMode Geral/uFlow/Documentação de Setup - PLM/`, `/Suporte - Processos internos/`,
+  `/Onboarding Dev de Suporte/` — mapeadas (14 jul 2026), conteúdo ainda não lido
 - `Notion-Export/Projetos, Demandas & Atividades ....html` (6,9MB) — export solto de uma base
   Notion diferente de "Demandas de Clientes", título sugere tracking interno da Casa — não lido
 - `Notion-Export/Private & Shared`, `2`, `3`, `4` — não abertos, nome sugere conteúdo pessoal/
@@ -425,6 +607,9 @@ para confirmar o padrão. Frente da varredura encerrada aqui.
 - Links da Lofty ainda não abertos: pasta "Drive Operação" própria
   (`1sP7YqvkGtyoCXkk6BUZwaUzIBaK9JHXV`), planilha de OKRs, 3 páginas Notion
   ("Plano de Sucesso do Cliente - OKRs", "Dores e Soluções", "Warm Up e Kick Off")
+- `umode-desenvolvai/`, `umode-planejai/` (repositórios reais de produto) — só o `CLAUDE_PROJETO.md`
+  do CriAI foi lido até agora; os outros produtos provavelmente têm o mesmo tipo de documento
+  (arquitetura, maturidade, pipeline) — próxima rodada natural pra popular a tela de Soluções
 
 ## Observações abertas
 - Existe uma **segunda taxonomia de área/diretoria** (a do organograma: CEO/Tecnologia/
@@ -439,3 +624,80 @@ para confirmar o padrão. Frente da varredura encerrada aqui.
 - Achamos confirmação de que **CX Hub está ativamente substituindo o Linear** — reforça a
   decisão já tomada de não modelar campos do Linear no nosso padrão (é uma ferramenta em
   extinção internamente).
+
+## ⭐⭐⭐⭐⭐ Inventário completo de repositórios reais (14 jul 2026)
+
+Achado maior: em vez de buscar produto por produto, achei a pasta-mãe de todos os repositórios
+(`parentId 1coy8P-TyyQ1sA1j-nnsVFgY81UIWGbX2`) e listei o conteúdo inteiro de uma vez — muito
+mais eficiente, e revela **se um produto tem repositório próprio ou não**, que já é sinal direto
+de maturidade pela regra travada em `protocolo-gestao-produto.md`.
+
+### Repositórios que batem com item do Portfólio (confirmados)
+| Repositório real | Item do Portfólio |
+|---|---|
+| `umode-planejai` | PlanejAI |
+| `CriAI` | CriAI |
+| `umode-desenvolvai` | DesenvolvAI |
+| `umode-vendeai` | VendeAI (fora da Arquitetura V1 oficial, já registrado acima) |
+| `gist-sparkle` (+ `gist-insights-hub_ARQUIVADO`, legado a arquivar) | CX Hub |
+| `umode-gesthub` | Gest Hub |
+| `umode-gest-o-de-opera-o-2f6bdc59` | ONB HUB (codinome — já confirmado antes via `launch.json`) |
+| `integration-pulse-check-e914756f` (+ `integration-pulse-check_ARQUIVADO`) | IntHub |
+| `taxonomia_v1` | Taxonomia (pasta existe; conteúdo com `CLAUDE_PROJETO.md` ainda não encontrado nesta rodada) |
+
+### Sem repositório encontrado nesta rodada — candidato a maturidade "Ideação"
+`FornecAI`, `EnriqueceAI`, `GerenciAI`, `AlocAI`, `CliprocAI`, `Sales Hub` — nenhum apareceu como
+repositório próprio na pasta-mãe. Pela regra do protocolo ("Ideação = só conceito/tese, sem
+arquitetura técnica nem repositório próprio ainda"), isso é evidência forte de Ideação — **mas
+não é confirmação**: pode existir repositório noutro lugar do Drive não mapeado ainda, ou o
+produto pode estar registrado só no Notion. Não classifiquei nenhum desses 6 como Ideação
+sozinho — fica pendência.
+
+### `CadastrAI` — candidato forte, não confirmado por nome exato
+`catalogcraft-ai` (pasta) = `umode-catalog-ai` (nome interno, confirmado dentro do próprio
+`CLAUDE_DIRETOR.md`) — descrição bate conceitualmente com CadastrAI ("núcleo de governança de
+dados", multi-tenancy, isolamento por org) e tem **uso real confirmado com cliente real**: "Luiza
+Barcelos, 48 grupos, 710+ atributos". Mas o documento nunca usa literalmente o nome "CadastrAI"
+no trecho lido — não decidi a correspondência sozinho, fica pendência (mesma regra de nome
+legado: achar parecido não é confirmar).
+
+### Nomes novos achados, fora dos 16 do Portfólio — não adicionados sozinho
+A pasta-mãe também revelou repositórios que **não correspondem a nenhum dos 16 itens
+documentados em `CONTEXT.md`**: `CopAI`, `umode-identidade`, `umode-design-guardian`,
+`journey-insight-whisper`, `u-mode-blueprint`. Regra do protocolo é clara: não inventar um 17º
+item do Portfólio sem confirmação explícita — cada um desses fica registrado como pergunta em
+aberto, não como Solução nova.
+
+### `umode-brainhub-console` — aberto e lido (14 jul 2026): NÃO é a plataforma BrainWave
+Hipótese inicial (nome parecido) **descartada por conteúdo real**. É um app interno já em uso —
+React 19 + TanStack Start/Router + Cloudflare + Bun, com API local (`server/api.ts`) e front
+(Vite :8080). Rotas reais: `/`, `/aprovacoes`, `/codigo`, `/cores`, `/espacamento`, `/frota`,
+`/logos`, `/padroes`, `/tipografia`, `/treinos` — é um **console de operação/design system**,
+não a plataforma uMode/Clientes/Soluções/Demandas/RFIs/Agentes que estamos desenhando nas tasks
+01-05 do BrainWave.
+
+**Achado relevante por tabela cruzada:** o backend lê uma pasta local `~/Documents/uMode-OS/
+frota/` com `frota.json` (lista de agentes), `decisoes.log`, e **`_DRIFT_REPORT.md`** — essa
+última é confirmação real e viva do guardrail "Drift Sweep" já registrado como conceito em
+`CONTEXT.md` → "Sistema Operacional uMode" (a partir do Mapa-mãe, nunca confirmado como
+implementado até agora). O "Console" monitora o "frota" de agentes via `launchctl` (processos
+macOS) — é a camada "Dentro" (fábrica) do Sistema Operacional descrito no Mapa-mãe, em produção
+real, separada do Portfólio de produtos.
+
+**Risco de colisão de nome a não confundir:** "BrainHub Console" (este app, interno, monitora
+agentes/design system) ≠ "BrainHub" (nosso projeto — o cérebro institucional documentado aqui).
+Nomes parecidos, produtos diferentes — mesma disciplina de não fundir por semelhança de nome.
+
+### Perguntas em aberto desta rodada (decisão do Vinicius)
+1. Os 6 sem repositório (FornecAI, EnriqueceAI, GerenciAI, AlocAI, CliprocAI, Sales Hub) são
+   mesmo Ideação, ou têm repositório em outro lugar do Drive não mapeado ainda?
+2. `catalogcraft-ai`/`umode-catalog-ai` é o CadastrAI?
+3. O que são `CopAI`, `umode-identidade`, `umode-design-guardian`, `journey-insight-whisper`,
+   `u-mode-blueprint`? Pertencem ao Portfólio (17º+ item, precisaria reabrir a decisão travada em
+   `CONTEXT.md`) ou são projetos paralelos fora do escopo desta varredura?
+4. ~~`umode-brainhub-console` é o repositório real da plataforma BrainHub/BrainWave?~~
+   **Respondido, 14 jul 2026: não é.** É um console interno de operação/design system (rotas
+   `/frota`, `/aprovacoes`, `/cores`, `/tipografia` etc.), com backend lendo `uMode-OS/frota/`
+   local — confirma o guardrail "Drift Sweep" do Sistema Operacional como implementado de
+   verdade, não só conceito. Risco de colisão de nome com nosso próprio projeto "BrainHub" —
+   registrado acima, não fundir.

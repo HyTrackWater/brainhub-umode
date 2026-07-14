@@ -34,6 +34,9 @@ Ongoing
 - Gestão de Coleção
 - Integração
 - Relatórios
+- uRocket (ferramenta legada de mensageria/campanhas via WhatsApp — confirmado como
+  contratado na base "Mapa de Clientes" do CRM, achado em 14 jul 2026; segundo o Vinicius, o
+  produto foi **descontinuado** — contratação histórica, não ferramenta ativa hoje)
 - Confirmado via CRM: produto uFlow + uRocket · 20 usuários internos contratados · 3
   Relatórios
 ### ERP / Integração

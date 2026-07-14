@@ -12,13 +12,16 @@
 [casa/área/subárea/pessoa responsável]
 ### Data de abertura
 ### Status (interno)
-[Aberta / Em andamento / Concluída / Cancelada — ver protocolo-gestao-demanda.md. Se Vinculada
-ao CX Hub? = Sim, "Concluída" significa que o card foi criado e vinculado, não que o trabalho
-foi executado — a execução é acompanhada pelo Status do CX Hub, abaixo]
+[Aberta / Em andamento / Concluída / Cancelada — ver protocolo-gestao-demanda.md. Se Vinculada?
+= Sim, "Concluída" significa que o registro foi criado e vinculado, não que o trabalho foi
+executado — a execução é acompanhada pelo Status do sistema vinculado, abaixo]
 
 ## Taxonomia CX Hub
-### Vinculada ao CX Hub?
-[Não — padrão pra demanda nova/interna / Sim — ID: XXXX]
+### Vinculada?
+[Não — padrão pra demanda nova/interna / Sim]
+### Vínculo
+[lista, uma ou mais entradas — formato "Sistema — ID: XXXX", ex.: "CX Hub — ID: UMD-317". Só
+preenchido quando Vinculada? = Sim]
 ### Quadro
 [Operação / Tech]
 ### Área (CX Hub)

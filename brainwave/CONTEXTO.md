@@ -45,7 +45,12 @@ integração, particularidades por cliente). Travado como decisão em aberto em 
 entidade nem inventar seus campos até o protocolo existir — a tela de Soluções (task 05) já
 prevê o link, mas com o clique reservado/placeholder.
 
-## As 6 abas de navegação
+## As 5 abas de navegação
+
+**Alterado em 14 jul 2026 (task 06, confirmada pelo Vinicius):** a aba **RFIs** deixou de ser
+aba de topo. RFI passa a ser um campo/seção dentro do detalhe da Demanda (só aparece quando a
+demanda tem `RFI vinculada` preenchido) — nunca criada do zero, sempre nasce de dentro de uma
+Demanda, então não fazia sentido ter navegação própria. Ver `brainwave/06-demandas.md`.
 
 **Alterado em 13 jul 2026 (task 03, confirmada pelo Vinicius):** "Instituições" e "Pessoas"
 deixaram de ser abas de topo independentes. No lugar, existem duas abas de topo — **uMode** e
@@ -75,16 +80,17 @@ sem necessidade de escolha. Ver `brainwave/04-seletor-cliente-ativo.md` pro prom
 | **Clientes** ↳ Subáreas | *(desabilitada — sem template/dado ainda)* | — | — | — |
 | **Clientes** ↳ Pessoas | Pessoas listadas em `pessoas.md` do cliente ativo, em cartão (nome/email/área), com filtro opcional por Área (task 04) | *(tela de detalhe ainda não construída — fora do escopo da task 03)* | — | Nova ficha — `protocolo-gestao-pessoas.md` |
 | **Soluções** (renomeada de "Produtos" na task 05) | Os 16 do Portfólio (`CONTEXT.md` → "Decisão: camada Produto na hierarquia") — grade única, filtros combináveis: Destino (Cliente/Interna) · Geração (Legado/Nativa) · Maturidade (Escalável/MVP/Ideação, campo novo, tudo `[a preencher]`) | Descrição · Nome legado (se houver — ver "Nomenclatura legado → novo Portfólio" em `CONTEXT.md`) · Área conectada (`conecta_area_cliente`) · Clientes que contrataram (**pendente** — cruzamento legado→novo ainda não confiável, ver Decisões em aberto) | Área · Agentes que rodam nele (ver Agentes) · futuramente, relação Solução×Cliente (entidade ainda não formalizada) | Não é fluxo de uso comum — Portfólio é decisão travada |
-| **Demandas** | Feed conversacional, Casa + todos os clientes | A demanda renderizada como conversa — cada linha da tabela `Marcos` (append-only) vira uma mensagem na thread | Cliente/Área (Origem/Destino organizacional) · RFI vinculada · MD impactado · card no CX Hub (se `Vinculada ao CX Hub? = Sim`) | Pessoa **ou agente** abre — mecanismo já formalizado em `protocolo-gestao-demanda.md` |
-| **RFIs** | Por cliente, com dado comercial (horas, valor) | Escopo, comercial, aprovação de escopo | Demanda de origem (sempre exatamente 1, nunca solta) | Nasce sempre de dentro de uma Demanda — nunca criada do zero |
+| **Demandas** | Lista com filtros (não grade — Status interno, "aguardando minha aprovação" em destaque, Natureza, Vinculada?, Instituição), Casa + todos os clientes | Identificação/Conteúdo · Aprovação de contexto em destaque (aprovar/reprovar) · Marcos como thread cronológica · Taxonomia do sistema vinculado (só quando `Vinculada? = Sim`) · **RFI dobrada aqui dentro** (resumo de escopo/comercial/aprovação quando `RFI vinculada` existe — RFIs não é mais aba própria, ver task 06) | Cliente/Área (Origem/Destino organizacional) · MD impactado · sistema(s) vinculado(s) (campo `Vínculo`, pode ser CX Hub ou outro no futuro) | Pessoa **ou agente** abre — mecanismo já formalizado em `protocolo-gestao-demanda.md` |
 | **Agentes** | *(entidade ainda não formalizada — ver seção abaixo)* | — | Produto e/ou Área onde roda · Demandas que abriu como Criador | — |
 
 ## O mecanismo central: Demanda como fluxo conversacional e de aprovação
 
 Toda demanda nasce **interna** (BrainHub — manter o ecossistema/contexto atualizado), aberta
-por uma pessoa **ou por um agente de área** fazendo uma "conferência". Ela só vira um card real
-no CX Hub depois, se o que for encontrado exigir trabalho operacional rastreável lá — isso é
-opcional e hoje é manual (campo `Vinculada ao CX Hub?`, Não por padrão).
+por uma pessoa **ou por um agente de área** fazendo uma "conferência". Ela só vira um registro
+real em algum sistema depois (hoje só o CX Hub tem taxonomia própria), se o que for encontrado
+exigir trabalho operacional rastreável lá — isso é opcional e hoje é manual (campo `Vinculada?`,
+Não por padrão; quando Sim, `Vínculo` guarda um ou mais sistemas — generalizado em 14 jul 2026
+porque o destino depende da cadeira/área do colaborador, não é sempre CX Hub).
 
 Fluxo de aprovação (já formalizado em `protocolo-gestao-demanda.md`, seção "Mecanismo de
 aprovação e retroalimentação" — a tela só precisa dar interface a isso, não reinventar):

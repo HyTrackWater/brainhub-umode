@@ -167,9 +167,9 @@
 
 ## Próximas atividades (fila da Sprint 02)
 1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md`, `brainwave/02-home.md`,
-   `brainwave/03-uMode-e-clientes.md`, `brainwave/04-seletor-cliente-ativo.md` e
-   `brainwave/05-solucoes.md` enviados, todos aguardando o Vinicius trazer o `## Resultado`
-   formal de volta pra registrar aqui. A tarefa 03 reestrutura o menu principal (remove as abas
+   `brainwave/03-uMode-e-clientes.md`, `brainwave/04-seletor-cliente-ativo.md`,
+   `brainwave/05-solucoes.md` e `brainwave/06-demandas.md` enviados, todos aguardando o Vinicius
+   trazer o `## Resultado` formal de volta pra registrar aqui. A tarefa 03 reestrutura o menu principal (remove as abas
    soltas "Instituições" e "Pessoas", cria "uMode" e "Clientes", cada uma com 4 sub-abas:
    Instituições/Áreas/Subáreas(desabilitada)/Pessoas, com "cliente ativo" escopando Áreas/Pessoas
    dentro da aba Clientes) — conteúdo validado pelo Vinicius em 13 jul 2026. Ao navegar no
@@ -182,24 +182,102 @@
    pendente/placeholder (ver "Decisões em aberto" abaixo — entidade Solução×Cliente ainda não
    formalizada). `brainwave/CONTEXTO.md` (tabela de navegação) já atualizado pra refletir as
    tarefas 03, 04 e 05.
-2. Preencher `contexto-area.md` real das 14 áreas em pelo menos 1 cliente-piloto (gap achado na
+2. **Varredura de nomenclatura legado→novo Portfólio — em andamento (14 jul 2026).** Achados
+   registrados em `_varredura-drive-notas.md`. Base "Mapa de Clientes" completa (49 clientes,
+   não só 1) revelou `uDash` (Luiza Barcelos) e `uRocket` (Cambos) contratados — **já
+   corrigido** nos `institucional.md` reais, cada um com nota de que é ferramenta legada
+   descontinuada/em desuso. Vocabulário legado levantado: uFlow, uPlan, uBuy, uPick, uRocket,
+   uTrack, uDash, uMetrics, ISPS, Cronograma, Fashion AI — respostas do Vinicius (13 jul 2026)
+   registradas: uRocket e uTrack descontinuados; uPick = módulo "apostas" (candidato `ApostAI`
+   se existir, não confirmado); uMetrics e ISPS incertos/desconhecidos; `uBuy ≈ FornecAI`
+   **pendência explícita, não confirmada** — tudo formalizado em `_pendencias-gerais.md` itens
+   10-16, com nota de que uma futura varredura de triagem (CEO/Operação/etc.) vai dar dono a
+   cada item. Repositórios reais de produto encontrados (`umode-desenvolvai/`,
+   `umode-planejai/`, + outros): CriAI (maturidade real "87.75% robustez"), VendeAI (confirmado
+   **fora** da Arquitetura uMode V1 oficial — só piloto de tese com a NK, sinal de maturidade
+   MVP/Ideação), CX Hub (confirmado "Fases 0-9 concluídas, em produção" — sinal de maturidade
+   Escalável, e é literalmente a mesma ferramenta operacional do campo `Vinculada ao CX Hub?`).
+   **Protocolo + template de Produto criados (14 jul 2026)** — pedido do Vinicius, pra usar como
+   critério de avaliação antes de continuar puxando os 12 itens restantes do Portfólio:
+   `uMode/00_Institucional/_protocolos/protocolo-gestao-produto.md` +
+   `uMode/03_Produto-e-Solucoes/_template_produto/_contexto/produto.md` (mesma convenção de
+   `_template_cliente/`). Campos: Identificação (nome atual/legado/descrição/destino/área
+   conectada/geração), Maturidade (score + fonte e data — nunca solto), Pipeline e relações
+   (upstream/downstream/módulos relacionados), Adoção por cliente (lista simples — detalhe de
+   condução fica pra futura entidade Solução×Cliente), Marcos (append-only), Governança, Fontes.
+   **Decisão explícita: as 16 pastas de produto reais não foram criadas ainda** — depende do
+   backlog "Subáreas internas da Casa por Área" (nomes vêm do CEO), item 3 abaixo. `CONTEXT.md`
+   já referencia o novo protocolo na seção "Decisão: camada Produto na hierarquia".
+   **Teste do template contra dado real (14 jul 2026) — 4 ajustes decididos e aplicados.**
+   CriAI, VendeAI e CX Hub preenchidos como rascunho (não registro real, pastas de produto ainda
+   não existem) em `_varredura-drive-notas.md`. Os 4 gaps achados no teste foram resolvidos pelo
+   Vinicius e aplicados em `protocolo-gestao-produto.md` + `_template_produto.md`
+   (`_pendencias-gerais.md` itens 17-20, marcados resolvidos): (a) Score de maturidade ganhou
+   regra de tradução fixa (produção→Escalável / piloto com arquitetura definida→MVP /
+   conceito→Ideação; métrica numérica é só evidência de apoio) — aplicada: CriAI=Escalável,
+   VendeAI=MVP, CX Hub=Escalável; (b) `Clientes que contrataram` agora exige qualificador
+   `(contratado)`/`(piloto)` — ex.: "NK (piloto)" pra VendeAI; (c) `Adoção por cliente` vira
+   texto fixo "Não aplicável" quando Destino = Interna; (d) Governança separou `Owner /
+   Estratégia` de `Operador` (CX Hub: João Risoléo × Victor). Template e protocolo agora
+   refletem a versão testada — próximo passo é retomar a varredura dos 12 itens restantes do
+   Portfólio já com essas regras em uso.
+   **Inventário completo de repositórios reais achado (14 jul 2026)** — em vez de buscar
+   produto por produto, achei a pasta-mãe de todos os repositórios (`_varredura-drive-notas.md`
+   → "Inventário completo de repositórios reais"). Confirma repositório próprio pra 9 dos 16
+   itens (PlanejAI, CriAI, DesenvolvAI, VendeAI, CX Hub, Gest Hub, ONB HUB, IntHub, Taxonomia —
+   este último só a pasta, conteúdo não lido ainda). **6 itens sem repositório encontrado**
+   (FornecAI, EnriqueceAI, GerenciAI, AlocAI, CliprocAI, Sales Hub) — candidato forte a
+   maturidade Ideação pela regra do protocolo, mas não confirmado sozinho. CadastrAI tem
+   candidato forte (`catalogcraft-ai`/`umode-catalog-ai`, uso real com Luiza Barcelos), mas nome
+   exato não confirmado no documento. Achados **5 repositórios fora dos 16 do Portfólio**
+   (`CopAI`, `umode-identidade`, `umode-design-guardian`, `journey-insight-whisper`,
+   `u-mode-blueprint`). **`umode-brainhub-console` aberto e lido (14 jul 2026): NÃO é a
+   plataforma BrainHub/BrainWave que estamos desenhando** — hipótese descartada por conteúdo
+   real. É um console interno de operação/design system já em uso (rotas `/frota`,
+   `/aprovacoes`, `/cores`, `/tipografia`...), cujo backend lê `~/Documents/uMode-OS/frota/`
+   local — **confirma que o guardrail "Drift Sweep" do Sistema Operacional uMode
+   (`CONTEXT.md`) está implementado de verdade**, não é só conceito. Risco de colisão de nome
+   registrado: "BrainHub Console" (este app) ≠ "BrainHub" (nosso projeto) — não fundir. Nenhum
+   dos nomes novos foi adicionado ao Portfólio sozinho — tudo pergunta em aberto pro Vinicius.
+   **Sinal de maturidade adicional registrado no protocolo** (confirmado pelo Vinicius):
+   repositório fora da conta GitHub principal da uMode (organização paralela) é evidência de
+   apoio a favor de `MVP` — múltiplas contas GitHub em uso é esperado, não estranhar.
+   **Confirmação de repositórios reais virou pendência formal** (`_pendencias-gerais.md` item
+   21) — é atividade manual do Vinicius, sem prazo definido; a varredura desse ponto específico
+   não avança sozinha até a devolução chegar. Frente de Soluções/Portfólio pausada aqui.
+
+   **Tarefa 06 — aba Demandas, com RFI dobrada dentro (14 jul 2026).** A aba "RFIs" deixou de
+   ser aba de topo — RFI vira seção dentro do detalhe da Demanda (só aparece quando `RFI
+   vinculada` existe). Conceito central da tela: toda atividade de colaborador nasce como
+   Demanda; a fila "Aguardando minha aprovação" é o filtro mais importante (aprovar/reprovar em
+   destaque no detalhe). **Campo generalizado**: `Vinculada ao CX Hub?` (binário) virou
+   `Vinculada?` (Sim/Não) + `Vínculo` (lista, aceita mais de um sistema) — decisão do Vinicius
+   pra já comportar destinos além do CX Hub no futuro (ex.: Vendas), sem esperar o caso real
+   aparecer. Aplicado em `protocolo-gestao-demanda.md`, nos 2 templates, e retrofitado nas 236
+   demandas reais via `scripts/retrofit-vinculada-generico.ps1` (0 divergências na revalidação
+   de headings). `brainwave/CONTEXTO.md` atualizado: 6 abas → 5, mecanismo de aprovação e tabela
+   de navegação refletindo `Vinculada?`/`Vínculo`. Duas notas de visão registradas no protocolo
+   (não construídas agora): destino de demanda pode variar por cadeira/área do colaborador (não
+   só CX Hub); canais futuros de abastecimento de demanda (Discord, transcrição de reunião,
+   upload de arquivo, inserção manual processada por agente).
+3. Preencher `contexto-area.md` real das 14 áreas em pelo menos 1 cliente-piloto (gap achado na
    auditoria final de 10 jul — 0 de 56 combinações cliente×área preenchidas hoje; exige dado
    real por área, não dá para formalizar sem levantamento novo)
-3. Decidir com o Vinicius: formalizar o variante 1ª-pessoa de `contexto-area.md` das 8 Áreas da
+4. Decidir com o Vinicius: formalizar o variante 1ª-pessoa de `contexto-area.md` das 8 Áreas da
    Casa como template próprio (`_pendencias-gerais.md` item 8)
-4. Definir a escala/critério de triagem do campo `Nível HIC` (Pessoa) — hoje só o campo existe
-5. Continuar a varredura Google Drive com foco em ferramentas internas × Áreas — próximos
+5. Definir a escala/critério de triagem do campo `Nível HIC` (Pessoa) — hoje só o campo existe
+6. Continuar a varredura Google Drive com foco em ferramentas internas × Áreas — próximos
    destinos: pasta Drive própria de Lofty, 3 páginas Notion linkadas no CRM
-6. Revisar com o Vinicius as pendências centralizadas em `_pendencias-gerais.md` (9 itens):
+7. Revisar com o Vinicius as pendências centralizadas em `_pendencias-gerais.md` (9 itens):
    Cadeira×Área (3 taxonomias diferentes), `Área (CX Hub)`="OPERAÇÃO" sem match, Tamanho
    atendimento×Grupo de segmentação, Taís Moser (uMode ou cliente?), "Laura" da Alocação
    contratual, `### ERP`/`### Notion` em Luiza Barcelos, CRM desatualizado, os 2 achados da
    auditoria final (itens 8 e 9)
-7. Cadastrar cliente 5 e fechar validação do template com 5 cases (retomado após o piloto
+8. Cadastrar cliente 5 e fechar validação do template com 5 cases (retomado após o piloto
    de demandas)
-8. Montar simulação de fluxos para apresentação 17/07
-9. Decidir sobre o formulário de personificação de Pessoas (Lovable) — campos documentáveis
-   já estão preenchidos nas 4 fichas existentes; falta só a parte de personificação
+9. Montar simulação de fluxos para apresentação 17/07
+10. Decidir sobre o formulário de personificação de Pessoas (Lovable) — campos documentáveis
+    já estão preenchidos nas 4 fichas existentes; falta só a parte de personificação
 
 ## Backlog (não priorizado / aguardando a fila andar)
 - Subáreas internas da Casa por Área (nomes — contexto vem com o CEO)
