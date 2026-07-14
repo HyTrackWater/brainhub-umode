@@ -293,24 +293,37 @@
    (não construídas agora): destino de demanda pode variar por cadeira/área do colaborador (não
    só CX Hub); canais futuros de abastecimento de demanda (Discord, transcrição de reunião,
    upload de arquivo, inserção manual processada por agente).
-3. Preencher `contexto-area.md` real das 14 áreas em pelo menos 1 cliente-piloto (gap achado na
-   auditoria final de 10 jul — 0 de 56 combinações cliente×área preenchidas hoje; exige dado
-   real por área, não dá para formalizar sem levantamento novo)
-4. Decidir com o Vinicius: formalizar o variante 1ª-pessoa de `contexto-area.md` das 8 Áreas da
-   Casa como template próprio (`_pendencias-gerais.md` item 8)
-5. Definir a escala/critério de triagem do campo `Nível HIC` (Pessoa) — hoje só o campo existe
+3. **Preencher `contexto-area.md` real de 1 área de 1 cliente-piloto — tentado, bloqueado em 14
+   jul 2026.** Fonte mais promissora (pasta "Drive Operação" própria de Lofty Style,
+   `1sP7YqvkGtyoCXkk6BUZwaUzIBaK9JHXV`, já mapeada em varredura anterior) **não está mais
+   acessível** (`get_file_metadata` retornou "entidade não encontrada" — permissão revogada ou
+   pasta movida/removida). A pasta de atas gerais (`Cronograma e Relatórios`) mistura todos os
+   clientes sem filtro por título — abrir atas uma a uma pra achar conteúdo real de uma área
+   específica de Lofty é exploração grande, não faço sem alinhar com o Vinicius antes. Continua
+   pendente — não inventei conteúdo pra fechar isso.
+4. ~~Decidir com o Vinicius: formalizar o variante 1ª-pessoa de `contexto-area.md` das 8 Áreas da
+   Casa como template próprio~~ — **✅ resolvido em 14 jul 2026.**
+   `uMode/00_Institucional/_contexto/_template_contexto_area_casa.md` criado, validado por diff
+   contra as 8 áreas reais (0 divergências), registrado em `CONTEXT.md`. `_pendencias-gerais.md`
+   item 8 marcado resolvido.
+5. Definir a escala/critério de triagem do campo `Nível HIC` (Pessoa) — hoje só o campo existe.
+   **Backlog confirmado pelo Vinicius em 14 jul 2026: importante, mas não mexer agora.**
 6. Continuar a varredura Google Drive com foco em ferramentas internas × Áreas — próximos
-   destinos: pasta Drive própria de Lofty, 3 páginas Notion linkadas no CRM
-7. Revisar com o Vinicius as pendências centralizadas em `_pendencias-gerais.md` (9 itens):
-   Cadeira×Área (3 taxonomias diferentes), `Área (CX Hub)`="OPERAÇÃO" sem match, Tamanho
-   atendimento×Grupo de segmentação, Taís Moser (uMode ou cliente?), "Laura" da Alocação
-   contratual, `### ERP`/`### Notion` em Luiza Barcelos, CRM desatualizado, os 2 achados da
-   auditoria final (itens 8 e 9)
+   destinos: 3 páginas Notion linkadas no CRM (pasta própria de Lofty não está mais acessível,
+   ver item 3 acima)
+7. Revisar com o Vinicius as pendências centralizadas em `_pendencias-gerais.md` (agora 20
+   itens vivos, itens 8 e 17-20 já resolvidos): Cadeira×Área (3 taxonomias diferentes),
+   `Área (CX Hub)`="OPERAÇÃO" sem match, Tamanho atendimento×Grupo de segmentação, Taís Moser
+   (uMode ou cliente?), "Laura" da Alocação contratual, `### ERP`/`### Notion` em Luiza
+   Barcelos, CRM desatualizado, `contexto-area.md` de cliente vazio (item 9), nomenclatura
+   legado→novo do Portfólio (itens 10-16), repositórios reais (item 21). **Backlog confirmado
+   pelo Vinicius em 14 jul 2026: importante, mas não mexer agora.**
 8. Cadastrar cliente 5 e fechar validação do template com 5 cases (retomado após o piloto
    de demandas)
 9. Montar simulação de fluxos para apresentação 17/07
 10. Decidir sobre o formulário de personificação de Pessoas (Lovable) — campos documentáveis
-    já estão preenchidos nas 4 fichas existentes; falta só a parte de personificação
+    já estão preenchidos nas 4 fichas existentes; falta só a parte de personificação.
+    **Backlog confirmado pelo Vinicius em 14 jul 2026: importante, mas não mexer agora.**
 
 ## Backlog (não priorizado / aguardando a fila andar)
 - Subáreas internas da Casa por Área (nomes — contexto vem com o CEO)

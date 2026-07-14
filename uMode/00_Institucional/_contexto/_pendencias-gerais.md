@@ -112,20 +112,12 @@
 
 ## Estrutura de documento (achados da auditoria final de 10 jul 2026)
 
-8. **`contexto-area.md` das 8 Áreas internas da Casa difere consistentemente do template usado
-   pelas 14 Áreas de cliente** — mesma divergência nas 8, sem exceção: "Como trabalham"/"O que
-   não fazem" (3ª pessoa, template de cliente) vira "Como trabalhamos"/"O que não fazemos" (1ª
-   pessoa, faz sentido para área interna da própria Casa); a seção `## Produto conectado`
-   inteira não existe nas 8 áreas da Casa; e `### Responsável na empresa cliente` +
-   `### Responsável de atendimento (uMode)` (2 campos, um por lado) vira só
-   `### Responsável pela área` (1 campo, sem "lado cliente" porque não existe). Consistência
-   perfeita nas 8 sugere decisão deliberada de uma sessão anterior, mas **nunca foi formalizada
-   como um template próprio** (`_template_contexto_area_casa.md` ou similar) — hoje o único
-   template escrito em disco é o de cliente, e a Casa diverge dele sem documento-fonte. Decisão
-   pendente: formalizar o variante da Casa como template oficial (replicando a mesma estrutura
-   já usada nas 8, sem alterar conteúdo real) ou conformar as 8 áreas da Casa ao template de
-   cliente (o que exigiria inventar "Produto conectado" e "Responsável na empresa cliente" para
-   áreas que não têm cliente — parece semanticamente errado).
+8. ~~`contexto-area.md` das 8 Áreas internas da Casa difere consistentemente do template usado
+   pelas 14 Áreas de cliente~~ — **✅ resolvido em 14 jul 2026.** Formalizado como template
+   oficial (opção já esperada, sem alterar conteúdo real das 8 áreas):
+   `uMode/00_Institucional/_contexto/_template_contexto_area_casa.md`, registrado em
+   `CONTEXT.md` → "Áreas internas — nomes". Validado por diff de headings contra as 8 áreas
+   reais — 0 divergências.
 9. **`contexto-area.md` não existe em nenhuma das 14 áreas de nenhum dos 4 clientes-piloto
    (Lofty Style, Cambos, Luiza Barcelos, Moda Objetiva) — 0 de 14 em cada um, 0 de 56 no
    total.** As pastas `_contexto/` de cada área existem (estrutura de pastas criada na Sessão

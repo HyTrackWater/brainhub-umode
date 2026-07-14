@@ -127,6 +127,16 @@ qual estrutura ele vem:
 > Só os nomes nesta fase. O contexto de cada área será definido depois, com o CEO.
 > Institucional **não é uma área** — é o nível 1 da hierarquia (identidade, voz, marca,
 > governança). Não aparece na lista de áreas operacionais.
+
+**Template do `contexto-area.md` da Casa — formalizado em 14 jul 2026** (resolve
+`_pendencias-gerais.md` item 8). As 8 áreas internas já convergiam pra uma variante em 1ª
+pessoa, consistente nas 8, nunca registrada como template oficial — agora está em
+`uMode/00_Institucional/_contexto/_template_contexto_area_casa.md`. Diferenças em relação ao
+template de cliente (`_template_cliente/.../contexto-area.md`): "Como trabalhamos"/"O que não
+fazemos" (1ª pessoa, não "Como trabalham"/"O que não fazem"); sem seção `## Produto conectado`
+(áreas internas não têm produto de cliente conectado); Governança com um só campo `Responsável
+pela área` (não dois, já que não existe "lado cliente"). Validado por diff de headings contra as
+8 áreas reais — 0 divergências.
 1. **Comercial** — engloba marketing, branding e vendas
 2. **Atendimento** — CS, relacionamento e saúde de contas de clientes
 3. **Produto & Soluções** — PRDs, features e builds (ex.: Lovable)
