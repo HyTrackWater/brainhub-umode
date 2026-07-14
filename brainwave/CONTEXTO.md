@@ -80,8 +80,8 @@ sem necessidade de escolha. Ver `brainwave/04-seletor-cliente-ativo.md` pro prom
 | **Clientes** ↳ Subáreas | *(desabilitada — sem template/dado ainda)* | — | — | — |
 | **Clientes** ↳ Pessoas | Pessoas listadas em `pessoas.md` do cliente ativo, em cartão (nome/email/área), com filtro opcional por Área (task 04) | *(tela de detalhe ainda não construída — fora do escopo da task 03)* | — | Nova ficha — `protocolo-gestao-pessoas.md` |
 | **Soluções** (renomeada de "Produtos" na task 05) | Os 16 do Portfólio (`CONTEXT.md` → "Decisão: camada Produto na hierarquia") — grade única, filtros combináveis: Destino (Cliente/Interna) · Geração (Legado/Nativa) · Maturidade (Escalável/MVP/Ideação, campo novo, tudo `[a preencher]`) | Descrição · Nome legado (se houver — ver "Nomenclatura legado → novo Portfólio" em `CONTEXT.md`) · Área conectada (`conecta_area_cliente`) · Clientes que contrataram (**pendente** — cruzamento legado→novo ainda não confiável, ver Decisões em aberto) | Área · Agentes que rodam nele (ver Agentes) · futuramente, relação Solução×Cliente (entidade ainda não formalizada) | Não é fluxo de uso comum — Portfólio é decisão travada |
-| **Demandas** | Lista com filtros (não grade — Status interno, "aguardando minha aprovação" em destaque, Natureza, Vinculada?, Instituição), Casa + todos os clientes | Identificação/Conteúdo · Aprovação de contexto em destaque (aprovar/reprovar) · Marcos como thread cronológica · Taxonomia do sistema vinculado (só quando `Vinculada? = Sim`) · **RFI dobrada aqui dentro** (resumo de escopo/comercial/aprovação quando `RFI vinculada` existe — RFIs não é mais aba própria, ver task 06) | Cliente/Área (Origem/Destino organizacional) · MD impactado · sistema(s) vinculado(s) (campo `Vínculo`, pode ser CX Hub ou outro no futuro) | Pessoa **ou agente** abre — mecanismo já formalizado em `protocolo-gestao-demanda.md` |
-| **Agentes** | *(entidade ainda não formalizada — ver seção abaixo)* | — | Produto e/ou Área onde roda · Demandas que abriu como Criador | — |
+| **Demandas** | **Tabela compacta** (task 07 — antes era lista de cartões), colunas: Título/Natureza/Origem→Destino/Status interno/Vinculada?/RFI/Data, Casa + todos os clientes. Filtros em chip continuam (Status interno, "aguardando minha aprovação" em destaque, Natureza, Vinculada?, Instituição) | Identificação/Conteúdo · Aprovação de contexto em destaque (aprovar/reprovar) · **Reatribuir** (task 07 — troca Responsável/Destino, gera Marco automático) · Marcos como thread cronológica formal · **Conversas** (task 07 — chat informal, separado dos Marcos) · Taxonomia do sistema vinculado (só quando `Vinculada? = Sim`) · **RFI dobrada aqui dentro** (resumo de escopo/comercial/aprovação quando `RFI vinculada` existe — RFIs não é mais aba própria, ver task 06) | Cliente/Área (Origem/Destino organizacional) · MD impactado · sistema(s) vinculado(s) (campo `Vínculo`, pode ser CX Hub ou outro no futuro) | Pessoa **ou agente** abre — mecanismo já formalizado em `protocolo-gestao-demanda.md` |
+| **Agentes** | **4 categorias + 1 geral (task 09)**: Por Área, Por Cliente, Por Solução, Personalizado (filtro em chip) — cada categoria com cartões de exemplo, entidade formal ainda não existe. Agente **Dúvidas** (task 08) fica fora das categorias, geral, sem escopo fixo | Chat (histórico + campo de texto + **perguntas sugeridas estilo FAQ**, coerentes com o escopo do agente) — reservado, sem IA conectada. **Personalizado** tem cartão "Criar agente" (formulário → mensagem de "aguardando aprovação", não cria de verdade) | Produto e/ou Área onde roda · Demandas que abriu como Criador | Personalizado: usuário pede, mas só "vira" agente depois de aprovação — mesmo mecanismo de `protocolo-gestao-demanda.md`, não um fluxo novo |
 
 ## O mecanismo central: Demanda como fluxo conversacional e de aprovação
 
@@ -100,6 +100,52 @@ aprovação e retroalimentação" — a tela só precisa dar interface a isso, n
    aprova ou recusa. É dinâmico, MD a MD, nunca uma tabela de permissão solta.
 4. Aprovado → o MD é atualizado, um novo `Marco` é registrado ("Contexto atualizado em [data],
    aprovado por [pessoa]"), status vai para `Aplicada`.
+
+## Comunicação interna — 3 padrões, não confundir (decisão de 14 jul 2026)
+
+Ao desenhar como colaboradores se comunicam dentro da plataforma, identificamos 3 padrões
+distintos — cada um com um lugar diferente, nenhum novo sistema de mensageria inventado:
+
+1. **Agente de consulta geral (colaborador ↔ LLM)** — pergunta em linguagem natural sobre
+   cadastro, dado, levantamento. Não é uma tela dedicada — é uma skill reativa do Hub de Agentes
+   (`CONTEXT.md`), com o lugar **reservado dentro da aba Agentes** (task 08, cartão "Dúvidas",
+   sem IA conectada ainda — só a interface).
+2. **Comunicação entre colaboradores dentro de um item de trabalho** — já existia como campo
+   `## Conversas` em toda Demanda (sempre presente, não exclusivo do CX Hub), só nunca tinha
+   virado tela. Agora tem lugar: dentro do detalhe da Demanda (task 07), separado dos Marcos
+   (Marcos = decisão formal · Conversas = bate-papo informal).
+3. **"Transferência de algo"** — não é comunicação separada, é reatribuição de campos que já
+   existem (`Responsável`/`Co-responsáveis`/`Destino organizacional`) numa Demanda, com um Marco
+   automático registrando a mudança. Ação "Reatribuir" no detalhe da Demanda (task 07).
+
+Regra: 1 é infraestrutura nova (ainda não testada, só reservada); 2 e 3 são conteúdo que faltava
+preencher em algo que já estava desenhado.
+
+## Classes de agente e RAG por escopo (decisão de 14 jul 2026, task 09)
+
+Complementando o item 1 acima: agentes "padronizados" (treinados pela uMode, diferente dos que
+um usuário cria) se dividem em **4 classes**, cada uma com escopo fixo e **RAG sobre conteúdo
+que já documentamos** — não é base de conhecimento paralela:
+- **Por Área** — lê o `contexto-area.md` daquela área.
+- **Por Cliente** — lê `institucional.md` + `jornada.md` + `pessoas.md` daquele cliente.
+- **Por Solução** — lê o `produto.md` daquela solução (`_template_produto.md`).
+- **Personalizado** — criado por usuário, formato skill, **precisa de aprovação** antes de
+  existir de verdade — mesmo mecanismo já formalizado em `protocolo-gestao-demanda.md`
+  (Governança do MD-alvo aprova), não um fluxo de aprovação novo.
+
+O agente **Dúvidas** (task 08) fica fora dessas 4 classes — é geral, sem escopo fixo.
+
+**Consequência prática, não ignorar:** enquanto `contexto-area.md` real (0/56 combinações
+cliente×área preenchidas, `_pendencias-gerais.md`) e `produto.md` (nenhuma das 16 pastas
+formalizada ainda) continuarem majoritariamente vazios, os agentes Por Área e Por Solução vão
+nascer com pouco conteúdo real pra responder. Isso não bloqueia desenhar a interface agora, mas
+é motivo a mais pra priorizar preencher esse conteúdo antes de ligar qualquer IA de verdade.
+
+**Nota sobre dado derivado, não inventar campo:** um agente Por Cliente pode ser perguntado
+sobre "oportunidade de upsell" — isso não é um campo que existe hoje em nenhum MD, seria uma
+resposta **calculada** (comparando `Módulos contratados` do cliente com o Portfólio completo de
+16 itens), não um dado pronto. A task 09 já deixa isso explícito pro BrainWave não fingir que
+esse campo existe.
 
 ## Visibilidade por perfil
 

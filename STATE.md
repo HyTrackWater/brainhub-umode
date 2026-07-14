@@ -168,8 +168,41 @@
 ## Próximas atividades (fila da Sprint 02)
 1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md`, `brainwave/02-home.md`,
    `brainwave/03-uMode-e-clientes.md`, `brainwave/04-seletor-cliente-ativo.md`,
-   `brainwave/05-solucoes.md` e `brainwave/06-demandas.md` enviados, todos aguardando o Vinicius
-   trazer o `## Resultado` formal de volta pra registrar aqui. A tarefa 03 reestrutura o menu principal (remove as abas
+   `brainwave/05-solucoes.md`, `brainwave/06-demandas.md`, `brainwave/07-demandas-tabela-e-acoes.md`,
+   `brainwave/08-agentes-duvidas.md`, `brainwave/09-agentes-categorias.md` e
+   `brainwave/10-agentes-filtros-e-chat.md` enviados. **A tarefa 10 é correção** — o Vinicius já
+   rodou algo no BrainWave e a aba Agentes voltou com os agentes "jogados" sem filtro nenhum
+   aplicado (mesmo tendo sido pedido na tarefa 09), e sem a interface de chat (histórico +
+   campo de texto) que uma versão anterior já tinha construído. A tarefa 10 corrige os dois:
+   exige filtro em chip **funcional** por categoria (Geral/Por Área/Por Cliente/Por Solução/
+   Personalizado), e exige que a interface de chat reservada volte a aparecer em **todo**
+   agente aberto, não só no Dúvidas — mesmo sem IA conectada, só pra dar visibilidade de como
+   vai funcionar. **A tarefa
+   06 já foi rodada pelo Vinicius no
+   BrainWave** (confirmado em 14 jul 2026) — `## Resultado` ainda não reportado formalmente
+   aqui. Como 06 já foi executada, as mudanças de tela pedidas depois viraram tarefas novas em
+   vez de edição no lugar (mesmo padrão já usado em 03→04): a tarefa 07 altera a aba Demandas
+   que o 06 construiu — lista de cartões vira **tabela compacta**, e o detalhe ganha **Conversas**
+   (chat informal, separado dos Marcos) e ação **Reatribuir** (troca Responsável/Destino, gera
+   Marco automático). A tarefa 08 preenche a aba Agentes com grade de cartões de exemplo e
+   **reserva um cartão pro agente de "Dúvidas"** — abre um chat sem IA conectada, só a interface.
+   **A tarefa 09 reorganiza Agentes em 4 classes** (pedido do Vinicius, confirmado em 14 jul
+   2026): Por Área (lê `contexto-area.md`), Por Cliente (lê `institucional.md`+`jornada.md`+
+   `pessoas.md`), Por Solução (lê `produto.md`), Personalizado (skill criada por usuário, com
+   cartão "Criar agente" que gera pedido de aprovação — mesmo mecanismo já formalizado em
+   `protocolo-gestao-demanda.md`, não um fluxo novo). Dúvidas (task 08) fica fora das 4 classes,
+   geral. Cada agente ganha perguntas sugeridas estilo FAQ, coerentes com seu escopo. Nota
+   explícita registrada: "oportunidade de upsell" (agente Por Cliente) não é campo que existe —
+   seria resposta calculada comparando módulos contratados com o Portfólio completo, não
+   inventar esse campo como se já existisse. Consequência registrada em `brainwave/CONTEXTO.md`:
+   agentes Por Área/Por Solução vão nascer com pouco conteúdo real até `contexto-area.md` e
+   `produto.md` serem preenchidos de verdade — mais um motivo pra priorizar esse preenchimento.
+   Isso resolve a arquitetura de comunicação interna discutida na sessão: 3 padrões distintos —
+   (1) agente de consulta geral = skill reativa do Hub de Agentes, reservada na aba Agentes; (2)
+   comunicação entre colaboradores numa Demanda = campo `Conversas` que já existia no template,
+   agora com tela; (3) "transferência" = reatribuição de campos existentes + Marco automático,
+   não um sistema novo. Nota completa em `brainwave/CONTEXTO.md` → "Comunicação interna — 3
+   padrões". A tarefa 03 reestrutura o menu principal (remove as abas
    soltas "Instituições" e "Pessoas", cria "uMode" e "Clientes", cada uma com 4 sub-abas:
    Instituições/Áreas/Subáreas(desabilitada)/Pessoas, com "cliente ativo" escopando Áreas/Pessoas
    dentro da aba Clientes) — conteúdo validado pelo Vinicius em 13 jul 2026. Ao navegar no
