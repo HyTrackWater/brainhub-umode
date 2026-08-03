@@ -165,7 +165,48 @@
 - [x] Decisão travada: Produtos são subáreas com atributo `tipo: produto`
 - [x] Decisão refinada: cada Produto carrega atributo `conecta_area_cliente`
 
-## Próximas atividades (fila da Sprint 02)
+## ⭐ ORDEM DE PRIORIDADE — redefinida em 14 jul 2026 pelo Vinicius, antes de migrar de workspace
+> Leia isto primeiro. Os itens numerados logo abaixo ("fila da Sprint 02") continuam como
+> **referência detalhada** de tudo que já foi feito/descoberto — não foram apagados, só não são
+> mais a ordem de execução. A ordem de execução real é esta:
+
+**Virou prioridade total: a transição pra construção de fato do BrainHub — isso significa
+buscar TODAS as informações de TODOS os clientes reais, não só os 4 piloto.**
+
+1. **[NOVO — prioridade máxima] Replicar pra todos os clientes reais tudo que já validamos nos
+   4 piloto.** Pipeline já existe e funciona: `institucional.md`+`jornada.md`+`pessoas.md` (via
+   CRM "Mapa de Clientes" + Notion), Demandas (`scripts/gen-demandas.ps1`), RFIs
+   (`scripts/gen-rfis.ps1`). **Passo zero, antes de gerar qualquer coisa**: construir a lista
+   definitiva e **filtrada** de clientes reais — cruzar as ~49 linhas do CRM "Mapa de Clientes"
+   com a pasta Drive "Clientes" (achada em 14 jul 2026, `14PwnAIF55IkdWNo90iEH9Ex5TusopsWO` —
+   tem CAEDU, Alpargatas, Cambos, 4Takes, Polenectar, Osklen, Genuo, Grupo Veste, Luiza
+   Barcelos, Esposende, Reserva, Hering, Arezzo, e mais via paginação). **Cuidado real**: nem
+   tudo nessa pasta é cliente uMode moda-PLM — `Kaizen`, `CrossX-JUMP3R`, `MBS-3-Mentorias`,
+   `ALINVEST-IFT`, `Marcio Delbin (Tetris)`, `NV-Vinicius` parecem outros negócios/mentorias do
+   próprio CEO, não clientes da vertical de moda — não replicar o padrão de cliente uMode neles
+   sem confirmar.
+2. **[NOVO] Ir atrás de tudo que já sabemos que existe mas nunca foi tocado.** Ex.: as 3 páginas
+   Notion linkadas no CRM (nunca abertas), o resto da pasta "Clientes" do Drive (só Cambos foi
+   aberta até agora), pastas irmãs achadas na mesma raiz (`1LPFb_DUTzFngwBpjj-zP0ZcmOTviMbM5`):
+   `BrainHub/` (dono vinicius.risoleo@gmail.com, nunca aberta), `DUMP THREAD/` (nunca aberta),
+   `Mídia/` (nunca aberta).
+3. **[Modus operandi, contínuo]** A cada assunto fechado, buscar a próxima parte identificada
+   como necessária — sempre nos nossos padrões já travados (protocolo primeiro, nunca inventar
+   campo, fonte externa é informação não estrutura), reforçando o processo de contextualização.
+
+**Frentes que ficam pausadas até a replicação total avançar** (não canceladas, só depois):
+BrainWave/frontend (item 1 da fila antiga — construir mais tela não ajuda enquanto a maioria
+dos clientes reais nem tem `institucional.md`), Sprint 03 formulários/Lovable/agentes (linha
+328 abaixo), varredura de nomenclatura legado→novo do Portfólio (item 2 da fila antiga).
+
+**Carregado da sessão anterior, ainda sem resposta — não esquecer:** confidencialidade do
+conteúdo real da Cambos (`CONTEXTO_CAMBOS.md`/`_FATOS.md`, autodeclarado "T1 — restrito, contém
+custo/margem, NÃO sincroniza Drive/Notion do time"). Perguntei ao Vinicius se precisa de
+anonimização ou se simplesmente não entra no repositório — **ainda sem resposta**. Não usar
+nenhum dado comercial sensível desses arquivos até isso ser resolvido, mesmo que pareça útil
+pra replicação.
+
+## Próximas atividades (fila da Sprint 02 — referência histórica, ver ordem nova acima)
 1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md`, `brainwave/02-home.md`,
    `brainwave/03-uMode-e-clientes.md`, `brainwave/04-seletor-cliente-ativo.md`,
    `brainwave/05-solucoes.md`, `brainwave/06-demandas.md`, `brainwave/07-demandas-tabela-e-acoes.md`,
@@ -324,6 +365,55 @@
 10. Decidir sobre o formulário de personificação de Pessoas (Lovable) — campos documentáveis
     já estão preenchidos nas 4 fichas existentes; falta só a parte de personificação.
     **Backlog confirmado pelo Vinicius em 14 jul 2026: importante, mas não mexer agora.**
+
+## Frente Formulários/Lovable/Agentes — PAUSADA (proposta em 14 jul 2026, adiada no mesmo dia)
+> **Status: pausada.** No mesmo dia em que foi proposta, o Vinicius redefiniu a prioridade
+> máxima como "replicar tudo que já validamos pra todos os clientes reais" (ver ⭐ ORDEM DE
+> PRIORIDADE no topo deste arquivo). Esta frente (formulários padronizados, réplica em Lovable,
+> agente de transcrição, agente de card no CX Hub) continua válida e registrada — só não é o
+> próximo passo. Retomar depois que a replicação total avançar.
+
+**Acesso Drive ampliado, achado nesta sessão.** O Vinicius indicou
+`drive.google.com/drive/folders/1LPFb_DUTzFngwBpjj-zP0ZcmOTviMbM5` — raiz que contém, entre
+outras, uma pasta **"Clientes"** nunca mapeada antes, com pasta própria por cliente real
+(Cambos, Luiza Barcelos, e outros fora do nosso piloto). Achado imediato em `Cambos/`:
+`CONTEXTO_CAMBOS.md` + `CONTEXTO_CAMBOS_FATOS.md` (contexto de negócio real, denso) e confirmação
+de que **CliprocAI é real** — módulo CLIente×PROduto×CAnal, Cambos como cliente piloto, mesmo
+padrão ADR-006 do VendeAI (fora da Arquitetura V1 oficial, maturidade MVP não Escalável),
+registrado em `_pendencias-gerais.md` item 22. **Achado crítico de confidencialidade**: a fonte
+se autodeclara "T1 — restrito, contém custo/margem, NÃO sincroniza Drive/Notion do time" — não
+usei nenhum dado comercial sensível (faturamento/custo/margem/CNPJ) e não vou usar sem
+autorização explícita, mesmo sendo dado real e disponível.
+
+4 frentes novas trazidas pelo Vinicius, ainda não iniciadas — tamanho estimado, pra decidir
+prioridade antes de começar a construir:
+
+1. **Formulários padronizados de coleta de dado (Lovable).** Objetivo: identificar quais campos
+   `[a preencher]` já têm formulário possível de montar (payload = nosso schema de MD), sem
+   decidir quem é o responsável agora. Como os formulários vão ser iguais na casca, a saída é um
+   **prompt único e parametrizado** (só as perguntas variam). **Tamanho: pequeno pra mapear quais
+   campos valem a pena (auditoria), médio pra desenhar o prompt-molde.** Regra do próprio
+   Vinicius: só vale a pena agora se a falta do dado estiver travando algo real da evolução —
+   não fazer só porque "seria bom ter".
+2. **Réplica das 10 tarefas do BrainWave num projeto Lovable do zero**, com os `.md` reais
+   subidos direto no repositório que o Lovable cria — funcionando como um "Obsidian" sobre o
+   nosso próprio cérebro, não mais telas com dado de exemplo. Motivo: a URL do BrainHub (via
+   BrainWave) não tem acesso ao ecossistema de MDs — Lovable, com upload direto, teria. Permite
+   testar de verdade contra documentação real. **Tamanho: grande** — não é só portar os 10
+   prompts, é redesenhá-los sabendo que agora há acesso a arquivo real (menos "[exemplo]", mais
+   leitura direta).
+3. **Dentro da frente 2 — arquitetar o agente de transcrição de reuniões**: o que precisa
+   incrementar na nossa estrutura de pastas atual (onde uma transcrição vive, como vira Demanda
+   ou alimenta Conversas, etc.) — ainda não desenhado.
+4. **Dentro da frente 2 — arquitetar o agente de criação de card no CX Hub pós-aprovação**:
+   precisa entender o repositório real do CX Hub (`gist-sparkle`, já parcialmente lido nesta
+   sessão), os contratos/API usados, como criaria um card, e como validaríamos a criação.
+   Destrava a automação já sinalizada como "fora de escopo" em `protocolo-gestao-demanda.md`.
+
+**Sequência recomendada (proposta, não decidida ainda):** 1 (rápido, só a auditoria de quais
+campos travam algo) → 3 e 4 (arquitetura, ainda em papel, sem construir) → 2 (a resposta técnica
+grande, feita só depois de 1/3/4 estarem claros o suficiente pra não redesenhar no meio do
+caminho).
 
 ## Backlog (não priorizado / aguardando a fila andar)
 - Subáreas internas da Casa por Área (nomes — contexto vem com o CEO)
@@ -814,3 +904,32 @@
   sucesso; também corrigido um typo próprio ("ja"/"execucao" sem acento) nos 236 arquivos e no
   script. Revalidado por diff de headings — 0 divergências; confirmado que os 236 arquivos têm
   o campo novo.
+- **14 jul 2026** — Sessão 24: sessão longa, telas do BrainWave + varredura de Portfólio +
+  reprioritização geral no fim. **Telas do BrainWave**: task 05 (Soluções — grade, filtros
+  Destino/Geração/Maturidade), task 06 (Demandas, RFI ainda separada), tasks 07 (Demandas vira
+  tabela + Conversas + Reatribuir, RFI dobrada pra dentro), 08/09/10 (aba Agentes — reserva do
+  agente geral "Dúvidas", depois 4 classes com RAG por escopo — Por Área/Por Cliente/Por
+  Solução/Personalizado —, depois correção de filtro funcional + chat que tinha sumido).
+  Arquitetura de "comunicação interna" registrada em `brainwave/CONTEXTO.md` (3 padrões: agente
+  geral, Conversas na Demanda, Reatribuir). **Varredura de Portfólio**: protocolo + template de
+  Produto criados e testados contra CriAI/VendeAI/CX Hub reais (4 ajustes aplicados); inventário
+  completo de repositórios achado (9/16 confirmados, 6 sem repositório, 5 nomes fora do
+  Portfólio, `umode-brainhub-console` descartado como candidato à plataforma BrainWave — é outro
+  app real, "BrainHub Console", que confirmou o guardrail Drift Sweep implementado de verdade).
+  Campo `Vinculada ao CX Hub?` generalizado pra `Vinculada?`+`Vínculo` (retrofit nas 236
+  demandas). Template do `contexto-area.md` da Casa formalizado (`_template_contexto_area_casa.md`,
+  resolve pendência 8). **Tentativa de preencher `contexto-area.md` real de um cliente-piloto
+  falhou** — pasta Drive antes mapeada da Lofty não está mais acessível. **Acesso Drive
+  ampliado no fim da sessão**: o Vinicius indicou a pasta-raiz `1LPFb_DUTzFngwBpjj-zP0ZcmOTviMbM5`,
+  nunca explorada — revelou uma pasta "Clientes" com conteúdo real por cliente (achado imediato:
+  `CONTEXTO_CAMBOS.md`/`_FATOS.md`, confirmando CliprocAI como módulo real MVP piloto da Cambos,
+  mesmo padrão do VendeAI — mas **autodeclarado T1-restrito, contém custo/margem, não pode
+  sincronizar Drive/Notion do time** — pergunta de confidencialidade feita ao Vinicius, **ainda
+  sem resposta ao fim da sessão**, nenhum dado sensível usado). **Reprioritização geral, pedida
+  pelo Vinicius antes de migrar de workspace**: a prioridade deixa de ser telas/varredura de
+  Portfólio e vira "replicar tudo que já validamos (institucional/jornada/pessoas/demandas/RFIs)
+  pra TODOS os clientes reais", não só os 4 piloto — com o cuidado explícito de primeiro filtrar
+  quem realmente é cliente uMode moda-PLM na pasta "Clientes" (tem entradas que parecem ser
+  outros negócios do CEO, não clientes). Registrado como "⭐ ORDEM DE PRIORIDADE" no topo deste
+  arquivo. `START.md` conferido — continua válido, nenhuma mudança necessária pra a próxima
+  sessão se orientar sozinha lendo `CLAUDE.md`→`CONTEXT.md`→`STATE.md`→`brainwave/CONTEXTO.md`.

@@ -13,6 +13,16 @@
 
 ## Portfólio / Ferramentas — nomenclatura legado → novo
 
+22. **`CliprocAI` confirmado real — achado em 14 jul 2026, pasta Drive da Cambos**
+    (`CONTEXTO_CAMBOS.md`/`CONTEXTO_CAMBOS_FATOS.md`). CLIente × PROduto × CAnal. Cambos é
+    cliente piloto, mesmo padrão ADR-006 do VendeAI: **fora da Arquitetura V1 oficial até
+    validação** — maturidade real = MVP, não Escalável. PRD v1.6 (17 ADRs), protótipo navegável
+    com dado real (zero mock), meta de piloto ≥25% conversão em 90 dias. Repositório não está na
+    pasta-mãe GitHub principal — vive só na pasta Drive do cliente (`CliprocAI_Prototype/`).
+    **⚠ Confidencialidade real, não presumida:** a fonte se autodeclara "T1 — restrito (contém
+    custo/margem; time do projeto; NÃO sincroniza Drive/Notion do time)". Não usei nenhum dado
+    comercial sensível (faturamento, custo, margem, CNPJ) nem vou usar sem autorização explícita
+    do Vinicius — só o metadado de status do módulo (não sensível) foi registrado aqui.
 10. **`uBuy` ≈ `FornecAI`? Não confirmado — pendência explícita.** Hipótese levantada a partir
     da categoria "COMPRAS" no backlog real de produto (`_varredura-drive-notas.md`), mas o
     Vinicius não confirma: "uBuy era algo próximo a um módulo de gestão de carteira. Não sei se
