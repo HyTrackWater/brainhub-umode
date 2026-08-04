@@ -38,10 +38,17 @@ Consultora de Negócios — presente desde o onboarding em pelo menos 2 dos 4 cl
 ### Áreas de atuação histórica
 [a preencher]
 ### Clientes atuais atendidos
-Lofty Style · Moda Objetiva (Consultora de Negócios — confirmado via CRM "Mapa de Clientes",
-varredura de 09 jul 2026). Não aparece no CRM de Cambos (sem consultor atribuído) nem no de
-Luiza Barcelos (consultora é Marina Gonçalves Santoro) — possivelmente outros clientes fora
-do piloto, não verificado
+Como Consultora de Negócios (10): Hering · Highstil · Lenny Niemeyer · Lofty Style ·
+Moda Objetiva · NV · Osklen · Plie · Simples (by Reserva) · Studio Z
+Como Key Account (1): NV
+> Lista completada em 03 ago 2026 na varredura dos 46 clientes reais do CRM "Mapa de Clientes"
+> (antes só os 4 pilotos, com a ressalva "possivelmente outros clientes fora do piloto, não
+> verificado"). Segue valendo o registro de 09 jul 2026: não aparece no CRM de Cambos (sem
+> consultor atribuído) nem no de Luiza Barcelos (consultora é Marina Gonçalves Santoro).
+> **Achado novo:** em NV ela aparece nos dois papéis ao mesmo tempo (Key Account **e**
+> Consultora) — é o que a fonte diz, não foi resolvido por conta própria. Inclui clientes em
+> Churn/Inativo (Studio Z é Churn, Simples (by Reserva) é Inativo), que são vínculo registrado no
+> CRM e não atendimento ativo hoje.
 ### Clientes atendidos historicamente
 [a preencher]
 

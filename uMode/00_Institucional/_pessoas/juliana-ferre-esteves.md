@@ -1,49 +1,45 @@
-# Laura Delgado Cardoso · Pessoa
+# Juliana Ferré Esteves · Pessoa
 
 ## Identificação
 ### Foto
 [a preencher]
 ### Nome completo
-Laura Delgado Cardoso
+Juliana Ferré Esteves
 ### Nome preferido / como é chamado(a)
-Laura
+[a preencher]
 ### Email
 [a preencher]
 ### Cadeira / cargo atual
-Key Account (confirmado via CRM "Mapa de Clientes" e histórico de demandas/reuniões dos 4
-clientes-piloto)
+Key Account · Consultor(a) de Negócios (papel conforme o campo em que a pessoa aparece no CRM "Mapa de Clientes" — não é a mesma coisa que Cadeira do organograma, ver protocolo-gestao-pessoas.md)
 ### Nível HIC
 [a preencher — critério de triagem/escala ainda não definido]
 ### Área (organizacional)
-[a preencher — papel de Key Account sugere Atendimento, mas ela não aparece no organograma
-v2.2 (Design Org & Metas 2026) que consultei; não vou presumir o encaixe sem confirmação]
+[a preencher — o CRM não traz Área organizacional, e o papel de atendimento não define
+por si a Área das 8 travadas em CONTEXT.md; não presumido]
 ### Data de entrada na uMode
 [a preencher]
 ### Status na uMode
-Ativo
+[a preencher — aparecer no CRM não prova vínculo ativo hoje; o CRM é snapshot de mar 2026]
 ### Data de saída da uMode
-[não aplicável — Status Ativo]
+[a preencher]
 
 ## Papel
 ### Missão da cadeira
 [a preencher]
 ### Responsabilidades principais
-Gestão de relacionamento com clientes como Key Account
+Atendimento a clientes nos dois papéis registrados no CRM: Key Account e Consultor(a) de Negócios
 ### Interfaces
-[a preencher — atuava em par com Andrea Goulart Holmer dos Santos, que saiu do time da uMode
-(atualizado em 13 jul 2026); sem par confirmado desde então]
+[a preencher]
 
 ## Histórico
 ### Áreas de atuação histórica
 [a preencher]
 ### Clientes atuais atendidos
-Como Key Account (9): Baw · Cambos · DRO · Highstil · Lofty Style · Luiza Barcelos ·
-Moda Objetiva · Oficina Reserva · Plie
-> Lista completada em 03 ago 2026, na varredura dos **46 clientes reais** do CRM "Mapa de
-> Clientes" (antes só os 4 pilotos tinham sido checados, com a ressalva explícita "possivelmente
-> outros clientes fora do piloto, não verificado" — agora verificado). Inclui cliente em
-> Churn/Inativo (DRO é Churn), que é vínculo registrado no CRM e não atendimento ativo hoje: a
-> separação ativo × histórico não foi presumida a partir do Status do cliente.
+Como Key Account (2): Mondpars · Phos
+Como Consultor(a) de Negócios (3): Oficina Reserva · Puket · Reserva
+> Lista extraída do CRM sobre os 46 clientes reais — inclui clientes em Churn/Inativo,
+> que são vínculo histórico e não atendimento ativo. A separação ativo × histórico exige
+> confirmação de quem atende hoje: não foi presumida a partir do Status do cliente.
 ### Clientes atendidos historicamente
 [a preencher]
 
@@ -73,8 +69,6 @@ outro documento — ver protocolo-gestao-pessoas.md]
 
 ## Governança
 ### Fonte dos dados documentáveis
-CRM "Mapa de Clientes" (Notion/Drive) + base "Reuniões Compartilhadas com Clientes" — varredura
-de 09 jul 2026, cobrindo os 4 clientes-piloto (Lofty Style, Cambos, Luiza Barcelos, Moda
-Objetiva)
+CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026) — varredura de 03 ago 2026, cobrindo os 46 clientes reais
 ### Quem pode alterar este documento
 [a preencher]

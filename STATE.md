@@ -8,7 +8,24 @@
 **Sprint 02 — Estrutura de pastas no Drive + simulação com clientes-piloto**
 
 ### Em andamento
+- [x] **REPLICAÇÃO TOTAL — concluída em 03 ago 2026 (o "rolo compressor"), em 2 rodadas.** Todos os
+      **46 clientes reais** têm casa no padrão: 42 criadas nesta sessão + os 4 pilotos. Números
+      finais, todos validados por diff de headings (0 divergências, exceto a de Luiza Barcelos já
+      conhecida e sinalizada): 138 arquivos de `institucional.md`/`jornada.md`/`pessoas.md`
+      (46 × 3); **993 demandas** de cliente (236 dos pilotos + 757 de 16 clientes); **85 RFIs**
+      (22 + 63 de 12 clientes), **84 delas com narrativa real de página**; **4 demandas da própria
+      Casa** (`Natureza: interna`, primeiras a existir em `uMode/00_Institucional/_demandas/`);
+      13 fichas de Pessoa (4 + 9 novas). Repositório passou de ~330 para **1.291 arquivos `.md`**.
+      Lista definitiva e filtrada em `uMode/00_Institucional/_contexto/_lista-clientes-reais.md`.
+- [x] **2ª rodada — fonte de jul 2026 recuperada do histórico do Git.** A 1ª rodada usou snapshots
+      de mar 2026 do Drive e eu registrei como pendência "falta um re-export mais recente". O
+      Vinicius questionou a premissa (a fonte que gerou os pilotos existe) e estava certo: os
+      exports de jul 2026 foram **commitados na Sessão 22 e removidos na Sessão 23** (commit
+      `8c6705b`) — recuperados com `git archive 8c6705b^`. Todas as demandas e RFIs não-piloto
+      foram regeneradas dessa fonte (+108 demandas, +23 RFIs), a narrativa de RFI entrou de
+      verdade, e o vínculo `Demanda ⟷ RFI` passou a existir pela primeira vez.
 - [ ] Testar template de cliente com ao menos 5 clientes reais (fase cadastral)
+      — ⚠ **item superado pela replicação total acima**: não são mais 5 clientes, são 46
       — Luiza Barcelos: ✅ concluído (v1)
       — Cambos: ✅ concluído (v1)
       — Lofty Style: ✅ concluído (v1)
@@ -165,10 +182,95 @@
 - [x] Decisão travada: Produtos são subáreas com atributo `tipo: produto`
 - [x] Decisão refinada: cada Produto carrega atributo `conecta_area_cliente`
 
-## ⭐ ORDEM DE PRIORIDADE — redefinida em 14 jul 2026 pelo Vinicius, antes de migrar de workspace
+## 🔴 PRIORIDADE ZERO — 04 ago 2026: primeira ENTREGA do BrainHub
+
+> Isto passa na frente de tudo abaixo, inclusive do "rolo compressor". Declaração literal do
+> Vinicius em 04 ago 2026: "temos uma demanda já para entrega de BrainHub, **antes de finalizar
+> qualquer outra coisa**, que será construir um agente que vai servir para a operação."
+
+**Demanda formalizada:** [`D-2026-002`](uMode/00_Institucional/_demandas/D-2026-002.md) —
+Agente de Suporte Técnico uFlow.
+
+**O que é:** o primeiro agente operacional do BrainHub. Analista técnico de suporte especializado na
+**uFlow** (o PLM legado), cujo contexto é **o próprio repositório da plataforma**, com domínio da
+estrutura do banco. Diagnostica de que **tipo** é o problema — correção de configuração, questão para
+tech, erro de inserção de dado — para a operação saber o que fazer com ele. Desenho central: **não
+tem acesso direto ao banco**; quando precisa de dado, pede ao usuário que consulte e traga, e só
+então conclui.
+
+**Papel já recebido e formalizado:** `Papel de Suporte.txt` (04 ago 2026), com estrutura obrigatória
+de resposta em 6 seções (Entendimento · Investigação · Evidências · Hipóteses · Dados Necessários ·
+Próximos Passos) e a regra "é preferível pedir mais dados do que fornecer uma resposta potencialmente
+incorreta" — que é, sem ter sido combinado, a mesma regra de ouro de zero alucinação do nosso
+`CLAUDE.md`.
+
+**✅ DESBLOQUEADA em 04 ago 2026.** Vinicius entregou os três insumos: o repositório
+(`C:\Ambientes Virtuais\uFlow\umode-flow` — Rails real, **12.613 commits**, último em **03/08/2026 por
+`Bergson`**), o **`db/schema.rb`** (172 KB, **211 tabelas**) e o `.md` de **aprendizado contínuo**
+(1.084 linhas). Os dois primeiros já foram mapeados em
+[`uflow-modelo-de-dados.md`](uMode/04_Dados-e-IA/_contexto/uflow-modelo-de-dados.md); o terceiro foi
+preservado em [`agente-suporte-uflow.md`](uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow.md).
+
+**⚠ Problema de custódia:** os dois arquivos que o Vinicius forneceu (`Papel de Suporte.txt` e
+`TREINAMENTO-AGENTE-SUPORTE-UFLOW.md`) **saíram de `Downloads` depois de lidos**. O conteúdo foi
+materializado no repositório, mas **só 818 das 1.084 linhas do treinamento foram lidas** — faltam o fim
+do Anexo C, o **Anexo D** e o **Anexo E**, que não existem em nenhuma cópia nossa. **Precisa do arquivo
+de novo.**
+
+**Bloqueios residuais, ambos nomeados:** (a) a gem privada **`j3_components`**
+(`UmodeApp/j3-components`) não está no repositório e **parte do core `J3::` vive nela**; (b) o
+**catálogo de `EntityConfig`** — a lacuna de maior valor que resta — não foi levantado porque a
+varredura **morreu no limite de crédito da organização**. É a primeira coisa a retomar.
+
+---
+
+## ⭐ ORDEM DE PRIORIDADE — reconfirmada e ampliada em 03 ago 2026 pelo Vinicius ("rolo compressor")
 > Leia isto primeiro. Os itens numerados logo abaixo ("fila da Sprint 02") continuam como
 > **referência detalhada** de tudo que já foi feito/descoberto — não foram apagados, só não são
 > mais a ordem de execução. A ordem de execução real é esta:
+
+**Instrução literal do Vinicius em 03 ago 2026: "passar o rolo compressor".** 100% da energia vai
+para **alimentar de informação a estrutura que já validamos** — clientes, produtos e tudo o mais —
+replicando o padrão já aplicado, "de forma que vamos inflando cada vez mais e explorando cada vez
+mais tudo que já temos". Não é uma nova frente de modelagem: é escala sobre o padrão existente.
+
+**Sequência travada:**
+1. **Esgotar TODAS as fontes já mapeadas**, replicando o padrão para TODOS os clientes reais (não
+   só os 4 piloto). É o que está em execução agora.
+2. **Só depois** — nova fase: o Vinicius tem **outra fonte rica de informação institucional**
+   (produtos, áreas etc.) que vai ser reprocessada para **adequar/corrigir conteúdo que já
+   firmamos antes**. Ou seja: o que for gerado agora não é definitivo por decreto — vai passar por
+   um ciclo de correção com fonte melhor. Isso reforça (não dispensa) a disciplina de marcar fonte
+   e data em tudo que for gerado, para saber depois o que revisar.
+
+**Estado do item 1 no fim da Sessão 25 (03 ago 2026) — o que já foi esgotado e o que sobrou:**
+
+| Fonte / frente | Estado | Volume |
+|---|---|---|
+| CRM "Mapa de Clientes" → casas de cliente | ✅ esgotada | 46 casas, 138 MDs institucionais |
+| Demandas (fonte de julho recuperada do Git) | ✅ esgotada | 997 (993 de cliente + 4 da Casa) |
+| RFIs | ✅ esgotada | 85, sendo 84 com narrativa real |
+| Fichas de Pessoa (Key Account / Consultor do CRM) | ✅ esgotada | 13 |
+| Portfólio de Soluções | ✅ esgotada | 16 `produto.md`, 14 com maturidade decidida |
+| Notion — 3 páginas canônicas de produto | ✅ esgotada | Especificação V1, Plano do Hub, Taxonomia + Índice Mestre |
+| Narrativa do Notion — demandas **em aberto** | ✅ fila zerada | 208 de 208 processadas |
+| Repositórios de integração (9 documentos técnicos) | ✅ esgotada | 11 `integracao.md`, 11/11 conformes |
+| Notion — subpáginas da Taxonomia | ⬜ aberta | ~20 subpáginas e ~100 anexos, inclusive `00-visao-geral.md` e `09-de-para-mestre.md` |
+| Notion — páginas de projeto por produto | ⬜ aberta | 8 páginas de projeto identificadas no ÍNDICE MESTRE e não lidas |
+| `uMode-OS` (pasta local no Mac do João) | 🔒 inalcançável | `MANIFEST.md` + crosswalk repositório↔produto — só o João pode passar |
+| Perfis de acesso → `contexto-area.md` | ⬜ aberta | **0 de 644** — o maior vazio medido do cérebro |
+| Narrativa das demandas **encerradas** | ⬜ despriorizada | 679 (`Concluído` 552 / `Cancelado` 127) |
+
+**Próximo alvo recomendado: `contexto-area.md`.** É o eixo de indexação que a auditoria mediu como
+**vazio** (o eixo cliente já resolve, o de Área não), e a fonte já foi encontrada: os perfis da
+planilha de acessos mapeiam quase 1:1 para as 14 áreas canônicas. Enquanto ele não for preenchido,
+um agente "Por Área" não tem de onde beber.
+
+**Duas pendências que seguem abertas por decisão explícita do Vinicius (não bloqueiam, não
+esquecer):** (a) mudou muita coisa entre 14 jul e 03 ago 2026 que não está registrada neste log —
+o Vinicius confirmou que segue acontecendo e que não é para gastar energia nisso agora; (b) a
+confidencialidade do conteúdo T1-restrito da Cambos continua sem resposta — nenhum dado comercial
+sensível (custo/margem/faturamento) desses arquivos pode ser usado até ela chegar.
 
 **Virou prioridade total: a transição pra construção de fato do BrainHub — isso significa
 buscar TODAS as informações de TODOS os clientes reais, não só os 4 piloto.**
@@ -176,7 +278,13 @@ buscar TODAS as informações de TODOS os clientes reais, não só os 4 piloto.*
 1. **[NOVO — prioridade máxima] Replicar pra todos os clientes reais tudo que já validamos nos
    4 piloto.** Pipeline já existe e funciona: `institucional.md`+`jornada.md`+`pessoas.md` (via
    CRM "Mapa de Clientes" + Notion), Demandas (`scripts/gen-demandas.ps1`), RFIs
-   (`scripts/gen-rfis.ps1`). **Passo zero, antes de gerar qualquer coisa**: construir a lista
+   (`scripts/gen-rfis.ps1`). **Passo zero — ✅ concluído em 03 ago 2026:** lista definitiva e
+   filtrada em `uMode/00_Institucional/_contexto/_lista-clientes-reais.md` — **46 clientes reais**
+   (49 linhas do CRM − 3 que não são cliente: a própria uMode, a linha de template do Notion e
+   "Fornecedores"), 4 já com casa, 42 a criar. Os 9 nomes que existem só na pasta Drive "Clientes"
+   e não no CRM (Alpargatas, Polenectar, Genuo, Grupo Veste, Notre Dame, Arezzo, Posthaus,
+   Esposende, Lupo) **não viraram casa** — pendência registrada. Enunciado original do passo zero,
+   mantido como referência: construir a lista
    definitiva e **filtrada** de clientes reais — cruzar as ~49 linhas do CRM "Mapa de Clientes"
    com a pasta Drive "Clientes" (achada em 14 jul 2026, `14PwnAIF55IkdWNo90iEH9Ex5TusopsWO` —
    tem CAEDU, Alpargatas, Cambos, 4Takes, Polenectar, Osklen, Genuo, Grupo Veste, Luiza
@@ -933,3 +1041,567 @@ caminho).
   outros negócios do CEO, não clientes). Registrado como "⭐ ORDEM DE PRIORIDADE" no topo deste
   arquivo. `START.md` conferido — continua válido, nenhuma mudança necessária pra a próxima
   sessão se orientar sozinha lendo `CLAUDE.md`→`CONTEXT.md`→`STATE.md`→`brainwave/CONTEXTO.md`.
+- **03 ago 2026** — Sessão 25: **replicação total ("rolo compressor"), 1ª passada.** O Vinicius
+  reconfirmou e ampliou a prioridade: 100% da energia em alimentar de informação a estrutura já
+  validada, para TODOS os clientes — e avisou que existe uma outra fonte rica de informação
+  institucional (produtos, áreas) que vai reprocessar/corrigir conteúdo já firmado numa fase
+  seguinte. `⭐ ORDEM DE PRIORIDADE` reescrita no topo deste arquivo com essa sequência.
+  **Passo zero — lista definitiva de clientes:** as pastas de dado bruto saíram do repositório na
+  Sessão 23, então todas as fontes foram puxadas de novo do Drive via MCP e processadas em disco,
+  sem passar conteúdo bruto pelo contexto: CRM "Mapa de Clientes" (49 linhas × 47 colunas),
+  "Demandas de Clientes" (836), "Reuniões Compartilhadas com Clientes" (939), "RFI Escopo - Lista de
+  Entregáveis" (53) — todos snapshot de 05 mar 2026, com ID de Drive registrado em cada arquivo
+  gerado. Cruzando CRM × pasta Drive "Clientes": **46 clientes reais** (49 − 3 que não são cliente:
+  a própria uMode, a linha de template do Notion, e "Fornecedores"). Registrado em
+  `uMode/00_Institucional/_contexto/_lista-clientes-reais.md`, com a regra de autoridade explícita
+  (**o CRM é a única fonte de "quem é cliente"**; Drive é fonte de conteúdo, nunca de estrutura) —
+  por isso os 9 nomes que só existem no Drive (Alpargatas, Polenectar, Genuo, Grupo Veste, Notre
+  Dame, Arezzo, Posthaus, Esposende, Lupo) **não viraram casa**, viraram pendência. Decisão
+  registrada: cliente em Churn/Inativo também recebe casa completa — a estrutura é o schema, e o
+  histórico de quem saiu é contexto válido; o `Status atual` registra a situação real.
+  **Gerado:** 42 casas novas (estrutura de pastas + `institucional.md`/`jornada.md`/`pessoas.md`),
+  649 demandas de 16 clientes, 40 RFIs de 10 clientes, 3 demandas da própria Casa (as primeiras com
+  `Natureza: interna`, em `uMode/00_Institucional/_demandas/`), e 9 fichas de Pessoa novas (Rafael
+  Del Gaudio Renaldim, Pedro Murillo, Julianne Dias Rodrigues, Juliana Ferré Esteves, Fernanda
+  Araujo, Victor Aragão, Sandro Costa, João Paulo Contar Risoleo, Elizabeth Alves de Souza Santana)
+  — pessoas da Casa que o CRM nomeia como Key Account/Consultor e que nunca tinham ficha. Total: 46
+  casas, 138 MDs institucionais, 885 demandas, 62 RFIs, 13 fichas de Pessoa; repositório de ~330
+  para 1.159 `.md`. **Tudo validado por diff de headings contra o template correspondente — 0
+  divergências**, exceto a já conhecida de Luiza Barcelos (`### ERP`/`### Notion`).
+  **Lacuna antiga fechada:** as 4 fichas de Pessoa existentes diziam "possivelmente outros clientes
+  fora do piloto, não verificado" — agora verificado nos 46: Laura 9 clientes como KA, Andrea 9 KA +
+  4 como Consultora (tudo em "historicamente", já que está Inativa), Vanessa 10 como Consultora + 1
+  como KA, Marina 1. Achado registrado sem resolver: em NV, Vanessa aparece nos dois papéis ao mesmo
+  tempo.
+  **Disciplina de mapeamento mantida — nada aplicado antes de registrar no protocolo.** Releitura
+  integral de `CONTEXT.md`, `CLAUDE.md`, `protocolo-gestao-demanda.md`, `protocolo-gestao-rfi.md`,
+  `protocolo-criacao-cliente.md` e dos templates antes de decidir qualquer campo. Achados novos nos
+  dados reais, todos registrados **antes** de rodar: 16 combos novos de Status+Etapa em
+  `protocolo-gestao-demanda.md` (com a regra que já era implícita agora escrita: Status prevalece,
+  Etapa só refina quando nomeia estágio distinto; conflito vira observação dentro da demanda);
+  primeiro uso real do status `A fazer` (`Demanda Aceita | Na Fila`); `Criticidade: Crítica /
+  Urgente` → `Urgente` (variante de nome), `Baixa` → `[a preencher]` (não existe valor abaixo de
+  Média no enum); `Área Responsável: INOVAÇÃO / IA` → **não mapeado de propósito** (ambíguo entre os
+  dois quadros do CX Hub), valor bruto preservado em `Notas internas`; 2 status de RFI legados
+  traduzidos em `protocolo-gestao-rfi.md` (`RFI Aceita - Criar no Linear e Estimar Entrega` → `RFI
+  Aceita — Criar Demanda e Estimar Entrega`, coerente com a decisão já travada de descartar
+  referência ao Linear; e `RFI Não iniciada` → `RFI Não Iniciada`).
+  **Scripts atualizados para v2 e parametrizados** (a pasta de dado bruto não vive mais no
+  repositório): `gen-demandas.ps1` (agora emite `Status (interno)`/`Vinculada?`/`Vínculo`, que antes
+  vinham de scripts de retrofit separados; aceita mês em inglês; ganhou `-Casa`), `gen-rfis.ps1`, e
+  dois novos: `gen-clientes-crm.ps1` e `gen-pessoas-crm.ps1`. Todos com rede de segurança contra
+  nome de coluna inexistente (que descartaria dado em silêncio) e salvos com BOM UTF-8 — o bug de
+  mojibake em literal acentuado no PowerShell 5.1 reapareceu e foi contornado do mesmo jeito das
+  sessões anteriores.
+  **9 pendências novas** em `_pendencias-gerais.md` (itens 23-31), as mais relevantes: os 9 nomes do
+  Drive sem linha no CRM; `Regime CS`/`Negociação` fora do enum de Status do template; 1 RFI da
+  própria Casa **sem cliente**, que contradiz a premissa "RFI sempre tem cliente" do protocolo; e o
+  fato de **todas as fontes serem de mar 2026** — os pilotos, formalizados de exports de jul 2026,
+  têm mais registros (Lofty 85 demandas vs 62 no snapshot), então **não foram regenerados** (seria
+  perda de dado). Um re-export das bases do Notion em ago 2026 completa os 42 clientes novos sem
+  retrabalho estrutural. Narrativa de demanda/RFI dos clientes novos segue `[a preencher]` — CSV do
+  Notion nunca traz corpo de página (limitação já conhecida desde a Sessão 12).
+
+- **03 ago 2026** — Sessão 25 (continuação): **2ª rodada da replicação total — a fonte de julho
+  estava no histórico do Git.** Fechei a 1ª rodada registrando como pendência que "todas as fontes
+  disponíveis são snapshot de mar 2026" e que faltava o Vinicius gerar um re-export do Notion. O
+  Vinicius questionou a premissa — se eu sei qual fonte gerou os 4 pilotos com dado de jul 2026,
+  por que não usar a mesma para os outros 42? Estava certo, e o erro era meu: as pastas de export
+  (`Demandas Totais CSV e Markdown/`, `RFIs Totais CSV e Markdown/`, `RFIs Gerais - Lofty/`, 947
+  arquivos) foram **commitadas na Sessão 22 e removidas na Sessão 23** (commit `8c6705b`) — ou
+  seja, sempre estiveram recuperáveis do histórico. Recuperadas com
+  `git archive 8c6705b^ -- <pastas>` para fora do repositório (o repositório continua só com `.md`,
+  decisão da Sessão 23 preservada). Confirmação de que é a mesma fonte dos pilotos: Lofty 85,
+  Luiza Barcelos 70, Cambos 47, Moda Objetiva 34 — batem exato com o que já estava formalizado.
+  **Ganho de volume:** demandas não-piloto de 649 → **757** (+108: Reserva 111→120, Osklen 93→117,
+  NV 95→108, NK STORE 74→87, VIX 52→70, Lenny Niemeyer 59→69, Caedu 18→26, Oficina Reserva 23→28,
+  Baw 15→18, Plie 12→16, Puket 15→16); RFIs não-piloto de 40 → **63**. Os 689 arquivos gerados da
+  fonte de março foram apagados e regenerados da fonte de julho — os pilotos não foram tocados.
+  **Ganho de conteúdo (o mais importante):** o export de julho tem **86 markdowns de RFI, um por
+  página, cobrindo todos os clientes** — casados por `ID` da base. Resultado: **84 das 85 RFIs
+  formalizadas agora têm narrativa real** (tabela Demanda Cliente/Detalhamento/Estimativa, bloco
+  "De Acordo", anexos citados), contra 22 antes. Headings markdown da fonte convertidos em negrito
+  para não colidir com os headings do template — mesma solução da Sessão 21. Só a
+  `Reservado - Colmeia` (ID 16) segue sem narrativa, porque o markdown dela não tem corpo.
+  A narrativa de **demanda**, porém, continua `[a preencher]` fora de Lofty: o export tem markdown
+  de 85 demandas e **todas são de Lofty Style**; a coluna `Texto` (corpo da página) vem preenchida
+  em **2 de 1007** linhas. A limitação não era o snapshot — é que o export por página só foi feito
+  para Lofty (pendência 29, reescrita).
+  **"Dissecar tudo" — 10 colunas do export que eu não estava aproveitando.** A 1ª rodada usava 16
+  das 35 colunas. Registradas no protocolo **antes** de aplicar: (a) `RFI` (44 linhas) → o campo
+  `RFI vinculada`, que estava `[a preencher]` em 100% das demandas — resolvido contra as RFIs
+  formalizadas do mesmo cliente por casamento de nome; **o vínculo bidirecional Demanda ⟷ RFI
+  passou a existir de verdade** em 44 demandas; (b) `Bloqueio` (37) → `Motivo de bloqueio`, com
+  tabela de tradução (só `Aguardando o Cliente` tem equivalente exato; os outros 5 valores vão pra
+  `Outra` mantendo o valor original visível, e o motivo real prevalece sobre o `Aguardando Decisão`
+  que a v1 inferia da regra de Standby); (c) `Texto` → `Descrição`; (d) 7 colunas com dado real e
+  **nenhum campo equivalente** (`Responsabilidade` — 100% preenchida —, `Projeto`,
+  `uMode - Macro Tema`, `Comentário uMode`, `Suporte Integração`, `Tempo de Resolução`,
+  `Nível de Esforço`) preservadas em `### Notas internas` num bloco rotulado de campos legados, em
+  vez de descartadas (perda de dado) ou promovidas a campo novo (mudança de estrutura que exige
+  validação). `Responsabilidade` ficou registrada como candidata mais forte a campo próprio
+  (pendência 32).
+  **Pilotos ficaram temporariamente mais pobres que os novos** — foram gerados pela v1, sem esses
+  campos. Resolvido por **retrofit** e não por regeneração, porque as 85 demandas de Lofty têm
+  narrativa vinda de export HTML por página que o CSV não contém: `retrofit-demandas-campos-julho.ps1`
+  tocou só 3 campos nas 236 demandas dos 4 pilotos (7 vínculos de RFI, 3 motivos de bloqueio, 236
+  blocos de campos legados), casando por `ID legado` ↔ `ID` do CSV, 0 sem match.
+  **6 combos novos de Status+Etapa** apareceram na fonte maior e foram registrados antes de rodar
+  (`Concluída|(vazio)`, `Standby - Produto|(vazio)`, `Standby - Produto|Análise Cliente`,
+  `Encerrada|Na Fila`, `Não iniciada|Análise Cliente`, `Demanda Aceita|Backlog`). O último rendeu a
+  regra explícita que faltava: **o 1º nível decide se houve aceite, a Etapa só diz em que ponto
+  está** — por isso `Demanda Aceita|Backlog` → `A fazer` (aceita, não iniciada) e não é conflito,
+  enquanto `Nível de Análise|Backlog` → `Análise`.
+  **Regra de multi-cliente de RFI aplicada pela primeira vez:** 2 linhas legadas listavam 2
+  clientes; ID 94 virou duas RFIs (Reserva + Oficina Reserva), cada arquivo avisando no corpo que
+  compartilha o `ID legado` com o par. ID 79 (`uMode + Lofty Style`) só tem o lado Lofty — o lado
+  uMode não tem onde viver, mesmo caso da RFI 72 (pendência 27/35).
+  **Bug real de PowerShell, novo na lista:** `$l` e `$L` são **a mesma variável** (PowerShell não
+  diferencia caixa em nome de variável) — o loop que escrevia a narrativa (`foreach ($l in ...)`)
+  sobrescrevia a lista de saída `$L`, e o `.Add` seguinte estourava com "[System.String] não contém
+  um método denominado 'Add'". Corrigido renomeando a variável de loop, com comentário no script
+  pra não repetir. Reapareceu também o já conhecido: pipeline que devolve 1 item vira string
+  escalar, resolvido com `@(...)`.
+  **Validação final:** 993 demandas de cliente + 85 RFIs + 4 demandas da Casa, todas por diff de
+  headings contra o template — **0 divergências**. Nenhum combo de status caiu no default. 5
+  pendências novas (32-36) e as pendências 28/29 reescritas: a 28 está resolvida, a 29 passou a
+  descrever com precisão o que ainda falta (export por página das demandas dos clientes que não
+  são Lofty).
+
+
+- **03 ago 2026** — Sessão 25 (fecho): **auditoria de padronização e indexação**, a pedido do
+  Vinicius. Registrada em `uMode/00_Institucional/_contexto/_auditoria-indexacao.md`.
+  Padronização **confirmada**: 1.241 arquivos reais auditados por diff de headings contra o template
+  correspondente, **1.240 conformes** — a única divergência é a de `Luiza Barcelos/institucional.md`
+  (`### ERP`/`### Notion`), pré-existente e já pendente de decisão. Integridade de ID: 0 duplicados
+  (demanda e RFI, por cliente), 0 `ID legado` reutilizado, 0 mojibake, encoding uniforme.
+  Indexação **medida, não opinada**: o que resolve por máquina hoje é o eixo Cliente — Demanda → casa
+  993/993 (100%), Pessoa → clientes atendidos 62/62, Demanda → RFI 44/44, Demanda → CX Hub 993/993; e
+  consulta agregada funciona sem índice auxiliar (testado com Osklen por status). O que está vazio são
+  os eixos Área e Solução: `Destino (organizacional)` 0/993, `Contexto consultado`/`impactado`
+  0/993, `Demanda mãe`/`filhas` 0/993, `contexto-area.md` de cliente 0/644, `produto.md` 0/16, e
+  RFI → Demanda 0/85 (dívida do Notion legado). Densidade geral: 19,2% das linhas são `[a preencher]`.
+  Diagnóstico registrado: um agente **Por Cliente** já tem substância real; um agente **Por Área** ou
+  **Por Solução** ainda não teria quase nada — preencher isso é trabalho de conteúdo, não de estrutura.
+  3 pendências novas (37-39): falta de `client_id` estável (o nome da pasta é a chave — 0 falhas hoje,
+  mas renomear quebraria vínculos em silêncio); indexação derivável por convenção e não declarada
+  (0 de 1.291 arquivos com frontmatter) com a decisão de índice derivado vs. frontmatter; e o
+  levantamento dos eixos Área/Solução como o gargalo real dos agentes.
+
+- **03 ago 2026** — Sessão 25 (fecho 2): **posicionamento pedido pelo Vinicius — as 3 pendências de
+  padronização/indexação foram decididas e aplicadas, não devolvidas como opção.** (1) **Divergência
+  de Luiza Barcelos resolvida:** era lacuna do template, não erro do cliente — `### ERP` removido
+  (duplicava `ERP / Integração`, com a restrição de escopo preservada como nota) e
+  `### Notion (cadastro de cliente)` virou item de uma seção nova `### Outras fontes`, porque o
+  problema era geral: o CRM traz rotineiramente Portal do Cliente/Documentação/OKRs/material/WhatsApp/
+  chamados, que na 1ª rodada eu havia jogado em `Contexto crítico` por falta de lugar. Template
+  atualizado, 42 clientes regenerados, 4 pilotos retrofitados — **46 de 46 conformes, 0 divergências**.
+  (2) **Índice implementado agora:** `_indice/` com `clientes.csv` (46), `demandas.csv` (997),
+  `rfis.csv` (85) e `pessoas.csv` (13), gerado por `scripts/gen-indice.ps1` a partir dos MDs —
+  aditivo, reversível, sem tocar em nenhum MD. **Frontmatter recusado** (criaria duas fontes de verdade
+  pro mesmo campo e mexeria em 1.292 arquivos pra resolver um problema que não existe: o parsing por
+  heading funciona em 100%). Testes relacionais imediatos: demandas em aberto por cliente (Reserva 78 ·
+  NV 36 · Osklen 15) e valor negociado em RFI por cliente (NV R\$ 30.651 · NK STORE R\$ 26.250).
+  (3) **Problema do nome resolvido em vez de registrado:** `### ID do cliente` (slug estável) nos 46 —
+  `NK STORE`/`NK Store` colapsam em `nk-store`, então a variação de caixa/acento deixa de ser
+  problema; apelidos que não colapsam (`Lofty`, `Lenny`, `OFICINA`) foram extraídos dos títulos de
+  RFI e viraram `### Aliases do cliente`. Ambos os campos entraram no template e no
+  `protocolo-criacao-cliente.md`. `CONTEXT.md` não foi tocado — são decisões de padrão de documento,
+  não de hierarquia. Pendências 37 e 38 resolvidas; 39 (eixos Área/Solução vazios) segue aberta, é
+  trabalho de conteúdo. **2 bugs de PowerShell novos, documentados nos scripts:** função não pode se
+  chamar `Ls` (alias tem precedência sobre função e devolvia FileInfo em vez das linhas — deixou o
+  índice inteiro vazio na 1ª execução); e `Corpo` devolvendo 1 item vira string escalar, fazendo
+  `[0]` retornar o primeiro **caractere** em vez da linha.
+
+- **03 ago 2026** — Sessão 25 (fecho 3): **`client_id` travado em `CONTEXT.md`** (autorização
+  explícita do Vinicius) na seção "Endereçamento de volume" — chave estável, nunca muda, absorve
+  variação de caixa/acento, candidata a chave primária quando o banco existir. Em seguida,
+  **varredura geral no Drive sobre ferramentas/produtos/áreas**, registrada em
+  `uMode/00_Institucional/_contexto/_varredura-ferramentas-produtos-areas.md`.
+  **Entrega principal: as 16 Soluções do Portfólio saíram de 0 para 16 `produto.md`** em
+  `uMode/03_Produto-e-Solucoes/01_PlanejAI/` … `16_Sales-Hub/` — o eixo mais vazio do cérebro
+  segundo a auditoria. Validados por diff contra `_template_produto`, 0 divergências. Maturidade
+  preenchida **só onde a fonte declara**: Escalável em DesenvolvAI/CriAI/Taxonomia/CX Hub, MVP em
+  VendeAI/CliprocAI, **Ideação em FornecAI e GerenciAI** (achado novo: declarações literais
+  "FornecAI ainda não nasceu" e "GerenciAI ainda em brainstorm"); os 8 restantes ficaram
+  `[a preencher]` com a evidência citada, em vez de balde escolhido por intuição.
+  **Fonte-âncora achada:** `ARQUITETURA_UMODE_REF.md` (v1.0 abr 2026, do CEO, Drive
+  `1xCFtkT5krc-VATCC26MeQHWOWH1BOMlE`) define o **fluxo oficial da Arquitetura uMode V1**
+  (PlanejAI → CriAI → DesenvolvAI → FornecAI → EnriqueceAI → GerenciAI + CadastrAI núcleo + Hub de
+  Agentes lateral), decidido em 24/04/2026. Isso preencheu com fonte o `Pipeline e relações` dos 6
+  módulos — antes `[a preencher]` em tudo — e o índice já reconstrói o fluxo inteiro. Trouxe também
+  6 princípios transversais, o dimensionamento real da Taxonomia (**12 zonas, 42 dimensões, 419
+  valores**) e **4 agentes nomeados** (`product-analyzer`, `tryon-stylist`, `audio-transcriber`,
+  `product-enricher`) — primeiro dado real sobre Agente, que era pura abstração.
+  **O problema de taxonomia entre fontes que o Vinicius previu: encontrado, e é no nível de
+  CLIENTE.** A planilha viva "uMode - Controle de Acessos" (modificada no próprio dia) lista **60
+  contas de organização na plataforma**. Boa parte das variações (`RESERVA`/`Vix`/`NK Store`/
+  `BAW`/`OFICINA`/`StudioZ`/`LOJÃO DO BRÁS`) **é absorvida pelo `client_id`**, que acabou de
+  ser travado — mas 4 casos não são: `Objetiva` ≠ `Moda Objetiva`, `Mondepars` ≠ `Mondpars`,
+  `Lojas Estrela` ≠ `Estrela`, e **conta por módulo** (`Cambos` + `Cambos - uFlow`;
+  `Tempo de Criança` + `Tempo de Criança (uRocket)`). Achados ainda: **~18 organizações com conta
+  ativa e sem linha no CRM** (Grendene, Dakota, Beira Rio, Via Marte entre elas), **dado de
+  engajamento real por cliente** (inédito — Vix 88%, StudioZ 0%, 4takes 5%) e uma **4ª taxonomia de
+  área**: os perfis de acesso da plataforma, que mapeiam quase 1:1 para as 14 áreas canônicas e são a
+  melhor fonte já encontrada para o `contexto-area.md` vazio. Nada disso foi aplicado — cada um
+  virou pendência (40-46) porque exige campo novo ou decisão.
+  **`produtos.csv` entrou no índice** (`_indice/`, agora 5 tabelas): o eixo Solução passou a ser
+  consultável, e o fluxo V1 é reconstruído a partir dele. **Lacuna maior deixada explícita:** o
+  Notion é a fonte de verdade canônica declarada pela própria arquitetura ("se contradição entre este
+  arquivo e a página V1 → página V1 vence") e nunca foi lido — e nesta sessão passou a existir acesso
+  a ele via MCP.
+
+- **03 ago 2026** — Sessão 25 (fecho 4): **Notion acessado e itens 1 e 2 executados.** Acesso via MCP
+  ao workspace real `uMode Mode's Notion`, autenticado como o Vinícius — os IDs que o documento de
+  arquitetura do Drive citava **funcionam**, não foi preciso procurar caminho.
+  **Item 1 — página canônica lida:** "🏛️ Arquitetura uMode — Especificação por Módulo (V1 — sessão
+  24/04/2026)" (`34db1d38e768814b8001d7cb6cacf4e5`), 51 KB, um capítulo por módulo. Decidiu 3
+  maturidades que estavam `[a preencher]`: **PlanejAI → MVP** ("PRÉ-SEASON (modo atual — estúdio sob
+  demanda)" × "IN-SEASON (modo futuro)"), **EnriqueceAI → MVP** ("A detecção de atributos a partir da
+  foto do produto **JÁ EXISTE** e é a espinha dorsal do módulo atual") e **GerenciAI → Ideação
+  confirmada** pela própria seção Status ("Brainstorm consolidado, não decisão final"). Maturidade
+  decidida passou de 6 para **10 dos 16**. Achado de nomenclatura: a fonte canônica escreve
+  **"ForneceAI"**, nosso Portfólio escreve **"FornecAI"** — pendência 47, nada alterado.
+  **Item 2 — base viva de demandas:** `ddf1951a-8dc2-42e6-98e6-bae3d1f5a865`. Três resultados que
+  mudam o planejamento: (a) **não há defasagem** — 1.010 demandas na base contra 1.007 do export,
+  **só 1 criada depois de 14/jul**, mais recente 15/jul/2026, ou seja nossas 997+4 cobrem ~99% (fecha
+  o resíduo da pendência 28); (b) **nossa tabela de tradução Status+Etapa está 100% correta contra o
+  schema vivo** — os enums reais (6 × 9) são exatamente os que mapeamos, nenhum valor fora; (c) a
+  relação `👥 Clientes` tem **`limit: 1`**, ou seja o schema **proíbe** demanda multi-cliente,
+  validando nosso modelo. **Narrativa confirmada e quantificada:** `Texto` vem preenchida em 2 de
+  1.010 — a narrativa vive nos blocos do corpo da página, e a extração funciona (testada na UMD-1256,
+  que devolveu o texto integral do cliente + imagem). Custo: **1 chamada por página, ~750 páginas** —
+  é trabalho de lote, a rodar em blocos, não uma operação única.
+  **Achados estruturais novos:** enums do Notion são maiores do que o export revelava (`Bloqueio` 8
+  em vez de 6, com `Aguardando Terceiros`/`Aguardando Comercial`; `Suporte Integração` **17** em
+  vez de 8 — uma taxonomia técnica de integração pronta; `uMode - Macro Tema` 20); **`Projeto` é
+  entidade real** com database próprio, preenchida em 594 demandas, ligando demanda → fase de
+  onboarding (pendência 48); a base tem **views nomeadas por dupla de atendimento** (Laura/Holmer,
+  Julianne/Pedrão, Fernanda/Victor, Marina) com lista explícita de clientes — contraprova operacional
+  para as 13 fichas de Pessoa; e existe uma **5ª fonte de "quem é cliente"** (base de Clientes do
+  Notion, `ec041afd-fcee-44f8-83cb-223fca6f4108`), ainda não cruzada (pendência 50).
+  Pendências **28 e 43 fechadas**; novas 47-50. Ainda não lidos no Notion: skill
+  `umode-arquitetura-tese`, Plano Técnico do Hub de Agentes, `CadastrAI taxonomia_v1`.
+  **Combinado sobre a frente de integrações:** o Vinicius vai clonar os repositórios de integração
+  (um por cliente) na máquina; recomendei uma pasta-mãe única em vez de caminhos soltos, e proposto —
+  ainda a validar — um tipo de documento novo `integracao.md` no `00_Institucional/_contexto/` de
+  cada cliente que tiver, com `IntHub` recebendo a lista de clientes integrados.
+
+- **03 ago 2026** — Sessão 25 (fecho 5): **extração de narrativa do Notion — pipeline construído,
+  lote 1 entregue, e o custo real medido.**
+  **Alvo medido primeiro:** das 993 demandas de cliente, **106 já tinham narrativa** (as de Lofty
+  Style, do export HTML de jul 2026) e **887 não tinham**. Dessas, **208 estão em aberto** (não
+  Concluído/Cancelado) — Reserva 78, NV 36, Osklen 15, VIX 12, NK STORE 11, Caedu 9… Foi a fila
+  escolhida para começar: é o que está vivo.
+  **Pipeline criado e validado:** `scripts/inject-narrativa-notion.ps1`, que recebe um arquivo de
+  lote em markdown (`@@UMD-xxx` + linhas da narrativa, e uma seção `@@VAZIO`) e injeta em
+  `## Conteúdo → ### Descrição` do `D-AAAA-NNN.md` certo, casando por `ID legado`. Duas
+  garantias no script: não sobrescreve narrativa já existente, e revalidação por diff de headings
+  depois (993 demandas, **0 divergências**).
+  **Lote 1 — 8 demandas processadas:** 5 com narrativa real gravada (UMD-177, UMD-187, UMD-1127,
+  UMD-1234 da Caedu; UMD-1256 da NK STORE) e 3 **marcadas como verificadas-vazias** (UMD-133,
+  UMD-50, UMD-197). Essa segunda marca é tão importante quanto a primeira: converte "lacuna
+  desconhecida" em "verificado, não tem corpo, não consultar de novo". Exemplo do ganho real: a
+  UMD-1127 (Caedu) trouxe o retorno do cliente sobre **170 produtos que falharam no primeiro
+  script**, categoria por categoria, com os IDs a aplicar — informação operacional que nenhum export
+  de CSV entrega.
+  **Taxa de acerto medida: ~60%** têm corpo de página; ~40% são só título. Não há como saber qual é
+  qual sem buscar.
+  **Custo real, medido e não estimado:** o corpo da página só vem por `fetch` **página a página** —
+  1 chamada por demanda, e cada resposta traz o caminho de ancestrais + todas as propriedades como
+  ruído junto do conteúdo que interessa (~2,5 KB de contexto por demanda). Para as 208 em aberto são
+  ~208 chamadas e ~500 KB de contexto; para as 887 totais, ~2,2 MB. **Isso não cabe em uma sessão**,
+  porque tudo passa pelo meu contexto e depois é reescrito no arquivo. O caminho eficiente é rodar os
+  lotes em subagentes (contexto próprio, gravam direto no arquivo) — **perguntado ao Vinicius, não
+  feito por conta própria**, porque a regra desta configuração é não acionar subagente sem pedido.
+  Sem isso, a alternativa é lote de ~15-20 demandas por sessão.
+
+- **03 ago 2026** — Sessão 25 (fecho 6): **mapa de infra de tecnologia criado**, a pedido do Vinicius,
+  em `uMode/06_Tecnologia/_contexto/_backlog-infra-tecnologia.md`. Instrução explícita: **não
+  desenvolver API nenhuma agora** — só rastrear e mapear, porque vários agentes vão precisar beber
+  direto da fonte dos repositórios para operacionalizar. Estruturado em: (1) **acesso programático às
+  fontes** — o achado central é que **todo** acesso externo hoje é MCP autenticado como pessoa física
+  (a conta do Vinicius), o que serve para sessão assistida e **não** para agente autônomo; inclui os
+  IDs das 5 bases do Notion que os agentes vão consumir, o limite medido de que corpo de página só sai
+  por fetch página a página (~887 chamadas para completar a narrativa), a necessidade de service
+  account no Drive, o acesso aos repositórios de integração, a API do CX Hub (que destrava o agente de
+  card pós-aprovação) e a ausência de API de telemetria da plataforma — hoje o dado de engajamento por
+  cliente só existe numa planilha mantida à mão. (2) **O que construir para o cérebro operar**: job de
+  sincronização incremental fora de máquina pessoal, índice derivado em servidor, RAG **com respeito
+  ao isolamento entre clientes** (regra travada), migração para banco com `client_id` como PK
+  candidata, e backend dos formulários. (3) **8 dívidas de dado** (5 fontes de "quem é cliente",
+  conta-por-módulo, RFI→Demanda não resolvível, enums incompletos, INOVAÇÃO/IA sem match, registros
+  sem cliente, imagens de narrativa hospedadas fora do Notion com link expirável, grafia
+  ForneceAI×FornecAI). (4) **5 limites de ambiente que já bateram** nas sessões (caminho de 260
+  chars no Windows, encoding/BOM no PowerShell 5.1, pipeline de 1 item virando escalar, alias vencendo
+  função, e leitura de arquivo grande estourando resposta do MCP) — registrados porque voltam se a
+  infra rodar os mesmos scripts. Referência cruzada criada em `_pendencias-gerais.md` item 51.
+  **Combinado:** o Vinicius confirma quando os clones dos repositórios de integração estiverem na
+  pasta-mãe.
+
+- **03 ago 2026** — Sessão 25 (fecho 7): **frente de integrações aberta — 5º tipo de MD de cliente
+  criado.** O Vinicius disponibilizou os repositórios clonados em
+  `C:\Ambientes Virtuais\uMode-Integracoes\` e passou o **mapeamento repositório → cliente vindo do
+  desenvolvedor**, que era indispensável: eu havia inferido `arzz-sap` = Arezzo pela semelhança do
+  nome e **estava errado** — é **AZZAS**, o grupo, ou seja **Reserva + Oficina Reserva**; e
+  `unico-linx` é **Puket**, que ninguém adivinharia. A correção chegou antes de qualquer arquivo ser
+  gerado. Registrado como aviso permanente no protocolo: **nunca inferir cliente pelo nome do
+  repositório**. Efeito colateral: **Arezzo volta a não ter confirmação** de ser cliente (item 23).
+  **Criados:** `protocolo-gestao-integracao.md` + `integracao.md` no `_template_cliente` +
+  `scripts/gen-integracoes.ps1`, e **11 `integracao.md` reais** (10 repositórios, sendo que
+  `arzz-sap` atende 2 clientes — cada casa tem o seu arquivo apontando para o mesmo repositório,
+  com aviso no corpo, mesmo tratamento da RFI multi-cliente). Validados por diff de headings contra o
+  template — **0 divergências**. Decisão de escopo registrada no protocolo: `integracao.md` é
+  **condicional** — só existe para cliente que tem integração real, e a **ausência do arquivo é a
+  informação** (não entra em contagem de pendência), mesma lógica de `_rfis/` existir só do lado de
+  cliente.
+  **Ganho imediato:** a checagem de consistência do próprio script achou que **Puket e Baw** tinham
+  `ERP / Integração` = `[a preencher]` e têm integração **Linx** real — preenchido a partir do
+  repositório, com a fonte citada no campo. O repositório é fonte melhor que o CRM para esse campo.
+  **Dois estados distintos registrados como tal:** Moda Objetiva **não tem** documentação de
+  integração; Puket **tem repositório sem nenhum `.md`**. "Existe integração, falta documentação" é
+  diferente de "não existe integração".
+  **Nesta rodada só a Identificação foi preenchida** — o resto exige ler os `documentacao-geral-*.md`
+  (30 a 77 KB cada, ~500 KB no total). A estrutura dos documentos de origem **não é uniforme** entre
+  clientes ("Visão Geral" em 8 de 9; "Escrita"/"Leitura" em 5 de 9; o resto específico), o que
+  confirma a decisão de o nosso template ser uniforme e **resumir + apontar** em vez de copiar.
+  **Subagentes autorizados pelo Vinicius**, com restrição explícita de **somente consulta, nenhuma
+  alteração** — 3 disparados para a narrativa das 200 demandas em aberto restantes. Eles devolvem o
+  texto; **a escrita nos arquivos continua minha**, via `inject-narrativa-notion.ps1`, com
+  revalidação por diff depois. Também confirmado pelo Vinicius: **Objetiva = Moda Objetiva**, mesmo
+  cliente — registrado como alias e o caso fechado na varredura.
+
+- **03 ago 2026** — Sessão 25 (fecho 8): **extração de narrativa em lote — 3 subagentes, 208 demandas
+  em aberto processadas, fila zerada.** Com a autorização do Vinicius (subagentes **somente
+  consulta**, proibidos de alterar arquivo ou Notion), rodaram 3 coletores em paralelo. Eles
+  devolveram o texto; **a escrita nos arquivos continuou minha**, via
+  `inject-narrativa-notion.ps1`, com revalidação por diff depois de cada lote.
+  **Resultado:** 136 narrativas reais gravadas + 64 demandas marcadas como **verificado-vazio** nos
+  3 lotes (mais as 8 do lote manual). Narrativa no repositório saltou de **106 para 314** demandas;
+  **as 208 em aberto estão 100% processadas** — não sobrou nenhuma na fila de "em aberto sem
+  narrativa". 993 demandas revalidadas por diff de headings a cada injeção — **0 divergências**.
+  **A marca de verificado-vazio é entrega, não ausência de entrega:** ~40% das páginas do Notion não
+  têm corpo (o título é todo o conteúdo). Antes isso era lacuna desconhecida; agora está escrito no
+  arquivo que a página foi consultada e não tem corpo, com data — não precisa ser buscada de novo.
+  **O que a narrativa trouxe de valor real** (amostra do que estava invisível): regra completa de
+  geração da **Ref Fábrica** da Moda Objetiva (5 componentes, com o de/para campo a campo negociado
+  por e-mail entre uMode e cliente ao longo de 4 meses, incluindo a ordem de precedência das regras
+  de código); os comandos SQL do **"aperto de botões"** da NV no Linx; erro real de deadlock em
+  `PRODUTOS_PRECO_COR`; a lista dos 9 campos obrigatórios de e-commerce com a tabela e o tipo de
+  cada um no Linx; o payload JSON de integração de matéria-prima do SAP da Reserva; e a decisão
+  registrada de **retirar o botão "Forçar Integração" da Cambos** com o motivo técnico.
+  **Ainda sem narrativa: 679 demandas**, todas com status `Concluído` (552) ou `Cancelado` (127) —
+  é histórico encerrado, valor menor e custo igual. Fica como próximo lote, se e quando fizer sentido.
+
+- **03 ago 2026** — Sessão 25 (fecho 9): **frente de integrações fechada — 11 `integracao.md`
+  preenchidos com a documentação técnica real, 11 de 11 conformes ao template.** Os 3 coletores
+  (somente consulta) leram os **9 `documentacao-geral-*.md`** dos repositórios clonados em
+  `C:\Ambientes Virtuais\uMode-Integracoes`; a escrita continuou minha, via
+  `scripts/inject-integracao.ps1`. **151 campos preenchidos em 10 arquivos** (o 11º, Puket, não tem
+  documento nenhum), de 73 para até 106 linhas por cliente, 957 no total. Validação por diff de
+  headings contra o template: **0 divergências nos 11**. Restam 2 lacunas por arquivo, as duas de
+  governança (item 57 das pendências).
+  **Três coisas exigiram intervenção minha antes de gravar, e valem como método:**
+  (1) **Cada coletor leu só 3 repositórios e escreveu "única das Linx".** Cruzando os três lotes,
+  várias dessas afirmações são **falsas**: Lofty "única que grava `PRODUTOS_OPE_EXTRA`" ignora a VIX;
+  NK "única que não usa o interceptor" ignora NV e VIX; Osklen "único com três momentos" ignora a NV;
+  VIX "único Linx sem programações de produção" inverte o fato (a NV é a única *com*). Reescrevi
+  todas nomeando o conjunto de comparação real. **Lição para os próximos lotes: subagente com visão
+  parcial generaliza com confiança — superlativo vindo de lote precisa ser reescopado na costura, não
+  aceito.**
+  (2) **Aviso de divergência de ERP desatualizado** em Puket e Baw — o `integracao.md` foi gerado
+  quando o `institucional.md` ainda tinha `[a preencher]`, e campo vazio **nunca foi divergência**.
+  Os 11 conferem. Corrigido por `scripts/fix-integracao-divergencia-erp.ps1`.
+  (3) **A VIX tem duas datas de início do mesmo incidente** (25/03 no relatório × "aprox. 27/03, a
+  confirmar" na migração SMB) e as fontes não se reconciliam. Gravei a divergência explícita em vez
+  de escolher uma.
+  **O que a leitura entregou de valor real:** os 4 incidentes da VIX (o único cliente com relatório
+  formal — 6 semanas de integração de imagens parada após o cliente mudar host, share, domínio AD,
+  credencial e VPN sem aviso, resolvido com um microserviço NestJS dedicado em EC2); e **15 riscos
+  técnicos** que foram para `_backlog-infra-tecnologia.md` **seção 4** — todos já escritos no
+  documento do próprio repositório, nenhum diagnóstico meu. O mais grave: **a integração da Cambos
+  não envia autenticação nenhuma ao SPI**. Também nesta leitura: `umode-microservice-uconnect` (o
+  interceptor) se revelou **componente compartilhado da uMode que gera referência de produto e
+  injeta conta contábil** — regra de negócio sem ficha no Portfólio (item 60).
+  **Achado de indexação:** os incidentes da VIX citam "RFI #83" e "RFI #85", e o campo `ID legado
+  (Notion/CX Hub)` resolve os dois para `RFI-2026-005` e `RFI-2026-004`. **É a primeira prova de que
+  o cérebro relaciona por um eixo que não é cliente** — documentação técnica de integração → RFI
+  formalizada, sem precisar de campo novo. **Materializado no mesmo dia:** `gen-indice.ps1` ganhou o
+  6º eixo, `_indice/integracoes.csv` (11 linhas), com a coluna `rfis_citadas` que varre o corpo do
+  `integracao.md` por `RFI #NNN` e resolve pelo `ID legado (Notion/CX Hub)` — RFI citada e não
+  resolvida entra marcada como `(não resolvida)`, em vez de sumir. Índice regenerado: 46 clientes,
+  997 demandas, 85 RFIs, 16 produtos, 13 pessoas, 11 integrações.
+  **Fechada a pendência 55; abertas 56 a 62 (a 58 já materializada no índice).**
+
+- **04 ago 2026** — Sessão 25 (fecho 10): **frente de Produto — as 3 páginas canônicas do Notion
+  lidas, 16 de 16 `produto.md` enriquecidos, e a maior confusão de nomenclatura do Portfólio
+  resolvida.** Vinicius mandou ir no produto e liberou consultar o Notion à vontade; também passou
+  um briefing próprio sobre uRocket, uFlow, uConnect, CriAI, PlanejAI, EnriqueceAI, VendeAI e Hub de
+  Agentes, e travou a governança. Rodaram **3 coletores somente-consulta**; a escrita continuou
+  minha, via `scripts/inject-produto.ps1` (novo), em **3 lotes na ordem Notion → especificação
+  canônica → briefing do Vinicius**, deixando o briefing por último de propósito para vencer em caso
+  de conflito. **123 campos gravados; 16 de 16 conformes ao template por diff de headings.**
+  **✅ O achado da sessão — `EnriqueceAI` × `CadastrAI` × `CadastroAI` eram três coisas, não três
+  grafias.** A Especificação por Módulo V1 diz literalmente: "No desenho original era 'CadastroAI'
+  como módulo de enriquecimento. Foi rebatizado para EnriqueceAI durante esta sessão para liberar o
+  nome 'CadastrAI' para o núcleo de governança." Logo: **EnriqueceAI = antigo CadastroAI**, e
+  **CadastrAI = núcleo de governança**, item novo que herdou o nome liberado. A hipótese que o
+  Vinicius levantou ("EnriqueceAI substituiu o CadastrAI, é a mesma coisa com nome novo") estava
+  **meio certa** — houve renomeação, mas não é o mesmo item que o CadastrAI de hoje. Isso fechou de
+  uma vez a pendência de grafia `CadastroAI` × `CadastrAI`: **não era grafia, eram duas entidades em
+  momentos diferentes.** Nenhum item foi fundido. Também fechou a grafia `FornecAI` × `ForneceAI`:
+  a fonte canônica é inconsistente **consigo mesma** (cabeçalho "ForneceAI", corpo "FornecAI"), e o
+  ÍNDICE MESTRE grafa `FornecAI`, igual a `CONTEXT.md`.
+  **Governança fechada:** decisão do Vinicius de que **no BrainHub somente o CEO (João Risoléo)
+  altera** — ele está alterando tudo agora porque está construindo, exceção declarada de construção.
+  Aplicado nos 16: o campo `Quem pode alterar este documento` saiu de **15 vazios para zero**.
+  **Maturidade: 6 scores novos e 2 mudanças que precisam de ratificação.** Novos: CadastrAI
+  `Escalável` (ÍNDICE MESTRE: "produto em produção", âncoras Luiza Barcelos e Reserva), ONB HUB
+  `Escalável`, Gest Hub `MVP`, Sales Hub `Ideação`. Mudanças: **GerenciAI `Ideação` → `Escalável`**
+  (a V1 diz "o módulo que a Reserva já usa hoje" — a avaliação anterior classificou pela visão
+  futura, que a própria página marca como brainstorm) e **Taxonomia `Escalável` → `MVP`** (nenhuma
+  fonte declara produção; 1.820 dos 2.618 clusters ainda em revisão humana — a avaliação anterior
+  confundiu importância transversal com maturidade). Restam 2 `[a preencher]`: **AlocAI** e
+  **IntHub**, e por motivo real — não há fonte.
+  **O que a leitura revelou de estrutural:** as fontes desenham **8 peças** (6 módulos + CadastrAI +
+  Hub de Agentes), não 16; o Domínio 3 do ÍNDICE MESTRE tem só **4 projetos**; **3 Soluções não têm
+  nenhuma fonte** (AlocAI, VendeAI, CliprocAI); **IntHub aparece uma única vez** em tudo que foi
+  lido; existem **duas taxonomias** de abril/2026 que nunca se citam (a do PLM, 2.618 clusters, PO
+  João Risoléo — e o **TaxonomyAI**, serviço com 431 valores baseado em Fashionpedia + Shopify,
+  responsável João Ferraz); e o Hub de Agentes tem **16 agentes**, número que **não tem relação
+  nenhuma com as 16 Soluções** — coincidência registrada de propósito.
+  **⚠ Divergência que não fundi:** o Vinicius descreveu o Hub de Agentes como plataforma para o
+  cliente construir o próprio BrainHub, no novo modelo de mentoria e educação. O Plano Técnico de
+  abr/2026 **não diz nada disso** — descreve consolidação interna de agentes espalhados por 5
+  produtos. Podem ser fases diferentes da mesma coisa; ficaram registradas como duas leituras.
+  **6ª fonte de "quem é cliente":** a base legada da Taxonomia (101 fichas, 83 ativas). Cruzada com
+  nossos 46: 24 casam, **~12 nomes sem casa** — e **`Sinbi` tem "dezenas de submarcas"**, que é a
+  prova concreta da dívida de não existir entidade "conta/instância". Importar essa base agora
+  criaria 30+ casas espúrias.
+  **Descoberta de fonte inalcançável:** o ÍNDICE MESTRE avisa que **`uMode-OS` é uma pasta local no
+  Mac do João**, com `MANIFEST.md` e um **crosswalk repositório ↔ produto** — exatamente o mapa que
+  resolveria duas dívidas nossas. Nenhum agente remoto acessa. Enquanto isso, o cérebro depende de
+  uma pasta em uma máquina. Também definido ali: as camadas **T2 / T1 / T0** de privacidade — o que
+  esclarece a etiqueta "T1" da fonte da Cambos, mas **não** a autorização de uso.
+  **Correção de entendimento meu:** a página que eu chamava de "Arquitetura & Tese" **não é o
+  documento de arquitetura** — é uma ficha de skill com só as headlines. O documento real é a
+  "Especificação por Módulo (V1 — sessão 24/04/2026)".
+  **Registrado:** pendências 63 a 82 (63 e 64 já fechadas), seção **4-B** nova no
+  `_backlog-infra-tecnologia.md` com as 12 obras que o Hub de Agentes exige, e a dívida 3.1
+  atualizada de 5 para 6 fontes de cliente.
+
+- **04 ago 2026** — Sessão 25 (fecho 11): **PRIORIDADE ZERO declarada + os 4 repositórios novos lidos
+  (CX Hub, IntHub, AlocAI e o BrainHub do João).** Vinicius declarou a primeira **entrega** do
+  BrainHub — um agente de suporte técnico da uFlow para a operação — formalizada em
+  [`D-2026-002`](uMode/00_Institucional/_demandas/D-2026-002.md), conforme ao template, com o papel
+  inteiro (`Papel de Suporte.txt`) registrado e 5 subdemandas identificadas. Bloco `🔴 PRIORIDADE
+  ZERO` novo no topo deste arquivo, acima do rolo compressor. Também travou a governança (somente o
+  CEO altera) e esclareceu que **todos os repositórios de integração são da uFlow**, com a regra
+  "ter a ferramenta ≠ ter integração" — gravada em `protocolo-gestao-integracao.md`, junto da
+  consequência de que aqueles 11 `integracao.md` são hoje a nossa melhor fonte indireta sobre a
+  própria uFlow.
+  **🚧 O bloqueio da Prioridade Zero e quem o resolve.** Não temos o repositório da plataforma uFlow
+  (nenhum projeto Ruby/Rails no disco, e o papel pede "comandos Rails Console"), nem o schema do banco
+  dela — os repositórios de integração documentam as tabelas do **ERP do cliente**, nunca as da uFlow.
+  **A leitura do IntHub deu o nome de quem destrava: `Bergson`, Squad Legado, marcado literalmente
+  "(SPOF crítico)", responsável pela manutenção e pelo descomissionamento da uFlow.**
+  **E a taxonomia que o agente precisa já existe e a operação já usa** (travada por ADR no IntHub):
+  `Client` · `Process` · `Engineering` · `Nao_Classificado`, com responsável `Parceiro`/`uMode`/
+  `Indefinido`. É exatamente o "é configuração, é tech, ou é erro de dado" — não precisa ser inventado.
+  **✅ CX Hub: hierarquia confirmada, com duas correções.** `programs → program_milestones` +
+  `projects` (nullable) → `demands` (3 FKs nullable) → `demand_tasks`. **"Subdemanda" é
+  `demand_tasks`, não demanda-filha** — o que **valida o nosso modelo**, que já a trata como checklist
+  no mesmo card. No domínio de Programas o vocabulário muda: projetos são "features", demandas são
+  "sub-itens". E **`demands` não tem coluna de status** — o estado é `column_id` + `finished_at` +
+  `cancellation_reason` + `is_blocked`, com status derivado em RPC. **Isso explica retroativamente o
+  conflito Status × Etapa que encontramos no dado legado.**
+  **✅ Os enums reais chegaram, e fecham lacunas antigas:** `demand_priority` tem **`low`** (fecha a
+  lacuna "Prioridade sem equivalente para Baixa"), com SLA por prioridade (2h/4h/8h/24h);
+  `blocker_types` tem **5 valores reais** e o nosso enum acerta 4 — falta **`Aguardando cliente`** e
+  temos um `Outra` que não existe no catálogo; `rfi_statuses` são **`Previsto`/`Orçada`/`Aceito`/
+  `Recusada`**, que **divergem por completo** dos status de RFI que traduzimos do legado; e há um campo
+  `delay_reason` com 7 valores que nós não temos. **🔴 E a explicação definitiva do eixo de Área
+  vazio: `ticket_columns` e `demand_areas` NÃO TÊM SEED** — são configuráveis em Settings e o código
+  evita nomes fixos de propósito ("No hardcoded names or positions"). **Não existe fonte documental
+  para o enum de Área do CX Hub; ele vive só no banco de produção.**
+  **⚠ Duas correções de premissa nossa:** (1) a **RFI do CX Hub** tem CHECK XOR — pertence a uma
+  Demanda **ou** a um Projeto, então **existe RFI sem demanda nenhuma**, caso que o nosso modelo (RFI
+  dentro da Demanda) não representa. (2) o nosso campo `ID legado (Notion/CX Hub)` **conflaciona dois
+  sistemas**: numa amostra de 400 demandas, **399 têm formato `UMD-N`, que é ID do Notion**, e o código
+  do CX Hub é `PREFIXO-NNNN` (`BUG-0042`, `SUP-0113`). `UMD-970` não resolve para nada no CX Hub.
+  **🔴 Não existe API para criar demanda no CX Hub, e não existe idempotência.** Nenhuma Edge Function
+  faz INSERT em `demands`; o único caminho é PostgREST com JWT de usuário. **Sem `external_id`, sem
+  UNIQUE de dedup, sem `ON CONFLICT`: reenviar o mesmo POST cria uma segunda demanda.** As duas coisas
+  precisam ser construídas antes de qualquer automação BrainHub → CX Hub.
+  **🔴 O vault do João usa a NOSSA estrutura exata, e tem dois arquivos de taxonomia que não temos:**
+  `BrainHub/uMode/00_Institucional/_contexto/TAXONOMIA_UMODE.md` (8.356 palavras, 212 headings) e
+  `BrainHub/uMode/04_Dados-e-IA/taxonomia-atributos/GRUPOS_ATRIBUTOS_UMODE.md` (8.765 palavras).
+  `00_Institucional/_contexto/` e `04_Dados-e-IA` são precisamente os nomes das nossas pastas.
+  **Hipótese forte, não confirmada: é esta a "outra fonte rica de informações institucionais" da fase
+  de reprocessamento.** Também lá: um registro numerado de decisões **D13 → D51** (`DECISOES.md`) e um
+  `_GOVERNANCA.md` cuja regra é declarada no código — "em conflito, a governança do vault vence".
+  O repositório dele **é** um BrainHub Console (18 rotas, 30 tabelas); `design-system-hub` é resíduo
+  de nome do Lovable. E **não integra fonte externa nenhuma** — zero Notion, zero Drive em 167
+  arquivos e 211 commits: um agente local chamado **Hermes** lê as fontes e empurra para lá.
+  **Achado cruzado que nenhum dos dois lados conhece:** o IntHub monitora
+  `jumper_integration_executions` do MySQL legado e depende de uma tabela de tradução manual
+  (`legacy_entity_map`) que tem **1 linha**; **os nossos `integracao.md` carregam os `INTEGRATION_ID`
+  5, 21, 22 e 25**, e o da VIX cita a tabela nominalmente. Registrado como achado, não como ação.
+  **Incidentes reais que validam a nossa cautela:** no BrainHub do João, a trava de sensibilidade
+  "era decorativa" e **"o primeiro T1 aprovado (valor de contrato Malwee, CNPJ + receita de cliente)
+  teria vazado para a chave pública"** — 47 de 53 linhas passavam. No CX Hub, `CTX4`: DELETE em massa
+  de `interactions` **sem** o filtro obrigatório `auto_created`, marcado como "EXECUTADO (lição)". E
+  `RISC-001`, aberto: **senhas de ERP de cliente em YAML texto plano** em 24 linhas do uFlow.
+  **Registrado:** pendências **91 a 135**; seção de segurança e as dívidas novas em
+  `_backlog-infra-tecnologia.md`. **Nota sobre nós:** `_pendencias-gerais.md` chegou a **17.180
+  palavras** — passaria como crítico pelo threshold de 8.000 do próprio auditor de MD do Hermes. Está
+  pedindo a triagem por dono que já foi prevista e nunca feita.
+
+- **04 ago 2026** — Sessão 25 (fecho 12): **PRIORIDADE ZERO desbloqueada — repositório e schema da
+  uFlow recebidos e mapeados; o agente ganhou base real.** Vinicius entregou o clone da plataforma, e
+  a leitura produziu dois documentos novos em `uMode/04_Dados-e-IA/_contexto/`:
+  **`agente-suporte-uflow.md`** (o contrato de comportamento do agente, preservado porque os arquivos
+  de origem saíram do disco) e **`uflow-modelo-de-dados.md`** (o mapa do banco: 211 tabelas, domínios,
+  tabelas centrais, multi-tenant, integrações, auditoria e 20+ armadilhas).
+  **A correção mais consequente que a leitura produziu:** a fonte de treinamento diz "prefixo de
+  tabela geralmente `umode_...`" — e no schema real **`umode_` é 119 de 211 tabelas (56%)**, enquanto
+  **`jumper_` são 63 e formam o núcleo da plataforma** (tenant, usuário, política, workflow,
+  integração). **Não existe nenhuma tabela `j3_`** — `J3` é só namespace Ruby que resolve para
+  `jumper_`. **Um agente que assumir `umode_` erra em 44% do banco.** Correção aplicada no nosso
+  arquivo; a fonte original não foi alterada.
+  **Descoberta de linhagem:** a uFlow é a **reescrita de um app PHP/Laravel chamado "Jumper"** — as 63
+  tabelas `jumper_*` são o núcleo herdado, e sobraram `laravel_jobs`, `migrations` e `sessions`,
+  mortas. **Isso liga duas fontes que não se conheciam:** a página "Taxonomia" do Notion documenta
+  "Actions do Jumper (legado uFlow)" com anexo `JUMPER_ACTIONS.txt`. **"Jumper" é o legado dentro do
+  legado**, e nada disso está no `README.md` da plataforma.
+  **✅ Circuito de integração fechado.** A uFlow expõe `POST`/`PATCH /api/v1/integration-executions`.
+  Os 10 repositórios de integração são **Lambdas externas que gravam ali por HTTP**, e o
+  `INTEGRATION_ID` que documentamos (5 NV · 21 Baw · 22 Lofty · 25 Luiza Barcelos) é o
+  `jumper_integrations.id`. Fluxo: **Lambda → API da uFlow → `jumper_integration_executions` →
+  polling do IntHub**. Confirmação lateral: dentro da uFlow só existem runners **Millenium** — Linx,
+  SAP, SPI e Safe Tech vivem só nas Lambdas. **Isto converte o item 105 de hipótese em mecanismo.**
+  **🔴 Três achados que limitam o que o agente pode prometer:** (a) **`db/schema.rb` não é a fonte de
+  verdade completa** — faltam 4 tabelas, entre elas **`jumper_policies`**, a tabela de permissão da
+  plataforma, e 6 das 8 views; um `db:schema:load` produz aplicação que não sobe. (b) **58% das
+  tabelas não têm `entity_id`** — sem RLS, sem schema-per-tenant: o isolamento entre clientes depende
+  da aplicação, e subsistemas inteiros (todo o kanban, todo o custo, os 26 pivots) só resolvem tenant
+  por JOIN. (c) **"Lacre" não existe no banco** — é convenção de nome de custom field
+  (`lacre_checklist`, `data_lacre_checklist`) acordada por cliente, e o `produto.md` do DesenvolvAI
+  descreve o módulo como "croqui → lacre". A etapa central do nosso vocabulário **não é entidade de
+  dados**; um cliente que renomeie o campo quebra o relatório.
+  **Outras armadilhas que valem para qualquer métrica que a gente extraia da uFlow:** `umode_products`
+  é **STI** e guarda também `PurchaseOrder`, `ProductBundle` e `ProductTemplate` — contar produto sem
+  filtrar `type` infla o número; **dinheiro é `float`** (`value_cents` é `t.float`, sem `money-rails`),
+  então todo custo carrega erro de ponto flutuante; **`integration_id` é dois campos com o mesmo
+  nome** (FK numa tabela, string de de-dup externa em 18 outras, nenhuma indexada); e
+  **`jumper_entity_configs.deleted_at` é `t.string`**, a única do schema, justamente na tabela que
+  controla o comportamento por cliente.
+  **Segurança:** confirmado no schema que **`jumper_integrations.properties` (YAML) guarda as
+  credenciais de ERP de cada cliente** — o `RISC-001` do IntHub agora tem duas fontes independentes.
+  Mais `jumper_entities.api_token` sem hash e duas colunas de senha em `jumper_users`. Tudo em
+  `_backlog-infra-tecnologia.md`, **seção 4-C** nova, com 12 itens.
+  **⚠ Interrompido por limite de crédito da organização:** a varredura que enumeraria **todas as
+  `EntityConfig` do código** morreu antes de produzir resultado. É **a lacuna de maior valor que
+  resta** — enumerar as configs é enumerar onde o comportamento muda por cliente. A única conhecida
+  por nome continua sendo `product_manufacturer_supplier_status` (Osklen, `entity_id = 3580`).
+  **Registrado:** pendências **136 a 152**.

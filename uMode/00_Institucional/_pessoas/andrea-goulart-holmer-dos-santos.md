@@ -41,10 +41,15 @@ ativa
 ### Clientes atuais atendidos
 [não aplicável — Status Inativo, ver Clientes atendidos historicamente]
 ### Clientes atendidos historicamente
-Lofty Style · Cambos · Luiza Barcelos · Moda Objetiva (Key Account nos 4, enquanto esteve
-ativa — confirmado via CRM "Mapa de Clientes", varredura de 09 jul 2026; movido de "atuais"
-pra "históricos" em 13 jul 2026) — possivelmente outros clientes fora do piloto, não
-verificado
+Como Key Account (9): Baw · Cambos · DRO · Highstil · Lofty Style · Luiza Barcelos ·
+Moda Objetiva · Oficina Reserva · Plie
+Como Consultora de Negócios (4): Caedu · Seven Global · Vivara · VIX
+> Registro original (09 jul 2026) cobria só os 4 clientes-piloto, com a ressalva "possivelmente
+> outros clientes fora do piloto, não verificado". **Completado em 03 ago 2026** na varredura dos
+> 46 clientes reais do CRM "Mapa de Clientes": são 13 clientes no total, em dois papéis
+> diferentes. Tudo em "historicamente" porque o Status na uMode é Inativo (saiu do time,
+> informado em 13 jul 2026) — o CRM, sendo snapshot de mar 2026, ainda a lista como responsável
+> ativa nesses clientes; isso é defasagem da fonte, não vínculo atual.
 
 ## Personificação
 [só a própria pessoa preenche, via formulário — nunca inferido de documento]

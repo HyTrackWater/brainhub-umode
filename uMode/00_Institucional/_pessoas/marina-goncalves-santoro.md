@@ -40,8 +40,12 @@ completo em 2024 como Consultora de Negócios
 ### Áreas de atuação histórica
 Integração / Tecnologia (PO Integração desde antes de mai/2025, conforme organograma)
 ### Clientes atuais atendidos
-[a preencher — não confirmado se ainda ativa diretamente em algum dos 4 clientes-piloto; em
-todos eles o atendimento já passou para Andrea Holmer + Laura Delgado]
+Como Consultora de Negócios (1): Luiza Barcelos
+> Único vínculo de atendimento em nome dela nos **46 clientes reais** do CRM "Mapa de Clientes"
+> (varredura de 03 ago 2026) — confirma o registro anterior de que o atendimento direto dos
+> outros pilotos passou para Andrea Holmer + Laura Delgado. Não confunde com a presença dela em
+> reuniões e RFIs de muitos outros clientes (ver "Clientes atendidos historicamente"): aparecer
+> na base de reuniões/RFIs não é o mesmo que ser a responsável de atendimento no CRM.
 ### Clientes atendidos historicamente
 Lofty Style (onboarding, mar–set/2025) · Luiza Barcelos (onboarding, 2024, como Consultora de
 Negócios) — mais dezenas de outros clientes entre 2023 e 2026 na base "Reuniões

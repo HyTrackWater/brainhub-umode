@@ -1,20 +1,45 @@
-﻿# Gera D-AAAA-NNN.md para um cliente a partir do CSV consolidado de Demandas.
-# Uso: .\gen-demandas.ps1 -ClientCsvName 'Cambos' -ClientFolder 'Cambos'
+﻿# Gera D-AAAA-NNN.md para um cliente a partir do CSV consolidado de Demandas (export do Notion).
+#
+# Uso: .\gen-demandas.ps1 -ClientCsvName 'Cambos' -ClientFolder 'Cambos' -CsvPath '...\demandas.csv'
+#
+# Historico de versoes deste script:
+# v1 (10 jul 2026) — gerou as 236 demandas dos 4 clientes-piloto a partir do export
+#    "Demandas Totais CSV e Markdown" (jul 2026, pasta ja removida do repositorio).
+# v2 (03 ago 2026) — replicacao total. Mudancas, todas registradas em
+#    protocolo-gestao-demanda.md ANTES de rodar:
+#      - CSV virou parametro (-CsvPath); a pasta de dado bruto nao vive mais no repositorio
+#      - coluna de 1o nivel de status: 'Propriedade' (export jul) OU 'Status' (export mar) —
+#        resolvida dinamicamente, mesmos valores de enum nas duas
+#      - coluna de cliente resolvida por padrao (o emoji do Notion chega mojibake em alguns exports)
+#      - 16 combos novos de Status+Etapa
+#      - Criticidade 'Critica / Urgente' -> Urgente ; 'Baixa' -> [a preencher] + valor bruto em nota
+#      - Area Responsavel sem correspondencia (ex.: 'INOVACAO / IA') -> [a preencher] + valor bruto
+#      - emite os campos que o template ganhou depois da v1: 'Status (interno)', 'Vinculada?',
+#        'Vinculo' (antes eram aplicados por script de retrofit separado)
+#      - fallback de data aceita mes em ingles (export mar) alem de portugues (export jul)
 
 param(
   [Parameter(Mandatory=$true)][string]$ClientCsvName,
-  [Parameter(Mandatory=$true)][string]$ClientFolder
+  [Parameter(Mandatory=$true)][string]$ClientFolder,
+  [Parameter(Mandatory=$true)][string]$CsvPath,
+  [string]$Root = "C:\Ambientes Virtuais\BrainHub\brainhub-umode",
+  [string]$FonteNota = 'export "Demandas de Clientes" (Drive `1U3B3MwvjnImUXB4I4XDP906huCvflFVK`, snapshot de 05 mar 2026)',
+  # -Casa: a demanda e da propria Casa uMode (a base tem linhas com Cliente = uMode). Muda o
+  # destino do arquivo e a Natureza (interna, nao casa-cliente) — ver protocolo-gestao-demanda.md.
+  [switch]$Casa
 )
 
 $ErrorActionPreference = 'Stop'
-$root = "C:\Ambientes Virtuais\BrainHub\brainhub-umode"
-$csvPath = Join-Path $root "Demandas Totais CSV e Markdown\uMode Geral\Databases\Demandas de Clientes ddf1951a8dc242e698e6bae3d1f5a865_all.csv"
-$outDir = Join-Path $root "uMode\_Clientes\$ClientFolder\00_Institucional\_demandas"
+$outDir = if ($Casa) { Join-Path $Root "uMode\00_Institucional\_demandas" } else { Join-Path $Root "uMode\_Clientes\$ClientFolder\00_Institucional\_demandas" }
 New-Item -ItemType Directory -Path $outDir -Force | Out-Null
 
 $mesesPt = @{
   'janeiro'=1;'fevereiro'=2;'março'=3;'abril'=4;'maio'=5;'junho'=6;'julho'=7;
   'agosto'=8;'setembro'=9;'outubro'=10;'novembro'=11;'dezembro'=12
+}
+$mesesEn = @{
+  'january'=1;'february'=2;'march'=3;'april'=4;'may'=5;'june'=6;'july'=7;
+  'august'=8;'september'=9;'october'=10;'november'=11;'december'=12
 }
 
 function Parse-Data($row) {
@@ -24,10 +49,15 @@ function Parse-Data($row) {
   }
   $ce = $row.'Criado em'
   if ($ce -and $ce -match '(\d{1,2}) de (\w+) de (\d{4})') {
-    $day=[int]$Matches[1]; $mesNome=$Matches[2].ToLower(); $year=[int]$Matches[3]
-    if ($mesesPt.ContainsKey($mesNome)) {
-      $dt = [datetime]::new($year,$mesesPt[$mesNome],$day)
-      return [pscustomobject]@{ Date=$dt; Display="{0:D2}/{1:D2}/{2}" -f $day,$mesesPt[$mesNome],$year; FromFallback=$true }
+    $day=[int]$Matches[1]; $mes=$Matches[2].ToLower(); $year=[int]$Matches[3]
+    if ($mesesPt.ContainsKey($mes)) {
+      return [pscustomobject]@{ Date=[datetime]::new($year,$mesesPt[$mes],$day); Display="{0:D2}/{1:D2}/{2}" -f $day,$mesesPt[$mes],$year; FromFallback=$true }
+    }
+  }
+  if ($ce -and $ce -match '(\w+)\s+(\d{1,2}),\s*(\d{4})') {
+    $mes=$Matches[1].ToLower(); $day=[int]$Matches[2]; $year=[int]$Matches[3]
+    if ($mesesEn.ContainsKey($mes)) {
+      return [pscustomobject]@{ Date=[datetime]::new($year,$mesesEn[$mes],$day); Display="{0:D2}/{1:D2}/{2}" -f $day,$mesesEn[$mes],$year; FromFallback=$true }
     }
   }
   return $null
@@ -43,10 +73,10 @@ function Get-AreaCxHub($areaResp) {
   }
 }
 
-function Get-Status($prop, $etapa) {
-  $p = $prop.Trim(); $e = $etapa.Trim()
-  $key = "$p|$e"
+function Get-Status($nivel1, $etapa) {
+  $key = "$($nivel1.Trim())|$($etapa.Trim())"
   switch ($key) {
+    # --- mapeados na v1 (Lofty, jul 2026) e na extensao de 10 jul 2026
     'Não iniciada|Backlog' { return 'Backlog' }
     'Não iniciada|' { return 'Backlog' }
     'Standby - Produto|Backlog' { return 'Backlog' }
@@ -59,9 +89,40 @@ function Get-Status($prop, $etapa) {
     'Concluída|Demanda Concluída' { return 'Concluído' }
     'Concluída|Em Validação - Cliente' { return 'Concluído' }
     'Encerrada|Demanda Cancelada' { return 'Cancelado' }
+    # --- combos achados em 03 ago 2026 (replicacao total)
+    'Não iniciada|Análise uMode' { return 'Backlog' }
+    'Não iniciada|Em Desenvolvimento' { return 'Backlog' }
+    'Standby - Produto|Análise uMode' { return 'Backlog' }
+    'Nível de Análise|Análise uMode' { return 'Análise' }
+    'Nível de Análise|Na Fila' { return 'Análise' }
+    'Nível de Análise|Backlog' { return 'Análise' }
+    'Nível de Análise|' { return 'Análise' }
+    'Demanda Aceita|Na Fila' { return 'A fazer' }
+    'Demanda Aceita|Análise uMode' { return 'Análise' }
+    'Demanda Aceita|Análise Cliente' { return 'Análise' }
+    'Demanda Aceita|Demanda Concluída' { return 'Em Progresso' }
+    'Concluída|Na Fila' { return 'Concluído' }
+    'Encerrada|Demanda Concluída' { return 'Cancelado' }
+    'Encerrada|Backlog' { return 'Cancelado' }
+    'Encerrada|Em Validação - Cliente' { return 'Cancelado' }
+    'Encerrada|Análise uMode' { return 'Cancelado' }
+    # --- combos achados em 03 ago 2026, 2a rodada (fonte de jul 2026)
+    'Concluída|' { return 'Concluído' }
+    'Standby - Produto|' { return 'Backlog' }
+    'Standby - Produto|Análise Cliente' { return 'Backlog' }
+    'Encerrada|Na Fila' { return 'Cancelado' }
+    'Não iniciada|Análise Cliente' { return 'Backlog' }
+    'Demanda Aceita|Backlog' { return 'A fazer' }
     default { return $null }
   }
 }
+
+# combos em que Status e Etapa se contradizem: Status prevalece, conflito vira nota
+$combosConflitantes = @(
+  'Concluída|Em Validação - Cliente','Demanda Aceita|Demanda Concluída','Concluída|Na Fila',
+  'Não iniciada|Análise uMode','Não iniciada|Em Desenvolvimento','Encerrada|Demanda Concluída',
+  'Encerrada|Em Validação - Cliente','Encerrada|Análise uMode','Não iniciada|Análise Cliente'
+)
 
 function Get-Tipo($tipo) {
   $t = $tipo.Trim()
@@ -73,13 +134,26 @@ function Get-Tipo($tipo) {
   }
 }
 
-function Get-Prioridade($prioridade, $criticidade) {
-  $p = $prioridade.Trim()
-  if (@('Média','Alta','Urgente') -contains $p) { return $p }
-  $c = $criticidade.Trim()
-  if (@('Média','Alta','Urgente') -contains $c) { return $c }
-  return '[a preencher]'
+# Bloqueio (Notion) -> Motivo de bloqueio. Tabela registrada em protocolo-gestao-demanda.md.
+# So 'Aguardando o Cliente' tem equivalente exato; o resto vai pra 'Outra' mantendo o valor
+# original visivel, porque o enum nao cobre esses motivos.
+function Get-Bloqueio($bloqueio) {
+  $b = (Limpa $bloqueio)
+  if ($b -eq '') { return '' }
+  if ($b -eq 'Aguardando o Cliente') { return 'Aguardando Cliente' }
+  return "Outra — valor legado do Notion: ""$b"""
 }
+
+function Limpa($v) {
+  if ($null -eq $v) { return '' }
+  $bs = [string][char]92
+  $pat = '[' + $bs + $bs + ']([^a-zA-Z0-9\s])'
+  $x = $v -replace '\s*\(https?://[^)]*\)', ''
+  $x = $x -replace $pat, '$1'
+  return ($x -replace "`r", '').Trim()
+}
+
+function Achata($v) { return ((Limpa $v) -replace "`n", ' · ') }
 
 function Clean-Title($desc, $idLegado) {
   if (-not $desc) { return "Demanda $idLegado" }
@@ -87,6 +161,7 @@ function Clean-Title($desc, $idLegado) {
   if ($lines.Count -eq 0) { return "Demanda $idLegado" }
   $t = $lines[0]
   $t = $t -replace '^[•◦\-\*·]\s*', ''
+  $t = $t -replace '\\([^a-zA-Z0-9\s])', '$1'
   $t = $t.Trim()
   if ($t.Length -gt 90) { $t = $t.Substring(0,87).Trim() + '…' }
   if ($t -eq '') { return "Demanda $idLegado" }
@@ -108,8 +183,36 @@ function Format-Body($text) {
   return $out
 }
 
-$rows = Import-Csv $csvPath | Where-Object { $_.'👥 Clientes' -like "*$ClientCsvName*" }
-Write-Output "$ClientCsvName : $($rows.Count) linhas encontradas"
+# ---------------------------------------------------------------- fonte
+$all = Import-Csv $CsvPath
+$cols = $all[0].PSObject.Properties.Name
+$colCli = ($cols | Where-Object { $_ -like '*Clientes*' } | Select-Object -First 1)
+$colNivel1 = if ($cols -contains 'Propriedade') { 'Propriedade' } else { 'Status' }
+if (-not $colCli) { throw "Coluna de cliente nao encontrada no CSV de demandas" }
+
+# normaliza os dois lados: o export do Notion escapa markdown no valor (ex.: "Básico\&Co")
+function Norm-Nome($v) { return (Limpa $v) }
+$alvo = Norm-Nome $ClientCsvName
+$rows = $all | Where-Object { @($_.$colCli -split '\),' | ForEach-Object { Norm-Nome (($_ -split ' \(http')[0]) }) -contains $alvo }
+
+# ---- mapa das RFIs ja formalizadas deste cliente, pra resolver o vinculo bidirecional
+# (coluna 'RFI' do Notion traz o NOME da pagina da RFI; nossos arquivos guardam nome + ID)
+function Chave($s) { return (($s -replace '[^\p{L}\p{N}]', '').ToLower()) }
+$mapaRfi = @{}
+$rfiDir = if ($Casa) { $null } else { Join-Path $Root "uMode\_Clientes\$ClientFolder\00_Institucional\_rfis" }
+if ($rfiDir -and (Test-Path $rfiDir)) {
+  foreach ($arq in (Get-ChildItem $rfiDir -Filter "RFI-*.md" -File)) {
+    $ls = @(Get-Content -Encoding UTF8 $arq.FullName)
+    $iId = [array]::IndexOf($ls, '### ID')
+    $iNome = [array]::IndexOf($ls, '### Nome / Descrição')
+    if ($iId -ge 0 -and $iNome -ge 0) {
+      $k = Chave $ls[$iNome + 1]
+      if ($k -ne '' -and -not $mapaRfi.ContainsKey($k)) { $mapaRfi[$k] = @{ Id = $ls[$iId + 1]; Nome = $ls[$iNome + 1] } }
+    }
+  }
+}
+Write-Output "$ClientCsvName : $($rows.Count) linhas encontradas (coluna nivel1='$colNivel1')"
+if ($rows.Count -eq 0) { return }
 
 $parsed = foreach ($r in $rows) {
   $d = Parse-Data $r
@@ -129,27 +232,66 @@ foreach ($item in $sorted) {
   $counters[$year]++
   $id = "D-{0}-{1:D3}" -f $year, $counters[$year]
 
+  $notas = New-Object System.Collections.Generic.List[string]
+  $obsFonte = $r.'Observações'.Trim()
+
   $areaResp = $r.'Área Responsável'
   $quadroArea = Get-AreaCxHub $areaResp
   $quadro = $quadroArea[0]; $areaCx = $quadroArea[1]
-
-  $status = Get-Status $r.'Propriedade' $r.'Etapa'
-  $statusNote = ''
-  if (-not $status) {
-    $unmappedStatus.Add("$id : Propriedade='$($r.Propriedade)' Etapa='$($r.Etapa)'")
-    $status = '[a preencher]'
+  if ($areaResp.Trim() -ne '' -and $quadro -eq '[a preencher]') {
+    $notas.Add("[Dado legado preservado: ``Área Responsável`` (Notion) = ""$($areaResp.Trim())"" — sem correspondência no enum de Área (CX Hub); Quadro/Área ficaram [a preencher], ver protocolo-gestao-demanda.md]")
   }
 
-  $motivoBloqueio = if ($r.'Propriedade'.Trim() -eq 'Standby - Produto') { 'Aguardando Decisão' } else { '[a preencher]' }
+  $nivel1 = $r.$colNivel1
+  $status = Get-Status $nivel1 $r.'Etapa'
+  if (-not $status) {
+    $unmappedStatus.Add("$id : nivel1='$($nivel1)' Etapa='$($r.Etapa)'")
+    $status = '[a preencher]'
+  }
+  $comboKey = "$($nivel1.Trim())|$($r.'Etapa'.Trim())"
+  if ($combosConflitantes -contains $comboKey) {
+    $notas.Add("[Observação: dado legado com Status/Etapa conflitantes — ""$($nivel1.Trim())"" (status) vs ""$($r.'Etapa'.Trim())"" (etapa); mapeado como $status por prevalência do Status, conforme protocolo-gestao-demanda.md]")
+  }
+
+  # o campo 'Bloqueio' real prevalece sobre a regra automatica de Standby (motivo real > inferido)
+  $bloqReal = Get-Bloqueio $r.'Bloqueio'
+  $motivoBloqueio = if ($bloqReal -ne '') { $bloqReal }
+                    elseif ($nivel1.Trim() -eq 'Standby - Produto') { 'Aguardando Decisão' }
+                    else { '[a preencher]' }
+
+  # ---- RFI vinculada (vinculo bidirecional exigido pelo protocolo)
+  $rfiFonte = Limpa $r.'RFI'
+  if ($rfiFonte -ne '') {
+    $k = Chave $rfiFonte
+    if ($mapaRfi.ContainsKey($k)) {
+      $rfiVinculada = "$($mapaRfi[$k].Id) — $($mapaRfi[$k].Nome)"
+    } else {
+      $rfiVinculada = "$rfiFonte [nome bruto da RFI no Notion — não casou com nenhuma RFI formalizada deste cliente; reconciliar manualmente, ver protocolo-gestao-rfi.md]"
+    }
+  } else {
+    $rfiVinculada = '[a preencher]'
+  }
 
   $tipo = Get-Tipo $r.'Tipo de Demanda'
-  $prioridade = Get-Prioridade $r.'Prioridade' $r.'Criticidade'
+
+  # Prioridade: enum (Media/Alta/Urgente), com Criticidade como fallback
+  $prioridade = '[a preencher]'
+  $p = $r.'Prioridade'.Trim(); $c = $r.'Criticidade'.Trim()
+  if (@('Média','Alta','Urgente') -contains $p) { $prioridade = $p }
+  elseif (@('Média','Alta','Urgente') -contains $c) { $prioridade = $c }
+  elseif ($c -eq 'Crítica / Urgente') { $prioridade = 'Urgente' }
+  if ($prioridade -eq '[a preencher]') {
+    if ($p -ne '') { $notas.Add("[Dado legado preservado: ``Prioridade`` (Notion) = ""$p"" — fora do enum de Prioridade (Média/Alta/Urgente), não convertido por suposição de escala]") }
+    if ($c -ne '') { $notas.Add("[Dado legado preservado: ``Criticidade`` (Notion) = ""$c"" — sem valor equivalente no enum de Prioridade, ver protocolo-gestao-demanda.md]") }
+  }
 
   $criador = if ($r.'Criado por'.Trim() -ne '') { $r.'Criado por'.Trim() } else { '[a preencher]' }
   $responsavel = if ($r.'Key Account/Responsável'.Trim() -ne '') { $r.'Key Account/Responsável'.Trim() } else { '[a preencher]' }
 
   $quemSolicitou = $r.'Quem solicitou?'.Trim()
-  $origem = if ($quemSolicitou -ne '') { "Cliente:$ClientFolder - solicitado por: $quemSolicitou" } else { "Cliente:$ClientFolder" }
+  $escopo = if ($Casa) { "Casa uMode" } else { "Cliente:$ClientFolder" }
+  $origem = if ($quemSolicitou -ne '') { "$escopo - solicitado por: $quemSolicitou" } else { $escopo }
+  $natureza = if ($Casa) { "interna" } else { "casa-cliente" }
 
   $entregaPrevista = if ($r.'Data de Previsão de Entrega'.Trim() -ne '') { $r.'Data de Previsão de Entrega'.Trim() } else { '[a preencher]' }
   $conclusaoReal = if ($r.'Data de Conclusão'.Trim() -ne '') { $r.'Data de Conclusão'.Trim() } else { '[a preencher]' }
@@ -157,16 +299,31 @@ foreach ($item in $sorted) {
   $horas = if ($r.'Horas de Demanda'.Trim() -ne '') { $r.'Horas de Demanda'.Trim() } elseif ($r.'Horas - Recurso Específico'.Trim() -ne '') { $r.'Horas - Recurso Específico'.Trim() } else { '[a preencher]' }
 
   $titulo = Clean-Title $r.'Descrição da Solicitação' $r.ID
+  $anexos = if ($r.'Arquivos e mídia'.Trim() -ne '') { $r.'Arquivos e mídia'.Trim() } else { '[a preencher]' }
+  $ultimaEdicao = $r.'Última edição'.Trim()
+  $idLegado = if ($r.ID.Trim() -ne '') { $r.ID.Trim() } else { '[a preencher]' }
 
-  $notasInternas = $r.'Observações'.Trim()
-  if ($status -eq 'Concluído' -and $r.'Etapa'.Trim() -eq 'Em Validação - Cliente') {
-    $conflictNote = "[Observação: dado legado com Status/Etapa conflitantes - Propriedade 'Concluída' mas Etapa 'Em Validação - Cliente'; mapeado como Concluído por prevalência da Propriedade]"
-    $notasInternas = if ($notasInternas -ne '') { "$notasInternas`n$conflictNote" } else { $conflictNote }
+  # ---- colunas legadas sem campo equivalente no padrao: preservadas, nunca descartadas
+  # (tabela registrada em protocolo-gestao-demanda.md)
+  $legado = New-Object System.Collections.Generic.List[string]
+  foreach ($par in @(
+      @('Responsabilidade','Responsabilidade'), @('Projeto','Projeto'),
+      @('uMode - Macro Tema','uMode - Macro Tema'), @('Comentário uMode','Comentário uMode'),
+      @('Suporte Integração','Suporte Integração'), @('Tempo de Resolução','Tempo de Resolução'),
+      @('Nível de Esforço','Nível de Esforço'))) {
+    $v = Achata $r.($par[0])
+    if ($v -ne '') { $legado.Add("- ``$($par[1])``: $v") }
   }
 
-  $anexos = if ($r.'Arquivos e mídia'.Trim() -ne '') { $r.'Arquivos e mídia'.Trim() } else { '[a preencher]' }
-
-  $ultimaEdicao = $r.'Última edição'.Trim()
+  $notasInternas = @()
+  if ($obsFonte -ne '') { $notasInternas += (Format-Body $obsFonte) }
+  if ($notas.Count -gt 0) { $notasInternas += $notas }
+  if ($legado.Count -gt 0) {
+    $notasInternas += '[Campos legados do Notion sem campo equivalente no padrão — preservados aqui'
+    $notasInternas += 'para não perder dado; ver protocolo-gestao-demanda.md]'
+    $notasInternas += $legado
+  }
+  if ($notasInternas.Count -eq 0) { $notasInternas = @('[a preencher]') }
 
   $lines = New-Object System.Collections.Generic.List[string]
   $lines.Add("# $titulo · Demanda")
@@ -175,17 +332,23 @@ foreach ($item in $sorted) {
   $lines.Add("### ID")
   $lines.Add($id)
   $lines.Add("### ID legado (Notion/CX Hub)")
-  $lines.Add($r.ID)
+  $lines.Add($idLegado)
   $lines.Add("### Natureza")
-  $lines.Add("casa-cliente")
+  $lines.Add($natureza)
   $lines.Add("### Origem (organizacional)")
   $lines.Add($origem)
   $lines.Add("### Destino (organizacional)")
   $lines.Add("[a preencher]")
   $lines.Add("### Data de abertura")
   $lines.Add($item.DateInfo.Display)
+  $lines.Add("### Status (interno)")
+  $lines.Add("Concluída — demanda já criada e vinculada ao CX Hub (ver Vinculada?); execução acompanhada pelo Status do CX Hub abaixo")
   $lines.Add("")
   $lines.Add("## Taxonomia CX Hub")
+  $lines.Add("### Vinculada?")
+  $lines.Add("Sim")
+  $lines.Add("### Vínculo")
+  $lines.Add("CX Hub — ID: $idLegado")
   $lines.Add("### Quadro")
   $lines.Add($quadro)
   $lines.Add("### Área (CX Hub)")
@@ -211,7 +374,7 @@ foreach ($item in $sorted) {
   $lines.Add("### Motivo de bloqueio")
   $lines.Add($motivoBloqueio)
   $lines.Add("### RFI vinculada")
-  $lines.Add("[a preencher]")
+  $lines.Add($rfiVinculada)
   $lines.Add("")
   $lines.Add("## Relacionamentos")
   $lines.Add("### Demanda mãe")
@@ -221,11 +384,19 @@ foreach ($item in $sorted) {
   $lines.Add("")
   $lines.Add("## Conteúdo")
   $lines.Add("### Descrição")
-  foreach ($l in (Format-Body $r.'Descrição da Solicitação')) { $lines.Add($l) }
+  foreach ($ln in (Format-Body $r.'Descrição da Solicitação')) { $lines.Add($ln) }
+  # coluna 'Texto' = corpo da pagina; vem preenchida em pouquissimos casos, mas quando vem e a
+  # unica narrativa real que o export de CSV entrega
+  $textoPagina = if ($r.PSObject.Properties.Name -contains 'Texto') { (Limpa $r.'Texto') } else { '' }
+  if ($textoPagina -ne '') {
+    $lines.Add("")
+    $lines.Add("> Corpo da página (coluna ``Texto`` do export do Notion):")
+    foreach ($ln in (Format-Body $r.'Texto')) { $lines.Add($ln) }
+  }
   $lines.Add("### Resultado esperado")
   $lines.Add("[a preencher]")
   $lines.Add("### Notas internas")
-  foreach ($l in (Format-Body $notasInternas)) { $lines.Add($l) }
+  foreach ($l in $notasInternas) { $lines.Add($l) }
   $lines.Add("### Resolução")
   $lines.Add("[a preencher]")
   $lines.Add("### Anexos e links")
@@ -258,6 +429,7 @@ foreach ($item in $sorted) {
   if ($ultimaEdicao -ne '') {
     $lines.Add("| $ultimaEdicao | Última edição registrada no Notion (legado) | [a preencher] | $status |")
   }
+  $lines.Add("| 03/08/2026 | Formalizada no padrão BrainHub a partir do $FonteNota | [a preencher] | $status |")
   $lines.Add("")
   $lines.Add("## Governança")
   $lines.Add("### Quem pode alterar este documento")
@@ -273,3 +445,6 @@ if ($unmappedStatus.Count -gt 0) {
   Write-Warning "COMBOS DE STATUS NAO MAPEADOS ($($unmappedStatus.Count)):"
   $unmappedStatus | ForEach-Object { Write-Warning $_ }
 }
+
+
+
