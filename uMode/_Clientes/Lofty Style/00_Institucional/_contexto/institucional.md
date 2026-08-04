@@ -1,6 +1,13 @@
 # Lofty Style · Institucional
 
 ## Identidade
+### ID do cliente
+lofty-style
+> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
+> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+### Aliases do cliente
+- Lofty Style (CRM "Mapa de Clientes" — nome canônico)
+- Lofty (prefixo usado nos títulos de RFI no Notion)
 ### Quem são
 Franqueadora de moda.
 Razão Social: Lofty Style Franqueadora Confecção LTDA · CNPJ: 05.548.796/0001-35
@@ -52,6 +59,10 @@ Laura Delgado Cardoso (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor
 ### Drive de operação
 https://drive.google.com/drive/folders/1sP7YqvkGtyoCXkk6BUZwaUzIBaK9JHXV
 
+### Outras fontes
+- Documentação Clientes (CRM): Plano de Sucesso do Cliente - OKRs, Dores e Soluções, Warm Up e Kick Off
+- OKRs (CRM): https://docs.google.com/spreadsheets/u/0/d/1WHT58QvrTw6NcIdTCTMmHjy40cuDOJo2F4Exp_j0THM/edit?fromCopy=true&ct=2
+- Chamados/Atendimento vinculados no CRM: Relatório de custo com valores diferentes no linx e umode., Untitled, Untitled, Material travado, Custo, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled
 ## Contexto crítico
 - CRM "Mapa de Clientes" (Notion, via Drive): Endereço Av. Casa Verde, 463, Casa Verde, CEP
   02519-000, São Paulo/SP · Email financeiro: financeiro@loftystyle.com.br · OKRs: planilha

@@ -1,0 +1,45 @@
+# Oficina Reserva · Pessoas
+
+## Responsável de atendimento (uMode)
+Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account) · Juliana Ferré Esteves (Consultor de Negócios)
+
+> Campo `Time de Atendimento` no CRM: Holmer & Laura
+
+> Pessoas da uMode vivem apenas em `uMode/00_Institucional/_pessoas/` (regra travada em
+> `CONTEXT.md`) — aqui só o vínculo de atendimento, nunca uma segunda identidade.
+
+---
+
+## Diretoria e decisores
+[a preencher]
+
+## Liderança do projeto (cliente)
+[a preencher]
+
+---
+
+## Time do projeto por área
+[a preencher]
+
+> ⚠ **Não confirmado — não usar como dado de pessoa.** A base "Reuniões Compartilhadas
+> com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) registra os nomes abaixo
+> como participantes de reuniões deste cliente, com a frequência indicada. A base
+> **mistura pessoas da uMode e do cliente no mesmo campo**, sem marcar de que lado cada
+> uma está — classificar por conta própria repetiria exatamente o risco já registrado no
+> caso Taís Moser (`_pendencias-gerais.md`). Fica como pista de levantamento:
+> - Andrea Holmer — 32 reunião(ões)
+> - Laura Delgado — 19 reunião(ões)
+> - Marina Santoro — 14 reunião(ões)
+> - Ana Lucia — 2 reunião(ões)
+> - Rafael Renaldim — 1 reunião(ões)
+> - Ju Ferré — 1 reunião(ões)
+> - Ana Paula Ramos — 1 reunião(ões)
+> - Pedro Murillo — 1 reunião(ões)
+
+---
+
+## Financeiro
+[a preencher]
+
+## Tecnologia
+[a preencher]

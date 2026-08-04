@@ -1,6 +1,12 @@
 # Luiza Barcelos · Institucional
 
 ## Identidade
+### ID do cliente
+luiza-barcelos
+> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
+> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+### Aliases do cliente
+- Luiza Barcelos (CRM "Mapa de Clientes" — nome canônico)
 ### Quem são
 Empresa de calçados com operação própria de varejo, atacado e omnichannel.
 Possui fábrica própria e trabalha com produto acabado e importado.
@@ -48,6 +54,9 @@ Ongoing
 ### ERP / Integração
 Safe Tech
 
+> Escopo de integração (vinha de um heading `### ERP` extra em "Sistemas e fontes de
+> verdade", removido em 03 ago 2026 por duplicar este campo — o conteúdo abaixo é o que
+> só existia lá): Safe Tech — **fora do escopo de integração**: Linx e qualquer outro além do Safe Tech.
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso (Key Account) · Marina Gonçalves Santoro (Consultora de Negócios)
 > Andrea Goulart Holmer dos Santos (Key Account) atendia este cliente em par com Laura, mas
@@ -67,15 +76,15 @@ Laura Delgado Cardoso (Key Account) · Marina Gonçalves Santoro (Consultora de 
 | Tecnologia | [sem área canônica de cliente — contato interno] |
 
 ## Sistemas e fontes de verdade
-### ERP
-Safe Tech — **fora do escopo de integração**: Linx e qualquer outro além do Safe Tech.
-
 ### Drive de operação
 https://drive.google.com/drive/folders/1zz1qlgXLJhbJ7TFIKmbfGEQUEBFmT-cM
 
-### Notion (cadastro de cliente)
-https://app.notion.com/p/umode/Luiza-Barcelos-b0c819c0bda449528d9d984b3200f07f
-
+### Outras fontes
+- Notion (cadastro de cliente): https://app.notion.com/p/umode/Luiza-Barcelos-b0c819c0bda449528d9d984b3200f07f
+- Documentação Clientes (CRM): Material de Treinamento
+- OKRs (CRM): Não tem
+- Material/Apresentação (CRM): https://docs.google.com/presentation/d/1NgV1asOJbwSer-Dv5N3q7NUyxfZSKHp2nANc7DpxyIA/edit#slide=id.g2e4a2568594_0_233
+- Chamados/Atendimento vinculados no CRM: Untitled
 ## Contexto crítico
 - Time tem **trauma de cronograma e entrega** (experiência anterior negativa com a Linx).
   Primeiros 6 meses são de construção de credibilidade.

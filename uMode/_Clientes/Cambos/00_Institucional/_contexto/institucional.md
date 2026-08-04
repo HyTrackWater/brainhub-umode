@@ -1,6 +1,12 @@
 # Cambos · Institucional
 
 ## Identidade
+### ID do cliente
+cambos
+> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
+> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+### Aliases do cliente
+- Cambos (CRM "Mapa de Clientes" — nome canônico)
 ### Quem são
 Confecção com fábrica própria, tecelagem e produção externa.
 Razão Social: Souza & Cambos Confecções Ltda · CNPJ: 67.331.991/0001-66
@@ -61,6 +67,8 @@ além de Laura)
 ### Drive de operação
 https://drive.google.com/drive/folders/17HOz4vDW9Am9Z0GSPlPOUBi4_kKhytVN
 
+### Outras fontes
+- Chamados/Atendimento vinculados no CRM: Sistema saiu do ar. (2), Erro de integração, Reativar cor, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled
 ## Contexto crítico
 - Processo hoje no Trello — missão é centralizar tudo na plataforma.
 - Operação dividida: MG (Modelagem e Pilotagem) e SP (Pesquisa, Criação e Comercial).

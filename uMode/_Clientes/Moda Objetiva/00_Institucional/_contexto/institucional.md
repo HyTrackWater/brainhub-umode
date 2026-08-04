@@ -1,6 +1,15 @@
 # Moda Objetiva · Institucional
 
 ## Identidade
+### ID do cliente
+moda-objetiva
+> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
+> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+### Aliases do cliente
+- Moda Objetiva (CRM "Mapa de Clientes" — nome canônico)
+- Objetiva (nome da conta na plataforma uMode e uso interno corrente — **confirmado pelo Vinicius**
+  em 03 ago 2026 como o mesmo cliente: "são o mesmo cliente, internamente somente que se referencia
+  cada vez de um jeito")
 ### Quem são
 [a preencher]
 ### O que fazem
@@ -47,6 +56,8 @@ Laura Delgado Cardoso (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor
 ### Drive de operação
 https://drive.google.com/drive/folders/1GkOgJGSPucKU9nalMDU1EIiy1HVFPWF5
 
+### Outras fontes
+[a preencher]
 ## Contexto crítico
 [a preencher — heading estava faltando neste arquivo (divergência de padrão), adicionado em
 09 jul 2026 para bater com o template; sem dado ainda]
