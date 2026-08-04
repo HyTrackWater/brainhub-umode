@@ -168,6 +168,45 @@ Todos os campos abaixo são iguais nos dois quadros, exceto `Área (CX Hub)`.
 | Concluída | Em Validação - Cliente | Concluído | Achado em 10 jul 2026 (1 caso) — dado legado conflitante (Status já concluída, Etapa ainda indica validação em aberto); Status prevalece, conflito registrado como observação na demanda, não resolvido por conta própria |
 | Encerrada | Demanda Cancelada | Cancelado | — |
 
+**Combos achados em 03 ago 2026** (replicação total — 652 demandas dos 42 clientes fora do
+piloto). Regra usada, já implícita na tabela acima e agora escrita explicitamente: **o `Status`
+(Notion) determina o status; a `Etapa` só refina quando nomeia um estágio operacional distinto**
+(foi o que já valia para `Em Validação - Cliente` e `Em Teste`). Quando os dois se contradizem,
+`Status` prevalece e o conflito é registrado como observação dentro da própria demanda — nunca
+resolvido por conta própria.
+
+| Status (Notion) | Etapa (Notion) | → Status (CX Hub) | Observação |
+|---|---|---|---|
+| Nível de Análise | Análise uMode | Análise | `Análise uMode` é o espelho interno de `Análise Cliente` (já mapeado) — mesmo destino |
+| Nível de Análise | Na Fila | Análise | Status prevalece — segue em análise |
+| Nível de Análise | Backlog | Análise | Status prevalece |
+| Nível de Análise | (vazio) | Análise | Mesma regra de "Não iniciada \| (vazio)" |
+| Demanda Aceita | Na Fila | A fazer | Primeiro uso real do valor `A fazer` do enum: aceita e enfileirada, ainda não iniciada. Não confundir com `Standby - Produto \| Na Fila` (acima), que é bloqueio e continua Backlog |
+| Demanda Aceita | Análise uMode | Análise | Etapa nomeia estágio distinto (mesma lógica de `Em Teste` → Em Revisão) |
+| Demanda Aceita | Análise Cliente | Análise | idem |
+| Demanda Aceita | Demanda Concluída | Em Progresso | ⚠ dado legado conflitante — Status prevalece, conflito registrado em `Notas internas` |
+| Standby - Produto | Análise uMode | Backlog | + `Motivo de bloqueio: Aguardando Decisão` — Standby prevalece, como nos outros combos de Standby |
+| Concluída | Na Fila | Concluído | ⚠ conflitante — Status prevalece, conflito registrado |
+| Não iniciada | Análise uMode | Backlog | ⚠ conflitante — Status prevalece, conflito registrado |
+| Não iniciada | Em Desenvolvimento | Backlog | ⚠ conflitante — Status prevalece, conflito registrado |
+| Encerrada | Demanda Concluída | Cancelado | ⚠ conflitante — Status prevalece, conflito registrado |
+| Encerrada | Backlog | Cancelado | Status prevalece |
+| Encerrada | Em Validação - Cliente | Cancelado | ⚠ conflitante — Status prevalece, conflito registrado |
+| Encerrada | Análise uMode | Cancelado | ⚠ conflitante — Status prevalece, conflito registrado |
+
+**Combos achados em 03 ago 2026 (2ª rodada — fonte de jul 2026, recuperada do histórico do Git).**
+A 1ª rodada usou um snapshot de mar 2026; ao trocar para o export de jul 2026 (mais completo,
+761 demandas não-piloto em vez de 649) apareceram 6 combos que o snapshot menor não continha:
+
+| Status (Notion) | Etapa (Notion) | → Status (CX Hub) | Observação |
+|---|---|---|---|
+| Concluída | (vazio) | Concluído | Mesma regra de "Não iniciada \| (vazio)": Status prevalece quando Etapa não vem preenchida |
+| Standby - Produto | (vazio) | Backlog | + `Motivo de bloqueio: Aguardando Decisão` |
+| Standby - Produto | Análise Cliente | Backlog | + `Motivo de bloqueio: Aguardando Decisão` — Standby prevalece, como nos outros combos de Standby |
+| Encerrada | Na Fila | Cancelado | Status prevalece |
+| Não iniciada | Análise Cliente | Backlog | ⚠ conflitante — Status prevalece, conflito registrado (mesmo tratamento de "Não iniciada \| Análise uMode") |
+| Demanda Aceita | Backlog | A fazer | **Não** é conflito: no 1º nível a demanda foi aceita, e a Etapa (`Backlog`) só diz que ainda não começou — exatamente o que `A fazer` nomeia. Mesmo destino de `Demanda Aceita \| Na Fila`. Distinto de `Nível de Análise \| Backlog` → `Análise`, onde a demanda **não** foi aceita ainda: o 1º nível é que decide se houve aceite, e a Etapa só diz em que ponto está |
+
 **Área Responsável (Notion) → Área (CX Hub) + Quadro** — só dentro da taxonomia operacional,
 nunca cruza para o lado organizacional (ver regra no topo deste documento: `Área (CX Hub)` não
 tem relação com a Área organizacional da hierarquia BrainHub):
@@ -177,7 +216,15 @@ tem relação com a Área organizacional da hierarquia BrainHub):
 | OPERAÇÃO | Operação | Sem Área *(sem match exato — ver nota)* |
 | PRODUTO | Operação | Produto \| Inovação |
 | TECH | Tech | Suporte Tech *(default — pode refinar por conteúdo)* |
+| INOVAÇÃO / IA | `[a preencher]` | `[a preencher]` *(achado em 03 ago 2026 — ver nota)* |
 | vazio | `[a preencher]` | `[a preencher]` |
+
+> **`INOVAÇÃO / IA` (achado em 03 ago 2026, 4 registros):** não foi mapeado de propósito. O valor
+> é genuinamente ambíguo entre os dois quadros — o quadro Operação tem `Produto | Inovação` e o
+> quadro Tech tem `Inovação`, e nada na fonte diz qual dos dois; além disso o "/ IA" não existe em
+> nenhum dos dois enums. Escolher um seria inventar. `Quadro` e `Área (CX Hub)` ficam
+> `[a preencher]`, e o valor legado bruto é preservado em `### Notas internas` da demanda para não
+> perder o dado. Pendência aberta em `_pendencias-gerais.md`.
 
 > Nota: `OPERAÇÃO` (genérico) não tem correspondente exato no enum de Área (CX Hub) definido
 > a partir da descrição original (só existe `Operação | KA`, não um "Operação" puro) — mapeado
@@ -203,6 +250,58 @@ usa-se `Criticidade` como fonte. Não é campo novo do nosso padrão — é só 
 real do Notion legado que aponta pro mesmo conceito. Valores de `Prioridade` (Notion) fora do
 enum (ex.: valor numérico solto como `"2"`) ficam `[a preencher]`, registrados como observação
 — não convertidos por suposição de escala.
+
+**Valores de `Criticidade` achados em 03 ago 2026** (replicação total), registrados antes de
+aplicar:
+| Criticidade (Notion) | → Prioridade (CX Hub) | Decisão |
+|---|---|---|
+| `Alta` · `Média` | `Alta` · `Média` | passam direto (já valia) |
+| `Crítica / Urgente` | `Urgente` | variante de nome do mesmo valor do enum — mesma classe de tradução já aceita em `Erro/ Bug` → `Bug` e `Melhoria / Desenvolvimento` → `Melhoria` |
+| `Baixa` | `[a preencher]` | **não** mapeado: o enum de Prioridade só tem `Média`/`Alta`/`Urgente`, não existe valor abaixo de Média. Forçar para `Média` inventaria uma prioridade que a fonte não afirma. Valor bruto preservado em `### Notas internas` |
+
+> Consequência aceita: o enum de Prioridade pode estar incompleto em relação ao CX Hub real (falta
+> um valor tipo `Baixa`). Registrado como pendência em `_pendencias-gerais.md` em vez de resolvido
+> aqui — mudar enum de ferramenta não é decisão desta formalização.
+
+### Colunas do Notion aproveitadas na 2ª rodada (03 ago 2026)
+A 1ª rodada usava 16 das 35 colunas do export. Ao "dissecar tudo" (pedido do Vinicius), estas
+passaram a ser aproveitadas — nenhuma delas exigiu campo novo:
+
+| Coluna (Notion) | Preench. | → Onde entra | Decisão |
+|---|---|---|---|
+| `RFI` | 44 | `### RFI vinculada` | É o vínculo bidirecional que o protocolo exige e que estava `[a preencher]` em todas as demandas. Resolvido contra as RFIs já formalizadas do mesmo cliente (casamento por nome); quando não resolve, guarda o nome bruto da RFI |
+| `Bloqueio` | 37 | `### Motivo de bloqueio` | Ver tabela de tradução abaixo. Prevalece sobre a regra automática de `Standby - Produto` quando os dois existem — é o motivo real, não o inferido |
+| `Texto` | 2 | `### Descrição` | Corpo da página, quando o export o trouxe |
+
+**`Bloqueio` (Notion) → `Motivo de bloqueio`:**
+| Valor no Notion | → | Decisão |
+|---|---|---|
+| `Aguardando o Cliente` | `Aguardando Cliente` | variante de nome do mesmo valor do enum |
+| `Aguardando Recurso Especial` · `Aguardando Time Interno - uMode` · `Aguardando momento oportuno` · `Mudança de Priorização - Item urgente na frente!` · `Ordem da Diretoria - Não faremos isso nesse momento` | `Outra` | nenhum tem equivalente no enum (`Dependência Técnica`/`Infra`/`Aguardando Decisão`/`Dependência Externa` descrevem outra coisa). Usa `Outra` — que existe exatamente pra isso — e **mantém o valor original visível na mesma linha**, para não perder o motivo real |
+
+> Consequência aceita: o enum de `Motivo de bloqueio` provavelmente está incompleto em relação ao
+> uso real (faltam pelo menos "aguardando time interno" e "repriorização"). Registrado como
+> pendência em `_pendencias-gerais.md` em vez de resolvido aqui.
+
+### Colunas do Notion preservadas sem campo próprio (03 ago 2026)
+Estas colunas têm dado real e **nenhum campo equivalente** no nosso padrão. Em vez de descartar
+(perda de dado) ou inventar campo (proibido sem validação), vão para `### Notas internas` num
+bloco rotulado `[Campos legados do Notion sem campo equivalente no padrão]`, cada um com nome e
+valor. Assim a informação fica no registro e a decisão de promover algum a campo próprio pode ser
+tomada depois, com o dado já em mãos:
+
+| Coluna (Notion) | Preench. (de 1007) | Por que é candidata a campo próprio |
+|---|---|---|
+| `Responsabilidade` | **1007 — 100%** | `Demanda com uMode` (920) × `Demanda Pendente do Cliente` (87). Diz de que lado a bola está; é o campo com maior cobertura de toda a base e não temos nada equivalente. **Candidato mais forte a virar campo próprio** — decisão do Vinicius/CEO |
+| `Projeto` | 594 | Projeto/fase de onboarding do cliente (ex.: `[NK] - uFlow`, `📌 [LOFTY] - ONBOARDING FASE 1`) — se conecta com `jornada.md`, não com a demanda em si |
+| `uMode - Macro Tema` | 184 | Tema/assunto macro (ex.: `permissionamento`, `template de ficha`) — parece taxonomia de agrupamento, não status |
+| `Comentário uMode` | 163 | Comentário interno. Já foi **descartado no modelo de RFI** por decisão do CEO (ver `protocolo-gestao-rfi.md`); para Demanda nunca houve decisão, então é preservado como legado |
+| `Suporte Integração` | 57 | Classificação técnica de erro de integração (`Escrita - Erro`, `Leitura - Material pendente`…) |
+| `Tempo de Resolução` | 49 | Valor numérico sem unidade declarada na fonte — **não** foi tratado como horas, justamente por isso |
+| `Nível de Esforço` | 29 | `Baixo`/`Médio`/`Alto`/`Muito Alto` — não confundir com `Prioridade` nem com `Horas atribuídas` |
+
+> `Total de Horas` e `Fórmula` vêm 100% vazias no export (colunas calculadas do Notion, que o CSV
+> não materializa) — nada a preservar.
 
 **Natureza (organizacional):** toda demanda vinda do Notion de um cliente é `casa-cliente` por
 padrão — é trabalho entre a Casa e aquele cliente, mesmo quando "Quem solicitou" está vazio

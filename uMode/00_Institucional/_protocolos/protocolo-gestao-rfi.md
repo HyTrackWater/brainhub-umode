@@ -42,6 +42,18 @@ recebe o ID desta RFI. Vínculo sempre bidirecional — os dois lados preenchido
 
 `Motivo do cancelamento` só é preenchido quando Status = `RFI Cancelada`.
 
+### Tradução de Status legado → enum acima (achados em 03 ago 2026, replicação total)
+Registrados antes de aplicar, mesma disciplina da tradução de Demanda. Os dois casos são
+variantes de escrita do **mesmo** status, não status novos:
+
+| Status no Notion (legado) | → Status (nosso enum) | Por quê |
+|---|---|---|
+| `RFI Aceita - Criar no Linear e Estimar Entrega` | `RFI Aceita — Criar Demanda e Estimar Entrega` | É o mesmo estado. O nosso enum já nasceu sem a referência ao Linear — `Task (Linear)` está na tabela de campos descartados abaixo, por decisão registrada. Nenhum estado novo criado |
+| `RFI Não iniciada` | `RFI Não Iniciada` | Variante de caixa do mesmo valor |
+
+> Esses dois valores não apareceram nas 22 RFIs dos 4 clientes-piloto — surgiram só agora, nas
+> RFIs dos demais clientes.
+
 ## Anatomia da RFI (campos)
 
 ### Identificação

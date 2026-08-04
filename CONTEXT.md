@@ -36,6 +36,26 @@ Todo volume tem um endereço previsível — base para que pessoas e agentes ach
 - `Casa › Comercial › Pré-vendas › Pessoas › fulano`
 - `Cliente:Acme › Compras › Pessoas › aprovador`
 
+### `client_id` — chave estável de cliente
+> Travado em 03 ago 2026, por autorização explícita do Vinicius. Decorre da auditoria de indexação
+> (`uMode/00_Institucional/_contexto/_auditoria-indexacao.md`); detalhamento operacional em
+> `uMode/00_Institucional/_protocolos/protocolo-criacao-cliente.md`.
+
+Cada cliente tem um **`client_id`**: slug minúsculo, sem acento, derivado do nome comercial
+(`NK STORE` → `nk-store`). Vive em `institucional.md` → `## Identidade` → `### ID do cliente`.
+
+- **É a chave lógica do cliente.** O nome da pasta passa a ser apresentação, não identificador.
+- **Nunca muda**, mesmo que o nome comercial mude. Renomear cliente altera pasta e nome exibido; o
+  `client_id` permanece, e nenhum vínculo (demanda, RFI, ficha de Pessoa, índice) quebra.
+- **Absorve variação de grafia:** por normalizar caixa e acento, `NK STORE` / `NK Store` /
+  `NK store` colapsam no mesmo ID. Antes disso a única chave era o nome da pasta, e uma troca de
+  caixa invalidaria vínculos em silêncio.
+- **Apelidos reais de outras fontes** (ex.: `Lofty` para Lofty Style, `OFICINA` para Oficina
+  Reserva) ficam em `### Aliases do cliente`, no mesmo documento — é o que permite reconhecer o
+  mesmo cliente vindo de fonte diferente numa importação futura.
+- **Quando o banco existir** (ver `## Como estamos construindo`), `client_id` é o candidato natural
+  a chave primária — nome de campo em inglês, como já travado.
+
 ## Pessoas (ficha individual)
 > Travado em 09 jul 2026. Detalhamento operacional completo em
 > `uMode/00_Institucional/_protocolos/protocolo-gestao-pessoas.md`.

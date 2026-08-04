@@ -22,6 +22,25 @@ Arquivo: `[Cliente]/00_Institucional/_contexto/institucional.md`
 Campos obrigatórios: identidade, operação uMode, aliases de áreas, responsável.
 **Aprovação necessária antes do passo 3.**
 
+### Dois campos obrigatórios de identidade (adicionados em 03 ago 2026)
+- **`### ID do cliente`** — slug estável, minúsculo, sem acento, derivado do nome no CRM
+  (`NK STORE` → `nk-store`). **Nunca muda**, mesmo que o nome comercial mude. É a chave lógica do
+  cliente: o nome da pasta passa a ser apenas apresentação. Motivo: antes disso a única chave era o
+  nome da pasta, e renomear um cliente quebraria os vínculos de demanda/RFI/pessoa em silêncio
+  (medido: 87 referências só em NK STORE). Como o slug normaliza caixa e acento, variações do tipo
+  `NK STORE` / `NK Store` deixam de ser um problema — colapsam no mesmo ID.
+- **`### Aliases do cliente`** — todos os nomes pelos quais o cliente aparece nas fontes reais
+  (CRM, pasta do Drive, títulos de RFI no Notion). Só entram nomes que **não** colapsam no mesmo
+  slug — ex.: `Lofty` para Lofty Style, `Lenny` para Lenny Niemeyer, `OFICINA` para Oficina
+  Reserva. Serve para reconhecer o mesmo cliente vindo de fonte diferente, na próxima importação.
+
+### Fontes de verdade: uma seção, não um heading por sistema
+`## Sistemas e fontes de verdade` tem exatamente dois subcampos: `### Drive de operação` e
+`### Outras fontes` (lista livre — Notion, Portal do Cliente, OKRs, material de apresentação, grupo
+de WhatsApp, base de chamados). **Não criar um heading por sistema** — foi exatamente a divergência
+que Luiza Barcelos carregava (`### ERP` + `### Notion`), resolvida em 03 ago 2026. ERP/integração
+não entra aqui: vive em `## Operação uMode → ### ERP / Integração`.
+
 ## Passo 3 · Criar contextos de área
 **Executor:** agente
 `contexto-area.md` em cada área ativa, com produto conectado preenchido.
