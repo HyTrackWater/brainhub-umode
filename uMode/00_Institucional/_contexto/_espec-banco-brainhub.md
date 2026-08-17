@@ -179,7 +179,17 @@ state            string, enum OPEN|ANSWERED|CLOSED|CANCELLED, default OPEN
 sensitivityTier  string, required
 sourceLoopRunId  string | null                 -- se nasceu de automação
 deletedAt        Date | null
+
+-- v1.1: campos acrescentados por conformidade com o idioma de `seeds` (§6-bis.1)
+currentOwner     string, required              -- quem DETÉM o item agora
+nextAction       string, required, enum        -- o que falta acontecer
+stateTrail       [{ state, at, reason }]       -- trilha inline, como em seeds
+integrityHash    string, match /^[0-9a-f]{64}$/  -- dedupe por conteúdo
+consentRef       string | null                 -- LGPD
+retentionPolicy  string | null                 -- LGPD
 ```
+**Índice único adicional:** `{brainId, integrityHash}` — mesmo padrão de `seeds`.
+**Collection irmã obrigatória:** `addressing_audit_events`, seguindo o padrão por módulo (§6-bis.2).
 **Índices:** `{brainId, tenantId, toSubjectId, state, dueAt}` (a inbox) ·
 `{brainId, subjectType, subjectRef}` · `{brainId, state, dueAt}` (os vencidos).
 
@@ -404,6 +414,74 @@ Anexo E** — precisa reenvio.
 | `codex-inbox reconciler` | **Nunca rodou** desde 16/07. Não migrar sem antes provar que funciona. |
 | `registry.v0.1.superado.json` | Marcado `_superado` pelo próprio João. Ignorar. |
 | **Duplicidade de registry** | Existem **três** fontes de agente: `frota.json` (launchd), `~/.hermes/cron/jobs.json` (Hermes) e as fichas em `inbox/hermes/brainhub/agents/`. **Isso é o problema que a collection `agents` resolve** — uma fonte, não três. |
+
+---
+
+## 6-bis · REVISÃO v1.1 — o que a leitura dos schemas restantes corrigiu
+
+> **Decisão de 17 ago 2026: não enviar esta espec com 42% de cobertura de leitura.** Quatro vezes
+> nesta jornada eu errei concluindo de leitura parcial; nas quatro o custo foi meu. Enviar assim
+> transfere o custo para o trabalho de outra pessoa — e **espec que contradiz código existente é pior
+> que espec nenhuma.** Comecei pelos schemas com maior risco de colisão. Quatro achados imediatos:
+
+### 6-bis.1 🔴 COLISÃO REAL — `seeds` já é o pipeline de "material bruto → aprovação → contexto"
+`seeds` + `seed_batches` `[C]` existem e são exatamente a esteira que o `brainhub-mine` e o
+`calls-pipeline` do João alimentam:
+
+`sourceType` + `sourceRef` · `contentClassification` · `sensitivity` (`ApprovalTier`, default
+`T2_RECORD`) · **`integrityHash` sha256 com índice ÚNICO por brain** (dedupe por conteúdo) ·
+`processingStatus` · **`currentOwner`** · **`nextAction`** · **`stateTrail[{status, at, reason}]`** ·
+`consentRef` · `retentionPolicy` · `contextId` · `approvalId` · `quarantineReason` · `batchId`.
+
+**O que isso corrige na minha proposta:**
+1. **`addressings` estava sem `currentOwner` e `nextAction`** — que é **o idioma que a casa já usa**
+   para "quem detém isto e o que falta". Adicionar.
+2. **Faltava `integrityHash`** para dedupe por conteúdo. Adicionar, com índice único por brain.
+3. **Faltavam `consentRef` e `retentionPolicy`** — LGPD. **Eu não havia considerado**, e vale para
+   qualquer collection que guarde dado de cliente. Adicionar em `addressings` e `demands`.
+4. **`seeds` NÃO é substituto de `inbox_items`** — não tem nenhum campo de entrega. São camadas
+   complementares: `seeds` é *o que aguarda decisão*; `inbox_items` é *o aviso de que aguarda você*.
+
+### 6-bis.2 🔴 O padrão de auditoria é POR MÓDULO, e minha espec estava fora dele
+Existem `approval_audit_events`, `category_policy_audit_events`,
+`federation_connection_audit_events`, `invitation_audit_events` — **além** do `audit_events` geral.
+> **Logo: `addressings` exige `addressing_audit_events` próprio.** Minha espec dizia só
+> "`auditEventId` amarra na trilha" — subespecificado e **não conforme ao padrão da casa**. Corrigir.
+
+### 6-bis.3 ⚠ A casa tem DOIS padrões de histórico, e eu ignorei um
+- **Collection separada append-only:** `context_versions`, `audit_events`, `context_pack_versions`.
+- **Trilha inline no documento:** `seeds.stateTrail[]`.
+
+Mantenho `addressing_responses` como **collection separada** — porque carrega justificativa,
+`evidenceContextIds[]` e `generatedDemandIds[]`, que é muito mais que uma trilha de status. **Mas a
+escolha agora está justificada contra o idioma existente, não por omissão.**
+
+### 6-bis.4 ✅ ACHADO QUE MUDA O PLANO DO AGENTE — `context_packs`
+`context_packs` + `context_pack_versions` `[C]` são o que `agent_versions.contextPackRefs[]`
+referencia. E a versão do pack é **imutável e endereçada por conteúdo**:
+`contextIds[]` explícito · `limit` (1–50) · **`minScore`** (0–1) · **`sourcesHash` `sha256:`** ·
+append-only imposto em **6 verbos de mutação + `bulkWrite`**.
+
+> **Instrução e acervo são versionados juntos, com hash nos dois lados.** Uma versão de agente aponta
+> uma versão de pack, que aponta uma lista fixa de contextos com os parâmetros de recuperação
+> congelados. **É exatamente o rastreio de "qual instrução respondeu, com qual acervo, a que score".**
+
+**E isto resolve a ordem de implementação com evidência, não com preferência:**
+> Sem `context_pack`, o agente de suporte responde **só pela instrução** — sem `sources[]`, sem
+> citação de contexto, sem rastreio de qual MD sustentou a resposta. **Perde-se exatamente a garantia
+> de zero alucinação.** E o pack precisa de `contexts` populado, que precisa do importador, que
+> precisa de `contexts.type`.
+>
+> **Portanto a onda 1 não é alternativa à entrega do agente — é pré-requisito da QUALIDADE dele.**
+> Antecipar as ondas 4 e 5 entregaria um agente sem procedência de resposta. **Não invertemos.**
+
+### 6-bis.5 Schemas ainda não lidos — a fila, por risco de colisão
+🔴 `folder` · `file` · `file-version` (há modelo de anexo/entrega?) · `federation-connection` +
+`federation-discovery` (a membrana Casa↔cliente) · `invitation` (pode colidir com endereçamento a
+pessoa nova).
+🟠 `loop` · `loop-version` · `context-chunk` · `llm-connection` · `encrypted-credential` ·
+`run-daily-counter` · `ask-daily-counter` (quotas).
+🟡 as 8 variantes de audit-event restantes · `tenant-bootstrap-audit`.
 
 ---
 

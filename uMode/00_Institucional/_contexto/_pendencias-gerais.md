@@ -1713,3 +1713,46 @@
      5. **Quem pode consumir** — se é todo mundo, é `audienceMode: TENANT_WIDE`. → e **qual área é
         `stewardAreaId`** (responde pelo agente). Provável `06_Tecnologia` ou `02_Atendimento`,
         **mas isso é decisão do Vinicius, não palpite meu.**
+
+211. **✅ DECISAO TOMADA em 17 ago 2026: NAO enviar a ESPEC-BANCO-001 com 42% de cobertura de
+     leitura.** Vinicius delegou a decisao de sequenciamento com a condicao de entrega segura e com
+     qualidade. Escolhi **fechar a leitura dos 29 schemas antes de entregar**, priorizando risco de
+     colisao. Razao: **quatro vezes nesta jornada eu errei concluindo de leitura parcial, e nas quatro
+     o custo foi meu.** Enviar a espec assim transfere o custo para o trabalho de outra pessoa, e
+     **espec que contradiz codigo existente e pior que espec nenhuma** — queima a confianca e o tempo
+     do implementador. A leitura pagou na primeira hora: quatro correcoes abaixo.
+212. **🔴 COLISAO REAL: `seeds` + `seed_batches` ja sao o pipeline material-bruto → aprovacao →
+     contexto.** E exatamente a esteira que o `brainhub-mine` e o `calls-pipeline` do Joao alimentam.
+     Campos: `sourceType`/`sourceRef`, `contentClassification`, `sensitivity` (ApprovalTier, default
+     `T2_RECORD`), **`integrityHash` sha256 com indice UNICO por brain**, `processingStatus`,
+     **`currentOwner`**, **`nextAction`**, **`stateTrail[{status,at,reason}]`**, `consentRef`,
+     `retentionPolicy`, `contextId`, `approvalId`, `quarantineReason`, `batchId`.
+     **Quatro correcoes na minha proposta:** (1) `addressings` estava sem `currentOwner`/`nextAction`,
+     que e **o idioma que a casa ja usa** para "quem detem e o que falta"; (2) faltava
+     `integrityHash` para dedupe por conteudo; (3) **faltavam `consentRef` e `retentionPolicy` —
+     LGPD, que eu NAO havia considerado** e vale para toda collection com dado de cliente;
+     (4) ✅ `seeds` **nao** substitui `inbox_items` — nao tem campo de entrega nenhum. Sao camadas
+     complementares: `seeds` e o que aguarda decisao, `inbox_items` e o aviso de que aguarda voce.
+213. **🔴 O padrao de auditoria e POR MODULO e minha espec estava fora dele.** Existem
+     `approval_audit_events`, `category_policy_audit_events`, `federation_connection_audit_events`,
+     `invitation_audit_events` — **alem** do `audit_events` geral. Logo **`addressings` exige
+     `addressing_audit_events` proprio**. Minha espec dizia so "`auditEventId` amarra na trilha":
+     subespecificado e nao conforme.
+214. **⚠ A casa tem DOIS padroes de historico e eu ignorei um.** Collection separada append-only
+     (`context_versions`, `audit_events`, `context_pack_versions`) **e** trilha inline no documento
+     (`seeds.stateTrail[]`). Mantenho `addressing_responses` como collection separada — carrega
+     justificativa, `evidenceContextIds[]` e `generatedDemandIds[]`, muito mais que trilha de status
+     — **mas agora a escolha esta justificada contra o idioma existente, nao por omissao.**
+215. **✅ ACHADO QUE RESOLVE A ORDEM DE IMPLEMENTACAO COM EVIDENCIA: `context_packs`.**
+     `context_packs` + `context_pack_versions` sao o que `agent_versions.contextPackRefs[]`
+     referencia, e a versao do pack e **imutavel e endereçada por conteudo**: `contextIds[]`
+     explicito, `limit` (1–50), **`minScore`** (0–1), **`sourcesHash` `sha256:`**, append-only
+     imposto em **6 verbos de mutacao + `bulkWrite`**.
+     **Instrucao e acervo sao versionados juntos, com hash nos dois lados** — e uma versao de agente
+     aponta uma versao de pack, que fixa a lista de contextos e os parametros de recuperacao.
+     🔴 **Consequencia que muda o plano:** sem `context_pack`, o agente de suporte responde **so pela
+     instrucao** — sem `sources[]`, sem citacao, sem rastreio de qual MD sustentou a resposta.
+     **Perde-se a garantia de zero alucinacao.** E o pack precisa de `contexts` populado, que precisa
+     do importador, que precisa de `contexts.type`. **Portanto a onda 1 nao e alternativa a entrega do
+     agente — e pre-requisito da QUALIDADE dele. NAO invertemos as ondas.** Eu havia sugerido inverter
+     na mensagem anterior; a leitura desfez a sugestao.
