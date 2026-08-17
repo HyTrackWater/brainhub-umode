@@ -1,4 +1,4 @@
-# ESPEC-BANCO-001 — Especificação do banco do BrainHub
+# ESPEC-BANCO-001 v2 — Especificação do banco do BrainHub
 
 > Escrita em **17 ago 2026** por Vinicius Risoléo (com Claude Code) para implementação por Bergson.
 > **Nomes de campo, collection e relação em inglês** — padrão travado no `CLAUDE.md`.
@@ -12,11 +12,12 @@
 
 | # | O que este documento NÃO resolve | Por quê |
 |---|---|---|
-| 1 | Campos de **29 dos 50 schemas** existentes | Não lidos campo a campo. Alterações abaixo tocam só os 21 lidos. |
+| 1 | Campos de **21 dos 50 schemas** existentes | Não lidos campo a campo. **v2: cobertura subiu de 21 para 29 lidos** — os que podiam mudar o desenho (`seeds`, `context_packs`, `files`/`folders`, `federation`) já foram lidos. Fila e risco na §6-bis.8. |
 | 2 | Migração do dado do **Supabase/Lovable** | `inbox_items` e `approval_requests` existem lá com dado real; o plano de migração é trabalho separado. |
-| 3 | A **membrana Casa↔cliente** (`conecta_area_cliente` atravessa brains) | Depende de `federation-connections`/`federation-discovery`, **não lidos**. |
+| ~~3~~ | ~~A membrana Casa↔cliente~~ → ✅ **RESOLVIDO na v2:** é uma `federation_connection` concedida, com 4 níveis (`discover`/`read`/`query`/`contribute`). Ver §6-bis.6. |
 | 4 | Volumetria, sharding e retenção | Precisa de dado de uso que ainda não existe. |
 | 5 | O **`context_policy` do João** traduzido campo a campo | Desenhado por ele em 09/07, **nunca implementado**. Proposta na §3.5, a validar com ele. |
+| 6 | Se `02_Atendimento` pode **ajustar** algo do agente além de operar | Ambiguidade declarada na §1.2-bis. Especifiquei a leitura conservadora; um `agents.tune` precisa ser dito. |
 
 **Grau por afirmação:** `[C]` código lido · `[J]` desenho do João, lido no vault dele · `[P]` proposta
 nossa · `[D]` decisão pendente.
@@ -74,6 +75,38 @@ ele** (`_sistema/brainhub/governance/template-ficha-agente.md`). O registry vige
 > João existe desde 09/07**, como `context_policy` + `visibility` + `permissions`. Eu havia
 > verificado o código e **não o desenho** — quarta vez que concluo sobre o sistema tendo olhado uma
 > fonte só. O eixo não precisa ser inventado: **precisa ser implementado.**
+
+### 1.2-bis O modelo de autoridade sobre agente — decidido pelo Vinicius em 17 ago 2026 `[D]` ✅
+> Ele registrou: *"quem tem o poder de treinar, retreinar, aposentar, desativar — quem define como o
+> agente vai trabalhar — é a área responsável (tecnologia no caso). A área de atendimento vai mexer
+> direto... poderemos barrar que o comercial consuma esse agente."*
+
+**São três papéis distintos, e o banco tem vocabulário para os três:**
+
+| Papel | Área no caso do agente uFlow | O que pode | Como se expressa no dado |
+|---|---|---|---|
+| **Steward — define** | **`06_Tecnologia`** | treinar, retreinar, publicar versão, aposentar, desativar | `agents.stewardAreaId` + grant **`agents.steward`** + `decisionTiers` na `area_membership` |
+| **Operador — usa direto** | **`02_Atendimento`** | consumir intensamente; acionar; **não** altera instrução | grant **`agents.operate`** |
+| **Consumidor — pode ser barrado** | ex.: `01_Comercial` | consultar, se não houver negativa | `agent_shares` com `effect: DENY` no `targetAreaId` |
+
+**Duas consequências de desenho que essa decisão trava:**
+
+1. **O modelo é permitir-por-padrão-com-negativa-explícita**, não o inverso. A frase "poderemos
+   barrar que o comercial consuma" só faz sentido assim. Traduz para
+   **`audienceMode: TENANT_WIDE` + `agent_shares` com `effect: DENY`** por área.
+   ✅ **E a precedência já está decidida em código:** o filtro de audiência de categoria faz
+   `_id: { $nin: explicitlyDeniedCategoryIds }` **depois** do `$or` de permissões — ou seja,
+   **DENY vence ALLOW**. `agent_shares` herda essa regra, não inventa outra.
+
+2. **Definir ≠ operar.** Hoje `agents` tem um só `ownerPersonId`, o que funde os dois papéis. A
+   separação exige `stewardAreaId` **mais** os dois grants distintos — senão quem opera acaba podendo
+   republicar instrução, que é exatamente o que o Vinicius separou.
+
+⚠ **Uma ambiguidade que eu não vou resolver por conta própria:** "a área de atendimento vai mexer
+direto" admite duas leituras — *operar intensamente* ou *ajustar alguma configuração*. Eu especifiquei
+como **operar, sem alterar instrução** (a leitura conservadora, porque a frase anterior diz que quem
+define é Tecnologia). **Se Atendimento também puder ajustar algo — por exemplo o modelo ou o limite de
+custo, sem tocar na instrução — isso é um terceiro grant (`agents.tune`) e precisa ser dito.**
 
 ### 1.3 Execução ≠ entrega — o achado que o João provou na prática `[J]`
 No registry dele, o agente `pendencias-joao-lembrete` está com
@@ -475,13 +508,73 @@ append-only imposto em **6 verbos de mutação + `bulkWrite`**.
 > **Portanto a onda 1 não é alternativa à entrega do agente — é pré-requisito da QUALIDADE dele.**
 > Antecipar as ondas 4 e 5 entregaria um agente sem procedência de resposta. **Não invertemos.**
 
-### 6-bis.5 Schemas ainda não lidos — a fila, por risco de colisão
-🔴 `folder` · `file` · `file-version` (há modelo de anexo/entrega?) · `federation-connection` +
-`federation-discovery` (a membrana Casa↔cliente) · `invitation` (pode colidir com endereçamento a
-pessoa nova).
-🟠 `loop` · `loop-version` · `context-chunk` · `llm-connection` · `encrypted-credential` ·
-`run-daily-counter` · `ask-daily-counter` (quotas).
-🟡 as 8 variantes de audit-event restantes · `tenant-bootstrap-audit`.
+### 6-bis.5 `folders` + `files` — e a decisão de destino dos nossos MDs `[C]` + `[P]`
+Existe um **sistema de arquivos completo**: `folders` com `parentFolderId` (hierarquia livre),
+`files` com `folderId`, `nameKey` **único** por `{brainId, tenantId, areaId, folderId}` (é
+exatamente o comportamento de pasta), `currentVersionId` + `versionSequence`, e — nos dois —
+soft-delete com **ponteiro para o próprio evento de auditoria**
+(`deletedAuditEventId`, `restoredAuditEventId`).
+
+> **Decisão `[P]`: os nossos MDs vão para `contexts`, NÃO para `files`.** Motivo: `contexts` já tem
+> `content`, chunking, embedding, relações e context pack — é a camada de **conhecimento que se
+> recupera**. `files` é a camada de **artefato que se armazena**. Duplicar o MD nas duas é criar duas
+> verdades para o mesmo texto.
+>
+> **`files` serve para o que não é conhecimento em si:** o PDF de uma ficha técnica, a planilha, a
+> imagem. **E isso corrige uma lacuna da minha espec:** `addressings` não tinha como anexar nada.
+> Acrescentar `attachmentFileIds: string[]`.
+
+⚠ **Terceira correção de conformidade:** o padrão de soft-delete da casa é
+`deletedAt` + `deletedBySubjectId` + `deletedByPersonId` + `deletedReason` +
+**`deletedAuditEventId`** (e o espelho de `restored*`). Minha espec tinha só `deletedAt`. Aplicar o
+padrão completo em `addressings`, `demands` e `inbox_items`.
+
+### 6-bis.6 ✅ FIO SOLTO FECHADO — `federation_connections` é a membrana Casa↔cliente `[C]`
+Eu havia declarado isto como fio solto a ler. Está lido, e é o mecanismo:
+
+`sourceBrainId`/`sourceTenantId` → `targetBrainId`/`targetTenantId` — **conexão brain a brain**, com
+`requestedLevel` e `grantedLevel` em **quatro níveis crescentes**:
+
+| Nível | O que permite |
+|---|---|
+| `discover` | o brain de destino sabe que aquilo existe |
+| `read` | pode ler o contexto |
+| `query` | pode recuperar via busca / RAG |
+| `contribute` | pode **escrever de volta** |
+
+Ciclo: `REQUESTED` → `GRANTED`\|`REJECTED` → `REVOKED`, com `requestedBy` (pessoa + subject),
+`decidedByPersonId`, `decisionReason`, `decidedAt`, `revokedAt`. **Índice único por par de brain**,
+parcial em `REQUESTED|GRANTED` — **uma conexão viva por par**.
+
+> **Tradução para o nosso modelo:** o `conecta_area_cliente` de cada Produto é a expressão de negócio
+> daquilo que, no dado, é uma **federation connection concedida** entre o brain da Casa e o brain do
+> cliente. O nível certo para leitura de contexto de produto é **`query`**; `contribute` só se o
+> cliente puder alimentar o contexto do produto na Casa.
+>
+> ⚠ **Consequência volumétrica a dimensionar:** 16 Produtos × N clientes conectados = N conexões a
+> conceder e governar, cada uma com decisão registrada. **Isso entra no
+> `protocolo-criacao-cliente.md`** junto com as 14 áreas e as 9 categorias.
+
+### 6-bis.7 ✅ `invitations` — NÃO colide `[C]`
+É onboarding de pessoa em tenant (`email`, `roleId`, `grants[]`, `expiresAt`, único por
+`{tenantId, email}` enquanto `PENDING`). **Não é atribuição de trabalho** — não conflita com
+`addressings`. E confirma que **`grants: string[]` é o idioma de capacidade** que atravessa
+invitation → membership → area_membership. **O nosso `agents.consume` entra nesse mesmo vocabulário.**
+
+### 6-bis.8 Cobertura de leitura atualizada e a fila restante
+**29 dos 50 schemas** lidos campo a campo (era 21). Acrescentados nesta rodada: `organizations` ·
+`tenants` · `seeds` · `seed_batches` · `context_packs` (+`context_pack_versions`) · `files` ·
+`folders` · `federation_connections` · `invitations`.
+
+**Fila restante (21), por risco:**
+🟠 `file-version` · `loop` · `loop-version` · `context-chunk` · `llm-connection` ·
+`encrypted-credential` · `federation-discovery` (node + profile).
+🟡 `run-daily-counter` · `ask-daily-counter` (quotas) · as **8 variantes de audit-event**
+(o padrão já está entendido; falta o campo) · `tenant-bootstrap-audit` · `category-policy-audit-event`.
+
+> **Nenhum item da fila restante bloqueia a v2.** Os que podiam mudar o desenho — `seeds`,
+> `context_packs`, `files`/`folders`, `federation` — foram lidos. O resto é detalhe de campo, e está
+> declarado.
 
 ---
 

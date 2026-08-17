@@ -1756,3 +1756,44 @@
      do importador, que precisa de `contexts.type`. **Portanto a onda 1 nao e alternativa a entrega do
      agente — e pre-requisito da QUALIDADE dele. NAO invertemos as ondas.** Eu havia sugerido inverter
      na mensagem anterior; a leitura desfez a sugestao.
+
+216. **✅ AUTORIDADE SOBRE AGENTE — decidida pelo Vinicius em 17 ago 2026, e sao TRES papeis, nao um.**
+     *"Quem tem o poder de treinar, retreinar, aposentar, desativar — quem define como o agente vai
+     trabalhar — e a area responsavel (tecnologia no caso). A area de atendimento vai mexer direto...
+     poderemos barrar que o comercial consuma esse agente."*
+     - **Steward (define): `06_Tecnologia`** → `agents.stewardAreaId` + grant `agents.steward` +
+       `decisionTiers`.
+     - **Operador (usa direto): `02_Atendimento`** → grant `agents.operate`, **sem** alterar instrucao.
+     - **Consumidor barravel: ex. `01_Comercial`** → `agent_shares` com `effect: DENY`.
+     🔴 **A decisao trava a SEMANTICA da permissao:** e **permitir-por-padrao-com-negativa-explicita**,
+     nao o inverso — "poderemos barrar" so faz sentido assim. Logo `audienceMode: TENANT_WIDE` +
+     negativa por area. ✅ **E a precedencia ja esta decidida em codigo:** o filtro de audiencia aplica
+     `$nin` dos negados **depois** do `$or` de permissoes → **DENY vence ALLOW**. `agent_shares` herda.
+     ⚠ **Definir ≠ operar, e hoje o banco funde:** `agents` tem um so `ownerPersonId`. Sem
+     `stewardAreaId` + os dois grants, quem opera pode republicar instrucao.
+     ⚠ **Ambiguidade declarada, nao resolvida por mim:** "mexer direto" admite *operar* ou *ajustar*.
+     Especifiquei a leitura conservadora. Se Atendimento puder ajustar modelo ou teto de custo sem
+     tocar na instrucao, e um terceiro grant (`agents.tune`) e **precisa ser dito**.
+217. **✅ FORENSE DOS ARQUIVOS DO AGENTE — feita com comandos antes de repetir que falta.** Vinicius
+     cobrou: *"voce mesmo me afirmou que tinha e agora esta me dizendo que faltam"*. Justo. O que
+     verifiquei: `git log --all --diff-filter=A` no nosso repo por `TREINAMENTO|Papel de Suporte`;
+     `git log --all -S` por `PROPOSTA-acesso-fornecedor`, `prompt-detalhes-tarefa`, `Anexo D`, `Anexo E`;
+     e varredura de disco por `multiplos-status`.
+     **Resultado: os matches sao TODOS a minha propria nota sobre a ausencia, nao o conteudo.** O
+     `agente-suporte-uflow.md` tem os headings de Anexo A, B e C **com conteudo**; D e E aparecem so
+     como nome na declaracao de lacuna. **Nunca estiveram neste repo e nao estao no disco.**
+     **A distincao que eu deveria ter feito antes e que explica a cobranca: eu tenho o CONHECIMENTO
+     DERIVADO (251 linhas que eu estruturei), nao o ARQUIVO-FONTE (1.084 linhas).** E a diferenca e
+     tecnica, nao semantica: `agent_versions.instruction` + `contentHash` + `origin.commitSha` exigem
+     **o artefato verbatim**. Meu resumo nao serve como instrucao — serve como contexto.
+218. **📘 ESPEC-BANCO-001 v2 publicada.** Cobertura de leitura **21 → 29 de 50**. Novidades: §1.2-bis
+     (o modelo de tres papeis), §6-bis.5 (`folders`/`files` e a decisao de que **os MDs vao para
+     `contexts`, nao para `files`** — mais `attachmentFileIds[]` em `addressings` e o padrao completo de
+     soft-delete com ponteiro de auditoria), §6-bis.6 (**fio solto FECHADO**: `federation_connections`
+     e a membrana Casa↔cliente, com 4 niveis `discover`/`read`/`query`/`contribute`, ciclo de decisao e
+     indice unico por par de brain — e a consequencia volumetrica de 16 produtos × N clientes entra no
+     `protocolo-criacao-cliente.md`), §6-bis.7 (`invitations` **nao colide**).
+     ⚠ **Dois erros que eu introduzi na substituicao em massa e corrigi na verificacao:** a nota de
+     completude passou a dizer "29 dos 50 nao lidos" (o inverso do fato — sao 29 **lidos**, 21 nao), e
+     a membrana continuava listada como pendencia depois de resolvida. **Licao: substituicao em massa
+     de numero exige reler a frase, porque o numero muda de papel dentro dela.**
