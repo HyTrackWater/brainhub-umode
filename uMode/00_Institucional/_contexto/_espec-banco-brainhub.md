@@ -186,6 +186,29 @@ nenhum painel ou métrica. É o caso real do `pendencias-joao-lembrete`.
 
 ---
 
+### 2.5-bis `agent_runs` — registrar o MODELO que rodou `[P]`
+> Nasce de uma decisão do Vinicius em 17 ago 2026: **o modelo será parâmetro da chamada, escolhido
+> pelo usuário na interação.** O desenho de seleção fica para depois; **este campo não.**
+
+```
++ model  string, required   -- o modelo que EFETIVAMENTE rodou nesta execução
+```
+
+**Por que agora, sendo uma linha:** `providerPolicy.defaultModel` vive em `agent_versions` — é
+**configuração da versão**, não registro do que aconteceu. Hoje `agent_runs` guarda
+`connectionId`, que identifica a conexão de provedor, **mas não o modelo**. No momento em que o
+usuário puder trocar de modelo na chamada:
+
+> **Duas respostas da mesma versão de agente, com o mesmo `agentVersionId` e o mesmo
+> `connectionId`, podem ter vindo de modelos diferentes — e não haverá como distinguir.**
+
+Isso quebra exatamente o objetivo do Vinicius de *"cambiar de modelo pela plataforma e então
+verificarmos as saídas"*: **comparar saídas exige saber qual modelo produziu cada uma.** Sem o campo,
+a comparação depende de memória de quem clicou.
+
+⚠ **É a diferença entre uma linha agora e um backfill depois** — e backfill de execução passada é
+impossível: o dado não foi gravado.
+
 ## 3 · Collections novas
 
 > Todas seguem os padrões que o banco já provou: `brainId` + `tenantId` obrigatórios, `deletedAt`

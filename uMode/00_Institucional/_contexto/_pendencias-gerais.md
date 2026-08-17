@@ -1848,3 +1848,26 @@
      acessibilidade, criterios de aceite em checklist, casos de borda, restricoes, entregaveis, e a
      ordem de **explorar o codigo antes de implementar**. **Vale como referencia de qualidade para as
      NOSSAS demandas.**
+
+224. **✅ MODELO DO AGENTE — padrao provisorio assumido em 17 ago 2026.** Vinicius definiu que **o
+     modelo sera parametro da chamada, selecionavel pelo usuario na interacao**, e que **esse desenho
+     nao e para agora** — havera o momento de cambiar modelo pela plataforma e comparar saidas. Para o
+     agente funcionar, assumido: `allowedProviders: ['anthropic']`,
+     `defaultModel: 'claude-opus-5'`, `maxCostPerRunUsd: 5.00`.
+     **Justificativa:** o agente vive hoje em Claude Projects (e de la que vem o `Papel de
+     Suporte.txt`) e a tarefa e investigacao profunda em codigo com evidencia arquivo:linha — carga de
+     raciocinio, nao de volume. ⚠ **O `maxCostPerRunUsd` e chute fundamentado, nao medicao:** existe
+     como disjuntor contra loop, e deve ser recalibrado com o primeiro dado real de uso.
+     Restam so `ownerPersonId` e `llmConnectionId`, **ambos registro de infra, nenhum decisao.**
+225. **🔴 CONSEQUENCIA da decisao 224 que e barata agora e impossivel depois: `agent_runs` NAO tem
+     campo de modelo.** Espec §2.5-bis. Hoje `agent_runs` guarda `connectionId`, que identifica a
+     conexao de provedor, **mas nao o modelo**. E `providerPolicy.defaultModel` vive em
+     `agent_versions` — e **configuracao da versao**, nao registro do que aconteceu.
+     > **No momento em que o usuario puder trocar de modelo na chamada, duas respostas da mesma versao
+     > de agente, com o mesmo `agentVersionId` e o mesmo `connectionId`, podem ter vindo de modelos
+     > diferentes — e nao havera como distinguir.**
+     Isso quebra exatamente o objetivo declarado por ele de *"cambiar de modelo pela plataforma e entao
+     verificarmos as saidas"*: **comparar saidas exige saber qual modelo produziu cada uma.** Sem o
+     campo, a comparacao depende da memoria de quem clicou.
+     ⚠ **E backfill e impossivel** — execucao passada nao pode ganhar um dado que nunca foi gravado.
+     **Uma linha (`agent_runs.model`) resolve, e so agora ela e barata.**

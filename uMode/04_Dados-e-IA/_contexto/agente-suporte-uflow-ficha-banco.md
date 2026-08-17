@@ -93,7 +93,10 @@ origin.commitSha  ← o commit que introduziu o arquivo
 tools             []
 contextPackRefs   []
 limits            timeoutSeconds 900 · maxOutputTokens 64000
-providerPolicy    [a preencher · 2]
+providerPolicy    allowedProviders  ['anthropic']
+                  defaultModel      'claude-opus-5'
+                  maxCostPerRunUsd  5.00
+                  llmConnectionId   [a preencher · 2 — é registro de infra, não decisão]
 ```
 
 ### `version: 2` — a vigente, pós-aprendizagem
@@ -120,8 +123,31 @@ providerPolicy       [a preencher · 2]
 | # | Campo | Por que falta | Quem responde |
 |---|---|---|---|
 | **1** | `ownerPersonId` | Depende de o `people` do BrainHub ter a pessoa cadastrada. É id do banco, não decisão. | ao inserir |
-| **2** | `providerPolicy` — `defaultModel`, `allowedProviders[]`, `llmConnectionId`, `maxCostPerRunUsd` | **Eu não sei qual modelo o agente usa hoje.** Não está em nenhuma das duas fontes — o treinamento fala do comportamento, nunca do provedor. | **Vinicius** (uma frase) |
+| **2** | `llmConnectionId` | Referência ao cofre de credencial (`encrypted_credential`). **Registro de infra, não decisão de negócio.** | ao inserir |
 | **3** | `contextPackRefs[]` | O pack precisa de `contexts` populado, que precisa do importador, que precisa de `contexts.type` (**onda 1** da espec). | dependência de implementação |
+
+### ✅ Modelo — resolvido em 17 ago 2026 como padrão provisório `[D]`
+Vinicius definiu que **o modelo será parâmetro da chamada, selecionável pelo usuário na interação** —
+e que **esse desenho não é para agora**. Para o agente funcionar, assumimos padrão:
+
+```
+allowedProviders  ['anthropic']       -- o allowlist é o que limita a escolha do usuário depois
+defaultModel      'claude-opus-5'     -- fallback quando a chamada não especifica
+maxCostPerRunUsd  5.00                -- teto de disjuntor, não orçamento
+```
+
+**Por que Anthropic/Opus:** o agente vive hoje em Claude Projects (é de lá que vem o
+`Papel de Suporte.txt`), e a tarefa dele é investigação profunda em código com evidência
+arquivo:linha — carga de raciocínio alto, não de volume. **O `maxCostPerRunUsd` é chute
+fundamentado, não medição:** existe para cortar loop descontrolado, e deve ser recalibrado com o
+primeiro dado real de uso.
+
+> ⚠ **Uma consequência da decisão dele que é barata agora e caríssima depois — ver espec §2.5-bis:**
+> se o modelo passa a ser escolhido **na chamada**, `providerPolicy.defaultModel` deixa de descrever
+> o que rodou. E **`agent_runs` não tem campo de modelo** — só `connectionId`. Sem
+> `agent_runs.model`, duas respostas da mesma versão de agente podem vir de modelos diferentes e
+> **não há como distinguir**. O rastreio "qual instrução respondeu" fica completo; o "com qual
+> modelo" fica perdido.
 
 ⚠ **Sobre o item 3, e é o ponto que mais importa para a qualidade:** sem `contextPackRefs`, este
 agente responde **só pela instrução** — sem `sources[]`, sem citar contexto, sem rastreio de qual
