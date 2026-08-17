@@ -21,7 +21,7 @@
 | **A · CÓDIGO LIDO** | Os **21 schemas** e **7 serviços/query-builders**, mais o catálogo de nós, lidos linha a linha em `umode-brainhub-api`. Nome de campo, tipo, enum, índice e invariante de `pre('validate')`. **Nada aqui é interpretação.** | **Alta.** É o que está escrito no repositório do Bergson. ⚠ Mas ver a ressalva abaixo. |
 | **B · DOCUMENTO DO JOÃO** | Plano consolidado de 06/08 (espec vigente), PRD, `brainhub-api-auth-guardrails` (D78), bastão de 01/07, `agent-control-plane`. É **intenção declarada**. | **Média-alta** para intenção, **baixa** para estado real: o próprio ledger dele tem duas retratações de entregas que não existiam. |
 | **C · BANCO DO LOVABLE** | As ~30 tabelas do Supabase, lidas em **04 ago** — `inbox_items`, `approval_requests`, `context_queues`, `agent_configs`, `job_runs`, `file_assets`. É o **legado/sandbox**, declarado "produção preservada e fonte de migração". | **Média.** É o que roda hoje com dado real, mas **não é o destino**, e não reli desde 04/08. |
-| **D · PROPOSTA MINHA** | As três coleções (`demands`, `addressings`, `inbox_items`), a cadeia de 8 elos, as cinco regras de rastreio, a view de auditoria agregada, e "demanda é módulo próprio". | **É proposta.** Ancorada em A, mas **não validada por ninguém**. |
+| **D · PROPOSTA MINHA** | As três collections (`demands`, `addressings`, `inbox_items`), a cadeia de 8 elos, as cinco regras de rastreio, a view de auditoria agregada, e "demanda é módulo próprio". | **É proposta.** Ancorada em A, mas **não validada por ninguém**. |
 
 ### ⚠ A ressalva que qualifica a faixa A
 **O código que eu li está em BRANCH, não na `main`.** A `main` do `umode-brainhub-api` tem **5
@@ -61,7 +61,7 @@ backend novo. Não é conceito ausente: é migração não feita.
 `category-audience-policy.service` · `category-audience.filter` ·
 `contexts.repository` (transação de publicação) · `category-audience.enum`.
 
-**Coleção fora da lista de schemas:** `context_publication_outbox` — é coleção **crua**, acessada
+**Collection fora da lista de schemas:** `context_publication_outbox` — é collection **crua**, acessada
 por `db.collection(...)` sem schema Mongoose. Existe no banco e **não aparece em nenhuma
 varredura por `*.schema.ts`**. Provável que haja outras; verificar antes de afirmar total.
 
@@ -107,7 +107,7 @@ enum) · `grants: string[]` · `status` `ACTIVE|INACTIVE|REVOKED`.
 `tenantId` + `brainId` (**immutable**) · `slug` (**lowercase**, único por `brainId`) · `name` ·
 **`adminSubjectId`** · `status`. **`strict: 'throw'`** — campo desconhecido lança erro.
 > ⚠ **`adminSubjectId` guarda `Person.trustedSubjectId`, NÃO um ObjectId de Person** — está
-> comentado no código. Qualquer coleção nova tem de seguir a mesma convenção, senão o JOIN não fecha.
+> comentado no código. Qualquer collection nova tem de seguir a mesma convenção, senão o JOIN não fecha.
 
 ### `area_memberships` — o modelo de permissão real
 `personId` + `areaId` (únicos juntos) · `role` `ADMIN|MEMBER` · **`readableTiers[]`** ·
@@ -192,7 +192,7 @@ snapshot.
 
 ⚠ **Dois padrões de auditoria coexistem:** este `audit_events` é **genérico** (polimórfico por
 `resourceType`), mas `approvals`, `agents`, `areas`, `loops`, `conversations`, `context-packs`,
-`invitations`, `federation-*` e `agent-execution` têm **coleções próprias** de audit. **Montar a
+`invitations`, `federation-*` e `agent-execution` têm **collections próprias** de audit. **Montar a
 história completa de um endereçamento exige compor as duas famílias.** Ponto a resolver, registrado
 como item 2 da §13 do plano.
 
@@ -382,16 +382,16 @@ Varredura por módulo **e** por nome de arquivo nas **115** branches — reconfi
 
 | Domínio | Situação |
 |---|---|
-| **`demands` / `task`** | ❌ não existe como coleção **nem** como tipo de nó |
+| **`demands` / `task`** | ❌ não existe como collection **nem** como tipo de nó |
 | **`addressings`** | ❌ não existe |
 | **`inbox_items`** | ❌ não existe |
-| `notification` | ⚠️ **existe como TIPO DE NÓ** (`LoopNodeType.NOTIFICATION`), mas **não há coleção** que registre a entrega — canal, estado, dedupe, erro |
+| `notification` | ⚠️ **existe como TIPO DE NÓ** (`LoopNodeType.NOTIFICATION`), mas **não há collection** que registre a entrega — canal, estado, dedupe, erro |
 
-> ⚠ **Correção do que eu havia escrito.** Eu disse "quatro coleções faltam". São **três coleções**
+> ⚠ **Correção do que eu havia escrito.** Eu disse "quatro collections faltam". São **três collections**
 > (`demands`, `addressings`, `inbox_items`) mais **uma lacuna menor**: notificação já é vocabulário do
 > Loop, falta o registro de entrega.
 >
-> **E o encaixe é outro do que eu propunha.** "Criar demanda" não é campo de trigger nem coleção
+> **E o encaixe é outro do que eu propunha.** "Criar demanda" não é campo de trigger nem collection
 > solta: é um **nó `ACTION`** dentro de um Loop, cujo resultado fica em `loop_runs.steps[]`. Avisar é
 > um nó **`NOTIFICATION`**. Aprovar é um nó **`APPROVAL`**, que já existe. **O vocabulário do fluxo
 > está construído; falta onde a demanda e o endereçamento persistem.**
@@ -408,7 +408,7 @@ Extraídas do código, e valem como padrão para qualquer coisa que a gente prop
 1. **`slug` é sempre `lowercase`** e único **dentro do pai** — nunca global, exceto `tenants`.
 2. **Chave de escopo é `immutable`.** `tenantId`, `brainId`, `areaId` não se alteram depois de criados.
 3. **Índice único é parcial em `deletedAt: null`** — remover libera o identificador.
-4. **`strict: 'throw'`** nas coleções novas: campo desconhecido é erro, não é ignorado.
+4. **`strict: 'throw'`** nas collections novas: campo desconhecido é erro, não é ignorado.
 5. **Ator é sempre `trustedSubjectId`** (o `sub` do Cognito), não ObjectId — e quando há vínculo,
    registra-se também `personId` e `membershipId`.
 6. **Append-only se protege por guarda de schema**, não por convenção.

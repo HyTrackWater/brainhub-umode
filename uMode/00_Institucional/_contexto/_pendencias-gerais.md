@@ -1675,3 +1675,41 @@
      nao-negociaveis, o inventario de agentes, e ordem de implementacao em 7 ondas.
      **Gargalo declarado: a onda 1** (`contexts.type` + os 2 campos no payload) — sem ela nenhuma
      automacao distingue tipo de documento e todo o resto vira contorno.
+
+208. **✅ TAXONOMIA CORRIGIDA — "coleção" → `collection`, travado pelo Vinicius em 17 ago 2026:**
+     *"Taxonomia é mais do que importante — é essencial para termos mesmos entendimentos."*
+     **59 ocorrências convertidas** em 4 HTMLs e 5 MDs de contexto. Regra no `CLAUDE.md`: **usar o
+     termo que o desenvolvedor usa de fato, não a tradução** — `collection` e não coleção, `trigger`
+     e não inscrição, `outbox` e não bilhete, `lease` e não carimbo, `drainer` e não carteiro,
+     `head`/`currentVersionId` e não "a cabeça", `ApprovalBand` e não "faixa de vazão".
+     🔴 **A ARMADILHA ERA REAL e quase corrompi um dado:** "coleção" neste negócio tem **dois
+     sentidos** — a `collection` do Mongo **e a coleção de moda** ("Gestão de Coleção" no uFlow, a
+     área `03_Desenvolvimento-de-Colecao`, `Temporada → Marca → Coleção → Produto`). Auditei antes de
+     substituir e achei **1 ocorrência de sentido-moda** na tabela de procedência do
+     `_como-o-brainhub-funciona.md`, que foi **protegida por sentinela** durante a substituição.
+     **Regra travada: termo do banco em inglês, termo de moda em português.** Substituição em massa de
+     termo com dois sentidos exige auditoria dos sentidos ANTES.
+209. **✅ PONTE DE VOCABULÁRIO criada na aula (`_como-o-brainhub-funciona.md` §8).** Metáfora continua
+     permitida **só em documento didático**, e ali é **obrigatório** mapear cada uma ao termo real.
+     Espec, dicionário de dados e documento de fluxo: **nunca metáfora**. As duas divergências que a
+     auditoria achou na espec (`inscrição`, `faixa de aprovação`) foram corrigidas para `trigger` e
+     `ApprovalBand`. Residual de metáfora na espec: **zero**, verificado.
+210. **🔴 O QUE FALTA PARA INSERIR O AGENTE DE SUPORTE uFLOW NA COLLECTION `agents` — pedido em 17 ago
+     2026.** Verifiquei o que já tenho antes de pedir. **Já tenho:** o repositório do PLM
+     (`C:\Ambientes Virtuais\uFlow\umode-flow`, 211 tabelas mapeadas), o papel, o formato de resposta
+     de 7 seções, as 4 armadilhas de arquitetura, o playbook de SQL e os Anexos A, B e C parcial.
+     **Confirmado que NÃO chegou nada novo:** `Downloads` não tem o treinamento; o
+     `instrucoes-projeto-trilha-hic.md` que está lá é de **outro projeto** (Trilha HIC), não é a
+     instrução do agente.
+     **FALTA, e é o que trava:**
+     1. **`TREINAMENTO-AGENTE-SUPORTE-UFLOW.md` completo** — tenho 818 de 1.084 linhas. Faltam o fim
+        do Anexo C, o **Anexo D** (`PROPOSTA-acesso-fornecedor-multiplos-status.md`) e o **Anexo E**
+        (`prompt-detalhes-tarefa.md`). → vira `agent_versions.instruction` (cabe: limite 100.000 chars).
+     2. **A instrução vigente em produção**, a que já passou por aprendizagem. → é ela que vira a
+        `ACTIVE`; o treinamento é lastro.
+     3. **Onde o agente atende hoje** (canal e superfície). → decide se é `conversations` (multi-turno)
+        ou `agent_runs` (single-shot), e o `channel` do `inbox_items`.
+     4. **Qual modelo está em uso.** → `providerPolicy.defaultModel` + `allowedProviders[]`.
+     5. **Quem pode consumir** — se é todo mundo, é `audienceMode: TENANT_WIDE`. → e **qual área é
+        `stewardAreaId`** (responde pelo agente). Provável `06_Tecnologia` ou `02_Atendimento`,
+        **mas isso é decisão do Vinicius, não palpite meu.**

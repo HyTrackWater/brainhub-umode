@@ -31,7 +31,7 @@ integrado.**
 |---|---|---|---|
 | 1 | O payload de evento não carrega tipo/tier (§2) | [C] estado atual | **Nada.** Especificado em §3-bis — é item de implementação, não restrição |
 | 2 | ~~`metadata` sem contrato~~ → **resolvido:** o `_indice/` é o contrato de importação (pend. 191) | ✅ | — |
-| 3 | **Resposta a endereçamento** não cabe em `approvals` (índice único) — precisa de coleção | [P] | Nosso desenho a fechar |
+| 3 | **Resposta a endereçamento** não cabe em `approvals` (índice único) — precisa de collection | [P] | Nosso desenho a fechar |
 | 4 | **Nenhuma superfície de conversa com agente** existe (§5) | [C] lacuna | Desenho + [D] do Vinicius |
 | 5 | **29 dos 50 schemas** com campos não lidos — lista em `_dicionario-dados-brainhub.md` | — | Tempo de leitura |
 
@@ -106,7 +106,7 @@ O caminho por tempo é gêmeo: `routines` com `schedule{kind:CRON, expression, t
 | **L5** | A trigger executa como **dona dela**: `resolveActiveById(trigger.ownerPersonId)` → `owner.trustedSubjectId`. | A automação age com a **autoridade do dono da trigger**, não de quem causou o evento. Quem possui trigger define o poder do robô. |
 
 **L4 e L5 são os dois mais importantes e os que ninguém tinha escrito.** L4 diz que
-`addressings` **não é uma coleção — é um módulo com outbox**. L5 diz que a trigger é um objeto
+`addressings` **não é uma collection — é um módulo com outbox**. L5 diz que a trigger é um objeto
 de governança, não de configuração.
 
 ---
@@ -304,7 +304,7 @@ pergunta" nem "reatribuído"**.
 **A máquina de estado da resposta `[P]`:** `ACCEPTED`, `REFUSED`, `RETURNED_WITH_QUESTION`,
 `REASSIGNED`, `COMPLETED`. Só `COMPLETED` exige `evidenceContextIds[]` não-vazio — **conclusão
 sem evidência não é conclusão.** `RETURNED_WITH_QUESTION` reabre o endereçamento sem apagar a
-resposta anterior, porque a coleção é append-only.
+resposta anterior, porque a collection é append-only.
 
 ### 7.4 O disparo do ping — a consequência prática do L4 `[P]`
 `inbox_items` **não pode** ser preenchida por um listener solto. Pelo L4, `addressings` precisa do
@@ -319,7 +319,7 @@ resposta anterior, porque a coleção é append-only.
 6. marca dispatched; falha reagenda com backoff              → teto 15 min
 ```
 
-O passo 5 é o que me fez corrigir "faltam 4 coleções" para **3**: `NOTIFICATION` **já é tipo de
+O passo 5 é o que me fez corrigir "faltam 4 collections" para **3**: `NOTIFICATION` **já é tipo de
 nó** do Loop. O que falta não é o conceito de notificar — é o **registro de entrega**.
 
 ---
@@ -356,7 +356,7 @@ nó** do Loop. O que falta não é o conceito de notificar — é o **registro d
 | ~~2~~ | ~~As 9 Categories~~ → **ADOTADO: 9 por casa** (9 em cada cliente + 9 na Casa = 47 × 9 = 423). `institucional` · `jornada` · `pessoas` · `contexto-area` · `produto` · `integracao` · `protocolo` · `demanda` · `rfi`. Fechado por leitura de `organizations.schema.ts`: *"Organization legado → Tenant + um Second Brain"*; slug de organização é único **por brain**, e brain é **por cliente**. Isolamento por construção. | ✅ **resolvido** | destrava §3 |
 | 3 | `agents.audienceMode` + `agent_shares` + grant `agents.consume` | **nós especificamos** → Bergson implementa | publicar o agente de suporte para a operação |
 | 4 | `conversations.agentId` + `conversation_turns.agentRunId` | **nós especificamos** → Bergson implementa | a operação conversar com o agente |
-| 5 | As 3 coleções + `addressing_responses` + os outboxes | **nós especificamos** → Bergson implementa | §7 inteiro |
+| 5 | As 3 collections + `addressing_responses` + os outboxes | **nós especificamos** → Bergson implementa | §7 inteiro |
 | 6 | Ligar `CATEGORY_AUDIENCE_FILTER` e allowlistar nosso brain | **operação** (é chave de config, não desenho) | permissão fina sair do papel |
 | 7 | **Ampliar o payload de `context.published`** (§3-bis) — passou de "depois" para **parte do desenho base** | **nós especificamos, Bergson implementa** | tipo e audiência deixarem de competir |
 

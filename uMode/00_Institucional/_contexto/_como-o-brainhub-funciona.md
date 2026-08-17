@@ -295,8 +295,8 @@ mecanismo. É a próxima leitura, não um palpite.
 
 | Faixa | O que a busca encontrou | Veredito |
 |---|---|---|
-| **A · código do banco** | `categories.schema.ts` nasceu no **commit fundacional do repositório** — `a470f8d`, 14 jul 2026, o primeiro commit que existe. Não é peça recente. E o `ask` usa categoria como **filtro de busca**: `ask.dto.ts` tem `category?: string`, e a resposta cita `organizationSlug/categorySlug`. | ✅ **A coleção é do banco.** |
-| **B · vault do João** | 282 arquivos contêm "categor" — e **todos são domínio**: categoria de produto de moda (`Temporada → Marca → Coleção → Categoria → Produto`), categoria de conteúdo, categorias em PRD. **Não está no glossário dele nem na hierarquia do BrainHub.** | ❌ **Não vem do João.** |
+| **A · código do banco** | `categories.schema.ts` nasceu no **commit fundacional do repositório** — `a470f8d`, 14 jul 2026, o primeiro commit que existe. Não é peça recente. E o `ask` usa categoria como **filtro de busca**: `ask.dto.ts` tem `category?: string`, e a resposta cita `organizationSlug/categorySlug`. | ✅ **A collection é do banco.** |
+| **B · vault do João** | 282 arquivos contêm "categor" — e **todos são domínio**: categoria de produto de moda (`Temporada → Marca → Collection → Categoria → Produto`), categoria de conteúdo, categorias em PRD. **Não está no glossário dele nem na hierarquia do BrainHub.** | ❌ **Não vem do João.** |
 | **C · Lovable** | **Uma** ocorrência: `"label": "categoria"` — rótulo de campo na tela de importar. | ❌ **Não é conceito do Lovable.** |
 | **D · nosso conteúdo** | A palavra **não existe na nossa hierarquia**: Instituição → Institucional → Áreas → Subáreas → Pessoas. | ❌ **Não é nosso.** |
 
@@ -326,6 +326,32 @@ Bergson junto com o resto, porque quem for ligar a audiência fina precisa saber
 gasto.
 
 ---
+
+## 8 · Ponte de vocabulário — cada metáfora daqui e o nome real dela
+
+> Travado por Vinicius em 17 ago 2026: *"Taxonomia é mais do que importante — é essencial para
+> termos mesmos entendimentos."* As imagens deste documento existem para ensinar; **ao falar com quem
+> implementa, use a coluna da direita.**
+
+| Metáfora da aula | Nome real (o que o desenvolvedor usa) |
+|---|---|
+| o mural | o barramento de eventos — `RuntimeEventBus`; o fato pregado é um **event** de `eventType` |
+| a assinatura | a **trigger**, com `clauses` que casam contra o payload do event |
+| o bilhete | o registro de **outbox** — `context_publication_outbox` |
+| o carteiro | o **drainer**, um worker que faz poll da outbox |
+| o carimbo | o **lease**, com `leaseOwner` e `leaseExpiresAt` |
+| a cabeça do documento | o **head** — `contexts.currentVersionId` aponta a versão vigente |
+| o crachá | o **`trustedSubjectId`**, que é o `sub` do Cognito e o ator de toda ação |
+| o cartório | as collections `audit_events` e `context_versions`, ambas **append-only** |
+| o acervo | a collection `contexts` — e cada MD nosso é um **document** dela |
+| a faixa de vazão | a **`ApprovalBand`**: `AUTO_ARCHIVE`, `WEEKLY_BATCH`, `JOAO_REQUIRED`, `AREA_LEAD_REQUIRED` |
+| a sequência de passos | o **Loop**, com `nodes` e `edges` tipados; cada execução é um `loop_run` |
+
+### ⚠ A palavra que engana, e por isso fica sempre em inglês
+**`collection`** neste projeto é sempre a **collection do Mongo** — o agrupamento de *documents* no
+banco. **Nunca confundir com a coleção de moda** (a de "Gestão de Coleção" no uFlow, ou a da área
+`03_Desenvolvimento-de-Colecao`). São duas coisas sem nenhuma relação de dado. **Regra: o termo do
+banco fica em inglês; o termo de moda fica em português.**
 
 ## Fontes
 `_fluxo-dados-brainhub.md` (autoridade sobre o fluxo) · `_dicionario-dados-brainhub.md` (campo a

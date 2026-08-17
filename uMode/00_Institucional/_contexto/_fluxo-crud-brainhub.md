@@ -12,7 +12,7 @@
 > **`_fluxo-dados-brainhub.md`**, escrito depois de eu ler o mecanismo real de disparo
 > (`context_publication_outbox` → `RuntimeEventBus` → `loop_runs`), que **este documento não
 > conhecia**. Três coisas que aqui estão desenhadas de forma que o código não sustenta:
-> 1. **`addressings` não é coleção, é módulo com outbox transacional próprio** — o `RuntimeEventBus`
+> 1. **`addressings` não é collection, é módulo com outbox transacional próprio** — o `RuntimeEventBus`
 >    não tem endpoint público de ingestão.
 > 2. **`approvals` não modela a resposta a um endereçamento** — o índice único
 >    `{brainId, subjectType, subjectRef}` permite **um veredito por assunto, uma só vez**.
@@ -81,7 +81,7 @@ Varredura das **114 branches**, por módulo e por nome de arquivo:
 | **`inbox`** | ❌ em nenhuma branch |
 | **`notification`** | ❌ em nenhuma branch |
 
-**São quatro coleções, e é toda a lacuna.** Tudo o mais que o fluxo precisa — decisão, aprovação,
+**São quatro collections, e é toda a lacuna.** Tudo o mais que o fluxo precisa — decisão, aprovação,
 versão, auditoria, trigger, rotina, permissão, lixeira — já está construído.
 
 > **A leitura de gestão:** a plataforma resolveu **contexto, governança e execução**. Não resolveu
@@ -144,9 +144,9 @@ Logo: **entidade tem CRUD; ação de domínio tem comando explícito** — `POST
 `POST /access-grants/:id/revoke` — em vez de disfarçar decisão como `PATCH`. A plataforma já segue
 isso em `approvals`.
 
-## 8 · As três coleções que faltam — desenhadas contra o contrato real
+## 8 · As três collections que faltam — desenhadas contra o contrato real
 > ⚠ **Corrigido em 17 ago 2026 após ler `loops`, `loop_versions`, `loop_runs` e o catálogo de nós.**
-> São **três** coleções, não quatro: `notification` já existe como **tipo de nó** do Loop, e o que
+> São **três** collections, não quatro: `notification` já existe como **tipo de nó** do Loop, e o que
 > falta ali é só o registro de entrega. E o encaixe é outro: **"criar demanda" é um nó `ACTION` dentro
 > de um Loop**, não campo de trigger. Contratos em
 > [`_dicionario-dados-brainhub.md`](_dicionario-dados-brainhub.md) §6-bis.
@@ -169,7 +169,7 @@ pendura sem precisar de campo novo em `approvals`.
 ## 8-bis · Campos, seguindo as convenções do banco
 Chave de ator é **`trustedSubjectId`** (o `sub` do Cognito), com `personId` ao lado quando há vínculo —
 é a convenção de `areas.adminSubjectId` e de `loop_runs.createdBySubjectId`. Escopo é `immutable`,
-índice único é parcial em `deletedAt: null`, e as coleções nascem `strict: 'throw'`.
+índice único é parcial em `deletedAt: null`, e as collections nascem `strict: 'throw'`.
 
 ```
 addressings                                    demands
@@ -189,7 +189,7 @@ addressings                                    demands
 └─ revokedAt? · revokedReason?                 ├─ brainId · tenantId?
                                                ├─ readAt? · dismissedAt?
 notificação: nó do Loop + registro de entrega  ├─ dedupeKey  (único por pessoa)
-└─ falta a coleção de entrega: channel,        └─ createdAt
+└─ falta a collection de entrega: channel,        └─ createdAt
    state, dedupeKey, sentAt, error
 ```
 
@@ -295,7 +295,7 @@ Nossas, que não estão no plano dele:
 ## 14-bis · Onde a demanda encaixa — descoberta que muda o desenho
 Trigger e rotina **disparam um Loop**, não uma ação arbitrária (`triggers.loopId`,
 `routines.loopId`). Logo **"criar demanda no inbox" não é tipo de ação de trigger — é um nó dentro de
-um Loop.** As quatro coleções novas não se penduram no trigger; penduram-se no **resultado da execução
+um Loop.** As quatro collections novas não se penduram no trigger; penduram-se no **resultado da execução
 do Loop** e no `approvals.subjectRef`, que é polimórfico exatamente para isso.
 
 ## 15 · O que ainda não li
@@ -305,7 +305,7 @@ Do plano consolidado: fases 0-10, segurança T0 detalhada, governança do Bergso
 `UmodeApp/umode-brainhub` (não está no disco, **e não é necessário** — o comportamento em uso hoje
 está no Lovable, que li em 04/08).
 **O próximo passo mais útil é ler a implementação de `context-relations` e de `approvals`**, para o
-desenho das 4 coleções novas encostar no contrato real e não no que eu suponho dele.
+desenho das 4 collections novas encostar no contrato real e não no que eu suponho dele.
 
 ## Fontes e referências
 ### Documentos consultados

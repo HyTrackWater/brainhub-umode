@@ -176,10 +176,27 @@ Os quatro tipos de MD por cliente, todos em `_contexto/`:
   `01_Comercial`, `03_Desenvolvimento-de-Colecao`
 - Pasta de cliente usa o nome comercial direto, sem prefixo: `Cambos`, `Luiza Barcelos`
 
-## Banco de dados (quando chegarmos lá)
+## Banco de dados — e a taxonomia, que é essencial
 
 Todo nome de campo, tabela e relação em **inglês**. Já registrado como padrão fixo —
 não é negociável nem precisa ser revalidado a cada tarefa.
+
+**Travado em 17 ago 2026 pelo Vinicius:** *"Taxonomia é mais do que importante — é essencial para
+termos mesmos entendimentos."*
+
+- **Use o termo que os desenvolvedores usam de fato, não a tradução.** Escreva **`collection`**, não
+  "coleção"; **`trigger`**, não "inscrição"; **`outbox`**, não "bilhete"; **`lease`**, não "carimbo";
+  **`drainer`**, não "carteiro"; **`head`/`currentVersionId`**, não "a cabeça"; **`ApprovalBand`**,
+  não "faixa de vazão". Palavra diferente para a mesma coisa é como dois times passam meses achando
+  que combinaram algo.
+- **Metáfora é permitida só em documento didático** — e ali é **obrigatória uma ponte de
+  vocabulário** mapeando cada metáfora ao termo real (ver `_como-o-brainhub-funciona.md` §8). Nunca
+  em espec, dicionário de dados ou documento de fluxo.
+- ⚠ **A armadilha: `collection` tem dois sentidos neste negócio.** No banco é o agrupamento de
+  *documents* do Mongo. Em moda é **coleção** — "Gestão de Coleção" no uFlow, a área
+  `03_Desenvolvimento-de-Colecao`, `Temporada → Marca → Coleção → Produto`. **Regra: o termo do banco
+  fica em inglês, o termo de moda fica em português.** Antes de qualquer substituição em massa,
+  separe os dois sentidos — houve uma ocorrência de sentido-moda que quase foi corrompida.
 
 ## Como executar tarefas típicas
 

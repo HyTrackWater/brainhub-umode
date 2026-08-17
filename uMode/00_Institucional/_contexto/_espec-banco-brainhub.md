@@ -1,9 +1,9 @@
 # ESPEC-BANCO-001 — Especificação do banco do BrainHub
 
 > Escrita em **17 ago 2026** por Vinicius Risoléo (com Claude Code) para implementação por Bergson.
-> **Nomes de campo, coleção e relação em inglês** — padrão travado no `CLAUDE.md`.
+> **Nomes de campo, collection e relação em inglês** — padrão travado no `CLAUDE.md`.
 >
-> **Autoridade:** definir coleções, campos e forma de relacionamento é papel de quem vive a operação
+> **Autoridade:** definir collections, campos e forma de relacionamento é papel de quem vive a operação
 > (Vinicius e João). O código atual é autoridade sobre **o que existe**, não sobre **o que deve
 > existir** — foi escrito traduzindo uma explicação. Divergência entre este documento e o schema
 > atual **não é erro de entendimento: é tradução a corrigir.**
@@ -36,11 +36,11 @@ nossa · `[D]` decisão pendente.
 | Isolamento absoluto entre clientes | 1 Second Brain por tenant (índice único parcial) + cascade por `organizationId` | ✅ **invariante de banco**, não convenção |
 | Pessoa interna nunca duplicada no cliente | `people` global + `memberships` por tenant | ✅ |
 | Tiers T0/T1/T2 | `SensitivityTier`, travado em **T2 por D85** | ⚠ conforme, mas **T0/T1 bloqueados** até o João liberar |
-| Faixas de aprovação | `ApprovalBand`: `AUTO_ARCHIVE`, `WEEKLY_BATCH`, `JOAO_REQUIRED`, `AREA_LEAD_REQUIRED` | ✅ `[C]` — e cobre o `EXIGE_JOAO` do João |
+| `ApprovalBand` (faixas de vazão de aprovação) | `ApprovalBand`: `AUTO_ARCHIVE`, `WEEKLY_BATCH`, `JOAO_REQUIRED`, `AREA_LEAD_REQUIRED` | ✅ `[C]` — e cobre o `EXIGE_JOAO` do João |
 
 ⚠ **Ressalva sobre "taxonomia":** o `TAXONOMIA_UMODE.md` do vault é **"Taxonomia uMode — Catalog
 AI"**: hierarquia e grupos de atributos de **produto de moda**. **Não é a taxonomia estrutural do
-BrainHub** e não entra nesta espec. Conformidade aqui é com a hierarquia, os tiers e as faixas de
+BrainHub** e não entra nesta espec. Conformidade aqui é com a hierarquia, os tiers e as `ApprovalBand` de
 decisão.
 
 ### 1.2 Agentes — 🔴 NÃO conforme, e é a divergência mais séria do banco
@@ -87,7 +87,7 @@ No registry dele, o agente `pendencias-joao-lembrete` está com
 
 ---
 
-## 2 · Alterações em coleções existentes
+## 2 · Alterações em collections existentes
 
 ### 2.1 `contexts` — o tipo do documento vira campo de primeira classe `[P]`
 ```
@@ -153,7 +153,7 @@ nenhum painel ou métrica. É o caso real do `pendencias-joao-lembrete`.
 
 ---
 
-## 3 · Coleções novas
+## 3 · Collections novas
 
 > Todas seguem os padrões que o banco já provou: `brainId` + `tenantId` obrigatórios, `deletedAt`
 > nulo por padrão, `strict: 'throw'`, ator em **duas partes** (`...SubjectId` + `...PersonId`), e
@@ -183,7 +183,7 @@ deletedAt        Date | null
 **Índices:** `{brainId, tenantId, toSubjectId, state, dueAt}` (a inbox) ·
 `{brainId, subjectType, subjectRef}` · `{brainId, state, dueAt}` (os vencidos).
 
-⚠ **`addressings` NÃO é só uma coleção — é um MÓDULO.** O barramento de eventos **não tem endpoint
+⚠ **`addressings` NÃO é só uma collection — é um MÓDULO.** O barramento de eventos **não tem endpoint
 público de ingestão**: só publicam módulos cujo efeito já é durável. Logo exige
 **`addressing_outbox` próprio**, espelhando `context_publication_outbox`:
 `_id` determinístico, insert **na mesma transação** da escrita, drenador com lease.
@@ -210,7 +210,7 @@ auditEventId         string, required          -- amarra na trilha
 - `REASSIGNED` exige `reassignedToSubjectId` ≠ `respondedBySubjectId`.
 - **Índice único** `{addressingId, sequence}`.
 
-> **Por que coleção separada e não campo em `approvals`:** `approvals` tem índice **único** em
+> **Por que collection separada e não campo em `approvals`:** `approvals` tem índice **único** em
 > `{brainId, subjectType, subjectRef}` — **um veredito por assunto, uma só vez** — e o status é
 > `PENDING|APPROVED|REJECTED|ARCHIVED`, **sem "devolvido com pergunta" nem "reatribuído"**.
 > `approvals` modela veredito; isto modela **conversa de trabalho**. São coisas diferentes.
@@ -291,7 +291,7 @@ revokedAt, revokedBy
 > O Vinicius pediu visibilidade de **quando, quem, como** para todo fluxo. Isto é a resposta, com o
 > campo exato que responde cada pergunta.
 
-| Pergunta | Campo que responde | Coleção | Grau |
+| Pergunta | Campo que responde | Collection | Grau |
 |---|---|---|---|
 | **Quem** alterou | `actorSubjectId` + `actorPersonId` + `actorMembershipId` | `audit_events` | ✅ `[C]` |
 | **Quando** | `createdAt` + `phase: PRE_MUTATION` | `audit_events` | ✅ `[C]` |
@@ -311,14 +311,14 @@ revokedAt, revokedBy
 | **Refletiu no sistema externo** | `externalRefs[].syncState` | `demands` | 🆕 `[P]` |
 
 ⚠ **A linha do "dono da trigger" é a mais importante da tabela para governança.** A automação roda com
-o crachá de quem **possui a inscrição**, não de quem causou o evento. **Trigger é procuração, não
+o crachá de quem **possui a trigger**, não de quem causou o evento. **Trigger é procuração, não
 configuração** — e isso precisa aparecer em tela, não só em schema.
 
 ---
 
 ## 5 · Invariantes que não são negociáveis
 
-Todas já existem em alguma coleção do banco. A espec é: **valem para as coleções novas também.**
+Todas já existem em alguma collection do banco. A espec é: **valem para as collections novas também.**
 
 1. **Append-only por guarda de schema**, não por convenção. `audit_events` e `context_versions` já
    lançam erro em reescrita. `addressing_responses` idem.
@@ -331,7 +331,7 @@ Todas já existem em alguma coleção do banco. A espec é: **valem para as cole
 5. **Fail-closed na auditoria.** Sem gravador de auditoria disponível, **nega o acesso** — já é assim
    no `AccessScopeService`.
 6. **Ninguém concede exceção a si mesmo.** `subjectId === grantedBySubjectId` é rejeitado.
-7. **Ator em duas partes** em toda coleção nova: `...SubjectId` (o `trustedSubjectId` do Cognito) **e**
+7. **Ator em duas partes** em toda collection nova: `...SubjectId` (o `trustedSubjectId` do Cognito) **e**
    `...PersonId`. ⚠ `areas.adminSubjectId` guarda `trustedSubjectId`, **não ObjectId** — seguir a
    mesma convenção ou o JOIN não fecha.
 8. **Escrita canônica direta por agente é proibida** `[J]`. Agente escreve em área de proposta; a
@@ -377,7 +377,7 @@ máquina do João.** Somando: **17 automações que não sobrevivem ao notebook 
 
 > **Isso, e não a falta de ideias, é o argumento central desta espec.** O desenho existe, está
 > provado em produção e roda há meses. O que falta é **deixar de ser pessoal e passar a ser
-> plataforma** — o que significa exatamente as coleções da §3 e os campos da §2.
+> plataforma** — o que significa exatamente as collections da §3 e os campos da §2.
 
 ### 6.3 O que é nosso hoje — 1 agente
 `uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow.md` (18,7 KB), demanda **D-2026-002**.
@@ -400,10 +400,10 @@ Anexo E** — precisa reenvio.
 |---|---|
 | `downloads-sentinel` | 🔴 quebrado (`InterruptedError` em `~/Downloads`) **e** é faxina de máquina local, **não domínio do BrainHub**. Não migrar. |
 | `gitpullall` | Ops puro, `usa_ia: false`. Útil ao João, **irrelevante para a plataforma**. Não migrar. |
-| `pendencias-joao-lembrete` | Lembrete pessoal com entrega quebrada. **O caso de uso vira `inbox_items` + faixa de aprovação** — não vira agente. |
+| `pendencias-joao-lembrete` | Lembrete pessoal com entrega quebrada. **O caso de uso vira `inbox_items` + `ApprovalBand`** — não vira agente. |
 | `codex-inbox reconciler` | **Nunca rodou** desde 16/07. Não migrar sem antes provar que funciona. |
 | `registry.v0.1.superado.json` | Marcado `_superado` pelo próprio João. Ignorar. |
-| **Duplicidade de registry** | Existem **três** fontes de agente: `frota.json` (launchd), `~/.hermes/cron/jobs.json` (Hermes) e as fichas em `inbox/hermes/brainhub/agents/`. **Isso é o problema que a coleção `agents` resolve** — uma fonte, não três. |
+| **Duplicidade de registry** | Existem **três** fontes de agente: `frota.json` (launchd), `~/.hermes/cron/jobs.json` (Hermes) e as fichas em `inbox/hermes/brainhub/agents/`. **Isso é o problema que a collection `agents` resolve** — uma fonte, não três. |
 
 ---
 
