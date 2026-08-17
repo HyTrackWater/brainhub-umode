@@ -1578,3 +1578,42 @@
      desligada; e o isolamento por cliente ja vem do brain, nao da categoria. **Mas e escolha com
      custo declarado, nao caminho obvio — quem for ligar a audiencia fina precisa saber que esse eixo
      foi gasto.** Vai na pauta do Bergson.
+
+198. **🔴 CORRECAO DE ENQUADRAMENTO DE AUTORIDADE — travada pelo Vinicius em 17 ago 2026, e com
+     consequencia de desenho.** Ele registrou: *"o Bergson que criou as collections do banco e a
+     estrutura foi para traduzir o entendimento que ele teve de acordo com o que o Joao e eu
+     explicamos sobre o que seria o BrainHub. Portanto, em termos de entendimento ele nao sera a
+     referencia. Nosso papel sera justamente definir todas as collections, campos e forma de
+     relacionamentos."*
+     - **O codigo e autoridade sobre o ESTADO** (o que existe, com campo, indice e invariante).
+       Continua soberano para "o que esta construido".
+     - **O codigo NAO e autoridade sobre a INTENCAO.** E leitura de uma explicacao, feita por quem
+       nao vive o negocio. Divergencia entre schema e necessidade **nao e erro de entendimento
+       nosso — e traducao a corrigir**.
+     - **Definir collections, campos e relacoes e NOSSO papel. O Bergson implementa.**
+     Eu vinha escrevendo "decisao do Bergson", "pauta do Bergson", "negociar com o Bergson" — todos
+     corrigidos em `_fluxo-dados-brainhub.md` para **"nos especificamos, Bergson implementa"**. O grau
+     `[D]` passou a dizer explicitamente: **nunca do Bergson**.
+199. **🔺 RECOMENDACAO REVISTA no mesmo dia, por causa da 198: o Caminho A caiu, vale o Caminho B.**
+     Eu havia escolhido sobrecarregar `categories` como rotulo de tipo, e a **unica vantagem que
+     declarei era "nao depende de alteracao no codigo do Bergson"**. Essa justificativa **nunca foi
+     valida**. Nova especificacao (`_fluxo-dados-brainhub.md` §3-bis):
+     - **`contexts.type`** — enum com os 9 tipos, campo de primeira classe. O tipo **e** atributo do
+       documento, nao agrupamento nem audiencia.
+     - **`type` e `sensitivityTier` no payload de `context.published`** — resolve o **L2 na origem**
+       em vez de contorna-lo.
+     - **`Category` volta a ser so audiencia**, como o schema a desenhou (governada, por area, com
+       `stewardAreaId` e `category_shares`).
+     Ganhos: trigger casa `EQUALS` em `type` dentro do L3; **tipo e audiencia deixam de competir**
+     (um `jornada` pode ter audiencias diferentes por area, e uma area varios tipos — impossivel com
+     A); a contagem de categorias deixa de ser **423 buckets de tipo** e passa a ser o que o desenho
+     de audiencia pedir; e o `ask` ganha filtro por tipo de graca. Custo honesto: altera `contexts`, o
+     payload e o publisher — **trabalho de implementacao, nao obstaculo de projeto**.
+     🔴 **LICAO DE METODO, quarta variacao:** as tres anteriores eram sobre **nao concluir sem ler**.
+     Esta e outra: **nunca escolher caminho tecnico porque ele evita mexer no codigo de outro.**
+     Isso nao e prudencia — e desenhar para a conveniencia errada. Regra no `CLAUDE.md`.
+200. **📘 A aula virou arquivo para ler e reler**, a pedido do Vinicius. HTML autocontido,
+     tipografia serifada para leitura longa, as sete etapas com o problema que cada uma resolve, o
+     diagrama do laco que fecha, e marcador **NAO EXISTE** em tudo que e desenho e nao realidade.
+     Fecha com a correcao de autoridade da 198 — porque quem le a aula precisa saber que o schema nao
+     e a intencao.

@@ -104,6 +104,27 @@ respostas quanto eu."*
   anterior é marcado `SUPERSEDED` no que perdeu, apontando o sucessor. Dois documentos vivos sobre
   o mesmo tema é o defeito que já se criticou na arquitetura do João — não reproduza.
 
+## Quem é autoridade sobre o quê no banco (travado em 17 ago 2026 pelo Vinicius)
+
+O Bergson criou as collections e a estrutura **traduzindo o entendimento que ele teve** do que o
+João e o Vinicius explicaram sobre o BrainHub. Logo:
+
+- **O código é autoridade sobre o ESTADO** — o que existe hoje, com campo, índice e invariante.
+  Isso continua soberano: documento não sobrepõe schema quando a pergunta é "o que está construído".
+- **O código NÃO é autoridade sobre a INTENÇÃO.** É a leitura de uma explicação, feita por quem não
+  vive o negócio. Divergência entre o schema e o que o BrainHub precisa ser **não é erro nosso de
+  entendimento** — é tradução a corrigir.
+- **Definir collections, campos e forma de relacionamento é o NOSSO papel.** O Bergson implementa.
+
+**Consequência prática que muda decisão de desenho:** nunca escolha um caminho técnico *porque ele
+evita mexer no código do Bergson*. Limitação do schema atual não é restrição de projeto — é item de
+especificação. Escreva o modelo certo e entregue como espec. O erro a não repetir: em 17 ago 2026 eu
+recomendei sobrecarregar `categories` como rótulo de tipo **cuja única vantagem declarada era "não
+depende de alteração no código do Bergson"** — justificativa que nunca foi válida.
+
+Continua valendo, sem exceção: **escrita só no `brainhub-umode`.** Autoridade de desenho não é
+autorização de commit em repositório alheio.
+
 ## A hierarquia (não alterar sem instrução explícita)
 
 ```

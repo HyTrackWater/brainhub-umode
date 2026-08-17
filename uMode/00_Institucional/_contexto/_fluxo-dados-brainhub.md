@@ -15,8 +15,8 @@
 |---|---|---|
 | **[C]** | **Código lido**, com arquivo citado. Nome de campo, enum, índice, invariante. | Alta. Não é interpretação. |
 | **[F]** | Existe em código **mas está atrás de feature flag / allowlist** — escrito e desligado. | Existe ≠ vigente. |
-| **[P]** | **Proposta minha.** Ancorada em [C], **não validada por ninguém.** | Baixa até o Bergson olhar. |
-| **[D]** | **Decisão que não é minha** — do Vinicius, do João ou do Bergson. | Nula até ser tomada. |
+| **[P]** | **Proposta minha.** Ancorada em [C], **não validada por ninguém.** | Baixa até o Vinicius travar. |
+| **[D]** | **Decisão que não é minha** — do Vinicius ou do João. ⚠ **Nunca do Bergson:** ele implementa, não define. | Nula até ser tomada. |
 
 ⚠ **Toda a faixa [C] tem uma ressalva que vale para o documento inteiro:** o código está em
 **branch, não na `main`**. A `main` tem 5 módulos; a branch lida tem 29. **Está construído e não
@@ -29,9 +29,9 @@ integrado.**
 
 | # | Não resolvido | Grau | Bloqueado por |
 |---|---|---|---|
-| 1 | O payload de evento não carrega tipo/tier — o roteamento tem **só dois eixos** (§2, §3) | [C] limite real | Mudança de payload = Bergson |
-| 2 | `metadata` dos nossos MDs **sem contrato** — o campo é `Object` livre | [D] | Decisão C2 (front-matter) |
-| 3 | **Resposta a endereçamento** não cabe em `approvals` (índice único) — precisa de coleção | [P] | Aval do Bergson |
+| 1 | O payload de evento não carrega tipo/tier (§2) | [C] estado atual | **Nada.** Especificado em §3-bis — é item de implementação, não restrição |
+| 2 | ~~`metadata` sem contrato~~ → **resolvido:** o `_indice/` é o contrato de importação (pend. 191) | ✅ | — |
+| 3 | **Resposta a endereçamento** não cabe em `approvals` (índice único) — precisa de coleção | [P] | Nosso desenho a fechar |
 | 4 | **Nenhuma superfície de conversa com agente** existe (§5) | [C] lacuna | Desenho + [D] do Vinicius |
 | 5 | **29 dos 50 schemas** com campos não lidos — lista em `_dicionario-dados-brainhub.md` | — | Tempo de leitura |
 
@@ -90,7 +90,12 @@ O caminho por tempo é gêmeo: `routines` com `schedule{kind:CRON, expression, t
 ## 2 · Os cinco limites duros do disparo — isto restringe TODO o desenho
 
 > Estes limites são o motivo de eu **não** poder desenhar "endereçamento dispara notificação"
-> livremente. Eles são fato de código, e quem quiser passar por cima negocia com o Bergson.
+> livremente sobre suposição. São **fato do código atual**.
+>
+> ⚠ **Mas não são restrições de projeto.** Desde que o Vinicius travou (17 ago 2026) que o Bergson
+> traduziu o entendimento dele do que explicamos — e que **definir collections, campos e relações é
+> nosso papel** — cada limite abaixo é **item de especificação, não muro**. Onde eu havia escrito
+> "negociar com o Bergson", leia **"especificar para o Bergson implementar"**.
 
 | # | Limite `[C]` | Consequência prática |
 |---|---|---|
@@ -108,25 +113,60 @@ de governança, não de configuração.
 
 ## 3 · Consequência: o roteamento só tem dois eixos — e isso decide nosso desenho
 
-Do L2, o que uma trigger pode ler é: `categoryId`, `areaId`, `contextId`, `versionId`,
-`revision`. **Só isso.** Logo há exatamente dois caminhos, e eu recomendo o primeiro:
+Do L2, o que uma trigger pode ler **hoje** é: `categoryId`, `areaId`, `contextId`, `versionId`,
+`revision`. **Só isso.** Logo há dois caminhos — **e eu recomendo o segundo:**
 
-**Caminho A — uma Category por tipo de entidade `[P]` ✅ recomendado**
-Cada tipo de MD nosso vira uma `Category` própria (`slug` único por organização, já garantido por
-índice). Aí `categoryId` **passa a ser o discriminador de tipo**, e a trigger casa com
-`EQUALS` numa string — dentro do L3, sem tocar em nada do Bergson.
-Custo: disciplina de nomenclatura de categoria. **Zero mudança de código alheio.**
+> 🔺 **RECOMENDAÇÃO REVISTA em 17 ago 2026, no mesmo dia.** O Vinicius travou que **o Bergson traduziu
+> o entendimento dele do que explicamos — logo não é referência de intenção, e definir collections,
+> campos e relações é NOSSO papel.** Isso destrói a única vantagem que eu havia declarado para o
+> Caminho A ("não depende de alteração no código do Bergson"). **Passa a valer o Caminho B como
+> especificação**; A fica apenas como paliativo se precisarmos de roteamento antes da mudança de
+> schema. Motivo de fundo: B mantém `Category` no papel para o qual foi desenhada — **audiência** — e
+> põe o tipo onde ele pertence, **como atributo do próprio contexto**. Ver §3-bis.
 
-**Caminho B — ampliar o payload de `context.published` `[D]`**
-Incluir `metadata.type` e `sensitivityTier` no payload. Mais expressivo, mas é **alteração no
-código do Bergson**, no caminho quente, e reabre o L3 para tipos não-string.
+**Caminho A — uma Category por tipo de entidade `[P]` ⚠ rebaixado a paliativo**
+Cada tipo de MD vira uma `Category` própria, e `categoryId` passa a ser o discriminador de tipo.
+Funciona hoje, sem alterar nada. **Mas gasta o eixo de audiência para carregar tipo** — e os dois
+não convivem, porque categoria governada é amarrada a **uma** área. Serve como ponte se
+precisarmos de roteamento antes de o schema mudar; **não é o modelo.**
 
-> **Decisão que eu tomo e registro:** sigo pelo **A** e trato o **B** como pedido a levar ao
-> Bergson **depois** de A estar rodando. Motivo: A não depende de ninguém e já entrega
-> roteamento por tipo.
+**Caminho B — tipo como atributo do contexto `[P]` ✅ é a especificação**
+`contexts.type` como campo de primeira classe, e `type` no payload do evento. Resolve o L2 **na
+origem** em vez de contorná-lo, e devolve `Category` ao papel de audiência. Detalhado na §3-bis.
 
-**As nove Categories que isso implica `[P]`:** `institucional`, `jornada`, `pessoas`,
-`contexto-area`, `produto`, `integracao`, `protocolo`, `demanda`, `rfi`.
+> **Decisão registrada, e revista no mesmo dia.** Eu havia escolhido **A**, e a justificativa era
+> literalmente *"não depende de alteração no código do Bergson"*. **Essa justificativa nunca foi
+> válida** — o Vinicius travou que definir o modelo é nosso papel e o Bergson implementa. Vale o
+> **B**. Lição de método: **nunca escolher caminho técnico porque ele evita mexer no código de
+> outro.** Isso não é prudência, é desenhar para a conveniência errada.
+
+**Os nove tipos `[P]`** — agora como valores de `contexts.type`, não como categorias:
+`institucional`, `jornada`, `pessoas`, `contexto-area`, `produto`, `integracao`, `protocolo`,
+`demanda`, `rfi`.
+
+## 3-bis · A especificação correta — tipo é atributo do contexto, não da categoria `[P]`
+
+Com a autoridade de desenho do nosso lado, o modelo certo é simples e não sobrecarrega nada:
+
+| O que especificamos | Onde | Por quê |
+|---|---|---|
+| **`contexts.type`** — enum com os 9 tipos de MD | campo de primeira classe em `contexts` | o tipo **é** atributo do documento; não é agrupamento nem audiência |
+| **`type` no payload de `context.published`** | o evento passa a carregar 6 campos | resolve o **L2** na origem, em vez de contorná-lo |
+| **`sensitivityTier` no payload** | idem | permite trigger sensível a confidencialidade sem gambiarra |
+| **`Category` volta a ser só audiência** | como o schema já a desenhou | governada, por área, com `stewardAreaId` e `category_shares` |
+
+**O que isso compra, e é muito:**
+- A trigger casa `EQUALS` em `type` — string, dentro do **L3**, sem nenhuma torção.
+- **Os dois eixos deixam de competir:** tipo e audiência passam a ser independentes. Um `jornada`
+  pode ter audiências diferentes por área; uma área pode ter vários tipos. Hoje, com A, isso é
+  impossível.
+- **A contagem de categorias deixa de ser 423 buckets de tipo** e passa a ser o que o desenho de
+  audiência pedir — que é decisão de governança, não subproduto de roteamento.
+- E o `ask` ganha filtro por tipo de documento de graça ("pergunte só sobre jornadas").
+
+**O custo honesto:** exige alteração em `contexts`, no payload do evento e no publisher — três
+pontos, um deles no caminho quente. É trabalho de implementação, **não é obstáculo de projeto**.
+Entra na especificação que vai para o Bergson, com o desenho pronto para ele implementar.
 
 ---
 
@@ -199,7 +239,7 @@ rastreio de "qual MD nosso respondeu" que já vem de graça.
 ## 6 · Como os nossos MDs preenchem o banco `[P]`
 
 > Tua pergunta "fica claro como nossos mds vão preencher o banco?". Não estava. **Agora está
-> proposto, campo a campo.** Continua [P] até o Bergson validar e até a decisão C2 sair.
+> proposto, campo a campo.** A decisão do front-matter saiu (pend. 191): **o `_indice/` é o contrato.**
 
 | Origem no MD | Destino | Observação |
 |---|---|---|
@@ -308,17 +348,17 @@ nó** do Loop. O que falta não é o conceito de notificar — é o **registro d
 > 🟢 **As duas decisões que dependiam do Vinicius foram TOMADAS em 17 ago 2026**, a pedido dele
 > ("daquilo que trava da minha parte, você já não tem resposta para adotar e seguir?"). Ficam
 > registradas abaixo como resolvidas, com o raciocínio em `_como-o-brainhub-funciona.md` §7 e nas
-> pendências 191–192. **Restam apenas decisões do Bergson.**
+> pendências 191–192. **Restam apenas itens de IMPLEMENTAÇÃO** — que nós especificamos e o Bergson executa. Nenhum deles é decisão dele.
 
 | # | Decisão | De quem | Trava o quê |
 |---|---|---|---|
 | ~~1~~ | ~~Front-matter nos MDs~~ → **NÃO. O `_indice/` é o contrato de importação.** A chave estável já vive no corpo do MD (`### ID do cliente`) e o CSV já a extrai; 1.316 MDs, zero front-matter. Front-matter seria segunda cópia de dado que já tem dono. | ✅ **resolvido** | destrava §6 |
 | ~~2~~ | ~~As 9 Categories~~ → **ADOTADO: 9 por casa** (9 em cada cliente + 9 na Casa = 47 × 9 = 423). `institucional` · `jornada` · `pessoas` · `contexto-area` · `produto` · `integracao` · `protocolo` · `demanda` · `rfi`. Fechado por leitura de `organizations.schema.ts`: *"Organization legado → Tenant + um Second Brain"*; slug de organização é único **por brain**, e brain é **por cliente**. Isolamento por construção. | ✅ **resolvido** | destrava §3 |
-| 3 | `agents.audienceMode` + `agent_shares` + grant `agents.consume` | **Bergson** | publicar o agente de suporte para a operação |
-| 4 | `conversations.agentId` + `conversation_turns.agentRunId` | **Bergson** | a operação conversar com o agente |
-| 5 | As 3 coleções + `addressing_responses` + os outboxes | **Bergson** | §7 inteiro |
-| 6 | Ligar `CATEGORY_AUDIENCE_FILTER` e allowlistar nosso brain | **Bergson** | permissão fina sair do papel |
-| 7 | Ampliar o payload de `context.published` (Caminho B) | **Bergson** | só depois de A rodar |
+| 3 | `agents.audienceMode` + `agent_shares` + grant `agents.consume` | **nós especificamos** → Bergson implementa | publicar o agente de suporte para a operação |
+| 4 | `conversations.agentId` + `conversation_turns.agentRunId` | **nós especificamos** → Bergson implementa | a operação conversar com o agente |
+| 5 | As 3 coleções + `addressing_responses` + os outboxes | **nós especificamos** → Bergson implementa | §7 inteiro |
+| 6 | Ligar `CATEGORY_AUDIENCE_FILTER` e allowlistar nosso brain | **operação** (é chave de config, não desenho) | permissão fina sair do papel |
+| 7 | **Ampliar o payload de `context.published`** (§3-bis) — passou de "depois" para **parte do desenho base** | **nós especificamos, Bergson implementa** | tipo e audiência deixarem de competir |
 
 ---
 
