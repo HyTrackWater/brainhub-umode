@@ -182,6 +182,117 @@
 - [x] Decisão travada: Produtos são subáreas com atributo `tipo: produto`
 - [x] Decisão refinada: cada Produto carrega atributo `conecta_area_cliente`
 
+## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
+
+> Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue
+> válido, mas os números não são de hoje.
+
+**Objetivo declarado:** definir como funciona o CRUD no banco — criação, alteração, remoção,
+endereçamento, demanda no inbox de cada colaborador ou área, e **rastreio completo**. Não é
+implementação: é plano.
+
+**Quatro repositórios em escopo, e só um com escrita nossa:**
+`brainhub-umode` (**o nosso, único gravável**) · `umode-os-vault` (contexto do João, branch
+`governance/brainhub-v1.5`, **+83 commits** sobre a `main`) · `umode-brainhub-api`
+(**`UmodeApp`** — o banco, NestJS/MongoDB/Redis/BullMQ, **114 branches**) ·
+`design-system-hub` (Lovable/Supabase — **onde o comportamento roda hoje com dado real**).
+Regra vigente: **leitura em todos, escrita só no nosso. Nenhum commit, push ou checkout fora dele.**
+
+**Três documentos novos:**
+- [`_dicionario-dados-brainhub.md`](uMode/00_Institucional/_contexto/_dicionario-dados-brainhub.md)
+  — **o que existe no banco**, campo por campo, 14 schemas lidos por inteiro.
+- [`_fluxo-crud-brainhub.md`](uMode/00_Institucional/_contexto/_fluxo-crud-brainhub.md) — o plano do
+  fluxo: cadeia de rastreio, as 4 coleções que faltam, triggers, agentes.
+- [`_inventario-repositorios.md`](uMode/00_Institucional/_contexto/_inventario-repositorios.md) —
+  origens e papéis de cada repositório.
+
+**A descoberta que muda tudo: a plataforma está muito mais construída do que se supunha.** Na branch
+mais completa (17/08) há **29 módulos e 49 schemas**, com commits de hoje. E os primitivos de rastreio
+já existem, melhores do que os que eu ia propor:
+- **`brains`** implementa a **fronteira inviolável como invariante de schema** — Personal Brain exige
+  owner e **não pode ter tenant**; Second Brain o inverso. Dois índices únicos parciais garantem um de
+  cada.
+- **`audit_events` é append-only com três guardas** e escreve em **`phase: PRE_MUTATION`** — antes da
+  mutação, com ator em três partes (`actorSubjectId` + `actorPersonId` + `actorMembershipId`).
+- **`context_versions` é append-only e endereçado por conteúdo** (`contentHash` `sha256:...`), com
+  `supersedesVersionId`.
+- **`contexts` remove com procedência completa** — inclusive **`deletedAuditEventId`**, apontando para
+  o evento que registrou a remoção.
+- **`approvals` tem `ApprovalBand`**: `AUTO_ARCHIVE` · `WEEKLY_BATCH` · `JOAO_REQUIRED` ·
+  `AREA_LEAD_REQUIRED`. **A vazão que o brief de julho tratava como pergunta aberta hoje é enum.** E
+  T2 se divide em `T2_DOCTRINE` e `T2_RECORD`.
+- **`area_memberships` separa `readableTiers`, `writableTiers` e `decisionTiers`** — autoridade de
+  decisão é distinta de leitura e escrita. Mais granular que o MOLE do bastão e que os 5 níveis do PRD.
+- **`routines` já tem `dedupeKey` e `maxCostPerRunUsd`**, e trigger e rotina nascem `INACTIVE` —
+  "teste seguro antes de ativar" é o default.
+- **`D85`**: tiers de Área e de relação **travados em T2** até o João resolver T0/T1 — trava
+  executável no `pre('validate')`, não aviso.
+
+**Os Loops fecham o desenho, e corrigem o encaixe.** Um Loop é **grafo tipado**: `loop_versions.graph`
+com **16 tipos de nó** e **11 contratos de dado**, e um validador que **recusa aresta cuja saída não
+case com a entrada do destino**. Quatro tipos de nó encodam a disciplina da casa como estrutura de
+dado: `JURY_CONSENSUS`, `ITERATIVE_REPAIR` (exige mudança de hash do artefato para contar progresso),
+`FAILURE_ROUTER` e **`READ_BACK_GATE`** — o "exit 0 não prova trabalho" virou tipo de nó executável.
+E **`loop_versions.origin` é o elo com o Git que faltava**: se `kind` é `GIT_TEMPLATE`, exige `repo`,
+`path` e `commitSha`. **Um contexto nosso, versionado no Git, pode virar definição executável com
+procedência por commit.**
+
+**O que NÃO existe em nenhuma das 114 branches: `demands` · `addressings` · `inbox_items`.**
+**Três coleções, não quatro** — `notification` já existe como **tipo de nó**, e o que falta ali é só o
+registro de entrega. E o encaixe é outro do que eu havia proposto: **"criar demanda" é um nó `ACTION`
+dentro de um Loop**, cujo resultado fica em `loop_runs.steps[]`; aprovar é um nó `APPROVAL`, que já
+existe. **O vocabulário do fluxo está construído; falta onde a demanda e o endereçamento persistem.**
+A âncora de rastreio já existe e é dupla: `loop_runs.sourceType`+`sourceId` diz por que rodou, e
+`approvals.subjectType`+`subjectRef` é polimórfico de propósito.
+
+A plataforma resolveu contexto, governança e execução; **não resolveu trabalho** — quem faz o quê, até
+quando, e como fica sabendo.
+
+**⚠ Duas correções minhas registradas, e a lição:** o clone da API veio com `--single-branch`
+(**1 branch local contra 114**). Eu li o `main` e (a) afirmei que faltavam módulos que existem e
+(b) sugeri confirmar uma divergência com o Bergson que **não existia** — retratado. **É a segunda vez
+nesta jornada que declarei ausência de fonte que estava lá** (a primeira foi o export de julho, que
+estava no histórico do Git). **Regra nova: antes de afirmar que algo não existe num repositório,
+conferir o refspec do clone e as branches remotas. Ausência de fonte é hipótese, não conclusão.**
+
+**Onde estamos, medido:** **1.330 `.md`** contra 884 dele · **46 de 46 clientes com as 14 áreas
+aplicadas contra 0 de 47 dele** · 998 demandas e 85 RFIs formalizadas com **100% de conformidade de
+template** · índice derivado com 6 tabelas. **Não estamos atrás em conteúdo nem em disciplina
+estrutural — estamos atrás em mecanismo:** ele tem front-matter em 75% dos arquivos, registro de
+decisão numerado (D1→D92), `MANIFEST`, `_CANON`, `SYNC_EXCLUDE`, `inbox/` com promoção, e o
+**Personal Brain**, que nós não temos.
+
+---
+
+## 🟠 PRIORIDADE SEGUINTE — convergência com o vault do João
+
+> Definida por Vinicius em 04 ago 2026: executar **depois** dos enriquecimentos ainda pendentes e
+> **antes** da migração para banco de dados.
+
+Vinicius liberou o vault do João para vistoria — `C:\Ambientes Virtuais\BrainHub - João Risoléo`,
+1.435 arquivos, 887 `.md`. **Restrição explícita: somente leitura, nenhum commit, nenhum push.**
+Backlog completo em
+[`_backlog-convergencia-brainhub.md`](uMode/00_Institucional/_contexto/_backlog-convergencia-brainhub.md)
+— **17 frentes em 4 tiers**, com critério de pronto e dependência em cada uma.
+
+**A boa notícia:** a taxonomia de Área é **idêntica**, com a mesma numeração, e os tiers T0/T1/T2
+também. Não estamos recomeçando.
+
+**As três que travam o schema:** (1) a pasta de cliente dele **é** o slug, a nossa é nome comercial;
+(2) **front-matter em 75% dos arquivos dele e 0% dos nossos** — contradiz de frente uma decisão minha,
+que eu revisaria; (3) **nenhum dos 47 clientes dele tem pastas de área** — o modelo interno de cliente
+é incompatível (função organizacional × unidade de entrega).
+
+**O ganho imediato:** o `MANIFEST.md` dele traz o **crosswalk repositório ↔ produto** que estava
+registrado como pendência aberta, e **confirma de forma independente** que `catalogcraft-ai` é o
+EnriqueceAI (ex-CadastroAI). E o vault dele tem **21 clientes que não temos** — incluindo Arezzo,
+Alpargatas, Renner e Sinbi, exatamente os que eu vinha registrando como "sem casa".
+
+**⚠ Cobertura honesta:** o `DECISOES.md` (156 KB), o `_GOVERNANCA.md` (a "constituição do vault") e o
+`SISTEMAS.md` **não foram lidos**. São as leituras que faltam para o backlog virar definitivo.
+
+---
+
 ## 🔴 PRIORIDADE ZERO — 04 ago 2026: primeira ENTREGA do BrainHub
 
 > Isto passa na frente de tudo abaixo, inclusive do "rolo compressor". Declaração literal do

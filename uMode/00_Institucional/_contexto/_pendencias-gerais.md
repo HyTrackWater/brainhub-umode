@@ -1269,3 +1269,122 @@
      `umode_product_accessory_variants`) **desnormalizam preço e composição do material de origem** —
      preço divergente **não é bug, é o design**. Confirma que o problema é **ativo, não histórico**.
      Antes disso houve intervalo: as migrations de 2025 terminam em 13/11/2025.
+
+## Banco do BrainHub — o que o código revelou (17 ago 2026)
+
+153. ✅ **FECHADAS por leitura de código: as coleções que eu dizia faltar existem.** O clone da API
+     veio com `--single-branch` (1 branch local contra **114** no remoto). Na branch mais completa,
+     `codex/bhp-p16-federation-grants-back` (17/08), há **29 módulos e 49 schemas**. Existem
+     `tenants`, `brains`, `people`, `memberships`, `areas`, `area_memberships`, `approvals`,
+     `audit_events`, `context_versions`, `context_relations`, `triggers`, `routines`, `trash`,
+     `context-packs`, `folders`, `invitations`, `federation-*`, `agents`, `loops`, `agent-execution`,
+     `llm-connections` e mais. Dicionário completo em `_dicionario-dados-brainhub.md`.
+154. **⚠ REGRA NOVA, gravada no `CLAUDE.md`: ausência de fonte é hipótese, não conclusão.** Foi a
+     segunda vez que declarei indisponível uma fonte que existia — a primeira foi o export de julho
+     das demandas, que estava no histórico do Git. Antes de escrever que algo não existe: conferir
+     `git log --all`, `git config --get remote.origin.fetch` e `git ls-remote --heads`. E **nunca
+     transformar não-achado em tarefa para outra pessoa** — cheguei a sugerir cobrar do Bergson uma
+     divergência que não existia. Retratado.
+155. **🔴 O QUE FALTA NO BANCO SÃO QUATRO COLEÇÕES.** Varredura das 114 branches por módulo **e** por
+     nome de arquivo: **`demand`/`task`**, **`addressing`**, **`inbox`** e **`notification`** não
+     existem em nenhuma. Tudo o mais que o fluxo precisa está construído. **A plataforma resolveu
+     contexto, governança e execução; não resolveu trabalho** — quem faz o quê, até quando, e como
+     fica sabendo. É exatamente o objetivo declarado por Vinicius para a semana.
+156. ✅ **A fronteira inviolável Personal Brain × empresa é invariante de schema, não policy.** O
+     `brains.pre('validate')` impede: `PERSONAL` exige `ownerPersonId` e **não pode ter `tenantId``;
+     `SECOND_BRAIN` exige `tenantId` e **não pode ter owner**. Mais dois índices únicos parciais: um
+     Personal Brain por pessoa, um Second Brain por tenant. Isso responde a preocupação que eu havia
+     levantado de que a regra do plano §5.1 fosse apenas policy de aplicação.
+157. **⚠ O modelo de permissão real é mais granular que o MOLE e que os 5 níveis do PRD, e nenhum
+     documento o descrevia.** `area_memberships` tem **três listas de tier separadas**:
+     `readableTiers`, `writableTiers` e **`decisionTiers`**, com comentário no código dizendo que
+     "autoridade de decisão é separada de escopo de leitura e escrita". Mais `grants[]`, `grantedBy`,
+     `validFrom`, `expiresAt` (validado como maior que `validFrom`) e `role` `ADMIN|MEMBER`.
+     **Isto substitui a proposta que eu havia feito** de híbrido MOLE + níveis do PRD.
+158. **`D85` — decisão que eu não conhecia: tiers travados em T2.** Vale para `area_memberships` (as
+     três listas) e para `context_relations`, e é **trava executável no `pre('validate')`**, não
+     aviso: qualquer tier ≠ T2 é invalidado, "until enforcement for T0/T1 is delivered". Ou seja: a
+     política de T0/T1 do João é bloqueio real de produto hoje.
+159. **✅ A vazão de aprovação deixou de ser pergunta e virou enum.** `approvals.band` =
+     **`AUTO_ARCHIVE`** · **`WEEKLY_BATCH`** · **`JOAO_REQUIRED`** · **`AREA_LEAD_REQUIRED`**. O brief
+     para o Hermes (03/08) tratava "o que promove sozinho vs o que exige o João" como causa-raiz do
+     gargalo humano; **em 17/08 é campo**. E `ApprovalDecisionAuthorityKind` = `ACCOUNT_ADMIN` |
+     `AREA_LEAD` implementa o D92, com o líder de área somado.
+160. **⚠ `T2` se divide em `T2_DOCTRINE` e `T2_RECORD`** no `ApprovalTier`. Doutrina (regra) e registro
+     (fato) têm banda de aprovação diferente. **Distinção que não existe em nenhum documento nosso** e
+     que provavelmente deveria existir: os nossos MDs misturam protocolo (doutrina) e registro de
+     cliente (fato) sob o mesmo tier.
+161. **⚠ CORREÇÃO: relações são 7 tipos, não 13.** O plano §8.1 lista 13; o
+     `ContextRelationType` do código tem **7**: `RELATED_TO`, `SUPPORTS`, `CONTRADICTS`,
+     `DERIVED_FROM`, `REFERENCES`, `DEPENDS_ON`, `SUPERSEDES`. Não existem `links_to`, `part_of`,
+     `used_by_agent`, `feeds_loop`, `produces`, `belongs_to_area`, `belongs_to_pillar` — pertencimento
+     a área resolve por `sourceAreaId`/`targetAreaId`, não por tipo. **A nossa tipagem de relações tem
+     de usar os 7 do código.** E há `provenanceKind` = `MANUAL` | `GENERATED` | `IMPORTED`, que é o
+     campo que permite migrar os nossos `[[wikilinks]]` como `IMPORTED` deixando rastro.
+162. **A auditoria tem dois padrões coexistindo, e isso é ponto a resolver.** `audit_events` é
+     **genérico e polimórfico** (`resourceType` + `resourceId`), append-only com **três guardas** de
+     schema, e escreve em **`phase: PRE_MUTATION`** — antes da mutação, com ator em três partes
+     (`actorSubjectId` + `actorPersonId` + `actorMembershipId`) e `changedFields[]`. Mas `approvals`,
+     `agents`, `areas`, `loops`, `conversations`, `context-packs`, `invitations`, `federation-*` e
+     `agent-execution` têm **coleções próprias** de audit. **Montar a história completa de um
+     endereçamento exige compor as duas famílias.** Proposta: view de leitura que agrega, sem
+     centralizar a escrita.
+163. **✅ O soft delete já aponta para a própria auditoria.** `contexts` tem `deletedAt`,
+     `deletedBySubjectId`, `deletedByPersonId`, `deletedReason` e **`deletedAuditEventId`** — mais o
+     simétrico de restauração. É o primitivo de rastreio que eu ia propor, já construído. E o índice
+     único de slug é parcial em `deletedAt: null`, então remover libera o identificador.
+164. **⚠ Descoberta que muda onde a demanda encaixa: trigger e rotina disparam um LOOP, não uma ação
+     arbitrária.** `triggers.loopId` e `routines.loopId` são obrigatórios. Logo **"criar demanda no
+     inbox" não é tipo de ação de trigger — é um nó dentro de um Loop.** As quatro coleções novas se
+     penduram no resultado da execução do Loop e no `approvals.subjectRef` (polimórfico), não no
+     trigger. Isso invalida parte do desenho que eu havia proposto.
+165. **✅ Rotina já tem dedupe, teto de custo e ativação segura.** `routines.dedupeKey` (único por
+     brain), `maxCostPerRunUsd`, e **trigger e rotina nascem `INACTIVE`** — os três pontos que eu
+     havia destacado como "onde automação causa dano" já estão resolvidos no schema. Sobra `PAUSED`
+     como estado, e o índice parcial `(status, nextRunAt)` sobre `ACTIVE` é a consulta do agendador.
+166. **⚠ As chaves de tenancy em `contexts` são OPCIONAIS, com backfill em curso.** `tenantId`,
+     `brainId` e `areaId` são nullable, e existe `areaBackfillRunId` (campo oculto) rastreando a
+     migração. **Qualquer consulta multi-tenant hoje tem de tolerar nulo** — e qualquer proposta nossa
+     tem de considerar que a base ainda não está completamente escopada.
+167. **Convenção de ator: é sempre `trustedSubjectId` (o `sub` do Cognito), não ObjectId.**
+     `areas.adminSubjectId` guarda isso, com comentário explícito no código. **Isso corrige a minha
+     proposta anterior**, que usava `personId` como chave de endereçamento. Onde há vínculo, registra-se
+     também `personId` e `membershipId` — ator em três partes.
+168. **Oito convenções do banco que a nossa documentação deve seguir** — extraídas do código e
+     registradas em `_dicionario-dados-brainhub.md` §8: slug sempre `lowercase` e único dentro do pai ·
+     chave de escopo `immutable` · índice único parcial em `deletedAt: null` · `strict: 'throw'` nas
+     coleções novas · ator sempre `trustedSubjectId` · append-only protegido por guarda de schema ·
+     tudo que remove registra quem, por quê e o id do evento de auditoria · enum em
+     `SCREAMING_SNAKE`. ⚠ O último exige tradução explícita no protocolo, porque o nosso padrão de MD
+     usa rótulo em português.
+
+169. **✅ Loops fecham o desenho: um Loop e um GRAFO TIPADO, com validador que recusa aresta
+     incompativel.** `loop_versions.graph` tem `nodes[]`, `edges[]`, `contracts` e `policies`, com
+     **16 tipos de no** e **11 contratos de dado**. O `LoopGraphValidator` recusa aresta cuja saida
+     nao case com a entrada do destino, e a condicao da aresta tem de estar declarada no tipo do no de
+     origem. Limites no schema: max 200 nos, `nodeId` unico, grafo max 1 MB, append-only.
+170. **⚠ CORRECAO: sao TRES colecoes faltando, nao quatro — e o encaixe da demanda e outro.**
+     `notification` **existe como tipo de no** (`LoopNodeType.NOTIFICATION`); o que falta ali e so a
+     colecao de registro de entrega (canal, estado, dedupe, erro). E **"criar demanda" nao e campo de
+     trigger nem colecao solta: e um no `ACTION` dentro de um Loop**, cujo resultado fica em
+     `loop_runs.steps[]`. Aprovar e um no `APPROVAL`, que ja existe. **O vocabulario do fluxo esta
+     construido; falta onde a demanda e o enderecamento persistem.** Faltam: `demands`,
+     `addressings`, `inbox_items`.
+171. **✅ A ancora de rastreio ja existe, e e dupla.** `loop_runs.sourceType` (`MANUAL|ROUTINE|
+     TRIGGER`) + `sourceId` responde "por que isso rodou", e `approvals.subjectType`+`subjectRef` e
+     **polimorfico de proposito** — e onde o enderecamento se pendura sem exigir campo novo em
+     `approvals`. Mais `loop_runs.steps[]` com `nodeId`, `output`, tokens e **custo por passo**.
+172. **🔴 `loop_versions.origin` e o elo com o Git que faltava.** Campos `kind`, `templateKey`,
+     `templateVersion`, `repo`, `path`, `commitSha` — e **se `kind` e `GIT_TEMPLATE`, os cinco sao
+     obrigatorios** por invariante de schema. **Um contexto nosso, versionado no Git, pode se tornar
+     definicao executavel com procedencia verificavel por commit.** E o caminho concreto de ligar o
+     `brainhub-umode` a plataforma, e nao estava em nenhum documento.
+173. **Quatro tipos de no encodam a disciplina de governanca da casa como estrutura de dado:**
+     `JURY_CONSENSUS` (quorum, agregacao por dimensao, zero hard-fail), `ITERATIVE_REPAIR` (exige
+     **mudanca de hash do artefato** para contar como progresso), `FAILURE_ROUTER` (roteia falha por
+     codigo de motivo) e **`READ_BACK_GATE`** (verifica `routes`, `media`, `sitemap`, `robots` com
+     status HTTP esperado e timeout). O "exit 0 nao prova trabalho" e o "nada ativo sem read-back"
+     deixaram de ser regra escrita e viraram **tipo de no executavel**.
+174. **`loops` separa `draftVersionId` de `activeVersionId`** no proprio documento: edita-se o
+     rascunho, promove-se a ativo. E `loops`, `triggers` e `routines` **nascem `INACTIVE`**, com
+     estado `PAUSED` e `pausedReason`. Padrao a espelhar em qualquer coisa nossa que vire executavel.

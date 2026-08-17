@@ -24,6 +24,37 @@ já está escrito lá.
 - Se não tiver certeza de um dado, marque explicitamente como incerto — não arredonde
   para o que parece plausível.
 
+## Ausência de fonte é hipótese, não conclusão
+
+Corolário da regra de ouro, aprendido errando **duas vezes** — as duas registradas no `STATE.md`:
+
+1. Declarei indisponível o export de julho das demandas. **Estava no histórico do Git**, num commit
+   anterior à remoção da pasta de dado bruto.
+2. Afirmei que módulos não existiam no repositório da API e cheguei a sugerir cobrar isso de outra
+   pessoa. **O clone tinha `--single-branch`: 1 branch local contra 114 no remoto.**
+
+**Antes de escrever que algo não existe:**
+- Se é arquivo que já existiu: `git log --all -- <caminho>` e `git log --all -S "<trecho>"`.
+- Se é repositório: `git config --get remote.origin.fetch` e `git ls-remote --heads <url>`. Refspec
+  limitado a `main` esconde tudo o mais.
+- Se é dado numa base: a ausência pode ser filtro, escopo ou permissão — não vazio.
+
+Quando não der para verificar, escreva **"não encontrei em X"** com o X explícito, nunca **"não
+existe"**. E jamais transforme não-achado em tarefa para outra pessoa antes de esgotar a verificação.
+
+## Repositórios que você lê e o único que você escreve
+
+Escrita autorizada em **um só**: `HyTrackWater/brainhub-umode` — este.
+
+Somente leitura, sem exceção — **sem commit, sem push, sem checkout, sem alterar branch**:
+`HyTrackWater/umode-os-vault` (contexto e governança do João) · `UmodeApp/umode-brainhub-api` (o
+banco) · `HyTrackWater/design-system-hub` (a aplicação no Lovable) · os repositórios de integração de
+cliente · `UmodeApp/umode-flow` (a plataforma legada).
+
+Para ler branch de repositório alheio **sem tocar nele**, use `git show <branch>:<caminho>` — nunca
+`checkout`. E só olhe o repositório que o Vinicius indicar: há projetos em `C:\Ambientes Virtuais` que
+não têm relação com este trabalho.
+
 ## Antes de formalizar dado legado (regra de leitura obrigatória)
 
 Sempre que for traduzir dado de um sistema de origem (Notion, CX Hub, CSV, export de
