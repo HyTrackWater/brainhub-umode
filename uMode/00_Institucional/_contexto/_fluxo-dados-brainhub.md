@@ -313,7 +313,7 @@ nó** do Loop. O que falta não é o conceito de notificar — é o **registro d
 | # | Decisão | De quem | Trava o quê |
 |---|---|---|---|
 | ~~1~~ | ~~Front-matter nos MDs~~ → **NÃO. O `_indice/` é o contrato de importação.** A chave estável já vive no corpo do MD (`### ID do cliente`) e o CSV já a extrai; 1.316 MDs, zero front-matter. Front-matter seria segunda cópia de dado que já tem dono. | ✅ **resolvido** | destrava §6 |
-| ~~2~~ | ~~As 9 Categories~~ → **ADOTADO.** `institucional` · `jornada` · `pessoas` · `contexto-area` · `produto` · `integracao` · `protocolo` · `demanda` · `rfi`. ⚠ Se é 9 no total ou 9 por cliente depende do mapeamento organização↔cliente — `organizations.schema.ts` **não lido**. | ✅ **taxonomia resolvida**, multiplicidade → Bergson | destrava §3 |
+| ~~2~~ | ~~As 9 Categories~~ → **ADOTADO: 9 por casa** (9 em cada cliente + 9 na Casa = 47 × 9 = 423). `institucional` · `jornada` · `pessoas` · `contexto-area` · `produto` · `integracao` · `protocolo` · `demanda` · `rfi`. Fechado por leitura de `organizations.schema.ts`: *"Organization legado → Tenant + um Second Brain"*; slug de organização é único **por brain**, e brain é **por cliente**. Isolamento por construção. | ✅ **resolvido** | destrava §3 |
 | 3 | `agents.audienceMode` + `agent_shares` + grant `agents.consume` | **Bergson** | publicar o agente de suporte para a operação |
 | 4 | `conversations.agentId` + `conversation_turns.agentRunId` | **Bergson** | a operação conversar com o agente |
 | 5 | As 3 coleções + `addressing_responses` + os outboxes | **Bergson** | §7 inteiro |

@@ -1519,3 +1519,30 @@
      **pre-condicao de automacao**; (3) o laco que fecha: **concluir exige evidencia, evidencia e
      ponteiro para documento do acervo**, logo concluir trabalho enriquece o acervo, que publica, que
      aciona o trabalho seguinte. E isso que significa "tomar vida".
+
+194. **✅ MULTIPLICIDADE DE CATEGORIA FECHADA: 9 por casa — e eu podia ter decidido sozinho desde o
+     inicio.** Na 192 eu escrevi "nao sei se e 9 no total ou 9 por cliente, depende de
+     `organizations.schema.ts`, que eu nao li". Vinicius perguntou, em 17 ago 2026, qual era a duvida
+     e se eu nao era capaz de decidir. **Era. Bastava ler o arquivo que eu mesmo apontei.** A resposta
+     estava num comentario do schema: *"Mapping de compatibilidade: Organization legado → Tenant + um
+     Second Brain."* Cadeia: **tenant → exatamente um Second Brain (indice unico parcial) →
+     organizations com slug unico POR BRAIN → categories com slug unico por organizationId**.
+     Logo o namespace de categoria e **por cliente**: **9 em cada cliente + 9 na Casa = 47 × 9 = 423**.
+     Nao e redundancia — e a **regra de isolamento de cliente expressa no modelo de dados**.
+     Confirmacao independente no mesmo arquivo: o `pre(findOneAndDelete)` de Organization apaga
+     `categories`, `contexts` e `context_chunks` por `organizationId` — **organizacao e a fronteira de
+     contencao do conteudo**.
+     ⚠ **CONSEQUENCIA OPERACIONAL, que e o achado de verdade:** `triggers` tambem sao escopados por
+     `brainId` + `tenantId`, logo **a automacao nao e global — e por cliente, replicada**, como as 14
+     areas. **Criar um cliente passa a significar 14 areas + 9 categorias + as inscricoes, e isso tem
+     de entrar no `protocolo-criacao-cliente.md`.**
+     🔴 **LICAO DE METODO, terceira variacao do mesmo erro:** eu nao declarei fonte indisponivel nem
+     concluí sobre um caminho so — eu **transformei em pendencia de terceiro algo que estava a uma
+     leitura de distancia, e o arquivo eu ja tinha nomeado**. Nao basta nomear o que falta ler:
+     **se eu sei qual arquivo responde e tenho acesso a ele, ler e obrigacao antes de declarar duvida.**
+     Regra levada para o `CLAUDE.md`.
+195. **🟠 FIO SOLTO NOMEADO, nao resolvido: a membrana Casa↔cliente atravessa brains.** Se cada cliente
+     e um brain isolado, o `conecta_area_cliente` de cada Produto cruza fronteira de brain. Existem os
+     modulos `federation-connections` e `federation-discovery` (+ auditorias e `federation-discovery.
+     node`/`.profile`), **nao lidos** — provavel que sejam esse mecanismo. **Proxima leitura**, nao
+     palpite.

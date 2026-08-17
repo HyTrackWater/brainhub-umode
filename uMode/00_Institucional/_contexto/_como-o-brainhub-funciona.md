@@ -245,17 +245,48 @@ cliente pela chave que já está no corpo, o caminho pelo próprio caminho, e o 
 > importador. Se algum dia aparecer um campo genuinamente não-derivável, ele ganha front-matter
 > naquele momento — e não antes.
 
-### Decisão 2 · As 9 categorias como discriminador de tipo: **ADOTADO**
+### Decisão 2 · As 9 categorias como discriminador de tipo: **ADOTADO, 9 POR CASA**
 `institucional` · `jornada` · `pessoas` · `contexto-area` · `produto` · `integracao` · `protocolo` ·
 `demanda` · `rfi`. Minúsculo, sem acento — o schema exige slug minúsculo.
 
 Forçado pela etapa 4: categoria é o único eixo pelo qual o mural distingue tipos.
 
-⚠ **O que eu não sei, e digo em vez de esconder:** o slug de categoria é **único por organização**, e
-a categoria "governada" exige `tenantId` + `areaId` preenchidos. Isso levanta a questão de serem **9
-categorias no total** ou **9 por cliente**, e a resposta depende do mapeamento
-organização↔cliente — que está em `organizations.schema.ts`, **que eu não li**. A taxonomia está
-decidida; a multiplicidade é pergunta para o Bergson.
+**A multiplicidade também está decidida, e não precisou de ninguém — precisou de leitura.** Eu havia
+declarado "não sei se é 9 no total ou 9 por cliente, depende de `organizations.schema.ts`, que eu não
+li". Fui ler. A resposta estava num comentário do próprio schema:
+
+> *"Mapping de compatibilidade: **Organization legado → Tenant + um Second Brain**."*
+
+A cadeia fecha assim `[C]`:
+
+```
+tenant (o cliente)  →  exatamente UM Second Brain  (índice único parcial)
+                    →  organizations, slug único POR BRAIN
+                    →  categories, slug único POR organizationId
+```
+
+`Organization` é o conceito **legado**; o modelo governado é **Tenant + Second Brain**, e
+`organizations` guarda `tenantId`/`brainId` como ponte de compatibilidade. Como o namespace de
+organização é **por brain**, e brain é **por cliente**:
+
+> **Decidido: 9 categorias por casa — 9 em cada cliente e 9 na Casa uMode.** 47 casas × 9 = **423
+> categorias**. Não é redundância: é a **regra de isolamento de cliente expressa no modelo de dados**.
+> O `jornada` da Cambos e o da Puket são objetos distintos, em brains distintos, e nenhuma consulta
+> pode confundi-los nem por acidente de configuração.
+
+Confirmação independente, no mesmo arquivo: o `pre('findOneAndDelete')` de Organization apaga
+`categories`, `contexts` e `context_chunks` por `organizationId` — **organização é a fronteira de
+contenção do conteúdo.** Isolamento por construção.
+
+**A consequência operacional, que é o achado de verdade:** `triggers` também são escopados por
+`brainId` + `tenantId`. Logo **a automação não é global — ela é por cliente, replicada**, exatamente
+como já replicamos as 14 áreas nos 46 clientes. Criar um cliente passa a significar: 14 áreas + 9
+categorias + as inscrições. **Isso tem de entrar no `protocolo-criacao-cliente.md`.**
+
+⚠ **Um fio solto que eu nomeio sem fingir que resolvi:** se cada cliente é um brain isolado, a
+membrana Casa↔cliente (o `conecta_area_cliente` de cada Produto) atravessa brains. Existem os módulos
+`federation-connections` e `federation-discovery`, que **eu não li** — provável que sejam esse
+mecanismo. É a próxima leitura, não um palpite.
 
 ---
 

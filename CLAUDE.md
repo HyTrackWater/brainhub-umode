@@ -94,6 +94,12 @@ respostas quanto eu."*
   consultados na autorização.
 - **Uma etapa não está vencida porque houve documento sobre ela.** Está vencida quando o mecanismo
   foi lido e o que falta está nomeado.
+- **Se você sabe qual arquivo responde e tem acesso a ele, ler é obrigação antes de declarar
+  dúvida.** Não basta nomear o que falta ler. Em 17 ago 2026 eu escrevi "não sei se é 9 no total ou
+  9 por cliente, depende de `organizations.schema.ts`, que eu não li" — e o Vinicius perguntou se eu
+  não era capaz de decidir. Era: a resposta estava num comentário daquele arquivo. **Nomear o
+  arquivo e não abri-lo é transformar em pendência de terceiro o que estava a uma leitura de
+  distância.** É a mesma raiz de "ausência de fonte é hipótese", numa terceira variação.
 - **Um assunto tem um dono.** Quando um documento novo passa a ser a autoridade sobre um tema, o
   anterior é marcado `SUPERSEDED` no que perdeu, apontando o sucessor. Dois documentos vivos sobre
   o mesmo tema é o defeito que já se criticou na arquitetura do João — não reproduza.
