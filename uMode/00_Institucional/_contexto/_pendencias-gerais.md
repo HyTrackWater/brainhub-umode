@@ -1388,3 +1388,44 @@
 174. **`loops` separa `draftVersionId` de `activeVersionId`** no proprio documento: edita-se o
      rascunho, promove-se a ativo. E `loops`, `triggers` e `routines` **nascem `INACTIVE`**, com
      estado `PAUSED` e `pausedReason`. Padrao a espelhar em qualquer coisa nossa que vire executavel.
+
+175. **🔴 NAO EXISTE regra de quem pode consumir um agente — pergunta do Vinicius em 17 ago 2026,
+     respondida com codigo.** O `AccessScopeService` enumera **18 operacoes** (`organizations.*`,
+     `categories.*`, `contexts.*`, `ask.answer`) e **nao ha nenhuma `agents.*`**. O schema de `agents`
+     nao tem `visibility`, `audience` nem `allowedRoles`. **O eixo nao existe** — nao e que seja
+     permissivo. E lacuna de desenho a especificar antes de publicar agente para a operacao.
+176. **⚠ A distincao agente estrutural x agente de interacao NAO esta no schema.** `AgentKind` e
+     `INTERNAL | USER_DEFINED` — classifica **quem criou**, nao **quem consome** nem **o que faz**.
+     O eixo que o Vinicius travou em 17 ago 2026 e outro e precisa ser modelado.
+177. **A autorizacao real e por ORGANIZACAO, com excecao individual de no maximo 24h.** Regra base:
+     `requestedOrganizationId === executorOrganizationId`. Fora disso, so com
+     `TrustedIndividualAccessException` — por pessoa, por operacao, por organizacao, com janela
+     `validFrom`/`expiresAt` e duracao maxima de **24 horas**. Tres invariantes que valem copiar:
+     **ninguem concede excecao a si mesmo** (`subjectId === grantedBySubjectId` e rejeitado);
+     **fail-closed na auditoria** (sem `auditWriter` o acesso e negado); e **8 motivos de negacao
+     enumerados e auditados**.
+178. **⚠ As duas camadas de permissao nao se falam.** `area_memberships` tem `readableTiers`,
+     `writableTiers` e `decisionTiers`, mas **o `AccessScopeService` nao os consulta** — autoriza por
+     organizacao. Existe dado de permissao por area que nao e usado na decisao de acesso. Ponto a
+     resolver antes de qualquer promessa de granularidade por area.
+179. **✅ `agent_versions` e onde a instrucao do agente de suporte vai viver, e cabe.**
+     `instruction` aceita **100.000 caracteres**; `providerPolicy` tem `allowedProviders[]`,
+     **`defaultModel`**, `maxCostPerRunUsd` e `llmConnectionId` — **a escolha de modelo e por versao
+     de agente**, nao global; `limits` trava `timeoutSeconds` em 900 e `maxOutputTokens` em 64.000;
+     `contextPackRefs[]` referencia Context Pack **por versao**; e `origin: git-template` exige
+     `repo`, `path` e `commitSha`. **A instrucao pode vir do nosso repositorio com procedencia por
+     commit.**
+180. **⚠ LACUNA NOVA que o Vinicius levantou e que eu nao havia considerado: a RESPOSTA a um
+     enderecamento.** Meu desenho cobria criar enderecamento, demanda e item de inbox — mas nao
+     modelava a pessoa **respondendo**: aceitar, recusar, devolver com pergunta, reatribuir,
+     concluir com evidencia. Sem isso o inbox e caixa de saida, nao de trabalho. Precisa de
+     colecao ou de maquina de estado propria, com quem respondeu, quando e com que justificativa.
+181. **⚠ NAO esta definido como os nossos MDs preenchem o banco.** O mapeamento de
+     `institucional.md`, `jornada.md`, `produto.md`, demanda e RFI para `contexts` +
+     `contexts.metadata` + `context_relations` **nao existe em nenhum documento**. Depende da decisao
+     C2 (front-matter), ainda sem aval. E o `contexts.metadata` e `Object` livre — sem contrato,
+     cada importacao inventa o seu.
+182. **⚠ Nao esta definido como a operacao interage com o agente.** O Vinicius registrou em 17 ago
+     2026 que nem ele especificou isso. Nao ha no banco nem no plano: superficie (chat, formulario,
+     comando), onde a conversa e persistida (existe `conversations`, campos nao lidos), e se a
+     interacao gera enderecamento. E pre-requisito do agente de suporte ir para a operacao.

@@ -285,6 +285,60 @@ Cada `step`: `nodeId` · `type` · `status` `skipped|succeeded|failed` · `agent
 > status HTTP esperado e timeout). O "exit 0 não prova trabalho" e o "nada ativo sem read-back"
 > viraram tipo de nó.
 
+## 6-ter · Agentes e autorização — e a lacuna que o Vinicius encontrou
+
+### `agents`
+`brainId` · `tenantId?` · `slug` (lowercase, único por brain) · `name` · **`kind`** (immutable) ·
+`status` (default `INACTIVE`) · `currentVersionId?` · `ownerPersonId` · **`sensitivityTier`**
+(immutable) · `deletedAt?`. `strict: 'throw'`.
+
+**`AgentKind` = `INTERNAL` | `USER_DEFINED`.**
+> ⚠ **A distinção que o Vinicius travou — agente estrutural × agente de interação — NÃO existe no
+> schema.** `kind` classifica **quem criou** (interno da plataforma × definido pelo usuário), não
+> **quem consome** nem **o que faz**. São eixos diferentes e o eixo dele não está modelado.
+
+### `agent_versions` — append-only, e é onde a instrução do agente vive
+Tudo immutable. `agentId` · `brainId` · `tenantId?` · `version` · `status` `DRAFT|ACTIVE` ·
+**`instruction`** (máx **100.000 chars**) · **`tools[]`** (`toolKey` + `config`) ·
+**`providerPolicy`** · **`contextPackRefs[]`** (`packId` + `packVersion`) · **`limits`** ·
+`contentHash` sha256 · **`origin`** · `supersedesVersionId?` · `createdBy`.
+
+- **`providerPolicy`**: `allowedProviders[]` · **`defaultModel`** · `maxCostPerRunUsd?` ·
+  `llmConnectionId`. **É aqui que se escolhe o modelo** — por versão de agente, não global.
+- **`limits`**: `timeoutSeconds` (máx **900**) · `maxOutputTokens` (máx **64.000**).
+- **`origin`**: `kind` `user` | **`git-template`** — e se for `git-template`, exige `repo`, `path` e
+  `commitSha`. **A instrução de um agente pode vir do nosso repositório Git, com procedência por
+  commit.**
+
+### 🔴 Como se decide quem pode consumir um agente — **não se decide**
+O `AccessScopeService` (`src/common/access-scope/access-scope.service.ts`) é a autorização real, e
+enumera **18 operações**: `organizations.*` · `categories.*` · `contexts.*` (incl. `reindex` e
+`search`) · **`ask.answer`**.
+
+**Não existe nenhuma operação `agents.*` na lista.** E `agents` não tem `visibility`, `audience`,
+`allowedRoles` nem qualquer campo de consumo. Logo:
+> **A pergunta "quem pode consumir este agente" não tem resposta no banco hoje.** Não é que a resposta
+> seja permissiva — é que o eixo não existe.
+
+**O que existe de autorização, e é elegante:**
+1. **Regra base:** `requestedOrganizationId === executorOrganizationId` → permite. Diferente → nega
+   com `organization-mismatch`. O escopo é **organização**, não área nem pessoa.
+2. **Exceção individual governada** (`TrustedIndividualAccessException`): por pessoa, por operação,
+   por organização, com `validFrom`/`expiresAt` e **duração máxima de 24 horas**.
+3. **Segregação de funções por invariante:** `subjectId === grantedBySubjectId` é rejeitado —
+   **ninguém concede exceção a si mesmo**.
+4. **Fail-closed na auditoria:** se o `auditWriter` não estiver disponível, o acesso é **negado**
+   (`exception-audit-unavailable`). Não há acesso sem trilha.
+5. **8 motivos de negação enumerados**, cada um auditado: `missing-context` ·
+   `organization-mismatch` · `invalid-operation` · `invalid-exception` · `expired-exception` ·
+   `revoked-exception` · `exception-scope-mismatch` · `exception-audit-unavailable`.
+6. A exceção "deve ser resolvida por armazenamento interno governado, **nunca aceita de input do
+   cliente**" — está no comentário do código.
+
+⚠ **E os `readableTiers`/`writableTiers`/`decisionTiers` de `area_memberships` NÃO estão ligados ao
+`AccessScopeService`.** Existem como dado e não são consultados na autorização. São duas camadas de
+permissão que ainda não se falam.
+
 ## 7 · O que NÃO existe — corrigido depois de ler o catálogo de nós
 Varredura por módulo **e** por nome de arquivo nas 114 branches:
 
