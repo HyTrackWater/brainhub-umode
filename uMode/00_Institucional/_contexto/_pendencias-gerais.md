@@ -1489,3 +1489,33 @@
      lacuna para quando fosse perguntada. **Regra adotada: a lacuna vem antes da conquista, e todo
      documento de estado abre com declaracao de completude.** Aplicado no
      `_fluxo-dados-brainhub.md` (§0-bis) e na graduacao de evidencia [C]/[F]/[P]/[D] por afirmacao.
+
+191. **✅ DECISAO 1 TOMADA — front-matter nos MDs: NAO.** Vinicius perguntou em 17 ago 2026 se eu ja
+     nao tinha resposta para adotar e seguir. Tinha, mas so soube depois de **verificar em vez de
+     supor**: a chave estavel do cliente **ja existe dentro do MD** (`### ID do cliente`, definida no
+     `protocolo-criacao-cliente.md` em 03 ago, exatamente para o nome da pasta ser so apresentacao),
+     e o `_indice/clientes.csv` **ja a extrai** junto com o caminho do arquivo. Medido: **1.316 MDs,
+     zero com front-matter**. Tudo que a importacao precisa e derivavel — tipo pelo nome do arquivo,
+     area pela pasta, cliente pela chave no corpo, caminho pelo caminho, commit pelo Git.
+     **Front-matter seria segunda copia de dado que ja tem dono**, e duas fontes para o mesmo fato
+     divergem. **Decidido: o `_indice/` e o contrato de importacao e `gen-indice.ps1` e a primeira
+     metade do importador.** Campo genuinamente nao-derivavel ganha front-matter no dia em que
+     aparecer, nao antes. Isto **destrava a pendencia 189** e o item 1 da tabela de decisoes.
+192. **✅ DECISAO 2 TOMADA — as 9 categorias adotadas como discriminador de tipo:** `institucional`,
+     `jornada`, `pessoas`, `contexto-area`, `produto`, `integracao`, `protocolo`, `demanda`, `rfi`.
+     Minusculo e sem acento (o schema exige slug minusculo). Forcada pelo L2: categoria e o unico
+     eixo pelo qual o barramento distingue tipos.
+     ⚠ **O que eu NAO sei e declaro:** `categories.slug` e **unico por organizacao** e a categoria
+     governada exige `tenantId` + `areaId`. Logo pode ser **9 no total** ou **9 por cliente**,
+     conforme o mapeamento organizacao↔cliente — que esta em `organizations.schema.ts`, **que eu nao
+     li**. Taxonomia decidida; multiplicidade e pergunta para o Bergson.
+193. **📘 Documento didatico criado: `_como-o-brainhub-funciona.md`.** Aula do zero a pedido do
+     Vinicius, que disse nao ter ideia de como interpretar a arquitetura. Traduz o fluxo sem
+     acrescentar desenho. Regra de governanca embutida: **a explicacao nunca lidera o fato** —
+     alterar o didatico exige que o `_fluxo-dados-brainhub.md` tenha mudado primeiro.
+     Os tres nucleos da aula: (1) nada acontece por ordem, acontece por **fato registrado** — mural
+     com assinaturas, nao telefone; (2) **a identidade do documento E a regra** — por isso
+     "todo MD do mesmo tipo tem os mesmos titulos" deixa de ser preciosismo e passa a ser
+     **pre-condicao de automacao**; (3) o laco que fecha: **concluir exige evidencia, evidencia e
+     ponteiro para documento do acervo**, logo concluir trabalho enriquece o acervo, que publica, que
+     aciona o trabalho seguinte. E isso que significa "tomar vida".

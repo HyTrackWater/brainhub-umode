@@ -305,10 +305,15 @@ nó** do Loop. O que falta não é o conceito de notificar — é o **registro d
 
 ## 9 · O que depende de decisão, e de quem
 
+> 🟢 **As duas decisões que dependiam do Vinicius foram TOMADAS em 17 ago 2026**, a pedido dele
+> ("daquilo que trava da minha parte, você já não tem resposta para adotar e seguir?"). Ficam
+> registradas abaixo como resolvidas, com o raciocínio em `_como-o-brainhub-funciona.md` §7 e nas
+> pendências 191–192. **Restam apenas decisões do Bergson.**
+
 | # | Decisão | De quem | Trava o quê |
 |---|---|---|---|
-| 1 | Front-matter nos MDs (C2) | **Vinicius** | §6 inteiro — sem isso `metadata` fica sem origem |
-| 2 | As 9 Categories como discriminador de tipo | **Vinicius** | §3, e por consequência todo o roteamento |
+| ~~1~~ | ~~Front-matter nos MDs~~ → **NÃO. O `_indice/` é o contrato de importação.** A chave estável já vive no corpo do MD (`### ID do cliente`) e o CSV já a extrai; 1.316 MDs, zero front-matter. Front-matter seria segunda cópia de dado que já tem dono. | ✅ **resolvido** | destrava §6 |
+| ~~2~~ | ~~As 9 Categories~~ → **ADOTADO.** `institucional` · `jornada` · `pessoas` · `contexto-area` · `produto` · `integracao` · `protocolo` · `demanda` · `rfi`. ⚠ Se é 9 no total ou 9 por cliente depende do mapeamento organização↔cliente — `organizations.schema.ts` **não lido**. | ✅ **taxonomia resolvida**, multiplicidade → Bergson | destrava §3 |
 | 3 | `agents.audienceMode` + `agent_shares` + grant `agents.consume` | **Bergson** | publicar o agente de suporte para a operação |
 | 4 | `conversations.agentId` + `conversation_turns.agentRunId` | **Bergson** | a operação conversar com o agente |
 | 5 | As 3 coleções + `addressing_responses` + os outboxes | **Bergson** | §7 inteiro |
