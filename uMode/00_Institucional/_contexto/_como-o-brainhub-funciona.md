@@ -288,6 +288,43 @@ membrana Casa↔cliente (o `conecta_area_cliente` de cada Produto) atravessa bra
 `federation-connections` e `federation-discovery`, que **eu não li** — provável que sejam esse
 mecanismo. É a próxima leitura, não um palpite.
 
+### Decisão 2-bis · De onde "Categoria" veio, e o custo que eu não tinha declarado
+> Vinicius perguntou em 17 ago 2026: *"Mas 'Categoria' surgiu de onde? Do banco? Do conteúdo do
+> João? Do nosso conteúdo?"* Pergunta de procedência. Verifiquei as quatro faixas em vez de
+> responder de memória — e a verificação achou um problema no meu próprio desenho.
+
+| Faixa | O que a busca encontrou | Veredito |
+|---|---|---|
+| **A · código do banco** | `categories.schema.ts` nasceu no **commit fundacional do repositório** — `a470f8d`, 14 jul 2026, o primeiro commit que existe. Não é peça recente. E o `ask` usa categoria como **filtro de busca**: `ask.dto.ts` tem `category?: string`, e a resposta cita `organizationSlug/categorySlug`. | ✅ **A coleção é do banco.** |
+| **B · vault do João** | 282 arquivos contêm "categor" — e **todos são domínio**: categoria de produto de moda (`Temporada → Marca → Coleção → Categoria → Produto`), categoria de conteúdo, categorias em PRD. **Não está no glossário dele nem na hierarquia do BrainHub.** | ❌ **Não vem do João.** |
+| **C · Lovable** | **Uma** ocorrência: `"label": "categoria"` — rótulo de campo na tela de importar. | ❌ **Não é conceito do Lovable.** |
+| **D · nosso conteúdo** | A palavra **não existe na nossa hierarquia**: Instituição → Institucional → Áreas → Subáreas → Pessoas. | ❌ **Não é nosso.** |
+
+> **Conclusão de procedência: a COLEÇÃO é do banco (faixa A, fundacional). O USO dela como
+> discriminador de tipo de MD é 100% proposta minha (faixa D), de 17 ago 2026, forçada pelo L2.**
+> Ninguém no João, no Lovable ou no nosso padrão jamais tratou Categoria como tipo de documento.
+
+**E aqui está o custo que a verificação expôs.** No código, Categoria é **unidade de agrupamento com
+política de audiência**, usada para filtrar busca. Eu estou sobrepondo nela um segundo papel: **rótulo
+de tipo**. Os dois não cabem juntos, e o motivo é o invariante de categoria governada:
+
+- Uma categoria **governada** exige `brainId` + `tenantId` + **`areaId`** + `stewardAreaId` +
+  `audienceMode`, tier T2. **Ou seja: está amarrada a UMA área.**
+- Uma categoria **não-governada** é legal — o `pre('validate')` só dispara se algum campo governado
+  estiver preenchido. Aí ela é só agrupamento, e a autorização recai no nível de organização.
+
+> 🔴 **O trade, dito com clareza: Categoria pode ser o eixo de TIPO ou o eixo de AUDIÊNCIA — não os
+> dois.** Se for tipo (9 por casa, não-governadas), a autorização fica por organização — que é
+> justamente o que está ligado hoje, já que a audiência fina está atrás de feature flag. Se for
+> audiência por área, ela passa a ser por (tipo × área) — **9 × 14 × 47**, e o L2 deixa a trigger sem
+> nenhum eixo de tipo, porque não há outro campo no payload.
+
+**Minha recomendação continua sendo tipo**, por três razões: é o que faz o roteamento existir; a
+audiência fina está desligada de todo modo; e o isolamento por cliente já vem do brain, não da
+categoria. **Mas isto é escolha com custo declarado, não caminho óbvio** — e é decisão a levar ao
+Bergson junto com o resto, porque quem for ligar a audiência fina precisa saber que esse eixo foi
+gasto.
+
 ---
 
 ## Fontes

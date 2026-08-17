@@ -1546,3 +1546,35 @@
      modulos `federation-connections` e `federation-discovery` (+ auditorias e `federation-discovery.
      node`/`.profile`), **nao lidos** — provavel que sejam esse mecanismo. **Proxima leitura**, nao
      palpite.
+
+196. **✅ PROCEDENCIA DE "CATEGORIA" APURADA nas quatro faixas — Vinicius perguntou em 17 ago 2026 se
+     surgiu do banco, do Joao ou do nosso conteudo.** Resposta verificada, nao de memoria:
+     **A · banco** — `categories.schema.ts` nasceu no **commit fundacional do repositorio**,
+     `a470f8d`, 14 jul 2026, o primeiro commit que existe. E o `ask` usa categoria como **filtro de
+     busca** (`ask.dto.ts: category?: string`; resposta cita `organizationSlug/categorySlug`).
+     **B · vault do Joao** — 282 arquivos com "categor", **todos de dominio** (categoria de produto
+     de moda `Temporada→Marca→Colecao→Categoria→Produto`, categoria de conteudo, PRDs).
+     **Nao esta no glossario dele nem na hierarquia do BrainHub.** Nao vem do Joao.
+     **C · Lovable** — **uma** ocorrencia: `"label": "categoria"`, rotulo de campo na tela de
+     importar. Nao e conceito do Lovable.
+     **D · nosso conteudo** — a palavra **nao existe na nossa hierarquia** (Instituicao →
+     Institucional → Areas → Subareas → Pessoas).
+     > **Veredito: a COLECAO e do banco (faixa A, fundacional). O USO como discriminador de tipo de MD
+     > e 100% proposta minha (faixa D), de 17 ago 2026, forcada pelo L2.** Ninguem jamais tratou
+     > Categoria como tipo de documento.
+197. **🔴 CUSTO DO MEU PROPRIO DESENHO, exposto pela verificacao da 196 e que eu NAO havia declarado:
+     Categoria pode ser o eixo de TIPO ou o eixo de AUDIENCIA — nao os dois.** No codigo ela e
+     **unidade de agrupamento com politica de audiencia**, usada para filtrar busca; eu estou
+     sobrepondo o papel de **rotulo de tipo**. O invariante nao deixa os dois conviverem:
+     categoria **governada** exige `brainId` + `tenantId` + **`areaId`** + `stewardAreaId` +
+     `audienceMode` e tier T2 — **amarrada a UMA area**. Categoria **nao-governada** e legal (o
+     `pre(validate)` so dispara se algum campo governado estiver preenchido) e a autorizacao recai no
+     nivel de organizacao.
+     - **Se Categoria = tipo** (9 por casa, nao-governadas): roteamento funciona, autorizacao fica por
+       organizacao — que e o que esta ligado hoje, ja que a audiencia fina esta atras de feature flag.
+     - **Se Categoria = audiencia por area**: passa a ser por (tipo × area) = **9 × 14 × 47**, e pelo
+       L2 a trigger fica **sem nenhum eixo de tipo**, porque nao ha outro campo no payload.
+     **Recomendacao mantida: tipo.** Razoes: e o que faz o roteamento existir; a audiencia fina esta
+     desligada; e o isolamento por cliente ja vem do brain, nao da categoria. **Mas e escolha com
+     custo declarado, nao caminho obvio — quem for ligar a audiencia fina precisa saber que esse eixo
+     foi gasto.** Vai na pauta do Bergson.
