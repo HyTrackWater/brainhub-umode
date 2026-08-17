@@ -1617,3 +1617,61 @@
      diagrama do laco que fecha, e marcador **NAO EXISTE** em tudo que e desenho e nao realidade.
      Fecha com a correcao de autoridade da 198 — porque quem le a aula precisa saber que o schema nao
      e a intencao.
+
+201. **🔴 CORRECAO — o eixo de "quem pode consumir agente" EXISTE no desenho do Joao desde 09 jul
+     2026. Eu havia dito ao Vinicius que "o eixo nao existe".** Incompleto: nao existe **no banco**.
+     O `_sistema/brainhub/governance/template-ficha-agente.md` (promovido a canonico por **D32,
+     aprovado pelo Joao**) define `context_policy` com 4 flags (`per_user_context`,
+     `admin_can_view_all_contexts`, `shared_context_after_approval`,
+     `raw_user_context_leaks_to_other_users: false`), mais `visibility`, mais `permissions`.
+     **Eu verifiquei o codigo e nao o desenho — quarta vez que concluo sobre o sistema olhando uma
+     fonte so.** O eixo nao precisa ser inventado: **precisa ser implementado.**
+202. **🔴 DIVERGENCIA GRAVE de conformidade em AGENTES, apurada campo a campo.** O `kind` do Joao tem
+     **5 valores semanticos** (`agent`, `worker`, `poller`, `sentinel`, `reconciler`) — diz **o que o
+     agente faz**. O `AgentKind` do banco tem 2 (`INTERNAL`, `USER_DEFINED`) — diz **quem o criou**.
+     **Sao eixos diferentes com o mesmo nome.** E o `status` do Joao tem **6 estados** (`draft`,
+     `aprovado`, `ativo_local`, `ativo_time`, `bloqueado`, `aposentado`) — o banco perde a fronteira
+     `ativo_local` × `ativo_time`, que e exatamente a linha de exposicao ao time. Ausentes no banco:
+     `visibility`, `context_policy`, `canonical_write`, `external_send`, `requires_guard`,
+     `reads[]`/`writes[]`. **Espec de correcao na §2.3 do `_espec-banco-brainhub.md`**, incluindo
+     renomear o `kind` atual para `authorship` — dois campos `kind` com semanticas distintas e como
+     se perde um modelo.
+203. **🔴 ACHADO DO JOAO, provado em producao: EXECUCAO ≠ ENTREGA.** No registry dele o agente
+     `pendencias-joao-lembrete` esta com `last_status: "ok"` **e**
+     `last_delivery_error: "platform 'discord' not configured/enabled"`. **Rodou certo e nao chegou
+     a ninguem.** O banco tem **um** status; precisa de dois. `loop_runs`/`agent_runs` ganham
+     `deliveryStatus`, `deliveryError`, `deliveryAt`, e a invariante: **`succeeded` com entrega
+     `FAILED` nao conta como sucesso em painel nem em metrica.** E o pior tipo de erro num sistema de
+     enderecamento, porque **parece** que funcionou.
+204. **📋 INVENTARIO DE AGENTES fechado — 17 automacoes do Joao, 1 nossa.** Registry Hermes (16 jul
+     2026): **10 agentes** em 4 workflows (`calls-pipeline`, `governance-pipeline`,
+     `queue-executor-pipeline`, `codex-reconciliation-pipeline`). Frota launchd (`frota.json`,
+     10 jun): **3** (`driftsweep`, `gitpullall`, `brainhub-mine` — este usa IA, roda a cada 30 min e
+     destila transcricoes **como propostas para aprovacao**). Treinos: **4**
+     (`classificador-cunho`, `filtro-sinal`, `juiz-contradicao`, `roteador-tier`).
+     ✅ **Os 4 treinos correspondem a tipos de no que o banco JA tem** — `juiz-contradicao` ↔
+     `JURY_CONSENSUS`, `filtro-sinal` ↔ `GATE`, `roteador-tier` ↔ classificacao de tier.
+     **Migrar como `agent_versions`, nao reinventar.**
+     🔴 **O achado estrutural: todos os 10 sao `deliver: "local"`, com script em `~/.hermes/` e
+     agenda em launchd na maquina do Joao. 17 automacoes que nao sobrevivem ao notebook dele
+     desligar.** Isso, e nao falta de ideia, e o argumento central da espec: o desenho existe, esta
+     provado, roda ha meses — falta **deixar de ser pessoal e virar plataforma**.
+205. **🟡 SOBRESSALENTE identificado.** `downloads-sentinel` (quebrado **e** faxina de maquina local,
+     nao dominio do BrainHub) · `gitpullall` (ops puro, sem IA) · `pendencias-joao-lembrete` (o caso
+     de uso vira `inbox_items` + faixa de aprovacao, **nao vira agente**) · `codex-inbox reconciler`
+     (**nunca rodou** desde 16/07 — nao migrar sem provar) · `registry.v0.1.superado.json`.
+     ⚠ **E o sobressalente mais importante: existem TRES fontes de agente** — `frota.json` (launchd),
+     `~/.hermes/cron/jobs.json` (Hermes) e as fichas em `inbox/hermes/brainhub/agents/`.
+     **Uma fonte, nao tres — e isso e exatamente o que a colecao `agents` resolve.**
+206. **⚠ DISAMBIGUACAO: `TAXONOMIA_UMODE.md` do vault NAO e a taxonomia estrutural do BrainHub.** E
+     "Taxonomia uMode — **Catalog AI**": hierarquia e grupos de atributos de **produto de moda**
+     (85 KB). Conformidade estrutural se mede contra a hierarquia (Instituicao → Institucional →
+     Areas → Subareas → Pessoas), os tiers e as faixas de aprovacao — **e nessas tres o banco esta
+     conforme**. Registrado para ninguem procurar conformidade no documento errado.
+207. **📘 `_espec-banco-brainhub.md` (ESPEC-BANCO-001) escrita para implementacao pelo Bergson.**
+     5 colecoes novas (`addressings` + outbox proprio, `addressing_responses` append-only, `demands`
+     com `externalRefs`, `inbox_items`, `agent_shares`), 5 alteracoes em colecoes existentes, a
+     matriz de rastreio com **16 perguntas e o campo exato que responde cada uma**, 8 invariantes
+     nao-negociaveis, o inventario de agentes, e ordem de implementacao em 7 ondas.
+     **Gargalo declarado: a onda 1** (`contexts.type` + os 2 campos no payload) — sem ela nenhuma
+     automacao distingue tipo de documento e todo o resto vira contorno.
