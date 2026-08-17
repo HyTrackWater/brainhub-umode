@@ -198,13 +198,48 @@ implementação: é plano.
 `design-system-hub` (Lovable/Supabase — **onde o comportamento roda hoje com dado real**).
 Regra vigente: **leitura em todos, escrita só no nosso. Nenhum commit, push ou checkout fora dele.**
 
-**Três documentos novos:**
+**Quatro documentos, com autoridade declarada para evitar dois donos da mesma verdade:**
+- 🔵 [`_fluxo-dados-brainhub.md`](uMode/00_Institucional/_contexto/_fluxo-dados-brainhub.md) —
+  **AUTORIDADE SOBRE O FLUXO.** O que se move, quando e disparado por quem. Grau de evidência
+  `[C]/[F]/[P]/[D]` por afirmação e **declaração de completude na §0-bis**.
 - [`_dicionario-dados-brainhub.md`](uMode/00_Institucional/_contexto/_dicionario-dados-brainhub.md)
-  — **o que existe no banco**, campo por campo, 14 schemas lidos por inteiro.
-- [`_fluxo-crud-brainhub.md`](uMode/00_Institucional/_contexto/_fluxo-crud-brainhub.md) — o plano do
-  fluxo: cadeia de rastreio, as 4 coleções que faltam, triggers, agentes.
+  — **AUTORIDADE SOBRE CAMPO A CAMPO.** **21 dos 50** schemas lidos por inteiro + 7 serviços.
+- 🔺 [`_fluxo-crud-brainhub.md`](uMode/00_Institucional/_contexto/_fluxo-crud-brainhub.md) —
+  **SUPERSEDED no fluxo** pelo `_fluxo-dados-brainhub.md`. Mantido pela lição da §1 e pelas duas
+  classes de agente.
 - [`_inventario-repositorios.md`](uMode/00_Institucional/_contexto/_inventario-repositorios.md) —
   origens e papéis de cada repositório.
+
+### O fluxo de dados, fechado em código lido — 17 ago 2026
+**O caminho escrita→disparo→execução não é mais suposição.** Li os cinco arquivos que o compõem:
+
+```
+publish (transação: cabeça + outbox, _id determinístico)
+  → context_publication_outbox (PENDING)
+  → drenador com lease (5s / 30s / lote 25)
+  → BullMQ ingestion (reindexa) + invalida Redis
+  → RuntimeEventBus 'context.published' {contextId, versionId, revision, categoryId, areaId}
+  → casa triggers por clauses (ALL/ANY)
+  → loop_runs, dedupeKey 'trigger:<id>:<eventId>' com ÍNDICE ÚNICO  → exactly-once por banco
+```
+
+**Cinco limites duros que restringem todo desenho novo** (pendência 184): um único `eventType`
+existe; o payload **não carrega tipo nem tier**; clause compara **só string**; **não há endpoint
+público de ingestão de evento** — logo `addressings` **é módulo com outbox, não coleção**; e a
+trigger roda com a autoridade do **dono dela**.
+
+**Decisão tomada e registrada:** roteamento por **Category** (9 categorias, uma por tipo de MD),
+porque é o único eixo visível à trigger que **não depende de alterar código do Bergson**.
+
+**Duas correções minhas no mesmo dia:** (1) afirmei que os tiers de `area_memberships` não eram
+consultados na autorização — **são**, no `CategoryAudiencePolicyService`; eu havia lido **um**
+autorizador e generalizei. (2) `approvals` **não** modela resposta a endereçamento: índice único
+`{brainId, subjectType, subjectRef}` = **um veredito por assunto, uma só vez**.
+
+**Cobrança de método do Vinicius, acatada:** *"para de afirmar que superamos algum ponto e quando
+aperto com perguntas você me vem como lacunas sérias. Você tem que ser tão rígido na conclusão das
+respostas quanto eu."* **Regra adotada: a lacuna vem antes da conquista.** Todo documento de estado
+abre com declaração de completude. Pendência 190.
 
 **A descoberta que muda tudo: a plataforma está muito mais construída do que se supunha.** Na branch
 mais completa (17/08) há **29 módulos e 49 schemas**, com commits de hoje. E os primitivos de rastreio

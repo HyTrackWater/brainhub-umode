@@ -1404,10 +1404,19 @@
      **ninguem concede excecao a si mesmo** (`subjectId === grantedBySubjectId` e rejeitado);
      **fail-closed na auditoria** (sem `auditWriter` o acesso e negado); e **8 motivos de negacao
      enumerados e auditados**.
-178. **⚠ As duas camadas de permissao nao se falam.** `area_memberships` tem `readableTiers`,
-     `writableTiers` e `decisionTiers`, mas **o `AccessScopeService` nao os consulta** — autoriza por
-     organizacao. Existe dado de permissao por area que nao e usado na decisao de acesso. Ponto a
-     resolver antes de qualquer promessa de granularidade por area.
+178. **⚠ As duas camadas de permissao nao se falam — CORRIGIDO em 17 ago 2026, algumas horas depois
+     de eu escrever isto errado.** O que eu afirmei: "os tiers de `area_memberships` nao sao
+     consultados na autorizacao". **Errado.** Sao consultados —
+     `categories/services/category-audience-policy.service.ts:58` filtra membership por
+     `readableTiers.includes(T2)`, e `authorizeStewardWrite` exige `writableTiers.includes(T2)`
+     mais `grants[]` mais `role === ADMIN`. O correto: **nao sao consultados no
+     `AccessScopeService`**; sao consultados no caminho de audiencia de categoria. **Eu generalizei
+     de um autorizador para o outro sem ler o segundo.** Ha dois autorizadores distintos:
+     `AccessScopeService` (grosso, por organizacao, sempre ligado) e `CategoryAudiencePolicyService`
+     (fino, por area+tier+share) — e o fino esta **atras de feature flag**
+     (`CATEGORY_AUDIENCE_FILTER=on`) **e** de allowlist por `brainId`, e **nao suporta Personal
+     Brain**. Existe e esta desligado. Licao: **nao concluir sobre "o sistema nao faz X" tendo lido
+     um caminho de codigo so.**
 179. **✅ `agent_versions` e onde a instrucao do agente de suporte vai viver, e cabe.**
      `instruction` aceita **100.000 caracteres**; `providerPolicy` tem `allowedProviders[]`,
      **`defaultModel`**, `maxCostPerRunUsd` e `llmConnectionId` — **a escolha de modelo e por versao
@@ -1429,3 +1438,54 @@
      2026 que nem ele especificou isso. Nao ha no banco nem no plano: superficie (chat, formulario,
      comando), onde a conversa e persistida (existe `conversations`, campos nao lidos), e se a
      interacao gera enderecamento. E pre-requisito do agente de suporte ir para a operacao.
+
+183. **✅ O fluxo escrita→disparo→execucao esta FECHADO em codigo lido** — `_fluxo-dados-brainhub.md`
+     §1. Transacao com concorrencia otimista por `currentVersionId`, outbox na mesma transacao com
+     `_id` deterministico, drenador com lease (5s/30s/lote 25), `RuntimeEventBus`, e
+     `loop_runs {brainId,dedupeKey}` **unico** garantindo exactly-once **por indice de banco**.
+     Este e o molde de tudo que acrescentarmos.
+184. **🔴 CINCO LIMITES DUROS do disparo, que restringem todo desenho novo.** (L1) existe **um**
+     eventType, `context.published`. (L2) o payload tem **5 campos** e **nao carrega `metadata`,
+     `type` nem `sensitivityTier`** — trigger nao distingue demanda de institucional. (L3) clause
+     compara **so string com string**. (L4) **`RuntimeEventBus` nao tem endpoint publico de
+     ingestao** — quem quiser disparar precisa do **proprio outbox transacional**; logo
+     `addressings` **nao e colecao, e modulo**. (L5) a trigger roda com a autoridade do **dono**
+     dela (`ownerPersonId` → `trustedSubjectId`), nao de quem causou o evento — **trigger e objeto
+     de governanca**.
+185. **⚠ DECISAO TOMADA por mim e registrada: roteamento por Category.** Do L2, os unicos eixos
+     visiveis a uma trigger sao `categoryId` e `areaId`. Logo cada tipo de MD nosso vira uma
+     `Category` propria (institucional, jornada, pessoas, contexto-area, produto, integracao,
+     protocolo, demanda, rfi) e `categoryId` **passa a ser o discriminador de tipo**. Escolhido
+     porque **nao depende de alteracao no codigo do Bergson**. Ampliar o payload fica como pedido
+     posterior. **Aguarda aval do Vinicius.**
+186. **🔴 `approvals` serve para o VEREDITO e NAO serve para a conversa de trabalho — e o motivo e
+     um indice.** `subjectType` e `String` livre, entao `subjectType: 'ADDRESSING'` cabe **sem
+     alterar schema**. Mas o indice **unico** `{brainId, subjectType, subjectRef}` permite **uma
+     aprovacao por assunto, uma so vez**, e `ApprovalStatus` e `PENDING|APPROVED|REJECTED|ARCHIVED`
+     — **sem "devolvido com pergunta" e sem "reatribuido"**. Por isso a resposta a enderecamento
+     exige colecao **append-only** propria (`addressing_responses`), nao um campo em `approvals`.
+187. **🔴 Nenhuma superficie de conversa com agente existe.** `conversations`/`conversation_turns`
+     e RAG sobre o acervo (`question`/`answer`/`sources[].contextId`/`score`) e **nao tem
+     `agentId`**; `agent_runs` tem `agentId` mas e **single-shot, sem `conversationId` nem
+     `sequence`** — sem memoria de conversa. Peca que falta e pequena: `conversations.agentId`
+     (nullable) + `conversation_turns.agentRunId`. **Pre-requisito do agente de suporte chegar a
+     operacao.**
+188. **✅ O padrao para "quem consome agente" nao precisa ser inventado — copia-se o de categoria.**
+     `agents.audienceMode` + `agents.stewardAreaId` + `agent_shares` (espelhando `category_shares`
+     com ALLOW/DENY, `approvalId`, `revokedAt`) + grant `agents.consume` em `membership.grants[]` +
+     operacao `agents.run` no `AccessScopeService`. Para o agente de suporte do uFlow:
+     `TENANT_WIDE`, e a excecao passa a ser explicita e auditavel.
+189. **⚠ Contrato de `metadata` e chave de idempotencia da importacao de MD.** `contexts.metadata`
+     e `Object` **livre** — sem contrato nosso cada importacao inventa o seu. Proposto:
+     `{repoPath, commitSha, mdType, clientKey, generatedBy, importRunId}`. Chave de idempotencia:
+     `(tenantId, categoryId, repoPath)`. E como o publish exige `currentVersionId` no filtro, o
+     importador tem de **ler a cabeca antes de publicar** e tratar `null` como "mudou no meio,
+     recarrega", **nao como erro**. ⚠ `triggers`, `routines`, `conversations`, `conversation_turns`
+     e `category_shares` usam `strict: 'throw'` — campo desconhecido e **rejeitado**. Em
+     `contexts` o modo strict **nao foi confirmado**; verificar antes de assumir.
+190. **🟠 METODO — cobranca do Vinicius em 17 ago 2026: "para de afirmar que superamos algum ponto
+     e quando aperto com perguntas voce me vem como lacunas serias. Voce tem que ser tao rigido na
+     conclusao das respostas quanto eu."** Procede. O padrao errado era: relatar o feito e deixar a
+     lacuna para quando fosse perguntada. **Regra adotada: a lacuna vem antes da conquista, e todo
+     documento de estado abre com declaracao de completude.** Aplicado no
+     `_fluxo-dados-brainhub.md` (§0-bis) e na graduacao de evidencia [C]/[F]/[P]/[D] por afirmacao.

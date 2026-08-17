@@ -75,6 +75,29 @@ confiável do que a memória da conversa. Isso vale principalmente para taxonomi
 foram explicitamente separadas (ex.: Área organizacional × Área do CX Hub não têm
 relação de dado — nunca derive uma da outra).
 
+## A lacuna vem antes da conquista (regra de rigor na conclusão)
+
+Cobrança do Vinicius em 17 ago 2026: *"para de afirmar que superamos algum ponto e quando aperto
+com perguntas você me vem como lacunas sérias. Você tem que ser tão rígido na conclusão das
+respostas quanto eu."*
+
+- **Todo documento de estado abre com declaração de completude** — o que ele **não** resolve, e por
+  quê — **antes** de qualquer coisa que ele resolve. Modelo: `_fluxo-dados-brainhub.md` §0-bis.
+- **Grade toda afirmação técnica:** `[C]` código lido, **com o arquivo citado** · `[F]` existe em
+  código mas está **atrás de feature flag ou allowlist** (existe ≠ vigente) · `[P]` proposta sua,
+  não validada · `[D]` decisão que não é sua.
+- **Cobertura em número verificável**, nunca em adjetivo: "21 de 50 schemas lidos campo a campo",
+  não "li bastante do banco".
+- **Nunca concluir "o sistema não faz X" tendo lido um caminho de código só.** Antes de negar a
+  existência de um comportamento, procure o **segundo** autorizador, o **segundo** serviço, a
+  **segunda** coleção. Foi assim que se afirmou errado que os tiers de `area_memberships` não eram
+  consultados na autorização.
+- **Uma etapa não está vencida porque houve documento sobre ela.** Está vencida quando o mecanismo
+  foi lido e o que falta está nomeado.
+- **Um assunto tem um dono.** Quando um documento novo passa a ser a autoridade sobre um tema, o
+  anterior é marcado `SUPERSEDED` no que perdeu, apontando o sucessor. Dois documentos vivos sobre
+  o mesmo tema é o defeito que já se criticou na arquitetura do João — não reproduza.
+
 ## A hierarquia (não alterar sem instrução explícita)
 
 ```

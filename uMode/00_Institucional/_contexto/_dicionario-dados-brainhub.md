@@ -2,11 +2,13 @@
 
 > Levantado em **17 ago 2026** por leitura do código real em
 > `umode-brainhub-api`, branch `codex/bhp-p16-federation-grants-back` (17/08, a mais completa:
-> **29 módulos, 49 schemas, 632 arquivos em `src/`**).
+> **29 módulos, 50 schemas, 632 arquivos em `src/`**).
 > **Somente leitura. Nenhum commit, push ou checkout fora do `brainhub-umode`.**
 >
 > Este documento descreve **o que está construído**, com campo e invariante. Não é proposta.
-> O que falta construir está em `_fluxo-crud-brainhub.md`.
+> **O fluxo de dados — o que se move, quando, disparado por quem — está em
+> `_fluxo-dados-brainhub.md`**, que é a autoridade sobre fluxo. Aqui é a autoridade sobre
+> **campo a campo**. (O `_fluxo-crud-brainhub.md` ficou superseded no que diz respeito a fluxo.)
 
 ## Procedência — o que é código lido, o que é documento, o que é proposta minha
 > Escrito em 17 ago 2026 a pedido de Vinicius, que perguntou qual das quatro coisas eu estava
@@ -16,7 +18,7 @@
 
 | Faixa | O que é | Confiabilidade |
 |---|---|---|
-| **A · CÓDIGO LIDO** | Os **17 schemas** e o catálogo de nós, lidos linha a linha em `umode-brainhub-api`. Nome de campo, tipo, enum, índice e invariante de `pre('validate')`. **Nada aqui é interpretação.** | **Alta.** É o que está escrito no repositório do Bergson. ⚠ Mas ver a ressalva abaixo. |
+| **A · CÓDIGO LIDO** | Os **21 schemas** e **7 serviços/query-builders**, mais o catálogo de nós, lidos linha a linha em `umode-brainhub-api`. Nome de campo, tipo, enum, índice e invariante de `pre('validate')`. **Nada aqui é interpretação.** | **Alta.** É o que está escrito no repositório do Bergson. ⚠ Mas ver a ressalva abaixo. |
 | **B · DOCUMENTO DO JOÃO** | Plano consolidado de 06/08 (espec vigente), PRD, `brainhub-api-auth-guardrails` (D78), bastão de 01/07, `agent-control-plane`. É **intenção declarada**. | **Média-alta** para intenção, **baixa** para estado real: o próprio ledger dele tem duas retratações de entregas que não existiam. |
 | **C · BANCO DO LOVABLE** | As ~30 tabelas do Supabase, lidas em **04 ago** — `inbox_items`, `approval_requests`, `context_queues`, `agent_configs`, `job_runs`, `file_assets`. É o **legado/sandbox**, declarado "produção preservada e fonte de migração". | **Média.** É o que roda hoje com dado real, mas **não é o destino**, e não reli desde 04/08. |
 | **D · PROPOSTA MINHA** | As três coleções (`demands`, `addressings`, `inbox_items`), a cadeia de 8 elos, as cinco regras de rastreio, a view de auditoria agregada, e "demanda é módulo próprio". | **É proposta.** Ancorada em A, mas **não validada por ninguém**. |
@@ -45,17 +47,30 @@ como sucessores **`UmodeApp/umode-brainhub@docs/CONTEXT.md`** e
 backend novo. Não é conceito ausente: é migração não feita.
 
 ## Cobertura
-**Campos lidos por inteiro (14 schemas):** `tenants` · `brains` · `people` · `memberships` ·
+> ⚠ **Contagem corrigida:** `git ls-tree` na branch conta **50 arquivos `*.schema.ts`**, não 49.
+> O cabeçalho deste documento dizia 49 — errado por um.
+
+**Campos lidos por inteiro (21 de 50 schemas):** `tenants` · `brains` · `people` · `memberships` ·
 `areas` · `area_memberships` · `approvals` · `approval_audit_events` · `audit_events` ·
-`context_relations` · `contexts` · `context_versions` · `triggers` · `routines`.
-**Nomes conhecidos, campos não lidos (35 schemas):** agents · agent-version · agent-run ·
-run-daily-counter · execution-audit-event · agent-audit-event · area-membership-audit-event ·
-categories · category-policy-audit-event · category-share · context-chunk · context-pack ·
-context-pack-audit-event · context-relation-audit · conversation · conversation-audit-event ·
-federation-connection (+audit) · federation-discovery (node, profile, audit) · file · file-version ·
-file-audit · folder · folder-audit · invitation (+audit) · llm-connection ·
-encrypted-credential · loop · loop-version · loop-run · loop-audit-event · organizations ·
-runtime-definition-audit · seed · seed-batch · tenant-bootstrap-audit · ask-daily-counter.
+`context_relations` · `contexts` · `context_versions` · `triggers` · `routines` · `agents` ·
+`agent_versions` · `agent_runs` · `categories` · `category_shares` · `conversations` (+
+`conversation_turns`) · `loop_runs`.
+
+**Serviços e query-builders lidos por inteiro (7):** `access-scope.service` ·
+`runtime-event-bus` · `context-publication-outbox-drainer.service` ·
+`category-audience-policy.service` · `category-audience.filter` ·
+`contexts.repository` (transação de publicação) · `category-audience.enum`.
+
+**Coleção fora da lista de schemas:** `context_publication_outbox` — é coleção **crua**, acessada
+por `db.collection(...)` sem schema Mongoose. Existe no banco e **não aparece em nenhuma
+varredura por `*.schema.ts`**. Provável que haja outras; verificar antes de afirmar total.
+
+**Nomes conhecidos, campos NÃO lidos (29 schemas):** run-daily-counter · execution-audit-event ·
+agent-audit-event · area-membership-audit-event · category-policy-audit-event · context-chunk ·
+context-pack (+audit) · conversation-audit-event · federation-connection (+audit) ·
+federation-discovery (node, profile, audit) · file · file-version · folder · invitation (+audit) ·
+llm-connection · encrypted-credential · loop · loop-version · loop-audit-event · organizations ·
+seed · seed-batch · tenant-bootstrap-audit · ask-daily-counter.
 
 ---
 
@@ -335,12 +350,35 @@ enumera **18 operações**: `organizations.*` · `categories.*` · `contexts.*` 
 6. A exceção "deve ser resolvida por armazenamento interno governado, **nunca aceita de input do
    cliente**" — está no comentário do código.
 
-⚠ **E os `readableTiers`/`writableTiers`/`decisionTiers` de `area_memberships` NÃO estão ligados ao
-`AccessScopeService`.** Existem como dado e não são consultados na autorização. São duas camadas de
-permissão que ainda não se falam.
+### 🔺 CORREÇÃO — há um SEGUNDO autorizador, e é ele que usa os tiers
+> Escrito primeiro assim: *"os `readableTiers`/`writableTiers`/`decisionTiers` de `area_memberships`
+> NÃO estão ligados à autorização — existem como dado e não são consultados"*. **Errado.** Eu havia
+> lido **um** caminho de código e generalizei para o sistema. Corrigido no mesmo dia.
+
+`CategoryAudiencePolicyService` (`src/modules/categories/services/category-audience-policy.service.ts`)
+**consulta os tiers**: a linha 58 filtra membership por `readableTiers.includes(T2)`, e
+`authorizeStewardWrite` exige `writableTiers.includes(T2)` **mais** `grants[]` **mais**
+`role === ADMIN`. **Existem dois autorizadores distintos:**
+
+| | `AccessScopeService` | `CategoryAudiencePolicyService` |
+|---|---|---|
+| Granularidade | **organização** | **área + tier + share** |
+| Vigência | **sempre ligado** | **[F] atrás de flag** `CATEGORY_AUDIENCE_FILTER=on` **+ allowlist por `brainId`** |
+| Escopo de brain | qualquer | **só Second Brain** (`PERSONAL_BRAIN_NOT_SUPPORTED`) |
+| Mecanismo | checa e nega | **filtra a query** — quem não tem audiência não vê o documento existir |
+
+**`AudienceMode` = `AREA` | `SELECTED_AREAS` | `TENANT_WIDE`** (`category-audience.enum.ts`), com
+`category_shares` (`subjectType` `CATEGORY|CONTEXT` · `targetAreaId` · `effect` `ALLOW|DENY` ·
+`approvalId?` · `revokedAt?`, tudo immutable) e **12 códigos de motivo enumerados**.
+`membership.grants[]` carrega capacidades nomeadas: `categories.steward`, `categories.share.manage`.
+
+> **Este é o padrão a copiar para agentes** — `agents.audienceMode`, `agent_shares`, grant
+> `agents.consume` — em vez de inventar modelo novo. Desenho em `_fluxo-dados-brainhub.md` §4.3.
+>
+> ⚠ **O modelo fino existe e está DESLIGADO.** "Existe em código" ≠ "está vigente".
 
 ## 7 · O que NÃO existe — corrigido depois de ler o catálogo de nós
-Varredura por módulo **e** por nome de arquivo nas 114 branches:
+Varredura por módulo **e** por nome de arquivo nas **115** branches — reconfirmada em 17/08 com `git log --all -S`: `Addressing`, `InboxItem` e `DemandStatus` aparecem em **0 commits**, nem como arquivo criado nem no conteúdo de qualquer commit do histórico:
 
 | Domínio | Situação |
 |---|---|

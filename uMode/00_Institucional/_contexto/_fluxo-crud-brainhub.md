@@ -5,6 +5,24 @@
 >
 > **Não é implementação.** É o plano de o que se registra quando algo é criado, alterado ou removido;
 > quem decidiu; se gerou demanda; e como isso fica rastreável.
+>
+> ---
+> 🔺 **SUPERSEDED no que diz respeito ao FLUXO DE DADOS — 17 ago 2026, mesmo dia, algumas horas
+> depois.** A autoridade sobre **o que se move, quando e disparado por quem** passou a ser
+> **`_fluxo-dados-brainhub.md`**, escrito depois de eu ler o mecanismo real de disparo
+> (`context_publication_outbox` → `RuntimeEventBus` → `loop_runs`), que **este documento não
+> conhecia**. Três coisas que aqui estão desenhadas de forma que o código não sustenta:
+> 1. **`addressings` não é coleção, é módulo com outbox transacional próprio** — o `RuntimeEventBus`
+>    não tem endpoint público de ingestão.
+> 2. **`approvals` não modela a resposta a um endereçamento** — o índice único
+>    `{brainId, subjectType, subjectRef}` permite **um veredito por assunto, uma só vez**.
+> 3. **O roteamento só tem dois eixos** (`categoryId`, `areaId`) — o payload do evento não carrega
+>    tipo nem tier.
+>
+> O que **continua válido** aqui: as duas classes de agente, a lição da §1, e as regras de rastreio
+> na medida em que o `_fluxo-dados-brainhub.md` §8 as confirma. **Em caso de conflito entre os dois
+> documentos, vale o `_fluxo-dados-brainhub.md`.**
+> ---
 
 ## 1 · Duas correções minhas, e a lição
 **O clone da API veio com `--single-branch`.** O refspec era
