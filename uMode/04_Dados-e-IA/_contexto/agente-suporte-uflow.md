@@ -1,9 +1,14 @@
 # Agente de Suporte Técnico uFlow · Contexto
 
 > **Criado em 04 ago 2026 para preservar fonte que saiu do disco.** Vinicius forneceu dois arquivos
-> — `Papel de Suporte.txt` e `TREINAMENTO-AGENTE-SUPORTE-UFLOW.md` — que foram lidos e **depois
-> removidos de `C:\Users\Vinicius\Downloads`**. Este documento existe para que o conteúdo não dependa
-> mais deles. Ver `⚠ Cobertura da fonte` abaixo: **o treinamento foi lido até a linha 818 de 1.084**.
+> — `Papel de Suporte.txt` e `TREINAMENTO-AGENTE-SUPORTE-UFLOW.md` — que foram lidos e depois
+> removidos de `Downloads`. Este documento existe para que o conteúdo não dependa mais deles.
+>
+> 🟢 **LACUNA FECHADA em 17 ago 2026.** Vinicius reenviou os dois arquivos em
+> `C:\Ambientes Virtuais\BrainHub\_insumos` — **fora de `Downloads`, de propósito.** O treinamento foi
+> lido **por inteiro (1.084 linhas)**, incluindo os Anexos D e E que faltavam. **A cobertura não é mais
+> parcial.** A instrução vigente foi extraída verbatim e versionada — ver
+> [`agente-suporte-uflow-ficha-banco.md`](agente-suporte-uflow-ficha-banco.md).
 >
 > ⚠ **Este arquivo NÃO é o template canônico de "agente".** O tipo de MD "agente" — com template e
 > protocolo próprios, como já existe para cliente, produto, demanda, RFI, pessoa e integração — é
@@ -24,22 +29,51 @@ Especificação completa recebida; **não construído**. Os dois bloqueios de in
 04 ago 2026 (repositório e schema do banco) — ver `Insumos`.
 
 ## Fontes recebidas
+Ambas em `C:\Ambientes Virtuais\BrainHub\_insumos` desde 17 ago 2026.
+
 ### `Papel de Suporte.txt`
-Definição de papel, 122 linhas, autoria de colega de Vinicius, usada por ele em Claude Projects.
-Recebido em 04 ago 2026. **Arquivo não está mais no disco.**
+Definição de papel, **122 linhas**, autoria de colega de Vinicius, usada por ele em Claude Projects.
+Recebido em 04 ago 2026, **reenviado e em mãos em 17 ago**. ✅ Lido por inteiro.
+
 ### `TREINAMENTO-AGENTE-SUPORTE-UFLOW.md`
-Documento de aprendizado contínuo, **1.084 linhas**, autoria do mesmo colega. Recebido em 04 ago 2026.
-**Arquivo não está mais no disco.** Autodescrito como "documento único e autossuficiente" cujo modo de
-uso é: colar a seção "Instruções do Projeto" (§14) nas instruções do assistente e fornecer o `.md`
-inteiro como contexto.
-### ⚠ Cobertura da fonte
-**Lido e preservado: linhas 1 a 818 de 1.084** — o que cobre integralmente o princípio inegociável, o
-TL;DR, as seções §1 a §14 (incluindo o bloco de Instruções do Projeto verbatim), o Anexo A completo,
-o Anexo B completo e o Anexo C até o trecho do `capture` do Rails 5.2.
-**NÃO lido: ~266 linhas finais** — o fim do Anexo C, o **Anexo D** (`PROPOSTA-acesso-fornecedor-
-multiplos-status.md`) e o **Anexo E** (`prompt-detalhes-tarefa.md`, exemplo de prompt bem-especificado
-para tarefa de front-end). O conteúdo dessas seções **não está preservado em lugar nenhum nosso** —
-precisa do arquivo de novo.
+Documento de aprendizado contínuo, **1.084 linhas**, autoria do mesmo colega. ✅ **Lido por inteiro em
+17 ago 2026.** Autodescrito como "documento único e autossuficiente" cujo modo de uso é: colar a seção
+"Instruções do Projeto" (§14) nas instruções do assistente e fornecer o `.md` inteiro como contexto.
+
+### ✅ Cobertura da fonte — completa
+**1.084 de 1.084 linhas.** As ~266 linhas que faltavam foram lidas: o fim do **Anexo C**, o
+**Anexo D** e o **Anexo E**.
+
+### 🔴 O achado da leitura completa: são DUAS instruções, não uma
+Eu pedi "a instrução vigente" supondo arquivo único. **`Papel de Suporte.txt` é a v1 e a §14 do
+treinamento é a v2** — e a diferença entre elas é substantiva:
+
+| | Seções de resposta | Tem |
+|---|---|---|
+| **v1** (`Papel de Suporte.txt`) | **6** | investigação, evidência, hipóteses ordenadas |
+| **v2** (§14 do treinamento) | **7** — soma `Validar & Aprender` | a **pedagogia HIC** ("um comando correto entregue sem ensinar o raciocínio é uma FALHA"), o **rito de SQL** (homologação → backup → transação → pré-check → COMMIT) e as **4 armadilhas** nomeadas |
+
+> **É linhagem de versão real, e é o que `agent_versions` existe para modelar.** O agente não nasce com
+> um snapshot: nasce com histórico. Payload pronto em
+> [`agente-suporte-uflow-ficha-banco.md`](agente-suporte-uflow-ficha-banco.md).
+
+### Anexo D — proposta de EntityConfig multi-valor `[novo em 17 ago]`
+Conta Osklen (`entity_id = 3580`), arquivo `app/services/product_manufacturer_service.rb`. O acesso do
+fornecedor à ficha é condicionado pela EntityConfig `product_manufacturer_supplier_status`, que
+**compara por igualdade estrita** — logo `'production,prospection'` nunca casa, e mover
+`prospection → production` **revoga o acesso sem reconceder**. A correção é um helper que faz
+`split(',')` e duas trocas de `==` por `include?`. Compatível para trás, idempotente
+(`first_or_create`), e **não retroativo** — o revoke só roda no próximo `update` do vínculo.
+> **É o gabarito de como este agente deve propor correção:** arquivo exato, evidência do código atual,
+> diff mínimo, análise de compatibilidade, e roteiro de validação em 4 passos.
+
+### Anexo E — prompt de tarefa de front-end `[novo em 17 ago]`
+Exemplo de prompt bem-especificado, **agnóstico de stack**, para abrir detalhes de tarefa numa lista.
+Traz objetivo, comportamento atual × desejado, requisitos de UX e **acessibilidade**, critérios de
+aceite em checklist, casos de borda, restrições e entregáveis — mais a instrução de **explorar o código
+antes de implementar**.
+> **É o gabarito de como o agente deve especificar trabalho para outro agente.** Vale como referência
+> de qualidade para as nossas próprias demandas, não só para o uFlow.
 
 ## Contrato de comportamento
 ### Papel

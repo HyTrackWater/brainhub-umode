@@ -1797,3 +1797,54 @@
      completude passou a dizer "29 dos 50 nao lidos" (o inverso do fato — sao 29 **lidos**, 21 nao), e
      a membrana continuava listada como pendencia depois de resolvida. **Licao: substituicao em massa
      de numero exige reler a frase, porque o numero muda de papel dentro dela.**
+
+219. **🟢 LACUNA DE INSUMO DO AGENTE FECHADA — 17 ago 2026.** Vinicius reenviou as duas fontes em
+     `C:\Ambientes Virtuais\BrainHub\_insumos` (fora de `Downloads`, de proposito, porque foi de la que
+     o arquivo desapareceu em 04 ago). **Treinamento lido por INTEIRO: 1.084 de 1.084 linhas**,
+     incluindo os Anexos D e E que faltavam. `Papel de Suporte.txt` (122 linhas) tambem em maos.
+     ⚠ **Nota tecnica que custou confusao:** `Measure-Object -Line` reportou **795 linhas** para um
+     arquivo de 1.084 — porque **nao conta linhas vazias**. Usar `Select-String` com numero de linha ou
+     `[System.IO.File]::ReadAllLines().Count` quando a contagem importar.
+220. **🔴 ACHADO: existem DUAS instrucoes do agente, nao uma — e formam linhagem de versao real.** Eu
+     pedi "a instrucao vigente" supondo arquivo unico. Errado:
+     - **v1 = `Papel de Suporte.txt`** — 6 secoes de resposta.
+     - **v2 = §14 do treinamento** ("Instrucoes do Projeto (colar na configuracao do assistente)") —
+       **7 secoes** (soma `Validar & Aprender`), mais a **pedagogia HIC** ("um comando correto entregue
+       sem ensinar o raciocinio e uma FALHA"), o **rito de SQL** (homologacao, backup, transacao,
+       pre-check, COMMIT) e as **4 armadilhas** nomeadas.
+     > **O agente nao nasce com snapshot: nasce com historico.** v1 entra como `version: 1` superseded,
+     > v2 como `version: 2` `ACTIVE` com `supersedesVersionId`. **E a primeira prova real do
+     > versionamento de instrucao no BrainHub.**
+     ⚠ **E a instrucao vigente NAO era um arquivo separado — estava dentro do treinamento.** Eu pedi um
+     arquivo que nao existia como arquivo. Licao: antes de pedir insumo, **procurar dentro do que ja
+     tenho** — a §14 estava listada no proprio indice do documento que eu declarei ter lido ate a 818.
+221. **✅ INSTRUCOES VERSIONADAS COMO ARTEFATO NO REPO, extraidas POR SCRIPT e nao transcritas.**
+     `agente-suporte-uflow-instrucao-v1.txt` (4.345 chars, sha256 `0342b490...`) e
+     `agente-suporte-uflow-instrucao-v2.txt` (4.143 chars, sha256 `d0c4a21d...`).
+     **Motivo de extrair por script:** `contentHash` e `origin.commitSha` so valem se o artefato for
+     **byte a byte** o mesmo — transcricao manual invalida a procedencia. Ambas usam **4,1% do limite**
+     de 100.000 chars de `agent_versions.instruction`.
+     🔒 **Governanca travada: os `.txt` sao IMUTAVEIS.** Instrucao nova = arquivo novo com versao nova,
+     nunca edicao do existente.
+222. **📋 FICHA DE INSERCAO NO BANCO pronta: `agente-suporte-uflow-ficha-banco.md`.** Payload completo
+     para `agents` + `agent_versions`, com a decisao de autoridade aplicada: `stewardAreaId:
+     06_Tecnologia`, grant `agents.steward` para Tecnologia, `agents.operate` para Atendimento,
+     `audienceMode: TENANT_WIDE`, `kind: AGENT`, `visibility: OPERATOR`, `lifecycle: DRAFT`,
+     `canonicalWrite: false`, `externalSend: false`, `activationApprovalBand: JOAO_REQUIRED`.
+     **Restam TRES campos em aberto**, e so um depende do Vinicius:
+     1. `ownerPersonId` — id do banco, resolve na insercao.
+     2. **`providerPolicy` (`defaultModel`, `allowedProviders[]`, `llmConnectionId`) — QUAL MODELO o
+        agente usa hoje. Nao esta em NENHUMA das duas fontes**: o treinamento descreve comportamento e
+        nunca menciona provedor. **Uma frase do Vinicius resolve.**
+     3. `contextPackRefs[]` — depende da onda 1 (`contexts.type` → importador → pack).
+     ⚠ **Sobre o item 3, e importa para qualidade:** sem `contextPackRefs` o agente responde **so pela
+     instrucao** — sem `sources[]`, sem citar contexto, sem rastreio de qual MD sustentou a resposta.
+     Funciona, mas **perde a garantia de zero alucinacao**. Pack natural: `uflow-modelo-de-dados.md`,
+     `agente-suporte-uflow.md` e os protocolos de suporte.
+223. **📘 Os Anexos D e E valem como GABARITO, nao so como caso do uFlow.** O **Anexo D** e o gabarito
+     de **como propor correcao**: arquivo exato, evidencia do codigo atual, diff minimo, analise de
+     compatibilidade e retroatividade, e roteiro de validacao em 4 passos. O **Anexo E** e o gabarito
+     de **como especificar trabalho para outro agente**: objetivo, atual x desejado, UX e
+     acessibilidade, criterios de aceite em checklist, casos de borda, restricoes, entregaveis, e a
+     ordem de **explorar o codigo antes de implementar**. **Vale como referencia de qualidade para as
+     NOSSAS demandas.**
