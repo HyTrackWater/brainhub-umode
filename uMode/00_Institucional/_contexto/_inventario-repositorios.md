@@ -14,6 +14,15 @@ Todos os demais são **somente leitura**: sem edição, sem commit, sem push, se
 explicitamente o vault do João e o frontend do BrainHub no Lovable. Declarado por Vinicius em
 17 ago 2026.
 
+> 🔁 **SUPERSEDED no estado dos clones — 19 ago 2026.** A autoridade sobre **quais repos existem
+> no disco, em que branch e o que falta buscar** passou a ser
+> [`_levantamento-2026-08-19-repos-e-prd.md`](_levantamento-2026-08-19-repos-e-prd.md), que também
+> registra **onde o PRD está** (vault, branch `governance/brainhub-v1.5`) e a **armadilha de
+> `--single-branch` no frontend**. Este documento segue autoridade sobre **papéis**.
+>
+> ⚠ A tabela abaixo é de **17 ago** e já está vencida: o vault não está mais defasado, e o frontend
+> passou a existir no disco.
+
 ## ⚠ Defasagem detectada
 | O quê | Estado |
 |---|---|

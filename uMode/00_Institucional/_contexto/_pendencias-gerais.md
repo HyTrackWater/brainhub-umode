@@ -1871,3 +1871,58 @@
      campo, a comparacao depende da memoria de quem clicou.
      ⚠ **E backfill e impossivel** — execucao passada nao pode ganhar um dado que nunca foi gravado.
      **Uma linha (`agent_runs.model`) resolve, e so agora ela e barata.**
+
+226. **✅ PRD LOCALIZADO por verificacao, nao por suposicao — 19 ago 2026.** O Vinicius supos que
+     estivesse no repo da API. **Nao esta:** varri **todas as 115 refs** do `umode-brainhub-api` por
+     arquivo adicionado com `prd` ou `prumo` — zero. **Esta no vault, e so na branch
+     `governance/brainhub-v1.5`** (a `main` nao tem), em
+     `BrainHub/uMode/03_Produto-e-Solucoes/brainhub/PRD-brainhub-prumo.md`, **59.427 bytes, 612
+     linhas**, ultima alteracao **09 ago 2026** (`a6930d3`). A branch esta **83 commits a frente da
+     `main`**, que e ancestral.
+227. **🔴 O PRD QUE TEMOS E DA ERA SUPABASE/LOVABLE — e isso reposiciona todo o nosso trabalho de
+     banco.** O **§6** declara como baseline o `warm-weaving.lovable.app` sobre **Supabase + RLS +
+     Edge Functions**; o **§11 chama-se literalmente "Modelo de dados (Supabase)"**, com ~30 tabelas;
+     as decisoes do §18 sao de **21 jul 2026**. **Mas o runtime do BrainHub 2.0 e MongoDB/NestJS com
+     37 collections.**
+     > **Ninguem reescreveu o §11 para a era Mongo.** O PRD segue valido para features, jornadas,
+     > personas, niveis de acesso e integracoes, e esta **obsoleto exatamente no modelo de dados**.
+     > **O `_dicionario-dados-brainhub.md` e a `ESPEC-BANCO-001` SAO a traducao Mongo do §11.** Nao e
+     > trabalho paralelo nem duplicado: **e a secao que falta.**
+228. **✅ O INBOX NAO E FOLHA EM BRANCO — e nossa espec deixa de ser "ideia nossa".** O §11 do PRD
+     lista `inbox_items`, `approval_requests`, `operator_requests`, `context_queues` e `job_runs` entre
+     as tabelas do baseline Supabase **a preservar e mapear**. Cruzando com o pacote do Joao, que
+     classifica `Inbox` como **ausente** no runtime (§9.3) e **sem ADR** (§12.2 item 5):
+     **especificado no PRD, existente no legado, ausente no Mongo, sem ADR.** Nossa espec entra como
+     **a modelagem Mongo dele**.
+229. **⚠ A REGUA P18 NAO ESTA NO NOSSO ALCANCE, e nao e defasagem nossa.** Nenhum dos quatro
+     documentos de medicao (`MEDICAO-PRD-AWSCICD-P18`, `COMPLETUDE-FEATURE-PRD-V2`,
+     `P20-CONTRACT-TRUTH-REPORT`, `REGUA-RECONCILIADA-BH20`) existe em qualquer ref do nosso clone.
+     **Motivo verificado: o remoto do vault nao avanca desde 12 ago (`e847623`) e nosso clone esta em
+     dia com o remoto.** Os `inbox/` de 15–17 ago vivem so na maquina do Joao.
+     > **Logo: lemos o PRD, mas nao a regua.** O §7 tem ~58 itens, nao 98 — o peso e derivado em
+     > documento que nao temos. **Nao podemos reproduzir nem auditar o percentual, e nao devemos
+     > tentar:** seria uma **segunda regua**, o defeito que o pacote alerta na §9.1.
+230. **🔴 A ARMADILHA DO --single-branch REAPARECEU — agora no frontend.** O `UmodeApp/umode-brainhub`
+     esta clonado em `BrainHub - Frontend/umode-brainhub` (um nivel mais fundo do que o informado) com
+     refspec **`+refs/heads/main:refs/remotes/origin/main`**: **1 ref remota, `awscicd` AUSENTE**. Pelo
+     pacote, a `main` do front esta **28 commits atras e 1 divergente** da `awscicd`.
+     > **Se eu lesse o frontend agora, concluiria que esta quase vazio — errando pelo mesmo motivo da
+     > vez anterior. Por isso nao li nada dele.** O backend tem refspec correto mas esta **atrasado**:
+     > `awscicd` local `ce54d85` contra `24781c7` do pacote, e `main..awscicd` = `0 393` local contra
+     > `0 468`. **Comandos de correcao no `_levantamento-2026-08-19-repos-e-prd.md` §3.**
+231. **🔴 CORRECAO GRAVE no dicionario: "esta construido e nao integrado" estava errado.** Era a
+     ressalva central da faixa `[C]`. **`awscicd` E a linha de integracao**, e esta **393–468 commits a
+     frente da `main`**. O certo: **integrado em `awscicd`, nao promovido para `main`.** E pior: **tudo
+     que eu li veio de `codex/bhp-p16-federation-grants-back`, uma SLICE**, nao de `awscicd`. A faixa
+     `[C]` vale como "existe numa slice", nao como estado da integracao.
+232. **⚠ Adotar a escada de evidencia do pacote e aposentar a minha para afirmacoes de plataforma.**
+     Ter `[C]/[F]/[P]/[D]` em paralelo aos 8 degraus deles (`CODE_PRESENT` → `PRODUCTION_VERIFIED`) e
+     **o mesmo defeito de "colecao × collection"**: duas linguagens para a mesma ideia. Regra: **escada
+     deles para o que se afirma sobre a plataforma; `[P]/[D]` so para proposta e decisao nossa.**
+233. **🟠 O NOSSO REPO ESTA MAL CLASSIFICADO NA FONTE DO JOAO, e isso bloqueia o uso do corpus.** O
+     pacote §3.6 lista o `brainhub-umode` como "variante antiga/PowerShell; nao foi validada como
+     runtime atual", na secao **"repositorios que nao devem ser confundidos"**, ao lado do legado.
+     **Ele nunca foi candidato a runtime — e o corpus de contexto.** Enquanto estiver catalogado como
+     runtime reprovado, nenhum agente do Joao vai olhar para ele.
+     **Acao: corrigir o papel no `SISTEMAS.md` do Joao — conversa do Vinicius com ele, nao alteracao
+     nossa.**
