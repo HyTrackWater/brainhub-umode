@@ -9,10 +9,9 @@
 
 Regra da casa ("a lacuna vem antes da conquista"): o que falta, antes do que fecha.
 
-- **Não li a mecânica interna do gate.** O `UmodeApp/actions-shared` (workflows `pr-claude-md-gate`
-  = "Marvin", e `pr-security-gate`) **não foi lido por dentro** — só a chamada que o
-  `backend-boilerplate` faz a ele. Sei **o que ele faz** (travar PR por conformidade com o CLAUDE.md,
-  via LLM da GitHub), **não o como**. Tudo que depende disso está marcado `[pendente actions-shared]`.
+- **O gate foi lido (fechado em 01 set 2026).** O `UmodeApp/actions-shared` (`pr-claude-md-gate` =
+  "Marvin" + `pr-security-gate`) foi lido campo a campo [C], commit `5d82fa2`. A mecânica está na §5.4.
+  Não há mais `[pendente actions-shared]`.
 - **Não é implementação.** É espec. Nenhuma linha do boilerplate foi escrita; nenhum repo de produção
   foi alterado (escrita só no `brainhub-umode`, regra travada).
 - **Não modela o fluxo de "criar operador via BrainHub"** em detalhe de dado — só aponta o trilho
@@ -33,7 +32,7 @@ Regra da casa ("a lacuna vem antes da conquista"): o que falta, antes do que fec
 | `UmodeApp/umode-microservice-integration` | boilerplate + módulo integration/partner + SQL | `9636da2` | `640fca…dfef7a` | [C] |
 | `HyTrackWater/umode-planejai`, `umode-catalog-ai` | padrão de squad da era Lovable | — | — | [C] |
 | `HyTrackWater/umode-os-vault` (`_GOVERNANCA.md`, `SISTEMAS.md`) | constituição HERMES | — | — | [C] |
-| `UmodeApp/actions-shared` | **mecanismo dos gates (Marvin + security)** | — | — | **não lido** |
+| `UmodeApp/actions-shared` | **mecanismo dos gates (Marvin + security)** | `5d82fa2` | `d2a266…87f4f8` | [C] |
 
 Legenda de grau por afirmação: `[C]` código lido, arquivo citado · `[F]` existe mas atrás de
 flag/allowlist · `[P]` proposta minha, não validada · `[D]` decisão que não é minha.
@@ -142,11 +141,13 @@ protocolo. Tudo abaixo é `[P]` (proposta minha), sujeito a `[D]` do João/Bergs
 
 ### 5.1 O que ADICIONAR ao fullstack-boilerplate
 
-1. **`.github/workflows/` com os 3 gates**, reusando `UmodeApp/actions-shared`:
-   - `marvin-check.yml` → `pr-claude-md-gate` (trava PR por conformidade com CLAUDE.md). `[pendente actions-shared]`
-   - `security-gate.yml` → `pr-security-gate`.
+1. **`.github/workflows/` com os 3 gates**, reusando `UmodeApp/actions-shared` (mecânica lida — §5.4):
+   - `marvin-check.yml` → `uses: UmodeApp/actions-shared/.github/workflows/pr-claude-md-gate.yml@main`
+     + `secrets: inherit` (trava PR por conformidade com CLAUDE.md; `mode: block`). [C]
+   - `security-gate.yml` → `uses: .../pr-security-gate.yml@main` (semgrep + gitleaks). [C]
    - **`ci.yml` NOVO:** `npm run lint` + `tsc --noEmit` + `npm test` + `npm run build` nos dois apps,
-     como **required checks** na branch protection de `main`/`awscicd`. **É a trava que falta.**
+     como **required checks** na branch protection de `main`/`awscicd`. **É a trava determinística que
+     ainda falta** — o `actions-shared` só cobre Marvin (LLM) + security, não build/test/lint verde.
 2. **Branch protection** em `main` e `awscicd`: PR obrigatório, required checks verdes, sem push direto.
    (É config de repo, decisão do Bergson/João `[D]`.)
 3. **`CODEOWNERS`** — Bergson (+ time) donos de `apps/server`, `supabase`, `.github`, configs
@@ -176,6 +177,45 @@ Template repository → "Use this template" → o novo repo **já nasce** com os
 design system e o plugue do gateway. O operador vibecoda em `apps/web`; toca `apps/server` sob o
 padrão; **não consegue mergear nada que fure o lint/tsc/test/Marvin/security.** É o "Lovable, mas na
 stack da uMode, com auditoria".
+
+### 5.4 A mecânica do gate `actions-shared` (lido — `5d82fa2` [C])
+
+Repositório minúsculo (2 workflows), reusáveis via `workflow_call`. Um repo-alvo adota com um `uses:`
++ `secrets: inherit`; **nada mais precisa existir no alvo além do `CLAUDE.md` e do gatilho de PR.**
+
+**`pr-claude-md-gate.yml` (Marvin) — como decide:**
+- Inputs: `claude_md_path` (default `CLAUDE.md`), `model` (default `openai/gpt-4o-mini`, GitHub
+  Models), `mode` (`block`|`warn`, default `block`), `max_diff_bytes` (120000).
+- Fluxo: se não achar o `CLAUDE.md`, **pula** (não trava). Extrai o **diff do PR** (`base...head`,
+  truncado a 120KB) → chama `https://models.github.ai/inference/chat/completions` com `temperature 0`,
+  `response_format: json_object`, e system prompt estrito: *"identifique APENAS violações de regras
+  explicitamente declaradas no CLAUDE.md — não invente regras"*, schema `{compliant, violations[],
+  summary}` → posta **comentário sticky** (marcador `<!-- claude-md-gate -->`, faz PATCH no existente)
+  → **falha o check** se `compliant=false` e `mode=block`. Auth: só `GITHUB_TOKEN` (`models: read`).
+- **Consequências de desenho** que o boilerplate deve respeitar:
+  - O gate julga **o diff, não o repo inteiro** → regra do `CLAUDE.md` que só se verifica olhando o
+    arquivo todo (ex.: "nunca dois documentos vivos do mesmo tema") **não é pega**. Regra que se quer
+    travada tem que ser **verificável no diff**.
+  - **É um LLM barato (gpt-4o-mini) a temperatura 0** — bom para regras explícitas e literais ("nunca
+    `any`", "nada de português no código"), fraco para julgamento sutil. Por isso ele é a **terceira**
+    camada, depois do lint determinístico (§5.2), nunca a primeira.
+  - `CLAUDE.md` **explícito e enumerável** = gate eficaz. Regra vaga = gate inútil. Isso **eleva o
+    `CLAUDE.md`** de documentação a **contrato executável** — escrever a regra bem é o trabalho.
+  - Sem `CLAUDE.md`, o gate se auto-pula → **todo repo do template nasce com `CLAUDE.md`**, senão a
+    trava é decorativa (mesmo modo de falha do heartbeat "decorativo" do vault).
+
+**`pr-security-gate.yml` — o que varre:** dois jobs bloqueantes, **só o delta do PR**:
+- **semgrep** (`p/owasp-top-ten`, `p/security-audit`, `p/javascript`, `p/typescript`, `p/nodejs`,
+  `--baseline-commit=<base>` = só achados NOVOS, `--severity=ERROR --error`).
+- **gitleaks** (segredos no range `base..head`, `--redact --exit-code=1`).
+- Nenhuma chave paga; roda no `GITHUB_TOKEN`. **É defesa de "operador não commita segredo/vuln"** — a
+  contraparte de segurança do Marvin, e a resposta direta aos incidentes de credencial em texto plano
+  já registrados no vault (RISC-001) e nos guardrails do catalog-ai.
+
+**Lacuna que o `actions-shared` NÃO cobre (e o boilerplate precisa somar):** não há job de
+**lint + typecheck + test + build** verde. Marvin valida *conformidade com regra*; security valida
+*vulnerabilidade/segredo*; **nada valida que o código compila e passa nos testes.** O `ci.yml` da
+§5.1 é essa peça — determinística, a mais barata, e a que falta.
 
 ## §6 — Os 4 contratos de papel (elenco desta fase)
 
@@ -210,19 +250,21 @@ vault → é do João/HERMES, não nossa — proposta, não execução). Também
 
 ## §8 — Roadmap sugerido (sequência, não prazo)
 
-1. **Ler `actions-shared`** → fechar a seção de gate `[pendente]`. (1 relay CODEX.)
+1. ~~Ler `actions-shared`~~ ✅ feito (§5.4).
 2. **Escrever os 4 contratos de papel** com o elenco desta fase (entregável textual).
-3. **Endurecer o fullstack-boilerplate** (§5.1): gates + branch protection + CODEOWNERS + husky.
+3. **Endurecer o fullstack-boilerplate** (§5.1): os 3 gates (Marvin + security + `ci.yml` novo) +
+   branch protection (required checks) + CODEOWNERS + PR template + husky/lint-staged/commitlint.
 4. **Piloto:** João/Vinícius/Pedro criam 1 projeto do template e tentam furar o protocolo — o gate
    tem que barrar. (É o "teste de obediência" do rito, aplicado ao humano.)
-5. **Uniformizar o rigor** do gateway (dívida priorizada).
+5. **Uniformizar o rigor** do gateway (dívida priorizada: `no-any: error` + tsconfig estrito).
 6. **SISTEMAS.md** recebe a produção `UmodeApp` (proposta ao João/HERMES).
 
 ## §9 — Governança deste documento
 Autoridade de conteúdo: CEO (João Risoléo). Alteração aqui exige refazer a leitura das fontes.
-Grau geral: retrato de código lido campo a campo em 7 repos; **1 dependência aberta** (`actions-shared`),
-marcada em cada ponto. Fonte de trabalho: `scratchpad/achados-repos-producao.md` (dumps verbatim do
-CODEX, com commit+sha por repo).
+Grau geral: retrato de código lido campo a campo em **8 repos** (5 produção UmodeApp + 2 Lovable +
+`actions-shared`) mais a constituição do vault; **zero dependências abertas** — o gate foi lido
+(§5.4). Fonte de trabalho: `scratchpad/achados-repos-producao.md` (dumps verbatim do CODEX, com
+commit+SHA-256 por repo).
 
 ### Conexões
 `_recebido-2026-08-18-context-pack-brainhub-2.0.md` · `_inventario-repositorios.md` ·
