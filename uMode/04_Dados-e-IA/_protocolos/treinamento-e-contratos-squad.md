@@ -151,9 +151,10 @@ entra, filtra antes de gravar, falha fechado). Prova determinística de deploy d
 **Design system (obrigatório):** fonte é a **biblioteca publicada `@umodeapporg/ui`** (tokens
 claro/escuro, preset Tailwind, componentes, `<UmodeLogo/>`); referência viva em `designsystem.umode.tech`.
 Nunca hex/`rgb()`/paleta Tailwind crua — nomear o **papel** (`bg-surface`, `text-foreground`,
-`bg-danger-soft`). **Tensão em aberto `[D]`:** o cânone de componente entre **shadcn/ui** (default atual,
-`npx shadcn@latest add`, compor com `cn()`) e `@umodeapporg/ui` ainda não está travado — decisão
-João/Bergson/Rochinha. Zustand só para estado global, via `createStore`.
+`bg-danger-soft`). **Cânone travado `[D]` (Vinicius, set/2026):** o padrão é **`@umodeapporg/ui`, sem
+shadcn** — o boilerplate canônico de front é `UmodeApp/umode-frontend-boilerplate-nextjs` (não tem
+shadcn). Antes de escrever componente, procurar na biblioteca; se já existe, usar. Zustand só para
+estado global, via `createStore`.
 
 **Definition of done:** `eslint . --max-warnings 0` passa (literal de i18n é erro de lint). Seguir o
 padrão existente — **não inventar padrão novo**.

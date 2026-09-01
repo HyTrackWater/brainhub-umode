@@ -54,7 +54,7 @@ novos são os mais rigorosos, o mais maduro é o mais frouxo, e ninguém junta t
 | **Security gate no PR** | ❌ | ❌ | ✅ | ❌ | ❌ | — |
 | Auto-doc (agente → PR) | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ frota |
 | CI de build/test travando merge | ❌ | ❌ | ⚠️ parcial | ❌ | ❌ | — |
-| Design system + componentes (shadcn + tokens) | ✅ | ✅ | — | — | — (é back) | — |
+| Design system + componentes (`@umodeapporg/ui`, sem shadcn) | ✅ | ✅ | — | — | — (é back) | — |
 | Multi-tenant / auth unificada de produção | ❌(stub) | — | ❌(stub) | ⚠️ CRUD partner | ✅ referência | — |
 | CODEOWNERS / PR template / husky / commitlint | ❌ | ❌ | ❌ | ❌ | ❌ | — |
 | Papéis humanos + rito de admissão de agente | — | — | — | — | — | ✅ |
@@ -279,7 +279,8 @@ de orquestração humana ganha mais pessoas depois desta fase.
 - **`AGENTS.md` + `.claude/*` + `.cursor/rules` — Programador** (esteira **HERMES** · **Codex** ·
   **Claude Code**; o **Lovable saiu da stack de execução**). Escreve sob lint-as-código + design
   system (`@umodeapporg/ui`, referência em `designsystem.umode.tech`) + i18n obrigatório; cânone
-  shadcn × `@umodeapporg/ui` ainda `[D]` em aberto. Regra anti-reversão. Base: fullstack/frontend [C].
+  travado `[D]`: `@umodeapporg/ui`, **sem shadcn** (canônico `umode-frontend-boilerplate-nextjs`). Regra
+  anti-reversão. Base: fullstack/frontend [C].
 - **`CLAUDE_OPERADOR.md` — Operador humano** (João, Vinícius, Pedro). Perfil + glossário risolês; "não
   muda por projeto". Decide prioridade/jornada; valida entrega; **não** presume aprovação sem
   especificar. **Novos operadores entram pelo rito de admissão do vault (§3.2).** Base: planejai [C].

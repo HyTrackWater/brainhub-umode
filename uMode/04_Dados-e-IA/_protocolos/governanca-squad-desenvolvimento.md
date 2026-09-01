@@ -57,7 +57,7 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 | Dimensão | Dono | Camada de código | Guardrail que a trava |
 |---|---|---|---|
 | **Back** | CTO (agente) + Programador | `apps/server`, gateway (NestJS Modular Standard: Controller→Service→Repository, cache-aside) [C] | lint `no-any`, tsconfig estrito, Marvin (CLAUDE.md), `ci.yml` (test/build) |
-| **Front** | Programador + Operador | `apps/web` (Next App Router, shadcn `new-york`, tokens `globals.css`) [C] | eslint-rules próprias: `no-any`, `no-portuguese`, `no-literal-jsx` (i18n obrigatório) |
+| **Front** | Programador + Operador | `apps/web` (Next App Router, **`@umodeapporg/ui`** — sem shadcn; canônico `umode-frontend-boilerplate-nextjs`) [C]/[D] | eslint-rules próprias: `no-any`, `no-portuguese`, `no-literal-jsx` (i18n obrigatório) |
 | **Dados & IA** | área Dados & IA | agentes, RAG, contexto, BrainHub | contratos de agente + rito de admissão (vault) |
 | **Banco de Dados** | CTO (agente) — desenho | Mongo (Mongoose, multi-cluster nomeado, collection nasce no 1º write) + Redis (cache-aside, TTL obrigatório) + relacional/ERP [C] | Repository é o único acesso; chave Redis `PROJECT:MODULE:ID`; `.lean()` em leitura |
 | **Deploy** | HERMES / infra | Amplify (web) + CodeBuild/Procfile (server) + registro downstream no gateway [C] | branch protection (required checks verdes antes do merge) `[P]` |
@@ -82,7 +82,7 @@ flowchart TB
 
     subgraph DIM["8 DIMENSÕES FUNCIONAIS"]
         BACK["Back<br/>NestJS Modular"]
-        FRONT["Front<br/>Next + shadcn + i18n"]
+        FRONT["Front<br/>Next + @umodeapporg/ui + i18n"]
         DADOS["Dados & IA<br/>agentes · RAG"]
         DB["Banco<br/>Mongo · Redis · SQL"]
         DEPLOY["Deploy<br/>Amplify · CodeBuild"]
@@ -110,7 +110,7 @@ nunca importa de `modules/`. **Cache-Aside** obrigatório em leitura (Redis com 
 `PROJECT:MODULE:ID` centralizada. Envelope de resposta `{success, data, error, requestId}`.
 
 **Arquitetura (front):** **Server Components por padrão**, `'use client'` só quando preciso; `useEffect`
-é último recurso, nunca `setState` dentro dele; **shadcn/ui** é o default de UI; **Zustand** só para
+é último recurso, nunca `setState` dentro dele; **`@umodeapporg/ui`** é o padrão de UI (sem shadcn); **Zustand** só para
 estado global; HTTP só via `gatewayHttpClient` (nunca `fetch` cru).
 
 **Tipagem e estilo:** **proibido `any`** (erro de lint), `Array<T>` (não `T[]`), sem `console.*` (usar
@@ -124,8 +124,8 @@ travessão (`—`) em texto de usuário.
 **Design system:** fonte é a **biblioteca publicada `@umodeapporg/ui`** (tokens claro/escuro, preset
 Tailwind, componentes, `<UmodeLogo/>`); referência viva em `designsystem.umode.tech`. **Nunca**
 hex/`rgb()`/paleta Tailwind crua — nomear o **papel** (`bg-surface`, `text-foreground`,
-`bg-danger-soft`). **Tensão `[D]` em aberto:** cânone de componente entre **shadcn/ui** (default atual) e
-`@umodeapporg/ui` ainda não travado.
+`bg-danger-soft`). **Cânone travado `[D]` (Vinicius, set/2026):** o padrão é `@umodeapporg/ui`, **sem
+shadcn** — o boilerplate canônico de front é `UmodeApp/umode-frontend-boilerplate-nextjs`.
 
 **Auth:** **login unificado uMode** (Cognito via gateway) — o produto **não tem login próprio**;
 consome o gateway (`AUTH_MODE` gateway/whoami/none, `req.executor`). Multi-tenant via

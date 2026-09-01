@@ -10,7 +10,8 @@
 - **Não cria agente novo por decreto.** Um contrato aqui é a **especificação** do agente da dimensão;
   a entrada em operação passa pelo **rito de admissão** do vault (governança → contrato → teste de
   obediência → inbox → ritual). Escrever o contrato ≠ ativar o agente.
-- **Não trava o cânone de componente** (shadcn/ui × `@umodeapporg/ui`) — fica `[D]` do João/Bergson/Rochinha.
+- **Cânone de componente travado `[D]` (Vinicius, set/2026):** o padrão é `@umodeapporg/ui`, **sem
+  shadcn** — canônico `UmodeApp/umode-frontend-boilerplate-nextjs`.
 - **Grau por afirmação:** `[C]` lido em código de produção · `[P]` proposta minha · `[D]` decisão que
   não é minha. As camadas e guardrails vêm da leitura campo a campo dos repos `UmodeApp` e da
   constituição do vault; onde é proposta de desenho, está marcado `[P]`.
@@ -51,8 +52,8 @@
   Zustand só para estado global via `createStore`; `useEffect` é último recurso.
 - **Guardrail que trava:** eslint-rules próprias — `no-any`, `no-portuguese`, `no-literal-jsx`
   (`eslint . --max-warnings 0`, literal de i18n é **erro**).
-- **Escala quando:** mudar o design system / token base, ou o **cânone shadcn × `@umodeapporg/ui`**
-  (`[D]` em aberto) → CTO (agente).
+- **Escala quando:** mudar o design system / token base → CTO (agente). Cânone travado: `@umodeapporg/ui`,
+  sem shadcn.
 
 ## §3 — Dados & IA  `[C]` / `[P]`
 
