@@ -162,6 +162,8 @@ protocolo. Tudo abaixo é `[P]` (proposta minha), sujeito a `[D]` do João/Bergs
    gateway; ninguém reimplementa login.
 8. **Uniformizar o rigor**: subir o gateway (e qualquer repo) para `no-explicit-any: 'error'` +
    tsconfig estrito — como dívida priorizada, não big-bang.
+9. **Adotar o design system publicado `@umodeapporg/ui`** no `apps/web` (preset Tailwind + `base.css`
+   + `styles.css` + componentes) — já vive no boilerplate só-front, falta no fullstack. Detalhe em §5.5.
 
 ### 5.2 A trava que realiza "autonomia sem ferir o protocolo"
 
@@ -216,6 +218,46 @@ Repositório minúsculo (2 workflows), reusáveis via `workflow_call`. Um repo-a
 **lint + typecheck + test + build** verde. Marvin valida *conformidade com regra*; security valida
 *vulnerabilidade/segredo*; **nada valida que o código compila e passa nos testes.** O `ci.yml` da
 §5.1 é essa peça — determinística, a mais barata, e a que falta.
+
+### 5.5 O design system é uma biblioteca publicada: `@umodeapporg/ui`
+
+O design system da uMode **não é para reimplementar por projeto** — ele já está empacotado, versionado
+e publicado. Lido campo a campo no tarball `@umodeapporg/ui@0.4.1` (npm público, `registry.npmjs.org`,
+sem token) e no repo `UmodeApp/umode-ui`.
+
+- **O que o pacote entrega** [C — `package.json`/`README.md`/`theme.css` lidos no tarball]:
+  - **Tokens de tema** (`@umodeapporg/ui/theme.css`): fonte única de cor, claro **e** escuro, em canais
+    RGB separados por espaço (para o modificador de opacidade do Tailwind). Cada par verificado em
+    **WCAG 2.1 AA** (AAA para texto de corpo). Papéis, nunca shades: `surface`, `foreground`, `border`,
+    `primary`(roxo `#973BEB` claro / `140 63 214` escuro), `secondary`(teal), `accent`(magenta),
+    `success/warning/danger/info`, `chart-1..8`.
+  - **Preset Tailwind** (`@umodeapporg/ui/tailwind-preset`): expõe os tokens como utilidades semânticas
+    (`bg-surface`, `text-foreground`, `border-strong`, `shadow-md`…), a família `Inter`, a escala de
+    movimento (`duration-fast|base|slow`, easings enter/exit), a rampa de elevação e os breakpoints.
+  - **Camada base** (`base.css` / `styles.css`): aplica os tokens à raiz + o swap de tema atômico
+    (`.theme-switching`) sem flash e sem blend.
+  - **Componentes React** (import raso ou profundo): `Form/*` (Controlled*), `UI/*` (`DataTable`,
+    `Kanban`, `MaterialSymbol`, `Toast`, `CustomChart`…), `Search` (`UnifiedSearchBar`+filtros),
+    `Navigation` (`PageTitle` com breadcrumb automático), e o `<UmodeLogo/>` (SVG inline que herda
+    `currentColor` — o logo segue o tema sem segundo asset).
+  - **Helpers/hooks puros** e locales `pt`/`en`.
+- **Como um app adota** [C — README]: `presets: [preset]` no `tailwind.config.js` + `content` incluindo
+  `node_modules/@umodeapporg/ui/dist/**/*.js`; `import '@umodeapporg/ui/styles.css'` e `base.css` no entry.
+- **Release** [C — README]: merge na `main` **é** o release — `semantic-release` lê Conventional Commits
+  (`fix`→patch, `feat`→minor, `feat!`→major), publica no npm, cria tag+changelog; label `canary`
+  publica `0.0.0-canary.<sha>` para testar uma PR num app antes do merge.
+
+**Estado da adoção** [D — relatado pelo desenvolvedor via Vinicius, 1 set 2026]:
+- **Boilerplate só-front** (`boilerplate.umode.app`) — **já usa** `@umodeapporg/ui`. ✅
+- **`fullstack-boilerplate`** — **ainda não**, "porque a galera está usando". ⏳ **Item de spec deste
+  ciclo:** adicionar `@umodeapporg/ui` como dependência do `apps/web`, plugar o preset + `base.css` +
+  `styles.css`, e trocar o design system local por consumo da biblioteca. É a peça que faltava no
+  §5.3 (o "design system" que o template deveria herdar agora tem nome, versão e registry).
+
+**Consequência para os gates:** com o design system como pacote, a regra "não reinventar componente/token"
+vira verificável — um `ControlledButton` reescrito à mão no `apps/web` é desvio de `@umodeapporg/ui`, não
+liberdade de tela. Candidato a regra explícita no `CLAUDE.md` do boilerplate (logo, pegável pelo Marvin
+no diff — §5.4) e a entrada no `SISTEMAS.md` (§7): *o UI kit da casa já existe; não se reconstrói.*
 
 ## §6 — Os 4 contratos de papel (elenco desta fase)
 
