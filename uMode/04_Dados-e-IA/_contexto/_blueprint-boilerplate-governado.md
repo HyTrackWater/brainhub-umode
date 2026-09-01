@@ -2,7 +2,8 @@
 
 > Documento de espec e decisão. Nasce da missão do Vinicius (set/2026): ter um repositório-padrão de
 > produção onde um operador de negócio (ele, o João, o Pedro) **vibecoda com autonomia, na stack real
-> da uMode, sem poder ferir o protocolo** — com o HERMES na produção e o Bergson como líder técnico.
+> da uMode, sem poder ferir o protocolo** — com o HERMES como esteira de produção, o CTO/líder técnico
+> como agente e o Bergson como arquiteto dos MDs de treinamento, governança e segurança de infra.
 > Autoridade de conteúdo: CEO (João Risoléo), conforme governança travada em 17 ago 2026.
 
 ## §0 — Declaração de completude (o que este documento NÃO resolve)
@@ -75,8 +76,8 @@ sobrevive **quase intacto** na produção, só muda o elenco:
 | Papel (Lovable) | Arquivo | Vira na produção | Onde já existe |
 |---|---|---|---|
 | **Diretor de Negócios** (Claude Project) | `CLAUDE_DIRETOR.md` | quem pensa "por quê/o quê antes do como", escreve o PRD/ADR, prioriza | catalog-ai [C] |
-| **CTO Full Stack** (Claude Code) | `CLAUDE.md` | **Bergson** como líder técnico + o Claude Code como executor sob o padrão dele | backend-boilerplate [C] |
-| **Programador** (Lovable) | `AGENTS.md` + `.claude/*` + `.cursor/rules` | o agente que escreve código sob lint-as-código + design system | fullstack/back/integration [C] |
+| **CTO Full Stack** (Claude Code) | `CLAUDE.md` | um **agente** que desenha o *como* e audita (não é o Bergson — ele é o arquiteto dos MDs de treinamento/governança/segurança de infra) | backend-boilerplate [C] |
+| **Programador** (Lovable) | `AGENTS.md` + `.claude/*` + `.cursor/rules` | o executor que escreve código sob lint-as-código + design system: esteira **HERMES** · **Codex** · **Claude Code** (o **Lovable saiu da stack**) | fullstack/back/integration [C] |
 | **Operador** (humano) | `CLAUDE_OPERADOR.md` | **João, Vinícius, Pedro** (e mais, via BrainHub) | planejai (perfil do João) [C] |
 
 **O que enriquecer (o que a produção não herdou do Lovable):**
@@ -261,19 +262,24 @@ no diff — §5.4) e a entrada no `SISTEMAS.md` (§7): *o UI kit da casa já exi
 
 ## §6 — Os 4 contratos de papel (elenco desta fase)
 
-Esboço; o texto final entra no boilerplate. Elenco travado pelo Vinicius: HERMES na esteira, Bergson
-líder técnico, operadores João/Vinícius/Pedro (mais via BrainHub).
+Esboço; o texto final entra no boilerplate. Elenco travado pelo Vinicius: HERMES é a esteira de
+produção (e um dos executores do Programador, junto de Codex e Claude Code); o CTO/líder técnico é um
+**agente**; o Bergson é o **arquiteto dos MDs de treinamento, governança e segurança de infra**;
+operadores João/Vinícius/Pedro (mais via BrainHub). O **Lovable saiu da stack de execução**. A camada
+de orquestração humana ganha mais pessoas depois desta fase.
 
 - **`CLAUDE_DIRETOR.md` — Diretor de Produto/Negócios** (Claude Project). Pensa por quê/o quê; escreve
   PRD/ADR; prioriza; questiona quando a sequência cria risco pro cliente real. **Não** commita/roda
   SQL/deploya. Base: catalog-ai [C].
-- **`CLAUDE.md` — CTO / Líder técnico (Bergson) + executor (Claude Code).** Guardião da qualidade
-  (camadas, cache-aside, no-any, definition of done). Dono da doc de papéis. **Bergson é a autoridade
-  técnica humana; o Claude Code executa sob o padrão dele e nunca altera fundação estrutural sem
-  alinhamento.** Base: backend-boilerplate [C].
-- **`AGENTS.md` + `.claude/*` + `.cursor/rules` — Programador** (Lovable/agente de código). Escreve sob
-  lint-as-código + design system (`designsystem.umode.tech`) + shadcn + i18n obrigatório. Regra
-  anti-reversão. Base: fullstack/frontend [C].
+- **`CLAUDE.md` — CTO / Líder técnico (agente).** Guardião da qualidade (camadas, cache-aside, no-any,
+  definition of done); desenha o *como* e audita; dono da doc de papéis. **Não é o Bergson** — o
+  Bergson é o arquiteto dos MDs de treinamento, governança e segurança de infra (autoridade sobre o
+  padrão e destino de escalonamento, não executor por dimensão). A execução fica com o Programador.
+  Base: backend-boilerplate [C].
+- **`AGENTS.md` + `.claude/*` + `.cursor/rules` — Programador** (esteira **HERMES** · **Codex** ·
+  **Claude Code**; o **Lovable saiu da stack de execução**). Escreve sob lint-as-código + design
+  system (`@umodeapporg/ui`, referência em `designsystem.umode.tech`) + i18n obrigatório; cânone
+  shadcn × `@umodeapporg/ui` ainda `[D]` em aberto. Regra anti-reversão. Base: fullstack/frontend [C].
 - **`CLAUDE_OPERADOR.md` — Operador humano** (João, Vinícius, Pedro). Perfil + glossário risolês; "não
   muda por projeto". Decide prioridade/jornada; valida entrega; **não** presume aprovação sem
   especificar. **Novos operadores entram pelo rito de admissão do vault (§3.2).** Base: planejai [C].

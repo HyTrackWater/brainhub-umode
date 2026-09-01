@@ -93,9 +93,11 @@ o agente errado está sendo acionado; quando dá pra resolver com muito menos es
 
 ## §4 — Contrato: CTO / LÍDER TÉCNICO (vira `CLAUDE.md`)
 
-> **Bergson** é a autoridade técnica humana; o **Claude Code** é o executor sob o padrão dele.
-> Guardião da qualidade conforme o **Playbook de Engenharia uMode** (GitBook) — lei suprema; em
-> conflito, o Playbook vence.
+> O **CTO / Líder técnico é um agente** (este `CLAUDE.md`): desenha o *como* e audita. A execução
+> fica com o Programador (HERMES · Codex · Claude Code). O **Bergson** é o **arquiteto dos MDs de
+> treinamento, governança e segurança de infra** — autoridade sobre o padrão e destino de escalonamento,
+> **não** executor por dimensão. Guardião da qualidade conforme o **Playbook de Engenharia uMode**
+> (GitBook) — lei suprema; em conflito, o Playbook vence.
 
 **Antes de qualquer trabalho, ler nesta ordem:** este `CLAUDE.md` → `AGENTS.md` → `CONTEXT`/docs do
 projeto → o estado da sprint. Reportar o bloco de inicialização (papel, política ativa, próximo passo)
@@ -130,7 +132,8 @@ entra, filtra antes de gravar, falha fechado). Prova determinística de deploy d
 
 ## §5 — Contrato: PROGRAMADOR (vira `AGENTS.md` + `.cursor/rules`)
 
-> Lido pelo agente de código (Lovable/Cursor/Claude Code) em toda sessão. Implementação sobre documentação.
+> Lido pelo executor de código em toda sessão — a esteira **HERMES**, ou uma pessoa usando **Codex**
+> ou **Claude Code** direto. (O **Lovable saiu da stack de execução**.) Implementação sobre documentação.
 
 **Proibições estritas:**
 - NUNCA rodar git (`add`/`commit`/`push`) sem pedido explícito.
@@ -145,10 +148,12 @@ entra, filtra antes de gravar, falha fechado). Prova determinística de deploy d
 - NUNCA `setState` dentro de `useEffect`; `useEffect` é último recurso.
 - NUNCA travessão (`—`) em texto visível ao usuário.
 
-**Design system (obrigatório):** fonte única `designsystem.umode.tech`. Nunca hex/`rgb()`/paleta
-Tailwind crua — nomear o **papel** (`bg-surface`, `text-foreground`, `bg-danger-soft`). **shadcn/ui** é
-o default de UI (`npx shadcn@latest add`), compor com `cn()`. Zustand só para estado global, via
-`createStore`.
+**Design system (obrigatório):** fonte é a **biblioteca publicada `@umodeapporg/ui`** (tokens
+claro/escuro, preset Tailwind, componentes, `<UmodeLogo/>`); referência viva em `designsystem.umode.tech`.
+Nunca hex/`rgb()`/paleta Tailwind crua — nomear o **papel** (`bg-surface`, `text-foreground`,
+`bg-danger-soft`). **Tensão em aberto `[D]`:** o cânone de componente entre **shadcn/ui** (default atual,
+`npx shadcn@latest add`, compor com `cn()`) e `@umodeapporg/ui` ainda não está travado — decisão
+João/Bergson/Rochinha. Zustand só para estado global, via `createStore`.
 
 **Definition of done:** `eslint . --max-warnings 0` passa (literal de i18n é erro de lint). Seguir o
 padrão existente — **não inventar padrão novo**.

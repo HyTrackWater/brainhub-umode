@@ -43,20 +43,25 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 |---|---|---|---|
 | **Operador** | `CLAUDE_OPERADOR.md` | João, Vinícius, Pedro (humanos) | Traz demanda, decide prioridade/jornada, valida entrega. Não presume aprovação sem especificar. |
 | **Diretor de Produto** | `CLAUDE_DIRETOR.md` | Claude (Project) | Escreve PRD/ADR, pensa por quê/o quê, prioriza. Não commita, não roda SQL, não deploya. |
-| **CTO / Líder técnico** | `CLAUDE.md` | **Bergson** (humano) + Claude Code (executor) | Guardião do padrão; implementa/testa/libera; dono da doc de papéis. Não altera fundação estrutural sem alinhar. |
-| **Programador** | `AGENTS.md` + `.claude/*` + `.cursor/rules` | agente de código (Lovable/Cursor/Claude Code) | Escreve sob lint-as-código + design system. Regra anti-reversão. Não inventa padrão novo. |
-| **HERMES** (esteira) | `HERMES.md` (contrato próprio) `[P]` | agente de esteira | Ronda, digests, auto-doc, promoção assistida sob Guarda determinística. Não decide canonicidade sozinho. |
+| **CTO / Líder técnico** | `CLAUDE.md` | **agente** (não é o Bergson) | Desenha o *como*, audita, dono da doc de papéis. Não altera fundação estrutural sem alinhar. |
+| **Programador** | `AGENTS.md` + `.claude/*` + `.cursor/rules` | esteira **HERMES** · **Codex** · **Claude Code** | Escreve sob lint-as-código + design system. Regra anti-reversão. Não inventa padrão novo. |
+| **HERMES** (esteira) | `HERMES.md` (contrato próprio) `[P]` | esteira de produção | O trilho até produção **e** um dos executores do Programador. Ronda, digests, auto-doc sob Guarda determinística. Não decide canonicidade sozinho. |
+
+> **Fora do elenco de execução, dois pontos fixos:** o **Bergson** é o **arquiteto dos MDs de
+> treinamento, governança e segurança de infra** (autoridade sobre o padrão e destino de escalonamento,
+> não dono de execução por dimensão); o **Lovable saiu da stack de execução**. A **camada de orquestração
+> humana** ganha mais pessoas depois desta fase.
 
 ### 2.2 As oito dimensões funcionais
 
-| Dimensão | Dono humano | Camada de código | Guardrail que a trava |
+| Dimensão | Dono | Camada de código | Guardrail que a trava |
 |---|---|---|---|
-| **Back** | Bergson + Claude Code | `apps/server`, gateway (NestJS Modular Standard: Controller→Service→Repository, cache-aside) [C] | lint `no-any`, tsconfig estrito, Marvin (CLAUDE.md), `ci.yml` (test/build) |
+| **Back** | CTO (agente) + Programador | `apps/server`, gateway (NestJS Modular Standard: Controller→Service→Repository, cache-aside) [C] | lint `no-any`, tsconfig estrito, Marvin (CLAUDE.md), `ci.yml` (test/build) |
 | **Front** | Programador + Operador | `apps/web` (Next App Router, shadcn `new-york`, tokens `globals.css`) [C] | eslint-rules próprias: `no-any`, `no-portuguese`, `no-literal-jsx` (i18n obrigatório) |
 | **Dados & IA** | área Dados & IA | agentes, RAG, contexto, BrainHub | contratos de agente + rito de admissão (vault) |
-| **Banco de Dados** | Bergson | Mongo (Mongoose, multi-cluster nomeado, collection nasce no 1º write) + Redis (cache-aside, TTL obrigatório) + relacional/ERP [C] | Repository é o único acesso; chave Redis `PROJECT:MODULE:ID`; `.lean()` em leitura |
-| **Deploy** | Bergson / infra | Amplify (web) + CodeBuild/Procfile (server) + registro downstream no gateway [C] | branch protection (required checks verdes antes do merge) `[P]` |
-| **Segurança** | security-gate + Bergson | Cognito (auth unificada), `PartnerScopeGuard` (multi-tenant), segredos fora do repo [C] | **gitleaks** (segredos) + **semgrep** (OWASP/SAST) no PR; auth via gateway, nunca própria |
+| **Banco de Dados** | CTO (agente) — desenho | Mongo (Mongoose, multi-cluster nomeado, collection nasce no 1º write) + Redis (cache-aside, TTL obrigatório) + relacional/ERP [C] | Repository é o único acesso; chave Redis `PROJECT:MODULE:ID`; `.lean()` em leitura |
+| **Deploy** | HERMES / infra | Amplify (web) + CodeBuild/Procfile (server) + registro downstream no gateway [C] | branch protection (required checks verdes antes do merge) `[P]` |
+| **Segurança** | security-gate + Bergson (infra) | Cognito (auth unificada), `PartnerScopeGuard` (multi-tenant), segredos fora do repo [C] | **gitleaks** (segredos) + **semgrep** (OWASP/SAST) no PR; auth via gateway, nunca própria |
 | **Integração** | squad de integração | `microservice-integration`, Lambdas, proxy `services/<nome>`, config por partner, conectores ERP [C] | allowlist de campo ao espelhar API externa (lição catalog-ai); `INTEGRATION_ID` rastreado |
 | **Documentação** | documentation-agent + HERMES | `documentation-agent`/`typedoc` → PR; `CLAUDE.md`/`AGENTS.md`/`docs/`; BrainHub [C] | auto-doc em PR isolado; front-matter; `SISTEMAS.md` (D66) |
 
@@ -66,8 +71,8 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 flowchart TB
     OP["👤 OPERADOR<br/>João · Vinícius · Pedro<br/>(CLAUDE_OPERADOR.md)"]
     DIR["🎯 DIRETOR DE PRODUTO<br/>Claude Project<br/>PRD · ADR · prioridade<br/>(CLAUDE_DIRETOR.md)"]
-    CTO["🛠️ CTO / LÍDER TÉCNICO<br/>Bergson + Claude Code<br/>(CLAUDE.md)"]
-    PROG["⌨️ PROGRAMADOR<br/>agente de código<br/>(AGENTS.md · .cursor/rules)"]
+    CTO["🛠️ CTO / LÍDER TÉCNICO<br/>agente<br/>(CLAUDE.md)"]
+    PROG["⌨️ PROGRAMADOR<br/>HERMES · Codex · Claude Code<br/>(AGENTS.md · .cursor/rules)"]
     HERMES["🔁 HERMES<br/>esteira: ronda · auto-doc<br/>promoção assistida"]
 
     OP -->|demanda| DIR
@@ -116,8 +121,11 @@ estado global; HTTP só via `gatewayHttpClient` (nunca `fetch` cru).
 chave presente em `pt` **e** `en`; **proibido português no código** (regra de lint própria). Sem
 travessão (`—`) em texto de usuário.
 
-**Design system:** fonte única `designsystem.umode.tech`; **nunca** hex/`rgb()`/paleta Tailwind crua —
-nomear o **papel** (`bg-surface`, `text-foreground`, `bg-danger-soft`). Tokens em `globals.css`.
+**Design system:** fonte é a **biblioteca publicada `@umodeapporg/ui`** (tokens claro/escuro, preset
+Tailwind, componentes, `<UmodeLogo/>`); referência viva em `designsystem.umode.tech`. **Nunca**
+hex/`rgb()`/paleta Tailwind crua — nomear o **papel** (`bg-surface`, `text-foreground`,
+`bg-danger-soft`). **Tensão `[D]` em aberto:** cânone de componente entre **shadcn/ui** (default atual) e
+`@umodeapporg/ui` ainda não travado.
 
 **Auth:** **login unificado uMode** (Cognito via gateway) — o produto **não tem login próprio**;
 consome o gateway (`AUTH_MODE` gateway/whoami/none, `req.executor`). Multi-tenant via
