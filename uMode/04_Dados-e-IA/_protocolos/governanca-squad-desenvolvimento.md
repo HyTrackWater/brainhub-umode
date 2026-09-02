@@ -84,15 +84,17 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 ```mermaid
 flowchart TB
     OP["👤 OPERADOR<br/>João · Vinícius · Pedro<br/>(CLAUDE_OPERADOR.md)"]
-    DIR["🎯 DIRETOR DE PRODUTO<br/>Claude Project<br/>PRD · ADR · prioridade<br/>(CLAUDE_DIRETOR.md)"]
-    CTO["🛠️ CTO / LÍDER TÉCNICO<br/>agente<br/>(CLAUDE.md)"]
+    DIR["🎯 DIRETOR DE PRODUTO<br/>Claude Project<br/>PRD · briefing · aceite<br/>(CLAUDE_DIRETOR.md)"]
+    CTO["🛠️ CTO / LÍDER TÉCNICO<br/>agente · desenha + ADR técnico<br/>não audita o próprio head<br/>(CLAUDE.md)"]
     PROG["⌨️ PROGRAMADOR<br/>HERMES · Codex · Claude Code<br/>(AGENTS.md · .cursor/rules)"]
-    HERMES["🔁 HERMES<br/>esteira: ronda · auto-doc<br/>promoção assistida"]
+    AUDIT["🔎 AUDITOR INDEPENDENTE<br/>não-autor · exact-SHA<br/>(AUDITOR.md)"]
+    HERMES["🔁 HERMES (sistema)<br/>esteira: ronda · auto-doc<br/>executa merge já autorizado"]
 
     OP -->|demanda| DIR
-    DIR -->|espec / prompt| CTO
-    CTO -->|padrão + revisão| PROG
-    PROG -->|código| GATES
+    DIR -->|PRD / aceite| CTO
+    CTO -->|padrão + ADR técnico| PROG
+    PROG -->|candidato| AUDIT
+    AUDIT -->|parecer não-autor| GATES
 
     subgraph DIM["8 DIMENSÕES FUNCIONAIS"]
         BACK["Back<br/>NestJS Modular"]
@@ -171,7 +173,8 @@ nas mensagens de commit de produto.
 ## §4 — O padrão (o boilerplate-template)
 
 Não se cria projeto do zero: parte-se do **`umode-fullstack-boilerplate` endurecido** como *template
-repository*. "Use this template" → o repo novo **já nasce** com: os 4 contratos de papel, o lint-as-código,
+repository*. "Use this template" → o repo novo **já nasce** com: os contratos de papel (Operador,
+Diretor, CTO, Programador, Auditor) + o HERMES como sistema, o lint-as-código,
 o design system, o plugue do gateway, e os **3 gates de auditoria** (§6). Estrutura fixa:
 `apps/web` (Next) + `apps/server` (Nest) + `.env` único na raiz. Módulo = **fatia vertical**
 (schema → DTO → repository → service → controller → interface → repository front → store → hook → tela).
@@ -336,7 +339,7 @@ Do mundo `HyTrackWater` (era Lovable + vault do João), o que **soma** à govern
 - **`SISTEMAS.md` (D66) — "não se constrói o que já existe":** catálogo consultado antes de criar
   pipeline/app. **Ação pendente:** trazer a produção `UmodeApp` para esse catálogo (hoje ele só tem os
   repos HyTrackWater). `[P]`
-- **Os 4 papéis-contrato e o glossário risolês** (`CLAUDE_OPERADOR.md`) — a linguagem e o modo de
+- **Os papéis-contrato e o glossário risolês** (`CLAUDE_OPERADOR.md`) — a linguagem e o modo de
   decidir do João, que não mudam por projeto.
 
 ## §8-bis — Plano de migração (sem big-bang — parecer 2026-09-02)

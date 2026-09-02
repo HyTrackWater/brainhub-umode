@@ -10,7 +10,9 @@
 > auto-descoberto, os papéis vão para `governance/roles/` (inclui o novo `AUDITOR.md`), o `CLAUDE.md`
 > vira adaptador, e o HERMES sai da raiz: o contrato persistente da esteira é o **`HERMES_TRAINING.md`**
 > (não um `HERMES.md` concatenado). Hoje os arquivos encenados em `_boilerplate/` estão em transição —
-> as contradições de papel já foram corrigidas; a migração de pastas é **P1**.
+> as **contradições de papel** (auto-auditoria do CTO, PRD×ADR, regra de merge) foram corrigidas no
+> corpus; a **migração de pastas** (topologia AGENTS-first) e o **varrimento regra-a-regra dos claims
+> absolutos** seguem **P1** (abertos), e o **P0.1** (auth server-side) permanece aberto.
 
 ## §0 — Declaração de completude
 

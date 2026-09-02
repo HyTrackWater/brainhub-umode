@@ -3,7 +3,8 @@
 > **`PENDING_MIGRATION` (parecer 2026-09-02):** este conjunto de contratos-raiz migra para a topologia
 > AGENTS-first (`AGENTS.md` único bootstrap; papéis em `governance/roles/`; este `CLAUDE.md` vira
 > adaptador; `HERMES.md` sai da raiz; entra `AUDITOR.md` + `context.manifest.yaml` + `CONTEXT.md`/`STATE.md`).
-> A migração de pastas é **P1**; as contradições de papel já foram corrigidas aqui.
+> As **contradições de papel** (auto-auditoria do CTO, PRD×ADR, regra de merge) foram corrigidas no
+> corpus; a **migração de pastas** e o **varrimento dos claims absolutos** seguem **P1** (abertos).
 
 > Arquivo-raiz do boilerplate governado da uMode. **O CTO / Líder técnico é um agente** (este arquivo):
 > desenha o *como* e **declara pronto para review** — **NÃO audita o próprio head** (isso é do

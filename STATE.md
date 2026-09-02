@@ -1755,7 +1755,7 @@ caminho).
 - **02 set 2026** — Sessão 26: **Governança da Squad de Desenvolvimento (SmartCoding) — missão do Vinicius.**
   Criados em `uMode/04_Dados-e-IA/`: `_contexto/_blueprint-boilerplate-governado.md` (fontes lidas campo a
   campo dos 5 repos de produção UmodeApp + `actions-shared`), `_protocolos/governanca-squad-desenvolvimento.md`,
-  `_protocolos/treinamento-e-contratos-squad.md` (5 contratos de papel), `_protocolos/contratos-agentes-por-dimensao.md`
+  `_protocolos/treinamento-e-contratos-squad.md` (5 papéis-contrato + depois AUDITOR; HERMES é sistema), `_protocolos/contratos-agentes-por-dimensao.md`
   (8 contratos), e `_boilerplate/` (contratos-raiz encenados: CLAUDE_OPERADOR/DIRETOR/CLAUDE/AGENTS/HERMES,
   depois + AUDITOR + HERMES_TRAINING — em transição para a topologia AGENTS-first + README).
   PR #1 do `brainhub-umode` (draft). Decisões travadas pelo Vinicius: **CTO é agente** (não Bergson;

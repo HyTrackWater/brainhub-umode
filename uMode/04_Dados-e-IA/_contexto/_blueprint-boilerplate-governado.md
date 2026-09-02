@@ -68,10 +68,11 @@ O gateway, o mais maduro e central, é o **menos** rigoroso (`no-explicit-any: '
 
 O seu processo Lovable já tinha a forma certa; a produção tem as travas. **Treinamento = fundir os dois.**
 
-### 3.1 Os 4 papéis-contrato (da era Lovable → produção)
+### 3.1 Os papéis-contrato (da era Lovable → produção)
 
-O padrão que você montou no Lovable era 4 arquivos-contrato lidos no início de toda sessão. Ele
-sobrevive **quase intacto** na produção, só muda o elenco:
+O padrão que você montou no Lovable era **4 arquivos-contrato** (Diretor, CTO, Programador, Operador)
+lidos no início de toda sessão. Ele sobrevive **quase intacto** na produção — só muda o elenco e
+**entra a cadeira nova do Auditor Independente** (5 papéis; HERMES é sistema, não papel):
 
 | Papel (Lovable) | Arquivo | Vira na produção | Onde já existe |
 |---|---|---|---|
@@ -157,8 +158,10 @@ protocolo. Tudo abaixo é `[P]` (proposta minha), sujeito a `[D]` do João/Bergs
 4. **PR template** com o checklist do "definition of done" (lint+build verdes, endpoint testado por curl).
 5. **husky + lint-staged + commitlint** — gate local (pré-commit) antes do CI, para o operador ver o
    erro na hora, não no PR.
-6. **Os 4 contratos de papel** (§6) na raiz: `CLAUDE.md`, `AGENTS.md`(+`.claude/*`), `CLAUDE_DIRETOR.md`,
-   `CLAUDE_OPERADOR.md`. Os dois primeiros já existem no fullstack; faltam os dois de cima.
+6. **Os contratos de papel** (§6): `CLAUDE_OPERADOR.md`, `CLAUDE_DIRETOR.md`, `CLAUDE.md`, `AGENTS.md`
+   (+`.claude/*`), **`AUDITOR.md`** e **`HERMES_TRAINING.md`** — na topologia-alvo AGENTS-first (papéis em
+   `governance/roles/`, `CLAUDE.md` adaptador). `CLAUDE.md`/`AGENTS.md` já existem no fullstack; o
+   restante entra na migração P1. **`PENDING_MIGRATION`** — não drop-in.
 7. **Contrato de "como plugar no gateway"** — documentar `AUTH_MODE` (gateway/whoami/none),
    `services/<nome>`, `PartnerScopeGuard`: multi-tenant e auth unificada vêm **de graça** consumindo o
    gateway; ninguém reimplementa login.
@@ -261,7 +264,7 @@ vira verificável — um `ControlledButton` reescrito à mão no `apps/web` é d
 liberdade de tela. Candidato a regra explícita no `CLAUDE.md` do boilerplate (logo, pegável pelo Marvin
 no diff — §5.4) e a entrada no `SISTEMAS.md` (§7): *o UI kit da casa já existe; não se reconstrói.*
 
-## §6 — Os 4 contratos de papel (elenco desta fase)
+## §6 — Os contratos de papel (elenco desta fase — 5 papéis + Auditor; HERMES é sistema)
 
 Esboço; o texto final entra no boilerplate. Elenco travado pelo Vinicius: HERMES é a esteira de
 produção (e um dos executores do Programador, junto de Codex e Claude Code); o CTO/líder técnico é um
@@ -287,7 +290,10 @@ de orquestração humana ganha mais pessoas depois desta fase.
 - **`CLAUDE_OPERADOR.md` — Operador humano** (João, Vinícius, Pedro). Perfil + glossário risolês; "não
   muda por projeto". Decide prioridade/jornada; valida entrega; **não** presume aprovação sem
   especificar. **Novos operadores entram pelo rito de admissão do vault (§3.2).** Base: planejai [C].
-- **HERMES** — não é um dos 4 papéis; é a **esteira** (ronda, digests, promoção assistida, dispatch).
+- **`AUDITOR.md` — Auditor Independente** `[P]`. Cadeira não-autor: parecer exact-SHA do head de quem
+  não o escreveu. Quem escreveu não audita.
+- **HERMES** — não é papel de decisão; é a **esteira** (sistema): ronda, digests, dispatch, e **executa
+  merge já autorizado** sob lease (nunca decide/aprova; nunca `main`/prod/infra). Contrato: `HERMES_TRAINING.md`.
   Levar à produção = contrato próprio que inclua os repos de código, sob Guarda determinística. `[P]`
 
 ## §7 — Revisitar o `SISTEMAS.md` (vault)
@@ -303,7 +309,7 @@ vault → é do João/HERMES, não nossa — proposta, não execução). Também
 ## §8 — Roadmap sugerido (sequência, não prazo)
 
 1. ~~Ler `actions-shared`~~ ✅ feito (§5.4).
-2. **Escrever os 4 contratos de papel** com o elenco desta fase (entregável textual).
+2. ~~Escrever os contratos de papel~~ ✅ feito (5 papéis + `AUDITOR.md` + `HERMES_TRAINING.md`; HERMES é sistema).
 3. **Endurecer o fullstack-boilerplate** (§5.1): os 3 gates (Marvin + security + `ci.yml` novo) +
    branch protection (required checks) + CODEOWNERS + PR template + husky/lint-staged/commitlint.
 4. **Piloto:** João/Vinícius/Pedro criam 1 projeto do template e tentam furar o protocolo — o gate

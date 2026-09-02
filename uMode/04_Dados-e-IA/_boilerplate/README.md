@@ -4,10 +4,12 @@
 > `brainhub-umode`, porque **escrita direta no repo de produção da `UmodeApp` não é nossa**.
 >
 > **`PENDING_MIGRATION` (parecer 2026-09-02):** este conjunto está **em transição** para a topologia
-> **AGENTS-first** — **não** "prontos pra soltar" como estavam. As contradições de papel (CTO
-> auto-audita, PRD×ADR, HERMES-merge) **já foram corrigidas**; a **migração de pastas** (papéis para
-> `governance/roles/`, `CLAUDE.md` adaptador, `HERMES.md` fora da raiz, `context.manifest.yaml`,
-> `CONTEXT.md`/`STATE.md`) é **P1**, ainda não feita.
+> **AGENTS-first** — **não** "prontos pra soltar". As **contradições de papel** (CTO auto-audita,
+> PRD×ADR, HERMES-merge) foram corrigidas no corpus (contratos, diagrama e contagens reconciliados). O
+> que **segue aberto**: a **migração de pastas** (`governance/roles/`, `CLAUDE.md` adaptador, `HERMES.md`
+> fora da raiz, `context.manifest.yaml`, `CONTEXT.md`/`STATE.md`) e o **varrimento regra-a-regra dos
+> claims absolutos** — ambos **P1**; e o **P0.1** (auth server-side do Lovable). Nada aqui é "totalmente
+> fechado".
 
 ## Os arquivos (um sistema, não avulsos)
 
