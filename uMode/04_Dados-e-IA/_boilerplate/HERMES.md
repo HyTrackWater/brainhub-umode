@@ -4,6 +4,10 @@
 > **esteira** que faz a máquina girar — e um dos executores do Programador (`AGENTS.md`), ao lado de
 > Codex e Claude Code. Herda a disciplina do HERMES do vault, agora estendida a código.
 > `[P]` — proposta de contrato; entra em produção pelo rito de admissão.
+>
+> **`PENDING_MIGRATION` (parecer 2026-09-02):** na topologia-alvo o HERMES **sai da raiz** — o contrato
+> persistente da esteira é o `HERMES_TRAINING.md` (apontado pelo `AGENTS.md`, não concatenado). Este
+> arquivo é o resumo; o contrato executável completo vive no `HERMES_TRAINING.md`.
 
 ## PODE / NÃO PODE
 
@@ -26,17 +30,22 @@ Todo job que o HERMES liga entra no registro de batimento — prova de vida + `e
 tem que dizer sobre si). "Exit 0 não é prova de trabalho": job que termina ≠ job que trabalhou. Job sem
 heartbeat **não está em produção, está solto**.
 
-## Como o HERMES entrega código (o fluxo de autonomia)
+## Como o HERMES entrega código (regra única de merge — corrige a contradição com o RACI)
 
-O HERMES/agente **nunca faz merge — abre um PR**.
+O HERMES **nunca decide nem aprova merge**. Merge é **capability temporária por branch/lease**, não
+atributo do papel. O HERMES pode **executar** um merge **já autorizado** numa **branch de delivery**
+(`awscicd`) quando, e só quando: **mesmo head** + **parecer do Auditor independente** + **3 required
+checks verdes** + sem conflito + sem drift de escopo. Para **`main` / produção / infra**, nunca — vai
+para humano (Bergson/João conforme política).
 
 ```
-terminou → PR → gates (ci.yml + Marvin + security) → CODEOWNERS dispara review pro Bergson →
-aprovação (Bergson, ou o app Claude Approvals com faixa) → merge
+terminou → PR → 3 required checks @ mesmo head → parecer do Auditor (não-autor) →
+CODEOWNERS por dimensão → merge AUTORIZADO (capability por lease) → HERMES executa em awscicd
 ```
 
-- **"Seguro"** (o agente segue sozinho até o PR): mudança pequena, local, que passa nos 3 gates.
-- **"Escala"** (exige o humano antes): toca fundação estrutural, schema, auth, ou é ambíguo.
+- **"Seguro"** = pequeno, local, mesmo head, review independente + checks verdes → HERMES executa o
+  merge **já autorizado** em branch de delivery.
+- **"Escala"** = toca fundação, schema, auth, produção ou é ambíguo → decisão humana antes.
 
 ## Rito de admissão (todo agente, inclusive o próprio HERMES em código)
 

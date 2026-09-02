@@ -5,6 +5,15 @@
 > stack de execução**.) Implementação sobre documentação. Companion: `.claude/*` e `.cursor/rules`
 > carregam as mesmas regras no editor.
 
+> **`PENDING_MIGRATION` (parecer 2026-09-02):** na topologia-alvo, este `AGENTS.md` é o **único bootstrap
+> transversal auto-descoberto** (Claude/Codex/Cursor); os papéis vão para `governance/roles/`, o
+> `CLAUDE.md` vira adaptador e a auditoria do head é do `AUDITOR.md` (não-autor). Migração de pastas = P1.
+
+> **Convenção de regra (parecer M6):** cada regra abaixo tem **escopo · enforcement · exceção**. Regra
+> sem enforcement é orientação, não trava. Exceções já conhecidas: "sem português no código" **não** vale
+> para o catálogo i18n (chaves `pt`/`en`); docs *release-blocking* acompanham o código no mesmo PR — só
+> a auto-doc **editorial** é isolada.
+
 ## Proibições estritas
 
 - **NUNCA** rodar git (`add`/`commit`/`push`) sem pedido explícito.
@@ -51,8 +60,9 @@ componentes e `<UmodeLogo/>`; referência viva em `designsystem.umode.tech`.
 ## Regra anti-reversão
 
 Ao editar arquivo de outro agente, o prompt lista as linhas a mudar e manda **preservar todo o resto**;
-o CTO (`CLAUDE.md`) audita o diff.
+o **Auditor Independente** (`AUDITOR.md`, não-autor, exact-SHA) audita o diff — **nunca** o próprio autor,
+**nunca** o CTO sobre um head que ele mesmo escreveu.
 
 ---
-_O executor nunca faz merge — abre PR. O PR passa pelos 3 gates (`ci.yml` + Marvin + security); ver
-`HERMES.md`._
+_O executor **nunca decide merge** — abre PR. O PR passa pelos 3 required checks (`ci-deterministic` +
+`policy-semantic`/Marvin + `security`) no mesmo head + parecer do Auditor; ver `HERMES_TRAINING.md`._

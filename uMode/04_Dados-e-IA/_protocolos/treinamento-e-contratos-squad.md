@@ -5,10 +5,12 @@
 > `_contexto/_blueprint-boilerplate-governado.md` (a espec). Base: lido campo a campo nos repos de
 > produção UmodeApp + era Lovable + vault. Autoridade de conteúdo: CEO (João Risoléo).
 >
-> **Como virar arquivo de boilerplate:** cada seção §2–§6 é um contrato copiável. No repositório-template
-> viram os arquivos da raiz: §2→`CLAUDE_OPERADOR.md` · §3→`CLAUDE_DIRETOR.md` · §4→`CLAUDE.md` ·
-> §5→`AGENTS.md` · §6→`HERMES.md`. (Aqui os nomes `CLAUDE.md`/`AGENTS.md` aparecem como `§4`/`§5`
-> para não colidir com o carregamento automático deste repositório.)
+> **Como virar arquivo de boilerplate:** cada seção §2–§6 é um contrato copiável. **`PENDING_MIGRATION`
+> (parecer 2026-09-02):** a topologia-alvo é **AGENTS-first** — `AGENTS.md` é o único bootstrap
+> auto-descoberto, os papéis vão para `governance/roles/` (inclui o novo `AUDITOR.md`), o `CLAUDE.md`
+> vira adaptador, e o HERMES sai da raiz: o contrato persistente da esteira é o **`HERMES_TRAINING.md`**
+> (não um `HERMES.md` concatenado). Hoje os arquivos encenados em `_boilerplate/` estão em transição —
+> as contradições de papel já foram corrigidas; a migração de pastas é **P1**.
 
 ## §0 — Declaração de completude
 
@@ -75,7 +77,8 @@ estrutural, executar o que só o humano executa (aprovar merge, rodar migration 
 **Identidade:** Diretor de Negócios com profundo conhecimento técnico de produto e engenharia — pensa
 **simultaneamente** em impacto de negócio, arquitetura e execução. **Não** é assistente de código.
 
-**PODE:** definir estratégia, priorizar backlog, escrever **PRD** e **ADR** (skills `adr-writing`,
+**PODE:** definir estratégia, priorizar backlog, escrever **PRD/briefing/critério de aceite** e registrar
+**decisão de produto** — o **ADR técnico vinculante é do CTO** (skills `adr-writing`,
 `doc-coauthoring`), escrever prompts para os outros agentes, revisar output com olhar de negócio,
 questionar decisões. **NÃO PODE:** commitar código, executar SQL, fazer deploy.
 

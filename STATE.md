@@ -1765,7 +1765,8 @@ caminho).
   **Design system:** buscado da fonte real (`@umodeapporg/ui@0.4.1` no npm público — tokens claro/escuro
   WCAG AA, preset Tailwind, `<UmodeLogo/>`), one-pager publicado.
   **Publicação Lovable** (workspace uMode, projeto `governanca-squad-umode`, remix do template Polenectar,
-  senha `governanca2026umode`): página de governança + Design System interno.
+  senha do gate **[redigida — nunca commitar o valor; rotacionada após exposição, vive só no gerenciador]**):
+  página de governança + Design System interno.
   **Revisão adversarial:** o HERMES entregou um pacote (`umode-os-vault` PR #15) revisando a esteira e
   propondo `HERMES_TRAINING`. Parecer completo em `_protocolos/parecer-smartcoding-esteira-2026-09-02.md`
   (schema ACEITAR/MODIFICAR/REJEITAR; citações verificadas contra a fonte). **P0.1 confirmado e é meu:** a
@@ -1775,3 +1776,9 @@ caminho).
   **Pendente (não é meu — escrita só no `brainhub-umode`):** promoção ao vault (`_GOVERNANCA.md`,
   `CATALOGO.md`, `_INDEX.md`, `DECISOES.md`, `SISTEMAS`) fica com João/HERMES (D63) — pacote-proposta
   preparado em `_inbox-hermes/`. Passos manuais no Lovable: esconder badge + domínio `governanca.umode.tech`.
+  **REQUEST_CHANGES do HERMES no head `bb7493f`** (PR #1): aceitos a esteira/RACI/Auditor/status; bloqueadores
+  corrigidos nesta rodada — (P0) **credencial redigida + rotacionada**; contradições dos contratos encenados
+  (CTO auto-audita, PRD×ADR, HERMES-merge) corrigidas; criados `_boilerplate/AUDITOR.md` e
+  `_boilerplate/HERMES_TRAINING.md`; os 5 arquivos-raiz marcados **PENDING_MIGRATION** para a topologia
+  AGENTS-first (migração de pastas fica P1). **Não declarar "100% alinhado"** enquanto a migração P1 e o
+  P0.1 (auth server-side) não fecharem.
