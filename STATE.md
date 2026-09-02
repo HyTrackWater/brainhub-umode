@@ -1756,7 +1756,8 @@ caminho).
   Criados em `uMode/04_Dados-e-IA/`: `_contexto/_blueprint-boilerplate-governado.md` (fontes lidas campo a
   campo dos 5 repos de produção UmodeApp + `actions-shared`), `_protocolos/governanca-squad-desenvolvimento.md`,
   `_protocolos/treinamento-e-contratos-squad.md` (5 contratos de papel), `_protocolos/contratos-agentes-por-dimensao.md`
-  (8 contratos), e `_boilerplate/` (5 arquivos-raiz encenados: CLAUDE_OPERADOR/DIRETOR/CLAUDE/AGENTS/HERMES + README).
+  (8 contratos), e `_boilerplate/` (contratos-raiz encenados: CLAUDE_OPERADOR/DIRETOR/CLAUDE/AGENTS/HERMES,
+  depois + AUDITOR + HERMES_TRAINING — em transição para a topologia AGENTS-first + README).
   PR #1 do `brainhub-umode` (draft). Decisões travadas pelo Vinicius: **CTO é agente** (não Bergson;
   Bergson = arquiteto dos MDs de governança/treinamento/segurança de infra); **Lovable saiu da stack de
   execução** (executores = HERMES · Codex · Claude Code); **cânone de componente = `@umodeapporg/ui`, sem
@@ -1776,9 +1777,12 @@ caminho).
   **Pendente (não é meu — escrita só no `brainhub-umode`):** promoção ao vault (`_GOVERNANCA.md`,
   `CATALOGO.md`, `_INDEX.md`, `DECISOES.md`, `SISTEMAS`) fica com João/HERMES (D63) — pacote-proposta
   preparado em `_inbox-hermes/`. Passos manuais no Lovable: esconder badge + domínio `governanca.umode.tech`.
-  **REQUEST_CHANGES do HERMES no head `bb7493f`** (PR #1): aceitos a esteira/RACI/Auditor/status; bloqueadores
-  corrigidos nesta rodada — (P0) **credencial redigida + rotacionada**; contradições dos contratos encenados
-  (CTO auto-audita, PRD×ADR, HERMES-merge) corrigidas; criados `_boilerplate/AUDITOR.md` e
-  `_boilerplate/HERMES_TRAINING.md`; os 5 arquivos-raiz marcados **PENDING_MIGRATION** para a topologia
-  AGENTS-first (migração de pastas fica P1). **Não declarar "100% alinhado"** enquanto a migração P1 e o
-  P0.1 (auth server-side) não fecharem.
+  **REQUEST_CHANGES do HERMES no head `bb7493f`** (PR #1): aceitos a esteira/RACI/Auditor/status; (P0)
+  **credencial redigida + rotacionada**. **2ª rodada (fresh review no head `7371749`):** as correções
+  de papel foram estendidas ao **corpus-fonte** (`treinamento-e-contratos-squad.md` §4/§5/§6 e
+  `_blueprint-boilerplate-governado.md` §1/§6), não só às cópias — CTO não auto-audita, PRD×ADR
+  separado, **regra única de merge do HERMES** (capability por lease; nunca decide/aprova) sem o texto
+  "nunca faz merge" onde a execução autorizada é permitida. Criados `AUDITOR.md` e `HERMES_TRAINING.md`.
+  Conjunto **PENDING_MIGRATION** para a topologia AGENTS-first (migração de pastas = P1); README sem
+  instrução de "copiar os cinco". **Não declarar "100% alinhado"** enquanto a migração P1 e o P0.1 (auth
+  server-side) não fecharem.

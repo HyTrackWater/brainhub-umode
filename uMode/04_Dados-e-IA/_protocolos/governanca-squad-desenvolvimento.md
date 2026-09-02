@@ -55,7 +55,7 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 | Papel | Arquivo-contrato | Quem é | Pode / Não pode |
 |---|---|---|---|
 | **Operador** | `CLAUDE_OPERADOR.md` | João, Vinícius, Pedro (humanos) | Traz demanda, decide prioridade/jornada, valida entrega. Não presume aprovação sem especificar. |
-| **Diretor de Produto** | `CLAUDE_DIRETOR.md` | Claude (Project) | Escreve PRD/ADR, pensa por quê/o quê, prioriza. Não commita, não roda SQL, não deploya. |
+| **Diretor de Produto** | `CLAUDE_DIRETOR.md` | Claude (Project) | Escreve **PRD/briefing/aceite** + decisão de produto (o **ADR técnico é do CTO**), pensa por quê/o quê, prioriza. Não commita, não roda SQL, não deploya. |
 | **CTO / Líder técnico** | `CLAUDE.md` | **agente** (não é o Bergson) | Desenha o *como*, dono da doc de papéis. **NÃO audita o próprio head** (isso é do Auditor). Não altera fundação sem alinhar. |
 | **Programador** | `AGENTS.md` + `.claude/*` + `.cursor/rules` | esteira **HERMES** · **Codex** · **Claude Code** | Escreve sob lint-as-código + design system. Regra anti-reversão. **Não aprova o próprio head.** |
 | **Auditor Independente** | `governance/roles/AUDITOR.md` `[P]` | cadeira **não-autor** (agente-auditor ou pessoa ≠ autor) | Parecer **exact-SHA** sobre spec/código/segurança de quem não escreveu o head. Não edita o candidato. |

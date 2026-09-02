@@ -75,8 +75,9 @@ sobrevive **quase intacto** na produção, só muda o elenco:
 
 | Papel (Lovable) | Arquivo | Vira na produção | Onde já existe |
 |---|---|---|---|
-| **Diretor de Negócios** (Claude Project) | `CLAUDE_DIRETOR.md` | quem pensa "por quê/o quê antes do como", escreve o PRD/ADR, prioriza | catalog-ai [C] |
-| **CTO Full Stack** (Claude Code) | `CLAUDE.md` | um **agente** que desenha o *como* e audita (não é o Bergson — ele é o arquiteto dos MDs de treinamento/governança/segurança de infra) | backend-boilerplate [C] |
+| **Diretor de Negócios** (Claude Project) | `CLAUDE_DIRETOR.md` | quem pensa "por quê/o quê antes do como", escreve o **PRD/briefing/aceite** (o ADR técnico é do CTO), prioriza | catalog-ai [C] |
+| **CTO Full Stack** (Claude Code) | `CLAUDE.md` | um **agente** que desenha o *como* e escreve o ADR técnico; **NÃO audita o próprio head** (auditoria é do Auditor Independente). Não é o Bergson — ele é o arquiteto dos MDs de governança/treinamento/segurança de infra | backend-boilerplate [C] |
+| **Auditor Independente** | `AUDITOR.md` | cadeira **não-autor** — parecer exact-SHA sobre spec/código/segurança de quem não escreveu o head | parecer 2026-09-02 [P] |
 | **Programador** (Lovable) | `AGENTS.md` + `.claude/*` + `.cursor/rules` | o executor que escreve código sob lint-as-código + design system: esteira **HERMES** · **Codex** · **Claude Code** (o **Lovable saiu da stack**) | fullstack/back/integration [C] |
 | **Operador** (humano) | `CLAUDE_OPERADOR.md` | **João, Vinícius, Pedro** (e mais, via BrainHub) | planejai (perfil do João) [C] |
 
@@ -269,13 +270,15 @@ operadores João/Vinícius/Pedro (mais via BrainHub). O **Lovable saiu da stack 
 de orquestração humana ganha mais pessoas depois desta fase.
 
 - **`CLAUDE_DIRETOR.md` — Diretor de Produto/Negócios** (Claude Project). Pensa por quê/o quê; escreve
-  PRD/ADR; prioriza; questiona quando a sequência cria risco pro cliente real. **Não** commita/roda
-  SQL/deploya. Base: catalog-ai [C].
+  **PRD/briefing/aceite** e decisão de produto (**o ADR técnico é do CTO**); prioriza; questiona quando
+  a sequência cria risco pro cliente real. **Não** commita/roda SQL/deploya. Base: catalog-ai [C].
 - **`CLAUDE.md` — CTO / Líder técnico (agente).** Guardião da qualidade (camadas, cache-aside, no-any,
-  definition of done); desenha o *como* e audita; dono da doc de papéis. **Não é o Bergson** — o
-  Bergson é o arquiteto dos MDs de treinamento, governança e segurança de infra (autoridade sobre o
-  padrão e destino de escalonamento, não executor por dimensão). A execução fica com o Programador.
-  Base: backend-boilerplate [C].
+  definition of done); desenha o *como*, escreve o **ADR técnico**, dono da doc de papéis; **NÃO audita
+  o próprio head** (auditoria é do **`AUDITOR.md`**, cadeira não-autor). **Não é o Bergson** — o
+  Bergson é o arquiteto dos MDs de governança/treinamento/segurança de infra (não executor por
+  dimensão). A execução fica com o Programador. Base: backend-boilerplate [C].
+- **`AUDITOR.md` — Auditor Independente** `[P]`. Cadeira não-autor: parecer exact-SHA sobre
+  spec/código/segurança de quem não escreveu o head. Quem escreveu não audita. Base: parecer 2026-09-02.
 - **`AGENTS.md` + `.claude/*` + `.cursor/rules` — Programador** (esteira **HERMES** · **Codex** ·
   **Claude Code**; o **Lovable saiu da stack de execução**). Escreve sob lint-as-código + design
   system (`@umodeapporg/ui`, referência em `designsystem.umode.tech`) + i18n obrigatório; cânone

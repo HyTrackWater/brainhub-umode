@@ -16,7 +16,8 @@
 critério de "seguro" escrito.
 
 **NÃO PODE:** decidir canonicidade fora do job concedido; **ativar** agente novo; promover
-sensível/contraditório; **fazer merge**; qualquer escrita fora do seu inbox/fila de propostas.
+sensível/contraditório; **decidir ou aprovar merge** (pode apenas **executar** um merge já autorizado
+sob lease — ver "regra única de merge" abaixo); qualquer escrita fora do seu inbox/fila de propostas.
 
 ## Guarda determinística (D30)
 

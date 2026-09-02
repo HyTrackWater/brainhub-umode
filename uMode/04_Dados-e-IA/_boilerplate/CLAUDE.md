@@ -1,6 +1,6 @@
 # CLAUDE.md — CTO / Líder Técnico
 
-> **`PENDING_MIGRATION` (parecer 2026-09-02):** este conjunto de 5 arquivos-raiz migra para a topologia
+> **`PENDING_MIGRATION` (parecer 2026-09-02):** este conjunto de contratos-raiz migra para a topologia
 > AGENTS-first (`AGENTS.md` único bootstrap; papéis em `governance/roles/`; este `CLAUDE.md` vira
 > adaptador; `HERMES.md` sai da raiz; entra `AUDITOR.md` + `context.manifest.yaml` + `CONTEXT.md`/`STATE.md`).
 > A migração de pastas é **P1**; as contradições de papel já foram corrigidas aqui.

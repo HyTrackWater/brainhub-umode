@@ -33,10 +33,16 @@ Vinicius (set/2026): o padrão é `@umodeapporg/ui`, não shadcn. `CLAUDE.md` e 
 
 ## Como adotar (quem tem acesso ao repo de produção)
 
-1. Copiar os cinco arquivos para a raiz do boilerplate.
+> **Não copiar o conjunto antigo como está.** A adoção acontece **junto** da migração para a topologia
+> AGENTS-first (P1) — copiar hoje os arquivos como pré-migração fixaria a estrutura errada.
+
+1. **Migrar para a topologia-alvo** (P1): `AGENTS.md` único bootstrap; papéis (incl. `AUDITOR.md`) em
+   `governance/roles/`; `CLAUDE.md` adaptador; `HERMES_TRAINING.md` no lugar do `HERMES.md` de raiz;
+   `context.manifest.yaml` + `CONTEXT.md`/`STATE.md`.
 2. Somar `.claude/*` e `.cursor/rules` espelhando o `AGENTS.md`.
 3. Plugar `@umodeapporg/ui` (preset + `styles.css` + `base.css`) no `apps/web`.
-4. Ligar os 3 gates (`ci.yml` + Marvin + security via `actions-shared`) como required checks.
+4. Ligar os 3 required checks (`ci-deterministic` + `policy-semantic`/Marvin + `security`) + branch
+   protection. Enquanto a migração P1 não fecha, estes arquivos são **referência corrigida**, não drop-in.
 
 ## Fonte
 

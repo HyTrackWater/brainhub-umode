@@ -23,7 +23,7 @@ Registrar, se o João concordar, na tabela §8 e/ou como decisão datada:
 - treinamento-e-contratos-squad.md — os 5 contratos de papel (íntegra)
 - contratos-agentes-por-dimensao.md — os 8 contratos de agente
 - _blueprint-boilerplate-governado.md — a espec do boilerplate governado
-- _boilerplate/ — os 5 arquivos-raiz (CLAUDE_OPERADOR/DIRETOR/CLAUDE/AGENTS/HERMES)
+- _boilerplate/ — contratos-raiz em transição (CLAUDE_OPERADOR/DIRETOR/CLAUDE/AGENTS + AUDITOR + HERMES_TRAINING; HERMES.md sai da raiz na migração AGENTS-first, P1) — PENDING_MIGRATION, não drop-in
 - parecer-smartcoding-esteira-2026-09-02.md — revisão adversarial do pacote HERMES (PR #15)
   origem: brainhub-umode@<commit> · classificação INTERNAL · pinta-se com @umodeapporg/ui
 ```
