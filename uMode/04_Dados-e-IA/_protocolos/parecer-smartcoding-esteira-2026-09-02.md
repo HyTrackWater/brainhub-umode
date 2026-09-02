@@ -163,8 +163,8 @@ Regra: **nenhum estado implica o próximo automaticamente** (aceito de `TRAIN §
 ├── CLAUDE.md                    # adaptador: aponta pra AGENTS + carrega o essencial p/ Claude
 ├── governance/
 │   ├── context.manifest.yaml    # lista docs, versões, hashes  [P1]
-│   ├── roles/{OPERADOR,DIRETOR_PRODUTO,CTO,PROGRAMADOR,AUDITOR,HERMES}.md
-│   ├── HERMES_TRAINING.md        # apontado por AGENTS, não por HERMES.md raiz
+│   ├── roles/{OPERADOR,DIRETOR_PRODUTO,CTO,PROGRAMADOR,AUDITOR}.md   # 5 papéis; HERMES NÃO é papel
+│   ├── HERMES_TRAINING.md        # contrato de SISTEMA (esteira) — apontado por AGENTS, não em roles/
 │   ├── DELEGATION_LEASE.template.md
 │   └── decisions/
 └── docs/project/{CONTEXT.md, STATE.md}   # resolve C3

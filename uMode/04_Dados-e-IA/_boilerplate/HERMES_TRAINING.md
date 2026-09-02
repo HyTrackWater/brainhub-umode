@@ -3,8 +3,10 @@
 > Contrato **persistente** da esteira (apontado pelo `AGENTS.md`, **não** concatenado). Persiste
 > invariantes, estados de evidência e regras de promoção — **nunca** status corrente (PR/SHA/Issue vivem
 > em `STATE.md`/registry). Versão aceita-com-modificação do parecer 2026-09-02 sobre o pacote do HERMES
-> (`umode-os-vault` PR #15): adota o **núcleo vigente**; attestation/SBOM/canário/matriz-de-skills ficam
-> **ALVO** até haver pipeline. `[P]` — entra pelo rito de admissão.
+> (`umode-os-vault` PR #15): adota o **núcleo aplicável já por disciplina humana + branch protection**
+> (**ainda NÃO travado por máquina** — `ci.yml`/required checks e o rito de admissão são **ALVO**, não
+> existem hoje); attestation/SBOM/canário/matriz-de-skills também ficam **ALVO** até haver pipeline.
+> `[P]` — o próprio contrato entra pelo rito de admissão (que ainda será construído).
 
 ## 1. Hierarquia de autoridade
 
@@ -27,9 +29,11 @@ Corrida remota: backup ref → remote como canônico → reconcilia **sem force 
 
 ## 4. Merge é capability, não papel (regra única — alinhada ao RACI)
 
-HERMES **executa** merge **já autorizado** em branch de delivery (`awscicd`) só com **mesmo head +
-parecer do Auditor não-autor + 3 required checks verdes + sem conflito/drift**. **Nunca** decide/aprova;
-**nunca** `main`/produção/infra (isso é humano). Merge ≠ deploy ≠ runtime ≠ aceite.
+HERMES **executa** merge **já autorizado** pelo **`A` de merge** (RACI §2.4: **Operador** no não-infra,
+**Bergson** no infra/auth/pipeline — nunca autoaprovação; se o owner escreveu o head, o `A` é o segundo
+decisor) em branch de delivery (`awscicd`) só com **mesmo head + parecer do Auditor não-autor + 3
+required checks verdes + sem conflito/drift**. **Nunca** decide/aprova (não é `A`); **nunca**
+`main`/produção/infra (isso é humano). Merge ≠ deploy ≠ runtime ≠ aceite.
 
 ## 5. Evidência por transição (nunca `success:true`/exit 0/HTTP 200 isolado)
 

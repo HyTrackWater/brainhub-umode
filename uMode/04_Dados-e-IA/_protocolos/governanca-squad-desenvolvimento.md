@@ -129,12 +129,18 @@ Aprovar PR, migration, merge e promoção são ações **diferentes**. **HERMES 
 | Infra / IAM / auth / pipeline | C | · | R | · | C | · | **A** |
 | Implementação (código+testes) | · | · | C | **A** | · | sup | C |
 | Auditoria exact-SHA | · | · | C | · | **A** | evid | C |
-| Merge autorizado | · | · | · | · | parecer | exec | **A** só se infra |
+| Merge autorizado (não-infra) | **A** | · | R | · | parecer | exec | · |
+| Merge autorizado (infra/auth/pipeline) | C | · | R | · | parecer | exec | **A** |
 | Deploy staging/prod | · | · | C | evid | parecer | exec | **A** conforme ambiente |
 | Rollback | · | · | C | · | · | exec | **A** conforme ambiente |
 
-`exec` = HERMES executa uma capability **já autorizada** (não decide). `A` de merge é do Bergson só quando
-toca infra; o resto tem CODEOWNERS por dimensão + Auditor.
+`exec` = HERMES executa uma capability **já autorizada** (não decide, nunca é `A`). **Um único `A` por
+classe de merge:** merge **não-infra** é `A` do **Operador** (owner humano — "aprovar merge" é ação só
+do humano, `CLAUDE_OPERADOR.md`); merge que toca **infra/IAM/auth/pipeline** é `A` do **Bergson**. Em
+ambos, **pré-condições** (não substituem o `A`): parecer do **Auditor não-autor** + **CODEOWNERS por
+dimensão** + **3 required checks verdes @ mesmo head** + sem conflito. **Sem autoaprovação:** o `A` de
+merge **nunca é quem escreveu o head** — se o próprio owner vibecodou o head, o `A` passa ao **segundo
+decisor** (readiness gate, `HERMES_TRAINING.md` §2). O **Auditor é só parecer, nunca `A`**.
 
 ## §3 — Premissas de desenvolvimento (as regras travadas)
 
@@ -260,8 +266,10 @@ flowchart LR
 ### 6.2 A esteira estado a estado (enriquecimento do parecer)
 
 A constituição de PR vira **esteira executável**: cada transição tem owner, identidade (base/head/tree
-SHA), evidência e recuperação. **Nenhum estado implica o próximo automaticamente.** Núcleo **vigente**
-(implementável já com disciplina + branch protection) vs. `ALVO` (entra quando houver pipeline).
+SHA), evidência e recuperação. **Nenhum estado implica o próximo automaticamente.** Núcleo **aplicável
+já por disciplina humana + branch protection** — mas **ainda NÃO travado por máquina** (`ci.yml`/required
+checks e o rito de admissão são **`ALVO`**, não existem hoje; parecer C1) — vs. `ALVO` puro (entra
+quando houver pipeline). "Aplicável por disciplina" ≠ "em vigor automático".
 
 ```mermaid
 flowchart LR

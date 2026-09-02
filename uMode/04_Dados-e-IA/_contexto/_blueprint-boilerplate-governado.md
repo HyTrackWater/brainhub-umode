@@ -19,8 +19,9 @@ Regra da casa ("a lacuna vem antes da conquista"): o que falta, antes do que fec
   (o rito de admissão do vault). Formalizar como protocolo é passo posterior.
 - **Não decide a árvore de permissão fina** (quem aprova o quê no CI) — depende de decisão do João/Bergson.
 - **Cobertura, em número:** 5 repos de produção lidos 100% campo a campo (via relay CODEX, com
-  commit+sha por repo, tabela abaixo) + 2 repos da era Lovable + a constituição do vault. **1 repo
-  citado e não lido:** `actions-shared`.
+  commit+sha por repo, tabela abaixo) + 2 repos da era Lovable + a constituição do vault + o
+  `actions-shared` (o gate, lido campo a campo em 01 set 2026, commit `5d82fa2`, §5.4). **Zero repos
+  citados e não lidos.**
 
 ## §1 — Fontes lidas (procedência)
 
@@ -179,11 +180,14 @@ Três camadas, do mais barato ao mais caro, e **determinístico antes de LLM** (
    CLAUDE.md) + **security gate**. **Sem os 3 verdes, não há merge.** Aqui o protocolo deixa de ser
    confiança e vira máquina.
 
-### 5.3 Como o operador cria um projeto novo
-Template repository → "Use this template" → o novo repo **já nasce** com os gates, os contratos, o
+### 5.3 Como o operador cria um projeto novo — **ALVO** (ainda não construído; roadmap §8 item 3)
+> Estado-alvo, não vigente: o Template repository governado **ainda não existe** — o `fullstack-boilerplate`
+> hoje **não tem** os 3 gates (§5.1). Isto descreve o que ele **deve** entregar quando endurecido.
+
+Template repository → "Use this template" → o novo repo **deverá nascer** com os gates, os contratos, o
 design system e o plugue do gateway. O operador vibecoda em `apps/web`; toca `apps/server` sob o
-padrão; **não consegue mergear nada que fure o lint/tsc/test/Marvin/security.** É o "Lovable, mas na
-stack da uMode, com auditoria".
+padrão; **não deverá conseguir mergear nada que fure o lint/tsc/test/Marvin/security.** É o "Lovable,
+mas na stack da uMode, com auditoria" — o **alvo** deste ciclo.
 
 ### 5.4 A mecânica do gate `actions-shared` (lido — `5d82fa2` [C])
 

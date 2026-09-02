@@ -5,11 +5,13 @@
 > `_contexto/_blueprint-boilerplate-governado.md` (a espec). Base: lido campo a campo nos repos de
 > produção UmodeApp + era Lovable + vault. Autoridade de conteúdo: CEO (João Risoléo).
 >
-> **Como virar arquivo de boilerplate:** cada seção §2–§6 é um contrato copiável. **`PENDING_MIGRATION`
-> (parecer 2026-09-02):** a topologia-alvo é **AGENTS-first** — `AGENTS.md` é o único bootstrap
-> auto-descoberto, os papéis vão para `governance/roles/` (inclui o novo `AUDITOR.md`), o `CLAUDE.md`
-> vira adaptador, e o HERMES sai da raiz: o contrato persistente da esteira é o **`HERMES_TRAINING.md`**
-> (não um `HERMES.md` concatenado). Hoje os arquivos encenados em `_boilerplate/` estão em transição —
+> **Como virar arquivo de boilerplate:** os **5 papéis-contrato copiáveis** são §2–§6
+> (OPERADOR/DIRETOR/CTO/PROGRAMADOR/**AUDITOR**); o **HERMES é contrato de SISTEMA (§7), não papel** —
+> não entra em `governance/roles/`. **`PENDING_MIGRATION` (parecer 2026-09-02):** a topologia-alvo é
+> **AGENTS-first** — `AGENTS.md` é o único bootstrap auto-descoberto, os **5 papéis** vão para
+> `governance/roles/` (inclui o novo `AUDITOR.md`), o `CLAUDE.md` vira adaptador, e o HERMES sai da
+> raiz: o contrato persistente da esteira é o **`HERMES_TRAINING.md`** (não um `HERMES.md` concatenado,
+> e não um arquivo em `governance/roles/`). Hoje os arquivos encenados em `_boilerplate/` estão em transição —
 > as **contradições de papel** (auto-auditoria do CTO, PRD×ADR, regra de merge) foram corrigidas no
 > corpus; a **migração de pastas** (topologia AGENTS-first) e o **varrimento regra-a-regra dos claims
 > absolutos** seguem **P1** (abertos), e o **P0.1** (auth server-side) permanece aberto.
@@ -173,10 +175,29 @@ próprio autor, nunca o CTO sobre um head que ele mesmo escreveu.
 
 ---
 
-## §6 — Contrato: HERMES (esteira) — `HERMES.md` `[P]`
+## §6 — Contrato: AUDITOR INDEPENDENTE (`AUDITOR.md`)
 
-> Não é um dos papéis de decisão; é a **esteira** que faz a máquina girar. Herda a disciplina do
-> HERMES do vault, agora estendida a código.
+> O **quinto papel** — cadeira **não-autor**. Emite o parecer sobre o head de quem **não** o escreveu.
+> Criado no parecer 2026-09-02 para fechar a auto-revisão que o CTO acumulava. **Não é um 6º humano
+> fixo nem headcount novo** — o invariante é "**não-autor + exact-SHA**". Base: parecer 2026-09-02 `[P]`.
+
+**PODE:** emitir parecer **exact-SHA** (base/head/tree) sobre spec, código e segurança; classificar
+`APROVA` / `CHANGE_REQUIRED`; exigir evidência; ler tudo do candidato.
+
+**NÃO PODE:** **editar o candidato** (não é executor); **auditar um head que ele mesmo escreveu**;
+**aprovar merge** (isso é capability de merge — ver §7/`HERMES_TRAINING.md`); decidir produto ou arquitetura.
+
+**DEVE:** confirmar **identidade** (repo/branch/base/head/tree SHA + clean state) antes do parecer —
+commit novo **invalida** o parecer; entregar **parecer estruturado** (checagens com citação
+`arquivo:linha` + veredito, nunca "parece ok"); rodar o **checklist de review** do `CLAUDE.md`;
+separar `CANDIDATE_CLEAN` (delta do PR) de residual global e de prova em runtime. **Onde entra:** entre
+`LOCAL_GREEN` e os 3 required checks — `INDEPENDENT_REVIEW_PASS` é pré-condição do merge, no mesmo head.
+
+## §7 — Contrato de SISTEMA: HERMES (esteira) — **não é papel** — `HERMES_TRAINING.md` `[P]`
+
+> **Não é um dos 5 papéis de decisão** e **não vai para `governance/roles/`**; é a **esteira** (sistema)
+> que faz a máquina girar. Herda a disciplina do HERMES do vault, agora estendida a código. O contrato
+> persistente é o **`HERMES_TRAINING.md`** (o `HERMES.md` de raiz sai na migração AGENTS-first, P1).
 
 **PODE:** ronda periódica (auditoria de drift/duplicação — ver resposta de CTO §3 abaixo), digests,
 dispatch de agentes existentes, **auto-doc**, e **promoção assistida de conteúdo SEGURO** — só se este
@@ -202,7 +223,7 @@ Terminou → PR → 3 required checks @ mesmo head → parecer do Auditor → CO
 verdes. "Escala" = toca fundação, schema, auth, produção ou é ambíguo → decisão humana antes. Detalhe
 completo no `HERMES_TRAINING.md`.
 
-## §7 — Governança deste documento
+## §8 — Governança deste documento
 Autoridade: CEO (João Risoléo); decisões de execução, João/Bergson. Companion:
 `governanca-squad-desenvolvimento.md` · `_contexto/_blueprint-boilerplate-governado.md`.
 

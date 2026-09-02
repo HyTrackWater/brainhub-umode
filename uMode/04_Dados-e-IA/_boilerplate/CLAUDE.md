@@ -26,8 +26,9 @@ rodar o gate de testes; atualizar a doc de estado. Implementar/testar/liberar é
 e **se o CTO implementar um head, perde o papel de auditor daquele head** (vai para o Auditor não-autor).
 
 **NÃO PODE:** alterar configuração estrutural (`config`, `.env`, integração base, schema de tabela
-central) sem alinhar com o Operador/Bergson; decidir jornada de produto sem espec explícita; **fazer
-merge sem os checks verdes e aprovação**.
+central) sem alinhar com o Operador/Bergson; decidir jornada de produto sem espec explícita; **autorizar
+o merge** — o CTO **não é o `A` de merge** (define o padrão e o ADR; o `A` é do **Operador** no merge
+não-infra e do **Bergson** no merge infra/auth/pipeline, nunca autoaprovação — ver RACI §2.4).
 
 ## DEVE
 
