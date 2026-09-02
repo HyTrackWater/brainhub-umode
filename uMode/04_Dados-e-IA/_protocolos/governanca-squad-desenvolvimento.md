@@ -46,11 +46,12 @@ tratado em `_espec-banco-brainhub.md`.
 
 ## §2 — Os personagens
 
-A squad tem **duas camadas de personagens**: os **papéis-contrato** (quem decide/executa/opera, herdados
-da era Lovable) e as **oito dimensões funcionais** (as especialidades que a arquitetura exige). Cada
-dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a trava.
+A squad tem **duas camadas de personagens**: os **5 papéis-contrato** (quem decide/executa/opera,
+herdados da era Lovable) e as **oito dimensões funcionais** (as especialidades que a arquitetura exige).
+O **HERMES não é papel** — é sistema/automação (§2.1-bis). Cada dimensão tem um **dono**, uma **camada
+de código** e um **guardrail** que a trava.
 
-### 2.1 Papéis-contrato (arquivos lidos no início de toda sessão)
+### 2.1 Os 5 papéis-contrato (arquivos lidos no início de toda sessão)
 
 | Papel | Arquivo-contrato | Quem é | Pode / Não pode |
 |---|---|---|---|
@@ -59,7 +60,15 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 | **CTO / Líder técnico** | `CLAUDE.md` | **agente** (não é o Bergson) | Desenha o *como*, dono da doc de papéis. **NÃO audita o próprio head** (isso é do Auditor). Não altera fundação sem alinhar. |
 | **Programador** | `AGENTS.md` + `.claude/*` + `.cursor/rules` | esteira **HERMES** · **Codex** · **Claude Code** | Escreve sob lint-as-código + design system. Regra anti-reversão. **Não aprova o próprio head.** |
 | **Auditor Independente** | `governance/roles/AUDITOR.md` `[P]` | cadeira **não-autor** (agente-auditor ou pessoa ≠ autor) | Parecer **exact-SHA** sobre spec/código/segurança de quem não escreveu o head. Não edita o candidato. |
-| **HERMES** | `HERMES_TRAINING.md` `[P]` | **sistema / esteira** | Aplica transições **já autorizadas**; Guarda determinística, heartbeat, leases. **Nunca é "A" no RACI**; não decide canonicidade nem produto. |
+
+> São **5 papéis** (Operador, Diretor, CTO, Programador, Auditor). O **HERMES não entra nesta tabela** —
+> ver §2.1-bis.
+
+### 2.1-bis — HERMES: sistema/automação (**não é papel-contrato**)
+
+| Sistema | Contrato | O que é | Pode / Não pode |
+|---|---|---|---|
+| **HERMES** | `HERMES_TRAINING.md` `[P]` | **esteira / automação** (não vai para `governance/roles/`) | Aplica transições **já autorizadas**; Guarda determinística, heartbeat, leases. **Nunca é "A" no RACI**; não decide canonicidade, merge nem produto — só **executa** o que já foi autorizado. |
 
 > **Fora do elenco de execução, dois pontos fixos:** o **Bergson** é o **arquiteto dos MDs de
 > treinamento, governança e segurança de infra** (autoridade sobre o padrão e destino de escalonamento,
@@ -139,8 +148,11 @@ classe de merge:** merge **não-infra** é `A` do **Operador** (owner humano —
 do humano, `CLAUDE_OPERADOR.md`); merge que toca **infra/IAM/auth/pipeline** é `A` do **Bergson**. Em
 ambos, **pré-condições** (não substituem o `A`): parecer do **Auditor não-autor** + **CODEOWNERS por
 dimensão** + **3 required checks verdes @ mesmo head** + sem conflito. **Sem autoaprovação:** o `A` de
-merge **nunca é quem escreveu o head** — se o próprio owner vibecodou o head, o `A` passa ao **segundo
-decisor** (readiness gate, `HERMES_TRAINING.md` §2). O **Auditor é só parecer, nunca `A`**.
+merge **nunca é quem escreveu o head**. **Cadeira de fallback determinística:** se o Operador-owner
+vibecodou o próprio head, o `A` passa a **outro Operador humano nomeado do projeto** (João, Vinícius ou
+Pedro — o primeiro da lista do projeto que **não** seja o autor); **não havendo** segundo Operador
+disponível, escala ao **Bergson** como backstop humano. Nunca a um "decisor" anônimo, nunca ao autor,
+nunca ao Auditor. O **Auditor é só parecer, nunca `A`**.
 
 ## §3 — Premissas de desenvolvimento (as regras travadas)
 
@@ -179,9 +191,10 @@ nas mensagens de commit de produto.
 ## §4 — O padrão (o boilerplate-template)
 
 Não se cria projeto do zero: parte-se do **`umode-fullstack-boilerplate` endurecido** como *template
-repository*. "Use this template" → o repo novo **já nasce** com: os contratos de papel (Operador,
-Diretor, CTO, Programador, Auditor) + o HERMES como sistema, o lint-as-código,
-o design system, o plugue do gateway, e os **3 gates de auditoria** (§6). Estrutura fixa:
+repository*. **ALVO — o boilerplate endurecido ainda NÃO existe** (o `fullstack` hoje não tem os gates;
+`ci.yml` é `[P]`, §Deploy/§6). Quando endurecido: "Use this template" → o repo novo **deverá nascer**
+com os contratos de papel (Operador, Diretor, CTO, Programador, Auditor) + o HERMES como sistema, o
+lint-as-código, o design system, o plugue do gateway, e os **3 gates de auditoria** (§6). Estrutura fixa:
 `apps/web` (Next) + `apps/server` (Nest) + `.env` único na raiz. Módulo = **fatia vertical**
 (schema → DTO → repository → service → controller → interface → repository front → store → hook → tela).
 Nomenclatura: arquivos kebab-case, classes PascalCase com sufixo, tudo em inglês.

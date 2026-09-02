@@ -125,27 +125,32 @@ read-only não-autor (M4).
 | Infra / IAM / rede / auth / pipeline | C | C | R | I | C | I | **A** |
 | Implementação (código, testes) | I | I | C | **A/R** | I | suporte | C |
 | Auditoria exact-SHA | I | I | C | I | **A/R** | evidência | C |
-| Merge autorizado | I | I | I | I | parecer | executor | **A** só se infra |
+| Merge autorizado (não-infra) | **A** | I | R | I | parecer | executor | I |
+| Merge autorizado (infra/auth/pipeline) | C | I | R | I | parecer | executor | **A** |
 | Deploy staging/prod | I | I | C | evidência | parecer | executor | A conforme ambiente |
 | Aceite funcional | **A** | R | C | I | I | registra | I |
 | Rollback | I | I | C | I | I | executor | **A** conforme ambiente |
 
 Invariante: **quem escreveu o head não emite o parecer desse head** (mata a auto-revisão do CTO).
+**Fallback determinístico do `A` não-infra:** se o Operador-owner escreveu o head, o `A` é **outro
+Operador nomeado ≠ autor**, ou o **Bergson** como backstop; nunca autoaprovação, nunca o Auditor.
 
 ---
 
 # 4. State machine final recomendada (núcleo vigente + alvo)
 
-**Vigente já (implementável sem pipeline novo, só disciplina + branch protection):**
+**Aplicável já por disciplina humana + branch protection** (não trava por máquina; sem pipeline novo):
 ```text
 INTENT_RECORDED → READINESS_PASS → SCOPE_APPROVED → TECH_PLAN_APPROVED
 → BRANCH_LEASED → RED_OBSERVED → LOCAL_GREEN → INDEPENDENT_REVIEW_PASS
-→ FULL_GATES_PASS(ci-deterministic, policy-semantic, security @ mesmo head)
-→ PR_CI_PASS_EXACT_SHA → MERGE_AUTHORIZED → DEPLOYED_STAGING
-→ RUNTIME_READBACK_PASS → OWNER_ACCEPTED → LEARNING_PROMOTED → CLOSED
+→ MERGE_AUTHORIZED → DEPLOYED_STAGING → RUNTIME_READBACK_PASS
+→ OWNER_ACCEPTED → LEARNING_PROMOTED → CLOSED
 ```
-**Alvo (marcar ALVO até haver pipeline):** `RELEASE_CANDIDATE_ATTESTED` (digest/SBOM), `PREDEPLOY_DRIFT_PASS`,
-`PROD_CANARY_PASS`, `PROD_EXPANDED`, `ROLLBACK_PROVEN`.
+**ALVO — dependem de pipeline que NÃO existe hoje** (`ci.yml`/required checks/attestation): os estados de
+gate determinístico **`FULL_GATES_PASS(ci-deterministic, policy-semantic, security @ mesmo head)`** e
+**`PR_CI_PASS_EXACT_SHA`** (pré-condição de merge quando existirem), mais `RELEASE_CANDIDATE_ATTESTED`
+(digest/SBOM), `PREDEPLOY_DRIFT_PASS`, `PROD_CANARY_PASS`, `PROD_EXPANDED`, `ROLLBACK_PROVEN`.
+**Disciplina humana não torna um check inexistente `PASS`.**
 
 **Laterais (entram já, são baratos):** `READINESS_BLOCKED`, `CHANGE_REQUIRED`, `CI_RED`,
 `WAITING_CAUSAL_EVIDENCE`, `BLOCKED_DRIFT`, `EVIDENCE_UNKNOWN`, `ROLLED_BACK`, `INCIDENT_OPEN`,

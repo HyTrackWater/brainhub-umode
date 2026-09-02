@@ -30,8 +30,9 @@ Corrida remota: backup ref → remote como canônico → reconcilia **sem force 
 ## 4. Merge é capability, não papel (regra única — alinhada ao RACI)
 
 HERMES **executa** merge **já autorizado** pelo **`A` de merge** (RACI §2.4: **Operador** no não-infra,
-**Bergson** no infra/auth/pipeline — nunca autoaprovação; se o owner escreveu o head, o `A` é o segundo
-decisor) em branch de delivery (`awscicd`) só com **mesmo head + parecer do Auditor não-autor + 3
+**Bergson** no infra/auth/pipeline — nunca autoaprovação; se o owner escreveu o head, o `A` é **outro
+Operador humano nomeado do projeto ≠ autor**, ou o **Bergson** como backstop se não houver segundo
+Operador) em branch de delivery (`awscicd`) só com **mesmo head + parecer do Auditor não-autor + 3
 required checks verdes + sem conflito/drift**. **Nunca** decide/aprova (não é `A`); **nunca**
 `main`/produção/infra (isso é humano). Merge ≠ deploy ≠ runtime ≠ aceite.
 
