@@ -264,7 +264,7 @@ vira verificável — um `ControlledButton` reescrito à mão no `apps/web` é d
 liberdade de tela. Candidato a regra explícita no `CLAUDE.md` do boilerplate (logo, pegável pelo Marvin
 no diff — §5.4) e a entrada no `SISTEMAS.md` (§7): *o UI kit da casa já existe; não se reconstrói.*
 
-## §6 — Os contratos de papel (elenco desta fase — 5 papéis + Auditor; HERMES é sistema)
+## §6 — Os contratos de papel (elenco desta fase — 5 papéis, Auditor incluído; HERMES é sistema)
 
 Esboço; o texto final entra no boilerplate. Elenco travado pelo Vinicius: HERMES é a esteira de
 produção (e um dos executores do Programador, junto de Codex e Claude Code); o CTO/líder técnico é um
@@ -290,8 +290,6 @@ de orquestração humana ganha mais pessoas depois desta fase.
 - **`CLAUDE_OPERADOR.md` — Operador humano** (João, Vinícius, Pedro). Perfil + glossário risolês; "não
   muda por projeto". Decide prioridade/jornada; valida entrega; **não** presume aprovação sem
   especificar. **Novos operadores entram pelo rito de admissão do vault (§3.2).** Base: planejai [C].
-- **`AUDITOR.md` — Auditor Independente** `[P]`. Cadeira não-autor: parecer exact-SHA do head de quem
-  não o escreveu. Quem escreveu não audita.
 - **HERMES** — não é papel de decisão; é a **esteira** (sistema): ronda, digests, dispatch, e **executa
   merge já autorizado** sob lease (nunca decide/aprova; nunca `main`/prod/infra). Contrato: `HERMES_TRAINING.md`.
   Levar à produção = contrato próprio que inclua os repos de código, sob Guarda determinística. `[P]`
@@ -309,7 +307,7 @@ vault → é do João/HERMES, não nossa — proposta, não execução). Também
 ## §8 — Roadmap sugerido (sequência, não prazo)
 
 1. ~~Ler `actions-shared`~~ ✅ feito (§5.4).
-2. ~~Escrever os contratos de papel~~ ✅ feito (5 papéis + `AUDITOR.md` + `HERMES_TRAINING.md`; HERMES é sistema).
+2. ~~Escrever os contratos de papel~~ ✅ feito (5 papéis, Auditor incluído; HERMES é sistema, contrato `HERMES_TRAINING.md`).
 3. **Endurecer o fullstack-boilerplate** (§5.1): os 3 gates (Marvin + security + `ci.yml` novo) +
    branch protection (required checks) + CODEOWNERS + PR template + husky/lint-staged/commitlint.
 4. **Piloto:** João/Vinícius/Pedro criam 1 projeto do template e tentam furar o protocolo — o gate

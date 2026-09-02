@@ -20,7 +20,7 @@ Registrar, se o João concordar, na tabela §8 e/ou como decisão datada:
 ```
 ### Governança da Squad de Desenvolvimento (SmartCoding)  [origem: brainhub-umode repo vivo]
 - governanca-squad-desenvolvimento.md — a constituição da esteira (papéis, RACI, 8 dimensões, gates, state machine)
-- treinamento-e-contratos-squad.md — os papéis-contrato (5 + Auditor; HERMES é sistema)
+- treinamento-e-contratos-squad.md — os papéis-contrato (5, Auditor incluído; HERMES é sistema)
 - contratos-agentes-por-dimensao.md — os 8 contratos de agente
 - _blueprint-boilerplate-governado.md — a espec do boilerplate governado
 - _boilerplate/ — contratos-raiz em transição (CLAUDE_OPERADOR/DIRETOR/CLAUDE/AGENTS + AUDITOR + HERMES_TRAINING; HERMES.md sai da raiz na migração AGENTS-first, P1) — PENDING_MIGRATION, não drop-in
