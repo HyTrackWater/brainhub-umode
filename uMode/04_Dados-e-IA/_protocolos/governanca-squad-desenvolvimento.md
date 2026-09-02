@@ -18,6 +18,19 @@
 - **A árvore de permissão fina** (quem aprova o quê, CODEOWNERS exato) fica `[D]` do João/Bergson.
 - **O contrato do HERMES para código** (hoje ele é esteira do vault) é `[P]` — não existe ainda.
 
+## §0-bis — Estado de cada controle (regra de honestidade — parecer 2026-09-02)
+
+Todo controle deste documento é um de três estados. **Diagrama ou check local não é enforcement.**
+Este documento **nunca descreve no presente** um gate que está em `ALVO`.
+
+- `ALVO` — desenhado, **sem enforcement**.
+- `IMPLEMENTADO` — código/config existe.
+- `ATIVO E VERIFICADO` — required no repo/ambiente **+ lido de volta com evidência e data**.
+
+O método da squad é o **SmartCoding** (nome autoral uMode — nunca "Vibe Coding"; `identidade-verbal` do vault).
+Companion vivo desta versão: `parecer-smartcoding-esteira-2026-09-02.md` (revisão adversarial do pacote
+HERMES, PR #15 do `umode-os-vault`).
+
 ## §1 — Objetivo e escopo
 
 Permitir que **operadores de negócio experientes** (João, Vinícius, Pedro e futuros) criem software na
@@ -43,9 +56,10 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 |---|---|---|---|
 | **Operador** | `CLAUDE_OPERADOR.md` | João, Vinícius, Pedro (humanos) | Traz demanda, decide prioridade/jornada, valida entrega. Não presume aprovação sem especificar. |
 | **Diretor de Produto** | `CLAUDE_DIRETOR.md` | Claude (Project) | Escreve PRD/ADR, pensa por quê/o quê, prioriza. Não commita, não roda SQL, não deploya. |
-| **CTO / Líder técnico** | `CLAUDE.md` | **agente** (não é o Bergson) | Desenha o *como*, audita, dono da doc de papéis. Não altera fundação estrutural sem alinhar. |
-| **Programador** | `AGENTS.md` + `.claude/*` + `.cursor/rules` | esteira **HERMES** · **Codex** · **Claude Code** | Escreve sob lint-as-código + design system. Regra anti-reversão. Não inventa padrão novo. |
-| **HERMES** (esteira) | `HERMES.md` (contrato próprio) `[P]` | esteira de produção | O trilho até produção **e** um dos executores do Programador. Ronda, digests, auto-doc sob Guarda determinística. Não decide canonicidade sozinho. |
+| **CTO / Líder técnico** | `CLAUDE.md` | **agente** (não é o Bergson) | Desenha o *como*, dono da doc de papéis. **NÃO audita o próprio head** (isso é do Auditor). Não altera fundação sem alinhar. |
+| **Programador** | `AGENTS.md` + `.claude/*` + `.cursor/rules` | esteira **HERMES** · **Codex** · **Claude Code** | Escreve sob lint-as-código + design system. Regra anti-reversão. **Não aprova o próprio head.** |
+| **Auditor Independente** | `governance/roles/AUDITOR.md` `[P]` | cadeira **não-autor** (agente-auditor ou pessoa ≠ autor) | Parecer **exact-SHA** sobre spec/código/segurança de quem não escreveu o head. Não edita o candidato. |
+| **HERMES** | `HERMES_TRAINING.md` `[P]` | **sistema / esteira** | Aplica transições **já autorizadas**; Guarda determinística, heartbeat, leases. **Nunca é "A" no RACI**; não decide canonicidade nem produto. |
 
 > **Fora do elenco de execução, dois pontos fixos:** o **Bergson** é o **arquiteto dos MDs de
 > treinamento, governança e segurança de infra** (autoridade sobre o padrão e destino de escalonamento,
@@ -60,7 +74,7 @@ dimensão tem um **dono**, uma **camada de código** e um **guardrail** que a tr
 | **Front** | Programador + Operador | `apps/web` (Next App Router, **`@umodeapporg/ui`** — sem shadcn; canônico `umode-frontend-boilerplate-nextjs`) [C]/[D] | eslint-rules próprias: `no-any`, `no-portuguese`, `no-literal-jsx` (i18n obrigatório) |
 | **Dados & IA** | área Dados & IA | agentes, RAG, contexto, BrainHub | contratos de agente + rito de admissão (vault) |
 | **Banco de Dados** | CTO (agente) — desenho | Mongo (Mongoose, multi-cluster nomeado, collection nasce no 1º write) + Redis (cache-aside, TTL obrigatório) + relacional/ERP [C] | Repository é o único acesso; chave Redis `PROJECT:MODULE:ID`; `.lean()` em leitura |
-| **Deploy** | HERMES / infra | Amplify (web) + CodeBuild/Procfile (server) + registro downstream no gateway [C] | branch protection (required checks verdes antes do merge) `[P]` |
+| **Deploy** | HERMES / infra | Amplify (web) + CodeBuild/Procfile (server) + registro downstream no gateway [C runtime] | branch protection + required checks: **`[P]` — ainda NÃO vigente** (o `ci.yml` não existe; parecer C1) |
 | **Segurança** | security-gate + Bergson (infra) | Cognito (auth unificada), `PartnerScopeGuard` (multi-tenant), segredos fora do repo [C] | **gitleaks** (segredos) + **semgrep** (OWASP/SAST) no PR; auth via gateway, nunca própria |
 | **Integração** | squad de integração | `microservice-integration`, Lambdas, proxy `services/<nome>`, config por partner, conectores ERP [C] | allowlist de campo ao espelhar API externa (lição catalog-ai); `INTEGRATION_ID` rastreado |
 | **Documentação** | documentation-agent + HERMES | `documentation-agent`/`typedoc` → PR; `CLAUDE.md`/`AGENTS.md`/`docs/`; BrainHub [C] | auto-doc em PR isolado; front-matter; `SISTEMAS.md` (D66) |
@@ -93,12 +107,32 @@ flowchart TB
 
     PROG --- DIM
     GATES{{"⛔ GATES DE AUDITORIA<br/>(§6)"}}
-    GATES -->|verde| MERGE["merge → deploy"]
+    GATES -->|3× verde @ mesmo head| MERGE["merge autorizado<br/>(≠ deploy ≠ aceite)"]
     GATES -->|vermelho| PROG
     MERGE -->|aprendizado / incidente| HERMES
     HERMES -->|atualiza MDs / regras| CTO
     HERMES -.->|catálogo / contexto| DOC
 ```
+
+### 2.4 Autoridade por transição (RACI) — parecer 2026-09-02
+
+**Invariante que fecha a auto-revisão: quem escreveu o head não emite o parecer desse head.**
+Aprovar PR, migration, merge e promoção são ações **diferentes**. **HERMES nunca é `A`** (é sistema).
+
+| Atividade | Operador | Diretor | CTO | Program. | Auditor | HERMES | Bergson |
+|---|---|---|---|---|---|---|---|
+| Prioridade / aceite funcional | **A** | R | C | · | · | · | · |
+| PRD / critério de aceite | C | **A** | C | · | · | · | · |
+| Desenho não-infra | C | C | **A** | C | · | · | · |
+| Infra / IAM / auth / pipeline | C | · | R | · | C | · | **A** |
+| Implementação (código+testes) | · | · | C | **A** | · | sup | C |
+| Auditoria exact-SHA | · | · | C | · | **A** | evid | C |
+| Merge autorizado | · | · | · | · | parecer | exec | **A** só se infra |
+| Deploy staging/prod | · | · | C | evid | parecer | exec | **A** conforme ambiente |
+| Rollback | · | · | C | · | · | exec | **A** conforme ambiente |
+
+`exec` = HERMES executa uma capability **já autorizada** (não decide). `A` de merge é do Bergson só quando
+toca infra; o resto tem CODEOWNERS por dimensão + Auditor.
 
 ## §3 — Premissas de desenvolvimento (as regras travadas)
 
@@ -165,13 +199,18 @@ determinístico vem antes do LLM** (a Guarda de Governança do HERMES é script,
 1. **Editor (enquanto escreve):** `.cursor/rules` + `CLAUDE.md`/`AGENTS.md` orientam o agente/operador.
 2. **Pré-commit (local):** husky + lint-staged rodam o lint-as-código (`no-any`, i18n, `no-portuguese`).
    O erro aparece na hora, não no PR. `[P]`
-3. **CI (no PR, required checks — sem os três verdes, não há merge):**
-   - **`ci.yml`** (determinístico, o mais barato): `lint` + `tsc --noEmit` + `test` + `build` nos dois
+3. **CI (no PR, três required checks nomeados, todos no MESMO head — qualquer commit novo invalida os três):**
+   - **`ci-deterministic`** (`ci.yml`, o mais barato): `lint` + `tsc --noEmit` + `test` + `build` nos dois
      apps. **É a peça que o `actions-shared` não cobre e precisa ser criada.** `[P]`
-   - **Marvin** (`pr-claude-md-gate`): um LLM barato (GitHub Models, gpt-4o-mini, `temperature 0`) lê o
-     **diff do PR** contra o `CLAUDE.md` e retorna JSON `{compliant, violations[]}`; comenta sticky e
-     **falha o check** em violação (`mode: block`). Valida *conformidade com a regra escrita*. `[C]`
-   - **Segurança** (`pr-security-gate`): semgrep + gitleaks. `[C]`
+   - **`policy-semantic`** (Marvin, `pr-claude-md-gate`): LLM (GitHub Models, gpt-4o-mini, `temperature 0`)
+     lê o **diff** contra o `CLAUDE.md` → `{compliant, violations[]}`, sticky, **block** em violação. **É
+     review semântica versionada, NÃO determinismo** — temperatura 0 não é determinismo. Deve registrar
+     model/prompt/rules SHA + schema; vale a nossa própria regra "IA não valida em 1 rodada só" (parecer
+     C2): ou é advisory, ou é versionado com política de repetição. `[C]`
+   - **`security`** (`pr-security-gate`): semgrep + gitleaks no delta. `[C]`
+
+   **Merge ≠ deploy ≠ runtime ≠ aceite** (parecer P0.5). O **Auditor Independente** (não-autor, exact-SHA)
+   emite parecer **antes** dos gates; o **aceite** é sempre decisão autenticada de um humano.
 
 **Consequência de desenho:** o Marvin julga **o diff, não o repo inteiro**, e é um LLM literal —
 então **o `CLAUDE.md` tem que ser explícito, enumerável e verificável no diff** para o gate ter dente.
@@ -198,18 +237,45 @@ flowchart LR
         SEC["Segurança<br/>semgrep + gitleaks"]
     end
 
-    REVIEW["Code review humano<br/>Bergson + CODEOWNERS"]
-    MERGE{{"Todos verdes?"}}
-    DEPLOY["Deploy<br/>Amplify · CodeBuild<br/>downstream no gateway"]
+    AUDIT["Auditor independente<br/>exact-SHA · não-autor"]
+    REVIEW["Code review humano<br/>CODEOWNERS por dimensão"]
+    MERGE{{"3× verde @ MESMO head?"}}
+    STG["Deploy staging<br/>Amplify · CodeBuild"]
+    RB["Runtime readback<br/>request real · redigido"]
+    ACC["Aceite<br/>owner humano"]
+    PROD["Prod autorizado<br/>+ readback"]
 
-    DEV --> R1 --> R2 --> PR --> CI
+    DEV --> R1 --> R2 --> PR --> AUDIT --> CI
     CIYML --> MERGE
     MARVIN --> MERGE
     SEC --> MERGE
     PR --> REVIEW --> MERGE
-    MERGE -->|sim| DEPLOY
-    MERGE -->|não · comentário sticky| DEV
+    MERGE -->|sim| STG --> RB --> ACC --> PROD
+    MERGE -->|não · sticky| DEV
 ```
+
+### 6.2 A esteira estado a estado (enriquecimento do parecer)
+
+A constituição de PR vira **esteira executável**: cada transição tem owner, identidade (base/head/tree
+SHA), evidência e recuperação. **Nenhum estado implica o próximo automaticamente.** Núcleo **vigente**
+(implementável já com disciplina + branch protection) vs. `ALVO` (entra quando houver pipeline).
+
+```mermaid
+flowchart LR
+    A["1 INTENT"] --> B["2 READINESS"] --> C["3 SCOPE OK"] --> D["4 PLAN OK"] --> E["5 LEASE<br/>(sem lease = read-only)"]
+    E --> F["6 RED"] --> G["7 LOCAL GREEN"] --> H["8 AUDIT independente<br/>não-autor · exact-SHA"]
+    H --> I["9 3 CHECKS @head<br/>ci-det · policy · security"] --> J["10 PR CI @head"] --> K["11 MERGE autorizado"]
+    K --> L["12 DEPLOY staging"] --> M["13 RUNTIME readback"] --> N["14 ACEITE (owner humano)"]
+    N --> O["15 LEARNING + supersession"] --> P["16 CLOSED"]
+
+    ALVO["ALVO (quando houver pipeline):<br/>release-attested · drift · canário · rollback-proven"]
+    EXC["Exceções: READINESS_BLOCKED · CHANGE_REQUIRED · CI_RED<br/>WAITING_CAUSAL_EVIDENCE · ROLLED_BACK · SUPERSEDED · DECLINED"]
+    L -.-> ALVO
+```
+
+**Merge ≠ deploy ≠ runtime ≠ aceite.** "3× verde" só conta no mesmo head. O Auditor (8) entra antes dos
+gates; o aceite (14) é sempre humano. Publicar a máquina inteira antes do `ci.yml` existir seria controle
+decorativo — por isso os estados de attestation/canário ficam `ALVO`.
 
 ## §7 — Retroalimentação: aprender e atualizar os MDs
 
@@ -272,6 +338,30 @@ Do mundo `HyTrackWater` (era Lovable + vault do João), o que **soma** à govern
   repos HyTrackWater). `[P]`
 - **Os 4 papéis-contrato e o glossário risolês** (`CLAUDE_OPERADOR.md`) — a linguagem e o modo de
   decidir do João, que não mudam por projeto.
+
+## §8-bis — Plano de migração (sem big-bang — parecer 2026-09-02)
+
+**P0 (agora, barato, destrava o essencial):**
+1. **Tirar conteúdo interno do `public/` do Lovable** — a página de governança expõe o perfil do
+   Operador num asset público atrás de gate só client-side (parecer **P0.1**). Classificar `INTERNAL`;
+   auth server-side ou tirar do ar. **Decisão do João. É o item nº 1.**
+2. **Construir o `ci.yml`** determinístico + branch protection real (infra → **Bergson**). Sem ele, o
+   resto é decoração.
+3. **Auditor Independente** (cadeira não-autor, exact-SHA) + o invariante "não-autor audita" — quem
+   preenche a cadeira hoje é decisão João/Bergson.
+4. **Ausência de lease = read-only** (regra de uma linha).
+5. Etiquetar `ALVO`/`IMPLEMENTADO`/`ATIVO` em todo controle e corrigir os claims no presente (parecer
+   A3, C1).
+
+**P1:** topologia AGENTS-first (`AGENTS.md` único bootstrap, papéis em `governance/roles/`,
+`context.manifest.yaml` com hashes) + adicionar `CONTEXT.md`/`STATE.md` ao conjunto-raiz (parecer C3);
+branch lease YAML mínimo; evidence ledger append-only; CODEOWNERS por dimensão.
+
+**P2:** artifact attestation/SBOM/build-once; state machines de staging/canário/drift/rollback; Marvin
+com eval-set; matriz de Skills obrigatórias **só depois de verificar cada uma** (D66).
+
+> Parecer completo: `parecer-smartcoding-esteira-2026-09-02.md`. Espelho visual (com os diagramas
+> desta seção como SVG): projeto Lovable `governanca-squad-umode` — **INTERNAL**, pendente do P0.1.
 
 ## §9 — Governança deste documento
 

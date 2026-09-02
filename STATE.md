@@ -1751,3 +1751,27 @@ caminho).
   resta** — enumerar as configs é enumerar onde o comportamento muda por cliente. A única conhecida
   por nome continua sendo `product_manufacturer_supplier_status` (Osklen, `entity_id = 3580`).
   **Registrado:** pendências **136 a 152**.
+
+- **02 set 2026** — Sessão 26: **Governança da Squad de Desenvolvimento (SmartCoding) — missão do Vinicius.**
+  Criados em `uMode/04_Dados-e-IA/`: `_contexto/_blueprint-boilerplate-governado.md` (fontes lidas campo a
+  campo dos 5 repos de produção UmodeApp + `actions-shared`), `_protocolos/governanca-squad-desenvolvimento.md`,
+  `_protocolos/treinamento-e-contratos-squad.md` (5 contratos de papel), `_protocolos/contratos-agentes-por-dimensao.md`
+  (8 contratos), e `_boilerplate/` (5 arquivos-raiz encenados: CLAUDE_OPERADOR/DIRETOR/CLAUDE/AGENTS/HERMES + README).
+  PR #1 do `brainhub-umode` (draft). Decisões travadas pelo Vinicius: **CTO é agente** (não Bergson;
+  Bergson = arquiteto dos MDs de governança/treinamento/segurança de infra); **Lovable saiu da stack de
+  execução** (executores = HERMES · Codex · Claude Code); **cânone de componente = `@umodeapporg/ui`, sem
+  shadcn** (canônico `umode-frontend-boilerplate-nextjs`); os **3 gates** (ci.yml + Marvin + security) como
+  trava de merge — **`ci.yml` ainda não existe** (`[P]`).
+  **Design system:** buscado da fonte real (`@umodeapporg/ui@0.4.1` no npm público — tokens claro/escuro
+  WCAG AA, preset Tailwind, `<UmodeLogo/>`), one-pager publicado.
+  **Publicação Lovable** (workspace uMode, projeto `governanca-squad-umode`, remix do template Polenectar,
+  senha `governanca2026umode`): página de governança + Design System interno.
+  **Revisão adversarial:** o HERMES entregou um pacote (`umode-os-vault` PR #15) revisando a esteira e
+  propondo `HERMES_TRAINING`. Parecer completo em `_protocolos/parecer-smartcoding-esteira-2026-09-02.md`
+  (schema ACEITAR/MODIFICAR/REJEITAR; citações verificadas contra a fonte). **P0.1 confirmado e é meu:** a
+  página Lovable expõe o perfil do Operador num asset público atrás de gate só client-side — exige auth
+  server-side. Governança MD **v2** propagada (Auditor Independente, RACI §2.4, esteira estado-a-estado
+  §6.2, status ALVO/IMPLEMENTADO/ATIVO §0-bis, plano P0/P1/P2 §8-bis).
+  **Pendente (não é meu — escrita só no `brainhub-umode`):** promoção ao vault (`_GOVERNANCA.md`,
+  `CATALOGO.md`, `_INDEX.md`, `DECISOES.md`, `SISTEMAS`) fica com João/HERMES (D63) — pacote-proposta
+  preparado em `_inbox-hermes/`. Passos manuais no Lovable: esconder badge + domínio `governanca.umode.tech`.
