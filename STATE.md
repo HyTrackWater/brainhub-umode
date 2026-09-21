@@ -573,6 +573,84 @@ decisão é do Vinicius `[D]`.**
   aparecem em **6 de 6** — são o núcleo duro. **`12_Design` aparece em 1 de 6** — vale reavaliar
   ao fim da varredura se é área canônica ou subárea de Estilo.
 
+### 🚨 SEGUNDA CREDENCIAL EXPOSTA — deixou de ser incidente, virou padrão
+
+**2 de 7 contas varridas têm credencial em texto plano na página do Notion:**
+
+| Cliente | O que está exposto | Onde |
+|---|---|---|
+| **NK STORE** | **usuário, senha, IP, porta e nomes dos bancos de homologação e produção** do ERP | bloco *"Conexão com Linx"* |
+| **Lofty Style** | **senha** do site de documentação `docs.umode.app/integracao-lofty` | bloco *Documentação/Regras* |
+
+**Nenhum valor foi copiado para o corpus, log ou relatório** — verificado por varredura automática.
+
+> **A ação não é corrigir duas páginas.** É **varrer as 46 contas** procurando `senha`,
+> `password`, `token`, `usuário -`, `IP -`, e **definir onde credencial pode viver** — que não é
+> em página de Notion.
+
+**Sistema novo no inventário:** **`docs.umode.app`** — site de documentação técnica da uMode,
+protegido por senha compartilhada em Notion.
+
+### Lofty Style fechada — e ela tem a fonte que faltava em todo o resto
+
+**7 de 46 clientes varridos.** A Lofty é **FRANQUEADORA** (razão social *"Lofty Style
+Franqueadora Confecção LTDA"*) — **modelo de negócio diferente de todos os outros varridos**, e
+**nenhuma fonte explica o que isso muda no uso do PLM**.
+
+🟢 **E é a única conta da carteira com pesquisa de satisfação.** Duas bases — Kick Off
+(07/03/2025, 7 pessoas) e Treinamento (08–09/10/2025, 12 pessoas) — com
+**nome, e-mail, ÁREA, entusiasmo, CSat, expectativa e ressalva na mesma linha**.
+
+> **É a única fonte de toda a varredura que traz pessoa, área e sentimento juntos.**
+> **Sexto tipo de fonte de vínculo pessoa↔área em sete clientes** — perfil de PLM (Caedu, Puket,
+> VIX), departamento declarado (NV), departamento acordado em reunião (NK), nome de grupo de
+> WhatsApp (Reserva), base de usuários com status (NK) e agora **autodeclaração em pesquisa**.
+
+### 🔴 As ressalvas de outubro viraram chamado em janeiro
+
+| Quem | Ressalva em **out/2025** | Em **jan/2026** |
+|---|---|---|
+| **Jovania** (CSat **8**, o mais baixo) | *"Adicionar mais Campos categorizando e segmentando melhor"* | chamado `TAREFA/CONFIG` em 23/01 |
+| **Bruna Vanessa** | *"Liberação de telas... setorizado para não acontecer **erros na transmissão final ao linx**"* | **4 chamados de divergência de custo Linx × uMode**, todos `Pendente` |
+| **Gabriela de Barros Cunha** | *"minha maior ressalva é sobre a **qualidade do cadastro**"* | os mesmos 4 chamados |
+| **Michelle** | *"controles paralelos que acabem não sendo incluídos na umode"* | chamado de usabilidade em 23/01 |
+
+**Não afirmo causalidade** — são fontes distintas e não li o conteúdo dos chamados.
+**Afirmo a coincidência de tema, com data, e que ninguém cruzou as duas bases.**
+
+> 🔴 **A pesquisa funcionou como alerta precoce e foi arquivada.** Entusiasmo médio **4,9/5**,
+> CSat médio **9,6/10** — números ótimos que **escondem ressalvas técnicas específicas** que
+> depois viraram fila.
+>
+> **É o caso de uso do BrainHub, não um exemplo:** `communication_events` de tipo pesquisa, com
+> participante e **área**, indexados junto dos chamados, tornam esse cruzamento **automático em
+> vez de acidental.**
+
+### 🔴 Uma pessoa mudou de área — e só apareceu porque há duas medições no tempo
+**Gabriela Cunha** declarou `Sourcing / compras` em **mar/2025** e `Estilo` em **out/2025**.
+
+> **`person_memberships` tem que ser histórico, não estado** — uma linha por
+> (pessoa × área × período). Um `areaId` único teria **apagado** a passagem dela por Sourcing.
+> Item para a `_espec-pessoas-e-comunicacoes.md` §3.
+
+### Outros achados da Lofty
+- **80% dos chamados abertos (12 de 15)** — **a pior proporção da carteira**, pior que a NK.
+- **4 chamados de custo divergente `Pendente`**, um deles citando **"retroativos"** —
+  **correção anterior que ninguém documentou.** É dívida de dado, não chamado.
+- **`05_PCP` é a área dominante** (8 de 19). Em Caedu e Puket quem lidera é Estilo.
+  **Cada cliente tem um centro de gravidade diferente.**
+- **Duas páginas vivas chamadas *Perfil de Usuário(s) e Permissionamentos*** — uma no Notion, uma
+  no Google. **Dois documentos sobre o mesmo assunto é o defeito que o `CLAUDE.md` manda não
+  reproduzir.**
+- **As 4 seções de Pessoas da página estão em branco** — só os rótulos dos campos.
+  **Placar do template: NK e NV preenchidos, Puket e Lofty em branco. Metade.**
+- 🔴 **Um pedido de escopo datado e não endereçado:** em 07/03/2025 a Izabella (PCP) escreveu
+  *"esperança de que se implemente em outros setores também, por exemplo, na logística de CD"*.
+  **Um ano e meio depois, `07_Logistica-CD` continua sem ninguém.** É oportunidade de expansão
+  dita pelo próprio cliente.
+- **Quarto cliente com problema de variante** (Caedu, Reserva, VIX, Lofty) e **terceiro com
+  divergência de custo Linx × uMode** (NV, VIX, Lofty).
+
 ## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
 
 > Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue

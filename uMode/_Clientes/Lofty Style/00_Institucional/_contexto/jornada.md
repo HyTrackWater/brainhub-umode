@@ -1,78 +1,131 @@
 # Lofty Style · Jornada
 
-## ⚠ O que este documento NÃO resolve
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo as duas bases de pesquisa de
+> satisfação. Campo sem fonte fica `[a preencher]`.
 
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+## ⚠ O que este documento NÃO resolve
+- **As duas páginas de permissionamento não foram abertas** — e são **duas**, uma no Notion e
+  uma no Google, **sobre o mesmo assunto**. **Qual é a autoridade é pergunta em aberto.**
+- **As duas *Atualizações de Projeto* de janeiro de 2026 não foram lidas** — são o registro mais
+  recente de estado do projeto.
+- **`Exclusão de Variante após integração` e `NCM e Código CEST` não foram abertas.**
+- **`docs.umode.app/integracao-lofty` não foi varrido.**
+- **As bases de Reuniões e Demandas compartilhadas com o cliente não foram varridas.**
+- **Nenhum dos 9 arquivos do Google foi aberto** — cronograma, As Is, OKRs, ficha de produto,
+  warm up, kick off, treinamento, base de upload, gestão da implantação.
 
 ## Status atual
-Operação Assistida
+**`Ongoing`** · 4 de 7 módulos · ERP **Linx** · grupo **`Médios`** · ativada em **10/02/2025**.
+
+**É a conta `Ongoing` mais nova da carteira** — um ano e sete meses.
 
 ## Fase atual
-[a preencher]
+**Pós-treinamento, com fila de custo travada.** O treinamento de plataforma foi em **out/2025**,
+com CSat 9,6 e entusiasmo 4,9. Três meses depois, **15 chamados em 24 dias e 12 abertos** —
+**80%, a pior proporção da carteira.**
+
+**Quatro deles são divergência de custo entre Linx e uMode, todos `Pendente`.**
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 07/03/2025 | Onboarding | Kick off |
-| 07/03/2025 | Onboarding | Warm up |
-| 07/03/2025 | Onboarding | Onboarding — Estilo |
-| 07/03/2025 | Onboarding | Onboarding — Modelagem |
-| 29/04/2025 | Onboarding | Reunião presencial — Fechamento Discovery As Is |
-| 18/08/2025 | Onboarding | Treinamento de Usuários-Chave |
-| 02/09/2025 | Onboarding | Reunião — Ficha de Impressão |
-| ~19/09/2025 | Onboarding → Operação Assistida | Transição do time de atendimento: de Marina
-Santoro (PO Integração) + Vanessa Rinaldi para Andrea Holmer + Laura Delgado (+ Vanessa
-Rinaldi ocasional) — a partir daqui as Weeklies passam a ser conduzidas pelo novo time |
-| 08/10/2025 | Operação Assistida | Treinamento Lofty |
-| 02/12/2025 | Operação Assistida | Atualização de Projeto |
-| 10/02/2025 | Onboarding | Data oficial de ativação |
-| 12/01/2026 | Operação Assistida | Atualização de projeto |
-| 29/01/2026 | Operação Assistida | Atualização de projeto |
 
-> Marcos acima de 07/03/2025 a 02/12/2025 reconstruídos a partir da base "Reuniões
-> Compartilhadas com Clientes" (Drive/Notion-Export, 58 registros de Lofty) — só metadados
-> (data, nome do encontro, participantes), não o conteúdo de cada ata. Weeklies regulares
-> (dezenas de ocorrências semanais/quinzenais entre mar/2025 e fev/2026) não foram listadas
-> uma a uma aqui para não poluir a tabela de marcos — só os encontros com nome/natureza
-> distinta de "Weekly" entraram como marco.
+| Data | Marco | Fonte |
+|---|---|---|
+| **22/12/2023** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
+| **10/02/2025** | 🟢 **Data de ativação do cliente** | idem |
+| **07/03/2025** | **Kick-off presencial** — e **pesquisa de satisfação com 7 pessoas** | base `Pesquisa Satisfação Kick Off` |
+| **08–09/10/2025** | **Treinamento de plataforma** — e **pesquisa com 12 pessoas** | base `Pesquisa Satisfação Treinamento` |
+| **12/01/2026** | **Atualização de Projeto** | página `Lofty Style` — **não lida** |
+| **09–29/01/2026** | **15 chamados de 6 pessoas** — **12 ficam abertos** | `Chamados & Atendimentos` |
+| **29/01/2026** | **Atualização de Projeto** | página `Lofty Style` — **não lida** |
+| **10/08/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
+
+> 🟢 **É a jornada mais bem datada da carteira** — ativação, kick-off, treinamento e duas
+> atualizações de projeto, todos com data. **Porque a conta é nova e foi instrumentada desde o
+> início.** Nas contas antigas (Caedu, Puket, VIX) a linha do tempo teve que ser reconstruída de
+> datas de acesso.
 
 ## Entregas comprometidas
-[a preencher]
+| Entrega | Estado |
+|---|---|
+| **Documentação oficial de integração** em `docs.umode.app` | ✅ **publicada** · 🚨 senha exposta |
+| Lofty Style \| Cronograma | Google Sheets · **não varrido** |
+| Lofty Style \| OKRs | **sem link na origem** |
+| Lofty Style \| Gestão da Implantação | **sem link na origem** |
+| Lofty Style \| Integração | **sem link na origem** |
+| Material Treinamento Go Light uFlow | **entregue out/2025**, não varrido |
+| Tratamento de **NCM e Código CEST** | página existe, **não varrida** |
+
+> ⚠ **Três entregas estão listadas sem link nenhum** — OKRs, Gestão da Implantação e
+> Integração. **Linha de texto sem destino é promessa sem rastro.**
 
 ## Módulos em uso
-Gestão de Coleção · Integração (Linx) · Relatórios · Cronograma
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma`.
+**Não contratados:** `Aposta` · `Planejamento` · `Fornecedores`.
 
 ## Decisões e restrições registradas
-[a preencher]
+| Decisão / restrição | Fonte | Estado |
+|---|---|---|
+| Documentação de integração publicada em site próprio, **com senha** | página do cliente | vigente · 🚨 **credencial exposta** |
+| **Exclusão de variante após integração** tem tratamento próprio | página dedicada | **não lida** |
+| **NCM e Código CEST** têm tratamento próprio | página dedicada | **não lida** |
+| Houve **retroativos de custo** | chamado de 13/01/2026 | ⚠ **citado, não documentado** |
 
 ## Métricas de sucesso definidas
-[a preencher]
+🟢 **É a única conta da carteira com métrica de satisfação medida e registrada.**
+
+| Pesquisa | Data | Pessoas | Entusiasmo (0–5) | CSat (0–10) |
+|---|---|---:|---:|---:|
+| Kick Off | 07/03/2025 | 7 | **5,0** | **9,6** |
+| Treinamento | 08–09/10/2025 | 12 | **4,9** | **9,6** |
+
+> 🔴 **E os números escondem o conteúdo.** CSat 9,6 com **ressalvas técnicas específicas** no
+> campo aberto — três delas reaparecem como chamado três meses depois. Detalhe em
+> [`pessoas.md`](pessoas.md).
+>
+> **Métrica de sucesso do projeto** (lead time, retrabalho, adoção): `[a preencher]`.
+> Existe um documento *Lofty Style | OKRs* — **sem link.**
 
 ## Próximos passos
-[a preencher]
+1. 🚨 **Rotacionar a senha** do `docs.umode.app` exposta na página.
+2. 🔴 **Destravar os 4 chamados de custo divergente**, todos `Pendente` desde janeiro.
+3. 🔴 **Esclarecer o que foram os "retroativos"** citados no chamado de 13/01/2026.
+4. **Ler as duas *Atualizações de Projeto*** de janeiro — registro mais recente de estado.
+5. **Decidir qual das duas páginas de permissionamento é a autoridade** e marcar a outra.
+6. **Preencher as 4 seções de Pessoas**, todas em branco.
+7. 🔴 **Cruzar as ressalvas da pesquisa com a fila de chamado** — e decidir se isso vira rotina.
+8. **Confirmar se `raiane.brito` e `raiane.nascimento` são a mesma pessoa.**
+9. **Dar link aos OKRs, à Gestão da Implantação e à Integração.**
 
 ## Histórico de incidentes / alertas
-[a preencher]
+| Data | Registro | Estado |
+|---|---|---|
+| 09/01/2026 | **Relatório de custo com valores diferentes no Linx e uMode** | **`Pendente`** |
+| 13/01/2026 | **Mapa de coleções filtrado exibe informações diferentes no cartão** | **`Pendente`** |
+| 13/01/2026 | **Custos diferentes — *"se isso se enquadra nos retroativos"*** | **`Pendente`** |
+| 16/01/2026 | **Material travado** | fechado |
+| 20/01/2026 | **Custo** · mais uma instabilidade | **`Pendente`** ×2 |
+| 23/01/2026 | 3 chamados — tarefa/config e usabilidade | **`Não iniciada`** |
+| 29/01/2026 | 2 chamados de instabilidade | **`Em Aberto`** |
 
 ## Observações
-- Regras de NCM e Código CEST mapeadas.
-- Documentação de integração disponível no Drive de operação.
-- Nenhum registro na base "Feedback Interno Clientes" da Casa (satisfação/percepção) —
-  Lofty nunca foi avaliada nesse sistema, diferente de outros clientes (dados desde 2024).
-  Gap real, não decidi inventar uma nota de satisfação.
-- Última reunião registrada na base de Reuniões Compartilhadas: 10/02/2026 (Weekly, Andrea
-  Holmer + Laura Delgado) — cadência seguia regular até essa data.
+- 🔴 **É uma FRANQUEADORA** — modelo de negócio diferente de todos os outros varridos.
+  **Nenhuma fonte explica o que isso muda no uso do PLM.**
+- 🔴 **`05_PCP` é a área dominante** — 8 de 19 participações nas pesquisas. Em Caedu e Puket
+  quem lidera é Estilo. **Cada cliente tem um centro de gravidade diferente.**
+- **Uma pessoa mudou de área entre março e outubro de 2025** — só visível porque há duas
+  medições no tempo. **`person_memberships` tem que ser histórico, não estado.**
+- **Quarto cliente com problema de variante** — com Caedu, Reserva e VIX.
+- **Terceiro cliente com divergência de custo Linx × uMode** — com NV e VIX.
+- O campo `Jogo 29/06` desta linha diz *"Pausa das 14h as 16h"*.
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Marcos, entregas, documentos e sistemas | Notion — corpo da página `Lofty Style` | **varrido 21/09/2026** |
+| Métricas de satisfação e ressalvas | Notion — as duas bases de pesquisa | **varridas 21/09/2026** |
+| Chamados e incidentes | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Ativação, módulos, ERP, financeiro | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
