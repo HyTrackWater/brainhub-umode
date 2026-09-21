@@ -1,76 +1,153 @@
 # Caedu · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
+> **Atualizado em 21 set 2026 por varredura do Notion ao vivo.** A versão anterior vinha de um
+> export de CRM de **05 mar 2026** e estava desatualizada em status, módulos e contagem de usuários.
 > Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
 
 ## Identidade
 ### ID do cliente
 caedu
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave lógica
+> deste cliente; o nome da pasta é só apresentação.
 ### Aliases do cliente
-- Caedu (CRM "Mapa de Clientes" — nome canônico)
+- Caedu (base `Mapa de Clientes` — nome canônico)
+- CAEDU (grafia usada em atas e RFIs)
 ### Quem são
-[a preencher]
+Varejista de moda popular brasileira.
+> **100+ lojas, ~R$ 1 bi de faturamento (2023). CEO: Edson Salles.**
+> ⚠ Fonte: ficha de CRM do projeto de mentoria no vault do João (21/05/2026). **Não confirmado por
+> fonte do atendimento** — validar antes de usar em comunicação ou proposta.
 ### O que fazem
-[a preencher]
+Desenvolvimento e varejo de vestuário, calçados e acessórios, com operação em **produto nacional e
+importado**. Departamentos atendidos: **Feminino, Masculino e Infantil**.
 ### Para quem fazem
-[a preencher]
+`[a preencher]` — nenhuma fonte varrida descreve o público-alvo da Caedu.
 
 ## Posicionamento
 ### Segmento
-B2C — Vestuário,Calçados,Acessórios — São Paulo SP
+B2C — **Vestuário, Calçados, Acessórios** — São Paulo/SP
 ### Receita anual
-[a preencher]
+`[a preencher]` — campo **vazio** na base `Mapa de Clientes`.
+> Há a referência de ~R$ 1 bi (2023) no CRM de mentoria, **não confirmada**. Não usar como dado.
 ### Grupo de segmentação uMode
-Grupo 3: Potenciais Clientes
+`[a preencher]` — o campo mudou de tipo na base viva (virou relação) e não trouxe valor na consulta.
+> O export antigo trazia "Grupo 3: Potenciais Clientes", **classificação incompatível com um
+> cliente em `Ongoing`** — provável resíduo. Reconfirmar com o Comercial.
 
 ## Operação uMode
 ### Status atual
-Regime CS
-> ⚠ `Regime CS` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
+**Ongoing**
+> Valor da base `Mapa de Clientes` em 21/09/2026, dentro do enum vigente
+> (`Inativo` · `Pré Onboardings` · `Operação Assistida` · `Onboarding` · `Sem CS` · `Ongoing` ·
+> `Churn`). **Substitui o `Regime CS` do export de março**, que era valor de um enum anterior.
 ### Data de ativação
-[não informada]
+`[a preencher]` — campo vazio na base.
+> A conta de API está ativa **desde 05/10/2022** e o usuário mais antigo é de **21/07/2023**.
+> São os indícios mais firmes de quando a operação começou.
 ### Módulos contratados
-- Módulos contratados (CRM): uFlow
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uFlow
-- Usuários ativos no mês da fonte (CRM): 96
-- Relatórios (CRM): Cliente
+- **Gestão de Coleção**
+- **Integração**
+- **Relatórios**
+- **Fornecedores**
+
+> ⚠ **A taxonomia de módulo mudou na fonte.** Deixou de ser nome de produto (`uFlow`, `uBuy`) e
+> passou a ser funcional. O export de março dizia apenas `uFlow`; a base viva lista os quatro acima.
+### Usuários da conta
+**93 usuários** com e-mail na tabela do PLM, em **14 perfis de acesso**.
+> Contagem feita por extração da tabela de usuários em 21/09/2026. O CRM de março registrava 96
+> usuários ativos — **diferença de 3 não explicada**; pode ser desativação ou critério distinto.
 ### ERP / Integração
-Linx
+**Linx**
+> Confirmado em duas fontes independentes: base `Mapa de Clientes` e a existência do fluxo de
+> integração no mapeamento de conta.
 ### Responsável de atendimento (uMode)
-Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Andrea Goulart Holmer dos Santos (Consultor de Negócios)
-> Campo `Time de Atendimento` no CRM: Julianne & Pedro
+**Dupla de atendimento 2025: Julianne & Pedro**
+- Julianne Dias Rodrigues — Key Account
+- Pedro Murillo — Key Account
+- Andrea Goulart Holmer dos Santos — Consultor de Negócios
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
 
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+> **Preenchido em 21 set 2026.** A fonte é o **perfil de acesso no PLM** — é o único vínculo
+> pessoa↔área que existe em alguma fonte da uMode hoje.
+
+| Alias no cliente (perfil no PLM) | Pessoas | Área canônica |
+|---|---:|---|
+| `Caedu-Estilo` | 31 | `02_Estilo-Criacao` |
+| `Gerente de Estilo / Caedu-Estilo` | 5 | `02_Estilo-Criacao` |
+| `Caedu-Produto` | 22 | `03_Desenvolvimento-de-Colecao` |
+| `Caedu- Planejamento` ⚠ | 8 | `01_Planejamento` |
+| `Caedu-Modelagem` | 4 | `13_Modelagem` |
+| `Caedu-Qualidade` | 2 | `04_Qualidade` |
+| `Caedu-E-commerce` | 1 | `08_Ecommerce-Cadastro` |
+| `Caedu-Geral` · `Caedu-Geral + TM` · `Gerente de Estilo / Caedu-Geral` | 10 | **transversal — não derivável** |
+| `Caedu-Gerentes` · `Gerente de Estilo / Caedu-Gerentes` | 6 | **transversal — gerência** |
+| `Caedu-Admim` ⚠ | 3 | **transversal — administração** |
+| `Dono da Conta` | 1 | conta de serviço (API), **não é pessoa** |
+| `Fornecedor` · `Fornecedor-Jinrra` | — | externo · `06_Compras-Supply-Sourcing` |
+
+⚠ **Dois erros de digitação na origem:** `Caedu- Planejamento` (espaço a mais) e `Caedu-Admim`
+(deveria ser *Admin*). **Corrigir na fonte, não aqui.**
+
+🔴 **Sete das 14 áreas canônicas não têm perfil de acesso correspondente:** PCP, Logística,
+Comercial, Marketing, Financeiro, Design e Engenharia. **É lacuna estrutural real** — ou a área não
+existe na Caedu, ou existe e não usa o PLM.
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
 https://drive.google.com/drive/folders/13uGFpXtLsMEZGwr_0H5YEEWcw_zFMhVu?usp=drive_link
 ### Outras fontes
-- OKRs (CRM): https://miro.com/app/board/uXjVNk43Dt0=/
-- Chamados/Atendimento vinculados no CRM: Sistema saiu do ar.
+- **Notion — página `Caedu`** em `uMode Geral / Databases / Mapa de Clientes`: tabela de usuários,
+  Ficha de Produto, Manual do Cliente PLM, Playbooks, Onboarding→Ongoing, Fornecedores da Caedu,
+  e **mais de 50 atas** de weekly e alinhamento, de 2024 a 2025.
+- **Notion — `Mapeamento de Contas - Caedu`** (AS IS / TO BE, 04/04/2025), em
+  `Operação de Clientes / Área de CX / Documentação CX`.
+- **vault do João** — `_Clientes/caedu/`: proposta de 12 meses e cronograma de transição PLM 2.0,
+  mais o export `FORMS.csv` e uma ata destilada de visita (28/07).
+- **Linear** — projetos da conta (ex.: *Atualização de Produtos via Script [RFI 65]*,
+  *Relatório Mega Line*).
+- OKRs (CRM de março): https://miro.com/app/board/uXjVNk43Dt0=/
+- Chamados/Atendimento: **"Sistema saiu do ar"** (registro do CRM de março) — reconfirmar.
 
 ## Contexto crítico
-- Onde Estamos (CRM): Uflow em regime. Onboarding apenas para etapa de acesso aos fornecedores , pendente retorno da Caedu. O time de modelagem e qualidade tem domínio da ferramenta, porém os demais times ainda tem dificuldades de seguir alguns processos. Configuramos novos workflows, mais automatizado para dar mais fluidez aos processos internos e envolver mais os times.
-- Sucesso do Cliente (CRM): Melhorar o produto em relação a configurações e usabilidade na área de modelagem e qualidade para gerar mais valor ao time em termos de agilidade.
-- O que falta (CRM): Fechar etapa fornecedores com a inclusão dos 4 primeiros na plataforma e testes.
-- Tamanho atendimento (CRM): P
-- Departamento (CRM): Feminino,Masculino,Infantil
-- Última edição do registro no CRM: March 4, 2026 10:06 AM por Ju Ferré
+### Onde estamos
+> uFlow em regime. Onboarding apenas para a etapa de acesso aos fornecedores, pendente retorno da
+> Caedu. **Modelagem e qualidade têm domínio da ferramenta**, porém os demais times ainda têm
+> dificuldade em seguir alguns processos. Foram configurados workflows novos, mais automatizados.
+
+### 🔴 A frente aberta
+> **Fechar a etapa de fornecedores com a inclusão dos 4 primeiros na plataforma e testes.**
+
+É a única frente declarada em aberto na conta. Detalhamento, matriz de permissão do perfil
+`Fornecedor` e ajustes pendentes em
+[`06_Compras-Supply-Sourcing/_contexto/contexto-area.md`](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md).
+
+### O que o cliente espera
+> Melhorar o produto em configurações e usabilidade na área de **modelagem e qualidade**, para gerar
+> mais agilidade ao time.
+
+### As cinco dores estruturais (mapeamento de conta, abr/2025)
+1. **Time de calçados não usa a plataforma** — gera lacuna de dados.
+2. **Dados sensíveis de pedido e negociação ficam fora da uMode**, em planilhas.
+3. **12 mil cadastros de fornecedor** — dificulta busca e usabilidade.
+4. **Macroplan subutilizado** — risco de *overlap* entre nacional e importado.
+5. 🔴 **A origem do produto vive na ficha, não na variante** — e como a validação é por variante,
+   isso obriga exportações extensas no mapa. **É problema de modelo de dado, não de processo.**
+
+### Tamanho de atendimento
+P (base `Mapa de Clientes`, março/2026 — reconfirmar)
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Andrea Goulart Holmer dos Santos (Consultor de Negócios)
+Julianne Dias Rodrigues e Pedro Murillo (Key Account) · Andrea Goulart Holmer dos Santos
+(Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Status, módulos, ERP, dupla, setor, cidade | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
+| Usuários, perfis, aliases de área | Notion — página `Caedu`, tabela do PLM | **varrido 21/09/2026** |
+| Dores, fluxo, "onde estamos" | Notion — `Mapeamento de Contas - Caedu` | 04/04/2025 |
+| Porte e CEO | vault do João — CRM EducAI | 21/05/2026 · **não confirmado** |

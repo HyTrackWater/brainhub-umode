@@ -1,70 +1,109 @@
 # Caedu · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Atualizado em 21 set 2026 por varredura do Notion ao vivo**, cruzando a base `Mapa de Clientes`,
+> o `Mapeamento de Contas - Caedu`, as **50+ atas** de weekly da conta e a pasta `caedu` do vault.
+> Campo sem fonte fica `[a preencher]` — nada foi inferido.
 
 ## Status atual
-Regime CS
+**Ongoing** — base `Mapa de Clientes`, verificado em 21/09/2026.
 
 ## Fase atual
-Uflow em regime. Onboarding apenas para etapa de acesso aos fornecedores , pendente retorno da Caedu. O time de modelagem e qualidade tem domínio da ferramenta, porém os demais times ainda tem dificuldades de seguir alguns processos. Configuramos novos workflows, mais automatizado para dar mais fluidez aos processos internos e envolver mais os times.
-> Campo `Onde Estamos` do CRM.
+**uFlow em regime, com uma frente de onboarding remanescente.**
+
+> Onboarding apenas para a **etapa de acesso aos fornecedores**, pendente retorno da Caedu.
+> Modelagem e qualidade têm domínio da ferramenta; os demais times ainda têm dificuldade em seguir
+> alguns processos. Foram configurados workflows novos, mais automatizados, para dar fluidez e
+> envolver mais os times.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 12/01/2023 | [a preencher] | Reunião 12/01/23 |
-| 16/01/2023 | [a preencher] | Reunião 16/01/23 |
-| 20/01/2023 | [a preencher] | Reunião 20/01/23 |
-| 23/01/2023 | [a preencher] | Reunião 23/01/23 |
-| 27/01/2023 | [a preencher] | Reunião 27/01/23 |
-| 06/02/2023 | [a preencher] | Reunião 06/02/23 |
-| 08/02/2023 | [a preencher] | Reunião 08/02/23 |
-| 13/02/2023 | [a preencher] | Reunião 13/02/23 |
-| 14/02/2023 | [a preencher] | Reunião Presencial 14/02/23 |
-| 28/03/2023 | [a preencher] | Reunião 28/05/23 Material Comitê Executivo |
-| 02/05/2023 | [a preencher] | Reunião 02/05/23 |
-| 07/08/2023 | [a preencher] | Report 07/08/23 Caedu |
-| 04/09/2023 | [a preencher] | Reunião 04/08 |
-| 23/09/2025 | [a preencher] | Relatórios 17/12/2025 |
-| 23/09/2025 | [a preencher] | Weekly 02/12/2025 |
-| 23/09/2025 | [a preencher] | weekly 07/01/2026 |
-| 23/09/2025 | [a preencher] | weekly 13/02/2026 |
-| 23/09/2025 | [a preencher] | weekly 28/01/2026 |
-| 23/09/2025 | [a preencher] | Weekly 07/10/2025 |
-| 23/09/2025 | [a preencher] | Weekly 23/09/25 |
-| 23/09/2025 | [a preencher] | Weekly 21/10/2025 |
-| 23/09/2025 | [a preencher] | Fornecedores Caedu 27/11/2025 |
-| 23/09/2025 | [a preencher] | Weekly 05/11/2025 |
-| [não informada] | [a preencher] | Reunião 23/02/23 Treinamento Key User |
-| [não informada] | [a preencher] | Reunião 27/02/23 Treinamento ficha tecnica |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 25 reuniões registradas para este cliente
-> (23 com data, 2 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
+| Quando | Marco | Fonte |
+|---|---|---|
+| **05/10/2022** | Conta de API criada (`api-caedu@umode.app`) — indício mais antigo de operação | tabela de usuários do PLM |
+| **21/07/2023** | Primeiro usuário humano ativo na conta | tabela de usuários do PLM |
+| set/2023 | Onda de ativação do time de Estilo (vários usuários em 04–06/09) | tabela de usuários do PLM |
+| **mai–jun/2024** | Início das weeklies registradas em ata e dos Comitês (13/05 e 29/05) | atas |
+| 20/06/2024 | Reunião de dúvidas técnicas | ata |
+| **02/08/2024** | Registro de atraso para liberar perfil de teste de fornecedor | página `Fornecedores da Caedu` |
+| 22/10/2024 | Reunião com TI de e-commerce — árvore de categoria | ata |
+| 13/12/2024 | Alinhamento do botão de exibição do Mapa | ata |
+| **04/04/2025** | **Mapeamento de Conta concluído** (AS IS / TO BE + roadmap) | `Mapeamento de Contas - Caedu` |
+| 29/04/2025 | Alinhamento de expectativas | ata |
+| 14/05/2025 | Alinhamento de Compras | ata |
+| 16/05/2025 | Alinhamento de Estilo | ata |
+| 23/09/2025 | Alinhamento entre comercial uMode e liderança do projeto Caedu | ata |
+| 05/11/2025 | Discussão Referência do Fornecedor × Referência Caedu | ata |
+| **27/11/2025** | Reunião dedicada de Fornecedores — frente aberta | ata |
+| 13/05/2026 | Definição de campos obrigatórios; pré-pedido com time de compras | ata |
+| 03/06/2026 | Manual do iniciante apontado como material específico da conta | ata |
+| **jun/2026** | **Proposta Caedu × uMode — 12 meses** | vault `caedu_260600_proposta-12-meses` |
+| **28/07/2026** | Visita presencial (ata destilada) | vault, `_arquivo-morto` |
+| **14/08/2026** | **Cronograma de transição PLM 2.0 e negociação** | vault `caedu_260814_cronograma-plm2-e-negociacao` |
+
+> ⚠ **A cadência de ata some depois de 03/06/2026.** Ou as weeklies pararam de ser registradas no
+> Notion, ou mudaram de lugar. **Confirmar com a dupla** — é a maior descontinuidade do histórico.
 
 ## Entregas comprometidas
-[a preencher]
+| Entrega | Situação |
+|---|---|
+| 🔴 **Incluir os 4 primeiros fornecedores na plataforma e testar** | **em aberto** — única frente declarada |
+| Revisar Kanban, removendo etapas inativas | ✅ **concluída** — a própria fonte registra "o kanban atual está simplificado" |
+| Limpar cadastro de fornecedores (12 mil) | responsabilidade do time Caedu (Compras); prazo previsto de 6 semanas |
+| Criar dashboards de piloto, repilotagem e e-commerce | previsto no roadmap; **sem confirmação de entrega** |
+| Implementar Macroplan | marcado como **opcional** no plano |
+| Treinamento do time de calçados | previsto; **sem confirmação de execução** |
+| Transição PLM 2.0 | cronograma de 14/08/2026 no vault — `[a preencher]` o estado atual |
 
 ## Módulos em uso
-uFlow · Gestão de Coleção, Gestão de Processos
+**Gestão de Coleção · Integração · Relatórios · Fornecedores**
+ERP integrado: **Linx**. Usuários na conta: **93**, em 14 perfis.
 
 ## Decisões e restrições registradas
-[a preencher]
+1. **Dados sensíveis de pedido e negociação ficam fora da uMode**, em planilhas do cliente. É
+   decisão do cliente, e o plano previa reavaliar com definição de permissões — `[a preencher]` se
+   houve reavaliação.
+2. **Kanban foi simplificado** — correção aplicada após o diagnóstico de abr/2025.
+3. Um usuário de **domínio terceiro (`@stefanini.com`)** tem acesso ao PLM da conta.
+4. **A origem do produto está na ficha, não na variante** — restrição de modelo que obriga
+   exportações extensas.
 
 ## Métricas de sucesso definidas
-Melhorar o produto em relação a configurações e usabilidade na área de modelagem e qualidade para gerar mais valor ao time em termos de agilidade.
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
+- **84% do fitting** acontece dentro do uMode
+- **5% são licenciados**
+
+> São as **únicas métricas de adoção medidas** desta conta, e vêm da área de Modelagem. Não há
+> métrica equivalente para Estilo, Produto, Planejamento, Qualidade ou E-commerce.
 
 ## Próximos passos
-Fechar etapa fornecedores com a inclusão dos 4 primeiros na plataforma e testes.
-> Campo `O que falta` do CRM.
+1. 🔴 **Fechar a frente de fornecedores** — 4 primeiros incluídos e testados. Depende de retorno da
+   Caedu e do comprometimento do time sob liderança da Rose.
+2. Ajustar os permissionamentos pendentes do perfil `Fornecedor` (lista em
+   [`06_Compras-Supply-Sourcing`](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)).
+3. Revalidar o AS IS de abr/2025 — tem **17 meses**.
+4. Confirmar o estado da transição **PLM 2.0**.
+5. Retomar ou localizar o registro de weeklies posterior a jun/2026.
 
 ## Histórico de incidentes / alertas
-[a preencher]
+| Quando | O quê |
+|---|---|
+| 02/08/2024 | Atraso na liberação do perfil de teste de fornecedor, por permissionamento |
+| março/2026 | Campo de Chamado&Atendimento do CRM anotado como **"Sistema saiu do ar"** |
 
 ## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
+- **Relação Puket × Caedu:** há análise comparativa das duas contas na Documentação CX. O
+  mapeamento da Caedu foi feito **no mesmo padrão usado para a Puket** e é declarado na própria
+  fonte como **guia replicável para outras contas**.
+- **A conta tem material de treinamento próprio:** Manual do Cliente para o Sistema PLM, Playbooks,
+  Ficha de Produto e um Miro de regras e restrições.
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Status, módulos, ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Marcos de 2022–2023 | Notion — tabela de usuários do PLM | varrido 21/09/2026 |
+| Marcos de 2024–2026 | Notion — atas em `Reuniões com o cliente` | conforme cada linha |
+| Dores, entregas, métricas | Notion — `Mapeamento de Contas - Caedu` | 04/04/2025 |
+| Proposta, cronograma, visita | vault do João — `_Clientes/caedu/` | jun–ago/2026 |
