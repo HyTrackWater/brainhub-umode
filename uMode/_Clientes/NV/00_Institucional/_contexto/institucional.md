@@ -1,107 +1,208 @@
 # NV · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
 ## Identidade
 ### ID do cliente
-nv
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`nv`
+
 ### Aliases do cliente
-- NV (CRM "Mapa de Clientes" — nome canônico)
+`NV` · `by NV` (domínio `bynv.com.br`)
+
 ### Quem são
-[a preencher]
+**Moda feminina, B2C, com sede em São Paulo (SP).**
+
+> 🟢 **A NV é o único cliente varrido com `Setor da Empresa`, `Área de Atuação` e `Cidade`
+> preenchidos na base.** Caedu, Puket e Reserva têm os três vazios.
+
 ### O que fazem
-[a preencher]
+**Linha de produção declarada:** *"compra de Produto Acabado, Importado e Triangulação de
+Matéria-prima para Facção"*.
+
+> 🔴 **São três modelos de suprimento na mesma operação** — compra pronta, importação e
+> triangulação de MP para facção. Isso explica por que a conta tem **Compras, Logística e Atelier**
+> engajados ao mesmo tempo.
+
 ### Para quem fazem
-[a preencher]
+**B2C** — mas há um departamento **Atacado** entre os engajados. `[a preencher]` o peso de cada canal.
 
 ## Posicionamento
 ### Segmento
-B2C — Vestuário — São Paulo SP
+**Vestuário** — moda feminina.
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — campo vazio na base.
+
 ### Grupo de segmentação uMode
-Grupo 1: Azzas
+**`Enterprise`** — Grupo 1, descrição *"Reserva + Soma"*. `WIP Estratégico 6,00`.
+
+> ⚠ **A NV está no grupo cuja descrição é "Reserva + Soma", junto de Reserva e Oficina Reserva.**
+> Nenhuma fonte varrida explica **por que a NV está nesse grupo**. **Confirmar** — é relação
+> societária, é porte, ou é só alocação da mesma pessoa de atendimento?
 
 ## Operação uMode
 ### Status atual
-Regime CS
-> ⚠ `Regime CS` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos contratados (CRM): uFlow
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uFlow
-- Relatórios (CRM): Cliente
-### Usuários da conta
+**`Ongoing`** — lido na base em 21/09/2026.
 
-`[a preencher]`
+### Data de ativação
+`[a preencher]` — campo vazio.
+
+> **Piso verificável:** linha criada no Notion em **08/06/2023**; **Portal uMode | NV** criado em
+> **17/08/2023**; e existem páginas ***[NV] Fase 1 - Onboarding*** e ***Fase 2 - Onboarding***.
+
+### Módulos contratados
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` — **4 de 7**.
+
+**Integração ativa declarada:** *"Sim (Produtos e Ficha Técnica)"*.
+
+### Usuários da conta
+**61 usuários ativos** — número **declarado pelo próprio cliente** no template de transição.
+
+> ⚠ **É um número, não uma lista.** A página da NV **não tem tabela de usuários do PLM**. Dos 61,
+> **17 pessoas** aparecem nominalmente nos chamados de jan/2026 — ver [`pessoas.md`](pessoas.md).
+> **Faltam 44 nomes.**
 
 ### ERP / Integração
-Linx
+**`Linx`** — ERP único. Integração ativa em **Produtos e Ficha Técnica**.
+
 ### Responsável de atendimento (uMode)
-Fernanda Araujo, Victor Aragão, Vanessa Rinaldi Ornelas Engman (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
-> Campo `Time de Atendimento` no CRM: Vanessa & Fernanda & Victor
+- **2025:** **Fernanda** — atende as 3 contas `Enterprise`: NV, Reserva e Oficina Reserva.
+- **2024:** três pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
 
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+> 🟢 **A NV é o melhor caso da carteira neste ponto.** O template de transição está
+> **preenchido**, e o campo *"Departamentos engajados"* lista **dez áreas nomeadas pelo próprio
+> cliente** — fonte mais forte que perfil de PLM, porque é declaração e não inferência.
+
+| Departamento declarado | → Área canônica |
+|---|---|
+| `Estilo` | `02_Estilo-Criacao` |
+| `Engenharia de Produto` | `14_Engenharia` |
+| `Planejamento Comercial` | ⚠ `01_Planejamento` **ou** `09_Comercial-Vendas` — **não resolvido** |
+| `Cadastro/Planners` | `08_Ecommerce-Cadastro` |
+| `PCP` | `05_PCP` |
+| `Atacado` | `09_Comercial-Vendas` |
+| `Marketing` | `10_Marketing` |
+| `Compras` | `06_Compras-Supply-Sourcing` |
+| `Logística` | `07_Logistica-CD` |
+| **`Atelier`** | 🔴 **NÃO EXISTE na grade canônica** — ver abaixo |
+
+### 🔴 `Atelier` não cabe em nenhuma das 14 áreas canônicas
+
+A grade tem `13_Modelagem` e `14_Engenharia`, mas **nenhuma área de produção própria / piloto /
+atelier**. A NV declara `Atelier` como departamento engajado, e ele **não tem para onde ir**.
+
+> **Não forçei o encaixe.** Isso é pergunta para o negócio: **a grade de 14 áreas está faltando
+> uma?** — e, se estiver, mexer nela afeta os 46 clientes. **Decisão do Vinicius, não minha.**
+
+### ⚠ `Planejamento Comercial` também exige decisão
+O nome junta duas áreas canônicas. **Derivar das duas seria inventar.** Fica `[a preencher]`.
+
+### Cobertura
+**Nove das 14 áreas têm departamento declarado** (contando `Planejamento Comercial` como pendente).
+**Sem sinal:** `03_Desenvolvimento-de-Colecao` · `04_Qualidade` · `11_Financeiro` · `12_Design` ·
+`13_Modelagem`.
+
+> ⚠ **`03_Desenvolvimento-de-Colecao` sem sinal chama atenção**, porque o módulo
+> `Gestão de Coleção` **está contratado**. Provavelmente a função está dentro de
+> `Engenharia de Produto` ou `Estilo`. **Confirmar — não inferi.**
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1BucJ_1vczumBC2Gq_1tRVdpvY5Bdsq3_?usp=drive_link
+Pasta registrada — `1BucJ_1vczumBC2Gq_1tRVdpvY5Bdsq3_`. **Não varrida.**
+
 ### Outras fontes
-- Documentação Clientes (CRM): Documentação uFlow
-- OKRs (CRM): https://miro.com/app/board/uXjVNktRzXs=/
-- 3A · controle de troca de e-mails (CRM): Luana
-- Chamados/Atendimento vinculados no CRM: Cadastrar opção, Cadastrar opção (1), Cadastrar opção (2), Relatou erro ao inserir foto mas depois ela diz que consegue, acredito ser algo momentâneo., Descancelar produto, Untitled, cadastrar novo usuário, Untitled, Add opção campo custom, Forçar integração, Descancelar produto, forçar integração, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, ADD LOCAL DE APLICAÃO, Material travado, Untitled, Untitled, Untitled, A opção do campo custom estava incorreta, o que estava gerando erro ao integrar., Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled
+| Fonte | Ferramenta | Estado |
+|---|---|---|
+| **Manual de descancelamento de produtos e variantes** | Notion | 🔴 **não varrido — é a fonte central da conta, ver *Contexto crítico*** |
+| NV \| Variantes Canceladas Inativas | Notion | **não varrida** |
+| NV \| Importação Programação | Notion | **não varrida** |
+| NV \| Proposta de comunicação | Notion | **não varrida** |
+| Realinhamento Demandas NV | Notion | **não varrido** |
+| [NV] Fase 1 e Fase 2 - Onboarding | Notion | **não varridas** |
+| Onboarding > Ongoing · "On" | Notion | **não varridas** |
+| NV \| Relatórios | Google Sheets | **não varrida** |
+| Miro Regras e restrições · Miro (board) | Notion · Miro | **não varridas** |
+| Playbooks | Notion | **não varrida** |
+| Documentação Clientes | Notion | **não varrida** |
+| Portal uMode \| NV | Notion | **não varrido** |
+| `Chamados & Atendimentos` | Notion | ✅ **varrida — 39 chamados, 17 pessoas** |
+| `Mapa de Clientes` · `Segmentação Grupos` · `Portal do Cliente` | Notion | ✅ **varridas** |
 
 ## Contexto crítico
-- Onde Estamos (CRM): uFlow em regime, o time tem domínio sobre a ferramenta e usa com eficiência.
-- Sucesso do Cliente (CRM): * Governança e Eficiência do processo * Concentrar todas as informações do produto em um único lugar   · * Dispor de dados estruturados para geração de relatórios * Organizar todas as aprovações do produto * Ter maior controle dos processos de aprovação * Enxergar linha do tempo completa * Integração de Planejamento + Estilo + Qualidade + Compras * Diminuir Refações
-- O que falta (CRM): Entregar pacote de melhorias para apoiar na evolução da gestão do processo, o qual está em desenvolvimento e será entregue/implementado até o final de 2024.
-- Tamanho atendimento (CRM): G
-- Departamento (CRM): Feminino
-- Última edição do registro no CRM: March 4, 2026 10:12 AM por Ju Ferré
-
 ### Onde estamos
-
-`[a preencher]`
+**A conta com mais chamados da carteira inteira: 39 tickets de 17 pessoas** na janela de jan/2026 —
+mais que NK STORE (30) e VIX (28). **16 seguem abertos.**
 
 ### 🔴 A frente aberta
+**`BURLAR PROCESSO` é um tipo oficial de chamado, e as 7 ocorrências da carteira inteira são da NV.**
 
-`[a preencher]`
+E dá para dizer o que é, porque dois deles têm título:
+
+> **"Descancelar produto"** — `barbara.barbosa` em 06/01/2026 e `thais.cardoso` em 09/01/2026.
+
+E a página da NV tem duas páginas dedicadas ao assunto:
+**"Manual de descancelamento de produtos e variantes"** e **"NV | Variantes Canceladas Inativas"**.
+
+> **O quadro completo:** o cliente cancela um produto, precisa desfazer, **a plataforma não
+> permite pelo fluxo normal**, então abre chamado para a uMode fazer. A uMode **escreveu um manual**
+> para o procedimento. E classifica internamente como **"burlar processo"**.
+>
+> 🔴 **É uma lacuna de produto que virou ritual operacional, com manual próprio e categoria de
+> chamado própria.** Não é mau uso do cliente — **é a ausência de um caminho no produto.**
+>
+> ⚠ **Quatro dos sete `BURLAR PROCESSO` estão sem título e `Não iniciada`**, abertos em 23 e
+> 28/01/2026. **Não afirmo que todos são descancelamento** — afirmo que os dois que têm título são.
 
 ### O que o cliente espera
-
-`[a preencher]`
+Existe uma página **"NV | Proposta de comunicação"** e outra **"Realinhamento Demandas NV"**.
+**Nenhuma foi varrida.** `[a preencher]`
 
 ### As dores estruturais registradas
 
-`[a preencher]`
+**1 · Descancelamento de produto** — ver *A frente aberta*.
+
+**2 · O cliente não consegue cadastrar opção de campo custom sozinho.**
+Em **06/01/2026**, três pessoas diferentes abriram *"Cadastrar opção"* **no mesmo dia**
+(`maria.palhano`, `alessandra.chagas`, `vanessa.veiga`). Mais *"Add opção campo custom"*
+(`thais.cardoso`, 08/01) e *"ADD LOCAL DE APLICAÇÃO"* (`sandy.candido`, 16/01).
+> **Cinco chamados para a mesma coisa em dez dias.** E em 28/01 `maria.palhano` registra:
+> *"A opção do campo custom estava incorreta, o que estava gerando erro ao integrar"* —
+> **a dependência também produz defeito de integração.**
+
+**3 · O cliente não consegue forçar integração sozinho.**
+*"Forçar integração"* × 2 por `erika.leuterio` (08 e 09/01). **Também aparece na NK STORE** —
+`lais.batista`, 09/01. **Dois clientes, mesma limitação.**
+
+**4 · Divergência de custo entre Linx e uMode.**
+`vinicius.dias` (08/01): *"Encontrou diferença entre os valores de custo no produto e linx"*.
+`erika.leuterio` (13/01): *"Valores diferentes na uMode e linx após atualizar conversão no linx"* —
+**`Em Aberto`**.
+> 🔴 **A mesma divergência aparece em Lofty Style (3 chamados) e VIX.** **Três clientes.**
+
+**5 · "Material travado".**
+`erika.leuterio` (16/01). **Também em Lofty Style e Baw.** **Três clientes, mesmo termo.**
 
 ### Tamanho de atendimento
+Grupo **`Enterprise`** · `WIP 6,00` · **Fernanda**, com 3 contas.
 
-`[a preencher]`
+> ⚠ **39 chamados em 24 dias é ~1,6/dia só da NV.** A Reserva, da mesma pessoa, declara
+> *"1 chamado por dia"* como média esperada. **Somando as três contas `Enterprise`, a carga
+> declarada não fecha com a observada.** Vale medir.
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Fernanda Araujo, Victor Aragão, Vanessa Rinaldi Ornelas Engman (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
+Fernanda (2025)
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Setor, cidade, B2C, status, módulos, ERP | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
+| Linha de produção, 61 usuários, 10 departamentos | Notion — template de transição na página `NV` | **varrido 21/09/2026** |
+| 39 chamados, tipos, pessoas, dores | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Segmentação e WIP | Notion — base `Segmentação Grupos` | **varrido 21/09/2026** |

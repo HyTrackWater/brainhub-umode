@@ -1,127 +1,123 @@
 # NV · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- **Não há base de atas nesta conta.** Puket tem 23, Reserva tem *Reuniões & Demandas*.
+  Na NV **não encontrei registro de reunião recorrente na página do cliente** — o que não
+  significa que não existam. **Sem atas, a jornada perde a coluna vertebral.**
+- **As 12 sub-páginas da conta não foram varridas**, incluindo o *Manual de descancelamento*,
+  que é a fonte central da dor principal.
+- **Não há tabela de usuários**, então **não há marcos de onboarding de gente** — diferente de
+  Caedu e Puket, onde as datas de acesso deram a linha do tempo inicial.
+- **Os anos dos marcos de onboarding não estão escritos** nas páginas *Fase 1* e *Fase 2*.
 
 ## Status atual
-Regime CS
+**`Ongoing`** · 4 de 7 módulos · ERP **Linx** · grupo **`Enterprise`** · **61 usuários ativos**.
 
 ## Fase atual
-uFlow em regime, o time tem domínio sobre a ferramenta e usa com eficiência.
-> Campo `Onde Estamos` do CRM.
+**Operação em alto volume, com dor de produto recorrente.** É a conta com **mais chamados da
+carteira** — 39 em 24 dias, de 17 pessoas — e **16 seguem abertos**.
+
+O padrão dos chamados não é de conta com problema: **é de conta que usa muito e esbarra nos
+mesmos limites**. Cinco chamados em dez dias só para *cadastrar opção de campo custom*.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 09/06/2023 | [a preencher] | Report 09/06/23 |
-| 19/06/2023 | [a preencher] | Treinamento 19/06/23 |
-| 14/07/2023 | [a preencher] | Report 14/07/23 |
-| 20/07/2023 | [a preencher] | Weekly do Comitê 20/07/23 NV |
-| 26/07/2023 | [a preencher] | Weekly do Comitê 26/07/23 NV |
-| 26/07/2023 | [a preencher] | Report 26/07/23 NV |
-| 03/08/2023 | [a preencher] | Weekly do Comitê 03/08/23 NV |
-| 07/08/2023 | [a preencher] | Report 07/08/23 NV |
-| 11/08/2023 | [a preencher] | Report 11/08/23 NV |
-| 24/08/2023 | [a preencher] | Weekly do Comitê 24/08 |
-| 31/08/2023 | [a preencher] | Weekly Comitê 31/08 |
-| 28/09/2023 | [a preencher] | Weekley 28/09/23 |
-| 05/10/2023 | [a preencher] | Weekley 05/10/23 |
-| 26/10/2023 | [a preencher] | Weekly 26/10/23 |
-| 08/02/2024 | [a preencher] | Visita Vanessa Rinaldi 08/02/24 |
-| 07/11/2024 | [a preencher] | Reunião interna / Escopo de 2025 |
-| 13/02/2025 | Alinhamento de Projeto | Reunião entre as Diretorias |
-| 13/02/2025 | Alinhamento de Projeto | Reunião entre as Diretorias |
-| 16/04/2025 | [a preencher] | uFlow - NV - Reunião 16/04/25 - Presencial Kickoff Escopo 2025 |
-| 29/04/2025 | [a preencher] | uFlow - NV- Weekly 13/05/2025 |
-| 29/04/2025 | [a preencher] | uFlow - NV- Weekly 29/04/2025 |
-| 29/04/2025 | [a preencher] | uFlow - NV- Weekly 06/05/2025 |
-| 06/05/2025 | [a preencher] | NV- Projetos - Jornada de Custos 06/05/2025 |
-| 20/05/2025 | [a preencher] | uFlow - NV- Weekly 20/05/2025 |
-| 27/05/2025 | [a preencher] | uFlow - NV- Weekly 03/06/2025 |
-| 27/05/2025 | [a preencher] | uFlow - NV- Weekly 27/05/2025 |
-| 10/06/2025 | [a preencher] | uFlow - NV- Weekly 17/06/2025 |
-| 10/06/2025 | [a preencher] | uFlow - NV- Weekly 10/06/2025 |
-| 24/06/2025 | [a preencher] | uFlow - NV- Weekly 24/06/2025 |
-| 30/06/2025 | [a preencher] | uFlow - NV- Weekly 30/06/2025 |
-| 08/07/2025 | [a preencher] | uFlow - NV- Weekly 08/07/2025 |
-| 15/07/2025 | [a preencher] | uFlow - NV- Weekly 15/07/2025 |
-| 23/07/2025 | [a preencher] | uFlow - NV- Weekly 23/07/2025 |
-| 29/07/2025 | [a preencher] | uFlow - NV- Weekly 29/07/2025 |
-| 05/08/2025 | [a preencher] | uFlow - NV- Weekly 05/08/2025 |
-| 15/08/2025 | [a preencher] | uFlow - NV- Weekly 15/08/2025 |
-| 19/08/2025 | [a preencher] | uFlow - NV- Weekly 19/08/2025 (Status Report Projetos) |
-| 26/08/2025 | [a preencher] | uFlow - NV- Weekly 26/08/2025 (1) |
-| 02/09/2025 | [a preencher] | uFlow - NV- Weekly 02/09/2025 |
-| 11/09/2025 | [a preencher] | uFlow - NV- Weekly 11/09/2025 |
-| 18/09/2025 | [a preencher] | uFlow - NV- Weekly 18/09/2025 |
-| 22/09/2025 | [a preencher] | uFlow - NV - Reunião 22/09/25 - Campo Status Atual |
-| 25/09/2025 | [a preencher] | uFlow - NV- Weekly 02/10/2025 |
-| 25/09/2025 | [a preencher] | uFlow - NV- Weekly 25/09/2025 |
-| 30/09/2025 | [a preencher] | uFlow - NV Reunião Integração Status Atual |
-| 13/01/2026 | Status Report | uFlow - NV - Weekly 13/01/2026 |
-| [não informada] | [a preencher] | Reunião 13/07 |
-| [não informada] | [a preencher] | Reunião time CS - Onboarding |
-| [não informada] | [a preencher] | Reunião 13/01/23 |
-| [não informada] | [a preencher] | Reunião 17/01/23 |
-| [não informada] | [a preencher] | Reunião 19/01/23 |
-| [não informada] | [a preencher] | Reunião 23/01/23 |
-| [não informada] | [a preencher] | Reunião 02/02/23 |
-| [não informada] | [a preencher] | Reunião 07/02/23 |
-| [não informada] | [a preencher] | Reunião 15/02/23 |
-| [não informada] | [a preencher] | Reunião 06/03/23 |
-| [não informada] | [a preencher] | Reunião 15/03/23 |
-| [não informada] | [a preencher] | Reunião 16/05/23 |
-| [não informada] | [a preencher] | Weekly 14/09/23 |
-| [não informada] | [a preencher] | Weekley 21/09/23 |
-| [não informada] | [a preencher] | Weekly 09/11/23 |
-| [não informada] | [a preencher] | Weekly 16/11/23 |
-| [não informada] | [a preencher] | Weekly 30/11/23 |
-| [não informada] | [a preencher] | Status Demandas para Bia 27/02/26 |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 64 reuniões registradas para este cliente
-> (46 com data, 18 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
+| Data | Marco | Fonte |
+|---|---|---|
+| **08/06/2023** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
+| **17/08/2023** | **Portal uMode \| NV** criado | base `Portal do Cliente` |
+| `[a preencher]` | **[NV] Fase 1 - Onboarding** | página `NV` — **sem data na origem** |
+| `[a preencher]` | **[NV] Fase 2 - Onboarding** | idem |
+| `[a preencher]` | Transição **Onboarding > Ongoing** | idem |
+| `[a preencher]` | **Realinhamento Demandas NV** | idem |
+| **06–29/01/2026** | **39 chamados de 17 pessoas** — o maior volume da carteira | `Chamados & Atendimentos` |
+| **30/06/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
+
+> 🔴 **Seis marcos reais da conta estão sem data**, porque as páginas de onboarding e
+> realinhamento **não carregam data no título nem em campo**. É o mesmo defeito que a
+> [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md)
+> §5.1 trata: **data tem que ser campo.**
 
 ## Entregas comprometidas
-[a preencher]
+| Entrega | Estado |
+|---|---|
+| **Manual de descancelamento de produtos e variantes** | ✅ **existe** — mas é contorno, não solução |
+| NV \| Variántes Canceladas Inativas | documento existe, **não varrido** |
+| NV \| Importação Programação | documento existe, **não varrido** |
+| NV \| Proposta de comunicação | documento existe, **não varrido** |
+| NV \| Relatórios (Google Sheets) | existe, **não varrida** |
 
 ## Módulos em uso
-uFlow · Gestão de Coleção, Gestão de Processos
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma`.
+**Não contratados:** `Aposta` · `Planejamento` · `Fornecedores`.
+
+> ⚠ **`Fornecedores` não está contratado**, e a linha de produção declarada inclui
+> **triangulação de matéria-prima para facção**. **Vale checar se há oportunidade aí** — mas
+> **não afirmo necessidade**, porque não li o desenho do processo deles.
 
 ## Decisões e restrições registradas
-[a preencher]
+| Decisão / restrição | Fonte | Estado |
+|---|---|---|
+| **Integração ativa em Produtos e Ficha Técnica** | template de transição | declarado pelo cliente |
+| **Descancelamento de produto exige procedimento manual** | *Manual de descancelamento* | vigente, **classificado como `BURLAR PROCESSO`** |
+| **Opção de campo custom só a uMode cadastra** | 5 chamados em jan/2026 | vigente **de fato**, não declarado |
+| **Forçar integração só a uMode faz** | 2 chamados | vigente **de fato**, não declarado |
+
+> ⚠ **As duas últimas linhas são restrições observadas, não declaradas.** Nenhum documento diz
+> que o cliente não pode; **o padrão dos chamados é que diz.** Marcadas como inferência.
 
 ## Métricas de sucesso definidas
-* Governança e Eficiência do processo * Concentrar todas as informações do produto em um único lugar   · * Dispor de dados estruturados para geração de relatórios * Organizar todas as aprovações do produto * Ter maior controle dos processos de aprovação * Enxergar linha do tempo completa * Integração de Planejamento + Estilo + Qualidade + Compras * Diminuir Refações
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
+`[a preencher]`.
+
+**O que dá para medir hoje:** **39 chamados / 24 dias ≈ 1,6 por dia**, de **17 pessoas distintas**
+num universo de **61** — **28% da base ativa na janela**.
 
 ## Próximos passos
-Entregar pacote de melhorias para apoiar na evolução da gestão do processo, o qual está em desenvolvimento e será entregue/implementado até o final de 2024.
-> Campo `O que falta` do CRM.
+1. 🔴 **Ler o *Manual de descancelamento*** e entender se a lacuna é de produto ou de permissão.
+2. 🔴 **Destravar os 16 chamados abertos**, dos quais **4 são `BURLAR PROCESSO` `Não iniciada`**.
+3. 🔴 **Resolver `Atelier`** — departamento declarado que **não existe na grade das 14 áreas**.
+4. **Resolver `Planejamento Comercial`** — `01_Planejamento` ou `09_Comercial-Vendas`.
+5. **Obter a lista nominal dos 61 usuários** — faltam **44 nomes**.
+6. **Cruzar pessoa × área:** sabe-se quais áreas existem e quem usa, **e os dois eixos não se cruzam**.
+7. **Varrer as 12 sub-páginas** e o Portal.
+8. **Confirmar por que a NV está no grupo "Reserva + Soma".**
 
 ## Histórico de incidentes / alertas
-[a preencher]
+| Data | Registro | Tipo |
+|---|---|---|
+| 06/01/2026 | **3 pessoas** pedem *Cadastrar opção* **no mesmo dia** | `TAREFA/CONFIG` · fechados |
+| 06/01/2026 | Erro ao inserir foto | `INSTABILIDADE` · **`Pendente`** |
+| 06 e 09/01/2026 | **Descancelar produto** ×2 | 🔴 `BURLAR PROCESSO` · fechados |
+| 08 e 09/01/2026 | **Forçar integração** ×2 | `TAREFA/CONFIG` · fechados |
+| 08/01/2026 | Valores de custo diferentes entre Linx e uMode | `USABILIDADE` · resolvido |
+| **13/01/2026** | **Valores diferentes após atualizar conversão no Linx** | `BUG` · **`Em Aberto`** |
+| 16/01/2026 | **Material travado** | `INSTABILIDADE` · fechado |
+| 23 e 28/01/2026 | **4 chamados `BURLAR PROCESSO` sem título** | 🔴 **`Não iniciada`** |
+| 28/01/2026 | Opção de campo custom incorreta **gerando erro de integração** | **`Não iniciada`** |
+
+### Três dores que a NV compartilha com outros clientes
+| Dor | Também em | Leitura |
+|---|---|---|
+| **Divergência de custo Linx × uMode** | Lofty Style (3) · VIX | **3 clientes** — padrão |
+| **"Material travado"** | Lofty Style · Baw | **3 clientes**, mesmo termo |
+| **Forçar integração** | NK STORE | 2 clientes |
 
 ## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
+- 🟢 **A NV é o contraexemplo do Puket.** O mesmo template de transição está **preenchido**
+  aqui e **inteiramente em branco** lá. **O ritual funciona; a aplicação é que é irregular.**
+- É também o **único cliente varrido** com `Setor`, `Cidade` e `Área de Atuação` preenchidos.
+- **7 dos 7 chamados `BURLAR PROCESSO` da carteira inteira são desta conta.**
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Chamados, incidentes e assuntos | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Template de transição, sub-páginas | Notion — página `NV` | **varrido 21/09/2026** |
+| Status, módulos, ERP, setor, cidade | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
+| Data do portal | Notion — base `Portal do Cliente` | **varrido 21/09/2026** |

@@ -1,0 +1,73 @@
+# Compras, Supply e Sourcing · Contexto de área — NV
+
+> Criado em **21 set 2026** por varredura do Notion ao vivo.
+>
+> 🟢 **Esta área é declarada pelo próprio cliente.** O campo *"Departamentos engajados"* do template de transição, na página da NV, lista **`Compras`**.
+>
+> **É declaração, não inferência** — fonte mais forte que o perfil de PLM usado em Caedu e Puket.
+
+## O que esta área faz
+`[a preencher]` — o departamento **é declarado como engajado**, mas nenhuma fonte varrida descreve o que ele faz.
+
+A linha de produção declarada é **compra de Produto Acabado, Importado e Triangulação de Matéria-prima para Facção** — **três modelos de suprimento na mesma operação**. ⚠ O módulo `Fornecedores` **não está contratado**. Há uma página *NV | Importação Programação*, **não varrida**.
+
+## Com quem se relaciona (interno e externo)
+`[a preencher]`
+
+## Entregas e responsabilidades
+`[a preencher]`
+
+## Padrões operacionais
+
+### Como trabalham
+`[a preencher]`
+
+### O que não fazem
+`[a preencher]`
+
+## Vocabulário da área
+
+### Termos específicos
+`[a preencher]`
+
+## Pessoas desta área
+`[a preencher]` — 🔴 **os dois eixos existem e não se cruzam.**
+
+A conta declara **10 departamentos** e **61 usuários ativos**, e **17 pessoas** aparecem nominalmente nos chamados de jan/2026. Mas **nenhuma fonte liga pessoa a departamento** — não há tabela de perfil de acesso nesta conta.
+
+> Ver [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md) para as 17 pessoas com evidência de ação.
+
+## Produto conectado
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` — 4 de 7.
+ERP **Linx**, com **integração ativa em Produtos e Ficha Técnica**, declarada pelo cliente.
+
+## Fontes e referências
+
+### Documentos que esta área consome
+`[a preencher]`
+
+### Documentos que esta área produz
+`[a preencher]`
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Departamentos engajados | Notion — template de transição na página `NV` | varrido 21/09/2026 |
+| Chamados e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+
+### 🔴 Próximas fontes a varrer
+*Manual de descancelamento de produtos e variantes* · *NV | Variantes Canceladas Inativas* ·
+*NV | Importação Programação* · *NV | Proposta de comunicação* · *Realinhamento Demandas NV* ·
+*[NV] Fase 1 e Fase 2 - Onboarding* · *Playbooks* · *Miro* · *NV | Relatórios* · Portal uMode | NV.
+
+## Governança
+
+### Responsável na empresa cliente
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+Fernanda (2025)
+
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode

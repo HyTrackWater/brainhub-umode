@@ -380,6 +380,66 @@ Luiza Barcelos 1 — mais 9 fornecedores e e-mails pessoais.
 **uBuy** e **uPlan** (produtos além do uFlow/PLM) · **Portal do Cliente** ·
 **Segmentação Grupos**.
 
+### Reserva e NV fechadas — 21 set 2026, e cada uma quebrou uma premissa
+
+**4 de 46 clientes varridos:** Caedu · Puket · **Reserva** · **NV**.
+
+**A Reserva não tem tabela de usuários do PLM.** O eixo que funcionou em Caedu e Puket
+**simplesmente não existe lá**. O vínculo pessoa↔área teve que sair dos **nomes dos 9 grupos de
+WhatsApp** — fonte mais fraca, declarada como tal. É a conta mais instrumentada da carteira:
+comunicação oficial declarada por escrito, cadência (*"1 chamado por dia | 2 reuniões por
+semana"*), **curadoria de canal** (5 dos 9 grupos marcados para excluir) e review quinzenal formal
+para a **Claudinha**. E **7 de 7 módulos — a única da carteira**.
+E **4 fornecedores operam dentro da conta**.
+
+**A NV tem o template de passada de bastão PREENCHIDO** — é o contraexemplo exato do Puket, onde
+o mesmo template está inteiramente em branco. **O ritual funciona; a aplicação é que é irregular.**
+Declara linha de produção, **61 usuários ativos** e **10 departamentos engajados** — que é fonte
+**mais forte** que perfil de PLM, porque é declaração e não inferência. É também o único cliente
+com `Setor`, `Cidade` e `Área de Atuação` preenchidos.
+
+### 🔴 `BURLAR PROCESSO` decifrado
+Os **7 chamados desse tipo na carteira inteira são da NV**, e os dois que têm título dizem
+**"Descancelar produto"**. A página da NV tem um ***Manual de descancelamento de produtos e
+variantes*** e uma página *NV | Variantes Canceladas Inativas*.
+
+> O cliente cancela um produto, precisa desfazer, **a plataforma não permite pelo fluxo normal**,
+> abre chamado, a uMode faz — e **escreveu um manual** para o procedimento, classificando-o como
+> *"burlar processo"*. **É lacuna de produto que virou ritual operacional, com manual e categoria
+> de chamado próprios.** Não é mau uso do cliente.
+
+### 🔴 `Atelier` não cabe na grade das 14 áreas
+A NV declara `Atelier` entre os departamentos engajados. **Não há área canônica de produção
+própria / piloto / atelier.** Não forçei o encaixe.
+**A grade de 14 está faltando uma?** Mexer nela afeta 46 clientes — **decisão do Vinicius `[D]`.**
+Mesmo caso, menor, de `Planejamento Comercial`, que junta `01` e `09`.
+
+### 🔴 Dores que se repetem em três clientes — deixam de ser anedota
+| Dor | Clientes | Evidência |
+|---|---|---|
+| **Exportação / edição do Mapa** | Caedu · Puket · **Reserva** | mapeamento de conta · chamado · card de Kanbanize com vídeo |
+| **Divergência de custo Linx × uMode** | **NV** · Lofty Style · VIX | 6 chamados somados, 3 ainda abertos |
+| **"Material travado"** | **NV** · Lofty Style · Baw | mesmo termo, três contas |
+| **Forçar integração** (cliente não consegue) | **NV** · NK STORE | 3 chamados |
+| **Cadastrar opção de campo custom** | **NV** | **5 chamados em 10 dias**, 3 no mesmo dia |
+
+### Sistemas fora do inventário, confirmados na Reserva `[C]`
+**Kanbanize** (`umode.kanbanize.com`, boards 6 e 18) — **5 cards marcados como abertos desde
+ago/2024**, numa página editada até jun/2026 · **Gist** (chat da plataforma) · **uBuy** e **uPlan**.
+
+### Cobertura, em número
+| | Caedu | Puket | Reserva | NV |
+|---|---:|---:|---:|---:|
+| `contexto-area.md` | 14/14 | 14/14 | 14/14 | 14/14 |
+| … com conteúdo real | 7 | 7 | 5 | 9 |
+| Pessoas no razão | 95 | 45 | 14 | 17 de **61** declarados |
+| Fonte do vínculo pessoa↔área | perfil PLM | perfil PLM | **grupos de WhatsApp** | **departamento declarado** |
+| Chamados varridos | 5 | 6 | 13 | **39** |
+
+> 🔴 **Quatro clientes, quatro fontes diferentes de vínculo pessoa↔área.** Não há uma fonte
+> única na uMode — e **na NV os dois eixos existem e não se cruzam**: sabe-se quais áreas
+> existem e quem usa o sistema, **e nada liga uma coisa à outra**.
+
 ## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
 
 > Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue

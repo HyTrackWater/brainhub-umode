@@ -1,76 +1,125 @@
 # Reserva · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- **A data de ativação do contrato.** O campo está vazio; o piso verificável é mai/2023.
+- **O Kanbanize não foi varrido.** Os sete cards abaixo saem da **página do cliente**, não do
+  board. **O estado real deles em `umode.kanbanize.com` é desconhecido.**
+- **Nenhuma ata foi aberta.** *Reuniões & Demandas*, *Atas de Reunião*, *Demandas 24/05*,
+  *Demandas Merchan* e *Solicitações Raquel* existem e **não foram lidas**.
+- **Os 6 PPTs do Review Quinzenal** estão no Google Slides e **não foram abertos**.
+- **Não há tabela de usuários**, então não há marco de onboarding de gente — diferente de
+  Caedu e Puket, onde a jornada começa pelos acessos.
 
 ## Status atual
-Regime CS
+**`Ongoing`** · **7 de 7 módulos** · ERP `Linx / SAP` · grupo **`Enterprise`**, `WIP 6,00`.
 
 ## Fase atual
-uFlow em regime, o time tem domínio sobre a ferramenta e usa com eficiência.
-> Campo `Onde Estamos` do CRM.
+**Operação madura com backlog de produto travado.** A conta tem a comunicação mais estruturada da
+carteira — canal oficial declarado, cadência escrita, curadoria de grupo, review quinzenal — e ao
+mesmo tempo **cinco cards de produto marcados como abertos desde agosto de 2024** na própria
+página, que foi editada pela última vez em **30/06/2026**.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 28/06/2023 | [a preencher] | Reunião Huiara 28/06/23 |
-| 13/08/2024 | [a preencher] | uBuy - Explosão de M |
-| 13/08/2024 | [a preencher] | uBuy - Digitalização da Carteira |
-| 14/08/2024 | [a preencher] | Cronograma e Relatórios |
-| 06/11/2024 | [a preencher] | FUP + MP / Reunião de Sourcing |
-| 01/04/2025 | [a preencher] | KIT e Rota de Operação (Raquel) |
-| 21/05/2025 | [a preencher] | Criação de nova aba na Ficha Técnica (Qualidade) |
-| 13/06/2025 | [a preencher] | Reserva - Reunião One Page 13/06/2025 |
-| [não informada] | [a preencher] | Reunião Reversa 24/05/23 |
-| [não informada] | [a preencher] | Reunião 7/06/23 |
-| [não informada] | [a preencher] | Reunião Qualidade 08/08/23 |
-| [não informada] | [a preencher] | Reunião Julia Camara - GO |
-| [não informada] | [a preencher] | Fup Thais |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 13 reuniões registradas para este cliente
-> (8 com data, 5 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
+| Data | Marco | Fonte |
+|---|---|---|
+| **24/05/2023** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
+| **21/06/2023** | Documento *Solicitações Raquel* — registro nomeado mais antigo da conta | página `Reserva` |
+| **21/12/2023** | **Portal uMode \| Reserva** criado | base `Portal do Cliente` |
+| **16/05** → | Início do **Review Quinzenal de Projeto** para a Claudinha | página `Reserva` |
+| 29/05 · 15/06 · 30/06 | Envios de review **confirmados** | idem |
+| 15/07 · 02/08 · 21/08 | Envios de review **não confirmados** | idem |
+| **30/07/2024** | João envia e-mail sobre **lentidão** e **exportação do Mapa**, com vídeos da Ju | idem |
+| **13–14/08/2024** | **Visita presencial** — preparação lista 7 cards e 5 assuntos | idem |
+| 27/06/2024 | Conta **Oficina Reserva** criada no Notion | base `Mapa de Clientes` |
+| 18/10/2024 | **Portal Simples Reserva** criado | base `Portal do Cliente` |
+| **06/06/2025** | **Visita presencial da Claudinha em SP**, com documentação própria | página `Reserva` |
+| **06–29/01/2026** | **13 chamados** — 8 do cliente, 5 de fornecedor | `Chamados & Atendimentos` |
+| **30/06/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
+
+> ⚠ **Os anos do Review Quinzenal não estão escritos na origem** — só *"16/05"*, *"29/05"* e
+> assim por diante. **Não inferi o ano.** É o mesmo defeito de *data em string* que a
+> `_espec-pessoas-e-comunicacoes.md` §5.1 trata: **data tem que ser campo.**
 
 ## Entregas comprometidas
-[a preencher]
+
+| Entrega | Estado na página |
+|---|---|
+| Review Quinzenal para a Claudinha | ⚠ **2 envios sem confirmação + 1 sem link** |
+| DE/PARA Campos **uBuy** | ⬜ aberto |
+| Ficha de Pedido **uBuy** | ⬜ aberto |
+| Explosão MP | ⬜ aberto |
+| Dados para **uPlan** | ⬜ aberto |
+| Cronograma | ⬜ aberto |
+| Termo de abertura de Projeto — **Sourcing** | documento existe, **não varrido** |
 
 ## Módulos em uso
-Gestão de Coleção, Cronograma, Apostas, Relatórios, Gestão da Carteira de Pedidos, Inovação & IA, Gestão de Processos
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` · `Aposta` · `Planejamento` ·
+`Fornecedores` — **os sete. ÚNICA conta da carteira com a taxonomia completa.**
 
 ## Decisões e restrições registradas
-[a preencher]
+
+| Decisão / restrição | Onde | Estado |
+|---|---|---|
+| **Novas demandas só por formulário** | página, *Comunicação Oficial* | vigente |
+| **Dúvidas de plataforma só pelo chat (Gist)** | idem | vigente |
+| **5 dos 9 grupos de WhatsApp devem ser excluídos** | idem | ⚠ **execução não confirmada** |
+| **Autoria de alteração não se revela a fornecedor** | 2 chamados de jan/2026 | vigente **por julgamento individual** |
+| Cliente tem autonomia para criar o próprio fluxo | template de handover | ⚠ campo **em branco** |
 
 ## Métricas de sucesso definidas
-* Governança e eficiência no Processo de Desenvolvimento de Produto * Centralização da informação em um único lugar * Visibilidade da informação atualizada em tempo real e com agilidade * Disponibilizar a Ficha Técnica do produto para os fornecedores em uma única plataforma, tornando o processo mais seguro e assertivo * Dispor de dados para a definição da estratégia da coleção
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
+A página declara **volume esperado**, não sucesso:
+*"Média de Atendimento: 1 chamado por dia | 2 reuniões por semana"*.
+
+> Na janela varrida (24 dias úteis aproximados), **8 chamados do cliente** — **bem abaixo do
+> 1/dia declarado**. Sem saber se o Gist absorveu o resto, **não dá para concluir queda de uso.**
+
+Métrica de sucesso propriamente dita: `[a preencher]`.
 
 ## Próximos passos
-Entregar novas soluções referentes ao projeto de evolução da montanha do cliente, atendendo às demandas acordadas ( Explosão MP, uBuy, Cronograma, Plano de Codificação, uPlan, uPick, Relatórios)
-> Campo `O que falta` do CRM.
+1. 🔴 **Varrer o Kanbanize** (boards 6 e 18) e descobrir o estado real dos 5 cards.
+2. 🔴 **Ler as atas** — *Reuniões & Demandas*, *Atas de Reunião*, *Demandas Merchan*.
+3. **Resolver `Merchan`** para área canônica — decisão do negócio, não inferência.
+4. **Confirmar a relação Reserva × Oficina Reserva × Simples × Soma.**
+5. **Nomear as pessoas** — há 5 e-mails sem nome e 4 nomes sem e-mail.
+6. **Confirmar se a Claudinha usa e-mail pessoal** para acessar a plataforma.
+7. **Confirmar a exclusão dos 5 grupos** marcados.
+8. **Mapear `uBuy` e `uPlan`** no inventário de produtos.
 
 ## Histórico de incidentes / alertas
-[a preencher]
+
+| Data | Registro | Tipo |
+|---|---|---|
+| 30/07/2024 | **Lentidão em Follow e filtros** — vídeo + e-mail | card aberto, board 18 |
+| 30/07/2024 | **Dificuldade de exportação/edição do Mapa** — vídeo + e-mail | card aberto, board 18 |
+| ago/2024 | Erro no **filtro de composição** | card aberto, board 18 |
+| ago/2024 | **Inativar variantes de materiais** | card aberto, board 18 |
+| ago/2024 | **Carta lacre com somente itens aprovados** | card aberto, board 18 |
+| 08/01/2026 | Fornecedor preso em *"você não tem permissão"* por link salvo em favoritos | resolvido em chamada |
+| 20/01/2026 | Fornecedor pede autoria de consumo incorreto de tecido | **negado** |
+| 29/01/2026 | Fornecedor pede autoria de alteração em referência | **negado, não iniciada** |
+
+> 🔴 **A dor de exportação aparece pela terceira vez, no terceiro cliente.** Caedu (mapeamento
+> de conta), Puket (chamado de usabilidade) e Reserva (card com vídeo e e-mail).
+> **Três casos independentes deixam de ser anedota.**
 
 ## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
+- A conta tem **três irmãs no corpus**: `Oficina Reserva`, `Simples (by Reserva)` e o grupo de
+  segmentação **"Reserva + Soma"**. **A relação entre elas não está declarada em nenhuma fonte.**
+- **Quatro fornecedores** operam dentro da conta — floc, mclprivatelabel, lavinorte e indorf.
+- O campo `Jogo 29/06` existe nesta linha da base e está **vazio** (na Puket está preenchido).
+  **A base carrega campos ad hoc que viram ruído permanente no schema.**
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Marcos, cards, review, canais | Notion — corpo da página `Reserva` | **varrido 21/09/2026** |
+| Chamados e incidentes de jan/2026 | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Status, módulos, ERP, segmentação | Notion — `Mapa de Clientes` · `Segmentação Grupos` | **varrido 21/09/2026** |
+| Datas de portal | Notion — `Portal do Cliente` | **varrido 21/09/2026** |

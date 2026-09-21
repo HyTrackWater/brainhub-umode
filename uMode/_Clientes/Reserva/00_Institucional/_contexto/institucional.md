@@ -1,104 +1,211 @@
 # Reserva · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo** — base `Mapa de Clientes`, página do
+> cliente, base `Segmentação Grupos` e base `Chamados & Atendimentos`.
+> Campo sem fonte fica `[a preencher]` — nada foi inferido.
 
 ## Identidade
 ### ID do cliente
-reserva
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`reserva`
+
 ### Aliases do cliente
-- Reserva (CRM "Mapa de Clientes" — nome canônico)
+`Reserva` · `RSV` (usado nos nomes de grupo de WhatsApp da própria operação) ·
+domínio `usereserva.com`
+
+> ⚠ **Reserva não é uma conta só.** No corpus existem também `Oficina Reserva` e
+> `Simples (by Reserva)`, ambas com casa própria. O grupo de segmentação da uMode se chama
+> **`Enterprise`** e tem a descrição literal **"Reserva + Soma"**. **Confirmar a relação
+> societária entre as três contas e o grupo Soma** — nenhuma fonte varrida a declara.
+
 ### Quem são
-[a preencher]
+`[a preencher]` — os campos `Razão Social`, `Setor da Empresa`, `Área de Atuação`, `Cidade`,
+`Estado`, `CNPJ` e `Receita Anual` estão **todos vazios na base**.
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — campo vazio na base.
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — campo vazio na base.
+
 ### Grupo de segmentação uMode
-Grupo 1: Azzas
+**`Enterprise`** — Grupo 1, descrição **"Reserva + Soma"**.
+`WIP Time 10` · **`WIP Estratégico 6,00`** — **a maior alocação da carteira**.
+
+| Grupo | Nome | WIP Estratégico | Clientes vivos |
+|---|---|---:|---|
+| 1 | **Enterprise** | **6,00** | **Reserva** · Oficina Reserva · NV |
+| 2 | Médios | 2,25 | Cambos · Lofty Style · Luiza Barcelos · NK STORE · VIX · Osklen · Moda Objetiva · Loungerie |
+| 3 | SMB | 1,75 | Caedu · Puket |
+
+> ⚠ A base `Segmentação Grupos` está sob a pasta **`Arquivo`** no Notion. **Confirmar vigência.**
 
 ## Operação uMode
 ### Status atual
-Regime CS
-> ⚠ `Regime CS` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos (CRM): Gestão de Coleção, Cronograma, Apostas, Relatórios, Gestão da Carteira de Pedidos, Inovação & IA, Gestão de Processos
-- Produto (CRM): uBuy, uFlow, uPlan
-- Usuários ativos no mês da fonte (CRM): 108
-### Usuários da conta
+**`Ongoing`** — lido na base em 21/09/2026.
 
-`[a preencher]`
+### Data de ativação
+`[a preencher]` — campo `Data Ativação Cliente` **vazio na base**.
+
+> **Piso verificável:** a linha do cliente no Notion foi criada em **24/05/2023**, e há um
+> documento *Solicitações Raquel* datado de **21/06/2023**. A conta opera **desde meados de 2023,
+> no mínimo**.
+
+### Módulos contratados
+**`Gestão de Coleção`** · **`Integração`** · **`Relatórios`** · **`Cronograma`** · **`Aposta`** ·
+**`Planejamento`** · **`Fornecedores`**
+
+> 🔴 **Sete de sete. É a única conta da carteira com a taxonomia completa de módulos.**
+> Para comparação: Oficina Reserva e Osklen têm 5, a maioria tem 4, a Puket tem 2.
+
+### Usuários da conta
+`[a preencher]` — 🔴 **a página da Reserva não tem tabela de usuários do PLM.**
+
+> Esta é a diferença mais importante entre esta conta e Caedu/Puket: **o eixo pessoa↔área que
+> funcionou nos outros dois não existe aqui.** O que existe está em *Aliases de áreas*, abaixo, e
+> vem de outra fonte.
+>
+> **8 pessoas de `@usereserva.com`** aparecem abrindo chamado em jan/2026 — ver
+> [`pessoas.md`](pessoas.md).
 
 ### ERP / Integração
-Linx / SAP
+**`Linx / SAP`** — dois ERPs. Há um grupo de WhatsApp chamado
+*"PROBLEMAS DIÁRIOS PA"* cujos participantes declarados são **SAP, Linx, Cadastro RSV e Cadastro
+Oficina** — **a convivência dos dois ERPs tem canal próprio e diário.**
+
 ### Responsável de atendimento (uMode)
-Fernanda Araujo, Victor Aragão, João Paulo Contar Risoleo (Key Account) · Juliana Ferré Esteves (Consultor de Negócios)
-> Campo `Time de Atendimento` no CRM: Fernanda & Victor
+- **2025:** **Fernanda** — que atende também NV e Oficina Reserva, **as três contas `Enterprise`**
+- **2024:** três pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
 
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+> 🔴 **Aqui a fonte é outra.** Sem tabela de PLM, o único vínculo pessoa↔área que existe na
+> conta está nos **nomes dos grupos de WhatsApp** e nos títulos de documento da própria página.
+>
+> **É fonte fraca e está declarada como tal** — mas é a que existe.
+
+| Alias na operação | Onde aparece | → Área canônica |
+|---|---|---|
+| `Estilo` | grupo *"Comitê uMode <> Reserva"*, *"uMode - Importante"* (Adriana) | `02_Estilo-Criacao` |
+| `Cadastro` | grupos *"Migração PA"*, *"PROBLEMAS DIÁRIOS PA"* (Raquel) | `08_Ecommerce-Cadastro` |
+| `Compras` | grupos *"Comitê Compras | RSV + uMode"*, *"Compras e Umode"* (Claudinha) | `06_Compras-Supply-Sourcing` |
+| `Sourcing` | grupo *"RSV & uMode | Sourcing"* (Bruno) · *Termo de abertura de Projeto - Sourcing* | `06_Compras-Supply-Sourcing` |
+| `Eng` / `Engenharia` | grupo *"Comitê uMode <> Reserva"*, *"uMode - Importante"* (Raquel) | `14_Engenharia` |
+| `Merchan` | grupo *"Comitê uMode <> Reserva"* · documento *Demandas Merchan* | ⚠ `[a preencher]` — ver abaixo |
+| `Produto` | documento *Demandas de Produto* | `03_Desenvolvimento-de-Colecao` |
+
+### ⚠ `Merchan` exige decisão, não palpite
+*Merchandising* em moda costuma ficar entre planejamento e comercial, e a grade canônica tem
+`01_Planejamento` e `09_Comercial-Vendas` como candidatos. **Nenhuma fonte varrida diz qual.**
+Fica `[a preencher]` até alguém do atendimento responder — **derivar dos dois seria inventar.**
+
+### O que isso cobre e o que não cobre
+**Sete áreas têm alias**, seis delas resolvidas. **As outras sete não têm nenhum sinal**:
+`04_Qualidade` · `05_PCP` · `07_Logistica-CD` · `10_Marketing` · `11_Financeiro` ·
+`12_Design` · `13_Modelagem`.
+
+> **Não conclua que elas não existem na Reserva.** Conclua que **nenhuma das fontes varridas as
+> menciona** — e que a conta não tem a fonte (tabela de PLM) que as revelaria.
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1vMZkhGi91KZ_D_r5FGCfhNxIBXAfUldl?usp=drive_link
+Pasta registrada na base — `1vMZkhGi91KZ_D_r5FGCfhNxIBXAfUldl`. **Não varrida.**
+
 ### Outras fontes
-- OKRs (CRM): https://docs.google.com/presentation/d/1hbHYIwVr_VGxZLZFreBmJ8igUy8w_E7ZbGpwo1q0uv0/edit#slide=id.g25bf9a6d8e0_0_182
-- 3A · controle de troca de e-mails (CRM): Anny, Neusa Aparecida, Suzana, Jenifer, Janaina, Saulo, Raiane, Graziela, Julia - fornecedor
-- Chamados/Atendimento vinculados no CRM: Dificuldades para logar, Dificuldades para logar (1), Untitled, Erro ‘’você não tem permissão’’, Untitled, Dúvida sobre quanto tempo demora para atualizar alterações no material., Untitled, Untitled, Quer saber como acessar todos os pedidos e não é na uMode. Foi informada., Perguntou quem inseriu o consumo incorreto do (tecido Triple Dry), na ref. 101372, foi a simone mas não informei. Orientei chamar a reserva., Untitled, O fornecedor pediu o nome de quem mexeu na referência. Informei que não podemos passar e ela ( sabrina ) disse que a reserva informou que nós que enviamos essas informaçoes. Respondi novamente que é com eles e que não temos essa informação..
+| Fonte | Ferramenta | Estado |
+|---|---|---|
+| 🔴 **Kanbanize** — `umode.kanbanize.com`, **boards 6 e 18** | Kanbanize | **não varrido — sistema inteiro fora do inventário** |
+| Formulário de novas demandas | Notion | **não varrido** |
+| Chat da plataforma — **Gist** | Gist | **não varrido** |
+| Review Quinzenal de Projeto | Google Slides | **não varrido** — 6 PPTs referenciados |
+| Playbooks Reserva | Notion | **não varrida** |
+| Miro Regras e restrições | Miro | **não varrida** |
+| Termo de abertura de Projeto - Sourcing | Notion | **não varrido** |
+| Roundtable · Blazers · Onboarding>Ongoing | Notion | **não varridas** |
+| Portal uMode \| Reserva | Notion | **não varrido** |
+| Reuniões & Demandas · Atas de Reunião | Notion | **não varridas** |
+| `Chamados & Atendimentos` | Notion | ✅ **varrida — 8 chamados de `@usereserva.com` + 5 de fornecedor** |
+| `Mapa de Clientes` · `Segmentação Grupos` | Notion | ✅ **varridas** |
+
+> 🔴 **Produtos citados na página que não são o uFlow/PLM: `uBuy` e `uPlan`.**
+> Aparecem em *"DE/PARA Campos uBuy"*, *"Ficha de Pedido uBuy"* e *"Dados para uPlan"*.
+> **Não estão no inventário de produtos do BrainHub.**
 
 ## Contexto crítico
-- Onde Estamos (CRM): uFlow em regime, o time tem domínio sobre a ferramenta e usa com eficiência.
-- Sucesso do Cliente (CRM): * Governança e eficiência no Processo de Desenvolvimento de Produto * Centralização da informação em um único lugar * Visibilidade da informação atualizada em tempo real e com agilidade * Disponibilizar a Ficha Técnica do produto para os fornecedores em uma única plataforma, tornando o processo mais seguro e assertivo * Dispor de dados para a definição da estratégia da coleção
-- O que falta (CRM): Entregar novas soluções referentes ao projeto de evolução da montanha do cliente, atendendo às demandas acordadas ( Explosão MP, uBuy, Cronograma, Plano de Codificação, uPlan, uPick, Relatórios)
-- Tamanho atendimento (CRM): G
-- Última edição do registro no CRM: March 4, 2026 10:13 AM por Ju Ferré
-
 ### Onde estamos
+Conta **`Enterprise`**, a de maior alocação e única com os **7 módulos**. É também a conta com a
+**operação mais instrumentada** que se viu: comunicação oficial declarada por escrito, cadência
+nomeada, curadoria de canal e review quinzenal formal.
 
-`[a preencher]`
+**A cadência declarada na própria página:** *"Média de Atendimento: 1 chamado por dia | 2 reuniões
+por semana"*.
 
 ### 🔴 A frente aberta
+**A página lista sete cards do Kanbanize, e cinco seguem em aberto** — marcados como
+*"IMPORTANTES DE SEREM FINALIZADOS OU DE TEREM SOLUÇÃO PLANEJADA"* para uma visita presencial
+de **13 e 14/ago/2024**:
 
-`[a preencher]`
+| Card | Board | Estado na página |
+|---|---|---|
+| Reunião Preço | 6 / 15416 | ✅ finalizado |
+| Dash Bazar | 6 / 14778 | ✅ finalizado |
+| **Lentidão Follow/filtros** | 18 / 15464 | ⬜ **aberto** — vídeo da Ju, e-mail do João em 30/07 |
+| **Dificuldade de Exportação/edição do Mapa** | 18 / 15148 | ⬜ **aberto** — vídeo da Ju, e-mail do João em 30/07 |
+| **Inativar Variantes de Materiais** | 18 / 15040 | ⬜ **aberto** |
+| **Erro Filtro de Composição** | 18 / 14971 | ⬜ **aberto** |
+| **Carta Lacre com somente itens aprovados** | 18 / 14890 | ⬜ **aberto** |
+
+> ⚠ **A página foi editada pela última vez em 30/06/2026** e esses cards continuam marcados como
+> abertos desde **agosto de 2024**. **Quase dois anos.** Não afirmo que seguem abertos no Kanbanize
+> — **afirmo que a página do cliente os mostra assim, e que o Kanbanize não foi varrido.**
+
+**Assuntos declarados como pendentes na mesma preparação:** DE/PARA Campos uBuy · Ficha de Pedido
+uBuy · Explosão MP · Dados para uPlan · Cronograma.
 
 ### O que o cliente espera
+**Review Quinzenal de Projeto**, enviado à **Claudinha** a cada quinzena, em PPT sobre template
+fixo. **Início em 16/05.** O registro diz: *"João está como responsável para estruturar essa
+task"*.
 
-`[a preencher]`
+> ⚠ **Dos 6 envios listados, 4 estão marcados como feitos e 2 não** (15/07 e 02/08), mais um
+> **21/08 sem link**. **A cadência prometida degrada no próprio registro.**
 
 ### As dores estruturais registradas
-
-`[a preencher]`
+1. **Dificuldade de exportação/edição do Mapa** — card aberto no board 18.
+   > 🔴 **É a terceira vez que esta dor aparece, em três clientes diferentes.** Na Caedu, o
+   > mapeamento de conta mostrou que a origem do produto vive na ficha e não na variante, e como a
+   > validação é por variante isso obriga exportações extensas. No Puket, virou chamado de
+   > usabilidade sobre **tempo de exportação**. Aqui, card de Kanbanize com vídeo e e-mail.
+   > **Três casos independentes deixam de ser anedota: é defeito de modelo de dado.**
+2. **Lentidão em Follow e filtros** — card aberto, com vídeo.
+3. **Erro no filtro de composição** · **inativar variantes de materiais** · **carta lacre** — abertos.
+4. **Confidencialidade de autoria.** Duas vezes em janeiro de 2026 um fornecedor pediu **o nome de
+   quem alterou uma referência**, e o atendimento negou — *"Informei que não podemos passar"*.
+   > **É regra de negócio aplicada por julgamento individual, registrada em texto livre.** Virou o
+   > campo `disclosurePolicy` na [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
 
 ### Tamanho de atendimento
-
-`[a preencher]`
+Grupo **`Enterprise`** · `WIP Estratégico 6,00` · **Fernanda**, que atende as **3 contas
+Enterprise** (Reserva, Oficina Reserva, NV).
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Fernanda Araujo, Victor Aragão, João Paulo Contar Risoleo (Key Account) · Juliana Ferré Esteves (Consultor de Negócios)
+Fernanda (2025)
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Status, módulos, ERP, atendimento, segmentação | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
+| Grade de segmentação e WIP | Notion — base `Segmentação Grupos` | **varrido 21/09/2026** |
+| Aliases de área, canais, cards, review | Notion — corpo da página `Reserva` | **varrido 21/09/2026** |
+| Chamados, pessoas e confidencialidade | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
