@@ -511,6 +511,68 @@ uma reunião, e os **OKRs do projeto saíram de uma conversa no ChatGPT**, com l
 **Parte do contexto institucional já nasce em transcrição de IA** — que é o insumo do projeto
 paralelo de transcrições.
 
+### VIX fechada — 17 perfis, e uma contradição dentro da própria página
+
+**6 de 46 clientes varridos.** A VIX tem **a matriz de permissão mais detalhada da carteira** —
+17 perfis campo a campo — e **nenhuma lista nominal**. É o **inverso exato da NK**, onde a lista
+existe e divergiu da matriz. **Nas duas contas, metade do vínculo pessoa↔área falta.**
+
+#### 🔴 A contradição
+A página de permissionamento termina com um **"Aprendizado"**: *"Quando um usuário que não tem
+permissionamento para deletar variante do produto fizer a solicitação, pedir que faça a
+solicitação internamente, para um usuário que tenha permissão."*
+
+**Mas a matriz na mesma página marca 🔴 em `Excluir variante` para os 17 perfis — inclusive
+`Vix-Admin` e `uDash`.** O procedimento manda encaminhar para alguém que, segundo a tabela ao
+lado, não existe.
+
+**E há o caso real:** em 13/01/2026 `josilaine.paula` *"deletou variante e depois não sabia quem
+foi, pediu para encontrarmos ela no banco e identificar"*. **Alguém excluiu o que ninguém pode
+excluir, e a própria pessoa precisou pedir à uMode para descobrir quem foi** — porque
+`Histórico de Movimentações` é 🟡 para todos. **É caso de auditoria, não de suporte.**
+
+#### Outros achados da VIX `[C]`
+- **`uDash` é perfil da uMode dentro da conta do cliente**, documentado junto aos do cliente sem
+  distinção. Para o modelo: `relationType` de quem usa `uDash` é `INTERNAL`, e nada na fonte separa.
+- **`Vix-Demo` é perfil de demonstração numa conta de produção.**
+- **Governança de suporte oposta à da NK:** aqui *Fale com o Suporte* está 🟢 para os 17
+  perfis; na NK está 🔴 até para o Admin. **Duas políticas opostas, sem regra declarada.**
+- **`Usuários da Conta` 🟢 para todos** — qualquer pessoa vê a lista inteira.
+- **`Vix- Qualidade` é o único perfil com 🟢 em `Assinaturas` e `Faturas`.** Parece
+  configuração indevida — **é pergunta, não afirmação.**
+- **Quem empurra para o Linx são `Vix-Estilo Roupas` e `Vix-Tabela`** — perfis de Estilo e de
+  tabela de medidas, não de TI nem de PCP.
+- **Um incidente de VPN do cliente gerou 5 chamados num dia.** **Volume de chamado mede sintoma,
+  não problema** — falta agrupamento por causa-raiz.
+- **Um chamado da NV está atribuído à VIX.** Erro de atribuição entre clientes na origem.
+
+### 🔴 Escrita a `_proposta-grade-de-areas-revisao.md`
+
+**Três clientes independentes têm área de produção interna que não cabe na grade de 14:**
+NV tem **`Atelier`**, NK tem **`Oficina`**, VIX tem **`Vix-Estamparia`**. Três fontes diferentes
+— template preenchido pelo cliente, desenho de processo e perfil de PLM.
+
+**Pelo critério da varredura — um caso é anedóta, dois é hipótese, três é padrão — foi
+atingido.** `13_Modelagem` é molde, `14_Engenharia` é especificação, `05_PCP` **planeja** a
+produção e na NK aparece como **etapa distinta e anterior** à `Oficina`. **Forçar o encaixe
+destruiria a informação**, então deixei `[a preencher]` nos três.
+
+**A proposta recomenda criar `15_Producao-Interna`** — e registra a contraproposta (usar Subárea
+sob PCP) com o argumento contra. **Nada foi alterado: a grade está travada no `CONTEXT.md` e a
+decisão é do Vinicius `[D]`.**
+
+**A proposta traz também:**
+- 🔴 **Subárea deixou de ser hipótese.** A VIX tem **5 perfis de Estilo, 4 deles por linha de
+  produto** (Biquíni, Cover ups, Roupas, PA). **O nível 3 da hierarquia já está gravado no perfil
+  de acesso do PLM.** O modelo precisa de `areaId` **e** `subAreaLabel` — senão a tradução
+  `Vix-Estilo Biquini → 02_Estilo-Criacao` perde o que mais importa.
+- **Seis rótulos que não resolvi e não inventei:** `Merchandising` (2 clientes, e na NK é
+  diretoria que responde por Compras + Industrial + Compliance), `Planejamento Comercial`,
+  `Curadoria`, `TEX`, `Vix-Produto TP`, `Vix-Ficha Tecnica`.
+- **A tabela de cobertura dos 6 clientes.** `02_Estilo-Criacao` e `06_Compras-Supply-Sourcing`
+  aparecem em **6 de 6** — são o núcleo duro. **`12_Design` aparece em 1 de 6** — vale reavaliar
+  ao fim da varredura se é área canônica ou subárea de Estilo.
+
 ## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
 
 > Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue

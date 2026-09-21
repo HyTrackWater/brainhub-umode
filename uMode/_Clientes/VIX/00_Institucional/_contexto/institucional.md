@@ -1,103 +1,238 @@
 # VIX · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página
+> *[Vix] Perfil de Usuário e Permissionamento*. Campo sem fonte fica `[a preencher]`.
 
 ## Identidade
 ### ID do cliente
-vix
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`vix`
+
 ### Aliases do cliente
-- VIX (CRM "Mapa de Clientes" — nome canônico)
+`VIX` · `Vix` · domínio `vixbrasil.com`
+
+> ⚠ A capa da página no Notion é um arquivo chamado **`logo-yami.png`**. **Não afirmo relação
+> com uma marca "Yami"** — registro porque é o único indício de submarca na conta. **Confirmar.**
+
 ### Quem são
-[a preencher]
+**Moda praia e vestuário, B2C, no Rio de Janeiro (RJ).**
+
+🔴 **E o portfólio está gravado na estrutura de perfis de acesso** — ver *Aliases de áreas*.
+
 ### O que fazem
-[a preencher]
+`[a preencher]` — nenhuma fonte varrida descreve a operação. **Mas os perfis revelam a divisão
+de linha:** `Biquini`, `Cover ups`, `Roupas` e `PA` (produto acabado).
+
 ### Para quem fazem
-[a preencher]
+**B2C.** Há um e-mail `ecommerce@vixbrasil.com` abrindo chamado — **o canal digital opera**.
 
 ## Posicionamento
 ### Segmento
-B2C — Vestuário,Moda Praia — Rio de Janeiro RJ
+**Vestuário, Moda Praia** · Área de atuação: **B2C**.
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — campo vazio na base.
+
 ### Grupo de segmentação uMode
-Grupo 2: Estratégico
+**`Médios`** — Grupo 2. `WIP Estratégico 2,25`.
 
 ## Operação uMode
 ### Status atual
-Onboarding
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos contratados (CRM): uFlow, uMetrics, uPick
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uBuy, uFlow, uPick
-- Acessos contratados (CRM): 30 (P) e 5 (G)
-- Usuários ativos no mês da fonte (CRM): 31
-- Relatórios (CRM): uMode
-### Usuários da conta
+**`Ongoing`** — lido na base em 21/09/2026.
 
-`[a preencher]`
+### Data de ativação
+`[a preencher]` — campo vazio.
+**Piso verificável:** linha criada em **08/06/2023**; **Portal uMode | Vix** criado em
+**24/08/2023**; há páginas *Onboarding* e *Onboarding > Ongoing*.
+
+### Módulos contratados
+`Gestão de Coleção` · `Integração` · `Relatórios` · **`Aposta`** — 4 de 7.
+
+> **A VIX e a Reserva são as únicas contas com o módulo `Aposta`.**
+
+### Usuários da conta
+`[a preencher]` — **a página de permissionamento tem a matriz, mas não a lista nominal.**
+Diferente da NK, aqui **não há base de usuários embutida**.
+
+**14 pessoas** aparecem abrindo chamado em jan/2026 — ver [`pessoas.md`](pessoas.md).
 
 ### ERP / Integração
-Linx
+**`Linx`**. Há um bloco datado **31/07/2025** com mapeamento de campo uMode ↔ Linx, citando
+tabelas e colunas reais do ERP (`PRODUTOS`, `PROP_PRODUTOS`).
+
+> 🔴 **A VIX é o único cliente varrido com telas dedicadas à fila de integração**:
+> `Linx Produtos pendentes`, `Linx Materiais pendentes`, `Enviar para integração Linx` e
+> `Grupo Linx` aparecem na matriz de permissão como itens próprios.
+> **A integração aqui não é pano de fundo — é uma área de trabalho com dono.**
+
 ### Responsável de atendimento (uMode)
-Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Andrea Goulart Holmer dos Santos (Consultor de Negócios)
-> Campo `Time de Atendimento` no CRM: Julianne & Pedro
+- **2025:** **Julianne & Pedro** — dupla que atende **6 contas**.
+- **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
+
+**Outras pessoas da uMode citadas nos chamados:** **Pedro** (mandou e-mail para confirmar
+identidade de uma usuária) · **Felipe** (tratou a VPN diretamente com o TI do cliente) ·
+**André** (liberou a inclusão de VIEW no campo descritivo).
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
 
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+> 🔴 **A VIX tem 17 perfis de acesso — de longe a taxonomia mais granular da carteira.**
+> Caedu tem 14, Puket 13, NK 5 atribuídos. **E aqui os perfis descrevem linha de produto, não só
+> função.**
+
+| Perfil no PLM | → Área canônica | Observação |
+|---|---|---|
+| `Vix-Estilo Biquini` | `02_Estilo-Criacao` | **subárea: linha Biquíni** |
+| `Vix-Estilo Cover ups` | `02_Estilo-Criacao` | **subárea: linha Saídas de praia** |
+| `Vix-Estilo Roupas` | `02_Estilo-Criacao` | **subárea: linha Roupas** |
+| `Vix-Estilo PA` | `02_Estilo-Criacao` | **subárea: Produto Acabado** |
+| `Vix- Estilo Admim` | `02_Estilo-Criacao` | administração de Estilo · ⚠ **erro de grafia na origem** |
+| `Vix-Desenvolvimento` | `03_Desenvolvimento-de-Colecao` | |
+| `Vix- Qualidade` | `04_Qualidade` | |
+| `Vix-PCP` | `05_PCP` | |
+| `Vix-Compras` | `06_Compras-Supply-Sourcing` | |
+| `Vix-CAD` | `13_Modelagem` | **`[P]` proposta** — o perfil só vê CAD, Ficha Técnica, Grade e Tabela de Medidas |
+| `Vix-Tabela` | `13_Modelagem` | **`[P]` proposta** — tabela de medidas |
+| `Vix-Ficha Tecnica` | ⚠ `[a preencher]` | `03` ou `14`? **não decidi** |
+| `Vix-Produto TP` | ⚠ `[a preencher]` | **`TP` não é explicado em nenhuma fonte** |
+| **`Vix-Estamparia`** | 🔴 **NÃO EXISTE na grade** | ver abaixo |
+| `Vix-Admin` | **transversal** | |
+| `Vix-Demo` | — | ⚠ **perfil de demonstração na conta de produção** |
+| **`uDash`** | — | 🔴 **é perfil da uMode, não do cliente** — ver abaixo |
+
+### 🔴 A descoberta que muda o desenho: Estilo se divide por linha de produto
+
+A grade canônica trata `02_Estilo-Criacao` como **uma** área. Na VIX ela **é quatro**, separadas
+por linha: **Biquíni · Cover ups · Roupas · Produto Acabado**.
+
+> **Isso não é exceção — é a confirmação de um nível que a hierarquia do BrainHub já previa.**
+> O nível 3 são **Subáreas, com nomes livres**. A VIX mostra que **a subárea de um cliente de moda
+> praia é a linha de produto**, e que **isso já está gravado no perfil de acesso do PLM.**
+>
+> **Consequência prática:** o mapeamento perfil → área precisa de **dois campos**, não um —
+> `areaId` **e** `subAreaLabel`. Item para a
+> [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
+
+### 🔴 `Estamparia` não cabe na grade — e é a terceira vez
+
+| Cliente | Nome na origem | O que é |
+|---|---|---|
+| NV | **`Atelier`** | produção interna |
+| NK STORE | **`Oficina`** | produção interna |
+| **VIX** | **`Vix-Estamparia`** | **produção interna — estamparia** |
+
+**Três clientes independentes, três nomes, a mesma lacuna.** A grade tem `13_Modelagem` e
+`14_Engenharia` e **nenhuma área de produção própria**.
+
+> **Pelo critério que venho usando — três casos deixam de ser anedota — isto é padrão.**
+> **A grade de 14 áreas precisa de uma décima quinta.** Mexer nela afeta os 46 clientes.
+> **Decisão do Vinicius `[D]`. Não forçei nenhum encaixe.**
+
+### 🔴 `uDash` é perfil da uMode dentro da conta do cliente
+`uDash` aparece como a **primeira coluna** da matriz e tem a permissão mais ampla de todas —
+inclusive 🟢 em `Enviar para integração Linx` e `Grupo Linx`, que quase todo perfil do cliente
+tem 🔴.
+
+> **A uMode tem um perfil operando dentro da conta, e ele está documentado junto dos perfis do
+> cliente, sem distinção.** Para o modelo de pessoas isso importa: **`relationType` de quem usa
+> `uDash` é `INTERNAL`, não `CLIENT`** — e hoje nada na fonte separa os dois.
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/18dLcdFUurn9eXscDWOcBJz3VTDk7r-KR?usp=drive_link
+Pasta registrada — `18dLcdFUurn9eXscDWOcBJz3VTDk7r-KR`. **Não varrida.**
+
 ### Outras fontes
-- OKRs (CRM): https://miro.com/app/board/uXjVNksuCl0=/
-- Chamados/Atendimento vinculados no CRM: Não recebeu o email de acesso., Conexão dela caiu mas foi do lado dela., Erro ao integrar prod. no Linx (vpn deles fora do ar, clique pra ver detalhes), Erro ao integrar prod. no Linx (vpn deles fora do ar, clique pra ver detalhes) (1), Adicionar VIEW no campo descritivo, foi liberado pelo André e vai iniciar na próxima semana 12/01, Erro de integração causado pela vpn deles que estava off. Foi resolvido mas aguardo feedback delas no chat., Erro de integração causado pela vpn deles que estava off. Foi resolvido mas aguardo feedback delas no chat. (1), Erro de integração causado pela vpn deles que estava off. Foi resolvido mas aguardo feedback delas no chat. (2), Erro de integração causado pela vpn deles que estava off. Foi resolvido mas aguardo feedback delas no chat. (3), Valores diferentes linx e produto uMode, Erro momentâneo ‘’isso é embaraçoso’’, Untitled, Untitled, Untitled, Untitled, Custo, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled, Untitled
+| Fonte | Ferramenta | Estado |
+|---|---|---|
+| **[Vix] Perfil de Usuário e Permissionamento** | Notion | ✅ **varrida — 17 perfis, 3 matrizes** |
+| **uPick Vix - Passo a passo** | Notion | 🔴 **não varrida** — `uPick` é **produto fora do inventário** |
+| [Produto] Demandas | Notion | **não varrida** |
+| Onboarding · Onboarding > Ongoing · Playbooks | Notion | **não varridas** |
+| Miro Regras e restrições | Notion/Miro | **não varrida** |
+| Vix: Atualização Junho24 | Google Slides | **não varrida** |
+| Documentação tech | Notion | **não varrida** — **a mesma página é referenciada pela NK** |
+| 2 bases embutidas na página | Notion | **não varridas** |
+| `Chamados & Atendimentos` | Notion | ✅ **varrida — 28 chamados, 14 pessoas** |
+| `Mapa de Clientes` · `Segmentação Grupos` · `Portal do Cliente` | Notion | ✅ **varridas** |
 
 ## Contexto crítico
-- Onde Estamos (CRM): Uflow em regime. O time domina o uso da ferramenta. Realinhamos prazos e expectativas, incluisve das demandas de melhoria. Temos um relatório em processo de melhoria após realinhamento com o cliente e elencamos grau de priorização para seguir com os demais relatórios.
-- Sucesso do Cliente (CRM): -Ter clareza de prazo e se vamos ou não entregar, de todas as demandas solicitadas desde o primeiro momento da definição, até mesmo as que são consideradas melhorias;   · -Agilidade na comunicação;   · -Enxergar o desenvolvimento de produtos completo e por gráficos no relatório desenvolvimento de produto;   · -Trazer para a Uflow outros controles internos: Cronograma, Relatório de Planejado x Realizado e melhorar o uso interno do time do Relatório de Desenvolvimento (Lacre Materiais - estampas e aviamentos;   · - Visão sistêmica dos processos;   · - Melhorar a celeridade e assertividade de informações no workflow de estilo.
-- O que falta (CRM): Evoluir sobre o uso do novo workflow de estilo para entender as dificuldades do time.   · Aprofundar a usabilidade do cliente e propor novas soluções que possam agregar valor, como uPlan e relatórios.
-- Tamanho atendimento (CRM): G
-- Departamento (CRM): Feminino
-- Última edição do registro no CRM: March 4, 2026 10:08 AM por Ju Ferré
-
 ### Onde estamos
-
-`[a preencher]`
+Terceira conta em volume: **28 chamados de 14 pessoas**, **16 abertos**.
 
 ### 🔴 A frente aberta
 
 `[a preencher]`
 
-### O que o cliente espera
+### 🔴 A frente aberta: a contradição da exclusão de variante
 
-`[a preencher]`
+A página de permissionamento termina com uma seção **"Aprendizados"**, com uma regra só:
+
+> *"Quando um usuário que não tem permissionamento para deletar variante do produto fizer a
+> solicitação no chat/atendimento, pedir que faça a solicitação internamente, para um usuário que
+> tenha permissão."*
+
+**Mas a própria matriz, na mesma página, marca 🔴 em `Excluir variante` para os 17 perfis —
+inclusive `Vix-Admin` e `uDash`.**
+
+> 🔴 **A instrução manda encaminhar para alguém que, segundo a tabela ao lado, não existe.**
+> Ou a matriz está desatualizada, ou o procedimento é impossível. **As duas coisas estão na mesma
+> página e ninguém notou.**
+
+**E há o caso real, em 13/01/2026** — `josilaine.paula`:
+> *"deletou variante e depois não sabia quem foi, pediu para encontrarmos ela no banco e
+> identificar"*
+
+**Alguém excluiu uma variante que ninguém tem permissão para excluir, e a própria pessoa precisou
+pedir à uMode para descobrir quem foi.**
+
+> **Os três fatos juntos** — matriz que proíbe, procedimento que pressupõe quem pode, e exclusão
+> que aconteceu sem rastro visível ao cliente — **são um caso de auditoria, não de suporte.**
+> **`Histórico de Movimentações` é 🟡 "somente visualizar" para todos os 17 perfis**, o que
+> explica por que ela não conseguiu descobrir sozinha.
+
+### O que o cliente espera
+`[a preencher]`.
 
 ### As dores estruturais registradas
 
-`[a preencher]`
+**1 · Exclusão de variante sem rastreabilidade** — ver acima.
+> Conecta com a Reserva (*"Inativar Variantes de Materiais"*, card aberto) e com a CAEDU
+> (origem do produto na ficha e validação por variante). **Variante é dor de três clientes.**
+
+**2 · VPN do cliente derrubando a integração.** Em 08/01/2026, **cinco chamados no mesmo dia** de
+quatro pessoas diferentes (`luana.carmo`, `priscilla.souza`, `evelyn.nascimento`,
+`eduarda.ribeiro`) pelo mesmo motivo: *"Erro ao integrar prod. no Linx — a VPN deles está fora do
+ar"*. **Felipe tratou direto com o TI do cliente.**
+> 🔴 **Um incidente de infra do cliente virou cinco chamados.** Sem agrupamento por causa-raiz,
+> o volume de chamado mede sintoma, não problema.
+
+**3 · Divergência de custo Linx × uMode** — também em NV e Lofty Style. **Três clientes.**
+
+**4 · Token de acesso que não chega.** `janine.silva`, 06/01/2026 — **`Em Aberto`**.
+O registro do atendimento mostra uma decisão de segurança tomada na hora:
+> *"Pediu que eu enviasse pelo whatsapp mas não enviei pois não tenho certeza se é ela.
+> O Pedro mandou email pra henriques pra confirmarmos."*
+>
+> 🟢 **É verificação de identidade antes de entregar credencial, feita por julgamento
+> individual e registrada em texto livre** — mesmo padrão da confidencialidade de autoria na
+> Reserva. **Vira `disclosurePolicy` e política de entrega de credencial na espec.**
+
+**5 · *"isso é embaraçoso"*** — mensagem de erro da plataforma citada por `luana.carmo` (09/01) e
+também pela Básico&Co. **É string de erro genérica chegando ao usuário final em dois clientes.**
 
 ### Tamanho de atendimento
-
-`[a preencher]`
+Grupo **`Médios`** · `WIP 2,25` · **Julianne & Pedro**, com 6 contas.
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Andrea Goulart Holmer dos Santos (Consultor de Negócios)
+Julianne & Pedro (2025)
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| 17 perfis e 3 matrizes de permissão | Notion — *[Vix] Perfil de Usuário e Permissionamento* | **varrida 21/09/2026** |
+| 28 chamados, pessoas, dores | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Setor, cidade, B2C, módulos, ERP | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
+| Mapeamento de campo uMode ↔ Linx | Notion — corpo da página `VIX`, bloco de **31/07/2025** | **varrido 21/09/2026** |

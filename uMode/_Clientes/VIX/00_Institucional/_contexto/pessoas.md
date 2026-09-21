@@ -1,46 +1,62 @@
 # VIX · Pessoas
 
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página
+> *[Vix] Perfil de Usuário e Permissionamento*. Campo sem fonte fica `[a preencher]`.
+
 ## Responsável de atendimento (uMode)
-Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Andrea Goulart Holmer dos Santos (Consultor de Negócios)
+- **2025:** **Julianne & Pedro** — dupla que atende **6 contas**: VIX, NK STORE, Caedu, Puket,
+  Osklen e Loungerie.
+- **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
 
-> Campo `Time de Atendimento` no CRM: Julianne & Pedro
-
-> Pessoas da uMode vivem apenas em `uMode/00_Institucional/_pessoas/` (regra travada em
-> `CONTEXT.md`) — aqui só o vínculo de atendimento, nunca uma segunda identidade.
-
----
+**Pessoas da uMode citadas nos chamados desta conta:**
+**Pedro** — enviou e-mail para confirmar a identidade de uma usuária antes de reenviar token ·
+**Felipe** — tratou a queda de VPN diretamente com o TI do cliente ·
+**André** — liberou a inclusão de VIEW no campo descritivo.
 
 ## Diretoria e decisores
-[a preencher]
+`[a preencher]` — nenhuma fonte varrida nomeia a diretoria.
 
 ## Liderança do projeto (cliente)
-[a preencher]
+`[a preencher]`.
 
----
+> Candidata por volume e por assunto: **`luana.henriques`** — 6 chamados, e é quem negocia
+> mudança de campo com o André (*"Adicionar VIEW no campo descritivo, foi liberado pelo André e
+> vai iniciar na próxima semana"*). **Volume e escopo não são liderança** — **confirmar.**
+>
+> ⚠ Há também uma **"henriques"** citada num chamado de 06/01 como a pessoa a quem o Pedro
+> escreveu **para confirmar a identidade de outra usuária**. **Quem valida identidade costuma ser
+> quem responde pela conta.** Provavelmente a mesma pessoa. **Não afirmo.**
 
 ## Time do projeto por área
-[a preencher]
 
-> ⚠ **Não confirmado — não usar como dado de pessoa.** A base "Reuniões Compartilhadas
-> com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) registra os nomes abaixo
-> como participantes de reuniões deste cliente, com a frequência indicada. A base
-> **mistura pessoas da uMode e do cliente no mesmo campo**, sem marcar de que lado cada
-> uma está — classificar por conta própria repetiria exatamente o risco já registrado no
-> caso Taís Moser (`_pendencias-gerais.md`). Fica como pista de levantamento:
-> - Marina Santoro — 14 reunião(ões)
-> - Andrea Holmer — 9 reunião(ões)
+> 🔴 **A VIX tem 17 perfis de acesso — a taxonomia mais granular da carteira** — e
+> **nenhuma lista nominal**. A matriz de permissão existe e é detalhada; **quem está em cada
+> perfil, não.**
 
----
+| Perfil | → Área canônica |
+|---|---|
+| `Vix-Estilo Biquini` · `Vix-Estilo Cover ups` · `Vix-Estilo Roupas` · `Vix-Estilo PA` · `Vix- Estilo Admim` | `02_Estilo-Criacao` — **cinco perfis, quatro linhas de produto** |
+| `Vix-Desenvolvimento` | `03_Desenvolvimento-de-Colecao` |
+| `Vix- Qualidade` | `04_Qualidade` |
+| `Vix-PCP` | `05_PCP` |
+| `Vix-Compras` | `06_Compras-Supply-Sourcing` |
+| `Vix-CAD` · `Vix-Tabela` | `13_Modelagem` — **`[P]` proposta** |
+| `Vix-Ficha Tecnica` · `Vix-Produto TP` | ⚠ `[a preencher]` |
+| **`Vix-Estamparia`** | 🔴 **sem área canônica** |
+| `Vix-Admin` | transversal |
+| `Vix-Demo` | ⚠ perfil de demonstração |
+| **`uDash`** | 🔴 **perfil da uMode, não do cliente** |
+
+> **Estilo dividido por linha de produto é o nível de Subárea da hierarquia do BrainHub aparecendo
+> na prática** — e já gravado no perfil de acesso. Detalhe em
+> [`institucional.md`](institucional.md).
 
 ## Estado de atividade das pessoas
 
-`[a preencher]`
-
 ### Como o estado é apurado
 
-> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
-> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
-> em qual ferramenta, em qual área.**
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data que dá para citar.**
+> Este eixo existe para a jornada do usuário: **quem atende o quê, em qual ferramenta, em qual área.**
 
 | Estado | O que significa | Evidência que o sustenta |
 |---|---|---|
@@ -50,41 +66,96 @@ Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Andrea Goulart Holmer do
 | `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
 | `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
 
-**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão.
+**Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte.**
 
 ### Razão de pessoas
 
-`[a preencher]`
+**13 pessoas** com evidência de ação. `ATIVO_SEM_CADASTRO` **13**.
 
-| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+> Todas entram como `ATIVO_SEM_CADASTRO` porque **a VIX tem matriz de permissão e não tem lista
+> de usuários**. **Não significa acesso irregular** — significa que **os 17 perfis existem no
+> papel e ninguém está nomeado neles em nenhuma fonte varrida.**
+>
+> 🔴 **É o inverso da NK.** Lá a lista existe e a matriz divergiu dela. Aqui a matriz é a mais
+> detalhada da carteira **e não há lista nenhuma**. **Nas duas contas, metade do vínculo falta.**
+
+| Pessoa | E-mail | Área | Estado | Evidência (jan/2026) | Assunto |
 |---|---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| `[a preencher]` | `luana.henriques@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **6 chamados**, 08/01–28/01 | **Adicionar VIEW no campo descritivo** — liberado pelo André, início previsto 12/01 |
+| `[a preencher]` | `priscilla.souza@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **5 chamados**, 06/01–23/01 | queda de conexão · **erro de integração por VPN fora do ar** |
+| `[a preencher]` | `catherine.medeiros@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **3 chamados**, 20/01–29/01 | usabilidade · instabilidade |
+| `[a preencher]` | `luana.carmo@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **3 chamados**, 08/01–09/01 | **erro de integração por VPN** · *"isso é embaraçoso"* |
+| `[a preencher]` | `josilaine.paula@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **2 chamados**, 13/01–28/01 | 🔴 **deletou variante e não sabia quem foi** — pediu busca no banco |
+| `[a preencher]` | `beatriz.silva@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **29/01/2026** | usabilidade |
+| `[a preencher]` | `caroline.girao@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **29/01/2026** | usabilidade |
+| `[a preencher]` | `ecommerce@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **14/01/2026** | instabilidade — ⚠ **caixa funcional, não pessoa** |
+| `[a preencher]` | `eduarda.ribeiro@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **08/01/2026** | erro de integração por VPN |
+| `[a preencher]` | `evelyn.nascimento@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **08/01/2026** | erro de integração por VPN |
+| `[a preencher]` | `gabriella.rodrigues@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **23/01/2026** | usabilidade |
+| `[a preencher]` | `hugo.santos@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **13/01/2026** | usabilidade |
+| `[a preencher]` | `jackeline.teodoro@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **13/01/2026** | `[a preencher]` |
+| `[a preencher]` | `janine.silva@vixbrasil.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **06/01/2026** | 🔴 **não recebeu o e-mail de acesso** — token retido por checagem de identidade |
+
+### ⚠ Um chamado atribuído à conta errada
+O chamado *"Valores diferentes linx e produto uMode"* (08/01/2026) está **vinculado à página da
+VIX**, mas foi aberto por **`vinicius.dias@bynv.com.br`** — **que é da NV**.
+
+> **Erro de atribuição entre clientes na base de chamados.** Preservado e sinalizado; **corrigir
+> é na fonte**. Para o modelo, reforça que **`organizationId` tem que sair do domínio do e-mail
+> conferido contra a relação, nunca só da relação.**
 
 ## Canais de comunicação
 
-> **Cada canal é uma entidade** — tem participantes, cadência, dono e
-> assunto. É por aqui que a indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a
+> indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Chamados | Notion — `Chamados & Atendimentos` | **13 pessoas** + 1 caixa funcional | alta | **29/01/2026** |
+| **Chat da plataforma / e-mail do Gist** | Gist | cliente ↔ atendimento | diária | **não capturado** |
+| 🟢 **"Fale com o Suporte" na própria plataforma** | uFlow | **todos os 17 perfis** 🟢 | contínua | **não capturado** |
+| [Produto] Demandas | Notion | `[a preencher]` | — | **não varrida** |
+| Miro Regras e restrições | Miro | `[a preencher]` | — | **não capturado** |
+| Vix: Atualização Junho24 | Google Slides | → cliente | pontual | **jun/2024**, não varrida |
+| uPick Vix - Passo a passo | Notion | `[a preencher]` | — | **não varrida** |
+| Playbooks · Onboarding | Notion | `[a preencher]` | — | **não varridas** |
+| Portal uMode \| Vix | Notion | cliente | — | criado em **24/08/2023** |
+| Drive de operação | Google Drive | `[a preencher]` | — | **não capturado** |
+| **TI do cliente ↔ Felipe (uMode)** | direto | Felipe + TI da VIX | sob incidente | **08/01/2026** (VPN) |
+
+> 🟢 **A VIX é o oposto da NK num ponto de governança:** aqui **"Fale com o Suporte" está
+> 🟢 para todos os 17 perfis**; na NK está 🔴 até para o Admin. **Duas políticas opostas de
+> acesso ao suporte, na mesma carteira, sem regra declarada.**
+>
+> ⚠ E **`Usuários da Conta` está 🟢 para todos os 17 perfis** — **qualquer pessoa da VIX vê a
+> lista inteira de usuários**. Na NK isso é 🟡 só para o Admin. **Vale checar se é intenção.**
+>
+> ⚠ **`Vix- Qualidade` é o único perfil com 🟢 em `Assinaturas` e `Faturas`.** Parece
+> configuração indevida — **é pergunta, não afirmação.**
 
 ## Financeiro
-[a preencher]
+- E-mail principal financeiro: `[a preencher]` — vazio na base.
+- Nenhum chamado `FINANCEIRO` da VIX na janela varrida.
+- ⚠ **`Vix- Qualidade` enxerga `Assinaturas` e `Faturas`** — ver acima.
 
 ## Tecnologia
-[a preencher]
+- **ERP `Linx`**, com **telas dedicadas de fila**: `Linx Produtos pendentes`,
+  `Linx Materiais pendentes`, `Enviar para integração Linx`, `Grupo Linx`.
+- 🔴 **Quem pode empurrar para o Linx são `Vix-Estilo Roupas` e `Vix-Tabela`** — perfis de
+  **Estilo e de tabela de medidas**, não de TI nem de PCP. **Vale confirmar se é intenção.**
+- **Mapeamento de campo uMode ↔ Linx datado de 31/07/2025**, citando `PRODUTOS` e `PROP_PRODUTOS`.
+- **A VPN do cliente derrubou a integração em 08/01/2026**, gerando **5 chamados num dia**;
+  **Felipe** tratou direto com o TI deles.
+- Interlocutor de TI do cliente: `[a preencher]`
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| 17 perfis e matrizes de permissão | Notion — *[Vix] Perfil de Usuário e Permissionamento* | **varrida 21/09/2026** |
+| 13 pessoas, chamados e assuntos | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Atendimento e status | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |

@@ -1,101 +1,119 @@
 # VIX · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página
+> *[Vix] Perfil de Usuário e Permissionamento*. Campo sem fonte fica `[a preencher]`.
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- **Não há lista nominal de usuários.** A VIX tem a matriz de permissão mais detalhada da
+  carteira — **17 perfis** — e **ninguém nomeado em nenhum deles**. Metade do vínculo falta.
+- **Não há base de atas nesta conta**, nem registro de reunião recorrente na página.
+- **Duas bases embutidas na página não foram varridas.**
+- **8 sub-páginas e 1 apresentação não foram abertas**, incluindo *uPick Vix - Passo a passo* e
+  *[Produto] Demandas*.
+- **Os marcos de onboarding não têm data** — as páginas *Onboarding* e *Onboarding > Ongoing*
+  não carregam data no título nem em campo.
 
 ## Status atual
-Onboarding
+**`Ongoing`** · 4 de 7 módulos, incluindo **`Aposta`** · ERP **Linx** · grupo **`Médios`**.
 
 ## Fase atual
-Uflow em regime. O time domina o uso da ferramenta. Realinhamos prazos e expectativas, incluisve das demandas de melhoria. Temos um relatório em processo de melhoria após realinhamento com o cliente e elencamos grau de priorização para seguir com os demais relatórios.
-> Campo `Onde Estamos` do CRM.
+**Operação madura com governança de acesso muito elaborada e rastreabilidade fraca.**
+28 chamados em 24 dias, **16 abertos**. A conta tem **17 perfis desenhados campo a campo** — e
+ao mesmo tempo **uma variante foi excluída sem que ninguém soubesse quem fez**.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 09/06/2023 | [a preencher] | Report 09/06/23 Vix |
-| 19/06/2023 | [a preencher] | Fluxo 19/06/23 |
-| 28/06/2023 | [a preencher] | Reunião 28/06/23 - Estudo de campos |
-| 11/07/2023 | [a preencher] | Reunião 11/07/23 - Tech |
-| 12/07/2023 | [a preencher] | Weekly 12/07/23 Vix |
-| 14/07/2023 | [a preencher] | Report 14/07/23 Vix |
-| 25/07/2023 | [a preencher] | Reunião 25/07/23 - Tech |
-| 25/07/2023 | [a preencher] | Reunião 25/07/23 - Pré Revisão Fluxo |
-| 26/07/2023 | [a preencher] | Report 26/07/23 Vix |
-| 27/07/2023 | [a preencher] | Reunião Presencial 27/07/23 - fluxo e ficha |
-| 07/08/2023 | [a preencher] | Report 07/08/23 Vix |
-| 07/08/2023 | [a preencher] | Weekly 07/08/23 Vix |
-| 11/08/2023 | [a preencher] | Report 11/08/23 Vix |
-| 15/08/2023 | [a preencher] | Weekly 15/08/23 Vix |
-| 25/09/2025 | [a preencher] | Weekly 21/11/25 |
-| 25/09/2025 | [a preencher] | Weekly 07/11/25 |
-| 25/09/2025 | [a preencher] | Weekly 19/12/25 |
-| 25/09/2025 | [a preencher] | Weekly 05/12/25 NO SHOW |
-| 25/09/2025 | [a preencher] | Weekly 25/09/25 |
-| 25/09/2025 | [a preencher] | Weekly 10/10/25 |
-| 25/09/2025 | [a preencher] | Weekly 24/10/25 |
-| 30/09/2025 | [a preencher] | API - Vix - Reunião 30/09/2025 |
-| 15/01/2026 | [a preencher] | Weekly 16/01/26 |
-| 13/02/2026 | [a preencher] | Weekly 13/02/26 |
-| [não informada] | [a preencher] | Reunião 05/05/23 - Passagem do Comercial |
-| [não informada] | [a preencher] | Reunião 05/05/23 - Reunião com Luana Henriques e Max de Oliveira |
-| [não informada] | [a preencher] | Pré Kickoff 17/05/23 |
-| [não informada] | [a preencher] | Reunião Kickoff 18/05/23 |
-| [não informada] | [a preencher] | Diagnóstico 30/05/23 Tech |
-| [não informada] | [a preencher] | Diagnóstico 18/05/23 Marketing |
-| [não informada] | [a preencher] | Diagnóstico 18/05/23 Varejo |
-| [não informada] | [a preencher] | Diagnóstico 18/05/23 Atacado |
-| [não informada] | [a preencher] | Diagnóstico 30/05/23 Planejamento |
-| [não informada] | [a preencher] | Diagnóstico 18/05/23 e 06/06/23 Operações |
-| [não informada] | [a preencher] | Diagnóstico 18/05/23 e 30/05/23 Estilo BR |
-| [não informada] | [a preencher] | Diagnóstico 31/05/23 Desenvolvimento (Modelagem, CAD, Ateliê) |
-| [não informada] | [a preencher] | Diagnóstico 06/06/23 Ficha técnica |
-| [não informada] | [a preencher] | [reunião sem título na fonte] |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 38 reuniões registradas para este cliente
-> (24 com data, 14 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
+| Data | Marco | Fonte |
+|---|---|---|
+| **08/06/2023** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
+| **24/08/2023** | **Portal uMode \| Vix** criado | base `Portal do Cliente` |
+| `[a preencher]` | *Onboarding* e transição *Onboarding > Ongoing* | página `VIX` — **sem data** |
+| **jun/2024** | Apresentação *Vix: Atualização Junho24* | página `VIX` |
+| **09/07/2025** | Última edição da página de permissionamento | sub-página |
+| **31/07/2025** | **Inclusão de campos na integração** — mapeamento uMode ↔ Linx | página `VIX` |
+| **06–29/01/2026** | **28 chamados de 13 pessoas** — **16 ficam abertos** | `Chamados & Atendimentos` |
+| **08/01/2026** | 🔴 **VPN do cliente cai e gera 5 chamados no mesmo dia** | idem |
+| **13/01/2026** | 🔴 **Variante excluída sem autor conhecido** | idem |
+| **26/06/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
 
 ## Entregas comprometidas
-[a preencher]
+| Entrega | Estado |
+|---|---|
+| **Adicionar VIEW no campo descritivo** — liberado pelo **André**, início previsto **12/01/2026** | **`Pendente`** — sem confirmação de conclusão |
+| Inclusão de campos na integração (31/07/2025) | tabela existe; **execução não confirmada** |
+| uPick Vix — passo a passo | documento existe, **não varrido** |
 
 ## Módulos em uso
-uFlow, uMetrics, uPick · Gestão de Coleção, Gestão de Processos
+`Gestão de Coleção` · `Integração` · `Relatórios` · **`Aposta`**.
+**Não contratados:** `Cronograma` · `Planejamento` · `Fornecedores`.
+
+> **VIX e Reserva são as únicas contas com `Aposta`.**
+> ⚠ **`Fornecedores` não está contratado**, mas a aba `Fornecedor` da ficha de produto está
+> 🟢 para 15 dos 17 perfis. **São coisas diferentes — não confundir módulo com aba.**
 
 ## Decisões e restrições registradas
-[a preencher]
+| Decisão / restrição | Fonte | Estado |
+|---|---|---|
+| 🔴 **Ninguém pode excluir variante** — 🔴 nos 17 perfis, inclusive `Vix-Admin` e `uDash` | matriz | **vigente** — e **contradita pelo próprio "Aprendizado" da página** |
+| **Só `Vix-Admin` pode excluir ficha** | matriz | vigente |
+| **Só `Vix-Estilo Roupas` e `Vix-Tabela` enviam para o Linx** | matriz | vigente · ⚠ **confirmar intenção** |
+| **`Manual` e `Base de Importação` bloqueados para todos** | matriz, marcados em vermelho | vigente |
+| **`Campo Personalizado` e `Tipo de Produto` 🔴 para todos** | matriz | vigente — **mesma trava da NK** |
+| 🟢 **`Fale com o Suporte` liberado para todos** | matriz | vigente — **oposto da NK** |
+| ⚠ **`Usuários da Conta` 🟢 para todos** | matriz | vigente · **confirmar intenção** |
+| **`Histórico de Movimentações` 🟡 para todos** | matriz | vigente — **explica o caso da variante** |
+| **Token de acesso não se envia por WhatsApp sem confirmar identidade** | chamado de 06/01/2026 | vigente **por julgamento individual** |
 
 ## Métricas de sucesso definidas
--Ter clareza de prazo e se vamos ou não entregar, de todas as demandas solicitadas desde o primeiro momento da definição, até mesmo as que são consideradas melhorias;   · -Agilidade na comunicação;   · -Enxergar o desenvolvimento de produtos completo e por gráficos no relatório desenvolvimento de produto;   · -Trazer para a Uflow outros controles internos: Cronograma, Relatório de Planejado x Realizado e melhorar o uso interno do time do Relatório de Desenvolvimento (Lacre Materiais - estampas e aviamentos;   · - Visão sistêmica dos processos;   · - Melhorar a celeridade e assertividade de informações no workflow de estilo.
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
+`[a preencher]`.
+
+**O que dá para medir:** 28 chamados / 24 dias ≈ **1,2 por dia**, de **13 pessoas**.
+**5 deles (18%) foram um único incidente de VPN.**
 
 ## Próximos passos
-Evoluir sobre o uso do novo workflow de estilo para entender as dificuldades do time.   · Aprofundar a usabilidade do cliente e propor novas soluções que possam agregar valor, como uPlan e relatórios.
-> Campo `O que falta` do CRM.
+1. 🔴 **Resolver a contradição da exclusão de variante** — a matriz proíbe para todos e o
+   procedimento manda encaminhar a quem "tenha permissão".
+2. 🔴 **Auditar quem excluiu a variante de 13/01/2026** e por que não há rastro visível ao cliente.
+3. 🔴 **Obter a lista nominal de usuários** — 17 perfis sem ninguém nomeado.
+4. **Resolver `Estamparia`, `Ficha Tecnica` e `Produto TP`** para área canônica.
+5. **Confirmar se `Vix- Qualidade` deve enxergar `Assinaturas` e `Faturas`.**
+6. **Confirmar se `Usuários da Conta` deve estar aberto a todos.**
+7. **Confirmar conclusão do VIEW no campo descritivo** (prometido para 12/01/2026).
+8. **Separar `uDash` como perfil da uMode** na documentação da conta.
+9. **Agrupar chamados por causa-raiz** — o incidente de VPN mostra que volume mede sintoma.
 
 ## Histórico de incidentes / alertas
-[a preencher]
+| Data | Registro | Estado |
+|---|---|---|
+| 06/01/2026 | **Não recebeu o e-mail de acesso** — token retido por checagem de identidade | **`Em Aberto`** |
+| 06/01/2026 | Queda de conexão — *"foi do lado dela"* | fechado |
+| **08/01/2026** | 🔴 **VPN do cliente fora do ar → 5 chamados de 4 pessoas** | 2 `Em Aberto`, 3 resolvidos |
+| 08/01/2026 | **Adicionar VIEW no campo descritivo** — liberado pelo André | **`Pendente`** |
+| 09/01/2026 | *"isso é embaraçoso"* — erro momentâneo | fechado |
+| **13/01/2026** | 🔴 **Variante excluída e autor desconhecido** — pediu busca no banco | fechado |
+| 14/01/2026 | Instabilidade reportada pela caixa `ecommerce@` | fechado |
+| 20–29/01/2026 | 8 chamados de usabilidade e instabilidade | maioria **`Não iniciada`** |
 
 ## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
+- 🔴 **Terceiro cliente com área de produção que não cabe na grade:** NV tem `Atelier`,
+  NK tem `Oficina`, VIX tem **`Estamparia`**. **Três casos — é padrão, não exceção.**
+- 🔴 **Estilo se divide em quatro linhas de produto** (Biquíni, Cover ups, Roupas, PA).
+  **É o nível de Subárea da hierarquia aparecendo já gravado no perfil de acesso.**
+- **`uDash` é perfil da uMode dentro da conta**, documentado junto aos do cliente sem distinção.
+- **`Vix-Demo` é perfil de demonstração numa conta de produção.**
+- **Um chamado da NV está atribuído à VIX** — erro de atribuição entre clientes na origem.
+- **Erros de grafia preservados da origem:** `Vix- Estilo Admim` (por *Admin*),
+  `Vix qualdiade` (por *qualidade*) numa das matrizes, e uma coluna chamada apenas `v`.
+- O campo `Jogo 29/06` desta linha diz *"atuação até 12h"*. **Campo ad hoc que virou ruído no schema.**
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Perfis, matrizes, restrições e "Aprendizados" | Notion — *[Vix] Perfil de Usuário e Permissionamento* | **varrida 21/09/2026** |
+| Chamados, incidentes, VPN, variante | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Mapeamento de campo uMode ↔ Linx | Notion — página `VIX`, bloco de 31/07/2025 | **varrido 21/09/2026** |
+| Status, módulos, ERP, setor, cidade | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
