@@ -16,9 +16,21 @@ Nenhuma alteração em produção sem mapeamento prévio no CX-Hub.
 ### O que não fazemos
 Não normalizamos execução direta da liderança no dia a dia.
 
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
 ### Termos específicos
 [a preencher]
+
+## Produto conectado
+
+`[a preencher]`
 
 ## Fontes e referências
 ### Documentos que esta área consome
@@ -30,6 +42,14 @@ Não normalizamos execução direta da liderança no dia a dia.
 ## Governança
 ### Responsável pela área
 Ju — Diretora de Operações
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
 
 ### Quem pode alterar este documento
 Responsável da área + CEO

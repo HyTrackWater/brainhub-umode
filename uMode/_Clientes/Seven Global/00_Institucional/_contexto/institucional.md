@@ -36,6 +36,10 @@ Churn
 - Acessos contratados (CRM): 20 usuários internos ( só 5 com acesso aos relatórios )   · 47 usuários externos
 - Usuários ativos no mês da fonte (CRM): 33
 - Relatórios (CRM): uMode
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 [a preencher]
 ### Responsável de atendimento (uMode)
@@ -61,8 +65,34 @@ https://drive.google.com/drive/folders/1WGKNVRF4NFgE4Y1ZfSC-kXsWRaNL9X-o?usp=dri
 - Departamento (CRM): Infantil,Masculino,Feminino
 - Última edição do registro no CRM: February 17, 2025 5:19 PM por Rafael Renaldim
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Andrea Goulart Holmer dos Santos (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

@@ -35,6 +35,10 @@ Churn
 - Produto (CRM): Fashion AI, uFlow, uPlan, uRocket
 - Acessos contratados (CRM): 21 usuários internos
 - Relatórios (CRM): 3 Relatórios
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Totvs
 > Fashion AI — integração (CRM): Vtex
@@ -60,8 +64,34 @@ kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-clien
 - Email principal financeiro (CRM): financeiro3@recco.com.br
 - Última edição do registro no CRM: November 21, 2025 4:21 PM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Julianne Dias Rodrigues, Pedro Murillo (Key Account)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

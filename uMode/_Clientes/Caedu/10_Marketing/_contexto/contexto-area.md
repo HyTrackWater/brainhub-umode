@@ -17,9 +17,19 @@
 `[a preencher]`
 
 ## Padrões operacionais
+
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
 `[a preencher]`
 
 ## Vocabulário da área
+
+### Termos específicos
+
 `[a preencher]`
 
 ## Pessoas desta área
@@ -30,7 +40,17 @@ Gerentes, Geral e Admin.
 ## Produto conectado
 `[a preencher]`
 
-## Fontes varridas e o que cada uma não trouxe
+## Fontes e referências
+
+### Documentos que esta área consome
+
+`[a preencher]`
+
+### Documentos que esta área produz
+
+`[a preencher]`
+
+### Fontes varridas e o que cada uma não trouxe
 | Fonte | Resultado |
 |---|---|
 | Notion — página `Caedu` em `Databases / Mapa de Clientes` | sem perfil de acesso para esta área |
@@ -38,7 +58,7 @@ Gerentes, Geral e Admin.
 | Notion — base `Mapa de Clientes` | sem campo correspondente |
 | vault do João — pasta `caedu` | proposta e cronograma, sem detalhe de área |
 
-## O que levar ao negócio
+### O que levar ao negócio
 1. Esta área **existe na Caedu**? Se não existir, registrar a ausência como fato do cliente.
 2. Se existir, **quem responde por ela** e ela interage com a uMode?
 3. Se não interage com o PLM hoje, **deveria**?
@@ -49,3 +69,11 @@ Gerentes, Geral e Admin.
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

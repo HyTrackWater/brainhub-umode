@@ -15,6 +15,26 @@ de moda. Operamos em modelo SaaS + serviços de implantação e educação.
 Marcas e varejistas de moda de médio e grande porte no Brasil. Foco atual em confecção,
 calçados e acessórios com operações de varejo, atacado e omnichannel.
 
+### ID do cliente
+
+`[a preencher]`
+
+### Aliases do cliente
+
+`[a preencher]`
+
+### Quem são
+
+`[a preencher]`
+
+### O que fazem
+
+`[a preencher]`
+
+### Para quem fazem
+
+`[a preencher]`
+
 ## Posicionamento
 ### Tese central
 **AI-First:** cada cadeira interna é orquestradora de agentes. O time opera como High Individual
@@ -29,6 +49,70 @@ Contributors (HICs) — pessoas que rendem como times maiores com apoio de IA.
 ### Proposta de valor
 Centralizar informações de desenvolvimento de coleção, eliminar retrabalho de comunicação
 entre times e digitalizar processos que hoje vivem em e-mail, WhatsApp e planilha.
+
+### Segmento
+
+`[a preencher]`
+
+### Receita anual
+
+`[a preencher]`
+
+### Grupo de segmentação uMode
+
+`[a preencher]`
+
+## Operação uMode
+
+`[a preencher]`
+
+### Status atual
+
+`[a preencher]`
+
+### Data de ativação
+
+`[a preencher]`
+
+### Módulos contratados
+
+`[a preencher]`
+
+### Usuários da conta
+
+`[a preencher]`
+
+### ERP / Integração
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
+
+## Aliases de áreas
+
+`[a preencher]`
+
+### Mapeamento alias → canônico
+
+`[a preencher]`
+
+## Sistemas e fontes de verdade
+
+`[a preencher]`
+
+### Drive de operação
+
+`[a preencher]`
+
+### Outras fontes
+
+`[a preencher]`
 
 ## Voz e tom
 ### Como nos comunicamos
@@ -93,6 +177,26 @@ Taxonomia etc.) — não o substitui. Detalhamento completo em `CONTEXT.md` →
 "Decisão: camada Produto na hierarquia" → "Sistema Operacional uMode — arquitetura de
 operação".
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Fontes de verdade
 ### Onde vive o dado oficial
 - Estrutura organizacional: organograma V2.2 (Drive CEO)
@@ -103,6 +207,12 @@ operação".
 ## Governança
 ### Quem pode alterar este documento
 CEO (João Risoléo) + responsável pelo projeto BrainHub (Vinicius Risoléo)
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
 ### Frequência de revisão
 Trimestral ou após mudança estrutural significativa

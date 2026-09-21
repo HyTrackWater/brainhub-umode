@@ -41,6 +41,10 @@ Regime CS
 - Produto (CRM): uFlow
 - Acessos contratados (CRM): Ilimitado
 - Relatórios (CRM): Ilimitado
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 SAP e Linx
 ### Responsável de atendimento (uMode)
@@ -68,8 +72,34 @@ kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-clien
 - Tamanho atendimento (CRM): G
 - Última edição do registro no CRM: March 4, 2026 10:07 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account) · Juliana Ferré Esteves (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

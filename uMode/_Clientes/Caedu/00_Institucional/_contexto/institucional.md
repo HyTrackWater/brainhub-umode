@@ -127,7 +127,9 @@ https://drive.google.com/drive/folders/13uGFpXtLsMEZGwr_0H5YEEWcw_zFMhVu?usp=dri
 > Melhorar o produto em configurações e usabilidade na área de **modelagem e qualidade**, para gerar
 > mais agilidade ao time.
 
-### As cinco dores estruturais (mapeamento de conta, abr/2025)
+### As dores estruturais registradas
+
+> Fonte: mapeamento de conta de **abr/2025** — **17 meses**, precisa de revalidação.
 1. **Time de calçados não usa a plataforma** — gera lacuna de dados.
 2. **Dados sensíveis de pedido e negociação ficam fora da uMode**, em planilhas.
 3. **12 mil cadastros de fornecedor** — dificulta busca e usabilidade.

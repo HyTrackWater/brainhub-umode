@@ -32,6 +32,10 @@ Onboarding
 [não informada]
 ### Módulos contratados
 - Módulos (CRM): Gestão de Coleção, Gestão de Processos
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 [a preencher]
 ### Responsável de atendimento (uMode)
@@ -55,8 +59,34 @@ https://drive.google.com/drive/u/1/folders/1VHd9ad7EMWumcXkBdqBjj3XSqc6nLNqw
 ## Contexto crítico
 - Última edição do registro no CRM: March 4, 2026 10:07 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

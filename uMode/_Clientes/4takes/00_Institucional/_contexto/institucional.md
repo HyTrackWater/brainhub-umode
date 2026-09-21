@@ -38,6 +38,10 @@ Regime CS
 - Módulos contratados (CRM): uFlow
 - Módulos (CRM): Gestão de Coleção, Gestão de Processos
 - Produto (CRM): uFlow
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Não
 ### Responsável de atendimento (uMode)
@@ -64,8 +68,34 @@ https://drive.google.com/drive/folders/1-BakScAgktLBiM5kVvGSBtcSinvzz-vE?usp=dri
 - Flag (CRM): Não
 - Última edição do registro no CRM: March 4, 2026 10:05 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Rafael Del Gaudio Renaldim (Key Account)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

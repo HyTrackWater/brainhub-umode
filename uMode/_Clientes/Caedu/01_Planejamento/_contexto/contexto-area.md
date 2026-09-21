@@ -22,6 +22,9 @@ Define sortimento e faixas de preço. Internamente a Caedu chama essa subida de
 | Campos obrigatórios iniciais | Nome, Linha, Origem, Departamento |
 
 ## Padrões operacionais
+
+### Como trabalham
+
 ### Como trabalhamos
 - A criação é **em lote, por importação** — não produto a produto.
 
@@ -31,7 +34,14 @@ Define sortimento e faixas de preço. Internamente a Caedu chama essa subida de
 2. **Macroplan pouco explorado.** Não há uso efetivo de um fluxo macro para agrupar coleções, o
    que gera risco de *overlap* entre produto Nacional e Importado.
 
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
+
+### Termos específicos
+
 | Termo | O que significa aqui |
 |---|---|
 | **Plano de sofrimento** | nome interno da Caedu para a planilha base de sortimento |
@@ -48,6 +58,9 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 **Gestão de Coleção** (uFlow). Módulo **Planejamento** **não** está contratado pela Caedu.
 
 ## Fontes e referências
+
+### Documentos que esta área consome
+
 ### Procedência deste documento
 | Bloco | Fonte | Data |
 |---|---|---|
@@ -58,9 +71,21 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 ⚠ **O mapeamento de conta é de abr/2025 — 17 meses.** A própria fonte já registra correções
 posteriores. **Revalidar com a dupla de atendimento antes de usar como diagnóstico atual.**
 
+### Documentos que esta área produz
+
+`[a preencher]`
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — nenhuma fonte da uMode nomeia o líder desta área na Caedu.
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

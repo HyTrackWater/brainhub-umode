@@ -23,6 +23,9 @@ Conduz o produto da aprovação de Estilo até a **liberação para emissão de 
 | Propriedades do importado | `Produto repeat ou com tabela?` |
 
 ## Padrões operacionais
+
+### Como trabalham
+
 ### ⚠ Dores registradas
 1. **Falta de relatório unificado** que mostre, por departamento, o que está pendente. É a dor
    mais citada da área.
@@ -31,7 +34,14 @@ Conduz o produto da aprovação de Estilo até a **liberação para emissão de 
 3. 🔴 **Origem vive na ficha, não na variante** — como o acompanhamento é por variante, obriga
    exportações extensas no mapa.
 
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
+
+### Termos específicos
+
 | Termo | O que significa aqui |
 |---|---|
 | **Liberado para emissão** | validação que autoriza gerar o pedido |
@@ -46,6 +56,9 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 **Gestão de Coleção** + **Integração** (uFlow). ERP: **Linx**.
 
 ## Fontes e referências
+
+### Documentos que esta área consome
+
 ### Procedência deste documento
 | Bloco | Fonte | Data |
 |---|---|---|
@@ -56,9 +69,21 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 ⚠ **O mapeamento de conta é de abr/2025 — 17 meses.** A própria fonte já registra correções
 posteriores. **Revalidar com a dupla de atendimento antes de usar como diagnóstico atual.**
 
+### Documentos que esta área produz
+
+`[a preencher]`
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — nenhuma fonte da uMode nomeia o líder desta área na Caedu.
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

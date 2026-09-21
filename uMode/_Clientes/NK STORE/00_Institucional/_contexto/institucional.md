@@ -36,6 +36,10 @@ Onboarding
 - Produto (CRM): uFlow
 - Acessos contratados (CRM): 21 internos - 40 externos
 - Relatórios (CRM): 3 Relatórios
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Linx
 ### Responsável de atendimento (uMode)
@@ -66,8 +70,34 @@ https://drive.google.com/drive/folders/1g7o8IA7bu4oks4dM4PsF--iq8GihTz4m
 - Tamanho atendimento (CRM): G
 - Última edição do registro no CRM: March 4, 2026 10:07 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Julianne Dias Rodrigues, Pedro Murillo (Key Account)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

@@ -1,5 +1,9 @@
 # Cambos · Jornada
 
+## ⚠ O que este documento NÃO resolve
+
+`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+
 ## Status atual
 Ongoing
 
@@ -53,3 +57,17 @@ cadência ativa até pelo menos 06/03/2026 (última reunião registrada) |
 - Base "Feedback Interno Clientes" (Drive/Notion-Export) tem 27 registros de Cambos —
   satisfação média 4,85/5 (mínimo 4, máximo 5), consistentemente alta. Fonte não lida em
   detalhe campo a campo (Percepção do Projeto, Flag) — só o agregado.
+
+## Governança
+
+`[a preencher]`
+
+### Quem pode alterar este documento
+
+`[a preencher]`
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

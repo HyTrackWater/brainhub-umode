@@ -32,6 +32,10 @@ Churn
 [não informada]
 ### Módulos contratados
 - Produto (CRM): uRocket
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 [a preencher]
 ### Responsável de atendimento (uMode)
@@ -57,8 +61,34 @@ kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-clien
 - O que falta (CRM): Aprovação da Adriana para contratação de novos números, contatos e mensagens
 - Última edição do registro no CRM: January 30, 2026 3:29 PM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Rafael Del Gaudio Renaldim (Key Account)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

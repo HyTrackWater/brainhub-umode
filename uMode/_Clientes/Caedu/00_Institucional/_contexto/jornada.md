@@ -4,6 +4,9 @@
 > o `Mapeamento de Contas - Caedu`, as **50+ atas** de weekly da conta e a pasta `caedu` do vault.
 > Campo sem fonte fica `[a preencher]` — nada foi inferido.
 
+## ⚠ O que este documento NÃO resolve
+`[a preencher]` — **a lacuna vem antes da conquista: declare aqui o que o documento não cobre, e por quê, antes de qualquer coisa que ele cobre.**
+
 ## Status atual
 **Ongoing** — base `Mapa de Clientes`, verificado em 21/09/2026.
 

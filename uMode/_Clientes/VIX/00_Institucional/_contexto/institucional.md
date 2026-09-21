@@ -37,6 +37,10 @@ Onboarding
 - Acessos contratados (CRM): 30 (P) e 5 (G)
 - Usuários ativos no mês da fonte (CRM): 31
 - Relatórios (CRM): uMode
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Linx
 ### Responsável de atendimento (uMode)
@@ -66,8 +70,34 @@ https://drive.google.com/drive/folders/18dLcdFUurn9eXscDWOcBJz3VTDk7r-KR?usp=dri
 - Departamento (CRM): Feminino
 - Última edição do registro no CRM: March 4, 2026 10:08 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Andrea Goulart Holmer dos Santos (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

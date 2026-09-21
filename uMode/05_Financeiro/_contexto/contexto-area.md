@@ -16,9 +16,21 @@ Descolamento Receita×Despesa aciona corte imediato (Botão FUDEU).
 ### O que não fazemos
 Não postergamos alerta de runway. Não compartilhamos dados sensíveis sem autorização.
 
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
 ### Termos específicos
 [a preencher]
+
+## Produto conectado
+
+`[a preencher]`
 
 ## Fontes e referências
 ### Documentos que esta área consome
@@ -30,6 +42,14 @@ Não postergamos alerta de runway. Não compartilhamos dados sensíveis sem auto
 ## Governança
 ### Responsável pela área
 Flávia Campello (execução) · João Risoléo (decisão)
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
 
 ### Quem pode alterar este documento
 Responsável da área + CEO

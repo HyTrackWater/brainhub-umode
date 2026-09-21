@@ -36,6 +36,10 @@ Onboarding
 - Produto (CRM): uBuy, uFlow
 - Acessos contratados (CRM): 55 internos (45 P e 10 M) - 81 externos (2026)
 - Relatórios (CRM): Nenhum contratado alinhar com Sandro quantos disponibilizaremos.
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Linx
 ### Responsável de atendimento (uMode)
@@ -62,8 +66,34 @@ https://drive.google.com/drive/folders/17g-4MfE69J3mFcxFFcdnxiOkND1rltjU
 - Tamanho atendimento (CRM): G
 - Última edição do registro no CRM: March 4, 2026 10:07 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Sandro Costa, Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

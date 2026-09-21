@@ -32,6 +32,10 @@ Onboarding
 [não informada]
 ### Módulos contratados
 - Gestão de Coleção · Integração · Relatórios · Cronograma
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Ilimitar
 > Confirmado via CRM "Mapa de Clientes" (única concordância exata entre as duas fontes).
@@ -62,9 +66,35 @@ https://drive.google.com/drive/folders/1GkOgJGSPucKU9nalMDU1EIiy1HVFPWF5
 [a preencher — heading estava faltando neste arquivo (divergência de padrão), adicionado em
 09 jul 2026 para bater com o template; sem dado ainda]
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, atualizado em
 13 jul 2026)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

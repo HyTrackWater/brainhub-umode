@@ -198,6 +198,142 @@
 |---|---|---|
 | ROBERTO.FERREIRA | roberto.ferreira@caedu.com.br | 02/08/2023 |
 
+## Estado de atividade das pessoas
+
+`[a preencher]`
+
+### Como o estado é apurado
+
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
+> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
+> em qual ferramenta, em qual área.**
+
+| Estado | O que significa | Evidência que o sustenta |
+|---|---|---|
+| `ATIVO` | agiu no sistema numa data conhecida | chamado aberto, presença em ata, ação registrada |
+| `CADASTRADO` | tem acesso, **sem** evidência de ação | consta na tabela de usuários e em nenhum canal |
+| `DESATIVADO` | baixa declarada **na origem** | riscado, marcado inativo, acesso revogado |
+| `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
+| `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
+
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+
+### Razão de pessoas
+
+**95 pessoas** no razão: 93 na tabela do PLM + 2 que agiram sem constar nela.
+
+`CADASTRADO` **90** · `ATIVO` **3** · `ATIVO_SEM_CADASTRO` **2**
+
+> 🔴 **`CADASTRADO` não quer dizer inativo** — quer dizer que **nenhuma fonte varrida registra ação dessa pessoa**. A única evidência de ação que existe hoje é a base `Chamados & Atendimentos`, e ela **só tem 24 dias de janeiro de 2026**. Com uma janela dessas, o estado `CADASTRADO` diz mais sobre a lacuna de instrumentação do que sobre a pessoa.
+
+| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+|---|---|---|---|---|---|
+| `[a preencher]` | `joao.neto@caedu.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **2026-01-28** (TAREFA/CONFIG) | Chamados & Atendimentos |
+| `[a preencher]` | `paula.silva@caedu.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **2026-01-16** (NOVO ACESSO) | Chamados & Atendimentos |
+| BRUNO.MOREIRA | `bruno.moreira@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 11/10/2023 | — |
+| Celso | `celso.mello@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 16/07/2024 | — |
+| Daniel Santana da Silva | `daniel.silva@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 28/11/2023 | — |
+| Fabiana Oliveira dos Santos | `fabiana.santos@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 26/01/2024 | — |
+| Priscilla | `priscilla.ueda@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 24/01/2024 | — |
+| Regina | `regina.silva@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 19/02/2024 | — |
+| Victor | `victor.ponte@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 16/07/2024 | — |
+| William | `william.assumpcao@caedu.com.br` | 01_Planejamento | `CADASTRADO` | acesso ao PLM desde 29/01/2024 | — |
+| Alef Vinicius Almeida Rodrigues | `alef.rodrigues@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 10/01/2024 | — |
+| ALINE.ANTUNES | `aline.antunes@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 06/09/2023 | — |
+| ALINE.MATOS | `aline.matos@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 06/09/2023 | — |
+| ALINE.SOARES | `aline.soares@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| Ana Oliveira | `ana.oliveira@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 24/11/2023 | — |
+| ANA.QUEIROZ | `ana.queiroz@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 06/09/2023 1 | — |
+| ana.silva@caedu.com.br | `ana.silva@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 09/04/2024 | — |
+| BEATRIZ.NETTO | `beatriz.netto@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| Bianca Rocha da Silva | `bianca.silva@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 10/01/2024 | — |
+| Bruna | `bruna.guerrero@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 26/10/2023 | — |
+| BRUNA.GIMENES | `bruna.gimenes@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| CAROLINA.CORREA | `carolina.correa@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| ERIKA.HANEDA | `erika.haneda@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 05/06/2023 | — |
+| Evelyn Vasques | `evelyn.reis@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 03/01/2024 | — |
+| FRANCINE.FERREIRA | `francine.ferreira@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 22/05/2023 | — |
+| Helen Santos de Lima | `helen.lima@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 09/01/2024 | — |
+| INDIRA.MAGALHAES | `indira.magalhaes@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 17/07/2023 | — |
+| Isabelly.Ramos | `isabelly.ramos@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 06/03/2024 | — |
+| JESSICA.DEPAULA | `jessica.paula@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 06/03/2024 | — |
+| jessica.ferreira | `jessica.ferreira@caedu.com` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 14/11/2023 | — |
+| JORDANA.FORNI | `jordana.forni@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 26/10/2023 | — |
+| JULIA.CARREIRO | `julia.carreiro@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 19/07/2023 | — |
+| JULIA.SILVA | `julia.silva@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| Júlia.gil | `julia.gil@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 08/02/2024 | — |
+| LETICIA.SANTOS | `leticia.santos@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 06/09/2023 1 | — |
+| LIVIA.SANTOS | `livia.santos@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 08/02/2024 | — |
+| LUIS.STEPAN | `luis.stepan@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 05/05/2023 | — |
+| MAIRA.SILVA | `maira.silva@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 17/07/2023 | — |
+| MARINA.BUENO | `marina.bueno@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 03/01/0202 | — |
+| MIRELLA.ANDRADE | `mirella.andrade@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 08/05/2023 | — |
+| NATHALIA.GARCIA | `nathalia.garcia@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 06/09/2023 | — |
+| RAQUEL.BRITO | `raquel.brito@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| Renata | `renata.abinader@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 15/12/2023 | — |
+| STEFANY.SILVA | `stefany.silva@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 17/11/2023 | — |
+| thais.hucke | `thais.hucke@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 28/11/2023 | — |
+| VITORIA.SILVA | `vitoria.silva@caedu.com.br` | 02_Estilo-Criacao | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| Ana Carolina | `ana.carolina@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 19/06/2024 | — |
+| BIANCA FONSECA | `bianca.werneck@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 22/11/0202 | — |
+| BRIDA.DUCH | `brida.duch@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 27/11/0202 | — |
+| Bárbara Macedo de Oliveira | `barbara.oliveira@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 17/11/2023 | — |
+| Carolina Marchetti | `maria.vietas@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 13/11/0202 | — |
+| CHARLOTTE.PERES | `charlotte.peres@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 12/09/2023 | — |
+| DEBORA.FREITAS | `debora.freitas@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 18/07/2023 | — |
+| Jessica.Bognar | `jessica.bognar@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 14/03/2024 | — |
+| JORGE.SILVA | `jorge.silva@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 10/04/2024 | — |
+| JOSE.SOARES | `jose.soares@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 14/11/20 | — |
+| Juliana.Nicolini | `juliana.nicolini@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 21/05/2024 | — |
+| Kevlyn Sá | `kevlyn.sa@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 10/04/2024 | — |
+| Larissa Ruani | `larissa.ruani@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 10/11/2023 | — |
+| Mayara Moura | `mayara.moura@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 27/11/2023 | — |
+| NATALIA.OLIVEIRA | `natalia.oliveira@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `ATIVO` | chamado em **2026-01-16** | Chamados & Atendimentos |
+| NATHALIA.KASSAI | `nathalia.kassai@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 10/11/0202 | — |
+| PAOLA.ABREU | `paola.abreu@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 15/09/2023 | — |
+| Rebeca Marques | `rebeca.souza@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 20/06/2024 | — |
+| RENATA.GABELLINI | `renata.gabellini@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 12/09/2023 | — |
+| Samara Lindse | `samara.santos@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `ATIVO` | chamado em **2026-01-06** | Chamados & Atendimentos |
+| SOFIA.COSTA | `sofia.costa@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 24/11/0202 | — |
+| welvis.lucena | `welvis.lucena@caedu.com.br` | 03_Desenvolvimento-de-Colecao | `CADASTRADO` | acesso ao PLM desde 16/04/2024 | — |
+| MARISANGELA.SANTANA | `marisangela.santana@caedu.com.br` | 04_Qualidade | `CADASTRADO` | acesso ao PLM desde 16/08/2023 | — |
+| THAIS.ITICE | `thais.itice@caedu.com.br` | 04_Qualidade | `CADASTRADO` | acesso ao PLM desde 25/08/2023 | — |
+| ROBERTO.FERREIRA | `roberto.ferreira@caedu.com.br` | 08_Ecommerce-Cadastro | `CADASTRADO` | acesso ao PLM desde 02/08/2023 | — |
+| CAMILA.BLAUDT | `camila.blaudt@caedu.com.br` | 13_Modelagem | `CADASTRADO` | acesso ao PLM desde 05/09/2023 | — |
+| EMILLY | `emilly.lima@caedu.com.br` | 13_Modelagem | `CADASTRADO` | acesso ao PLM desde 05/09/2023 | — |
+| Jaíne dos Santos de Souza | `jaine.souza@caedu.com.br` | 13_Modelagem | `CADASTRADO` | acesso ao PLM desde 23/04/2024 | — |
+| Wesley Oliveira | `wesley.inacio@caedu.com.br` | 13_Modelagem | `CADASTRADO` | acesso ao PLM desde 23/04/2024 | — |
+| API Caedu | `api-caedu@umode.app` | [conta/API] | `CADASTRADO` | acesso ao PLM desde 05/10/2022 | — |
+| Raphael Santini | `raphael.santini@caedu.com.br` | [transversal — admin] | `CADASTRADO` | acesso ao PLM desde 14/06/2024 | — |
+| Ronaldo Trentim | `ronaldo.trentim@caedu.com.br` | [transversal — admin] | `CADASTRADO` | acesso ao PLM desde 14/06/2024 | — |
+| VITORIA.MENEGHIN | `vitoria.meneghin@caedu.com.br` | [transversal — admin] | `CADASTRADO` | acesso ao PLM desde 11/06/2024 | — |
+| alessandra.rocha | `alessandra.rocha@caedu.com.br` | [transversal — gerência] | `CADASTRADO` | acesso ao PLM desde 08/11/0202 | — |
+| CAMILA.CASTRO | `camila.castro@caedu.com.br` | [transversal — gerência] | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| CRISTIANE.MORAES | `cristiane.moraes@caedu.com.br` | [transversal — gerência] | `ATIVO` | chamado em **2026-01-23** | Chamados & Atendimentos |
+| Elad | `elad.lander@caedu.com.br` | [transversal — gerência] | `CADASTRADO` | acesso ao PLM desde 28/11/2023 | — |
+| THAIS.HAYASHIDA | `thais.hayashida@caedu.com.br` | [transversal — gerência] | `CADASTRADO` | acesso ao PLM desde 10/11/2023 | — |
+| THAMIRIS.DESCIO | `thamiris.descio@caedu.com.br` | [transversal — gerência] | `CADASTRADO` | acesso ao PLM desde 04/09/2023 | — |
+| ADRIANA.GERMANO | `adriana.germano@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 21/07/2023 | — |
+| Dayana Layna | `dayana.virgulino@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 08/05/2024 | — |
+| JESSICA.ANDRADE | `jessica.andrade@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 01/04/2024 | — |
+| KARINA.GAINO | `karina.gaino@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 13/11/0202 | — |
+| Magoo | `rpsilva16@stefanini.com` | [transversal] | `CADASTRADO` | acesso ao PLM desde 19/06/2024 | — |
+| MARIA.NASCIMENTO | `maria.nascimento@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 16/06/2023 | — |
+| MARIANA.AMARAL | `mariana.amaral@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 17/07/2023 | — |
+| MARLON.RIBEIRO | `marlon.ribeiro@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 01/12/0202 | — |
+| ROSELENE.FANTI | `roselene.fanti@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 28/03/2024 | — |
+| ROSIMEIRE.CASTILHO | `rosimeire.castilho@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 13/05/2024 | — |
+
+## Canais de comunicação
+
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.
+
+| Canal | Ferramenta | Quem participa | Cadência | Último registro |
+|---|---|---|---|---|
+| Atas de reunião | Notion — `Reuniões com o cliente` | `[a preencher]` | cadência **some após jun/2026** | jun/2026 |
+| Chamados | Notion — `Chamados & Atendimentos` | 5 pessoas do cliente | pontual, **interrompida** | **28/01/2026** |
+| Mapeamento de Contas | Notion — Documentação CX | `[a preencher]` | único, **abr/2025** | abr/2025 (17 meses) |
+| Drive de operação | Google Drive | `[a preencher]` | — | não varrida |
 
 ## Financeiro
 - E-mail principal financeiro: `[a preencher]` — campo vazio na base `Mapa de Clientes`

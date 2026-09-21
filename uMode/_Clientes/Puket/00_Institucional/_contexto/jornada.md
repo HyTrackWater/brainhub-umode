@@ -1,73 +1,105 @@
 # Puket · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
+
+## ⚠ O que este documento NÃO resolve
+- **A data de ativação do contrato.** O campo está vazio na base; o que existe é o primeiro acesso
+  ao PLM (24/05/2022), que é piso, não marco comercial.
+- **O conteúdo das 23 atas.** Foram varridos **título e data**; **nenhuma ata foi aberta**. Decisões,
+  entregas e responsáveis nomeados estão dentro delas e continuam por ler.
+- **A passada de bastão.** Está em branco na origem — ver `institucional.md`.
 
 ## Status atual
-Regime CS
+**`Ongoing`** · módulos `Gestão de Coleção` + `Integração` · ERP `Linx / SAP`.
 
 ## Fase atual
-Uflow em regime. O time domina a ferramenta, mas tem oportunidades para utilizar as configurações de tabela de medidas e ainda usam tabelas manuais.
-> Campo `Onde Estamos` do CRM.
+🔴 **Silêncio operacional.** Última ata em **08/01/2026**; último chamado em **29/01/2026**.
+**Oito meses sem registro** até 21/09/2026.
+
+**E três dos cinco chamados seguem `Não iniciada`**, abertos em janeiro de 2026.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 21/06/2023 | [a preencher] | Weekly 21/06 |
-| 31/08/2023 | [a preencher] | Weekly 31/08 |
-| 31/08/2023 | [a preencher] | Reunião 31/08 - Alteração de fluxo |
-| 09/11/2023 | [a preencher] | Weekly 09/11 |
-| 16/11/2023 | [a preencher] | Weekly 16/11 |
-| 11/01/2024 | [a preencher] | Reunião Presencial - Revisão Processos 04.01.24 |
-| 29/02/2024 | [a preencher] | Weekly 29/02/24 |
-| 04/04/2024 13:30 (GMT-3) → 17:30 | [a preencher] | Puket / uMode Day 04/04/24 |
-| 30/10/2025 | [a preencher] | Weekly 30/10/25 |
-| 13/11/2025 | Status Report | Weekly 13/11/25 |
-| [não informada] | [a preencher] | Weekly 23/05/23 |
-| [não informada] | [a preencher] | Reunião 30/05/23 |
-| [não informada] | [a preencher] | Reunião Maju 2/06/23 |
-| [não informada] | [a preencher] | Reunião 24/07 |
-| [não informada] | [a preencher] | Weekly 30/11 |
-| [não informada] | [a preencher] | Weekly 07/12 - Visita Presencial |
-| [não informada] | [a preencher] | Conversa Maju / Dez 23 |
-| [não informada] | [a preencher] | Weekly 14/03/24 |
-| [não informada] | [a preencher] | Weekly 23/05/24 |
-| [não informada] | [a preencher] | Weekly 06/06/24 |
-| [não informada] | Status Report | Weekly 27/11/25 |
-| [não informada] | [a preencher] | Weekly 16/10/25 |
-| [não informada] | Status Report | Weekly 11/12/25 |
-| [não informada] | Status Report | Weekly 08/01/26 |
-| [não informada] | [a preencher] | Macroplan ATP 19/01/26 |
-| [não informada] | Status Report | Weekly 23/01/26 |
-| [não informada] | Status Report | Informações para ecommerce 24/02/26 |
-| [não informada] | Status Report | Weekly 24/02/26 |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 28 reuniões registradas para este cliente
-> (10 com data, 18 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
+| Data | Marco | Fonte |
+|---|---|---|
+| **24/05/2022** | Primeiros acessos ao PLM — `maria.germano` e `gabriela.begnini`, perfil `Projetos` | tabela do PLM |
+| 03/06/2022 | Entra o time de `Design` (3 pessoas no mesmo dia) | tabela do PLM |
+| 09/06/2022 | **Maior onda de onboarding: 9 acessos num dia** — Estilo, Produto, Sourcing, Qualidade, TEX, Certificação | tabela do PLM |
+| 10–23/06/2022 | Continuação da onda — mais 11 acessos | tabela do PLM |
+| 30/06/2022 | Primeiro acesso de **Hong Kong** (`@grupounico.hk`, perfil Estilo) | tabela do PLM |
+| 16/08/2022 | Entra `PCP` (1 pessoa) | tabela do PLM |
+| 21–23/09/2022 | Reforço de `Qualidade` (3 pessoas) | tabela do PLM |
+| 04/10/2022 | Entra `BI` | tabela do PLM |
+| 25/11/2022 – 20/12/2022 | Acessos esparsos — Projetos, Produto, Design | tabela do PLM |
+| **22/05/2023** | **Linha do cliente criada no Notion** — um ano depois da conta existir | base `Mapa de Clientes` |
+| 27/04 – 24/05/2023 | Entram Sourcing e Projetos pela marca (`@puket.com.br`) | tabela do PLM |
+| 16–21/06/2023 | **Últimos acessos criados:** `Controladoria` (2) e `Importação` (2) — **as duas áreas mais recentes da conta** | tabela do PLM |
+| **15/02/2024** | **Reunião presencial de validação de fluxo** — primeira ata registrada | `Reuniões com o cliente` |
+| 23/02/2024 | Início da cadência de weekly | idem |
+| **24/05/2024** | Validação de regras de fluxo **NCM** — única ata com pauta técnica nomeada | idem |
+| jul–dez/2024 | Weeklies: 19/07, 01/08, 15/08, 29/08, 10/10, 17/10, 08/11, 21/11, 05/12 | idem |
+| 13/11/2024 | Criado o **`Modelo de Ata`** — passa a haver padrão | idem |
+| 2025 | Weeklies: 29/01, 13/02, 27/02, 08/05, 12/06, 01/07, 10/07, 24/07, 04/09, 18/09 | idem |
+| `MAIO 2025` | Página **`Evolução de Conta`** criada — **não varrida** | página `Puket` |
+| **08/01/2026** | **Última ata registrada** | `Reuniões com o cliente` |
+| 06–29/01/2026 | **5 chamados abertos**, os últimos registros da conta | `Chamados & Atendimentos` |
+
+> ⚠ **Erro de dado preservado da origem:** a ata *"Weekly 05/12/24"* foi **criada em 29/08/2024**.
+> Título e data de criação não batem. **Corrigir é na fonte, não aqui.**
+>
+> ⚠ **O campo `Data da Reunião` está preenchido em apenas 3 das 23 atas.** A data real vive
+> **dentro do título**, como texto. **Para o BrainHub isso é especificação:** data de reunião tem
+> que ser campo, não string — senão não há como ordenar, filtrar ou disparar por ela.
 
 ## Entregas comprometidas
-[a preencher]
+`[a preencher]` — nenhuma entrega comprometida foi localizada. Estão provavelmente **dentro das
+23 atas**, que não foram abertas.
 
 ## Módulos em uso
-Gestão de Coleção, Gestão de Processos
+`Gestão de Coleção` · `Integração`
+
+**Não contratados:** `Relatórios` · `Cronograma` · `Aposta` · `Planejamento` · `Fornecedores`
 
 ## Decisões e restrições registradas
-[a preencher]
+| Decisão / restrição | Data | Estado |
+|---|---|---|
+| Regras de fluxo **NCM** validadas com o cliente | 24/05/2024 | ⚠ conteúdo **não lido** |
+| Fluxo validado presencialmente | 15/02/2024 | ⚠ conteúdo **não lido** |
+| Perfil `Importação` **não** pode criar tarefas | 06/01/2026 | **em aberto** — Pedro verificando viabilidade |
 
 ## Métricas de sucesso definidas
-Alinhamento e boa comunicação sempre e sugerir melhorias nos processos e fluxos;   · Apoio na configuração e uso do Macroplan para franqueados.
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
+`[a preencher]` — nenhuma fonte varrida define métrica para esta conta.
 
 ## Próximos passos
-Entregar o Macroplan 100%;   · Auxiliar o time na configuração da tabela de medidas manual para o formato que utilizamos na Uflow. Propor e entregar novas soluções que possam agregar valor ao cliente, como uBuy, uPlan, relatórios.
-> Campo `O que falta` do CRM.
+1. 🔴 **Destravar os 3 chamados `Não iniciada`** parados desde janeiro de 2026.
+2. 🔴 **Retomar cadência** — 8 meses sem ata.
+3. **Preencher a passada de bastão**, ou registrar que foi abandonada e por quê.
+4. **Ler as 23 atas** — é onde estão decisões, entregas e nomes.
+5. **Localizar o `Mapeamento de Contas - Puket`** na Documentação CX. Ele deve existir: o
+   mapeamento da CAEDU declara ter sido feito *"no mesmo padrão que empregamos para Puket"*.
+6. **Confirmar a relação Puket ↔ Grupo Único** e quem é a contraparte contratual.
+7. **Reconciliar a lista de usuários** — `beatriz.fraga` usa o sistema e não está na tabela.
 
 ## Histórico de incidentes / alertas
-[a preencher]
+| Data | Registro | Tipo |
+|---|---|---|
+| 08/01/2026 | Reclamação sobre **tempo de exportação** | `USABILIDADE` · **fechado** |
+| 28/01/2026 | *"A opção do campo custom estava incorreta também"* — o **"também"** indica ocorrência anterior não registrada | `OUTROS` · **não iniciada** |
 
 ## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
+- **Dois chamados chegaram sem título** (23/01 e 29/01/2026). Registrados pelo e-mail do solicitante.
+- O campo `Jogo 29/06` na base do cliente guarda *"Pausa as 13h45 e retorna as 16h"* — **a base
+  carrega campos ad hoc de uso pontual**, que viram ruído permanente no schema.
+- A dupla **Julianne & Pedro** atende **6 contas** simultâneas.
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Marcos de acesso ao PLM | Notion — página `Puket`, tabela do PLM | **varrido 21/09/2026** |
+| Atas, datas e cadência | Notion — `Reuniões com o cliente (1)` | **varrido 21/09/2026** |
+| Chamados, dores e incidentes | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Status, módulos, ERP | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |

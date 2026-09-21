@@ -34,6 +34,10 @@ Churn
 - Módulos contratados (CRM): uFlow
 - Produto (CRM): uFlow
 - Relatórios (CRM): Cliente
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 SAP
 ### Responsável de atendimento (uMode)
@@ -59,8 +63,34 @@ https://drive.google.com/drive/folders/1iLmTu7Ie_ZW0qEZaB0LgNjpe-Z4iWQVl?usp=dri
 - Departamento (CRM): Feminino,Masculino,Infantil
 - Última edição do registro no CRM: February 2, 2026 11:52 AM por Marina Santoro
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Andrea Goulart Holmer dos Santos (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

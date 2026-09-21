@@ -8,6 +8,15 @@
 > existir** — foi escrito traduzindo uma explicação. Divergência entre este documento e o schema
 > atual **não é erro de entendimento: é tradução a corrigir.**
 
+> ## ⚠ SUPERSEDED em 21 set 2026 — pessoas e comunicações
+>
+> **`_espec-pessoas-e-comunicacoes.md` (ESPEC-PESSOAS-001) passou a ser a autoridade** sobre
+> `people`, `person_memberships`, `communication_channels`, `communication_events` e
+> `channel_participations`. O que este documento disser sobre pessoa ou comunicação está
+> **superado** por ele. Um assunto tem um dono.
+>
+> A ponte entre os dois é `communication_events.seedId` → `seeds` → `context_pack_version`.
+
 ## 0 · Declaração de completude — leia antes de confiar em qualquer linha
 
 | # | O que este documento NÃO resolve | Por quê |

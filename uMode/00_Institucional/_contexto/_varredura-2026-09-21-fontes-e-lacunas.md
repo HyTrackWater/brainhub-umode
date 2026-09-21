@@ -222,3 +222,71 @@ Varredura direta em 21 set 2026 nas 15 fontes da §1 · tabelas de trabalho em
 ## Governança
 Somente o CEO altera conteúdo no BrainHub. **Números de varredura vencem** — o Mapa de Clientes é
 export de **04/03/2026** e o corpus muda a cada commit. Refazer antes de citar.
+
+---
+
+# 🔴 CORREÇÃO — 21 set 2026, mesma data, depois de varrer a Puket
+
+## A afirmação de cobertura acima está errada como escrita
+
+Este documento afirma que os **46 clientes do corpus cobrem 100% dos clientes reais do Notion**.
+
+**Isso foi medido contra uma fonte só** — a base `Mapa de Clientes`. Contra ela, a afirmação
+se sustenta (falta apenas `Loungerie`). **Mas `Mapa de Clientes` não é a única lista de clientes
+que existe no Notion.**
+
+É exatamente o modo de falha que o `CLAUDE.md` nomeia: **concluir cobertura a partir de um caminho
+só.** Procurei a segunda lista depois, e ela existe.
+
+## A segunda lista: a base `Portal do Cliente`
+
+`collection://6548a3ae-bdc2-41cb-a412-f179d36f5c76`, em `Databases / 12. Portal do Cliente`.
+
+São **32 linhas**: 28 portais de cliente, 2 templates, 1 `[TESTE]` e 2 sem nome. Cada portal é uma
+página **voltada ao cliente** — logo da marca, link de Ouvidoria, contatos na uMode e uma base
+`Projetos do cliente` própria.
+
+### Sete clientes têm portal e **não têm linha no `Mapa de Clientes` nem casa no corpus**
+
+| Cliente | Portal criado em |
+|---|---|
+| **Inbrands** | 27/09/2023 |
+| **Malwee** | 30/11/2023 |
+| Innocence Fashion | 15/09/2023 |
+| Alcance Jeans | 30/08/2023 |
+| Disparate Jeans | 18/09/2023 |
+| Navarro | 11/10/2023 |
+| Tee Fashion | 16/08/2023 |
+
+**Verificado num caso:** o portal da **Malwee** tem conteúdo real — ícone da marca, callout de
+projetos em curso, base `Projetos do cliente`, link de Ouvidoria e um contato nomeado
+(*Alexandre Ferrari*). Última edição em **01/12/2023**.
+
+> ⚠ **Não afirmo que são clientes ativos, nem que foram perdidos.** Afirmo o que está verificado:
+> **existe portal, não existe linha no `Mapa de Clientes`, não existe casa no corpus** — e o único
+> que abri tem conteúdo real. **O que aconteceu com esses sete é pergunta para o negócio.**
+>
+> Inbrands e Malwee **não são contas pequenas**. Se passaram pela uMode e sumiram do mapa,
+> isso é história institucional perdida — que é precisamente o que o BrainHub existe para impedir.
+
+### Dois erros de grafia na origem, entre as duas listas
+| `Portal do Cliente` | `Mapa de Clientes` |
+|---|---|
+| `Basíco&Co` | `Básico&Co` |
+| `StudioZ` | `Studio Z` |
+
+**Corrigir é na fonte.** Aqui ficam registrados para que a próxima reconciliação automática não os
+conte como clientes distintos — **eu mesmo quase contei.**
+
+### Dos 13 clientes vivos, só 6 têm portal
+**Têm:** NV · Oficina · Osklen · Puket · Reserva · Vix (+ `Simples Reserva`)
+**Não têm:** Caedu · Cambos · Lofty Style · Luiza Barcelos · NK STORE · Moda Objetiva · Loungerie
+
+E a relação `Clientes` da base `Portal do Cliente` está **vazia em todas as 32 linhas** — o portal
+**não aponta de volta** para o cliente no `Mapa`. **São duas listas que não se falam.**
+
+## O que isso muda no método
+1. **Nenhuma afirmação de cobertura sem dizer contra qual fonte foi medida.** A frase correta é
+   *"o corpus cobre 100% do `Mapa de Clientes`, menos Loungerie"* — nunca *"100% dos clientes"*.
+2. **`Portal do Cliente` entra na lista de fontes** a varrer por cliente.
+3. **Reconciliar as duas listas** é tarefa aberta, e leva os sete nomes acima ao negócio.

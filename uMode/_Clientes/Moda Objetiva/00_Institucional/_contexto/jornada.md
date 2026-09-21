@@ -1,5 +1,9 @@
 # Moda Objetiva · Jornada
 
+## ⚠ O que este documento NÃO resolve
+
+`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+
 ## Status atual
 Onboarding
 
@@ -56,3 +60,17 @@ Gestão de Coleção · Integração (Ilimitar) · Relatórios · Cronograma
 - Perfil de usuários e permissionamentos mapeados.
 - Nenhum registro na base "Feedback Interno Clientes" da Casa — mesmo padrão de Lofty Style
   (cliente ainda em Discovery/Onboarding, sem ciclo de avaliação de satisfação iniciado).
+
+## Governança
+
+`[a preencher]`
+
+### Quem pode alterar este documento
+
+`[a preencher]`
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

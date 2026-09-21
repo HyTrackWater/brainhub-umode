@@ -16,9 +16,21 @@ Dev entrega ao PO · qualidade à Liderança. Toda demanda de cliente via CX-Hub
 ### O que não fazemos
 Não alteramos produção sem mapeamento prévio. Não assumimos prazo sem Produto.
 
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
 ### Termos específicos
 [a preencher]
+
+## Produto conectado
+
+`[a preencher]`
 
 ## Fontes e referências
 ### Documentos que esta área consome
@@ -30,6 +42,14 @@ Não alteramos produção sem mapeamento prévio. Não assumimos prazo sem Produ
 ## Governança
 ### Responsável pela área
 Bergson Lima Marques (Liderança Técnica) · João Risoléo (Diretor de Tech)
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
 
 ### Quem pode alterar este documento
 Responsável da área + CEO

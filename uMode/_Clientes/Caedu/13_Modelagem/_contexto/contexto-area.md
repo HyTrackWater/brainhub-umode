@@ -18,6 +18,9 @@ necessário. Mantém a tabela de medidas e o checklist de aprovação.
 | Repilotagem | novo ciclo de aprovação |
 
 ## Padrões operacionais
+
+### Como trabalham
+
 ### Adoção medida
 O mapeamento de conta registra números de adoção desta área:
 - **84% do fitting** acontece dentro do uMode
@@ -30,7 +33,14 @@ O mapeamento de conta registra números de adoção desta área:
    indicador de quanto tempo leva uma repilotagem não existe — está no plano de ação como
    dashboard a criar.
 
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
+
+### Termos específicos
+
 | Termo | O que significa aqui |
 |---|---|
 | **Piloto** | amostra inicial submetida a aprovação |
@@ -47,6 +57,9 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 reunião com o cliente.
 
 ## Fontes e referências
+
+### Documentos que esta área consome
+
 ### Procedência deste documento
 | Bloco | Fonte | Data |
 |---|---|---|
@@ -57,9 +70,21 @@ reunião com o cliente.
 ⚠ **O mapeamento de conta é de abr/2025 — 17 meses.** A própria fonte já registra correções
 posteriores. **Revalidar com a dupla de atendimento antes de usar como diagnóstico atual.**
 
+### Documentos que esta área produz
+
+`[a preencher]`
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — nenhuma fonte da uMode nomeia o líder desta área na Caedu.
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

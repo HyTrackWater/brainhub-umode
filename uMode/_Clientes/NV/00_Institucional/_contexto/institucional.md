@@ -39,6 +39,10 @@ Regime CS
 - Módulos (CRM): Gestão de Coleção, Gestão de Processos
 - Produto (CRM): uFlow
 - Relatórios (CRM): Cliente
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Linx
 ### Responsável de atendimento (uMode)
@@ -70,8 +74,34 @@ https://drive.google.com/drive/folders/1BucJ_1vczumBC2Gq_1tRVdpvY5Bdsq3_?usp=dri
 - Departamento (CRM): Feminino
 - Última edição do registro no CRM: March 4, 2026 10:12 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Fernanda Araujo, Victor Aragão, Vanessa Rinaldi Ornelas Engman (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

@@ -16,9 +16,21 @@ Toda demanda mapeada no CX-Hub antes de qualquer alteração em produção.
 ### O que não fazemos
 Não alteramos produção sem registro prévio no CX-Hub.
 
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
 ### Termos específicos
 [a preencher]
+
+## Produto conectado
+
+`[a preencher]`
 
 ## Fontes e referências
 ### Documentos que esta área consome
@@ -30,6 +42,14 @@ Não alteramos produção sem registro prévio no CX-Hub.
 ## Governança
 ### Responsável pela área
 Ju — Diretora de Operações
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
 
 ### Quem pode alterar este documento
 Responsável da área + CEO

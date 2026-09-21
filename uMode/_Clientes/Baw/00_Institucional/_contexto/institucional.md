@@ -37,6 +37,10 @@ Regime CS
 ### Módulos contratados
 - Módulos (CRM): Gestão de Coleção, Gestão de Processos
 - Produto (CRM): uFlow
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Linx
 > Preenchido em 03 ago 2026 a partir do **repositório de integração real** (`integration-baw-linx`),
@@ -67,8 +71,34 @@ https://drive.google.com/drive/folders/1dhvSnq9TExqFjFWUt2xKJCO5SMbGwBN6?usp=dri
 - Tamanho atendimento (CRM): P
 - Última edição do registro no CRM: March 4, 2026 10:06 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

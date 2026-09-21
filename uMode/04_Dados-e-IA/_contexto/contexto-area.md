@@ -16,9 +16,21 @@ Contexto estruturado em hierarquia: Institucional → Áreas → Subáreas → P
 ### O que não fazemos
 Não criamos agentes sem volumetria e contexto estabelecidos primeiro.
 
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
 ### Termos específicos
 [a preencher]
+
+## Produto conectado
+
+`[a preencher]`
 
 ## Fontes e referências
 ### Documentos que esta área consome
@@ -30,6 +42,14 @@ Não criamos agentes sem volumetria e contexto estabelecidos primeiro.
 ## Governança
 ### Responsável pela área
 Vinicius Risoléo
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
 
 ### Quem pode alterar este documento
 Responsável da área + CEO

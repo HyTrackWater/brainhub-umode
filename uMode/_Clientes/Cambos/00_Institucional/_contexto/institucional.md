@@ -45,6 +45,10 @@ Ongoing
   produto foi **descontinuado** — contratação histórica, não ferramenta ativa hoje)
 - Confirmado via CRM: produto uFlow + uRocket · 20 usuários internos contratados · 3
   Relatórios
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 SPI · Totvs Virtual Age · Banner
 ### Responsável de atendimento (uMode)
@@ -82,9 +86,35 @@ https://drive.google.com/drive/folders/17HOz4vDW9Am9Z0GSPlPOUBi4_kKhytVN
 - O que falta (CRM): "Acompanhar e monitorar as validações dos times, assim como o processo
   de integração."
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, atualizado em
 13 jul 2026)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

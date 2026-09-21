@@ -1,11 +1,14 @@
 # Protocolo — varredura e preenchimento de contexto de cliente
 
-> Escrito em **21 set 2026**, depois de fechar a **CAEDU** como caso de prova: 33 → 47 MDs,
-> `contexto-area.md` de **0/14 para 14/14**, e os três MDs canônicos reescritos a partir do
-> **Notion ao vivo**.
+> Escrito em **21 set 2026** depois de fechar a **CAEDU** como caso de prova, e **revisado no mesmo
+> dia depois da Puket** — que quebrou duas premissas generalizadas de um cliente só.
 >
-> Este protocolo existe para que os outros 21 clientes vivos não exijam redescobrir o caminho.
+> Este protocolo existe para que os clientes restantes não exijam redescobrir o caminho.
 > **Ordem importa** — ela foi determinada por onde a informação de fato está.
+>
+> ⚠ **Regra de manutenção deste arquivo:** toda regra aqui nasceu de **um** cliente. Uma regra
+> confirmada em um caso é hipótese; só vira regra depois do segundo. As que ainda valem para um só
+> caso estão marcadas **`(1 caso)`**.
 
 ## 0 · Antes de começar: a regra que evita o retrabalho
 
@@ -22,17 +25,30 @@ afirmar estado.
 |---|---|---|---|
 | 1 | **Base `Mapa de Clientes`** | status, módulos, ERP, dupla de atendimento, setor, cidade | `notion-query-data-sources` em `collection://ec041afd-fcee-44f8-83cb-223fca6f4108` |
 | 2 | **Página do cliente** dentro da base | 🎯 **a tabela de usuários do PLM** — nome, e-mail, perfil, data | `notion-fetch` na `url` da linha do cliente |
-| 3 | **`Mapeamento de Contas - <cliente>`** | AS IS, dores, fluxo por área, plano de ação | busca em `Operação de Clientes / Área de CX / Documentação CX` |
-| 4 | **Sub-páginas da página do cliente** | Fornecedores, Playbooks, Manual, Onboarding→Ongoing | listadas no `<content>` da página |
-| 5 | **Atas** em `Reuniões com o cliente` | marcos datados, pessoas nomeadas, decisões | idem |
-| 6 | **vault `_Clientes/<slug>/`** | propostas, contratos, cronogramas, atas destiladas | `git show` na branch `governance/brainhub-v1.5` |
-| 7 | **Repositório de integração** | confirma o ERP de verdade | `C:\Ambientes Virtuais\uMode-Integracoes\` |
+| 3 | 🔴 **`Chamados & Atendimentos`** | **a dor real e recente**: tipo, status, e-mail do solicitante, detalhe | `collection://2c5b1d38-e768-805a-99b1-000b4da25cc4`, filtrando `Cliente` pela url do cliente |
+| 4 | **`Mapeamento de Contas - <cliente>`** | AS IS, dores, fluxo por área, plano de ação | busca em `Operação de Clientes / Área de CX / Documentação CX` |
+| 5 | **Sub-páginas da página do cliente** | Fornecedores, Playbooks, Manual, Onboarding→Ongoing | listadas no `<content>` da página |
+| 6 | **Atas** em `Reuniões com o cliente` | marcos datados, pessoas nomeadas, decisões | idem |
+| 7 | **vault `_Clientes/<slug>/`** | propostas, contratos, cronogramas, atas destiladas | `git show` na branch `governance/brainhub-v1.5` |
+| 8 | **Repositório de integração** | confirma o ERP de verdade | `C:\Ambientes Virtuais\uMode-Integracoes\` |
 
 ## 2 · 🎯 O achado que destrava tudo
 
 > **O perfil de acesso no PLM é o único vínculo pessoa↔área que existe em alguma fonte da uMode.**
 
-Na CAEDU, 93 usuários em 14 perfis mapearam assim:
+E ele **governa permissão, não só rótulo**: na Puket, a pessoa do perfil `Importação` abriu chamado
+pedindo **poder criar tarefas**. O perfil decide o que a pessoa faz, não só onde ela está.
+
+### 🔴 Mas a convenção de nome do perfil é DE CADA CLIENTE
+
+Este protocolo dizia, generalizando da CAEDU, que o padrão era `<Cliente>-<Área>`. **A Puket
+derrubou isso:** lá os perfis são **nomes de função puros** — `Sourcing Nacional`, `Produto`,
+`Estilo`, `Design`, `Qualidade`, `TEX`, `PCP`, `BI`, `Controladoria`, `Certificação`, `Projetos`,
+`Importação`.
+
+**Leia os perfis que existem antes de assumir qualquer padrão de nome.**
+
+Na CAEDU, 93 usuários em 14 perfis mapearam assim **(1 caso — padrão prefixado)**:
 
 | Perfil | → Área canônica |
 |---|---|
@@ -46,8 +62,37 @@ Na CAEDU, 93 usuários em 14 perfis mapearam assim:
 | `Fornecedor` | externo · `06_Compras-Supply-Sourcing` |
 | `Dono da Conta` | conta de serviço, **não é pessoa** |
 
+Na Puket, 43 usuários em 13 perfis, **sem prefixo**, mapearam direto pelo nome da função —
+com três casos que **não** se resolvem sozinhos e ficaram marcados:
+
+| Perfil | Decisão |
+|---|---|
+| `TEX` | ⚠ sigla não explicada em nenhuma fonte — `[a preencher]`, **não inferir** |
+| `Certificação` | → `04_Qualidade`, **provisório** |
+| `Projetos` · `BI` | **transversais** — sem área canônica derivável |
+
 **Isso preenche de uma vez:** a seção *Aliases de áreas* do `institucional.md`, a seção *Time do
 projeto por área* do `pessoas.md`, e a seção *Pessoas desta área* de cada `contexto-area.md`.
+
+### 🔴 E a cobertura de áreas é informação sobre o cliente
+
+A grade de 14 áreas **não se preenche igual em dois clientes** — e a diferença diz como cada um se
+organiza. Ambos têm 7 de 14, mas **não as mesmas 7**:
+
+| | Caedu | Puket |
+|---|:-:|:-:|
+| Planejamento · E-commerce · Modelagem | ✅ | — |
+| PCP · Design · Financeiro | — | ✅ |
+| Estilo · Produto · Qualidade · Sourcing | ✅ | ✅ |
+
+**Não trate a ausência como falta de dado até ter varrido as fontes.** Depois disso, ela é dado.
+
+### ⚠ O domínio do e-mail também é dado
+
+Na Puket, os 43 usuários se dividem em `@puket.com.br` (22), `@grupounico.com` (20) e
+`@grupounico.hk` (1). **Puket é marca do Grupo Único** — a holding concentra suprimento, controle e
+qualidade; a marca concentra criação e produto; e há sourcing em **Hong Kong**.
+**Agrupe os domínios antes de escrever o `institucional.md`.** Pode não ser uma empresa só.
 
 ## 3 · As sete travas que a CAEDU revelou
 
@@ -72,6 +117,31 @@ o que cada uma **não** trouxe, e com as perguntas a levar ao negócio.
 > que antes eram invisíveis passaram a ser endereçáveis. **Lacuna visível vale mais que cobertura
 > aparente.**
 
+**8 · Placeholder de template não é conteúdo. (Puket)**
+A página da Puket tem um bloco *"Perfis de Acesso e Setor Operacional"* que parece uma taxonomia —
+mas cada item vem seguido de `(EX: ...)`. **São exemplos do template, nunca preenchidos.** O mesmo
+vale lá para `Marca`, `Submárcas`, `ERP`, `Workflow`, `Validações`, `Restrições`, `Link do Miro`:
+todos vazios ou com `#` / `##` de placeholder.
+> **Procure `(EX:`, `Ex:`, `#`, `##` e campo vazio antes de tratar um bloco como fonte.**
+> E **registre a passada de bastão em branco como achado** — é lacuna do ritual da casa, não do
+> cliente.
+
+**9 · A tabela de usuários da página não é o cadastro vivo do PLM. (Puket)**
+Na Puket, `beatriz.fraga@puket.com.br` abriu chamado em jan/2026 e **não está** entre os 43 da
+tabela — cuja última data de acesso é de jun/2023. **Cruze sempre os e-mails dos chamados contra a
+tabela** e registre quem sobra.
+
+**10 · Data em título de ata não é data de ata. (Puket)**
+Das 23 atas da Puket, só 3 têm o campo `Data da Reunião` preenchido. A data real vive **dentro do
+título**, como texto — e há caso de título que **não bate** com a data de criação
+(*"Weekly 05/12/24"* criada em 29/08/2024). **Use o título, mas confira contra `createdTime` e
+sinalize a divergência.**
+
+**11 · Silêncio é estado da conta, e vai na jornada. (2 casos)**
+Puket: última ata 08/01/2026, último chamado 29/01/2026, **3 chamados ainda `Não iniciada`**.
+Caedu: cadência some depois de jun/2026. **Sempre compare a última ata com a data de hoje** e
+escreva o intervalo em meses.
+
 **7 · Datar tudo e marcar o que não foi confirmado.** O mapeamento de conta da CAEDU tem 17 meses e
 já contém correções posteriores no próprio texto. O porte e o CEO vieram de um CRM de mentoria e
 **não** do atendimento — ficaram marcados como não confirmados.
@@ -91,8 +161,9 @@ já contém correções posteriores no próprio texto. O porte e o CEO vieram de
 
 Priorizar por **status e volume de material**, não por ordem alfabética:
 
-1. **Ongoing com mapeamento de conta** — Puket (tem análise comparativa com a Caedu), Reserva, NV,
-   Cambos, Osklen
+0. ✅ **Feitos** — **Caedu** (93 usuários, 14 perfis) e **Puket** (43 usuários, 13 perfis)
+1. **Ongoing com mapeamento de conta** — Reserva (7 módulos, a conta mais completa), NV, Cambos,
+   Osklen
 2. **Ongoing restantes** — Lofty Style, Luiza Barcelos, NK STORE, Oficina Reserva, VIX
 3. **Operação Assistida** — Moda Objetiva, Osklen
 4. **Onboarding** — Loungerie ⚠ **não existe no corpus, precisa ser criado**
@@ -100,6 +171,73 @@ Priorizar por **status e volume de material**, não por ordem alfabética:
 6. **Sem CS** — Baw, Camys, Cavallari, Mondepars, Studio Minah, TDC, Ton Age
    > Estes provavelmente só têm `Gestão de Coleção` e pouca ata. **Esperar pouco material** — e
    > registrar isso como fato do cliente.
+
+## 6 · O contexto de carteira, para não varrer no escuro
+
+Varrido ao vivo em 21/09/2026, os **13 clientes vivos**:
+
+| Grupo | WIP Estrat. | Clientes |
+|---|---:|---|
+| **Enterprise** (*"Reserva + Soma"*) | 6,00 | Reserva · Oficina Reserva · NV |
+| **Médios** | 2,25 | Cambos · Lofty Style · Luiza Barcelos · NK STORE · VIX · Osklen · Moda Objetiva · Loungerie |
+| **SMB** | 1,75 | Caedu · Puket |
+
+**Atendimento 2025:** Julianne & Pedro (6 contas) · Laura (4) · Fernanda (3).
+
+**Módulos, do mais ao menos servido:** Reserva 7 · Oficina Reserva 5 · Osklen 5 · Caedu 4 ·
+NK STORE 4 · Luiza Barcelos 4 · Lofty Style 4 · NV 4 · Moda Objetiva 4 · VIX 4 · Cambos 3 ·
+**Puket 2** · Loungerie 0.
+
+**ERPs:** Linx domina; `Linx / SAP` em Puket e Reserva; `SAP e Linx` em Oficina Reserva
+— **mesmo par, grafia diferente: erro de taxonomia na origem**. Fora do padrão: `Safe Tech`
+(Luiza Barcelos), `SPI` próprio (Cambos), `Ilimitar` (Moda Objetiva).
+
+> ⚠ A base `Segmentação Grupos` (`collection://a4103fe2-2f5f-48b4-9136-f0b82b7e1a56`) está sob a
+> pasta **`Arquivo`**. **Confirmar vigência antes de usar como autoridade.**
+
+## 7 · 🔴 A regra de padrão (travada pelo Vinicius em 21 set 2026)
+
+> *"Você vai seguir a diretriz estratégica de junção de contexto mantendo um mesmo padrão (mesmo
+> que em dado momento entenda que o padrão tem que mudar), mas aí você retorna e replica esse
+> padrão pra tudo de uma mesma classe de documentações que estiver criando/manipulando."*
+
+**Mudar o padrão é permitido. Mudar só no arquivo da vez, não.**
+
+Ao varrer um cliente você vai encontrar coisa que o template não previa. Quando isso exigir seção
+nova, o procedimento é **um só**, e nesta ordem:
+
+1. **Promova a seção ao `_template_cliente`** — ela passa a ser canônica.
+2. **Replique em toda a classe**, todos os clientes, não só o que você está varrendo.
+   Seção nova em cliente sem dado entra com `` `[a preencher]` `` — **lacuna visível vale mais que
+   cobertura aparente.**
+3. **Verifique em número**, arquivo a arquivo, e escreva o número.
+4. **Nunca apague conteúdo** para encaixar estrutura. Inserir sim, remover não.
+
+**Achado de cliente não vira seção nova.** Vira conteúdo sob a seção canônica a que pertence —
+`###` sob o `##` certo, ou parágrafo. Só vira seção quando valer para **todos** os clientes.
+
+### O erro que gerou esta regra
+Ao fechar a Puket criei `## O achado estrutural: duas camadas de empresa`, `## A lista de usuários
+não é o cadastro vivo` e `## Evidência de que o perfil governa permissão` — três seções que **só
+a Puket tinha**. E renomeei duas seções que a CAEDU já tinha com outro nome. **Duas cópias do mesmo
+tipo de documento com estruturas diferentes é exatamente o defeito que já se criticou na
+arquitetura do João.**
+
+Corrigido em 21/09/2026: as três viraram `###` sob `## Time do projeto por área`, os nomes foram
+unificados, e o padrão resultante foi replicado nas **192 documentações das quatro classes**.
+
+### O padrão vigente, em número
+| Classe | Arquivos | Conformes |
+|---|---:|---:|
+| `institucional.md` | 48 | **48** |
+| `contexto-area.md` | 50 | **50** |
+| `jornada.md` | 47 | **47** |
+| `pessoas.md` | 47 | **47** |
+
+**Seções promovidas ao template nesta rodada:** `### Usuários da conta` · `### Onde estamos` ·
+`### A frente aberta` · `### O que o cliente espera` · `### As dores estruturais registradas` ·
+`### Tamanho de atendimento` · `### Procedência` (nos três tipos) ·
+`## O que este documento NÃO resolve` (na `jornada.md`, por exigência do `CLAUDE.md`).
 
 ## Governança
 Somente o CEO altera conteúdo no BrainHub. **Alterar este protocolo exige ter executado a varredura

@@ -32,6 +32,10 @@ Inativo
 [não informada]
 ### Módulos contratados
 [a preencher]
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 [a preencher]
 ### Responsável de atendimento (uMode)
@@ -54,8 +58,34 @@ kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-clien
 ## Contexto crítico
 - Última edição do registro no CRM: January 13, 2026 5:47 PM por Ana Paula Ramos
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 [a preencher]
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

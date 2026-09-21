@@ -34,6 +34,10 @@ Churn
 - Módulos contratados (CRM): uRocket
 - Produto (CRM): uRocket
 - Relatórios (CRM): uMode
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Avec
 ### Responsável de atendimento (uMode)
@@ -58,8 +62,34 @@ kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-clien
 - Tamanho atendimento (CRM): G
 - Última edição do registro no CRM: February 17, 2025 5:18 PM por Rafael Renaldim
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Rafael Del Gaudio Renaldim (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

@@ -19,6 +19,9 @@ Internamente, a aprovação final é chamada de **"lacrar"** o produto.
 | Decisão de qualidade | `Amostra aprovada` |
 
 ## Padrões operacionais
+
+### Como trabalham
+
 ### ⚠ Dores registradas
 1. **Frequência de exportações manuais e planilhas paralelas** — é a dor declarada da área.
 
@@ -27,7 +30,14 @@ O mapeamento de conta registra que **modelagem e qualidade têm domínio da ferr
 os demais times ainda têm dificuldade com alguns processos.
 > Fonte: campo `Onde Estamos` da base `Mapa de Clientes`.
 
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
+
+### Termos específicos
+
 | Termo | O que significa aqui |
 |---|---|
 | **Lacrar** | aprovação final da amostra de produção |
@@ -43,6 +53,9 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 **Gestão de Coleção** (uFlow).
 
 ## Fontes e referências
+
+### Documentos que esta área consome
+
 ### Procedência deste documento
 | Bloco | Fonte | Data |
 |---|---|---|
@@ -53,9 +66,21 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 ⚠ **O mapeamento de conta é de abr/2025 — 17 meses.** A própria fonte já registra correções
 posteriores. **Revalidar com a dupla de atendimento antes de usar como diagnóstico atual.**
 
+### Documentos que esta área produz
+
+`[a preencher]`
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — nenhuma fonte da uMode nomeia o líder desta área na Caedu.
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

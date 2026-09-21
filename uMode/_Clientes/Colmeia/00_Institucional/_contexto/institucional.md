@@ -34,6 +34,10 @@ Churn
 ### Módulos contratados
 - Módulos contratados (CRM): uRocket
 - Produto (CRM): uRocket
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Totvs Moda
 ### Responsável de atendimento (uMode)
@@ -61,8 +65,34 @@ https://drive.google.com/drive/folders/1oyGWuZfeCCvneiOblzq_Qksd_RGZd6qv?usp=dri
 - Departamento (CRM): Feminino
 - Última edição do registro no CRM: January 30, 2026 3:29 PM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Rafael Del Gaudio Renaldim (Key Account) · Rafael Del Gaudio Renaldim (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

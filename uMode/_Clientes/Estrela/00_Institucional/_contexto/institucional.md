@@ -32,6 +32,10 @@ Churn
 [não informada]
 ### Módulos contratados
 [a preencher]
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 [a preencher]
 ### Responsável de atendimento (uMode)
@@ -55,8 +59,34 @@ https://drive.google.com/drive/folders/1AevNOKD36B3PPu-grk_i-sHqbNQ-AcSC?usp=dri
 - Sucesso do Cliente (CRM): Cancelado
 - Última edição do registro no CRM: November 26, 2024 3:07 PM por Rafael Renaldim
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 [a preencher]
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

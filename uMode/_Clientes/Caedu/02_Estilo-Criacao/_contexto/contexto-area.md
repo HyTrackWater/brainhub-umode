@@ -34,6 +34,9 @@ e atributos de Visual Merchandising.
 | Atributos de Visual Merchandising | campos de VM |
 
 ## Padrões operacionais
+
+### Como trabalham
+
 ### Como trabalhamos
 - O produto só avança com a aprovação pré-line explícita.
 - A origem é registrada **na ficha de produto**, não na variante.
@@ -48,6 +51,10 @@ e atributos de Visual Merchandising.
 3. 🔴 **A origem vive na ficha, não na variante.** Como a validação acontece por variante, isso
    obriga **exportações extensas no mapa** para acompanhar. É um problema de modelo de dado, não
    de processo — e foi o achado mais citado do diagnóstico.
+
+### O que não fazem
+
+`[a preencher]`
 
 ## Vocabulário da área
 ### Termos específicos
@@ -99,3 +106,11 @@ Há 5 usuários com perfil `Gerente de Estilo`; **confirmar qual responde pela �
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

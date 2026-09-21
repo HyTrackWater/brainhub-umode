@@ -21,6 +21,10 @@ títulos de RFI) — é o que permite reconhecer o mesmo cliente vindo de fonte 
 [Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn]
 ### Data de ativação
 ### Módulos contratados
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 ### Responsável de atendimento (uMode)
 
@@ -38,7 +42,33 @@ quando houver. ERP/integração NÃO entra aqui: vive em "Operação uMode → E
 
 ## Contexto crítico
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

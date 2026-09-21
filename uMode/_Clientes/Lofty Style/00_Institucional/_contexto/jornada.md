@@ -1,5 +1,9 @@
 # Lofty Style · Jornada
 
+## ⚠ O que este documento NÃO resolve
+
+`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+
 ## Status atual
 Operação Assistida
 
@@ -58,3 +62,17 @@ Gestão de Coleção · Integração (Linx) · Relatórios · Cronograma
   Gap real, não decidi inventar uma nota de satisfação.
 - Última reunião registrada na base de Reuniões Compartilhadas: 10/02/2026 (Weekly, Andrea
   Holmer + Laura Delgado) — cadência seguia regular até essa data.
+
+## Governança
+
+`[a preencher]`
+
+### Quem pode alterar este documento
+
+`[a preencher]`
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

@@ -2,6 +2,10 @@
 
 > Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
 
+## ⚠ O que este documento NÃO resolve
+
+`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+
 ## Status atual
 Churn
 
@@ -41,3 +45,17 @@ Finalizar a entrega da uPlan
 - Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
 - Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
 - Sem reuniões na base compartilhada — jornada ainda sem marcos reais registrados.
+
+## Governança
+
+`[a preencher]`
+
+### Quem pode alterar este documento
+
+`[a preencher]`
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

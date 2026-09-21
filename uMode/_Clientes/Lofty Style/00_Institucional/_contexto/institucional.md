@@ -41,6 +41,10 @@ Operação Assistida
 - Gestão de Coleção · Integração · Relatórios · Cronograma
 - Confirmado via CRM: produto uFlow · módulos "Gestão de Coleção" e "Gestão de Processos" ·
   12 usuários internos contratados · 4 relatórios com 4 indicadores cada
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Linx
 ### Responsável de atendimento (uMode)
@@ -72,9 +76,35 @@ https://drive.google.com/drive/folders/1sP7YqvkGtyoCXkk6BUZwaUzIBaK9JHXV
   Casa (outros clientes têm desde 2024) — Lofty nunca foi avaliado nesse sistema. Gap real,
   não lacuna de leitura.
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, atualizado em
 13 jul 2026)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

@@ -2,6 +2,9 @@
 
 > Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
 
+## ⚠ O que este documento NÃO resolve
+`[a preencher]` — **a lacuna vem antes da conquista: declare aqui o que o documento não cobre, e por quê, antes de qualquer coisa que ele cobre.**
+
 ## Status atual
 ## Fase atual
 
@@ -16,3 +19,12 @@
 ## Próximos passos
 ## Histórico de incidentes / alertas
 ## Observações
+
+## Governança
+### Quem pode alterar este documento
+`[a preencher]`
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

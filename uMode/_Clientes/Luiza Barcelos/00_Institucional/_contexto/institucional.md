@@ -51,6 +51,10 @@ Ongoing
 - Confirmado via CRM: produto uFlow + uDash · 15 usuários internos + 2 uDash + 3 externos ·
   3 Relatórios
 
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Safe Tech
 
@@ -98,6 +102,26 @@ https://drive.google.com/drive/folders/1zz1qlgXLJhbJ7TFIKmbfGEQUEBFmT-cM
 - O que falta (CRM): "Fechar o escopo do Go Light e construir tudo até 02/12."
 - Segmentação Grupos: "Grupo 2: Estratégico" · Tamanho atendimento: G · Quantidade de Lojas: 70
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, atualizado em
@@ -105,3 +129,9 @@ Laura Delgado Cardoso (Andrea Goulart Holmer dos Santos saiu do time da uMode, a
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

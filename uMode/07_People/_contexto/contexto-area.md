@@ -16,9 +16,21 @@ HIC medido por entrega real via agentes — não por conclusão de curso.
 ### O que não fazemos
 Não interferimos na execução das áreas. Não normalizamos acumulação de cadeiras.
 
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
 ### Termos específicos
 [a preencher]
+
+## Produto conectado
+
+`[a preencher]`
 
 ## Fontes e referências
 ### Documentos que esta área consome
@@ -30,6 +42,14 @@ Não interferimos na execução das áreas. Não normalizamos acumulação de ca
 ## Governança
 ### Responsável pela área
 Flávia Campello (execução) · João Risoléo (decisão)
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
 
 ### Quem pode alterar este documento
 Responsável da área + CEO

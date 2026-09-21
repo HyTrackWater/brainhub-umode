@@ -32,6 +32,10 @@ Churn
 [não informada]
 ### Módulos contratados
 - Produto (CRM): uFlow
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 [a preencher]
 ### Responsável de atendimento (uMode)
@@ -60,8 +64,34 @@ https://drive.google.com/drive/folders/1-m6YVE5zSW9JCXMoo6_GDplnimxyYH-c?usp=dri
 - Tamanho atendimento (CRM): P
 - Última edição do registro no CRM: November 21, 2025 4:16 PM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Rafael Del Gaudio Renaldim (Key Account)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

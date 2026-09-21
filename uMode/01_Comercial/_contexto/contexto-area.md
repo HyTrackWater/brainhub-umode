@@ -16,9 +16,21 @@ Fronteira clara com Operações: Operações origina/sinaliza, Vendas fecha.
 ### O que não fazemos
 Não prometemos o que Operações não vai entregar.
 
+### Como trabalham
+
+`[a preencher]`
+
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
 ### Termos específicos
 [a preencher]
+
+## Produto conectado
+
+`[a preencher]`
 
 ## Fontes e referências
 ### Documentos que esta área consome
@@ -30,6 +42,14 @@ Não prometemos o que Operações não vai entregar.
 ## Governança
 ### Responsável pela área
 Sandro Costa — Diretor de Vendas
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`
 
 ### Quem pode alterar este documento
 Responsável da área + CEO

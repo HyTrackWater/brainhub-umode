@@ -45,6 +45,9 @@ permitindo customizar e adicionar. **Grade de Tamanhos e Packs não abrem para v
 > Precisamos ajustar os permissionamentos."*
 
 ## Padrões operacionais
+
+### Como trabalham
+
 ### ⚠ Dores registradas
 1. 🔴 **12 mil cadastros de fornecedor** — volume que dificulta busca e usabilidade. O plano de
    ação prevê limpeza de redundâncias, com prazo de 6 semanas e responsabilidade do time Caedu.
@@ -52,7 +55,14 @@ permitindo customizar e adicionar. **Grade de Tamanhos e Packs não abrem para v
 3. Ata de 27/11/2025: é necessário **completar o campo "referência do fornecedor"** e há
    **necessidade de comprometimento do time da Caedu** (liderança da Rose) para adaptar processos.
 
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
+
+### Termos específicos
+
 | Termo | O que significa aqui |
 |---|---|
 | **Referência do fornecedor** | campo que identifica o produto no catálogo do fornecedor |
@@ -68,6 +78,9 @@ atuam por perfis transversais (`Caedu-Geral`, `Caedu-Gerentes`) ou não usam o P
 **Fornecedores** — módulo contratado pela Caedu, e o que sustenta esta frente.
 
 ## Fontes e referências
+
+### Documentos que esta área consome
+
 ### Procedência deste documento
 | Bloco | Fonte | Data |
 |---|---|---|
@@ -78,9 +91,21 @@ atuam por perfis transversais (`Caedu-Geral`, `Caedu-Gerentes`) ou não usam o P
 ⚠ **O mapeamento de conta é de abr/2025 — 17 meses.** A própria fonte já registra correções
 posteriores. **Revalidar com a dupla de atendimento antes de usar como diagnóstico atual.**
 
+### Documentos que esta área produz
+
+`[a preencher]`
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — nenhuma fonte da uMode nomeia o líder desta área na Caedu.
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

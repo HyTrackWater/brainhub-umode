@@ -3,6 +3,10 @@
 > Registro cronológico da relação uMode × Luiza Barcelos.
 > Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
 
+## ⚠ O que este documento NÃO resolve
+
+`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+
 ## Status atual
 **Ongoing** — operação ativa com CS.
 
@@ -71,3 +75,17 @@ Cambos) |
   onboarding de 2024 junto com Marina Santoro — não confirmei se é uMode ou do próprio
   cliente. Não criei ficha de Pessoa para ela até confirmar (evita risco de tratar uma pessoa
   do cliente como se fosse da Casa, ou vice-versa).
+
+## Governança
+
+`[a preencher]`
+
+### Quem pode alterar este documento
+
+`[a preencher]`
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |

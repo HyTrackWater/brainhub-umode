@@ -182,6 +182,204 @@
 - [x] Decisão travada: Produtos são subáreas com atributo `tipo: produto`
 - [x] Decisão refinada: cada Produto carrega atributo `conecta_area_cliente`
 
+## 🔵 FRENTE ATIVA — 19–21 set 2026: preencher os brains de cliente a partir da fonte viva
+
+> **Instrução do Vinicius:** *"Deixar todas as documentações de clientes o mais preenchidas
+> possível, com todas as pessoas envolvidas, áreas, ferramentas"* — e identificar as lacunas
+> estruturais para levar ao negócio. Depois: *"vasculhe completamente. Página por página de
+> cliente por cliente."*
+
+### ⚠ O que esta frente ainda NÃO resolve
+- **44 dos 46 clientes seguem sem varredura de fonte viva.** Fechados: **Caedu** e **Puket**.
+- **Nenhuma ata foi aberta.** Em Caedu e Puket varri **título e data** das atas; o conteúdo
+  — decisões, entregas, nomes — continua por ler. `[P]` são **23 atas** só na Puket.
+- **O `Mapeamento de Contas - Puket` não foi localizado.** Ele deve existir: o mapeamento da CAEDU
+  declara ter sido feito *"no mesmo padrão que empregamos para Puket"*. **Não encontrei na
+  Documentação CX nesta varredura** — não afirmo que não existe.
+- **CX Hub e legado continuam travados** — schema visível no Supabase, registros não.
+- **`Loungerie` continua sem casa no corpus** (status `Onboarding` na base viva).
+
+### O achado que destrava tudo `[C]`
+> **O perfil de acesso no PLM é o único vínculo pessoa↔área que existe em alguma fonte da uMode.**
+
+E ele **governa permissão, não só rótulo**: em 06/01/2026 a `eduarda.souza` (perfil `Importação`,
+Puket) pediu que o perfil pudesse **criar tarefas** — chamado **em aberto até hoje**.
+
+### 🔴 Correção ao protocolo, aprendida na Puket
+O `protocolo-varredura-cliente.md` previa perfis no padrão `<Cliente>-<Área>`, generalizado da CAEDU.
+**Está errado como regra.** A Puket usa **nomes de função puros** (`Sourcing Nacional`, `TEX`, `PCP`,
+`BI`, `Controladoria`, `Certificação`, `Projetos`).
+**A convenção de nome de perfil é de cada cliente.** Protocolo corrigido.
+
+### 🔴 Fonte nova, que não estava no protocolo
+**`Chamados & Atendimentos`** — `collection://2c5b1d38-e768-805a-99b1-000b4da25cc4`, em
+`Clientes uMode (Interno) / Gerenciamento de Atendimento & Chamados`. É um **sistema de tickets
+vivo dentro do Notion**, com `Tipo de Chamado`, `Status`, e-mail do solicitante e detalhe do
+atendimento. **É a fonte mais recente de dor real do cliente** — e não estava mapeada.
+Virou a **fonte 3** do protocolo.
+
+### A grade de segmentação da uMode, varrida por inteiro `[C]`
+
+| Grupo | Nome | WIP Estratégico | Clientes vivos |
+|---|---|---:|---|
+| 1 | **Enterprise** (*"Reserva + Soma"*) | 6,00 | Reserva · Oficina Reserva · NV |
+| 2 | **Médios** | 2,25 | Cambos · Lofty Style · Luiza Barcelos · NK STORE · VIX · Osklen · Moda Objetiva · Loungerie |
+| 3 | **SMB** | 1,75 | Puket · Caedu |
+| 4 | Outros Clientes | — | — |
+
+**Atendimento 2025, os 13 clientes vivos:** Julianne & Pedro (6) · Laura (4) · Fernanda (3).
+
+> ⚠ A base `Segmentação Grupos` está sob a pasta **`Arquivo`** no Notion. **Confirmar vigência.**
+> ⚠ A Puket é **SMB** com 43 usuários e duas camadas societárias; a CAEDU é **SMB** com 93.
+> **A segmentação não parece acompanhar o tamanho da conta.**
+
+### 🔴 Três lacunas estruturais para levar ao negócio
+
+**1 · A passada de bastão é um ritual que não se conclui.**
+Na Puket o template de handover está **inteiro em branco** — marca, submárcas, ERP, integração
+ativa, usuários ativos, departamentos engajados, workflow, validações, restrições, link do Miro.
+Há um título `Passada bastão Luciano` **sem nenhum conteúdo abaixo**. O único bloco preenchido é a
+tabela de usuários. **Checar quantas outras contas estão assim.**
+
+**2 · A tabela de usuários não é o cadastro vivo.**
+`beatriz.fraga@puket.com.br` abriu chamado em 08/01/2026 e **não consta** entre os 43 da tabela,
+cuja última data de acesso é de **21/06/2023**. **Especificação: o vínculo pessoa↔área tem que vir
+do PLM por integração, não de tabela transcrita à mão em página de Notion.**
+
+**3 · Data de reunião é string, não campo.**
+Das 23 atas da Puket, **só 3 têm `Data da Reunião` preenchida** — a data real vive dentro do
+título. **Não há como ordenar, filtrar ou disparar trigger por ela.** É item de espec do banco.
+
+### Silêncio operacional — padrão que se repete
+| Cliente | Última ata | Último chamado | Silêncio até 21/09/2026 |
+|---|---|---|---|
+| Puket | 08/01/2026 | 29/01/2026 | **~8 meses** · 3 chamados ainda `Não iniciada` |
+| Caedu | jun/2026 | — | **~3 meses** |
+
+**Não generalizar para a carteira com dois casos** — é hipótese a testar nos próximos.
+
+### Cobertura, em número verificável
+| | Caedu | Puket |
+|---|---:|---:|
+| `contexto-area.md` | 14/14 | 14/14 |
+| … com conteúdo real | 7 | 7 |
+| … com ausência declarada | 7 | 7 |
+| usuários extraídos | 93 | 43 |
+| perfis distintos | 14 | 13 |
+| atas datadas na jornada | 18 marcos | 23 atas · 21 marcos |
+| chamados varridos | — | 5 |
+
+### Fila
+1. **Ongoing restantes** — Cambos, Lofty Style, Luiza Barcelos, NK STORE, NV, Oficina Reserva,
+   Reserva, VIX
+2. **Operação Assistida** — Moda Objetiva, Osklen
+3. **`Loungerie`** — `Onboarding`, **criar no corpus**
+4. **Pré Onboardings** — Arezzo, Hering · **Sem CS** (7) — esperar pouco material
+
+### 🔴 Padronização estrutural de toda a classe — 21 set 2026
+
+> Cobrança do Vinicius no meio da varredura: *"você está mantendo os documentos e arquivos .md
+> todos padronizados de acordo com nossa diretriz de preenchimento seja qual for a fonte?"* — e,
+> na sequência, a regra: **mudar o padrão pode; mudar só no arquivo da vez, não.**
+
+**Medi antes de responder, e a resposta era não.** Nenhum heading canônico estava *faltando* nos
+três MDs de Caedu e Puket — mas eu havia **criado seção nova só na Puket** (3 em `pessoas.md`, 1 em
+`institucional.md`, 1 em `jornada.md`) e **renomeado duas** que a CAEDU tinha com outro nome. E os
+**28 `contexto-area.md` estavam sem 6 subtítulos** que o `_template_cliente` exige
+(`### Como trabalham`, `### O que não fazem`, `### Termos específicos`, `### Documentos que esta
+área consome`, `### Documentos que esta área produz`, `### Responsável na empresa cliente`).
+
+**Corrigido e replicado para a classe inteira**, não só para os dois clientes varridos:
+
+| Classe | Arquivos | Conformes depois | Completados |
+|---|---:|---:|---:|
+| `institucional.md` | 48 | **48** | 46 |
+| `contexto-area.md` | 50 | **50** | 28 |
+| `jornada.md` | 47 | **47** | 44 |
+| `pessoas.md` | 47 | **47** | 44 |
+
+**192 de 192.** Diff: **4.078 linhas somadas, 158 removidas** — e as 158 são todas rastreáveis
+(conteúdo placeholder da Puket substituído por conteúdo real, e os dois renomes). **Nada de
+conteúdo foi perdido** — o script só insere heading que falta, nunca remove.
+
+**Seções promovidas ao `_template_cliente`** (agora canônicas para todo cliente):
+`### Usuários da conta` · `### Onde estamos` · `### A frente aberta` · `### O que o cliente espera` ·
+`### As dores estruturais registradas` · `### Tamanho de atendimento` · `### Procedência` ·
+`## O que este documento NÃO resolve` na `jornada.md` — esta última porque o `CLAUDE.md` já exigia
+declaração de completude e o template não tinha onde colocá-la.
+
+A regra virou **§7 do `protocolo-varredura-cliente.md`**.
+
+> ⚠ **Pergunta aberta:** promovi `## O que este documento NÃO resolve` só na `jornada.md`, que é o
+> documento de estado. **Deve valer também para `institucional.md`, `pessoas.md` e
+> `contexto-area.md`?** Não decidi sozinho — muda 145 arquivos.
+
+### 🔴 Pessoas e comunicações viram entidades do banco — 21 set 2026
+
+> Instrução do Vinicius: *"é muito importante rastrear as pessoas que estão ativas ou inativas...
+> para saber quem atende o que e em relação a quais ferramentas e áreas. Começaremos a tornar as
+> comunicações entidades do próprio banco de forma que isso comece a gerar as indexações do
+> cérebro para se comunicarem."*
+
+**O eixo de atividade virou estrutura canônica, não observação solta.** `pessoas.md` ganhou
+`## Estado de atividade das pessoas` (com `### Como o estado é apurado` e `### Razão de pessoas`)
+e `## Canais de comunicação` — promovidos ao `_template_cliente` e **replicados nos 47 arquivos**.
+
+**Taxonomia de estado, com evidência obrigatória:**
+`ATIVO` (agiu, com data) · `CADASTRADO` (tem acesso, sem evidência) · `DESATIVADO` (baixa na
+origem) · `ATIVO_SEM_CADASTRO` (agiu e não consta) · `INDETERMINADO`.
+
+### O número que obriga o modelo `[C]`
+| | Caedu | Puket |
+|---|---:|---:|
+| Pessoas na tabela do PLM | 93 | 43 |
+| **Com evidência de ação** | **3** | **3** |
+| **Agiram e não constam na tabela** | **2** | **2** |
+| Baixa declarada na origem | 0 | 1 |
+| **Total no razão** | **95** | **45** |
+
+Quatro pessoas reais usam a plataforma e não existem na lista de usuários do cliente. E a tabela
+do Puket tem **última data de acesso em 21/06/2023**.
+
+> ⚠ **`CADASTRADO` não é inativo.** A única fonte de evidência de ação que existe tem
+> **24 dias** (06–29/01/2026). O estado diz mais sobre a lacuna de instrumentação do que sobre a
+> pessoa — por isso `observationWindow` é campo obrigatório na espec.
+
+### Escrita a `_espec-pessoas-e-comunicacoes.md` (ESPEC-PESSOAS-001 v1)
+Cinco collections novas: `people` · `person_memberships` · `communication_channels` ·
+`communication_events` · `channel_participations`. Oito invariantes. **A
+`_espec-banco-brainhub.md` foi marcada `SUPERSEDED` no que trata de pessoa e comunicação** — um
+assunto tem um dono.
+
+**Três campos que só existem porque a varredura os encontrou:**
+- **`orgLayer`** — Puket é marca do Grupo Único; sem ele o brain mistura holding com marca. O mesmo
+  padrão aparece na Cambos (`cambos.com.br` × `souzacambos.com.br`).
+- **`isCaptured`** no canal — WhatsApp, Gist, Miro, Kanbanize, Drive e YouTube aparecem como canal e
+  **não entregam conteúdo**. Canal não capturado é lacuna visível; canal omitido é invisível.
+- **`disclosurePolicy`** — duas vezes em janeiro um fornecedor pediu o nome de quem alterou uma
+  referência, e quem atendia **negou por julgamento próprio**, registrando em texto livre. Quando o
+  agente responder no lugar da pessoa, precisa dessa regra como campo.
+
+### A base de chamados — fonte nova, e o que ela revela
+`Chamados & Atendimentos` (`collection://2c5b1d38-e768-805a-99b1-000b4da25cc4`):
+**182 tickets, 93 pessoas, todos entre 06 e 29/01/2026, 106 ainda abertos.**
+
+Por cliente: NV **39** · NK STORE **30** · VIX **28** · Lofty Style **15** · Cambos 11 · Baw 9 ·
+Reserva 8 · Oficina 7 · Puket 6 · Caedu 5 · Lenny Niemeyer 5 · Osklen 2 · Camys 2 · Básico 2 ·
+Luiza Barcelos 1 — mais 9 fornecedores e e-mails pessoais.
+
+- 🔴 **`BURLAR PROCESSO` é tipo oficial de chamado.** 7 ocorrências, **todas na NV**.
+- 🔴 **Clientes `Churn` e `Inativo` abriram chamado em jan/2026** — Lenny Niemeyer, Básico&Co,
+  Paloma Concept, Susie Modas. **Status na base ≠ uso real da plataforma.**
+- 🔴 **A dor de exportação aparece em três clientes** — Caedu (mapeamento), Puket (chamado),
+  Reserva (card de Kanbanize *"dificuldade de Exportação/edição do Mapa"*). **Três casos é padrão.**
+- **Divergência de custo Linx × uMode** em Lofty Style (3), VIX e NV.
+
+### Sistemas que não estavam no inventário `[C]`
+**Kanbanize** (`umode.kanbanize.com`, boards 6 e 18) · **Gist** (chat da plataforma) ·
+**uBuy** e **uPlan** (produtos além do uFlow/PLM) · **Portal do Cliente** ·
+**Segmentação Grupos**.
+
 ## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
 
 > Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue
@@ -1786,3 +1984,26 @@ caminho).
   Conjunto **PENDING_MIGRATION** para a topologia AGENTS-first (migração de pastas = P1); README sem
   instrução de "copiar os cinco". **Não declarar "100% alinhado"** enquanto a migração P1 e o P0.1 (auth
   server-side) não fecharem.
+
+- **19–21 set 2026** — Sessão 28: **varredura de fonte viva e preenchimento dos brains de cliente.**
+  Antes: inventário de repositórios com aliases corrigidos (incluindo a colisão `brainhub-umode` ×
+  `umode-brainhub`), todos atualizados — a armadilha do `--single-branch` no frontend encontrada e
+  corrigida (1 → 199 refs), API de 115 → 307. PRD localizado no vault, branch
+  `governance/brainhub-v1.5`, era Supabase, §11 obsoleto.
+  **Varredura geral:** 15 fontes rastreadas, 46 clientes mapeados, 26.593 lacunas contadas
+  (`_varredura-2026-09-21-fontes-e-lacunas.md`). O Notion **ao vivo** revelou que o export versionado
+  no vault estava **seis meses defasado** — status errado, taxonomia de módulo errada, quatro clientes
+  listados como vivos já em churn. **Regra: nunca usar export para afirmar estado.**
+  **CAEDU fechada** (commits `525a27b`, `3dd8ae8`): 33 → 47 MDs, `contexto-area.md` de 0/14 para 14/14,
+  93 usuários em 14 perfis extraídos por script, 18 marcos datados, e escrito o
+  `protocolo-varredura-cliente.md`.
+  **Puket fechada** nesta sessão: 43 usuários em 13 perfis, 14/14 `contexto-area.md`, os três MDs
+  canônicos reescritos, 23 atas e 5 chamados varridos. Achados que **mudam o protocolo**: a convenção
+  de nome de perfil é **de cada cliente** (a Puket usa nome de função puro, não `<Cliente>-<Área>`);
+  existe um **sistema de chamados vivo no Notion** que não estava mapeado; e a Puket é **marca do
+  Grupo Único** — a holding concentra suprimento, controle e qualidade, a marca concentra criação e
+  produto, e há uma pessoa em **Hong Kong**.
+  **Três lacunas estruturais levantadas para o negócio:** passada de bastão em branco; tabela de
+  usuários desatualizada ante o PLM; data de reunião como string e não como campo.
+  **Nada declarado vencido além do medido:** 2 de 46 clientes varridos, nenhuma ata aberta,
+  `Mapeamento de Contas - Puket` **não encontrado nesta varredura** (não afirmo que não existe).

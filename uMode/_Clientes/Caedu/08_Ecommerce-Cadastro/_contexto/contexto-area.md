@@ -19,13 +19,23 @@ imagens e atributos de Visual Merchandising** — e cuida da árvore de categori
 | Árvore de categoria | alinhada com TI da Caedu |
 
 ## Padrões operacionais
+
+### Como trabalham
+
 ### ⚠ Dores registradas
 1. **Granularidade de e-commerce exige mais disciplina** — SEO e visual merchandising estão entre
    os campos declarados como subutilizados.
 2. **Não há relatório** que mostre quais produtos têm SEO e VM preenchidos e quais não têm. Está
    no plano de ação como dashboard a criar.
 
+### O que não fazem
+
+`[a preencher]`
+
 ## Vocabulário da área
+
+### Termos específicos
+
 | Termo | O que significa aqui |
 |---|---|
 | **VM** | Visual Merchandising |
@@ -41,6 +51,9 @@ imagens e atributos de Visual Merchandising** — e cuida da árvore de categori
 **Gestão de Coleção** (uFlow).
 
 ## Fontes e referências
+
+### Documentos que esta área consome
+
 ### Procedência deste documento
 | Bloco | Fonte | Data |
 |---|---|---|
@@ -51,9 +64,21 @@ imagens e atributos de Visual Merchandising** — e cuida da árvore de categori
 ⚠ **O mapeamento de conta é de abr/2025 — 17 meses.** A própria fonte já registra correções
 posteriores. **Revalidar com a dupla de atendimento antes de usar como diagnóstico atual.**
 
+### Documentos que esta área produz
+
+`[a preencher]`
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — nenhuma fonte da uMode nomeia o líder desta área na Caedu.
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Responsável na empresa cliente
+
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+
+`[a preencher]`

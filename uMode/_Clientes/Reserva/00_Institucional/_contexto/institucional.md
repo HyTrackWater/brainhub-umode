@@ -38,6 +38,10 @@ Regime CS
 - Módulos (CRM): Gestão de Coleção, Cronograma, Apostas, Relatórios, Gestão da Carteira de Pedidos, Inovação & IA, Gestão de Processos
 - Produto (CRM): uBuy, uFlow, uPlan
 - Usuários ativos no mês da fonte (CRM): 108
+### Usuários da conta
+
+`[a preencher]`
+
 ### ERP / Integração
 Linx / SAP
 ### Responsável de atendimento (uMode)
@@ -67,8 +71,34 @@ https://drive.google.com/drive/folders/1vMZkhGi91KZ_D_r5FGCfhNxIBXAfUldl?usp=dri
 - Tamanho atendimento (CRM): G
 - Última edição do registro no CRM: March 4, 2026 10:13 AM por Ju Ferré
 
+### Onde estamos
+
+`[a preencher]`
+
+### 🔴 A frente aberta
+
+`[a preencher]`
+
+### O que o cliente espera
+
+`[a preencher]`
+
+### As dores estruturais registradas
+
+`[a preencher]`
+
+### Tamanho de atendimento
+
+`[a preencher]`
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Fernanda Araujo, Victor Aragão, João Paulo Contar Risoleo (Key Account) · Juliana Ferré Esteves (Consultor de Negócios)
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+
+| Bloco | Fonte | Data |
+|---|---|---|
+| `[a preencher]` | `[a preencher]` | `[a preencher]` |
