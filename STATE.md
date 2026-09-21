@@ -440,6 +440,77 @@ ago/2024**, numa página editada até jun/2026 · **Gist** (chat da plataforma) 
 > única na uMode — e **na NV os dois eixos existem e não se cruzam**: sabe-se quais áreas
 > existem e quem usa o sistema, **e nada liga uma coisa à outra**.
 
+### 🚨 ALERTA DE SEGURANÇA — credencial de banco de produção exposta no Notion
+
+A página `NK STORE`, num bloco recolhido chamado **"Conexão com Linx"**, contém **usuário, senha,
+IP, porta e nomes dos bancos de homologação e de produção** do cliente, **em texto plano**.
+
+**O valor não foi copiado para lugar nenhum** — nem corpus, nem log, nem relatório.
+
+**Ação necessária:** rotacionar a senha · remover o bloco · mover para gerenciador de segredos ·
+**checar as outras contas**, porque se o padrão se repete é problema de processo. Qualquer pessoa
+com acesso ao Notion da uMode consegue hoje ler o banco de produção de um cliente.
+
+A mesma página traz **CPF e telefone pessoal** de duas pessoas físicas. Também não copiados.
+
+### 🔴 A página do cliente é o índice, não a fonte — 21 set 2026
+
+> Cobrança do Vinicius: *"você não está só vendo chamados certo? Está coletando informações de
+> tudo dos clientes certo?"*
+
+**Medi: 264 fontes varridas contra 69 declaradas e não abertas.** Eu lia a linha inteira da base,
+o corpo completo da página, segmentação, portal, atas e chamados — **e parava nas sub-páginas.**
+
+**Desci um nível numa única sub-página da NK e o resultado foi desproporcional.**
+*Perfil de Usuário e Permissionamentos* tinha matriz de ~60 funções × 7 perfis **e uma base de
+usuários embutida** — **a única fonte de toda a varredura que declara estado da pessoa**:
+`USUÁRIO INATIVO desde…`, `CONVITE ACEITO em…`, `CONVITE PENDENTE desde…`, mais departamento e
+perfil. **É o modelo da ESPEC-PESSOAS-001, já existindo num cliente só, feito à mão.**
+
+**Virou a §8 do protocolo:** abrir as sub-páginas, começando por `Documentos`.
+
+### Cinco achados que só apareceram nesse nível
+1. 🔴 **A Gerente de Projeto da NK está marcada `INATIVAR`.** A página do cliente a nomeia como
+   líder do projeto, com a nota *"já implantou PLM em várias empresas"*; a base interna diz
+   desligamento. **Se ela saiu, a conta perdeu quem entendia de PLM e ninguém atualizou a página.**
+2. **`Departamento = INATIVAR` é ordem de serviço gravada no campo errado**, em 5 pessoas — e só
+   **uma** foi de fato inativada. Exatamente o que `activityState` + `deactivatedAt` resolvem.
+3. **Dois convites nunca aceitos há 21 meses**, com `Nome = "(Não definido)"`. Licença parada.
+4. **A matriz de permissão e a base de usuários usam perfis diferentes.** `NK - Time` e os perfis
+   `Master` foram desenhados e não existem em ninguém; `NK - Estilo` e `NK - PCP` existem em gente
+   e não estão na matriz. **Desenho e implantação divergiram e nenhum dos dois sabe.**
+5. 🔴 **A dor de "cadastrar opção" é permissão por desenho, não defeito.** A matriz marca 🔴
+   para **novo fornecedor, nova cor, nova grade, nova mp** — **inclusive para o Admin do cliente**.
+   > **Reenquadra o achado da NV.** Lá registrei como restrição observada; aqui está documentado
+   > como decisão. **O modelo de permissão que protege o dado mestre é o que gera o volume de
+   > chamado** — 5 chamados em 10 dias só na NV — **e ninguém mediu esse custo.**
+
+**Bônus:** a matriz marca 🔴 em **"Fale com o Suporte"** para Admin e Time. **Todo contato passa
+por fora da plataforma** — o que explica chamados chegando por e-mail e chat.
+
+### NK STORE — o cliente mais bem documentado da carteira
+Razão social, CNPJ, receita (**R$ 144 mi**), **data de ativação (10/06/2024)**, endereço,
+financeiro e TI nomeados, **13 pessoas com cargo e hierarquia de projeto**, **10 dores mapeadas
+pelo comercial**, **definição de sucesso escrita**, e três kick-offs datados com
+*"Passagem de Bastão Oficial de Sales para Ops"* marcada como concluída.
+
+**Razão de pessoas: 32** — `CADASTRADO` 19 · `ATIVO` 6 · `ATIVO_SEM_CADASTRO` 4 ·
+`INDETERMINADO` 2 · `DESATIVADO` 1.
+
+> ⚠ **A base de usuários foi criada em 13/03/2025 e a última data nela é 10/03/2025.** Os
+> chamados são de jan/2026. **A base parou de ser mantida**, e as 4 pessoas `ATIVO_SEM_CADASTRO`
+> são a prova.
+
+> 🔴 **A dor 7 das 10 mapeadas na venda virou defeito em produção.** Era
+> *"preocupação com a integração com o sistema atual, especialmente na parte de cadastro"* — e em
+> jan/2026 há chamados abertos sobre **campos duplicados no cadastro** e **valores da ficha que
+> não chegam ao Linx**. **21 de 30 chamados abertos é a pior proporção da carteira.**
+
+**IA como canal:** o desenho de processo da NK foi produzido por **Tactiq** e **Gemini** dentro de
+uma reunião, e os **OKRs do projeto saíram de uma conversa no ChatGPT**, com link salvo na página.
+**Parte do contexto institucional já nasce em transcrição de IA** — que é o insumo do projeto
+paralelo de transcrições.
+
 ## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
 
 > Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue

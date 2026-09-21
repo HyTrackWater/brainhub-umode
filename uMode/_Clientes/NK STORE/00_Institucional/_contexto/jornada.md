@@ -1,156 +1,136 @@
 # NK STORE · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página
+> *Perfil de Usuário e Permissionamentos*. Campo sem fonte fica `[a preencher]`.
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- **A base de usuários parou em março de 2025.** Criada em 13/03/2025, última data 10/03/2025.
+  Os chamados são de **jan/2026**. **Dez meses de buraco** entre cadastro e uso.
+- **As bases `Reuniões com Cliente` e `Demandas` não foram varridas.** São duas bases inteiras
+  dentro da página.
+- **8 sub-páginas e 4 arquivos do Google não foram abertos**, incluindo
+  *NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)*, que trata de frente aberta.
+- **Os anos dos kick-offs** (18/06, 19/06, 28/06) **não estão escritos**; foram atribuídos a
+  **2024** porque a `Data Ativação Cliente` é 10/06/2024. **É inferência, e está marcada.**
 
 ## Status atual
-Onboarding
+**`Ongoing`** · 4 de 7 módulos · ERP **Linx** · grupo **`Médios`** · receita **R$ 144 mi**.
 
 ## Fase atual
-Onboarding
-> Campo `Onde Estamos` do CRM.
+**Operação com backlog acumulado.** 30 chamados em 24 dias, **21 abertos** —
+**a pior proporção da carteira (70%)**. NV tem 16/39, VIX 16/28, Lofty Style 12/15.
+
+E **a dor 7 das 10 mapeadas na venda virou defeito em produção**: a preocupação era
+*"integração com o sistema atual, especialmente na parte de cadastro"*, e há chamados abertos
+sobre **campos duplicados no cadastro** e **valores da ficha que não chegam ao Linx**.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 10/06/2024 | Onboarding | Data oficial de ativação do cliente (CRM) |
-| 28/06/2024 | [a preencher] | uFlow - NK Store - Kick Off 28/06/2024 |
-| 05/07/2024 | [a preencher] | uFlow - NK - Onboarding (Time Compras Oficina) |
-| 11/07/2024 | [a preencher] | uFlow - NK - Onboarding (Time Planejamento) |
-| 12/07/2024 | [a preencher] | uFlow - NK - Weekly 12/07/2024 |
-| 17/07/2024 | [a preencher] | uFlow - NK - Onboarding (Compras MP) |
-| 18/07/2024 | [a preencher] | uFlow - NK - Weekly 18/07/2024 |
-| 23/07/2024 | [a preencher] | uFlow - NK - Onboarding (Time Estilo PA) |
-| 24/07/2024 | [a preencher] | uFlow - NK - Onboarding (Time Modelagem) |
-| 26/07/2024 | [a preencher] | uFlow - NK - Weekly 26/07/2024 |
-| 29/07/2024 | [a preencher] | uFlow - NK - Onboarding (Time Compras PA) |
-| 01/08/2024 | [a preencher] | uFlow - NK - Onboarding (Time PCP) |
-| 02/08/2024 | [a preencher] | uFlow - NK - Weekly 02/08/2024 |
-| 05/08/2024 | [a preencher] | uFlow - NK - Onboarding (Time Estilo Oficina) |
-| 06/08/2024 | [a preencher] | uFlow - NK - Onboarding (Time Planejamento part.2) |
-| 09/08/2024 | [a preencher] | uFlow - NK - Weekly 09/08/2024 |
-| 16/08/2024 | [a preencher] | uFlow - NK - Weekly 16/08/2024 |
-| 20/08/2024 | [a preencher] | uFlow - NK - Onboarding (Time Tech/Integração) |
-| 23/08/2024 | [a preencher] | uFlow - NK - Onboarding (Referência Piloto/Produção) |
-| 23/08/2024 | [a preencher] | uFlow - NK - Weekly 23/08/2024 |
-| 30/08/2024 | [a preencher] | uFlow - NK - Weekly 30/08/2024 |
-| 06/09/2024 | [a preencher] | uFlow - NK - Weekly 06/09/2024 |
-| 13/09/2024 | [a preencher] | uFlow - NK - Weekly 13/09/2024 |
-| 26/09/2024 | [a preencher] | uFlow - NK - Onboarding Mapeamento Cadastro (Compras e PCP) |
-| 27/09/2024 | [a preencher] | uFlow - NK - Weekly 27/09/2024 |
-| 02/10/2024 | [a preencher] | uFlow - NK - Onboarding Mapeamento Cadastro Variante (Compras) |
-| 11/10/2024 | [a preencher] | uFlow - NK - Weekly 18/10/2024 |
-| 11/10/2024 | [a preencher] | uFlow - NK - Weekly 11/10/2024 |
-| 17/10/2024 | [a preencher] | uFlow - NK Store - Onboarding - Reunião 17/10/24 Linx: Campos da Variante |
-| 25/10/2024 | [a preencher] | uFlow - NK - Weekly 25/10/2024 |
-| 01/11/2024 | [a preencher] | uFlow - NK - Weekly 01/11/2024 |
-| 08/11/2024 | [a preencher] | uFlow - NK - Weekly 08/11/2024 |
-| 12/11/2024 | [a preencher] | uFlow - NK Store - Onboarding - Reunião 12/11/2024 - Mais de uma referência por produto (piloto e produção) com time Tech e PCP |
-| 28/11/2024 | [a preencher] | uFlow - NK - Weekly 29/11/2024 |
-| 09/12/2024 | [a preencher] | uFlow - NK - Weekly 09/12/2024 |
-| 12/12/2024 | [a preencher] | uFlow - NK Store - Onboarding - Treinamento Go Light 12/12/2024 |
-| 13/12/2024 | [a preencher] | uFlow - NK - Weekly 13/12/2024 |
-| 18/12/2024 | [a preencher] | uFlow - NK - Onboarding - Daily Go Light 18/12/2024 |
-| 19/12/2024 | [a preencher] | uFlow - NK - Onboarding - Daily Go Light 19/12/2024 |
-| 20/12/2024 | [a preencher] | uFlow - NK - Status Report 03/01/2025 |
-| 20/12/2024 | [a preencher] | uFlow - NK - Onboarding - Daily Go Light 20/12/2024 |
-| 20/12/2024 | [a preencher] | uFlow - NK - Weekly 20/12/2024 |
-| 27/12/2024 | [a preencher] | uFlow - Onboarding - NK Store 27/12/2024 Análise do Sucesso |
-| 10/01/2025 | [a preencher] | uFlow - NK - Weekly 10/01/2025 |
-| 24/01/2025 | [a preencher] | uFlow - NK - Weekly 24/01/2025 |
-| 14/02/2025 | [a preencher] | uFlow - NK - Weekly 14/02/2025 |
-| 25/02/2025 | [a preencher] | uFlow - NK - Weekly 25/02/2025 |
-| 06/03/2025 | [a preencher] | uFlow - NK - Weekly 06/03/2025 |
-| 14/03/2025 | [a preencher] | uFlow - NK - Weekly 14/03/2025 |
-| 21/03/2025 | [a preencher] | uFlow - NK - Weekly 21/03/2025 |
-| 28/03/2025 | [a preencher] | uFlow - NK - Weekly 28/03/2025 |
-| 04/04/2025 | [a preencher] | uFlow - NK - Weekly 04/04/2025 |
-| 11/04/2025 | [a preencher] | uFlow - NK - Weekly 11/04/2025 |
-| 17/04/2025 | [a preencher] | uFlow - NK - Weekly 17/04/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 19/09/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 26/09/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 03/10/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 12/09/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 22/08/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 29/08/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 05/09/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 10/10/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 17/11/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 28/11/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 12/12/202 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 31/10/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 17/10/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 24/10/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 07/11/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 19/05/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 23/05/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 06/06/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 25/04/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 02/05/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 09/05/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 12/06/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 14/07/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 27/06/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 08/08/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 01/08/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 23/06/2025 |
-| 25/04/2025 | [a preencher] | uFlow - NK - Weekly 07/07/2025 |
-| 30/05/2025 | [a preencher] | uFlow - NK - Weekly 30/05/2025 |
-| 02/06/2025 | [a preencher] | uFLow - NK - Reunião 02/06/2025 Treinamento Modelagem Presencial |
-| 26/11/2025 | Status Report | uFlow - NK - Reunião 26/11/2025 - Book estilo |
-| 01/12/2025 | [a preencher] | View Mp pcp e compras 01/12/2025 |
-| 05/12/2025 | [a preencher] | uFlow - NK - Weekly 05/12/2025 |
-| 16/01/2026 | [a preencher] | uFlow - NK - Weekly 16/01/2026 |
-| 23/01/2026 | [a preencher] | uFlow - NK - Weekly 30/01/2026 |
-| 30/01/2026 | [a preencher] | uFlow - NK - Weekly 23/01/2026 |
-| 06/02/2026 | [a preencher] | uFlow - NK - Weekly 06/02/2026 |
-| 24/02/2026 | [a preencher] | uFlow - NK - Relatórios 27/02/2026 |
-| 24/02/2026 | [a preencher] | uFlow - NK - Relatórios 24/02/2026 |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 92 reuniões registradas para este cliente
-> (92 com data, 0 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
+| Data | Marco | Fonte |
+|---|---|---|
+| **07/06/2024** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
+| **10/06/2024** | 🟢 **Data de ativação do cliente** — único cliente varrido com o campo preenchido | base `Mapa de Clientes` |
+| **18/06/2024** | **Kick-off interno** — escopo e dores validados; decidido que **Taís e Sandro** vão a SP; **OKRs gerados com ChatGPT** | página `NK STORE` |
+| **19/06/2024** | **Warm-up com o cliente** — **"Passagem de Bastão Oficial de Sales para Ops"** · departamentos confirmados · risco e oportunidade registrados | idem |
+| **28/06/2024** | **Kick-off presencial**, 9h30–13h30 — início do mapeamento com o time | idem |
+| **05/12/2024** | Primeiro convite aceito — **Nathalia Gomes (TI, `NK - Admin`)** | base `Usuários` |
+| **04/12/2024** | **Validação da matriz de permissão** dos perfis `NK - Admin` e `NK - Time` | *Perfil de Usuário e Permissionamentos* |
+| **12/12/2024** | 🔴 **Maior onda de onboarding: 8 convites aceitos no mesmo dia** — Estilo, PCP, Compras | base `Usuários` |
+| 12 e 16/12/2024 | **Dois convites enviados e nunca aceitos** | idem |
+| 08–27/01/2025 | Onda de **Modelagem** (4) e reforço de **PCP** (3) | idem |
+| 12–13/02/2025 | Onda de **Estilo** (2) | idem |
+| 27/02 · 10/03/2025 | Últimos convites aceitos | idem |
+| **10/03/2025** | 🔴 **Primeira e única inativação declarada** — Vanessa Veiga | idem |
+| **13/03/2025** | Base de usuários **criada** no Notion — **e nunca mais atualizada** | idem |
+| **25/04/2025** | Última edição registrada da página de permissionamentos | idem |
+| **Maio/2025** | *NK | Material Gerencial Diretoria* | página `NK STORE` |
+| **29/05/2025** | *NK | Dúvidas Pendentes Integração de Escrita* — **frente aberta datada** | idem |
+| **11/07/2025** | Última edição da página de permissionamentos | idem |
+| **06–29/01/2026** | **30 chamados de 10 pessoas** — **21 ficam abertos** | `Chamados & Atendimentos` |
+| **04/08/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
 
 ## Entregas comprometidas
-[a preencher]
+| Entrega | Estado |
+|---|---|
+| Matriz de perfil e permissionamento | ✅ desenhada e validada em **04/12/2024** — ⚠ **divergiu da implantação** |
+| Integração de escrita | 🔴 **dúvidas pendentes desde 29/05/2025** |
+| Material de treinamento Go Light uFlow | existe (Slides), **não varrido** |
+| Material Gerencial Diretoria | existe, **maio/2025**, não varrido |
+| Plano de Sucesso do Cliente | existe (Drive), **não varrido** |
+| Base de Upload Importação · Ficha de Produto Completo | existem (Sheets), **não varridas** |
 
 ## Módulos em uso
-uFlow · Gestão de Coleção, Gestão de Processos
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Fornecedores`.
+**Não contratados:** `Cronograma` · `Aposta` · `Planejamento`.
+
+> ⚠ **`Cronograma` não está contratado** — e a dor 4 das 10 mapeadas na venda era exatamente
+> *"visibilidade sobre o calendário de produção e a capacidade de reprogramar atividades em caso
+> de atrasos"*. **Vale checar se a dor segue viva.**
 
 ## Decisões e restrições registradas
-[a preencher]
+| Decisão / restrição | Fonte | Estado |
+|---|---|---|
+| **Cliente não cria dado mestre** — 🔴 em novo fornecedor, nova cor, nova grade, nova mp, **inclusive para o Admin** | matriz de permissão | **vigente, por desenho** |
+| **`NK - Admin` e `NK - Time` não acessam "Fale com o Suporte"** | idem | **vigente** |
+| **`NK - Time` não vê Integração nem Importação** | idem | **vigente** |
+| **Admin vê usuários mas sem menu de ação** — *"não pode aparecer os 3 pontinhos"* | idem | validação 04/12 |
+| **`Fornecedor` não vê produto, lote, mapa nem custo** | idem | **vigente** |
+| **Implantação em ondas** | warm-up 19/06 | acordado |
 
 ## Métricas de sucesso definidas
-Eliminar retrabalho da equipe. Reduzir lead time total e das micro operações. Integração entre times.
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
+**Declaradas pelo cliente, em *Definições do Projeto*:**
+- **Sucesso:** *eliminar retrabalho da equipe* · *reduzir lead time total e das micro operações*
+- **Objetivos:** *centralização das informações* · *digitalização dos processos*
+
+> 🟢 **É o único cliente varrido com definição de sucesso escrita** — e **nenhuma das duas é
+> medida hoje.** Não há número de retrabalho nem de lead time em nenhuma fonte varrida.
 
 ## Próximos passos
-Integração!
-> Campo `O que falta` do CRM.
+1. 🚨 **Rotacionar a credencial do banco de produção** exposta na página — ver
+   [`institucional.md`](institucional.md).
+2. 🔴 **Confirmar a situação da Larissa Castilho**, Gerente de Projeto marcada `INATIVAR`.
+3. 🔴 **Destravar os 21 chamados abertos.**
+4. **Reconciliar perfis** — a matriz e a base de usuários usam nomes diferentes.
+5. **Resolver as 5 pessoas marcadas `INATIVAR`** — 4 ainda constam como `CONVITE ACEITO`.
+6. **Cancelar ou reenviar os 2 convites pendentes** há 21 meses.
+7. **Ler *Dúvidas Pendentes Integração de Escrita*** (29/05/2025).
+8. **Resolver `Oficina`, `Curadoria` e `Merchandising`** para área canônica.
+9. **Medir retrabalho e lead time**, que são a definição de sucesso do cliente.
 
 ## Histórico de incidentes / alertas
-[a preencher]
+| Data | Registro | Estado |
+|---|---|---|
+| 06/01/2026 | **Sistema saiu do ar** | resolvido |
+| 09/01/2026 | **Notificações não chegam por e-mail** — `caroline.silva` | **`Em Aberto`** |
+| 09/01/2026 | **Valores da ficha de produto não são enviados ao Linx** — `isabely.consul` | **`Em Aberto`** |
+| 09/01/2026 | *Forçar integração* — `lais.batista` | fechado |
+| 13/01/2026 | **Campos duplicados, cadastrados 2×, preciso corrigir** — `isabely.consul` | **`Em Aberto`** |
+| 13 e 20/01/2026 | Instabilidades — `kauane.boska`, `lais.batista` | resolvido / **`Pendente`** |
+| 20/01/2026 | **Novo acesso** — `nathalia.gomes` (TI) | **`Não iniciada`** |
+| 23–28/01/2026 | **13 chamados em 4 dias**, quase todos `Não iniciada` | **abertos** |
+| 29/01/2026 | **Melhoria: subir ao Linx só o custo do tamanho usado** — `carolina.teixeira`; *"Marina vai puxar para conversar"* | **`Em Aberto`** |
+| — | 🚨 **Credencial de banco de produção em texto plano na página** | **ação pendente** |
 
 ## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
+- **Risco registrado pela própria uMode no warm-up:** *"Tem séria tendência em assumir mais
+  responsabilidades do que conseguem dar vazão"*. **Com 21 chamados abertos, vale reler.**
+- **Oportunidade registrada na mesma reunião:** *"Follow Up de Entregas → Pedidos de Compras →
+  **uBuy (oportunidade)**"*.
+- **IA é canal de fato nesta conta:** o desenho de processo saiu de **Tactiq** e **Gemini** dentro
+  de uma reunião; os **OKRs saíram do ChatGPT**, com link salvo na página.
+- **30 chamados numa conta de grupo `Médios`** — volume de `Enterprise`, alocação de `Médios`.
+- **`expedicao2@nkstore.com.br` é caixa funcional com nome de pessoa** (Nelson Tadeu Alves
+  Ferreira). **Caixa compartilhada quebra o vínculo pessoa↔ação** — item para a espec.
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Kick-offs, dores, definições, risco | Notion — corpo da página `NK STORE` | **varrido 21/09/2026** |
+| Datas de convite, inativação, perfis | Notion — base `Usuários` em *Perfil de Usuário e Permissionamentos* | **varrida 21/09/2026** |
+| Matriz de permissão | Notion — *Perfil de Usuário e Permissionamentos* | **varrida 21/09/2026** |
+| 30 chamados e incidentes | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Ativação, receita, módulos, ERP | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |

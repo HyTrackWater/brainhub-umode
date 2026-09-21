@@ -239,6 +239,53 @@ unificados, e o padrão resultante foi replicado nas **192 documentações das q
 `### Tamanho de atendimento` · `### Procedência` (nos três tipos) ·
 `## O que este documento NÃO resolve` (na `jornada.md`, por exigência do `CLAUDE.md`).
 
+## 8 · 🔴 A página do cliente é o índice, não a fonte
+
+> Cobrança do Vinicius em 21 set 2026: *"você não está só vendo chamados certo? Está coletando
+> informações de tudo dos clientes certo?"*
+
+**Medi e a resposta era "quase".** Eu lia a linha inteira da base, o corpo completo da página do
+cliente, a segmentação, o portal, as atas e os chamados — e **parava aí**, listando as sub-páginas
+como *"não varrida"*. Eram **69 fontes declaradas e não abertas** em cinco clientes.
+
+**Desci um nível numa única sub-página da NK STORE e o resultado foi desproporcional.**
+
+### O que uma sub-página entregou
+A página *Perfil de Usuário e Permissionamentos*, dentro de `Documentos`, tinha:
+1. **Uma matriz de permissão completa** — ~60 funções × 7 perfis, com 🟢 🟡 🔴 e coluna de validação.
+2. **Uma base de usuários embutida** com **`Status`, `Departamento` e `Perfil` por pessoa** —
+   a única fonte de toda a varredura que declara **ativo, inativo com data e convite pendente**.
+3. O achado de que **a Gerente de Projeto do cliente está marcada `INATIVAR`**.
+4. A prova de que **a dor de "cadastrar opção" é permissão por desenho**, não defeito.
+
+**Nada disso estava na página do cliente.**
+
+### A regra
+**Abra as sub-páginas. Começando pelas de `Documentos`.**
+
+| Prioridade | Procure por | Por quê |
+|---|---|---|
+| 1 | **`Perfil de Usuário e Permissionamentos`** | matriz de permissão **e** base de usuários com status |
+| 2 | **`Mapeamento de Contas - <cliente>`** | AS IS, fluxo por área, dores |
+| 3 | **Manuais e procedimentos** (ex.: *Manual de descancelamento*) | onde há manual, há lacuna de produto |
+| 4 | **`Passada de bastão` / template de transição** | marca, ERP, usuários, **departamentos engajados** |
+| 5 | **`Dúvidas Pendentes` / `Análise de Demandas`** | frente aberta com data |
+| 6 | Playbooks · Onboarding Fase 1/2 · Miro · Portal | contexto de processo |
+
+### Três heurísticas que se pagam
+- **Toda base embutida (`<database inline>`) é dado estruturado escondido.** A página mostra um
+  `collection://` — **consulte por SQL em vez de ler a página.**
+- **Título de manual denuncia lacuna de produto.** *Manual de descancelamento* existe porque a
+  plataforma não descancela. **Procure o manual antes de procurar a dor.**
+- **Sub-página desmente a página-mãe.** Na NK, a página diz que a Larissa lidera o projeto; a base
+  interna diz `INATIVAR`. **A mais profunda costuma ser a mais recente — mas confira a data das duas.**
+
+### ⚠ E o que fazer ao encontrar segredo
+A página da NK STORE tem **credencial de banco de produção em texto plano** numa sub-página.
+**Nunca copie o valor — nem para o corpus, nem para log, nem para relatório.** Registre
+**que existe, onde está e que precisa ser rotacionada**, e avise. Mesma regra para **CPF e
+telefone pessoal**: no corpus entram **nome, cargo e e-mail corporativo**, que é o dado de negócio.
+
 ## Governança
 Somente o CEO altera conteúdo no BrainHub. **Alterar este protocolo exige ter executado a varredura
 de pelo menos um cliente com o método novo** — protocolo não se corrige por opinião.
