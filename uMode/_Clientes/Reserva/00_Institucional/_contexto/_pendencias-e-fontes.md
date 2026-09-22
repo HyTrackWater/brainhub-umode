@@ -29,7 +29,7 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
 | 1 | 🔴 **7 módulos contratados — a conta mais completa da carteira — e NENHUMA etapa do processo atribuída.** | `T2` | **Conta grande não passa pelo funil, ou é lacuna de preenchimento?** |
-| 2 | 🔴 **Demanda desta conta vive em `umode.kanbanize.com`, boards 6 e 18** — a página cita **7 cartões por ID**, 2 fechados e 5 abertos. **Nenhuma varredura tocou o Kanbanize.** | `T2` | acesso ao Kanbanize |
+| 2 | 🟢 **FECHADA — o Kanbanize não se varre.** A página cita `umode.kanbanize.com`, boards 6 e 18, com 7 cartões por ID. **Vinícius em 22 set 2026:** *"ferramenta que não é usada há tempos. Então zero foco nisso."* `[D]` ⚠ **Consequência: a página da Reserva está desatualizada nesse ponto.** | `T2` | nada — decidido |
 | 3 | 🔴 **A cadência declarada de `Review Quinzenal de Projeto` parou de ser cumprida.** Envios marcados até **30/06**; **15/07, 02/08 e 21/08 seguem sem marca**. Responsável declarado: **João**. Destinatária: **Claudinha**. | `T2` | conferência com o atendimento |
 | 4 | 🔴 **5 dos 9 grupos de WhatsApp estão marcados para EXCLUIR e continuam existindo.** A própria página traz a decisão 🟢 manter / 🔴 excluir por grupo. | `T2` | execução da limpeza |
 | 5 | ⚠ **A página da Reserva NÃO tem o toggle `Pessoas`** que Osklen e NK STORE têm. As pessoas aparecem **soltas, dentro dos nomes de grupo de WhatsApp** — Claudinha (Compras), Raquel (Engenharia/Cadastro), Adriana (Estilo), Bruno (Sourcing), Ju. **Sem cargo formal em lugar nenhum.** | `T2` | preenchimento pelo atendimento |
@@ -37,6 +37,22 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | 7 | 🆕 **`uBuy` e `uPlan` aparecem como pauta** (*DE/PARA Campos uBuy*, *Ficha de Pedido uBuy*, *Dados para uPlan*). **`uBuy` não está nos 7 módulos nem nas 16 Soluções** — terceiro cliente em que aparece. | `T2` | decisão sobre o portfólio |
 | 8 | ⚠ **Duas visitas presenciais documentadas** (13–14/ago/2024 e 06/06/2025) **e as atas não foram lidas.** | `T2` | tempo de varredura |
 | 9 | 🆕 **Projeto `Sourcing` com termo de abertura próprio** — não aparece em nenhuma base. | `T2` | tempo de varredura |
+
+### 2.1 · 🔴 Perguntas que só o Vinícius responde
+
+> **Uma pergunta só entra aqui quando NENHUMA fonte pode respondê-la.** Dúvida que
+> uma fonte responde não é pergunta — **é varredura que falta fazer**, e vai para a § 4.
+>
+> 🔴 **Estas linhas são colhidas automaticamente** para a lista consolidada em
+> [`_perguntas-para-o-vinicius.md`](../../../../00_Institucional/_contexto/_perguntas-para-o-vinicius.md),
+> que ele responde **por áudio ou por transcrição de reunião**. Ver
+> [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
+
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | 7 módulos contratados e **nenhuma etapa do processo atribuída**. **Conta grande não passa pelo funil, ou é lacuna de preenchimento?** | `T2` | vale para Oficina Reserva, NV e Baw também | aberta |
+| 2 | O `Review Quinzenal de Projeto` tem envios marcados até 30/06 e nada depois. **A cadência parou ou só parou de ser marcada?** | `T2` | é a única cadência formal de report a cliente que o corpus conhece | aberta |
+| 3 | 5 dos 9 grupos de WhatsApp estão marcados para excluir e continuam existindo. **A limpeza foi feita?** | `T2` | canal fora de sistema é onde a operação vaza | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
@@ -70,7 +86,6 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | Relação `Atendimento 2024` | `collection://c82a689c-…` | quem atendeu em 2024 — o corpus só tem 2025 |
 | Campo `Participantes` das 1.161 reuniões | IDs de usuário do Notion | **presença nominal com data** — a melhor fonte de pessoa ativa |
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
-| 🔴 **`umode.kanbanize.com`** | boards 6 e 18, cartões por ID | **cartões de demanda de cliente** — fonte inteira jamais tocada |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
 

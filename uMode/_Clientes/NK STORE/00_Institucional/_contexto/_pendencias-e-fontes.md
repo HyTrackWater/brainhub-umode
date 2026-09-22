@@ -38,6 +38,21 @@
 | 5 | ⚠ **11 das 24 pessoas seguem sem cargo** — as que vieram só da base de demandas e não aparecem no toggle `Pessoas` da página. | `T2` | preenchimento pelo atendimento |
 | 6 | 🆕 **`uBuy` aparece como oportunidade** (*Follow Up de Entregas → Pedidos de Compras*) e **não está nos 7 módulos nem nas 16 Soluções.** | `T2` | decisão sobre o portfólio |
 
+### 2.1 · 🔴 Perguntas que só o Vinícius responde
+
+> **Uma pergunta só entra aqui quando NENHUMA fonte pode respondê-la.** Dúvida que
+> uma fonte responde não é pergunta — **é varredura que falta fazer**, e vai para a § 4.
+>
+> 🔴 **Estas linhas são colhidas automaticamente** para a lista consolidada em
+> [`_perguntas-para-o-vinicius.md`](../../../../00_Institucional/_contexto/_perguntas-para-o-vinicius.md),
+> que ele responde **por áudio ou por transcrição de reunião**. Ver
+> [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
+
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | 🚨 **A credencial de produção do Linx está em texto claro na página do cliente. Foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
+| 2 | `Merchandising`, `Curadoria` e `Oficina` são etapas do processo com dono e não existem na grade de 14 áreas. **Viram área canônica, subárea, ou apelido?** | `T2` | é o mesmo tema do `15_Producao-Interna` | aberta |
+
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
 > 🔴 **Este é o diário de bordo.** Ele existe porque a memória da conversa **compacta** e a
@@ -70,7 +85,6 @@
 | Relação `Atendimento 2024` | `collection://c82a689c-…` | quem atendeu em 2024 — o corpus só tem 2025 |
 | Campo `Participantes` das 1.161 reuniões | IDs de usuário do Notion | **presença nominal com data** — a melhor fonte de pessoa ativa |
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
-| 🔴 **`umode.kanbanize.com`** | boards 6 e 18, cartões por ID | **cartões de demanda de cliente** — fonte inteira jamais tocada |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
 

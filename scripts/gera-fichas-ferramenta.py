@@ -108,8 +108,11 @@ CANAIS = [
      u"\U0001F7E2 **\u00e9 o \u00fanico leg\u00edvel pelo BrainHub hoje** \u2014 as bases de cliente, "
      u"demanda, RFI e reuni\u00e3o vivem aqui"),
     (u"Kanbanize", u"Businessmap (Kanbanize)",
-     u"\U0001F534 **cart\u00f5es de demanda de cliente vivem aqui e NUNCA foram varridos.** "
-     u"A p\u00e1gina da Reserva cita `umode.kanbanize.com`, **boards 6 e 18**, com 7 IDs de cart\u00e3o"),
+     u"🔴 **DESCONTINUADA.** Vinícius em 22 set 2026, textual: *\"ferramenta "
+     u"que não é usada há tempos. Então zero foco nisso.\"* `[D]` "
+     u"🔴 **Não varrer.** Os 7 cartões que a página da Reserva cita "
+     u"(`umode.kanbanize.com`, boards 6 e 18) são **histórico**, não fila viva — "
+     u"e a página que os cita **está desatualizada nesse ponto**"),
     (u"Gist", u"Gist",
      u"**o chat da plataforma** \u2014 canal oficial declarado para *\"d\u00favidas de usabilidade "
      u"& plataforma\"*. \u26a0 **nunca varrido**"),

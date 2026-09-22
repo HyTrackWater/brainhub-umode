@@ -32,6 +32,21 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | 2 | ⚠ **ERP `SPI` é sistema próprio do cliente**, não produto de mercado. | `T2` | — |
 | 3 | ⚠ **Conteúdo T1 da Cambos com autorização de uso pendente desde julho.** | `T1` | autorização do Vinicius/João |
 
+### 2.1 · 🔴 Perguntas que só o Vinícius responde
+
+> **Uma pergunta só entra aqui quando NENHUMA fonte pode respondê-la.** Dúvida que
+> uma fonte responde não é pergunta — **é varredura que falta fazer**, e vai para a § 4.
+>
+> 🔴 **Estas linhas são colhidas automaticamente** para a lista consolidada em
+> [`_perguntas-para-o-vinicius.md`](../../../../00_Institucional/_contexto/_perguntas-para-o-vinicius.md),
+> que ele responde **por áudio ou por transcrição de reunião**. Ver
+> [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
+
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | Há duas contas na plataforma — `Cambos` (7 usuários) e `Cambos - uFlow` (25). **É conta por módulo, ou duplicidade?** | `T2` | define se `client_id` é mesmo único por cliente | aberta |
+| 2 | O conteúdo T1 da Cambos está com autorização de uso pendente desde julho. **Libera?** | `T1` | trava registrada há mais de dois meses | aberta |
+
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
 > 🔴 **Este é o diário de bordo.** Ele existe porque a memória da conversa **compacta** e a
@@ -67,7 +82,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | Relação `Atendimento 2024` | `collection://c82a689c-…` | quem atendeu em 2024 — o corpus só tem 2025 |
 | Campo `Participantes` das 1.161 reuniões | IDs de usuário do Notion | **presença nominal com data** — a melhor fonte de pessoa ativa |
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
-| 🔴 **`umode.kanbanize.com`** | boards 6 e 18, cartões por ID | **cartões de demanda de cliente** — fonte inteira jamais tocada |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
 | 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |

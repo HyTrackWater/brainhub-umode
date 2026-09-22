@@ -13,7 +13,7 @@
 ### Fornecedor
 Businessmap (Kanbanize)
 ### Observação de taxonomia
-🔴 **cartões de demanda de cliente vivem aqui e NUNCA foram varridos.** A página da Reserva cita `umode.kanbanize.com`, **boards 6 e 18**, com 7 IDs de cartão
+🔴 **DESCONTINUADA.** Vinícius em 22 set 2026, textual: *"ferramenta que não é usada há tempos. Então zero foco nisso."* `[D]` 🔴 **Não varrer.** Os 7 cartões que a página da Reserva cita (`umode.kanbanize.com`, boards 6 e 18) são **histórico**, não fila viva — e a página que os cita **está desatualizada nesse ponto**
 
 ## Adoção
 ### Quantos clientes

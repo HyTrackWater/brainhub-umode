@@ -36,6 +36,21 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | 6 | ⚠ **~47 atas de weekly não lidas.** O Vinicius pediu para **não gastar esforço nelas agora**: são anotações manuais, e ele vai trazer ~50 transcrições reais. | `T2` | a entrega das transcrições |
 | 7 | ⚠ **Não abertas:** `Ficha de Produto` · `Playbooks` · `Miro Regras e restrições` · `Onboarding > Ongoing` · 2 databases inline · `Perfis de Usuario` (synced block). | `T2` | tempo de varredura |
 
+### 2.1 · 🔴 Perguntas que só o Vinícius responde
+
+> **Uma pergunta só entra aqui quando NENHUMA fonte pode respondê-la.** Dúvida que
+> uma fonte responde não é pergunta — **é varredura que falta fazer**, e vai para a § 4.
+>
+> 🔴 **Estas linhas são colhidas automaticamente** para a lista consolidada em
+> [`_perguntas-para-o-vinicius.md`](../../../../00_Institucional/_contexto/_perguntas-para-o-vinicius.md),
+> que ele responde **por áudio ou por transcrição de reunião**. Ver
+> [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
+
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | O `Status` da CAEDU virou `Onboarding` em 22/09/2026 às 15:04, e a base `Etapas do Processo` continua marcando `Ongoing`. **O que mudou nesse dia?** | `T2` | o projeto CAEDU 2.0 está sendo montado sobre a premissa de onboarding | aberta |
+| 2 | A dor `Griffe › Linha › Grupo/subgrupo` está escrita desde a weekly de 16/09/2025 e reaparece idêntica em jul e ago/2026. **Quem assume a integração — uMode ou o time tech da CAEDU?** | `T2` | atravessou três ciclos sem destravar | aberta |
+
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
 > 🔴 **Este é o diário de bordo.** Ele existe porque a memória da conversa **compacta** e a
@@ -68,7 +83,6 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | Relação `Atendimento 2024` | `collection://c82a689c-…` | quem atendeu em 2024 — o corpus só tem 2025 |
 | Campo `Participantes` das 1.161 reuniões | IDs de usuário do Notion | **presença nominal com data** — a melhor fonte de pessoa ativa |
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
-| 🔴 **`umode.kanbanize.com`** | boards 6 e 18, cartões por ID | **cartões de demanda de cliente** — fonte inteira jamais tocada |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
 

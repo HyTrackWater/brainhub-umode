@@ -84,6 +84,8 @@ Todas em `uMode/00_Institucional/_contexto/`, salvo indicação.
 
 ### P · Protocolos — como executar
 
+🔴 [`protocolo-perguntas-ao-vinicius.md`](uMode/00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md) — **o único caminho** para o que só o Vinícius responde. **Não criar um segundo.**
+
 Em `uMode/00_Institucional/_protocolos/`:
 [`protocolo-varredura-cliente.md`](uMode/00_Institucional/_protocolos/protocolo-varredura-cliente.md) · [`protocolo-criacao-cliente.md`](uMode/00_Institucional/_protocolos/protocolo-criacao-cliente.md) · [`protocolo-gestao-demanda.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-demanda.md) ·
 [`protocolo-gestao-rfi.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-rfi.md) · [`protocolo-gestao-integracao.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-integracao.md) · [`protocolo-gestao-pessoas.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-pessoas.md) ·
@@ -120,6 +122,7 @@ nosso e não se edita em hipótese nenhuma.**
   [`_pessoas/_template_pessoa.md`](uMode/00_Institucional/_pessoas/_template_pessoa.md) · `_Clientes/_template_cliente/` ·
   `03_Produto-e-Solucoes/_template_produto/`
 - **X:** `_indice/` — 6 CSVs + README, **gerados por `scripts/gen-indice.ps1`. Não editar à mão.**
+- **X:** [`_perguntas-para-o-vinicius.md`](uMode/00_Institucional/_contexto/_perguntas-para-o-vinicius.md) — a lista que ele responde **por áudio ou transcrição**. Colhida dos 48 `_pendencias-e-fontes.md` pelo **mesmo script** que os escreve. 🔴 **Não editar à mão e não montar lista paralela.**
 
 ### C · Corpus — o que se replica, e a regra que não se quebra
 
@@ -154,6 +157,17 @@ Gerado por `scripts/gera-pendencias-e-fontes.py`, **48 de 48 clientes**.
 > 🔴 **LEIA-O ANTES DE VARRER QUALQUER CLIENTE.** Ele existe porque a memória da conversa
 > **compacta** e a do disco não. **Reabrir fonte já varrida é queimar token à toa** — foi
 > cobrança direta do Vinicius em 22 set 2026.
+
+🔴 **A § 2.1 desse arquivo é onde vive TODA pergunta que só o Vinícius responde.** Ela é
+colhida para [`_perguntas-para-o-vinicius.md`](uMode/00_Institucional/_contexto/_perguntas-para-o-vinicius.md),
+que ele responde **por áudio ou por transcrição de reunião**. **Processo completo:**
+[`protocolo-perguntas-ao-vinicius.md`](uMode/00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
+
+> 🔴 **Pergunta escrita fora da § 2.1 some na próxima compactação da conversa.** Nada de
+> pergunta solta em resposta de chat, em `## Pergunta` ad-hoc dentro de registro, ou em tabela
+> nova. **Um caminho só** — exigência do Vinícius em 22 set 2026: *"não adianta aplicar agora e
+> depois criar outras formas de fazer a mesma coisa ou até passar sem executar esse comando
+> padronizado."*
 
 🔴 **Todo MD da mesma classe tem os mesmos títulos, sempre.** Conteúdo varia por cliente;
 **estrutura nunca varia.** Se o padrão mudar, **muda para a classe inteira, retroativamente.**

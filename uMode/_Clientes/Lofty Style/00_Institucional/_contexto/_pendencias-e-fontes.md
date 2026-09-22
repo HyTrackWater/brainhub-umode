@@ -35,6 +35,21 @@
 | 2 | 🔴 **O `Status` diz `Ongoing` e a `Etapa` diz `Operação Assistida`.** | `T2` | **Qual dos dois manda?** |
 | 3 | ⚠ **Dois arquivos de staging marcados `SUPERSEDED` e não apagados** (`_staging-lofty-demandas.md`, `_staging-lofty-rfis.md`). **Apagar é decisão sua.** | `T2` | decisão do Vinicius (item 257) |
 
+### 2.1 · 🔴 Perguntas que só o Vinícius responde
+
+> **Uma pergunta só entra aqui quando NENHUMA fonte pode respondê-la.** Dúvida que
+> uma fonte responde não é pergunta — **é varredura que falta fazer**, e vai para a § 4.
+>
+> 🔴 **Estas linhas são colhidas automaticamente** para a lista consolidada em
+> [`_perguntas-para-o-vinicius.md`](../../../../00_Institucional/_contexto/_perguntas-para-o-vinicius.md),
+> que ele responde **por áudio ou por transcrição de reunião**. Ver
+> [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
+
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | 🚨 **A credencial do site de documentação foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
+| 2 | Os dois arquivos de staging `SUPERSEDED` seguem no repositório. **Apago?** | `T2` | apagar é decisão sua, não minha | aberta |
+
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
 > 🔴 **Este é o diário de bordo.** Ele existe porque a memória da conversa **compacta** e a
@@ -70,7 +85,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | Relação `Atendimento 2024` | `collection://c82a689c-…` | quem atendeu em 2024 — o corpus só tem 2025 |
 | Campo `Participantes` das 1.161 reuniões | IDs de usuário do Notion | **presença nominal com data** — a melhor fonte de pessoa ativa |
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
-| 🔴 **`umode.kanbanize.com`** | boards 6 e 18, cartões por ID | **cartões de demanda de cliente** — fonte inteira jamais tocada |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
 | 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |

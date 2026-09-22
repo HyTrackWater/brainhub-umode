@@ -2435,3 +2435,38 @@
 349. **⚠ `uBuy` apareceu no TERCEIRO cliente** (Reserva: *DE/PARA Campos uBuy*, *Ficha de Pedido
      uBuy*), junto com **`uPlan`**. **Um caso é anedota, dois é hipótese, três é padrão: `uBuy`
      é produto vivo e o portfólio de 16 está incompleto.**
+
+## O caminho das perguntas, e o Kanbanize fechado (22 set 2026)
+
+350. **🟢 DECIDIDO — o Kanbanize NÃO se varre.** Vinicius, textual: *"ferramenta que não é usada
+     há tempos. Então zero foco nisso."* `[D]` **Fecha o item 345.**
+     ⚠ **Consequência que fica:** a página da Reserva cita 7 cartões do `umode.kanbanize.com`
+     como se fossem fila viva. **Ela está desatualizada nesse ponto** — e isso vale como aviso
+     para toda página de cliente: **o que a página diz é o que alguém escreveu um dia**, não
+     necessariamente o que vale hoje.
+351. **🟢 RESPONDIDA — `Status` × `Etapa`: não há regra geral.** Vinicius, textual: *"a verdade
+     é que não sei. Nós vamos ter que ver caso a caso e esse levantamento por cliente será
+     excelente pra depois juntarmos com 'negócios'."* `[D]`
+     **A pergunta transversal vira pergunta POR CLIENTE** — e é exatamente para isso que a
+     § 2.1 do `_pendencias-e-fontes.md` serve.
+352. **🟢 DECIDIDO E REGISTRADO — o que só o Vinicius responde tem UM caminho.**
+     Ele, textual: *"em dado momento, você montará uma lista de coisas que eu tenho que perguntar
+     e vou dar um jeito de responder ou por áudio ou numa transcrição de reunião mesmo... Garanta
+     que essa decisão esteja registrada nas documentações de forma que você nunca se esqueça de
+     que existe esse caminho. Não adianta aplicar agora e depois criar outras formas de fazer a
+     mesma coisa ou até passar sem executar esse comando padronizado."* `[D]`
+     **Implementado em três peças que se amarram:**
+     **(a)** a pergunta nasce na **§ 2.1** do `_pendencias-e-fontes.md` do cliente;
+     **(b)** é colhida para `_perguntas-para-o-vinicius.md` **pelo MESMO script** que escreve as
+     48 — não existe um segundo jeito de montar a lista, nem como rodar um sem o outro;
+     **(c)** o processo está no `protocolo-perguntas-ao-vinicius.md`, citado no `START.md` § 1
+     (classes P e X) e no `AGORA.md` § 8.0.
+     🔴 **A regra que decide o que é pergunta:** só entra o que **nenhuma fonte** responde.
+     Dúvida que uma fonte responde **não é pergunta — é varredura que falta fazer**, e vai para a
+     § 4. **Transformar em pergunta o que está a uma leitura de distância é empurrar trabalho meu
+     para ele** — é o erro que o `CLAUDE.md` já nomeia.
+     ⚠ **Quando levar a lista até ele não é decisão minha:** *"pensaremos nisso quando chegar o
+     momento."* **Minha obrigação é manter a fila pronta e avisar se ela travar a varredura.**
+353. **Fila hoje: 15 perguntas de cliente + 4 transversais abertas, 1 respondida.**
+     ⚠ **A fila está curta porque a varredura está no começo** — **44 dos 48 clientes têm a
+     página fechada.** **Pergunta boa nasce de varredura feita.**

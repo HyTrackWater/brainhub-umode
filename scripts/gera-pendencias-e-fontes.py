@@ -71,8 +71,6 @@ NAO_VARRIDAS = [
      u"**presença nominal com data** — a melhor fonte de pessoa ativa"),
     (u"As 1.153 atas ainda não abertas", u"base de reuniões",
      u"conteúdo — **e varredura de credencial**"),
-    (u"🔴 **`umode.kanbanize.com`**", u"boards 6 e 18, cartões por ID",
-     u"**cartões de demanda de cliente** — fonte inteira jamais tocada"),
     (u"**Gist** — o chat da plataforma", u"canal oficial de dúvida de usabilidade",
      u"conversa de suporte, por cliente"),
     (u"**Grupos de WhatsApp**", u"fora de qualquer sistema",
@@ -201,9 +199,11 @@ PEND = {
         (u"🔴 **7 módulos contratados — a conta mais completa da carteira — e NENHUMA etapa do "
          u"processo atribuída.**", u"T2",
          u"**Conta grande não passa pelo funil, ou é lacuna de preenchimento?**"),
-        (u"🔴 **Demanda desta conta vive em `umode.kanbanize.com`, boards 6 e 18** — a página "
-         u"cita **7 cartões por ID**, 2 fechados e 5 abertos. **Nenhuma varredura tocou o Kanbanize.**",
-         u"T2", u"acesso ao Kanbanize"),
+        (u"🟢 **FECHADA — o Kanbanize não se varre.** A página cita "
+         u"`umode.kanbanize.com`, boards 6 e 18, com 7 cartões por ID. **Vinícius em 22 set "
+         u"2026:** *\"ferramenta que não é usada há tempos. Então zero foco nisso.\"* `[D]` "
+         u"⚠ **Consequência: a página da Reserva está desatualizada nesse ponto.**",
+         u"T2", u"nada — decidido"),
         (u"🔴 **A cadência declarada de `Review Quinzenal de Projeto` parou de ser cumprida.** "
          u"Envios marcados até **30/06**; **15/07, 02/08 e 21/08 seguem sem marca**. "
          u"Responsável declarado: **João**. Destinatária: **Claudinha**.", u"T2",
@@ -297,6 +297,94 @@ RISCO = {
 }
 
 
+# ---------------------------------------------------------------------------
+# PERGUNTAS AO VINICIUS, por cliente. E a fila que vira a lista consolidada.
+#
+# Uma pergunta so entra aqui quando NENHUMA fonte pode respondê-la: nao e duvida
+# que se tira lendo, e decisao ou conhecimento que so ele tem. Duvida que uma
+# fonte responde nao e pergunta - e varredura que falta fazer.
+#
+# Formato: cliente -> [(pergunta, tier, por que importa, estado)]
+# Estado: "aberta" | "respondida em <data> por <fonte>"
+PERGUNTAS = {
+    u"Caedu": [
+        (u"O `Status` da CAEDU virou `Onboarding` em 22/09/2026 \u00e0s 15:04, e a base "
+         u"`Etapas do Processo` continua marcando `Ongoing`. **O que mudou nesse dia?**",
+         u"T2", u"o projeto CAEDU 2.0 est\u00e1 sendo montado sobre a premissa de onboarding",
+         u"aberta"),
+        (u"A dor `Griffe \u203a Linha \u203a Grupo/subgrupo` est\u00e1 escrita desde a weekly de "
+         u"16/09/2025 e reaparece id\u00eantica em jul e ago/2026. **Quem assume a integra\u00e7\u00e3o "
+         u"\u2014 uMode ou o time tech da CAEDU?**", u"T2",
+         u"atravessou tr\u00eas ciclos sem destravar", u"aberta"),
+    ],
+    u"Osklen": [
+        (u"O `Status` diz `Opera\u00e7\u00e3o Assistida` e a `Etapa` diz `Onboarding`. **Qual "
+         u"descreve a conta hoje?**", u"T2", u"muda a leitura de maturidade da conta", u"aberta"),
+        (u"O toggle `Pessoas` da p\u00e1gina est\u00e1 vazio. **Quem s\u00e3o a diretoria e os l\u00edderes "
+         u"de departamento da Osklen?**", u"T2",
+         u"sem isso a conta n\u00e3o tem uma pessoa nomeada na pr\u00f3pria p\u00e1gina", u"aberta"),
+    ],
+    u"NK STORE": [
+        (u"\U0001F6A8 **A credencial de produ\u00e7\u00e3o do Linx est\u00e1 em texto claro na p\u00e1gina do "
+         u"cliente. Foi rotacionada?**", u"T0", u"exposi\u00e7\u00e3o ativa at\u00e9 prova em contr\u00e1rio",
+         u"aberta"),
+        (u"`Merchandising`, `Curadoria` e `Oficina` s\u00e3o etapas do processo com dono e n\u00e3o "
+         u"existem na grade de 14 \u00e1reas. **Viram \u00e1rea can\u00f4nica, sub\u00e1rea, ou apelido?**",
+         u"T2", u"\u00e9 o mesmo tema do `15_Producao-Interna`", u"aberta"),
+    ],
+    u"Reserva": [
+        (u"7 m\u00f3dulos contratados e **nenhuma etapa do processo atribu\u00edda**. **Conta grande "
+         u"n\u00e3o passa pelo funil, ou \u00e9 lacuna de preenchimento?**", u"T2",
+         u"vale para Oficina Reserva, NV e Baw tamb\u00e9m", u"aberta"),
+        (u"O `Review Quinzenal de Projeto` tem envios marcados at\u00e9 30/06 e nada depois. "
+         u"**A cad\u00eancia parou ou s\u00f3 parou de ser marcada?**", u"T2",
+         u"\u00e9 a \u00fanica cad\u00eancia formal de report a cliente que o corpus conhece", u"aberta"),
+        (u"5 dos 9 grupos de WhatsApp est\u00e3o marcados para excluir e continuam existindo. "
+         u"**A limpeza foi feita?**", u"T2", u"canal fora de sistema \u00e9 onde a opera\u00e7\u00e3o vaza",
+         u"aberta"),
+    ],
+    u"Lofty Style": [
+        (u"\U0001F6A8 **A credencial do site de documenta\u00e7\u00e3o foi rotacionada?**", u"T0",
+         u"exposi\u00e7\u00e3o ativa at\u00e9 prova em contr\u00e1rio", u"aberta"),
+        (u"Os dois arquivos de staging `SUPERSEDED` seguem no reposit\u00f3rio. **Apago?**",
+         u"T2", u"apagar \u00e9 decis\u00e3o sua, n\u00e3o minha", u"aberta"),
+    ],
+    u"Baw": [
+        (u"A Baw tem o m\u00f3dulo `Integra\u00e7\u00e3o` contratado **e** o ERP diz `Sem Integra\u00e7\u00e3o`. "
+         u"**Qual dos dois est\u00e1 errado?**", u"T2",
+         u"quinta evid\u00eancia independente de que a conta est\u00e1 mal classificada", u"aberta"),
+    ],
+    u"Cambos": [
+        (u"H\u00e1 duas contas na plataforma \u2014 `Cambos` (7 usu\u00e1rios) e `Cambos - uFlow` (25). "
+         u"**\u00c9 conta por m\u00f3dulo, ou duplicidade?**", u"T2",
+         u"define se `client_id` \u00e9 mesmo \u00fanico por cliente", u"aberta"),
+        (u"O conte\u00fado T1 da Cambos est\u00e1 com autoriza\u00e7\u00e3o de uso pendente desde julho. "
+         u"**Libera?**", u"T1", u"trava registrada h\u00e1 mais de dois meses", u"aberta"),
+    ],
+    u"Mondepars": [
+        (u"`Mondepars` na plataforma \u00d7 `Mondpars` no CRM. **Qual grafia est\u00e1 certa?**",
+         u"T2", u"n\u00e3o colapsa sozinho no `client_id`", u"aberta"),
+    ],
+}
+
+# PERGUNTAS QUE NAO SAO DE UM CLIENTE SO.
+PERGUNTAS_GERAIS = [
+    (u"**`Status` ou `Etapa` \u2014 qual manda?** Discordam em 5 clientes.", u"T2",
+     u"\U0001F7E2 **Respondida em 22 set 2026 pelo Vin\u00edcius:** *\"a verdade \u00e9 que n\u00e3o sei. "
+     u"N\u00f3s vamos ter que ver caso a caso.\"* \u2014 vira **pergunta por cliente**, n\u00e3o regra geral",
+     u"respondida em 22 set 2026, por mensagem"),
+    (u"**O portf\u00f3lio de 16 Solu\u00e7\u00f5es est\u00e1 incompleto?** `uBuy` aparece em tr\u00eas clientes "
+     u"(Osklen, NK STORE, Reserva) e `uPlan` na Reserva, e nenhum dos dois est\u00e1 na lista.",
+     u"T2", u"um caso \u00e9 anedota, tr\u00eas \u00e9 padr\u00e3o", u"aberta"),
+    (u"**Qual \u00e9 a chave de identidade de pessoa?** Sem ela, grafia diferente n\u00e3o se resolve "
+     u"sem inventar gente.", u"T2", u"trava a fus\u00e3o de 149 fichas", u"aberta"),
+    (u"**O campo `Data de Churn` n\u00e3o existe na base.** Criamos?", u"T2",
+     u"segue sendo a lacuna mais cara do corpus", u"aberta"),
+    (u"**`Merchandising`, `Curadoria`, `Oficina` e `fac\u00e7\u00e3o` n\u00e3o existem na grade de 14 "
+     u"\u00e1reas.** A grade cresce, ou viram sub\u00e1rea?", u"T2",
+     u"sexta evid\u00eancia do `15_Producao-Interna`", u"aberta"),
+]
+
 def esc(p, s):
     d = os.path.dirname(p)
     if not os.path.isdir(d):
@@ -360,6 +448,28 @@ def doc(cliente):
         A(u"⚠ **Nenhuma pendência específica registrada** — e isso quase sempre quer dizer")
         A(u"**que a página deste cliente ainda não foi aberta** (ver § 4), não que esteja tudo claro.")
     A(u"")
+    A(u"### 2.1 \u00b7 \U0001F534 Perguntas que s\u00f3 o Vin\u00edcius responde")
+    A(u"")
+    A(u"> **Uma pergunta s\u00f3 entra aqui quando NENHUMA fonte pode respond\u00ea-la.** D\u00favida que")
+    A(u"> uma fonte responde n\u00e3o \u00e9 pergunta \u2014 **\u00e9 varredura que falta fazer**, e vai para a \u00a7 4.")
+    A(u">")
+    A(u"> \U0001F534 **Estas linhas s\u00e3o colhidas automaticamente** para a lista consolidada em")
+    A(u"> [`_perguntas-para-o-vinicius.md`]"
+      u"(../../../../00_Institucional/_contexto/_perguntas-para-o-vinicius.md),")
+    A(u"> que ele responde **por \u00e1udio ou por transcri\u00e7\u00e3o de reuni\u00e3o**. Ver")
+    A(u"> [`protocolo-perguntas-ao-vinicius.md`]"
+      u"(../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).")
+    A(u"")
+    qs = PERGUNTAS.get(cliente)
+    if qs:
+        A(u"| # | Pergunta | Tier | Por que importa | Estado |")
+        A(u"|--:|---|:-:|---|---|")
+        for i, (q, tier, pq, est) in enumerate(qs, 1):
+            A(u"| %d | %s | `%s` | %s | %s |" % (i, q, tier, pq, est))
+    else:
+        A(u"\u26a0 **Nenhuma ainda** \u2014 e para este cliente isso quase sempre quer dizer que a")
+        A(u"**p\u00e1gina dele n\u00e3o foi aberta** (\u00a7 3.2). **Pergunta boa nasce de varredura feita.**")
+    A(u"")
     A(u"## 3 · 🟢 Fontes JÁ varridas — não reabrir")
     A(u"")
     A(u"> 🔴 **Este é o diário de bordo.** Ele existe porque a memória da conversa **compacta** e a")
@@ -410,6 +520,71 @@ def doc(cliente):
     return chr(10).join(L) + chr(10)
 
 
+def consolidada():
+    u"""A lista que o Vinicius responde. Colhida DAQUI, nunca montada a mao."""
+    L = []
+    A = L.append
+    A(u"# Perguntas para o Vin\u00edcius")
+    A(u"")
+    A(u"> **Classe: `DERIVADO`.** Gerado por `scripts/gera-pendencias-e-fontes.py`.")
+    A(u"> \U0001F534 **N\u00e3o se edita \u00e0 m\u00e3o** \u2014 a pergunta nasce no arquivo do cliente e \u00e9 colhida daqui.")
+    A(u">")
+    A(u"> **Decis\u00e3o do Vin\u00edcius em 22 set 2026:** *\"em dado momento, voc\u00ea montar\u00e1 uma lista de")
+    A(u"> coisas que eu tenho que perguntar e vou dar um jeito de responder ou por \u00e1udio ou numa")
+    A(u"> transcri\u00e7\u00e3o de reuni\u00e3o mesmo.\"* **Este \u00e9 esse arquivo.**")
+    A(u"")
+    A(u"**O processo inteiro est\u00e1 no** [`protocolo-perguntas-ao-vinicius.md`]"
+      u"(../_protocolos/protocolo-perguntas-ao-vinicius.md). \U0001F534 **N\u00e3o inventar outro caminho.**")
+    A(u"")
+    ab = [q for q in PERGUNTAS_GERAIS if q[3].startswith(u"aberta")]
+    rs = [q for q in PERGUNTAS_GERAIS if not q[3].startswith(u"aberta")]
+    tot_cli = sum(1 for c in PERGUNTAS for q in PERGUNTAS[c] if q[3].startswith(u"aberta"))
+    A(u"## 0 \u00b7 O placar")
+    A(u"")
+    A(u"| | Quantas |")
+    A(u"|---|--:|")
+    A(u"| **Abertas, de um cliente s\u00f3** | **%d** |" % tot_cli)
+    A(u"| **Abertas, transversais** | **%d** |" % len(ab))
+    A(u"| J\u00e1 respondidas | %d |" % (len(rs) + sum(1 for c in PERGUNTAS for q in PERGUNTAS[c]
+                                                    if not q[3].startswith(u"aberta"))))
+    A(u"| Clientes com p\u00e1gina ainda **n\u00e3o aberta** | **%d** |" % (48 - len(PAGINA)))
+    A(u"")
+    A(u"> \u26a0 **A lista est\u00e1 curta porque a varredura est\u00e1 no come\u00e7o**, n\u00e3o porque h\u00e1 poucas")
+    A(u"> d\u00favidas. **%d clientes t\u00eam a p\u00e1gina fechada** \u2014 pergunta boa nasce de varredura feita." % (48 - len(PAGINA)))
+    A(u"")
+    A(u"## 1 \u00b7 Transversais \u2014 valem para a carteira toda")
+    A(u"")
+    A(u"| # | Pergunta | Tier | Por que importa | Estado |")
+    A(u"|--:|---|:-:|---|---|")
+    for i, (q, tier, pq, est) in enumerate(PERGUNTAS_GERAIS, 1):
+        A(u"| %d | %s | `%s` | %s | %s |" % (i, q, tier, pq, est))
+    A(u"")
+    A(u"## 2 \u00b7 Por cliente")
+    A(u"")
+    for c in sorted(PERGUNTAS):
+        A(u"### %s" % c)
+        A(u"")
+        A(u"[abrir o arquivo do cliente]"
+          u"(../../_Clientes/%s/00_Institucional/_contexto/_pendencias-e-fontes.md)" % c)
+        A(u"")
+        A(u"| # | Pergunta | Tier | Por que importa | Estado |")
+        A(u"|--:|---|:-:|---|---|")
+        for i, (q, tier, pq, est) in enumerate(PERGUNTAS[c], 1):
+            A(u"| %d | %s | `%s` | %s | %s |" % (i, q, tier, pq, est))
+        A(u"")
+    A(u"## Governan\u00e7a")
+    A(u"")
+    A(u"### Quem pode alterar este documento")
+    A(u"\U0001F534 **Ningu\u00e9m \u00e0 m\u00e3o.** \u00c9 `DERIVADO` \u2014 corrigir na fonte "
+      u"(`scripts/gera-pendencias-e-fontes.py`) e rodar o script.")
+    A(u"")
+    A(u"### O que acontece com uma pergunta respondida")
+    A(u"**N\u00e3o se apaga: muda de estado**, com a data e a fonte da resposta. O hist\u00f3rico do que")
+    A(u"j\u00e1 se perguntou \u00e9 t\u00e3o \u00fatil quanto a resposta.")
+    A(u"")
+    return chr(10).join(L) + chr(10)
+
+
 def main():
     n = 0
     total = 0
@@ -419,7 +594,11 @@ def main():
             continue
         total += 1
         n += esc(os.path.join(base, u"_pendencias-e-fontes.md"), doc(c))
+    pq = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_contexto",
+                      u"_perguntas-para-o-vinicius.md")
+    n_q = esc(pq, consolidada())
     print(u"_pendencias-e-fontes.md escrito/atualizado: %d de %d clientes" % (n, total))
+    print(u"_perguntas-para-o-vinicius.md: %s" % (u"atualizado" if n_q else u"sem mudanca"))
     print(u"  com página do Notion já aberta : %d" % len(PAGINA))
     print(u"  com pendência específica       : %d" % len(PEND))
     print(u"  com risco de segurança aberto  : %d" % len(RISCO))

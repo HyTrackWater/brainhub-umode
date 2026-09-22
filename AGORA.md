@@ -176,25 +176,24 @@ alguma forma ligada a esses nós maiores."*
 ## 8 · Decisões esperando o Vinicius
 
 🔴 **O dono deste assunto é o [`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md)
-— **340 itens datados.** **Não crie tabela de pendência aqui nem em lugar nenhum: escreva lá.**
+— **349 itens datados.** **Não crie tabela de pendência aqui nem em lugar nenhum: escreva lá.**
 
-> ⚠ **Este bloco já foi o erro que ele descreve.** Em 22 set 2026 eu montei aqui uma tabela de
-> "8 decisões esperando o Vinicius" **sem ter lido o `_pendencias-gerais.md`**, que já era o dono
-> com 233 itens. **Era um segundo dono para o mesmo assunto** — o defeito que o `CLAUDE.md`
-> proíbe e que o `START.md` § 0 agora trava como regra. **Os itens foram movidos para lá
-> (234–248) e aqui ficou só o ponteiro.**
+### 8.0 · 🔴 O que só ele responde tem UM caminho, e só um
 
-**As mais quentes da varredura de 22 set 2026** — detalhe e contexto nos itens citados:
+**Decisão dele em 22 set 2026:** *"em dado momento, você montará uma lista de coisas que eu tenho
+que perguntar e vou dar um jeito de responder ou por áudio ou numa transcrição de reunião mesmo."*
 
-| Item | Decisão |
+| Onde | O que é |
 |---|---|
-| **238** | 🔴 **A base não tem campo `Data de Churn`** — sem ele não há tempo de vida de cliente nem taxa de churn por coorte |
-| **237** | Separar `Status` em `lifecycleStage` / `serviceMode` / `recordKind`? |
-| **234** | Criar a área `15_Producao-Interna`? **5 clientes** têm produção interna sem área |
-| **235** | `Merchandising` vira área? **Recomendo que não** — os três escopos diferem |
-| **239** | A **Baw** está classificada certo? |
-| **240** | Reunião e demanda que atendem **dois clientes** — como registrar? |
-| **241** | `## O que este documento NÃO resolve` vira canônico? **Muda ~145 arquivos** |
+| `_Clientes/<Cliente>/…/_pendencias-e-fontes.md` **§ 2.1** | **onde a pergunta nasce** |
+| [`_perguntas-para-o-vinicius.md`](uMode/00_Institucional/_contexto/_perguntas-para-o-vinicius.md) | **a lista que ele responde** — colhida pelo **mesmo script** |
+| [`protocolo-perguntas-ao-vinicius.md`](uMode/00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md) | **o processo** — 🔴 **não criar um segundo** |
+
+🔴 **A regra que decide:** pergunta é só o que **nenhuma fonte** responde. Dúvida que uma fonte
+responde **não é pergunta — é varredura que falta fazer.**
+
+⚠ **Quando levar a lista até ele não é decisão minha.** Ele disse *"pensaremos nisso quando
+chegar o momento"*. **Minha obrigação é manter a fila pronta e avisar se ela travar a varredura.**
 
 ### 8.1 · Dado sensível: `T0` / `T1` / `T2`
 
