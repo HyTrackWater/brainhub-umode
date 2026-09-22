@@ -56,18 +56,23 @@ Instituição (Casa uMode OU Cliente)
 - **Um assunto tem um dono.** Documento novo que vira autoridade marca o anterior como
   `SUPERSEDED` no que perdeu.
 
-**Ferramenta de padrão:** `scratchpad/propaga.py` verifica as 4 classes de MD e recompõe
-títulos canônicos faltantes. **Rodar sempre antes de commitar.**
+**Ferramentas de verificação**, ambas em `scripts/` e obrigatórias antes de todo commit:
+`valida-padrao-corpus.py` (as 4 classes de MD de cliente) e `valida-documentacao.py`
+(nenhum `.md` estrutural órfão do manifesto do `START.md` § 1).
 
 ## 4 · Onde está cada coisa
 
+> 🔴 **O conjunto completo de documentação — "o time" — está declarado no
+> [`START.md`](START.md) § 1**, com a classe de cada arquivo e quem é dono de qual assunto.
+> **`python scripts/valida-documentacao.py` confere que nada ficou órfão.**
+
 | Arquivo | O que é | Quando ler |
 |---|---|---|
+| **`START.md`** | **o manifesto e a ordem de leitura** | primeira mensagem da sessão |
 | **`AGORA.md`** | este arquivo — orientação | **primeiro, sempre** |
 | `CLAUDE.md` | papel, regras invioláveis, como executar | antes de qualquer tarefa |
 | `CONTEXT.md` | decisões de arquitetura travadas | antes de mapear campo ou taxonomia |
 | `STATE.md` | histórico completo, sessão a sessão | quando precisar do detalhe de algo |
-| `START.md` | protocolo de abertura de sessão | primeira mensagem da sessão |
 
 **Autoridades temáticas** (em `uMode/00_Institucional/_contexto/`):
 
@@ -92,6 +97,7 @@ títulos canônicos faltantes. **Rodar sempre antes de commitar.**
 | **Varredura de fonte viva** | 19–21 set 2026 | 15 fontes · CAEDU e Puket fechadas · `protocolo-varredura-cliente.md` escrito |
 | **Carteira inteira** | 22 set 2026 | **48 de 48 clientes** · taxonomia de `Status` travada |
 | **Base de reuniões** | 22 set 2026 | 1.161 reuniões achadas · Recco e Luiza Barcelos varridas |
+| **Modelo de documentação** | 22 set 2026 | **8 classes travadas · manifesto declarado no `START.md` § 1 · verificável por script** |
 
 **Cobertura hoje, medida:**
 
@@ -104,6 +110,8 @@ títulos canônicos faltantes. **Rodar sempre antes de commitar.**
 | `contexto-area.md` conformes | **694/694** |
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50/50 · 49/49 · 49/49** |
 | Atas de reunião lidas por inteiro | **8 de 1.161** |
+| `.md` estruturais, todos classificados | **68/68** |
+| Decisões pendentes registradas | **248** |
 
 ## 6 · O que está sendo feito agora
 
@@ -130,27 +138,36 @@ empresa e preparar a semana seguinte.
 
 ## 8 · Decisões esperando o Vinicius
 
-> **Nada aqui está bloqueando trabalho.** São escolhas que só ele pode fazer.
+🔴 **O dono deste assunto é o [`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md)
+— 248 itens datados.** **Não crie tabela de pendência aqui nem em lugar nenhum: escreva lá.**
 
-| # | Decisão | Onde está o material |
-|---|---|---|
-| 1 | Criar a área `15_Producao-Interna`? **5 clientes** têm produção interna sem área | `_proposta-grade-de-areas-revisao.md` |
-| 2 | `Merchandising` atingiu **3 clientes** — vira área? Eu **recomendo que não**, porque os três escopos diferem | idem |
-| 3 | `Precificação` não tem área canônica | [`_Clientes/Luiza Barcelos/.../institucional.md`](uMode/_Clientes/Luiza%20Barcelos/00_Institucional/_contexto/institucional.md) |
-| 4 | Separar `Status` em `lifecycleStage` / `serviceMode` / `recordKind`? | `_taxonomia-status-cliente.md` |
-| 5 | A **Baw** está classificada certo? `Sem CS` com 4 módulos, 19 reuniões e 18 demandas | [`_Clientes/Baw/.../jornada.md`](uMode/_Clientes/Baw/00_Institucional/_contexto/jornada.md) |
-| 6 | Reunião que atende **dois clientes** — dois registros ou um com duas relações? | [`_varredura-2026-09-22-reunioes-compartilhadas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md) § 6 |
-| 7 | `## O que este documento NÃO resolve` vira canônico nas 4 classes? **Muda 145 arquivos** | — |
-| 8 | **Como tratar dado sensível de proposta comercial** — ver abaixo | — |
+> ⚠ **Este bloco já foi o erro que ele descreve.** Em 22 set 2026 eu montei aqui uma tabela de
+> "8 decisões esperando o Vinicius" **sem ter lido o `_pendencias-gerais.md`**, que já era o dono
+> com 233 itens. **Era um segundo dono para o mesmo assunto** — o defeito que o `CLAUDE.md`
+> proíbe e que o `START.md` § 0 agora trava como regra. **Os itens foram movidos para lá
+> (234–248) e aqui ficou só o ponteiro.**
+
+**As mais quentes da varredura de 22 set 2026** — detalhe e contexto nos itens citados:
+
+| Item | Decisão |
+|---|---|
+| **238** | 🔴 **A base não tem campo `Data de Churn`** — sem ele não há tempo de vida de cliente nem taxa de churn por coorte |
+| **237** | Separar `Status` em `lifecycleStage` / `serviceMode` / `recordKind`? |
+| **234** | Criar a área `15_Producao-Interna`? **5 clientes** têm produção interna sem área |
+| **235** | `Merchandising` vira área? **Recomendo que não** — os três escopos diferem |
+| **239** | A **Baw** está classificada certo? |
+| **240** | Reunião e demanda que atendem **dois clientes** — como registrar? |
+| **241** | `## O que este documento NÃO resolve` vira canônico? **Muda ~145 arquivos** |
 
 ### 8.1 · O tratamento de dado sensível que eu vou aplicar por padrão
 
-**Já existe vocabulário para isso** no `_espec-pessoas-e-comunicacoes.md` — vou usá-lo em vez de
-inventar outro:
+**Reuso o vocabulário `disclosurePolicy` que já existe** no
+[`_espec-pessoas-e-comunicacoes.md`](uMode/00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md),
+em vez de inventar outro:
 
 | Classe | O que faço |
 |---|---|
-| **Nome, cargo, área, papel no projeto** | entra normalmente · `disclosurePolicy: INTERNAL_ONLY` |
+| **Nome, cargo, área, papel no projeto** | entra normalmente · `INTERNAL_ONLY` |
 | **Escopo, marco, entrega, decisão, prazo** | entra normalmente |
 | **Valor de proposta, preço, margem, condição comercial** | **entra com `NEVER_TO_THIRD_PARTY`** e fica **só** em `00_Institucional/_contexto/` do cliente |
 | **Telefone pessoal, CPF, e-mail pessoal** | 🔴 **não entra.** Registro que existe na fonte e onde |
@@ -162,8 +179,10 @@ inventar outro:
 
 **Este arquivo mente rápido se ninguém o atualizar.** A regra:
 
-- **Toda sessão que gera commit atualiza `AGORA.md`** — no mínimo a data, o commit, os números
-  da § 5 e as listas das § 6 e § 7.
+- **O ritual de fechamento completo está no [`START.md`](START.md) § 4** — são quatro passos:
+  `propaga.py`, `valida-documentacao.py`, `STATE.md` e **este arquivo**.
+- **Toda sessão que gera commit atualiza `AGORA.md`** — no mínimo a data, os números da § 5 e as
+  listas das § 6 e § 7.
 - **`AGORA.md` é resumo, `STATE.md` é histórico.** O que aconteceu vai para a `STATE.md`;
   o que **vale agora** vive aqui. **Nada de histórico neste arquivo.**
 - **Se este arquivo divergir da `STATE.md`, a `STATE.md` ganha** — e aí este aqui está com

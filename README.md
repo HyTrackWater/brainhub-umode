@@ -26,17 +26,27 @@ STATE.md                       # avanço: sprints e backlog
 
 ## Por onde começar
 
-👉 **[`AGORA.md`](AGORA.md)** — onde o projeto está hoje, em uma tela: papel, método,
-cobertura em número, frente ativa, próximos passos e decisões em aberto.
+👉 **[`START.md`](START.md)** — **o condutor da triagem**: declara o conjunto completo de
+documentação ("o time"), a classe de cada arquivo, quem é dono de qual assunto, e **a ordem de
+leitura conforme a tarefa**.
+
+👉 **[`AGORA.md`](AGORA.md)** — onde o projeto está hoje, em uma tela.
 
 Para abrir uma sessão de trabalho com a LLM, cole apenas: `Leia START.md`
+
+**Verificação antes de todo commit:**
+
+```
+python scripts/valida-padrao-corpus.py # padrao canonico do corpus
+python scripts/valida-documentacao.py # nenhum .md estrutural orfao
+```
 
 ## Documentação base
 
 | Arquivo | O que é |
 |---|---|
 | **`AGORA.md`** | **orientação — o estado atual, em uma tela** |
-| `START.md` | protocolo de abertura de sessão |
+| **`START.md`** | **o manifesto e a ordem de leitura** — começe por ele |
 | `CLAUDE.md` | papel do executor, regras invioláveis, como executar tarefas |
 | `CONTEXT.md` | objetivo, hierarquia, regras travadas, portfólio |
 | `STATE.md` | **histórico** completo, sessão a sessão — não é orientação |

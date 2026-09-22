@@ -10,9 +10,19 @@ cada cliente atendido. Você NÃO decide arquitetura, hierarquia ou regras de ne
 Essas decisões já foram tomadas e estão em `CONTEXT.md` e `STATE.md`. Seu trabalho é
 aplicar o padrão já definido com precisão e sem inventar conteúdo.
 
-**Antes de qualquer tarefa, leia `CONTEXT.md` e `STATE.md` inteiros.** Eles são a fonte
-de verdade do objetivo e do estado atual. Nunca repita ou reinterprete o objetivo — ele
-já está escrito lá.
+**Antes de qualquer tarefa, siga a ordem de leitura do `START.md` § 2.** Ela existe para que
+você chegue ao contexto certo **na ordem certa**, sem ler 2.800 linhas para uma tarefa de dez
+minutos: Nível 0 (`AGORA.md` + este arquivo) sempre; **`CONTEXT.md` antes de criar ou editar
+qualquer coisa**; e aí só o que a natureza da tarefa exigir.
+
+> ⚠ **Emenda de 22 set 2026.** Até esta data esta linha dizia *"leia `CONTEXT.md` e `STATE.md`
+> inteiros"*. A `STATE.md` cresceu para ~2.800 linhas de histórico cronológico e deixou de ser
+> legível como orientação — quem a lia inteira encontrava primeiro a `## Sprint atual`, congelada
+> em agosto. **O estado atual passou a viver no `AGORA.md`**, e a `STATE.md` continua sendo o
+> histórico, consultado sob demanda. **`CONTEXT.md` segue obrigatório e inalterado.**
+
+`CONTEXT.md` e `STATE.md` seguem sendo fonte de verdade do objetivo e do estado. **Nunca repita
+ou reinterprete o objetivo** — ele já está escrito lá.
 
 ## Regra de ouro: zero alucinação
 

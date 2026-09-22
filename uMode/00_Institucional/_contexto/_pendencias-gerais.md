@@ -1926,3 +1926,65 @@
      runtime reprovado, nenhum agente do Joao vai olhar para ele.
      **Acao: corrigir o papel no `SISTEMAS.md` do Joao — conversa do Vinicius com ele, nao alteracao
      nossa.**
+
+## Varredura da carteira e da base de reuniões (22 set 2026)
+
+> 🔴 **Nota de processo:** os itens 234–241 estavam, por engano meu, numa tabela própria no
+> `AGORA.md`, criada **sem que eu tivesse lido este documento**. Era um segundo dono para o mesmo
+> assunto — o defeito que o `CLAUDE.md` proíbe. **Movidos para cá, que é o dono.** O `AGORA.md`
+> agora **só aponta** para esta seção.
+
+234. **Criar a área `15_Producao-Interna`?** **Cinco clientes** têm área de produção interna sem
+     contraparte canônica: `Atelier` (NV), `Oficina` (NK STORE), `Estamparia` (VIX),
+     `Pilotagem` (Cambos), `Fábrica` (Osklen). Material em `_proposta-grade-de-areas-revisao.md`.
+235. **`Merchandising` atingiu três clientes — vira área canônica?** NK STORE (Diretora de
+     Merchandising), Reserva (grupo `Merchan`) e Luiza Barcelos (líder do projeto é Coordenador de
+     Merchandising). **Minha recomendação é NÃO criar** — os três escopos diferem entre si, e
+     três casos com sentidos diferentes não é um padrão, é uma coincidência de nome. `[P]`
+236. **`Precificação` não tem área canônica.** Aparece como sub-time de Operações na Luiza
+     Barcelos. **Não forçei encaixe** em `11_Financeiro` nem em `09_Comercial-Vendas`.
+237. **Separar `Status` do cliente em três campos?** O enum atual mistura **momento da jornada**
+     (`Pré Onboardings` → `Onboarding` → `Operação Assistida` → `Ongoing` → `Churn`), **modo de
+     atendimento** (`Sem CS`) e **estado terminal** (`Inativo`, que virou lixeira do campo).
+     Proposta: `lifecycleStage` / `serviceMode` / `recordKind`. Dono: `_taxonomia-status-cliente.md`.
+238. **🔴 A base NÃO TEM campo `Data de Churn`.** Tem `Data Ativação Cliente` e mais nada.
+     **Não dá para calcular tempo de vida de cliente nenhum, nem taxa de churn por coorte.**
+     **É a lacuna mais cara do corpus** e depende de alteração na base do Notion.
+239. **A Baw está classificada certo?** É `Sem CS` — o SKU self-service em que `SMB` no campo de
+     atendimento significa "ninguém atende" — mas tem **4 módulos, atendente nomeada (Laura),
+     9 chamados, 19 reuniões e 18 demandas**. **E tem o módulo `Integração` com o ERP dizendo
+     `Sem Integração`** — os dois não podem estar certos.
+240. **Reunião e demanda que atendem DOIS clientes — como registrar?** Achados dois casos na
+     fonte: a reunião *"uFlow - Highstil/Plié - 16/04/2025"* e uma demanda de 30/06/2025 com
+     **Básico&Co + VIX**. **O isolamento de cliente é regra travada no `CONTEXT.md`** e a fonte
+     não a respeita. **Dois registros ou um registro com duas relações?**
+241. **`## O que este documento NÃO resolve` vira título canônico nas 4 classes de MD de cliente?**
+     Hoje aparece em parte dos arquivos. **Padronizar muda ~145 arquivos** — e, pela regra travada
+     pelo Vinicius, **se virar padrão tem de ser replicado em toda a classe, retroativamente.**
+
+### Achados desta varredura que **não** são decisão do Vinicius — são trabalho nosso
+
+242. **🚨 Duas credenciais expostas em texto claro no Notion, não rotacionadas:** NK STORE
+     (usuário, senha, IP, porta e nomes de banco de homologação e produção do Linx do cliente) e
+     Lofty Style (senha de `docs.umode.app`). **Nenhum valor foi copiado para o corpus** —
+     verificado por grep automático. **Falta rotacionar e varrer as demais fontes.**
+243. **22 reuniões órfãs** na base `Reuniões Compartilhadas`: **15 apontam para
+     `. Página Cliente [Template]`** e **7 não têm cliente nenhum**.
+244. **O campo `Data` da base de reuniões está corrompido em lote.** Sete reuniões da Recco com
+     títulos de 04/09 a 16/10/2025 carregam todas `02/09/2025`. **Qualquer visão dessa base
+     ordenada por `Data` está errada.**
+245. **Três vocabulários de status convivem sem relação declarada:** o enum `Status` do cliente,
+     o semáforo de 4 colunas das atas (`Geral`/`Prazo`/`Pendências`/`Riscos`) e o selo único
+     `Projeto em Regime`. **Mesma pergunta, três linguagens** — mesmo defeito de "coleção ×
+     collection" apontado no item 232.
+246. **⚠ Dois casos de gestão de narrativa com o cliente, registrados por escrito.** Recco
+     (16/10/2025: quatro semáforos verdes sobre inadimplência de duas mensalidades e sistema
+     travado) e Luiza Barcelos (08/08/2025: *"precisamos organizar a resposta que o time levará na
+     weekly com o cliente"*). **Dois é hipótese — registro e vigio o terceiro.** Não julgo as
+     decisões; registro que existem, com data e dono.
+247. **Sistemas descobertos e ainda fora do `_inventario-repositorios.md`:** `Linear` (rastreador
+     de engenharia da uMode, com projeto `NexusAPI`), `Timec` (terceiro de integração da Luiza
+     Barcelos) e `Mold`. Somam-se a `Kanbanize`, `Gist`, `docs.umode.app`, `HubSpot`, `Trello`,
+     `Banner`, `SAP`, `Qualitá`, `Totvs Virtual Age` e `Safe Tech`.
+248. **A `Hering` está em `Pré Onboardings` há 15 meses, com 25 reuniões.** O enum não tem como
+     expressar "pré-onboarding longo" — relacionado ao item 237.

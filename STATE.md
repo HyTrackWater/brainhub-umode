@@ -2777,3 +2777,34 @@ caminho).
   arquivos ao fechar sessão**; seções congeladas da `STATE.md` marcadas como registro (preservadas,
   nunca reescritas); `README.md` atualizado. **Frente seguinte acordada: contextualização total da
   CAEDU**, com tratamento de dado sensível de proposta comercial definido em `AGORA.md` § 8.1.
+
+- **22 set 2026** — Sessão 33: **o modelo de documentação, fechado e verificável.**
+  Cobrança do Vinicius: *"a cada vez você identifica uma lacuna de documentação... preciso que
+  você entenda um formato e uma forma que a triagem que qualquer LLM vai seguir vai gerar a
+  contextualização na qualidade e na ordenação correta... definir quais arquivos md têm que
+  existir, e o md que vai conduzir a triagem tem que citar esse 'time'."*
+  **A causa-raiz era minha e está nomeada:** eu vinha remendando em vez de desenhar, e **nenhum
+  arquivo declarava o conjunto**, então órfão só aparecia por acidente. Inventário completo:
+  **116 `.md` estruturais**, dos quais eu **nunca tinha aberto o `_indice/README.md` nem o
+  `_pendencias-gerais.md`** — este último com **1.928 linhas e 233 itens**.
+  🔴 **O erro mais grave foi meu e está registrado:** na sessão anterior criei uma tabela de
+  "8 decisões esperando o Vinicius" no `AGORA.md` **sem ter lido o `_pendencias-gerais.md`**, que
+  já era o dono do assunto. **Era um segundo dono vivo para o mesmo tema** — exatamente o defeito
+  que o `CLAUDE.md` proíbe e que eu já havia criticado na arquitetura do João. **Corrigido: os
+  itens viraram 234–248 no dono, e o `AGORA.md` só aponta.**
+  **O modelo:** **oito classes** (`GOVERNANÇA` · `AUTORIDADE` · `PROTOCOLO` · `REGISTRO` ·
+  `DIDÁTICO` · `TEMPLATE` · `DERIVADO` · `CORPUS`), e a classe decide **se você lê, se pode
+  editar e se pode ser citado como autoridade**. **`REGISTRO` é imutável e nunca vira autoridade**
+  — varredura é foto com data; se o achado deve virar regra, vira parágrafo numa `AUTORIDADE`.
+  **`START.md` reescrito como condutor da triagem:** declara **o time inteiro** (§ 1, com dono por
+  assunto), dá a **ordem de leitura em quatro níveis** com tabela de roteamento por natureza de
+  tarefa (§ 2), e fixa o **ritual de fechamento em quatro passos** (§ 4).
+  **E o manifesto virou verificável:** escrito o `scripts/valida-documentacao.py`, que confere que
+  todo `.md` estrutural está classificado e que todo item citado existe. **Achou 3 órfãos reais na
+  primeira execução** (os dois do agente de suporte uFlow e o pacote do `_inbox-hermes/`).
+  **Fecha em 68 estruturais, 0 órfãos.**
+  **Dois defeitos meus corrigidos de passagem:** o `CLAUDE.md` mandava *"ler `CONTEXT.md` e
+  `STATE.md` inteiros"* enquanto o `START.md` mandava começar pelo `AGORA.md` — **duas
+  governanças em contradição**, resolvida com emenda datada que preserva o texto original; e o
+  `propaga.py` vivia no **scratchpad, que morre com a sessão** — promovido a
+  `scripts/valida-padrao-corpus.py`, com caminho portável.
