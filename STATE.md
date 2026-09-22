@@ -651,6 +651,99 @@ Franqueadora Confecção LTDA"*) — **modelo de negócio diferente de todos os 
 - **Quarto cliente com problema de variante** (Caedu, Reserva, VIX, Lofty) e **terceiro com
   divergência de custo Linx × uMode** (NV, VIX, Lofty).
 
+### ✅ OS 10 CLIENTES `Ongoing` ESTÃO FECHADOS — 22 set 2026
+
+**Caedu · Puket · Reserva · NV · NK STORE · VIX · Lofty Style · Cambos · Oficina Reserva ·
+Luiza Barcelos.** **162 `contexto-area.md` conformes de 162.**
+
+| Cliente | Pessoas no razão | Chamados | Abertos | Fonte do vínculo pessoa↔área |
+|---|---:|---:|---:|---|
+| Caedu | 95 | 5 | 40% | perfil de PLM |
+| Puket | 45 | 6 | 67% | perfil de PLM |
+| Reserva | 14 | 13 | 15% | **nomes de grupo de WhatsApp** |
+| NV | 17 de **61** | 39 | 41% | **departamento declarado pelo cliente** |
+| NK STORE | 32 | 30 | **70%** | **base de usuários com status** |
+| VIX | 14 | 28 | 57% | 17 perfis, **sem lista nominal** |
+| Lofty Style | 19 | 15 | **80%** | **autodeclaração em pesquisa de satisfação** |
+| Cambos | 7 | 11 | 64% | **times acordados em reunião** |
+| Oficina Reserva | **3** | 7 | 43% | **funções citadas em ata de Sales** |
+| Luiza Barcelos | 14 | **1** | 100% | **times + agenda de kick-off por área** |
+
+> 🔴 **Dez clientes, oito tipos diferentes de fonte de vínculo pessoa↔área.**
+> **Não existe fonte única na uMode** — e esse é o argumento mais forte para a
+> `_espec-pessoas-e-comunicacoes.md`.
+
+### Os quatro últimos, e o que cada um trouxe
+
+**Lofty Style** — 🚨 **segunda credencial exposta** (senha do `docs.umode.app`). E a única conta
+com **pesquisa de satisfação**: 19 participações com nome, e-mail, **área**, entusiasmo, CSat,
+expectativa e ressalva. **As ressalvas de out/2025 reaparecem como chamado em jan/2026.**
+
+**Cambos** — 🔴 **fornece para a CAEDU**, que também é cliente. **Dois brains do BrainHub com
+relação comercial direta** — é a `federation_connection` aparecendo entre clientes, não só
+Casa↔cliente. Tem **o único baseline numérico de "antes"** da carteira (nota 6,0 do processo,
+quebra de entrega 10%, 140 mil peças/mês) **e nunca foi remedida**. E **a única definição de
+FRACASSO**: *"ser mais um sistema de preenchimento"*. Também **a única crítica ao método da uMode**
+registrada em qualquer conta — feedback do Sandro sobre a passagem de Sales para Ops.
+
+**Oficina Reserva** — 🔴 **não é marca da Reserva: é do Grupo AR&CO**, e entrou **sem valor
+adicional, no pacote do Grupo**. Depende do **time de SAP da AREZZO**, que está na base como
+`Pré Onboardings`. **Contar como cliente separado infla conta e não infla receita** `[D]`.
+Tem a melhor formulação do problema que o BrainHub resolve, **dita pelo cliente**:
+*"criação de muitos rituais para suprir a falta de governança"*. E o melhor argumento comercial:
+*"**má reputação entre as Fornecedores e Qualitá por não usarem uMode**"* — **há custo
+reputacional em não estar na plataforma**, e está enterrado numa mensagem de grupo de 2024.
+
+**Luiza Barcelos** — **maior receita da carteira (R$ 350 mi) e está no grupo `Médios`**, enquanto
+contas sem receita declarada estão em `Enterprise`. **14 pessoas nomeadas com cargo** — o maior
+número — e **apenas 1 com evidência de uso**. Tem a **única cláusula de escopo negativa** da
+carteira (*"não faz parte deste contrato a integração com LINX"*), o **único backup de liderança
+declarado**, e o **único relatório de incidente formal** (08/08/2025, não lido).
+
+> 🔴 **E a tese do BrainHub aparece dita por Vendas em 06/06/2024, sobre esta conta:**
+> *"**Processo está na cabeça da Marcinha** → **missão é tirar as informações da cabeça dela e
+> colocar na ferramenta**."*
+> **Conhecimento institucional preso numa pessoa, nomeado, com dono e com data, dois anos antes.**
+
+### `_proposta-grade-de-areas-revisao.md` revisada com 10 clientes
+- **Produção interna chegou a 4** — `Atelier` (NV) · `Oficina` (NK) · `Estamparia` (VIX) ·
+  **`Pilotagem` (Cambos)**. **Criar `15_Producao-Interna` sai de recomendada para sustentada.**
+- 🔴 **`Merchandising` atingiu três — e por isso MUDEI a recomendação para NÃO criar área.**
+  Os três escopos são diferentes. **Criar área para um nome que significa três coisas é pior que
+  deixar `[a preencher]`.**
+- **Subárea tem dois eixos:** linha de produto (VIX) e **local** (Cambos: MG faz Modelagem e
+  Pilotagem, SP faz Pesquisa e Criação). Pede `subAreaKind`.
+- 🔴 **`10_Marketing` e `12_Design` aparecem em 1 de 10** — **menos que a produção interna, que
+  aparece em 4 e não existe na grade.** **A pergunta agora é se sobra área, não só se falta.**
+- **Seções §1, §4, §5 e §6 marcadas `SUPERSEDED`** apontando para a §7 — um assunto tem um dono.
+
+### Sistemas descobertos na varredura, fora do inventário
+**Kanbanize** (Reserva) · **Gist** (chat da plataforma) · **uBuy**, **uPlan**, **uPick**, **IPSP**
+(produtos) · **docs.umode.app** · **HubSpot** (CRM, Luiza Barcelos) · **Trello** e **Banner**
+(Cambos) · **Totvs Virtual Age** (Cambos) · **Safe Tech** (Luiza Barcelos) · **SAP** (Oficina) ·
+**Qualitá** (auditoria externa) · **Tactiq**, **Gemini**, **ChatGPT** (geração de contexto).
+
+### Padrões que atravessam a carteira
+| Padrão | Clientes | Leitura |
+|---|---|---|
+| **Problema de variante** | Caedu · Reserva · VIX · Lofty · **Cambos** | **5** — e na Cambos é a dor que motivou a compra |
+| **Exportação / Mapa** | Caedu · Puket · Reserva | 3 |
+| **Custo Linx × uMode divergente** | NV · VIX · Lofty | 3 |
+| **Controles paralelos** | Cambos (Trello) · NK (planilhas) · **Oficina** | 3 |
+| **"Material travado"** | NV · Lofty · Baw | 3 |
+| **Credencial exposta no Notion** | **NK STORE** · **Lofty Style** | 🚨 **2 de 10** |
+| **E-mail financeiro na página e campo vazio na base** | Cambos · Luiza Barcelos | 2 |
+| **Duas camadas de domínio de e-mail** | Puket · Cambos | 2 |
+| **Dor de NCM** | Lofty · Oficina | 2 |
+
+### O que fica para a próxima rodada
+1. **Operação Assistida** — Moda Objetiva, Osklen
+2. **`Loungerie`** — `Onboarding`, **precisa ser criado no corpus**
+3. **Pré Onboardings** — Arezzo (⚠ **ligada à Oficina Reserva**), Hering
+4. **Sem CS** (7) e **Churn** (17)
+5. 🔴 **As sub-páginas de permissionamento** de Cambos, Oficina Reserva e Luiza Barcelos —
+   **as três existem e não foram varridas**, e são o que nomeia as pessoas que faltam.
+
 ## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
 
 > Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue

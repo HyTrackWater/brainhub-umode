@@ -1,105 +1,248 @@
 # Oficina Reserva · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
 ## Identidade
 ### ID do cliente
-oficina-reserva
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`oficina-reserva`
+
 ### Aliases do cliente
-- Oficina Reserva (CRM "Mapa de Clientes" — nome canônico)
-- OFICINA (prefixo usado nos títulos de RFI no Notion)
+`Oficina Reserva` · `Oficina` · domínio `oficinareserva.com`
+
 ### Quem são
-[a preencher]
+🔴 **A Oficina Reserva NÃO é marca da Reserva. É marca do Grupo AR&CO.**
+
+A fonte é uma mensagem do **João no grupo de Sales**, registrada na página e datada de
+**26/06/2024**:
+
+> *"Call com a Oficina agora, **marca do Grupo AR&CO**, e oficialmente se tornarão clientes nos
+> próximos dias. A princípio **não haverá valor adicional, pois entrarão no mesmo pacote do
+> Grupo**. Mas vale o registro no CRM e em breve subir a marca para o site.
+> **Começarão apenas com uFlow.**"*
+
+> 🔴 **Três fatos comerciais nessa única mensagem, e nenhum deles está em campo estruturado:**
+> 1. **A conta pertence a um grupo**, não é independente.
+> 2. **Entrou sem receita adicional** — está dentro do pacote do Grupo.
+> 3. **A decisão de escopo foi "apenas uFlow"** desde o início.
+>
+> **Para a leitura da carteira isso muda tudo:** contar Oficina Reserva como cliente separado
+> **infla o número de contas e não infla a receita.** `[D]` — **como o negócio quer contar?**
+
+### ⚠ E há uma terceira empresa no meio
+A mesma mensagem registra, sobre o cadastro de produto no SAP:
+
+> *"Falta de time de apoio do SAP, **dependência do time da AREZZO**."*
+
+**`Arezzo` está na base `Mapa de Clientes` com status `Pré Onboardings`.**
+
+> **Ou seja: a Oficina Reserva depende operacionalmente do time de SAP da Arezzo, e a Arezzo é
+> prospect da uMode.** **Não afirmo a relação societária entre AR&CO e Arezzo** — afirmo o que
+> está escrito: **a dependência operacional existe e está registrada.**
+
+### ⚠ Hipótese sobre o grupo de segmentação, não confirmada
+A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é literalmente
+**"Reserva + Soma"**, junto de **Reserva** e **NV**.
+
+> **`AR&CO` não é `Soma`.** A descrição do grupo cita dois nomes e a conta pertence a um terceiro.
+> **Pode ser que o grupo signifique "as contas dos dois grandes grupos" e a Oficina tenha entrado
+> pela Reserva.** **Não afirmo. `[a preencher]` — confirmar a relação entre Reserva, Oficina
+> Reserva, Simples (by Reserva), AR&CO, Arezzo e Soma.**
+
 ### O que fazem
-[a preencher]
+`[a preencher]` — mas há **dimensão de coleção declarada**:
+
+> **400 SKUs por coleção, 100 contínuos.**
+
+**E um plano registrado:** *"Planejamento de lançamento de **marca feminina** com início no uMode."*
+
+> 🟢 **É a única conta varrida com lançamento de marca previsto para nascer dentro da
+> plataforma.** `[a preencher]` — **aconteceu?**
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — campo `Setor da Empresa` **vazio na base**, assim como `Cidade`, `Estado`,
+`CNPJ`, `Razão Social`, `Área de Atuação` e `Receita Anual`.
+
+> ⚠ **É a conta com mais campos vazios da base entre os Ongoing** — coerente com ter entrado
+> *"no mesmo pacote do Grupo"*, sem ciclo comercial próprio.
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — e a mensagem de Sales diz **"não haverá valor adicional"**.
+
 ### Grupo de segmentação uMode
-Grupo 1: Azzas
+**`Enterprise`** — Grupo 1, descrição *"Reserva + Soma"*. `WIP Estratégico 6,00`.
 
 ## Operação uMode
 ### Status atual
-Regime CS
-> ⚠ `Regime CS` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos contratados (CRM): uFlow
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uFlow
-- Acessos contratados (CRM): Ilimitado
-- Relatórios (CRM): Ilimitado
-### Usuários da conta
+**`Ongoing`** — lido na base em 21/09/2026.
 
-`[a preencher]`
+### Data de ativação
+`[a preencher]` — campo vazio.
+
+> **Mas a jornada comercial está datada com precisão incomum:**
+> **26/06/2024** call de Sales · **01/07/2024** kick-off interno · **12/07/2024** kick-off cliente.
+> Linha criada no Notion em **27/06/2024**, **um dia depois da call.**
+
+### Módulos contratados
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` · `Fornecedores` — **5 de 7**.
+
+> ⚠ **A mensagem de Sales dizia *"começarão apenas com uFlow"*, e hoje há 5 módulos.**
+> **O escopo cresceu.** `[a preencher]` — **quando e como?**
+>
+> 🟢 **`Fornecedores` está contratado** — e a relação com fornecedor era **a dor número 1.3**.
+> **Coerente.**
+
+### Usuários da conta
+`[a preencher]` — existe uma página **`Perfil de Usuário e Permissionamentos OFICINA`**,
+**não varrida**.
+
+**3 pessoas** aparecem em chamado em jan/2026. Ver [`pessoas.md`](pessoas.md).
+
+> 🔴 **A dor original dizia: *"Há apenas UMA pessoa dedicada ao cadastro"*.**
+> **Dois anos depois, três pessoas usam o sistema.** É pouco para 400 SKUs por coleção.
 
 ### ERP / Integração
-SAP e Linx
+**`SAP e Linx`** — dois ERPs.
+
+> ⚠ **A Reserva tem o mesmo par gravado como `Linx / SAP`.** **Mesmo par, grafia diferente,
+> duas linhas da mesma base.** **Erro de taxonomia na origem** — preservado e sinalizado.
+
+**E o SAP é o centro da dor:**
+> *"Processo de cadastro de produto realizado **inteiramente no SAP**. Sistema pouco intuitivo e
+> com muitas etapas entre SAP e Linx."* · *"**90% do tempo dedicado ao SAP**"* (pedido de compra).
+
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account) · Juliana Ferré Esteves (Consultor de Negócios)
-> Campo `Time de Atendimento` no CRM: Holmer & Laura
+- **2025:** **Fernanda** — atende as **3 contas `Enterprise`**: Oficina Reserva, Reserva e NV.
+- **2024:** **uma** pessoa registrada como relação — `[a preencher]`
+
+**Outras pessoas da uMode citadas:** **João** — escreveu a mensagem de Sales ·
+**Holmer** — nomeado como responsável pelos próximos passos.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
 
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+> ⚠ **Esta conta não tem lista de times, nem tabela de PLM varrida, nem pesquisa.**
+> O que existe são **funções citadas dentro das dores**. **Fonte fraca, e declarada como tal.**
+
+| Função citada na dor | → Área canônica | Evidência |
+|---|---|---|
+| **Cadastro de produto** | `08_Ecommerce-Cadastro` | *"há apenas uma pessoa dedicada ao cadastro"* |
+| **Pedido de compra** | `06_Compras-Supply-Sourcing` | *"90% do tempo dedicado ao SAP"* |
+| **Relação com fornecedor** | `06_Compras-Supply-Sourcing` | dor 1.3 · módulo `Fornecedores` contratado |
+| **Lacre e mostruário** | `05_PCP` | *"status de lacre, desenvolvimento de MP e mostruário"* |
+| **Auditoria de qualidade** | `04_Qualidade` | **feita pela Qualitá, empresa externa** |
+| **Gestão de time / performance** | **transversal** | *"performance do time, análise do micro ao macro"* |
+
+> **As outras oito áreas canônicas não são mencionadas em nenhuma fonte varrida.**
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-[a preencher]
+⚠ **Não há pasta registrada na base** — campo ausente, diferente de todos os outros Ongoing.
+
 ### Outras fontes
-- Chamados/Atendimento vinculados no CRM: Material não foi integrado novamente, Sem acesso aos produtos, Untitled, Untitled, Untitled, Untitled, Untitled, Valores diferente de custo. Mas falta evidências., Untitled
+| Fonte | Ferramenta | Estado |
+|---|---|---|
+| **Perfil de Usuário e Permissionamentos OFICINA** | Notion | 🔴 **não varrida** |
+| Kick Off Interno — 01/07/24 | Notion | **não varrido** |
+| Oficina Reserva \| Kick Off Cliente — 12/07/24 | Notion | **não varrido** |
+| Reuniões com clientes · Demandas Oficina | Notion (2 bases) | **não varridas** |
+| Duas páginas mencionadas sem título visível | Notion | **não varridas** |
+| **SAP** | sistema do cliente | 🔴 **centro da dor, não capturado** |
+| **Qualitá** | **empresa externa de auditoria** | 🔴 **não está no inventário** |
+| **WhatsApp** (com a Qualitá) | WhatsApp | **não capturado** |
+| **Google Drive** (gerenciamento de arquivos) | Google Drive | **não capturado** |
+| **Corel** (documentos com fornecedor) | Corel | **não capturado** |
+| `Chamados & Atendimentos` | Notion | ✅ **varrida — 7 chamados, 3 pessoas** |
+
+> 🔴 **A `Qualitá` é uma empresa externa de auditoria de qualidade que opera no processo do
+> cliente**, e **não está em nenhum inventário da uMode.** É um **terceiro ator** no fluxo,
+> junto de fornecedores — como os quatro fornecedores que operam dentro da conta da Reserva.
 
 ## Contexto crítico
-- Onde Estamos (CRM): Onboarding Etapas Realizadas: * Diagnóstico e Reconhecimento * Configurações do Sistema (Ficha de Produto, Abas da Ficha, Campos de Cadastro) * Integração entre uMode <> SAP <> Linx * Carga de coleções passadas na uMode
-- Sucesso do Cliente (CRM): • Evoluir na implementação da plataforma sem ter retrocesso   · • Fonte de potencializar o trabalho de todo o time   · • Integrar parte do cadastro em pouco tempo   · • Necessidade de organizar o próprio trabalho e dar visibilidade do que está sendo desenvolvido   · • Toda evolução é sinônimo de sucesso   · • Estarem preparados para implementar a uMode já é um sucesso
-- O que falta (CRM): * Estruturação ( WFs, Regras de Validações e Restrições, Regras de Aprovações, Permissionamentos)
-- Tamanho atendimento (CRM): G
-- Última edição do registro no CRM: March 4, 2026 10:07 AM por Ju Ferré
-
 ### Onde estamos
-
-`[a preencher]`
+Conta que entrou pelo grupo em jul/2024, com **kick-off em duas semanas**.
+**7 chamados em jan/2026, 3 abertos.**
 
 ### 🔴 A frente aberta
+A mensagem de Sales define sucesso com prazo:
 
-`[a preencher]`
+> *"Objetivo de estar **'rodando' no uMode em 6 meses**, resolvendo os itens 1 e 2 das dores.
+> Interesse em um **MVP** para implementação rápida."*
+
+**Seis meses a partir de 26/06/2024 é dezembro de 2024.** Hoje é **setembro de 2026** —
+**mais de um ano e meio depois do prazo.**
+
+> ⚠ **Não afirmo que o objetivo não foi atingido.** Afirmo que **nenhuma fonte varrida registra
+> se foi.** `[a preencher]` — **e essa é a pergunta mais importante desta conta.**
+
+**Os "próximos passos" registrados para o Holmer também não têm desfecho:**
+definição da integração e dos reports · planejamento das ações ·
+**"definição de celebração ao atingir o sucesso"** · planejamento do início do projeto.
+
+> 🟢 **"Definição de celebração ao atingir o sucesso" é uma prática que só aparece nesta
+> conta.** Vale para o brain da Casa: **é método, e está num só lugar.**
 
 ### O que o cliente espera
-
-`[a preencher]`
+**Resolver as dores 1 e 2 — cadastro de produto e centralização de gestão — em 6 meses, via MVP.**
 
 ### As dores estruturais registradas
+**Seis blocos, transcritos da mensagem de Sales de 26/06/2024:**
 
-`[a preencher]`
+**1.1 · Cadastro de produto inteiramente no SAP**
+*"Sistema pouco intuitivo e com muitas etapas entre SAP e Linx."* ·
+*"Falta de time de apoio do SAP, **dependência do time da AREZZO**."* ·
+*"Necessidade de ajustes em cor, grade, **NCM**, etc."* ·
+*"**Há apenas uma pessoa dedicada ao cadastro**, mas gostaria de ter um papel mais tático."* ·
+*"Informações desafiadoras de serem encontradas."*
+
+> ⚠ **NCM aparece também como página dedicada na Lofty Style.** **Dois clientes com dor fiscal.**
+
+**1.2 · Interação com a Qualitá — auditoria externa**
+*"Processo todo feito pelo **WhatsApp**."* ·
+*"Envio de FTs causa atrasos, pois **o inspetor chega para auditar e não tem o documento**."* ·
+*"Gerenciamento de arquivos no Google Drive."* ·
+*"**Má reputação entre as Fornecedores e Qualitá por não usarem uMode.**"*
+
+> 🔴 **A última frase é notável: há custo reputacional em NÃO usar a plataforma**, percebido
+> por terceiros no ecossistema. **É o argumento comercial mais forte que apareceu em toda a
+> varredura, e está enterrado numa mensagem de grupo de 2024.**
+
+**1.3 · Relação com o fornecedor**
+*"Fornecedores justificam que **não realizaram tarefas por não receberem a demanda**."* ·
+*"Muitos documentos separados para resolver a relação (e-mail, planilha, **Corel**, vídeos)."* ·
+*"Percepção negativa por **ser a única marca diferente das demais**."*
+
+**2 · Falta de centralização de gestão**
+*"Ausência de governança devido a muitos controles paralelos, causando reuniões desnecessárias."* ·
+*"**Criação de muitos rituais para suprir a falta de governança.**"*
+
+> 🟢 **"Criação de muitos rituais para suprir a falta de governança" é a melhor formulação
+> do problema que o BrainHub existe para resolver, encontrada em qualquer fonte.**
+> **E foi dita pelo cliente, não pela uMode.**
+
+**3 · Calendário** — status de lacre, desenvolvimento de MP e mostruário.
+**4 · Gestão de time** — performance do time, *"análise do micro ao macro"*.
+
+> ⚠ **Controles paralelos** aparecem também na **Cambos** (Trello) e na **NK** (planilhas).
+> **Três clientes com a mesma dor estrutural.**
 
 ### Tamanho de atendimento
-
-`[a preencher]`
+Grupo **`Enterprise`** · `WIP 6,00` · **Fernanda**, com 3 contas.
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account) · Juliana Ferré Esteves (Consultor de Negócios)
+Fernanda (2025)
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Grupo AR&CO, pacote sem valor adicional, escopo inicial, dores, sucesso, próximos passos | Notion — **mensagem do João no grupo de Sales**, na página | **26/06/2024** · varrida 21/09/2026 |
+| Datas de kick-off | Notion — títulos das seções da página | **varrido 21/09/2026** |
+| 7 chamados e 3 pessoas | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Status, módulos, ERP, segmentação | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |

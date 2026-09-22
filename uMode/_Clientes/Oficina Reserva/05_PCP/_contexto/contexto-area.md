@@ -1,0 +1,71 @@
+# Planejamento e Controle da Produção · Contexto de área — Oficina Reserva
+
+> Criado em **21 set 2026** por varredura do Notion ao vivo.
+>
+> ⚠ **Esta conta não tem lista de times, tabela de PLM varrida nem pesquisa.**
+>
+> **A fonte é a mensagem do João no grupo de Sales, de 26/06/2024**, que levantou as dores por área. **É fonte rica em conteúdo e pobre em nome** — descreve o que cada função sofre, e **não diz quem é.**
+
+## O que esta área faz
+**Fonte: o indicador 3 pedido na call de Sales** — *"Calendário: status de **lacre**, **desenvolvimento de MP** e **mostruário**"*.
+
+🟢 **O módulo `Cronograma` está contratado** — e responde diretamente a este pedido.
+
+**Dimensão declarada da operação:** **400 SKUs por coleção, 100 contínuos.**
+
+## Com quem se relaciona (interno e externo)
+`[a preencher]`
+
+## Entregas e responsabilidades
+`[a preencher]`
+
+## Padrões operacionais
+
+### Como trabalham
+`[a preencher]`
+
+### O que não fazem
+`[a preencher]`
+
+## Vocabulário da área
+
+### Termos específicos
+`[a preencher]`
+
+## Pessoas desta área
+`[a preencher]` — nenhuma pessoa nomeada.
+
+## Produto conectado
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` · `Fornecedores` — **5 de 7**.
+ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
+
+## Fontes e referências
+
+### Documentos que esta área consome
+`[a preencher]`
+
+### Documentos que esta área produz
+`[a preencher]`
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
+| Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+
+### 🔴 Próxima fonte a varrer
+**`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas
+desta conta.** Depois: atas de kick-off interno (01/07/24) e de cliente (12/07/24), e as bases
+*Reuniões com clientes* e *Demandas Oficina*.
+
+## Governança
+
+### Responsável na empresa cliente
+`[a preencher]`
+
+### Responsável de atendimento (uMode)
+Fernanda (2025)
+
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode

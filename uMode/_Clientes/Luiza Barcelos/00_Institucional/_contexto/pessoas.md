@@ -1,84 +1,101 @@
 # Luiza Barcelos · Pessoas
 
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
+>
+> 🟢 **É a conta com mais pessoas nomeadas da carteira: 14 com cargo e e-mail**, mais
+> hierarquia de projeto, líder e vice-líder declarados, e **expectativa individual registrada
+> para três delas**.
+>
+> ⚠ **A página de origem contém telefone pessoal. Não foi copiado.**
+
 ## Responsável de atendimento (uMode)
-**Laura Delgado Cardoso** (Key Account) · **Marina Gonçalves Santoro** (Consultora de
-Negócios)
-
-> Confirmado via CRM "Mapa de Clientes" e base "Reuniões Compartilhadas com Clientes"
-> (varredura de 09 jul 2026). Marina Santoro conduziu o onboarding em 2024. **Andrea Goulart
-> Holmer dos Santos** (Key Account) atendia este cliente em par com Laura, mas saiu do time
-> da uMode (atualizado em 13 jul 2026) — time de atendimento atual não confirmado além de
-> Laura.
-
----
+- **2025:** **Laura** — atende **4 contas**: Luiza Barcelos, Cambos, Lofty Style e Moda Objetiva.
+- **2024:** duas pessoas registradas como relação — `[a preencher]`
 
 ## Diretoria e decisores
 
-**Luiz Raul Aleixo Barcelos** · Diretor / Representante Legal
-- luiz@luizabarcelos.com.br · +55 31 99982-3325
+| Pessoa | Cargo | E-mail |
+|---|---|---|
+| **Marcinha — Luiza Barcelos** | **Diretora Criativa** · dá nome à empresa | `[a preencher]` |
+| **Ana Lucia Andrade** | **Responsável pelo Financeiro** | `[a preencher]` |
 
-**Marcinha (Luiza Barcelos)** · Diretora Criativa
-- Detentora do processo de coleção — missão: externalizar seu conhecimento para a ferramenta.
-- Expectativa: inovação e agilidade no processo criativo sem perder criatividade.
-
----
+> 🔴 **A Marcinha é o centro de gravidade da conta, e a ata de Sales diz isso literalmente:**
+>
+> *"**Processo está na cabeça da Marcinha** (Luiza Barcelos) → **Missão é tirar as informações da
+> cabeça dela e colocar na ferramenta.**"*
+>
+> **Expectativa dela, registrada:** *"gerar inovação no processo criativo, trazendo agilidade e
+> gestão **sem perder a criatividade**"*.
+>
+> **E uma oportunidade nomeada:** *"Processo de Pesquisa — fizeram várias tentativas, com várias
+> ferramentas, e **não tiveram sucesso**"*.
+>
+> ⚠ **A pessoa mais importante da conta não tem e-mail registrado em nenhuma fonte varrida.**
 
 ## Liderança do projeto (cliente)
+**Declarada, com líder e vice:**
 
-**Gabriel Jaques da Silva** · Líder central do projeto
-- Coordenador de Merchandising
-- gabriel.silva@luizabarcelos.com.br · +55 31 98930-3120
+| Papel | Pessoa | Cargo | E-mail |
+|---|---|---|---|
+| 🔴 **Líder direto** · *"Líder Central do Projeto"* | **Gabriel Jaques** | **Coordenador de Merchandising** | `gabriel.silva@luizabarcelos.com.br` |
+| **Vice-líder** · *"BackUp do Líder de Projeto"* | **Gustavo Gabriel Santos Sobrinho** | **Gerente Executivo de Estratégia e Gestão** | `gustavo.sobrinho@luizabarcelos.com.br` |
 
-**Gustavo Gabriel Santos Sobrinho** · Vice-líder
-- Gerente Executivo de Estratégia e Gestão
-- gustavo.sobrinho@luizabarcelos.com.br · +55 31 98296-3660
-
----
+> 🟢 **É a única conta da carteira com backup de liderança declarado.** **Boa prática.**
+>
+> ⚠ **O nome e o e-mail do líder não combinam:** *Gabriel **Jaques*** com
+> `gabriel.**silva**@...`. **Preservado da origem.** Pode ser nome social, nome de casada, ou
+> erro. **Não inferi.**
+>
+> 🔴 **O líder do projeto é Coordenador de Merchandising** — e `Merchandising` **não tem área
+> canônica**. Ver [`institucional.md`](institucional.md).
 
 ## Time do projeto por área
 
-**Andre Franco** · Gerente de Estilo
-- Estilo / Criação
-- Animado com a implementação. Expectativa: foco na coleção e eficiência no setor.
-- andre.franco@luizabarcelos.com.br
+> **Fonte dupla:** o bloco *Times Envolvidos* **e a agenda do kick-off presencial**, que marcou
+> **uma sessão por área com participantes nomeados**. **Oitavo tipo de fonte de vínculo
+> pessoa↔área em dez clientes.**
 
-**Romulo Smaniotto** · Gerente de Desenvolvimento de Produto
-- Desenvolvimento de Coleção
-- romulo.smaniotto@luizabarcelos.com.br
+| Área canônica | Time declarado | Pessoas |
+|---|---|---|
+| `02_Estilo-Criacao` | Estilo | **Andre Franco** — Gerente de Estilo · **Giuliana** — Estilo e Merchandising |
+| `03_Desenvolvimento-de-Colecao` | Desenvolvimento | **Romulo Smaniotto** — Gerente de Desenvolvimento de Produto · **Ticiane** — Desenvolvimento |
+| `06_Compras-Supply-Sourcing` | Suprimentos | **Adriane** — Gerente de Levantamento de Suprimentos |
+| `08_Ecommerce-Cadastro` | Operações → Cadastro | **Marcio** — Cadastro · **Marcelo Tonello** — Gerente de Operação do Sul |
+| ⚠ `[a preencher]` | **Produto e Merchandising** | **Gabriel Jaques** — Coordenador · **Giuliana** |
+| ⚠ `[a preencher]` | Operações → **Precificação** | **Marcelo Tonello** — *"Desenvolvimento até a Precificação está no guarda-chuva dele"* |
+| **transversal** | Estratégia, Processos e Projetos | **Gustavo Sobrinho** · **Janaina** — Processos, Documentação, Estruturação e Mapeamento · **Paulo Victor** |
+| — (área da Casa) | Tecnologia | **Eduardo Brito** — Coordenador de Sistemas e Tecnologia · **Samuel Correa** |
+| **diretoria** | Diretoria Criativa | **Marcinha** · **Ana Lucia Andrade** (Financeiro) |
 
-**Ticiane Rosa** · Desenvolvimento de Coleção
-- ticiane.rosa@luizabarcelos.com.br
+### 🟢 A agenda do kick-off presencial é uma fonte de vínculo por si só
+O kick-off foi organizado em **sessões por área**, cada uma com participantes nomeados:
 
-**Adriane Campos** · Gerente de Levantamento de Suprimentos
-- Compras / Supply / Sourcing
-- adriane.campos@luizabarcelos.com.br
+| Horário | Área | Participantes |
+|---|---|---|
+| 9h–10h | **Pré Kick Off com Diretoria** | *"apenas executivos de nível C e líderes do projeto"* |
+| 10h–12h | **Kick Off** | diretoria, líderes e **head das áreas envolvidas** |
+| 13h–14h | **Estilo** | Gabriel, Gustavo e **Andre** |
+| 15h–16h | **Desenvolvimento de Produto** | Gabriel, Gustavo e **Romulo** |
+| 16h–17h | **Operações** | Gabriel, Gustavo e **Marcelo** |
+| 17h–18h | **Merchandising** | Gabriel e Gustavo |
+| online | **Suprimentos** | Gabriel, Gustavo e **Adriane** |
 
-**Marcelo Tonello** · Gerente de Operação do Sul
-- Logística e Cadastro — do desenvolvimento à precificação
-- marcelo.tonello@luizabarcelos.com.br
-
-**Marcio** · Cadastro
-- E-commerce / Cadastro
-
-**Giuliana** · Estilo e Merchandising
-
-**Janaina Araújo** · Processos, Documentação e Mapeamento
-- janaina.araujo@luizabarcelos.com.br
-
-**Paulo Victor França** · Assistente Administrativo → migrando para Estratégia e Gestão
-- paulo.franca@luizabarcelos.com.br
-
----
+> **Objetivo declarado da tarde:** *"Conhecer o dia a dia de cada time. **Entender o processo e as
+> dores de cada um.**"*
+>
+> 🔴 **Foi feito o levantamento de dor por área — e o campo *Dores* das Definições do Projeto
+> está preenchido com um hífen.** **O trabalho aconteceu e o resultado não foi registrado onde
+> deveria.** `[a preencher]` — **onde foram parar essas dores?**
+>
+> ⚠ **Gabriel e Gustavo estão em TODAS as sessões.** **Confirma a liderança e mostra
+> concentração** — se os dois saírem, a conta perde a memória do projeto.
 
 ## Estado de atividade das pessoas
 
-`[a preencher]`
-
 ### Como o estado é apurado
 
-> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
-> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
-> em qual ferramenta, em qual área.**
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data que dá para citar.**
+> Este eixo existe para a jornada do usuário: **quem atende o quê, em qual ferramenta, em qual área.**
 
 | Estado | O que significa | Evidência que o sustenta |
 |---|---|---|
@@ -88,48 +105,111 @@ Negócios)
 | `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
 | `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
 
-**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão.
+**Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte.**
 
 ### Razão de pessoas
 
-`[a preencher]`
+**14 pessoas** no razão. `ATIVO` **1** · `INDETERMINADO` **13**.
 
-| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+> ⚠ **Uma só pessoa tem evidência de ação na janela de jan/2026** — e a conta declara
+> **13 usuários uFlow + 2 uDash**. **Doze pessoas nomeadas, com cargo e e-mail, e nenhum sinal de
+> uso.**
+>
+> 🔴 **Isso NÃO significa que não usam.** A janela tem **24 dias** e a única fonte de ação é
+> a base de chamados. **Significa que, com a instrumentação atual, a conta de maior receita da
+> carteira é quase invisível.**
+
+| Pessoa | E-mail | Área | Estado | Evidência | Cargo |
 |---|---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| **Ticiane Rosa** | `ticiane.rosa@luizabarcelos.com.br` | `03_Desenvolvimento-de-Colecao` | **`ATIVO`** | chamado de `USABILIDADE` em **14/01/2026** | Desenvolvimento |
+| **Gabriel Jaques** | `gabriel.silva@luizabarcelos.com.br` | Merchandising | `INDETERMINADO` | **Líder Central do Projeto** · em todas as sessões do kick-off | Coordenador de Merchandising |
+| **Gustavo Sobrinho** | `gustavo.sobrinho@luizabarcelos.com.br` | Estratégia e Gestão | `INDETERMINADO` | **Vice-líder** · em todas as sessões | Gerente Executivo de Estratégia e Gestão |
+| **Marcinha (Luiza Barcelos)** | `[a preencher]` | Diretoria Criativa | `INDETERMINADO` | *"o processo está na cabeça dela"* | **Diretora Criativa** |
+| **Andre Franco** | `andre.franco@luizabarcelos.com.br` | `02_Estilo-Criacao` | `INDETERMINADO` | sessão de Estilo no kick-off | Gerente de Estilo |
+| **Romulo Smaniotto** | `romulo.smaniotto@luizabarcelos.com.br` | `03_Desenvolvimento-de-Colecao` | `INDETERMINADO` | sessão de Desenvolvimento | Gerente de Desenvolvimento de Produto |
+| **Marcelo Tonello** | `marcelo.tonello@luizabarcelos.com.br` | `08_Ecommerce-Cadastro` · Precificação | `INDETERMINADO` | sessão de Operações | Gerente de Operação do Sul |
+| **Adriane Campos** | `adriane.campos@luizabarcelos.com.br` | `06_Compras-Supply-Sourcing` | `INDETERMINADO` | sessão de Suprimentos | Gerente de Levantamento de Suprimentos |
+| **Janaina Araujo** | `janaina.araujo@luizabarcelos.com.br` | transversal | `INDETERMINADO` | nomeada na página | Processos, Documentação, Estruturação e Mapeamento |
+| **Paulo Victor (França)** | `paulo.franca@luizabarcelos.com.br` | transversal | `INDETERMINADO` | nomeado na página | Assistente Administrativo → **migrando para Estratégia e Gestão** |
+| **Eduardo Brito** | `eduardo.brito@luizabarcelos.com.br` | Tecnologia | `INDETERMINADO` | nomeado na página | Coordenador de Sistemas e Tecnologia |
+| **Ana Lucia Andrade** | `[a preencher]` | `11_Financeiro` | `INDETERMINADO` | nomeada na página | Responsável pelo Financeiro |
+| **Giuliana** | `[a preencher]` | `02_Estilo-Criacao` + Merchandising | `INDETERMINADO` | nomeada na página | Estilo e Merchandising |
+| **Marcio** | `[a preencher]` | `08_Ecommerce-Cadastro` | `INDETERMINADO` | nomeado na página | Cadastro |
+| **Samuel Correa** | `[a preencher]` | Tecnologia | `INDETERMINADO` | nomeado na página | Tecnologia |
+
+### ⚠ Uma pessoa em transição de área, declarada na própria fonte
+**Paulo Victor** está registrado como *"Assistente Administrativo **atualmente**, **migrando para
+Estratégia e Gestão**"*.
+
+> **É o segundo caso de mudança de área da varredura** — o primeiro foi a Gabriela Cunha na Lofty
+> Style, visível só porque havia duas medições no tempo. **Aqui a transição está escrita como
+> estado corrente.**
+>
+> **Reforça que `person_memberships` precisa ser histórico e aceitar transição em andamento.**
+> Item para a
+> [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) §3.
+
+### ⚠ Erros de grafia preservados da origem
+| Na origem | Provavelmente |
+|---|---|
+| `Romulo Smaniaotto` (uma vez) · `Romulo Smaniotto` (e-mail) | **Smaniotto** |
+| `Eduardo Britto` (uma vez) · `Eduardo Brito` (e-mail) | **Brito** |
+| `Gabriel Jaques` com `gabriel.silva@` | **nome e e-mail não batem** |
+| `Configuarações` (título de página) | *Configurações* |
+
+**Corrigir é na fonte.** Aqui ficam registrados para a reconciliação não contar duas pessoas.
 
 ## Canais de comunicação
 
-> **Cada canal é uma entidade** — tem participantes, cadência, dono e
-> assunto. É por aqui que a indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.
+>
+> 🔴 **E nesta conta o objetivo declarado é literalmente reduzir canal:**
+> *"reduzindo ao máximo o uso de **e-mail e whatsapp**"* · *"acabar com a comunicação de
+> **plataformas aleatórias** entre os times"*.
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| **Weekly Luiza Barcelos <> uMode** | Notion | cliente + uMode | **semanal** | 🔴 **relatório de incidente em 08/08/2025** |
+| Chamados | Notion — `Chamados & Atendimentos` | 1 pessoa | **muito baixa** | **14/01/2026** |
+| **Kick-off interno** | **gravação em vídeo** (Drive) | time uMode | único | **06/06/2024** |
+| **Resumo do kick-off** | 🔴 **HubSpot** (deal) | time uMode | único | **06/06/2024** |
+| Warm-up com cliente | Notion + Slides | cliente + uMode | único | **não varrido** |
+| **Kick-off presencial** | presencial | **7 sessões, uma por área** | único | **não varrido** |
+| Reuniões com Cliente · Demandas | Notion (2 bases) | `[a preencher]` | — | **não varridas** |
+| Miro | Miro | `[a preencher]` | — | **não capturado** |
+| Drive de operação | Google Drive | `[a preencher]` | — | **não capturado** |
+| **E-mail e WhatsApp** | — | times do cliente | contínua | 🔴 **não capturado — e o projeto existe para reduzi-los** |
+
+> 🔴 **Existe uma weekly com o cliente, e a única evidência dela é um relatório de incidente.**
+> **É o único relatório de incidente formal de qualquer conta** — e **não foi varrido**.
 
 ## Financeiro
-
-**Ana Lucia Andrade** · Responsável Financeiro
-- ana.andrade@luizabarcelos.com.br · +55 31 99152-9914
+- **Responsável: Ana Lucia Andrade** — e-mail `[a preencher]`
+- **E-mail principal financeiro:** `luiz@luizabarcelos.com.br` — ⚠ **está na página, e o campo
+  `Email Principal Financeiro` da base está VAZIO.**
+  > **Mesmo padrão da Cambos: o dado existe e não chegou ao campo.**
+- **Receita anual: R$ 350.000.000** — **a maior da carteira.**
 
 ## Tecnologia
-
-**Eduardo Brito** · Coordenador de Sistemas e Tecnologia
-- eduardo.brito@luizabarcelos.com.br
-
-**Samuel Correa** · Gerente de Inovação e Tecnologia
-- samuel.correa@luizabarcelos.com.br · +55 31 98836-6147
+- **Responsáveis: Eduardo Brito** (Coordenador de Sistemas e Tecnologia) e **Samuel Correa**.
+- **ERP `Safe Tech`** — **único cliente da carteira com esse ERP.**
+- 🔴 **Exclusão contratual explícita:** *"não faz parte do escopo deste contrato a integração
+  com o sistema **LINX** ou qualquer outro que não seja o **SAFETECH**"*.
+- ⚠ **E o time tem trauma declarado com a Linx** — *"frustrações passadas"*. **As duas coisas
+  estão ligadas e ninguém as ligou por escrito.**
+- Há uma página **`Luiza Barcelos | Integração com ERP`**, **não varrida**.
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| 14 pessoas com cargo, líder e vice, times envolvidos | Notion — bloco sincronizado *Pessoas* e *Definições do Projeto* | **varrido 21/09/2026** |
+| Sessões por área com participantes | Notion — agenda do *Kick Off Cliente - Presencial* | **varrido 21/09/2026** |
+| Usuários uFlow/uDash, prazo, trauma, tese | Notion — ata do *Kick Off Interno* | **06/06/2024** · varrida 21/09/2026 |
+| 1 chamado | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+
+> **Telefone pessoal existe na fonte e NÃO foi copiado.**

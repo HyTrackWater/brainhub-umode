@@ -1,100 +1,123 @@
 # Oficina Reserva · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- 🔴 **Não sei se o objetivo de 6 meses foi atingido.** A meta era estar *"rodando no uMode"*
+  até **dez/2024**, resolvendo as dores 1 e 2. **Nenhuma fonte varrida registra o desfecho**, e
+  hoje é **set/2026**.
+- **Quase toda esta conta se conhece por UMA fonte:** a mensagem do João no grupo de Sales de
+  **26/06/2024**. **Dois anos atrás.**
+- **Nenhuma pessoa do cliente tem nome.** Só três e-mails em chamados.
+- **As duas atas de kick-off, as duas bases de reuniões/demandas e a página de permissionamento
+  não foram varridas.**
+- **Não há Drive de operação registrado** — campo ausente, único caso entre os Ongoing.
 
 ## Status atual
-Regime CS
+**`Ongoing`** · **5 de 7 módulos** · ERP **`SAP e Linx`** · grupo **`Enterprise`**.
 
 ## Fase atual
-Onboarding Etapas Realizadas: * Diagnóstico e Reconhecimento * Configurações do Sistema (Ficha de Produto, Abas da Ficha, Campos de Cadastro) * Integração entre uMode <> SAP <> Linx * Carga de coleções passadas na uMode
-> Campo `Onde Estamos` do CRM.
+**Conta de grupo, com escopo que cresceu e desfecho não registrado.** Entrou como
+*"apenas uFlow"* e hoje tem **5 módulos**. **7 chamados em jan/2026, 3 abertos.**
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 18/07/2024 | [a preencher] | Reunião - Início do Diagnóstico e Reconhecimento |
-| 19/07/2024 | [a preencher] | Weekly 19/07/24 |
-| 21/03/2025 | [a preencher] | uFlow - Status OFICINA Weekly 21/03/25 |
-| 28/03/2025 | [a preencher] | uFlow - Status OFICINA Weekly 28/03/25 |
-| 09/04/2025 | [a preencher] | uFlow - Status OFICINA Weekly 09/04/25 |
-| 09/04/2025 | [a preencher] | uFlow - Status OFICINA Weekly 02/05/25 |
-| 24/04/2025 | [a preencher] | uFlow - Status OFICINA Apresentação para Fornecedores 24/04/25 |
-| 12/05/2025 | [a preencher] | uFlow - Status OFICINA Weekly 12/05/25 |
-| 13/05/2025 | [a preencher] | uFlow - Oficina - Reunião 13/05/25 - Campos de Lacre uMode/Sap/Linx |
-| 16/05/2025 | [a preencher] | uFlow - Status OFICINA Weekly 16/05/25 |
-| 23/05/2025 | [a preencher] | uFlow - Status OFICINA Weekly 23/05/25 |
-| 30/05/2025 | [a preencher] | uFlow - Status OFICINA Weekly 30/05/25 |
-| 06/06/2025 | [a preencher] | uFlow - Status OFICINA Weekly 06/06/25 |
-| 04/07/2025 | [a preencher] | uFlow - Status OFICINA Weekly 04/07/25 |
-| 14/07/2025 | [a preencher] | uFlow - Status OFICINA Weekly 14/07/25 |
-| 28/07/2025 | [a preencher] | uFlow - Status OFICINA Weekly 28/07/25 |
-| 15/08/2025 | [a preencher] | uFlow - Status OFICINA Weekly 15/08/25 |
-| 01/09/2025 | [a preencher] | uFlow - Status OFICINA Weekly 01/09/25 |
-| 05/09/2025 | [a preencher] | uFlow - Status OFICINA Weekly 05/09/25 |
-| 15/09/2025 | [a preencher] | uFlow - Status OFICINA Weekly 15/09/25 |
-| 19/09/2025 | [a preencher] | uFlow - Status OFICINA Weekly 19/09/25 |
-| 26/09/2025 | [a preencher] | uFlow - Status OFICINA Weekly 26/09/25 |
-| 03/10/2025 | [a preencher] | uFlow - Status OFICINA Weekly 03/10/25 |
-| 10/10/2025 | [a preencher] | uFlow - Status OFICINA Weekly 10/10/25 |
-| 22/10/2025 | [a preencher] | uFlow - Reserva/Oficina Reunião Interna 22/10/2025 - Passo a Passo Testes Integração Pós Alterações |
-| 24/10/2025 | [a preencher] | uFlow - Status OFICINA Weekly 24/10/25 |
-| 31/10/2025 | [a preencher] | uFlow - Oficina/Reserva - Reunião 31/10/2025 Teste Integração Escrita |
-| 05/11/2025 | Weekly Projeto | uFlow - Status OFICINA Weekly 05/11/25 |
-| 14/11/2025 | Weekly Projeto | uFlow - Status OFICINA Weekly 14/11/25 |
-| 28/11/2025 | Weekly Projeto | uFlow - Status OFICINA Weekly 28/11/25 |
-| 12/12/2025 | Weekly Projeto | uFlow - Status OFICINA Weekly 12/12/25 |
-| 16/01/2026 | Weekly Projeto | uFlow - OFICINA Alinhamento Quinzenal 16/01/26 |
-| 30/01/2026 | Weekly Projeto | uFlow - OFICINA Alinhamento Quinzenal 30/01/26 |
-| 05/02/2026 | [a preencher] | Discovery Costume Oficina |
-| 13/02/2026 | Weekly Projeto | uFlow - OFICINA Alinhamento Quinzenal 13/02/26 |
-| 06/03/2026 | Weekly Projeto | uFlow - OFICINA Alinhamento Quinzenal 06/03/26 |
-| [não informada] | [a preencher] | [reunião sem título na fonte] |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 37 reuniões registradas para este cliente
-> (36 com data, 1 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
+| Data | Marco | Fonte |
+|---|---|---|
+| **26/06/2024** | 🔴 **Call de Sales** — João registra no grupo: marca do **Grupo AR&CO**, entra **sem valor adicional**, começa **apenas com uFlow**. Dores, indicadores e critério de sucesso levantados na mesma call. | mensagem na página |
+| **27/06/2024** | Linha do cliente criada no Notion — **um dia depois** | base `Mapa de Clientes` |
+| **01/07/2024** | **Kick-off interno** | título de seção na página |
+| **12/07/2024** | **Kick-off com o cliente** | idem |
+| **dez/2024** | 🔴 **Prazo declarado para estar "rodando no uMode"** — 6 meses a partir da call | mensagem de Sales |
+| `[a preencher]` | Escopo cresce de *"apenas uFlow"* para **5 módulos** | base `Mapa de Clientes` |
+| **08–29/01/2026** | **7 chamados de 3 pessoas** | `Chamados & Atendimentos` |
+| **30/06/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
+
+> 🟢 **Dezesseis dias da call de Sales ao kick-off com o cliente.** **É a entrada mais rápida
+> de toda a carteira** — coerente com ter entrado por um grupo já cliente.
 
 ## Entregas comprometidas
-[a preencher]
+| Entrega | Estado |
+|---|---|
+| **Estar "rodando" no uMode em 6 meses** | 🔴 **prazo vencido em dez/2024 · desfecho não registrado** |
+| **MVP para implementação rápida** | `[a preencher]` |
+| Definição da integração e dos reports (Holmer) | `[a preencher]` |
+| **Definição de celebração ao atingir o sucesso** | `[a preencher]` · 🟢 **prática única na carteira** |
+| Lançamento de **marca feminina** começando no uMode | `[a preencher]` |
 
 ## Módulos em uso
-uFlow · Gestão de Coleção, Gestão de Processos
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` · `Fornecedores` — **5 de 7**.
+**Não contratados:** `Aposta` · `Planejamento`.
+
+> 🟢 **`Fornecedores` e `Cronograma` respondem às duas dores principais** — relação com
+> fornecedor (1.3) e calendário de lacre/MP/mostruário (3). **O escopo cresceu na direção certa.**
 
 ## Decisões e restrições registradas
-[a preencher]
+| Decisão / restrição | Fonte | Estado |
+|---|---|---|
+| **Entra no pacote do Grupo, sem valor adicional** | mensagem de Sales, 26/06/2024 | **vigente** |
+| **Começa apenas com uFlow** | idem | ⚠ **superada** — hoje são 5 módulos |
+| **Registro no CRM e subir a marca para o site** | idem | `[a preencher]` |
+| **Cadastro de produto depende do time de SAP da Arezzo** | dor 1.1 | **vigente** |
+| **Auditoria de qualidade é externa (Qualitá), por WhatsApp** | dor 1.2 | **vigente** |
 
 ## Métricas de sucesso definidas
-• Evoluir na implementação da plataforma sem ter retrocesso   · • Fonte de potencializar o trabalho de todo o time   · • Integrar parte do cadastro em pouco tempo   · • Necessidade de organizar o próprio trabalho e dar visibilidade do que está sendo desenvolvido   · • Toda evolução é sinônimo de sucesso   · • Estarem preparados para implementar a uMode já é um sucesso
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
+**Declaradas na call de Sales:**
+- **"Rodando no uMode em 6 meses"**, resolvendo as dores 1 e 2 — **prazo: dez/2024**
+- **Indicadores pedidos:** status de lacre · desenvolvimento de MP · mostruário ·
+  **performance do time** · *"análise do micro ao macro"*
+
+**Dimensão declarada:** **400 SKUs por coleção, 100 contínuos.**
+
+> 🔴 **Nenhuma medição posterior existe em fonte varrida.** **O critério foi definido com
+> prazo e nunca verificado** — mesmo padrão da Cambos, que deu baseline (nota 6,0, quebra 10%) e
+> nunca foi remedida.
 
 ## Próximos passos
-* Estruturação ( WFs, Regras de Validações e Restrições, Regras de Aprovações, Permissionamentos)
-> Campo `O que falta` do CRM.
+1. 🔴 **Responder se o objetivo de dez/2024 foi atingido.** É a pergunta central da conta.
+2. 🔴 **Varrer `Perfil de Usuário e Permissionamentos OFICINA`** — nenhuma pessoa tem nome hoje.
+3. **Ler as atas de kick-off interno (01/07) e de cliente (12/07).**
+4. 🔴 **Confirmar a relação societária** entre Oficina Reserva, Reserva, Simples (by Reserva),
+   **AR&CO**, **Arezzo** e **Soma** — e decidir como a carteira conta contas de grupo.
+5. **Mapear `Qualitá` e o time de SAP da Arezzo** como atores externos no inventário.
+6. **Perguntar se a marca feminina foi lançada** começando no uMode.
+7. **Corrigir a grafia do ERP** — `SAP e Linx` aqui, `Linx / SAP` na Reserva, **mesmo par**.
+8. **Registrar quando e como o escopo passou de "apenas uFlow" para 5 módulos.**
 
 ## Histórico de incidentes / alertas
-[a preencher]
+| Data | Registro | Estado |
+|---|---|---|
+| 08/01/2026 | Chamado de `INSTABILIDADE` — `joyce.dias` | fechado |
+| 09–23/01/2026 | **3 chamados de `TAREFA/CONFIG`** — `pamela.sanzana` | 1 aberto |
+| 28/01/2026 | `OUTROS` — `joyce.dias` | **aberto** |
+| 29/01/2026 | `INSTABILIDADE` — `mariane.araujo` | **`Não iniciada`** |
+
+> ⚠ **Volume baixo para uma conta `Enterprise`** — 7 chamados, contra 39 da NV e 8 da Reserva,
+> que têm o mesmo atendimento. **Pode ser conta madura, pode ser conta pouco usada.**
+> **Não dá para distinguir com 24 dias de janela.**
 
 ## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
+- 🔴 **A conta inteira se conhece por uma mensagem de grupo de Sales de 2024.** É a melhor
+  fonte de dor e de critério de sucesso encontrada em qualquer cliente — **e está num bloco
+  recolhido de uma página.** **Se o BrainHub existe para alguma coisa, é para isso não acontecer.**
+- 🔴 **"Criação de muitos rituais para suprir a falta de governança"** — dita pelo cliente,
+  **é a melhor formulação do problema que o BrainHub resolve, em toda a varredura.**
+- 🔴 **"Má reputação entre as Fornecedores e Qualitá por não usarem uMode"** — **há custo
+  reputacional em não usar a plataforma**, percebido por terceiros. **É argumento comercial, e
+  está enterrado.**
+- **Terceiro cliente com controles paralelos** — com Cambos (Trello) e NK (planilhas).
+- **Segundo cliente com dor de NCM** — com Lofty Style.
+- **Única conta sem `Drive Operação` registrado.**
+- **Única conta com apenas uma pessoa em `Atendimento 2024`.**
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Grupo, pacote, escopo, dores, indicadores, sucesso, próximos passos | Notion — **mensagem do João no grupo de Sales** | **26/06/2024** · varrida 21/09/2026 |
+| Datas de kick-off | Notion — títulos de seção na página | **varrido 21/09/2026** |
+| Chamados e incidentes | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Módulos, ERP, segmentação, atendimento | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |

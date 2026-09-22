@@ -1,46 +1,76 @@
 # Cambos · Pessoas
 
+> **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
+>
+> ⚠ **A página de origem contém CPF e telefone pessoal.** **Não foram copiados.**
+> Aqui ficam **nome, cargo e e-mail corporativo**, que é o dado de negócio.
+
 ## Responsável de atendimento (uMode)
-Laura Delgado Cardoso (Key Account)
+- **2025:** **Laura** — atende **4 contas**: Cambos, Lofty Style, Luiza Barcelos e Moda Objetiva.
+- **2024:** duas pessoas registradas como relação — `[a preencher]`
 
-> Par com Andrea Goulart Holmer dos Santos (Key Account) confirmado via CRM "Mapa de Clientes"
-> e base "Reuniões Compartilhadas com Clientes" — mesmo par que atendia Lofty Style, Luiza
-> Barcelos e Moda Objetiva (varredura de 09 jul 2026). Andrea saiu do time da uMode
-> (atualizado em 13 jul 2026) — time de atendimento atual não confirmado além de Laura.
-
----
+**Outra pessoa da uMode citada:** **Sandro** — deu feedback crítico sobre o warm-up. Ver
+[`institucional.md`](institucional.md).
 
 ## Diretoria e decisores
-[a preencher]
+
+| Pessoa | Cargo | E-mail |
+|---|---|---|
+| **Tony Stefan Lopes** | **Gerente Geral / Diretor de Operação da Fábrica** | `tony@souzacambos.com.br` |
+
+> ⚠ **Uma pessoa só na diretoria**, e o cargo mistura gerência geral com operação de fábrica —
+> **coerente com uma empresa de fábrica própria de porte médio.**
 
 ## Liderança do projeto (cliente)
+**Declarada na origem, em *Definições do Projeto → Líder do Projeto*:**
 
-**Tony Stefan Lopes** · Co-líder
-- Gerente Geral / Diretor de Operação da Fábrica
-- tony@souzacambos.com.br · +55 35 99119-6433
+> **"Tony e Fabi"**
 
-**Fabiane Sayuri** · Co-líder
-- Responsável pelo Desenvolvimento de Produtos
-- fabiane@cambos.com.br · +55 11 99921-4776
+| Pessoa | Cargo | E-mail | Domínio |
+|---|---|---|---|
+| **Tony Stefan Lopes** | Gerente Geral / Diretor de Operação da Fábrica | `tony@souzacambos.com.br` | **holding/fábrica** |
+| **Fabiane Sayuri** (*"Fabi"*) | **Responsável pelo Desenvolvimento de Produtos** | `fabiane@cambos.com.br` | **marca** |
 
----
+> 🟢 **É a liderança mais clara de todas as contas varridas** — nomeada, com apelido, e com
+> **dupla fábrica + desenvolvimento**, que espelha a própria divisão MG × SP da empresa.
 
 ## Time do projeto por área
 
-**Fabiane Sayuri** · Desenvolvimento de Coleção · decisor · fabiane@cambos.com.br
-**Carolina** · Estilo / Criação · executor · carolina@cambos.com.br · +55 11 97251-5470
+> **Fonte: o bloco *Times Envolvidos*, acordado com o cliente**, mais a seção *Pessoas* da página.
+> **Sétimo tipo de fonte de vínculo pessoa↔área em oito clientes.**
 
----
+| Área canônica | Time declarado | Pessoas nomeadas |
+|---|---|---|
+| `02_Estilo-Criacao` | **Desenvolvimento — SP**: Pesquisa e Criação | **Carolina** — Estilista · **Fabiane Sayuri** — Resp. Desenvolvimento de Produtos |
+| `13_Modelagem` | **Desenvolvimento — MG**: Modelagem | `[a preencher]` |
+| 🔴 **produção interna** | **Desenvolvimento — MG**: **Pilotagem** | `[a preencher]` · **sem área canônica** |
+| `09_Comercial-Vendas` | **Comercial** — passa demandas de PL para Estilo e Criação | `[a preencher]` |
+| `06_Compras-Supply-Sourcing` | **Compras** — cadastro de MP e pedido | `[a preencher]` |
+| `11_Financeiro` | — | **Valter** — Head Financeiro |
+| — (área da Casa) | Tecnologia | **Gustavo Paiva** — Head de Tecnologia |
+
+### 🔴 A mesma área dividida por cidade
+`Desenvolvimento` **é um time só com duas sedes e escopos diferentes**:
+
+- **MG (fábrica, Elói Mendes):** Modelagem e **Pilotagem**
+- **SP (lojas, Brás):** Pesquisa e Criação
+
+> **A VIX divide Estilo por linha de produto; a Cambos divide Desenvolvimento por geografia.**
+> **Dois tipos diferentes de Subárea (nível 3), ambos já existindo na operação.**
+>
+> Para o modelo: `subAreaLabel` precisa aceitar **linha de produto** *e* **local**. Item para a
+> [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
+
+### ⚠ "Desenvolvimento" aqui não é `03_Desenvolvimento-de-Colecao`
+O time engloba Pesquisa, Criação, Modelagem e Pilotagem — que na grade são `02`, `13` e
+produção interna. **Mesmo nome, escopo diferente. Não traduzi.**
 
 ## Estado de atividade das pessoas
 
-`[a preencher]`
-
 ### Como o estado é apurado
 
-> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
-> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
-> em qual ferramenta, em qual área.**
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data que dá para citar.**
+> Este eixo existe para a jornada do usuário: **quem atende o quê, em qual ferramenta, em qual área.**
 
 | Estado | O que significa | Evidência que o sustenta |
 |---|---|---|
@@ -50,41 +80,100 @@ Laura Delgado Cardoso (Key Account)
 | `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
 | `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
 
-**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão.
+**Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte.**
 
 ### Razão de pessoas
 
-`[a preencher]`
+**7 pessoas** no razão: 5 nomeadas com cargo + 2 que agiram sem constar na lista.
+`ATIVO` **1** · `INDETERMINADO` **4** · `ATIVO_SEM_CADASTRO` **2**
 
-| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+> ⚠ **O discovery declara *"em torno de 20 pessoas"* no processo de desenvolvimento.**
+> **Cinco estão nomeadas. Faltam ~15.** A página `Perfil de Usuário e Permissionamentos`
+> **existe e não foi varrida** — **é a próxima fonte desta conta.**
+
+| Pessoa | E-mail | Área | Estado | Evidência (data) | Cargo |
 |---|---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| **Carolina** | `carolina@cambos.com.br` | `02_Estilo-Criacao` | **`ATIVO`** | **6 chamados**, 08–28/01/2026 | **Estilista** |
+| `[a preencher]` | `pamela@souzacambos.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **4 chamados** de `INSTABILIDADE`, 20–29/01/2026 | — |
+| — (caixa funcional) | `atendimento@cambos.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em 28/01/2026 | ⚠ **não é pessoa** |
+| **Tony Stefan Lopes** | `tony@souzacambos.com.br` | diretoria | `INDETERMINADO` | nomeado como **líder do projeto** | Gerente Geral / Diretor de Operação da Fábrica |
+| **Fabiane Sayuri** (*Fabi*) | `fabiane@cambos.com.br` | `02_Estilo-Criacao` | `INDETERMINADO` | nomeada como **líder do projeto** | Responsável pelo Desenvolvimento de Produtos |
+| **Valter** | `fiscal@souzacambos.com.br` · `valter@cambos.com.br` | `11_Financeiro` | `INDETERMINADO` | nomeado na página | Head Financeiro · ⚠ **dois e-mails** |
+| **Gustavo Paiva** | `gustavo@souzacambos.com.br` | Tecnologia | `INDETERMINADO` | nomeado na página | Head de Tecnologia |
+
+> 🟢 **Carolina é o único caso limpo de cruzamento em toda a varredura:** nomeada com cargo
+> na página **e** com 6 chamados datados. **Estilista, área de Estilo, uso comprovado.**
+> **É como as sete linhas desta tabela deveriam estar.**
+>
+> ⚠ **Os dois líderes do projeto — Tony e Fabi — não aparecem em nenhum chamado.**
+> **Não significa que não usam** (a janela tem 24 dias). Significa que **quem lidera e quem opera
+> são pessoas diferentes**, o mesmo padrão visto na NK.
+
+### ⚠ Dois domínios, e eles separam fábrica de marca
+| Domínio | Quem | Leitura |
+|---|---|---|
+| `@souzacambos.com.br` | Tony (fábrica) · Gustavo (TI) · Valter (fiscal) · Pamela | **razão social / fábrica em MG** |
+| `@cambos.com.br` | Fabiane · Carolina · Valter (segundo e-mail) · atendimento | **marca / operação de SP** |
+
+> **Mesmo padrão do Puket** (`grupounico.com` × `puket.com.br`). **Dois de oito clientes varridos
+> têm duas camadas no e-mail** — e nos dois casos o domínio corporativo carrega a operação
+> industrial e o domínio da marca carrega criação e produto.
+>
+> **Valter tem um e-mail em cada** — **prova de que o domínio é pista, não chave.** Reforça
+> `alternateEmails` e `orgLayer` na espec.
 
 ## Canais de comunicação
 
-> **Cada canal é uma entidade** — tem participantes, cadência, dono e
-> assunto. É por aqui que a indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Chamados | Notion — `Chamados & Atendimentos` | 2 pessoas + 1 caixa funcional | média | **29/01/2026** |
+| **Kick-off interno** | **gravação em vídeo** (Google Drive) | time uMode | único | **não varrida** |
+| **Warm-up com cliente** | Notion + base de feedback interno | cliente + uMode (Sandro) | único | **não varrido** |
+| Kick-off presencial | Notion | cliente + uMode | único | **não varrido** |
+| **Miro com detalhamento do projeto** | Miro | `[a preencher]` | — | **não capturado** |
+| **Trello** | **Trello** | **o cliente**, para gestão do processo | contínua | 🔴 **não capturado — sistema do cliente** |
+| Reuniões com Cliente · Demandas do Cliente | Notion (2 bases) | `[a preencher]` | — | **não varridas** |
+| Playbook · Diagnóstico · Análise de Demandas | Notion | `[a preencher]` | — | **não varridos** |
+| **Playbook \| Treinamento > IA + Doc Laura** | Notion | Laura + IA | — | 🔴 **documentação gerada com IA, homologada** |
+| Plano de Sucesso do Cliente | Google Drive | `[a preencher]` | — | **não capturado** |
+
+> 🔴 **O kick-off interno foi gravado em vídeo.** **É a única gravação de reunião encontrada em
+> qualquer conta** — e é exatamente o insumo do projeto paralelo de transcrições.
+>
+> 🔴 **O cliente usa Trello para gerir o processo.** Um sistema de gestão **paralelo ao uFlow**,
+> na mão do cliente. **Conecta direto com a dor declarada de "cadastros paralelos"** e com o
+> critério de fracasso: *"ser mais um sistema de preenchimento"*.
 
 ## Financeiro
-**Valter** · Head Financeiro · fiscal@souzacambos.com.br · +55 11 98254-1336
+- **Responsável: Valter** — **Head Financeiro** — `valter@cambos.com.br` e `fiscal@souzacambos.com.br`
+- **E-mail principal financeiro:** `fiscal@souzacambos.com.br` — ⚠ **preenchido na página, mas
+  o campo `Email Principal Financeiro` da base está VAZIO.**
+  > **O dado existe e não chegou ao campo. É exatamente o tipo de perda que o BrainHub existe
+  > para impedir.**
+- Nenhum chamado `FINANCEIRO` na janela varrida.
 
 ## Tecnologia
-**Gustavo Paiva** · Head de Tecnologia · gustavo@souzacambos.com.br · +55 35 99990-0625
+- **Responsável: Gustavo Paiva** — **Head de Tecnologia** — `gustavo@souzacambos.com.br`
+- 🔴 **Quatro sistemas, e a base registra só um:**
+  **Totvs Virtual Age** (comercial + SP, **com pacote de APIs**) · **SPI** (produção, o único na
+  base) · **Banner** (pedidos de atacado) · **Trello** (gestão de processo).
+  **Data Lake** foi levantado como possibilidade e **não implementado**.
+- **Regra declarada:** *"no momento que o comercial fecha o pedido, duplica as informações para o
+  SPI"*.
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| 5 pessoas com cargo, liderança, times envolvidos | Notion — bloco sincronizado *Pessoas* e *Definições do Projeto* | **varrido 21/09/2026** |
+| Sistemas, volumes, canais, nota do processo | Notion — *Informações de Discovery de Sales* | **varrido 21/09/2026** |
+| 11 chamados e remetentes | Notion — `Chamados & Atendimentos` | **varrido 21/09/2026** |
+| Atendimento | Notion — base `Mapa de Clientes` | **varrido 21/09/2026** |
+
+> **CPF e telefone pessoal existem na fonte e NÃO foram copiados.**
