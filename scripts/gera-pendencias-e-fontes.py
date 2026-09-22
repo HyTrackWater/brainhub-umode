@@ -140,6 +140,14 @@ PAGINA = {
             u"campo uMode → campo Linx (31/07/2025); `uPick`; "
             u"⚠ **nenhum nome de pessoa**",
             u"⚠ **não** — 5 sub-páginas e 2 databases inline não abertos"),
+    u"Luiza Barcelos": (u"22 set 2026", u"`b0c819c0\u2026`",
+                       u"\U0001F7E2 **a p\u00e1gina de pessoas mais rica da carteira** \u2014 "
+                       u"**15 pessoas com cargo**, a maioria com e-mail, incluindo a pr\u00f3pria "
+                       u"**Marcinha (Luiza Barcelos), Diretora Criativa**; discovery de Sales; "
+                       u"\U0001F534 **`Relat\u00f3rio de Incidente` de 08/08/2025**; 8 p\u00e1ginas de "
+                       u"regra datadas; `HubSpot`; **13 usu\u00e1rios uFlow + 2 uDash**",
+                       u"\u26a0 **n\u00e3o** \u2014 **18 blocos n\u00e3o abriram** e 11 sub-p\u00e1ginas "
+                       u"n\u00e3o foram lidas"),
     u"NK STORE": (u"22 set 2026", u"`0f24dfbe…`",
                   u"**13 pessoas com cargo e área**; processo `Planejamento → Estilo → "
                   u"Compras/Merchandising → PCP → Oficina`; dores mapeadas; **`uBuy`** como "
@@ -512,10 +520,52 @@ PEND = {
         (u"⚠ **`Churn` com 1 módulo e ERP `SAP`.**", u"T2", u"—"),
     ],
     u"Luiza Barcelos": [
-        (u"🔺 **Correção registrada: eu disse que a conta era \"quase invisível\". Errado** — eu "
-         u"media só pela base de chamados, janela de 24 dias. São **24 pessoas, 7 `ATIVO`**.",
-         u"T2", u"nada — corrigido"),
-        (u"⚠ **ERP `Safe Tech`** — único cliente que o usa.", u"T2", u"—"),
+        (u"\U0001F53A **CORRE\u00c7\u00c3O REGISTRADA: eu disse que a conta era quase invis\u00edvel. "
+         u"\u00c9 a MAIS bem documentada que abri.** Eu media pela base de chamados, janela de "
+         u"24 dias. **A p\u00e1gina tem 15 pessoas com cargo, discovery de Sales, 8 p\u00e1ginas de "
+         u"regra datadas e um relat\u00f3rio de incidente.**", u"T2", u"nada \u2014 corrigido"),
+        (u"\U0001F534 **O processo est\u00e1 na cabe\u00e7a de UMA pessoa, e a pr\u00f3pria uMode "
+         u"escreveu isso:** *o processo est\u00e1 na cabe\u00e7a da Marcinha \u2014 a miss\u00e3o \u00e9 tirar "
+         u"as informa\u00e7\u00f5es da cabe\u00e7a dela e colocar na ferramenta*. **\u00c9 risco de "
+         u"pessoa-chave nomeado, e a pessoa \u00e9 a dona da marca.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **`6 PRIMEIROS MESES PARA MOSTRAR CREDIBILIDADE DA UMODE`** \u2014 em "
+         u"vermelho, no kick off interno de **06/06/2024**. E: *o time da Luiza tem trauma de "
+         u"cronograma e entrega por frustra\u00e7\u00f5es passadas com a Linx*. "
+         u"**Hoje s\u00e3o 27 meses.**", u"T2", u"confer\u00eancia com o atendimento"),
+        (u"\U0001F534 **DUAS datas de ativa\u00e7\u00e3o que n\u00e3o batem:** a p\u00e1gina diz "
+         u"*Data de Ativa\u00e7\u00e3o por Vendas \u2014 15/05/24* e o campo da base diz **07/06/2024**. "
+         u"**Um m\u00eas de diferen\u00e7a, e ningu\u00e9m sabe qual \u00e9 a boa.**", u"T2", u"confer\u00eancia"),
+        (u"\U0001F534 **`Relat\u00f3rio de Incidente | Weekly Luiza Barcelos <> uMode \u2014 "
+         u"2025/08/08`.** **\u00c9 o \u00fanico registro de incidente com cliente que o corpus "
+         u"conhece, e eu n\u00e3o o abri.**", u"T2", u"tempo de varredura \u2014 prioridade"),
+        (u"\U0001F7E2 **Escopo contratual EXPL\u00cdCITO, ao contr\u00e1rio da Cambos:** *n\u00e3o faz "
+         u"parte do escopo deste contrato a integra\u00e7\u00e3o com o sistema LINX ou qualquer outro "
+         u"que n\u00e3o seja o SAFETECH*, e **tr\u00eas relat\u00f3rios nomeados** \u2014 grade, status e "
+         u"acompanhamento. **\u00c9 o modelo de como escrever escopo.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **`uDash` \u00e9 PRODUTO CONTRATADO aqui** \u2014 *13 usu\u00e1rios uFlow / 2 "
+         u"usu\u00e1rios uDash*. Na VIX ele aparecia como **perfil de acesso**. "
+         u"**Confirma os dois sentidos da mesma palavra.**", u"T2", u"desambigua\u00e7\u00e3o"),
+        (u"\U0001F534 **Duas listas de times que n\u00e3o batem:** o kick off interno diz "
+         u"*Estilo, PCP, Compras*; a se\u00e7\u00e3o `Times Envolvidos` diz **oito**: Diretoria "
+         u"Criativa, Estilo, Desenvolvimento, Produto e Merchandising, Suprimentos, Opera\u00e7\u00f5es "
+         u"(Cadastro e Precifica\u00e7\u00e3o), Estrat\u00e9gia/Processos/Projetos e Tecnologia.", u"T2",
+         u"confer\u00eancia"),
+        (u"\U0001F195 **`HubSpot` \u2014 d\u00e9cima ferramenta**, e \u00e9 o CRM da uMode: h\u00e1 link "
+         u"direto para o *deal* desta conta. **N\u00e3o estava no enum `tool`.**", u"T2", u"\u2014"),
+        (u"\U0001F195 **8 p\u00e1ginas de regra datadas** \u2014 `Regra do Campo Linha`, `Regra "
+         u"Fam\u00edlia 05/08/25`, `Automa\u00e7\u00f5es da Aba Etapa & Datas 24/09/2025`, `Regras do "
+         u"WorkFlow 12/11`, `Importa\u00e7\u00e3o das Listas 24/01`. **\u00c9 a documenta\u00e7\u00e3o de "
+         u"regra mais disciplinada da carteira.**", u"T2", u"tempo de varredura"),
+        (u"\u26a0 **Dois nomes n\u00e3o batem com o pr\u00f3prio e-mail ou consigo mesmos:** "
+         u"`Gabriel Jaques` \u00d7 `gabriel.silva@`, e `Eduardo Britto` \u00d7 `Eduardo Brito` **na "
+         u"mesma p\u00e1gina**. **N\u00e3o escolhi nenhuma.**", u"T2", u"confirma\u00e7\u00e3o"),
+        (u"\U0001F534 **18 blocos da p\u00e1gina n\u00e3o abriram por este conector** \u2014 "
+         u"est\u00e3o justamente dentro de `Diretores e Representantes Legais` e `Respons\u00e1veis "
+         u"pelo Projeto`. **H\u00e1 mais pessoas ali do que as 15 que consegui ler.**", u"T2",
+         u"leitura manual ou outro conector"),
+        (u"\u26a0 **Receita anual declarada na base.** \U0001F534 **N\u00e3o replico o valor "
+         u"aqui** \u2014 `T1`, fica no `_contexto/` deste cliente.", u"T1", u"nada \u2014 tratamento"),
+        (u"\u26a0 **ERP `Safe Tech`** \u2014 \u00fanico cliente da carteira que o usa.", u"T2", u"\u2014"),
     ],
 }
 

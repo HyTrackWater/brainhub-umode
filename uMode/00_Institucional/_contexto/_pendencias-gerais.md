@@ -2640,3 +2640,48 @@
      desde o kick off.**
 399. **🆕 `Playbook Cambos | Treinamento > IA + Doc Laura`** — primeira documentação homologada
      com IA que o corpus vê.
+
+## Varredura — Luiza Barcelos (22 set 2026)
+
+400. **🔺 A CORREÇÃO fica ainda mais forte: eu disse que a Luiza Barcelos era "quase invisível".
+     É a conta MAIS bem documentada que abri.** Eu media pela base de chamados, janela de 24 dias.
+     **A página tem 15 pessoas com cargo, discovery de Sales, 8 páginas de regra datadas e um
+     relatório de incidente.** **Medir pela fonte errada não subestima um pouco — inverte.**
+401. **🔴 O processo está na cabeça de UMA pessoa, e a própria uMode escreveu isso:**
+     *"Processo está na cabeça da Marcinha (Luiza Barcelos) → Missão é tirar as informações da
+     cabeça dela e colocar na ferramenta."* **É risco de pessoa-chave nomeado — e a pessoa é a
+     dona da marca, Diretora Criativa.**
+402. **🔴 `6 PRIMEIROS MESES PARA MOSTRAR CREDIBILIDADE DA UMODE`** — escrito em vermelho no
+     kick off interno de **06/06/2024**. E: *"o time da Luiza tem trauma de cronograma e entrega
+     por frustrações passadas com a Linx."* **Hoje são 27 meses.**
+403. **🔴 DUAS datas de ativação que não batem:** a página diz *"Data de Ativação por Vendas —
+     15/05/24"* e o campo da base diz **07/06/2024**. **Um mês de diferença.**
+404. **🔴 Existe um `Relatório de Incidente | Weekly Luiza Barcelos <> uMode — 2025/08/08`.**
+     **É o único registro de incidente com cliente que o corpus conhece, e eu não o abri.**
+     **Prioridade de leitura.**
+405. **🟢 O escopo contratual da Luiza Barcelos é EXPLÍCITO, ao contrário do da Cambos:**
+     *"não faz parte do escopo deste contrato a integração com o sistema LINX ou qualquer outro
+     que não seja o SAFETECH"*, e **três relatórios nomeados** — grade, status, acompanhamento.
+     **É o modelo de como escrever escopo. A Cambos é o contra-exemplo.**
+406. **🔴 `uDash` é PRODUTO CONTRATADO aqui** — *"13 usuários uFlow / 2 usuários uDash"*.
+     Na VIX ele aparece como **perfil de acesso**. **Confirma os dois sentidos da mesma palavra,
+     e agora com evidência dos dois lados.**
+407. **🔴 Duas listas de times que não batem, na mesma página:** o kick off interno diz
+     *Estilo, PCP, Compras*; a seção `Times Envolvidos` diz **oito** — Diretoria Criativa,
+     Estilo, Desenvolvimento, Produto e Merchandising, Suprimentos, Operações (Cadastro e
+     Precificação), Estratégia/Processos/Projetos e Tecnologia.
+408. **🆕 `HubSpot` — décima ferramenta, e é o CRM da uMode.** A página tem link direto para o
+     *deal* da conta. **Não estava no enum `tool`, e é onde vive o lado comercial da relação.**
+     ⚠ **Nunca varrido.**
+409. **🆕 8 páginas de regra datadas** — `Regra do Campo Linha` · `Regra Família 05/08/25` ·
+     `Automações da Aba Etapa & Datas 24/09/2025` · `Regras do WorkFlow 12/11` ·
+     `Importação das Listas 24/01`. **É a documentação de regra mais disciplinada da carteira.**
+410. **⚠ Dois nomes não batem com o próprio e-mail ou consigo mesmos:** `Gabriel Jaques` ×
+     `gabriel.silva@`, e `Eduardo Britto` × `Eduardo Brito` **na mesma página**.
+     **Não escolhi nenhuma grafia.**
+411. **🔴 18 blocos da página não abriram por este conector** — e estão justamente dentro de
+     `Diretores e Representantes Legais` e `Responsáveis pelo Projeto`.
+     **Há mais pessoas ali do que as 15 que consegui ler.**
+412. **🔺 BUG MEU, corrigido: o gerador de fichas só processava cliente que tinha tabela de
+     solicitante de demanda.** A Luiza Barcelos, com 15 pessoas com cargo na página, ficava de
+     fora. **Fonte nova não pode depender da fonte antiga.** Corrigido.

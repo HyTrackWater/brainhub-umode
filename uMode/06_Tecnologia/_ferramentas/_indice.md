@@ -15,6 +15,7 @@ Os **sistemas de ERP/integração dos clientes**. 🔴 **Nenhum é produto da uM
 | [Miro](miro.md) | 🔴 **0** |
 | [Google Drive](google-drive.md) | 🔴 **0** |
 | [YouTube](youtube.md) | 🔴 **0** |
+| [HubSpot](hubspot.md) | 🔴 **0** |
 | [Trello](trello.md) | 🔴 **0** |
 | [Linx](linx.md) | **12** |
 | [SAP](sap.md) | **6** |

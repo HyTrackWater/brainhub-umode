@@ -239,7 +239,7 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 🔴 **O que ainda não se sabe deste cliente, e onde já se procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)
 
-**Registros:** **70 demandas** — [índice](../_demandas/_indice.md) · **4 RFIs** — [índice](../_rfis/_indice.md)
+**Registros:** **70 demandas** — [índice](../_demandas/_indice.md) · **4 RFIs** — [índice](../_rfis/_indice.md) · **15 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
 **As 15 áreas deste cliente:**
 

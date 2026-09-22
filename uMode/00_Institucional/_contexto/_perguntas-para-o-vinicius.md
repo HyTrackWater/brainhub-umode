@@ -16,10 +16,10 @@
 | **Abertas, de um cliente só** | **16** |
 | **Abertas, transversais** | **7** |
 | Já respondidas | 3 |
-| Clientes com página ainda **não aberta** | **38** |
+| Clientes com página ainda **não aberta** | **37** |
 
 > ⚠ **A lista está curta porque a varredura está no começo**, não porque há poucas
-> dúvidas. **38 clientes têm a página fechada** — pergunta boa nasce de varredura feita.
+> dúvidas. **37 clientes têm a página fechada** — pergunta boa nasce de varredura feita.
 
 ## 1 · Transversais — valem para a carteira toda
 

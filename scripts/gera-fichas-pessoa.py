@@ -93,6 +93,35 @@ def e_pessoa(nome):
 #
 # Formato: cliente -> [(nome como a pagina escreve, cargo, area, bloco)]
 DA_PAGINA = {
+    u"Luiza Barcelos": [
+        (u"Marcinha", u"Diretora Criativa \u2014 \u00e9 a Luiza Barcelos", u"Diretoria Criativa",
+         u"Participantes do Projeto"),
+        (u"Gabriel Jaques", u"Coordenador de Merchandising \u2014 **L\u00edder Central do Projeto**",
+         u"Merchandising", u"Participantes do Projeto"),
+        (u"Gustavo Sobrinho", u"Gerente Executivo de Estrat\u00e9gia e Gest\u00e3o \u2014 **vice-l\u00edder "
+         u"do projeto**", u"Estrat\u00e9gia e Gest\u00e3o", u"Participantes do Projeto"),
+        (u"Marcelo Tonello", u"Gerente de Opera\u00e7\u00e3o do Sul \u2014 log\u00edstica e cadastro, "
+         u"do desenvolvimento at\u00e9 a precifica\u00e7\u00e3o", u"Opera\u00e7\u00f5es",
+         u"Participantes do Projeto"),
+        (u"Romulo Smaniotto", u"Gerente de Desenvolvimento de Produto", u"Desenvolvimento",
+         u"Participantes do Projeto"),
+        (u"Andre Franco", u"Gerente de Estilo", u"Estilo", u"Participantes do Projeto"),
+        (u"Adriane", u"Gerente de Levantamento de Suprimentos", u"Suprimentos",
+         u"Participantes do Projeto"),
+        (u"Eduardo Britto", u"Coordenador de Sistemas e Tecnologia", u"Tecnologia",
+         u"Respons\u00e1vel Tecnologia"),
+        (u"Ticiane", u"Desenvolvimento", u"Desenvolvimento", u"Participantes do Projeto"),
+        (u"Paulo Victor", u"Assistente Administrativo, **migrando para Estrat\u00e9gia e Gest\u00e3o**",
+         u"Estrat\u00e9gia e Gest\u00e3o", u"Participantes do Projeto"),
+        (u"Janaina", u"Processos, Documenta\u00e7\u00e3o, Estrutura\u00e7\u00e3o e Mapeamento",
+         u"Estrat\u00e9gia, Processos e Projetos", u"Participantes do Projeto"),
+        (u"Giuliana", u"Estilo e Merchandising", u"Estilo / Merchandising",
+         u"Participantes do Projeto"),
+        (u"Marcio", u"Cadastro", u"Opera\u00e7\u00f5es \u2014 Cadastro", u"Participantes do Projeto"),
+        (u"Ana Lucia Andrade", u"Respons\u00e1vel pelo Financeiro", u"Financeiro",
+         u"Respons\u00e1vel pelo Financeiro"),
+        (u"Samuel Correa", u"`[a preencher]`", u"Tecnologia", u"Respons\u00e1vel Tecnologia"),
+    ],
     u"Cambos": [
         (u"Tony Stefan Lopes", u"Gerente Geral / Diretor de Opera\u00e7\u00e3o da F\u00e1brica",
          u"Opera\u00e7\u00e3o / F\u00e1brica", u"Diretores e Representantes Legais"),
@@ -131,6 +160,10 @@ DA_PAGINA = {
 
 # Observacao por pessoa, quando a fonte diz algo que nao cabe em cargo/area.
 NOTA_PAGINA = {
+    (u"Luiza Barcelos", u"Marcinha"): u"\U0001F534 **\u00c9 a pr\u00f3pria Luiza Barcelos.** A fonte registra: *o processo est\u00e1 na cabe\u00e7a da Marcinha \u2014 a miss\u00e3o \u00e9 tirar as informa\u00e7\u00f5es da cabe\u00e7a dela e colocar na ferramenta*. **\u00c9 risco de pessoa-chave, escrito pela pr\u00f3pria uMode.** Expectativa dela: *inovar no processo criativo sem perder a criatividade*.",
+    (u"Luiza Barcelos", u"Gabriel Jaques"): u"\u26a0 **O nome diz `Jaques` e o e-mail diz `gabriel.silva@`.** **N\u00e3o resolvi** \u2014 pode ser sobrenome social, nome de registro ou erro.",
+    (u"Luiza Barcelos", u"Eduardo Britto"): u"\u26a0 **A mesma p\u00e1gina escreve `Britto` e `Brito`.** **Duas grafias no mesmo documento, e eu n\u00e3o escolhi uma.**",
+    (u"Luiza Barcelos", u"Andre Franco"): u"A fonte anota: *animado com a implementa\u00e7\u00e3o*, com expectativa de **foco na cole\u00e7\u00e3o e efici\u00eancia no setor**.",
     (u"Cambos", u"Fabiane Sayuri"): u"\U0001F7E2 **\u00c9 a `Fabi` de `Fabi e Carol`** \u2014 a p\u00e1gina diz que o l\u00edder do projeto \u00e9 *Tony e Fabi*. **Ambiguidade resolvida com fonte, n\u00e3o com palpite.**",
     (u"Cambos", u"Carolina"): u"\U0001F7E2 **\u00c9 a `Carol` de `Fabi e Carol`**, a c\u00e9lula da base de demandas que eu me recusei a desmembrar. **A p\u00e1gina do cliente desmembrou.**",
     (u"Cambos", u"Tony Stefan Lopes"): u"**L\u00edder do projeto**, junto da Fabi. \U0001F534 **A fonte traz telefone e CPF \u2014 nenhum dos dois entrou aqui** (`T0`).",
@@ -355,12 +388,19 @@ def main():
         if not os.path.exists(pm):
             continue
         s = io.open(pm, encoding="utf-8").read()
-        if u"#### Solicitantes de demanda" not in s:
+        # A pagina do cliente e a tabela de usuarios sao fontes INDEPENDENTES da
+        # base de demandas. Antes deste ajuste, cliente sem tabela de solicitante
+        # era pulado - e a Luiza Barcelos, com 15 pessoas com cargo na pagina,
+        # ficava de fora. Fonte nova nao pode depender da fonte antiga.
+        tem_dem = u"#### Solicitantes de demanda" in s
+        if not tem_dem and c not in DA_PAGINA and c not in DA_PLATAFORMA:
             continue
-        bloco = s[s.index(u"#### Solicitantes de demanda"):]
-        fim = bloco.find(u"\n## ")
-        if fim > 0:
-            bloco = bloco[:fim]
+        bloco = u""
+        if tem_dem:
+            bloco = s[s.index(u"#### Solicitantes de demanda"):]
+            fim = bloco.find(chr(10) + u"## ")
+            if fim > 0:
+                bloco = bloco[:fim]
         destino = os.path.join(base, u"00_Institucional", u"_pessoas")
         if not os.path.isdir(destino):
             os.makedirs(destino)
