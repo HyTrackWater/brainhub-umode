@@ -10,9 +10,9 @@
 
 | # | Lacuna | Situação | Consequência |
 |---|---|---|---|
-| 1 | **1.161 reuniões, 9 abertas** | 🔴 li **9 páginas** por inteiro — 4 da Recco, 1 da Highstil, **4 da Luiza Barcelos** — mais o relatório de incidente | O agregado por cliente é `[C]`; **o conteúdo de 1.152 reuniões não foi lido** |
+| 1 | **1.161 reuniões, 8 abertas** | 🔴 li **8 atas** por inteiro — **3 da Recco**, 1 da Highstil, **4 da Luiza Barcelos** — mais a página do cliente da Recco e o relatório de incidente da Luiza, que **não são atas** | O agregado por cliente é `[C]`; **o conteúdo de 1.153 reuniões não foi lido** |
 | 2 | **Gravações e transcrições** | ⚠ não abertas | Campos `Gravação` e `Tactiq` existem; **links para Tactiq e Drive não foram seguidos** |
-| 3 | **Varredura de credencial** | 🔴 **não feita nesta base** | A pauta da Highstil 17/04/2026 diz *"Integração (credenciais de acesso)"* — **não sei se algum valor está exposto nas outras 1.152** |
+| 3 | **Varredura de credencial** | 🔴 **não feita nesta base** | A pauta da Highstil 17/04/2026 diz *"Integração (credenciais de acesso)"* — **não sei se algum valor está exposto nas outras 1.153** |
 | 4 | **Campo `Data` não confiável** | 🔴 corrompido em lote — ver §4 | Todo agregado por data desta base é **suspeito**; usei o **título** quando divergiam |
 | 5 | **Por que a Recco saiu** | ⚠ **tenho o mecanismo, não a decisão** | Sei o que estava acontecendo em 16/10/2025; **nenhuma fonte registra a decisão de encerrar, nem a data** |
 
@@ -192,7 +192,7 @@ canal e conteúdo capturado**. `[P]`
 
 ## 8 · Próximos passos
 
-1. 🚨 **Varrer credencial nas 1.152 reuniões não abertas.** A pauta da Highstil de 17/04/2026
+1. 🚨 **Varrer credencial nas 1.153 reuniões não abertas.** A pauta da Highstil de 17/04/2026
    trata de *"credenciais de acesso"* — **e ainda há duas credenciais expostas não rotacionadas**
    (NK STORE e Lofty Style).
 2. 🔴 **Abrir as 126 reuniões da Luiza Barcelos** — é a conta mais atendida da carteira e a
@@ -204,7 +204,7 @@ canal e conteúdo capturado**. `[P]`
 
 ## 9 · Luiza Barcelos — o que a varredura da conta mais atendida mostrou
 
-**126 reuniões · 63 demandas · 4 páginas de reunião lidas + o relatório de incidente.** `[C]`
+**126 reuniões · 63 demandas · 4 atas lidas + o relatório de incidente.** `[C]`
 
 ### 9.1 · O rótulo diz regime; a curva diz outra coisa
 

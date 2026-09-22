@@ -24,6 +24,19 @@ CONTEXT.md                     # core: o quê e como
 STATE.md                       # avanço: sprints e backlog
 ```
 
+## Por onde começar
+
+👉 **[`AGORA.md`](AGORA.md)** — onde o projeto está hoje, em uma tela: papel, método,
+cobertura em número, frente ativa, próximos passos e decisões em aberto.
+
+Para abrir uma sessão de trabalho com a LLM, cole apenas: `Leia START.md`
+
 ## Documentação base
-- `CONTEXT.md` — objetivo, hierarquia, regras travadas, portfólio
-- `STATE.md` — sprint atual, próximas atividades, backlog, log de sessões
+
+| Arquivo | O que é |
+|---|---|
+| **`AGORA.md`** | **orientação — o estado atual, em uma tela** |
+| `START.md` | protocolo de abertura de sessão |
+| `CLAUDE.md` | papel do executor, regras invioláveis, como executar tarefas |
+| `CONTEXT.md` | objetivo, hierarquia, regras travadas, portfólio |
+| `STATE.md` | **histórico** completo, sessão a sessão — não é orientação |

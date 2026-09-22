@@ -3,9 +3,23 @@
 > Estrutura fixa. Não repetir objetivo aqui — ver `CONTEXT.md`.
 > Este arquivo só registra **avanço**: o que foi feito, o que está em andamento, o que vem a
 > seguir e o que está no backlog (priorizado conforme a fila anda).
+>
+> 🔴 **ESTE ARQUIVO É HISTÓRICO, NÃO ORIENTAÇÃO.** São ~2.700 linhas em ordem cronológica.
+> **Para saber onde o projeto está hoje, leia [`AGORA.md`](AGORA.md)** — papel, método,
+> cobertura em número, frente ativa, próximos passos e decisões em aberto, em uma tela.
+>
+> ⚠ **Duas seções abaixo estão congeladas e NÃO descrevem o estado atual:**
+> `## Sprint atual` (parada na Sprint 02, ago 2026) e
+> `## Próximas atividades (fila da Sprint 02 — referência histórica)`.
+> **Elas ficam preservadas como registro** — histórico de sessão nunca se reescreve.
 
-## Sprint atual
+## Sprint atual — ⚠ CONGELADA EM AGO 2026, MANTIDA COMO REGISTRO
 **Sprint 02 — Estrutura de pastas no Drive + simulação com clientes-piloto**
+
+> 🔴 **Não leia esta seção como estado atual.** Ela descreve a Sprint 02, de agosto de 2026,
+> quando a meta era *"testar o template com ao menos 5 clientes"*. **Hoje são 48 clientes
+> varridos.** O estado atual está em [`AGORA.md`](AGORA.md); o avanço desde então está nas
+> seções `## 🔵 FRENTE ATIVA` e no `## Log de sessões`.
 
 ### Em andamento
 - [x] **REPLICAÇÃO TOTAL — concluída em 03 ago 2026 (o "rolo compressor"), em 2 rodadas.** Todos os
@@ -847,8 +861,8 @@ integração"* num cliente só. **O `propaga.py` acusou na hora** (`instituciona
 | Reuniões lidas por inteiro | **9 de 1.161** |
 
 ### O que continua aberto
-1. 🚨 **Credenciais:** as duas expostas (NK STORE, Lofty Style) **e a varredura das 1.152
-   reuniões não abertas**.
+1. 🚨 **Credenciais:** as duas expostas (NK STORE, Lofty Style) **e a varredura das 1.153
+   atas não abertas**.
 2. 🔴 **As 121 reuniões não lidas da Luiza Barcelos** — sobretudo **2024 e 2025**, onde estão
    os 6 meses de credibilidade prometidos e as 36 demandas de 2025.
 3. 🔴 **Decidir se a Luiza Barcelos está estabilizada ou desengajada** — e, se for o segundo,
@@ -1357,7 +1371,10 @@ anonimização ou se simplesmente não entra no repositório — **ainda sem res
 nenhum dado comercial sensível desses arquivos até isso ser resolvido, mesmo que pareça útil
 pra replicação.
 
-## Próximas atividades (fila da Sprint 02 — referência histórica, ver ordem nova acima)
+## Próximas atividades (fila da Sprint 02 — ⚠ REFERÊNCIA HISTÓRICA)
+
+> 🔴 **Esta fila é de agosto de 2026 e está superada.**
+> **Os próximos passos vigentes estão em [`AGORA.md`](AGORA.md) § 7.**
 1. **Frente ativa: BrainWave/frontend.** `brainwave/01-esqueleto.md`, `brainwave/02-home.md`,
    `brainwave/03-uMode-e-clientes.md`, `brainwave/04-seletor-cliente-ativo.md`,
    `brainwave/05-solucoes.md`, `brainwave/06-demandas.md`, `brainwave/07-demandas-tabela-e-acoes.md`,
@@ -2706,3 +2723,57 @@ caminho).
   usuários desatualizada ante o PLM; data de reunião como string e não como campo.
   **Nada declarado vencido além do medido:** 2 de 46 clientes varridos, nenhuma ata aberta,
   `Mapeamento de Contas - Puket` **não encontrado nesta varredura** (não afirmo que não existe).
+
+- **22 set 2026** — Sessão 29: **a carteira inteira varrida e a taxonomia de `Status` travada.**
+  48 de 48 clientes com casa no padrão, 48 com `contexto-area.md` 14/14, 694 arquivos de área
+  conformes. **Loungerie e Arezzo criadas do zero.** Escrita a `_taxonomia-status-cliente.md`:
+  o enum `Status` **mistura três eixos** — momento da jornada, modo de atendimento (`Sem CS`) e
+  estado terminal (`Inativo`, virou lixeira do campo). **`Sem CS` é SKU self-service**, não fase:
+  os 7 têm perfil idêntico, e `SMB` no campo de atendimento **é nome de grupo, não de pessoa**.
+  **A base não tem campo `Data de Churn`** — registrado como a lacuna mais cara do corpus.
+  Escrito um **gerador canônico** para os 29 clientes sem substância além da linha da base:
+  mesma estrutura de um cliente rico, `[a preencher]` em tudo sem fonte, nada inventado.
+  Commit `cd5e194`.
+
+- **22 set 2026** — Sessão 30: **achada uma base inteira que o corpus nunca mencionou.**
+  Ao abrir a Recco, a busca devolveu 18 weeklies dela em
+  **`Reuniões Compartilhadas com Clientes` — 1.161 registros, 27 clientes, desde jan/2023, com
+  zero menções no corpus.** Escrita a `_varredura-2026-09-22-reunioes-compartilhadas.md`.
+  **Disciplina aplicada:** quase declarei a base de demandas também inédita — medi antes, e ela
+  já estava formalizada em 995 arquivos. **A Recco:** última ata de 16/10/2025 declara quatro
+  semáforos verdes enquanto o corpo registra **dois meses de inadimplência, time parado e sistema
+  travado**; a hipótese de que o semáforo fosse decorativo foi **refutada** (Highstil marca
+  `Pendências 🟡`), o que torna os verdes uma escolha. **29% das demandas da Recco canceladas**,
+  quase todas cálculo de engenharia — as dores do próprio kick-off.
+  **Correção a mim mesmo, propagada em 6 arquivos:** o "coorte de fev/2025" é de **ativação, não
+  de morte** — Recco viveu ~8 meses, Lenny e Highstil ~14. Commit `07c9f99`.
+
+- **22 set 2026** — Sessão 31: **Luiza Barcelos, a conta mais atendida da carteira.**
+  126 reuniões, 63 demandas, 4 atas lidas + o relatório de incidente que estava em aberto.
+  **Todas as atas de 2026 declaram `Projeto em Regime` em verde** e a curva desmente: 59 reuniões
+  e 36 demandas em 2025 contra 23 e **3** em 2026, **nenhuma demanda desde 10/04/2026**.
+  **Três quinzenas seguidas com a mesma pauta palavra por palavra** (25/08, 08/09, 22/09).
+  **O incidente de 08/08/2025 é a integração com o Safetec** — rotas quebradas, divergência de
+  escopo sobre informação de venda, e **13 meses depois o escopo da integração de escrita ainda
+  não foi enviado**. **Segundo caso de gestão de narrativa** registrado (com a Recco) — dois é
+  hipótese, vigiar o terceiro.
+  **Correção a mim mesmo:** eu havia escrito que a conta era "quase invisível" com 1 pessoa ativa;
+  **a conta não era invisível, a fonte é que era errada** — com reuniões e demandas são
+  **24 pessoas e 7 ativas**. **Medir pessoa ativa só por chamado subestima toda conta cujo canal
+  real é a weekly — vale para a carteira inteira.** Novos sistemas fora do inventário: `Linear`
+  (projeto `NexusAPI`), `Timec`, `Mold`. Commit `41e812f`.
+
+- **22 set 2026** — Sessão 32: **documentação de orientação consertada, a pedido do Vinicius**
+  (*"preciso que o projeto esteja organizado a ponto de saber exatamente o papel, o que estamos
+  fazendo, como estamos fazendo, quais passos já foram dados, quais estão sendo dados e quais
+  serão os próximos passos"*, para poder trabalhar de qualquer workspace).
+  **Diagnóstico:** o `START.md` mandava ler duas seções da `STATE.md` que **se autodeclaravam
+  referência histórica**; a `## Sprint atual` estava **congelada na Sprint 02 de agosto**, com a
+  meta "testar o template com 5 clientes" enquanto já havia 48 varridos; e as **sessões 29, 30 e
+  31 não estavam no log**. **Quem abrisse o projeto lia o estado errado.**
+  **Feito:** criado o **`AGORA.md`** — orientação em uma tela com papel, método, mapa de
+  autoridades, cobertura em número, frente ativa, próximos passos e **as 8 decisões esperando o
+  Vinicius**; `START.md` reescrito para começar por ele e **obrigar a atualização dos dois
+  arquivos ao fechar sessão**; seções congeladas da `STATE.md` marcadas como registro (preservadas,
+  nunca reescritas); `README.md` atualizado. **Frente seguinte acordada: contextualização total da
+  CAEDU**, com tratamento de dado sensível de proposta comercial definido em `AGORA.md` § 8.1.
