@@ -332,6 +332,53 @@ suspeita. **Nunca escolher uma forma "canônica" por conta própria.**
 > ⚠ **E registre o limite:** ter a chave **não conserta o dado escrito sem ela.** As 11 demandas
 > assinadas só `Luana` na VIX **seguem sem dono**, mesmo com os dois e-mails confirmados.
 
+## § 11 · Bloco que o conector não renderiza — e o que fazer
+
+> **Aprendido em 22 set 2026, na página `Luiza Barcelos | Warm Up Cliente`.**
+
+🔴 **Eu atribuí a falha a permissão e estava errado.** A página abria inteira. Os blocos
+vinham como `<unknown>` porque **são um tipo que este conector não renderiza** — no caso,
+**linhas de contato**: telefone, e-mail, CPF e cargo.
+
+**O custo do erro de diagnóstico:** eu quase pedi ao Vinícius uma liberação de acesso que
+não resolveria nada.
+
+| Passo | O que fazer |
+|---|---|
+| 1 | **Antes de falar em permissão, puxar a página-fonte direto.** Se ela abrir, **não é acesso** |
+| 2 | Contar os `<unknown>` e **dizer onde estão** — sob qual título, depois de qual nome |
+| 3 | Pedir ao Vinícius **só aquele trecho**, copiado e colado. **É barato e funciona** |
+| 4 | **O que vier assim é fonte como qualquer outra**: entra com procedência e data |
+
+🔴 **Regra de tier que não muda por vir colado:** e-mail **corporativo** entra (`T2`);
+**telefone e CPF não entram** (`T0`) — registro que existem e onde.
+
+⚠ **O mesmo tipo de bloco deve existir em outras páginas de cliente.** Sempre que o toggle
+`Pessoas` parecer vazio ou truncado, **suspeitar disto antes de concluir que não há gente lá.**
+
+## § 10 · Cargo de uModer lido em fonte datada
+
+> **Travado pelo Vinícius em 22 set 2026.** Surgiu ao ler a ata do Warm Up da Luiza Barcelos,
+> de **07 jun 2024**, que nomeia seis pessoas da uMode com cargo. **Quatro delas já saíram.**
+
+🔴 **Cargo lido em ata é cargo NAQUELA DATA. Nunca cargo de hoje.**
+
+| Situação | O que fazer |
+|---|---|
+| A fonte dá cargo de uModer | escrever o cargo **com a data da fonte colada nele** |
+| A fonte é antiga e a pessoa pode ter mudado | **não atualizar o `Cadeira / cargo atual`** — o campo é sobre hoje, e a ata não sabe de hoje |
+| Sabe-se que a pessoa saiu | `Status na uMode` = saída, **com quem confirmou e quando** |
+| Tentação de corrigir a Casa inteira agora | 🔴 **NÃO.** É passo de **fechamento**, uma vez só |
+
+**Por que de uma vez, no fim:** o Vinícius pediu assim — *"teremos que corrigir somente ao final
+de toda a varredura"*. **Corrigir aos pedaços cria versões parciais conflitantes**, que é
+exatamente o defeito que o corpus tem em `Status` de cliente. **O passo está no `AGORA.md` § 7,
+item 9**, e não se antecipa.
+
+⚠ **Isto NÃO vale para pessoa de cliente.** Cargo de pessoa de cliente lido na página do
+cliente entra normalmente — a página é a fonte viva daquele cliente, e não há organograma
+nosso para conferir contra.
+
 ## Governança
 Somente o CEO altera conteúdo no BrainHub. **Alterar este protocolo exige ter executado a varredura
 de pelo menos um cliente com o método novo** — protocolo não se corrige por opinião.

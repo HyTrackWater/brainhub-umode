@@ -140,14 +140,18 @@ PAGINA = {
             u"campo uMode → campo Linx (31/07/2025); `uPick`; "
             u"⚠ **nenhum nome de pessoa**",
             u"⚠ **não** — 5 sub-páginas e 2 databases inline não abertos"),
-    u"Luiza Barcelos": (u"22 set 2026", u"`b0c819c0\u2026`",
-                       u"\U0001F7E2 **a p\u00e1gina de pessoas mais rica da carteira** \u2014 "
-                       u"**15 pessoas com cargo**, a maioria com e-mail, incluindo a pr\u00f3pria "
-                       u"**Marcinha (Luiza Barcelos), Diretora Criativa**; discovery de Sales; "
-                       u"\U0001F534 **`Relat\u00f3rio de Incidente` de 08/08/2025**; 8 p\u00e1ginas de "
-                       u"regra datadas; `HubSpot`; **13 usu\u00e1rios uFlow + 2 uDash**",
-                       u"\u26a0 **n\u00e3o** \u2014 **18 blocos n\u00e3o abriram** e 11 sub-p\u00e1ginas "
-                       u"n\u00e3o foram lidas"),
+    u"Luiza Barcelos": (u"22 set 2026",
+                       u"`b0c819c0…` **+ a sub-página `Warm Up Cliente` "
+                       u"(`21bb3e7e…`)**",
+                       u"🟢 **a página de pessoas mais rica da carteira** — "
+                       u"**16 pessoas do cliente com cargo**, incluindo a própria "
+                       u"**Marcinha (Luiza Barcelos), Diretora Criativa**; a sub-página "
+                       u"traz a **ata completa de 07/06/2024** com **6 uModers nomeados com "
+                       u"cargo**, expectativa **por pessoa** e 10 áreas envolvidas; "
+                       u"🔴 **`Relatório de Incidente` de 08/08/2025**; 8 páginas "
+                       u"de regra datadas; `HubSpot`; **13 usuários uFlow + 2 uDash**",
+                       u"⚠ **quase** — **17 blocos do toggle `Pessoas` não "
+                       u"renderizam neste conector**; 11 sub-páginas não lidas"),
     u"NK STORE": (u"22 set 2026", u"`0f24dfbe…`",
                   u"**13 pessoas com cargo e área**; processo `Planejamento → Estilo → "
                   u"Compras/Merchandising → PCP → Oficina`; dores mapeadas; **`uBuy`** como "

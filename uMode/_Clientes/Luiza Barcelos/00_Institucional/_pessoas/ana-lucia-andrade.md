@@ -13,9 +13,11 @@
 ### Nome preferido / como é chamado(a)
 **Ana Lucia Andrade**
 ### Email
-🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
-Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
-**Registro que existe e onde; o valor fica na fonte.**
+**`ana.andrade@luizabarcelos.com.br`** — e-mail **corporativo**, da página do cliente.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+🔴 **A fonte também traz telefone, e num caso CPF — nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).
 ### Cadeira / cargo atual
 **Responsável pelo Financeiro**
 

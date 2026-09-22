@@ -40,6 +40,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Participantes do Proj
 ### Interfaces
 `[a preencher]`
 
+### Observação da fonte
+🟢 **É a `Carol` de `Fabi e Carol`**, a célula da base de demandas que eu me recusei a desmembrar. **A página do cliente desmembrou.**
+
 ## Histórico
 ### Áreas de atuação histórica
 `[a preencher]`

@@ -40,6 +40,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Participantes do Proj
 ### Interfaces
 `[a preencher]`
 
+### Observação da fonte
+🔴 **É a própria Luiza Barcelos.** A fonte registra: *o processo está na cabeça da Marcinha — a missão é tirar as informações da cabeça dela e colocar na ferramenta*. **É risco de pessoa-chave, escrito pela própria uMode.** Expectativa dela: *inovar no processo criativo sem perder a criatividade*.
+
 ## Histórico
 ### Áreas de atuação histórica
 `[a preencher]`

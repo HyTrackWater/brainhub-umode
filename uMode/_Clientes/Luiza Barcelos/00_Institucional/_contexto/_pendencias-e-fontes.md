@@ -78,7 +78,7 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | Quando | Endereço | O que saiu | Esgotada? |
 |---|---|---|---|
-| **22 set 2026** | `b0c819c0…` | 🟢 **a página de pessoas mais rica da carteira** — **15 pessoas com cargo**, a maioria com e-mail, incluindo a própria **Marcinha (Luiza Barcelos), Diretora Criativa**; discovery de Sales; 🔴 **`Relatório de Incidente` de 08/08/2025**; 8 páginas de regra datadas; `HubSpot`; **13 usuários uFlow + 2 uDash** | ⚠ **não** — **18 blocos não abriram** e 11 sub-páginas não foram lidas |
+| **22 set 2026** | `b0c819c0…` **+ a sub-página `Warm Up Cliente` (`21bb3e7e…`)** | 🟢 **a página de pessoas mais rica da carteira** — **16 pessoas do cliente com cargo**, incluindo a própria **Marcinha (Luiza Barcelos), Diretora Criativa**; a sub-página traz a **ata completa de 07/06/2024** com **6 uModers nomeados com cargo**, expectativa **por pessoa** e 10 áreas envolvidas; 🔴 **`Relatório de Incidente` de 08/08/2025**; 8 páginas de regra datadas; `HubSpot`; **13 usuários uFlow + 2 uDash** | ⚠ **quase** — **17 blocos do toggle `Pessoas` não renderizam neste conector**; 11 sub-páginas não lidas |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 

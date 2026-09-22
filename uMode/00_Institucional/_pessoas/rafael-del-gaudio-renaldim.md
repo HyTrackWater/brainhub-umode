@@ -10,7 +10,7 @@ Rafael Del Gaudio Renaldim
 ### Email
 [a preencher]
 ### Cadeira / cargo atual
-Key Account · Consultor(a) de Negócios (papel conforme o campo em que a pessoa aparece no CRM "Mapa de Clientes" — não é a mesma coisa que Cadeira do organograma, ver protocolo-gestao-pessoas.md)
+⚠ **Não se aplica — a pessoa saiu.** A ata de **07 jun 2024** o registra como **Gerente de Experiência do Cliente**; o CRM o registra como Key Account · Consultor(a) de Negócios (papel conforme o campo em que a pessoa aparece no CRM "Mapa de Clientes" — não é a mesma coisa que Cadeira do organograma, ver protocolo-gestao-pessoas.md)
 ### Nível HIC
 [a preencher — critério de triagem/escala ainda não definido]
 ### Área (organizacional)
@@ -19,7 +19,7 @@ por si a Área das 8 travadas em CONTEXT.md; não presumido]
 ### Data de entrada na uMode
 [a preencher]
 ### Status na uMode
-[a preencher — aparecer no CRM não prova vínculo ativo hoje; o CRM é snapshot de mar 2026]
+🔴 **NÃO ESTÁ MAIS NA uMode** — confirmado pelo Vinícius em **22 set 2026**. ⚠ **Data de saída não informada.**
 ### Data de saída da uMode
 [a preencher]
 

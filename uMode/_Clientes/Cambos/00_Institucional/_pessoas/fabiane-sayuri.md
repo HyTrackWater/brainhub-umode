@@ -40,6 +40,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Participantes do Proj
 ### Interfaces
 `[a preencher]`
 
+### Observação da fonte
+🟢 **É a `Fabi` de `Fabi e Carol`** — a página diz que o líder do projeto é *Tony e Fabi*. **Ambiguidade resolvida com fonte, não com palpite.**
+
 ## Histórico
 ### Áreas de atuação histórica
 `[a preencher]`

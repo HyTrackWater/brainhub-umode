@@ -13,9 +13,11 @@
 ### Nome preferido / como é chamado(a)
 **Eduardo Britto**
 ### Email
-🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
-Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
-**Registro que existe e onde; o valor fica na fonte.**
+**`eduardo.brito@luizabarcelos.com.br`** — e-mail **corporativo**, da página do cliente.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+🔴 **A fonte também traz telefone, e num caso CPF — nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).
 ### Cadeira / cargo atual
 **Coordenador de Sistemas e Tecnologia**
 
@@ -39,6 +41,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsável Tecnolog
 `[a preencher]`
 ### Interfaces
 `[a preencher]`
+
+### Observação da fonte
+⚠ **A mesma página escreve `Britto` e `Brito`, e a ata de 07/06/2024 escreve `Eduardo Brito`.** **Duas grafias na mesma fonte, e eu não escolhi uma.**
 
 ## Histórico
 ### Áreas de atuação histórica

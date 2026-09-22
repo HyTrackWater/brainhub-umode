@@ -13,11 +13,13 @@
 ### Nome preferido / como é chamado(a)
 **Samuel Correa**
 ### Email
-🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
-Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
-**Registro que existe e onde; o valor fica na fonte.**
+**`samuel.correa@luizabarcelos.com.br`** — e-mail **corporativo**, da página do cliente.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+🔴 **A fonte também traz telefone, e num caso CPF — nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).
 ### Cadeira / cargo atual
-**`[a preencher]`**
+**Gerente de Inovação e Tecnologia**
 
 Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsável Tecnologia`.
 ### Nível HIC
@@ -39,6 +41,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsável Tecnolog
 `[a preencher]`
 ### Interfaces
 `[a preencher]`
+
+### Observação da fonte
+🟢 **Cargo trazido pelo Vinícius em 22 set 2026:** **Gerente de Inovação e Tecnologia**. Estava `[a preencher]` porque o bloco não renderizava. ⚠ **São DOIS em Tecnologia** — ele e o Eduardo.
 
 ## Histórico
 ### Áreas de atuação histórica

@@ -94,33 +94,43 @@ def e_pessoa(nome):
 # Formato: cliente -> [(nome como a pagina escreve, cargo, area, bloco)]
 DA_PAGINA = {
     u"Luiza Barcelos": [
-        (u"Marcinha", u"Diretora Criativa \u2014 \u00e9 a Luiza Barcelos", u"Diretoria Criativa",
-         u"Participantes do Projeto"),
-        (u"Gabriel Jaques", u"Coordenador de Merchandising \u2014 **L\u00edder Central do Projeto**",
-         u"Merchandising", u"Participantes do Projeto"),
-        (u"Gustavo Sobrinho", u"Gerente Executivo de Estrat\u00e9gia e Gest\u00e3o \u2014 **vice-l\u00edder "
-         u"do projeto**", u"Estrat\u00e9gia e Gest\u00e3o", u"Participantes do Projeto"),
-        (u"Marcelo Tonello", u"Gerente de Opera\u00e7\u00e3o do Sul \u2014 log\u00edstica e cadastro, "
-         u"do desenvolvimento at\u00e9 a precifica\u00e7\u00e3o", u"Opera\u00e7\u00f5es",
-         u"Participantes do Projeto"),
+        (u"Luiz Raul Aleixo Barcelos", u"Diretor / Representante Legal", u"Diretoria",
+         u"Diretores e Representantes Legais", u"luiz@luizabarcelos.com.br"),
+        (u"Marcinha", u"Diretora Criativa — é a Luiza Barcelos", u"Diretoria Criativa",
+         u"Participantes do Projeto", u""),
+        (u"Gabriel Jaques da Silva", u"Coordenador de Merchandising — **Líder Central "
+         u"do Projeto**", u"Merchandising", u"Responsáveis pelo Projeto",
+         u"gabriel.silva@luizabarcelos.com.br"),
+        (u"Gustavo Gabriel Santos Sobrinho", u"Gerente Executivo de Estratégia e Gestão "
+         u"— **vice-líder do projeto**", u"Estratégia e Gestão",
+         u"Responsáveis pelo Projeto", u"gustavo.sobrinho@luizabarcelos.com.br"),
+        (u"Samuel Correa", u"Gerente de Inovação e Tecnologia", u"Tecnologia",
+         u"Responsável Tecnologia", u"samuel.correa@luizabarcelos.com.br"),
+        (u"Ana Lucia Andrade", u"Responsável pelo Financeiro", u"Financeiro",
+         u"Responsável pelo Financeiro", u"ana.andrade@luizabarcelos.com.br"),
+        (u"Marcelo Tonello", u"Gerente de Operação do Sul — logística e cadastro, "
+         u"do desenvolvimento até a precificação", u"Operações",
+         u"Participantes do Projeto", u"marcelo.tonello@luizabarcelos.com.br"),
         (u"Romulo Smaniotto", u"Gerente de Desenvolvimento de Produto", u"Desenvolvimento",
-         u"Participantes do Projeto"),
-        (u"Andre Franco", u"Gerente de Estilo", u"Estilo", u"Participantes do Projeto"),
+         u"Participantes do Projeto", u"romulo.smaniotto@luizabarcelos.com.br"),
+        (u"Andre Mello Franco", u"Gerente de Estilo", u"Estilo",
+         u"Participantes do Projeto", u"andre.franco@luizabarcelos.com.br"),
         (u"Adriane", u"Gerente de Levantamento de Suprimentos", u"Suprimentos",
-         u"Participantes do Projeto"),
+         u"Participantes do Projeto", u"adriane.campos@luizabarcelos.com.br"),
         (u"Eduardo Britto", u"Coordenador de Sistemas e Tecnologia", u"Tecnologia",
-         u"Respons\u00e1vel Tecnologia"),
-        (u"Ticiane", u"Desenvolvimento", u"Desenvolvimento", u"Participantes do Projeto"),
-        (u"Paulo Victor", u"Assistente Administrativo, **migrando para Estrat\u00e9gia e Gest\u00e3o**",
-         u"Estrat\u00e9gia e Gest\u00e3o", u"Participantes do Projeto"),
-        (u"Janaina", u"Processos, Documenta\u00e7\u00e3o, Estrutura\u00e7\u00e3o e Mapeamento",
-         u"Estrat\u00e9gia, Processos e Projetos", u"Participantes do Projeto"),
+         u"Responsável Tecnologia", u"eduardo.brito@luizabarcelos.com.br"),
+        (u"Ticiane", u"Desenvolvimento", u"Desenvolvimento", u"Participantes do Projeto",
+         u"ticiane.rosa@luizabarcelos.com.br"),
+        (u"Paulo Victor", u"Assistente Administrativo, **migrando para Estratégia e "
+         u"Gestão**", u"Estratégia e Gestão", u"Participantes do Projeto",
+         u"paulo.franca@luizabarcelos.com.br"),
+        (u"Janaina", u"Processos, Documentação, Estruturação e Mapeamento",
+         u"Estratégia, Processos e Projetos", u"Participantes do Projeto",
+         u"janaina.araujo@luizabarcelos.com.br"),
         (u"Giuliana", u"Estilo e Merchandising", u"Estilo / Merchandising",
-         u"Participantes do Projeto"),
-        (u"Marcio", u"Cadastro", u"Opera\u00e7\u00f5es \u2014 Cadastro", u"Participantes do Projeto"),
-        (u"Ana Lucia Andrade", u"Respons\u00e1vel pelo Financeiro", u"Financeiro",
-         u"Respons\u00e1vel pelo Financeiro"),
-        (u"Samuel Correa", u"`[a preencher]`", u"Tecnologia", u"Respons\u00e1vel Tecnologia"),
+         u"Participantes do Projeto", u""),
+        (u"Marcio", u"Cadastro", u"Operações — Cadastro", u"Participantes do Projeto", u""),
+        (u"Juliana", u"`[a preencher]`", u"Marketing", u"Ata da reunião de 07/06/2024", u""),
     ],
     u"Cambos": [
         (u"Tony Stefan Lopes", u"Gerente Geral / Diretor de Opera\u00e7\u00e3o da F\u00e1brica",
@@ -159,11 +169,17 @@ DA_PAGINA = {
 }
 
 # Observacao por pessoa, quando a fonte diz algo que nao cabe em cargo/area.
+# Nota que nao casa com ficha nenhuma NAO e escrita, e some em silencio - foi o
+# que aconteceu ate 22 set 2026, quando NOTA_PAGINA existia e nunca era lida.
+USADAS = set()
+
 NOTA_PAGINA = {
+    (u"Luiza Barcelos", u"Luiz Raul Aleixo Barcelos"): u"🟢 **Trazido pelo Vinícius em 22 set 2026**, copiando à mão um bloco que este conector não renderiza. ⚠ **É o único Diretor/Representante Legal nomeado da conta**, e o e-mail dele é o mesmo do campo `Email Principal Financeiro` da base. 🔴 **A fonte traz telefone e CPF — nenhum dos dois entrou aqui.**",
+    (u"Luiza Barcelos", u"Samuel Correa"): u"🟢 **Cargo trazido pelo Vinícius em 22 set 2026:** **Gerente de Inovação e Tecnologia**. Estava `[a preencher]` porque o bloco não renderizava. ⚠ **São DOIS em Tecnologia** — ele e o Eduardo.",
     (u"Luiza Barcelos", u"Marcinha"): u"\U0001F534 **\u00c9 a pr\u00f3pria Luiza Barcelos.** A fonte registra: *o processo est\u00e1 na cabe\u00e7a da Marcinha \u2014 a miss\u00e3o \u00e9 tirar as informa\u00e7\u00f5es da cabe\u00e7a dela e colocar na ferramenta*. **\u00c9 risco de pessoa-chave, escrito pela pr\u00f3pria uMode.** Expectativa dela: *inovar no processo criativo sem perder a criatividade*.",
-    (u"Luiza Barcelos", u"Gabriel Jaques"): u"\u26a0 **O nome diz `Jaques` e o e-mail diz `gabriel.silva@`.** **N\u00e3o resolvi** \u2014 pode ser sobrenome social, nome de registro ou erro.",
-    (u"Luiza Barcelos", u"Eduardo Britto"): u"\u26a0 **A mesma p\u00e1gina escreve `Britto` e `Brito`.** **Duas grafias no mesmo documento, e eu n\u00e3o escolhi uma.**",
-    (u"Luiza Barcelos", u"Andre Franco"): u"A fonte anota: *animado com a implementa\u00e7\u00e3o*, com expectativa de **foco na cole\u00e7\u00e3o e efici\u00eancia no setor**.",
+    (u"Luiza Barcelos", u"Gabriel Jaques da Silva"): u"🟢 **RESOLVIDO em 22 set 2026:** a ata da reunião de 07/06/2024 escreve o nome completo — **`Gabriel Jaques da Silva`**. `Jaques` é nome do meio, `Silva` é o sobrenome do e-mail. **Não eram duas pessoas nem erro: era nome truncado.**",
+    (u"Luiza Barcelos", u"Eduardo Britto"): u"⚠ **A mesma página escreve `Britto` e `Brito`, e a ata de 07/06/2024 escreve `Eduardo Brito`.** **Duas grafias na mesma fonte, e eu não escolhi uma.**",
+    (u"Luiza Barcelos", u"Andre Mello Franco"): u"🟢 **Nome completo pela ata de 07/06/2024.** A fonte anota: *animado com a implementação*, com expectativa de **foco na coleção e eficiência no setor**.",
     (u"Cambos", u"Fabiane Sayuri"): u"\U0001F7E2 **\u00c9 a `Fabi` de `Fabi e Carol`** \u2014 a p\u00e1gina diz que o l\u00edder do projeto \u00e9 *Tony e Fabi*. **Ambiguidade resolvida com fonte, n\u00e3o com palpite.**",
     (u"Cambos", u"Carolina"): u"\U0001F7E2 **\u00c9 a `Carol` de `Fabi e Carol`**, a c\u00e9lula da base de demandas que eu me recusei a desmembrar. **A p\u00e1gina do cliente desmembrou.**",
     (u"Cambos", u"Tony Stefan Lopes"): u"**L\u00edder do projeto**, junto da Fabi. \U0001F534 **A fonte traz telefone e CPF \u2014 nenhum dos dois entrou aqui** (`T0`).",
@@ -289,6 +305,14 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None, plat=None):
         L.append(u"")
         L.append(u"⚠ **E-mail corporativo entra; e-mail pessoal, telefone e CPF não** "
                  u"— `AGORA.md` § 8.1.")
+    elif pag and len(pag) > 4 and pag[4]:
+        L.append(u"**`%s`** — e-mail **corporativo**, da página do cliente." % pag[4])
+        L.append(u"")
+        L.append(u"🟢 **É a chave de identidade desta pessoa** (item 252). "
+                 u"Tier `T2`.")
+        L.append(u"")
+        L.append(u"🔴 **A fonte também traz telefone, e num caso CPF — "
+                 u"nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).")
     elif pag:
         L.append(u"🔴 **Existe na página do cliente e NÃO foi replicado aqui.**")
         L.append(u"Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.")
@@ -333,6 +357,12 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None, plat=None):
     L.append(u"`[a preencher]`")
     L.append(u"### Interfaces")
     L.append(u"`[a preencher]`")
+    nota = NOTA_PAGINA.get((cliente, pag[0] if pag else nome))
+    if nota:
+        L.append(u"")
+        L.append(u"### Observação da fonte")
+        L.append(nota)
+        USADAS.add((cliente, pag[0] if pag else nome))
     L.append(u"")
     L.append(u"## Histórico")
     L.append(u"### Áreas de atuação histórica")
@@ -463,6 +493,15 @@ def main():
             clientes += 1
             print(u"  %-20s %3d fichas" % (c, n_cli))
     print(u"")
+    orfas = sorted(set(NOTA_PAGINA) - USADAS)
+    if orfas:
+        print(u"")
+        print(u"❌ NOTA SEM FICHA - estas notas NAO foram escritas em lugar nenhum:")
+        for c, n in orfas:
+            print(u"   %s / %s" % (c, n))
+        print(u"Corrija a chave para o nome EXATO em DA_PAGINA.")
+        return 1
+
     print(u"fichas de pessoa de cliente criadas/atualizadas: %d em %d clientes"
           % (criadas, clientes))
     print(u"Rode `python scripts/gera-conexoes.py` em seguida para ligá-las ao grafo.")

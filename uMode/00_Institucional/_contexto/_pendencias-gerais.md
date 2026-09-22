@@ -2685,3 +2685,45 @@
 412. **🔺 BUG MEU, corrigido: o gerador de fichas só processava cliente que tinha tabela de
      solicitante de demanda.** A Luiza Barcelos, com 15 pessoas com cargo na página, ficava de
      fora. **Fonte nova não pode depender da fonte antiga.** Corrigido.
+
+## Os uModers que saíram, e o bloco que o conector não lê (22 set 2026)
+
+413. **🟢 DECIDIDO — quatro uModers não estão mais na uMode.** Vinicius, textual:
+     *"Dalker Walter (Diretor de Operações), Rafael Renaldim (Gerente de Experiência do Cliente),
+     Tais Moser (Customer Success) e Saulo (CTO) não estão mais na uMode."* `[D]`
+     **Rafael tinha ficha — `Status na uMode` atualizado. Dalker, Tais e Saulo não tinham —
+     fichas criadas, já marcadas como saída.** ⚠ **Data de saída de nenhum deles é conhecida.**
+414. **🟢 DECIDIDO E REGISTRADO — o `HOJE` dos uModers é passo de FECHAMENTO, não de caminho.**
+     Vinicius: *"os cargos dos demais também terão atualizações. Isso vai ser uma coisa
+     recorrente e que teremos que corrigir somente ao final de toda a varredura: como é o HOJE
+     dos uModers."* `[D]`
+     **Implementado em dois lugares:** `AGORA.md` § 7 item 9 e `protocolo-varredura-cliente.md`
+     § 10. 🔴 **A regra que vale até lá: cargo lido em ata é cargo NAQUELA DATA, nunca de hoje.**
+     **Corrigir aos pedaços cria versões parciais conflitantes** — o mesmo defeito que o campo
+     `Status` de cliente já tem.
+415. **🔺 ERRO DE DIAGNÓSTICO MEU: eu disse que 17 blocos não abriram por falta de acesso.
+     Não era acesso.** A página abre inteira. **Os blocos são um tipo que este conector não
+     renderiza** — eram **linhas de contato**: telefone, e-mail, CPF e cargo.
+     **Eu quase pedi ao Vinicius uma liberação que não resolveria nada.**
+     **Virou a § 11 do `protocolo-varredura-cliente.md`:** antes de falar em permissão, puxar a
+     página-fonte direto; se abrir, não é acesso.
+416. **🟢 O contorno funciona, e é barato: o Vinicius copiou e colou o trecho.**
+     **O que veio assim entra como fonte normal, com procedência e data.**
+417. **🆕 Pessoas que só existiam nos blocos ilegíveis:**
+     **`Luiz Raul Aleixo Barcelos` — Diretor / Representante Legal**, o único nomeado da conta ·
+     **`Samuel Correa` — Gerente de Inovação e Tecnologia** (o cargo estava `[a preencher]`) ·
+     e-mail corporativo de **Ana Lucia Andrade**, **Gustavo Gabriel Santos Sobrinho** e
+     **Gabriel Jaques da Silva**.
+418. **⚠ O e-mail do Representante Legal é o mesmo do campo `Email Principal Financeiro` da
+     base** (`luiz@luizabarcelos.com.br`). **O contato financeiro da conta é o dono.**
+419. **⚠ A Luiza Barcelos tem DUAS pessoas em Tecnologia** — Eduardo Britto (Coordenador de
+     Sistemas e Tecnologia) e Samuel Correa (Gerente de Inovação e Tecnologia).
+     **O toggle prevê um `Responsável Tecnologia`; a realidade tem dois.**
+420. **⚠ CONFIRMADO na fonte original: a ata diz "equipe da Emoji" duas vezes** onde deveria
+     dizer uMode. **É ata gerada por IA com erro de transcrição, e está viva no Notion.**
+     Também: `Tais` e `Thaís` na mesma ata. **Nenhuma das duas foi corrigida por mim** — a fonte
+     é o que é.
+421. **🔺 BUG MEU, corrigido: `NOTA_PAGINA` existia no gerador e NUNCA era lida.** Eu escrevi
+     observações de pessoa que não chegavam a arquivo nenhum. **Mesma classe do bug da chave sem
+     pasta: perda silenciosa.** **Corrigido na causa** — o script agora **aborta** se uma nota
+     não casar com ficha nenhuma.

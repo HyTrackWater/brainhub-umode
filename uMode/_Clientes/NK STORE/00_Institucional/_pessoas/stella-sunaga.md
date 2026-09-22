@@ -40,6 +40,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Líderes de Departame
 ### Interfaces
 `[a preencher]`
 
+### Observação da fonte
+a fonte anota: *"Há 10 anos na empresa"*
+
 ## Histórico
 ### Áreas de atuação histórica
 `[a preencher]`

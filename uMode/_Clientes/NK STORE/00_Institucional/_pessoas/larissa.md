@@ -40,6 +40,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Líderes Responsávei
 ### Interfaces
 `[a preencher]`
 
+### Observação da fonte
+a fonte anota: *"Já implantou PLM em várias empresas"*
+
 ## Histórico
 ### Áreas de atuação histórica
 `[a preencher]`

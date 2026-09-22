@@ -40,6 +40,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Líderes de Departame
 ### Interfaces
 `[a preencher]`
 
+### Observação da fonte
+⚠ a fonte anota: *"Se ela está feliz com o projeto, estamos bem"* — **é termometro de projeto, dito pela própria uMode**
+
 ## Histórico
 ### Áreas de atuação histórica
 `[a preencher]`

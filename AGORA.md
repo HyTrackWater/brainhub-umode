@@ -172,6 +172,19 @@ alguma forma ligada a esses nós maiores."*
    e `Atendimento 2024`.
 7. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.
 8. 🔵 **Retomar a CAEDU** assim que as ~50 transcrições reais chegarem.
+9. 🔴 **AO FIM DE TODA A VARREDURA, e só ao fim: o `HOJE` dos uModers.**
+   **Decisão do Vinícius em 22 set 2026**, textual: *"os cargos dos demais também terão
+   atualizações. Isso vai ser uma coisa recorrente e que teremos que corrigir somente ao
+   final de toda a varredura: como é o HOJE dos uModers."* `[D]`
+
+   🔴 **A regra que vale até lá: cargo lido em ata é cargo NAQUELA DATA, nunca cargo de
+   hoje.** Toda ficha de uModer que receber cargo de uma fonte datada **cita a data junto**.
+   ⚠ **Não corrigir de um em um pelo caminho** — ele pediu de uma vez, no fim, e corrigir aos
+   pedaços só cria versões parciais conflitantes.
+
+   **Já confirmado por ele em 22 set 2026 — quatro saídas:** Dalker Walter (Diretor de
+   Operações) · Rafael Renaldim (Gerente de Experiência do Cliente) · Tais Moser
+   (Customer Success) · Saulo (CTO). ⚠ **Data de saída de nenhum deles é conhecida.**
 
 ## 8 · Decisões esperando o Vinicius
 

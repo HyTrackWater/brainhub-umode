@@ -1,4 +1,4 @@
-# Cambos · Pessoa · Tony Stefan Lopes
+# Luiza Barcelos · Pessoa · Gustavo Gabriel Santos Sobrinho
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
@@ -9,21 +9,23 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-**Tony Stefan Lopes** — da página do cliente. A base de demandas a escreve como `Tony Stefan Lopes`.
+**Gustavo Gabriel Santos Sobrinho** — da página do cliente. A base de demandas a escreve como `Gustavo Gabriel Santos Sobrinho`.
 ### Nome preferido / como é chamado(a)
-**Tony Stefan Lopes**
+**Gustavo Gabriel Santos Sobrinho**
 ### Email
-🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
-Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
-**Registro que existe e onde; o valor fica na fonte.**
-### Cadeira / cargo atual
-**Gerente Geral / Diretor de Operação da Fábrica**
+**`gustavo.sobrinho@luizabarcelos.com.br`** — e-mail **corporativo**, da página do cliente.
 
-Fonte: página do cliente no Notion, toggle `Pessoas` › `Diretores e Representantes Legais`.
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+🔴 **A fonte também traz telefone, e num caso CPF — nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).
+### Cadeira / cargo atual
+**Gerente Executivo de Estratégia e Gestão — **vice-líder do projeto****
+
+Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelo Projeto`.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-**Operação / Fábrica** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
+**Estratégia e Gestão** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
 14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
@@ -40,14 +42,11 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Diretores e Represent
 ### Interfaces
 `[a preencher]`
 
-### Observação da fonte
-**Líder do projeto**, junto da Fabi. 🔴 **A fonte traz telefone e CPF — nenhum dos dois entrou aqui** (`T0`).
-
 ## Histórico
 ### Áreas de atuação histórica
 `[a preencher]`
 ### Clientes atuais atendidos
-⚠ **não se aplica** — esta pessoa **é** do cliente `Cambos`
+⚠ **não se aplica** — esta pessoa **é** do cliente `Luiza Barcelos`
 ### Clientes atendidos historicamente
 ⚠ **não se aplica**
 
@@ -93,7 +92,7 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 > Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
 
-**Cliente:** `Cambos` — [institucional.md](../_contexto/institucional.md) · [jornada.md](../_contexto/jornada.md) · [pessoas.md](../_contexto/pessoas.md)
+**Cliente:** `Luiza Barcelos` — [institucional.md](../_contexto/institucional.md) · [jornada.md](../_contexto/jornada.md) · [pessoas.md](../_contexto/pessoas.md)
 
 **As outras pessoas deste cliente:** [índice](_indice.md)
 
