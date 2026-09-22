@@ -2235,3 +2235,22 @@
      de produzir software."* **Não está no `_inventario-repositorios.md`.**
 304. **⚠ CAEDU: só UMA pessoa da Qualidade tem acesso à plataforma** (visita 22/07). **É a lacuna
      de permissionamento mais concreta já encontrada**, e conecta com o item 287 (perfil = área).
+
+## Camada de conexão gerada (22 set 2026, mesma sessão)
+
+305. **🟢 RESOLVIDO — item 294.** O Vinicius cobrou na hora: *"praticamente 100% está órfão?
+     Isso praticamente invalida tudo... sem isso nada do brain funciona. Tudo tem que estar
+     conectado a algo."* **Escrito o `scripts/gera-conexoes.py`** e executado.
+     **Órfãos: 1.998 (97,7%) → 88 (4,2%). Conectados: 7,1% → 96,0%.** `[C]`
+     **O que a camada liga:** cada um dos 3 MDs do cliente aos outros dois e às 14 áreas · cada
+     área de volta à casa e às outras 13 · cada uma das **999 demandas** e **86 RFIs** ao cliente e
+     ao protocolo que a governa · e um **`_indice.md` por pasta de registro**, para que cada
+     demanda tenha entrada no grafo.
+     ⚠ **Links relativos, não wikilink por nome** — pelo item 295 (49 `pessoas.md`).
+306. **⚠ Restam 88 órfãos (4,2%)** — principalmente `brainwave/`, o `_boilerplate/` e alguns
+     registros de `00_Institucional`. **Não é defeito automático:** documento externo e frente
+     paralela podem legitimamente não ter entrada. **Decidir quais devem ser ligados.**
+307. **⚠ A seção `## Conexões` é GERADA e não se edita à mão** — a próxima execução sobrescreve.
+     **Entrou em 1.906 arquivos**, ou seja, em 100% de cada classe do corpus, respeitando a regra
+     de que estrutura não varia dentro da classe. **`gera-conexoes.py` passa a fazer parte do
+     ritual de fechamento.**

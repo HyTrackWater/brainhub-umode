@@ -53,3 +53,22 @@ Ju — Diretora de Operações
 
 ### Quem pode alterar este documento
 Responsável da área + CEO
+
+## Conexões
+
+> Camada de ligação do corpus. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Área da Casa uMode:** `02_Atendimento`
+
+**Institucional da Casa:** [institucional.md](../../00_Institucional/_contexto/institucional.md)
+
+**As outras áreas da Casa:**
+
+- [Institucional](../../00_Institucional/_contexto/contexto-area.md)
+- [Comercial](../../01_Comercial/_contexto/contexto-area.md)
+- [Produto e Solucoes](../../03_Produto-e-Solucoes/_contexto/contexto-area.md)
+- [Dados e IA](../../04_Dados-e-IA/_contexto/contexto-area.md)
+- [Financeiro](../../05_Financeiro/_contexto/contexto-area.md)
+- [Tecnologia](../../06_Tecnologia/_contexto/contexto-area.md)
+- [People](../../07_People/_contexto/contexto-area.md)
+- [Operacoes](../../08_Operacoes/_contexto/contexto-area.md)

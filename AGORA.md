@@ -113,7 +113,8 @@ Instituição (Casa uMode OU Cliente)
 | Atas de reunião lidas por inteiro | **8 de 1.161** |
 | `.md` estruturais, todos classificados | **68/68** |
 | Decisões pendentes registradas | **304** |
-| 🔴 **Órfãos no grafo** (Obsidian) | **1.998 de 2.044 · 97,7%** |
+| 🟢 **Conectados no grafo** (Obsidian) | **1.996 de 2.079 · 96,0%** |
+| Órfãos restantes | **88 · 4,2%** |
 | Clientes com permissionamento documentado | **12** |
 | Bases do Notion varridas | **7** |
 | Clientes com as 8 dimensões respondidas | **12 de 48** |

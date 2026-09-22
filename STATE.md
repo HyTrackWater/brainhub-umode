@@ -2997,3 +2997,12 @@ caminho).
   não cérebro.** ⚠ **E wikilink por nome simples não serve aqui:** há **49 `pessoas.md`**.
   ⚠ **Corrigi duas vezes o próprio medidor** antes de publicar o número: ele criava **hubs
   falsos** ao desempatar nome ambíguo pelo primeiro arquivo. Itens 294–304.
+  🟢 **E na mesma sessão o Vinicius cobrou o conserto, com razão:** *"tudo tem que estar
+  conectado a algo."* Escrito o **`scripts/gera-conexoes.py`**, que gera a camada de ligação em
+  **1.906 arquivos** — 100% de cada classe, respeitando a regra de que estrutura não varia
+  dentro da classe. **Órfãos: 1.998 → 88. Conectados: 7,1% → 96,0%.** Liga os 3 MDs do
+  cliente entre si e às 14 áreas, cada área de volta à casa, e **cada uma das 999 demandas e
+  86 RFIs** ao cliente e ao protocolo, com um **`_indice.md` por pasta de registro**.
+  ⚠ **Dois defeitos meus corrigidos no caminho:** o validador contava os índices gerados como
+  se fossem demanda, e **as 5 demandas da própria Casa ficaram de fora da primeira passada** —
+  o `valida-padrao-corpus.py` acusou, com razão. Itens 305–307.

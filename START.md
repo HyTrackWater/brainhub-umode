@@ -48,11 +48,11 @@ lê**, **se você pode editar** e **se ele pode ser citado como autoridade**.
 
 | Arquivo | Responde | Tamanho |
 |---|---|---|
-| **`START.md`** | **como me contextualizo e em que ordem** — este arquivo | curto |
-| **`AGORA.md`** | **onde o projeto está hoje** — papel, método, cobertura, frente ativa, próximos passos | 1 tela |
+| **[`START.md`](START.md)** | **como me contextualizo e em que ordem** — este arquivo | curto |
+| **[`AGORA.md`](AGORA.md)** | **onde o projeto está hoje** — papel, método, cobertura, frente ativa, próximos passos | 1 tela |
 | **`CLAUDE.md`** | **meu papel e as regras que não se quebram** | curto |
-| **`CONTEXT.md`** | **as decisões de arquitetura travadas** — hierarquia, áreas, portfólio | médio |
-| **`STATE.md`** | **o histórico**, sessão a sessão | ~2.800 linhas |
+| **[`CONTEXT.md`](CONTEXT.md)** | **as decisões de arquitetura travadas** — hierarquia, áreas, portfólio | médio |
+| **[`STATE.md`](STATE.md)** | **o histórico**, sessão a sessão | ~2.800 linhas |
 | **`README.md`** | porta de entrada para quem chega pelo GitHub | curto |
 
 🔴 **Nenhum outro arquivo de governança deve existir na raiz.** Se aparecer um sétimo,
@@ -64,56 +64,56 @@ Todas em `uMode/00_Institucional/_contexto/`, salvo indicação.
 
 | Arquivo | É dono de |
 |---|---|
-| `_espec-banco-brainhub.md` | **o banco** — collections, campos, relações, invariantes |
-| `_espec-pessoas-e-comunicacoes.md` | **pessoas e comunicações no banco** — `SUPERSEDED` o anterior nesses temas |
-| `_dicionario-dados-brainhub.md` | **o dicionário de dados** — o que existe hoje no código |
-| `_fluxo-dados-brainhub.md` | **o fluxo de dados** — da escrita do MD ao ping na inbox |
-| `_fluxo-crud-brainhub.md` | **hierarquias, endereçamento e demandas no banco** |
-| `_taxonomia-status-cliente.md` | **o campo `Status` do cliente** |
-| `_lista-clientes-reais.md` | **quem é cliente uMode de verdade** |
-| `_inventario-repositorios.md` | **os repositórios e sistemas**, e o papel de cada um |
-| `_proposta-grade-de-areas-revisao.md` | **a grade de áreas canônicas** e sua revisão |
-| `_backlog-convergencia-brainhub.md` | **a convergência com o vault do João** |
-| 🔴 `_pendencias-gerais.md` | 🔴 **TODA decisão que espera o Vinicius** — 248 itens |
+| [`_espec-banco-brainhub.md`](uMode/00_Institucional/_contexto/_espec-banco-brainhub.md) | **o banco** — collections, campos, relações, invariantes |
+| [`_espec-pessoas-e-comunicacoes.md`](uMode/00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) | **pessoas e comunicações no banco** — `SUPERSEDED` o anterior nesses temas |
+| [`_dicionario-dados-brainhub.md`](uMode/00_Institucional/_contexto/_dicionario-dados-brainhub.md) | **o dicionário de dados** — o que existe hoje no código |
+| [`_fluxo-dados-brainhub.md`](uMode/00_Institucional/_contexto/_fluxo-dados-brainhub.md) | **o fluxo de dados** — da escrita do MD ao ping na inbox |
+| [`_fluxo-crud-brainhub.md`](uMode/00_Institucional/_contexto/_fluxo-crud-brainhub.md) | **hierarquias, endereçamento e demandas no banco** |
+| [`_taxonomia-status-cliente.md`](uMode/00_Institucional/_contexto/_taxonomia-status-cliente.md) | **o campo `Status` do cliente** |
+| [`_lista-clientes-reais.md`](uMode/00_Institucional/_contexto/_lista-clientes-reais.md) | **quem é cliente uMode de verdade** |
+| [`_inventario-repositorios.md`](uMode/00_Institucional/_contexto/_inventario-repositorios.md) | **os repositórios e sistemas**, e o papel de cada um |
+| [`_proposta-grade-de-areas-revisao.md`](uMode/00_Institucional/_contexto/_proposta-grade-de-areas-revisao.md) | **a grade de áreas canônicas** e sua revisão |
+| [`_backlog-convergencia-brainhub.md`](uMode/00_Institucional/_contexto/_backlog-convergencia-brainhub.md) | **a convergência com o vault do João** |
+| 🔴 [`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md) | 🔴 **TODA decisão que espera o Vinicius** — 248 itens |
 | `institucional.md` | **a identidade da Casa uMode** |
-| `uMode/06_Tecnologia/_contexto/_backlog-infra-tecnologia.md` | a infraestrutura de tecnologia |
-| `uMode/04_Dados-e-IA/_contexto/uflow-modelo-de-dados.md` | o modelo de dados do uFlow |
-| `uMode/04_Dados-e-IA/_contexto/_blueprint-boilerplate-governado.md` | o boilerplate governado |
-| `uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow.md` | **o Agente de Suporte Técnico uFlow** — preserva fonte que saiu do disco |
-| `uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow-ficha-banco.md` | **o payload de inserção desse agente** nas collections `agents` e `agent_versions` |
+| [`uMode/06_Tecnologia/_contexto/_backlog-infra-tecnologia.md`](uMode/06_Tecnologia/_contexto/_backlog-infra-tecnologia.md) | a infraestrutura de tecnologia |
+| [`uMode/04_Dados-e-IA/_contexto/uflow-modelo-de-dados.md`](uMode/04_Dados-e-IA/_contexto/uflow-modelo-de-dados.md) | o modelo de dados do uFlow |
+| [`uMode/04_Dados-e-IA/_contexto/_blueprint-boilerplate-governado.md`](uMode/04_Dados-e-IA/_contexto/_blueprint-boilerplate-governado.md) | o boilerplate governado |
+| [`uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow.md`](uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow.md) | **o Agente de Suporte Técnico uFlow** — preserva fonte que saiu do disco |
+| [`uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow-ficha-banco.md`](uMode/04_Dados-e-IA/_contexto/agente-suporte-uflow-ficha-banco.md) | **o payload de inserção desse agente** nas collections `agents` e `agent_versions` |
 
 ### P · Protocolos — como executar
 
 Em `uMode/00_Institucional/_protocolos/`:
-`protocolo-varredura-cliente.md` · `protocolo-criacao-cliente.md` · `protocolo-gestao-demanda.md` ·
-`protocolo-gestao-rfi.md` · `protocolo-gestao-integracao.md` · `protocolo-gestao-pessoas.md` ·
-`protocolo-gestao-produto.md`
+[`protocolo-varredura-cliente.md`](uMode/00_Institucional/_protocolos/protocolo-varredura-cliente.md) · [`protocolo-criacao-cliente.md`](uMode/00_Institucional/_protocolos/protocolo-criacao-cliente.md) · [`protocolo-gestao-demanda.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-demanda.md) ·
+[`protocolo-gestao-rfi.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-rfi.md) · [`protocolo-gestao-integracao.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-integracao.md) · [`protocolo-gestao-pessoas.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-pessoas.md) ·
+[`protocolo-gestao-produto.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-produto.md)
 
 Em `uMode/04_Dados-e-IA/_protocolos/`:
-`governanca-squad-desenvolvimento.md` · `contratos-agentes-por-dimensao.md` ·
-`treinamento-e-contratos-squad.md` · `parecer-smartcoding-esteira-2026-09-02.md`
+[`governanca-squad-desenvolvimento.md`](uMode/04_Dados-e-IA/_protocolos/governanca-squad-desenvolvimento.md) · [`contratos-agentes-por-dimensao.md`](uMode/04_Dados-e-IA/_protocolos/contratos-agentes-por-dimensao.md) ·
+[`treinamento-e-contratos-squad.md`](uMode/04_Dados-e-IA/_protocolos/treinamento-e-contratos-squad.md) · [`parecer-smartcoding-esteira-2026-09-02.md`](uMode/04_Dados-e-IA/_protocolos/parecer-smartcoding-esteira-2026-09-02.md)
 
 ### R · Registros — evidência datada, 🔴 imutável, 🔴 nunca autoridade
 
-`_auditoria-indexacao.md` · `_varredura-drive-notas.md` · `_varredura-ferramentas-produtos-areas.md` ·
-`_varredura-2026-09-21-fontes-e-lacunas.md` · `_varredura-2026-09-22-reunioes-compartilhadas.md` ·
-`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md` ·
-`_varredura-2026-09-22b-chamados-e-identidade-de-pessoa.md` ·
-`_varredura-2026-09-22c-painel-de-prontidao.md` ·
-`_varredura-2026-09-22d-cx-hub-schema-e-placar.md` ·
-`_varredura-2026-09-22e-permissionamento-e-perfis.md` ·
-`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md` — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
-`_levantamento-2026-08-19-repos-e-prd.md` · `_levantamento-2026-09-21-praticas-vault-e-caedu.md` ·
-`_decisoes-convergencia-proposta.md` ·
-⚠ `_recebido-2026-08-18-context-pack-brainhub-2.0.md` — **documento externo, do João/Codex: não é
+[`_auditoria-indexacao.md`](uMode/00_Institucional/_contexto/_auditoria-indexacao.md) · [`_varredura-drive-notas.md`](uMode/00_Institucional/_contexto/_varredura-drive-notas.md) · [`_varredura-ferramentas-produtos-areas.md`](uMode/00_Institucional/_contexto/_varredura-ferramentas-produtos-areas.md) ·
+[`_varredura-2026-09-21-fontes-e-lacunas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-21-fontes-e-lacunas.md) · [`_varredura-2026-09-22-reunioes-compartilhadas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md) ·
+[`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md) ·
+[`_varredura-2026-09-22b-chamados-e-identidade-de-pessoa.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22b-chamados-e-identidade-de-pessoa.md) ·
+[`_varredura-2026-09-22c-painel-de-prontidao.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22c-painel-de-prontidao.md) ·
+[`_varredura-2026-09-22d-cx-hub-schema-e-placar.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22d-cx-hub-schema-e-placar.md) ·
+[`_varredura-2026-09-22e-permissionamento-e-perfis.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22e-permissionamento-e-perfis.md) ·
+[`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
+[`_levantamento-2026-08-19-repos-e-prd.md`](uMode/00_Institucional/_contexto/_levantamento-2026-08-19-repos-e-prd.md) · [`_levantamento-2026-09-21-praticas-vault-e-caedu.md`](uMode/00_Institucional/_contexto/_levantamento-2026-09-21-praticas-vault-e-caedu.md) ·
+[`_decisoes-convergencia-proposta.md`](uMode/00_Institucional/_contexto/_decisoes-convergencia-proposta.md) ·
+⚠ [`_recebido-2026-08-18-context-pack-brainhub-2.0.md`](uMode/00_Institucional/_contexto/_recebido-2026-08-18-context-pack-brainhub-2.0.md) — **documento externo, do João/Codex: não é
 nosso e não se edita em hipótese nenhuma.**
 
 ### D · Didáticos · T · Templates · X · Derivados
 
-- **D:** `_como-o-brainhub-funciona.md` — traduz `_fluxo-dados` e `_dicionario`. **Não acrescenta
+- **D:** [`_como-o-brainhub-funciona.md`](uMode/00_Institucional/_contexto/_como-o-brainhub-funciona.md) — traduz `_fluxo-dados` e `_dicionario`. **Não acrescenta
   desenho.** Metáfora só é permitida aqui, e com ponte de vocabulário obrigatória.
-- **T:** `_template_contexto_area_casa.md` · `_demandas/_template_demanda.md` ·
-  `_pessoas/_template_pessoa.md` · `_Clientes/_template_cliente/` ·
+- **T:** [`_template_contexto_area_casa.md`](uMode/00_Institucional/_contexto/_template_contexto_area_casa.md) · `_demandas/_template_demanda.md` ·
+  [`_pessoas/_template_pessoa.md`](uMode/00_Institucional/_pessoas/_template_pessoa.md) · `_Clientes/_template_cliente/` ·
   `03_Produto-e-Solucoes/_template_produto/`
 - **X:** `_indice/` — 6 CSVs + README, **gerados por `scripts/gen-indice.ps1`. Não editar à mão.**
 
@@ -128,10 +128,10 @@ nosso e não se edita em hipótese nenhuma.**
 
 ### F · Frentes paralelas — só quando a sessão for sobre elas
 
-- `brainwave/` — a interface visual. Comece por `brainwave/CONTEXTO.md`, depois o arquivo de
+- `brainwave/` — a interface visual. Comece por [`brainwave/CONTEXTO.md`](brainwave/CONTEXTO.md), depois o arquivo de
   tarefa de maior número.
 - `uMode/04_Dados-e-IA/_boilerplate/` — governança de squad de agentes (tem `CLAUDE.md`,
-  `AGENTS.md`, `HERMES.md` próprios). ⚠ **Esses `CLAUDE.md` são do boilerplate, não deste
+  [`AGENTS.md`](uMode/04_Dados-e-IA/_boilerplate/AGENTS.md), [`HERMES.md`](uMode/04_Dados-e-IA/_boilerplate/HERMES.md) próprios). ⚠ **Esses `CLAUDE.md` são do boilerplate, não deste
   repositório** — não confundir com o da raiz.
 - `uMode/04_Dados-e-IA/_inbox-hermes/` — **canal de saída para o João/HERMES**: pacotes-proposta
   prontos para ele colar no vault. 🔴 **Escrita no vault não é nossa** — aqui só se propõe.
@@ -199,7 +199,8 @@ e os **REGISTROS** datados.
 
 **Toda sessão que gera commit faz os quatro passos, nesta ordem:**
 
-0. **`python scripts/valida-indexacao.py`** — o grafo do corpus: quantos órfãos, quais hubs,
+0. **`python scripts/gera-conexoes.py`** — regenera a camada de links do corpus. **Obrigatório quando se cria cliente, área, demanda ou RFI**, senão o registro novo nasce órfão.
+1. **`python scripts/valida-indexacao.py`** — o grafo do corpus: quantos órfãos, quais hubs,
    links quebrados. **Não é portão, é relatório** — mas é o que diz se o BrainHub está virando
    cérebro ou continua nuvem de pontos soltos.
 1. **`python scripts/valida-padrao-corpus.py`** — o corpus fecha em `694 / 50 / 49 / 49` com

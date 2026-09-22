@@ -183,7 +183,8 @@ def audita(pasta, rotulo):
         if not dp.endswith(pasta):
             continue
         for f in fs:
-            if not f.endswith(u".md") or f.startswith(u"_template"):
+            # `_indice.md` e DERIVADO (gerado por gera-conexoes.py), nao e demanda/RFI.
+            if not f.endswith(u".md") or f.startswith(u"_template") or f == u"_indice.md":
                 continue
             total += 1
             s = io.open(os.path.join(dp, f), encoding="utf-8").read()
