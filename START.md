@@ -105,6 +105,7 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 [`_varredura-2026-09-22f-caedu-notion-e-o-terceiro-acervo-de-atas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22f-caedu-notion-e-o-terceiro-acervo-de-atas.md) ·
 [`_varredura-2026-09-22g-ferramenta-vira-no-e-a-etapa-contradiz-o-status.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22g-ferramenta-vira-no-e-a-etapa-contradiz-o-status.md) ·
 [`_varredura-2026-09-22h-a-pagina-do-cliente-tem-cargo-e-area.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22h-a-pagina-do-cliente-tem-cargo-e-area.md) ·
+[`_varredura-2026-09-22i-diario-de-bordo-por-cliente-e-o-que-ele-ja-corrigiu.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22i-diario-de-bordo-por-cliente-e-o-que-ele-ja-corrigiu.md) ·
 [`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
 [`_levantamento-2026-08-19-repos-e-prd.md`](uMode/00_Institucional/_contexto/_levantamento-2026-08-19-repos-e-prd.md) · [`_levantamento-2026-09-21-praticas-vault-e-caedu.md`](uMode/00_Institucional/_contexto/_levantamento-2026-09-21-praticas-vault-e-caedu.md) ·
 [`_decisoes-convergencia-proposta.md`](uMode/00_Institucional/_contexto/_decisoes-convergencia-proposta.md) ·
@@ -144,6 +145,15 @@ alguma forma ligada a esses nós maiores."* **Linha de tabela não é nó de gra
 
 🔴 **Criar entidade nova sem ficha é quebrar o modelo.** Os três ❌ são dívida
 aberta, não exceção — itens 318–328 do `_pendencias-gerais.md`.
+
+🔴 **Cada cliente tem UM arquivo que responde "o que ainda não sei dele?" e "onde já
+procurei?":** `_Clientes/<Cliente>/00_Institucional/_contexto/`**`_pendencias-e-fontes.md`**,
+com o **tier `T0`/`T1`/`T2`** de cada ponto e o **diário das fontes já varridas**.
+Gerado por `scripts/gera-pendencias-e-fontes.py`, **48 de 48 clientes**.
+
+> 🔴 **LEIA-O ANTES DE VARRER QUALQUER CLIENTE.** Ele existe porque a memória da conversa
+> **compacta** e a do disco não. **Reabrir fonte já varrida é queimar token à toa** — foi
+> cobrança direta do Vinicius em 22 set 2026.
 
 🔴 **Todo MD da mesma classe tem os mesmos títulos, sempre.** Conteúdo varia por cliente;
 **estrutura nunca varia.** Se o padrão mudar, **muda para a classe inteira, retroativamente.**

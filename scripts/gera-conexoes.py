@@ -118,6 +118,9 @@ def main():
             b.append(u"")
             b.append(u"**Os outros dois MDs desta casa:** [%s](%s) · [%s](%s)" % (i1, i1, i2, i2))
             b.append(u"")
+            b.append(u"🔴 **O que ainda não se sabe deste cliente, e onde já se "
+                     u"procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)")
+            b.append(u"")
             if n_dem or n_rfi or n_pes:
                 partes = []
                 if n_dem:
@@ -286,6 +289,28 @@ def main():
         b.append(u"\n".join(u"- [%s](../../%s/_contexto/contexto-area.md)" % (bonito(x), x)
                             for x in outras))
         if poe(p, u"\n".join(b)):
+            tocados += 1
+
+    # ---- diario de pendencias e fontes por cliente (22 set 2026) ----
+    # Pedido do Vinicius: um arquivo por cliente com toda duvida, discrepancia
+    # e risco, e o registro de onde ja se varreu. Sem este bloco ele nasce orfao.
+    for c in sorted(os.listdir(CLI)):
+        p = os.path.join(CLI, c, u"00_Institucional", u"_contexto",
+                         u"_pendencias-e-fontes.md")
+        if not os.path.exists(p):
+            continue
+        b = [u"> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**",
+             u"",
+             u"**Cliente:** `%s` — [institucional.md](institucional.md) · "
+             u"[jornada.md](jornada.md) · [pessoas.md](pessoas.md)" % c,
+             u"",
+             u"**As decisões TRANSVERSAIS, que não são deste cliente, vivem em** "
+             u"[`_pendencias-gerais.md`]"
+             u"(../../../../00_Institucional/_contexto/_pendencias-gerais.md).",
+             u"",
+             u"**O protocolo que governa a varredura:** [`protocolo-varredura-cliente.md`]"
+             u"(../../../../00_Institucional/_protocolos/protocolo-varredura-cliente.md)"]
+        if poe(p, chr(10).join(b)):
             tocados += 1
 
     # ---- fichas de ferramenta (22 set 2026) ----

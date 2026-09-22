@@ -196,21 +196,25 @@ alguma forma ligada a esses nós maiores."*
 | **240** | Reunião e demanda que atendem **dois clientes** — como registrar? |
 | **241** | `## O que este documento NÃO resolve` vira canônico? **Muda ~145 arquivos** |
 
-### 8.1 · O tratamento de dado sensível que eu vou aplicar por padrão
+### 8.1 · Dado sensível: `T0` / `T1` / `T2`
 
-**Reuso o vocabulário `disclosurePolicy` que já existe** no
-[`_espec-pessoas-e-comunicacoes.md`](uMode/00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md),
-em vez de inventar outro:
+> 🔺 **Corrigido em 22 set 2026.** Até aqui eu usava rótulos meus — `INTERNAL_ONLY`,
+> `NEVER_TO_THIRD_PARTY`. **Era uma segunda taxonomia para a mesma coisa**, o defeito que a
+> gente critica. **O vocabulário é `T0`/`T1`/`T2`**, o mesmo que o João usa no vault, com
+> definição operacional já registrada (item 96 do `_pendencias-gerais.md`).
 
-| Classe | O que faço |
-|---|---|
-| **Nome, cargo, área, papel no projeto** | entra normalmente · `INTERNAL_ONLY` |
-| **Escopo, marco, entrega, decisão, prazo** | entra normalmente |
-| **Valor de proposta, preço, margem, condição comercial** | **entra com `NEVER_TO_THIRD_PARTY`** e fica **só** em `00_Institucional/_contexto/` do cliente |
-| **Telefone pessoal, CPF, e-mail pessoal** | 🔴 **não entra.** Registro que existe na fonte e onde |
-| **Senha, token, chave, string de conexão** | 🔴 **nunca entra, em hipótese nenhuma** |
+| Tier | O que é | O que entra no corpus |
+|:-:|---|---|
+| **`T2`** | **equipe** — o padrão | nome, cargo, área, papel, escopo, marco, decisão, prazo |
+| **`T1`** | **restrito** | valor de proposta, preço, margem, escopo confidencial — **entra, e fica só no `_contexto/` daquele cliente** |
+| **`T0`** | **privado** | 🔴 **nunca entra por valor.** CPF, telefone pessoal, senha, token, string de conexão. **Entra por referência:** registro que existe e **onde** |
 
-⚠ **Se o Vinicius quiser regra diferente para valor comercial, é só dizer** — até lá, aplico esta.
+**Onde isso vive, por cliente:** `_Clientes/<Cliente>/00_Institucional/_contexto/`
+**`_pendencias-e-fontes.md`** — é a autoridade sobre as pendências **daquele** cliente e sobre
+**onde já se varreu**. Gerado por `scripts/gera-pendencias-e-fontes.py`.
+
+⚠ **O que NÃO fiz:** não copiei mecanismo nenhum do vault (a restrição continua valendo).
+**Adotei o rótulo, que é vocabulário comum** — e vocabulário comum é exatamente o ponto.
 
 ## 9 · Como manter este arquivo vivo
 

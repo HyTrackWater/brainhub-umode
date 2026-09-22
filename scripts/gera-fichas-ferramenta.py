@@ -99,6 +99,31 @@ TERCEIROS = [
      u"\U0001F534 **não é produto de mercado** — é sistema interno do cliente"),
 ]
 
+# Canais e ferramentas de TRABALHO. O enum ja existia no corpus, em
+# `_espec-pessoas-e-comunicacoes.md`, campo `tool` - e eu nao o usei na primeira
+# passada. Enum de fonte e fonte de entidade, inclusive o enum que e nosso.
+# Formato: (nome, fornecedor, nota)
+CANAIS = [
+    (u"Notion", u"Notion Labs",
+     u"\U0001F7E2 **\u00e9 o \u00fanico leg\u00edvel pelo BrainHub hoje** \u2014 as bases de cliente, "
+     u"demanda, RFI e reuni\u00e3o vivem aqui"),
+    (u"Kanbanize", u"Businessmap (Kanbanize)",
+     u"\U0001F534 **cart\u00f5es de demanda de cliente vivem aqui e NUNCA foram varridos.** "
+     u"A p\u00e1gina da Reserva cita `umode.kanbanize.com`, **boards 6 e 18**, com 7 IDs de cart\u00e3o"),
+    (u"Gist", u"Gist",
+     u"**o chat da plataforma** \u2014 canal oficial declarado para *\"d\u00favidas de usabilidade "
+     u"& plataforma\"*. \u26a0 **nunca varrido**"),
+    (u"WhatsApp", u"Meta",
+     u"\u26a0 **canal real de opera\u00e7\u00e3o, fora de qualquer sistema.** A Reserva tem "
+     u"**9 grupos mapeados**, com decis\u00e3o de manter ou excluir"),
+    (u"Miro", u"Miro",
+     u"quadros de regra e restri\u00e7\u00e3o \u2014 Reserva e CAEDU citam `Miro Regras e restri\u00e7\u00f5es`"),
+    (u"Google Drive", u"Google",
+     u"pastas de opera\u00e7\u00e3o por cliente \u2014 o campo `Drive Opera\u00e7\u00e3o` da base aponta para c\u00e1"),
+    (u"YouTube", u"Google",
+     u"grava\u00e7\u00e3o de reuni\u00e3o e treinamento \u2014 \u26a0 **nunca varrido**"),
+]
+
 COMPOSTOS = {u"Linx / SAP": (u"Linx", u"SAP"), u"SAP e Linx": (u"SAP", u"Linx")}
 
 MOD_LEGADO = {
@@ -235,6 +260,20 @@ def main():
             m, u"**Módulo contratável da plataforma uMode** (nome legado do uFlow)",
             u"uMode", u"`[a preencher]`", cl, suc, nsuc))
 
+    # --- 2-bis) canais e ferramentas de trabalho ---
+    # Nao tem coluna de cliente numa base: o vinculo e por citacao em pagina, e
+    # cada ficha diz onde foi visto. Lista vazia e honesto: nao ha campo que diga
+    # "cliente X usa Miro" - ha pagina que cita.
+    for nome, forn, nota in CANAIS:
+        n += esc(os.path.join(pt, slug(nome) + u".md"), ficha(
+            nome, u"**Canal / ferramenta de trabalho** \u2014 software de terceiro que a uMode "
+                  u"opera. \U0001F534 **N\u00e3o \u00e9 produto da uMode e n\u00e3o \u00e9 ERP de cliente.**",
+            forn, nota, [], u"\u26a0 **n\u00e3o se aplica**",
+            u"\U0001F534 **O v\u00ednculo com cliente N\u00c3O vem de campo de base** \u2014 nenhuma base diz "
+            u"quem usa o qu\u00ea. Vem de **cita\u00e7\u00e3o na p\u00e1gina do cliente**, e s\u00f3 existe onde a "
+            u"p\u00e1gina foi aberta. **Lista vazia aqui significa \"n\u00e3o varrido\", nunca "
+            u"\"n\u00e3o usado\".**"))
+
     for nome, forn, nota in TERCEIROS:
         cl = []
         for (c, st, _m, erps) in CARTEIRA:
@@ -272,7 +311,7 @@ def main():
         u"inferir o mapeamento por nome parecido.",
         pm, im, cm, u"Módulos contratados"))
 
-    it = []
+    it = [(nome, slug(nome) + u".md", 0) for nome, _f, _nt in CANAIS]
     for nome, _f, _nt in TERCEIROS:
         k = 0
         for (_c, _s, _m, erps) in CARTEIRA:

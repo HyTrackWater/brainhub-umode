@@ -2398,3 +2398,40 @@
 340. **⚠ O protocolo de varredura precisa mandar PROCURAR SEGREDO em toda página de cliente
      aberta.** A segunda página que abri tinha uma credencial de produção. **Varrer página é
      varrer risco.**
+
+## Diário de bordo por cliente, e o tier T0/T1/T2 (22 set 2026)
+
+341. **🟢 FEITO — cada cliente tem UM arquivo com suas dúvidas, discrepâncias e riscos, e com o
+     registro de onde já se varreu.** `_Clientes/<Cliente>/00_Institucional/_contexto/`
+     `_pendencias-e-fontes.md`, **48 de 48**. Cobrança do Vinicius: *"registre todos os locais de
+     onde já vasculhou pra evitar ficar repetindo buscas... perda de tempo e de token."*
+     **Existe porque a memória da conversa compacta e a do disco não.**
+     🔴 **Ler antes de varrer qualquer cliente. É a trava contra repetir busca.**
+342. **🟢 FEITO — o tier de sensibilidade passa a ser `T0`/`T1`/`T2`**, o vocabulário que o João
+     já usa, com a definição operacional do item 96. **Aposentei `INTERNAL_ONLY` e
+     `NEVER_TO_THIRD_PARTY`: eram uma segunda taxonomia para a mesma coisa.**
+     ⚠ **Adotei o rótulo, não o mecanismo** — a restrição de não copiar do vault continua.
+343. **🔺 CORREÇÃO — não existe "o template de pessoa da página do cliente".** O registro (h)
+     concluiu isso de **dois** casos (Osklen, NK STORE). **A Reserva não tem o toggle `Pessoas`:**
+     as pessoas dela aparecem soltas, dentro dos nomes dos grupos de WhatsApp.
+     **Dois é hipótese, três é padrão — e o terceiro desmentiu.**
+344. **🔺 CORREÇÃO — gerei as fichas de ferramenta de DOIS enums e o corpus já tinha um terceiro.**
+     O `_espec-pessoas-e-comunicacoes.md` já trazia o enum `tool`: `Notion` · `WhatsApp` · `Gist` ·
+     `Miro` · `Kanbanize` · `Google Drive` · `YouTube`. **Não apliquei a regra que eu mesmo tinha
+     acabado de escrever, no lugar onde ela já valia.** **Corrigido: 16 → 23 fichas.**
+345. **🔴 ACHADO — `umode.kanbanize.com` é uma fonte de demanda inteira, jamais tocada.**
+     A página da Reserva cita **boards 6 e 18, com 7 cartões por ID** (2 fechados, 5 abertos).
+     **As 999 demandas do corpus vêm só da base do Notion. Não sei quanto se sobrepõem.**
+     **Preciso de acesso ao Kanbanize.**
+346. **🔴 A cadência de `Review Quinzenal de Projeto` da Reserva parou.** Envios marcados até
+     **30/06**; **15/07, 02/08 e 21/08 sem marca**. Responsável declarado: **João**.
+     Destinatária: **Claudinha**.
+347. **🔴 5 dos 9 grupos de WhatsApp da Reserva estão marcados para EXCLUIR e continuam
+     existindo.** A decisão 🟢manter/🔴excluir está escrita na própria página.
+348. **🆕 Fonte de demanda não é uma só.** Notion, **Kanbanize**, **Gist** (chat da plataforma),
+     **WhatsApp** e **formulário** coexistem — a Reserva declara formulário para demanda nova e
+     Gist para dúvida de usabilidade, com média de **1 chamado/dia e 2 reuniões/semana**.
+     **Nenhuma varredura anterior sabia disso.**
+349. **⚠ `uBuy` apareceu no TERCEIRO cliente** (Reserva: *DE/PARA Campos uBuy*, *Ficha de Pedido
+     uBuy*), junto com **`uPlan`**. **Um caso é anedota, dois é hipótese, três é padrão: `uBuy`
+     é produto vivo e o portfólio de 16 está incompleto.**

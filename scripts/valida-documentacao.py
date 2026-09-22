@@ -36,7 +36,11 @@ IGNORA_DIR = (
 
 # Arquivos que sao corpus replicado por area/produto: governados pelo propaga.py,
 # nao pelo manifesto.
-CORPUS = (u"contexto-area.md", u"produto.md", u"institucional.md", u"jornada.md", u"pessoas.md")
+# Classes do corpus: existem replicadas por cliente/produto. O manifesto cita a
+# CLASSE (secao C do START.md), nunca cada instancia - senao o manifesto viraria
+# um indice de 2.300 linhas e deixaria de ser legivel, que era o problema original.
+CORPUS = (u"contexto-area.md", u"produto.md", u"institucional.md", u"jornada.md",
+          u"pessoas.md", u"_pendencias-e-fontes.md")
 
 
 def normaliza(caminho):
@@ -93,7 +97,8 @@ def manifesto():
 
 
 # Nomes de CLASSE do corpus citados no manifesto: sao tipos de arquivo, nao caminhos.
-CLASSES = (u"contexto-area.md", u"produto.md", u"jornada.md", u"pessoas.md")
+CLASSES = (u"contexto-area.md", u"produto.md", u"jornada.md", u"pessoas.md",
+           u"_pendencias-e-fontes.md")
 
 
 def coberto(caminho, citados, pastas):

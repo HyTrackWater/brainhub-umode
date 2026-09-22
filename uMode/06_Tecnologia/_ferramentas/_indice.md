@@ -8,6 +8,13 @@ Os **sistemas de ERP/integração dos clientes**. 🔴 **Nenhum é produto da uM
 
 | Ferramenta | Clientes |
 |---|---:|
+| [Notion](notion.md) | 🔴 **0** |
+| [Kanbanize](kanbanize.md) | 🔴 **0** |
+| [Gist](gist.md) | 🔴 **0** |
+| [WhatsApp](whatsapp.md) | 🔴 **0** |
+| [Miro](miro.md) | 🔴 **0** |
+| [Google Drive](google-drive.md) | 🔴 **0** |
+| [YouTube](youtube.md) | 🔴 **0** |
 | [Linx](linx.md) | **12** |
 | [SAP](sap.md) | **6** |
 | [Totvs](totvs.md) | **2** |
