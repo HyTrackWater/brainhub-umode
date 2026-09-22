@@ -127,6 +127,33 @@ VIX**, mas foi aberto por **`vinicius.dias@bynv.com.br`** — **que é da NV**.
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+
+#### 🟢 As duas Luanas — RESOLVIDO em 22 set 2026
+
+A varredura de demandas registrou `Luana Henriques` (27) e `Luana` (11), com a fonte dizendo
+literalmente **`Luana Henriques & Luana Carmo`**, e eu **não unifiquei** por falta de
+identificador. **A base de chamados confirma: são duas pessoas reais.** `[C]`
+
+| Pessoa | E-mail | Chamados | Janela |
+|---|---|---:|---|
+| **Luana Henriques** | `luana.henriques@vixbrasil.com` | 6 | 08/01 → 28/01/2026 |
+| **Luana Carmo** | `luana.carmo@vixbrasil.com` | 3 | 08/01 → 09/01/2026 |
+
+> 🟢 **Foi certo não unificar.** ⚠ **Mas as 11 demandas assinadas só `Luana` seguem sem
+> dono** — **ter a chave não conserta o dado escrito sem ela.**
+
+**Outras 11 pessoas da VIX com e-mail**, na janela de jan/2026: `priscilla.souza` (5) ·
+`josilaine.paula` (2) · `catherine.medeiros` (2) · `janine.silva` · `jackeline.teodoro` ·
+`hugo.santos` · `gabriella.rodrigues` · `evelyn.nascimento` · `eduarda.ribeiro` ·
+`caroline.girao` · `beatriz.silva` — todos `@vixbrasil.com` · mais `ecommerce@vixbrasil.com`,
+que é **caixa de área, não pessoa**.
+
+⚠ **`vinicius.dias@bynv.com.br` consta sob VIX e o domínio é da NV.** **Não corrigi** — pode
+ser erro de preenchimento. Registrado no item 266 das pendências.
+
+Evidência em [`_varredura-2026-09-22b-chamados-e-identidade-de-pessoa.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22b-chamados-e-identidade-de-pessoa.md).
+
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

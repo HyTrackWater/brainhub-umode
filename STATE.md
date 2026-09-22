@@ -2858,3 +2858,28 @@ caminho).
   corpus tratava como **quebra de isolamento de cliente**, **não era defeito** — era um grupo
   atendido junto. **Abre a pergunta real: o corpus precisa do nível `Grupo` acima de `Cliente`?**
   Já há outros casos (Puket/Grupo Único; Reserva/Oficina Reserva/Simples). Itens 257–261.
+
+- **22 set 2026** — Sessão 36: **a chave de identidade de pessoa existe — e eu havia dito que não.**
+  Instrução do Vinicius: *"siga coletando informações se nada te trava."*
+  **Primeiro, um bloqueio real e verificado:** os IDs do campo `Participantes` das 1.161 reuniões
+  **não resolvem por este conector** — `get-users` devolve 14 usuários e **nenhum deles é um
+  participante**; busca por ID devolve vazio. **O campo é inútil por este caminho de acesso.**
+  **Pivotei para a base `Chamados & Atendimentos`** — **185 chamados, 92 e-mails individuais**.
+  🟢 **É a chave de identidade que eu havia declarado inexistente.** Na varredura da manhã eu
+  escrevi *"nenhuma pessoa tem e-mail neste campo"* — forma certa — **mas a pendência 252
+  generalizou para "não há chave".** **"Não encontrei em X" ≠ "não existe", terceira variação do
+  mesmo erro.** Corrigido.
+  🟢 **As duas Luanas da VIX estão resolvidas:** `luana.henriques@` e `luana.carmo@vixbrasil.com`
+  são pessoas distintas. **Foi certo não unificar.** ⚠ **Mas as 11 demandas assinadas só `Luana`
+  seguem sem dono — ter a chave não conserta o dado escrito sem ela.**
+  🟢 **O domínio de e-mail identifica o cliente**, e isso **recupera 18 chamados com o campo
+  `Cliente` vazio**. **Não preenchi a base** — escrita no Notion não é nossa.
+  🔴 **Onze e-mails são de FORNECEDORES** (`@indorf`, `@floc`, `@mclprivatelabel`, `@vape`,
+  `@lavinorte`, `@vestsurf`, `@eczoz`) **abrindo chamado na plataforma.** É o módulo
+  `Fornecedores` em operação — **a carteira não é só de clientes, é de clientes e das cadeias
+  deles.** **E isso é matéria de permissionamento: a espec de pessoas não modela terceiro com
+  acesso.**
+  🔴 **`Funcionalidade da Plataforma` é um eixo que o corpus não tem** — liga chamado a
+  funcionalidade e a produto. **É o vínculo que falta para ligar dor de cliente a parte do
+  produto.** ⚠ **A base cobre um mês só** (06/01 a 05/02/2026): **não é histórico, é janela.**
+  Itens 262–268.

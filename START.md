@@ -98,6 +98,7 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 `_auditoria-indexacao.md` · `_varredura-drive-notas.md` · `_varredura-ferramentas-produtos-areas.md` ·
 `_varredura-2026-09-21-fontes-e-lacunas.md` · `_varredura-2026-09-22-reunioes-compartilhadas.md` ·
 `_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md` ·
+`_varredura-2026-09-22b-chamados-e-identidade-de-pessoa.md` ·
 `_levantamento-2026-08-19-repos-e-prd.md` · `_levantamento-2026-09-21-praticas-vault-e-caedu.md` ·
 `_decisoes-convergencia-proposta.md` ·
 ⚠ `_recebido-2026-08-18-context-pack-brainhub-2.0.md` — **documento externo, do João/Codex: não é

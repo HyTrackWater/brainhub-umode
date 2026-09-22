@@ -2051,3 +2051,34 @@
      passou meses sem ser flagrado. **Corrigido em 22 set 2026:** o
      `scripts/valida-padrao-corpus.py` passou a conferir a assinatura de títulos dos arquivos de
      demanda e RFI. **Lição: verificador que ignora uma pasta nunca acha nada nela.**
+
+## Base de chamados e identidade de pessoa (22 set 2026)
+
+262. **🟢 RESOLVIDO EM PARTE — item 252, a chave de identidade de pessoa.** A base
+     **`Chamados & Atendimentos`** tem **campo `Email` individual**: 92 e-mails distintos em 185
+     chamados. **Eu havia generalizado errado:** escrevi que *"nenhuma pessoa tem e-mail"* quando
+     o correto era *"não tem **neste campo**"*. ⚠ **A base cobre um mês só** (06/01 a
+     05/02/2026) — **fora dessa janela a chave não existe.** **Decidir: `person.email` é a chave
+     primária de identidade?**
+263. **🟢 As duas Luanas da VIX são reais** — `luana.henriques@vixbrasil.com` e
+     `luana.carmo@vixbrasil.com`. **Confirma que foi certo não unificar.** ⚠ **As 11 demandas
+     assinadas só `Luana` seguem sem dono** — ter a chave não conserta o dado escrito sem ela.
+264. **🔴 18 chamados estão com o campo `Cliente` VAZIO e o domínio do e-mail diz de quem são.**
+     **É dado recuperável por regra.** **Não preenchi a base** — escrita no Notion não é nossa.
+     **Decidir quem corrige, e se o domínio vira regra de derivação.**
+265. **🔴 Terceiros têm conta na plataforma, e o modelo não os prevê.** Onze e-mails de
+     **fornecedores** abriram chamado (`@indorf`, `@floc`, `@mclprivatelabel`, `@vape`,
+     `@lavinorte`, `@vestsurf`, `@eczoz`). **É o módulo `Fornecedores` em operação.**
+     🔴 **É matéria de permissionamento:** um fornecedor que atende Reserva **e** Oficina
+     Reserva enxerga o quê, de quem? **A `_espec-pessoas-e-comunicacoes.md` não modela terceiro
+     com acesso.**
+266. **⚠ Três pessoas constam sob cliente que não bate com o domínio do e-mail** — `mariana.basso`
+     (Baw) sob Oficina Reserva, `vinicius.dias` (NV) sob VIX, `karine.pires` (Reserva) sob Oficina
+     Reserva. **Os dois primeiros parecem erro; o terceiro pode ser legítimo por serem do mesmo
+     grupo.** **Distinguir exige a decisão do item 260 (nível `Grupo`).**
+267. **🔴 `Funcionalidade da Plataforma` é um eixo que o corpus não tem.** A base de chamados
+     relaciona chamado → funcionalidade → produto. **É o vínculo que falta para ligar dor de
+     cliente a parte do produto** — e nenhuma das relações foi resolvida nesta varredura.
+268. **`Canal` é campo tipado na base de chamados** (ex.: `Chat Plataforma`). **É a primeira fonte
+     com enum de canal** — confrontar com `communication_channels` da espec antes de travar o
+     nosso. E **`Resolução`** (ex.: `TECH`) **é campo novo, não registrado no corpus.**
