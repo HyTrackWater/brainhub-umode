@@ -61,6 +61,23 @@
 > Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
 
 
+### 🟢 Motivo de churn — informado pelo Vinicius em 22 set 2026 `[D]`
+
+> *"Os outros dois que são do mesmo grupo estavam com **corte de gastos** e por isso **acho** que
+> foram churn."*
+
+**Dois fatos novos, e eles têm pesos diferentes:**
+
+1. 🟢 **Highstil e Plié são do MESMO GRUPO.** Isso **explica** a reunião
+   *"uFlow - Highstil/Plié - 16/04/2025"*, que o corpus havia registrado como **quebra de
+   isolamento de cliente na fonte**. **Não era defeito: era um grupo sendo atendido junto.**
+   Muda o item 240 das pendências — a pergunta deixa de ser *"como registrar reunião de dois
+   clientes"* e passa a ser **"o corpus precisa do nível `Grupo` acima de `Cliente`?"**
+2. ⚠ **`corte de gastos` como causa é recordação, não registro.** O próprio Vinicius disse
+   *"**acho** que foram churn"* e *"**se não me engano**"*. **Fica gravado com a ressalva dele**,
+   e **nenhuma fonte documental foi encontrada** que confirme motivo ou data.
+
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

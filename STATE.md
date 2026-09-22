@@ -2833,3 +2833,28 @@ caminho).
   risco oposto: a VIX registra literalmente `Luana Henriques & Luana Carmo`, **duas pessoas**, e
   o nome curto `Luana` (11 demandas) não diz qual. **Itens 249–256 nas pendências.**
   Ritual completo: `694/50/49/49` com 0 completados, e manifesto sem órfão.
+
+- **22 set 2026** — Sessão 35: **auditoria de duplicação, provocada por uma pergunta do Vinicius.**
+  Ele desconfiou: *"está citando demandas — achei estranho... só quero garantia de que você não
+  está repetindo trabalho e ainda aplicando outro padrão para as mesmas coisas."*
+  **Respondido com medição, não com garantia verbal:** nenhum dos **7 commits de hoje** tocou um
+  único arquivo de demanda (`git show --name-only` em cada um); os `_demandas/` foram criados em
+  **04 ago 2026**; e **998 dos 999 arquivos de demanda têm exatamente a mesma assinatura de
+  títulos** — um padrão só. `[C]`
+  🔴 **Mas a auditoria achou o que a pergunta procurava, só que de julho:** o
+  `_staging-lofty-demandas.md`, **2.645 linhas de duplicata integral** dentro de `_demandas/` da
+  Lofty Style, parado desde **13 jul 2026**. **Verificado: 85 IDs no staging, 85 nos `D-*.md`,
+  zero exclusivos.** Marcado `SUPERSEDED`, **não apagado** — apagar é decisão do Vinicius.
+  **A causa do vazamento também foi consertada:** nenhum verificador olhava dentro de
+  `_demandas/` e `_rfis/`. O `valida-padrao-corpus.py` ganhou essa auditoria — e **achou um
+  SEGUNDO staging na primeira execução**, o `_staging-lofty-rfis.md`. **Verificador que ignora
+  uma pasta nunca acha nada nela.**
+  **Respostas do Vinicius registradas como `[D]`:** a CAEDU virou `Onboarding` por **entrada em
+  novo escopo**, não regressão — **o que expõe que `lifecycleStage` deveria ser por escopo
+  contratado, não por cliente**; a **Lenny Niemeyer é churn confirmado**; e **Highstil e Plié são
+  do mesmo grupo**, em corte de gastos — **com a ressalva dele próprio** (*"acho"*, *"se não me
+  engano"*), preservada no corpus.
+  🔴 **E isso dissolveu uma pendência em vez de resolvê-la:** a reunião *"Highstil/Plié"*, que o
+  corpus tratava como **quebra de isolamento de cliente**, **não era defeito** — era um grupo
+  atendido junto. **Abre a pergunta real: o corpus precisa do nível `Grupo` acima de `Cliente`?**
+  Já há outros casos (Puket/Grupo Único; Reserva/Oficina Reserva/Simples). Itens 257–261.

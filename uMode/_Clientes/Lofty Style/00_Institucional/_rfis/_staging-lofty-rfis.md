@@ -1,4 +1,22 @@
-﻿# Lofty Style · RFIs — staging bruto (Notion)
+﻿# 🔴 SUPERSEDED — Lofty Style · RFIs — staging bruto (Notion)
+
+> 🔴 **ESTE ARQUIVO ESTÁ SUPERSEDED DESDE 22 set 2026. NÃO É FONTE.**
+>
+> **Achado pelo `scripts/valida-padrao-corpus.py`** na primeira execução da auditoria de
+> demandas e RFIs, escrita em 22 set 2026. **É o segundo staging esquecido da mesma conta** — o
+> outro é o `_staging-lofty-demandas.md`.
+>
+> **As 15 RFIs deste staging estão formalizadas** nos **15 arquivos `RFI-*.md`** desta pasta.
+>
+> ⚠ **A verificação aqui foi por CONTAGEM (15 = 15), não id a id** — os identificadores do
+> staging e dos arquivos finais usam padrões diferentes. **É evidência mais fraca do que a do
+> staging de demandas**, onde os 85 IDs bateram um a um. **Registro a diferença de força.**
+>
+> **Não apaguei: apagar é decisão do Vinicius** (item 257 das pendências).
+
+---
+
+# Lofty Style · RFIs — staging bruto (Notion)
 
 > Arquivo temporário de trabalho — não é o padrão final. Aqui acumulo os dados brutos das RFIs
 > de Lofty Style, extraídos do CSV consolidado (`Particular e Compartilhado/uMode Geral/

@@ -2019,3 +2019,35 @@
 256. **⚠ Um e-mail de domínio de terceiro aparece como solicitante na Reserva:**
      `engenharia1@indorf.com.br`. **`indorf.com.br` não é domínio da Reserva** — confirmar se é
      fornecedor, facção ou empresa do grupo.
+
+## Auditoria de duplicação e respostas do Vinicius (22 set 2026)
+
+257. **🔴 Apagar o `_staging-lofty-demandas.md`?** São **2.645 linhas de duplicata integral**
+     dentro de `Lofty Style/00_Institucional/_demandas/`. **Verificado: as 85 demandas do staging
+     estão todas formalizadas nos 85 `D-*.md` da mesma pasta, e nenhuma existe só nele.** `[C]`
+     **Era o único dos 999 arquivos de demanda fora do padrão canônico.** **Marcado `SUPERSEDED`,
+     não apagado — apagar é decisão do Vinicius.**
+     🔴 **E há um SEGUNDO:** o `_staging-lofty-rfis.md`, 612 linhas, na pasta `_rfis/` da
+     mesma conta — **achado pelo próprio validador novo, na primeira execução.** 15 RFIs no
+     staging, 15 arquivos `RFI-*.md`. ⚠ **Aqui a verificação foi por contagem, não id a id** —
+     evidência mais fraca que a das demandas, onde os 85 IDs bateram um a um.
+258. **🟢 RESPONDIDO — item 249.** A CAEDU virou `Onboarding` por **entrada em novo escopo**,
+     não por regressão. **Mas isso expõe um limite:** conta `Ongoing` que entra em escopo novo
+     volta a `Onboarding` e **o campo perde que ela já operava**. **Reforça o item 237:**
+     `lifecycleStage` deveria ser **por escopo contratado**, não por cliente.
+     ⚠ **Qual é o novo escopo da CAEDU, ainda não sei.**
+259. **🟢 PARCIALMENTE RESPONDIDO — motivo de churn.** O Vinicius confirmou que a
+     **Lenny Niemeyer é churn de fato** (*"é certeza"*), e que **Highstil e Plié são do mesmo
+     grupo** e estavam em **corte de gastos** — **com a ressalva dele próprio:** *"acho que foram
+     churn"*, *"se não me engano"*. **Gravado como `[D]` com a ressalva.** **Nenhuma fonte
+     documental confirma motivo nem data** — o item 238 (`Data de Churn`) segue aberto.
+260. **🔴 O corpus precisa do nível `Grupo` acima de `Cliente`?** **Highstil e Plié são do mesmo
+     grupo** (confirmado pelo Vinicius), o que **explica** a reunião conjunta que o item 240
+     tratava como quebra de isolamento. **Não era defeito da fonte.** Já há outros casos:
+     **Puket é marca do Grupo Único**; **Reserva, Oficina Reserva e Simples (by Reserva)** são do
+     mesmo ecossistema. **A hierarquia travada no `CONTEXT.md` começa em `Instituição`** —
+     decidir se `Grupo` entra, e como, **é decisão de arquitetura do Vinicius.**
+261. **⚠ O validador não olhava dentro de `_demandas/` e `_rfis/`.** Foi por isso que o staging
+     passou meses sem ser flagrado. **Corrigido em 22 set 2026:** o
+     `scripts/valida-padrao-corpus.py` passou a conferir a assinatura de títulos dos arquivos de
+     demanda e RFI. **Lição: verificador que ignora uma pasta nunca acha nada nela.**

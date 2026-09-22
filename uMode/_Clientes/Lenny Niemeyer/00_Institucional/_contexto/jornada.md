@@ -59,6 +59,17 @@
 > Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
 
 
+### 🟢 Motivo de churn — informado pelo Vinicius em 22 set 2026 `[D]`
+
+> *"A Lenny é certeza"* — confirmação direta de que a conta foi **churn de fato**.
+
+**É a primeira confirmação de churn vinda de fonte humana neste corpus.** Até aqui o corpus
+registrava apenas que **nenhuma fonte varrida registrava motivo de saída de nenhum cliente**.
+
+⚠ **O Vinicius confirmou o churn, não o motivo nem a data.** **`Data de Churn` segue sem campo
+na base** — item 238 das pendências.
+
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

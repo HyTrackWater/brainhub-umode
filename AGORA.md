@@ -112,7 +112,8 @@ Instituição (Casa uMode OU Cliente)
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50/50 · 49/49 · 49/49** |
 | Atas de reunião lidas por inteiro | **8 de 1.161** |
 | `.md` estruturais, todos classificados | **68/68** |
-| Decisões pendentes registradas | **256** |
+| Decisões pendentes registradas | **261** |
+| Arquivos de demanda no padrão canônico | **998/999** · 1 staging `SUPERSEDED` |
 | Clientes com razão de pessoas datado | **18 de 48** |
 
 ## 6 · O que está sendo feito agora

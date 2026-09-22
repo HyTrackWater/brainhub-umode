@@ -99,6 +99,21 @@ ERP integrado: **Linx**. Usuários na conta: **93**, em 14 perfis.
 - **A conta tem material de treinamento próprio:** Manual do Cliente para o Sistema PLM, Playbooks,
   Ficha de Produto e um Miro de regras e restrições.
 
+### 🟢 Por que o `Status` virou `Onboarding` — respondido pelo Vinicius em 22 set 2026 `[D]`
+
+O corpus havia flagrado que a linha desta conta mudou de **`Ongoing`** para **`Onboarding`** em
+**22/09/2026 às 15:04**, entre duas leituras do mesmo dia. **Resposta dele:**
+
+> *"Pode ser a questão de Onboarding nesse **novo escopo** que eles estão entrando. Somente isso."*
+
+🟢 **Não é regressão de conta: é entrada em escopo novo.**
+
+> 🔴 **E isso expõe um limite do enum `Status`.** Uma conta **`Ongoing` que entra em novo
+> escopo** volta a `Onboarding`, e **o campo perde a informação de que ela já estava em
+> operação**. Reforça o item 237 — `lifecycleStage` precisa ser **por escopo contratado**, não
+> por cliente. ⚠ **Qual é o novo escopo, não sei** — não foi dito e não presumo.
+
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

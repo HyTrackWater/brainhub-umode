@@ -161,3 +161,55 @@ for dirpath, _, files in os.walk(RAIZ):
 
 for f in sorted(CANON):
     print(u"%-20s %3d arquivos  |  %3d completados" % (f, cont[f], tocados[f]))
+
+# ---------------------------------------------------------------------------
+# Auditoria de demandas e RFIs, acrescentada em 22 set 2026.
+#
+# Por que existe: o `_staging-lofty-demandas.md` ficou 2 meses dentro de
+# `Lofty Style/00_Institucional/_demandas/` como duplicata integral de 85
+# demandas ja formalizadas, e nenhum verificador olhava para la. O Vinicius
+# perguntou se havia trabalho repetido com padrao diferente; a resposta so
+# existiu porque essa auditoria foi escrita. Verificador que ignora uma pasta
+# nunca acha nada nela.
+# ---------------------------------------------------------------------------
+import collections as _c
+
+
+def audita(pasta, rotulo):
+    assinaturas = _c.Counter()
+    exemplo = {}
+    total = 0
+    for dp, _, fs in os.walk(RAIZ):
+        if not dp.endswith(pasta):
+            continue
+        for f in fs:
+            if not f.endswith(u".md") or f.startswith(u"_template"):
+                continue
+            total += 1
+            s = io.open(os.path.join(dp, f), encoding="utf-8").read()
+            h = tuple(l.rstrip() for l in s.split(chr(10)) if l.startswith(u"## "))
+            assinaturas[h] += 1
+            exemplo.setdefault(h, os.path.join(dp, f))
+    if not total:
+        return 0
+    fora = 0
+    canon = assinaturas.most_common(1)[0][0] if assinaturas else ()
+    for h, n in assinaturas.most_common():
+        if h == canon:
+            continue
+        fora += n
+        cam = exemplo[h]
+        cab = io.open(cam, encoding="utf-8").read().split(chr(10))[0]
+        marca = u"[SUPERSEDED, aguardando decisao]" if u"SUPERSEDED" in cab else u"[DESCONHECIDO]"
+        print(u"  FORA DO PADRAO (%d) %s: %s" % (n, marca, cam))
+    print(u"%-18s %4d arquivos  | %4d fora do padrao" % (rotulo, total, fora))
+    return fora
+
+
+print(u"")
+_f = audita(u"_demandas", u"demandas")
+_f += audita(u"_rfis", u"rfis")
+if _f:
+    print(chr(10) + u"Arquivo fora do padrao dentro do corpus: ou e duplicata/staging que")
+    print(u"deveria ter saido, ou o padrao mudou e nao foi replicado na classe.")
+    print(u"DESCONHECIDO = investigar agora. SUPERSEDED = ja auditado, espera o Vinicius.")

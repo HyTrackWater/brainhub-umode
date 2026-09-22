@@ -1,4 +1,23 @@
-﻿# Lofty Style · Demandas — staging bruto (Notion)
+﻿# 🔴 SUPERSEDED — Lofty Style · Demandas — staging bruto (Notion)
+
+> 🔴 **ESTE ARQUIVO ESTÁ SUPERSEDED DESDE 22 set 2026. NÃO É FONTE.**
+>
+> **Auditoria de 22 set 2026**, a pedido do Vinicius (*"só quero garantia de que você não está
+> repetindo trabalho e ainda aplicando outro padrão para as mesmas coisas"*):
+> **as 85 demandas deste staging já estão formalizadas** nos 85 arquivos `D-*.md` desta mesma
+> pasta. **Verificado por contagem de IDs: 85 no staging, 85 nos `D-*.md`, e ZERO que exista
+> aqui e não exista lá.** `[C]`
+>
+> **É duplicata integral.** Ficou aqui desde **13 jul 2026** e não foi limpo. **Era o único
+> arquivo de toda a base de 999 demandas fora do padrão canônico** — os outros 998 têm a
+> mesma assinatura de títulos, exatamente uma.
+>
+> **Não apaguei: apagar é decisão do Vinicius** (item 257 das pendências).
+> **Até lá, não use este arquivo para nada** — a fonte são os `D-*.md`.
+
+---
+
+# Lofty Style · Demandas — staging bruto (Notion)
 
 > Arquivo temporário de trabalho — não é o padrão final. Aqui acumulo os dados brutos das
 > demandas de Lofty Style no vocabulário original do Notion. A tradução para
