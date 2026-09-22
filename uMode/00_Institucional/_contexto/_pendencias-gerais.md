@@ -2521,3 +2521,48 @@
 365. **🆕 A página da VIX registra um aprendizado de atendimento:** usuário sem permissão de
      deletar variante deve pedir internamente a quem tem. **Explica uma classe inteira de
      demanda que hoje chega como chamado.**
+
+## Varredura — Lofty Style e Puket (22 set 2026)
+
+366. **🚨 A credencial do site de documentação da Lofty Style está EM TEXTO CLARO na página do
+     cliente**, no toggle `Documentação/Regras`, ao lado da URL `docs.umode.app/integracao-lofty`.
+     **Agora sei o lugar exato das DUAS credenciais expostas.** O valor não foi replicado em
+     lugar nenhum. 🚨 **A rotação segue sendo ação sua.**
+367. **🔴 TERCEIRO caso da dor de excluir/inativar variante — vira PADRÃO.**
+     **VIX** (aprendizado de permissão na página), **Reserva** (cartão antigo) e **Lofty Style**
+     (`Exclusão de Variante após integração`). **Um caso é anedota, dois é hipótese, três é
+     padrão: é lacuna da plataforma, não pedido de cliente.**
+368. **🟢 ACHADO GRANDE — a página da Puket tem uma TABELA DE USUÁRIOS com 43 pessoas**, e cada
+     linha traz **nome · e-mail corporativo · perfil de acesso · ativo desde**.
+     **A Puket tinha 3 fichas, vindas só das demandas. Agora tem 43.**
+     🟢 **É a fonte de pessoa mais completa que o corpus já viu** — e a única que dá
+     **data de ativação por pessoa** e **chave de identidade**.
+369. **`[P]` DECISÃO DE TIER QUE É MINHA e precisa do seu aval: e-mail CORPORATIVO é `T2` e
+     entra.** É dado de contato de trabalho e é a chave que destrava o item 252 (identidade de
+     pessoa). **E-mail pessoal segue `T0`. Telefone e CPF seguem `T0` sempre.**
+     **Precedente que já existia:** há ficha nomeada por e-mail na Reserva desde antes desta sessão.
+370. **🔴 A Puket é do GRUPO ÚNICO, e gente do grupo opera dentro da conta do cliente.**
+     Dois domínios na mesma tabela: `@puket.com.br` e `@grupounico.com`, mais um `@grupounico.hk`
+     (Hong Kong). 🔴 **O corpus não tem modelo para grupo econômico** — nem para pessoa que
+     pertence ao grupo e atua no cliente.
+371. **🔴 A pessoa mais antiga da Puket está ativa desde 24/05/2022 e o campo `Data Ativação
+     Cliente` da base está VAZIO.** **A tabela de usuários sabe o que a base não sabe.**
+372. **🔴 12 perfis de acesso da Puket, e 6 não têm área canônica:** `BI` · `TEX` ·
+     `Certificação` · `Controladoria` · `Importação` · `Projetos`.
+     Somados a `Merchandising`, `Curadoria`, `Oficina`, `facção` e aos 17 perfis da VIX,
+     **a grade de 14 áreas está sendo contrariada por praticamente todo cliente que abro.**
+373. **⚠ A Puket tem 43 usuários ativos e só 2 módulos contratados** — o menor entre os
+     `Ongoing`. **Muita gente para pouco módulo:** é oportunidade comercial ou erro de cadastro.
+374. **⚠ O toggle `Pessoas` da Lofty Style existe e está VAZIO** — segundo caso, junto da Osklen.
+     **De 3 clientes que têm o toggle, 1 preencheu.**
+375. **🆕 Fontes novas que ninguém varreu:** playlist de **treinamento no YouTube** (Puket) ·
+     **4 pesquisas de CSat** (Osklen ×2, Lofty Style ×2) · `Passada de bastão Puket`, o único
+     documento de handover de atendimento da carteira · `NCM e Código CEST` (Lofty), tema fiscal
+     que nenhuma das 14 áreas cobre.
+376. **⚠ A cadência de report ao cliente parou em DOIS clientes:** Reserva (`Review Quinzenal`,
+     última marca em 30/06) e Lofty Style (`Atualização de Projeto`, última em 29/01/2026).
+     **Dois casos: é hipótese, ainda não padrão.**
+377. **🆕 Tipos de entidade que ainda vão chegar**, avisados pelo Vinicius em 22 set 2026:
+     **mentorado** e **cliente de serviço de educação em IA**, além da lista de clientes com as
+     plataformas que contratam. 🔴 **Cada um vira arquivo com nó, no mesmo padrão** — e a
+     varredura de ferramenta já preparou o eixo `contrata`.

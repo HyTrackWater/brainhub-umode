@@ -21,7 +21,7 @@
 
 | O que | Onde | Estado |
 |---|---|---|
-| Credencial do **site de documentação** | registrado em 21 set 2026 | 🚨 **exposta, não rotacionada** |
+| Credencial do **site de documentação** | Notion — página do cliente, toggle `Documentação/Regras`, ao lado da URL `docs.umode.app/integracao-lofty` | 🚨 **exposta, não rotacionada** |
 
 > 🚨 **O valor não foi replicado em lugar nenhum do corpus** — `T0`.
 > **A rotação é ação do Vinicius.** ⚠ Pode já estar inativa; **rotacionar mesmo assim**
@@ -31,9 +31,14 @@
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🚨 **Credencial do site de documentação exposta** — registrada desde 21 set 2026. | `T0` | 🚨 **rotação da chave — ação do Vinicius** |
-| 2 | 🔴 **O `Status` diz `Ongoing` e a `Etapa` diz `Operação Assistida`.** | `T2` | **Qual dos dois manda?** |
-| 3 | ⚠ **Dois arquivos de staging marcados `SUPERSEDED` e não apagados** (`_staging-lofty-demandas.md`, `_staging-lofty-rfis.md`). **Apagar é decisão sua.** | `T2` | decisão do Vinicius (item 257) |
+| 1 | 🚨 **A credencial do site de documentação está EM TEXTO CLARO na página do cliente**, no toggle `Documentação/Regras`, ao lado da URL `docs.umode.app/integracao-lofty`. **O valor não foi replicado em lugar nenhum.** | `T0` | 🚨 **rotação da chave — ação do Vinícius** |
+| 2 | 🔴 **O `Status` diz `Ongoing` e a `Etapa` diz `Operação Assistida`.** | `T2` | pergunta registrada |
+| 3 | 🔴 **O toggle `Pessoas` existe e está VAZIO** — segundo caso, junto da Osklen. **De 3 clientes que têm o toggle, 1 preencheu.** | `T2` | preenchimento pelo atendimento |
+| 4 | 🔴 **TERCEIRO cliente com a dor de excluir/inativar variante** — a página tem `Exclusão de Variante após integração`. Os outros dois: **VIX** (aprendizado de permissão) e **Reserva** (cartão antigo). **Um caso é anedota, dois é hipótese, três é PADRÃO.** | `T2` | decisão de produto — é lacuna da plataforma, não do cliente |
+| 5 | ⚠ **Dois arquivos de staging `SUPERSEDED` seguem no repositório.** **Apagar é decisão sua.** | `T2` | decisão do Vinícius (item 257) |
+| 6 | 🆕 **Duas `Atualização de Projeto`** (12/01/2026 e 29/01/2026) e nada depois. ⚠ **Mesma marca da Reserva**, cuja cadência parou em 30/06. | `T2` | conferência com o atendimento |
+| 7 | 🆕 **Duas pesquisas de CSat** (Kick Off e Treinamento) — **segundo cliente com CSat**, junto da Osklen. **Fonte nunca varrida.** | `T2` | tempo de varredura |
+| 8 | 🆕 `NCM e Código CEST` — **tema fiscal**, que nenhuma área canônica das 14 cobre com clareza. | `T2` | — |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -70,12 +75,9 @@
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | `293c8829…` | toggle `Pessoas` **presente e VAZIO**; 🚨 **a credencial do site de documentação está em texto claro na página**; `Exclusão de Variante após integração`; `NCM e Código CEST`; duas `Atualização de Projeto` (12/01 e 29/01/2026); **duas pesquisas de CSat**; documento `As Is`; quadro Miro | ⚠ **não** — 6 sub-páginas e 4 databases inline não abertos |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -87,7 +89,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

@@ -97,6 +97,20 @@ PAGINA = {
                 u"de **1 chamado/dia e 2 reuniões/semana**; 🔴 **7 cartões no `umode.kanbanize.com`**; "
                 u"`uBuy` e `uPlan`; **Review Quinzenal** com envios parados; 2 visitas presenciais",
                 u"⚠ **não** — 10 sub-páginas e 3 databases inline não abertos"),
+    u"Lofty Style": (u"22 set 2026", u"`293c8829\u2026`",
+                    u"toggle `Pessoas` **presente e VAZIO**; \U0001F6A8 **a credencial do site "
+                    u"de documenta\u00e7\u00e3o est\u00e1 em texto claro na p\u00e1gina**; "
+                    u"`Exclus\u00e3o de Variante ap\u00f3s integra\u00e7\u00e3o`; `NCM e C\u00f3digo CEST`; "
+                    u"duas `Atualiza\u00e7\u00e3o de Projeto` (12/01 e 29/01/2026); **duas pesquisas "
+                    u"de CSat**; documento `As Is`; quadro Miro",
+                    u"\u26a0 **n\u00e3o** \u2014 6 sub-p\u00e1ginas e 4 databases inline n\u00e3o abertos"),
+    u"Puket": (u"22 set 2026", u"`aae6d54c\u2026`",
+              u"\U0001F7E2 **TABELA DE USU\u00c1RIOS com 43 pessoas** \u2014 nome, **e-mail "
+              u"corporativo**, **perfil de acesso** e **ativo desde**. \U0001F534 **Dois "
+              u"dom\u00ednios**: `@puket.com.br` e `@grupounico.com` (+1 `.hk`); treinamentos "
+              u"gravados no **YouTube**; `Passada de bast\u00e3o`; `MAIO 2025 | Evolu\u00e7\u00e3o "
+              u"de Conta`; template de Marca com os campos vazios",
+              u"\u26a0 **n\u00e3o** \u2014 6 sub-p\u00e1ginas e 2 databases inline n\u00e3o abertos"),
     u"VIX": (u"22 set 2026",
             u"`70a10ec2…` **+ a sub-página `[Vix] Perfil de Usuário e "
             u"Permissionamento`**",
@@ -175,13 +189,64 @@ PEND = {
          u"e `(1)`.", u"T2", u"—"),
     ],
     u"Lofty Style": [
-        (u"🚨 **Credencial do site de documentação exposta** — registrada desde 21 set 2026.",
-         u"T0", u"🚨 **rotação da chave — ação do Vinicius**"),
-        (u"🔴 **O `Status` diz `Ongoing` e a `Etapa` diz `Operação Assistida`.**", u"T2",
-         u"**Qual dos dois manda?**"),
-        (u"⚠ **Dois arquivos de staging marcados `SUPERSEDED` e não apagados** "
-         u"(`_staging-lofty-demandas.md`, `_staging-lofty-rfis.md`). **Apagar é decisão sua.**",
-         u"T2", u"decisão do Vinicius (item 257)"),
+        (u"\U0001F6A8 **A credencial do site de documenta\u00e7\u00e3o est\u00e1 EM TEXTO CLARO na "
+         u"p\u00e1gina do cliente**, no toggle `Documenta\u00e7\u00e3o/Regras`, ao lado da URL "
+         u"`docs.umode.app/integracao-lofty`. **O valor n\u00e3o foi replicado em lugar nenhum.**",
+         u"T0", u"\U0001F6A8 **rota\u00e7\u00e3o da chave \u2014 a\u00e7\u00e3o do Vin\u00edcius**"),
+        (u"\U0001F534 **O `Status` diz `Ongoing` e a `Etapa` diz `Opera\u00e7\u00e3o Assistida`.**",
+         u"T2", u"pergunta registrada"),
+        (u"\U0001F534 **O toggle `Pessoas` existe e est\u00e1 VAZIO** \u2014 segundo caso, junto "
+         u"da Osklen. **De 3 clientes que t\u00eam o toggle, 1 preencheu.**", u"T2",
+         u"preenchimento pelo atendimento"),
+        (u"\U0001F534 **TERCEIRO cliente com a dor de excluir/inativar variante** \u2014 a "
+         u"p\u00e1gina tem `Exclus\u00e3o de Variante ap\u00f3s integra\u00e7\u00e3o`. Os outros dois: **VIX** "
+         u"(aprendizado de permiss\u00e3o) e **Reserva** (cart\u00e3o antigo). "
+         u"**Um caso \u00e9 anedota, dois \u00e9 hip\u00f3tese, tr\u00eas \u00e9 PADR\u00c3O.**", u"T2",
+         u"decis\u00e3o de produto \u2014 \u00e9 lacuna da plataforma, n\u00e3o do cliente"),
+        (u"\u26a0 **Dois arquivos de staging `SUPERSEDED` seguem no reposit\u00f3rio.** "
+         u"**Apagar \u00e9 decis\u00e3o sua.**", u"T2", u"decis\u00e3o do Vin\u00edcius (item 257)"),
+        (u"\U0001F195 **Duas `Atualiza\u00e7\u00e3o de Projeto`** (12/01/2026 e 29/01/2026) e nada "
+         u"depois. \u26a0 **Mesma marca da Reserva**, cuja cad\u00eancia parou em 30/06.", u"T2",
+         u"confer\u00eancia com o atendimento"),
+        (u"\U0001F195 **Duas pesquisas de CSat** (Kick Off e Treinamento) \u2014 **segundo "
+         u"cliente com CSat**, junto da Osklen. **Fonte nunca varrida.**", u"T2",
+         u"tempo de varredura"),
+        (u"\U0001F195 `NCM e C\u00f3digo CEST` \u2014 **tema fiscal**, que nenhuma \u00e1rea can\u00f4nica "
+         u"das 14 cobre com clareza.", u"T2", u"\u2014"),
+    ],
+    u"Puket": [
+        (u"\U0001F7E2 **43 pessoas com nome, e-mail corporativo, perfil de acesso e data de "
+         u"ativa\u00e7\u00e3o.** A Puket tinha **3** fichas, vindas s\u00f3 das demandas. "
+         u"**\u00c9 a fonte de pessoa mais completa da carteira.**", u"T2", u"nada \u2014 executado"),
+        (u"\U0001F534 **Dois dom\u00ednios de e-mail na mesma conta:** `@puket.com.br` e "
+         u"`@grupounico.com`, mais um `@grupounico.hk`. **A Puket \u00e9 do Grupo \u00danico, e "
+         u"gente do grupo opera dentro da conta do cliente.** \u26a0 **O corpus n\u00e3o tem "
+         u"modelo para grupo econ\u00f4mico.**", u"T2", u"decis\u00e3o de modelagem"),
+        (u"\U0001F534 **A pessoa mais antiga est\u00e1 ativa desde 24/05/2022 e o campo "
+         u"`Data Ativa\u00e7\u00e3o Cliente` da base est\u00e1 VAZIO.** **A tabela de usu\u00e1rios sabe "
+         u"o que a base n\u00e3o sabe.**", u"T2", u"preenchimento da base"),
+        (u"\u26a0 **Uma pessoa tem o perfil RISCADO na fonte** (`Sarah Nunes`). "
+         u"**N\u00e3o afirmo que saiu: afirmo que a fonte riscou.**", u"T2", u"confirma\u00e7\u00e3o"),
+        (u"\u26a0 **Dois nomes divergem do pr\u00f3prio e-mail** \u2014 `Isabela Pereira` \u00d7 "
+         u"`isabela.cipriani`, `Marcela Polyana` \u00d7 `marcela.figueiredo`. "
+         u"**N\u00e3o resolvi:** pode ser nome de casada, apelido ou erro.", u"T2", u"confirma\u00e7\u00e3o"),
+        (u"\U0001F534 **12 perfis de acesso que N\u00c3O s\u00e3o as 14 \u00e1reas can\u00f4nicas:** "
+         u"`Sourcing Nacional`, `Produto`, `Design`, `BI`, `TEX`, `Estilo`, `Certifica\u00e7\u00e3o`, "
+         u"`Qualidade`, `PCP`, `Controladoria`, `Importa\u00e7\u00e3o`, `Projetos`. "
+         u"\U0001F534 **`BI`, `TEX`, `Certifica\u00e7\u00e3o`, `Controladoria`, `Importa\u00e7\u00e3o` e "
+         u"`Projetos` n\u00e3o t\u00eam \u00e1rea can\u00f4nica.**", u"T2", u"decis\u00e3o sobre a grade"),
+        (u"\U0001F195 **Treinamentos gravados em playlist do YouTube** \u2014 primeira "
+         u"confirma\u00e7\u00e3o de uso real do canal. **Nunca varrido.**", u"T2", u"tempo"),
+        (u"\U0001F195 **`Passada de bast\u00e3o Puket`** \u2014 documento de handover de "
+         u"atendimento. **Nenhum outro cliente tem um.**", u"T2", u"tempo de varredura"),
+        (u"\u26a0 **O template de `Marca` da p\u00e1gina est\u00e1 com todos os campos vazios** "
+         u"(`#`, `##`, `Ex:`). **Mais um template criado e n\u00e3o preenchido.**", u"T2",
+         u"preenchimento pelo atendimento"),
+        (u"\u26a0 **S\u00f3 2 m\u00f3dulos contratados** \u2014 o menor entre os `Ongoing` \u2014 **e 43 "
+         u"usu\u00e1rios ativos.** \u26a0 **Muita gente para pouco m\u00f3dulo**; pode ser "
+         u"oportunidade ou erro de cadastro.", u"T2", u"confer\u00eancia"),
+        (u"\u26a0 **ERP `Linx / SAP`** \u2014 valor composto, n\u00e3o desmembrado.", u"T2",
+         u"confer\u00eancia"),
     ],
     u"Moda Objetiva": [
         (u"🔴 **O `Status` diz `Operação Assistida` e a `Etapa` diz `Onboarding`.**", u"T2",
@@ -344,7 +409,7 @@ RISCO = {
                    u"Notion — página do cliente, toggle `Documentos › Conexão com Linx`",
                    u"🚨 **exposta, não rotacionada**")],
     u"Lofty Style": [(u"Credencial do **site de documentação**",
-                      u"registrado em 21 set 2026",
+                      u"Notion \u2014 p\u00e1gina do cliente, toggle `Documenta\u00e7\u00e3o/Regras`, ao lado da URL `docs.umode.app/integracao-lofty`",
                       u"🚨 **exposta, não rotacionada**")],
 }
 

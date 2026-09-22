@@ -64,12 +64,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | `aae6d54c…` | 🟢 **TABELA DE USUÁRIOS com 43 pessoas** — nome, **e-mail corporativo**, **perfil de acesso** e **ativo desde**. 🔴 **Dois domínios**: `@puket.com.br` e `@grupounico.com` (+1 `.hk`); treinamentos gravados no **YouTube**; `Passada de bastão`; `MAIO 2025 | Evolução de Conta`; template de Marca com os campos vazios | ⚠ **não** — 6 sub-páginas e 2 databases inline não abertos |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -81,7 +78,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

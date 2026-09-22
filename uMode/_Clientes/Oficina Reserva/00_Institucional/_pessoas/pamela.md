@@ -20,7 +20,7 @@ página do cliente**, que é onde o cargo vive quando existe.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-`[a preencher]` — 🔴 **o vínculo pessoa↔área é a lacuna aberta do corpus**
+`[a preencher]` — 🔴 **o vínculo pessoa e área é a lacuna aberta do corpus**
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode

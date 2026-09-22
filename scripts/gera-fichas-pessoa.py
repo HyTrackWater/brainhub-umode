@@ -128,6 +128,79 @@ NOTA_PAGINA = {
 }
 
 
+# ---------------------------------------------------------------------------
+# TERCEIRA FONTE: a TABELA DE USUARIOS da pagina do cliente.
+# Achada em 22 set 2026 na Puket. Nome + e-mail corporativo + perfil + data.
+# E a unica fonte que da DATA DE ATIVACAO por pessoa, e a unica com chave de
+# identidade. Formato: cliente -> [(nome, email, perfil, ativo_desde, obs)]
+DA_PLATAFORMA = {
+    u"Puket": [
+        (u"Michele Lunkes", u"michele.lunkes@grupounico.com", u"Sourcing Nacional", u"02/12/2022", u""),
+        (u"Yves", u"yves.pancotti@puket.com.br", u"Produto", u"02/02/2023", u""),
+        (u"Tayna Basile", u"tayna.basile@puket.com.br", u"Design", u"03/06/2022", u""),
+        (u"pedro.pereira", u"pedro.pereira@puket.com.br", u"Design", u"03/06/2022", u""),
+        (u"gabriela.araujo", u"gabriela.araujo@puket.com.br", u"Design", u"03/06/2022", u""),
+        (u"vinicius.cesar", u"vinicius.cesar@grupounico.com", u"BI", u"04/10/2022", u""),
+        (u"rosimare.simoes", u"rosimare.simoes@puket.com.br", u"TEX", u"09/06/2022", u""),
+        (u"vanessa.facci", u"vanessa.facci@puket.com.br", u"Estilo", u"09/06/2022", u""),
+        (u"isadora.koch", u"isadora.koch@grupounico.com", u"Certifica\u00e7\u00e3o", u"09/06/2022", u""),
+        (u"luciene.comenalli", u"luciene.comenalli@grupounico.com", u"Sourcing Nacional", u"09/06/2022", u""),
+        (u"catarina.bassotto", u"catarina.bassotto@grupounico.com", u"Produto", u"09/06/2022", u""),
+        (u"giuliana.zuttion", u"giuliana.zuttion@puket.com.br", u"Estilo", u"09/06/2022", u""),
+        (u"ana.ballestero", u"ana.ballestero@grupounico.com", u"Qualidade", u"09/06/2022", u""),
+        (u"andreza.zan", u"andreza.zan@grupounico.com", u"Sourcing Nacional", u"09/06/2022", u""),
+        (u"renata.ortiz", u"renata.ortiz@puket.com.br", u"Estilo", u"09/06/2022", u""),
+        (u"girlaine.rocha", u"girlaine.rocha@puket.com.br", u"TEX", u"09/06/2022", u""),
+        (u"gabriela.fonseca", u"gabriela.fonseca@puket.com.br", u"Estilo", u"10/06/2022", u""),
+        (u"audria.monteiro", u"audria.monteiro@grupounico.com", u"Sourcing Nacional", u"10/06/2022", u""),
+        (u"giulia.gomes", u"giulia.gomes@puket.com.br", u"Estilo", u"13/06/2022", u""),
+        (u"thalita.santana", u"thalita.santana@puket.com.br", u"Produto", u"14/12/2022", u""),
+        (u"leticia.martins", u"leticia.martins@puket.com.br", u"Produto", u"14/06/2022", u""),
+        (u"andressa.grilli", u"andressa.grilli@puket.com.br", u"Produto", u"14/06/2022", u""),
+        (u"luciana.ribeiro", u"luciana.ribeiro@puket.com.br", u"PCP", u"16/08/2022", u""),
+        (u"Carla", u"carla.luz@grupounico.com", u"Controladoria", u"16/06/2023", u""),
+        (u"Sarah Nunes", u"sarah.nunes@grupounico.com", u"Controladoria", u"16/06/2023",
+         u"\U0001F534 **O perfil est\u00e1 RISCADO na fonte** \u2014 marca de desativa\u00e7\u00e3o. "
+         u"\u26a0 **N\u00e3o afirmo que saiu:** afirmo que a fonte riscou."),
+        (u"Isabela Pereira", u"isabela.cipriani@grupounico.com", u"Importa\u00e7\u00e3o", u"19/06/2023",
+         u"\u26a0 **nome e e-mail divergem** (`Pereira` \u00d7 `cipriani`) \u2014 n\u00e3o resolvi"),
+        (u"karina.ossugui", u"karina.ossugui@puket.com.br", u"Design", u"20/12/2022", u""),
+        (u"aline.soares", u"aline.soares@puket.com.br", u"Estilo", u"20/06/2022", u""),
+        (u"leticia.lopes", u"leticia.lopes@puket.com.br", u"Estilo", u"20/06/2022", u""),
+        (u"Marcela Polyana", u"marcela.figueiredo@puket.com.br", u"Produto", u"20/06/2022",
+         u"\u26a0 **nome e e-mail divergem** (`Polyana` \u00d7 `figueiredo`) \u2014 n\u00e3o resolvi"),
+        (u"andressa.duarte", u"andressa.duarte@puket.com.br", u"Produto", u"21/06/2022", u""),
+        (u"Eduarda de Souza", u"eduarda.souza@grupounico.com", u"Importa\u00e7\u00e3o", u"21/06/2023", u""),
+        (u"lara.cunha", u"lara.cunha@grupounico.com", u"Qualidade", u"21/09/2022", u""),
+        (u"luiza.pavanate", u"luiza.pavanate@grupounico.com", u"Qualidade", u"21/09/2022", u""),
+        (u"jessica.cesar", u"jessica.cesar@grupounico.com", u"Sourcing Nacional", u"22/06/2022", u""),
+        (u"andrea.nunes", u"andrea.nunes@grupounico.com", u"Sourcing Nacional", u"23/06/2022", u""),
+        (u"paulo.pelaes", u"paulo.pelaes@grupounico.com", u"Qualidade", u"23/09/2022", u""),
+        (u"maria.germano", u"maria.germano@grupounico.com", u"Projetos", u"24/05/2022", u""),
+        (u"gabriela.begnini", u"gabriela.begnini@grupounico.com", u"Projetos", u"24/05/2022", u""),
+        (u"Eli", u"elisangela.silva@puket.com.br", u"Projetos", u"24/05/2023", u""),
+        (u"andrea.mendes", u"andrea.mendes@grupounico.com", u"Projetos", u"25/11/2022", u""),
+        (u"Romina Torres", u"romina.torres@puket.com.br", u"Sourcing Nacional", u"27/04/2023", u""),
+        (u"natasha.maruno", u"natasha.maruno@grupounico.hk", u"Estilo", u"30/06/2022",
+         u"\u26a0 **dom\u00ednio `.hk`** \u2014 Hong Kong. \u00danica da carteira fora do Brasil."),
+    ],
+}
+
+
+def casa_plataforma(cliente, nome_curto):
+    u"""Casa um nome da base de demandas com a tabela de usuarios da plataforma.
+
+    Casa por primeiro nome OU pela parte local do e-mail. Ambiguidade devolve
+    None: suspeita se levanta, fusao so com confirmacao humana.
+    """
+    alvo = slug(nome_curto)
+    hits = []
+    for r in DA_PLATAFORMA.get(cliente, ()):
+        if slug(r[0]).split(u"-")[0] == alvo or slug(r[1].split(u"@")[0]) == alvo:
+            hits.append(r)
+    return hits[0] if len(hits) == 1 else None
+
+
 def casa_pagina(cliente, nome_curto):
     u"""Acha o registro da pagina para um nome da base de demandas.
 
@@ -141,7 +214,7 @@ def casa_pagina(cliente, nome_curto):
     return hits[0] if len(hits) == 1 else None
 
 
-def ficha(cliente, nome, demandas, pri, ult, obs, pag=None):
+def ficha(cliente, nome, demandas, pri, ult, obs, pag=None, plat=None):
     L = []
     L.append(u"# %s · Pessoa · %s" % (cliente, nome))
     L.append(u"")
@@ -162,9 +235,18 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None):
     L.append(u"### Nome preferido / como é chamado(a)")
     L.append(u"**%s**" % nome)
     L.append(u"### Email")
-    if pag:
-        L.append(u"\U0001F534 **Existe na p\u00e1gina do cliente e N\u00c3O foi replicado aqui.**")
-        L.append(u"Mesma decis\u00e3o vale para telefone e CPF \u2014 `AGORA.md` \u00a7 8.1.")
+    if plat:
+        L.append(u"**`%s`** — e-mail **corporativo**, da tabela de usuários da "
+                 u"plataforma." % plat[1])
+        L.append(u"")
+        L.append(u"🟢 **É a chave de identidade desta pessoa** — o que resolve "
+                 u"grafia diferente sem inventar gente (item 252). Tier `T2`.")
+        L.append(u"")
+        L.append(u"⚠ **E-mail corporativo entra; e-mail pessoal, telefone e CPF não** "
+                 u"— `AGORA.md` § 8.1.")
+    elif pag:
+        L.append(u"🔴 **Existe na página do cliente e NÃO foi replicado aqui.**")
+        L.append(u"Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.")
         L.append(u"**Registro que existe e onde; o valor fica na fonte.**")
     else:
         L.append(u"`[a preencher]`")
@@ -179,11 +261,19 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None):
     L.append(u"### Nível HIC")
     L.append(u"⚠ **não se aplica** — é campo da Casa uMode")
     L.append(u"### \u00c1rea (organizacional)")
-    if pag:
-        L.append(u"**%s** \u2014 \u26a0 **como a fonte a nomeia**, n\u00e3o necessariamente uma das" % pag[2])
-        L.append(u"14 \u00e1reas can\u00f4nicas. **N\u00e3o mapeei para a grade** sem sua confirma\u00e7\u00e3o.")
+    if plat:
+        L.append(u"**%s** — **`Perfil de Acesso`** na tabela de usuários da plataforma."
+                 % plat[2])
+        L.append(u"")
+        L.append(u"⚠ **Perfil de acesso NÃO é área canônica** — é como o "
+                 u"cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.")
+    elif pag:
+        L.append(u"**%s** — ⚠ **como a fonte a nomeia**, não necessariamente uma das"
+                 % pag[2])
+        L.append(u"14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.")
     else:
-        L.append(u"`[a preencher]` \u2014 \U0001F534 **o v\u00ednculo pessoa\u2194\u00e1rea \u00e9 a lacuna aberta do corpus**")
+        L.append(u"`[a preencher]` — 🔴 **o vínculo pessoa e área é a "
+                 u"lacuna aberta do corpus**")
     L.append(u"### Data de entrada na uMode")
     L.append(u"⚠ **não se aplica** — pessoa de cliente")
     L.append(u"### Status na uMode")
@@ -230,6 +320,9 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None):
     L.append(u"| Primeira atividade observada | %s |" % (pri or u"`[a preencher]`"))
     L.append(u"| Última atividade observada | %s |" % (ult or u"`[a preencher]`"))
     L.append(u"| Fonte | campo `Quem solicitou?` da base de demandas do Notion |")
+    if plat:
+        L.append(u"| **Ativo na plataforma desde** | **%s** |" % plat[3])
+        L.append(u"| Fonte | tabela de usuários da página do cliente |")
     if obs and obs != u"—":
         L.append(u"")
         L.append(u"**Observação da fonte:** %s" % obs)
@@ -261,6 +354,7 @@ def main():
             os.makedirs(destino)
         n_cli = 0
         usados = set()
+        usados_plat = set()
         for linha in bloco.split(u"\n"):
             if not linha.startswith(u"| ") or linha.startswith(u"|---") or u"Demandas |" in linha:
                 continue
@@ -271,11 +365,14 @@ def main():
             if not e_pessoa(nome):
                 continue
             pag = casa_pagina(c, nome)
+            plat = casa_plataforma(c, nome)
+            if plat:
+                usados_plat.add(plat[1])
             if pag:
                 usados.add(pag[0])
             p = os.path.join(destino, slug(nome) + u".md")
             novo = ficha(c, nome, cels[1], cels[2], cels[3],
-                         cels[4] if len(cels) > 4 else u"", pag)
+                         cels[4] if len(cels) > 4 else u"", pag, plat)
             if os.path.exists(p) and io.open(p, encoding="utf-8").read() == novo:
                 continue
             io.open(p, "w", encoding="utf-8", newline="").write(novo)
@@ -295,6 +392,21 @@ def main():
             io.open(p, "w", encoding="utf-8", newline="").write(novo)
             criadas += 1
             n_cli += 1
+        # Quem existe SO na tabela de usuarios da plataforma tambem e pessoa -
+        # e traz o que nenhuma outra fonte traz: e-mail e data de ativacao.
+        for r in DA_PLATAFORMA.get(c, ()):
+            if r[1] in usados_plat:
+                continue
+            base_nome = r[0] if u" " in r[0] else r[1].split(u"@")[0].replace(u".", u" ")
+            pth = os.path.join(destino, slug(r[1].split(u"@")[0]) + u".md")
+            novo = ficha(c, base_nome, u"0", u"", u"",
+                         r[4] or u"nao aparece na base de demandas", None, r)
+            if os.path.exists(pth) and io.open(pth, encoding="utf-8").read() == novo:
+                continue
+            io.open(pth, "w", encoding="utf-8", newline="").write(novo)
+            criadas += 1
+            n_cli += 1
+
         if n_cli:
             clientes += 1
             print(u"  %-20s %3d fichas" % (c, n_cli))

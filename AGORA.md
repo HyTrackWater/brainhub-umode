@@ -208,6 +208,8 @@ chegar o momento"*. **Minha obrigação é manter a fila pronta e avisar se ela 
 | **`T1`** | **restrito** | valor de proposta, preço, margem, escopo confidencial — **entra, e fica só no `_contexto/` daquele cliente** |
 | **`T0`** | **privado** | 🔴 **nunca entra por valor.** CPF, telefone pessoal, senha, token, string de conexão. **Entra por referência:** registro que existe e **onde** |
 
+> `[P]` **Distinção que fiz em 22 set 2026 e que precisa do seu aval:** **e-mail CORPORATIVO é `T2` e entra** — é dado de contato de trabalho e é **a chave de identidade** que destrava a deduplicação de pessoa (item 252). **E-mail pessoal segue `T0`.** Telefone e CPF seguem `T0` em qualquer caso. **Precedente que já existia no corpus:** há ficha nomeada por e-mail na Reserva desde antes desta sessão.
+
 **Onde isso vive, por cliente:** `_Clientes/<Cliente>/00_Institucional/_contexto/`
 **`_pendencias-e-fontes.md`** — é a autoridade sobre as pendências **daquele** cliente e sobre
 **onde já se varreu**. Gerado por `scripts/gera-pendencias-e-fontes.py`.
