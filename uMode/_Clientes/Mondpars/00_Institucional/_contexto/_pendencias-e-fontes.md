@@ -26,8 +26,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ## 2 · Pendências abertas
 
-⚠ **Nenhuma pendência específica registrada** — e isso quase sempre quer dizer
-**que a página deste cliente ainda não foi aberta** (ver § 4), não que esteja tudo claro.
+| # | O que está em aberto | Tier | O que destrava |
+|--:|---|:-:|---|
+| 1 | ⚠ **`Mondepars` na plataforma × `Mondpars` no CRM** — grafia diferente, não é caixa. **Um dos dois está errado.** | `T2` | conferência |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -39,8 +40,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-⚠ **Nenhuma ainda** — e para este cliente isso quase sempre quer dizer que a
-**página dele não foi aberta** (§ 3.2). **Pergunta boa nasce de varredura feita.**
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | `Mondepars` na base do Notion × `Mondpars` na nossa pasta. **Qual grafia está certa?** | `T2` | não colapsa sozinho no `client_id` — e já causou perda silenciosa de dado nesta sessão | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

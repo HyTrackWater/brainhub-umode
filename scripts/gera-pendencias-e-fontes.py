@@ -232,7 +232,7 @@ PEND = {
         (u"⚠ **Conteúdo T1 da Cambos com autorização de uso pendente desde julho.**", u"T1",
          u"autorização do Vinicius/João"),
     ],
-    u"Mondepars": [
+    u"Mondpars": [
         (u"⚠ **`Mondepars` na plataforma × `Mondpars` no CRM** — grafia diferente, não é caixa. "
          u"**Um dos dois está errado.**", u"T2", u"conferência"),
     ],
@@ -361,9 +361,17 @@ PERGUNTAS = {
         (u"O conte\u00fado T1 da Cambos est\u00e1 com autoriza\u00e7\u00e3o de uso pendente desde julho. "
          u"**Libera?**", u"T1", u"trava registrada h\u00e1 mais de dois meses", u"aberta"),
     ],
-    u"Mondepars": [
-        (u"`Mondepars` na plataforma \u00d7 `Mondpars` no CRM. **Qual grafia est\u00e1 certa?**",
-         u"T2", u"n\u00e3o colapsa sozinho no `client_id`", u"aberta"),
+    u"Mondpars": [
+        (u"`Mondepars` na base do Notion × `Mondpars` na nossa pasta. "
+         u"**Qual grafia está certa?**", u"T2",
+         u"não colapsa sozinho no `client_id` — e já causou perda silenciosa "
+         u"de dado nesta sessão", u"aberta"),
+    ],
+    u"Simples (by Reserva)": [
+        (u"A pasta `Simples (by Reserva)` existe no nosso corpus e **não tem linha "
+         u"nenhuma na base `Mapa de Clientes`**. **É marca dentro da Reserva, ou conta "
+         u"própria que falta cadastrar?**", u"T2",
+         u"define se são 48 ou 49 clientes, e se a pasta deve existir", u"aberta"),
     ],
 }
 
@@ -597,6 +605,19 @@ def main():
     pq = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_contexto",
                       u"_perguntas-para-o-vinicius.md")
     n_q = esc(pq, consolidada())
+    # Chave que nao casa com pasta faz o dado SUMIR EM SILENCIO - foi o que
+    # aconteceu com `Mondepars` (nome no Notion) contra a pasta `Mondpars`.
+    # Silencio e pior que erro: o arquivo sai completo e errado.
+    pastas = set(os.listdir(CLI))
+    orfas = sorted(set(list(PAGINA) + list(PEND) + list(RISCO) + list(PERGUNTAS)) - pastas)
+    if orfas:
+        print(u"")
+        print(u"❌ CHAVE SEM PASTA - o dado destas chaves NAO foi escrito:")
+        for o in orfas:
+            print(u"   %s" % o)
+        print(u"Corrija a chave para o nome EXATO da pasta em uMode/_Clientes/.")
+        return 1
+
     print(u"_pendencias-e-fontes.md escrito/atualizado: %d de %d clientes" % (n, total))
     print(u"_perguntas-para-o-vinicius.md: %s" % (u"atualizado" if n_q else u"sem mudanca"))
     print(u"  com página do Notion já aberta : %d" % len(PAGINA))

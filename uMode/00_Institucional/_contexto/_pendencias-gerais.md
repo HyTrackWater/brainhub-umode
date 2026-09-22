@@ -2470,3 +2470,12 @@
 353. **Fila hoje: 15 perguntas de cliente + 4 transversais abertas, 1 respondida.**
      ⚠ **A fila está curta porque a varredura está no começo** — **44 dos 48 clientes têm a
      página fechada.** **Pergunta boa nasce de varredura feita.**
+354. **🔺 BUG MEU, do pior tipo — falha em silêncio.** O gerador usava `Mondepars` (grafia do
+     Notion) como chave, e a pasta é `Mondpars`. **O arquivo saiu completo e errado, sem um
+     aviso.** **Corrigido na causa, não no caso:** o script agora **aborta com erro** se
+     qualquer chave de `PAGINA`, `PEND`, `RISCO` ou `PERGUNTAS` não casar com uma pasta real.
+     **Silêncio é pior que erro** — erro eu vejo.
+355. **🔴 ACHADO — `Simples (by Reserva)` é pasta de cliente nossa SEM nenhuma linha na base
+     `Mapa de Clientes`.** É a única nessa condição (a `Mondpars` é só grafia).
+     **É marca dentro da Reserva, ou conta própria que falta cadastrar?**
+     **Define se são 48 ou 49 clientes.** → pergunta registrada.

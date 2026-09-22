@@ -39,8 +39,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-⚠ **Nenhuma ainda** — e para este cliente isso quase sempre quer dizer que a
-**página dele não foi aberta** (§ 3.2). **Pergunta boa nasce de varredura feita.**
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | A pasta `Simples (by Reserva)` existe no nosso corpus e **não tem linha nenhuma na base `Mapa de Clientes`**. **É marca dentro da Reserva, ou conta própria que falta cadastrar?** | `T2` | define se são 48 ou 49 clientes, e se a pasta deve existir | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

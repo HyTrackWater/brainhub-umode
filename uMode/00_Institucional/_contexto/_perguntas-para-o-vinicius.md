@@ -13,7 +13,7 @@
 
 | | Quantas |
 |---|--:|
-| **Abertas, de um cliente só** | **15** |
+| **Abertas, de um cliente só** | **16** |
 | **Abertas, transversais** | **4** |
 | Já respondidas | 1 |
 | Clientes com página ainda **não aberta** | **44** |
@@ -68,13 +68,13 @@
 | 1 | 🚨 **A credencial do site de documentação foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
 | 2 | Os dois arquivos de staging `SUPERSEDED` seguem no repositório. **Apago?** | `T2` | apagar é decisão sua, não minha | aberta |
 
-### Mondepars
+### Mondpars
 
-[abrir o arquivo do cliente](../../_Clientes/Mondepars/00_Institucional/_contexto/_pendencias-e-fontes.md)
+[abrir o arquivo do cliente](../../_Clientes/Mondpars/00_Institucional/_contexto/_pendencias-e-fontes.md)
 
 | # | Pergunta | Tier | Por que importa | Estado |
 |--:|---|:-:|---|---|
-| 1 | `Mondepars` na plataforma × `Mondpars` no CRM. **Qual grafia está certa?** | `T2` | não colapsa sozinho no `client_id` | aberta |
+| 1 | `Mondepars` na base do Notion × `Mondpars` na nossa pasta. **Qual grafia está certa?** | `T2` | não colapsa sozinho no `client_id` — e já causou perda silenciosa de dado nesta sessão | aberta |
 
 ### NK STORE
 
@@ -103,6 +103,14 @@
 | 1 | 7 módulos contratados e **nenhuma etapa do processo atribuída**. **Conta grande não passa pelo funil, ou é lacuna de preenchimento?** | `T2` | vale para Oficina Reserva, NV e Baw também | aberta |
 | 2 | O `Review Quinzenal de Projeto` tem envios marcados até 30/06 e nada depois. **A cadência parou ou só parou de ser marcada?** | `T2` | é a única cadência formal de report a cliente que o corpus conhece | aberta |
 | 3 | 5 dos 9 grupos de WhatsApp estão marcados para excluir e continuam existindo. **A limpeza foi feita?** | `T2` | canal fora de sistema é onde a operação vaza | aberta |
+
+### Simples (by Reserva)
+
+[abrir o arquivo do cliente](../../_Clientes/Simples (by Reserva)/00_Institucional/_contexto/_pendencias-e-fontes.md)
+
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | A pasta `Simples (by Reserva)` existe no nosso corpus e **não tem linha nenhuma na base `Mapa de Clientes`**. **É marca dentro da Reserva, ou conta própria que falta cadastrar?** | `T2` | define se são 48 ou 49 clientes, e se a pasta deve existir | aberta |
 
 ## Governança
 
