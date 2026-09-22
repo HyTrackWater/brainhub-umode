@@ -86,6 +86,11 @@ def main():
         if os.path.isdir(dem):
             n_dem = len([f for f in os.listdir(dem)
                          if f.startswith(u"D-") and f.endswith(u".md")])
+        n_pes = 0
+        pes = os.path.join(raizc, u"00_Institucional", u"_pessoas")
+        if os.path.isdir(pes):
+            n_pes = len([f for f in os.listdir(pes)
+                         if f.endswith(u".md") and not f.startswith(u"_")])
         n_rfi = 0
         rfi = os.path.join(raizc, u"00_Institucional", u"_rfis")
         if os.path.isdir(rfi):
@@ -113,12 +118,14 @@ def main():
             b.append(u"")
             b.append(u"**Os outros dois MDs desta casa:** [%s](%s) · [%s](%s)" % (i1, i1, i2, i2))
             b.append(u"")
-            if n_dem or n_rfi:
+            if n_dem or n_rfi or n_pes:
                 partes = []
                 if n_dem:
                     partes.append(u"**%d demandas** — [índice](../_demandas/_indice.md)" % n_dem)
                 if n_rfi:
                     partes.append(u"**%d RFIs** — [índice](../_rfis/_indice.md)" % n_rfi)
+                if n_pes:
+                    partes.append(u"**%d fichas de pessoa** — [índice](../_pessoas/_indice.md)" % n_pes)
                 b.append(u"**Registros:** " + u" · ".join(partes))
                 b.append(u"")
             b.append(u"**As %d áreas deste cliente:**" % len(areas))
@@ -202,6 +209,46 @@ def main():
             esc(os.path.join(pasta, u"_indice.md"),
                 chr(10).join(linhas) + chr(10))
             tocados += 1
+
+        # fichas de pessoa do cliente
+        if os.path.isdir(pes):
+            fichas = sorted(f for f in os.listdir(pes)
+                            if f.endswith(u".md") and not f.startswith(u"_"))
+            for f in fichas:
+                bl = (u"> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**"
+                      + chr(10) + chr(10) +
+                      u"**Cliente:** `%s` — "
+                      u"[institucional.md](../_contexto/institucional.md) · "
+                      u"[jornada.md](../_contexto/jornada.md) · "
+                      u"[pessoas.md](../_contexto/pessoas.md)" % c
+                      + chr(10) + chr(10) +
+                      u"**As outras pessoas deste cliente:** [índice](_indice.md)"
+                      + chr(10) + chr(10) +
+                      u"**Autoridade sobre pessoa e comunicação:** "
+                      u"[`_espec-pessoas-e-comunicacoes.md`]"
+                      u"(../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) · "
+                      u"**regra de identidade:** "
+                      u"[`protocolo-varredura-cliente.md`]"
+                      u"(../../../../00_Institucional/_protocolos/protocolo-varredura-cliente.md)")
+                if poe(os.path.join(pes, f), bl):
+                    tocados += 1
+            if fichas:
+                L = [u"# %s · Pessoas — índice" % c, u""]
+                L.append(u"> **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**")
+                L.append(u"> Cada pessoa é um arquivo por decisão do Vinicius em 22 set 2026:")
+                L.append(u"> *\"cada pessoa tem sim que ser um arquivo e realmente ter vários")
+                L.append(u"> outros nós com ela\".*")
+                L.append(u"")
+                L.append(u"**Cliente:** [institucional.md](../_contexto/institucional.md) · "
+                         u"[jornada.md](../_contexto/jornada.md) · "
+                         u"[pessoas.md](../_contexto/pessoas.md)")
+                L.append(u"")
+                L.append(u"**%d fichas:**" % len(fichas))
+                L.append(u"")
+                for f in fichas:
+                    L.append(u"- [%s](%s)" % (f[:-3], f))
+                esc(os.path.join(pes, u"_indice.md"), chr(10).join(L) + chr(10))
+                tocados += 1
 
     # ---- demandas da propria Casa uMode ----
     # Sem isto elas ficam com estrutura diferente das 993 de cliente, e o

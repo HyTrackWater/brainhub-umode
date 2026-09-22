@@ -2254,3 +2254,55 @@
      **Entrou em 1.906 arquivos**, ou seja, em 100% de cada classe do corpus, respeitando a regra
      de que estrutura não varia dentro da classe. **`gera-conexoes.py` passa a fazer parte do
      ritual de fechamento.**
+
+## Varredura da página da CAEDU (22 set 2026)
+
+308. **🔴 AS ATAS DA CAEDU ESTÃO EM TRÊS ACERVOS QUE NÃO SE FALAM.** A base
+     `Reuniões Compartilhadas` tem **35**; a **sub-página `Reuniões com o cliente`, dentro da
+     página da CAEDU, tem ~47** (24/04/2024 a 16/09/2025); e há as **7 transcrições Tactiq**
+     entregues em 22 set. 🔴 **O Vinicius ia reunir ~50 agendas manualmente — vale confrontar
+     antes, pode ajudar.**
+     🟢 **CORRIGIDO PELO VINICIUS no mesmo dia:** *"essas são **anotações manuais** em sua
+     grande maioria. Mas as **transcrições** que vou trazer são **reais**."* `[D]`
+     **Os dois acervos NÃO se substituem** — um é nota escrita à mão, o outro é transcrição.
+     **São fontes de natureza diferente e ambas valem.** Eu sugeri que um poupava o outro:
+     **estava errado.** ⚠ **Não verifiquei ata a ata a
+     sobreposição entre os acervos 1 e 2.**
+309. **🔴 Sub-página de cliente é um tipo de fonte que NENHUMA consulta SQL alcança.** As ~47
+     atas viviam como sub-página, não como linha de base — por isso nunca apareceram.
+     **→ O `protocolo-varredura-cliente.md` precisa exigir: abrir a página do cliente e listar as
+     sub-páginas**, não só consultar as bases.
+310. **🟢 O formato de ata da CAEDU é candidato a padrão da carteira.** Ela separa por dono:
+     `Pauta` · `For uMode` · `For CAEDU` · `Caedu TI`, com item concluído riscado e marcação de
+     prioridade. **Nenhuma outra fonte separa responsabilidade por lado.** Há um `Modelo de Ata`
+     na mesma pasta. ⚠ **Confirmar se outros clientes usam o mesmo modelo.**
+311. **🔴 A dor da hierarquia `Griffe › Linha › Grupo/subgrupo` é de SETEMBRO DE 2025**, e
+     reapareceu idêntica na visita de 22/07/2026 e na reunião de integração de 25/08/2026 —
+     **inclusive com a mesma frase sobre a API estar do lado do cliente.** **Atravessou três
+     ciclos de discussão sem destravar.** **Muda a leitura do CAEDU 2.0: não é dor descoberta na
+     visita, é dor conhecida há mais de um ano.**
+312. **⚠ O `Manual do Cliente para o Sistema PLM` da CAEDU é de 24/08/2023 e descreve módulos que
+     não são os do uFlow atual** (*"Projetos"*, *"Documentos"*, *"Colaboradores"*).
+     **Documentação de produto de três anos atrás, viva na página do cliente.**
+313. **⚠ Sem acesso à sub-página `Fornecedores da Caedu`** — 404 por este conector.
+     **Não afirmo que não existe: afirmo que não alcancei.**
+
+## Pessoa vira arquivo (22 set 2026)
+
+314. **🟢 DECIDIDO — pessoa de cliente É ARQUIVO.** Vinicius, textual: *"cada pessoa tem sim
+     que ser um arquivo e realmente ter vários outros nós com ela. Isso não tem dúvida."* `[D]`
+     **Executado no mesmo dia:** escrito o `scripts/gera-fichas-pessoa.py`, que criou
+     **127 fichas em 17 clientes** a partir do campo `Quem solicitou?` das demandas.
+     **Estrutura idêntica à do `_template_pessoa.md` da Casa**, porque o `CLAUDE.md` trava que
+     *"Áreas e Pessoas são iguais entre Casa e clientes"*; campo que só faz sentido para a Casa
+     fica marcado **não se aplica**, nunca apagado.
+     **O gerador não unifica grafia** (§ 9 do protocolo) e **não cria ficha para o que não é
+     pessoa** — filtra área, time, agente (`Hermes`), canal e pessoa da uMode.
+315. **🔴 As 127 fichas nascem com `cargo` e `área` em `[a preencher]`** — porque **nenhuma
+     das 8 fontes varridas traz isso estruturado** (item 285). **A ficha não resolve a lacuna:
+     ela dá o LUGAR onde a lacuna passa a ser visível e preenchível, uma pessoa por vez.**
+316. **⚠ São 127 fichas para ~200 nomes observados.** A diferença são células com **duas pessoas
+     juntas** (`Carol/Denize`), áreas e times. **Não desmembrei sem confirmação** — desmembrar
+     `Fabi e Carol` em duas fichas é inventável, e a regra de ouro proíbe.
+317. **⚠ Os 31 clientes sem tabela de solicitante não ganharam ficha nenhuma.** Não têm demanda,
+     logo não têm pessoa observada. **Depende das páginas e das atas, não do gerador.**

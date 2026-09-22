@@ -100,7 +100,7 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 **Os outros dois MDs desta casa:** [institucional.md](institucional.md) · [jornada.md](jornada.md)
 
-**Registros:** **18 demandas** — [índice](../_demandas/_indice.md) · **4 RFIs** — [índice](../_rfis/_indice.md)
+**Registros:** **18 demandas** — [índice](../_demandas/_indice.md) · **4 RFIs** — [índice](../_rfis/_indice.md) · **3 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
 **As 15 áreas deste cliente:**
 

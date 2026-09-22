@@ -3006,3 +3006,22 @@ caminho).
   ⚠ **Dois defeitos meus corrigidos no caminho:** o validador contava os índices gerados como
   se fossem demanda, e **as 5 demandas da própria Casa ficaram de fora da primeira passada** —
   o `valida-padrao-corpus.py` acusou, com razão. Itens 305–307.
+
+- **22 set 2026** — Sessão 41: **pessoa de cliente virou arquivo, e a varredura da CAEDU no
+  Notion achou um terceiro acervo de atas.**
+  🟢 **Decisão do Vinicius, executada no mesmo dia:** *"cada pessoa tem sim que ser um arquivo
+  e realmente ter vários nós com ela."* Escrito o `scripts/gera-fichas-pessoa.py` —
+  **127 fichas em 17 clientes**, com a mesma estrutura do template da Casa, ligadas ao grafo.
+  **Até aqui pessoa de cliente era linha de tabela**, e linha de tabela não é nó: não pode ser
+  apontada nem apontar. 🔴 **As fichas nascem com `cargo` e `área` vazios** — a ficha não
+  resolve a lacuna, **dá o lugar onde ela fica visível e preenchível.**
+  🔴 **E a página da CAEDU tem 56 sub-páginas, entre elas ~47 atas de weekly** (abr/2024 a
+  set/2025) numa sub-página própria — **um terceiro acervo, que nenhuma consulta SQL alcança**,
+  porque não é linha de base. → **o protocolo de varredura precisa exigir abrir a página e
+  listar sub-páginas.**
+  🟢 **Correção do Vinicius, registrada:** eu sugeri que esse acervo poupava o trabalho dele de
+  reunir as ~50 agendas. **Errado** — *"essas são anotações manuais; as transcrições que vou
+  trazer são reais."* **São fontes de natureza diferente e ambas valem.**
+  🔴 **E a dor da hierarquia `Griffe › Linha › Grupo/subgrupo` é de set/2025**, idêntica na
+  visita de jul/2026 e na reunião de ago/2026 — **atravessou três ciclos sem destravar.**
+  **Grafo após tudo: 2.224 arquivos, 96,3% conectados, 88 órfãos.** Itens 308–317.
