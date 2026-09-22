@@ -2123,3 +2123,38 @@
      cérebro que o Vinicius descreveu. **Nenhuma fonte varrida traz isso estruturado.**
 277. **🔴 33 dos 48 clientes não têm UMA pessoa sequer identificada.** **É a maior lacuna do
      corpus em número**, e a fonte restante são as **páginas de `Documentação Clientes`** no Notion.
+
+## CX Hub como referência de desenho (22 set 2026)
+
+278. **🟢 DECIDIDO pelo Vinicius — o CX Hub não tem dado.** *"A feature foi colocada, mas nunca
+     finalizada de fato."* `[D]` **Li 170 migrations: os `INSERT` são todos de configuração.**
+     **O repositório vale como referência de DESENHO, não como fonte.** **Não voltar a procurar
+     dado lá.**
+279. **🔴 Dois vocabulários de RFI sem mapeamento, e uma diferença estrutural maior.** CX Hub
+     tem **4 status** (`Previsto`/`Orçada`/`Aceito`/`Recusada`); o corpus tem **11**. E no CX Hub
+     **`rfis.demand_id` é `NOT NULL UNIQUE`: uma RFI é 1:1 com uma demanda**, enquanto no corpus
+     são entidades separadas com vínculo opcional (44 de 999). **É decisão de modelo.**
+     ⚠ E a RFI do CX Hub carrega `budget_value` e `due_date`.
+280. **🔴 O padrão de permissão do CX Hub é "todo mundo vê tudo".** O trigger
+     `grant_new_client_to_all_users` dá `viewer` de **todo cliente novo** para **todos os
+     usuários**. 🟢 A estrutura `(usuário × cliente × role)` **confirma a decisão de que a
+     hierarquia máxima é o cliente** (item 269). **Mas o default precisa ser o inverso.**
+281. **🔴 Status de demanda no CX Hub é COLUNA DE KANBAN, não enum.** `demands.column_id` aponta
+     para `ticket_columns`, e `started_at`/`finished_at` são **disparados pela coluna**.
+     **Estruturalmente diferente do `Etapa` do Notion.** **Duas taxonomias, nunca fundidas.**
+282. **⚠ `client_tier` mistura porte com nome de grupo:** `('azzas','enterprise','medium','small')`.
+     **Três valores são porte; um é nome próprio.** **Não sei o que `azzas` significa neste enum.**
+283. **🔴 A PÁGINA DOS 33 CLIENTES NÃO EXISTE — correção de um próximo passo meu.** Eu havia
+     proposto varrer *"as páginas dos 33 clientes sem pessoa"*. **Verifiquei antes de executar:
+     só 9 clientes têm `Documentação Clientes`, e 8 já foram varridos.** O que existe para os
+     demais são **sub-páginas no corpo da página** (`Onboarding`, `Playbook`, `Reonboarding`) e
+     **databases inline** — **não abertas.**
+284. **🔴 A Vivara está em `Churn` e tem uma página `Reonboarding Vivara`.** **É reentrada, não
+     conta morta.** **Sétimo caminho independente mostrando que `Status` ≠ realidade.**
+285. **🔴 A PERGUNTA MAIS IMPORTANTE EM ABERTO: onde vive `cargo` e `área` de pessoa?**
+     Procurei em **sete fontes**: `Mapa de Clientes`, `Demandas`, `Chamados`, `Reuniões`,
+     `Portal do Cliente`, páginas de cliente e o **schema do CX Hub** (onde `user_profiles` só
+     tem `global_role` com 3 valores). **Nenhuma tem cargo ou área estruturados.**
+     🔴 **Se não existe fonte, isto não é lacuna de varredura — é dado a ser criado.**
+     **E sem ele não há permissionamento por área.** **É pergunta para o Vinicius, não tarefa
+     para mim.**

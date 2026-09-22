@@ -2910,3 +2910,36 @@ caminho).
   quando** em 15 clientes, **mas não tenho `cargo` nem `área` estruturados para quase ninguém** —
   **sem isso não há permissão por área.** E **33 dos 48 clientes não têm uma pessoa sequer.**
   Itens 269–277.
+
+- **22 set 2026** — Sessão 38: **o CX Hub é referência de desenho, não fonte de dado — e isso
+  vale mais para o objetivo.** O Vinicius mandou investigar o repositório e, no meio da
+  investigação, cortou: *"essa parte do CX praticamente não terá dado. A feature foi colocada,
+  mas nunca finalizada de fato."* `[D]` **Li 170 migrations: os `INSERT` são todos de
+  configuração.** Escrito o `_varredura-2026-09-22d-cx-hub-schema-e-placar.md`.
+  🟢 **Mas o schema já modela boa parte do brain que ele descreveu:**
+  `platform_type ENUM ('gist','stripe','linear','notion','tudo1','whatsapp','slack','custom')` —
+  **é a lista de fontes de contexto**; e
+  `job_type ENUM ('sync_contacts','ingest_historical','classify_batch','transcribe_audio')` —
+  **é a esteira de moída de conteúdo, já tipada.** Mais `demand_origins`,
+  `demand_conversation_summaries` e `demand_ai_analyses`. **Não está funcionando; está desenhado.**
+  🟢 **O permissionamento é `(usuário × cliente × role)`, o que confirma a decisão dele de que
+  a hierarquia máxima é o cliente.** 🔴 **Mas o trigger `grant_new_client_to_all_users` dá
+  `viewer` de todo cliente novo para todos os usuários: o padrão é ver tudo.**
+  🔴 **Dois vocabulários de RFI e uma diferença estrutural maior:** CX Hub tem 4 status, o
+  corpus tem 11 — e lá **uma RFI é 1:1 com uma demanda** (`demand_id NOT NULL UNIQUE`),
+  enquanto aqui são entidades separadas. **Não fundi.** E **status de demanda lá é coluna de
+  kanban, não enum.**
+  🔴 **Corrigi um próximo passo meu antes de ele custar uma rodada:** eu havia proposto varrer
+  *"as páginas dos 33 clientes sem pessoa"*. **Verifiquei: só 9 clientes têm `Documentação
+  Clientes`, e 8 já foram varridos. A fonte que eu propus não existe.** O que há são
+  **sub-páginas e databases inline** no corpo da página — testado na Vivara.
+  🔴 **E a Vivara, marcada `Churn`, tem uma página `Reonboarding Vivara`** — sétimo caminho
+  independente mostrando que `Status` ≠ realidade.
+  🔴 **A pergunta mais importante ficou sem resposta e virou pergunta para ele:** procurei
+  `cargo` e `área` de pessoa em **sete fontes**, incluindo o schema do CX Hub — onde
+  `user_profiles` só tem `global_role` com 3 valores. **Nenhuma tem.** **Se não existe fonte,
+  não é lacuna de varredura: é dado a ser criado — e sem ele não há permissionamento por área.**
+  **Registrado o placar da sequência** (§ 4 do registro): de **2 de 46 clientes varridos em 21
+  set** para **48 de 48**, **12 clientes com as 8 dimensões respondidas**, **92 pessoas com
+  e-mail**, **7 bases varridas**, **71 `.md` estruturais classificados** e **2 verificadores**.
+  Itens 278–285.
