@@ -78,13 +78,23 @@ ERP integrado: **Linx**. Usuários na conta: **93**, em 14 perfis.
 > métrica equivalente para Estilo, Produto, Planejamento, Qualidade ou E-commerce.
 
 ## Próximos passos
-1. 🔴 **Fechar a frente de fornecedores** — 4 primeiros incluídos e testados. Depende de retorno da
-   Caedu e do comprometimento do time sob liderança da Rose.
-2. Ajustar os permissionamentos pendentes do perfil `Fornecedor` (lista em
-   [`06_Compras-Supply-Sourcing`](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)).
-3. Revalidar o AS IS de abr/2025 — tem **17 meses**.
-4. Confirmar o estado da transição **PLM 2.0**.
-5. Retomar ou localizar o registro de weeklies posterior a jun/2026.
+
+> **Plano de ação interno de 08/09/2026** — **três cronogramas em paralelo**, com donos distintos.
+
+| # | Frente | Dono | Meta dos 3 meses |
+|---|---|---|---|
+| 1 | 🔴 **Integração** | **Marina Santoro** | refazer leitura + escrita + **trazer dados de pedido** |
+| 2 | **Migração** | **Julianne Rodrigues** | migrar ficha e cadastro para a plataforma nova |
+| 3 | **Inovação / descoberta** | **Vanessa Rinaldi** | mapear processo e **atacar COMPRAS primeiro** |
+
+🔴 **`Compras` é a prioridade número um**, decidida em 08/09: *"entre todos os departamentos a
+gente vai entrar de cabeça em compras"* — porque é onde o **pré-pedido no Excel** dói, e o time
+quer **visão de mapa de coleção pelo pedido**, não pelo cadastro.
+
+**E há três decisões que são do cliente e travam a migração:**
+1. a **hierarquia mercadológica nova** (`Grife › Linha › Grupo › Subgrupo`)
+2. a **organização das pastas**
+3. os **papéis e responsabilidades por campo**
 
 ## Histórico de incidentes / alertas
 | Quando | O quê |
@@ -112,6 +122,74 @@ O corpus havia flagrado que a linha desta conta mudou de **`Ongoing`** para **`O
 > escopo** volta a `Onboarding`, e **o campo perde a informação de que ela já estava em
 > operação**. Reforça o item 237 — `lifecycleStage` precisa ser **por escopo contratado**, não
 > por cliente. ⚠ **Qual é o novo escopo, não sei** — não foi dito e não presumo.
+
+
+
+### 🔵 CAEDU 2.0 — o projeto novo, varrido em 22 set 2026 `[C]`
+
+> Nove fontes lidas: a **proposta de jun/2026**, **7 transcrições** e a **página da visita de
+> 22/07/2026**. Evidência completa e classificação de sigilo em [[_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes]].
+
+**O que é:** contrato de **12 meses**, **dois escopos rodando juntos**, com consultora da uMode
+**presencial dentro da CAEDU**. Tese da proposta: *"Tirar mais do PLM hoje. Construir o que vem
+depois dele."*
+
+| | Escopo 1 | Escopo 2 |
+|---|---|---|
+| Natureza | **aberto** · operação + uMode | 🔴 **confidencial · diretoria** |
+| Conteúdo | **12 frentes** de inteligência sobre o PLM atual | **8 módulos AI-First** acima do PLM |
+
+🔴 **O Escopo 2 é restrito à diretoria e a quem o diretor nomear** — declarado na própria
+proposta, com a razão escrita: cadeiras de trabalho manual **são descontinuadas**.
+**Não replico o detalhe dele fora do registro.**
+
+### 🔴 O compromisso mais duro: o `uFlow` é desligado em 12 meses
+> *"Ao final dos 12 meses: o **uFlow é desligado** e a CAEDU opera 100% na stack nova."*
+
+**É a primeira data de desligamento de legado registrada para qualquer cliente da carteira.**
+
+### 🔴 A cláusula de saída em 3 meses
+O cliente pediu **cláusula de saída se não houver resultado em 3 meses** (reunião de 17/08).
+⚠ **Não sei se entrou no contrato** — o time também não sabia: *"a gente não sabe se essa
+cláusula realmente vai entrar"* (Juliana Ferré). **O aditivo não foi visto.**
+
+### O acordo de prazo, fechado com o cliente em 21/08/2026 `[D]`
+| Marco | Prazo |
+|---|---|
+| **Migrar 100% para a plataforma nova** | **3 meses** |
+| **Tombar os fornecedores para dentro** | **mês 4** |
+| Priorizar as dores como **lista viva** | ao longo dos 12 meses |
+
+### 🔴 A integração é a dor-mãe — e o TI do cliente travou o caminho fácil
+**60–70% das dores decorrem de integração**, dito por João e registrado no resumo da devolutiva.
+
+**E em 25/08/2026 o `Danilo Moreno` (TI CAEDU) fechou a porta do acesso direto:**
+> *"**Via banco não vai** e a banco **não vou liberar**... é uma **premissa de determinação de
+> arquitetura**, eu **não abro mão**."*
+
+**Consequências encadeadas:**
+1. Tudo passa a ser **via API**.
+2. 🔴 **O `Linx` não tem API nativa** — a CAEDU precisa **construir** a camada.
+3. 🔴 **A CAEDU não tem recurso interno** → **a uMode empresta um desenvolvedor** para o
+   cliente construir a API que a própria uMode vai consumir (08/09).
+4. ⚠ **Isso põe a cláusula de 3 meses em risco por dependência de terceiro** — risco já
+   nomeado pelo time: *"se eles demoram 30 dias para liberar a API deles..."*
+
+> 🔴 **E a causa-raiz é histórica, com registro:** a CAEDU escolheu desenvolver a integração
+> do próprio lado, usando a API padrão da uMode. *"A gente tem um e-mail do tipo **eu não me
+> responsabilizo por essa escolha de vocês**... e foi aprovado"* — Juliana Ferré.
+
+### ⚠ O concorrente entrou na sala
+Na visita de **22/07/2026**, o cliente **ligou para um fornecedor ao vivo** e pediu uma
+demonstração do **`Coleção Moda`** na frente da uMode. **É o único caso da carteira.**
+**A Vanessa filmou; os vídeos estão no Notion e não foram abertos.**
+
+### O que mudou entre a proposta e a execução
+| Item | Proposta (jun) | Execução (set) |
+|---|---|---|
+| Presença da consultora | **8h/semana** | **2× por semana, meio período** |
+| Foco de entrada | *"pré-pedido e planejamento"* | **migração + integração**, com **compras** como prioridade |
+| Escopo 2 | central | ⚠ **não aparece nas reuniões de operação lidas** — mas é confidencial, então **não concluo abandono** |
 
 
 ## Governança

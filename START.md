@@ -102,6 +102,7 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 `_varredura-2026-09-22c-painel-de-prontidao.md` ·
 `_varredura-2026-09-22d-cx-hub-schema-e-placar.md` ·
 `_varredura-2026-09-22e-permissionamento-e-perfis.md` ·
+`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md` — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
 `_levantamento-2026-08-19-repos-e-prd.md` · `_levantamento-2026-09-21-praticas-vault-e-caedu.md` ·
 `_decisoes-convergencia-proposta.md` ·
 ⚠ `_recebido-2026-08-18-context-pack-brainhub-2.0.md` — **documento externo, do João/Codex: não é
@@ -198,6 +199,9 @@ e os **REGISTROS** datados.
 
 **Toda sessão que gera commit faz os quatro passos, nesta ordem:**
 
+0. **`python scripts/valida-indexacao.py`** — o grafo do corpus: quantos órfãos, quais hubs,
+   links quebrados. **Não é portão, é relatório** — mas é o que diz se o BrainHub está virando
+   cérebro ou continua nuvem de pontos soltos.
 1. **`python scripts/valida-padrao-corpus.py`** — o corpus fecha em `694 / 50 / 49 / 49` com
    **0 completados**. Se completar algum, **alguém quebrou o padrão** — entenda antes de commitar.
 2. **`python scripts/valida-documentacao.py`** — nenhum `.md` estrutural órfão do manifesto.

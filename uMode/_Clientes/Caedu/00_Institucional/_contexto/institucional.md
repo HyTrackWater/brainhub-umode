@@ -111,6 +111,24 @@ https://drive.google.com/drive/folders/13uGFpXtLsMEZGwr_0H5YEEWcw_zFMhVu?usp=dri
 - Chamados/Atendimento: **"Sistema saiu do ar"** (registro do CRM de março) — reconfirmar.
 
 ## Contexto crítico
+
+### 🔴 A CAEDU está em reimplantação, não em operação normal
+
+**A implantação começou em 2022.** No pré-kickoff de **03/09/2026**, o próprio cliente disse:
+> *"**quatro anos** para o processo ainda não está totalmente [pronto]"* ·
+> *"a maior frustração que a gente tem hoje é **não tirar todo o potencial**"* ·
+> *"se a gente quiser continuar alguma coisa, **tem que ser diferente**"*
+
+**E o diretor admitiu, em 28/07:** *"a implantação não foi boa, eu sei que do meu lado tem um
+monte de problema"*.
+
+> 🔴 **É uma conta em reconquista de confiança.** A própria Vanessa nomeou:
+> *"vai passar por um processo de **reconquista de confiança do time**"*, e registrou que
+> **o time interno pressionava o diretor para encerrar**.
+
+⚠ **Valor de contrato e mensalidade existem nas fontes e ficam com marcação
+`NEVER_TO_THIRD_PARTY`** no registro [[_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes]]. **Não replicados aqui.**
+
 ### Onde estamos
 > uFlow em regime. Onboarding apenas para a etapa de acesso aos fornecedores, pendente retorno da
 > Caedu. **Modelagem e qualidade têm domínio da ferramenta**, porém os demais times ainda têm

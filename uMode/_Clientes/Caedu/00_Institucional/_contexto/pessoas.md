@@ -350,6 +350,35 @@
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+
+#### 🔵 Pessoas do projeto CAEDU 2.0 — varredura de 22 set 2026 `[C]`
+
+**Fonte: proposta + 7 transcrições + página da visita.** Evidência em [[_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes]].
+
+| Pessoa | Papel | Evidência (data) |
+|---|---|---|
+| **Maurício Yung** | 🔴 **Diretoria — decisor do contrato** | devolutiva **21/08/2026** · integração **25/08** |
+| **Danilo Moreno** | 🔴 **TI / arquitetura** — **dono da decisão de só liberar API** | integração **25/08/2026** |
+| **Cleiton** | levantou as **15 oportunidades** em documento próprio | visita **22/07/2026** · ⚠ grafado `Clayton` |
+| **Samara** | Estilo/operação — pediu apontamento de erro de código Linx e ajuste em massa | pré-kickoff **03/09/2026** · 🟢 **bate com `samara.santos@caedu.com.br`** da base de chamados |
+| **Guto Blond** | **Licenciados** — perguntou sobre personagens e estampas | pré-kickoff **03/09/2026** |
+| **Vitória** | 🟡 **sugerida como ponto focal da CAEDU** pela Vanessa | plano de ação **08/09/2026** |
+| **Mariana** | questionava internamente a continuidade do projeto | revisão **17/08/2026** |
+| **Priscila** | Compras — visão de mapa pelo pedido | plano de ação **08/09/2026** |
+| **Paulo / Paula** | Tech — *"a integração é responsabilidade dele"* | revisão **17/08/2026** · ⚠ **duas grafias** |
+| **Rafael** | Tech | revisão **17/08/2026** |
+| **Bruno** · **Close** | citados como pessoas que centralizam e não resolvem | plano de ação **08/09/2026** |
+| *"um rapaz do BI"* | ⚠ **sem nome em fonte nenhuma** | visita **22/07/2026** |
+
+**Do lado uMode**, no projeto (não listados acima por serem pessoas da Casa):
+**Vanessa Rinaldi** (consultora alocada, **2×/semana presencial**) · **João Risoleó** (CEO) ·
+**Sandro Costa** · **Juliana Ferré** (atendimento) · **Marina Santoro** (integração) ·
+**Julianne Rodrigues** (gerente de conta, suporte e migração) · **Felipe Sindeaux** (dev).
+
+> 🔴 **Um achado de acesso, da visita:** *"apenas **uma pessoa da Qualidade** está com acesso
+> à plataforma"*. **É a lacuna de permissionamento mais concreta da carteira.**
+
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

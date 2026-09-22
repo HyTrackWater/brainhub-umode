@@ -2969,3 +2969,31 @@ caminho).
   *"Planilha de e-mail dos usuários"*, **não aberta**. **Se ela ligar e-mail a perfil, fecha
   `pessoa → perfil → área → permissão`** — **é o próximo passo de maior rendimento do corpus.**
   Itens 286–293.
+
+- **22 set 2026** — Sessão 40: **CAEDU 2.0 contextualizada, e o grafo do corpus medido.**
+  O Vinicius entregou **9 fontes**: a proposta comercial de jun/2026, **7 transcrições Tactiq** e
+  a página da visita de campo. Escrito o
+  `_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md` e reescritos os três MDs da CAEDU.
+  **O projeto:** 12 meses, **dois escopos** — um aberto à operação (12 frentes de inteligência) e
+  um 🔴 **confidencial, restrito à diretoria** (8 módulos AI-First), **com a razão escrita na
+  proposta: cadeiras de trabalho manual são descontinuadas.** **Registrei que existe; não
+  repliquei o detalhe fora do registro.** Valor comercial marcado `NEVER_TO_THIRD_PARTY`.
+  🔴 **O compromisso mais duro: o `uFlow` é desligado ao fim dos 12 meses** — primeira data de
+  desligamento de legado de qualquer cliente. E há **cláusula de saída em 3 meses** pedida pelo
+  cliente — ⚠ **e nem o time sabia se entrou no contrato.**
+  🔴 **A integração é a dor-mãe (60–70% das dores) e o TI da CAEDU fechou o caminho fácil:**
+  *"via banco não vai e a banco não vou liberar... premissa de arquitetura, não abro mão"*
+  (Danilo Moreno, 25/08). Como **o Linx não tem API nativa** e a CAEDU não tem recurso,
+  **a uMode vai emprestar um dev para o cliente construir a API que a própria uMode vai
+  consumir** — arranjo comercial e risco de prazo ao mesmo tempo.
+  ⚠ **E o concorrente entrou na sala:** na visita de 22/07 o cliente **ligou para um fornecedor ao
+  vivo** e pediu demonstração do **`Coleção Moda`** na frente da uMode. **Único caso da carteira.**
+  **As 15 oportunidades levantadas pelo `Cleiton` estão registradas uma a uma** — entre elas
+  *"a ferramenta permite finalizar o produto com pendências"*, **pré-pedido configurado e o time
+  ainda no Excel**, e 🔴 **só uma pessoa da Qualidade com acesso à plataforma.**
+  **E a segunda parte do pedido dele:** escrito o `scripts/valida-indexacao.py`, que mapeia o
+  grafo para preparar a visualização em Obsidian. 🔴 **O número é duro: 2.044 arquivos,
+  1.998 órfãos — 97,7%. Só 7,1% têm qualquer ligação.** **No Obsidian isso é nuvem de pontos,
+  não cérebro.** ⚠ **E wikilink por nome simples não serve aqui:** há **49 `pessoas.md`**.
+  ⚠ **Corrigi duas vezes o próprio medidor** antes de publicar o número: ele criava **hubs
+  falsos** ao desempatar nome ambíguo pelo primeiro arquivo. Itens 294–304.

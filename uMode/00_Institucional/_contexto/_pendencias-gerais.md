@@ -2195,3 +2195,43 @@
      Moda Objetiva cita uma **"Planilha de e-mail dos usuários"** — **não aberta**. **Se ela ligar
      e-mail a perfil, fecha `pessoa → perfil → área → permissão`** e resolve o item 285.
      🔴 **É o próximo passo de maior rendimento do corpus inteiro.**
+
+## CAEDU 2.0 e o grafo do corpus (22 set 2026)
+
+294. **🔴 97,7% DO CORPUS É ÓRFÃO.** Medido pelo `scripts/valida-indexacao.py`, escrito a
+     pedido do Vinicius para preparar a visualização em Obsidian: **2.044 arquivos `.md`,
+     1.998 sem NENHUM link de entrada, 7,1% com qualquer ligação.** `[C]`
+     🔴 **No Obsidian isso aparece como nuvem de pontos soltos, não como cérebro.**
+     **Decidir a estratégia de indexação** — e ela não pode ser manual em 2.044 arquivos.
+     **Proposta `[P]`:** os 4 MDs canônicos de cliente ganham, por script, um bloco de ligações
+     (cliente ↔ áreas ↔ pessoas ↔ demandas ↔ RFIs ↔ autoridades citadas).
+295. **⚠ Wikilink por nome simples é ambíguo neste corpus** — há **49 arquivos `pessoas.md`**,
+     49 `jornada.md`, 50 `institucional.md`. **`[[pessoas]]` no Obsidian não resolve.**
+     **Regra proposta:** dentro do corpus, link sempre por **caminho relativo**; wikilink simples
+     só para os nomes únicos (as autoridades e registros de `00_Institucional`).
+296. **20 links quebrados**, dos quais a maioria é falso-positivo: menção literária à palavra
+     *wikilinks* e **links para o vault do João**, que é repositório externo. ⚠ **Confirmar se o
+     `_recebido-2026-08-18` deve manter links para caminhos que não existem aqui.**
+297. **🔴 CAEDU: o `uFlow` tem data de desligamento — 12 meses a partir do contrato.** É a
+     **primeira data de desligamento de legado** registrada para qualquer cliente. **O corpus
+     não tem campo para isso.**
+298. **🔴 CAEDU: cláusula de saída em 3 meses pedida pelo cliente.** ⚠ **Não sei se entrou no
+     contrato** — nem o time sabia. **O corpus não tem campo de cláusula contratual.**
+299. **🔴 CAEDU: a uMode vai emprestar um desenvolvedor para o cliente construir a API que a
+     própria uMode vai consumir.** Decorre da decisão do TI da CAEDU de **não liberar acesso ao
+     banco** e do fato de o **Linx não ter API nativa**. **É arranjo comercial e risco de prazo ao
+     mesmo tempo** — e ameaça a cláusula de 3 meses.
+300. **⚠ CAEDU: o Escopo 2 é confidencial e restrito à diretoria.** A razão está escrita na
+     proposta: cadeiras de trabalho manual **são descontinuadas**. **Registrei que existe e o que
+     é; não repliquei o detalhe fora do registro.** **Confirmar com o Vinicius até onde isso pode
+     circular no corpus.**
+301. **🔴 `Grife › Linha › Grupo › Subgrupo`** — hierarquia de produto que a CAEDU precisa e o
+     corpus não modela. ⚠ **E `Grupo` e `Subgrupo` estão hoje no MESMO campo**, segundo o cliente.
+302. **⚠ Um concorrente foi demonstrado ao vivo pelo cliente, na frente da uMode:**
+     **`Coleção Moda`**, na visita de 22/07/2026. **É o único caso da carteira.** A Vanessa filmou;
+     **os vídeos estão no Notion e não foram abertos.** **Vale abrir antes do kickoff.**
+303. **🔴 `Brain Wave` (também dito `Green Wave`) — plataforma interna da uMode para gerar
+     software falando.** João: *"se ele ainda assim fizer a integração, nós temos uma máquina aqui
+     de produzir software."* **Não está no `_inventario-repositorios.md`.**
+304. **⚠ CAEDU: só UMA pessoa da Qualidade tem acesso à plataforma** (visita 22/07). **É a lacuna
+     de permissionamento mais concreta já encontrada**, e conecta com o item 287 (perfil = área).
