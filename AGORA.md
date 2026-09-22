@@ -3,8 +3,11 @@
 > **Este é o arquivo de orientação.** Serve para retomar o projeto de qualquer lugar, em
 > qualquer workspace, sem ler as 2.700 linhas da `STATE.md`.
 >
-> **Atualizado em: 22 set 2026** · commit `41e812f` · **se a data acima não for de hoje ou de
-> ontem, desconfie e confira a `STATE.md`.**
+> **Atualizado em: 22 set 2026.** Se esta data não for de hoje ou de ontem, **desconfie** —
+> confira o fim do `## Log de sessões` da [`STATE.md`](STATE.md) e o `git log -1`.
+>
+> *(Este arquivo não fixa hash de commit de propósito: ele envelheceria a cada commit e
+> daria falsa impressão de desatualização. A data é o sinal.)*
 
 ---
 
