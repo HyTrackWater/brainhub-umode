@@ -1,101 +1,104 @@
 # 4takes · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Identidade
 ### ID do cliente
-4takes
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`4takes`
+
 ### Aliases do cliente
-- 4takes (CRM "Mapa de Clientes" — nome canônico)
+`4takes`
+
 ### Quem são
-[a preencher]
+**São Paulo (SP).**
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-São Paulo SP
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-Grupo 3: Potenciais Clientes
+`Churn` — grupo próprio na base `Segmentação Grupos`.
 
 ## Operação uMode
 ### Status atual
-Regime CS
-> ⚠ `Regime CS` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos contratados (CRM): uFlow
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uFlow
-### Usuários da conta
+**`Churn`** — lido na base em 22 set 2026.
 
+🔴 **`Churn`** — **fim de relação.** O cliente saiu. **A casa continua a existir no corpus** porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
+
+### Data de ativação
+`[a preencher]` — **campo vazio na base**
+
+### Módulos contratados
+`Gestão de Coleção` — **1 de 7**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-Não
+**`Sem Integração`** — mesmo perfil dos clientes `Sem CS`.
+
 ### Responsável de atendimento (uMode)
-Rafael Del Gaudio Renaldim (Key Account)
-> Campo `Time de Atendimento` no CRM: SMB
+**`SMB`** — ⚠ **segmento, não pessoa.** Mesmo padrão dos clientes `Sem CS`.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1-BakScAgktLBiM5kVvGSBtcSinvzz-vE?usp=drive_link
+`[a preencher]` — **nenhuma pasta registrada na base**
+
 ### Outras fontes
-[a preencher]
+| Fonte | Estado |
+|---|---|
+| `[a preencher]` | — |
 
 ## Contexto crítico
-- Sucesso do Cliente (CRM): Renegociação - Estrutura atual da conta “não está em uso”
-- Tamanho atendimento (CRM): P
-- Flag (CRM): Não
-- Última edição do registro no CRM: March 4, 2026 10:05 AM por Ju Ferré
-
 ### Onde estamos
+🔴 **Cliente encerrado.** A casa existe no corpus porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
 
-`[a preencher]`
+> 🔴 **A causa não está em lugar nenhum.** Varri a base, a base de chamados, a de segmentação e a de portais. **Nenhuma tem campo de motivo de saída nem data de saída.**
 
 ### 🔴 A frente aberta
+**Nenhuma — o cliente saiu.**
 
-`[a preencher]`
+> ⚠ **E a data de saída também não existe.** A base tem `Data Ativação Cliente` e **não tem `Data de Churn`**. **Não dá para calcular tempo de vida de cliente nenhum.**
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
 `[a preencher]`
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Rafael Del Gaudio Renaldim (Key Account)
+`SMB`
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

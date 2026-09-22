@@ -1,66 +1,54 @@
 # NTK · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Status atual
-Churn
+**`Churn`** · `[a preencher]` — **campo vazio na base** · ERP: `[a preencher]`
 
 ## Fase atual
-[a preencher]
+**Encerrado.** `[a preencher]` — **quando e por quê.**
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 23/06/2023 | [a preencher] | Reunião de alinhamento |
-| 13/09/2023 | [a preencher] | Solicitação Roberta Rus |
-| 07/02/2024 | [a preencher] | Reunião 07/02/2024 |
-| 16/02/2024 | [a preencher] | Reunião 16/02/2024 |
-| 27/02/2024 | [a preencher] | Alinhamento Mapeamento Integração |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 5 reuniões registradas para este cliente
-> (5 com data, 0 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
-
-## Entregas comprometidas
-[a preencher]
-
-## Módulos em uso
-[a preencher]
-
-## Decisões e restrições registradas
-[a preencher]
-
-## Métricas de sucesso definidas
-Cliente Bloqueado - aguardando diretoria se irão continuar com uFlow.
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
-
-## Próximos passos
-[a preencher]
-
-## Histórico de incidentes / alertas
-[a preencher]
-
-## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-
-## Governança
-
-`[a preencher]`
-
-### Quem pode alterar este documento
-
-`[a preencher]`
-
-### Procedência
-
-| Bloco | Fonte | Data |
+| Data | Marco | Fonte |
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+
+## Entregas comprometidas
+`[a preencher]`
+
+## Módulos em uso
+`[a preencher]` — **campo vazio na base**
+
+## Decisões e restrições registradas
+`[a preencher]`
+
+## Métricas de sucesso definidas
+`[a preencher]`
+
+## Próximos passos
+1. 🔴 **Registrar motivo e data de saída.** **Sem isso o churn não ensina nada.**
+2. **Varrer a página do cliente**, se tiver conteúdo.
+3. **Criar o campo `Data de Churn` na base.**
+
+## Histórico de incidentes / alertas
+`[a preencher]`
+
+## Observações
+- **Portal criado em 14/08/2023.**
+- 🔴 **Todos os campos da base estão vazios**, exceto nome e status.
+- 🔴 **Motivo e data de churn: `[a preencher]`.**
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

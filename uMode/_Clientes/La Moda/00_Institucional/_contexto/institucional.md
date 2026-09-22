@@ -1,91 +1,106 @@
 # La Moda · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Identidade
 ### ID do cliente
-la-moda
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`la-moda`
+
 ### Aliases do cliente
-- La Moda (CRM "Mapa de Clientes" — nome canônico)
+`La Moda`
+
 ### Quem são
-[a preencher]
+`[a preencher]`
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-[a preencher]
+`[a preencher]`
 
 ## Operação uMode
 ### Status atual
-Inativo
-### Data de ativação
-[não informada]
-### Módulos contratados
-[a preencher]
-### Usuários da conta
+**`Inativo`** — lido na base em 22 set 2026.
 
+⚠ **`Inativo`** — **estado terminal ou linha de apoio.** ⚠ **Cuidado:** algumas linhas `Inativo` da base **não são clientes** (template, `Fornecedores`, `uMode`). Esta foi tratada como cliente porque tem nome de empresa.
+
+### Data de ativação
+`[a preencher]` — **campo vazio na base**
+
+### Módulos contratados
+`[a preencher]` — **campo vazio na base**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-[a preencher]
+`[a preencher]`
+
 ### Responsável de atendimento (uMode)
-[a preencher]
+`[a preencher]` — **campo vazio**.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-[a preencher]
+`[a preencher]` — **nenhuma pasta registrada na base**
+
 ### Outras fontes
-[a preencher]
+| Fonte | Estado |
+|---|---|
+| `[a preencher]` | — |
 
 ## Contexto crítico
-- Última edição do registro no CRM: February 9, 2026 3:40 PM por Ju Ferré
-
 ### Onde estamos
+🔴 **Esta linha é um stub, não um cliente documentado.**
 
-`[a preencher]`
+Criada em **09/02/2026**, **nunca editada**, com **todos os campos vazios** exceto nome e status.
+
+> **Três linhas foram criadas no mesmo dia, 09/02/2026, todas assim:** `Agua de Coco`, `La Moda` e `Fornecedores` — **e `Fornecedores` claramente não é um cliente.**
+>
+> **`[a preencher]` — estas duas são clientes reais ou ruído de cadastro?** **A casa existe para a pergunta ficar visível.** Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ### 🔴 A frente aberta
-
-`[a preencher]`
+**Nenhuma.** `[a preencher]` — **o que é `Inativo` neste caso: encerrado, suspenso ou nunca ativado?**
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
 `[a preencher]`
 
 ## Governança
 ### Responsável de atendimento (uMode)
-[a preencher]
+`[a preencher]`
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

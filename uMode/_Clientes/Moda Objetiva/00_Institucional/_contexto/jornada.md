@@ -1,76 +1,52 @@
 # Moda Objetiva · Jornada
 
-## ⚠ O que este documento NÃO resolve
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- **Nenhuma pessoa identificada** além das que abriram chamado.
 
 ## Status atual
-Onboarding
+**`Operação Assistida`** · `Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` — **4 de 7** · ERP: **`Ilimitar`**
 
 ## Fase atual
-[a preencher]
+**Operação assistida**, com 4 módulos e **nenhum chamado registrado**.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| [data] | Kick Off Interno | Reunião interna uMode |
-| [data] | Warm Up | Reunião com cliente |
-| [data] | Kick Off Cliente | Reunião presencial |
-| [não informada] | Onboarding | Data oficial de ativação |
-| 08/10/2025 | Onboarding | Reunião de Integração |
-| 24/10/2025 | Onboarding | Discovery — 1º Encontro |
-| 28/10/2025 | Onboarding | Discovery — 2º Encontro |
-| 03/11/2025 | Onboarding | Discovery — Cadastro Ilimitar |
-| 10/11/2025 | Onboarding | Discovery — 3º Encontro |
-| 26/11/2025 | Onboarding | Discovery — Materiais |
-| 15/12/2025 | Onboarding | Atualização de Andamento do Projeto |
-| 16/12/2025 | Onboarding | Discovery — ISA |
-| 22/12/2025 | Onboarding | Treinamento de Usuários-Chave |
-| 06/01/2026 | Onboarding | Discovery com o time de Compras |
-| 14/01/2026 | Onboarding | 1ª e 2ª Agenda de Acompanhamento e Dúvidas dos Usuários-Chave |
-| 12/02/2026 | Onboarding | Moda Objetiva & uMode — Cadastro e Compras (2) |
-| 02/03/2026 | Onboarding | Agenda de Alinhamento — Compras e Cadastros |
 
-> Marcos de 08/10/2025 a 02/03/2026 reconstruídos a partir da base "Reuniões Compartilhadas
-> com Clientes" (Drive/Notion-Export, 29 registros de Moda Objetiva) — o cliente mais recente
-> dos 4 do piloto (primeira reunião registrada em out/2025). Ainda inteiramente em fase de
-> Discovery/Onboarding — nenhum marco de transição para Operação Assistida/Ongoing
-> identificado até a última reunião registrada.
+| Data | Marco | Fonte |
+|---|---|---|
+| **23/10/2025** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
+| **10/08/2026** | Última edição da página | idem |
 
 ## Entregas comprometidas
-[a preencher]
+`[a preencher]`
 
 ## Módulos em uso
-Gestão de Coleção · Integração (Ilimitar) · Relatórios · Cronograma
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` — **4 de 7**
 
 ## Decisões e restrições registradas
-[a preencher]
+`[a preencher]`
 
 ## Métricas de sucesso definidas
-[a preencher]
+`[a preencher]`
 
 ## Próximos passos
-[a preencher]
+`[a preencher]`
 
 ## Histórico de incidentes / alertas
-[a preencher]
+`[a preencher]`
 
 ## Observações
-- Integração com Ilimitar documentada no Notion.
-- Perfil de usuários e permissionamentos mapeados.
-- Nenhum registro na base "Feedback Interno Clientes" da Casa — mesmo padrão de Lofty Style
-  (cliente ainda em Discovery/Onboarding, sem ciclo de avaliação de satisfação iniciado).
+- ⚠ **ERP `Ilimitar` é compartilhado com a Hering**, que está em `Pré Onboardings`.
+- **Nenhum chamado desta conta na janela de jan/2026.**
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

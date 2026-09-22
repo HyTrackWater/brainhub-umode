@@ -1,58 +1,52 @@
 # La Moda · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Status atual
-Inativo
+**`Inativo`** · `[a preencher]` — **campo vazio na base** · ERP: `[a preencher]`
 
 ## Fase atual
-[a preencher]
+**Inativo.** `[a preencher]`
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
 
-> Nenhuma reunião registrada para este cliente na base "Reuniões Compartilhadas com
-> Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-
-## Entregas comprometidas
-[a preencher]
-
-## Módulos em uso
-[a preencher]
-
-## Decisões e restrições registradas
-[a preencher]
-
-## Métricas de sucesso definidas
-[a preencher]
-
-## Próximos passos
-[a preencher]
-
-## Histórico de incidentes / alertas
-[a preencher]
-
-## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-- Sem reuniões na base compartilhada — jornada ainda sem marcos reais registrados.
-
-## Governança
-
-`[a preencher]`
-
-### Quem pode alterar este documento
-
-`[a preencher]`
-
-### Procedência
-
-| Bloco | Fonte | Data |
+| Data | Marco | Fonte |
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+
+## Entregas comprometidas
+`[a preencher]`
+
+## Módulos em uso
+`[a preencher]` — **campo vazio na base**
+
+## Decisões e restrições registradas
+`[a preencher]`
+
+## Métricas de sucesso definidas
+`[a preencher]`
+
+## Próximos passos
+1. 🔴 **Decidir se é cliente real ou ruído de cadastro.**
+2. Se for ruído, **remover da base** — e **a casa sai do corpus junto.**
+
+## Histórico de incidentes / alertas
+`[a preencher]`
+
+## Observações
+- 🔴 **Stub criado em 09/02/2026, nunca editado, todos os campos vazios.**
+- ⚠ **Criado no mesmo lote que `Fornecedores`, que não é cliente.**
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

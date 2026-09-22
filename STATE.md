@@ -744,6 +744,118 @@ declarado**, e o **único relatório de incidente formal** (08/08/2025, não lid
 5. 🔴 **As sub-páginas de permissionamento** de Cambos, Oficina Reserva e Luiza Barcelos —
    **as três existem e não foram varridas**, e são o que nomeia as pessoas que faltam.
 
+### ✅ A CARTEIRA INTEIRA ESTÁ VARRIDA — 48 de 48 clientes · 22 set 2026
+
+> Instrução do Vinicius: *"Operação assistida é momento e não cliente, certo? Pode prosseguir.
+> Precisamos varrer tudo que temos de informação de clientes."*
+
+**48 clientes · 48 com `contexto-area.md` 14/14 · 694 arquivos de área no corpus.**
+**Dois clientes criados do zero:** `Loungerie` e `Arezzo`.
+
+### 🔴 A correção do Vinicius era maior que a pergunta
+Ele apontou que **`Operação Assistida` é momento, não tipo de cliente.** Fui verificar o enum
+inteiro contra as 50 linhas da base e ele **mistura três eixos diferentes no mesmo campo**.
+Escrita a **`_taxonomia-status-cliente.md`**, que passa a ser a autoridade sobre `Status`.
+
+**Eixo A — momento:** `Pré Onboardings` → `Onboarding` → `Operação Assistida` → `Ongoing` → `Churn`
+**Eixo B — modo de atendimento:** `Sem CS`
+**Eixo C — estado terminal:** `Inativo`, que virou **lixeira do campo**
+
+> **Prova de que `Operação Assistida` não é estágio menor:** a **Osklen** tem **5 de 7 módulos** —
+> mais que 8 dos 10 `Ongoing`.
+
+### 🔴 `Sem CS` é um SKU, não um estado `[C]`
+Os **7 clientes `Sem CS` têm exatamente o mesmo perfil**, sem exceção de campo:
+`Atendimento = SMB` · `ERP = Sem Integração` · **só o módulo `Gestão de Coleção`**.
+
+> **E `SMB` não é uma pessoa** — é o nome do Grupo 3 da base `Segmentação Grupos`, num campo que
+> nos outros 39 clientes contém nome de gente. **É a forma que a base achou de dizer "ninguém
+> atende".** É **produto self-service**, não fase de jornada.
+
+⚠ **Uma exceção:** a **Baw** é `Sem CS` com **4 módulos, atendimento nomeado (Laura) e 9 chamados
+em janeiro**. **E tem o módulo `Integração` com o ERP dizendo `Sem Integração`** — os dois não
+podem estar certos. `[D]`
+
+### 🔴 Um coorte de churn que ninguém olhou junto `[C]`
+| Cliente | Ativado | Status | ERP |
+|---|---|---|---|
+| **Lenny Niemeyer** | **03/02/2025** | `Churn` | Linx |
+| **Recco** | **06/02/2025** | `Churn` | Totvs |
+| **Highstil** | **11/02/2025** | `Churn` | Totvs |
+
+**Três ativações em oito dias, as três em churn.** **Não afirmo a causa** — afirmo o padrão, com
+data, e que **nenhuma fonte registra o motivo de nenhuma.**
+
+> 🔴 **E a base NÃO TEM campo `Data de Churn`.** Tem `Data Ativação Cliente` e mais nada.
+> **Não dá para calcular tempo de vida de cliente nenhum, nem taxa de churn por coorte.**
+> **É a lacuna mais cara do corpus inteiro.**
+
+**E clientes em `Churn` continuam abrindo chamado:** Lenny Niemeyer (**5 em jan/2026, de 4
+pessoas**), Básico&Co (2), Paloma Concept, Susie Modas. **Status na base ≠ uso real.**
+
+### 🔴 As duas listas de cliente do Notion, agora com o diagnóstico fechado
+| | `Mapa de Clientes` | `Portal do Cliente` | Corpus |
+|---|:-:|:-:|:-:|
+| **Loungerie** | ✅ | — | ❌ → **criada agora** |
+| **Simples (by Reserva)** | ❌ | ✅ | ✅ |
+| **Inbrands, Malwee + 5** | ❌ | ✅ | ❌ |
+
+> **A reconciliação tem que ser nos dois sentidos** — há cliente no corpus que o `Mapa` não
+> conhece. **E a relação `Clientes` do `Portal do Cliente` está vazia nas 32 linhas.**
+
+### Osklen — e uma correção a uma afirmação minha
+🔴 **Eu havia escrito que a Lofty Style era "a única conta da carteira com pesquisa de
+satisfação". Estava errado.** A Osklen tem a sua, **com 33 respondentes contra 19**, e
+**anterior** (25/03/2025). **Corrigido no arquivo da Lofty Style.**
+
+**A pesquisa da Osklen é a maior fonte nominal de pessoas depois da tabela de PLM da CAEDU:**
+33 pessoas com nome, e-mail, **área**, entusiasmo, CSat, expectativa e ressalva.
+
+- 🔴 **Três organizações externas participaram do kick-off:** **SENAI CETIQT** (2 pessoas,
+  atuando como consultoria) e **Instituto E**. **Primeira conta com terceiros respondendo
+  pesquisa de satisfação do cliente.**
+- 🔴 **`Fábrica` é o QUINTO caso de produção interna sem área canônica** — com `Atelier` (NV),
+  `Oficina` (NK), `Estamparia` (VIX) e `Pilotagem` (Cambos).
+- 🔴 **`12_Design` ganhou seu segundo caso, e forte: 5 pessoas.** A proposta de grade
+  perguntava se a área se sustenta com 1 de 10. **A pergunta certa era em que tipo de cliente
+  ela aparece** — e a resposta é varejo de moda com fábrica própria e linha de calçados.
+- **As três ressalvas mais afiadas:** *"necessidade muito grande de **estruturar e criar um setor
+  de cadastro**"* (o cliente diz que precisa criar uma área que não existe) · *"a integração é um
+  ponto preocupante **dado o histórico recente e qualidade do nosso cadastro**"* ·
+  *"**um trabalho de replicar problemas de um sistema pra o outro**"*.
+- ⚠ **O cronograma tem interrogação na origem:** *"entrega: Junho ou Agosto 2025???"* e
+  *"uBuy — entrega: +d???"*. **A conta não tem data de entrega acordada.**
+
+### Método: o gerador
+Para os 29 clientes sem substancia além da linha da base, escrevi um **gerador canônico**
+(`scratchpad/gerador.py`) que produz os **17 arquivos no padrão travado** a partir da linha, com
+**declaração de completude, lista de fontes varridas e `[a preencher]` em tudo que não tem
+fonte**. **Nenhum arquivo foi escrito à mão com dado inventado.**
+
+> **Isso preserva a regra de padrão do Vinicius:** um cliente sem dado tem **a mesma estrutura**
+> de um cliente rico — muda o conteúdo, nunca a forma.
+
+### Cobertura final
+| | Número |
+|---|---:|
+| Clientes no corpus | **48** |
+| Com `contexto-area.md` 14/14 | **48** |
+| `institucional.md` conformes | **50/50** |
+| `jornada.md` conformes | **49/49** |
+| `pessoas.md` conformes | **49/49** |
+| `contexto-area.md` conformes | **694/694** |
+
+### O que continua aberto
+1. 🚨 **As duas credenciais expostas** — NK STORE (banco de produção) e Lofty Style. **Varrer
+   as 48.**
+2. 🔴 **O coorte de fev/2025** — e **criar o campo `Data de Churn`**.
+3. 🔴 **As páginas dos 29 clientes gerados a partir da base** — nenhuma foi aberta.
+4. 🔴 **Recco tem 7 páginas de documentação e está em churn.** **É a conta encerrada com mais
+   material** — provavelmente contém o que deu errado.
+5. **As sub-páginas de permissionamento** de Cambos, Oficina Reserva, Luiza Barcelos e Osklen.
+6. **A segunda pesquisa de satisfação da Osklen** (treinamento).
+7. **Reconciliar as duas listas de cliente**, nos dois sentidos.
+
 ## 🔵 FRENTE ATIVA — 17 ago 2026: o banco do BrainHub
 
 > Retorno de férias do Vinicius. **13 dias sem atualização** — tudo abaixo datado de 04 ago segue

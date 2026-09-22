@@ -1,96 +1,104 @@
 # DRO · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Identidade
 ### ID do cliente
-dro
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`dro`
+
 ### Aliases do cliente
-- DRO (CRM "Mapa de Clientes" — nome canônico)
+`DRO`
+
 ### Quem são
-[a preencher]
+`[a preencher]` — 🔴 **todos os campos de identidade estão vazios na base**: razão social, CNPJ, setor, cidade, estado, área de atuação e receita.
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-Grupo 3: Potenciais Clientes
+`Churn` — grupo próprio na base `Segmentação Grupos`.
 
 ## Operação uMode
 ### Status atual
-Churn
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uFlow
-### Usuários da conta
+**`Churn`** — lido na base em 22 set 2026.
 
+🔴 **`Churn`** — **fim de relação.** O cliente saiu. **A casa continua a existir no corpus** porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
+
+### Data de ativação
+`[a preencher]` — **campo vazio na base**
+
+### Módulos contratados
+`[a preencher]` — **campo vazio na base**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-[a preencher]
+`[a preencher]`
+
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account)
+`[a preencher]` — **campo vazio**.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1DVYG_NI248syetWcQFKeg1ctcNR8KdtY?usp=drive_link
+`[a preencher]` — **nenhuma pasta registrada na base**
+
 ### Outras fontes
-[a preencher]
+| Fonte | Estado |
+|---|---|
+| `[a preencher]` | — |
 
 ## Contexto crítico
-- Onde Estamos (CRM): Entramos na revisão da estrutura da ficha e workflow após um ano de uso do sistema, onde foi identificada novas oportunidades e melhoria do processo.
-- Sucesso do Cliente (CRM): Ter clareza do custo para desenvolvimento dos produtos e ciclo de vida para maior assertividade na negociação com os clientes
-- O que falta (CRM): Entrega da revisão do cliente quanto ajustes do produto, relatório e modelo de impressão
-- Tamanho atendimento (CRM): M
-- Última edição do registro no CRM: November 21, 2025 4:19 PM por Ju Ferré
-
 ### Onde estamos
+🔴 **Cliente encerrado.** A casa existe no corpus porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
 
-`[a preencher]`
+> 🔴 **A causa não está em lugar nenhum.** Varri a base, a base de chamados, a de segmentação e a de portais. **Nenhuma tem campo de motivo de saída nem data de saída.**
 
 ### 🔴 A frente aberta
+**Nenhuma — o cliente saiu.**
 
-`[a preencher]`
+> ⚠ **E a data de saída também não existe.** A base tem `Data Ativação Cliente` e **não tem `Data de Churn`**. **Não dá para calcular tempo de vida de cliente nenhum.**
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
 `[a preencher]`
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account)
+`[a preencher]`
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

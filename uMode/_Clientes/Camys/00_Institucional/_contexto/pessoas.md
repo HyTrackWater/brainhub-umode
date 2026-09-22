@@ -1,46 +1,28 @@
 # Camys · Pessoas
 
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
 ## Responsável de atendimento (uMode)
-Rafael Del Gaudio Renaldim (Key Account)
+🔴 **`SMB`** — **e isso não é uma pessoa.**
 
-> Campo `Time de Atendimento` no CRM: SMB
-
-> Pessoas da uMode vivem apenas em `uMode/00_Institucional/_pessoas/` (regra travada em
-> `CONTEXT.md`) — aqui só o vínculo de atendimento, nunca uma segunda identidade.
-
----
+> `SMB` é o nome do **Grupo 3 da base `Segmentação Grupos`**, colocado num campo que nos outros clientes contém nome de gente (Julianne & Pedro, Laura, Fernanda). **É a forma que a base encontrou de dizer "ninguém atende".**
 
 ## Diretoria e decisores
-[a preencher]
+`[a preencher]`
 
 ## Liderança do projeto (cliente)
-[a preencher]
-
----
+`[a preencher]`
 
 ## Time do projeto por área
-[a preencher]
-
-> ⚠ **Não confirmado — não usar como dado de pessoa.** A base "Reuniões Compartilhadas
-> com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) registra os nomes abaixo
-> como participantes de reuniões deste cliente, com a frequência indicada. A base
-> **mistura pessoas da uMode e do cliente no mesmo campo**, sem marcar de que lado cada
-> uma está — classificar por conta própria repetiria exatamente o risco já registrado no
-> caso Taís Moser (`_pendencias-gerais.md`). Fica como pista de levantamento:
-> - Marina Santoro — 1 reunião(ões)
-> - Julianne Rodrigues — 1 reunião(ões)
-
----
+`[a preencher]`
 
 ## Estado de atividade das pessoas
 
-`[a preencher]`
-
 ### Como o estado é apurado
 
-> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
-> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
-> em qual ferramenta, em qual área.**
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data que dá para citar.**
+> Este eixo existe para a jornada do usuário: **quem atende o quê, em qual ferramenta, em qual área.**
 
 | Estado | O que significa | Evidência que o sustenta |
 |---|---|---|
@@ -50,41 +32,40 @@ Rafael Del Gaudio Renaldim (Key Account)
 | `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
 | `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
 
-**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão.
+**Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte.**
 
 ### Razão de pessoas
 
-`[a preencher]`
+**2 pessoa(s)** no razão.
 
-| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+> ⚠ **Duas pessoas abriram chamado numa conta `Sem CS`.** **Sem CS não significa sem uso** — significa sem Customer Success dedicado.
+
+| Pessoa | E-mail | Área | Estado | Evidência | Observação |
 |---|---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| `[a preencher]` | `celine.inoue@camys.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **23/01/2026** | `INSTABILIDADE` |
+| `[a preencher]` | `kariele.marinho@camys.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **28/01/2026** | `TAREFA/CONFIG` |
 
 ## Canais de comunicação
 
-> **Cada canal é uma entidade** — tem participantes, cadência, dono e
-> assunto. É por aqui que a indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a
+> indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
 ## Financeiro
-[a preencher]
+`[a preencher]`
 
 ## Tecnologia
-[a preencher]
+`[a preencher]`
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

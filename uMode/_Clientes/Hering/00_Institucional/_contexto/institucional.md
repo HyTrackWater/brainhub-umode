@@ -1,95 +1,104 @@
 # Hering · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- **Nenhuma pessoa identificada** além das que abriram chamado.
 
 ## Identidade
 ### ID do cliente
-hering
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`hering`
+
 ### Aliases do cliente
-- Hering (CRM "Mapa de Clientes" — nome canônico)
+`Hering`
+
 ### Quem são
-[a preencher]
+`[a preencher]`
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-Grupo 1: Azzas
+`[a preencher]` — **sem grupo de segmentação registrado**.
 
 ## Operação uMode
 ### Status atual
-Negociação
-> ⚠ `Negociação` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos contratados (CRM): uFlow
-### Usuários da conta
+**`Pré Onboardings`** — lido na base em 22 set 2026.
 
+⚠ **`Pré Onboardings`** — **ainda não é cliente**: está em ciclo comercial ou pré-implantação. **A casa existe para receber o contexto quando virar.**
+
+### Data de ativação
+`[a preencher]` — **campo vazio na base**
+
+### Módulos contratados
+`[a preencher]` — **campo vazio na base**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-Ilimitar
+**`Ilimitar`** — ⚠ **mesmo ERP da Moda Objetiva**, que está em `Operação Assistida`.
+
+> **Dois clientes com um ERP que não aparece em mais ninguém.** **Se a integração com o `Ilimitar` já existe na Moda Objetiva, é ativo reaproveitável aqui.** `[a preencher]`
+
 ### Responsável de atendimento (uMode)
-Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
+`[a preencher]` — **campo vazio**. Coerente com `Pré Onboardings`.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-[a preencher]
+`[a preencher]` — **nenhuma pasta registrada na base**
+
 ### Outras fontes
-[a preencher]
+| Fonte | Estado |
+|---|---|
+| Página do cliente no Notion | **não varrida** |
 
 ## Contexto crítico
-- Última edição do registro no CRM: March 4, 2026 10:09 AM por Ju Ferré
-
 ### Onde estamos
+**Prospect em pré-onboarding**, com quase todos os campos vazios.
 
-`[a preencher]`
+⚠ **Linha criada em 28/10/2025** — **quase um ano em `Pré Onboardings`.** `[a preencher]` — **o ciclo está parado ou é ciclo longo?**
 
 ### 🔴 A frente aberta
-
-`[a preencher]`
+**Ciclo comercial.** `[a preencher]`
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
 `[a preencher]`
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
+`[a preencher]`
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

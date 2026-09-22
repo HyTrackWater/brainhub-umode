@@ -1,104 +1,118 @@
 # Baw · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.**
+- 🔴 **Não sei por que esta conta está classificada como `Sem CS`** — ela quebra o padrão em todos os campos.
+- **Não sei resolver a contradição** entre ter o módulo `Integração` e o ERP dizer `Sem Integração`.
 
 ## Identidade
 ### ID do cliente
-baw
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`baw`
+
 ### Aliases do cliente
-- Baw (CRM "Mapa de Clientes" — nome canônico)
+`Baw`
+
 ### Quem são
-[a preencher]
+`[a preencher]`
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-Grupo 1: Azzas
+`[a preencher]` — **sem grupo de segmentação registrado na base**.
 
 ## Operação uMode
 ### Status atual
-Regime CS
-> ⚠ `Regime CS` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uFlow
-### Usuários da conta
+**`Sem CS`** — lido na base em 22 set 2026.
 
+🔴 **`Sem CS` NÃO é momento da jornada — é modo de atendimento**, e na prática um **SKU self-service**: `Atendimento = SMB` (que é segmento, não pessoa), `ERP = Sem Integração`, e **só o módulo `Gestão de Coleção`**. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+### Data de ativação
+`[a preencher]` — **campo vazio na base**
+
+### Módulos contratados
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Fornecedores` — **4 de 7**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-Linx
-> Preenchido em 03 ago 2026 a partir do **repositório de integração real** (`integration-baw-linx`),
-> não do CRM — o CRM não tinha esse campo para este cliente. Ver `integracao.md`.
+🔴 **`Sem Integração`** — **e isso contradiz o módulo contratado.**
+
+> A conta tem **`Integração`** entre os módulos e o campo `ERP/Integração` diz **`Sem Integração`**. **Os dois não podem estar certos.** `[a preencher]`
+
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account)
-> Campo `Time de Atendimento` no CRM: Holmer & Laura
+**Laura** (2025) — **pessoa nomeada**, diferente dos outros 6 `Sem CS`, que têm `SMB`.
+
+> A Laura atende também Cambos, Lofty Style, Luiza Barcelos e Moda Objetiva — **5 contas**.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1dhvSnq9TExqFjFWUt2xKJCO5SMbGwBN6?usp=drive_link
+Pasta registrada na base — **não varrida**.
+
 ### Outras fontes
-- 3A · controle de troca de e-mails (CRM): Paulo, Bheatriz
-- Chamados/Atendimento vinculados no CRM: Untitled, Untitled, Untitled, Informou que as fotos do produto sumiram mas não respondeu mais. Aguardo mais detalhes dela para que eu possa verificar., Material travado (1), Untitled, Untitled, Untitled
+| Fonte | Estado |
+|---|---|
+| Página do cliente no Notion | **não varrida** |
 
 ## Contexto crítico
-- Onde Estamos (CRM): uFlow em regime. Busca por evolução na gestão dos processos (ex.: inclusão de workflow específico para apoiar na gestão de Artes/Designers Externos, revisão nos relatórios de gestão, entre outras melhorias).
-- Sucesso do Cliente (CRM): Responder com agilidade às demandas, pois o time interno domina a plataforma e usa com eficiência
-- O que falta (CRM): Evoluir na Gestão do Processo, junto com a Líder do Projeto, com iniciativas como, incluir Sortimento na uFlow para iniciar o Desenvolvimento, controlar/gerenciar o Planejado x Realizado, gerenciar Designers externos.
-- Tamanho atendimento (CRM): P
-- Última edição do registro no CRM: March 4, 2026 10:06 AM por Ju Ferré
-
 ### Onde estamos
+🔴 **A Baw é a única exceção ao padrão `Sem CS` da carteira.**
 
-`[a preencher]`
+| | Os 6 outros `Sem CS` | **Baw** |
+|---|---|---|
+| Atendimento | `SMB` | **`Laura`** — pessoa nomeada |
+| Módulos | 1 | **4** |
+| Chamados em jan/2026 | 0 ou 2 | **9** |
+
+> 🔴 **Um cliente com 4 módulos, atendimento nomeado e 9 chamados está classificado como "Sem CS".** **Ou o status está errado, ou a Baw é atendida sem que isso seja contabilizado.** `[D]` — **tem impacto em alocação.**
 
 ### 🔴 A frente aberta
+**9 chamados em jan/2026, 4 abertos** — e **3 deles de instabilidade**.
 
-`[a preencher]`
+⚠ **E há um chamado de um domínio externo** (`desenvolvimento@eczoz.com.br`) atribuído a esta conta: *"informou que as fotos do produto sumiram mas não respondeu mais"*. **Fornecedor ou terceiro operando dentro da conta** — mesmo padrão da Reserva.
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
-`[a preencher]`
+- **Material travado** (16/01/2026) — **também em NV e Lofty Style. Três clientes.**
+- **Instabilidade recorrente** — 3 chamados.
+- **Fotos de produto sumindo** — relatado por terceiro, **não respondido**.
 
 ### Tamanho de atendimento
-
-`[a preencher]`
+**Laura**, com 5 contas — ⚠ **e esta conta não entra na contagem de CS**, por estar marcada `Sem CS`.
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account)
+Laura (2025)
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
+| 9 chamados e 3 pessoas | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |

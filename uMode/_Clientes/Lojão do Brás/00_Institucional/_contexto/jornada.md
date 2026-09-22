@@ -1,61 +1,54 @@
 # Lojão do Brás · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Status atual
-Churn
+**`Churn`** · `[a preencher]` — **campo vazio na base** · ERP: `[a preencher]`
 
 ## Fase atual
-Estamos controlando o Bloqueio, acredito que a até dezembro devemos ter mais uma loja pelo menos no projeto
-> Campo `Onde Estamos` do CRM.
+**Encerrado.** `[a preencher]` — **quando e por quê.**
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
 
-> Nenhuma reunião registrada para este cliente na base "Reuniões Compartilhadas com
-> Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-
-## Entregas comprometidas
-[a preencher]
-
-## Módulos em uso
-[a preencher]
-
-## Decisões e restrições registradas
-[a preencher]
-
-## Métricas de sucesso definidas
-Não ter bloqueios e validar influencia da compra para implementar projeto nas demais lojas
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
-
-## Próximos passos
-Aprovação da Adriana para contratação de novos números, contatos e mensagens
-> Campo `O que falta` do CRM.
-
-## Histórico de incidentes / alertas
-[a preencher]
-
-## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-- Sem reuniões na base compartilhada — jornada ainda sem marcos reais registrados.
-
-## Governança
-
-`[a preencher]`
-
-### Quem pode alterar este documento
-
-`[a preencher]`
-
-### Procedência
-
-| Bloco | Fonte | Data |
+| Data | Marco | Fonte |
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+
+## Entregas comprometidas
+`[a preencher]`
+
+## Módulos em uso
+`[a preencher]` — **campo vazio na base**
+
+## Decisões e restrições registradas
+`[a preencher]`
+
+## Métricas de sucesso definidas
+`[a preencher]`
+
+## Próximos passos
+1. 🔴 **Registrar motivo e data de saída.** **Sem isso o churn não ensina nada.**
+2. **Varrer a página do cliente**, se tiver conteúdo.
+3. **Criar o campo `Data de Churn` na base.**
+
+## Histórico de incidentes / alertas
+`[a preencher]`
+
+## Observações
+- **Portal criado em 29/01/2024.**
+- 🔴 **Todos os campos da base estão vazios**, exceto nome e status.
+- 🔴 **Motivo e data de churn: `[a preencher]`.**
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

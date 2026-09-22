@@ -3,8 +3,12 @@
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo as **duas bases de pesquisa
 > de satisfação**. Campo sem fonte fica `[a preencher]`.
 >
-> 🟢 **Esta é a única conta da carteira com pesquisa de satisfação** — e por isso a única
-> com **nome, e-mail, área e sentimento na mesma linha**, dito pela própria pessoa.
+> 🟢 **Esta conta tem pesquisa de satisfação** — com **nome, e-mail, área e sentimento
+> na mesma linha**, dito pela própria pessoa.
+>
+> ⚠ **CORREÇÃO de 22 set 2026:** eu havia escrito aqui *"a única conta da carteira"*.
+> **Estava errado.** A **Osklen** tem a sua, **com 33 respondentes contra 19**, e **anterior**
+> (25/03/2025). **A prática existe em pelo menos 2 clientes e não está padronizada.**
 
 ## Responsável de atendimento (uMode)
 - **2025:** **Laura** — atende **4 contas**: Lofty Style, Cambos, Luiza Barcelos e Moda Objetiva.

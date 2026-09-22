@@ -1,92 +1,115 @@
 # Simples (by Reserva) · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **ESTE CLIENTE NÃO EXISTE NA BASE `Mapa de Clientes`.** Ele existe no **corpus** e na base **`Portal do Cliente`** — e **em nenhuma das 50 linhas da base principal.**
+- 🔴 **Portanto não há status, módulos, ERP, atendimento nem segmentação.** O `Inativo` acima **é marcação minha por ausência de fonte, não valor lido.**
+- **A página do portal não foi varrida.**
 
 ## Identidade
 ### ID do cliente
-simples-by-reserva
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`simples-by-reserva`
+
 ### Aliases do cliente
-- Simples (by Reserva) (CRM "Mapa de Clientes" — nome canônico)
+`Simples (by Reserva)` (corpus) · **`Simples Reserva`** (base `Portal do Cliente`) — ⚠ **duas grafias, e nenhuma delas está no `Mapa de Clientes`**
+
 ### Quem são
-[a preencher]
+`[a preencher]` — **o nome indica marca do ecossistema Reserva**, junto de `Reserva` e `Oficina Reserva`. **Não confirmado em fonte.**
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-Grupo 1: Azzas
+`[a preencher]` — **não está na base `Segmentação Grupos`**, porque não está no `Mapa de Clientes`.
 
 ## Operação uMode
 ### Status atual
-Inativo
-### Data de ativação
-[não informada]
-### Módulos contratados
-[a preencher]
-### Usuários da conta
+**`Inativo`** — lido na base em 22 set 2026.
 
+⚠ **`Inativo`** — **estado terminal ou linha de apoio.** ⚠ **Cuidado:** algumas linhas `Inativo` da base **não são clientes** (template, `Fornecedores`, `uMode`). Esta foi tratada como cliente porque tem nome de empresa.
+
+### Data de ativação
+`[a preencher]` — **o campo não existe para este cliente.**
+
+### Módulos contratados
+`[a preencher]` — **campo vazio na base**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-[a preencher]
+`[a preencher]` — **não há linha na base para ter o campo.**
+
 ### Responsável de atendimento (uMode)
-Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
+`[a preencher]` — **não há linha na base.**
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]` — nenhuma fonte varrida menciona área deste cliente.
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-[a preencher]
+`[a preencher]` — **não há linha na base para registrar pasta.**
+
 ### Outras fontes
-[a preencher]
+| Fonte | Estado |
+|---|---|
+| **Portal uMode | Simples Reserva** — criado em **18/10/2024** | **não varrida** |
+| Qualquer página de cliente — **não existe** | **não varrida** |
 
 ## Contexto crítico
-- Onde Estamos (CRM): Não iniciado. Em fase de elaboração de Proposta Comercial
-- Última edição do registro no CRM: July 16, 2025 2:19 PM por Ju Ferré
-
 ### Onde estamos
+🔴 **É o caso inverso da Loungerie — e fecha o diagnóstico das duas listas.**
 
-`[a preencher]`
+| | Existe no `Mapa de Clientes`? | Existe no `Portal do Cliente`? | Existe no corpus? |
+|---|:-:|:-:|:-:|
+| **Loungerie** | ✅ | — | ❌ **até 22/09/2026** |
+| **Simples (by Reserva)** | ❌ | ✅ | ✅ |
+| **Inbrands, Malwee e outros 5** | ❌ | ✅ | ❌ |
+
+> 🔴 **As duas bases de cliente do Notion não se falam**, e o corpus herdou o resultado de ambas sem saber. A relação `Clientes` da base `Portal do Cliente` está **vazia nas 32 linhas** — nenhum portal aponta de volta para o cliente.
+>
+> Registrado na [`_varredura-2026-09-21-fontes-e-lacunas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-21-fontes-e-lacunas.md).
 
 ### 🔴 A frente aberta
+🔴 **Reconciliar as duas listas de cliente do Notion.**
 
-`[a preencher]`
+**Este cliente é a prova de que a reconciliação tem que ser nos dois sentidos** — não basta criar no corpus o que falta do `Mapa de Clientes`; **há cliente no corpus que o `Mapa` não conhece.**
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
 `[a preencher]`
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
+`[a preencher]`
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Existência do portal | Notion — base `Portal do Cliente` | **varrido 21/09/2026** |
+| **Ausência** no `Mapa de Clientes` | Notion — base `Mapa de Clientes`, 50 linhas | **varrida 22 set 2026** |

@@ -1,96 +1,104 @@
 # Vivara · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Identidade
 ### ID do cliente
-vivara
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`vivara`
+
 ### Aliases do cliente
-- Vivara (CRM "Mapa de Clientes" — nome canônico)
+`Vivara`
+
 ### Quem são
-[a preencher]
+**Joalheria**, em **São Paulo**. 🔴 **É a maior marca de joalheria do Brasil** — `[a preencher]`, não confirmado em fonte varrida, mas **o porte importa para entender o churn**.
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-B2C — Joalheria — São Paulo SP
+**Joalheria**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-[a preencher]
+`Churn` — grupo próprio na base `Segmentação Grupos`.
 
 ## Operação uMode
 ### Status atual
-Churn
-### Data de ativação
-[não informada]
-### Módulos contratados
-- Módulos contratados (CRM): uFlow
-- Produto (CRM): uFlow
-- Relatórios (CRM): Cliente
-### Usuários da conta
+**`Churn`** — lido na base em 22 set 2026.
 
+🔴 **`Churn`** — **fim de relação.** O cliente saiu. **A casa continua a existir no corpus** porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
+
+### Data de ativação
+`[a preencher]` — **campo vazio na base**
+
+### Módulos contratados
+`Gestão de Coleção` — **1 de 7**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-SAP
+**`SAP`**.
+
 ### Responsável de atendimento (uMode)
-Andrea Goulart Holmer dos Santos (Consultor de Negócios)
+`[a preencher]` — **campo vazio**.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1iLmTu7Ie_ZW0qEZaB0LgNjpe-Z4iWQVl?usp=drive_link
+`[a preencher]` — **nenhuma pasta registrada na base**
+
 ### Outras fontes
-- OKRs (CRM): https://miro.com/app/board/uXjVN0rsjMw=/
+| Fonte | Estado |
+|---|---|
+| `[a preencher]` | — |
 
 ## Contexto crítico
-- Sucesso do Cliente (CRM): CANCELADO
-- Tamanho atendimento (CRM): G
-- Departamento (CRM): Feminino,Masculino,Infantil
-- Última edição do registro no CRM: February 2, 2026 11:52 AM por Marina Santoro
-
 ### Onde estamos
+🔴 **Cliente encerrado.** A casa existe no corpus porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
 
-`[a preencher]`
+> 🔴 **A causa não está em lugar nenhum.** Varri a base, a base de chamados, a de segmentação e a de portais. **Nenhuma tem campo de motivo de saída nem data de saída.**
 
 ### 🔴 A frente aberta
+**Nenhuma — o cliente saiu.**
 
-`[a preencher]`
+> ⚠ **E a data de saída também não existe.** A base tem `Data Ativação Cliente` e **não tem `Data de Churn`**. **Não dá para calcular tempo de vida de cliente nenhum.**
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
 `[a preencher]`
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Andrea Goulart Holmer dos Santos (Consultor de Negócios)
+`[a preencher]`
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

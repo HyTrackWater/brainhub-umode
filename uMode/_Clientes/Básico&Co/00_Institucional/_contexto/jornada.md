@@ -1,72 +1,58 @@
 # Básico&Co · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Status atual
-Churn
+**`Churn`** · `[a preencher]` — **campo vazio na base** · ERP: `[a preencher]`
 
 ## Fase atual
-Uflow em regime. O time tem domínio da ferramenta. Temos um relatório recém configurado em fase de análise pela diretoria para implantar possiveis melhorias. Busca por melhorar a gestão de fotos e catálogos através do workflow,
-> Campo `Onde Estamos` do CRM.
+**Encerrado.** `[a preencher]` — **quando e por quê.**
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 29/09/2023 | [a preencher] | WF |
-| 22/01/2024 | [a preencher] | Reunião 22/01/24 |
-| 24/01/2024 | [a preencher] | Weekly 24/01/24 |
-| 23/02/2024 | [a preencher] | Weekly Report |
-| 06/05/2024 | [a preencher] | Weekly 06/05/24 |
-| 03/06/2024 | [a preencher] | Weekly 03/06/24 |
-| 03/10/2024 | [a preencher] | Alinhamento de Expectativa |
-| 23/10/2024 | [a preencher] | uFlow / Plano 2025 / Básico&co |
-| 13/11/2024 | [a preencher] | uFlow / Devolutiva plano 2025 / Básico&co |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 9 reuniões registradas para este cliente
-> (9 com data, 0 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
-
-## Entregas comprometidas
-[a preencher]
-
-## Módulos em uso
-[a preencher]
-
-## Decisões e restrições registradas
-[a preencher]
-
-## Métricas de sucesso definidas
-Ampliar a visão gerencial por meio de relatórios.
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
-
-## Próximos passos
-Iniciar a integração, já temos os campos mapeados porém falta fechar negociação com o comercial. Propor e entregar novas soluções que possam agregar valor ao cliente, como uBuy, uPlan.
-> Campo `O que falta` do CRM.
-
-## Histórico de incidentes / alertas
-[a preencher]
-
-## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-
-## Governança
-
-`[a preencher]`
-
-### Quem pode alterar este documento
-
-`[a preencher]`
-
-### Procedência
-
-| Bloco | Fonte | Data |
+| Data | Marco | Fonte |
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+
+## Entregas comprometidas
+`[a preencher]`
+
+## Módulos em uso
+`[a preencher]` — **campo vazio na base**
+
+## Decisões e restrições registradas
+`[a preencher]`
+
+## Métricas de sucesso definidas
+`[a preencher]`
+
+## Próximos passos
+1. 🔴 **Registrar motivo e data de saída.** **Sem isso o churn não ensina nada.**
+2. **Varrer a página do cliente**, se tiver conteúdo.
+3. **Criar o campo `Data de Churn` na base.**
+
+## Histórico de incidentes / alertas
+| Data | Registro | Estado |
+|---|---|---|
+| 13/01/2026 | *"Erro ao configurar item a ser mostrado no mapa de coleções, **isso é embaraçoso**"* | **`Em Aberto`** |
+| 23/01/2026 | `USABILIDADE` | **`Não iniciada`** |
+
+## Observações
+- ⚠ **Grafia divergente:** `Básico&Co` no `Mapa de Clientes` e **`Basíco&Co`** na base `Portal do Cliente`. **Preservadas as duas.**
+- 🔴 **2 chamados em jan/2026 numa conta em churn.**
+- 🔴 **Motivo e data de churn: `[a preencher]`.**
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
+| 2 chamados | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |

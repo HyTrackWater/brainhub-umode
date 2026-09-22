@@ -1,45 +1,26 @@
 # Básico&Co · Pessoas
 
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
 ## Responsável de atendimento (uMode)
-Rafael Del Gaudio Renaldim (Key Account)
-
-> Pessoas da uMode vivem apenas em `uMode/00_Institucional/_pessoas/` (regra travada em
-> `CONTEXT.md`) — aqui só o vínculo de atendimento, nunca uma segunda identidade.
-
----
+`[a preencher]` — **campo vazio**.
 
 ## Diretoria e decisores
-[a preencher]
+`[a preencher]`
 
 ## Liderança do projeto (cliente)
-[a preencher]
-
----
+`[a preencher]`
 
 ## Time do projeto por área
-[a preencher]
-
-> ⚠ **Não confirmado — não usar como dado de pessoa.** A base "Reuniões Compartilhadas
-> com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) registra os nomes abaixo
-> como participantes de reuniões deste cliente, com a frequência indicada. A base
-> **mistura pessoas da uMode e do cliente no mesmo campo**, sem marcar de que lado cada
-> uma está — classificar por conta própria repetiria exatamente o risco já registrado no
-> caso Taís Moser (`_pendencias-gerais.md`). Fica como pista de levantamento:
-> - Sandro Costa — 3 reunião(ões)
-> - João Risoléo — 3 reunião(ões)
-> - Eliza Alves — 2 reunião(ões)
-
----
+`[a preencher]`
 
 ## Estado de atividade das pessoas
 
-`[a preencher]`
-
 ### Como o estado é apurado
 
-> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
-> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
-> em qual ferramenta, em qual área.**
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data que dá para citar.**
+> Este eixo existe para a jornada do usuário: **quem atende o quê, em qual ferramenta, em qual área.**
 
 | Estado | O que significa | Evidência que o sustenta |
 |---|---|---|
@@ -49,41 +30,42 @@ Rafael Del Gaudio Renaldim (Key Account)
 | `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
 | `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
 
-**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão.
+**Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte.**
 
 ### Razão de pessoas
 
-`[a preencher]`
+**1 pessoa(s)** no razão.
 
-| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+> 🔴 **Conta marcada `Churn` com chamado em jan/2026** — mesma contradição da Lenny Niemeyer.
+>
+> ⚠ **A mensagem de erro *"isso é embaraçoso"* aparece também na VIX.** **É string genérica da plataforma chegando ao usuário final.**
+
+| Pessoa | E-mail | Área | Estado | Evidência | Observação |
 |---|---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| `[a preencher]` | `isadora.r@basico.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **2 chamados**, 13–23/01/2026 | *"erro ao configurar item no mapa de coleções, **isso é embaraçoso**"* |
 
 ## Canais de comunicação
 
-> **Cada canal é uma entidade** — tem participantes, cadência, dono e
-> assunto. É por aqui que a indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a
+> indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
 ## Financeiro
-[a preencher]
+`[a preencher]`
 
 ## Tecnologia
-[a preencher]
+`[a preencher]`
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
+| 2 chamados | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |

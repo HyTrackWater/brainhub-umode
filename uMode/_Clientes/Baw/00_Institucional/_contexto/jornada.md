@@ -1,80 +1,60 @@
 # Baw · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- 🔴 **A página do cliente não foi varrida.**
+- 🔴 **Não sei por que esta conta está classificada como `Sem CS`** — ela quebra o padrão em todos os campos.
+- **Não sei resolver a contradição** entre ter o módulo `Integração` e o ERP dizer `Sem Integração`.
 
 ## Status atual
-Regime CS
+**`Sem CS`** · `Gestão de Coleção` · `Integração` · `Relatórios` · `Fornecedores` — **4 de 7** · ERP: ⚠ **`Sem Integração`** (contradiz o módulo `Integração`)
 
 ## Fase atual
-uFlow em regime. Busca por evolução na gestão dos processos (ex.: inclusão de workflow específico para apoiar na gestão de Artes/Designers Externos, revisão nos relatórios de gestão, entre outras melhorias).
-> Campo `Onde Estamos` do CRM.
+**Operação ativa com classificação inconsistente.** 9 chamados em 24 dias.
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 12/08/2025 | Status Report | Weekly BAW 06/08/25 |
-| 12/08/2025 | Status Report | Weekly BAW 12/08/25 |
-| 19/08/2025 | Status Report | Weekly BAW 19/08/25 |
-| 26/08/2025 | Status Report | Weekly BAW 26/08/25 |
-| 02/09/2025 | Status Report | Weekly BAW 02/09/25 |
-| 09/09/2025 | Status Report | Weekly BAW 09/09/25 |
-| 16/09/2025 | Status Report | Weekly BAW 16/09/25 |
-| 23/09/2025 | Status Report | Weekly BAW 23/09/25 |
-| 30/09/2025 | Status Report | Weekly BAW 30/09/25 |
-| 14/10/2025 | Status Report | Weekly BAW 14/10/25 |
-| 28/10/2025 | Status Report | Weekly BAW 28/10/25 |
-| 17/11/2025 | Status Report | Weekly BAW 17/11/25 |
-| 02/12/2025 | Status Report | Weekly BAW 02/12/25 |
-| 08/12/2025 | Status Report | Weekly BAW 08/12/25 |
-| 12/01/2026 | Status Report | Alinhamento Mensal - BAW 12/01/26 |
-| 02/02/2026 | Status Report | Alinhamento Mensal - BAW 02/02/26 |
-| 02/03/2026 | Status Report | Alinhamento Mensal - BAW 02/03/26 |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 17 reuniões registradas para este cliente
-> (17 com data, 0 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
-
-## Entregas comprometidas
-[a preencher]
-
-## Módulos em uso
-Gestão de Coleção, Gestão de Processos
-
-## Decisões e restrições registradas
-[a preencher]
-
-## Métricas de sucesso definidas
-Responder com agilidade às demandas, pois o time interno domina a plataforma e usa com eficiência
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
-
-## Próximos passos
-Evoluir na Gestão do Processo, junto com a Líder do Projeto, com iniciativas como, incluir Sortimento na uFlow para iniciar o Desenvolvimento, controlar/gerenciar o Planejado x Realizado, gerenciar Designers externos.
-> Campo `O que falta` do CRM.
-
-## Histórico de incidentes / alertas
-[a preencher]
-
-## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-
-## Governança
-
-`[a preencher]`
-
-### Quem pode alterar este documento
-
-`[a preencher]`
-
-### Procedência
-
-| Bloco | Fonte | Data |
+| Data | Marco | Fonte |
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+
+## Entregas comprometidas
+`[a preencher]`
+
+## Módulos em uso
+`Gestão de Coleção` · `Integração` · `Relatórios` · `Fornecedores` — **4 de 7**
+
+## Decisões e restrições registradas
+`[a preencher]`
+
+## Métricas de sucesso definidas
+`[a preencher]`
+
+## Próximos passos
+`[a preencher]`
+
+## Histórico de incidentes / alertas
+| Data | Registro | Estado |
+|---|---|---|
+| 06–08/01/2026 | 3 chamados — tarefa/config e instabilidade | fechados |
+| 08/01/2026 | **Fotos do produto sumiram** — domínio externo | **`Em Aberto`** |
+| 16/01/2026 | **Material travado** | fechado |
+| 20/01/2026 | Novo acesso | fechado |
+| 23 e 28/01/2026 | 2 chamados | **`Não iniciada`** |
+
+## Observações
+- 🔴 **Única exceção ao padrão `Sem CS`.**
+- ⚠ **Contradição entre módulo `Integração` e ERP `Sem Integração`.**
+- **Terceiro cliente com "material travado"**, com NV e Lofty Style.
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
+| 9 chamados e 3 pessoas | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |

@@ -1,35 +1,26 @@
 # Simples (by Reserva) · Pessoas
 
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
 ## Responsável de atendimento (uMode)
-Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
-
-> Pessoas da uMode vivem apenas em `uMode/00_Institucional/_pessoas/` (regra travada em
-> `CONTEXT.md`) — aqui só o vínculo de atendimento, nunca uma segunda identidade.
-
----
+`[a preencher]` — **não há linha na base.**
 
 ## Diretoria e decisores
-[a preencher]
+`[a preencher]`
 
 ## Liderança do projeto (cliente)
-[a preencher]
-
----
+`[a preencher]`
 
 ## Time do projeto por área
-[a preencher]
-
----
+`[a preencher]`
 
 ## Estado de atividade das pessoas
 
-`[a preencher]`
-
 ### Como o estado é apurado
 
-> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
-> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
-> em qual ferramenta, em qual área.**
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data que dá para citar.**
+> Este eixo existe para a jornada do usuário: **quem atende o quê, em qual ferramenta, em qual área.**
 
 | Estado | O que significa | Evidência que o sustenta |
 |---|---|---|
@@ -39,41 +30,40 @@ Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
 | `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
 | `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
 
-**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão.
+**Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte.**
 
 ### Razão de pessoas
 
-`[a preencher]`
+`[a preencher]` — 🔴 **nenhuma pessoa foi identificada nesta conta.**
 
-| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+**Nenhuma fonte varrida nomeia pessoa deste cliente** — e **não há linha na base para ter campo de atendimento.**
+
+| Pessoa | E-mail | Área | Estado | Evidência | Observação |
 |---|---|---|---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
 ## Canais de comunicação
 
-> **Cada canal é uma entidade** — tem participantes, cadência, dono e
-> assunto. É por aqui que a indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a
+> indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| **Portal uMode | Simples Reserva** | Notion | `[a preencher]` | — | criado em **18/10/2024** · **não varrido** |
 
 ## Financeiro
-[a preencher]
+`[a preencher]`
 
 ## Tecnologia
-[a preencher]
+`[a preencher]`
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Existência do portal | Notion — base `Portal do Cliente` | **varrido 21/09/2026** |
+| **Ausência** no `Mapa de Clientes` | Notion — base `Mapa de Clientes`, 50 linhas | **varrida 22 set 2026** |

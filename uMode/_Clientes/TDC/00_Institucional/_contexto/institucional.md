@@ -1,96 +1,107 @@
 # TDC · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da linha da base.
+- **Nenhuma pessoa foi identificada** além das que abriram chamado.
+- **Não sei se a conta está em uso.** `Sem CS` não diz nada sobre uso.
 
 ## Identidade
 ### ID do cliente
-tdc
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`tdc`
+
 ### Aliases do cliente
-- TDC (CRM "Mapa de Clientes" — nome canônico)
+`TDC`
+
 ### Quem são
-[a preencher]
+`[a preencher]`
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-Grupos 4: Outros Clientes
+`SMB` — Grupo 3. `WIP Estratégico 1,75`.
 
 ## Operação uMode
 ### Status atual
-Regime CS
-> ⚠ `Regime CS` é valor do enum do CRM e **não existe** no enum do template
-> (Inativo / Pré Onboarding / Operação Assistida / Onboarding / Sem CS / Ongoing / Churn).
-> Registrado literalmente como está na fonte — nenhuma equivalência foi presumida
-> (pendência aberta em `_pendencias-gerais.md`).
-### Data de ativação
-[não informada]
-### Módulos contratados
-[a preencher]
-### Usuários da conta
+**`Sem CS`** — lido na base em 22 set 2026.
 
+🔴 **`Sem CS` NÃO é momento da jornada — é modo de atendimento**, e na prática um **SKU self-service**: `Atendimento = SMB` (que é segmento, não pessoa), `ERP = Sem Integração`, e **só o módulo `Gestão de Coleção`**. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+### Data de ativação
+`[a preencher]` — **campo vazio na base**
+
+### Módulos contratados
+`Gestão de Coleção` — **1 de 7**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-[a preencher]
+**`Sem Integração`** — declarado na base.
+
+> ⚠ **É o mesmo valor nos 7 clientes `Sem CS`.** **Não há integração com ERP nesta conta**, o que é coerente com o único módulo contratado.
+
 ### Responsável de atendimento (uMode)
-Rafael Del Gaudio Renaldim (Key Account)
-> Campo `Time de Atendimento` no CRM: SMB
+🔴 **`SMB`** — **e isso não é uma pessoa.**
+
+> `SMB` é o nome do **Grupo 3 da base `Segmentação Grupos`**, colocado num campo que nos outros clientes contém nome de gente (Julianne & Pedro, Laura, Fernanda). **É a forma que a base encontrou de dizer "ninguém atende".**
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1WLkKxobJwDqxr_I-sw8udScFUplKgtai?usp=drive_link
+Pasta registrada na base — **não varrida**.
+
 ### Outras fontes
-[a preencher]
+| Fonte | Estado |
+|---|---|
+| Página do cliente no Notion | **não varrida** |
 
 ## Contexto crítico
-- Última edição do registro no CRM: March 4, 2026 10:08 AM por Ju Ferré
-
 ### Onde estamos
+Conta **self-service**: 1 módulo, sem integração, sem CS dedicado.
 
-`[a preencher]`
+🔴 **Os 7 clientes `Sem CS` têm exatamente o mesmo perfil:** `Atendimento = SMB` (que é **grupo de segmentação, não pessoa**), `ERP = Sem Integração` e **só o módulo `Gestão de Coleção`**. **É um SKU self-service, não um estágio de jornada.** Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ### 🔴 A frente aberta
-
 `[a preencher]`
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
-`[a preencher]`
+Grupo **`SMB`** · `WIP Estratégico 1,75` · **sem pessoa de atendimento nomeada**.
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Rafael Del Gaudio Renaldim (Key Account)
+`SMB` — sem CS dedicado
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

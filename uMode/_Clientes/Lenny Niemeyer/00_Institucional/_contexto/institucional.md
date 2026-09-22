@@ -1,100 +1,124 @@
 # Lenny Niemeyer · Institucional
 
-> Gerado em 03 ago 2026 a partir do CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-> Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
+> 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
+> Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+
+## ⚠ O que este documento NÃO resolve
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
+- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
 
 ## Identidade
 ### ID do cliente
-lenny-niemeyer
-> Slug estável derivado do nome no CRM. **Não muda** se o nome comercial mudar — é a chave
-> lógica deste cliente (o nome da pasta é só apresentação). Ver `_auditoria-indexacao.md`.
+`lenny-niemeyer`
+
 ### Aliases do cliente
-- Lenny Niemeyer (CRM "Mapa de Clientes" — nome canônico)
-- Lenny (prefixo usado nos títulos de RFI no Notion)
+`Lenny Niemeyer`
+
 ### Quem são
-Razão Social: LNY 2005 INDUSTRIA DE ROUPAS LTDA · CNPJ: 07.543.288/0001-90 · Endereço: Rua Major Fonseca, no 21 - 101,201 e 301 - São Cristóvão
+**Rio de Janeiro.** CNPJ `07.543.288/0001-90`. Financeiro: `contasapagar@lenny.com.br`.
+
 ### O que fazem
-[a preencher]
+`[a preencher]`
+
 ### Para quem fazem
-[a preencher]
+`[a preencher]`
 
 ## Posicionamento
 ### Segmento
-Moda Praia — Rio de Janeiro / RJ
+`[a preencher]` — **campo vazio na base**
+
 ### Receita anual
-[a preencher]
+`[a preencher]` — **campo vazio na base**
+
 ### Grupo de segmentação uMode
-Grupo 3: Potenciais Clientes
+`Churn` — grupo próprio na base `Segmentação Grupos`.
 
 ## Operação uMode
 ### Status atual
-Onboarding
-### Data de ativação
-03/02/2025
-### Módulos contratados
-- Módulos contratados (CRM): uFlow
-- Módulos (CRM): Gestão de Coleção, Gestão de Processos
-- Produto (CRM): uFlow
-- Acessos contratados (CRM): 42 internos
-- Relatórios (CRM): 6
-### Usuários da conta
+**`Churn`** — lido na base em 22 set 2026.
 
+🔴 **`Churn`** — **fim de relação.** O cliente saiu. **A casa continua a existir no corpus** porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
+
+### Data de ativação
+**03/02/2025** — 🔴 **preenchida, e o cliente está em `Churn`.**
+
+### Módulos contratados
+`[a preencher]` — **campo vazio na base**
+
+### Usuários da conta
 `[a preencher]`
 
 ### ERP / Integração
-Linx
+**`Linx`**.
+
 ### Responsável de atendimento (uMode)
-Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
-> Campo `Time de Atendimento` no CRM: Julianne & Pedro
+**Julianne & Pedro** (2025) — ⚠ **e a dupla segue atribuída a uma conta em churn**.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
-| Alias no cliente | Área canônica |
-|---|---|
-
-[a preencher — o CRM não tem campo de alias de área. Preencher a partir de reunião,
-kick-off ou levantamento direto com o cliente, conforme `protocolo-criacao-cliente.md`.]
+`[a preencher]`
 
 ## Sistemas e fontes de verdade
 ### Drive de operação
-https://drive.google.com/drive/folders/1tEyrR6_WCOqpx_wv52Z456VLfVYURdVe
+`[a preencher]` — **nenhuma pasta registrada na base**
+
 ### Outras fontes
-- Documentação Clientes (CRM): Imersão Lenny, Imersão Lenny, OKRs, Warm Up e Kick Off, Mapeamento de Campos de Cadastro Linx
-- OKRs (CRM): https://docs.google.com/spreadsheets/d/1h1Y2aKClrpAa0XUhfVGswH3mmIVA2mQFMbkR0ipv1bQ/edit?gid=1976272082#gid=1976272082
-- Chamados/Atendimento vinculados no CRM: Dificuldades para logar (1), Produto não integrou. Reenviei e pedi para ela testar, aguardo resposta dela., Untitled, Untitled, Untitled
+| Fonte | Estado |
+|---|---|
+| **5 páginas de `Documentação Clientes`** | **não varrida** |
+| Página do cliente no Notion | **não varrida** |
 
 ## Contexto crítico
-- Email principal financeiro (CRM): contasapagar@lenny.com.br
-- Última edição do registro no CRM: March 4, 2026 10:06 AM por Ju Ferré
-
 ### Onde estamos
+🔴 **Cliente encerrado.** A casa existe no corpus porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
 
-`[a preencher]`
+> 🔴 **A causa não está em lugar nenhum.** Varri a base, a base de chamados, a de segmentação e a de portais. **Nenhuma tem campo de motivo de saída nem data de saída.**
 
 ### 🔴 A frente aberta
+🔴 **O cliente está em `Churn` E ABRIU 5 CHAMADOS EM JANEIRO DE 2026.**
 
-`[a preencher]`
+> **Status na base ≠ uso real da plataforma.** Quatro pessoas distintas abriram chamado depois de a conta constar como encerrada.
+>
+> **Ou o churn é posterior a jan/2026, ou o status está errado, ou a conta continua no ar sem contrato.** **Nenhuma fonte varrida resolve.** `[D]`
 
 ### O que o cliente espera
-
 `[a preencher]`
 
 ### As dores estruturais registradas
-
 `[a preencher]`
 
 ### Tamanho de atendimento
-
 `[a preencher]`
+
+🔴 **ESTE CLIENTE FAZ PARTE DE UM COORTE QUE FALHOU INTEIRO.**
+
+Três clientes têm `Data Ativação Cliente` preenchida **e estão em `Churn`** — e as três ativações acontecem em **oito dias**:
+
+| Cliente | Ativado em | ERP |
+|---|---|---|
+| **Lenny Niemeyer** | **03/02/2025** | Linx |
+| **Recco** | **06/02/2025** | Totvs |
+| **Highstil** | **11/02/2025** | Totvs |
+
+> **Três ativações consecutivas de fevereiro de 2025, todas terminadas em saída.**
+>
+> **Não afirmo a causa** — não li as páginas nem os contratos. Afirmo o padrão, com data, e que **nenhuma fonte varrida registra o motivo de nenhuma das três saídas**.
+>
+> **É a pergunta mais valiosa de toda a varredura de churn.** Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Julianne Dias Rodrigues, Pedro Murillo (Key Account) · Vanessa Rinaldi Ornelas Engman (Consultor de Negócios)
+Julianne & Pedro (2025)
+
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
+| 5 chamados e 4 pessoas | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |

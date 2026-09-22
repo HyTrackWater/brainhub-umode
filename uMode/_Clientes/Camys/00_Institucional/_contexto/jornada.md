@@ -1,64 +1,57 @@
 # Camys · Jornada
 
-> Atualizar a cada marco relevante — fase, entrega, decisão, incidente.
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
 ## ⚠ O que este documento NÃO resolve
-
-`[a preencher]` — **a lacuna vem antes da conquista: o que este documento não cobre, e por quê, vem antes do que ele cobre.**
+- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da linha da base.
+- **Nenhuma pessoa foi identificada** além das que abriram chamado.
+- **Não sei se a conta está em uso.** `Sem CS` não diz nada sobre uso.
 
 ## Status atual
-Regime CS
+**`Sem CS`** · `Gestão de Coleção` — **1 de 7** · ERP: **`Sem Integração`**
 
 ## Fase atual
-Fase 2 da uflow com mapeamento dos campos para seguir com a criação de 2 novos campos e revisão de permissionamentos finailizada.
-> Campo `Onde Estamos` do CRM.
+**Operação self-service.** 🔴 **Os 7 clientes `Sem CS` têm exatamente o mesmo perfil:** `Atendimento = SMB` (que é **grupo de segmentação, não pessoa**), `ERP = Sem Integração` e **só o módulo `Gestão de Coleção`**. **É um SKU self-service, não um estágio de jornada.** Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ## Marcos da jornada
-| Data | Fase | Marco |
-|---|---|---|
-| 15/10/2024 | [a preencher] | Reunião 15/10/24 - Entendimento Novo Escopo (Fase 2) |
 
-> Marcos reconstruídos da base "Reuniões Compartilhadas com Clientes" (Drive
-> `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) — 1 reuniões registradas para este cliente
-> (1 com data, 0 sem data na fonte). A coluna Fase usa o campo `Tipo Reunião`
-> da própria base quando ele existe; onde a fonte não traz, fica `[a preencher]` —
-> nenhuma fase foi inferida do título da reunião.
-
-## Entregas comprometidas
-[a preencher]
-
-## Módulos em uso
-[a preencher]
-
-## Decisões e restrições registradas
-[a preencher]
-
-## Métricas de sucesso definidas
-Agregar valor na explosão de matéria prima, isso será possível com a Ubuy.
-> Campo `Sucesso do Cliente` do CRM — objetivo declarado, não métrica aferida.
-
-## Próximos passos
-Configurar novos campos e Iniciar a configuração da Ubuy (2º TRI 2025)
-> Campo `O que falta` do CRM.
-
-## Histórico de incidentes / alertas
-[a preencher]
-
-## Observações
-- Casa criada em 03 ago 2026 pela replicação total (⭐ ORDEM DE PRIORIDADE, `STATE.md`).
-- Fonte de cadastro: CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026).
-- Fonte de marcos: base "Reuniões Compartilhadas com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026).
-
-## Governança
-
-`[a preencher]`
-
-### Quem pode alterar este documento
-
-`[a preencher]`
-
-### Procedência
-
-| Bloco | Fonte | Data |
+| Data | Marco | Fonte |
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+
+## Entregas comprometidas
+`[a preencher]`
+
+## Módulos em uso
+`Gestão de Coleção` — **1 de 7**
+
+> ⚠ **Um módulo só.** É o padrão dos 7 clientes `Sem CS`.
+
+## Decisões e restrições registradas
+`[a preencher]`
+
+## Métricas de sucesso definidas
+`[a preencher]`
+
+## Próximos passos
+`[a preencher]`
+
+## Histórico de incidentes / alertas
+| Data | Registro | Estado |
+|---|---|---|
+| 23/01/2026 | `INSTABILIDADE` — `celine.inoue` | **`Não iniciada`** |
+| 28/01/2026 | `TAREFA/CONFIG` — `kariele.marinho` | **`Não iniciada`** |
+
+## Observações
+- **`Sem CS` é modo de atendimento, não momento da jornada.**
+- **`SMB` no campo de atendimento é segmento, não pessoa.**
+
+## Governança
+### Quem pode alterar este documento
+Responsável de atendimento + liderança de Atendimento uMode
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |

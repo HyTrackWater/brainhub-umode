@@ -1,46 +1,28 @@
 # Baw · Pessoas
 
+> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+
 ## Responsável de atendimento (uMode)
-Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account)
+**Laura** (2025) — **pessoa nomeada**, diferente dos outros 6 `Sem CS`, que têm `SMB`.
 
-> Campo `Time de Atendimento` no CRM: Holmer & Laura
-
-> Pessoas da uMode vivem apenas em `uMode/00_Institucional/_pessoas/` (regra travada em
-> `CONTEXT.md`) — aqui só o vínculo de atendimento, nunca uma segunda identidade.
-
----
+> A Laura atende também Cambos, Lofty Style, Luiza Barcelos e Moda Objetiva — **5 contas**.
 
 ## Diretoria e decisores
-[a preencher]
+`[a preencher]`
 
 ## Liderança do projeto (cliente)
-[a preencher]
-
----
+`[a preencher]`
 
 ## Time do projeto por área
-[a preencher]
-
-> ⚠ **Não confirmado — não usar como dado de pessoa.** A base "Reuniões Compartilhadas
-> com Clientes" (Drive `1mxs-UE3a_fF0MZMDlfh_zG9RldkbDmpa`, snapshot de 05 mar 2026) registra os nomes abaixo
-> como participantes de reuniões deste cliente, com a frequência indicada. A base
-> **mistura pessoas da uMode e do cliente no mesmo campo**, sem marcar de que lado cada
-> uma está — classificar por conta própria repetiria exatamente o risco já registrado no
-> caso Taís Moser (`_pendencias-gerais.md`). Fica como pista de levantamento:
-> - Andrea Holmer — 17 reunião(ões)
-> - Laura Delgado — 17 reunião(ões)
-
----
+`[a preencher]`
 
 ## Estado de atividade das pessoas
 
-`[a preencher]`
-
 ### Como o estado é apurado
 
-> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data
-> que dá para citar.** Este eixo existe para a jornada do usuário: **quem atende o quê,
-> em qual ferramenta, em qual área.**
+> **Uma pessoa não é ativa porque tem cadastro. É ativa porque agiu, numa data que dá para citar.**
+> Este eixo existe para a jornada do usuário: **quem atende o quê, em qual ferramenta, em qual área.**
 
 | Estado | O que significa | Evidência que o sustenta |
 |---|---|---|
@@ -50,41 +32,42 @@ Laura Delgado Cardoso, Andrea Goulart Holmer dos Santos (Key Account)
 | `ATIVO_SEM_CADASTRO` | agiu, mas **não consta** na lista de usuários | e-mail em chamado sem linha na tabela |
 | `INDETERMINADO` | citado sem identificador único | nome solto em ata, sem e-mail |
 
-**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão. **Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte** — nunca por inferência de inatividade.
+**`CADASTRADO` não é `INATIVO`.** Ausência de evidência é hipótese, nunca conclusão.
+**Todo estado carrega a data da evidência.** **`DESATIVADO` só com marcação na fonte.**
 
 ### Razão de pessoas
 
-`[a preencher]`
+**3 pessoa(s)** no razão.
 
-| Pessoa | E-mail | Área | Estado | Evidência (data) | Canal |
+> 🔴 **Uma pessoa concentra 8 dos 9 chamados.** `mariana.basso` é o ponto único de contato conhecido desta conta.
+
+| Pessoa | E-mail | Área | Estado | Evidência | Observação |
 |---|---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| `[a preencher]` | `mariana.basso@bawclothing.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | **8 chamados**, 06–29/01/2026 | instabilidade · tarefa/config · novo acesso |
+| `[a preencher]` | `rodrigo.oliveira@bawclothing.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **16/01/2026** | *Material travado* |
+| `[a preencher]` · **externo** | `desenvolvimento@eczoz.com.br` | externo | `ATIVO_SEM_CADASTRO` | chamado em **08/01/2026** | *fotos do produto sumiram* · **`Em Aberto`** |
 
 ## Canais de comunicação
 
-> **Cada canal é uma entidade** — tem participantes, cadência, dono e
-> assunto. É por aqui que a indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
+> **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a
+> indexação do cérebro liga pessoa ↔ ferramenta ↔ área.
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
 ## Financeiro
-[a preencher]
+`[a preencher]`
 
 ## Tecnologia
-[a preencher]
+`[a preencher]`
 
 ## Governança
-
-`[a preencher]`
-
 ### Quem pode alterar este documento
-
-`[a preencher]`
+Responsável de atendimento + liderança de Atendimento uMode
 
 ### Procedência
-
 | Bloco | Fonte | Data |
 |---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
+| 9 chamados e 3 pessoas | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |
