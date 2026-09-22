@@ -26,8 +26,15 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ## 2 · Pendências abertas
 
-⚠ **Nenhuma pendência específica registrada** — e isso quase sempre quer dizer
-**que a página deste cliente ainda não foi aberta** (ver § 4), não que esteja tudo claro.
+| # | O que está em aberto | Tier | O que destrava |
+|--:|---|:-:|---|
+| 1 | 🟢 **O bloco `Marca:` está preenchido** — é o mesmo template que na Puket está vazio. **Linha de produção:** compra de Produto Acabado, Importado e **triangulação de Matéria-prima para Facção**. **ERP** Linx, **integração ativa** em Produtos e Ficha Técnica. | `T2` | nada — é dado |
+| 2 | 🔴 **61 usuários ativos declarados, e o corpus tem 13 fichas.** **O número se sabe; os nomes, não.** ⚠ **A NV NÃO tem a tabela de usuários que a Puket tem.** | `T2` | exportar a lista de usuários |
+| 3 | 🔴 **10 departamentos engajados, e QUATRO não têm área canônica:** `Engenharia de Produto`, `Planejamento Comercial`, `Cadastro/Planners`, **`Atacado`** e 🔴 **`Atelier`**. Os outros: Estilo, PCP, Marketing, Compras, Logística. | `T2` | decisão sobre a grade |
+| 4 | 🔴 **`Atelier` é a SÉTIMA evidência do `15_Producao-Interna`** (item 234) — depois de `Oficina` na NK STORE e `facção` em vários. | `T2` | decisão sobre criar a área |
+| 5 | 🔴 **QUARTO e QUINTO caso da dor de variante:** `Manual de descancelamento de produtos e variantes` e `NV | Variantes Canceladas Inativas`. Com VIX, Reserva e Lofty Style são **quatro clientes**. **Não é mais hipótese.** | `T2` | decisão de produto |
+| 6 | ⚠ **Onboarding partido em duas fases documentadas** (`Fase 1`, `Fase 2`) mais uma página `On`. **Nenhum outro cliente tem onboarding faseado assim.** | `T2` | tempo de varredura |
+| 7 | 🆕 **`NV | Proposta de comunicação`** — segundo cliente com plano de comunicação formal, junto da Osklen (`Integração de Escrita`). | `T2` | — |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -62,12 +69,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | `c03ae4ec…` | 🟢 **o bloco `Marca:` está PREENCHIDO** — linha de produção, segmento, ERP, integração ativa, **61 usuários ativos** e **10 departamentos engajados**; onboarding em **duas fases**; 🔴 **dois documentos sobre variante cancelada**; `Realinhamento Demandas`; `Proposta de comunicação` | ⚠ **não** — 11 sub-páginas e 1 database inline não abertos |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -79,7 +83,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

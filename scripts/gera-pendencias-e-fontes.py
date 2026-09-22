@@ -97,6 +97,27 @@ PAGINA = {
                 u"de **1 chamado/dia e 2 reuniões/semana**; 🔴 **7 cartões no `umode.kanbanize.com`**; "
                 u"`uBuy` e `uPlan`; **Review Quinzenal** com envios parados; 2 visitas presenciais",
                 u"⚠ **não** — 10 sub-páginas e 3 databases inline não abertos"),
+    u"Cambos": (u"22 set 2026", u"`d6d48327\u2026`",
+               u"\U0001F7E2 **bloco `Pessoas` PREENCHIDO** (5 pessoas com cargo) + "
+               u"**Discovery de Sales com 10 perguntas respondidas**: 140 mil pe\u00e7as/m\u00eas, "
+               u"20 a 40 fornecedores, ~20 pessoas no desenvolvimento, **nota 6,0** para o "
+               u"processo atual, 10% de quebra de entrega; \U0001F534 **fornecem para CAEDU e "
+               u"Marisa**; `Trello`, `Banner`, `Totvs Virtual Age`, `Data Lake`",
+               u"\u26a0 **n\u00e3o** \u2014 9 sub-p\u00e1ginas e 4 databases inline n\u00e3o abertos"),
+    u"NV": (u"22 set 2026", u"`c03ae4ec\u2026`",
+           u"\U0001F7E2 **o bloco `Marca:` est\u00e1 PREENCHIDO** \u2014 linha de produ\u00e7\u00e3o, "
+           u"segmento, ERP, integra\u00e7\u00e3o ativa, **61 usu\u00e1rios ativos** e **10 departamentos "
+           u"engajados**; onboarding em **duas fases**; \U0001F534 **dois documentos sobre "
+           u"variante cancelada**; `Realinhamento Demandas`; `Proposta de comunica\u00e7\u00e3o`",
+           u"\u26a0 **n\u00e3o** \u2014 11 sub-p\u00e1ginas e 1 database inline n\u00e3o abertos"),
+    u"Oficina Reserva": (u"22 set 2026", u"`a27d12dd\u2026`",
+                        u"\U0001F7E2 **o mapeamento de dores mais completo da carteira**, "
+                        u"escrito pelo Jo\u00e3o no grupo de Sales em **26/06/2024**: cadastro "
+                        u"no SAP, depend\u00eancia do time da **AREZZO**, rela\u00e7\u00e3o com a "
+                        u"**Qualit\u00e1** por WhatsApp, aus\u00eancia de governan\u00e7a, **400 SKUs "
+                        u"por cole\u00e7\u00e3o**, **90% do tempo no SAP**; Kick Off interno 01/07 e "
+                        u"com cliente 12/07/2024",
+                        u"\u26a0 **n\u00e3o** \u2014 4 sub-p\u00e1ginas e 3 databases inline n\u00e3o abertos"),
     u"Lofty Style": (u"22 set 2026", u"`293c8829\u2026`",
                     u"toggle `Pessoas` **presente e VAZIO**; \U0001F6A8 **a credencial do site "
                     u"de documenta\u00e7\u00e3o est\u00e1 em texto claro na p\u00e1gina**; "
@@ -187,6 +208,59 @@ PEND = {
          u"Satisfação Kick Off Osklen`) e **nunca foi varrida.**", u"T2", u"tempo de varredura"),
         (u"⚠ **Duas páginas com o mesmo nome:** `Integração de Escrita - Plano de Comunicação` "
          u"e `(1)`.", u"T2", u"—"),
+    ],
+    u"NV": [
+        (u"\U0001F7E2 **O bloco `Marca:` est\u00e1 preenchido** \u2014 \u00e9 o mesmo template que "
+         u"na Puket est\u00e1 vazio. **Linha de produ\u00e7\u00e3o:** compra de Produto Acabado, "
+         u"Importado e **triangula\u00e7\u00e3o de Mat\u00e9ria-prima para Fac\u00e7\u00e3o**. **ERP** Linx, "
+         u"**integra\u00e7\u00e3o ativa** em Produtos e Ficha T\u00e9cnica.", u"T2", u"nada \u2014 \u00e9 dado"),
+        (u"\U0001F534 **61 usu\u00e1rios ativos declarados, e o corpus tem 13 fichas.** "
+         u"**O n\u00famero se sabe; os nomes, n\u00e3o.** \u26a0 **A NV N\u00c3O tem a tabela de "
+         u"usu\u00e1rios que a Puket tem.**", u"T2", u"exportar a lista de usu\u00e1rios"),
+        (u"\U0001F534 **10 departamentos engajados, e QUATRO n\u00e3o t\u00eam \u00e1rea can\u00f4nica:** "
+         u"`Engenharia de Produto`, `Planejamento Comercial`, `Cadastro/Planners`, "
+         u"**`Atacado`** e \U0001F534 **`Atelier`**. Os outros: Estilo, PCP, Marketing, "
+         u"Compras, Log\u00edstica.", u"T2", u"decis\u00e3o sobre a grade"),
+        (u"\U0001F534 **`Atelier` \u00e9 a S\u00c9TIMA evid\u00eancia do `15_Producao-Interna`** "
+         u"(item 234) \u2014 depois de `Oficina` na NK STORE e `fac\u00e7\u00e3o` em v\u00e1rios.", u"T2",
+         u"decis\u00e3o sobre criar a \u00e1rea"),
+        (u"\U0001F534 **QUARTO e QUINTO caso da dor de variante:** `Manual de descancelamento "
+         u"de produtos e variantes` e `NV | Variantes Canceladas Inativas`. Com VIX, Reserva "
+         u"e Lofty Style s\u00e3o **quatro clientes**. **N\u00e3o \u00e9 mais hip\u00f3tese.**", u"T2",
+         u"decis\u00e3o de produto"),
+        (u"\u26a0 **Onboarding partido em duas fases documentadas** (`Fase 1`, `Fase 2`) "
+         u"mais uma p\u00e1gina `On`. **Nenhum outro cliente tem onboarding faseado assim.**",
+         u"T2", u"tempo de varredura"),
+        (u"\U0001F195 **`NV | Proposta de comunica\u00e7\u00e3o`** \u2014 segundo cliente com plano de "
+         u"comunica\u00e7\u00e3o formal, junto da Osklen (`Integra\u00e7\u00e3o de Escrita`).", u"T2", u"\u2014"),
+    ],
+    u"Oficina Reserva": [
+        (u"\U0001F534 **\u00c9 marca do GRUPO AR&CO e entrou no MESMO PACOTE do grupo** \u2014 o Jo\u00e3o escreveu, em 26/06/2024: *a princ\u00edpio n\u00e3o haver\u00e1 valor adicional, pois "
+         u"entrar\u00e3o no mesmo pacote do Grupo*. \U0001F534 **\u00c9 conta separada no corpus e "
+         u"contrato do grupo na vida real.**", u"T2", u"decis\u00e3o de modelagem de grupo"),
+        (u"\U0001F534 **A dor n\u00famero 1 cita depend\u00eancia do TIME DA AREZZO** \u2014 e a Arezzo "
+         u"\u00e9 outra linha da mesma base, em `Pr\u00e9 Onboardings`. **Reserva, Oficina Reserva, "
+         u"Simples e Arezzo parecem o mesmo grupo, e o corpus os trata como quatro contas "
+         u"isoladas.**", u"T2", u"confirma\u00e7\u00e3o do Vin\u00edcius"),
+        (u"\U0001F195 **`Qualit\u00e1` \u2014 um TERCEIRO que n\u00e3o \u00e9 cliente nem fornecedor de "
+         u"material: \u00e9 inspe\u00e7\u00e3o de qualidade.** *Processo todo feito pelo WhatsApp*; "
+         u"*o inspetor chega para auditar e n\u00e3o tem o documento*. \U0001F534 **O corpus n\u00e3o "
+         u"tem modelo para terceiro.**", u"T2", u"decis\u00e3o de modelagem"),
+        (u"\U0001F534 **A pr\u00f3pria fonte registra dano reputacional:** *m\u00e1 reputa\u00e7\u00e3o entre "
+         u"os Fornecedores e Qualit\u00e1 por n\u00e3o usarem uMode*. **\u00c9 o argumento comercial "
+         u"mais forte da carteira, e est\u00e1 enterrado numa mensagem de grupo de 2024.**", u"T2",
+         u"\u2014"),
+        (u"\U0001F195 **N\u00fameros de opera\u00e7\u00e3o declarados:** **400 SKUs por cole\u00e7\u00e3o**, "
+         u"100 cont\u00ednuos, e **90% do tempo dedicado ao SAP**. **Primeiros n\u00fameros de "
+         u"opera\u00e7\u00e3o de cliente que o corpus v\u00ea.**", u"T2", u"\u2014"),
+        (u"\u26a0 **Meta declarada: rodar no uMode em 6 meses, a contar de jul/2024.** "
+         u"**Hoje s\u00e3o 26 meses.** \u26a0 **N\u00e3o sei se a meta foi cumprida** \u2014 nada na "
+         u"p\u00e1gina diz.", u"T2", u"confer\u00eancia com o atendimento"),
+        (u"\u26a0 **Sem etapa do processo atribu\u00edda** e **ERP `SAP e Linx`**, a mesma coisa "
+         u"que `Linx / SAP` escrita de outro jeito.", u"T2", u"limpeza do enum"),
+        (u"\u26a0 **`Perfil de Usu\u00e1rio e Permissionamentos OFICINA` n\u00e3o foi aberta.** "
+         u"**\u00c9 o terceiro cliente com essa sub-p\u00e1gina** (VIX, Lofty Style, Oficina).", u"T2",
+         u"tempo de varredura"),
     ],
     u"Lofty Style": [
         (u"\U0001F6A8 **A credencial do site de documenta\u00e7\u00e3o est\u00e1 EM TEXTO CLARO na "
@@ -329,11 +403,53 @@ PEND = {
          u"nenhuma base.", u"T2", u"tempo de varredura"),
     ],
     u"Cambos": [
-        (u"⚠ **Duas contas na plataforma para um cliente:** `Cambos` (7 usuários) e "
-         u"`Cambos - uFlow` (25). O sufixo indica conta por módulo.", u"T2", u"confirmação"),
-        (u"⚠ **ERP `SPI` é sistema próprio do cliente**, não produto de mercado.", u"T2", u"—"),
-        (u"⚠ **Conteúdo T1 da Cambos com autorização de uso pendente desde julho.**", u"T1",
-         u"autorização do Vinicius/João"),
+        (u"\U0001F7E2 **Bloco `Pessoas` PREENCHIDO \u2014 segundo caso da carteira**, junto da "
+         u"NK STORE. 5 pessoas com cargo: Tony Stefan Lopes (Gerente Geral/Diretor de "
+         u"Opera\u00e7\u00e3o da F\u00e1brica), Valter (Head Financeiro), Fabiane Sayuri (Desenv. de "
+         u"Produtos), Carolina (Estilista), Gustavo Paiva (Head de Tecnologia).", u"T2",
+         u"nada \u2014 executado"),
+        (u"\U0001F7E2 **RESOLVIDA a ambiguidade `Fabi e Carol`** \u2014 a c\u00e9lula da base de "
+         u"demandas que eu me recusei a desmembrar. A p\u00e1gina diz que o l\u00edder do projeto "
+         u"\u00e9 *Tony e Fabi*, e lista **Fabiane Sayuri** e **Carolina**. "
+         u"**Ambiguidade resolvida com fonte, n\u00e3o com palpite.**", u"T2", u"nada"),
+        (u"\U0001F534 **A Cambos FORNECE para a CAEDU** \u2014 e as duas s\u00e3o clientes da "
+         u"uMode. *Fornecem para Caedu, Marisa, etc.* **Dois clientes nossos numa rela\u00e7\u00e3o "
+         u"fornecedor-cliente entre si, e o corpus os trata como ilhas.**", u"T2",
+         u"decis\u00e3o de modelagem \u2014 o isolamento de cliente \u00e9 regra travada"),
+        (u"\U0001F534 **A base diz ERP `SPI - Sistema pr\u00f3prio da Cambos` e a p\u00e1gina diz "
+         u"DOIS:** `Totvs - Virtual Age` (comercial, **com pacote de APIs**) e `SPI` "
+         u"(produ\u00e7\u00e3o). Mais `Banner` para pedido de atacado. **A base est\u00e1 incompleta.**",
+         u"T2", u"corre\u00e7\u00e3o na base"),
+        (u"\U0001F534 **Rela\u00e7\u00e3o contratual amb\u00edgua, registrada pela pr\u00f3pria uMode:** "
+         u"*Relat\u00f3rios: n\u00e3o detalhados no contrato por\u00e9m subentendido entre 2-3 "
+         u"relat\u00f3rios mediante a maturidade*. **Escopo subentendido \u00e9 escopo em disputa.**",
+         u"T2", u"confer\u00eancia com o comercial"),
+        (u"\U0001F534 **Atrito interno Sales\u00d7Ops registrado**, feedback do Sandro: *alinhar "
+         u"o que vendeu e o que opera\u00e7\u00e3o vai tocar gerou desconforto... pode dar "
+         u"impress\u00e3o que a empresa est\u00e1 desalinhada*. **\u00c9 o \u00fanico registro de atrito "
+         u"interno que o corpus tem.**", u"T2", u"\u2014"),
+        (u"\U0001F195 **N\u00fameros de opera\u00e7\u00e3o:** 140.000 pe\u00e7as/m\u00eas \u00b7 20 a 40 "
+         u"fornecedores \u00b7 ~20 pessoas no desenvolvimento \u00b7 **nota 6,0** para o processo "
+         u"atual \u00b7 **10% de quebra de entrega** \u00b7 40% Magazine / 60% marca pr\u00f3pria. "
+         u"**Segundo cliente com n\u00fameros**, depois da Oficina Reserva.", u"T2", u"\u2014"),
+        (u"\u26a0 **~20 pessoas no desenvolvimento e o corpus tem 5 fichas.**", u"T2",
+         u"a p\u00e1gina nomeia 5; as outras 15 n\u00e3o est\u00e3o em fonte nenhuma"),
+        (u"\U0001F195 **`Trello` \u2014 oitava ferramenta**, usada pelo cliente para gest\u00e3o do "
+         u"processo. N\u00e3o est\u00e1 no enum `tool` do corpus.", u"T2", u"\u2014"),
+        (u"\U0001F195 **`IPSP`** aparece junto de `uPlan` como oportunidade. **Quinto nome de "
+         u"produto fora das duas listas**, com `uBuy`, `uPlan` e `uPick`.", u"T2",
+         u"decis\u00e3o sobre o portf\u00f3lio"),
+        (u"\U0001F195 **Segundo escopo desejado e N\u00c3O contratado:** *trazer os clientes "
+         u"para dentro da plataforma para acompanhar o desenvolvimento*. "
+         u"**\u00c9 oportunidade comercial nomeada, parada desde o kick off.**", u"T2", u"\u2014"),
+        (u"\U0001F195 **`Playbook Cambos | Treinamento > IA + Doc Laura`** \u2014 primeira "
+         u"documenta\u00e7\u00e3o homologada com IA que o corpus v\u00ea.", u"T2", u"tempo de varredura"),
+        (u"\u26a0 **Duas contas na plataforma:** `Cambos` (7 usu\u00e1rios) e `Cambos - uFlow` "
+         u"(25). **\u00c9 conta por m\u00f3dulo ou duplicidade?**", u"T2", u"pergunta registrada"),
+        (u"\u26a0 **Conte\u00fado T1 com autoriza\u00e7\u00e3o de uso pendente desde julho.**", u"T1",
+         u"autoriza\u00e7\u00e3o do Vin\u00edcius"),
+        (u"\U0001F534 **A fonte traz telefone e CPF de um diretor.** **Nada entrou no corpus** "
+         u"\u2014 registro que existe e onde.", u"T0", u"nada \u2014 \u00e9 tratamento"),
     ],
     u"Mondepars": [
         (u"🟢 **FECHADA — o nome certo é `Mondepars`.** Vinícius em "
@@ -505,6 +621,19 @@ PERGUNTAS = {
 
 # PERGUNTAS QUE NAO SAO DE UM CLIENTE SO.
 PERGUNTAS_GERAIS = [
+    (u"🔴 **Como o BrainHub modela GRUPO ECONÔMICO?** Achei dois: "
+     u"**Grupo Único** (Puket — gente com e-mail `@grupounico.com` opera dentro da conta) "
+     u"e **Grupo AR&CO** (Oficina Reserva entrou *no mesmo pacote do Grupo*, e a dor número 1 "
+     u"dela cita dependência do **time da Arezzo**). **Reserva, Oficina Reserva, Simples e "
+     u"Arezzo são quatro pastas isoladas para o que pode ser um contrato só.**", u"T2",
+     u"o isolamento de cliente é regra travada, e grupo econômico a atravessa", u"aberta"),
+    (u"🔴 **Como o BrainHub modela TERCEIRO que não é cliente nem fornecedor de "
+     u"material?** A `Qualitá` inspeciona qualidade para a Oficina Reserva, **por WhatsApp**, "
+     u"e a fonte registra que *o inspetor chega para auditar e não tem o documento*.", u"T2",
+     u"é onde a operação do cliente vaza para fora de qualquer sistema", u"aberta"),
+    (u"🔴 **A dor de excluir/inativar variante aparece em QUATRO clientes** — VIX, "
+     u"Reserva, Lofty Style e NV (com dois documentos). **É lacuna da plataforma?**", u"T2",
+     u"quatro casos independentes: não é mais hipótese", u"aberta"),
     (u"**`Status` ou `Etapa` \u2014 qual manda?** Discordam em 5 clientes.", u"T2",
      u"\U0001F7E2 **Respondida em 22 set 2026 pelo Vin\u00edcius:** *\"a verdade \u00e9 que n\u00e3o sei. "
      u"N\u00f3s vamos ter que ver caso a caso.\"* \u2014 vira **pergunta por cliente**, n\u00e3o regra geral",

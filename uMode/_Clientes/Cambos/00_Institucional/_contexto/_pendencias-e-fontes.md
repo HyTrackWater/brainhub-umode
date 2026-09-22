@@ -28,9 +28,21 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | ⚠ **Duas contas na plataforma para um cliente:** `Cambos` (7 usuários) e `Cambos - uFlow` (25). O sufixo indica conta por módulo. | `T2` | confirmação |
-| 2 | ⚠ **ERP `SPI` é sistema próprio do cliente**, não produto de mercado. | `T2` | — |
-| 3 | ⚠ **Conteúdo T1 da Cambos com autorização de uso pendente desde julho.** | `T1` | autorização do Vinicius/João |
+| 1 | 🟢 **Bloco `Pessoas` PREENCHIDO — segundo caso da carteira**, junto da NK STORE. 5 pessoas com cargo: Tony Stefan Lopes (Gerente Geral/Diretor de Operação da Fábrica), Valter (Head Financeiro), Fabiane Sayuri (Desenv. de Produtos), Carolina (Estilista), Gustavo Paiva (Head de Tecnologia). | `T2` | nada — executado |
+| 2 | 🟢 **RESOLVIDA a ambiguidade `Fabi e Carol`** — a célula da base de demandas que eu me recusei a desmembrar. A página diz que o líder do projeto é *Tony e Fabi*, e lista **Fabiane Sayuri** e **Carolina**. **Ambiguidade resolvida com fonte, não com palpite.** | `T2` | nada |
+| 3 | 🔴 **A Cambos FORNECE para a CAEDU** — e as duas são clientes da uMode. *Fornecem para Caedu, Marisa, etc.* **Dois clientes nossos numa relação fornecedor-cliente entre si, e o corpus os trata como ilhas.** | `T2` | decisão de modelagem — o isolamento de cliente é regra travada |
+| 4 | 🔴 **A base diz ERP `SPI - Sistema próprio da Cambos` e a página diz DOIS:** `Totvs - Virtual Age` (comercial, **com pacote de APIs**) e `SPI` (produção). Mais `Banner` para pedido de atacado. **A base está incompleta.** | `T2` | correção na base |
+| 5 | 🔴 **Relação contratual ambígua, registrada pela própria uMode:** *Relatórios: não detalhados no contrato porém subentendido entre 2-3 relatórios mediante a maturidade*. **Escopo subentendido é escopo em disputa.** | `T2` | conferência com o comercial |
+| 6 | 🔴 **Atrito interno Sales×Ops registrado**, feedback do Sandro: *alinhar o que vendeu e o que operação vai tocar gerou desconforto... pode dar impressão que a empresa está desalinhada*. **É o único registro de atrito interno que o corpus tem.** | `T2` | — |
+| 7 | 🆕 **Números de operação:** 140.000 peças/mês · 20 a 40 fornecedores · ~20 pessoas no desenvolvimento · **nota 6,0** para o processo atual · **10% de quebra de entrega** · 40% Magazine / 60% marca própria. **Segundo cliente com números**, depois da Oficina Reserva. | `T2` | — |
+| 8 | ⚠ **~20 pessoas no desenvolvimento e o corpus tem 5 fichas.** | `T2` | a página nomeia 5; as outras 15 não estão em fonte nenhuma |
+| 9 | 🆕 **`Trello` — oitava ferramenta**, usada pelo cliente para gestão do processo. Não está no enum `tool` do corpus. | `T2` | — |
+| 10 | 🆕 **`IPSP`** aparece junto de `uPlan` como oportunidade. **Quinto nome de produto fora das duas listas**, com `uBuy`, `uPlan` e `uPick`. | `T2` | decisão sobre o portfólio |
+| 11 | 🆕 **Segundo escopo desejado e NÃO contratado:** *trazer os clientes para dentro da plataforma para acompanhar o desenvolvimento*. **É oportunidade comercial nomeada, parada desde o kick off.** | `T2` | — |
+| 12 | 🆕 **`Playbook Cambos | Treinamento > IA + Doc Laura`** — primeira documentação homologada com IA que o corpus vê. | `T2` | tempo de varredura |
+| 13 | ⚠ **Duas contas na plataforma:** `Cambos` (7 usuários) e `Cambos - uFlow` (25). **É conta por módulo ou duplicidade?** | `T2` | pergunta registrada |
+| 14 | ⚠ **Conteúdo T1 com autorização de uso pendente desde julho.** | `T1` | autorização do Vinícius |
+| 15 | 🔴 **A fonte traz telefone e CPF de um diretor.** **Nada entrou no corpus** — registro que existe e onde. | `T0` | nada — é tratamento |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -67,12 +79,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | `d6d48327…` | 🟢 **bloco `Pessoas` PREENCHIDO** (5 pessoas com cargo) + **Discovery de Sales com 10 perguntas respondidas**: 140 mil peças/mês, 20 a 40 fornecedores, ~20 pessoas no desenvolvimento, **nota 6,0** para o processo atual, 10% de quebra de entrega; 🔴 **fornecem para CAEDU e Marisa**; `Trello`, `Banner`, `Totvs Virtual Age`, `Data Lake` | ⚠ **não** — 9 sub-páginas e 4 databases inline não abertos |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -84,7 +93,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

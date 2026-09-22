@@ -93,6 +93,15 @@ def e_pessoa(nome):
 #
 # Formato: cliente -> [(nome como a pagina escreve, cargo, area, bloco)]
 DA_PAGINA = {
+    u"Cambos": [
+        (u"Tony Stefan Lopes", u"Gerente Geral / Diretor de Opera\u00e7\u00e3o da F\u00e1brica",
+         u"Opera\u00e7\u00e3o / F\u00e1brica", u"Diretores e Representantes Legais"),
+        (u"Valter", u"Head Financeiro", u"Financeiro", u"Respons\u00e1vel pelo Financeiro"),
+        (u"Fabiane Sayuri", u"Respons\u00e1vel pelo Desenvolvimento de Produtos",
+         u"Desenvolvimento de Produtos", u"Participantes do Projeto"),
+        (u"Carolina", u"Estilista", u"Estilo", u"Participantes do Projeto"),
+        (u"Gustavo Paiva", u"Head de Tecnologia", u"Tecnologia", u"Respons\u00e1vel Tecnologia"),
+    ],
     u"NK STORE": [
         (u"Alexandre de S\u00e1 Pereira", u"Representante Legal",
          u"Diretoria", u"Diretores e Representantes Legais"),
@@ -122,6 +131,9 @@ DA_PAGINA = {
 
 # Observacao por pessoa, quando a fonte diz algo que nao cabe em cargo/area.
 NOTA_PAGINA = {
+    (u"Cambos", u"Fabiane Sayuri"): u"\U0001F7E2 **\u00c9 a `Fabi` de `Fabi e Carol`** \u2014 a p\u00e1gina diz que o l\u00edder do projeto \u00e9 *Tony e Fabi*. **Ambiguidade resolvida com fonte, n\u00e3o com palpite.**",
+    (u"Cambos", u"Carolina"): u"\U0001F7E2 **\u00c9 a `Carol` de `Fabi e Carol`**, a c\u00e9lula da base de demandas que eu me recusei a desmembrar. **A p\u00e1gina do cliente desmembrou.**",
+    (u"Cambos", u"Tony Stefan Lopes"): u"**L\u00edder do projeto**, junto da Fabi. \U0001F534 **A fonte traz telefone e CPF \u2014 nenhum dos dois entrou aqui** (`T0`).",
     (u"NK STORE", u"Larissa Cid Castilho Batista"): u"a fonte anota: *\"J\u00e1 implantou PLM em v\u00e1rias empresas\"*",
     (u"NK STORE", u"Stella Sunaga"): u"a fonte anota: *\"H\u00e1 10 anos na empresa\"*",
     (u"NK STORE", u"Andressa"): u"\u26a0 a fonte anota: *\"Se ela est\u00e1 feliz com o projeto, estamos bem\"* \u2014 **\u00e9 termometro de projeto, dito pela pr\u00f3pria uMode**",

@@ -7,8 +7,13 @@
 
 **Cliente:** [institucional.md](../_contexto/institucional.md) · [jornada.md](../_contexto/jornada.md) · [pessoas.md](../_contexto/pessoas.md)
 
-**3 fichas:**
+**8 fichas:**
 
 - [carol](carol.md)
+- [carolina](carolina.md)
 - [fabi](fabi.md)
+- [fabiane-sayuri](fabiane-sayuri.md)
+- [gustavo-paiva](gustavo-paiva.md)
 - [louise](louise.md)
+- [tony-stefan-lopes](tony-stefan-lopes.md)
+- [valter](valter.md)

@@ -125,6 +125,10 @@ CANAIS = [
      u"pastas de opera\u00e7\u00e3o por cliente \u2014 o campo `Drive Opera\u00e7\u00e3o` da base aponta para c\u00e1"),
     (u"YouTube", u"Google",
      u"grava\u00e7\u00e3o de reuni\u00e3o e treinamento \u2014 \u26a0 **nunca varrido**"),
+    (u"Trello", u"Atlassian",
+     u"⚠ **ferramenta DO CLIENTE, não da uMode.** A Cambos usa para gestão do "
+     u"processo. 🔴 **Não estava no enum `tool` do corpus** — achada ao abrir "
+     u"a página do cliente em 22 set 2026"),
 ]
 
 COMPOSTOS = {u"Linx / SAP": (u"Linx", u"SAP"), u"SAP e Linx": (u"SAP", u"Linx")}

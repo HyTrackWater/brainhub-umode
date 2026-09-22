@@ -2566,3 +2566,77 @@
      **mentorado** e **cliente de serviço de educação em IA**, além da lista de clientes com as
      plataformas que contratam. 🔴 **Cada um vira arquivo com nó, no mesmo padrão** — e a
      varredura de ferramenta já preparou o eixo `contrata`.
+
+## Varredura — NV e Oficina Reserva (22 set 2026)
+
+378. **🔴 GRUPO ECONÔMICO não está modelado, e já apareceram DOIS.**
+     **Grupo Único** — a Puket tem gente com e-mail `@grupounico.com` operando dentro da conta.
+     **Grupo AR&CO** — o João escreveu em 26/06/2024 que a Oficina Reserva *"entrará no mesmo
+     pacote do Grupo"*, e a dor nº 1 dela cita **dependência do time da AREZZO**.
+     🔴 **Reserva, Oficina Reserva, Simples (by Reserva) e Arezzo são quatro pastas isoladas
+     para o que pode ser um contrato só.** **O isolamento de cliente é regra travada, e grupo
+     econômico a atravessa.** → pergunta registrada.
+379. **🔴 `Qualitá` — um TERCEIRO que não é cliente nem fornecedor de material.** Faz inspeção
+     de qualidade para a Oficina Reserva, **todo o processo por WhatsApp**, e a fonte registra:
+     *"o inspetor chega para auditar e não tem o documento"*.
+     🔴 **O corpus não tem modelo para terceiro.** → pergunta registrada.
+380. **🔴 QUARTO e QUINTO caso da dor de variante** — a NV tem `Manual de descancelamento de
+     produtos e variantes` **e** `NV | Variantes Canceladas Inativas`. Com VIX, Reserva e Lofty
+     Style são **quatro clientes**. **Não é mais hipótese: é lacuna da plataforma.**
+381. **🔴 SÉTIMA evidência do `15_Producao-Interna`: `Atelier`**, na lista de departamentos
+     engajados da NV — depois de `Oficina` (NK STORE) e `facção` (vários).
+382. **🟢 O bloco `Marca:` é um TEMPLATE de perfil de conta que existe em vários clientes** —
+     linha de produção, submarcas, segmento, ERP, integração ativa, usuários ativos,
+     departamentos engajados. **Na NV está preenchido; na Puket, vazio.**
+383. **🔴 A NV declara 61 usuários ativos e o corpus tem 13 fichas.** **O número se sabe, os
+     nomes não** — a NV **não** tem a tabela de usuários que a Puket tem.
+384. **🔴 10 departamentos engajados na NV, e quatro sem área canônica:** `Engenharia de
+     Produto` · `Planejamento Comercial` · `Cadastro/Planners` · `Atacado` · `Atelier`.
+385. **🟢 A página da Oficina Reserva tem o mapeamento de dores mais completo da carteira**,
+     escrito pelo João no grupo de Sales em **26/06/2024**: cadastro inteiramente no SAP com
+     muitas etapas entre SAP e Linx, uma só pessoa dedicada ao cadastro, ausência de governança,
+     **400 SKUs por coleção** e **90% do tempo dedicado ao SAP**.
+     **São os primeiros números de operação de cliente que o corpus vê.**
+386. **🔴 A fonte registra dano reputacional, textual:** *"má reputação entre os Fornecedores e
+     Qualitá por não usarem uMode"*. **É o argumento comercial mais forte da carteira — e está
+     enterrado numa mensagem de grupo de 2024.**
+387. **⚠ A meta declarada da Oficina Reserva era rodar no uMode em 6 meses, a contar de
+     jul/2024. Hoje são 26 meses.** ⚠ **Não sei se foi cumprida — nada na página diz.**
+388. **⚠ `Perfil de Usuário e Permissionamentos` é sub-página de TRÊS clientes** (VIX, Lofty
+     Style, Oficina Reserva) e só a da VIX foi aberta. **É onde o vínculo pessoa↔área mora.**
+
+## Varredura — Cambos (22 set 2026)
+
+389. **🟢 Bloco `Pessoas` PREENCHIDO — segundo caso da carteira**, junto da NK STORE.
+     Tony Stefan Lopes (Gerente Geral / Diretor de Operação da Fábrica) · Valter (Head
+     Financeiro) · Fabiane Sayuri (Resp. Desenvolvimento de Produtos) · Carolina (Estilista) ·
+     Gustavo Paiva (Head de Tecnologia). **De 5 clientes com o bloco, 2 preencheram.**
+390. **🟢 RESOLVIDA a ambiguidade `Fabi e Carol`** — a célula da base de demandas que eu me
+     recusei a desmembrar por não poder inventar. A página diz que o líder do projeto é
+     *"Tony e Fabi"* e lista **Fabiane Sayuri** e **Carolina**.
+     **Ambiguidade resolvida com fonte, não com palpite — que era exatamente o ponto.**
+391. **🔴 A Cambos FORNECE para a CAEDU, e as duas são clientes da uMode.** Textual:
+     *"Fornecem para Caedu, Marisa, etc."* 🔴 **Dois clientes nossos numa relação
+     fornecedor-cliente entre si, e o corpus os trata como ilhas.**
+     **O isolamento de cliente é regra travada — e esta relação a atravessa.**
+392. **🔴 A base diz que o ERP da Cambos é `SPI - Sistema próprio` e a página diz DOIS:**
+     `Totvs - Virtual Age` (comercial, **com pacote de APIs**) e `SPI` (produção), mais
+     `Banner` para pedido de atacado. **A base está incompleta.**
+393. **🔴 Relação contratual ambígua, registrada pela própria uMode:** *"Relatórios: não
+     detalhados no contrato porém subentendido entre 2-3 relatórios mediante a maturidade."*
+     **Escopo subentendido é escopo em disputa.**
+394. **🔴 Atrito interno Sales × Ops registrado**, feedback do Sandro: *"alinhar o que vendeu e
+     o que operação vai tocar gerou desconforto... pode dar impressão que a empresa está
+     desalinhada."* **É o único registro de atrito interno que o corpus tem.**
+395. **🆕 Números de operação da Cambos:** 140.000 peças/mês · 20 a 40 fornecedores ·
+     ~20 pessoas no desenvolvimento · **nota 6,0** para o processo atual · **10% de quebra de
+     entrega** · 40% Magazine / 60% marca própria. **Segundo cliente com números**, depois da
+     Oficina Reserva. ⚠ **~20 pessoas no desenvolvimento e o corpus tem 5 fichas.**
+396. **🆕 `Trello` — nona ferramenta, e é DO CLIENTE.** Não estava no enum `tool` do corpus.
+     **Ficha criada, marcada como ferramenta do cliente, não da uMode.**
+397. **🆕 `IPSP` — quinto nome de produto fora das duas listas**, com `uBuy`, `uPlan` e `uPick`.
+398. **🆕 Segundo escopo desejado e NÃO contratado:** *"trazer os clientes para dentro da
+     plataforma para acompanhar o desenvolvimento"*. **Oportunidade comercial nomeada, parada
+     desde o kick off.**
+399. **🆕 `Playbook Cambos | Treinamento > IA + Doc Laura`** — primeira documentação homologada
+     com IA que o corpus vê.
