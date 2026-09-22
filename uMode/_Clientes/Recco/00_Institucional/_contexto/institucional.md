@@ -8,8 +8,12 @@
 > Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ## ⚠ O que este documento NÃO resolve
-- 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
-- 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**
+- 🔴 **NÃO SEI A DECISÃO DE SAÍDA.** Sei o que estava acontecendo em **16/10/2025** (ver `jornada.md`)
+  e sei que depois disso não há mais reunião nem demanda. **Nenhuma fonte registra quem decidiu
+  encerrar, quando, nem por quê. A base não tem campo `Data de Churn`.**
+- ⚠ **Li 3 das 36 reuniões** desta conta. **As outras 33 não foram abertas.**
+- ⚠ **As 7 páginas de `Documentação Clientes` continuam não varridas** — incluindo
+  `Perfil de Usuários e Permissionamentos` e `Integração (API Totvs)`.
 
 ## Identidade
 ### ID do cliente
@@ -22,7 +26,7 @@
 **Lingerie**, em **Maringá**. CNPJ `77.934.313/0001-41`. Financeiro: `financeiro3@recco.com.br`.
 
 ### O que fazem
-`[a preencher]`
+**Confecção de lingerie.** Razão social **RECCO CONFECÇÕES LTDA**. `[C]`
 
 ### Para quem fazem
 `[a preencher]`
@@ -69,14 +73,24 @@
 ### Outras fontes
 | Fonte | Estado |
 |---|---|
-| **7 páginas de `Documentação Clientes`** — o maior volume entre os churns | **não varrida** |
-| Página do cliente no Notion | **não varrida** |
+| Página do cliente no Notion | ✅ **varrida 22 set 2026** |
+| **36 reuniões** na base `Reuniões Compartilhadas com Clientes` | ⚠ **3 abertas, 33 não** |
+| **42 demandas** | ✅ **varridas e formalizadas** em `_demandas/` |
+| **7 páginas de `Documentação Clientes`** — o maior volume entre os churns | 🔴 **não varridas** |
+| `Recco \| Integração (API Totvs)` + `Documento de Integração de Leitura` | 🔴 **não varridos** |
+| `[Fashion AI] Implementação Recco` | 🔴 **não varrida** |
+| **Pesquisa CSat do kick-off** | ⚠ **existe e está vazia — 0 respostas** |
+| Miro da imersão, PPT da imersão, planilha de OKRs, cronograma, As Is | ⚠ **links não seguidos** |
 
 ## Contexto crítico
 ### Onde estamos
 🔴 **Cliente encerrado.** A casa existe no corpus porque **histórico de cliente perdido é exatamente o que o BrainHub existe para não perder** — e porque **churn tem causa, e causa é aprendizado.**
 
-> 🔴 **A causa não está em lugar nenhum.** Varri a base, a base de chamados, a de segmentação e a de portais. **Nenhuma tem campo de motivo de saída nem data de saída.**
+> 🔴 **A decisão não está em lugar nenhum — mas o mecanismo está lido.** A última ata,
+> de **16/10/2025**, registra **dois meses de inadimplência**, o time de engenharia **em pausa** e
+> o sistema **travado** — sob **quatro semáforos verdes**. Ver `jornada.md`.
+>
+> Nenhuma base tem campo de motivo de saída nem data de saída.
 
 ### 🔴 A frente aberta
 **Nenhuma — o cliente saiu.**
@@ -84,29 +98,37 @@
 > ⚠ **E a data de saída também não existe.** A base tem `Data Ativação Cliente` e **não tem `Data de Churn`**. **Não dá para calcular tempo de vida de cliente nenhum.**
 
 ### O que o cliente espera
-`[a preencher]`
+**Transformar processo em ativo digital** — a tese apresentada no kick-off: facilitar a entrada
+de novos colaboradores e **descarregar conhecimento das pessoas para a tecnologia**. `[C]`
 
 ### As dores estruturais registradas
-`[a preencher]`
+**11 dores mapeadas no kick-off de 27/02/2025** `[C]` — lista completa em `jornada.md`.
+As três que reaparecem nas demandas canceladas: **cálculo de engenharia (encaixe, debrum)**,
+**entrada de dado em massa** e **controle da referência definitiva**.
+
+> 🔴 **A conta saiu com as dores que motivaram a entrada ainda abertas.**
 
 ### Tamanho de atendimento
 `[a preencher]`
 
-🔴 **ESTE CLIENTE FAZ PARTE DE UM COORTE QUE FALHOU INTEIRO.**
+🔴 **CORREÇÃO — o "coorte de fevereiro de 2025" era leitura minha, e estava errada.**
 
-Três clientes têm `Data Ativação Cliente` preenchida **e estão em `Churn`** — e as três ativações acontecem em **oito dias**:
+Estava escrito aqui que três clientes ativados em oito dias **falharam juntos**. **O fato das
+datas é verdadeiro; a conclusão não era.** Elas não morreram juntas:
 
-| Cliente | Ativado em | ERP |
-|---|---|---|
-| **Lenny Niemeyer** | **03/02/2025** | Linx |
-| **Recco** | **06/02/2025** | Totvs |
-| **Highstil** | **11/02/2025** | Totvs |
+| Cliente | Ativado em | Última atividade observada | Viveu | ERP |
+|---|---|---|---|---|
+| **Lenny Niemeyer** | **03/02/2025** | **01/04/2026** | **~14 meses** | Linx |
+| **Recco** | **06/02/2025** | **16/10/2025** | **~8 meses** | Totvs |
+| **Highstil** | **11/02/2025** | **16/04/2026** | **~14 meses** | Totvs |
 
-> **Três ativações consecutivas de fevereiro de 2025, todas terminadas em saída.**
+> **É coorte de ativação, não de morte.** A Recco viveu pouco mais da metade das outras duas, e
+> Lenny e Highstil seguiram com reunião até **abril de 2026** — já marcadas como `Churn`.
 >
-> **Não afirmo a causa** — não li as páginas nem os contratos. Afirmo o padrão, com data, e que **nenhuma fonte varrida registra o motivo de nenhuma das três saídas**.
+> ⚠ **"Última atividade observada" não é data de saída.** É a melhor proxy disponível porque
+> **a base não tem campo `Data de Churn`** — e segue sendo a lacuna mais cara do corpus.
 >
-> **É a pergunta mais valiosa de toda a varredura de churn.** Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+> Registrado em [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md) § 4.
 
 ## Governança
 ### Responsável de atendimento (uMode)

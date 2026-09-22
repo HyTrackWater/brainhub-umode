@@ -40,6 +40,9 @@
 `[a preencher]`
 
 ## Observações
+- 🔴 **38 reuniões, de 29/07/2025 a 09/04/2026** — marcada `Churn` e com reunião em
+  **abril de 2026**. **Nenhuma foi aberta.**
+- ⚠ **Uma reunião é compartilhada com a Highstil** (*"Highstil/Plié - 16/04/2025"*). Ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
 - ⚠ **Linha criada em 11/04/2025** — **e já em churn.**
 - 🔴 **Motivo e data de churn: `[a preencher]`.**
 

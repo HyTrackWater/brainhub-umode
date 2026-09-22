@@ -1,19 +1,47 @@
 # Recco · Pessoas
 
-> **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
+> **Reescrito em 22 set 2026 por varredura ao vivo do Notion.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
+>
+> ⚠ **Telefones pessoais existem na fonte e não foram replicados aqui**, por política do corpus.
+> Quem precisar consulta a página do cliente no Notion.
 
 ## Responsável de atendimento (uMode)
-`[a preencher]` — **campo vazio**.
+🔴 **A conta nunca teve gerente de contas nomeado.** O campo da base está vazio **e a própria
+página do cliente registra o kick-off interno como `Reunião de Kick Off Interno — Não teve
+oficialmente`, com `Definição de Gerente de Contas` em aberto (não marcado).** `[C]`
+
+**Pessoas da uMode que aparecem operando a conta** — **não listadas abaixo** porque pessoa
+interna vive só em `Casa › Pessoas` (regra travada): **Julianne Rodrigues** (entregas técnicas,
+criadora das demandas), **Marina** (alinhamentos de solução, 03/09/2025), **João** e **Rafael**
+(Warm Ups e kick-off).
 
 ## Diretoria e decisores
-`[a preencher]`
+**Marcelo — CEO.** Registrado como **Diretoria Responsável pelo Projeto**. `[C]`
 
 ## Liderança do projeto (cliente)
-`[a preencher]`
+| Frente | Pessoa | Cargo registrado |
+|---|---|---|
+| **uFlow** | **Flavia** | `[a preencher]` — só "Líder Responsável pelo Projeto - uFlow" |
+| **Fashion AI** | **Aline** | **Analista de Ecommerce** |
+
+⚠ **`Líderes de Departamentos` está inteiramente vazio na fonte** — os campos existem e nenhum
+foi preenchido.
 
 ## Time do projeto por área
-`[a preencher]`
+
+**As áreas da Recco vêm da agenda do kick-off presencial** — é a **sétima fonte distinta de
+vínculo pessoa↔área** já encontrada na carteira: `[C]`
+
+`Diretoria` · `Estilo e Design` · `Desenvolvimento (modelagem, pilotagem)` ·
+`Planejamento e Compras` · `PCP`
+
+**E os KRs dos Warm Ups nomeiam quatro áreas**, que não são as mesmas da agenda:
+`Engenharia` · `Inteligência de Mercado` · `Modelagem` · `Estilo`
+
+> ⚠ **As duas listas não coincidem.** `Engenharia` e `Inteligência de Mercado` têm KR mas não
+> têm hora na agenda; `PCP` e `Planejamento e Compras` têm hora e não têm KR. **Não resolvo
+> isso aqui** — registro a divergência.
 
 ## Estado de atividade das pessoas
 
@@ -35,13 +63,28 @@
 
 ### Razão de pessoas
 
-`[a preencher]` — 🔴 **nenhuma pessoa foi identificada nesta conta.**
+**11 pessoas identificadas.** ⚠ **Nenhuma com e-mail individual** — a única conta de e-mail na
+fonte é uma **caixa de função** do financeiro. **Logo nenhuma pessoa tem identificador único,
+e nenhuma pode ser conciliada com a base de usuários da plataforma.** `[C]`
 
-**Nenhuma das fontes varridas nomeia pessoa deste cliente.**
+**`observationWindow` desta conta: 17/12/2024 → 16/10/2025.** Nada depois disso.
 
 | Pessoa | E-mail | Área | Estado | Evidência | Observação |
 |---|---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| **Patrícia** | `[a preencher]` | Engenharia / Produto | **`ATIVO`** | **16/10/2025** — participante da última reunião; solicitante de **13 demandas** | 🔴 **grafada de 3 formas na fonte: `Patrícia`, `Patricia`, `Paty`** |
+| **Vitor** | `[a preencher]` | Produto / Inteligência de Mercado | **`ATIVO`** | **03/10/2025** — demanda "Preenchimento de campo em massa" | 🔴 **grafado de 4 formas: `Vitor`, `vitor`, `Victor`, `Vitor Daniel`** · ⚠ **pode ou não ser a mesma pessoa que `Daniel — Tech`; não resolvo** |
+| **Flavia** | `[a preencher]` | Produto — líder uFlow | **`ATIVO`** | **11/09/2025** — demanda "MAPA: agrupar por responsável" | grafada `Flavia` e `Flávia` |
+| **Priscila** | `[a preencher]` | Inteligência de Mercado | **`ATIVO`** | **10/09/2025** — demanda "Criar campo Margem de contribuição" | participou dos dois Warm Ups |
+| **Marcelo** | `[a preencher]` | Diretoria | `INDETERMINADO` | nomeado CEO na página do cliente | **nenhuma ação registrada em fonte nenhuma** |
+| **Barbara** | caixa de função do financeiro | Financeiro | `INDETERMINADO` | nomeada na página do cliente | e-mail é **de função, não dela** |
+| **Aline** | `[a preencher]` | Ecommerce — líder Fashion AI | `INDETERMINADO` | página do cliente + agenda de implementação Fashion AI | **sem data citável** |
+| **Meire** | `[a preencher]` | Modelagem — Gerente | `INDETERMINADO` | participante dos Warm Ups (17 e 18/12/2024) | |
+| **Daniel** | `[a preencher]` | Tech | `INDETERMINADO` | participante do Warm Up 1 (17/12/2024) | ⚠ **ausente do Warm Up 2** |
+| **Beatriz de Abreu** | `[a preencher]` | Estilo — Gerente | `INDETERMINADO` | página **`KRS do Cliente`** | ⚠ **a página não foi aberta** — evidência é trecho de busca |
+| **Amanda** | `[a preencher]` | `[a preencher]` | `INDETERMINADO` | página `[Fashion AI] Implementação Recco` | ⚠ **página não varrida** |
+
+⚠ **`Vanessa`** aparece na pauta de 09/10/2025 (*"agenda tabela de medidas — sexta 13hs com
+Vanessa"*) — **não dá para dizer se é da Recco ou da uMode.** Não listada acima.
 
 ## Canais de comunicação
 
@@ -50,13 +93,30 @@
 
 | Canal | Ferramenta | Quem participa | Cadência | Último registro |
 |---|---|---|---|---|
-| `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
+| **Weekly uFlow Recco × uMode** | Notion — base `Reuniões Compartilhadas` | variável por pauta | **semanal** | **16/10/2025** — 36 registros |
+| 🔴 **Grupo de WhatsApp** | WhatsApp | Patrícia + time Recco | contínua | **03/10/2025** — ⚠ **`isCaptured = false`** |
+| **Chat interno da plataforma** | uFlow | suporte uMode | sob demanda | **recomendado em 16/10/2025** — sem histórico varrido |
+| **E-mail de notificação** | uFlow | todos os usuários | automática | ⚠ **o cliente pediu para desativar** — "excesso de notificações" |
+| **Transcrição de reunião** | Tactiq | — | por reunião | ⚠ **links não abertos** |
+| **Gravação** | Google Drive | — | por reunião | ⚠ **não aberta** |
+| **Imersão** | Miro | — | pontual | ⚠ **`isCaptured = false`** |
+
+> 🔴 **Os dois canais onde o problema real apareceu — WhatsApp e chat interno — são os dois que
+> o corpus não captura.** A demanda de 03/10/2025 diz textualmente *"o cliente relatou via grupo
+> de whatsapp"*, e a última reunião **recomenda migrar as dúvidas para o chat interno**.
 
 ## Financeiro
-`[a preencher]`
+**Barbara** — responsável. Caixa de função de financeiro registrada na base.
+
+🔴 **Em 16/10/2025 a conta estava com `débitos em duas mensalidades`**, registrado em ata.
+**Nenhuma fonte varrida liga esse fato a um processo de cobrança ou a uma decisão.**
 
 ## Tecnologia
-`[a preencher]`
+**Daniel** — registrado como `Tech` no Warm Up 1. ⚠ **O bloco `Responsável Tecnologia` da página
+do cliente está inteiramente vazio** — os campos existem e nenhum foi preenchido.
+
+**ERP:** `Totvs`. Há uma página **`Recco | Integração (API Totvs)`** e um
+**`Recco | Totvs - Documento de Integração de Leitura`** — **nenhuma das duas foi varrida.**
 
 ## Governança
 ### Quem pode alterar este documento
@@ -65,4 +125,7 @@ Responsável de atendimento + liderança de Atendimento uMode
 ### Procedência
 | Bloco | Fonte | Data |
 |---|---|---|
-| Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
+| Diretoria, liderança, financeiro, tecnologia | Notion — página do cliente `Recco` | **varrido 22 set 2026** |
+| Estado de atividade | Notion — 42 demandas (solicitante + data) e 3 reuniões | **varrido 22 set 2026** |
+| Áreas | Notion — agenda do kick-off presencial e KRs dos Warm Ups | **varrido 22 set 2026** |
+| Canais | Notion — base de reuniões, demandas e página do cliente | **varrido 22 set 2026** |

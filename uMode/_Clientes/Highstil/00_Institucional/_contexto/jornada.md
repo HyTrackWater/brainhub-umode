@@ -40,10 +40,26 @@
 `[a preencher]`
 
 ## Observações
+- 🔴 **Marcada `Churn` e planejando o Inverno 27.** A weekly de **17/04/2026** — já com a
+  conta em `Churn` — discute teste de integração, credenciais de acesso, tabelas de medidas e
+  **pede o cronograma do Inverno 27**. **57 reuniões no total; 1 aberta.** `[C]`
+- ⚠ **O semáforo desta conta usa amarelo** (`Pendências 🟡` em 17/04/2026) — o que **prova que o
+  instrumento funciona** e torna os quatro verdes da última ata da Recco uma escolha. Ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
+- 🔴 **Uma reunião registra DOIS clientes:** *"uFlow - **Highstil/Plié** - Reunião 16/04/2025"*.
+  **Quebra o isolamento de cliente na fonte** — decisão pendente sobre como registrar.
 - 🔴 **Coorte de fev/2025** — com Lenny Niemeyer e Recco.
 - **5 páginas de documentação e 2 pastas de Drive**, não varridas.
 - ⚠ **Linha criada em 07/02/2025 e ativada em 11/02** — **quatro dias entre criação e ativação**, o ciclo mais curto da carteira.
 - 🔴 **Motivo e data de churn: `[a preencher]`.**
+
+> 🔴 **CORREÇÃO — 22 set 2026.** Esta leitura de "coorte" era minha e estava errada no que
+> sugeria. As três contas foram **ativadas** em oito dias, mas **não morreram juntas**:
+> **Recco ~8 meses** (última atividade **16/10/2025**) · **Lenny Niemeyer ~14 meses**
+> (**01/04/2026**) · **Highstil ~14 meses** (**16/04/2026**). Lenny e Highstil seguiram com
+> reunião até **abril de 2026**, já marcadas como `Churn`. **É coorte de ativação, não de morte.**
+> ⚠ **"Última atividade observada" não é data de saída** — a base **não tem `Data de Churn`**.
+> Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
+
 
 ## Governança
 ### Quem pode alterar este documento

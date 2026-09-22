@@ -40,6 +40,9 @@
 `[a preencher]`
 
 ## Observações
+- 🔴 **34 reuniões compartilhadas, de 28/02/2023 a 03/03/2026** — marcada `Churn` e com
+  reunião em **março de 2026**. **É a conta em churn com histórico mais longo da carteira.**
+  **Nenhuma foi aberta.** Ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
 - 🔴 **Único cliente de `Joalheria`.**
 - ⚠ **Tem Portal do Cliente criado em 21/08/2023** — base `Portal do Cliente`.
 - 🔴 **Motivo e data de churn: `[a preencher]`.**

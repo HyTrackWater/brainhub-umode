@@ -744,6 +744,114 @@ declarado**, e o **único relatório de incidente formal** (08/08/2025, não lid
 5. 🔴 **As sub-páginas de permissionamento** de Cambos, Oficina Reserva e Luiza Barcelos —
    **as três existem e não foram varridas**, e são o que nomeia as pessoas que faltam.
 
+### 🔴 UMA BASE INTEIRA QUE O CORPUS NUNCA MENCIONOU — 1.161 reuniões · 22 set 2026
+
+> Fui abrir a **Recco** — a conta em churn com mais material — e a primeira busca já devolveu
+> **18 weeklies dela numa base que o corpus nunca citou uma vez sequer.**
+
+**`Reuniões Compartilhadas com Clientes` — 1.161 registros, 27 clientes, de 12/01/2023 a hoje.**
+**Menções a ela no corpus antes desta varredura: ZERO.** `[C]`
+
+> ⚠ **E uma disciplina que vale registrar:** quase escrevi que *"as demandas também nunca foram
+> varridas"*. **Fui checar antes: estavam.** São **995 arquivos** em `_demandas/`, e a Recco tem
+> os 42 dela com descrição e comentário. **A lacuna era de uma base só, não de duas.**
+
+Escrita a **`_varredura-2026-09-22-reunioes-compartilhadas.md`**, autoridade sobre esta base.
+
+### 🔴 O que matou a Recco — e como estava declarado
+A última ata da conta, **16/10/2025**, abre com o semáforo do projeto:
+
+> `Geral 🟢` · `Prazo 🟢` · `Pendências 🟢` · `Riscos 🟢`
+
+E o corpo da **mesma ata** registra:
+
+> *"A equipe da engenharia estava **em pausa** devido a pendências na manutenção, que estavam
+> **travando o sistema**"* · *"há dificuldades com **débitos em duas mensalidades**"*
+
+🔴 **Dois meses de inadimplência, o time do cliente parado e o sistema travado — sob quatro
+sinais verdes.** Duas semanas depois **não há mais reunião nem demanda**.
+
+**E testei antes de concluir que o semáforo é decorativo — a hipótese foi REFUTADA, e o achado
+ficou mais forte:** a weekly da **Highstil de 17/04/2026** marca `Pendências 🟡`.
+**O instrumento aceita amarelo e é usado com amarelo.** Logo os quatro verdes da Recco foram
+**escolha de preenchimento, não limitação da ferramenta.** `[C]`
+
+⚠ **Continuo sem a decisão de saída.** Tenho o mecanismo com data; **nenhuma fonte registra
+quem encerrou, quando, nem por quê.**
+
+**E 29% das demandas da Recco foram canceladas** (12 de 42) — quase todas **cálculo de
+engenharia e entrada em massa**: encaixe, debrum, cadastro de linhas, importação de imagem.
+**São as dores 2, 5 e 10 do próprio kick-off. A conta saiu com as dores da entrada abertas.**
+
+### 🔴 CORREÇÃO A UMA AFIRMAÇÃO MINHA — o "coorte de fev/2025"
+Eu escrevi, aqui e em cinco arquivos de cliente: *"três ativações em oito dias, as três em churn"*.
+**O fato das datas é verdadeiro. A conclusão que ele sugeria é falsa.**
+
+| Cliente | Ativado | Última atividade observada | Viveu |
+|---|---|---|---|
+| **Recco** | 06/02/2025 | **16/10/2025** | **~8 meses** |
+| **Lenny Niemeyer** | 03/02/2025 | **01/04/2026** | **~14 meses** |
+| **Highstil** | 11/02/2025 | **16/04/2026** | **~14 meses** |
+
+**É coorte de ativação, não de morte.** Lenny e Highstil seguiram com reunião até **abril de
+2026**, já marcadas `Churn`. **Correção propagada aos 6 arquivos que afirmavam o contrário.**
+
+> ⚠ **E "última atividade observada" NÃO é data de saída.** É a melhor proxy disponível porque
+> **a base não tem campo `Data de Churn`** — que segue sendo a lacuna mais cara do corpus.
+
+### 🔴 O que a base de reuniões revelou dos outros clientes
+- 🔴 **A `Luiza Barcelos` é a conta mais atendida da carteira: 126 reuniões** — mais que
+  NK STORE (111) e Osklen (101), com reunião **hoje, 22/09/2026**. **Eu a tratava como mais um
+  dos 10 `Ongoing`.**
+- 🔴 **Quatro contas em `Churn` têm reunião em 2026** — Lenny, Highstil, Plie e Vivara.
+  **Quinta prova independente de que `Status` ≠ uso real.**
+- 🔴 **A `Hering` está em `Pré Onboardings` há 15 meses, com 25 reuniões.**
+- ⚠ **A `Baw` de novo:** `Sem CS` — o SKU que significa "ninguém atende" — **com 19 reuniões e
+  18 demandas. Terceira evidência independente.**
+- 🔴 **22 reuniões órfãs: 15 apontam para `. Página Cliente [Template]`** e **7 não têm cliente.**
+- **A carteira é mais antiga do que o corpus registra:** Caedu desde **12/01/2023**, NV e VIX
+  desde **09/06/2023**.
+
+### 🔴 Dois defeitos na fonte que afetam qualquer relatório
+1. **O campo `Data` da base de reuniões está corrompido em lote.** Sete reuniões da Recco com
+   títulos de **04/09 a 16/10/2025** carregam todas `Data = 02/09/2025`. **Usei o título quando
+   divergiam** — e **qualquer visão desta base ordenada por `Data` está errada.**
+2. **O isolamento de cliente é quebrado na fonte, em duas bases:** a reunião
+   *"Highstil/Plié - 16/04/2025"* e uma demanda de 30/06/2025 com **Básico&Co + VIX**.
+   **Decisão pendente:** dois registros ou um registro com duas relações? `[D]`
+
+### ✅ O que verifiquei e NÃO virou achado
+- Suspeitei que as demandas misturassem a taxonomia do Notion com a do CX Hub. **Fui ao
+  `protocolo-gestao-demanda.md` antes de acusar: o mapeamento está documentado e decidido**
+  (`Erro/ Bug`→`Bug`, `Melhoria / Desenvolvimento`→`Melhoria`, os demais passam direto).
+  **Não há defeito.**
+- A pesquisa CSat do kick-off da Recco **existe e está vazia (0 respostas)** — **continuam sendo
+  duas** as pesquisas com resposta na carteira (Osklen 33, Lofty Style 19).
+
+### Cobertura após esta sessão
+| | Número |
+|---|---:|
+| `contexto-area.md` conformes | **694/694** |
+| `institucional.md` conformes | **50/50** |
+| `jornada.md` conformes | **49/49** |
+| `pessoas.md` conformes | **49/49** |
+| Reuniões lidas por inteiro | **4 de 1.161** |
+
+### O que continua aberto
+1. 🚨 **As duas credenciais expostas** (NK STORE, Lofty Style) — **e agora também varrer
+   credencial nas 1.157 reuniões não abertas**: a pauta da Highstil de 17/04/2026 trata de
+   *"credenciais de acesso"*.
+2. 🔴 **As 126 reuniões da Luiza Barcelos** — a conta mais atendida e a menos documentada
+   em proporção.
+3. 🔴 **Criar o campo `Data de Churn`.**
+4. 🔴 **As 33 reuniões não lidas da Recco** — sobretudo o vão de **março a julho de 2025**,
+   entre o kick-off e a primeira demanda, que nenhuma fonte explica.
+5. 🔴 **As 22 reuniões órfãs.**
+6. **As 7 páginas de `Documentação Clientes` da Recco** — seguem não varridas.
+7. **Decidir o registro de reunião multicliente.**
+8. **Incorporar `Participantes` das reuniões à rastreabilidade de pessoa ativa** — é a melhor
+   fonte de pessoa-com-data da carteira, e a `_espec-pessoas-e-comunicacoes.md` não a conhecia.
+
 ### ✅ A CARTEIRA INTEIRA ESTÁ VARRIDA — 48 de 48 clientes · 22 set 2026
 
 > Instrução do Vinicius: *"Operação assistida é momento e não cliente, certo? Pode prosseguir.

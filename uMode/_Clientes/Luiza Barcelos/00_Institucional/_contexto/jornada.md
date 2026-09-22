@@ -117,6 +117,10 @@
 > BrainHub.**
 
 ## Observações
+- 🔴 **É a conta MAIS ATENDIDA da carteira — 126 reuniões**, mais que NK STORE (111) e Osklen
+  (101), de **13/06/2024 a 22/09/2026 (hoje)**. **Nenhuma foi aberta.** O corpus a tratava como
+  mais um dos 10 `Ongoing`. **Não é.** Fonte: base `Reuniões Compartilhadas com Clientes`,
+  varrida em 22 set 2026 — ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
 - 🔴 **A tese do BrainHub aparece aqui dita por Vendas em 06/06/2024:**
   *"processo está na cabeça da Marcinha → missão é tirar as informações da cabeça dela e colocar
   na ferramenta"*. **Conhecimento institucional preso numa pessoa, nomeado, com dono e com data.**

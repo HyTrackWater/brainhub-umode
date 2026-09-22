@@ -177,6 +177,15 @@ O campo único deve virar **três**, na `_espec-pessoas-e-comunicacoes.md` e na 
 | `SMB` como grupo de segmentação | Notion — base `Segmentação Grupos` | varrida 21/09/2026 |
 | Chamados de clientes em churn | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 
+> 🔴 **CORREÇÃO — 22 set 2026.** Esta leitura de "coorte" era minha e estava errada no que
+> sugeria. As três contas foram **ativadas** em oito dias, mas **não morreram juntas**:
+> **Recco ~8 meses** (última atividade **16/10/2025**) · **Lenny Niemeyer ~14 meses**
+> (**01/04/2026**) · **Highstil ~14 meses** (**16/04/2026**). Lenny e Highstil seguiram com
+> reunião até **abril de 2026**, já marcadas como `Churn`. **É coorte de ativação, não de morte.**
+> ⚠ **"Última atividade observada" não é data de saída** — a base **não tem `Data de Churn`**.
+> Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
+
+
 ## Governança
 ### Quem decide
 **Vinicius Risoléo.** A correção que originou este documento é dele.

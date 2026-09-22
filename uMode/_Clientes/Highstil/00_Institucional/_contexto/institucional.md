@@ -109,6 +109,15 @@ Três clientes têm `Data Ativação Cliente` preenchida **e estão em `Churn`**
 >
 > **É a pergunta mais valiosa de toda a varredura de churn.** Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
+> 🔴 **CORREÇÃO — 22 set 2026.** Esta leitura de "coorte" era minha e estava errada no que
+> sugeria. As três contas foram **ativadas** em oito dias, mas **não morreram juntas**:
+> **Recco ~8 meses** (última atividade **16/10/2025**) · **Lenny Niemeyer ~14 meses**
+> (**01/04/2026**) · **Highstil ~14 meses** (**16/04/2026**). Lenny e Highstil seguiram com
+> reunião até **abril de 2026**, já marcadas como `Churn`. **É coorte de ativação, não de morte.**
+> ⚠ **"Última atividade observada" não é data de saída** — a base **não tem `Data de Churn`**.
+> Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
+
+
 ## Governança
 ### Responsável de atendimento (uMode)
 Laura (2025)

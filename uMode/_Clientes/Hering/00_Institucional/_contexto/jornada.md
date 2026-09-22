@@ -39,6 +39,9 @@
 `[a preencher]`
 
 ## Observações
+- 🔴 **Está em `Pré Onboardings` há 15 meses, com 25 reuniões** — de **27/06/2025** a
+  **09/04/2026**. **`Pré` não é um estágio curto nesta carteira**, e o enum de `Status` não tem
+  como expressar isso. **Nenhuma das 25 foi aberta.** Ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
 - ⚠ **Mesmo ERP `Ilimitar` da Moda Objetiva** — integração possivelmente reaproveitável.
 - ⚠ **~11 meses em `Pré Onboardings`.**
 

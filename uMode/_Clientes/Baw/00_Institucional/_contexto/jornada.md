@@ -45,6 +45,10 @@
 | 23 e 28/01/2026 | 2 chamados | **`Não iniciada`** |
 
 ## Observações
+- 🔴 **Terceira evidência independente de que `Sem CS` está errado nesta conta:** além dos
+  **4 módulos** e do **atendimento nomeado**, a Baw tem **19 reuniões compartilhadas**
+  (12/08/2025 a 24/04/2026) e **18 demandas**. `Sem CS` é o SKU que significa *"ninguém atende"*.
+  **Aqui alguém atende, semanalmente.** Fonte: base de reuniões, varrida 22 set 2026 — ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
 - 🔴 **Única exceção ao padrão `Sem CS`.**
 - ⚠ **Contradição entre módulo `Integração` e ERP `Sem Integração`.**
 - **Terceiro cliente com "material travado"**, com NV e Lofty Style.
