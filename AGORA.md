@@ -125,38 +125,58 @@ Instituição (Casa uMode OU Cliente)
 
 ## 6 · O que está sendo feito agora
 
-🔵 **Frente ativa: varredura transversal da carteira** — pessoas, áreas e ferramentas
-contratadas, a partir das fontes do Notion já liberadas.
+🔵 **Frente ativa: varredura cliente a cliente, ABRINDO A PÁGINA de cada um.**
 
-- **A rota mudou em 22 set 2026.** A frente da CAEDU **está pausada**: quem vai entregar as
-  transcrições e arquivos **ainda não liberou o acesso**. O Vinicius pediu para retomar a
-  varredura de **todos** os clientes enquanto isso.
-- **Já feito nesta frente:** enum completo de **7 módulos** com quem tem o quê · mapa de
-  **atendimento** das 17 contas ativas · **razão de pessoas datado em 17 clientes**, do campo
-  `Quem solicitou?` das 985 demandas.
-- 🔴 **A CAEDU mudou de `Ongoing` para `Onboarding` em 22/09/2026, às 15:04** — entre duas
-  leituras minhas do mesmo dia. **Perguntar o motivo antes de retomar a frente dela.**
-- ⚠ **Quando o acesso da CAEDU sair**, o tratamento de dado sensível está definido em § 8.1.
+> 🔴 **A regra que mudou em 22 set 2026:** até aqui eu varria **bases** (SQL). A página
+> do cliente **não é base** — e é onde vivem o **`cargo`**, a **área**, as **pessoas de
+> diretoria**, as **sub-páginas de ata** e, em pelo menos um caso, uma **credencial de
+> produção em texto claro**. **Consulta SQL não alcança nada disso.**
+
+**O modelo, travado pelo Vinicius em 22 set 2026: ENTIDADE É ARQUIVO.**
+*"praticamente tudo que for uma entidade é arquivo? Ou seja, ferramenta, pessoas, empresas,
+áreas, demandas, RFIs, tudo... As reuniões, contextos gerais, e-mails, tudo isso vai estar de
+alguma forma ligada a esses nós maiores."*
+
+| Entidade | É arquivo? | Quantos |
+|---|:-:|---:|
+| Instituição · Área · Demanda · RFI · Solução | ✅ | 50 · 694 · 1.021 · 102 · 16 |
+| Pessoa | ✅ | **137** |
+| **Ferramenta** | ✅ **novo em 22 set** | **16** |
+| Reunião / ata · E-mail · Agente | 🔴 **não** | 1.161 · 92 · 4 conhecidos |
+
+**Páginas de cliente abertas: 3 de 49** — CAEDU, Osklen, NK STORE.
+
+- 🟢 **NK STORE:** 13 pessoas com **cargo e área**, das quais **8 nunca abriram demanda**
+  — incluindo as **duas diretoras do projeto**. De 15 para **24 fichas**.
+- 🔴 **Osklen:** o **mesmo** toggle `Pessoas`, **inteiramente vazio.**
+- 🔴 **CAEDU:** 56 sub-páginas, **~47 atas de weekly** que nenhuma consulta SQL vê.
+- 🔴 **A CAEDU mudou de `Ongoing` para `Onboarding` em 22/09/2026 às 15:04**, entre duas
+  leituras minhas — e a base `Etapas do Processo de Clientes` **ainda a marca como `Ongoing`.`**
+  **Perguntar o motivo antes de retomar a frente dela.**
 
 ## 7 · Próximos passos, em ordem
 
-1. 🔵 **Resolver o campo `Participantes` das 1.161 reuniões** — são IDs de usuário do Notion;
-   resolver com `get-users` dá **presença nominal com data**, a melhor fonte de pessoa ativa que
-   ainda não foi extraída.
-2. 🔵 **Varrer as páginas de cliente dos 27 sem demanda** — para eles a varredura de pessoas
-   **não acrescentou nada**, e a página é a única fonte restante.
-3. 🚨 **Credenciais:** as duas expostas (NK STORE, Lofty Style) **e a varredura das 1.153 atas
-   não abertas**.
-4. 🔴 **Perguntar ao Vinicius por que a CAEDU virou `Onboarding` hoje.**
-5. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.
-6. 🔴 **Decidir a chave de identidade de pessoa** (item 252) — sem ela, as grafias não têm
-   como ser resolvidas sem inventar gente.
-7. 🔵 **Retomar a CAEDU** assim que o acesso sair.
+1. 🔵 **Abrir as 46 páginas de cliente que faltam.** É a fonte de maior rendimento
+   descoberta até agora: resolve `cargo`, `área` e a camada de liderança de uma vez.
+   **Medir, por cliente, se o toggle `Pessoas` está preenchido** — vira placar de prontidão.
+2. 🚨 **Credenciais.** As duas expostas (NK STORE — **agora com o lugar exato**,
+   Lofty Style) **e a varredura das 1.153 atas não abertas.** **Toda página de cliente aberta
+   daqui pra frente passa a ser varrida também em busca de segredo.**
+3. 🔴 **Perguntar ao Vinicius por que a CAEDU virou `Onboarding`** — e qual campo manda,
+   `Status` ou `Etapa`, que discordam em 5 clientes.
+4. 🔵 **Fechar as 3 entidades que faltam: reunião, e-mail e agente.** Enquanto forem
+   prosa, o grafo não liga ata a pessoa nem demanda a conversa.
+5. 🔵 **Resolver o campo `Participantes` das 1.161 reuniões** com `get-users` — dá
+   **presença nominal com data**, a melhor fonte de pessoa ativa ainda não extraída.
+6. 🔴 **Varrer as duas relações fechadas de `Mapa de Clientes`:** `Segmentação Grupos`
+   e `Atendimento 2024`.
+7. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.
+8. 🔵 **Retomar a CAEDU** assim que as ~50 transcrições reais chegarem.
 
 ## 8 · Decisões esperando o Vinicius
 
 🔴 **O dono deste assunto é o [`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md)
-— 248 itens datados.** **Não crie tabela de pendência aqui nem em lugar nenhum: escreva lá.**
+— **340 itens datados.** **Não crie tabela de pendência aqui nem em lugar nenhum: escreva lá.**
 
 > ⚠ **Este bloco já foi o erro que ele descreve.** Em 22 set 2026 eu montei aqui uma tabela de
 > "8 decisões esperando o Vinicius" **sem ter lido o `_pendencias-gerais.md`**, que já era o dono

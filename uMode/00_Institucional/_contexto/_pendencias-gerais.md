@@ -2306,3 +2306,95 @@
      `Fabi e Carol` em duas fichas é inventável, e a regra de ouro proíbe.
 317. **⚠ Os 31 clientes sem tabela de solicitante não ganharam ficha nenhuma.** Não têm demanda,
      logo não têm pessoa observada. **Depende das páginas e das atas, não do gerador.**
+## Ferramenta vira arquivo, e a `Etapa` contradiz o `Status` (22 set 2026)
+
+318. **🟢 DECIDIDO — o modelo é `entidade = arquivo`, e a lista é maior do que eu aplicava.**
+     Vinicius, textual: *"praticamente tudo que for uma entidade é arquivo? Ou seja, ferramenta,
+     pessoas, empresas, áreas, demandas, RFIs, tudo.... As reuniões, contextos gerais, e-mails,
+     tudo isso vai estar de alguma forma ligada a esses nós maiores na escala de hierarquia."* `[D]`
+     **Placar no dia da decisão: 6 tipos eram arquivo, 5 não eram.** Ferramenta foi fechada na
+     mesma sessão (**16 fichas**). **Faltam reunião, e-mail e agente.**
+319. **`[P]` A ferramenta foi para DUAS pastas, e é proposta minha — precisa de aval.**
+     `03_Produto-e-Solucoes/_ferramentas/` para os **7 módulos que a uMode vende**;
+     `06_Tecnologia/_ferramentas/` para os **9 sistemas de terceiro**. **Motivo: `Linx` não é
+     produto da uMode**, e guardá-lo em "Produto e Soluções" ensinaria o contrário a quem ler.
+320. **🔴 6 das 7 fichas de módulo têm `Solução do portfólio` em `[a preencher]`.** Só
+     `Gestão de Coleção → DesenvolvAI` está confirmado no `CONTEXT.md`. **Decidir o mapeamento
+     dos outros 6 é decisão sua** — o `CONTEXT.md` proíbe inferir por nome parecido, e eu obedeci.
+321. **🔴 `Millennium` é opção viva do enum `ERP/Integração` com ZERO clientes.** Nunca apareceu
+     no corpus. **Some ou fica?**
+322. **🔴 Terceiro par duplicado no mesmo campo: `Não` e `Sem Integração` querem dizer a mesma
+     coisa** (os outros dois: `Linx / SAP` × `SAP e Linx`, e `Totvs` × `Totvs Moda`).
+     **Um caso é anedota, dois é hipótese, três é padrão: o campo `ERP/Integração` precisa de
+     limpeza de enum, não de correção linha a linha.**
+323. **🔴 ACHADO NOVO — existe a base `Etapas do Processo de Clientes`, e ela discorda do campo
+     `Status` em 5 dos 31 clientes preenchidos.** `collection://348b1d38-…-000bea495254`.
+     **Caedu** (`Onboarding` × **`Ongoing`**) · **Osklen** e **Moda Objetiva**
+     (`Operação Assistida` × `Onboarding`) · **Lofty Style** (`Ongoing` × `Operação Assistida`) ·
+     **Loungerie** (`Onboarding` × `Pré Onboarding`). **É a sétima evidência de que `Status` não
+     é confiável — e a mais forte, porque a contradição é entre dois campos da MESMA linha.**
+     **Qual dos dois manda?**
+324. **🔴 A CAEDU é o único dos cinco que está ADIANTE do que o `Status` diz** — e o `Status`
+     `Onboarding` é a premissa do projeto CAEDU 2.0. Junto com a dor de
+     `Griffe › Linha › Grupo/subgrupo` já escrita na weekly de **16/09/2025**:
+     ⚠ **a CAEDU parece um cliente que já operou sendo tratado como estreia.**
+     **Leitura minha, não fonte — mas é pergunta para você.**
+325. **⚠ 19 dos 50 clientes não têm etapa nenhuma — incluindo a `Reserva`**, que tem
+     **7 módulos, o mais completo da carteira**, mais `Oficina Reserva`, `NV` e `Baw`.
+     **Não sei se é lacuna de preenchimento ou se conta grande não passa pelo funil.**
+326. **🆕 Duas etapas `Especial` existem e estão vazias: `Projetos e Inovação` e
+     `Squad de Urgência`.** Mesmo padrão do CX Hub — construído, nunca preenchido.
+     ⚠ **Mas `Projetos e Inovação` é onde o CAEDU 2.0 caberia.**
+327. **⚠ `Mapa de Clientes` tem 5 relações e eu só tinha varrido 2.** Ainda fechadas:
+     **`Segmentação Grupos`** (`collection://a4103fe2-…`) e **`Atendimento 2024`**
+     (`collection://c82a689c-…`). **Varrer uma base é varrer também para onde ela aponta** —
+     entra no `protocolo-varredura-cliente.md`.
+328. **⚠ `Responsável Pela Etapa` aponta para `collection://348b1d38-…-000b7f91e638`, que dá 404
+     por este conector.** **Não afirmo que não existe: afirmo que não alcancei.**
+
+## A página do cliente tem `cargo` e `área` (22 set 2026)
+
+329. **🔺 CORREÇÃO DE ERRO MEU — `Hermes` não é o agente, é pessoa.** `Hermes Gonçalves
+     Santiago Junior`, **Gerente de TI da NK STORE**, com **5 demandas abertas**. Eu o tinha
+     posto na lista `NAO_PESSOA` do gerador **presumindo que fosse o agente `Hermes` da uMode**.
+     **Corrigido, com o motivo escrito no script.** **Homônimo entre agente e pessoa se resolve
+     com fonte, nunca com filtro cego por string.**
+330. **🔺 CORREÇÃO DE ERRO MEU — `cargo` e `área` TÊM fonte** (contra os itens 285 e 315).
+     **A página de cada cliente tem um toggle `Pessoas`** com nome completo, cargo, área,
+     e-mail e telefone. **Eu media pelas BASES, e a página do cliente não é base.**
+     **Quarta variação de "não encontrei em X" virando "não existe".**
+331. **🟢 O template de pessoa já existe e é o mesmo em todos os clientes** — 4 blocos:
+     `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
+     `Responsáveis pelos Projetos` (Diretoria / Líderes do Projeto / Líderes de Departamentos) ·
+     `Responsável Tecnologia`. **A lacuna não é de modelo, é de preenchimento.**
+     **Quantos dos 49 clientes preencheram? É uma leitura por cliente, e vale medir.**
+332. **🔴 8 das 13 pessoas da NK STORE nunca abriram demanda — incluindo as DUAS diretoras do
+     projeto** (Regiane Konopka, Merchandising; Stella Sunaga, Estilo). **A base de demandas
+     mede quem abre chamado, não quem decide** — usá-la como censo subestima a liderança.
+     **NK STORE passou de 15 para 24 fichas.**
+333. **🔴 A página da Osklen tem o mesmo toggle `Pessoas` e está INTEIRAMENTE VAZIA** — conta em
+     `Operação Assistida` **sem uma pessoa nomeada na própria página.** **Preencher é do
+     atendimento, não meu.**
+334. **⚠ Não mapeei a área da fonte para a grade das 14 canônicas.** `Merchandising` e
+     `Curadoria` **não são** áreas canônicas — e na NK STORE **não são apelido: são etapas do
+     processo com dono.** **Decisão sua.**
+335. **🚨 A credencial de produção da NK STORE (Linx) está em TEXTO CLARO na página do cliente**,
+     no toggle `Documentos › Conexão com Linx`: usuário, senha, IP, porta e nome do banco.
+     **Agora sei exatamente onde mora. Não reproduzi o valor em lugar nenhum.**
+     **A rotação segue sendo a pendência mais urgente do projeto.**
+336. **🔴 Há CPF e telefone pessoal de dois representantes legais na mesma página.** Pela política
+     do `AGORA.md` § 8.1 **nada entrou no corpus** — a ficha registra que existe e onde.
+337. **🆕 `uBuy` é um produto vivo que não está em NENHUMA das duas listas** — nem nos 7
+     `Módulos Contratados`, nem nas 16 Soluções. Osklen: *"uBuy: fup — início: Janeiro 2026"*.
+     NK STORE: *"Follow Up de Entregas → Pedidos de Compras → uBuy (oportunidade)"*.
+     ⚠ **Trata do tema do `FornecAI`, que o corpus registra como "ainda não nasceu".
+     Não afirmo que são o mesmo — afirmo que o portfólio de 16 está incompleto.**
+338. **🔴 SEXTA evidência do `15_Producao-Interna` (item 234): `Oficina`.** O processo declarado
+     da NK STORE é `Planejamento → Estilo → Compras/Merchandising → PCP → Oficina`, com
+     `Curadoria` em paralelo. A fonte diz *"a oficina **interna**... corte, costura e
+     acabamento"*, coordenando com **facções externas**.
+339. **🆕 Existe medição de CSat por cliente e nunca foi varrida** — `Pesquisa de Satisfação do
+     treinamento` e `Pesquisa Satisfação Kick Off Osklen` (base inline na página da Osklen).
+340. **⚠ O protocolo de varredura precisa mandar PROCURAR SEGREDO em toda página de cliente
+     aberta.** A segunda página que abri tinha uma credencial de produção. **Varrer página é
+     varrer risco.**

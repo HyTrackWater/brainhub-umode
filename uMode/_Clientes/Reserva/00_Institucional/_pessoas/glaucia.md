@@ -15,7 +15,8 @@
 ### Email
 `[a preencher]`
 ### Cadeira / cargo atual
-`[a preencher]` — 🔴 **nenhuma fonte varrida traz cargo de pessoa de cliente**
+`[a preencher]` — ⚠ **esta pessoa não aparece no toggle `Pessoas` da
+página do cliente**, que é onde o cargo vive quando existe.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)

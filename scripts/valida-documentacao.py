@@ -18,6 +18,13 @@ import os
 import re
 import sys
 
+
+# O console do Windows abre em cp1252 e MORRE ao imprimir o vermelho do relatorio.
+# Sem isto o validador falha justamente quando tem algo a dizer.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Pastas cujo conteudo e corpus ou dado gerado, nao documentacao estrutural.
@@ -56,6 +63,11 @@ def estruturais():
             if (u"/_demandas/" in caminho or u"/_rfis/" in caminho)                     and not nome.startswith(u"_template"):
                 continue
             if u"/_pessoas/" in caminho and not nome.startswith(u"_template"):
+                continue
+            # ferramentas: mesma natureza que pessoa/demanda/RFI - sao INSTANCIAS de
+            # uma classe do corpus, geradas por script. O manifesto cita a CLASSE
+            # (secao C do START.md), nao cada uma das 18.
+            if u"/_ferramentas/" in caminho and not nome.startswith(u"_template"):
                 continue
             achados.append(caminho)
     return sorted(achados)

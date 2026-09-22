@@ -288,6 +288,45 @@ def main():
         if poe(p, u"\n".join(b)):
             tocados += 1
 
+    # ---- fichas de ferramenta (22 set 2026) ----
+    # Ferramenta so virou no do grafo em 22 set 2026; sem este bloco as 16 fichas
+    # apontam para cliente mas nao sao apontadas de volta por ninguem.
+    for area, rotulo in ((u"03_Produto-e-Solucoes", u"m\u00f3dulo contrat\u00e1vel da plataforma uMode"),
+                         (u"06_Tecnologia", u"sistema de terceiro (ERP/integra\u00e7\u00e3o do cliente)")):
+        fp = os.path.join(UMODE, area, u"_ferramentas")
+        if not os.path.isdir(fp):
+            continue
+        outro = (u"[sistemas de terceiro](../../06_Tecnologia/_ferramentas/_indice.md)"
+                 if area.startswith(u"03")
+                 else u"[m\u00f3dulos da uMode](../../03_Produto-e-Solucoes/_ferramentas/_indice.md)")
+        for f in sorted(os.listdir(fp)):
+            if not f.endswith(u".md") or f == u"_indice.md":
+                continue
+            b = [u"> Camada de liga\u00e7\u00e3o. **Gerada por `scripts/gera-conexoes.py`.**",
+                 u"",
+                 u"**Natureza:** " + rotulo + u".",
+                 u"",
+                 u"**As outras ferramentas desta classe:** [\u00edndice](_indice.md)",
+                 u"",
+                 u"**\u00c1rea da Casa que guarda esta ficha:** ["
+                 + bonito(area) + u"](../_contexto/contexto-area.md)",
+                 u"",
+                 u"**Institucional da Casa:** "
+                 u"[institucional.md](../../00_Institucional/_contexto/institucional.md)"]
+            if poe(os.path.join(fp, f), chr(10).join(b)):
+                tocados += 1
+        b = [u"> Camada de liga\u00e7\u00e3o. **Gerada por `scripts/gera-conexoes.py`.**",
+             u"",
+             u"**\u00c1rea da Casa:** [" + bonito(area) + u"](../_contexto/contexto-area.md)",
+             u"",
+             u"**O outro acervo de ferramenta:** " + outro,
+             u"",
+             u"**Institucional da Casa:** "
+             u"[institucional.md](../../00_Institucional/_contexto/institucional.md)"]
+        if poe(os.path.join(fp, u"_indice.md"), chr(10).join(b)):
+            tocados += 1
+
+
     print(u"arquivos com camada de conexão escrita/atualizada: %d" % tocados)
     return 0
 

@@ -102,8 +102,10 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 [`_varredura-2026-09-22c-painel-de-prontidao.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22c-painel-de-prontidao.md) ·
 [`_varredura-2026-09-22d-cx-hub-schema-e-placar.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22d-cx-hub-schema-e-placar.md) ·
 [`_varredura-2026-09-22e-permissionamento-e-perfis.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22e-permissionamento-e-perfis.md) ·
-[[`_varredura-2026-09-22f-caedu-notion-e-o-terceiro-acervo-de-atas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22f-caedu-notion-e-o-terceiro-acervo-de-atas.md) ·
-`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
+[`_varredura-2026-09-22f-caedu-notion-e-o-terceiro-acervo-de-atas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22f-caedu-notion-e-o-terceiro-acervo-de-atas.md) ·
+[`_varredura-2026-09-22g-ferramenta-vira-no-e-a-etapa-contradiz-o-status.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22g-ferramenta-vira-no-e-a-etapa-contradiz-o-status.md) ·
+[`_varredura-2026-09-22h-a-pagina-do-cliente-tem-cargo-e-area.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22h-a-pagina-do-cliente-tem-cargo-e-area.md) ·
+[`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
 [`_levantamento-2026-08-19-repos-e-prd.md`](uMode/00_Institucional/_contexto/_levantamento-2026-08-19-repos-e-prd.md) · [`_levantamento-2026-09-21-praticas-vault-e-caedu.md`](uMode/00_Institucional/_contexto/_levantamento-2026-09-21-praticas-vault-e-caedu.md) ·
 [`_decisoes-convergencia-proposta.md`](uMode/00_Institucional/_contexto/_decisoes-convergencia-proposta.md) ·
 ⚠ [`_recebido-2026-08-18-context-pack-brainhub-2.0.md`](uMode/00_Institucional/_contexto/_recebido-2026-08-18-context-pack-brainhub-2.0.md) — **documento externo, do João/Codex: não é
@@ -122,6 +124,26 @@ nosso e não se edita em hipótese nenhuma.**
 
 **4 classes de MD por cliente**, em `_contexto/`: `institucional.md` · `jornada.md` ·
 `pessoas.md` · `contexto-area.md` (×14 áreas). Mais `_demandas/`, `_rfis/`, `_pessoas/`.
+
+🔴 **Travado pelo Vinicius em 22 set 2026: ENTIDADE É ARQUIVO** — *"praticamente
+tudo que for uma entidade é arquivo? Ou seja, ferramenta, pessoas, empresas, áreas,
+demandas, RFIs, tudo... As reuniões, contextos gerais, e-mails, tudo isso vai estar de
+alguma forma ligada a esses nós maiores."* **Linha de tabela não é nó de grafo.**
+
+| Entidade | É arquivo? | Onde |
+|---|:-:|---|
+| Instituição | ✅ | `institucional.md` |
+| Área | ✅ | `contexto-area.md` |
+| Pessoa | ✅ | `_pessoas/` — gerado por `scripts/gera-fichas-pessoa.py` |
+| Demanda · RFI | ✅ | `_demandas/` · `_rfis/` |
+| Solução do portfólio | ✅ | `03_Produto-e-Solucoes/NN_Nome/_contexto/produto.md` |
+| **Ferramenta** | ✅ | [`03_Produto-e-Solucoes/_ferramentas/`](uMode/03_Produto-e-Solucoes/_ferramentas/_indice.md) — os **7 módulos da uMode** · [`06_Tecnologia/_ferramentas/`](uMode/06_Tecnologia/_ferramentas/_indice.md) — os **9 sistemas de terceiro**. Gerado por `scripts/gera-fichas-ferramenta.py` |
+| Reunião / ata | 🔴 **não** | 1.161 conhecidas, **nenhuma é arquivo** |
+| E-mail | 🔴 **não** | 92 conhecidos |
+| Agente | 🔴 **não** | 4 nomeados na Arquitetura V1 |
+
+🔴 **Criar entidade nova sem ficha é quebrar o modelo.** Os três ❌ são dívida
+aberta, não exceção — itens 318–328 do `_pendencias-gerais.md`.
 
 🔴 **Todo MD da mesma classe tem os mesmos títulos, sempre.** Conteúdo varia por cliente;
 **estrutura nunca varia.** Se o padrão mudar, **muda para a classe inteira, retroativamente.**

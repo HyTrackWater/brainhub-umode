@@ -29,6 +29,13 @@ import re
 import sys
 import collections
 
+# O console do Windows abre em cp1252 e MORRE ao imprimir o vermelho do relatorio.
+# Sem isto o validador falha justamente quando tem algo a dizer.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IGNORA = (u".git", u"scratchpad", u"node_modules")
 

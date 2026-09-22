@@ -35,9 +35,16 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLI = os.path.join(RAIZ, u"uMode", u"_Clientes")
 
 # Valores que aparecem na coluna de nome e NAO sao pessoa.
+# CORRECAO de 22 set 2026: `hermes` SAIU desta lista.
+# Eu o tinha filtrado presumindo que fosse o agente `Hermes` da uMode. A pagina
+# da NK STORE no Notion mostra `Hermes Goncalves Santiago Junior - Gerente de TI`,
+# pessoa real do cliente, com 5 demandas abertas. Presumir que um nome conhecido
+# num contexto e o mesmo nome noutro contexto e exatamente o erro que a regra de
+# ouro proibe. Homonimo entre agente e pessoa e problema de desambiguacao, e a
+# desambiguacao se faz com fonte - nunca com um filtro cego por string.
 NAO_PESSOA = set(u"""
 compras estilo sourcing merchan planejamento negocios treinamento contrato
-hermes ka smb interno time supply faccao qualidade cadastro comercial
+ka smb interno time supply faccao qualidade cadastro comercial
 """.split())
 
 
@@ -69,7 +76,72 @@ def e_pessoa(nome):
     return True
 
 
-def ficha(cliente, nome, demandas, pri, ult, obs):
+# ---------------------------------------------------------------------------
+# SEGUNDA FONTE: a pagina do cliente no Notion (toggle `Pessoas`).
+#
+# Achado de 22 set 2026: a base de demandas NAO e a unica fonte de pessoa, e
+# nao e a melhor. Cada pagina de cliente tem um toggle `Pessoas` com um
+# template de 4 blocos - Diretores/Representantes Legais, Responsavel pelo
+# Financeiro, Responsaveis pelos Projetos, Responsavel Tecnologia - e quando
+# esta preenchido traz NOME COMPLETO, CARGO e AREA.
+#
+# Ate 22 set 2026 eu afirmei que `cargo` e `area` nao tinham fonte no corpus
+# (item 285/315). Tinham. Eu nao tinha aberto a pagina do cliente.
+#
+# NAO ENTRA AQUI, por decisao de dado sensivel (AGORA.md secao 8.1):
+#   CPF, telefone pessoal e e-mail. Registro que existem e onde - nunca o valor.
+#
+# Formato: cliente -> [(nome como a pagina escreve, cargo, area, bloco)]
+DA_PAGINA = {
+    u"NK STORE": [
+        (u"Alexandre de S\u00e1 Pereira", u"Representante Legal",
+         u"Diretoria", u"Diretores e Representantes Legais"),
+        (u"Gustavo Annechino de Souza e Almeida", u"Representante Legal",
+         u"Diretoria", u"Diretores e Representantes Legais"),
+        (u"Silvia Shirlei Dias", u"Respons\u00e1vel pelo Financeiro",
+         u"Financeiro", u"Respons\u00e1vel pelo Financeiro"),
+        (u"Regiane Konopka", u"Diretora de Merchandising \u2014 Compras, Industrial e Compliance",
+         u"Merchandising", u"Diretoria Respons\u00e1vel pelo Projeto"),
+        (u"Larissa Cid Castilho Batista", u"Gerente de Projeto / Gerente de Produto",
+         u"`[a preencher]`", u"L\u00edderes Respons\u00e1veis pelo Projeto"),
+        (u"Marina Sacramento", u"PMO \u2014 Compradora de Produtos Acabados",
+         u"Compras", u"L\u00edderes Respons\u00e1veis pelo Projeto"),
+        (u"Stella Sunaga", u"Diretora de Estilo", u"Estilo",
+         u"L\u00edderes de Departamentos"),
+        (u"Samuel", u"Coordenador de Estilo", u"Estilo", u"L\u00edderes de Departamentos"),
+        (u"Julia", u"Coordenadora de Estilo", u"Estilo", u"L\u00edderes de Departamentos"),
+        (u"Robson Bazan", u"Gerente Industrial \u2192 PCP", u"PCP",
+         u"L\u00edderes de Departamentos"),
+        (u"Andressa", u"Coordenadora do PCP", u"PCP", u"L\u00edderes de Departamentos"),
+        (u"Bruna", u"Coordenadora do Planejamento", u"Planejamento",
+         u"L\u00edderes de Departamentos"),
+        (u"Hermes Gon\u00e7alves Santiago Junior", u"Gerente de TI", u"Tecnologia",
+         u"Respons\u00e1vel Tecnologia"),
+    ],
+}
+
+# Observacao por pessoa, quando a fonte diz algo que nao cabe em cargo/area.
+NOTA_PAGINA = {
+    (u"NK STORE", u"Larissa Cid Castilho Batista"): u"a fonte anota: *\"J\u00e1 implantou PLM em v\u00e1rias empresas\"*",
+    (u"NK STORE", u"Stella Sunaga"): u"a fonte anota: *\"H\u00e1 10 anos na empresa\"*",
+    (u"NK STORE", u"Andressa"): u"\u26a0 a fonte anota: *\"Se ela est\u00e1 feliz com o projeto, estamos bem\"* \u2014 **\u00e9 termometro de projeto, dito pela pr\u00f3pria uMode**",
+}
+
+
+def casa_pagina(cliente, nome_curto):
+    u"""Acha o registro da pagina para um nome da base de demandas.
+
+    A base de demandas escreve primeiro nome (`Andressa`); a pagina escreve nome
+    completo (`Hermes Goncalves Santiago Junior`). Caso o primeiro nome bata com
+    MAIS DE UM registro, devolve None: ambiguidade se declara, nao se resolve no
+    palpite (mesma regra da secao 9 do protocolo).
+    """
+    alvo = slug(nome_curto)
+    hits = [r for r in DA_PAGINA.get(cliente, ()) if slug(r[0]).split(u"-")[0] == alvo]
+    return hits[0] if len(hits) == 1 else None
+
+
+def ficha(cliente, nome, demandas, pri, ult, obs, pag=None):
     L = []
     L.append(u"# %s · Pessoa · %s" % (cliente, nome))
     L.append(u"")
@@ -82,17 +154,36 @@ def ficha(cliente, nome, demandas, pri, ult, obs):
     L.append(u"### Foto")
     L.append(u"`[a preencher]`")
     L.append(u"### Nome completo")
-    L.append(u"`[a preencher]` — a fonte registra **`%s`**" % nome)
+    if pag:
+        L.append(u"**%s** \u2014 da p\u00e1gina do cliente. A base de demandas a escreve como `%s`."
+                 % (pag[0], nome))
+    else:
+        L.append(u"`[a preencher]` \u2014 a fonte registra **`%s`**" % nome)
     L.append(u"### Nome preferido / como é chamado(a)")
     L.append(u"**%s**" % nome)
     L.append(u"### Email")
-    L.append(u"`[a preencher]`")
+    if pag:
+        L.append(u"\U0001F534 **Existe na p\u00e1gina do cliente e N\u00c3O foi replicado aqui.**")
+        L.append(u"Mesma decis\u00e3o vale para telefone e CPF \u2014 `AGORA.md` \u00a7 8.1.")
+        L.append(u"**Registro que existe e onde; o valor fica na fonte.**")
+    else:
+        L.append(u"`[a preencher]`")
     L.append(u"### Cadeira / cargo atual")
-    L.append(u"`[a preencher]` — 🔴 **nenhuma fonte varrida traz cargo de pessoa de cliente**")
+    if pag:
+        L.append(u"**%s**" % pag[1])
+        L.append(u"")
+        L.append(u"Fonte: p\u00e1gina do cliente no Notion, toggle `Pessoas` \u203a `%s`." % pag[3])
+    else:
+        L.append(u"`[a preencher]` \u2014 \u26a0 **esta pessoa n\u00e3o aparece no toggle `Pessoas` da")
+        L.append(u"p\u00e1gina do cliente**, que \u00e9 onde o cargo vive quando existe.")
     L.append(u"### Nível HIC")
     L.append(u"⚠ **não se aplica** — é campo da Casa uMode")
-    L.append(u"### Área (organizacional)")
-    L.append(u"`[a preencher]` — 🔴 **o vínculo pessoa↔área é a lacuna aberta do corpus**")
+    L.append(u"### \u00c1rea (organizacional)")
+    if pag:
+        L.append(u"**%s** \u2014 \u26a0 **como a fonte a nomeia**, n\u00e3o necessariamente uma das" % pag[2])
+        L.append(u"14 \u00e1reas can\u00f4nicas. **N\u00e3o mapeei para a grade** sem sua confirma\u00e7\u00e3o.")
+    else:
+        L.append(u"`[a preencher]` \u2014 \U0001F534 **o v\u00ednculo pessoa\u2194\u00e1rea \u00e9 a lacuna aberta do corpus**")
     L.append(u"### Data de entrada na uMode")
     L.append(u"⚠ **não se aplica** — pessoa de cliente")
     L.append(u"### Status na uMode")
@@ -169,6 +260,7 @@ def main():
         if not os.path.isdir(destino):
             os.makedirs(destino)
         n_cli = 0
+        usados = set()
         for linha in bloco.split(u"\n"):
             if not linha.startswith(u"| ") or linha.startswith(u"|---") or u"Demandas |" in linha:
                 continue
@@ -178,9 +270,26 @@ def main():
             nome = cels[0]
             if not e_pessoa(nome):
                 continue
+            pag = casa_pagina(c, nome)
+            if pag:
+                usados.add(pag[0])
             p = os.path.join(destino, slug(nome) + u".md")
             novo = ficha(c, nome, cels[1], cels[2], cels[3],
-                         cels[4] if len(cels) > 4 else u"")
+                         cels[4] if len(cels) > 4 else u"", pag)
+            if os.path.exists(p) and io.open(p, encoding="utf-8").read() == novo:
+                continue
+            io.open(p, "w", encoding="utf-8", newline="").write(novo)
+            criadas += 1
+            n_cli += 1
+        # Pessoa que aparece na PAGINA do cliente e nunca abriu demanda
+        # tambem e pessoa. Ate aqui ela nao existia no corpus: a base de
+        # demandas era a unica fonte, e quem nao abre chamado ficava invisivel.
+        for r in DA_PAGINA.get(c, ()):
+            if r[0] in usados:
+                continue
+            p = os.path.join(destino, slug(r[0]) + u".md")
+            novo = ficha(c, r[0], u"0", u"", u"",
+                         u"nao aparece na base de demandas", r)
             if os.path.exists(p) and io.open(p, encoding="utf-8").read() == novo:
                 continue
             io.open(p, "w", encoding="utf-8", newline="").write(novo)
