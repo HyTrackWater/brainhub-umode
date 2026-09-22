@@ -2943,3 +2943,29 @@ caminho).
   set** para **48 de 48**, **12 clientes com as 8 dimensões respondidas**, **92 pessoas com
   e-mail**, **7 bases varridas**, **71 `.md` estruturais classificados** e **2 verificadores**.
   Itens 278–285.
+
+- **22 set 2026** — Sessão 39: **o modelo de permissionamento achado, e o perfil é a área.**
+  Instrução: *"acessa tudo no Notion dentro dos clientes."* Escrito o
+  `_varredura-2026-09-22e-permissionamento-e-perfis.md`.
+  🟢 **O modelo de permissionamento da uMode está declarado, e é simples:** *"pode ser
+  configurado de duas formas: **Inclusão** — tudo que o perfil **pode** fazer; **Restrição** —
+  tudo que **NÃO pode**"*. Allowlist e denylist por perfil, com granularidade por campo e tela.
+  **É a primeira definição de modelo de permissão achada em qualquer fonte** — e **confronta o
+  CX Hub**, onde o default é todo mundo ver tudo.
+  🟢 **O perfil de usuário É a área do cliente** — **nona fonte de vínculo pessoa↔área**, e a
+  mais estruturada, porque é o que o sistema aplica. **12 clientes têm permissionamento
+  documentado.** A **NV tem 13 perfis**, lidos e aplicados no corpus.
+  🔴 **Mas o campo de perfil mistura área com nível de acesso** (`Geral`, `Master`, `View`,
+  `Planner 2` não são área) — **mesmo defeito do `Status` de cliente.** E **a convenção de nome
+  é de cada cliente**: `NV - Estilo`, `Vix-Estilo`, `Lofty - Estilo`, `Objetiva - Estilo`,
+  `NK - Estilo Master` e a **Baw sem prefixo** — **cinco grafias para a mesma área.**
+  🔴 **Achada uma árvore de documentação que o corpus nunca mencionou:**
+  `uFlow / Documentação de Setup - PLM / CLIENTES`, com 9 clientes — ⚠ **mas quase toda
+  esqueleto: a pasta da CAEDU está VAZIA e a do StudioZ tem uma sub-página só.**
+  🟢 **E a primeira conciliação completa pessoa ↔ e-mail ↔ área ↔ permissão da carteira:**
+  `Vanessa Sousa` e `Karine Pires`, *"time de Cadastro"*, com permissão nominal de editar
+  Variantes, NCM e COMPOSIÇÃO — e os e-mails batem com a base de chamados. **Aplicado na Reserva.**
+  🔴 **O elo que falta ficou nomeado:** a atribuição **perfil↔pessoa**. A Moda Objetiva cita uma
+  *"Planilha de e-mail dos usuários"*, **não aberta**. **Se ela ligar e-mail a perfil, fecha
+  `pessoa → perfil → área → permissão`** — **é o próximo passo de maior rendimento do corpus.**
+  Itens 286–293.

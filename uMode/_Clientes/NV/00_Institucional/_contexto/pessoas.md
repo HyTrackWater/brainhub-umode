@@ -118,6 +118,40 @@ especifica como integração, em vez de tabela transcrita à mão.
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+
+#### 🟢 Os 13 perfis de usuário — lidos em 22 set 2026 `[C]`
+
+**O perfil de usuário é a área que o sistema realmente aplica.** Fonte:
+`uFlow / Documentação de Setup - PLM / CLIENTES / NV / [NV] Permissionamento`.
+
+| Perfil | É área? |
+|---|---|
+| `NV - Estilo` | área → `02_Estilo-Criacao` |
+| `NV - Compras` | área → `06_Compras-Supply-Sourcing` |
+| `NV - PCP` | área |
+| `NV - Marketing` | área → `10_Marketing` |
+| `NV - Planejamento Comercial` | área → `09_Comercial-Vendas` |
+| `NV - Planner` | área |
+| ⚠ `NV - Qualidade` | **área sem contraparte canônica** |
+| ⚠ `NV - Atacado` | **área sem contraparte canônica** |
+| ⚠ `NV - Logística` | **área sem contraparte canônica** |
+| 🔴 `NV - Geral` | **nível de acesso, não área** |
+| 🔴 `NV - Master` | **nível de acesso** |
+| 🔴 `NV - View` | **nível de acesso** |
+| 🔴 `NV - Planner 2` | **variante de privilégio do `Planner`** |
+
+> 🔴 **O campo de perfil mistura área com nível de acesso** — mesmo defeito do `Status` de
+> cliente. **Para o banco, `area` e `accessLevel` precisam ser campos separados.**
+
+**E o modelo de permissionamento da uMode está declarado nesta página:** duas formas —
+**`Inclusão`** (tudo que o perfil **pode**) e **`Restrição`** (tudo que **não pode**) — com
+granularidade por campo e tela (🟢 ver e editar · 🟡 parcial · 🔴 nem ver).
+
+⚠ **As 13 páginas de perfil NÃO foram abertas** — tenho os nomes, **não a matriz de permissão**.
+
+Evidência em [`_varredura-2026-09-22e-permissionamento-e-perfis.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22e-permissionamento-e-perfis.md).
+
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

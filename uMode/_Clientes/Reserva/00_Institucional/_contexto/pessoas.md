@@ -129,6 +129,30 @@ nesta conta** — só há quem agiu e quem foi citado.
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+
+#### 🟢 Duas pessoas com área E permissão explícitas — 22 set 2026 `[C]`
+
+A página `✍🏻 Trava de Ficha`
+(`uFlow / Documentação de Setup - PLM / CLIENTES / RESERVA / CENTRAL DE DOCUMENTAÇÕES`) registra:
+
+> *"**Vanessa Sousa e Karine Pires** (**time de Cadastro**) tem acesso para editar/incluir
+> Variantes (incluindo os campos NCM e COMPOSIÇÃO)"*
+
+| Pessoa | E-mail | Área | Permissão |
+|---|---|---|---|
+| **Vanessa Sousa** | `vanessa.sousa@usereserva.com` | **time de Cadastro** | editar/incluir Variantes, NCM e COMPOSIÇÃO |
+| **Karine Pires** | `karine.pires@usereserva.com` | **time de Cadastro** | idem |
+
+> 🟢 **São as duas únicas pessoas da carteira inteira com nome + e-mail + área + permissão
+> conciliados.** Os e-mails vieram da base de chamados e batem com os nomes desta página.
+>
+> ⚠ **`karine.pires` aparecia na base de chamados sob Oficina Reserva.** Esta página a coloca na
+> **Reserva**. **Não é confirmação definitiva** — as duas contas são do mesmo ecossistema —
+> **mas o peso mudou.**
+
+Evidência em [`_varredura-2026-09-22e-permissionamento-e-perfis.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22e-permissionamento-e-perfis.md).
+
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

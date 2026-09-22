@@ -112,7 +112,8 @@ Instituição (Casa uMode OU Cliente)
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50/50 · 49/49 · 49/49** |
 | Atas de reunião lidas por inteiro | **8 de 1.161** |
 | `.md` estruturais, todos classificados | **68/68** |
-| Decisões pendentes registradas | **285** |
+| Decisões pendentes registradas | **293** |
+| Clientes com permissionamento documentado | **12** |
 | Bases do Notion varridas | **7** |
 | Clientes com as 8 dimensões respondidas | **12 de 48** |
 | Pessoas de cliente com e-mail individual | **92** · janela de jan/2026 |

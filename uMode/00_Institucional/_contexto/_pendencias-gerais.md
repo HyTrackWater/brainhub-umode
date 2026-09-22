@@ -2158,3 +2158,40 @@
      🔴 **Se não existe fonte, isto não é lacuna de varredura — é dado a ser criado.**
      **E sem ele não há permissionamento por área.** **É pergunta para o Vinicius, não tarefa
      para mim.**
+
+## Permissionamento e perfil como área (22 set 2026)
+
+286. **🟢 O MODELO DE PERMISSIONAMENTO DA uMODE ESTÁ DECLARADO.** Da página
+     `[NV] Permissionamento`: *"o permissionamento pode ser configurado de duas formas:
+     **Inclusão** (tudo que o perfil **pode** fazer) e **Restrição** (tudo que **NÃO pode**)"*.
+     **Allowlist e denylist, escolhidas por perfil**, com granularidade por campo e por tela
+     (🟢 ver e editar · 🟡 parcial · 🔴 nem ver). **É a primeira definição de modelo de permissão
+     achada em qualquer fonte.** 🔴 **E confronta o CX Hub**, onde o default é todo mundo ver
+     tudo (item 280). **Decidir qual vale para o BrainHub.**
+287. **🟢 O PERFIL DE USUÁRIO É A ÁREA DO CLIENTE** — **nona fonte de vínculo pessoa↔área**, e a
+     mais estruturada, porque é o que o sistema aplica. **12 clientes têm permissionamento
+     documentado.** A NV tem **13 perfis nominais**, lidos na página.
+288. **🔴 O campo de perfil mistura área com nível de acesso.** Na NV, `Geral`, `Master`, `View` e
+     `Planner 2` **não são área, são privilégio** — **mesmo defeito do `Status` de cliente.**
+     **Separar `area` de `accessLevel` no modelo de perfil.**
+289. **🔴 A convenção de nome de perfil é de cada cliente:** `NV - Estilo`, `Vix-Estilo`,
+     `Lofty - Estilo`, `Objetiva - Estilo`, `NK - Estilo Master` e a **Baw sem prefixo**
+     (`Estilo`). **Cinco grafias para a mesma área.** **`profile.name` não serve de chave de
+     área** — precisa de `area_id` normalizado. Confirma o achado da Puket.
+290. **⚠ `Qualidade`, `Atacado` e `Logística` aparecem como perfil na NV e não têm área
+     canônica** na grade de 14. Somam-se a `Merchandising`, `Precificação` e produção interna.
+291. **🔴 Uma árvore de documentação que o corpus nunca mencionou:**
+     `uFlow / Documentação de Setup - PLM / CLIENTES (Em desenvolvimento)`, com **9 clientes**
+     (NV, RESERVA, BAW, OFICINA, VIX, StudioZ, PUKET, CAEDU, NK Store). ⚠ **Mas é quase toda
+     esqueleto:** NV e RESERVA têm conteúdo real; **StudioZ tem uma sub-página; a CAEDU está
+     VAZIA.** **5 das 9 não foram abertas.**
+292. **🟢 PRIMEIRA CONCILIAÇÃO COMPLETA pessoa ↔ e-mail ↔ área ↔ permissão.** A página
+     `Trava de Ficha` da Reserva diz: *"**Vanessa Sousa e Karine Pires** (**time de Cadastro**)
+     tem acesso para editar/incluir Variantes"* — e as duas batem com
+     `vanessa.sousa@usereserva.com` e `karine.pires@usereserva.com` da base de chamados.
+     ⚠ **E isso reequilibra o item 266:** `karine.pires` aparecia sob Oficina Reserva na base de
+     chamados; esta página a coloca na **Reserva**. **Sem confirmação definitiva, mas o peso mudou.**
+293. **🔴 O ELO QUE FALTA PARA FECHAR A CORRENTE: a atribuição perfil↔pessoa.** A página da
+     Moda Objetiva cita uma **"Planilha de e-mail dos usuários"** — **não aberta**. **Se ela ligar
+     e-mail a perfil, fecha `pessoa → perfil → área → permissão`** e resolve o item 285.
+     🔴 **É o próximo passo de maior rendimento do corpus inteiro.**
