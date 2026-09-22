@@ -86,6 +86,24 @@ e nenhuma pode ser conciliada com a base de usuários da plataforma.** `[C]`
 ⚠ **`Vanessa`** aparece na pauta de 09/10/2025 (*"agenda tabela de medidas — sexta 13hs com
 Vanessa"*) — **não dá para dizer se é da Recco ou da uMode.** Não listada acima.
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Vitor | 13 | 10/09/2025 | 02/10/2025 | ⚠ também `vitor`, `Victor`, `Vitor Daniel` |
+| Patricia | 11 | 18/07/2025 | 16/10/2025 | ⚠ também `Patrícia` (7) e `Paty` (2) |
+| Priscila | 1 | 10/09/2025 | 10/09/2025 | — |
+| Flávia | 1 | 10/09/2025 | 11/09/2025 | também `Flavia` |
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

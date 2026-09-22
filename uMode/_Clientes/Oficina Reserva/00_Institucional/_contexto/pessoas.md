@@ -78,6 +78,27 @@ desta conta · **Holmer** — nomeado responsável pelos próximos passos.
 > 🔴 **A página `Perfil de Usuário e Permissionamentos OFICINA` existe e não foi varrida.**
 > **É a próxima fonte desta conta**, e provavelmente resolve as três linhas acima.
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Mari | 7 | 14/07/2025 | 01/12/2025 | ⚠ também `Mariane` (4) |
+| Joyce | 3 | 19/09/2025 | 02/04/2026 | também `Joyce Dias` |
+| Nicole Maia | 2 | 26/03/2026 | 02/04/2026 | — |
+| Leandro | 1 | 24/03/2026 | 24/03/2026 | — |
+| Bia | 1 | 28/08/2025 | 28/08/2025 | — |
+| Pamela | 1 | `[a preencher]` | `[a preencher]` | — |
+| Ana Paula Queiroz | 1 | `[a preencher]` | `[a preencher]` | *"via chat"* |
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

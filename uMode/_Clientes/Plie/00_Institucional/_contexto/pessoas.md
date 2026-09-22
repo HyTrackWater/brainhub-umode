@@ -43,6 +43,25 @@
 |---|---|---|---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Carol | 3 | 04/12/2025 | 15/12/2025 | — |
+| Denize | 3 | 05/11/2025 | 05/11/2025 | sempre junto de `Carol` |
+| Jéssica | 3 | 05/11/2025 | 05/11/2025 | sempre junto de `Carol` e `Denize` |
+
+🔴 **A conta está em `Churn` e teve demanda até 15/12/2025, e reunião até 09/04/2026.**
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

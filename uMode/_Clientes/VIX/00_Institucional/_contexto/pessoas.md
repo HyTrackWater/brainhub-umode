@@ -105,6 +105,28 @@ VIX**, mas foi aberto por **`vinicius.dias@bynv.com.br`** — **que é da NV**.
 > é na fonte**. Para o modelo, reforça que **`organizationId` tem que sair do domínio do e-mail
 > conferido contra a relação, nunca só da relação.**
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Luana Henriques | 27 | 28/03/2025 | 24/03/2026 | 🔴 **maior solicitante nomeada da carteira** |
+| Luana | 11 | 15/09/2025 | 26/03/2026 | 🔴 **não sei qual das duas Luanas** — ver nota |
+| Evelyn | 3 | 13/03/2026 | 13/03/2026 | sempre junto de `Luana` |
+| Catherine | 3 | 23/01/2026 | 23/01/2026 | — |
+| Priscilla | 1 | 26/02/2026 | 26/02/2026 | — |
+| Luana Carmo | 1 | `[a preencher]` | `[a preencher]` | 🔴 **segunda Luana** |
+
+🔴 **A fonte registra literalmente `Luana Henriques & Luana Carmo` — são DUAS pessoas.** O nome curto `Luana`, com 11 demandas, **não diz qual das duas.** **Não unifiquei.**
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

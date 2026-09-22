@@ -100,6 +100,35 @@ nesta conta** — só há quem agiu e quem foi citado.
 > campo `disclosurePolicy` na
 > [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Raquel | 11 | `[a preencher]` | `[a preencher]` | — |
+| thamires | 6 | `[a preencher]` | `[a preencher]` | grafada em minúscula na fonte |
+| Vanessa | 3 | 11/09/2025 | 29/12/2025 | também *"Vanessa - Grupo whatsapp"* |
+| Priscila | 2 | 08/12/2025 | 08/12/2025 | `Priscila Cordeiro` |
+| Simone Mendes | 1 | 05/06/2025 | 05/06/2025 | — |
+| Karine | 1 | 26/02/2026 | 26/02/2026 | — |
+| Wallace | 1 | `[a preencher]` | `[a preencher]` | — |
+| Justen | 1 | `[a preencher]` | `[a preencher]` | — |
+| Glaucia | 1 | `[a preencher]` | `[a preencher]` | — |
+| Brendon | 1 | 09/05/2025 | 09/05/2025 | — |
+| Thais | 1 | 24/09/2025 | 24/09/2025 | — |
+| Ana Paula | 1 | `[a preencher]` | `[a preencher]` | *"Perfil Reserva Leitura"* |
+| `engenharia1@indorf.com.br` | 1 | `[a preencher]` | `[a preencher]` | 🔴 **domínio de terceiro** — não é da Reserva |
+
+🔴 **`Sourcing` (6) e `Merchan` (5) aparecem como solicitante** — são **áreas**, e `Merchan` é o terceiro caso de `Merchandising` na carteira.
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

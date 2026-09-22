@@ -47,6 +47,25 @@
 | `[a preencher]` | `rodrigo.oliveira@bawclothing.com.br` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **16/01/2026** | *Material travado* |
 | `[a preencher]` · **externo** | `desenvolvimento@eczoz.com.br` | externo | `ATIVO_SEM_CADASTRO` | chamado em **08/01/2026** | *fotos do produto sumiram* · **`Em Aberto`** |
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Mariana Basso | 5 | 19/01/2026 | 27/04/2026 | — |
+| Mari | 5 | 18/09/2025 | 02/02/2026 | ⚠ também `Mariana` (4) e `Mariane` (1) |
+| Rejane | 1 | `[a preencher]` | `[a preencher]` | — |
+
+🔴 **A conta é `Sem CS` — o SKU em que ninguém atende — e tem 18 demandas de pessoas nomeadas.** **Quinta evidência de que a classificação está errada.**
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

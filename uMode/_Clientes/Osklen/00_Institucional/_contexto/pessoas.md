@@ -193,6 +193,39 @@ Mesmo padrão da VIX (`Biquini`, `Cover ups`, `Roupas`, `PA`) — **aqui `Sneake
 > → **Mesma preocupação da Oficina Reserva**, que registra *"má reputação entre as Fornecedores
 > e Qualitá por não usarem uMode"*. **Dois clientes do mesmo grupo de atendimento.**
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Ana | 12 | 03/10/2025 | 10/04/2026 | também `Ana Claudia` (1) |
+| Maria Clara | 6 | 22/09/2025 | 10/10/2025 | — |
+| Thais Pantaleão | 5 | 29/08/2025 | 03/10/2025 | 🔴 **8 grafias na fonte** |
+| Priscila | 4 | 02/10/2025 | 13/02/2026 | também `Priscila Retucci` (1) |
+| Thayssa | 3 | 05/01/2026 | 22/04/2026 | ⚠ pode ou não ser a mesma que `Thais Pantaleão` |
+| Marcelle | 3 | 05/01/2026 | 27/04/2026 | — |
+| Mariana Maia | 2 | 22/09/2025 | 22/09/2025 | também `Mari maia`, `Mari` |
+| Karina Mello | 1 | 10/09/2025 | 10/09/2025 | também `Karina` |
+| Mariana Brodback | 1 | 09/01/2026 | 09/01/2026 | — |
+| Bruno Soares | 1 | 24/09/2025 | 24/09/2025 | também `Bruno` |
+| Luciano | 1 | 24/09/2025 | 24/09/2025 | — |
+| Veronica | 1 | 15/10/2025 | 15/10/2025 | — |
+| Raquel Gomes | 1 | `[a preencher]` | `[a preencher]` | — |
+| Caroline Dantas | 1 | `[a preencher]` | `[a preencher]` | — |
+| Márcia | 1 | 29/08/2025 | 29/08/2025 | *"Reunião Key Users"* |
+| Anderson | 1 | 09/04/2026 | 09/04/2026 | *"Anderson supply"* — área colada no nome |
+| Andreza | 2 | 30/03/2026 | 30/03/2026 | *"Andreza (masculino)"* — anotação da fonte |
+
+🔴 **É a conta com mais grafias de nome da carteira.** `Negócios` e `Treinamento` também aparecem como solicitante — são **áreas**.
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

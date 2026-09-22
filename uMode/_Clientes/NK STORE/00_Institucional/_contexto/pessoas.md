@@ -241,6 +241,38 @@ fora da plataforma** — o que explica por que os chamados chegam por e-mail e c
 
 > ⚠ **A base de usuários foi criada em 13/03/2025 e a última data nela é de 10/03/2025.** Os chamados são de **jan/2026** — dez meses depois. **A base parou de ser mantida**, e essas quatro pessoas são a prova.
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Cris | 12 | 12/12/2024 | 31/10/2025 | ⚠ variante de grafia |
+| Cristina | 9 | 06/05/2025 | 23/04/2026 | ⚠ variante de grafia |
+| Vanessa | 6 | 18/12/2024 | 25/02/2025 | — |
+| Nathalia | 6 | 12/12/2024 | 29/01/2026 | — |
+| Julia | 6 | 12/12/2024 | 19/12/2024 | — |
+| Andressa | 6 | 12/12/2024 | 19/09/2025 | também `Andressa Correa` (1) |
+| **Hermes** | 5 | 29/07/2025 | 18/03/2026 | 🔴 **é um AGENTE de IA, não pessoa** |
+| Maria Cristina | 3 | 10/03/2025 | 28/04/2025 | ⚠ variante de grafia |
+| Larissa | 3 | 12/12/2024 | 19/12/2024 | — |
+| Cristiane | 3 | 09/05/2025 | 06/06/2025 | ⚠ variante de grafia |
+| Bruna | 3 | 12/03/2025 | 12/06/2025 | — |
+| Kemely | 2 | 20/06/2025 | 10/10/2025 | ⚠ também `Kemelly` (2) e `Kemmely` (1) |
+| Caroline Silva | 2 | 17/09/2025 | 17/09/2025 | — |
+| Thais | 1 | 06/03/2025 | 06/03/2025 | — |
+| Isabelly | 1 | 08/05/2026 | 08/05/2026 | **a mais recente da conta** |
+| Carolina Teixeira | 1 | 23/04/2026 | 23/04/2026 | com `Natalia` |
+
+⚠ **`Compras` e `Estilo` também aparecem** como solicitante — são **áreas**, não pessoas.
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

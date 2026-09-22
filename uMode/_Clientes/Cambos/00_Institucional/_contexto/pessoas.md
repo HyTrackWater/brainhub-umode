@@ -123,6 +123,25 @@ produção interna. **Mesmo nome, escopo diferente. Não traduzi.**
 > **Valter tem um e-mail em cada** — **prova de que o domínio é pista, não chave.** Reforça
 > `alternateEmails` e `orgLayer` na espec.
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Louise | 9 | 04/02/2025 | 09/03/2026 | — |
+| Carol | 8 | 15/10/2025 | 20/03/2026 | — |
+| Fabi | 6 | 31/01/2025 | 28/10/2025 | ⚠ também `Fabiane` (2) |
+
+⚠ **`Contrato` aparece como solicitante** em 2 demandas — não é pessoa.
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

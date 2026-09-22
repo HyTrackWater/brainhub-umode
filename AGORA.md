@@ -98,6 +98,7 @@ Instituição (Casa uMode OU Cliente)
 | **Carteira inteira** | 22 set 2026 | **48 de 48 clientes** · taxonomia de `Status` travada |
 | **Base de reuniões** | 22 set 2026 | 1.161 reuniões achadas · Recco e Luiza Barcelos varridas |
 | **Modelo de documentação** | 22 set 2026 | **8 classes travadas · manifesto declarado no `START.md` § 1 · verificável por script** |
+| **Pessoas e ferramentas** | 22 set 2026 | **enum de 7 módulos · atendimento de 17 contas · razão de pessoas datado em 17 clientes** |
 
 **Cobertura hoje, medida:**
 
@@ -111,30 +112,38 @@ Instituição (Casa uMode OU Cliente)
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50/50 · 49/49 · 49/49** |
 | Atas de reunião lidas por inteiro | **8 de 1.161** |
 | `.md` estruturais, todos classificados | **68/68** |
-| Decisões pendentes registradas | **248** |
+| Decisões pendentes registradas | **256** |
+| Clientes com razão de pessoas datado | **18 de 48** |
 
 ## 6 · O que está sendo feito agora
 
-🔵 **Frente ativa: contextualização total do projeto CAEDU**, para atualizar o cérebro daquela
-empresa e preparar a semana seguinte.
+🔵 **Frente ativa: varredura transversal da carteira** — pessoas, áreas e ferramentas
+contratadas, a partir das fontes do Notion já liberadas.
 
-- **Combinado com o Vinicius em 22 set 2026.** Ele vai entregar a lista de fontes de contexto da
-  CAEDU — propostas, nomes, escopo, reuniões.
-- **A CAEDU já foi varrida uma vez** (19–21 set, commits `525a27b` e `3dd8ae8`): 47 MDs,
-  14/14 áreas, 93 usuários em 14 perfis, 18 marcos datados. **Esta frente é aprofundamento, não
-  recomeço.**
-- ⚠ **Haverá dado sensível de proposta comercial.** Tratamento acordado em § 8.
+- **A rota mudou em 22 set 2026.** A frente da CAEDU **está pausada**: quem vai entregar as
+  transcrições e arquivos **ainda não liberou o acesso**. O Vinicius pediu para retomar a
+  varredura de **todos** os clientes enquanto isso.
+- **Já feito nesta frente:** enum completo de **7 módulos** com quem tem o quê · mapa de
+  **atendimento** das 17 contas ativas · **razão de pessoas datado em 17 clientes**, do campo
+  `Quem solicitou?` das 985 demandas.
+- 🔴 **A CAEDU mudou de `Ongoing` para `Onboarding` em 22/09/2026, às 15:04** — entre duas
+  leituras minhas do mesmo dia. **Perguntar o motivo antes de retomar a frente dela.**
+- ⚠ **Quando o acesso da CAEDU sair**, o tratamento de dado sensível está definido em § 8.1.
 
 ## 7 · Próximos passos, em ordem
 
-1. 🔵 **Receber e organizar as fontes de contexto da CAEDU** — é a frente ativa.
-2. 🚨 **Rotacionar as duas credenciais expostas** — NK STORE (banco de produção) e Lofty Style.
-   **É o único item com prazo de segurança.**
-3. 🚨 **Varrer credencial nas 1.153 atas não abertas.**
-4. 🔴 **Criar o campo `Data de Churn`** — sem ele não há tempo de vida de cliente nem taxa de
-   churn por coorte. **É a lacuna mais cara do corpus.**
-5. 🔴 **As 121 reuniões não lidas da Luiza Barcelos** (2024–2025).
-6. 🔴 **Reconciliar as duas listas de cliente do Notion**, nos dois sentidos.
+1. 🔵 **Resolver o campo `Participantes` das 1.161 reuniões** — são IDs de usuário do Notion;
+   resolver com `get-users` dá **presença nominal com data**, a melhor fonte de pessoa ativa que
+   ainda não foi extraída.
+2. 🔵 **Varrer as páginas de cliente dos 27 sem demanda** — para eles a varredura de pessoas
+   **não acrescentou nada**, e a página é a única fonte restante.
+3. 🚨 **Credenciais:** as duas expostas (NK STORE, Lofty Style) **e a varredura das 1.153 atas
+   não abertas**.
+4. 🔴 **Perguntar ao Vinicius por que a CAEDU virou `Onboarding` hoje.**
+5. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.
+6. 🔴 **Decidir a chave de identidade de pessoa** (item 252) — sem ela, as grafias não têm
+   como ser resolvidas sem inventar gente.
+7. 🔵 **Retomar a CAEDU** assim que o acesso sair.
 
 ## 8 · Decisões esperando o Vinicius
 

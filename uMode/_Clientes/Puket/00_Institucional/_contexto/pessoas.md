@@ -267,6 +267,23 @@ verificando se é possível."* — **em aberto até hoje.**
 | maria.germano | `maria.germano@grupounico.com` | [transversal] | `CADASTRADO` | acesso ao PLM desde 24/05/2022 | — |
 | vinicius.cesar | `vinicius.cesar@grupounico.com` | [transversal] | `CADASTRADO` | acesso ao PLM desde 04/10/2022 | — |
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Catarina | 5 | 17/07/2025 | 13/01/2026 | — |
+| Vanessa | 3 | 10/07/2025 | 13/11/2025 | ⚠ também `Vanesssa` (1), com três esses |
+| Andrea Nunes | 1 | 16/04/2026 | 16/04/2026 | **a mais recente da conta** |
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

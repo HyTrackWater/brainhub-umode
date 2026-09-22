@@ -91,6 +91,33 @@ usuários do PLM**, que é exatamente o que a
 [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md)
 especifica como integração, em vez de tabela transcrita à mão.
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Vinicius | 7 | 26/02/2026 | 26/02/2026 | também `Vinicius Dias` (2) |
+| Karina | 3 | 16/04/2025 | 16/04/2025 | — |
+| Thais | 2 | 21/10/2025 | 21/10/2025 | — |
+| Érika Leutério | 1 | 08/10/2025 | 08/10/2025 | — |
+| Camila | 1 | 06/10/2025 | 06/10/2025 | ⚠ uma via **chat do Gist**, com URL na fonte |
+| Giulia | 1 | 16/04/2025 | 16/04/2025 | — |
+| Bruna | 1 | 16/04/2025 | 16/04/2025 | — |
+| Milena | 1 | `[a preencher]` | `[a preencher]` | — |
+| Bia Junqueira | 1 | `[a preencher]` | `[a preencher]` | — |
+| Daniela | 1 | `[a preencher]` | `[a preencher]` | com `Vinicius` e `Stéfany` |
+| Stéfany | 1 | `[a preencher]` | `[a preencher]` | — |
+| Catherine | 1 | `[a preencher]` | `[a preencher]` | com `Priscila` |
+| José | 1 | 17/03/2026 | 17/03/2026 | com `Matheus Fresato` |
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

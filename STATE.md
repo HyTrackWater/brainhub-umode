@@ -2808,3 +2808,28 @@ caminho).
   governanças em contradição**, resolvida com emenda datada que preserva o texto original; e o
   `propaga.py` vivia no **scratchpad, que morre com a sessão** — promovido a
   `scripts/valida-padrao-corpus.py`, com caminho portável.
+
+- **22 set 2026** — Sessão 34: **varredura transversal de pessoas, áreas e ferramentas.**
+  O Vinicius mudou a rota — o acesso às fontes da CAEDU ainda não foi liberado — e pediu para
+  **retomar a varredura de todos os clientes**: *"puxarmos tudo — pessoas, áreas, quais
+  ferramentas têm contratada."* Escrita a
+  `_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md` (classe `REGISTRO`).
+  🔴 **A base foi editada HOJE em 17 clientes — e a CAEDU mudou de `Ongoing` para `Onboarding`
+  às 15:04, entre duas leituras minhas do mesmo dia.** **É a prova mais forte possível da regra
+  "fonte viva, nunca export": um export de hoje de manhã já estaria errado à tarde.** Não sei o
+  motivo e não presumo — **precisa ser perguntado**, porque a CAEDU é a conta da próxima frente.
+  **Ferramentas contratadas, enum completo de 7:** `Gestão de Coleção` (universal) · `Integração` ·
+  `Relatórios` · `Fornecedores` · `Cronograma` · `Aposta` · `Planejamento`. **A Reserva é a única
+  com os 7**; `Aposta` e `Planejamento` são os menos vendidos. **A anomalia da Baw se confirma
+  pela quarta vez:** tem o módulo `Integração` e o ERP diz `Sem Integração`.
+  **Atendimento: três unidades para dezessete contas** — `Julianne + Pedro` (7), `Laura` (7),
+  `Fernanda` (3), mais `SMB` (7, que não é pessoa). **Highstil, Lenny e Plie estão em `Churn` com
+  atendente nomeado em 2025** — sexto caminho independente mostrando que `Status` ≠ realidade.
+  **Pessoas:** o campo `Quem solicitou?` das 985 demandas rendeu **razão datado em 17 clientes**,
+  aplicado no corpus. Achados que viram pendência: **o `Hermes`, um agente de IA, abre demanda**
+  (5 na NK STORE) e o modelo **não prevê agente como autor**; o campo **mistura pessoa, área,
+  time, agente e canal**; e **a variação de grafia é epidemia** — até **oito formas** para a mesma
+  pessoa na Osklen. **Não unifiquei nenhuma**, porque sem e-mail isso inventaria pessoa — e há o
+  risco oposto: a VIX registra literalmente `Luana Henriques & Luana Carmo`, **duas pessoas**, e
+  o nome curto `Luana` (11 demandas) não diz qual. **Itens 249–256 nas pendências.**
+  Ritual completo: `694/50/49/49` com 0 completados, e manifesto sem órfão.

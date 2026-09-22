@@ -1988,3 +1988,34 @@
      `Banner`, `SAP`, `Qualitá`, `Totvs Virtual Age` e `Safe Tech`.
 248. **A `Hering` está em `Pré Onboardings` há 15 meses, com 25 reuniões.** O enum não tem como
      expressar "pré-onboarding longo" — relacionado ao item 237.
+
+## Varredura transversal de pessoas e ferramentas (22 set 2026)
+
+249. **🔴 A linha da CAEDU mudou de `Ongoing` para `Onboarding` em 22/09/2026, às 15:04 —
+     entre duas leituras minhas do mesmo dia.** **Não sei o que motivou** e não presumo.
+     **Precisa ser perguntado**, porque a CAEDU é a conta da próxima frente. Dezessete clientes
+     foram editados na base nesta mesma data.
+250. **🔴 Um agente de IA abre demanda, e o modelo não prevê isso.** O **`Hermes`** consta como
+     `Quem solicitou?` em **5 demandas da NK STORE**, entre 29/07/2025 e 18/03/2026. **Para o banco
+     isso não é `person`, é `agent`** — e a `_espec-pessoas-e-comunicacoes.md` **não prevê agente
+     como autor de demanda**. Decidir: `demand.requestedBy` aceita `person | agent | team`?
+251. **🔴 O campo `Quem solicitou?` mistura cinco coisas:** pessoa, área/time, pessoa da uMode,
+     agente e canal colado no nome (*"Vanessa - Grupo whatsapp"*, *"Camila - via chat <URL>"*).
+     **Não é campo de pessoa.** Para o banco precisa virar relação tipada, não texto.
+252. **🔴 Variação de grafia de nome ameaça a identidade de pessoa.** A mesma pessoa aparece com
+     até **oito formas** (Osklen: `Thais Pantaleão` → `Thays` → `Taissa` → `Tayssa`...).
+     **Não unifiquei nada**, porque sem e-mail isso inventaria pessoa — e há o risco oposto:
+     a VIX registra literalmente **`Luana Henriques & Luana Carmo`**, **duas pessoas**, e o nome
+     curto `Luana` (11 demandas) não diz qual. **Decidir a chave de identidade de pessoa.**
+253. **`Atendimento 2025` é texto livre com uma dupla dentro:** `Julianne + Pedro` atende 7 contas.
+     **Para o banco são dois `person_memberships`, não um valor de texto.** E `SMB` nesse campo
+     **não é pessoa** — é o Grupo 3 da segmentação (ver item 237).
+254. **Dois ERPs fora do inventário: `Ilimitar`** (Moda Objetiva, Hering) e **`Avec`** (Hyperlocal).
+     E **`Linx / SAP` × `SAP e Linx` são duas grafias do mesmo conceito** — Puket e Reserva usam
+     uma, Oficina Reserva e Arezzo usam a outra. **Normalizar o enum de ERP.**
+255. **⚠ `facção` aparece como time na Lenny Niemeyer** (*"Time facção Conrrado e Ingrid"*).
+     **Não é o mesmo caso do item 234** (`15_Producao-Interna`): **facção é produção externa.**
+     Decidir se área canônica precisa distinguir produção própria de terceirizada.
+256. **⚠ Um e-mail de domínio de terceiro aparece como solicitante na Reserva:**
+     `engenharia1@indorf.com.br`. **`indorf.com.br` não é domínio da Reserva** — confirmar se é
+     fornecedor, facção ou empresa do grupo.

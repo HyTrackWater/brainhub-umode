@@ -141,6 +141,33 @@ que aparecem como chamado em jan/2026** — **três meses depois**.
 > pesquisa, com participante identificado e **área**, indexados junto dos chamados, tornam esse
 > cruzamento automático em vez de acidental.
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Gustavo | 17 | 29/08/2025 | 06/02/2026 | — |
+| Amanda | 10 | 11/02/2026 | 17/04/2026 | — |
+| Gabriela | 7 | 29/08/2025 | 04/12/2025 | ⚠ também `Gabi` (2) e `Gabriela Cunha` (1) |
+| Marcello | 4 | 19/03/2026 | 16/04/2026 | — |
+| Raiane | 2 | 27/04/2026 | 27/04/2026 | também `Raiane Brito` |
+| Michelle | 2 | `[a preencher]` | `[a preencher]` | também `Michelle Nogueira` |
+| Daniela | 2 | `[a preencher]` | `[a preencher]` | — |
+| Luciana | 1 | 25/03/2026 | 25/03/2026 | `Luciana Nunes` |
+| Valeria | 1 | 10/04/2026 | 10/04/2026 | — |
+| Regina | 1 | 17/03/2026 | 17/03/2026 | — |
+| Isadora Terlizzi | 1 | 07/04/2026 | 07/04/2026 | — |
+| Caroline Koller | 1 | 13/04/2026 | 13/04/2026 | — |
+| Bruno | 1 | 02/04/2026 | 02/04/2026 | — |
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

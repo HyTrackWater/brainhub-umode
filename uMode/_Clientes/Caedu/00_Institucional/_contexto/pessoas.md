@@ -324,6 +324,32 @@
 | ROSELENE.FANTI | `roselene.fanti@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 28/03/2024 | — |
 | ROSIMEIRE.CASTILHO | `rosimeire.castilho@caedu.com.br` | [transversal] | `CADASTRADO` | acesso ao PLM desde 13/05/2024 | — |
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Vitória | 3 | 30/04/2025 | 03/07/2025 | também `Vitoria` |
+| Roselene | 3 | 22/10/2025 | 28/04/2026 | ⚠ também `Rose` (3) |
+| Mariana | 2 | 02/07/2025 | 02/07/2025 | — |
+| Fábio | 1 | 04/07/2025 | 04/07/2025 | — |
+| Samara Santos | 1 | 21/10/2025 | 21/10/2025 | — |
+| Crystiane | 1 | 25/05/2025 | 25/05/2025 | — |
+| João Neto | 1 | 25/03/2026 | 25/03/2026 | *"Via chat e e-mail"* |
+| Cleiton | 1 | `[a preencher]` | `[a preencher]` | — |
+| Camila | 1 | `[a preencher]` | `[a preencher]` | — |
+| Cristina | 1 | 02/03/2026 | 02/03/2026 | com `Rose` |
+
+🔴 **O `Status` desta conta mudou de `Ongoing` para `Onboarding` em 22/09/2026, às 15:04** — entre duas leituras do mesmo dia. **Não sei o motivo.** `Compras` e `Estilo` também aparecem como solicitante — são **áreas**.
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

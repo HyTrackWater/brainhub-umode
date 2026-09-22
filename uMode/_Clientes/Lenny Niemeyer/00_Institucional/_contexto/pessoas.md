@@ -46,6 +46,32 @@
 | `[a preencher]` | `evelyn.olivares@lennyniemeyer.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **06/01/2026** | `USABILIDADE` |
 | `[a preencher]` | `romulo.grimaldi@lennyniemeyer.com` | `[a preencher]` | `ATIVO_SEM_CADASTRO` | chamado em **13/01/2026** | `TAREFA/CONFIG` |
 
+
+#### Solicitantes de demanda — varredura de 22 set 2026
+
+> **Fonte: campo `Quem solicitou?` das demandas.** Cada nome está **exatamente como
+> aparece na fonte** — **nada foi unificado**, porque sem e-mail unificar por semelhança
+> gráfica inventaria pessoa. **Variantes estão marcadas para serem resolvidas, não fundidas.**
+>
+> ⚠ **Quem nunca abriu demanda não aparece aqui. Ausência não é inatividade.**
+
+| Nome (como está na fonte) | Demandas | Primeira | Última | Observação |
+|---|---:|---|---|---|
+| Mariana | 30 | 21/07/2025 | 04/02/2026 | 🔴 **maior solicitante individual da carteira** · também `Mariana estilo` |
+| Andre | 6 | 24/07/2025 | 24/03/2026 | também `André` |
+| Renato | 5 | 18/08/2025 | 19/03/2026 | — |
+| Giuliana | 4 | 23/07/2025 | 23/07/2025 | `Giuliana Ghanem` |
+| Gabi | 4 | 03/10/2025 | 05/03/2026 | — |
+| Natalia | 1 | 20/03/2026 | 20/03/2026 | — |
+| Juliana | 1 | 03/03/2026 | 03/03/2026 | — |
+| Felipe | 1 | 22/07/2025 | 22/07/2025 | — |
+| Amanda | 1 | 18/03/2026 | 18/03/2026 | — |
+| Conrrado e Ingrid | 1 | `[a preencher]` | `[a preencher]` | 🔴 *"Time **facção** Conrrado e Ingrid"* — **produção externa** |
+
+🔴 **A conta está em `Churn` e teve demanda até 24/03/2026.** `Planejamento` também aparece como solicitante — é **área**.
+
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a
