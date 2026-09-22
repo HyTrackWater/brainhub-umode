@@ -96,8 +96,12 @@ operação melhor que qualquer campo:
 > **Aqui alguém escreveu o que NÃO está incluso. Isso é boa prática e deveria ser padrão.**
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Laura** — atende **4 contas**: Luiza Barcelos, Cambos, Lofty Style e Moda Objetiva.
+- **2025:** **Laura Delgado** — atende **4 contas**: Luiza Barcelos, Cambos, Lofty Style e
+  Moda Objetiva. 🟢 **Nome completo confirmado** no relatório de incidente de 08/08/2025.
 - **2024:** duas pessoas registradas como relação — `[a preencher]`
+
+> **Também operam a conta, do lado uMode:** **Marina Santoro** (integração e solução) e
+> **Sandro** — ⚠ este último sem lado confirmado.
 
 ## Aliases de áreas
 ### Mapeamento alias → canônico
@@ -154,7 +158,7 @@ Pasta registrada — `1zz1qlgXLJhbJ7TFIKmbfGEQUEBFmT-cM`. **Não varrida.**
 | Fonte | Ferramenta | Estado |
 |---|---|---|
 | **Perfil de Usuário e Permissionamentos** | Notion | 🔴 **não varrida** |
-| **Relatório de Incidente \| Weekly — 2025/08/08** | Notion | 🔴 **não varrido** — ver *Contexto crítico* |
+| **Relatório de Incidente \| Weekly — 2025/08/08** | Notion | ✅ **varrido 22 set 2026** — ver [`jornada.md`](jornada.md) |
 | Regra do Campo Linha · **Regra Família 05/08/25** · **Regras do WorkFlow 12/11** | Notion | **não varridas** |
 | **Automações da Aba Etapa & Datas — 24/09/2025** | Notion | **não varrida** |
 | Configurações e ajustes **pré Go Light** | Notion | **não varrida** |
@@ -166,7 +170,12 @@ Pasta registrada — `1zz1qlgXLJhbJ7TFIKmbfGEQUEBFmT-cM`. **Não varrida.**
 | 🔴 **Resumo no HubSpot** — deal `13750792776` | **HubSpot** | 🔴 **CRM fora do inventário** |
 | Miro | Miro | **não varrido** |
 | Materiais de pré-venda (2 apresentações) | Google Slides/Drive | **não varridos** |
-| Reuniões com Cliente · Demandas | Notion (2 bases) | **não varridas** |
+| **Reuniões Compartilhadas** | Notion | ⚠ **126 reuniões — 5 abertas, 121 não** |
+| **Demandas** | Notion | ✅ **63 varridas e formalizadas** em `_demandas/` |
+| 🔴 **Linear** | **Linear** | 🔴 **rastreador de engenharia — fora do inventário** |
+| 🔴 **Timec** | terceiro | 🔴 **fornecedor citado no incidente — "definir esforço e complexidade com a equipe da Timec"** |
+| ⚠ **Mold** | `[a preencher]` | citado como origem de **pré-custo** no incidente |
+| **Tactiq + Google Docs (resumo por IA)** | Tactiq / Google | ⚠ **o relatório de incidente é gerado por IA a partir da transcrição** |
 | **Plano de Sucesso do Cliente** | Google Drive | ⚠ **marcado em vermelho: "Em construção"** |
 | `Chamados & Atendimentos` | Notion | ✅ **varrida — 1 chamado** |
 
@@ -175,8 +184,11 @@ Pasta registrada — `1zz1qlgXLJhbJ7TFIKmbfGEQUEBFmT-cM`. **Não varrida.**
 > vive no CRM**, fora do Notion e fora do Drive.
 >
 > **Junto com `Kanbanize`, `Gist`, `docs.umode.app`, `Trello`, `Banner`, `SAP`, `Qualitá`,
-> `Totvs Virtual Age` e `Safe Tech`, são dez sistemas descobertos nesta varredura** que não
-> estavam mapeados.
+> `Totvs Virtual Age` e `Safe Tech`, são dez sistemas descobertos** que não estavam mapeados.
+>
+> 🔴 **E a varredura de 22 set 2026 acrescentou `Linear`** — o rastreador de engenharia da
+> uMode, que apareceu com projeto próprio (`NexusAPI`) e responsável nomeado. **Mais dois nomes
+> de terceiro: `Timec`** (fornecedor de integração) e **`Mold`**.
 
 ## Contexto crítico
 ### Onde estamos
@@ -188,11 +200,17 @@ Conta ativada em **mai–jun/2024**, com onboarding longo e documentação de re
 > **Ticiane, de Desenvolvimento** — e há **13 usuários declarados**.
 
 ### 🔴 A frente aberta
-**Existe um `Relatório de Incidente | Weekly Luiza Barcelos <> uMode` datado de 08/08/2025.**
+**É a integração com o Safetec.**
 
-> **É o único relatório de incidente formal encontrado em qualquer conta.** **Não foi varrido.**
-> **Um incidente grave o bastante para virar relatório próprio merece ser lido antes de qualquer
-> afirmação sobre a saúde desta conta.**
+O `Relatório de Incidente | Weekly Luiza Barcelos <> uMode` de **08/08/2025** — o único formal de
+toda a carteira — **foi lido em 22 set 2026. O incidente é a integração com o Safetec.**
+
+> *"as rotas foram **quebradas devido à estrutura do Safetec**"* · *"**o formato atual das APIs
+> não funcionará**"* · e uma divergência de escopo: **o cliente esperava informação de venda, que
+> não está no escopo.**
+
+🔴 **Treze meses depois, em 08/09 e 22/09/2026, a pendência com o cliente ainda é
+*"enviar escopo da integração de Escrita"*.** Cronologia completa em [`jornada.md`](jornada.md).
 
 **E o Plano de Sucesso do Cliente está marcado em vermelho como *"Em construção"*** —
 mais de dois anos depois da ativação.

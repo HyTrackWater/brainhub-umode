@@ -10,9 +10,9 @@
 
 | # | Lacuna | Situação | Consequência |
 |---|---|---|---|
-| 1 | **1.161 reuniões, 4 abertas** | 🔴 li **4 páginas de reunião** por inteiro (Recco 16/10 e 09/10, Highstil 17/04/2026, Recco kick-off 27/02/2025) | O agregado por cliente é `[C]`; **o conteúdo de 1.157 reuniões não foi lido** |
+| 1 | **1.161 reuniões, 9 abertas** | 🔴 li **9 páginas** por inteiro — 4 da Recco, 1 da Highstil, **4 da Luiza Barcelos** — mais o relatório de incidente | O agregado por cliente é `[C]`; **o conteúdo de 1.152 reuniões não foi lido** |
 | 2 | **Gravações e transcrições** | ⚠ não abertas | Campos `Gravação` e `Tactiq` existem; **links para Tactiq e Drive não foram seguidos** |
-| 3 | **Varredura de credencial** | 🔴 **não feita nesta base** | A pauta da Highstil 17/04/2026 diz *"Integração (credenciais de acesso)"* — **não sei se algum valor está exposto nas outras 1.157** |
+| 3 | **Varredura de credencial** | 🔴 **não feita nesta base** | A pauta da Highstil 17/04/2026 diz *"Integração (credenciais de acesso)"* — **não sei se algum valor está exposto nas outras 1.152** |
 | 4 | **Campo `Data` não confiável** | 🔴 corrompido em lote — ver §4 | Todo agregado por data desta base é **suspeito**; usei o **título** quando divergiam |
 | 5 | **Por que a Recco saiu** | ⚠ **tenho o mecanismo, não a decisão** | Sei o que estava acontecendo em 16/10/2025; **nenhuma fonte registra a decisão de encerrar, nem a data** |
 
@@ -69,6 +69,7 @@
 
 - 🔴 **A `Luiza Barcelos` é a conta mais atendida da carteira** — 126 reuniões, mais que a
   NK STORE e a Osklen. **Eu a tratei como mais um dos 10 `Ongoing`.** Não é.
+  **Varrida em 22 set 2026** — ver § 9.
 - 🔴 **`Status` continua não sendo uso real, e agora com prova nova.** Quatro contas em `Churn`
   — Lenny Niemeyer, Highstil, Plie, Vivara — **têm reunião em 2026**. Confirma, por um quinto
   caminho, o que a [`_taxonomia-status-cliente.md`](_taxonomia-status-cliente.md) já registrava.
@@ -191,7 +192,7 @@ canal e conteúdo capturado**. `[P]`
 
 ## 8 · Próximos passos
 
-1. 🚨 **Varrer credencial nas 1.157 reuniões não abertas.** A pauta da Highstil de 17/04/2026
+1. 🚨 **Varrer credencial nas 1.152 reuniões não abertas.** A pauta da Highstil de 17/04/2026
    trata de *"credenciais de acesso"* — **e ainda há duas credenciais expostas não rotacionadas**
    (NK STORE e Lofty Style).
 2. 🔴 **Abrir as 126 reuniões da Luiza Barcelos** — é a conta mais atendida da carteira e a
@@ -200,6 +201,85 @@ canal e conteúdo capturado**. `[P]`
 4. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.
 5. **Decidir o registro de reunião multicliente** (§6).
 6. **Incorporar `Participantes` à rastreabilidade de pessoa ativa** (§7).
+
+## 9 · Luiza Barcelos — o que a varredura da conta mais atendida mostrou
+
+**126 reuniões · 63 demandas · 4 páginas de reunião lidas + o relatório de incidente.** `[C]`
+
+### 9.1 · O rótulo diz regime; a curva diz outra coisa
+
+| Ano | Reuniões | Demandas abertas |
+|---|---:|---:|
+| 2024 (a partir de jun) | 43 | 10 |
+| 2025 | **59** | **36** |
+| 2026 (até 22/09) | **23** | **3** |
+
+**Nenhuma demanda desde 10/04/2026, e nove reuniões desde então.** A cadência muda de
+`Weekly` para `Alinhamento Quinzenal` em **19/05/2026**; **julho de 2026 teve 1 reunião.**
+E **todas as atas de 2026 declaram `Projeto em Regime` em verde.**
+
+### 9.2 · 🔴 Três quinzenas seguidas com a mesma pauta
+
+O bloco **"Ajustes na Ficha de Pricing"** — cinco itens — aparece **palavra por palavra** em
+**25/08**, **08/09** e **22/09/2026**, junto com as mesmas cinco linhas que não preenchem
+(1442, 1441, 1466, 1469, 1472). Um item está em `Standby` desde **16/07/2026**.
+
+> **Três casos = padrão**, pelo critério desta varredura. **Não é anedota.**
+
+### 9.3 · 🔴 O incidente de 08/08/2025 é a integração — aberta há 13 meses
+
+*"as rotas foram **quebradas devido à estrutura do Safetec**"* · *"**o formato atual das APIs não
+funcionará**"* · divergência de escopo: **o cliente esperava informação de venda; não está no
+escopo** — *"a expectativa da integração era diferente do que foi apresentado"*.
+
+**Em 08/09 e 22/09/2026 a pendência com o cliente ainda é *"enviar escopo da integração de
+Escrita"*.**
+
+### 9.4 · ⚠ Segundo caso de gestão de narrativa — e eu só registro, não julgo
+
+O relatório de incidente decide, por escrito:
+
+> *"**Precisamos organizar a resposta que o time levará na weekly com o cliente** enquanto o
+> assunto integração não for resolvido."*
+
+**É o segundo caso**, com a Recco (quatro semáforos verdes sobre inadimplência e sistema
+travado). **Dois é hipótese. Com um terceiro, vira padrão** — e aí é matéria de governança,
+não de conta. `[P]`
+
+### 9.5 · 🟢 A instrumentação estava errada, não a conta
+
+Eu havia escrito que *"a conta de maior receita da carteira é quase invisível"*, com
+**1 pessoa `ATIVO` e 13 `INDETERMINADO`** — porque a **única fonte de ação era a base de
+chamados**, com janela de 24 dias.
+
+Com reuniões e demandas: **24 pessoas, 7 `ATIVO`, `observationWindow` de 06/06/2024 a
+22/09/2026.** **Dez nomes que nenhuma outra fonte trazia**, incluindo **Michelle Rodrigues**
+(3 demandas), o time de integração do cliente (**Flavio, Marcos, Gean, Freitas**) e
+**Amanda Antunes**, única entrada de usuário novo observada em 2026.
+
+> **Confirma o § 7:** a base de reuniões é a melhor fonte de pessoa-com-data da carteira.
+
+### 9.6 · Sistemas novos e um vocabulário de status que eu não tinha
+
+- 🔴 **`Linear`** — rastreador de engenharia da uMode, com projeto próprio (`NexusAPI`).
+  **Fora do inventário.**
+- 🔴 **`Timec`** — terceiro citado no incidente; **`Mold`** — origem de pré-custo.
+- 🔴 **Um terceiro vocabulário de status.** Recco e Highstil usam o semáforo de quatro colunas
+  (`Geral`/`Prazo`/`Pendências`/`Riscos`); **a Luiza Barcelos usa um selo único
+  `Projeto em Regime`.** **A mesma base, dois formatos de status, e nenhum deles é o enum
+  `Status` do cliente.** Ver [`_taxonomia-status-cliente.md`](_taxonomia-status-cliente.md).
+- ⚠ **O campo `Tipo Reunião` está vazio em 75 das 126** (60%).
+- ⚠ **O campo `Participantes` traz 1 pessoa** nas quatro atas de 2026 — **é quem escreveu, não
+  quem participou.** **Isso limita o uso do campo para rastrear pessoa ativa** (§ 7).
+
+### 9.7 · ⚠ Uma contradição com o critério de sucesso declarado
+O sucesso acordado desta conta é *"**reduzindo ao máximo o uso de e-mail e whatsapp**"*.
+Em **16/07/2026** a ata registra: *"**Gustavo validou por e-mail** a entrega do Mapa de Linha e
+Família Sourcing"*.
+
+> **Registro os dois lados:** na mesma ata, a proposta de *"envio de e-mail quando mover produto"*
+> foi **cancelada** — coerente com o critério. **A aceitação formal de entrega, porém, seguiu
+> por e-mail.**
 
 ## Governança
 

@@ -19,8 +19,26 @@
 **receita declarada R$ 350 milhões — a maior da carteira.**
 
 ## Fase atual
-**Conta grande, muito documentada em regra e pouco visível em uso.**
-**13 usuários uFlow declarados, 14 pessoas nomeadas — e 1 chamado em toda a janela de jan/2026.**
+🔴 **`Projeto em Regime`** — é o rótulo que as próprias atas usam, em verde, desde pelo menos
+julho de 2026. `[C]`
+
+**Mas a curva de atividade desmente o rótulo:**
+
+| Ano | Reuniões | Demandas abertas |
+|---|---:|---:|
+| **2024** (a partir de jun) | **43** | 10 |
+| **2025** | **59** | **36** |
+| **2026** (até 22/09) | **23** | **3** |
+
+> 🔴 **Nenhuma demanda desde 10/04/2026** — e **nove reuniões** desde então.
+> **A conta reúne e não pede.**
+>
+> **A cadência também caiu:** as atas deixam de se chamar `Weekly` e passam a
+> `Alinhamento Quinzenal` em **19/05/2026**. **Julho de 2026 teve 1 reunião** — o menor mês
+> desde a ativação.
+>
+> ⚠ **Isso pode ser conta estabilizada OU conta desengajada. Não decido com esta evidência** —
+> mas o § abaixo sobre a pauta repetida pesa para o segundo.
 
 ## Marcos da jornada
 
@@ -109,12 +127,62 @@
 ## Histórico de incidentes / alertas
 | Data | Registro | Estado |
 |---|---|---|
-| **08/08/2025** | 🔴 **Relatório de Incidente formal, na weekly com o cliente** | **não varrido** |
+| **08/08/2025** | 🔴 **Relatório de Incidente formal** — o único da carteira | ✅ **varrido 22 set 2026** |
 | 14/01/2026 | Chamado de `USABILIDADE` — Ticiane Rosa | **`Em Aberto`** |
 
-> ⚠ **Dois registros em dois anos.** **Ou a conta é muito estável, ou o canal de chamado não é
-> o canal desta conta.** **A weekly provavelmente absorve tudo** — e **a weekly não está no
-> BrainHub.**
+### 🔴 O incidente de 08/08/2025 é a integração — e ela continua aberta hoje `[C]`
+
+**O que o relatório diz, nas palavras dele:**
+
+> *"as rotas foram **quebradas devido à estrutura do Safetec**, o que não estava alinhado com o
+> plano original"* · *"**o formato atual das APIs não funcionará**"* · preocupação com
+> *"não ter o `updated` e ter que **reprocessar o banco de dados inteiro**"* — **Marina Santoro**
+
+**E há uma divergência de escopo declarada:** o cliente (**Gustavo Sobrinho**) enfatiza que
+precisa das **informações de venda**; a uMode responde que venda **não está no escopo**, que a
+integração é leitura de ERP (tecidos, cores, aviamentos, fornecedores) e escrita de produto.
+Registrado assim: **“a expectativa da integração era diferente do que foi apresentado”**.
+
+**Três decisões do relatório:**
+1. **Seguir a integração sem informação de custo.**
+2. 🔴 **Cancelar a reunião de integração de 14/08** *"até que esteja claro como seguiremos"*.
+3. 🔴 *"**Precisamos organizar a resposta que o time levará na weekly com o cliente** enquanto
+   o assunto integração não for resolvido."*
+
+> 🔴 **O item 3 é gestão de narrativa, escrita.** Não julgo a decisão — **registro que ela
+> existe, tem data e tem dono**, e que **o mesmo padrão apareceu na Recco** (quatro semáforos
+> verdes sobre inadimplência e sistema travado). **São dois casos. Com um terceiro, é padrão.**
+
+**E uma RFI ficou pendente de validação**, com a pergunta em aberto no próprio relatório:
+*"como será levado ao cliente? comercial precisa de mais contexto para avançar?"*
+
+### 🔴 A linha do tempo da integração — 13 meses em aberto
+
+| Data | Fato |
+|---|---|
+| **08/08/2025** | Relatório de incidente: APIs não funcionam, reunião cancelada, RFI pendente |
+| **28/10 e 30/10/2025** | Dois *checkpoints* de integração — cliente traz **Flavio, Marcos, Gean e Freitas** |
+| **04/11/2025** | Mais uma reunião de integração |
+| **25/08/2026** | *"Agenda sobre integração feita com a Marina"* |
+| **08/09 e 22/09/2026** | 🔴 *"**Enviar escopo da integração de Escrita**"* — **pendente do cliente, nas duas** |
+
+> **Treze meses depois do incidente, o escopo da integração de escrita ainda não foi enviado.**
+> E o contrato desta conta **exclui explicitamente qualquer ERP que não seja o Safetec** —
+> **o mesmo Safetec cuja estrutura quebrou as rotas.**
+
+### 🔴 Três quinzenas seguidas com a mesma pauta não resolvida `[C]`
+
+O bloco **"Ajustes na Ficha de Pricing"**, com os mesmos **cinco itens palavra por palavra**,
+aparece em **25/08/2026**, **08/09/2026** e **22/09/2026**. O item
+*"Olhar as linhas que não estão preenchendo automaticamente: 1442, 1441, 1466, 1469, 1472"*
+se repete nas três. E *"Usar as fichas de Enfeite e Projeto/Linha para validar junto com a
+impressão"* está pendente desde **16/07/2026**, classificado como **`Standby`**.
+
+> **Seis semanas, três reuniões, zero movimento — e as três atas declaram `Projeto em Regime`
+> em verde.** Pelo critério desta varredura (**três casos = padrão**), **não é anedota.**
+
+⚠ **E o trabalho em pauta é formatação de impressão:** reduzir desperdício de papel, aumentar
+imagem, corrigir o `R$` que não sai. **Na conta de maior receita da carteira.**
 
 ## Observações
 - 🔴 **É a conta MAIS ATENDIDA da carteira — 126 reuniões**, mais que NK STORE (111) e Osklen

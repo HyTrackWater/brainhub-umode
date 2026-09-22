@@ -110,21 +110,26 @@ O kick-off foi organizado em **sessões por área**, cada uma com participantes 
 
 ### Razão de pessoas
 
-**14 pessoas** no razão. `ATIVO` **1** · `INDETERMINADO` **13**.
+**24 pessoas** no razão. `ATIVO` **7** · `INDETERMINADO` **17**.
 
-> ⚠ **Uma só pessoa tem evidência de ação na janela de jan/2026** — e a conta declara
-> **13 usuários uFlow + 2 uDash**. **Doze pessoas nomeadas, com cargo e e-mail, e nenhum sinal de
-> uso.**
+> 🟢 **A varredura das reuniões e demandas mudou este quadro.** Antes eram **1 `ATIVO` e 13
+> `INDETERMINADO`**, porque a **única fonte de ação era a base de chamados**, com janela de 24
+> dias. **A base de reuniões e as demandas dão ação com data para mais seis pessoas**, e revelam
+> **dez nomes que nenhuma outra fonte trazia.**
 >
-> 🔴 **Isso NÃO significa que não usam.** A janela tem **24 dias** e a única fonte de ação é
-> a base de chamados. **Significa que, com a instrumentação atual, a conta de maior receita da
-> carteira é quase invisível.**
+> **`observationWindow` agora: 06/06/2024 → 22/09/2026.**
+>
+> 🔴 **A lição é sobre instrumentação, não sobre esta conta:** eu havia escrito que *"a conta de
+> maior receita da carteira é quase invisível"*. **Ela não era invisível — eu estava olhando pela
+> fonte errada.** Ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
+>
+> ⚠ **E as 12 pessoas que seguem `INDETERMINADO` continuam sem evidência — não sem uso.**
 
 | Pessoa | E-mail | Área | Estado | Evidência | Cargo |
 |---|---|---|---|---|---|
-| **Ticiane Rosa** | `ticiane.rosa@luizabarcelos.com.br` | `03_Desenvolvimento-de-Colecao` | **`ATIVO`** | chamado de `USABILIDADE` em **14/01/2026** | Desenvolvimento |
+| **Ticiane Rosa** | `ticiane.rosa@luizabarcelos.com.br` | `03_Desenvolvimento-de-Colecao` | **`ATIVO`** | **10/04/2026** — demanda *"não está conseguindo criar Beneficiamento"* · chamado **14/01/2026** | Desenvolvimento |
 | **Gabriel Jaques** | `gabriel.silva@luizabarcelos.com.br` | Merchandising | `INDETERMINADO` | **Líder Central do Projeto** · em todas as sessões do kick-off | Coordenador de Merchandising |
-| **Gustavo Sobrinho** | `gustavo.sobrinho@luizabarcelos.com.br` | Estratégia e Gestão | `INDETERMINADO` | **Vice-líder** · em todas as sessões | Gerente Executivo de Estratégia e Gestão |
+| **Gustavo Sobrinho** | `gustavo.sobrinho@luizabarcelos.com.br` | Estratégia e Gestão | **`ATIVO`** | **16/07/2026** — *"Gustavo validou por e-mail a entrega do Mapa de Linha e Família"* · relatório de incidente **08/08/2025** · **4 demandas** | Gerente Executivo de Estratégia e Gestão |
 | **Marcinha (Luiza Barcelos)** | `[a preencher]` | Diretoria Criativa | `INDETERMINADO` | *"o processo está na cabeça dela"* | **Diretora Criativa** |
 | **Andre Franco** | `andre.franco@luizabarcelos.com.br` | `02_Estilo-Criacao` | `INDETERMINADO` | sessão de Estilo no kick-off | Gerente de Estilo |
 | **Romulo Smaniotto** | `romulo.smaniotto@luizabarcelos.com.br` | `03_Desenvolvimento-de-Colecao` | `INDETERMINADO` | sessão de Desenvolvimento | Gerente de Desenvolvimento de Produto |
@@ -135,8 +140,17 @@ O kick-off foi organizado em **sessões por área**, cada uma com participantes 
 | **Eduardo Brito** | `eduardo.brito@luizabarcelos.com.br` | Tecnologia | `INDETERMINADO` | nomeado na página | Coordenador de Sistemas e Tecnologia |
 | **Ana Lucia Andrade** | `[a preencher]` | `11_Financeiro` | `INDETERMINADO` | nomeada na página | Responsável pelo Financeiro |
 | **Giuliana** | `[a preencher]` | `02_Estilo-Criacao` + Merchandising | `INDETERMINADO` | nomeada na página | Estilo e Merchandising |
-| **Marcio** | `[a preencher]` | `08_Ecommerce-Cadastro` | `INDETERMINADO` | nomeado na página | Cadastro |
-| **Samuel Correa** | `[a preencher]` | Tecnologia | `INDETERMINADO` | nomeado na página | Tecnologia |
+| **Márcio** | `[a preencher]` | `08_Ecommerce-Cadastro` | **`ATIVO`** | **26/09/2025** — demanda *"Ajuste de macroplan de LINHA"* | Cadastro |
+| **Samuel Correa** | `[a preencher]` | Tecnologia | `INDETERMINADO` | nomeado na página · ⚠ há um **"Samuel"** na reunião de API de **08/08/2025** — **não confirmo que seja a mesma pessoa** | Tecnologia |
+| **Michelle Rodrigues** | `[a preencher]` | `03_Desenvolvimento-de-Colecao` | **`ATIVO`** | **25/08/2026** — cadastro de novas Linhas · relatório de incidente **08/08/2025** · **3 demandas** | ⚠ **grafada `Michelle` e `Michele`** · cargo `[a preencher]` |
+| **Gabriel Dart** | `[a preencher]` | `[a preencher]` | **`ATIVO`** | **10/11/2025** · demandas de **01/10** e **09/10/2025** (impressão e ficha de combinação) | 🔴 **NÃO confundir com `Gabriel Jaques`, o líder do projeto — sobrenomes diferentes, não os unifiquei** |
+| **Marcos** | `[a preencher]` | Tecnologia / Integração | `INDETERMINADO` | checkpoint de integração **30/10/2025** | **Coordenador** |
+| **Gean** | `[a preencher]` | Tecnologia / Integração | `INDETERMINADO` | checkpoint de integração **30/10/2025** | **Especialista de dados** |
+| **Flavio** | `[a preencher]` | Tecnologia / Integração | `INDETERMINADO` | checkpoint **30/10/2025** · reunião de API citada no incidente **08/08/2025** | `[a preencher]` |
+| **Freitas** | `[a preencher]` | Tecnologia / Integração | `INDETERMINADO` | checkpoint de integração **30/10/2025** | `[a preencher]` |
+| **Amanda Antunes** | `[a preencher]` | `02_Estilo-Criacao` | **`ATIVO`** | 🟢 **25/08/2026 — novo usuário criado na conta**; ajuste de Família para ela em **22/09/2026** | **Desenhista** — única entrada de pessoa nova observada em 2026 |
+| **Matheus** | `[a preencher]` | `[a preencher]` | **`ATIVO`** | **25/08/2026** — cadastro de novas Linhas, junto com Michelle | `[a preencher]` |
+| **Sandro** | `[a preencher]` | `[a preencher]` | `INDETERMINADO` | citado no incidente (*"verificar com Sandro se havia combinado adicional"*) e no título da reunião de **11/03/2026** | ⚠ **não sei se é da Luiza Barcelos ou da uMode** |
 
 ### ⚠ Uma pessoa em transição de área, declarada na própria fonte
 **Paulo Victor** está registrado como *"Assistente Administrativo **atualmente**, **migrando para

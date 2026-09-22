@@ -744,6 +744,121 @@ declarado**, e o **único relatório de incidente formal** (08/08/2025, não lid
 5. 🔴 **As sub-páginas de permissionamento** de Cambos, Oficina Reserva e Luiza Barcelos —
    **as três existem e não foram varridas**, e são o que nomeia as pessoas que faltam.
 
+### 🔴 LUIZA BARCELOS — a conta mais atendida, e a instrumentação estava errada · 22 set 2026
+
+> Instrução do Vinicius: *"Segue pela Luiza Barcelos."*
+
+**126 reuniões · 63 demandas · 4 atas lidas + o relatório de incidente.**
+
+### 🔴 O rótulo diz regime; a curva diz outra coisa
+Todas as atas de 2026 declaram **`Projeto em Regime`**, em verde. `[C]`
+
+| Ano | Reuniões | Demandas abertas |
+|---|---:|---:|
+| 2024 (a partir de jun) | 43 | 10 |
+| 2025 | **59** | **36** |
+| 2026 (até 22/09) | **23** | **3** |
+
+🔴 **Nenhuma demanda desde 10/04/2026 — e nove reuniões desde então. A conta reúne e não pede.**
+As atas deixam de se chamar `Weekly` e viram `Alinhamento Quinzenal` em **19/05/2026**;
+**julho de 2026 teve 1 reunião**, o menor mês desde a ativação.
+
+> ⚠ **Pode ser conta estabilizada OU desengajada — não decido com esta evidência.** Mas o
+> próximo bloco pesa para o segundo.
+
+### 🔴 Três quinzenas seguidas com a mesma pauta `[C]`
+O bloco **"Ajustes na Ficha de Pricing"**, com os mesmos **cinco itens palavra por palavra**,
+aparece em **25/08**, **08/09** e **22/09/2026** — junto com as mesmas cinco linhas que não
+preenchem (1442, 1441, 1466, 1469, 1472). Um item está em **`Standby` desde 16/07/2026**.
+
+**Seis semanas, três reuniões, zero movimento — e as três declaram `Projeto em Regime`.**
+Pelo critério da varredura (**três casos = padrão**), **não é anedota.**
+
+⚠ **E a pauta é formatação de impressão** — reduzir desperdício de papel, aumentar imagem,
+corrigir o cifrão que não sai. **Na conta de maior receita da carteira (R$ 350 milhões).**
+
+### 🔴 O relatório de incidente estava em aberto no corpus. Li. É a integração.
+O `Relatório de Incidente | Weekly` de **08/08/2025** — o único formal de toda a carteira:
+
+> *"as rotas foram **quebradas devido à estrutura do Safetec**"* · *"**o formato atual das APIs
+> não funcionará**"* · preocupação com *"não ter o `updated` e ter que **reprocessar o banco de
+> dados inteiro**"* — **Marina Santoro**
+
+**E uma divergência de escopo declarada:** o cliente esperava **informação de venda**; a uMode
+responde que venda **não está no escopo** — *"a expectativa da integração era diferente do que
+foi apresentado"*.
+
+🔴 **Treze meses depois**, em **08/09 e 22/09/2026**, a pendência com o cliente ainda é
+*"enviar escopo da integração de Escrita"*. **E o contrato desta conta exclui explicitamente
+qualquer ERP que não seja o Safetec** — o mesmo cuja estrutura quebrou as rotas.
+
+### ⚠ Segundo caso de gestão de narrativa — registro, não julgo
+O relatório decide, por escrito: *"**Precisamos organizar a resposta que o time levará na weekly
+com o cliente** enquanto o assunto integração não for resolvido."* E cancela a reunião de
+integração de 14/08.
+
+**É o segundo caso**, com a Recco (quatro semáforos verdes sobre inadimplência e sistema
+travado). **Dois é hipótese. Com um terceiro, vira padrão** — e aí é matéria de governança,
+não de conta. `[P]`
+
+### 🟢 CORREÇÃO A MIM MESMO — a conta não era invisível; eu olhava pela fonte errada
+Eu havia escrito que *"a conta de maior receita da carteira é quase invisível"*, com
+**1 pessoa `ATIVO` e 13 `INDETERMINADO`** — porque a **única fonte de ação era a base de
+chamados**, com janela de **24 dias**.
+
+Com reuniões e demandas: **24 pessoas · 7 `ATIVO` · `observationWindow` de 06/06/2024 a
+22/09/2026.** **Dez nomes que nenhuma outra fonte trazia** — incluindo **Michelle Rodrigues**
+(3 demandas), o time de integração do cliente (**Flavio, Marcos, Gean, Freitas**) e
+**Amanda Antunes**, **a única entrada de usuário novo observada em 2026**.
+
+> **A lição é de instrumentação, não desta conta:** medir atividade de pessoa só por chamado
+> subestima toda conta cujo canal real é a weekly. **Vale para a carteira inteira.**
+
+### 🔴 Sistemas novos e um TERCEIRO vocabulário de status
+- 🔴 **`Linear`** — rastreador de engenharia da uMode, com projeto próprio (`NexusAPI`) e
+  responsável nomeado. **Fora do inventário.** Mais **`Timec`** (terceiro de integração) e **`Mold`**.
+- 🔴 **Recco e Highstil usam o semáforo de 4 colunas; a Luiza Barcelos usa um selo único
+  `Projeto em Regime`.** **Mesma base, dois formatos de status — e nenhum é o enum `Status` do
+  cliente.** São **três vocabulários** para a mesma pergunta.
+- ⚠ **`Tipo Reunião` vazio em 75 das 126** (60%).
+- ⚠ **`Participantes` traz 1 pessoa** nas quatro atas de 2026 — **é quem escreveu, não quem
+  participou.** **Isso limita o campo para rastrear pessoa ativa**, ao contrário do que eu havia
+  proposto na varredura.
+
+### ⚠ Uma contradição com o critério de sucesso da própria conta
+O sucesso acordado é *"reduzindo ao máximo o uso de **e-mail e whatsapp**"*. Em **16/07/2026**:
+*"**Gustavo validou por e-mail** a entrega do Mapa de Linha e Família"*.
+
+> **Registro os dois lados:** na mesma ata, a proposta de *"envio de e-mail quando mover produto"*
+> foi **cancelada** — coerente com o critério. **A aceitação de entrega, porém, seguiu por e-mail.**
+
+### ✅ Disciplina de padrão — quebrei e o verificador pegou
+Renomeei o título canônico `### 🔴 A frente aberta` para *"A frente aberta — agora nomeada: a
+integração"* num cliente só. **O `propaga.py` acusou na hora** (`institucional.md 1 completados`).
+**Revertido: o qualificador foi para o corpo, o título voltou ao canônico.**
+**É exatamente a regra travada pelo Vinicius — estrutura não varia por cliente.**
+
+| | Número |
+|---|---:|
+| `contexto-area.md` conformes | **694/694** |
+| `institucional.md` conformes | **50/50** |
+| `jornada.md` conformes | **49/49** |
+| `pessoas.md` conformes | **49/49** |
+| Reuniões lidas por inteiro | **9 de 1.161** |
+
+### O que continua aberto
+1. 🚨 **Credenciais:** as duas expostas (NK STORE, Lofty Style) **e a varredura das 1.152
+   reuniões não abertas**.
+2. 🔴 **As 121 reuniões não lidas da Luiza Barcelos** — sobretudo **2024 e 2025**, onde estão
+   os 6 meses de credibilidade prometidos e as 36 demandas de 2025.
+3. 🔴 **Decidir se a Luiza Barcelos está estabilizada ou desengajada** — e, se for o segundo,
+   é a maior receita da carteira.
+4. 🔴 **A RFI da integração**, pendente de validação desde 08/08/2025.
+5. 🔴 **Criar o campo `Data de Churn`.**
+6. **Vigiar o terceiro caso de gestão de narrativa** — com dois, ainda é hipótese.
+7. **Rever a proposta do § 7 da varredura:** `Participantes` é pior fonte de pessoa ativa do que
+   eu supus; **`Quem solicitou?` das demandas é melhor.**
+
 ### 🔴 UMA BASE INTEIRA QUE O CORPUS NUNCA MENCIONOU — 1.161 reuniões · 22 set 2026
 
 > Fui abrir a **Recco** — a conta em churn com mais material — e a primeira busca já devolveu
