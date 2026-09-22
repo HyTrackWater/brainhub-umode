@@ -26,8 +26,16 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ## 2 · Pendências abertas
 
-⚠ **Nenhuma pendência específica registrada** — e isso quase sempre quer dizer
-**que a página deste cliente ainda não foi aberta** (ver § 4), não que esteja tudo claro.
+| # | O que está em aberto | Tier | O que destrava |
+|--:|---|:-:|---|
+| 1 | 🔴 **A VIX tem 17 perfis de usuário, e eles SÃO áreas** — `Vix-Admin`, `Vix-CAD`, `Vix-Compras`, `Vix-Desenvolvimento`, `Vix-Estamparia`, `Vix-PCP`, `Vix-Ficha Tecnica`, `Vix-Produto TP`, `Vix-Tabela`, `Vix-Qualidade`, `Vix-Demo`, `uDash` **e CINCO de Estilo**: Biquini, Cover ups, PA, Roupas, Admin. **Confirma perfil = área, com granularidade de SUBÁREA.** | `T2` | decisão sobre mapear perfil para subárea canônica |
+| 2 | 🔴 **`Manual` e `Base de Importação` estão bloqueados para os 17 perfis** — **ninguém na VIX acessa o manual.** ⚠ **Conecta com a dor da CAEDU**, que diz que o manual não foi suficiente. | `T2` | decisão de produto |
+| 3 | 🔴 **A matriz de ~60 funções × 17 perfis é mantida À MÃO numa tabela do Notion.** Última edição: **09/07/2025**. ⚠ **Não sei se ainda reflete a plataforma.** | `T2` | conferência contra o banco |
+| 4 | 🆕 **`uPick`** — sub-página `uPick Vix - Passo a passo`. **Mais um nome de produto fora dos 7 módulos e das 16 Soluções**, junto de `uBuy` e `uPlan`. | `T2` | decisão sobre o portfólio |
+| 5 | ⚠ **`uDash` aparece como PERFIL de usuário nesta matriz**, e também é nome de produto legado. **Dois sentidos para a mesma palavra** — mesma armadilha do `collection` do banco contra coleção de moda. | `T2` | desambiguação |
+| 6 | 🆕 **A página registra um aprendizado de atendimento:** usuário sem permissão de deletar variante deve pedir a quem tem, **internamente**. ⚠ **Explica uma classe inteira de demanda.** | `T2` | — |
+| 7 | 🆕 **Tabela DE/PARA de integração (31/07/2025):** campo uMode para campo Linx, com tabela e tipo (`referenciabr` para `MODELISTA` em `PRODUTOS`). **É o primeiro mapeamento de integração campo a campo que o corpus vê.** | `T2` | vale replicar como padrão de documentação de integração |
+| 8 | ⚠ **Nenhum nome de pessoa na página nem na sub-página de perfis.** As 6 fichas da VIX seguem vindo só da base de demandas, **sem cargo**. | `T2` | a página não tem essa informação — depende de outra fonte |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -39,8 +47,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-⚠ **Nenhuma ainda** — e para este cliente isso quase sempre quer dizer que a
-**página dele não foi aberta** (§ 3.2). **Pergunta boa nasce de varredura feita.**
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | A VIX tem **5 perfis só de Estilo** (Biquini, Cover ups, PA, Roupas, Admin). **Isso vira subárea canônica no BrainHub, ou continua sendo só perfil da plataforma?** | `T2` | define se perfil e área são a mesma entidade ou duas | aberta |
+| 2 | A matriz de ~60 funções × 17 perfis foi editada pela última vez em **09/07/2025** e é mantida à mão. **Ainda reflete a plataforma?** | `T2` | se não reflete, o corpus estaria copiando ficção | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
@@ -62,12 +72,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | `70a10ec2…` **+ a sub-página `[Vix] Perfil de Usuário e Permissionamento`** | 🔴 **17 perfis de usuário nomeados por área** e uma matriz de **~60 funções × 17 perfis**; tabela **DE/PARA de integração** campo uMode → campo Linx (31/07/2025); `uPick`; ⚠ **nenhum nome de pessoa** | ⚠ **não** — 5 sub-páginas e 2 databases inline não abertos |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -79,7 +86,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

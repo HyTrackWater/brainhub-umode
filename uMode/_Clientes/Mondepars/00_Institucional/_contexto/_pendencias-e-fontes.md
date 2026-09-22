@@ -1,9 +1,9 @@
-# Simples (by Reserva) · Pendências e fontes varridas
+# Mondepars · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**
 > **Gerado por `scripts/gera-pendencias-e-fontes.py`.**
 >
-> 🔴 **Este é o único lugar onde se pergunta "o que ainda não sei sobre o Simples (by Reserva)?" e
+> 🔴 **Este é o único lugar onde se pergunta "o que ainda não sei sobre o Mondepars?" e
 > "onde eu já procurei?".** O [`_pendencias-gerais.md`](../../../../00_Institucional/_contexto/_pendencias-gerais.md) segue dono das decisões
 > **transversais** — as que valem para a carteira toda. **Um assunto, um dono.**
 
@@ -28,9 +28,7 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🟢 **FECHADA — NÃO É CLIENTE.** Vinícius em 22 set 2026: *é marca de dentro da Reserva; a nível de contratação é RESERVA mesmo* `[D]` **A carteira tem 48 clientes, não 49.** | `T2` | nada — decidido |
-| 2 | ⚠ **Único ponto em aberto:** ele suspeita que a marca possa ter **separação própria de usuários e permissões** na plataforma, ainda que a contratação seja da Reserva. | `T2` | leitura da planilha de acessos (60 contas de organização) |
-| 3 | 🔴 **Apagar ou fundir esta pasta com a da Reserva é decisão sua.** Enquanto não decidir, ela fica — **eu não apago pasta de cliente.** | `T2` | sua decisão |
+| 1 | 🟢 **FECHADA — o nome certo é `Mondepars`.** Vinícius em 22 set 2026: *o nome certo da empresa é Mondepars* `[D]` A pasta foi **renomeada** de `Mondpars` para `Mondepars`. ⚠ **O CRM segue com a grafia errada** — quem ler lá vai achar `Mondpars`. | `T2` | correção no CRM |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -44,14 +42,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | Pergunta | Tier | Por que importa | Estado |
 |--:|---|:-:|---|---|
-| 1 | A pasta `Simples (by Reserva)` não tem linha na base. **É marca da Reserva ou conta própria?** | `T2` | 🟢 **Respondida em 22 set 2026:** *é marca de dentro da Reserva; a nível de contratação é RESERVA mesmo* — ⚠ resta saber se tem usuários e permissões próprios | respondida em 22 set 2026, por mensagem |
+| 1 | `Mondepars` × `Mondpars` — **qual grafia está certa?** | `T2` | 🟢 **Respondida em 22 set 2026:** *o nome certo da empresa é Mondepars* — pasta renomeada; ⚠ **o CRM segue com a grafia errada** | respondida em 22 set 2026, por mensagem |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
 > 🔴 **Este é o diário de bordo.** Ele existe porque a memória da conversa **compacta** e a
 > do disco não. **Antes de abrir qualquer fonte deste cliente, leia esta tabela.**
 
-### 3.1 · Varridas para a carteira inteira — valem para o Simples (by Reserva)
+### 3.1 · Varridas para a carteira inteira — valem para o Mondepars
 
 | Fonte | Endereço | Quando | O que saiu | Esgotada? |
 |---|---|---|---|---|
@@ -98,7 +96,7 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 
 > Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
 
-**Cliente:** `Simples (by Reserva)` — [institucional.md](institucional.md) · [jornada.md](jornada.md) · [pessoas.md](pessoas.md)
+**Cliente:** `Mondepars` — [institucional.md](institucional.md) · [jornada.md](jornada.md) · [pessoas.md](pessoas.md)
 
 **As decisões TRANSVERSAIS, que não são deste cliente, vivem em** [`_pendencias-gerais.md`](../../../../00_Institucional/_contexto/_pendencias-gerais.md).
 

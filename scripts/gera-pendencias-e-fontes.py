@@ -97,6 +97,14 @@ PAGINA = {
                 u"de **1 chamado/dia e 2 reuniões/semana**; 🔴 **7 cartões no `umode.kanbanize.com`**; "
                 u"`uBuy` e `uPlan`; **Review Quinzenal** com envios parados; 2 visitas presenciais",
                 u"⚠ **não** — 10 sub-páginas e 3 databases inline não abertos"),
+    u"VIX": (u"22 set 2026",
+            u"`70a10ec2…` **+ a sub-página `[Vix] Perfil de Usuário e "
+            u"Permissionamento`**",
+            u"🔴 **17 perfis de usuário nomeados por área** e uma matriz de "
+            u"**~60 funções × 17 perfis**; tabela **DE/PARA de integração** "
+            u"campo uMode → campo Linx (31/07/2025); `uPick`; "
+            u"⚠ **nenhum nome de pessoa**",
+            u"⚠ **não** — 5 sub-páginas e 2 databases inline não abertos"),
     u"NK STORE": (u"22 set 2026", u"`0f24dfbe…`",
                   u"**13 pessoas com cargo e área**; processo `Planejamento → Estilo → "
                   u"Compras/Merchandising → PCP → Oficina`; dores mapeadas; **`uBuy`** como "
@@ -195,6 +203,36 @@ PEND = {
          u"T2", u"—"),
         (u"⚠ **Sem etapa do processo atribuída.**", u"T2", u"preenchimento"),
     ],
+    u"VIX": [
+        (u"🔴 **A VIX tem 17 perfis de usuário, e eles SÃO áreas** — "
+         u"`Vix-Admin`, `Vix-CAD`, `Vix-Compras`, `Vix-Desenvolvimento`, `Vix-Estamparia`, "
+         u"`Vix-PCP`, `Vix-Ficha Tecnica`, `Vix-Produto TP`, `Vix-Tabela`, `Vix-Qualidade`, "
+         u"`Vix-Demo`, `uDash` **e CINCO de Estilo**: Biquini, Cover ups, PA, Roupas, Admin. "
+         u"**Confirma perfil = área, com granularidade de SUBÁREA.**", u"T2",
+         u"decisão sobre mapear perfil para subárea canônica"),
+        (u"🔴 **`Manual` e `Base de Importação` estão bloqueados para os 17 "
+         u"perfis** — **ninguém na VIX acessa o manual.** ⚠ **Conecta com a dor da "
+         u"CAEDU**, que diz que o manual não foi suficiente.", u"T2", u"decisão de produto"),
+        (u"🔴 **A matriz de ~60 funções × 17 perfis é mantida À MÃO "
+         u"numa tabela do Notion.** Última edição: **09/07/2025**. ⚠ **Não sei "
+         u"se ainda reflete a plataforma.**", u"T2", u"conferência contra o banco"),
+        (u"🆕 **`uPick`** — sub-página `uPick Vix - Passo a passo`. **Mais um "
+         u"nome de produto fora dos 7 módulos e das 16 Soluções**, junto de `uBuy` "
+         u"e `uPlan`.", u"T2", u"decisão sobre o portfólio"),
+        (u"⚠ **`uDash` aparece como PERFIL de usuário nesta matriz**, e também é "
+         u"nome de produto legado. **Dois sentidos para a mesma palavra** — mesma armadilha "
+         u"do `collection` do banco contra coleção de moda.", u"T2", u"desambiguação"),
+        (u"🆕 **A página registra um aprendizado de atendimento:** usuário sem "
+         u"permissão de deletar variante deve pedir a quem tem, **internamente**. "
+         u"⚠ **Explica uma classe inteira de demanda.**", u"T2", u"—"),
+        (u"🆕 **Tabela DE/PARA de integração (31/07/2025):** campo uMode para "
+         u"campo Linx, com tabela e tipo (`referenciabr` para `MODELISTA` em `PRODUTOS`). "
+         u"**É o primeiro mapeamento de integração campo a campo que o corpus vê.**",
+         u"T2", u"vale replicar como padrão de documentação de integração"),
+        (u"⚠ **Nenhum nome de pessoa na página nem na sub-página de perfis.** As 6 "
+         u"fichas da VIX seguem vindo só da base de demandas, **sem cargo**.", u"T2",
+         u"a página não tem essa informação — depende de outra fonte"),
+    ],
     u"Reserva": [
         (u"🔴 **7 módulos contratados — a conta mais completa da carteira — e NENHUMA etapa do "
          u"processo atribuída.**", u"T2",
@@ -232,9 +270,23 @@ PEND = {
         (u"⚠ **Conteúdo T1 da Cambos com autorização de uso pendente desde julho.**", u"T1",
          u"autorização do Vinicius/João"),
     ],
-    u"Mondpars": [
-        (u"⚠ **`Mondepars` na plataforma × `Mondpars` no CRM** — grafia diferente, não é caixa. "
-         u"**Um dos dois está errado.**", u"T2", u"conferência"),
+    u"Mondepars": [
+        (u"🟢 **FECHADA — o nome certo é `Mondepars`.** Vinícius em "
+         u"22 set 2026: *o nome certo da empresa é Mondepars* `[D]` A pasta foi "
+         u"**renomeada** de `Mondpars` para `Mondepars`. ⚠ **O CRM segue com a grafia "
+         u"errada** — quem ler lá vai achar `Mondpars`.", u"T2", u"correção no CRM"),
+    ],
+    u"Simples (by Reserva)": [
+        (u"🟢 **FECHADA — NÃO É CLIENTE.** Vinícius em 22 set 2026: "
+         u"*é marca de dentro da Reserva; a nível de contratação é RESERVA "
+         u"mesmo* `[D]` **A carteira tem 48 clientes, não 49.**", u"T2", u"nada — decidido"),
+        (u"⚠ **Único ponto em aberto:** ele suspeita que a marca possa ter "
+         u"**separação própria de usuários e permissões** na plataforma, ainda que "
+         u"a contratação seja da Reserva.", u"T2",
+         u"leitura da planilha de acessos (60 contas de organização)"),
+        (u"🔴 **Apagar ou fundir esta pasta com a da Reserva é decisão sua.** "
+         u"Enquanto não decidir, ela fica — **eu não apago pasta de cliente.**", u"T2",
+         u"sua decisão"),
     ],
     u"Estrela": [
         (u"⚠ **`Lojas Estrela` na plataforma × `Estrela` no CRM** — não colapsa sozinho, "
@@ -332,6 +384,15 @@ PERGUNTAS = {
          u"existem na grade de 14 \u00e1reas. **Viram \u00e1rea can\u00f4nica, sub\u00e1rea, ou apelido?**",
          u"T2", u"\u00e9 o mesmo tema do `15_Producao-Interna`", u"aberta"),
     ],
+    u"VIX": [
+        (u"A VIX tem **5 perfis só de Estilo** (Biquini, Cover ups, PA, Roupas, "
+         u"Admin). **Isso vira subárea canônica no BrainHub, ou continua sendo "
+         u"só perfil da plataforma?**", u"T2",
+         u"define se perfil e área são a mesma entidade ou duas", u"aberta"),
+        (u"A matriz de ~60 funções × 17 perfis foi editada pela última vez "
+         u"em **09/07/2025** e é mantida à mão. **Ainda reflete a plataforma?**",
+         u"T2", u"se não reflete, o corpus estaria copiando ficção", u"aberta"),
+    ],
     u"Reserva": [
         (u"7 m\u00f3dulos contratados e **nenhuma etapa do processo atribu\u00edda**. **Conta grande "
          u"n\u00e3o passa pelo funil, ou \u00e9 lacuna de preenchimento?**", u"T2",
@@ -361,17 +422,19 @@ PERGUNTAS = {
         (u"O conte\u00fado T1 da Cambos est\u00e1 com autoriza\u00e7\u00e3o de uso pendente desde julho. "
          u"**Libera?**", u"T1", u"trava registrada h\u00e1 mais de dois meses", u"aberta"),
     ],
-    u"Mondpars": [
-        (u"`Mondepars` na base do Notion × `Mondpars` na nossa pasta. "
-         u"**Qual grafia está certa?**", u"T2",
-         u"não colapsa sozinho no `client_id` — e já causou perda silenciosa "
-         u"de dado nesta sessão", u"aberta"),
+    u"Mondepars": [
+        (u"`Mondepars` × `Mondpars` — **qual grafia está certa?**", u"T2",
+         u"🟢 **Respondida em 22 set 2026:** *o nome certo da empresa é "
+         u"Mondepars* — pasta renomeada; ⚠ **o CRM segue com a grafia errada**",
+         u"respondida em 22 set 2026, por mensagem"),
     ],
     u"Simples (by Reserva)": [
-        (u"A pasta `Simples (by Reserva)` existe no nosso corpus e **não tem linha "
-         u"nenhuma na base `Mapa de Clientes`**. **É marca dentro da Reserva, ou conta "
-         u"própria que falta cadastrar?**", u"T2",
-         u"define se são 48 ou 49 clientes, e se a pasta deve existir", u"aberta"),
+        (u"A pasta `Simples (by Reserva)` não tem linha na base. **É marca da "
+         u"Reserva ou conta própria?**", u"T2",
+         u"🟢 **Respondida em 22 set 2026:** *é marca de dentro da Reserva; "
+         u"a nível de contratação é RESERVA mesmo* — ⚠ resta saber se tem "
+         u"usuários e permissões próprios",
+         u"respondida em 22 set 2026, por mensagem"),
     ],
 }
 

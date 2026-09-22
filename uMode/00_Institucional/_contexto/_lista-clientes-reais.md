@@ -78,7 +78,7 @@ estão preenchidos (indicador de riqueza de dado disponível, não de importânc
 | 37 | Texneo | Churn | — | 0 | 0 | 6 | a criar |
 | 38 | Estrela | Churn | — | 0 | 0 | 6 | a criar |
 | 39 | Simples (by Reserva) | Inativo | — | 0 | 0 | 6 | a criar |
-| 40 | Mondpars | Regime CS | — | 0 | 0 | 5 | a criar |
+| 40 | Mondepars | Regime CS | — | 0 | 0 | 5 | a criar |
 | 41 | Paloma concept | Inativo | — | 0 | 0 | 4 | a criar |
 | 42 | Susie Modas | Inativo | — | 0 | 0 | 4 | a criar |
 | 43 | Phos | Churn | — | 0 | 0 | 4 | a criar |

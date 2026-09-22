@@ -15,11 +15,11 @@
 |---|--:|
 | **Abertas, de um cliente só** | **16** |
 | **Abertas, transversais** | **4** |
-| Já respondidas | 1 |
-| Clientes com página ainda **não aberta** | **44** |
+| Já respondidas | 3 |
+| Clientes com página ainda **não aberta** | **43** |
 
 > ⚠ **A lista está curta porque a varredura está no começo**, não porque há poucas
-> dúvidas. **44 clientes têm a página fechada** — pergunta boa nasce de varredura feita.
+> dúvidas. **43 clientes têm a página fechada** — pergunta boa nasce de varredura feita.
 
 ## 1 · Transversais — valem para a carteira toda
 
@@ -68,13 +68,13 @@
 | 1 | 🚨 **A credencial do site de documentação foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
 | 2 | Os dois arquivos de staging `SUPERSEDED` seguem no repositório. **Apago?** | `T2` | apagar é decisão sua, não minha | aberta |
 
-### Mondpars
+### Mondepars
 
-[abrir o arquivo do cliente](../../_Clientes/Mondpars/00_Institucional/_contexto/_pendencias-e-fontes.md)
+[abrir o arquivo do cliente](../../_Clientes/Mondepars/00_Institucional/_contexto/_pendencias-e-fontes.md)
 
 | # | Pergunta | Tier | Por que importa | Estado |
 |--:|---|:-:|---|---|
-| 1 | `Mondepars` na base do Notion × `Mondpars` na nossa pasta. **Qual grafia está certa?** | `T2` | não colapsa sozinho no `client_id` — e já causou perda silenciosa de dado nesta sessão | aberta |
+| 1 | `Mondepars` × `Mondpars` — **qual grafia está certa?** | `T2` | 🟢 **Respondida em 22 set 2026:** *o nome certo da empresa é Mondepars* — pasta renomeada; ⚠ **o CRM segue com a grafia errada** | respondida em 22 set 2026, por mensagem |
 
 ### NK STORE
 
@@ -110,7 +110,16 @@
 
 | # | Pergunta | Tier | Por que importa | Estado |
 |--:|---|:-:|---|---|
-| 1 | A pasta `Simples (by Reserva)` existe no nosso corpus e **não tem linha nenhuma na base `Mapa de Clientes`**. **É marca dentro da Reserva, ou conta própria que falta cadastrar?** | `T2` | define se são 48 ou 49 clientes, e se a pasta deve existir | aberta |
+| 1 | A pasta `Simples (by Reserva)` não tem linha na base. **É marca da Reserva ou conta própria?** | `T2` | 🟢 **Respondida em 22 set 2026:** *é marca de dentro da Reserva; a nível de contratação é RESERVA mesmo* — ⚠ resta saber se tem usuários e permissões próprios | respondida em 22 set 2026, por mensagem |
+
+### VIX
+
+[abrir o arquivo do cliente](../../_Clientes/VIX/00_Institucional/_contexto/_pendencias-e-fontes.md)
+
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | A VIX tem **5 perfis só de Estilo** (Biquini, Cover ups, PA, Roupas, Admin). **Isso vira subárea canônica no BrainHub, ou continua sendo só perfil da plataforma?** | `T2` | define se perfil e área são a mesma entidade ou duas | aberta |
+| 2 | A matriz de ~60 funções × 17 perfis foi editada pela última vez em **09/07/2025** e é mantida à mão. **Ainda reflete a plataforma?** | `T2` | se não reflete, o corpus estaria copiando ficção | aberta |
 
 ## Governança
 

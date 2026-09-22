@@ -2479,3 +2479,45 @@
      `Mapa de Clientes`.** É a única nessa condição (a `Mondpars` é só grafia).
      **É marca dentro da Reserva, ou conta própria que falta cadastrar?**
      **Define se são 48 ou 49 clientes.** → pergunta registrada.
+
+## Varredura de páginas de cliente — VIX (22 set 2026)
+
+356. **🟢 DECIDIDO — `Mondepars` é o nome certo.** Vinicius, textual: *"o nome certo da empresa
+     é Mondepars."* `[D]` **Pasta renomeada** de `Mondpars` para `Mondepars`, e a grafia
+     propagada nos 17 arquivos do cliente e na lista de clientes reais.
+     ⚠ **O CRM segue com a grafia errada** — quem ler lá vai achar `Mondpars`.
+357. **🟢 DECIDIDO — `Simples (by Reserva)` NÃO é cliente.** Vinicius, textual: *"é marca de
+     dentro da Reserva... a nível de contratação imagino que seja RESERVA mesmo."* `[D]`
+     **A carteira tem 48 clientes, não 49.**
+     ⚠ **Fica um ponto aberto que ele mesmo levantou:** pode haver **separação própria de
+     usuários e permissões** na plataforma, ainda que a contratação seja da Reserva.
+     🔴 **Apagar ou fundir a pasta é decisão dele — eu não apago pasta de cliente.**
+358. **🔺 A hipótese de que a estrutura da página segue quem atende é FALSA.** VIX e NK STORE
+     têm **a mesma atendente** (`Julianne + Pedro`) e páginas **completamente diferentes**.
+     **Quatro páginas abertas, três estruturas:** Osklen e NK STORE compartilham o toggle
+     `Pessoas`; Reserva e VIX não têm nada parecido. **Só abrindo se sabe.**
+359. **🔴 A VIX tem 17 perfis de usuário, e eles SÃO áreas** — `Vix-Admin` · `Vix-CAD` ·
+     `Vix-Compras` · `Vix-Desenvolvimento` · `Vix-Estamparia` · `Vix-PCP` · `Vix-Ficha Tecnica` ·
+     `Vix-Produto TP` · `Vix-Tabela` · `Vix-Qualidade` · `Vix-Demo` · `uDash` **e CINCO só de
+     Estilo**: `Biquini`, `Cover ups`, `PA`, `Roupas`, `Admin`.
+     **Confirma o item 'perfil = área' do registro (e) — e mostra que a granularidade real é de
+     SUBÁREA, não de área.** **Vira subárea canônica, ou fica só como perfil da plataforma?**
+360. **🔴 A matriz de permissão da VIX tem ~60 funções × 17 perfis, é mantida À MÃO numa tabela
+     do Notion, e a última edição é de 09/07/2025.** ⚠ **Não sei se ainda reflete a plataforma**
+     — se não reflete, copiá-la seria copiar ficção.
+361. **🔴 `Manual` e `Base de Importação` estão bloqueados para os 17 perfis da VIX.**
+     **Ninguém na VIX acessa o manual.** ⚠ **Conecta com a dor da CAEDU**, que registra que o
+     manual de instruções não foi suficiente. **Dois casos: é hipótese, não padrão ainda.**
+362. **🆕 `uPick` — quarto nome de produto fora das duas listas** (sub-página `uPick Vix - Passo
+     a passo`), junto de `uBuy` e `uPlan`. **O portfólio de 16 está incompleto, e agora são
+     três nomes ausentes.**
+363. **⚠ `uDash` é PERFIL de usuário na matriz da VIX e também nome de produto legado.**
+     **Dois sentidos para a mesma palavra** — mesma armadilha já registrada de `collection`
+     (banco) × coleção (moda).
+364. **🆕 A VIX tem a primeira tabela DE/PARA de integração campo a campo que o corpus vê**
+     (31/07/2025): campo uMode → campo Linx, com tabela e tipo
+     (`referenciabr` → `MODELISTA` varchar(25) em `PRODUTOS`). **Vale replicar como padrão de
+     documentação de integração.**
+365. **🆕 A página da VIX registra um aprendizado de atendimento:** usuário sem permissão de
+     deletar variante deve pedir internamente a quem tem. **Explica uma classe inteira de
+     demanda que hoje chega como chamado.**
