@@ -2082,3 +2082,44 @@
 268. **`Canal` é campo tipado na base de chamados** (ex.: `Chat Plataforma`). **É a primeira fonte
      com enum de canal** — confrontar com `communication_channels` da espec antes de travar o
      nosso. E **`Resolução`** (ex.: `TECH`) **é campo novo, não registrado no corpus.**
+
+## Decisões do Vinicius e painel de prontidão (22 set 2026)
+
+269. **🟢 DECIDIDO — item 260, o nível `Grupo`.** **NÃO entra agora.** Palavras dele:
+     *"a nível de sistema isso é altamente necessário, no entanto, quando estamos falando de
+     cérebro, a ideia de separar em áreas já deixa a questão de permissionamentos muito diferentes
+     entre áreas e portanto, entre empresas do mesmo grupo isso é praticamente impensável...
+     partindo do brain básico da companhia, podemos operar sob a **hierarquia máxima de cliente**."*
+     `[D]`
+     **Consequência prática:** Puket/Grupo Único, Reserva/Oficina Reserva e Highstil/Plié seguem
+     como **clientes independentes**. A relação de grupo fica **registrada como contexto**, não
+     como nível hierárquico. **Não reabrir sem instrução.**
+270. **🟢 DECIDIDO — item 262, a chave de identidade de pessoa.** **E-mail serve como chave,
+     mas não sozinho.** Palavras dele: *"se em dado momento aparecer uma mesma pessoa, mas com
+     dois endereços — seriam duas pessoas? Não faz sentido... você terá que ter sempre uma
+     avaliação sobre todos os e-mails concentrados de uma empresa/cliente e levantar suspeitos de
+     serem as mesmas pessoas."* `[D]`
+     **Vira obrigação de processo, não só de campo:** toda varredura de pessoa de um cliente
+     **fecha com uma análise de suspeitos de duplicidade** sobre o conjunto de e-mails daquele
+     cliente. **Suspeita se levanta; fusão só com confirmação humana.** → **entra no
+     `protocolo-varredura-cliente.md`.**
+271. **⚠ Fornecedor é o único que conecta múltiplos clientes** — e **brain de fornecedor não está
+     no escopo ainda** (decisão do Vinicius). **Item 265 fica registrado e parado.**
+272. **🔴 O enum de RFI tem 11 valores e nenhum conjunto terminal declarado.** Não dá para contar
+     "RFI em aberto" sem decidir **o que fecha uma RFI**. **Usei classificação `[P]` minha**
+     (terminal = `Entregue ao Cliente`, `Post Mortem`, `Cancelada`, `Não Aceita`). **Confirmar.**
+273. **🔴 A base de chamados tem cinco valores de `Status` para dois estados.** `Fechado` e
+     `Resolvido` são a mesma coisa; `Não iniciada`, `Pendente` e `Em Aberto` são três sabores de
+     aberto. ⚠ **E `Não iniciada` está no feminino**, os outros no masculino — enum montado em
+     momentos diferentes. **Normalizar.**
+274. **🔴 55% dos chamados estão abertos** (101 de 185) numa janela de um mês, concentrados em
+     NK STORE (19), NV (14), VIX (13) e Lofty Style (9). **Não concluo causa** — registro o número.
+275. **🔴 A Reserva tem 84 demandas abertas, 44 só em `Backlog`** — quatro vezes a segunda
+     colocada. **Tem os 7 módulos (a única) e apenas 13 reuniões, a última em 13/06/2025**, há
+     quinze meses. **Mais escopo, mais fila e menos encontro que qualquer `Ongoing`.**
+276. **🔴 A LACUNA QUE MAIS IMPORTA PARA O PERMISSIONAMENTO: cargo e área por pessoa.** Eu tenho
+     **quem age e quando**, em 15 clientes. **Não tenho `cargo` nem `área` de forma estruturada
+     para quase ninguém** — e **sem isso não há como derivar permissão por área**, que é a base do
+     cérebro que o Vinicius descreveu. **Nenhuma fonte varrida traz isso estruturado.**
+277. **🔴 33 dos 48 clientes não têm UMA pessoa sequer identificada.** **É a maior lacuna do
+     corpus em número**, e a fonte restante são as **páginas de `Documentação Clientes`** no Notion.

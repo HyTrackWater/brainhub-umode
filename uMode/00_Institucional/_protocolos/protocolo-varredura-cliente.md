@@ -286,6 +286,52 @@ A página da NK STORE tem **credencial de banco de produção em texto plano** n
 **que existe, onde está e que precisa ser rotacionada**, e avise. Mesma regra para **CPF e
 telefone pessoal**: no corpus entram **nome, cargo e e-mail corporativo**, que é o dado de negócio.
 
+## 9 · 🔴 Identidade de pessoa — a regra travada pelo Vinicius em 22 set 2026
+
+**Toda varredura de pessoas de um cliente fecha com uma análise de suspeitos de duplicidade.**
+Não é opção: é passo obrigatório do protocolo.
+
+### 9.1 · Por que existe
+
+Eu havia proposto **`person.email` como chave primária de identidade**. O Vinicius recusou a
+versão simples: `[D]`
+
+> *"Se em dado momento aparecer uma **mesma pessoa, mas com dois endereços** — seriam duas
+> pessoas? Não faz sentido. Você terá que identificar a forma mais plausível de torná-la única.
+> Se quiser tratar dessa forma pelo e-mail, ok, no entanto você terá que ter **sempre uma
+> avaliação sobre todos os e-mails concentrados de uma empresa/cliente e levantar suspeitos de
+> serem as mesmas pessoas**. Só assim pra resolver."*
+
+**E o risco é nos dois sentidos, com caso real de cada lado:**
+
+| Risco | Caso real |
+|---|---|
+| **Separar quem é a mesma pessoa** | `Thais Pantaleão` aparece em **8 grafias** na Osklen |
+| **Fundir quem são duas pessoas** | `Luana Henriques` e `Luana Carmo` — **duas pessoas reais** na VIX, e 11 demandas assinadas só `Luana` |
+
+### 9.2 · Como executar
+
+1. **Junte todos os identificadores daquele cliente**, de todas as fontes varridas: e-mail
+   (base de chamados), nome em `Quem solicitou?` (demandas), nome em ata, nome na página.
+2. **Agrupe por domínio de e-mail** — o domínio identifica o cliente e separa **terceiros**.
+3. **Levante suspeitos**, por estes sinais, nesta ordem de força:
+   - mesmo e-mail, grafias de nome diferentes → **mesma pessoa, alta confiança**
+   - primeiro nome igual + sobrenome ausente em um dos lados → **suspeito**
+   - variação de acento, letra dobrada ou apelido (`Patrícia`/`Patricia`/`Paty`) → **suspeito**
+   - primeiro nome igual **e sobrenomes diferentes** → 🔴 **são duas pessoas até prova em
+     contrário** — foi o caso das duas Luanas
+4. **Escreva a lista de suspeitos no `pessoas.md` do cliente**, com o sinal que a levantou.
+5. 🔴 **NÃO FUNDA NADA.** **Suspeita se levanta; fusão só com confirmação humana.**
+   Fundir por semelhança gráfica **inventa pessoa** — viola a regra de ouro.
+
+### 9.3 · O que registrar quando não dá para decidir
+
+**Cada forma entra como está na fonte**, com a marca de variante e o sinal que a tornou
+suspeita. **Nunca escolher uma forma "canônica" por conta própria.**
+
+> ⚠ **E registre o limite:** ter a chave **não conserta o dado escrito sem ela.** As 11 demandas
+> assinadas só `Luana` na VIX **seguem sem dono**, mesmo com os dois e-mails confirmados.
+
 ## Governança
 Somente o CEO altera conteúdo no BrainHub. **Alterar este protocolo exige ter executado a varredura
 de pelo menos um cliente com o método novo** — protocolo não se corrige por opinião.

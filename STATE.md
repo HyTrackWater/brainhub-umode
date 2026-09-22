@@ -2883,3 +2883,30 @@ caminho).
   funcionalidade e a produto. **É o vínculo que falta para ligar dor de cliente a parte do
   produto.** ⚠ **A base cobre um mês só** (06/01 a 05/02/2026): **não é histórico, é janela.**
   Itens 262–268.
+
+- **22 set 2026** — Sessão 37: **painel de prontidão — de quais clientes eu tenho clareza.**
+  Pergunta do Vinicius, em oito dimensões: quem atende, quem opera do lado do cliente, ferramentas
+  contratadas, momento da jornada, cadência, chamados abertos, RFIs abertas e próximos passos.
+  🟢 **Resposta: de 12 clientes respondo as oito.** Escrito o
+  `_varredura-2026-09-22c-painel-de-prontidao.md`.
+  **Mas as três ressalvas valem mais que o "sim":** (1) a clareza é de hoje e **a fonte muda
+  sozinha** — a CAEDU mudou entre duas leituras; (2) **os números de chamado cobrem um mês só**;
+  (3) **"próximos passos" significa campo escrito, não acordo com o cliente** — **em nenhum
+  cliente achei próximo passo validado pelos dois lados.**
+  **Números novos:** 🔴 **55% dos chamados estão abertos** (101 de 185), concentrados em NK STORE
+  (19), NV (14), VIX (13) e Lofty (9). 🔴 **A Reserva tem 84 demandas abertas, 44 em `Backlog`** —
+  quatro vezes a segunda — **com os 7 módulos, a única, e apenas 13 reuniões, a última há quinze
+  meses.** **Não concluo causa; registro a combinação.**
+  **Dois enums quebrados:** a base de chamados tem **5 valores de `Status` para 2 estados**
+  (`Fechado` = `Resolvido`; `Não iniciada`/`Pendente`/`Em Aberto` = aberto), **com um no
+  feminino**; e o enum de RFI tem **11 valores e nenhum conjunto terminal declarado** —
+  **não dá para contar RFI aberta sem decidir o que fecha uma RFI.**
+  **Duas decisões do Vinicius travadas:** 🟢 **o nível `Grupo` NÃO entra** — hierarquia máxima
+  é cliente, porque permissionamento por área já torna impossível compartilhar entre empresas do
+  grupo; e 🟢 **e-mail serve de chave, mas nunca sozinho** — **toda varredura de pessoas fecha
+  com análise de suspeitos de duplicidade**, que virou a **§ 9 do `protocolo-varredura-cliente.md`**,
+  com a regra dura: **suspeita se levanta, fusão só com confirmação humana.**
+  🔴 **E a lacuna que mais importa para o objetivo dele ficou nomeada:** tenho **quem age e
+  quando** em 15 clientes, **mas não tenho `cargo` nem `área` estruturados para quase ninguém** —
+  **sem isso não há permissão por área.** E **33 dos 48 clientes não têm uma pessoa sequer.**
+  Itens 269–277.
