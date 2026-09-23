@@ -3262,3 +3262,40 @@
      (`Perfil de Acesso - BAW`, mais `(1)`, `Estilo` e `Engenharia/Compras`) e uma na Oficina
      (`2b6b1d38…`). **É o lugar provável dos usuários desses dois** — eles não têm toggle
      `Pessoas` nem tabela.
+
+## Os 8 clientes ativos com página nunca aberta (23 set 2026)
+
+524. 🟢 **Varridos os 8 clientes ativos cuja página nunca tinha sido aberta.** Pessoa real em
+     **3 de 8**: **Camys** (6, com e-mail e perfil), **Mondepars** (10, com e-mail) e **Hering**
+     (3 nomes, **zero e-mails na página inteira**). **Vazios em 5:** Arezzo (página em branco),
+     TDC (só um link), Cavallari, Studio Minah e Ton Age (template íntegro, nenhuma linha
+     preenchida). **+19 fichas · corpus de pessoa de cliente: 318 → 340 · 18 → 21 clientes.**
+525. 🔴 **A Mondepars tem 10 usuários e TODOS com perfil `Dono`.** A própria página declara:
+     *"Não há nenhum perfil definido por enquanto. Todos possuem status de donos da conta."*
+     🔴 **Risco de governança**: dez contas com poder total, e **não há área derivável do perfil**
+     nesse cliente. ⚠ **Decisão: isso é o estado real ou é setup inacabado?**
+526. 🔴 **Quarta natureza de pessoa: o TERCEIRO com acesso de dono.** Na Mondepars,
+     **`Matheus Cazuza` usa domínio `thela.studio`** — agência/terceiro, **com perfil `Dono`**.
+     Junta-se a `Fornecedor` (Luiza Barcelos, Lenny) e `Qualitá` (Oficina Reserva).
+     🔴 **O BrainHub não modela isso** — não é pessoa da Casa nem do cliente.
+527. 🔴 **Duas caixas FUNCIONAIS entraram como se fossem pessoa.** `sac@mondepars.com`
+     (Carolina Abreu) e, na Camys, uma linha cujo `Usuário` é **`DIGITAL, SAC & INSIDe`** — nome
+     de função, não de pessoa — com e-mail nominal `alessandra@`. **Somados a
+     `financeiro3@recco.com.br` (item 521), são três.** 🔴 **A regra de identidade precisa
+     separar e-mail nominal de caixa funcional antes de qualquer deduplicação.**
+528. 🔺 **Dois defeitos do `gera-fichas-pessoa.py`, achados e corrigidos hoje.**
+     **(a)** o nome do arquivo saía da parte local do e-mail; **sem e-mail, gerava um arquivo
+     chamado `.md` e a pessoa sumia em silêncio** — foi o que aconteceu com `Juliana`
+     (Mondepars). Agora cai para o nome, e o que não dá para nomear vai para a lista visível de
+     descartados. **(b)** a ficha imprimia **``` `` ``` — e-mail corporativo** com o campo vazio,
+     **afirmando ter o que não tem.** 🔴 **Afirmação falsa é pior que campo vazio.**
+529. ⚠ **A lista de áreas que aparece em Cavallari, Studio Minah e Ton Age é TEMPLATE, não dado.**
+     *Produto&Planejamento · Estilo · Compras · Operações (SAC) · Marketing · Comercial*, com
+     `(EX:)` em cada linha, **idêntica nos três**. 🔴 **Não formalizar como área desses clientes.**
+530. ⚠ **Hering: a property `ERP/Integração` diz `Ilimitar`, o corpo da página diz `Linx`.**
+     **Divergência não resolvida.** ⚠ E a Hering é `Pré Onboarding` — 5 nomes citados
+     (`Jean Geard Hagen` é o único com cargo), **e nenhum e-mail em toda a página**.
+     ⚠ Uma ata cita `Dayana Carla Sestrem` e o toggle cita `Day` — **não fundi**.
+531. 🚨 **Quinto foco de credencial: a Camys linka uma planilha Google chamada `Acessos`.**
+     **Não foi aberta.** O nome indica armazenamento de acesso. Junta-se a NK STORE, Lofty Style,
+     Recco/uFlow `Credenciais` e ao YAML do uFlow (`RISC-001`). **Rotação é ação do Vinicius.**

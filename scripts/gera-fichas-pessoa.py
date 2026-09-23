@@ -110,6 +110,14 @@ def e_pessoa(nome):
 #
 # Formato: cliente -> [(nome como a pagina escreve, cargo, area, bloco)]
 DA_PAGINA = {
+    u"Hering": [
+        (u"Jean Geard Hagen", u"Diretor de TI", u"Tecnologia",
+         u"Responsável Tecnologia", u""),
+        (u"Sheilla", u"[a preencher]", u"[a preencher]",
+         u"Responsáveis pelos Projetos", u""),
+        (u"Day", u"[a preencher]", u"[a preencher]",
+         u"Responsáveis pelos Projetos", u""),
+    ],
     u"Lenny Niemeyer": [
         (u"Maria Helena Ortiz Niemeyer", u"Diretora", u"Diretoria",
          u"Diretores e Representantes Legais", u"lenny@lennyniemeyer.com"),
@@ -226,6 +234,9 @@ DA_PAGINA = {
 USADAS = set()
 
 NOTA_PAGINA = {
+    (u"Hering", u"Jean Geard Hagen"): u"🟢 **Única pessoa da Hering com cargo declarado na fonte.** 🔴 **A página inteira da Hering não tem NENHUM e-mail** — busca por regex em todo o conteúdo voltou vazia. Ele aparece também no sub-toggle `Stakeholders`.",
+    (u"Hering", u"Day"): u"⚠ **`Day` é como a fonte escreve** — primeiro nome ou apelido. ⚠ **Uma ata da mesma página cita `Dayana Carla Sestrem`**, mas **a fonte não liga os dois nomes**. **Não fundi** — `protocolo-varredura-cliente.md` § 9.",
+    (u"Hering", u"Sheilla"): u"⚠ **Só o primeiro nome, sem cargo e sem e-mail.** Aparece também no sub-toggle `Stakeholders`. 🔴 **A Hering é `Pré Onboarding`** — o time ainda não está formalizado na página.",
     (u"Lenny Niemeyer", u"Maria Helena Ortiz Niemeyer"): u"🔴 **O bloco da fonte traz também nacionalidade, estado civil, profissão, CPF/MF, RG (DETRAN/RJ) e telefone. NENHUM entrou aqui** — são `T0`, que entra por referência e nunca por valor (`AGORA.md` § 8.1). **Registro que existem e onde.**",
     (u"Lenny Niemeyer", u"André Rodrigues"): u"⚠ **`Coordenado do Planejamento` está escrito assim na fonte**, sem o `r`. **Não corrigi.** O bloco também traz telefone (`T0`, não copiado).",
     (u"Lenny Niemeyer", u"Victor Siqueira"): u"🟢 **O campo `Observação` da fonte diz *Trabalhou no Soma*.** ⚠ `Soma` é o grupo citado na descrição do segmento `Enterprise` (*Reserva + Soma*) — **não afirmo que seja o mesmo**, registro a coincidência. O bloco traz telefone (`T0`, não copiado).",
@@ -258,6 +269,38 @@ NOTA_PAGINA = {
 # E a unica fonte que da DATA DE ATIVACAO por pessoa, e a unica com chave de
 # identidade. Formato: cliente -> [(nome, email, perfil, ativo_desde, obs)]
 DA_PLATAFORMA = {
+    u"Camys": [
+        (u"Camila Simões", u"camilasimoes@camys.com.br", u"Dono da conta", u"15/08/2024",
+         u"perfil de acesso `dono da conta`, da tabela de usuários da página do cliente."),
+        (u"DIGITAL, SAC & INSIDe", u"alessandra@camys.com.br", u"Gerente de Produto", u"29/07/2021",
+         u"🔴 **A coluna `Usuário` traz um NOME DE FUNÇÃO, não de pessoa** — `DIGITAL, SAC & INSIDe` — com um e-mail nominal (`alessandra@`). **Conta compartilhada ou rótulo errado: não decidi.** ⚠ O perfil é `Camys - Gerente de Produto`, que não bate com o rótulo da função."),
+        (u"BIANCA GRASSI", u"bianca.grassi@camys.com.br", u"PCP", u"17/05/2022",
+         u"perfil de acesso `Camys - PCP`."),
+        (u"Clarisse", u"clarisse.navas@camys.com.br", u"Estilo", u"26/07/2022",
+         u"perfil de acesso `Gerente de Estilo`. ⚠ **Sem sobrenome na coluna `Usuário`** — o e-mail sugere `Navas`, **não completei**."),
+        (u"Ana Vilha", u"ana.vilha@camys.com.br", u"Estilo", u"07/06/2023",
+         u"perfil de acesso `Gerente de Estilo`."),
+        (u"Kariele", u"kariele.marinho@camys.com.br", u"Estilo", u"03/11/2023",
+         u"perfil de acesso `Gerente de Estilo`. ⚠ **Sem sobrenome na coluna `Usuário`** — o e-mail sugere `Marinho`, **não completei**."),
+    ],
+    u"Mondepars": [
+        (u"Paula Bueno", u"paulabueno@mondepars.com", u"[a preencher]", u"03/12/2025",
+         u"perfil `Dono`. 🔴 **Os 10 usuários desta conta têm perfil `Dono`** — a própria página declara: *Não há nenhum perfil definido por enquanto. Todos possuem status de donos da conta.* **Não há área derivável do perfil aqui.**"),
+        (u"Saulo Rocha", u"saulorocha@mondepars.com", u"[a preencher]", u"03/12/2025", u"perfil `Dono` — ver nota de Paula Bueno."),
+        (u"Mariana Basso", u"mariana.basso@mondepars.com", u"[a preencher]", u"09/12/2025", u"perfil `Dono` — ver nota de Paula Bueno."),
+        (u"Carmen Manzano", u"carmenmanzano@mondepars.com", u"[a preencher]", u"10/12/2025", u"perfil `Dono` — ver nota de Paula Bueno."),
+        (u"Matheus Cazuza", u"cazuza@thela.studio", u"[a preencher]", u"20/02/2026",
+         u"perfil `Dono`. 🔴 **Domínio EXTERNO (`thela.studio`), não é e-mail da Mondepars** — é terceiro/agência com acesso de dono à conta. **Quarta natureza de pessoa**, ao lado de `Fornecedor` (Luiza Barcelos, Lenny) e `Qualitá` (Oficina Reserva)."),
+        (u"Alan John", u"alanjohn@mondepars.com", u"[a preencher]", u"04/03/2026", u"perfil `Dono` — ver nota de Paula Bueno."),
+        (u"Juliana", u"", u"[a preencher]", u"09/03/2026",
+         u"perfil `Dono`. 🔴 **O e-mail desta conta é de domínio PESSOAL (Gmail) — `T0`, não copiado.** **Registro que existe e onde; o valor fica na fonte** (`AGORA.md` § 8.1). ⚠ **Sem sobrenome** na coluna `Usuário`."),
+        (u"João", u"joaopaz@mondepars.com", u"[a preencher]", u"23/03/2026",
+         u"perfil `Dono`. ⚠ **Sem sobrenome na coluna `Usuário`** — o e-mail sugere `Paz`, **não completei**."),
+        (u"Carolina Abreu", u"sac@mondepars.com", u"[a preencher]", u"06/04/2026",
+         u"perfil `Dono`. 🔴 **`sac@` é CAIXA FUNCIONAL, não endereço nominal** — **não serve como chave de identidade de pessoa** (item 252), porque outra pessoa do SAC teria o mesmo."),
+        (u"Luiza", u"luizalimongi@mondepars.com", u"[a preencher]", u"06/04/2026",
+         u"perfil `Dono`. ⚠ **Sem sobrenome na coluna `Usuário`** — o e-mail sugere `Limongi`, **não completei**."),
+    ],
     u"Caedu": [
         (u"ADRIANA.GERMANO", u"adriana.germano@caedu.com.br", u"Geral", u"21/07/2023",
          u"perfil de acesso `Caedu-Geral`, da tabela de usuários da página do cliente. 🔴 **`Ativo desde` está corrompido na fonte: `21/07/2023`.** Não deduzi a data. ⚠ **Sem acesso a:** `Aba de cadastros`."),
@@ -612,7 +655,20 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None, plat=None):
     L.append(u"### Nome preferido / como é chamado(a)")
     L.append(u"**%s**" % nome)
     L.append(u"### Email")
-    if plat:
+    if plat and not plat[1]:
+        # Sem e-mail na fonte OU e-mail de dominio pessoal, que e `T0` e nao entra
+        # por valor. Antes isso imprimia "**``** - e-mail corporativo", afirmando
+        # ter o que nao tem. Afirmacao falsa e pior do que campo vazio.
+        L.append(u"`[a preencher]` — **a tabela de usuários da plataforma não traz e-mail "
+                 u"utilizável para esta pessoa.**")
+        L.append(u"")
+        L.append(u"🔴 **Pode ser ausência na fonte ou e-mail de domínio pessoal** — que é `T0` "
+                 u"e **entra por referência, nunca por valor** (`AGORA.md` § 8.1). "
+                 u"**A nota abaixo diz qual é o caso.**")
+        L.append(u"")
+        L.append(u"⚠ **Sem e-mail, esta ficha não tem chave de identidade** (item 252) — "
+                 u"grafia diferente desta pessoa não se resolve sozinha.")
+    elif plat:
         L.append(u"**`%s`** — e-mail **corporativo**, da tabela de usuários da "
                  u"plataforma." % plat[1])
         L.append(u"")
@@ -812,7 +868,15 @@ def main():
             local = r[1].split(u"@")[0]
             e_login = u"." in r[0] or slug(r[0]) == slug(local)
             base_nome = local.replace(u".", u" ") if e_login else r[0]
-            pth = os.path.join(destino, slug(r[1].split(u"@")[0]) + u".md")
+            # O nome do arquivo sai da parte local do e-mail. Quando NAO HA e-mail
+            # - caso de e-mail pessoal `T0`, que nao entra por valor - isso gerava
+            # um arquivo chamado ".md" e a pessoa sumia calada. Cai para o nome.
+            base_arq = slug(r[1].split(u"@")[0]) if r[1] else slug(r[0])
+            if not base_arq:
+                DESCARTADOS.append((r[0] or u"(sem nome)",
+                                    u"sem e-mail E sem nome utilizavel: nao dava para nomear o arquivo"))
+                continue
+            pth = os.path.join(destino, base_arq + u".md")
             if pth in escritos:
                 COLISOES.append((c, pth, escritos[pth],
                                  (u"tabela de usuarios", r[1])))

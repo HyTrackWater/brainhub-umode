@@ -118,6 +118,8 @@ Responsável de atendimento + liderança de Atendimento uMode
 🔴 **O que ainda não se sabe deste cliente, e onde já se procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)
 
 
+**Registros:** **6 fichas de pessoa** — [índice](../_pessoas/_indice.md)
+
 **As 14 áreas deste cliente:**
 
 - [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
