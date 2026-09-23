@@ -3613,3 +3613,50 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
 584. ⚠ **A CAEDU está como `status/ongoing` no corpus, mas a base do Notion diz `Onboarding`**
      desde 22/09/2026 (itens 249 e 258). **O `institucional.md` dela não foi atualizado** — e
      agora essa divergência se propaga para as 100+ tags do cliente. **Corrigir na fonte.**
+
+## O vault do João — o moedor já desenhado, e o que falta (23 set 2026)
+
+585. 🔺 **CORREÇÃO minha, apontada pelo Vinicius: o CX Hub NÃO tem agente treinado.**
+     Eu afirmei que `cx-meeting-transcriber` "já existe" e era "o moedor em peças". **Os quatro
+     nomes do CX Hub são edge functions, não agentes com treino.** **O que existe está no vault.**
+     ⚠ **Errei ao tratar nome de função como agente** — mesmo erro que o vault do João nomeia:
+     *"nome de arquivo é hipótese, conteúdo é veredito"*.
+586. 🟢 **O MOEDOR JÁ FOI DESENHADO.** `brainhub-seed-calls.md`, diretriz canônica assinada pelo
+     João em **17/06/2026**: transcrição → **classificar tipo** → **extrair entidades** →
+     **fan-out + diff por entidade** → **propostas na fila de aprovação**.
+     🟢 **E resolve o ponto que eu tinha apontado como falha:** *"uma call que fala de 5 clientes
+     gera 5 cruzamentos independentes, não 1 atualização"*. 🔴 **Dos 6 andares, só o 1º está feito.**
+587. 🔴 **PRÉ-CONDIÇÃO que nos atinge direto (§05 do seed-calls):** o diff só funciona se o MD de
+     entidade for **fato atômico e datado** — `- imersão: 10/07/2026 (fonte: PRD v1.6)` — **não
+     prosa.** ⚠ **Os nossos `institucional.md` e `contexto-area.md` são prosa.**
+     🔴 **Isso é trabalho nosso e é PRÉ-condição, não consequência.** **Decisão: convertemos o
+     formato dos MDs de entidade para fato atômico datado?**
+588. 🟢 **Os 4 treinos do `brainhub-mine` são a melhor peça reaproveitável:** `filtro-sinal`
+     (durável + reutilizável + não-óbvio) · `classificador-cunho` (assunto × tipo × dono) ·
+     `roteador-tier` (**fato sobre pessoa física assume o tier mais restritivo e escala**) ·
+     **`juiz-contradicao`** (refino/atualização/**contradição nunca decide, enfileira**).
+     **Política em MD editável, fora do código, saída contratada em JSON.**
+589. 🔴 **Existe matéria-prima parada: 206 transcrições no Drive** (pasta `Tactiq Transcription`,
+     esteira morta há 24 dias em 02/09) **e 598 áudios de WhatsApp nunca transcritos.**
+     ⚠ **E 16 jobs estão pausados desde 09/08 por decisão do João — 0 ativos.**
+     **Não falta fonte. Falta esteira ligada.**
+590. 🔴 **O que NINGUÉM construiu, e é exatamente o pedido do Vinicius:** **nada cria Demanda,
+     RFI ou Atividade a partir de reunião.** As saídas previstas param em **task, e-mail e
+     atualização de MD**. 🔴 **E não há roteamento para PESSOA nem para ÁREA de cliente** — as
+     rotas vão a categoria. **Nenhuma peça conhece a hierarquia `Instituição → Áreas → Pessoas`.**
+591. 🟢 **A complementaridade é clara: o vault tem o MOTOR, nós temos o ENDEREÇO.**
+     Eles têm os treinos, o classificador com loop de feedback, a fila de aprovação real
+     (`brainhub-approval-bridge`) e a governança de heartbeat/evidência. **Nós temos 479 fichas
+     de pessoa com e-mail, 48 clientes com status, 680 áreas e a hierarquia travada.**
+592. ⚠ **A branch `origin/governance/brainhub-v1.5` (14/09) tem 12 skills que o `main` não tem**,
+     incluindo `brainhub-approval-bridge`, `onde-mora-cada-coisa`, `padrao-cliente` e
+     `curadoria-por-conteudo`. **Nosso clone está 3 dias atrás.** ⚠ **Ler antes de desenhar.**
+593. 🟢 **A governança de agente do vault é dura e vale copiar o princípio:** agente escreve
+     **só no próprio inbox**, nunca em canônico · **front-matter obrigatório, sem ele é intruso** ·
+     **heartbeat** (*"nada roda sem batimento"* — dois jobs morreram e ninguém soube por 5 semanas)
+     · **evidência** (*"exit 0 não é prova de trabalho"* — um job falhava em 10 de 10 repos com
+     heartbeat verde) · **Guarda determinística por script, não por LLM**.
+594. 🚨 **Higiene de segredo no vault, registrada por referência:** o `DECISOES.md` da raiz cita
+     **senha em texto claro** de um repositório de proposta, e a skill `discord-intake` aponta o
+     **caminho de um token de bot**. 🔴 **Nenhum valor foi lido ou copiado.**
+     ⚠ **É higiene do vault do João, não nossa** — mas soma aos 5 focos já conhecidos aqui.

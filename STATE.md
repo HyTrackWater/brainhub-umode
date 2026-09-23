@@ -3393,3 +3393,35 @@ caminho).
   ⚠ **Divergência que as tags expuseram:** a CAEDU está `status/ongoing` no corpus e `Onboarding`
   na base do Notion desde 22/09 — **e agora isso se propaga para 100+ tags do cliente.**
   **Itens 577–584.**
+
+- **23 set 2026** — Sessão 52: **o moedor já foi desenhado pelo João, e chegou a rodar.**
+  🔺 **Correção do Vinicius que eu precisei aceitar:** eu afirmei que `cx-meeting-transcriber` do
+  CX Hub "já existe" e era "o moedor em peças". **O CX Hub não tem agente treinado** — os quatro
+  nomes são edge functions. **Errei ao tratar nome de função como agente**, o mesmo defeito que o
+  vault do João nomeia: *"nome de arquivo é hipótese, conteúdo é veredito"*.
+  🟢 **Vistoria do `umode-os-vault`, somente leitura**, `main` em `2125e37a` mais a branch
+  `governance/brainhub-v1.5` lida por `git show`. **Nenhum commit, checkout ou escrita.**
+  🟢 **O MOEDOR JÁ EXISTE EM DESENHO.** `brainhub-seed-calls.md`, diretriz canônica assinada pelo
+  João em **17/06/2026**: transcrição → classificar tipo → extrair entidades → **fan-out + diff
+  por entidade** → propostas na fila de aprovação. **E resolve o ponto que eu tinha apontado como
+  falha do moedor:** *"uma call que fala de 5 clientes gera 5 cruzamentos independentes"*.
+  **Dos 6 andares, só o 1º está feito.**
+  🔴 **Pré-condição que nos atinge:** o diff só funciona se o MD de entidade for **fato atômico e
+  datado**, não prosa. **Os nossos são prosa.** É trabalho nosso, e vem ANTES do moedor.
+  🟢 **A melhor peça reaproveitável são os 4 treinos** do `brainhub-mine`: `filtro-sinal`,
+  `classificador-cunho`, `roteador-tier` (**fato sobre pessoa física assume o tier mais restritivo
+  e escala**) e **`juiz-contradicao`** (contradição real **nunca decide, enfileira**).
+  **Política em MD editável, fora do código, saída contratada em JSON.**
+  🔴 **Há matéria-prima parada: 206 transcrições no Drive** (esteira morta há 24 dias em 02/09)
+  **e 598 áudios de WhatsApp nunca transcritos.** **16 jobs pausados desde 09/08, 0 ativos.**
+  **Não falta fonte — falta esteira ligada.**
+  🔴 **O que ninguém construiu, e é exatamente o pedido do Vinicius:** nada cria **Demanda, RFI ou
+  Atividade** a partir de reunião — as saídas param em task, e-mail e MD. **E não há roteamento
+  para pessoa nem para área de cliente.** **Nenhuma peça conhece a nossa hierarquia.**
+  🟢 **A complementaridade ficou clara: o vault tem o MOTOR, nós temos o ENDEREÇO** — 479 fichas
+  de pessoa com e-mail, 48 clientes com status, 680 áreas, hierarquia travada.
+  🟢 **A governança de agente do vault vale copiar em princípio:** escrita só no próprio inbox ·
+  front-matter obrigatório · **heartbeat** (*"nada roda sem batimento"*) · **evidência**
+  (*"exit 0 não é prova de trabalho"*) · **Guarda determinística por script, não por LLM**.
+  🚨 **Higiene de segredo registrada por referência** no vault (senha em `DECISOES.md`, caminho de
+  token em `discord-intake`). **Nenhum valor lido ou copiado.** **Itens 585–594.**
