@@ -73,6 +73,14 @@ NAO_VARRIDAS = [
      u"conteúdo — **e varredura de credencial**"),
     (u"**Gist** — o chat da plataforma", u"canal oficial de dúvida de usabilidade",
      u"conversa de suporte, por cliente"),
+    (u"🔴 **`uMode Geral / uFlow / Documentação de Setup - PLM / CLIENTES`**",
+     u"segundo acervo de documentação por cliente, fora do `Mapa de Clientes`",
+     u"**setup de PLM por cliente** — achado em 22 set 2026, jamais tocado"),
+    (u"**As 10 páginas `Perfil de Usuário e Permissionamentos`**",
+     u"sub-página de cliente", u"**perfis = áreas do cliente** e a matriz de permissão "
+     u"— **2 lidas de 10**"),
+    (u"**`Linear`** — gestão de projeto da uMode", u"linear.app/umode",
+     u"roadmap e PRDs — há item `offTrack` desde jan/2026"),
     (u"**Grupos de WhatsApp**", u"fora de qualquer sistema",
      u"operação real — a Reserva tem 9 mapeados"),
 ]
@@ -784,6 +792,20 @@ PERGUNTAS = {
 
 # PERGUNTAS QUE NAO SAO DE UM CLIENTE SO.
 PERGUNTAS_GERAIS = [
+    (u"🔴 **`Fale com o Suporte` está BLOQUEADO para todos os 6 perfis da Luiza "
+     u"Barcelos e LIBERADO para todos os 17 da VIX. É decisão ou configuração "
+     u"esquecida?**", u"T2",
+     u"🔴 **explica por que a conta parecia invisível na base de chamados** — e "
+     u"significa que **volume de chamado mede quem tem o botão, não atividade de conta**",
+     u"aberta"),
+    (u"🔴 **`Fornecedor` é perfil de usuário com login na Luiza Barcelos e na "
+     u"Lenny Niemeyer. Como o BrainHub modela isso?** Não é pessoa de cliente nem pessoa "
+     u"da Casa — **é uma terceira natureza, e ela já tem acesso à plataforma.**",
+     u"T2", u"junta-se à `Qualitá` da Oficina Reserva, que opera por WhatsApp", u"aberta"),
+    (u"⚠ **O `Manual` está bloqueado para TODOS os perfis nos dois clientes que li** "
+     u"(VIX e Luiza Barcelos). **É assim nos outros oito?** Se for, a dor da CAEDU sobre "
+     u"manual insuficiente muda de natureza.", u"T2",
+     u"se ninguém acessa, a pergunta não é se o manual é bom", u"aberta"),
     (u"🔴 **Por que o desenho de `Griffe › Linha › Grupo › Subgrupo` feito "
      u"para a **Loungerie** nunca chegou na **CAEDU**?** A CAEDU pede essa hierarquia desde a "
      u"weekly de **16/09/2025** e ela reaparece idêntica em jul e ago/2026. A página da "

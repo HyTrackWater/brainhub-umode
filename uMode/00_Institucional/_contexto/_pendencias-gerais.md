@@ -2819,3 +2819,49 @@
      fechamento do contrato"*, o que implica contrato fechado.
 439. **🆕 A Loungerie é o único cliente com horizonte de coleção declarado:** desenvolvimento
      concentrado no **2º sem/2027**, importados com abastecimento até **abril/2027**.
+
+## As páginas de Perfil de Usuário — dez clientes, duas lidas (22 set 2026)
+
+440. **🔴🔴 ACHEI A CAUSA MECÂNICA DO MEU ERRO COM A LUIZA BARCELOS.** Eu disse que a conta era
+     *"quase invisível"* porque quase não aparecia na base de chamados, e depois corrigi dizendo
+     que eu media pela fonte errada. **A correção estava certa e incompleta.**
+     🔴 **`Fale com o Suporte` está BLOQUEADO para os SEIS perfis da Luiza Barcelos.**
+     **Ninguém na conta consegue abrir chamado pela plataforma.** A conta não aparecia
+     **porque o caminho está fechado.**
+     🔴 **E na VIX o mesmo botão está liberado para os 17 perfis.**
+     **Consequência para todo o corpus: volume de chamado não mede atividade de conta — mede
+     quem tem o botão.** Toda leitura que fiz por chamado precisa desse asterisco.
+441. **🔴 `Fornecedor` É PERFIL DE USUÁRIO com login** — na Luiza Barcelos e na Lenny Niemeyer.
+     Vê `Tarefa homepage` e `Tarefa ficha` com edição; `Imagens`, `Versões (variante)` e
+     `Grade de Tamanhos` só leitura; **todo o resto bloqueado.**
+     🔴 **Responde em parte a pergunta do "terceiro":** na Oficina Reserva a `Qualitá` opera
+     **por WhatsApp**; aqui o fornecedor **tem conta, com escopo desenhado**.
+     **O modelo existe em dois clientes e não existe no corpus.**
+442. **⚠ Duas colunas de TESTE viraram permanentes na matriz da Luiza Barcelos** —
+     `Teste LB-Admin 03/01/25` e `Teste LB-Time 07/02/25`, com ✔️ em vez de 🟢/🟡/🔴.
+     **E três perguntas do teste ficaram como células:** *"pq no tecido aparece 'incluir nova
+     variante' e no aviamento não?"* · *"era bom deixar pra editar pra colocar a corzinha"* ·
+     *"✔️ mas só tá vendo lb-admin e lb-time. tem q ver os times"*.
+     🔴 **São perguntas de jan/fev 2025 nunca respondidas, dentro do documento que descreve a
+     permissão vigente.** Última edição da página: **14/05/2025**.
+443. **🔴 O `Manual` e a `Base de Importação` estão bloqueados para TODOS os perfis nos DOIS
+     clientes que li** — VIX (17 perfis) e Luiza Barcelos (6). **Dois de dois: hipótese forte.**
+     ⚠ **Conecta com a dor da CAEDU** (*"o Manual de Instruções não foi suficiente"*) e com o
+     `Manual do Cliente para o Sistema PLM` da uMode, de **24/08/2023**.
+     **Se o manual está bloqueado para todo mundo, a pergunta não é se ele é bom.**
+444. **🔴 ACHADO ESTRUTURAL — um SEGUNDO acervo de documentação por cliente:**
+     `uMode Geral / uFlow / Documentação de Setup - PLM / CLIENTES (Em desenvolvimento)`.
+     Achado porque a página de permissionamento da **NV** mora lá, e não no `Mapa de Clientes`.
+     **Nenhuma varredura tocou nele.**
+445. **🔴 As páginas `Perfil de Usuário e Permissionamentos` existem em DEZ clientes e eu li
+     DUAS.** VIX (17 perfis) e Luiza Barcelos (6). Faltam: Cambos (4) · Moda Objetiva (5) ·
+     Oficina Reserva (5) · NK STORE (3) · Lenny Niemeyer (3, **com `Fornecedor`**) · Recco (2) ·
+     NV (no outro caminho) · Lofty Style.
+     ⚠ **Dois clientes em churn têm a página** — Lenny e Recco. **Elas descrevem como a conta era
+     operada, e isso não morre com o churn.**
+446. **🆕 `Linear` — décima segunda ferramenta**, gestão de projeto da uMode. Achada de relance,
+     com um item vivo: *"Planejamento e Estudo do PRD Permissionamento Login"*, **`In Progress`
+     e health `offTrack`** desde **20/01/2026**. **Nunca varrido.**
+447. **🆕 `Felipe Sindeaux` — pessoa da Casa que o corpus não tinha**, *lead* do item do Linear.
+     ⚠ **Ficha não criada: uma linha de busca não é fonte suficiente para nascer uma pessoa.**
+     **Entra na revisão do `HOJE` dos uModers**, ao fim da varredura.

@@ -125,6 +125,11 @@ CANAIS = [
      u"pastas de opera\u00e7\u00e3o por cliente \u2014 o campo `Drive Opera\u00e7\u00e3o` da base aponta para c\u00e1"),
     (u"YouTube", u"Google",
      u"grava\u00e7\u00e3o de reuni\u00e3o e treinamento \u2014 \u26a0 **nunca varrido**"),
+    (u"Linear", u"Linear",
+     u"🔴 **gestão de projeto da uMode** — achada de relance numa busca em "
+     u"22 set 2026, com um item vivo: *Planejamento e Estudo do PRD Permissionamento Login*, "
+     u"**`In Progress` e health `offTrack`** desde 20/01/2026. "
+     u"⚠ **Não estava no enum `tool` do corpus e nunca foi varrido.**"),
     (u"Tactiq", u"Tactiq",
      u"🔴 **transcrição de reunião, e tem histórico próprio fora do Notion.** "
      u"As 7 transcrições da CAEDU entregues pelo Vinícius são dela, e a página da "
