@@ -126,7 +126,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Soluções do Portfólio | **16** | `03_Produto-e-Solucoes/` |
 | `integracao.md` | **11** | 5º MD de cliente |
 | `.md` estruturais classificados | **90 / 90** | `valida-documentacao.py` ✅ |
-| Atas de reunião lidas por inteiro | **8 de 1.161** | |
+| Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
 | Decisões pendentes | **487** | `_pendencias-gerais.md`, numeradas até 491 |
@@ -320,8 +320,13 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
    fornecedora de marcas e não marca · qual campo manda, `Status` ou `Etapa`.
 6. 🔵 **Fechar as 3 entidades que faltam: reunião, e-mail e agente.** Enquanto forem prosa, o
    grafo não liga ata a pessoa nem demanda a conversa.
-7. 🔵 **Resolver o campo `Participantes` das 1.161 reuniões** com `get-users` — dá presença
-   nominal com data, a melhor fonte de pessoa ativa ainda não extraída.
+7. ✅ **`Participantes` das reuniões — RESOLVIDO em 23 set 2026, e o resultado é NEGATIVO.**
+   🔴 **Não dá presença nominal.** São 1.694 presenças em **25 IDs distintos**, e **24 não
+   resolvem** — 99,2% ficam anônimas. Verificado por três vias; **a via está esgotada na API.**
+   🔵 **A única que resta é humana:** abrir UMA reunião no Notion pela UI mostra o nome.
+   **Os 5 uuids de topo somam 88% das presenças — cinco olhadas resolvem.**
+   🟢 **O que saiu de novo:** intensidade de atendimento por conta (Luiza Barcelos 126 · NK STORE
+   111 · Osklen 101 · … · **Caedu 35**). **Itens 551–561.**
 8. 🔴 **Varrer `Segmentação Grupos` e `Atendimento 2024`** — a primeira ganhou urgência: há
    três rótulos de segmento (`SaaS`, `Enterprise`, `SMB`) sem dono no corpus.
 9. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.

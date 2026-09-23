@@ -3394,3 +3394,43 @@
      **ARAMIS** · SHOEBIZ · VITRINE · TS STUDIO · Ufo Way Denim Brasil · ETXE CONSULTORIA.
      ⚠ **`DI-SANTINNI, DS FOOTWEAR E CAPODARTE` é uma linha com três marcas** — um cliente ou
      três? **Não desmembrei.** **Criar casa é decisão.**
+
+## O campo `Participantes` das reuniões — um negativo caro (23 set 2026)
+
+551. 🔴 **A "melhor fonte de pessoa ativa ainda não extraída" NÃO TEM NOME.** O `AGORA.md` e o
+     `_pendencias-gerais.md` vinham prometendo que o campo `Participantes` das reuniões daria
+     **presença nominal com data**. **Não dá.** São **1.694 presenças em apenas 25 IDs distintos**,
+     e **24 deles não resolvem** — só o João Risoléo (13 reuniões) tem nome.
+     **99,2% das presenças ficam anônimas.** 🔺 **Corrijo a expectativa que eu mesmo criei.**
+552. 🟢 **A não-resolução foi verificada por TRÊS vias independentes**, não uma: `get-users` com
+     `user_id` (lista vazia), modo `rows` (devolve só o URI) e `notion-fetch` da página (o
+     `<mention-user>` vem sem nome). 🔴 **A via está esgotada dentro da API do Notion.**
+     **O workspace tem 5 pessoas no diretório; os 24 uuids são ex-membros ou convidados removidos.**
+553. 🔴 **A única via que resta é humana, e é barata: abrir UMA reunião no Notion pela UI.**
+     A interface renderiza avatar e nome. **Os 5 uuids de topo somam 1.489 presenças — 88% do
+     total. Cinco olhadas resolvem quase tudo.** **Ação do Vinicius ou do João.**
+554. ⚠ `[P]` **25 participantes para 1.162 reuniões com 47 clientes é pouco demais para ser time de
+     cliente.** **Provável que `Participantes` registre o time INTERNO da uMode.** Se for,
+     **esta base nunca foi fonte de pessoa de cliente** — e o corpus a tratava como se fosse.
+     **Não afirmo.** Mas nenhum dos 25 aparece nas tabelas de usuário de cliente já extraídas.
+555. 🟢 **O que SAIU e é novo: intensidade de atendimento por conta.** Luiza Barcelos **126** ·
+     NK STORE 111 · Osklen 101 · Lofty Style 83 · Lenny 75 · Cambos 71 · NV 64 · Moda Objetiva 58 ·
+     Highstil 57 · VIX 44 · Oficina Reserva 41 · Plie 38 · Recco 36 · **Caedu 35** · Vivara 34.
+     **O corpus não tinha esse número para nenhum cliente.**
+556. 🔴 **Cinco dos quinze mais atendidos estão em `Churn`** — Lenny (75), Highstil (57), Plie (38),
+     Recco (36) e Vivara (34), **somando 240 reuniões**. ⚠ **Volume de reunião não preveniu saída**,
+     assim como o CSat 9,48 da Lenny não preveniu (item 540). 🔴 **Duas métricas que pareciam de
+     saúde de conta não predizem churn. Isso importa para o desenho do `Health Score`.**
+557. ⚠ **A CAEDU tem 35 reuniões nesta base, mas o diário dela registra ~47 atas na página.**
+     **São conjuntos diferentes, de fontes diferentes. Não os fundi e não sei o total real.**
+     🔴 **Relevante: a CAEDU é o cliente-foco do teste da próxima semana.**
+558. 🔺 **A base tem 1.162 linhas, não 1.161.** O corpus repetia 1.161 desde 22 set.
+     ⚠ **E 86 reuniões estão SEM DATA (7,4%)** e 318 sem participante.
+559. 🔴 **2023 tem 121 reuniões e o corpus nunca olhou para esse ano.** Distribuição:
+     2023: 121 · 2024: 111 · **2025: 559** · 2026: 285 · sem data: 86.
+560. 🔴 **O campo chamado `Pessoa` está preenchido em 2 de 1.162 linhas — 0,2%.**
+     **O campo que deveria nomear gente é o menos preenchido da base inteira.**
+561. 🟢 **Achado técnico reaproveitável: o SQL do conector Notion aceita `json_each()`.**
+     Permite desdobrar array de `person` ou `relation` e agregar **server-side**, sem paginar.
+     🔴 **Vale para o `Atendimento 2024`**, que segue travado pela mesma armadilha de relation
+     (item 504). **Usar isso da próxima vez.**

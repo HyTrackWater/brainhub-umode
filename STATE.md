@@ -3267,3 +3267,33 @@ caminho).
   Soluções. **Nenhuma das três cobre as outras.** **18 clientes novos**, incluindo Magazine Luiza
   (Netshoes), Grupo Kyly, Di-Santinni/DS Footwear/Capodarte e Aramis.
   **Itens 541–550.**
+
+- **23 set 2026** — Sessão 48: **o campo `Participantes` não tem nome — um negativo caro, e caro
+  porque a expectativa era minha.**
+  🔴 **O `AGORA.md` e o `_pendencias-gerais.md` vinham prometendo que este campo daria "presença
+  nominal com data, a melhor fonte de pessoa ativa ainda não extraída". Não dá.**
+  São **1.694 presenças em 25 IDs distintos**, e **24 não resolvem**. Só o João Risoléo tem nome,
+  em 13 reuniões. **99,2% das presenças ficam anônimas.**
+  🟢 **Verificado por TRÊS vias independentes antes de declarar:** `get-users` com `user_id`
+  (vazio), modo `rows` (só o URI) e `notion-fetch` da página (`<mention-user>` sem nome).
+  **O workspace tem 5 pessoas no diretório; os 24 uuids são ex-membros ou convidados removidos.**
+  🔵 **A via que resta é humana e é barata:** a UI do Notion renderiza avatar e nome.
+  **Os 5 uuids de topo somam 1.489 presenças — 88%. Cinco olhadas resolvem quase tudo.**
+  ⚠ `[P]` **25 participantes para 1.162 reuniões com 47 clientes é pouco demais para ser time de
+  cliente.** Provável que o campo registre o time **interno** da uMode — e, se for, **esta base
+  nunca foi fonte de pessoa de cliente**, e o corpus a tratava como se fosse. **Não afirmei.**
+  🟢 **O que saiu de aproveitável, e é dado que o corpus não tinha: intensidade de atendimento por
+  conta.** Luiza Barcelos **126** · NK STORE 111 · Osklen 101 · Lofty Style 83 · Lenny 75 ·
+  Cambos 71 · NV 64 · Moda Objetiva 58 · Highstil 57 · VIX 44 · Oficina Reserva 41 · Plie 38 ·
+  Recco 36 · **Caedu 35** · Vivara 34.
+  🔴 **Cinco dos quinze mais atendidos estão em `Churn`**, somando 240 reuniões. **Volume de
+  reunião não preveniu saída — nem o CSat.** **Duas métricas que pareciam de saúde de conta não
+  predizem churn**, e isso importa para o desenho do `Health Score`.
+  🔺 **A base tem 1.162 linhas, não 1.161** — o corpus repetia o número errado desde 22 set.
+  ⚠ **86 reuniões sem data · 318 sem participante · o campo `Pessoa` preenchido em 2 de 1.162.**
+  🔴 **2023 tem 121 reuniões e o corpus nunca olhou para esse ano.**
+  🟢 **Achado técnico reaproveitável: o SQL do conector aceita `json_each()`** — desdobra array de
+  `person`/`relation` e agrega server-side, sem paginar. **Vale para o `Atendimento 2024`**, que
+  segue travado pela mesma armadilha de relation.
+  **Grafo ao fim: 2.606 arquivos · 2.567 conectados (98,5%) · 41 órfãos (1,6%).**
+  **Itens 551–561.**
