@@ -4145,3 +4145,29 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      `indice-reajuste`, `contrato-vigencia` e `usuarios-contratados`.
      ⚠ **São clientes que não constam na planilha do Financeiro OU cujo campo está vazio lá.**
      **O que falta não é varredura: é a fonte não ter o dado.**
+
+## Onde mora a memória — decisão tomada em 23 set 2026
+
+695. 🔺 **Eu estava duplicando o corpus num vault pessoal, e o Vinicius me pegou.** Capturei seis
+     notas em `~/cerebro` — o segundo cérebro **pessoal dele**, sem relação com a uMode — e
+     **todas as seis já tinham dono aqui:** o `protocolo-fato-atomico.md` (§1 e §2.1-bis) e os
+     itens 603, 636, 631/661/688 e o registro `_varredura-2026-09-23g`.
+696. 🔴 **A regra que decide isso já estava travada nos dois lugares, e eu quebrei as duas.**
+     O `CLAUDE.md` deste projeto: *"**Um assunto tem um dono.** (...) Dois documentos vivos sobre
+     o mesmo tema é o defeito que já se criticou na arquitetura do João — não reproduza."*
+     O `CLAUDE.md` global do Vinicius: *"**Não capture:** o que o repositório e o git já registram."*
+697. 🟢 **Critério travado: o dono do assunto, não o dono da máquina.**
+     · **Assunto com dono num repositório** — decisão de arquitetura, referência operacional,
+       achado de varredura, erro já registrado — **fica no repositório.**
+     · **`~/cerebro` recebe só o que atravessa projetos** — regra de método, preferência do
+       Vinicius, referência externa que repositório nenhum possui.
+     · **Caso de fronteira:** lição com duas faces — **os casos concretos ficam no projeto que
+       os viveu, a regra transferível vai para o pessoal**, e nenhuma repete a outra.
+698. 🟢 **Executado:** cinco notas removidas do `_inbox/` pessoal por serem duplicata;
+     uma reescrita mantendo **só a regra transferível**, sem os casos da uMode.
+     ⚠ **Uma nota de outro projeto (`hytrack-water-insights`) foi deixada intacta** — não é uMode,
+     e **não dá para verificar o dono dela a partir daqui.** 🔴 **Apagar sem verificar seria o
+     mesmo erro que passei o dia corrigindo.**
+699. 🔴 **Pergunta que fica, e não é minha:** referência operacional da uMode **nunca** deve entrar
+     no cérebro pessoal, ou pode entrar como atalho de consulta desde que aponte para o dono no
+     corpus? ⚠ **Adotei a forma dura — nunca** — por ser a que não cria documento concorrente.
