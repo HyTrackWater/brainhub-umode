@@ -2,11 +2,12 @@
 
 > **DERIVADO.** Gerado por `scripts/gera-conexoes.py`. **Não se edita à mão.**
 
-**16 fichas de pessoa interna.**
+**17 fichas de pessoa interna.**
 
 - [Andrea Goulart Holmer Dos Santos](andrea-goulart-holmer-dos-santos.md)
 - [Dalker Walter](dalker-walter.md)
 - [Elizabeth Alves De Souza Santana](elizabeth-alves-de-souza-santana.md)
+- [Felipe Sindeaux](felipe-sindeaux.md)
 - [Fernanda Araujo](fernanda-araujo.md)
 - [Joao Paulo Contar Risoleo](joao-paulo-contar-risoleo.md)
 - [Juliana Ferre Esteves](juliana-ferre-esteves.md)

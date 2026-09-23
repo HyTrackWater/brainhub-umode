@@ -2865,3 +2865,55 @@
 447. **🆕 `Felipe Sindeaux` — pessoa da Casa que o corpus não tinha**, *lead* do item do Linear.
      ⚠ **Ficha não criada: uma linha de busca não é fonte suficiente para nascer uma pessoa.**
      **Entra na revisão do `HOJE` dos uModers**, ao fim da varredura.
+
+## Felipe Sindeaux, Linear morto, e a Qualitá com login (22 set 2026)
+
+448. **🟢 DECIDIDO — `Felipe Sindeaux` é desenvolvedor, focado em processos de integração.**
+     Vinicius, textual, em 22 set 2026. `[D]` **Ficha criada** — e só depois da confirmação
+     dele: até ali existia uma linha de busca, e **uma linha de busca não é fonte suficiente
+     para nascer uma pessoa.**
+     ⚠ **`Área` ficou `[a preencher]`: `Tecnologia` seria o palpite óbvio e não foi assumido** —
+     ele disse o papel, não a Área das 8 travadas.
+     ⚠ **O foco dele toca um tema que a varredura achou aberto em vários clientes** — a dor de
+     integração da CAEDU, o DE/PARA da VIX, o `Dossie Acompanhamento Integração` da Moda
+     Objetiva, o `Luiza Barcelos | Integração com ERP`. **Nenhuma fonte o nomeia: a ligação é
+     minha, e é hipótese.**
+449. **🟢 DECIDIDO — o `Linear` NÃO se varre.** Vinicius: *"foi a ferramenta de gestão durante
+     um período mas não é mais usada."* `[D]`
+     ⚠ **Consequência:** o item *"Planejamento e Estudo do PRD Permissionamento Login"*, que
+     aparece como **`In Progress` e health `offTrack` desde 20/01/2026**, é **histórico
+     congelado, não trabalho em curso.**
+     🔴 **Segundo caso de ferramenta morta cujo estado engana quem lê**, depois do Kanbanize.
+     **Vira padrão de leitura: estado em sistema descontinuado não é estado.**
+450. **🔺 CORREÇÃO — a `Qualitá` TEM perfil de usuário na plataforma.** Horas antes eu registrei
+     que ela operava *"todo o processo por WhatsApp"* e que *"o corpus não tem modelo para
+     terceiro"*. **A matriz da Oficina Reserva tem a coluna `Oficina - Qualit|-í`** — o nome está
+     com **encoding quebrado na própria fonte**.
+     ⚠ **A dor do WhatsApp é de 26/06/2024; a matriz é de 17/03/2026.**
+     **Ou destravou, ou o perfil existe e não é usado. Não sei qual.**
+     🔴 **Com o `Fornecedor` da Luiza Barcelos e da Lenny, são TRÊS casos de terceiro com login.
+     Não é mais exceção.**
+451. **🆕 As interfaces do SAP estão NOMEADAS E NUMERADAS** na matriz da Oficina Reserva:
+     `Atualização de Produtos (SAP - Interface 3)` e `Novos Produtos ZZNet (SAP - Interface 1)`.
+     🔴 **É o único lugar do corpus onde a integração SAP aparece decomposta por interface** —
+     e conecta direto com a dor de *"90% do tempo dedicado ao SAP"*. **🆕 `ZZNet`** é mais um
+     nome de sistema; ⚠ **não sei se é sistema, módulo do SAP ou rotina.**
+452. **🔴 Uma regra de CÓDIGO vazou para o título de uma seção do Notion:**
+     `read_only: !current_context.current_policy.name.in?(['Oficina - Master', 'Oficina -
+     Planner','Oficina - Estilo'])`.
+     **É evidência real do mecanismo de permissão da plataforma** `[C]` — há `current_policy` e
+     `read_only` como expressão avaliada. **Vale confrontar com o schema do banco.**
+453. **🆕 A ficha de produto da Oficina é organizada POR ÁREA** — abas `Estilo | …`,
+     `Cadastro | …`, `Engenharia | …` e `Planejamento`. **Nenhum outro cliente lido tem as abas
+     nomeadas por área.** E **`Materiais (Facção)` × `Materiais P.A.`** são abas distintas —
+     **facção aparece de novo, agora como divisão de material na ficha.**
+454. **🟢 `Fale com o Suporte` liberado para os 8 perfis da Oficina** — terceiro cliente, e
+     **confirma que a Luiza Barcelos é a exceção, não a regra.**
+     ⚠ **A linha `Manual` NÃO EXISTE na matriz da Oficina** — nem liberada, nem bloqueada.
+     **Ausência de linha é diferente de bloqueio, e eu não sei o que significa.**
+455. **⚠ Mudança prevista e não executada, escrita na página da Oficina:** *"provavelmente no
+     novo formato da Oficina não teremos mais o Perfil de compras. Por hora, seguimos com esse
+     perfil ativo."* Última edição: **17/03/2026**.
+456. **🔴 Mais cinco nomes de perfil sem área canônica** (Oficina): `Planner` · `Atacado` ·
+     **`Qualitá`** · `Ecommerce Marketing` · `Master`. **O total de nomes de área fora da grade
+     passa de treze.**

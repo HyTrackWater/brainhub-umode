@@ -99,7 +99,6 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | 🔴 **`uMode Geral / uFlow / Documentação de Setup - PLM / CLIENTES`** | segundo acervo de documentação por cliente, fora do `Mapa de Clientes` | **setup de PLM por cliente** — achado em 22 set 2026, jamais tocado |
 | **As 10 páginas `Perfil de Usuário e Permissionamentos`** | sub-página de cliente | **perfis = áreas do cliente** e a matriz de permissão — **2 lidas de 10** |
-| **`Linear`** — gestão de projeto da uMode | linear.app/umode | roadmap e PRDs — há item `offTrack` desde jan/2026 |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
 
 ## Governança

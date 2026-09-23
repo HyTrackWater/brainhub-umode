@@ -76,7 +76,7 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | Quando | Endereço | O que saiu | Esgotada? |
 |---|---|---|---|
-| **22 set 2026** | `a27d12dd…` | 🟢 **o mapeamento de dores mais completo da carteira**, escrito pelo João no grupo de Sales em **26/06/2024**: cadastro no SAP, dependência do time da **AREZZO**, relação com a **Qualitá** por WhatsApp, ausência de governança, **400 SKUs por coleção**, **90% do tempo no SAP**; Kick Off interno 01/07 e com cliente 12/07/2024 | ⚠ **não** — 4 sub-páginas e 3 databases inline não abertos |
+| **22 set 2026** | `a27d12dd…` | 🟢 **o mapeamento de dores mais completo da carteira**, escrito pelo João no grupo de Sales em **26/06/2024**: cadastro no SAP, dependência do time da **AREZZO**, relação com a **Qualitá** por WhatsApp, ausência de governança, **400 SKUs por coleção**, **90% do tempo no SAP**; Kick Off interno 01/07 e com cliente 12/07/2024 | ⚠ **não** — 4 sub-páginas e 3 databases inline não abertos **+ a sub-página `Perfil de Usuário e Permissionamentos OFICINA` (`2b6b1d38…`), com 8 perfis, as interfaces do SAP numeradas e uma regra de código vazada no título** |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -89,7 +89,6 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | 🔴 **`uMode Geral / uFlow / Documentação de Setup - PLM / CLIENTES`** | segundo acervo de documentação por cliente, fora do `Mapa de Clientes` | **setup de PLM por cliente** — achado em 22 set 2026, jamais tocado |
 | **As 10 páginas `Perfil de Usuário e Permissionamentos`** | sub-página de cliente | **perfis = áreas do cliente** e a matriz de permissão — **2 lidas de 10** |
-| **`Linear`** — gestão de projeto da uMode | linear.app/umode | roadmap e PRDs — há item `offTrack` desde jan/2026 |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
 
 ## Governança

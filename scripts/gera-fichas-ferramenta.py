@@ -126,10 +126,12 @@ CANAIS = [
     (u"YouTube", u"Google",
      u"grava\u00e7\u00e3o de reuni\u00e3o e treinamento \u2014 \u26a0 **nunca varrido**"),
     (u"Linear", u"Linear",
-     u"🔴 **gestão de projeto da uMode** — achada de relance numa busca em "
-     u"22 set 2026, com um item vivo: *Planejamento e Estudo do PRD Permissionamento Login*, "
-     u"**`In Progress` e health `offTrack`** desde 20/01/2026. "
-     u"⚠ **Não estava no enum `tool` do corpus e nunca foi varrido.**"),
+     u"🔴 **DESCONTINUADA.** Vinícius em 22 set 2026: *foi a ferramenta de "
+     u"gestão durante um período mas não é mais usada.* `[D]` **Não varrer.** "
+     u"⚠ **Consequência:** o item *Planejamento e Estudo do PRD Permissionamento "
+     u"Login*, que aparece como **`In Progress` e health `offTrack` desde 20/01/2026**, "
+     u"é **histórico congelado**, não trabalho em curso. **Segundo caso de ferramenta "
+     u"morta cujo estado engana quem lê**, depois do Kanbanize."),
     (u"Tactiq", u"Tactiq",
      u"🔴 **transcrição de reunião, e tem histórico próprio fora do Notion.** "
      u"As 7 transcrições da CAEDU entregues pelo Vinícius são dela, e a página da "

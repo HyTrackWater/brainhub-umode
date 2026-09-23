@@ -13,7 +13,7 @@
 ### Fornecedor
 Linear
 ### Observação de taxonomia
-🔴 **gestão de projeto da uMode** — achada de relance numa busca em 22 set 2026, com um item vivo: *Planejamento e Estudo do PRD Permissionamento Login*, **`In Progress` e health `offTrack`** desde 20/01/2026. ⚠ **Não estava no enum `tool` do corpus e nunca foi varrido.**
+🔴 **DESCONTINUADA.** Vinícius em 22 set 2026: *foi a ferramenta de gestão durante um período mas não é mais usada.* `[D]` **Não varrer.** ⚠ **Consequência:** o item *Planejamento e Estudo do PRD Permissionamento Login*, que aparece como **`In Progress` e health `offTrack` desde 20/01/2026**, é **histórico congelado**, não trabalho em curso. **Segundo caso de ferramenta morta cujo estado engana quem lê**, depois do Kanbanize.
 
 ## Adoção
 ### Quantos clientes

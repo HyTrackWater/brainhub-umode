@@ -79,8 +79,6 @@ NAO_VARRIDAS = [
     (u"**As 10 páginas `Perfil de Usuário e Permissionamentos`**",
      u"sub-página de cliente", u"**perfis = áreas do cliente** e a matriz de permissão "
      u"— **2 lidas de 10**"),
-    (u"**`Linear`** — gestão de projeto da uMode", u"linear.app/umode",
-     u"roadmap e PRDs — há item `offTrack` desde jan/2026"),
     (u"**Grupos de WhatsApp**", u"fora de qualquer sistema",
      u"operação real — a Reserva tem 9 mapeados"),
 ]
@@ -125,7 +123,7 @@ PAGINA = {
                         u"**Qualit\u00e1** por WhatsApp, aus\u00eancia de governan\u00e7a, **400 SKUs "
                         u"por cole\u00e7\u00e3o**, **90% do tempo no SAP**; Kick Off interno 01/07 e "
                         u"com cliente 12/07/2024",
-                        u"\u26a0 **n\u00e3o** \u2014 4 sub-p\u00e1ginas e 3 databases inline n\u00e3o abertos"),
+                        u"\u26a0 **n\u00e3o** \u2014 4 sub-p\u00e1ginas e 3 databases inline n\u00e3o abertos" + u" **+ a sub-página `Perfil de Usuário e Permissionamentos OFICINA` (`2b6b1d38…`), com 8 perfis, as interfaces do SAP numeradas e uma regra de código vazada no título**"),
     u"Lofty Style": (u"22 set 2026", u"`293c8829\u2026`",
                     u"toggle `Pessoas` **presente e VAZIO**; \U0001F6A8 **a credencial do site "
                     u"de documenta\u00e7\u00e3o est\u00e1 em texto claro na p\u00e1gina**; "
@@ -275,6 +273,46 @@ PEND = {
          u"comunica\u00e7\u00e3o formal, junto da Osklen (`Integra\u00e7\u00e3o de Escrita`).", u"T2", u"\u2014"),
     ],
     u"Oficina Reserva": [
+        (u"\U0001F53A **CORRE\u00c7\u00c3O: a `Qualit\u00e1` TEM PERFIL DE USU\u00c1RIO na "
+         u"plataforma.** Horas antes eu registrei que ela operava *s\u00f3 por WhatsApp* e que "
+         u"*o corpus n\u00e3o tem modelo para terceiro*. **A matriz de permiss\u00e3o tem a coluna "
+         u"`Oficina - Qualit|-\u00ed`** (o nome est\u00e1 com encoding quebrado **na pr\u00f3pria "
+         u"fonte**). \u26a0 **A dor do WhatsApp \u00e9 de 26/06/2024; a matriz \u00e9 de "
+         u"17/03/2026.** **Ou destravou, ou o perfil existe e n\u00e3o \u00e9 usado.**", u"T2",
+         u"confer\u00eancia com o atendimento"),
+        (u"\U0001F195 **As interfaces do SAP est\u00e3o NOMEADAS E NUMERADAS na matriz:** "
+         u"`Atualiza\u00e7\u00e3o de Produtos (SAP - Interface 3)` e `Novos Produtos ZZNet "
+         u"(SAP - Interface 1)`. \U0001F534 **\u00c9 o \u00fanico lugar do corpus onde a integra\u00e7\u00e3o "
+         u"SAP aparece decomposta por interface** \u2014 e conecta direto com a dor de "
+         u"*90% do tempo dedicado ao SAP*.", u"T2", u"\u2014"),
+        (u"\U0001F195 **`ZZNet`** \u2014 mais um sistema citado, dentro do nome da Interface 1. "
+         u"\u26a0 **N\u00e3o sei se \u00e9 sistema, m\u00f3dulo do SAP ou nome de rotina.**", u"T2",
+         u"confer\u00eancia"),
+        (u"\U0001F534 **Uma regra de C\u00d3DIGO vazou para o t\u00edtulo de uma se\u00e7\u00e3o do "
+         u"Notion:** `read_only: !current_context.current_policy.name.in?(['Oficina - "
+         u"Master', 'Oficina - Planner', 'Oficina - Estilo'])`. **\u00c9 evid\u00eancia real do "
+         u"mecanismo de permiss\u00e3o da plataforma** \u2014 h\u00e1 `current_policy` e `read_only` "
+         u"como express\u00e3o avaliada. `[C]`", u"T2",
+         u"vale confrontar com o schema do banco"),
+        (u"\U0001F195 **A ficha de produto \u00e9 organizada POR \u00c1REA na Oficina:** abas "
+         u"`Estilo | ...`, `Cadastro | ...`, `Engenharia | ...` e `Planejamento`. "
+         u"**Nenhum outro cliente lido tem as abas nomeadas por \u00e1rea.**", u"T2", u"\u2014"),
+        (u"\U0001F195 **`Materiais (Fac\u00e7\u00e3o)` e `Materiais P.A.` s\u00e3o abas distintas** \u2014 "
+         u"**fac\u00e7\u00e3o aparece de novo, agora como divis\u00e3o de material na ficha.**", u"T2",
+         u"\u2014"),
+        (u"\u26a0 **Mudan\u00e7a prevista e n\u00e3o executada, escrita na p\u00e1gina:** *provavelmente "
+         u"no novo formato da Oficina n\u00e3o teremos mais o Perfil de compras. Por hora, "
+         u"seguimos com esse perfil ativo.* \u00daltima edi\u00e7\u00e3o: **17/03/2026**.", u"T2",
+         u"confer\u00eancia"),
+        (u"\U0001F7E2 **`Fale com o Suporte` liberado para os 8 perfis** \u2014 **terceiro "
+         u"cliente**, e confirma que **a Luiza Barcelos \u00e9 a exce\u00e7\u00e3o, n\u00e3o a regra.**",
+         u"T2", u"\u2014"),
+        (u"\u26a0 **A linha `Manual` N\u00c3O EXISTE na matriz da Oficina** \u2014 nem liberada nem "
+         u"bloqueada. **Aus\u00eancia de linha \u00e9 diferente de bloqueio, e eu n\u00e3o sei o que "
+         u"significa.**", u"T2", u"confer\u00eancia"),
+        (u"\U0001F195 **8 perfis, e cinco deles n\u00e3o t\u00eam \u00e1rea can\u00f4nica:** `Planner` \u00b7 "
+         u"`Atacado` \u00b7 **`Qualit\u00e1`** (terceiro!) \u00b7 `Ecommerce Marketing` \u00b7 `Master`.",
+         u"T2", u"decis\u00e3o sobre a grade"),
         (u"\U0001F534 **\u00c9 marca do GRUPO AR&CO e entrou no MESMO PACOTE do grupo** \u2014 o Jo\u00e3o escreveu, em 26/06/2024: *a princ\u00edpio n\u00e3o haver\u00e1 valor adicional, pois "
          u"entrar\u00e3o no mesmo pacote do Grupo*. \U0001F534 **\u00c9 conta separada no corpus e "
          u"contrato do grupo na vida real.**", u"T2", u"decis\u00e3o de modelagem de grupo"),
