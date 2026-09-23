@@ -11,6 +11,34 @@ tags:
 > **Reescrito em 22 set 2026 a partir do Notion ao vivo**, incluindo a base
 > `Pesquisa Satisfação Kick Off Osklen`. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: osklen — [varredura do Notion · 2026-09-22]
+- segmento: Varejo · Área de atuação: Moda — [varredura do Notion · 2026-09-22]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Médios — [varredura do Notion · 2026-09-22]
+- status: Operação Assistida — [varredura do Notion · 2026-09-22]
+- data-ativacao: ? — [sem fonte]
+- erp: Linx — [varredura do Notion · 2026-09-22]
+- modulo-contratado: Gestão de Coleção · Fornecedores · Integração · Cronograma · Relatórios — [varredura do Notion · 2026-09-22]
+- contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uBuy — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2024-08-15 → 2026-08-15 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Via assinatura · aviso prévio 30 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 55 — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: 46 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
+- atendimento: Julianne + Pedro — [base Mapa de Clientes · 2026-09-22]
+- tamanho-atendimento: Grupo Médios · WIP 2,25 · Julianne & Pedro, com 6 contas — [varredura do Notion · 2026-09-22]
+
 ## Identidade
 ### ID do cliente
 `osklen`

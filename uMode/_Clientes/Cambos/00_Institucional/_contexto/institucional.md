@@ -13,6 +13,34 @@ tags:
 > ⚠ **A página de origem contém CPF e telefone pessoal.** **Não foram copiados** — aqui ficam
 > nome, cargo e e-mail corporativo, que é o dado de negócio.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: cambos — [varredura do Notion · 2026-09-21]
+- segmento: Moda · Área de atuação: Atacado — [varredura do Notion · 2026-09-21]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
+- data-ativacao: ? — [sem fonte]
+- erp: A base está incompleta. O campo ERP/Integração diz apenas — [varredura do Notion · 2026-09-21]
+- modulo-contratado: Gestão de Coleção · Integração · Relatórios — [varredura do Notion · 2026-09-21]
+- contrato-situacao: Assinar aditivo — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uRocket — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2024-04-30 → 2027-04-30 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 20 internos — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: 8 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
+- atendimento: Laura — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: Grupo Médios · WIP 2,25 · Laura, com 4 contas — [varredura do Notion · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 `cambos`

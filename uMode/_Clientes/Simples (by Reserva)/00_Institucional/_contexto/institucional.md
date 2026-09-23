@@ -15,6 +15,32 @@ tags:
 > Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
 > Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: simples-by-reserva — [varredura do Notion · 2026-09-22]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: ? — [sem fonte]
+- status: Inativo — [varredura do Notion · 2026-09-22]
+- data-ativacao: ? — [sem fonte]
+- erp: ? — [sem fonte]
+- modulo-contratado: ? — [sem fonte]
+- contrato-situacao: ? — [sem fonte]
+- contrato-vigencia: ? — [sem fonte]
+- contrato-renovacao: ? — [sem fonte]
+- indice-reajuste: ? — [sem fonte]
+- usuarios-contratados: ? — [sem fonte]
+- usuarios-conta: ? — [sem fonte]
+- atendimento: ? — [sem fonte]
+- tamanho-atendimento: ? — [sem fonte]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **ESTE CLIENTE NÃO EXISTE NA BASE `Mapa de Clientes`.** Ele existe no **corpus** e na base **`Portal do Cliente`** — e **em nenhuma das 50 linhas da base principal.**
 - 🔴 **Portanto não há status, módulos, ERP, atendimento nem segmentação.** O `Inativo` acima **é marcação minha por ausência de fonte, não valor lido.**

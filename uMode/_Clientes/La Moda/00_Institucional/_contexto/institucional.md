@@ -15,6 +15,33 @@ tags:
 > Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
 > Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: la-moda — [varredura do Notion · 2026-09-22]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: ? — [sem fonte]
+- status: Inativo — [varredura do Notion · 2026-09-22]
+- data-ativacao: ? — [sem fonte]
+- erp: ? — [sem fonte]
+- modulo-contratado: ? — [sem fonte]
+- contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: Fashion IA — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2025-03-01 → 2027-03-01 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: ? — [sem fonte]
+- usuarios-conta: ? — [sem fonte]
+- atendimento: ? — [sem fonte]
+- tamanho-atendimento: ? — [sem fonte]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
 - 🔴 **NÃO SEI POR QUE ESTE CLIENTE SAIU.** **Nenhuma fonte varrida registra motivo de churn de nenhum cliente** — nem data de saída. **É a lacuna mais cara do corpus.**

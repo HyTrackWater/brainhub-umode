@@ -12,6 +12,38 @@ tags:
 > export de CRM de **05 mar 2026** e estava desatualizada em status, módulos e contagem de usuários.
 > Todo campo sem dado na fonte está como `[a preencher]` — nada foi inferido.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: caedu — [export de CRM · 2026-09-21]
+- segmento: B2C — Vestuário, Calçados, Acessórios — São Paulo/SP — [export de CRM · 2026-09-21]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: SMB — [varredura do Notion · 2026-09-23]
+- status: Ongoing — [base Mapa de Clientes · 2026-09-21]
+- data-ativacao: ? — [sem fonte]
+- erp: Linx — [base Mapa de Clientes · 2026-09-21]
+- modulo-contratado: Gestão de Coleção — [export de CRM · 2026-09-21]
+- modulo-contratado: Integração — [export de CRM · 2026-09-21]
+- modulo-contratado: Relatórios — [export de CRM · 2026-09-21]
+- modulo-contratado: Fornecedores — [export de CRM · 2026-09-21]
+- contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2022-06-23 → 2027-06-23 · vigência 5 anos — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IGPM / IPCA — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 65 internos + 100 externos — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: 93 usuários com e-mail na tabela do PLM, em 14 perfis de acesso — [export de CRM · 2026-09-21]
+- atendimento: Julianne Dias Rodrigues — [nao resolvido: ficha sem e-mail]
+- atendimento: Pedro Murillo — [nao resolvido: ficha sem e-mail]
+- atendimento: Andrea Goulart Holmer dos Santos — [nao resolvido: ficha sem e-mail]
+- tamanho-atendimento: P — [base Mapa de Clientes · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 caedu

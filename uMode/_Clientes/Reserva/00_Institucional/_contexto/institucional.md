@@ -12,6 +12,35 @@ tags:
 > cliente, base `Segmentação Grupos` e base `Chamados & Atendimentos`.
 > Campo sem fonte fica `[a preencher]` — nada foi inferido.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: reserva — [base Segmentação Grupos · 2026-09-21]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Enterprise — [base Segmentação Grupos · 2026-09-21]
+- status: Ongoing — [base Segmentação Grupos · 2026-09-21]
+- data-ativacao: ? — [sem fonte]
+- erp: Linx / SAP — [base Segmentação Grupos · 2026-09-21]
+- modulo-contratado: Gestão de Coleção · Integração · Relatórios · Cronograma · Aposta · — [base Segmentação Grupos · 2026-09-21]
+- contrato-situacao: Assinar renovação — [planilha de contratos do Financeiro · 2026-09-21]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-21]
+- servico-faturado: uBuy — [planilha de contratos do Financeiro · 2026-09-21]
+- servico-faturado: uPlan — [planilha de contratos do Financeiro · 2026-09-21]
+- contrato-vigencia: 2020-07-20 → 2021-01-20 · vigência 6 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: ? — [sem fonte]
+- indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: ? — [sem fonte]
+- usuarios-conta: 13 pessoas com ficha própria no corpus — [base Segmentação Grupos · 2026-09-21]
+- atendimento: Fernanda — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: Grupo Enterprise · WIP Estratégico 6,00 · Fernanda, que atende as 3 contas — [base Segmentação Grupos · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 `reserva`

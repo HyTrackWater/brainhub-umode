@@ -7,6 +7,32 @@ tags:
 ---
 # uMode · Institucional
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: ? — [sem fonte]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: ? — [sem fonte]
+- status: ? — [sem fonte]
+- data-ativacao: ? — [sem fonte]
+- erp: ? — [sem fonte]
+- modulo-contratado: ? — [sem fonte]
+- contrato-situacao: ? — [sem fonte]
+- contrato-vigencia: ? — [sem fonte]
+- contrato-renovacao: ? — [sem fonte]
+- indice-reajuste: ? — [sem fonte]
+- usuarios-contratados: ? — [sem fonte]
+- usuarios-conta: ? — [sem fonte]
+- atendimento: ? — [sem fonte]
+- tamanho-atendimento: ? — [sem fonte]
+
 ## Identidade
 ### Quem somos
 Empresa de tecnologia para moda. Desenvolvemos software PLM (Product Lifecycle Management)

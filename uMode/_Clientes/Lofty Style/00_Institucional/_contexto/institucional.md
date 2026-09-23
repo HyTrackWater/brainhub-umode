@@ -30,6 +30,33 @@ tags:
 > 2. **Varrer as 46 contas** procurando `senha`, `password`, `token`, `usuário -`, `IP -`.
 > 3. **Definir onde credencial vive** — e não é em página de Notion.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: lofty-style — [varredura do Notion · 2026-09-21]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
+- data-ativacao: 10/02/2025 — [varredura do Notion · 2026-09-21]
+- erp: Linx. Há documentação oficial de integração publicada em docs.umode.app/integracao-lofty — [varredura do Notion · 2026-09-21]
+- modulo-contratado: Gestão de Coleção · Integração · Relatórios · Cronograma — [varredura do Notion · 2026-09-21]
+- contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2025-02-10 → 2028-01-09 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Via assinatura · aviso prévio 60 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 12 internos — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: 28 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
+- atendimento: Laura — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: Grupo Médios · WIP 2,25 · Laura, com 4 contas — [varredura do Notion · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 `lofty-style`

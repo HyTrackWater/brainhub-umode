@@ -10,6 +10,35 @@ tags:
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: nv — [varredura do Notion · 2026-09-21]
+- segmento: Vestuário — moda feminina — [varredura do Notion · 2026-09-21]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Enterprise — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
+- data-ativacao: ? — [sem fonte]
+- erp: Linx — [varredura do Notion · 2026-09-21]
+- modulo-contratado: Gestão de Coleção · Integração · Relatórios · Cronograma — [varredura do Notion · 2026-09-21]
+- contrato-situacao: Sem contrato — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uBuy — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: Reports — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: ? — [sem fonte]
+- contrato-renovacao: ? — [sem fonte]
+- indice-reajuste: ? — [sem fonte]
+- usuarios-contratados: ? — [sem fonte]
+- usuarios-conta: 61 usuários ativos — número declarado pelo próprio cliente no template de transição — [varredura do Notion · 2026-09-21]
+- atendimento: Fernanda — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: Grupo Enterprise · WIP 6,00 · Fernanda, com 3 contas — [varredura do Notion · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 `nv`

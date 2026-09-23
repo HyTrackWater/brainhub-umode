@@ -3660,3 +3660,50 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      **senha em texto claro** de um repositório de proposta, e a skill `discord-intake` aponta o
      **caminho de um token de bot**. 🔴 **Nenhum valor foi lido ou copiado.**
      ⚠ **É higiene do vault do João, não nossa** — mas soma aos 5 focos já conhecidos aqui.
+
+## A camada de fato atômico, e a identidade que não fecha (23 set 2026)
+
+595. 🟢 **A camada de fato existe: 826 fatos em 49 `institucional.md`**, no formato
+     `- chave: valor — [fonte · data]`, com **26 chaves de vocabulário fechado** travadas no
+     `protocolo-fato-atomico.md`. **É o alvo do cruzamento que o item 587 exigia como
+     PRÉ-condição.** Dono: `scripts/gera-fatos.py`. Guarda: `scripts/valida-fatos.py`.
+596. 🔴 **A decisão que eu tomei e que precisa de aval: fato NÃO substitui prosa, convive com
+     ela.** Converter os MDs em lista de fatos destruiria o que eles têm de melhor — a call de
+     Sales da Luiza Barcelos diz *"processo está na cabeça da Marcinha"*, com dono e data, e
+     nenhum `- processo-concentrado: sim` preserva isso. **Prosa para pessoa, `## Fatos` para
+     máquina.** ⚠ **Se o Vinicius discordar, é aqui que se reverte** — e é barato, porque o bloco
+     é gerado.
+597. 🔴 **399 dos 826 fatos (48%) saem `[sem fonte]`.** Não é defeito do gerador: é o corpus
+     declarando lacuna em vez de escondê-la. **Mas metade do cérebro não tem procedência**, e o
+     juízo de contradição precisa de data para decidir o que é mais recente. **Fato sem data é
+     opinião** (protocolo § 2).
+598. 🔴 **NENHUM dos 49 valores de `atendimento` resolve para e-mail. Zero.** É o bloqueio
+     concreto do agente generalizado, e tem **duas causas distintas**:
+     **(a)** o campo `Atendimento` do CRM guarda **primeiro nome**: `Laura` (7×), `Fernanda` (3×),
+     `Julianne + Pedro` (4×), `Julianne & Pedro` (2×). **Primeiro nome não é identidade** — já
+     erramos com duas `Cristina` na NK STORE e com `Day` × `Dayana Carla Sestrem`.
+     **(b)** os **3 nomes completos** que aparecem — `Julianne Dias Rodrigues`, `Pedro Murillo`,
+     `Andrea Goulart Holmer dos Santos` — **têm ficha, e a ficha não tem e-mail.**
+599. 🔴 **19 pessoas da Casa não têm e-mail na ficha** (58 de 77 têm). São elas:
+     `ana-flavia-maran-carrilo` · `andrea-goulart-holmer-dos-santos` · `dalker-walter` ·
+     `eduardo-penna` · `elizabeth-alves-de-souza-santana` · `fernanda-araujo` ·
+     `filipe-de-lima-kertcher` · `joao-paulo-contar-risoleo` · `juliana-ferre-esteves` ·
+     `julianne-dias-rodrigues` · `laura-delgado-cardoso` · `marina-goncalves-santoro` ·
+     `pedro-murillo` · `rafael-del-gaudio-renaldim` · `sandro-costa` · `saulo` · `tais-moser` ·
+     `vanessa-rinaldi-ornelas-engman` · `victor-aragao`.
+     ⚠ **Elas vieram do CRM, não da base `uModers`** — por isso o `gera-fichas-umoder.py` não as
+     alcançou. **São exatamente as donas de relacionamento com cliente.**
+     🔴 **A Julianne é a Key Account da CAEDU, que é o cliente do teste da semana que vem.**
+600. 🔴 **7 clientes têm `SMB` no campo `Responsável de atendimento`** — segmento, não pessoa.
+     É dado errado **na origem**, e o corpus o carrega fielmente. **Corrigir no Notion ou tratar
+     na entrada?** É decisão do Atendimento, não minha.
+601. ⚠ **Achado de método, custou três voltas:** eu fiz o gerador fatiar o campo `atendimento`
+     por vírgula e " e " quando não havia lista. Saíram fatos chamados **`lido`, `isso`, `SMB`,
+     `que`** — **lixo com cara de identidade, que é pior do que não resolver.**
+     🔴 **Regra que fica: não se quebra prosa em entidade.** Sem lista explícita, o valor sai
+     inteiro e a identidade fica declaradamente aberta. **Era a regra que eu mesmo escrevi na
+     docstring do script e violei na implementação.**
+602. 🟢 **A resolução por e-mail é generalizada e foi verificada: 617 nomes indexados**, montados
+     do próprio corpus, **sem um único nome de pessoa no código.** ⚠ **Isso rejeita o desenho do
+     `roteador-tier` do vault**, que tem `joao` como dono fixo — um agente que só sabe rotear
+     para uma pessoa não roteia para a Julianne nem para quem entrar amanhã.

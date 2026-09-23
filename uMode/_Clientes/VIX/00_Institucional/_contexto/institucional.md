@@ -11,6 +11,35 @@ tags:
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página
 > *[Vix] Perfil de Usuário e Permissionamento*. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: vix — [varredura do Notion · 2026-09-21]
+- segmento: Vestuário, Moda Praia · Área de atuação: B2C — [varredura do Notion · 2026-09-21]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
+- data-ativacao: ? — [sem fonte]
+- erp: Linx. Há um bloco datado 31/07/2025 com mapeamento de campo uMode ↔ Linx, citando — [varredura do Notion · 2026-09-21]
+- modulo-contratado: Gestão de Coleção · Integração · Relatórios · Aposta — [varredura do Notion · 2026-09-21]
+- contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: IPSP — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uPick — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2023-05-05 → 2026-05-05 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 53 — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: 6 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
+- atendimento: Julianne + Pedro — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: Grupo Médios · WIP 2,25 · Julianne & Pedro, com 6 contas — [varredura do Notion · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 `vix`

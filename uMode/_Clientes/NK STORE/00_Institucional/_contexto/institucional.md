@@ -30,6 +30,33 @@ tags:
 > **A página também contém CPF e telefone pessoal de duas pessoas físicas.** Também **não foram
 > copiados**. Aqui ficam apenas nome, cargo e e-mail corporativo — que é o dado de negócio.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: nk-store — [varredura do Notion · 2026-09-21]
+- segmento: Varejo · Área de atuação: Moda — [varredura do Notion · 2026-09-21]
+- receita-anual: R$ 144.000.000 — [varredura do Notion · 2026-09-21]
+- grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
+- data-ativacao: 10/06/2024 — [varredura do Notion · 2026-09-21]
+- erp: Linx — [varredura do Notion · 2026-09-21]
+- modulo-contratado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [varredura do Notion · 2026-09-21]
+- contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2024-06-10 → 2027-05-10 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Via assinatura · aviso prévio 30 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IGPM/IPCA menor — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 21 internos + 40 externos — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: 45 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
+- atendimento: Julianne + Pedro — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: Grupo Médios · WIP 2,25 · Julianne & Pedro, com 6 contas — [varredura do Notion · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 `nk-store`

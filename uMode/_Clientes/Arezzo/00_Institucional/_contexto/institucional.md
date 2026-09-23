@@ -15,6 +15,32 @@ tags:
 > Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
 > Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: arezzo — [varredura do Notion · 2026-09-22]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Enterprise — [varredura do Notion · 2026-09-23]
+- status: Pré Onboardings — [varredura do Notion · 2026-09-22]
+- data-ativacao: ? — [sem fonte]
+- erp: SAP e Linx — [varredura do Notion · 2024-06-26]
+- modulo-contratado: ? — [sem fonte]
+- contrato-situacao: ? — [sem fonte]
+- contrato-vigencia: ? — [sem fonte]
+- contrato-renovacao: ? — [sem fonte]
+- indice-reajuste: ? — [sem fonte]
+- usuarios-contratados: ? — [sem fonte]
+- usuarios-conta: ? — [sem fonte]
+- atendimento: ? — [sem fonte]
+- tamanho-atendimento: ? — [sem fonte]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **ESTA CASA ACABOU DE SER CRIADA.** A Arezzo **existia na base e não tinha casa no corpus**.
 - 🔴 **A página não foi varrida** e **quase todos os campos da base estão vazios.**

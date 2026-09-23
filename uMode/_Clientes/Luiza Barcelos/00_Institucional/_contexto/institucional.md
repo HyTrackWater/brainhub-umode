@@ -13,6 +13,33 @@ tags:
 > ⚠ **A página de origem contém telefone pessoal.** **Não foi copiado** — aqui ficam nome,
 > cargo e e-mail corporativo.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: luiza-barcelos — [varredura do Notion · 2026-09-21]
+- segmento: Calçados · Área de atuação: Calçados, bolsas e acessórios — [varredura do Notion · 2026-09-21]
+- receita-anual: R$ 350.000.000 — [varredura do Notion · 2026-09-21]
+- grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
+- data-ativacao: Há DUAS datas de ativação, e elas não batem: — [varredura do Notion · 2026-09-21]
+- erp: Safe Tech — [varredura do Notion · 2026-09-21]
+- modulo-contratado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [varredura do Notion · 2026-09-21]
+- contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2024-06-24 → 2027-06-24 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 17 internos + 3 externos — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: Declarado na ata de kick-off interno: 13 usuários uFlow / 2 usuários uDash — [varredura do Notion · 2026-09-21]
+- atendimento: Laura — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: Grupo Médios · WIP 2,25 · Laura, com 4 contas — [varredura do Notion · 2026-09-21]
+
 ## Identidade
 ### ID do cliente
 `luiza-barcelos`

@@ -15,6 +15,33 @@ tags:
 > Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
 > Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: loungerie — [varredura do Notion · 2026-09-22]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: Médios — [varredura do Notion · 2026-09-22]
+- status: Onboarding — [varredura do Notion · 2026-09-22]
+- data-ativacao: ? — [sem fonte]
+- erp: Linx — [varredura do Notion · 2026-09-22]
+- modulo-contratado: ? — [sem fonte]
+- contrato-situacao: Falta assinar — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: Gestão de coleções — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2026-07-27 → 2029-07-27 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: Renovação Via assinatura · aviso prévio 60 dias — [planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: 20 — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: ? — [sem fonte]
+- atendimento: Julianne & Pedro — [varredura do Notion · 2026-09-22]
+- tamanho-atendimento: Grupo Médios · WIP 2,25 · Julianne & Pedro, com 6 contas — [varredura do Notion · 2026-09-22]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **ESTA CASA ACABOU DE SER CRIADA.** A Loungerie **existia na base `Mapa de Clientes` e não tinha casa no corpus** — lacuna registrada desde a varredura de 21/09/2026 e **fechada agora**.
 - 🔴 **A página do cliente não foi varrida.**

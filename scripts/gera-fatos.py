@@ -1,0 +1,450 @@
+# -*- coding: utf-8 -*-
+u"""
+gera-fatos.py - escreve o bloco `## Fatos` dos MDs de entidade.
+
+DONO UNICO do bloco `## Fatos`. Formato travado em:
+  uMode/00_Institucional/_protocolos/protocolo-fato-atomico.md
+
+REGRA CENTRAL: este script NAO le prosa. Ele le as secoes cujo conteudo o corpus
+ja produz de forma atomica (contrato, segmentacao, status, ERP, atendimento).
+Prosa continua prosa - virar fato e trabalho de leitura, nao de regex.
+
+PROCEDENCIA - a parte que importa. A fonte NAO e adivinhada: ela e herdada por
+uma cadeia declarada, do mais especifico para o mais geral:
+
+    blockquote da secao -> linha de valor -> preambulo do bloco `##` pai -> cabecalho
+
+Se nenhum nomeia fonte, sai `[sem fonte]`. Herdar de onde nao foi declarado
+seria inventar procedencia - isso e alucinacao, nao conveniencia.
+
+IDENTIDADE - pessoa se resolve por E-MAIL contra as fichas do proprio corpus,
+nunca por nome. Nome ambiguo NAO e escolhido: vira pendencia explicita na linha.
+E por isso que o agente e generalizado - nenhum nome de pessoa esta no codigo.
+
+  `[a preencher]`  ->  `- chave: ? - [sem fonte]`   (secao 2.1 do protocolo)
+
+Rodar DEPOIS de gera-conexoes.py e ANTES de gera-frontmatter.py.
+"""
+import io, os, re, sys, codecs
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TRACO = u"\u2014"
+PONTO = u"\u00b7"
+SEP = u"[,;\u00b7]|\\s+e\\s+"
+
+# ---------------------------------------------------------------- vocabulario
+# prefixo do titulo -> (chave do protocolo secao 4, e_lista, so_valor_curto)
+# so_valor_curto: campo de enum. Tudo apos " - " ou " (" e comentario, nao valor.
+CHAVES_INSTITUCIONAL = [
+    (u"ID do cliente",                    u"id",                    False, True),
+    (u"Segmento",                         u"segmento",              False, False),
+    (u"Receita anual",                    u"receita-anual",         False, True),
+    (u"Grupo de segmenta",                u"grupo-segmentacao",     False, True),
+    (u"Status atual",                     u"status",                False, True),
+    (u"Data de ativa",                    u"data-ativacao",         False, True),
+    (u"ERP / Integra",                    u"erp",                   False, True),
+    (u"M\u00f3dulos contratados",         u"modulo-contratado",     True,  True),
+    (u"Situa\u00e7\u00e3o do contrato",   u"contrato-situacao",     False, True),
+    (u"Vig\u00eancia",                    u"contrato-vigencia",     False, True),
+    (u"Renova\u00e7\u00e3o e aviso",      u"contrato-renovacao",    False, False),
+    (u"\u00cdndice de reajuste",          u"indice-reajuste",       False, True),
+    (u"Usu\u00e1rios contratados",        u"usuarios-contratados",  False, True),
+    (u"Usu\u00e1rios da conta",           u"usuarios-conta",        False, False),
+    (u"Respons\u00e1vel de atendimento",  u"atendimento",           False, True),
+    (u"Tamanho de atendimento",           u"tamanho-atendimento",   False, True),
+]
+
+# pista -> nome da fonte. A primeira que casa vence: ordem do mais especifico
+# para o mais generico.
+FONTES = [
+    (u"Segmenta\u00e7\u00e3o Grupos",  u"base Segmenta\u00e7\u00e3o Grupos"),
+    (u"Mapa de Clientes",              u"base Mapa de Clientes"),
+    (u"base de contratos",             u"planilha de contratos do Financeiro"),
+    (u"planilha de contratos",         u"planilha de contratos do Financeiro"),
+    (u"Financeiro",                    u"planilha de contratos do Financeiro"),
+    (u"call de Sales",                 u"call de Sales"),
+    (u"pesquisa de \u00e1reas",        u"pesquisa de \u00e1reas"),
+    (u"banco da API",                  u"banco da API"),
+    (u"conta de API",                  u"banco da API"),
+    (u"tabela do PLM",                 u"banco da API"),
+    (u"CRM de mentoria",               u"CRM de mentoria"),
+    (u"export de CRM",                 u"export de CRM"),
+    (u"varredura do Notion",           u"varredura do Notion"),
+    (u"uModers",                       u"base uModers do Notion"),
+    (u"Notion",                        u"varredura do Notion"),
+    (u"CRM",                           u"export de CRM"),
+]
+
+MESES = {u"jan": 1, u"fev": 2, u"mar": 3, u"abr": 4, u"mai": 5, u"jun": 6,
+         u"jul": 7, u"ago": 8, u"set": 9, u"out": 10, u"nov": 11, u"dez": 12}
+
+RE_DATA_BR  = re.compile(u"(\\d{2})/(\\d{2})/(\\d{4})")
+RE_DATA_EXT = re.compile(u"(\\d{1,2})\\s+(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)\\w*\\s+(\\d{4})", re.I)
+RE_ISO      = re.compile(u"(\\d{4})-(\\d{2})-(\\d{2})")
+RE_FATURADO = re.compile(u"servi\u00e7os? faturados?\\s*:\\s*(.+)$", re.I)
+RE_EMAIL    = re.compile(u"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}")
+RE_H1       = re.compile(u"^# (.+)$", re.M)
+
+
+# ----------------------------------------------------- identidade por E-MAIL
+_PESSOAS = None
+
+
+def indice_pessoas():
+    u"""nome normalizado -> conjunto de e-mails. Construido do proprio corpus."""
+    global _PESSOAS
+    if _PESSOAS is not None:
+        return _PESSOAS
+    _PESSOAS = {}
+    for dirpath, dirnames, filenames in os.walk(os.path.join(RAIZ, u"uMode")):
+        if u"_pessoas" not in dirpath:
+            continue
+        for fn in filenames:
+            if not fn.endswith(u".md") or fn.startswith(u"_"):
+                continue
+            try:
+                t = io.open(os.path.join(dirpath, fn), encoding=u"utf-8").read()
+            except Exception:
+                continue
+            m = RE_H1.search(t)
+            if not m:
+                continue
+            partes = t.split(u"### Email", 1)
+            if len(partes) < 2:
+                continue
+            e = RE_EMAIL.search(partes[1].split(u"###")[0])
+            if not e:
+                continue
+            email = e.group(0).lower()
+
+            # Duas formas de H1 convivem no corpus e nenhuma e "errada":
+            #   Casa    -> "Nome Sobrenome <PONTO> Pessoa"
+            #   Cliente -> "Cliente <PONTO> Pessoa <PONTO> nome"
+            # Regra geral, sem nome de cliente no codigo: descarta o rotulo
+            # "Pessoa" e fica com o ULTIMO segmento restante.
+            segs = [s.replace(u"**", u"").strip()
+                    for s in m.group(1).split(PONTO)]
+            segs = [s for s in segs if s and s.lower() != u"pessoa"]
+            nomes = set()
+            if segs:
+                nomes.add(segs[-1].lower())
+            for rotulo in (u"### Nome completo", u"### Nome preferido"):
+                if rotulo in t:
+                    linha = t.split(rotulo, 1)[1].split(u"\n")[1].strip()
+                    linha = linha.split(u" \u2014 ")[0].strip()
+                    if linha and u"a preencher" not in linha.lower():
+                        nomes.add(linha.lower())
+            for n in nomes:
+                _PESSOAS.setdefault(n, set()).add(email)
+    return _PESSOAS
+
+
+def resolve_pessoa(nome):
+    u"""'pessoa:<email>' | None se nao achou | '' se ambiguo (NAO escolhe)."""
+    if not nome:
+        return None
+    emails = indice_pessoas().get(nome.strip().lower())
+    if not emails:
+        return None
+    if len(emails) > 1:
+        return u""
+    return u"pessoa:" + sorted(emails)[0]
+
+
+# ------------------------------------------------------------------ utilidades
+def normaliza_data(txt):
+    if not txt:
+        return None
+    m = RE_ISO.search(txt)
+    if m:
+        return m.group(0)
+    m = RE_DATA_BR.search(txt)
+    if m:
+        return u"%s-%s-%s" % (m.group(3), m.group(2), m.group(1))
+    m = RE_DATA_EXT.search(txt)
+    if m:
+        return u"%s-%02d-%02d" % (m.group(3), MESES[m.group(2).lower()[:3]], int(m.group(1)))
+    return None
+
+
+def acha_fonte(txt):
+    if not txt:
+        return None
+    low = txt.lower()
+    for pista, nome in FONTES:
+        if pista.lower() in low:
+            return nome
+    return None
+
+
+def limpa(v):
+    u"""Tira enfase, backtick e pontuacao terminal. NAO reescreve o valor."""
+    v = v.strip()
+    v = re.sub(u"^[\\U0001F534\\U0001F7E2\\U0001F7E1\\u26a0\\u25b8\\u25ba\\u2192\\u2014\\s]+", u"", v)
+    v = v.replace(u"**", u"").replace(u"`", u"")
+    v = re.sub(u"\\[([^\\]]+)\\]\\([^)]+\\)", u"\\1", v)
+    v = v.strip().rstrip(u".")
+    v = re.sub(u"\\s+", u" ", v)
+    return v.strip()
+
+
+def encurta(v):
+    u"""Corta o rabo explicativo de campo de enum. So o valor sobrevive."""
+    v = re.split(u"\\s\u2014\\s", v)[0]
+    v = re.split(u"\\s\\(", v)[0]
+    return v.strip().rstrip(u".,;").strip()
+
+
+def corta_secoes(txt):
+    u"""
+    [(titulo, corpo, preambulo_do_bloco_pai)] para cada '### '.
+    O preambulo e o que vem entre '## ' e o primeiro '### ' - e la que o corpus
+    declara a autoridade de um bloco inteiro (ex.: `## Contrato`).
+    """
+    out = []
+    titulo, buf = None, []
+    pai_buf, dentro_pai = [], False
+    for ln in txt.split(u"\n"):
+        if ln.startswith(u"## ") and not ln.startswith(u"### "):
+            if titulo is not None:
+                out.append((titulo, u"\n".join(buf), u"\n".join(pai_buf)))
+            titulo, buf = None, []
+            pai_buf, dentro_pai = [], True
+        elif ln.startswith(u"### "):
+            if titulo is not None:
+                out.append((titulo, u"\n".join(buf), u"\n".join(pai_buf)))
+            dentro_pai = False
+            titulo, buf = ln[4:].strip(), []
+        elif titulo is not None:
+            buf.append(ln)
+        elif dentro_pai:
+            pai_buf.append(ln)
+    if titulo is not None:
+        out.append((titulo, u"\n".join(buf), u"\n".join(pai_buf)))
+    return out
+
+
+def linhas_de_valor(corpo):
+    out = []
+    for ln in corpo.split(u"\n"):
+        s = ln.strip()
+        if not s or s.startswith(u">") or s.startswith(u"|") or s.startswith(u"#"):
+            continue
+        out.append(s)
+    return out
+
+
+def linhas_de_procedencia(corpo):
+    u"""So blockquote - e onde o corpus registra de onde veio o dado."""
+    return u"\n".join([l for l in corpo.split(u"\n") if l.strip().startswith(u">")])
+
+
+def valor_da_secao(corpo, e_lista, curto):
+    linhas = linhas_de_valor(corpo)
+    if not linhas:
+        return [] if e_lista else None
+    if e_lista:
+        itens = [limpa(l[2:]) for l in linhas if l.startswith(u"- ")]
+        if not itens:
+            itens = [limpa(linhas[0])]
+        if curto:
+            itens = [encurta(i) for i in itens]
+        return [i for i in itens if i]
+    v = limpa(linhas[0])
+    return encurta(v) if curto else v
+
+
+def vazio(v):
+    if v is None:
+        return True
+    low = v.lower()
+    return (u"a preencher" in low) or low in (u"", u"-", u"?", u"n/a")
+
+
+# ----------------------------------------------------------------- montagem
+def monta_bloco(txt):
+    por_titulo = {}
+    for t, corpo, pai in corta_secoes(txt):
+        if t not in por_titulo:
+            por_titulo[t] = (corpo, pai)
+
+    cabecalho = txt.split(u"\n## ")[0]
+    hd_fonte = acha_fonte(cabecalho)
+    hd_data = normaliza_data(cabecalho)
+
+    fatos = []
+
+    def emite(chave, valor, fonte, data):
+        if fonte is None:
+            fatos.append(u"- %s: %s %s [sem fonte]" % (chave, valor, TRACO))
+        else:
+            fatos.append(u"- %s: %s %s [%s %s %s]" % (
+                chave, valor, TRACO, fonte, PONTO, data or u"sem data"))
+
+    for prefixo, chave, e_lista, curto in CHAVES_INSTITUCIONAL:
+        titulo = None
+        for t in por_titulo:
+            if t.startswith(prefixo):
+                titulo = t
+                break
+        if titulo is None:
+            continue
+        corpo, pai = por_titulo[titulo]
+
+        # cadeia de procedencia declarada
+        proc = linhas_de_procedencia(corpo)
+        fonte = acha_fonte(proc)
+        data = normaliza_data(proc)
+        if fonte is None:
+            rabo = u" ".join(linhas_de_valor(corpo))
+            fonte = acha_fonte(rabo)
+            # a data NUNCA sai da linha de valor: data de fato != data da fonte
+        if fonte is None:
+            fonte = acha_fonte(pai)
+            data = data or normaliza_data(pai)
+        if fonte is None:
+            fonte = hd_fonte
+        data = data or hd_data
+
+        v = valor_da_secao(corpo, e_lista, curto)
+
+        if e_lista:
+            itens = [i for i in (v or []) if not vazio(i)]
+            if not itens:
+                fatos.append(u"- %s: ? %s [sem fonte]" % (chave, TRACO))
+            else:
+                for i in itens:
+                    emite(chave, i, fonte, data)
+            continue
+
+        if vazio(v):
+            fatos.append(u"- %s: ? %s [sem fonte]" % (chave, TRACO))
+            continue
+
+        # atendimento: o valor util sao os itens de lista, e cada nome vira
+        # `pessoa:<email>`. Identidade por e-mail - nunca por nome.
+        if chave == u"atendimento":
+            itens = [limpa(l[2:]) for l in linhas_de_valor(corpo) if l.startswith(u"- ")]
+            # NAO se quebra prosa em nomes. Fatiar "Julianne e Pedro (Key Account)
+            # sendo que X" por virgula e " e " produz "lido", "isso", "SMB" - lixo
+            # com cara de identidade, que e pior que nao resolver. Sem item de
+            # lista, o valor sai inteiro e a identidade fica declaradamente aberta.
+            emitiu = False
+            for it in itens:
+                nome = encurta(it)
+                if not nome or vazio(nome):
+                    continue
+                r = resolve_pessoa(nome)
+                emitiu = True
+                if r:
+                    emite(chave, r, fonte, data)
+                elif r == u"":
+                    fatos.append(u"- %s: %s %s [ambiguo: mais de um e-mail para este nome]"
+                                 % (chave, nome, TRACO))
+                else:
+                    fatos.append(u"- %s: %s %s [nao resolvido: ficha sem e-mail]"
+                                 % (chave, nome, TRACO))
+            if emitiu:
+                continue
+
+        emite(chave, v, fonte, data)
+
+        # "Assinado - servicos faturados: uFlow" carrega DOIS fatos, e
+        # servico-faturado e chave propria no protocolo: nao se perde no rabo.
+        if chave == u"contrato-situacao":
+            brutas = linhas_de_valor(corpo)
+            m = RE_FATURADO.search(limpa(brutas[0])) if brutas else None
+            if m:
+                for s in re.split(SEP, m.group(1)):
+                    s = limpa(s).rstrip(u".")
+                    if s and not vazio(s):
+                        emite(u"servico-faturado", s, fonte, data)
+
+    if not fatos:
+        return None
+
+    cab = [
+        u"## Fatos",
+        u"",
+        u"> \U0001F534 **Camada de FATO AT\u00d4MICO \u2014 alvo do cruzamento de transcri\u00e7\u00e3o.**",
+        u"> Uma linha, um fato: `- chave: valor \u2014 [fonte \u00b7 data]`. **Parse: a proced\u00eancia \u00e9 o",
+        u"> \u00daLTIMO ` \u2014 [` da linha**, que sempre termina em `]` \u2014 o valor pode conter travess\u00e3o.",
+        u"> **A prosa abaixo \u00e9 para pessoa; esta se\u00e7\u00e3o \u00e9 para m\u00e1quina.**",
+        u"> \u26a0 **Gerado por `scripts/gera-fatos.py` \u2014 n\u00e3o editar \u00e0 m\u00e3o.** Formato travado no",
+        u"> `protocolo-fato-atomico.md`. `[sem fonte]` \u00e9 **lacuna declarada**, n\u00e3o defeito.",
+        u"",
+    ]
+    return u"\n".join(cab + fatos) + u"\n"
+
+
+RE_BLOCO = re.compile(u"\n## Fatos\n.*?(?=\n## )", re.S)
+
+
+def aplica(caminho):
+    with io.open(caminho, u"r", encoding=u"utf-8") as f:
+        txt = f.read()
+    limpo = RE_BLOCO.sub(u"\n", txt)
+    bloco = monta_bloco(limpo)
+    if bloco is None:
+        return 0, 0
+    partes = limpo.split(u"\n## ", 1)
+    if len(partes) != 2:
+        return 0, 0
+    novo = partes[0].rstrip(u"\n") + u"\n\n" + bloco + u"\n## " + partes[1]
+    n = bloco.count(u"\n- ")
+    if novo == txt:
+        return 0, n
+    with io.open(caminho, u"w", encoding=u"utf-8") as f:
+        f.write(novo)
+    return 1, n
+
+
+def main():
+    alvos = []
+    base = os.path.join(RAIZ, u"uMode", u"_Clientes")
+    for dirpath, dirnames, filenames in os.walk(base):
+        if u"_template" in dirpath:
+            continue
+        if u"institucional.md" in filenames and u"00_Institucional" in dirpath:
+            alvos.append(os.path.join(dirpath, u"institucional.md"))
+    prop = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_contexto", u"institucional.md")
+    if os.path.exists(prop):
+        alvos.append(prop)
+    alvos = sorted(set(alvos))
+
+    tocados, total = 0, 0
+    for a in alvos:
+        t, n = aplica(a)
+        tocados += t
+        total += n
+
+    sem_fonte = ambiguo = nao_res = 0
+    for a in alvos:
+        with io.open(a, u"r", encoding=u"utf-8") as f:
+            for ln in f.read().split(u"\n"):
+                if not ln.startswith(u"- "):
+                    continue
+                if ln.endswith(u"[sem fonte]"):
+                    sem_fonte += 1
+                elif ln.endswith(u"e este nome]"):
+                    ambiguo += 1
+                elif ln.endswith(u"ficha sem e-mail]"):
+                    nao_res += 1
+
+    w = sys.stdout.write
+    w(u"arquivos alvo      : %d\n" % len(alvos))
+    w(u"arquivos escritos  : %d\n" % tocados)
+    w(u"fatos gerados      : %d\n" % total)
+    w(u"  com fonte        : %d\n" % (total - sem_fonte - ambiguo - nao_res))
+    w(u"  SEM fonte        : %d  <- lacuna declarada, nao erro\n" % sem_fonte)
+    w(u"  pessoa ambigua   : %d  <- nao escolhi: vira pendencia\n" % ambiguo)
+    w(u"  pessoa sem e-mail: %d  <- ficha existe, identidade nao fecha\n" % nao_res)
+    w(u"pessoas indexadas  : %d nomes com e-mail unico\n"
+      % len([k for k, v in indice_pessoas().items() if len(v) == 1]))
+
+
+if __name__ == u"__main__":
+    enc = (getattr(sys.stdout, u"encoding", None) or u"").lower()
+    if u"utf" not in enc and hasattr(sys.stdout, u"buffer"):
+        sys.stdout = codecs.getwriter(u"utf-8")(sys.stdout.buffer)
+    main()

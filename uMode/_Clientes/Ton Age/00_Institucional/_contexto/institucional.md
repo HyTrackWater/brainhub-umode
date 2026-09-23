@@ -15,6 +15,33 @@ tags:
 > Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
 > Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- id: ton-age — [varredura do Notion · 2026-09-22]
+- segmento: ? — [sem fonte]
+- receita-anual: ? — [sem fonte]
+- grupo-segmentacao: SMB — [varredura do Notion · 2026-09-22]
+- status: Sem CS — [varredura do Notion · 2026-09-22]
+- data-ativacao: ? — [sem fonte]
+- erp: Sem Integração — [varredura do Notion · 2026-09-22]
+- modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-22]
+- contrato-situacao: Sem contrato — [planilha de contratos do Financeiro · 2026-09-23]
+- servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: ? — [sem fonte]
+- contrato-renovacao: ? — [sem fonte]
+- indice-reajuste: ? — [sem fonte]
+- usuarios-contratados: ? — [sem fonte]
+- usuarios-conta: ? — [sem fonte]
+- atendimento: SMB — [base Segmentação Grupos · 2026-09-22]
+- tamanho-atendimento: Grupo SMB · WIP Estratégico 1,75 · sem pessoa de atendimento nomeada — [varredura do Notion · 2026-09-22]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da linha da base.
 - **Nenhuma pessoa foi identificada** além das que abriram chamado.

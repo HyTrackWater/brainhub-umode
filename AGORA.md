@@ -122,7 +122,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | | Número | Como se mede |
 |---|---:|---|
 | Clientes no corpus | **48** | pastas em `_Clientes/` |
-| MDs em `uMode/` | **2.649** | `find` |
+| MDs em `uMode/` | **2.650** | `find` |
 | `contexto-area.md` conformes | **694 / 694** | `valida-padrao-corpus.py` |
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50 · 49 · 49** | idem |
 | Demandas | **999** — 994 de cliente + 5 da Casa | idem · 1 staging `SUPERSEDED` |
@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **590** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **598** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -311,6 +311,33 @@ para dentro do contexto. **Item 480 do `_pendencias-gerais.md`.**
 
 **5 · 🔴 Existe segmentação de conta — `SaaS`, `Enterprise`, `SMB` — e nenhuma ficha de cliente
 do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
+
+## 6-bis · 🟢 A camada de fato atômico (23 set 2026)
+
+**O que mudou:** cada `institucional.md` ganhou um bloco **`## Fatos`** no topo —
+**826 fatos em 49 arquivos**, no formato `- chave: valor — [fonte · data]`.
+
+🔴 **Decisão de desenho, e ela vale para todo MD de entidade daqui em diante:
+o fato NÃO substitui a prosa — convive com ela.** A prosa é para pessoa (contexto,
+citação, nuance); o bloco `## Fatos` é para máquina. **O agente de transcrição cruza
+contra `## Fatos`, nunca contra a prosa.** Formato travado no
+[`protocolo-fato-atomico.md`](uMode/00_Institucional/_protocolos/protocolo-fato-atomico.md).
+
+| | |
+|---|---:|
+| fatos com fonte e data | **424** (51%) |
+| 🔴 fatos `[sem fonte]` — **lacuna declarada, não defeito** | **399** (48%) |
+| chaves de vocabulário fechado | **26** |
+| nomes indexados por e-mail, tirados do próprio corpus | **617** |
+
+🔴 **E o bloqueio que isso revelou: NENHUM dos 49 valores de `atendimento` resolve para
+e-mail.** O CRM guarda primeiro nome (`Laura`, `Fernanda`, `Julianne + Pedro`) e os 3 nomes
+completos têm ficha **sem e-mail**. ⚠ **A Julianne é a Key Account da CAEDU** — o cliente do
+teste da semana que vem. **Itens 598–599.**
+
+**Dono:** `scripts/gera-fatos.py` · **Guarda:** `scripts/valida-fatos.py` (acusa chave fora do
+vocabulário, forma e data inválidas — **não corrige**). **Rodar entre `gera-conexoes.py` e
+`gera-frontmatter.py`.**
 
 ## 7 · Próximos passos, em ordem
 
