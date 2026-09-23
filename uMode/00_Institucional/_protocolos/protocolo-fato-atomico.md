@@ -81,6 +81,29 @@ transcrição de hoje atualiza ou contradiz o que está escrito. **Fato sem data
 **existe e não se sabe**; a ausência deixa dúvida entre "não sabemos" e "não perguntamos".
 **Ausência declarada é informação.**
 
+### 2.1-bis · 🔴 Ausência VERIFICADA é diferente de ausência
+
+```
+- receita-anual: ? — [sem fonte]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+```
+
+**As duas linhas dizem "não sei". Só a segunda diz onde se olhou e quando.**
+
+🔴 **E essa diferença muda o veíiculo da decisão no cruzamento.** Quando a transcrição
+disser *"a CAEDU fatura X"*, o agente precisa saber se:
+- `[sem fonte]` → **ninguém procurou.** Pode ser que a base tenha e nós não lemos.
+- `[não consta em: …]` → **procurou-se ali, naquela data, e estava vazio.** Então o que a
+  transcrição traz é **NOVO**, e não um conflito com a base.
+
+⚠ **`[não consta em: X · data]` só se escreve depois de abrir o X.** Escrever isso sem ter
+aberto é a alucinação que o `CLAUDE.md` chama de *"ausência de fonte é hipótese, não
+conclusão"* — e já erramos assim duas vezes.
+
+🟢 **Vale citar mais de um instante quando houver:** *"vazio na base viva (23/09/2026) e
+também no export de 04/03/2026"* é muito mais forte que um só. **Campo vazio em dois instantes
+distantes não é lacuna de leitura: é campo que a operação não preenche.**
+
 ### 2.2 · Fato que conflita
 
 Quando duas fontes discordam, **as duas linhas ficam**, e a mais recente vem primeiro:

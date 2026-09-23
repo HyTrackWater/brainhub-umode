@@ -23,10 +23,10 @@ tags:
 
 - id: caedu — [export de CRM · 2026-09-21]
 - segmento: B2C — Vestuário, Calçados, Acessórios — São Paulo/SP — [export de CRM · 2026-09-21]
-- receita-anual: ? — [sem fonte]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: SMB — [varredura do Notion · 2026-09-23]
 - status: Ongoing — [base Mapa de Clientes · 2026-09-21]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Linx — [base Mapa de Clientes · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [export de CRM · 2026-09-21]
 - modulo-contratado: Integração — [export de CRM · 2026-09-21]
@@ -68,7 +68,21 @@ importado**. Departamentos atendidos: **Feminino, Masculino e Infantil**.
 B2C — **Vestuário, Calçados, Acessórios** — São Paulo/SP
 ### Receita anual
 `[a preencher]` — campo **vazio** na base `Mapa de Clientes`.
-> Há a referência de ~R$ 1 bi (2023) no CRM de mentoria, **não confirmada**. Não usar como dado.
+> 🔴 **Ausência VERIFICADA em dois instantes independentes**, em 23/09/2026:
+> a base viva (consulta SQL) e o **export de 04/03/2026** que está no vault do João
+> (`BrainHub/uMode/_Clientes/_geral/notion/Mapa de Clientes.csv`). **Vazio nos dois.**
+> 🔴 **E o campo quase não é usado: está preenchido em 2 dos 49 clientes** — só
+> Luiza Barcelos (350.000.000) e NK STORE (144.000.000). **Não é lacuna da Caedu: é campo
+> que a operação não preenche.**
+>
+> ⚠ **A referência de ~R$ 1 bi (2023) continua SEM fonte localizável.** O corpus a atribui
+> ao *CRM de mentoria no vault do João*. **Não encontrei `Edson Salles`, `1 bi` nem
+> `100+ lojas` na árvore do vault nem no histórico do Git dele** (busca de 23/09/2026).
+> ⚠ **O clone tem 1 branch local contra 19 remotas** — pode estar em branch não baixada.
+> **Não afirmo que não existe: afirmo que não encontrei ali.** Não usar como dado.
+>
+> ⚠ **`Quantidade de Lojas` também está vazio para a Caedu** — preenchido em 5 de 49.
+> A afirmação de *100+ lojas* não vem da base.
 ### Grupo de segmentação uMode
 **`SMB`** — **Grupo 3** da base `Segmentação Grupos`. `WIP Time 10` · `WIP Estratégico 1,75`.
 > 🟢 **Lido ao vivo em 23 set 2026**, resolvendo a relação (o campo é `relation`, não texto — foi
@@ -88,9 +102,29 @@ B2C — **Vestuário, Calçados, Acessórios** — São Paulo/SP
 > (`Inativo` · `Pré Onboardings` · `Operação Assistida` · `Onboarding` · `Sem CS` · `Ongoing` ·
 > `Churn`). **Substitui o `Regime CS` do export de março**, que era valor de um enum anterior.
 ### Data de ativação
-`[a preencher]` — campo vazio na base.
-> A conta de API está ativa **desde 05/10/2022** e o usuário mais antigo é de **21/07/2023**.
-> São os indícios mais firmes de quando a operação começou.
+`[a preencher]` — campo vazio na base `Mapa de Clientes`.
+> 🔴 **Ausência VERIFICADA em dois instantes**, em 23/09/2026: base viva e export de
+> 04/03/2026 no vault. **Vazio nos dois.** O campo está preenchido em **6 dos 49 clientes**.
+>
+> 🟢 **Mas a data é CERCAVÉL por duas fontes independentes, e elas concordam:**
+> · **contrato assinado em 23/06/2022** (planilha de contratos do Financeiro);
+> · **conta `api-caedu@umode.app` ativa desde 05/10/2022** — a linha mais antiga da tabela
+> de usuários da página do cliente, com folga: **a seguinte é de 05/05/2023.**
+>
+> ⚠ **Não promovi nenhuma das duas a `data-ativacao`.** Contrato assinado e conta de serviço
+> criada **não são** o campo comercial `Data Ativação Cliente`. **A janela está cercada entre
+> jun e out de 2022; o valor exato continua sem fonte.**
+>
+> 🟢 **Janela de atividade medida na tabela de usuários** (94 linhas de pessoa, lida em
+> 23/09/2026): mais antiga **05/10/2022**, mais recente **16/07/2024**.
+> 🔴 **Nenhum usuário novo desde jul/2024** — e a conta está em `Onboarding` com o
+> projeto CAEDU 2.0 em montagem.
+>
+> 🔴 **13 das 94 linhas têm data corrompida na origem:** ano `0202` em vez de `2022`
+> (`alessandra.rocha`, `bianca.werneck`, `brida.duch`, `maria.vietas`, `karina.gaino`,
+> `marina.bueno`, `marlon.ribeiro`, `nathalia.kassai`, `sofia.costa`), ano truncado `20`
+> (`jose.soares`, `samara.santos`) e sufixo ` 1` (`ana.queiroz`, `leticia.santos`).
+> **É erro de digitação na fonte — corrigir lá, não aqui.**
 ### Módulos contratados
 - **Gestão de Coleção**
 - **Integração**

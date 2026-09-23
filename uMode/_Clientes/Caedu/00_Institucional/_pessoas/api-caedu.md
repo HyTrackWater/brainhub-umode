@@ -92,7 +92,7 @@ página do cliente**, que é onde o cargo vive quando existe.
 | **Ativo na plataforma desde** | **05/10/2022** |
 | Fonte | tabela de usuários da página do cliente |
 
-**Observação da fonte:** perfil de acesso `Dono da Conta`, da tabela de usuários da página do cliente. 🔴 **É a única `Dono da Conta` da base** — não é área, é papel na plataforma. 🔴 **`Ativo desde` está corrompido na fonte: `05/10/2022`.** Não deduzi a data.
+**Observação da fonte:** perfil de acesso `Dono da Conta`, da tabela de usuários da página do cliente. 🔴 **É a única `Dono da Conta` da base** — não é área, é papel na plataforma. 🟢 **Corrigido em 23/09/2026.** A versão anterior desta ficha dizia que *"`Ativo desde` está corrompido na fonte: `05/10/2022`"*. 🔴 **Estava errado: a corrupção é real, mas em OUTRAS 13 linhas da tabela** — ano `0202` em vez de `2022`, ano truncado `20` e sufixo ` 1`. **Esta linha está bem-formada**, e é a mais antiga da tabela com folga: a seguinte é de 05/05/2023. Ver `institucional.md` § `Data de ativação`.
 
 ## Governança
 ### Quem pode alterar este documento

@@ -84,6 +84,12 @@ RE_ISO      = re.compile(u"(\\d{4})-(\\d{2})-(\\d{2})")
 RE_FATURADO = re.compile(u"servi\u00e7os? faturados?\\s*:\\s*(.+)$", re.I)
 RE_EMAIL    = re.compile(u"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}")
 RE_H1       = re.compile(u"^# (.+)$", re.M)
+# "campo vazio na base X", "não consta em X", "vazio na base X" - a secao
+# declarando que ALGUEM ABRIU a fonte e ela estava vazia (protocolo 2.1-bis).
+RE_AUSENCIA = re.compile(
+    u"(?:campo\\s+)?(?:est\u00e1\\s+)?vazi[ao]\\s+n[ao]\\s+base(.{0,70})"
+    u"|n\u00e3o\\s+consta\\s+n[ao](.{0,70})"
+    u"|sem\\s+preenchimento\\s+n[ao]\\s+base(.{0,70})", re.I)
 
 
 # ----------------------------------------------------- identidade por E-MAIL
@@ -332,7 +338,24 @@ def monta_bloco(txt):
             continue
 
         if vazio(v):
-            fatos.append(u"- %s: ? %s [sem fonte]" % (chave, TRACO))
+            # 2.1-bis: se a secao DECLARA que a fonte foi aberta e estava vazia,
+            # a ausencia e verificada e o agente pode tratar dado novo como NOVO.
+            # A enfase quebraria o casamento ("campo **vazio** na base"),
+            # entao limpa antes de procurar a declaracao de ausencia.
+            texto = (corpo + u"\n" + pai).replace(u"**", u"")
+            m_aus = RE_AUSENCIA.search(texto)
+            # A fonte sai da PROPRIA frase de ausencia, nunca do resto da
+            # secao: "campo vazio na base" sem dizer QUAL base nao autoriza
+            # citar a primeira fonte que aparecer no blockquote ao lado.
+            f_aus = None
+            if m_aus:
+                for g in m_aus.groups():
+                    f_aus = f_aus or acha_fonte(g)
+            if f_aus:
+                fatos.append(u"- %s: ? %s [não consta em: %s %s %s]"
+                             % (chave, TRACO, f_aus, PONTO, data or u"sem data"))
+            else:
+                fatos.append(u"- %s: ? %s [sem fonte]" % (chave, TRACO))
             continue
 
         # atendimento: o valor util sao os itens de lista, e cada nome vira
@@ -436,7 +459,7 @@ def main():
         tocados += t
         total += n
 
-    sem_fonte = ambiguo = nao_res = 0
+    sem_fonte = ambiguo = nao_res = ausente = 0
     for a in alvos:
         with io.open(a, u"r", encoding=u"utf-8") as f:
             for ln in f.read().split(u"\n"):
@@ -444,6 +467,8 @@ def main():
                     continue
                 if ln.endswith(u"[sem fonte]"):
                     sem_fonte += 1
+                elif u"[não consta em:" in ln:
+                    ausente += 1
                 elif u"[ambiguo:" in ln:
                     ambiguo += 1
                 elif u"[nao resolvido:" in ln:
@@ -453,7 +478,9 @@ def main():
     w(u"arquivos alvo      : %d\n" % len(alvos))
     w(u"arquivos escritos  : %d\n" % tocados)
     w(u"fatos gerados      : %d\n" % total)
-    w(u"  com fonte        : %d\n" % (total - sem_fonte - ambiguo - nao_res))
+    w(u"  com fonte        : %d\n"
+      % (total - sem_fonte - ambiguo - nao_res - ausente))
+    w(u"  ausencia VERIFICADA: %d  <- procurou-se e a fonte estava vazia\n" % ausente)
     w(u"  SEM fonte        : %d  <- lacuna declarada, nao erro\n" % sem_fonte)
     w(u"  pessoa ambigua   : %d  <- nao escolhi: vira pendencia\n" % ambiguo)
     w(u"  sem ficha        : %d  <- nenhuma ficha com e-mail para este nome\n" % nao_res)

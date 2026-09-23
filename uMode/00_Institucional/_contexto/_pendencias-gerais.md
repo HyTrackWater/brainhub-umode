@@ -3749,3 +3749,56 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
 610. 🔴 **7 clientes têm `SMB` no campo de atendimento** — segmento, não pessoa. Confirma o
      item 600 com a leitura do schema: **é valor válido do `select`**, ou seja, **a origem
      permite, por desenho, preencher responsável com um segmento.**
+
+## Os dois fatos sem fonte da CAEDU — e o que a busca encontrou no caminho (23 set 2026)
+
+611. 🟢 **A CAEDU está com ZERO fatos `[sem fonte]`.** Os dois que restavam — `receita-anual` e
+     `data-ativacao` — **não foram preenchidos: foram VERIFICADOS como ausentes**, e agora dizem
+     onde se procurou e quando: `? — [não consta em: base Mapa de Clientes · 2026-09-23]`.
+     🔴 **É formato novo, travado na § 2.1-bis do `protocolo-fato-atomico.md`.** A diferença
+     importa para o cruzamento: `[sem fonte]` significa *ninguém procurou*; `[não consta em: X]`
+     significa *procurou-se em X, naquela data, e estava vazio* — então o que a transcrição
+     trouxer é **NOVO**, não conflito.
+612. 🟢 **Achei um acervo que o corpus não sabia que existia: exports CSV das bases do Notion
+     dentro do vault do João**, em `BrainHub/uMode/.../notion/`. O `Mapa de Clientes.csv` é de
+     **04/03/2026** e tem **colunas que a base viva não expõe** — `Quantidade de Lojas`,
+     `Acessos contratados`, `Departamento`, `Portal do Cliente`, `OKRs`, `Onde Estamos`,
+     `Sucesso do Cliente`, `O que falta` e **`Fashion AI - Escopo Geral` / `Fashion AI -
+     Integração`**. 🔴 **`Fashion AI` era o termo que o item registrou como tendo ZERO ocorrência
+     no corpus** — ele existe como CAMPO da base, não só como serviço faturado.
+613. 🔴 **`Receita Anual` está preenchida em 2 dos 49 clientes** — Luiza Barcelos (350.000.000) e
+     NK STORE (144.000.000). **`Data Ativação Cliente` em 6. `Quantidade de Lojas` em 5.**
+     ⚠ **Não é lacuna da Caedu: é campo que a operação não preenche.** Cobrar por cliente é
+     perder tempo; a decisão é se esses campos devem existir.
+614. 🔴 **A referência "~R$ 1 bi (2023), 100+ lojas, CEO Edson Salles" continua sem fonte
+     localizável.** O corpus a atribui ao *CRM de mentoria no vault do João*. **Procurei por
+     `Edson Salles`, `1 bi` e `100+ lojas` na árvore do vault e no histórico do Git dele: zero.**
+     ⚠ **O clone tem 1 branch local contra 19 remotas** — pode estar em branch não baixada.
+     🔴 **Escrevo "não encontrei ali", não "não existe".** Quem confirma é o João.
+615. 🔺 **Corrigi um erro do próprio corpus.** A ficha `api-caedu.md` dizia *"`Ativo desde` está
+     corrompido na fonte: `05/10/2022`"* — e **três outros arquivos usavam essa data como fato**.
+     🟢 **A linha está bem-formada.** A corrupção é real, mas em **13 OUTRAS linhas**: ano `0202`
+     em vez de `2022` (9 casos), ano truncado `20` (2) e sufixo ` 1` (2). **Erro de digitação na
+     origem — corrigir lá, não aqui.**
+616. 🟢 **A data de ativação da CAEDU está CERCADA por duas fontes independentes que concordam:**
+     contrato assinado em **23/06/2022** e conta `api-caedu@umode.app` ativa desde **05/10/2022**
+     (a linha mais antiga da tabela, com folga — a seguinte é de 05/05/2023).
+     ⚠ **Não promovi nenhuma das duas a `data-ativacao`:** contrato assinado e conta de serviço
+     criada **não são** o campo comercial. **A janela está entre jun e out de 2022; o valor exato
+     segue sem fonte.**
+617. 🔴 **Nenhum usuário novo na CAEDU desde 16/07/2024** — janela medida na tabela de usuários
+     (94 linhas de pessoa): mais antiga 05/10/2022, mais recente 16/07/2024. **E a conta está em
+     `Onboarding` com o CAEDU 2.0 em montagem.** ⚠ **Dois anos sem entrada de usuário numa conta
+     que está reimplantando** é sinal que o teste da semana que vem devia olhar.
+618. 🔴 **137 ocorrências de "campo vazio na base" no corpus NÃO dizem QUAL base**, em **44 dos 49
+     clientes**. 🔴 **Ausência sem fonte nomeada não é ausência citável** — vira `[sem fonte]`, e
+     o agente não sabe se alguém chegou a olhar. **Só a CAEDU nomeia (2 ocorrências).**
+     ⚠ **É trabalho de varredura, um cliente por vez: abrir a base, confirmar o vazio, nomear.**
+619. ⚠ **`Grupo 3` mudou de nome e isso explica documentos antigos.** O export de 04/03/2026 diz
+     **`Grupo 3: Potenciais Clientes`**; a base viva diz **`SMB`** (WIP Estratégico 1,75 · WIP
+     Time 10 · 15 clientes). **Não é contradição do nosso fato — é renomeação.** Mas quem ler um
+     documento de março vai achar que são coisas diferentes.
+620. ⚠ **O export de março lista `Módulos contratados: uFlow` para a Caedu; a base viva lista
+     quatro módulos funcionais** (Gestão de Coleção, Integração, Relatórios, Fornecedores).
+     🔴 **Confirma que a taxonomia de módulo mudou de nome-de-produto para funcional** entre
+     março e setembro de 2026 — e **nenhuma das duas listas é "a certa": são instantes diferentes.**

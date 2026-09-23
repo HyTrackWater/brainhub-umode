@@ -62,7 +62,7 @@ def blocos():
 def main():
     vocab = vocabulario()
     arquivos = 0
-    fatos = com_fonte = sem_fonte = abertos = 0
+    fatos = com_fonte = sem_fonte = abertos = ausente = 0
     forma_ruim, chave_ruim, data_ruim = [], {}, []
 
     for caminho, corpo in blocos():
@@ -82,6 +82,9 @@ def main():
 
             if proc == u"sem fonte":
                 sem_fonte += 1
+            elif proc.startswith(u"não consta em:"):
+                # 2.1-bis: nao e fonte do valor, e prova de que se procurou.
+                ausente += 1
             elif proc.startswith(u"ambiguo") or proc.startswith(u"nao resolvido"):
                 abertos += 1
             else:
@@ -98,6 +101,8 @@ def main():
     w(u"fatos              : %d\n" % fatos)
     if fatos:
         w(u"  com fonte e data : %d  (%.0f%%)\n" % (com_fonte, 100.0 * com_fonte / fatos))
+        w(u"  ausencia VERIFICADA: %d  (%.0f%%)  <- procurou-se em fonte nomeada\n"
+          % (ausente, 100.0 * ausente / fatos))
         w(u"  lacuna declarada : %d  (%.0f%%)  <- `[sem fonte]`, NAO e desvio\n"
           % (sem_fonte, 100.0 * sem_fonte / fatos))
         w(u"  identidade aberta: %d  <- pessoa nao resolvida por e-mail\n" % abertos)

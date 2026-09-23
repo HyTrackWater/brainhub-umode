@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **606** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **616** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -326,7 +326,8 @@ contra `## Fatos`, nunca contra a prosa.** Formato travado no
 | | |
 |---|---:|
 | fatos com fonte e data | **424** (51%) |
-| 🔴 fatos `[sem fonte]` — **lacuna declarada, não defeito** | **399** (48%) |
+| 🔴 fatos `[sem fonte]` — **ninguém procurou** | **397** (48%) |
+| 🟢 **ausência VERIFICADA** — `[não consta em: X · data]` | **2** — só a CAEDU |
 | chaves de vocabulário fechado | **26** |
 | nomes indexados por e-mail, tirados do próprio corpus | **617** |
 
@@ -340,6 +341,13 @@ campo `Atendimento 2024` aponta, **e que não é a `uModers`** — e preenchi 16
 | 🔴 **ambíguo, e eu NÃO escolhi** — `Pedro` (6), `Fernanda` (3) | **9** |
 | ⚠ `SMB` — segmento, não pessoa | 7 |
 | campo vazio na origem | 24 |
+
+🟢 **A CAEDU está com ZERO fatos `[sem fonte]`.** Os dois que restavam não foram
+preenchidos — foram **verificados como ausentes em dois instantes** (base viva 23/09/2026 e
+export de 04/03/2026 no vault) e agora dizem onde se procurou. 🔴 **`Receita Anual` está
+preenchida em 2 dos 49 clientes; `Data Ativação` em 6** — não é lacuna da Caedu, é campo que
+a operação não preenche. ⚠ **137 ocorrências de "campo vazio na base" em 44 clientes não
+dizem QUAL base** — e ausência sem fonte nomeada não é ausência citável (item 618).
 
 🟢 **A CAEDU resolve ponta a ponta:** `julianne.dias@` · `pedro.murillo@` · `andrea.holmer@`.
 🔴 **E a Andrea está `Inativo` na base** — no cliente do teste da semana que vem (item 605).
