@@ -5,7 +5,7 @@
 
 > 🔴 **`Status` é estado de ciclo de vida, não tipo de cliente.**
 > Enum vigente: `Inativo · Pré Onboardings · Operação Assistida · Onboarding · Sem CS · Ongoing · Churn`.
-> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+> Travado pelo Vinicius em 22 set 2026. Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **ESTE CLIENTE NÃO EXISTE NA BASE `Mapa de Clientes`.** Ele existe no **corpus** e na base **`Portal do Cliente`** — e **em nenhuma das 50 linhas da base principal.**
@@ -85,7 +85,7 @@
 
 > 🔴 **As duas bases de cliente do Notion não se falam**, e o corpus herdou o resultado de ambas sem saber. A relação `Clientes` da base `Portal do Cliente` está **vazia nas 32 linhas** — nenhum portal aponta de volta para o cliente.
 >
-> Registrado na [`_varredura-2026-09-21-fontes-e-lacunas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-21-fontes-e-lacunas.md).
+> Registrado na [`_varredura-2026-09-21-fontes-e-lacunas.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-21-fontes-e-lacunas.md).
 
 ### 🔴 A frente aberta
 🔴 **Reconciliar as duas listas de cliente do Notion.**
@@ -125,23 +125,23 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 🔴 **O que ainda não se sabe deste cliente, e onde já se procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)
 
-**As 15 áreas deste cliente:**
 
-- [Institucional](../../../00_Institucional/_contexto/contexto-area.md)
-- [Planejamento](../../../01_Planejamento/_contexto/contexto-area.md)
-- [Estilo Criacao](../../../02_Estilo-Criacao/_contexto/contexto-area.md)
-- [Desenvolvimento de Colecao](../../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
-- [Qualidade](../../../04_Qualidade/_contexto/contexto-area.md)
-- [PCP](../../../05_PCP/_contexto/contexto-area.md)
-- [Compras Supply Sourcing](../../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
-- [Logistica CD](../../../07_Logistica-CD/_contexto/contexto-area.md)
-- [Ecommerce Cadastro](../../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
-- [Comercial Vendas](../../../09_Comercial-Vendas/_contexto/contexto-area.md)
-- [Marketing](../../../10_Marketing/_contexto/contexto-area.md)
-- [Financeiro](../../../11_Financeiro/_contexto/contexto-area.md)
-- [Design](../../../12_Design/_contexto/contexto-area.md)
-- [Modelagem](../../../13_Modelagem/_contexto/contexto-area.md)
-- [Engenharia](../../../14_Engenharia/_contexto/contexto-area.md)
+**As 14 áreas deste cliente:**
+
+- [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
+- [Estilo Criacao](../../02_Estilo-Criacao/_contexto/contexto-area.md)
+- [Desenvolvimento de Colecao](../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
+- [Qualidade](../../04_Qualidade/_contexto/contexto-area.md)
+- [PCP](../../05_PCP/_contexto/contexto-area.md)
+- [Compras Supply Sourcing](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
+- [Logistica CD](../../07_Logistica-CD/_contexto/contexto-area.md)
+- [Ecommerce Cadastro](../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
+- [Comercial Vendas](../../09_Comercial-Vendas/_contexto/contexto-area.md)
+- [Marketing](../../10_Marketing/_contexto/contexto-area.md)
+- [Financeiro](../../11_Financeiro/_contexto/contexto-area.md)
+- [Design](../../12_Design/_contexto/contexto-area.md)
+- [Modelagem](../../13_Modelagem/_contexto/contexto-area.md)
+- [Engenharia](../../14_Engenharia/_contexto/contexto-area.md)
 
 **Autoridades da Casa que governam este arquivo:**
 [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md) · [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) · [`protocolo-varredura-cliente.md`](../../../../00_Institucional/_protocolos/protocolo-varredura-cliente.md)

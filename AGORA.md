@@ -106,30 +106,82 @@ Instituição (Casa uMode OU Cliente)
 | **Modelo de documentação** | 22 set 2026 | **8 classes travadas · manifesto declarado no `START.md` § 1 · verificável por script** |
 | **Pessoas e ferramentas** | 22 set 2026 | **enum de 7 módulos · atendimento de 17 contas · razão de pessoas datado em 17 clientes** |
 | 🟢 **Permissionamento do uFlow** | **23 set 2026** | **as 10 matrizes lidas · o mecanismo virou autoridade (`_dicionario-permissionamento-uflow.md`) · os 4 acervos do Notion mapeados** |
+| 🟢 **O grafo e o Obsidian** | **23 set 2026** | **2.840 links de área religados · órfãos 74 → 41 · `.obsidian/` versionado com 15 cores de entidade** |
+| 🟢 **Ciclo da pergunta** | **23 set 2026** | **destinatário nomeado · estados `aprovada`/`recusada`/`alterada` com justificativa obrigatória** |
 
-**Cobertura hoje, medida:**
+**Cobertura hoje, medida:** 🔺 **números refeitos em 23 set 2026 rodando os validadores.**
+Os anteriores traziam três divergências — contagem de pendência em três arquivos diferentes,
+a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 
-| | Número |
-|---|---:|
-| Clientes no corpus | **48** |
-| MDs em `uMode/` | **2.402** |
-| Demandas formalizadas | **998** |
-| RFIs formalizadas | **85** |
-| `contexto-area.md` conformes | **694/694** |
-| `institucional.md` · `jornada.md` · `pessoas.md` | **50/50 · 49/49 · 49/49** |
-| Atas de reunião lidas por inteiro | **8 de 1.161** |
-| `.md` estruturais, todos classificados | **90/90** |
-| 🟢 **Conectados no grafo** (Obsidian) | **2.351 de 2.420 · 97,1%** |
-| Órfãos restantes | **74 · 3,1%** |
-| 🟢 **Fichas de pessoa** | **243** — 225 de cliente + 18 da Casa |
-| 🟢 **Fichas de ferramenta** | **27** |
-| Decisões pendentes registradas | **487** |
-| 🟢 **Perguntas na fila do Vinicius** | **63** — `_perguntas-para-o-vinicius.md` |
-| 🟢 **Matrizes `Perfil de Usuário` lidas** | **10 de 10 — conjunto FECHADO** |
-| 🟢 **Páginas de cliente abertas no Notion** | **16 de 49** |
-| 🟢 **Clientes com sub-página registrada no diário** | **10** |
-| Arquivos de demanda no padrão canônico | **997/998** · 1 staging `SUPERSEDED` |
-| 🚨 **Credenciais expostas conhecidas** | **3** — NK STORE · Lofty Style · **a própria plataforma** |
+| | Número | Como se mede |
+|---|---:|---|
+| Clientes no corpus | **48** | pastas em `_Clientes/` |
+| MDs em `uMode/` | **2.403** | `find` |
+| `contexto-area.md` conformes | **694 / 694** | `valida-padrao-corpus.py` |
+| `institucional.md` · `jornada.md` · `pessoas.md` | **50 · 49 · 49** | idem |
+| Demandas | **999** — 994 de cliente + 5 da Casa | idem · 1 staging `SUPERSEDED` |
+| RFIs | **86** | idem · 1 staging `SUPERSEDED` |
+| Fichas de pessoa | **242** — 225 de cliente + 17 da Casa | `gera-fichas-pessoa.py` |
+| Fichas de ferramenta | **27** | `gera-fichas-ferramenta.py` |
+| Soluções do Portfólio | **16** | `03_Produto-e-Solucoes/` |
+| `integracao.md` | **11** | 5º MD de cliente |
+| `.md` estruturais classificados | **90 / 90** | `valida-documentacao.py` ✅ |
+| Atas de reunião lidas por inteiro | **8 de 1.161** | |
+| Páginas de cliente abertas no Notion | **16 de 49** | |
+| Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
+| Decisões pendentes | **487** | `_pendencias-gerais.md`, numeradas até 491 |
+| Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
+| 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
+
+### 5.1 · 🟢 O grafo — saneado em 23 set 2026
+
+**O corpus agora é um cérebro navegável, e isso passou a ser verificável.**
+
+| | Antes (22 set) | **Agora (23 set)** |
+|---|---:|---:|
+| Arquivos no grafo | 2.420 | **2.421** |
+| Com alguma ligação | 2.351 · 97,1% | **2.382 · 98,4%** |
+| **Órfãos** (ninguém cita) | 74 · 3,1% | **41 · 1,7%** |
+| **Links de área que não resolviam** | **2.840** | **0** |
+| Links quebrados | 20 | **16 — nenhum nosso** |
+| Nomes ambíguos | 2 | **1** |
+
+**Três defeitos reais foram encontrados e corrigidos** — nenhum deles aparecia em número antes:
+
+1. 🔴 **`gera-conexoes.py` escrevia um `../` a mais** nos links de área de
+   `institucional/jornada/pessoas.md`. **2.274 links em 145 arquivos apontavam para fora da pasta
+   do cliente.** Era a membrana Instituição↔Área — **a ligação mais importante da hierarquia, e
+   ela estava desligada em todos os 48 clientes.**
+2. 🔴 **`00_Institucional` entrava na lista de áreas.** Gerava **824 links** para um
+   `contexto-area.md` que nunca existiu ali. `00_Institucional` é o **nível 1** da hierarquia,
+   não uma área.
+3. 🔴 **Três entidades definidas não tinham camada de ligação e ficavam órfãs:** as **16 Soluções**
+   do Portfólio, os **11 `integracao.md`** e as **5 demandas da Casa**.
+
+**Os 41 órfãos que restam são legítimos e nomeados:** 20 do `_template_cliente` e outros templates
+(molde não é nó), 10 do `brainwave/` e 6 do `_boilerplate/` (frentes paralelas, com governança
+própria), 2 staging `SUPERSEDED`, e `CLAUDE.md`/`README.md`/`_indice/README.md`.
+**Nenhum órfão é registro de cliente.**
+
+**Os 16 links quebrados que restam não são nossos:** 9 estão no
+`_recebido-2026-08-18-context-pack-brainhub-2.0.md`, **documento externo do João que não se edita**,
+apontando para caminhos do vault dele; 1 é a proposta no `_inbox-hermes` apontando para o mesmo
+vault; e **6 são falso-positivo** — a palavra `[[wikilinks]]` escrita dentro de texto que explica
+o próprio sistema de links.
+
+### 5.2 · 🟢 Abrir no Obsidian — configurado em 23 set 2026
+
+**Antes de hoje o repositório não tinha `.obsidian/`**: abria como cofre cru, sem cor, com órfão
+e link não-resolvido poluindo a tela. Agora tem, e **está versionado** — quem clonar vê o mesmo.
+
+**15 grupos de cor, um por entidade** (`.obsidian/graph.json`): Instituição · Área · Pessoa ·
+Demanda · RFI · Solução · Ferramenta · Integração · Jornada · Autoridade · Protocolo · Registro ·
+Diário do cliente · Governança.
+
+🔴 **A trava que faz isso funcionar:** `gera-conexoes.py` escreve **link relativo de markdown**,
+nunca wikilink por nome. **Há 694 arquivos chamados `contexto-area.md` e 49 chamados `pessoas.md`**
+— com wikilink por nome o Obsidian erraria o alvo em massa. Por isso a ambiguidade caiu de
+2.840 referências para **1**.
 
 ## 6 · O que está sendo feito agora
 
@@ -145,16 +197,57 @@ Instituição (Casa uMode OU Cliente)
 áreas, demandas, RFIs, tudo... As reuniões, contextos gerais, e-mails, tudo isso vai estar de
 alguma forma ligada a esses nós maiores."*
 
-| Entidade | É arquivo? | Quantos |
-|---|:-:|---:|
-| Instituição · Área · Demanda · RFI · Solução | ✅ | 50 · 694 · 1.021 · 102 · 16 |
-| Pessoa | ✅ | **137** |
-| **Ferramenta** | ✅ **novo em 22 set** | **16** |
-| Reunião / ata · E-mail · Agente | 🔴 **não** | 1.161 · 92 · 4 conhecidos |
+| Entidade | É arquivo? | Quantos | Ligada no grafo? |
+|---|:-:|---:|:-:|
+| Instituição | ✅ | 50 | ✅ |
+| Área | ✅ | 694 | 🟢 **religada em 23 set** |
+| Demanda | ✅ | 999 | ✅ |
+| RFI | ✅ | 86 | ✅ |
+| Pessoa | ✅ | **242** | ✅ |
+| Ferramenta | ✅ | **27** | ✅ |
+| **Solução do Portfólio** | ✅ | **16** | 🟢 **religada em 23 set** |
+| **Integração** | ✅ | **11** | 🟢 **religada em 23 set** |
+| Reunião / ata · E-mail · Agente | 🔴 **não** | 1.161 · 92 · 4 conhecidos | 🔴 **não existem como nó** |
+
+> 🔺 **Corrigido em 23 set 2026.** Esta tabela trazia Pessoa 137 e Ferramenta 16 — números de uma
+> sessão atrás — e Demanda 1.021 / RFI 102, que contavam os `_indice.md` gerados como se fossem
+> registro. **Agora bate com o disco.**
 
 **Páginas de cliente abertas: 16 de 49** — CAEDU · Osklen · NK STORE · Reserva · VIX ·
 Lofty Style · Puket · NV · Oficina Reserva · Cambos · Luiza Barcelos · Moda Objetiva · Baw ·
 Loungerie · Lenny Niemeyer · Recco.
+
+### 🚨 BLOQUEIO ATIVO — o Notion desta sessão não é o da uMode
+
+**Descoberto em 23 set 2026.** `get-teams` devolve **um único teamspace: `Vinícius Risoléo`**
+(conta pessoal). Busca por `Caedu` devolve **zero**.
+
+⚠ **Não afirmo que o conteúdo sumiu** — as sessões de 22 e 23 set leram esse workspace sem
+problema. **Afirmo que não o alcanço por este conector.** É conta autenticada diferente.
+
+🔴 **Ação do Vinicius: reconectar o Notion na conta da uMode.** Enquanto isso não acontecer,
+**os passos 1, 2 e 4 da § 7 estão parados** — todos dependem do Notion.
+**Item 498 do `_pendencias-gerais.md`.**
+
+🟢 **O que NÃO depende do Notion e segue disponível:** os arquivos em `Downloads` (três da CAEDU
+ainda fechados, item 499), o Google Drive, e todo o trabalho de corpus.
+
+### 🚨 CAEDU — a dor histórica dela mudou de natureza em 23 set 2026
+
+**Fonte nova, fora do Notion:** `Extração Caedu - 28ago26.json` em `Downloads` — **48.551 linhas,
+42.488 produtos, 17 campos**, datada de 28/08/2026.
+
+🔴 **`Griffe › Linha › Grupo › Subgrupo` NÃO aninha como árvore nos dados da própria CAEDU.**
+23 de 33 `Linha` têm mais de uma `Griffe`; 75 de 231 `Subgrupo` têm mais de um `Grupo`; `BOTTOM`
+aparece sob **24 `Linha`**. **1.015 combinações reais num cartesiano de 8.828.820 — 0,01%.**
+`[P]` **Comporta-se como facetas, não como cascata.**
+
+🔴 **E `Griffe`/`Linha` são campos do LINX, enquanto `Grupo`/`Subgrupo` são do uFlow** — a
+hierarquia pedida **atravessa dois sistemas**. **A dor de taxonomia é, no mecanismo, dor de
+integração.**
+
+⚠ **Isso põe em dúvida o precedente da Loungerie** como caso pronto para a CAEDU.
+**Registro completo:** [`_varredura-2026-09-23e`](uMode/00_Institucional/_contexto/_varredura-2026-09-23e-a-dor-da-caedu-nao-e-arvore.md) · **itens 492–500.**
 
 ### 🔴 O que mudou em 23 set 2026, e o próximo agente precisa saber antes de tudo
 
@@ -193,6 +286,16 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
 > leia a § 3.** É o diário do que já foi varrido. **Repetir busca é o desperdício que o
 > Vinicius nomeou explicitamente.**
 
+> 🚨 **Os passos 1, 2 e 4 estão BLOQUEADOS** enquanto o Notion não for reconectado na conta da
+> uMode (§ 6). **O que dá para fazer agora sem ele:** os 3 arquivos de CAEDU em `Downloads`
+> (item 499), o `integracao.md` que falta à CAEDU (item 500), e as decisões 492–497.
+
+0. 🚨 **CAEDU — prioridade declarada pelo Vinicius em 23 set 2026:** *"preciso finalizar o plano
+   de ter TUDO da CAEDU contextualizado para o teste do brain da empresa na próxima semana."*
+   **Distância medida hoje:** 61 MDs · 26 demandas · 4 RFIs · 10 fichas de pessoa · **~158
+   campos `[a preencher]`** (5 em `institucional`, 4 em `jornada`, 15 em `pessoas`, ~134 nos 14
+   `contexto-area.md`) · **`integracao.md` não existe.**
+
 1. 🔵 **`uFlow / Documentação de Setup - PLM / CLIENTES` — oito clientes nunca tocados:**
    RESERVA · BAW · OFICINA · VIX · StudioZ · PUKET · CAEDU · NK Store. **É o passo imediato**,
    e inclui o segundo endereço da NK STORE e da VIX. **A NV já foi lida** — mas **12 das 13
@@ -206,8 +309,12 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
    integração?` e `Logs e integração` (dor de CAEDU, VIX, Moda Objetiva, Luiza Barcelos) ·
    `Automações` (os IDs `#1136`, `#1175`, `#989` do playbook da Cambos) · `Traduções` (onde o
    apelido interno é operado) · `Ficha de Produto` e suas 7 sub-páginas.
-5. 🔴 **Perguntar ao Vinicius:** são **63 perguntas na fila**, em
+5. 🔴 **Distribuir as perguntas.** São **46 na fila — 43 abertas**, em
    [`_perguntas-para-o-vinicius.md`](uMode/00_Institucional/_contexto/_perguntas-para-o-vinicius.md).
+   🔺 **Corrigido em 23 set:** esta linha dizia 63.
+   🔴 **As 43 estão com destinatário `⚠ a distribuir`** — e isso é de propósito. O Vinicius disse
+   em 23 set 2026 que *provavelmente não será ele quem responde*; **assumir que são dele seria
+   inventar um dado.** Atribuir dono é decisão, e não é minha.
    **As mais caras:** a segmentação de conta · se `excluir variante` é mesmo só permissão ·
    se a Cambos é fornecedora de marcas e não marca · qual campo manda, `Status` ou `Etapa`.
 6. 🔵 **Fechar as 3 entidades que faltam: reunião, e-mail e agente.** Enquanto forem prosa, o
@@ -237,7 +344,9 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
 ## 8 · Decisões esperando o Vinicius
 
 🔴 **O dono deste assunto é o [`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md)
-— **349 itens datados.** **Não crie tabela de pendência aqui nem em lugar nenhum: escreva lá.**
+— **487 itens datados** (numerados até 491, com saltos). 🔺 **Corrigido em 23 set 2026:** esta
+linha dizia 349 e o `START.md` dizia 248. **Três números para o mesmo assunto** — exatamente o
+defeito que o manifesto proíbe. **A contagem é feita no arquivo, não repetida de memória.** **Não crie tabela de pendência aqui nem em lugar nenhum: escreva lá.**
 
 ### 8.0 · 🔴 O que só ele responde tem UM caminho, e só um
 
@@ -252,6 +361,28 @@ que perguntar e vou dar um jeito de responder ou por áudio ou numa transcriçã
 
 🔴 **A regra que decide:** pergunta é só o que **nenhuma fonte** responde. Dúvida que uma fonte
 responde **não é pergunta — é varredura que falta fazer.**
+
+### 8.0.1 · 🟢 O ciclo da pergunta, ampliado em 23 set 2026
+
+**Pedido do Vinicius, textual:** *"as perguntas estão sendo acumuladas para coisas que não se têm
+respostas... provavelmente não serei eu que responderei, mas temos um local organizado para depois
+distribuir as perguntas e até considerar o fato de algumas delas nem terem que ser respondidas.
+Então poderão ser aprovadas, recusadas ou alteradas com justificativas pra complementar o contexto."*
+
+| Estado | O que significa | Justificativa obrigatória? |
+|---|---|:-:|
+| 🔴 `aberta` | ninguém decidiu ainda | — |
+| 🟢 `aprovada` | a resposta virou contexto e já vale | ✅ o que passa a valer |
+| ⚪ `recusada` | **decidiu-se que não precisa de resposta** | ✅ **por que não precisa** |
+| 🟡 `alterada` | a pergunta mudou de forma ou escopo | ✅ como mudou e por quê |
+| 🔵 `respondida` | respondida por fonte ou por pessoa | ✅ a resposta, com procedência |
+
+🔴 **`recusada` é resposta, não desistência.** *"Isso não precisa ser respondido porque X"* é
+conhecimento tão útil quanto a resposta — **e impede que a mesma dúvida volte na varredura
+seguinte.** Por isso a justificativa entra no corpus nos quatro estados de saída.
+
+**Cada pergunta carrega `quem responde`.** Processo completo em
+[`protocolo-perguntas-ao-vinicius.md`](uMode/00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md) § 3.1 e § 4.1.
 
 ⚠ **Quando levar a lista até ele não é decisão minha.** Ele disse *"pensaremos nisso quando
 chegar o momento"*. **Minha obrigação é manter a fila pronta e avisar se ela travar a varredura.**

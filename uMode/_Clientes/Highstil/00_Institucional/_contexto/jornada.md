@@ -44,7 +44,7 @@
   conta em `Churn` — discute teste de integração, credenciais de acesso, tabelas de medidas e
   **pede o cronograma do Inverno 27**. **57 reuniões no total; 1 aberta.** `[C]`
 - ⚠ **O semáforo desta conta usa amarelo** (`Pendências 🟡` em 17/04/2026) — o que **prova que o
-  instrumento funciona** e torna os quatro verdes da última ata da Recco uma escolha. Ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
+  instrumento funciona** e torna os quatro verdes da última ata da Recco uma escolha. Ver [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md).
 - 🔴 **Uma reunião registra DOIS clientes:** *"uFlow - **Highstil/Plié** - Reunião 16/04/2025"*.
   **Quebra o isolamento de cliente na fonte** — decisão pendente sobre como registrar.
 - 🔴 **Coorte de fev/2025** — com Lenny Niemeyer e Recco.
@@ -98,25 +98,25 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 🔴 **O que ainda não se sabe deste cliente, e onde já se procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)
 
+
 **Registros:** **14 demandas** — [índice](../_demandas/_indice.md) · **3 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
-**As 15 áreas deste cliente:**
+**As 14 áreas deste cliente:**
 
-- [Institucional](../../../00_Institucional/_contexto/contexto-area.md)
-- [Planejamento](../../../01_Planejamento/_contexto/contexto-area.md)
-- [Estilo Criacao](../../../02_Estilo-Criacao/_contexto/contexto-area.md)
-- [Desenvolvimento de Colecao](../../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
-- [Qualidade](../../../04_Qualidade/_contexto/contexto-area.md)
-- [PCP](../../../05_PCP/_contexto/contexto-area.md)
-- [Compras Supply Sourcing](../../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
-- [Logistica CD](../../../07_Logistica-CD/_contexto/contexto-area.md)
-- [Ecommerce Cadastro](../../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
-- [Comercial Vendas](../../../09_Comercial-Vendas/_contexto/contexto-area.md)
-- [Marketing](../../../10_Marketing/_contexto/contexto-area.md)
-- [Financeiro](../../../11_Financeiro/_contexto/contexto-area.md)
-- [Design](../../../12_Design/_contexto/contexto-area.md)
-- [Modelagem](../../../13_Modelagem/_contexto/contexto-area.md)
-- [Engenharia](../../../14_Engenharia/_contexto/contexto-area.md)
+- [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
+- [Estilo Criacao](../../02_Estilo-Criacao/_contexto/contexto-area.md)
+- [Desenvolvimento de Colecao](../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
+- [Qualidade](../../04_Qualidade/_contexto/contexto-area.md)
+- [PCP](../../05_PCP/_contexto/contexto-area.md)
+- [Compras Supply Sourcing](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
+- [Logistica CD](../../07_Logistica-CD/_contexto/contexto-area.md)
+- [Ecommerce Cadastro](../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
+- [Comercial Vendas](../../09_Comercial-Vendas/_contexto/contexto-area.md)
+- [Marketing](../../10_Marketing/_contexto/contexto-area.md)
+- [Financeiro](../../11_Financeiro/_contexto/contexto-area.md)
+- [Design](../../12_Design/_contexto/contexto-area.md)
+- [Modelagem](../../13_Modelagem/_contexto/contexto-area.md)
+- [Engenharia](../../14_Engenharia/_contexto/contexto-area.md)
 
 **Autoridades da Casa que governam este arquivo:**
 [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md) · [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) · [`protocolo-varredura-cliente.md`](../../../../00_Institucional/_protocolos/protocolo-varredura-cliente.md)

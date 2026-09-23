@@ -3083,3 +3083,48 @@ caminho).
   abertas dentro de cada cliente, que era onde eu repetia busca.
   **Grafo ao fim: 2.420 arquivos, 97,1% conectados, 74 órfãos. 243 fichas de pessoa,
   27 de ferramenta, 63 perguntas na fila.** Itens 472–491.
+
+- **23 set 2026** — Sessão 43: **o grafo estava mentindo, e o defeito era estrutural.**
+  Sessão aberta com o Vinicius pedindo três coisas: corrigir os números para os reais, garantir
+  que a indexação produz ligação saudável, e responder se abrir a pasta no Obsidian já mostra o
+  cérebro com cor por entidade.
+  🔺 **Primeiro, uma correção minha:** eu havia relatado que os números do grafo *"não fechavam
+  aritmeticamente"* (2.351 + 74 ≠ 2.420). **Estava errado** — são métricas diferentes: *com
+  alguma ligação* conta entrada **ou** saída, *órfão* conta só quem ninguém cita. Não são
+  complementares. **Registrado no `START.md` § 4 para não se repetir.**
+  🔴 **Mas a investigação achou defeito real e grande, que nenhum número mostrava.** O contador
+  `nomes ambiguos` marcava **2.840 referências** a `contexto-area.md`. Não era aviso teórico: o
+  `resolve()` só cai no desempate por nome **quando o caminho relativo falha**. Ou seja, eram
+  **2.840 links quebrados disfarçados de aviso**. Causa: `gera-conexoes.py` fazia
+  `lista_areas.replace("../../", "../../../")` nos três MDs de `00_Institucional/_contexto/` —
+  **um `../` a mais**, apontando para fora da pasta do cliente. **2.274 links em 145 arquivos.**
+  🔴 **Era a membrana Instituição↔Área — a ligação mais importante da hierarquia — e estava
+  desligada nos 48 clientes desde que a camada foi criada.**
+  🔴 **Segundo defeito:** `areas_de()` incluía `00_Institucional` como se fosse área, gerando
+  **824 links** para um `contexto-area.md` que nunca existiu ali. `00_Institucional` é o
+  **nível 1** da hierarquia, não área.
+  🔴 **Terceiro:** três entidades já definidas não tinham camada de ligação e ficavam órfãs —
+  as **16 Soluções** do Portfólio, os **11 `integracao.md`** e as **5 demandas da Casa**.
+  **Todas as três corrigidas no gerador**, não à mão.
+  🟢 **Resultado medido:** ligação 97,1% → **98,4%** · órfãos **74 → 41** · links de área que não
+  resolviam **2.840 → 0** · nomes ambíguos **2 → 1** · quebrados **20 → 16, e nenhum é nosso**
+  (9 no documento externo do João, 1 na proposta ao vault, 6 falso-positivo da palavra
+  `[[wikilinks]]` escrita em prosa). **Os 41 órfãos restantes são legítimos e nomeados:**
+  templates, `brainwave/`, `_boilerplate/`, 2 staging `SUPERSEDED` e 3 de governança.
+  **Nenhum órfão é registro de cliente.**
+  🟢 **`.obsidian/` criado e versionado** — 15 grupos de cor, um por entidade. Antes disso o
+  repositório abria como cofre cru. **A trava que faz funcionar já existia e agora está
+  explicada:** o gerador escreve link relativo, nunca wikilink por nome — há 694 arquivos
+  `contexto-area.md` e 49 `pessoas.md`, e wikilink por nome erraria em massa.
+  🟢 **Ciclo da pergunta ampliado, a pedido do Vinicius:** a pergunta ganhou **destinatário**
+  (`quem responde`) e o estado virou vocabulário fechado de cinco — `aberta`, `aprovada`,
+  `recusada`, `alterada`, `respondida` — **com justificativa obrigatória em toda saída de
+  `aberta`**. 🔴 **`recusada` é resposta, não desistência.** O padrão de destinatário é
+  **`⚠ a distribuir`**, não `Vinicius`: ele disse que provavelmente não será ele quem responde, e
+  assumir o contrário para as 43 seria inventar dado.
+  🔺 **Três contagens divergentes corrigidas:** pendências diziam **487** (§ 5 do `AGORA.md`),
+  **349** (§ 8) e **248** (`START.md`). **O arquivo tem 487**, numerados até 491. A § 6 do
+  `AGORA.md` estava congelada uma sessão atrás (Pessoa 137, Ferramenta 16) e contava os
+  `_indice.md` gerados como se fossem registro (Demanda 1.021, RFI 102). **Números reais:**
+  2.403 MDs · 999 demandas · 86 RFIs · 242 fichas de pessoa · 27 de ferramenta · 16 Soluções ·
+  11 integrações · 46 perguntas (43 abertas). **A fila de perguntas dizia 63.**

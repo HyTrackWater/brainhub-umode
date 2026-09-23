@@ -64,3 +64,31 @@ CEO (João Risoléo). Decisão de Vinicius Risoléo em 04 ago 2026: **no BrainHu
 - "Arquitetura uMode — Especificação por Módulo (V1 — sessão 24/04/2026)" (Notion `34db1d38e768814b8001d7cb6cacf4e5`), lida por inteiro em 04 ago 2026. Premissas nomeadas: Product Score (labels A–E, calibrável por marca), sazonalidade aplicada depois do score, Potencial Inexplorado (acertou · estoque zerado · perdeu venda · produziu demais · sem referência).
 - ⚠ Decisão de escopo registrada na sessão: "a queima direcionada a clientes específicos é uma feature comercial nova que implica conexão com base de clientes — está fora do escopo desta sessão".
 - ⚠ O **modo in-season está na lista "Pendências honestas — não vender hipótese como decisão"** da skill `umode-arquitetura-tese`.
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Solução:** `01_PlanejAI` — uma das 16 do Portfólio.
+
+**Protocolo que governa esta ficha:** [`protocolo-gestao-produto.md`](../../../00_Institucional/_protocolos/protocolo-gestao-produto.md)
+
+**Institucional da Casa:** [institucional.md](../../../00_Institucional/_contexto/institucional.md)
+
+**As outras 15 Soluções do Portfólio:**
+
+- [CriAI](../../02_CriAI/_contexto/produto.md)
+- [DesenvolvAI](../../03_DesenvolvAI/_contexto/produto.md)
+- [FornecAI](../../04_FornecAI/_contexto/produto.md)
+- [EnriqueceAI](../../05_EnriqueceAI/_contexto/produto.md)
+- [GerenciAI](../../06_GerenciAI/_contexto/produto.md)
+- [AlocAI](../../07_AlocAI/_contexto/produto.md)
+- [VendeAI](../../08_VendeAI/_contexto/produto.md)
+- [CliprocAI](../../09_CliprocAI/_contexto/produto.md)
+- [CadastrAI](../../10_CadastrAI/_contexto/produto.md)
+- [Taxonomia](../../11_Taxonomia/_contexto/produto.md)
+- [CX Hub](../../12_CX-Hub/_contexto/produto.md)
+- [ONB HUB](../../13_ONB-HUB/_contexto/produto.md)
+- [IntHub](../../14_IntHub/_contexto/produto.md)
+- [Gest Hub](../../15_Gest-Hub/_contexto/produto.md)
+- [Sales Hub](../../16_Sales-Hub/_contexto/produto.md)

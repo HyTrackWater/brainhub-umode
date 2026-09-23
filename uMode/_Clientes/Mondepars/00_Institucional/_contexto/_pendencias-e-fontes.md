@@ -50,9 +50,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | `Mondepars` × `Mondpars` — **qual grafia está certa?** | `T2` | 🟢 **Respondida em 22 set 2026:** *o nome certo da empresa é Mondepars* — pasta renomeada; ⚠ **o CRM segue com a grafia errada** | respondida em 22 set 2026, por mensagem |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | `Mondepars` × `Mondpars` — **qual grafia está certa?** | `T2` | 🟢 **Respondida em 22 set 2026:** *o nome certo da empresa é Mondepars* — pasta renomeada; ⚠ **o CRM segue com a grafia errada** | **⚠ a distribuir** | respondida em 22 set 2026, por mensagem |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

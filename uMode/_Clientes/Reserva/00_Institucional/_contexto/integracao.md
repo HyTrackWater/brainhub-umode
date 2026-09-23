@@ -96,3 +96,13 @@ Sem tabela de execuções de integração (diferente de NV e VIX). O controle é
 - **Conteúdo técnico extraído em 03 ago 2026** da documentação real do repositório clonado
   (`docs/documentacao-geral-*.md`). Resumo com ponteiro, conforme o protocolo — a
   especificação completa continua no repositório, não foi copiada para cá.
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Cliente:** `Reserva` — [institucional.md](institucional.md) · [jornada.md](jornada.md) · [pessoas.md](pessoas.md)
+
+**Protocolo que governa este arquivo:** [`protocolo-gestao-integracao.md`](../../../../00_Institucional/_protocolos/protocolo-gestao-integracao.md)
+
+**Inventário dos sistemas:** [`_inventario-repositorios.md`](../../../../00_Institucional/_contexto/_inventario-repositorios.md)

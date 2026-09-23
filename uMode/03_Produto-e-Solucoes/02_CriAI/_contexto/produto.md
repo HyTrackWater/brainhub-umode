@@ -65,3 +65,31 @@ CEO (João Risoléo). Decisão de Vinicius Risoléo em 04 ago 2026: **no BrainHu
 - "Plano Técnico — Hub de Agentes" (Notion `340b1d38e768811fab17ca211fda8ef3`): 3 personas hardcoded em `useAgents.ts` a extrair para banco; "Este projeto CriAI não será alterado até que o Hub esteja operacional".
 - "Arquitetura uMode — Especificação por Módulo (V1 — 24/04/2026)" (Notion `34db1d38e768814b8001d7cb6cacf4e5`), lida em 04 ago 2026. Decisão registrada: "Auditoria em tempo real é feature do CriAI, não só do CadastrAI". A extração de atributos das imagens de pesquisa "é cobrada — usuário precisa selecionar (não roda em massa automaticamente)". Loop com DesenvolvAI: estilista com baixa taxa de V1 "pode ter briefing endurecido".
 - ⚠ **A funcionalidade de try-on aparece aqui, no CriAI** (agente `tryon-stylist`), e não no VendeAI. Ver a nota correspondente na ficha do VendeAI.
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Solução:** `02_CriAI` — uma das 16 do Portfólio.
+
+**Protocolo que governa esta ficha:** [`protocolo-gestao-produto.md`](../../../00_Institucional/_protocolos/protocolo-gestao-produto.md)
+
+**Institucional da Casa:** [institucional.md](../../../00_Institucional/_contexto/institucional.md)
+
+**As outras 15 Soluções do Portfólio:**
+
+- [PlanejAI](../../01_PlanejAI/_contexto/produto.md)
+- [DesenvolvAI](../../03_DesenvolvAI/_contexto/produto.md)
+- [FornecAI](../../04_FornecAI/_contexto/produto.md)
+- [EnriqueceAI](../../05_EnriqueceAI/_contexto/produto.md)
+- [GerenciAI](../../06_GerenciAI/_contexto/produto.md)
+- [AlocAI](../../07_AlocAI/_contexto/produto.md)
+- [VendeAI](../../08_VendeAI/_contexto/produto.md)
+- [CliprocAI](../../09_CliprocAI/_contexto/produto.md)
+- [CadastrAI](../../10_CadastrAI/_contexto/produto.md)
+- [Taxonomia](../../11_Taxonomia/_contexto/produto.md)
+- [CX Hub](../../12_CX-Hub/_contexto/produto.md)
+- [ONB HUB](../../13_ONB-HUB/_contexto/produto.md)
+- [IntHub](../../14_IntHub/_contexto/produto.md)
+- [Gest Hub](../../15_Gest-Hub/_contexto/produto.md)
+- [Sales Hub](../../16_Sales-Hub/_contexto/produto.md)

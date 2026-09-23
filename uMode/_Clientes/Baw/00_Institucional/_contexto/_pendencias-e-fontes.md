@@ -56,9 +56,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | A Baw tem o módulo `Integração` contratado **e** o ERP diz `Sem Integração`. **Qual dos dois está errado?** | `T2` | quinta evidência independente de que a conta está mal classificada | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | A Baw tem o módulo `Integração` contratado **e** o ERP diz `Sem Integração`. **Qual dos dois está errado?** | `T2` | quinta evidência independente de que a conta está mal classificada | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

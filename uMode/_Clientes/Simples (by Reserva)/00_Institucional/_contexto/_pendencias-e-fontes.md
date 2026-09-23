@@ -52,9 +52,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | A pasta `Simples (by Reserva)` não tem linha na base. **É marca da Reserva ou conta própria?** | `T2` | 🟢 **Respondida em 22 set 2026:** *é marca de dentro da Reserva; a nível de contratação é RESERVA mesmo* — ⚠ resta saber se tem usuários e permissões próprios | respondida em 22 set 2026, por mensagem |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | A pasta `Simples (by Reserva)` não tem linha na base. **É marca da Reserva ou conta própria?** | `T2` | 🟢 **Respondida em 22 set 2026:** *é marca de dentro da Reserva; a nível de contratação é RESERVA mesmo* — ⚠ resta saber se tem usuários e permissões próprios | **⚠ a distribuir** | respondida em 22 set 2026, por mensagem |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

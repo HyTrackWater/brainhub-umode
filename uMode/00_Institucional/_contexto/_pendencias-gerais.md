@@ -3091,3 +3091,45 @@
      RESERVA · BAW · OFICINA · VIX · **StudioZ** · PUKET · CAEDU ·
      NK Store. ⚠ **Só a NV foi tocada.** E o título diz `(Em desenvolvimento)`,
      **última edição em 16/07/2025** — **mais de um ano.**
+
+## CAEDU — a hierarquia nos dados reais, e o Notion fora de alcance (23 set 2026)
+
+492. 🔴 **A hierarquia `Griffe › Linha › Grupo › Subgrupo` NÃO aninha nos dados da CAEDU.**
+     Medido na `Extração Caedu - 28ago26.json` (48.551 linhas, 42.488 produtos): **23 de 33
+     `Linha` têm mais de uma `Griffe`**, **75 de 231 `Subgrupo` têm mais de um `Grupo`**, e
+     `BOTTOM` é um `Grupo` que aparece sob **24 `Linha`**. Existem **1.015 combinações reais
+     num cartesiano de 8.828.820 — 0,01%**.
+     `[P]` **Comporta-se como classificação por facetas, não como árvore.** 🔴 **Decisão
+     necessária antes de desenhar a tela ou o modelo:** **tratamos como 4 eixos independentes
+     ou insistimos na cascata?** Cascata contradiz o dado da própria conta.
+     ⚠ **Ressalva honesta:** a extração é achatada; ausência de aninhamento nela **não prova**
+     ausência de estrutura na origem. Registro em `_varredura-2026-09-23e`.
+493. 🔴 **`Griffe` e `Linha` são campos do LINX; `Grupo` e `Subgrupo` são do uFlow.**
+     A hierarquia pedida **atravessa dois sistemas** — dois níveis vêm do ERP. **Isso converte a
+     dor de taxonomia em dor de integração**, e dá mecanismo ao que estava como queixa.
+494. ⚠ **A hierarquia de 4 níveis da Loungerie pode não servir de precedente para a CAEDU.**
+     O corpus registra o desenho da Loungerie como caso pronto. **Se os dados da CAEDU não
+     aninham, ou o modelo da Loungerie é outro, ou ele é intenção e não implementação.**
+     🔴 **Não abri a página da Loungerie nesta sessão — não afirmo qual dos dois.**
+495. 🔴 **`Coleção` tem duplicata por acentuação na base da CAEDU.** `VERÃO 26/27` (4.971) e
+     `VERAO 26/27` (1.690); `VERÃO 25/26` (4.189) e `VERAO 25/26` (2.241). **Duas coleções na
+     base para uma no mundo**, e `Coleção` é campo do uFlow. **Toda contagem por coleção erra.**
+     **Decisão:** normalizamos, ou o cliente normaliza?
+496. ⚠ **Lixo de cadastro em `Griffe Linx` e `Linha (Linx)`.** `O`, `F`, `M` com 1 registro cada;
+     `LINGERIE` (17) convivendo com `INTIMA E PRAIA` (5.293); `66` e `63` como `Linha`;
+     `INFANTIL` (27) ao lado de `INFANTIL NAS` e `INFANTIL NOS`. **Vem do ERP — saneamento não
+     é nosso, mas o relatório que a uMode entregar carrega o erro.**
+497. ⚠ **47,8% das linhas não têm `SKU` e 16.717 não têm status de variante.**
+     🔴 **Não sei se é produto sem variante cadastrada ou variante não exportada.** São leituras
+     diferentes e a extração não distingue. **Pergunta para quem operou a extração.**
+498. 🔴 **O conector de Notion desta sessão não alcança o workspace da uMode.** `get-teams`
+     devolve só o teamspace `Vinícius Risoléo` (conta pessoal) e busca por `Caedu` devolve zero.
+     ⚠ **Não afirmo que o conteúdo sumiu** — as sessões de 22 e 23 set leram normalmente.
+     **Afirmo que não alcanço por este conector.** 🔴 **Ação do Vinicius: reconectar o Notion na
+     conta da uMode.** **Trava:** `Setup - PLM / CLIENTES / CAEDU`, as 54 sub-páginas fechadas
+     da CAEDU e o `Mapeamento da Conta - Caedu`.
+499. ⚠ **Três arquivos de CAEDU em `Downloads` ainda não abertos:**
+     `Caedu - Query da API.xlsx` (3,5 MB), `caedu_mega_line_reports-2026-02-06` (30 MB) e
+     `Caedu 1.jpg`. **São fonte local, fora do Notion — não dependem do conector.**
+500. 🔴 **A CAEDU não tem `integracao.md`**, sendo que **integração é a dor número 1 dela** e
+     11 outros clientes têm o arquivo. **Lacuna de corpus, não de fonte.**

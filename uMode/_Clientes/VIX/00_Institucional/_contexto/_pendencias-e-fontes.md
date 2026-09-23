@@ -57,10 +57,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | A VIX tem **5 perfis só de Estilo** (Biquini, Cover ups, PA, Roupas, Admin). **Isso vira subárea canônica no BrainHub, ou continua sendo só perfil da plataforma?** | `T2` | define se perfil e área são a mesma entidade ou duas | aberta |
-| 2 | A matriz de ~60 funções × 17 perfis foi editada pela última vez em **09/07/2025** e é mantida à mão. **Ainda reflete a plataforma?** | `T2` | se não reflete, o corpus estaria copiando ficção | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | A VIX tem **5 perfis só de Estilo** (Biquini, Cover ups, PA, Roupas, Admin). **Isso vira subárea canônica no BrainHub, ou continua sendo só perfil da plataforma?** | `T2` | define se perfil e área são a mesma entidade ou duas | **⚠ a distribuir** | aberta |
+| 2 | A matriz de ~60 funções × 17 perfis foi editada pela última vez em **09/07/2025** e é mantida à mão. **Ainda reflete a plataforma?** | `T2` | se não reflete, o corpus estaria copiando ficção | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

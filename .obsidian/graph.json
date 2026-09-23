@@ -1,0 +1,128 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:AGORA.md OR file:START.md OR file:CONTEXT.md OR file:STATE.md OR file:CLAUDE.md OR file:README.md",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:_protocolos",
+      "color": {
+        "a": 1,
+        "rgb": 11566312
+      }
+    },
+    {
+      "query": "path:_varredura- OR path:_levantamento- OR path:_recebido-",
+      "color": {
+        "a": 1,
+        "rgb": 9079434
+      }
+    },
+    {
+      "query": "file:_pendencias-e-fontes.md",
+      "color": {
+        "a": 1,
+        "rgb": 14248624
+      }
+    },
+    {
+      "query": "path:uMode/00_Institucional/_contexto/_",
+      "color": {
+        "a": 1,
+        "rgb": 15253852
+      }
+    },
+    {
+      "query": "path:_pessoas/",
+      "color": {
+        "a": 1,
+        "rgb": 5032359
+      }
+    },
+    {
+      "query": "path:_ferramentas/",
+      "color": {
+        "a": 1,
+        "rgb": 15232844
+      }
+    },
+    {
+      "query": "path:03_Produto-e-Solucoes",
+      "color": {
+        "a": 1,
+        "rgb": 15223963
+      }
+    },
+    {
+      "query": "path:_demandas/",
+      "color": {
+        "a": 1,
+        "rgb": 5012976
+      }
+    },
+    {
+      "query": "path:_rfis/",
+      "color": {
+        "a": 1,
+        "rgb": 8366325
+      }
+    },
+    {
+      "query": "file:contexto-area.md",
+      "color": {
+        "a": 1,
+        "rgb": 10217548
+      }
+    },
+    {
+      "query": "file:institucional.md",
+      "color": {
+        "a": 1,
+        "rgb": 16109568
+      }
+    },
+    {
+      "query": "file:jornada.md",
+      "color": {
+        "a": 1,
+        "rgb": 13081134
+      }
+    },
+    {
+      "query": "file:pessoas.md",
+      "color": {
+        "a": 1,
+        "rgb": 3122042
+      }
+    },
+    {
+      "query": "file:integracao.md",
+      "color": {
+        "a": 1,
+        "rgb": 49092
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 0.6,
+  "collapse-forces": false,
+  "centerStrength": 0.42,
+  "repelStrength": 12,
+  "linkStrength": 0.55,
+  "linkDistance": 200,
+  "scale": 0.4,
+  "close": false
+}

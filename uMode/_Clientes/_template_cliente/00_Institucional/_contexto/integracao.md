@@ -55,3 +55,13 @@ explicitamente — "existe integração, falta documentação" é diferente de "
 
 ## Fontes
 ### Documentos consultados
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Cliente:** `_template_cliente` — [institucional.md](institucional.md) · [jornada.md](jornada.md) · [pessoas.md](pessoas.md)
+
+**Protocolo que governa este arquivo:** [`protocolo-gestao-integracao.md`](../../../../00_Institucional/_protocolos/protocolo-gestao-integracao.md)
+
+**Inventário dos sistemas:** [`_inventario-repositorios.md`](../../../../00_Institucional/_contexto/_inventario-repositorios.md)

@@ -62,3 +62,31 @@ CEO (João Risoléo). Decisão de Vinicius Risoléo em 04 ago 2026: **no BrainHu
   própria.
 - ⚠ **Contradição de grafia dentro da própria fonte canônica:** o cabeçalho da seção escreve "ForneceAI" e o corpo do mesmo documento escreve "FornecAI" em todas as demais menções. Isso **fecha a pendência de grafia** que estava aberta: a fonte canônica é inconsistente consigo mesma, e o ÍNDICE MESTRE grafa "FornecAI" — a mesma grafia de `CONTEXT.md`.
 - ⚠ Implicação estratégica registrada na sessão: transforma a uMode "de 'SaaS B2B vendido marca por marca' em plataforma com dois lados", exigindo capacidade dedicada a fornecedor — "o time de implantação atual (Fernanda, Victor) atende marca". Decisões técnicas: dois tipos de conta com schemas distintos (`brand_organization`, `supplier_organization`) — "não é um único `organizations` com flag"; tabela N:N `brand_supplier_relations`; catálogo do fornecedor é dual (parte privada sob NDA implícito + parte pública reativa).
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Solução:** `04_FornecAI` — uma das 16 do Portfólio.
+
+**Protocolo que governa esta ficha:** [`protocolo-gestao-produto.md`](../../../00_Institucional/_protocolos/protocolo-gestao-produto.md)
+
+**Institucional da Casa:** [institucional.md](../../../00_Institucional/_contexto/institucional.md)
+
+**As outras 15 Soluções do Portfólio:**
+
+- [PlanejAI](../../01_PlanejAI/_contexto/produto.md)
+- [CriAI](../../02_CriAI/_contexto/produto.md)
+- [DesenvolvAI](../../03_DesenvolvAI/_contexto/produto.md)
+- [EnriqueceAI](../../05_EnriqueceAI/_contexto/produto.md)
+- [GerenciAI](../../06_GerenciAI/_contexto/produto.md)
+- [AlocAI](../../07_AlocAI/_contexto/produto.md)
+- [VendeAI](../../08_VendeAI/_contexto/produto.md)
+- [CliprocAI](../../09_CliprocAI/_contexto/produto.md)
+- [CadastrAI](../../10_CadastrAI/_contexto/produto.md)
+- [Taxonomia](../../11_Taxonomia/_contexto/produto.md)
+- [CX Hub](../../12_CX-Hub/_contexto/produto.md)
+- [ONB HUB](../../13_ONB-HUB/_contexto/produto.md)
+- [IntHub](../../14_IntHub/_contexto/produto.md)
+- [Gest Hub](../../15_Gest-Hub/_contexto/produto.md)
+- [Sales Hub](../../16_Sales-Hub/_contexto/produto.md)

@@ -74,14 +74,14 @@
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | Há **duas `Cristina`** na base de usuários da NK STORE (`cristina@` em Compras, `cristina.amorim@` em Modelagem) e **uma ficha `cristina.md`** vinda da base de demandas, que traz só o primeiro nome. **Qual das duas abriu as demandas?** | `T2` | 🔴 **o gerador PAROU e avisou em vez de sobrescrever** — sem a resposta, ficam duas fichas para uma pessoa ou uma ficha para duas | aberta |
-| 2 | A base tem **`kemelly.fernandes@`** e o corpus tem a ficha **`kemely.md`**, um `l` de diferença. E tem **`silvia.nascimento@`** contra **`silvia-shirlei-dias.md`**. **São as mesmas pessoas?** | `T2` | **não fundi — uma letra não é prova** | aberta |
-| 3 | **5 das 30 linhas têm `Departamento NK = INATIVAR`.** É instrução pendente ou já foi executada? E **qual era a área real dessas pessoas antes de o campo ser sequestrado?** | `T2` | são 5 pessoas sem área no corpus | aberta |
-| 4 | A matriz de permissão **não tem o perfil `NK - PCP`**, mas **7 pessoas o usam**. E os perfis `NK - Time` e `Fornecedor`, que a matriz detalha, **não têm nenhum usuário**. **Qual dos dois documentos está velho?** | `T2` | 7 pessoas sem permissão documentada | aberta |
-| 5 | 🚨 **A credencial de produção do Linx está em texto claro na página do cliente. Foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
-| 6 | `Merchandising`, `Curadoria` e `Oficina` são etapas do processo com dono e não existem na grade de 14 áreas. **Viram área canônica, subárea, ou apelido?** | `T2` | é o mesmo tema do `15_Producao-Interna` | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | Há **duas `Cristina`** na base de usuários da NK STORE (`cristina@` em Compras, `cristina.amorim@` em Modelagem) e **uma ficha `cristina.md`** vinda da base de demandas, que traz só o primeiro nome. **Qual das duas abriu as demandas?** | `T2` | 🔴 **o gerador PAROU e avisou em vez de sobrescrever** — sem a resposta, ficam duas fichas para uma pessoa ou uma ficha para duas | **⚠ a distribuir** | aberta |
+| 2 | A base tem **`kemelly.fernandes@`** e o corpus tem a ficha **`kemely.md`**, um `l` de diferença. E tem **`silvia.nascimento@`** contra **`silvia-shirlei-dias.md`**. **São as mesmas pessoas?** | `T2` | **não fundi — uma letra não é prova** | **⚠ a distribuir** | aberta |
+| 3 | **5 das 30 linhas têm `Departamento NK = INATIVAR`.** É instrução pendente ou já foi executada? E **qual era a área real dessas pessoas antes de o campo ser sequestrado?** | `T2` | são 5 pessoas sem área no corpus | **⚠ a distribuir** | aberta |
+| 4 | A matriz de permissão **não tem o perfil `NK - PCP`**, mas **7 pessoas o usam**. E os perfis `NK - Time` e `Fornecedor`, que a matriz detalha, **não têm nenhum usuário**. **Qual dos dois documentos está velho?** | `T2` | 7 pessoas sem permissão documentada | **⚠ a distribuir** | aberta |
+| 5 | 🚨 **A credencial de produção do Linx está em texto claro na página do cliente. Foi rotacionada?** | `T0` | exposição ativa até prova em contrário | **⚠ a distribuir** | aberta |
+| 6 | `Merchandising`, `Curadoria` e `Oficina` são etapas do processo com dono e não existem na grade de 14 áreas. **Viram área canônica, subárea, ou apelido?** | `T2` | é o mesmo tema do `15_Producao-Interna` | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

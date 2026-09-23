@@ -58,11 +58,11 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | 7 módulos contratados e **nenhuma etapa do processo atribuída**. **Conta grande não passa pelo funil, ou é lacuna de preenchimento?** | `T2` | vale para Oficina Reserva, NV e Baw também | aberta |
-| 2 | O `Review Quinzenal de Projeto` tem envios marcados até 30/06 e nada depois. **A cadência parou ou só parou de ser marcada?** | `T2` | é a única cadência formal de report a cliente que o corpus conhece | aberta |
-| 3 | 5 dos 9 grupos de WhatsApp estão marcados para excluir e continuam existindo. **A limpeza foi feita?** | `T2` | canal fora de sistema é onde a operação vaza | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | 7 módulos contratados e **nenhuma etapa do processo atribuída**. **Conta grande não passa pelo funil, ou é lacuna de preenchimento?** | `T2` | vale para Oficina Reserva, NV e Baw também | **⚠ a distribuir** | aberta |
+| 2 | O `Review Quinzenal de Projeto` tem envios marcados até 30/06 e nada depois. **A cadência parou ou só parou de ser marcada?** | `T2` | é a única cadência formal de report a cliente que o corpus conhece | **⚠ a distribuir** | aberta |
+| 3 | 5 dos 9 grupos de WhatsApp estão marcados para excluir e continuam existindo. **A limpeza foi feita?** | `T2` | canal fora de sistema é onde a operação vaza | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

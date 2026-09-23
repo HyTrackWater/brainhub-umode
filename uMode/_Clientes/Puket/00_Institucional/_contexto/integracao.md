@@ -71,3 +71,13 @@ ativo, o que não é o mesmo que declarar "em produção"]
 ### Documentos consultados
 - Mapeamento repositório → cliente informado pelo desenvolvedor via Vinicius em 03 ago 2026
   (registrado em `protocolo-gestao-integracao.md`)
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Cliente:** `Puket` — [institucional.md](institucional.md) · [jornada.md](jornada.md) · [pessoas.md](pessoas.md)
+
+**Protocolo que governa este arquivo:** [`protocolo-gestao-integracao.md`](../../../../00_Institucional/_protocolos/protocolo-gestao-integracao.md)
+
+**Inventário dos sistemas:** [`_inventario-repositorios.md`](../../../../00_Institucional/_contexto/_inventario-repositorios.md)

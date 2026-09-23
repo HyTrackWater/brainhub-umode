@@ -58,9 +58,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | A página de perfil termina apontando para uma **planilha Google com os e-mails dos usuários**. **Posso abrir?** É o equivalente da base `Usuários` da NK STORE, só que fora do Notion. | `T2` | é a fonte de pessoa deste cliente | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | A página de perfil termina apontando para uma **planilha Google com os e-mails dos usuários**. **Posso abrir?** É o equivalente da base `Usuários` da NK STORE, só que fora do Notion. | `T2` | é a fonte de pessoa deste cliente | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

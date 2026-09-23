@@ -98,7 +98,7 @@ nesta conta** — só há quem agiu e quem foi citado.
 > de quem alterou uma referência, e o atendimento negou nas duas vezes.** É regra de
 > confidencialidade real, aplicada por julgamento individual e registrada em texto livre. Virou o
 > campo `disclosurePolicy` na
-> [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
+> [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
 
 
 #### Solicitantes de demanda — varredura de 22 set 2026
@@ -127,7 +127,7 @@ nesta conta** — só há quem agiu e quem foi citado.
 
 🔴 **`Sourcing` (6) e `Merchan` (5) aparecem como solicitante** — são **áreas**, e `Merchan` é o terceiro caso de `Merchandising` na carteira.
 
-Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
 
 #### 🟢 Duas pessoas com área E permissão explícitas — 22 set 2026 `[C]`
@@ -150,7 +150,7 @@ A página `✍🏻 Trava de Ficha`
 > **Reserva**. **Não é confirmação definitiva** — as duas contas são do mesmo ecossistema —
 > **mas o peso mudou.**
 
-Evidência em [`_varredura-2026-09-22e-permissionamento-e-perfis.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22e-permissionamento-e-perfis.md).
+Evidência em [`_varredura-2026-09-22e-permissionamento-e-perfis.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22e-permissionamento-e-perfis.md).
 
 
 ## Canais de comunicação
@@ -231,25 +231,26 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 🔴 **O que ainda não se sabe deste cliente, e onde já se procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)
 
+**Integração deste cliente:** [integracao.md](integracao.md)
+
 **Registros:** **120 demandas** — [índice](../_demandas/_indice.md) · **2 RFIs** — [índice](../_rfis/_indice.md) · **13 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
-**As 15 áreas deste cliente:**
+**As 14 áreas deste cliente:**
 
-- [Institucional](../../../00_Institucional/_contexto/contexto-area.md)
-- [Planejamento](../../../01_Planejamento/_contexto/contexto-area.md)
-- [Estilo Criacao](../../../02_Estilo-Criacao/_contexto/contexto-area.md)
-- [Desenvolvimento de Colecao](../../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
-- [Qualidade](../../../04_Qualidade/_contexto/contexto-area.md)
-- [PCP](../../../05_PCP/_contexto/contexto-area.md)
-- [Compras Supply Sourcing](../../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
-- [Logistica CD](../../../07_Logistica-CD/_contexto/contexto-area.md)
-- [Ecommerce Cadastro](../../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
-- [Comercial Vendas](../../../09_Comercial-Vendas/_contexto/contexto-area.md)
-- [Marketing](../../../10_Marketing/_contexto/contexto-area.md)
-- [Financeiro](../../../11_Financeiro/_contexto/contexto-area.md)
-- [Design](../../../12_Design/_contexto/contexto-area.md)
-- [Modelagem](../../../13_Modelagem/_contexto/contexto-area.md)
-- [Engenharia](../../../14_Engenharia/_contexto/contexto-area.md)
+- [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
+- [Estilo Criacao](../../02_Estilo-Criacao/_contexto/contexto-area.md)
+- [Desenvolvimento de Colecao](../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
+- [Qualidade](../../04_Qualidade/_contexto/contexto-area.md)
+- [PCP](../../05_PCP/_contexto/contexto-area.md)
+- [Compras Supply Sourcing](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
+- [Logistica CD](../../07_Logistica-CD/_contexto/contexto-area.md)
+- [Ecommerce Cadastro](../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
+- [Comercial Vendas](../../09_Comercial-Vendas/_contexto/contexto-area.md)
+- [Marketing](../../10_Marketing/_contexto/contexto-area.md)
+- [Financeiro](../../11_Financeiro/_contexto/contexto-area.md)
+- [Design](../../12_Design/_contexto/contexto-area.md)
+- [Modelagem](../../13_Modelagem/_contexto/contexto-area.md)
+- [Engenharia](../../14_Engenharia/_contexto/contexto-area.md)
 
 **Autoridades da Casa que governam este arquivo:**
 [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md) · [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) · [`protocolo-varredura-cliente.md`](../../../../00_Institucional/_protocolos/protocolo-varredura-cliente.md)

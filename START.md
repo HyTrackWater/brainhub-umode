@@ -58,6 +58,11 @@ lê**, **se você pode editar** e **se ele pode ser citado como autoridade**.
 🔴 **Nenhum outro arquivo de governança deve existir na raiz.** Se aparecer um sétimo,
 ou ele entra nesta tabela ou ele não devia ter sido criado.
 
+> 🟢 **`.obsidian/` — acrescentado em 23 set 2026.** Não é `.md` e não entra no manifesto, mas
+> **é versionado de propósito**: guarda os **15 grupos de cor por entidade** do grafo
+> (`graph.json`) e força **link relativo de markdown** em vez de wikilink (`app.json`).
+> 🔴 **Abrir a pasta raiz no Obsidian já mostra o cérebro com as entidades separadas por cor.**
+
 ### A · Autoridades — cada uma dona de um assunto
 
 Todas em `uMode/00_Institucional/_contexto/`, salvo indicação.
@@ -75,7 +80,7 @@ Todas em `uMode/00_Institucional/_contexto/`, salvo indicação.
 | [`_inventario-repositorios.md`](uMode/00_Institucional/_contexto/_inventario-repositorios.md) | **os repositórios e sistemas**, e o papel de cada um |
 | [`_proposta-grade-de-areas-revisao.md`](uMode/00_Institucional/_contexto/_proposta-grade-de-areas-revisao.md) | **a grade de áreas canônicas** e sua revisão |
 | [`_backlog-convergencia-brainhub.md`](uMode/00_Institucional/_contexto/_backlog-convergencia-brainhub.md) | **a convergência com o vault do João** |
-| 🔴 [`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md) | 🔴 **TODA decisão que espera o Vinicius** — 248 itens |
+| 🔴 [`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md) | 🔴 **TODA decisão que espera o Vinicius** — **487 itens** (🔺 dizia 248 até 23 set 2026) |
 | `institucional.md` | **a identidade da Casa uMode** |
 | [`uMode/06_Tecnologia/_contexto/_backlog-infra-tecnologia.md`](uMode/06_Tecnologia/_contexto/_backlog-infra-tecnologia.md) | a infraestrutura de tecnologia |
 | [`uMode/04_Dados-e-IA/_contexto/uflow-modelo-de-dados.md`](uMode/04_Dados-e-IA/_contexto/uflow-modelo-de-dados.md) | o modelo de dados do uFlow |
@@ -119,6 +124,7 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 🔴 [`_varredura-2026-09-23b-o-playbook-da-cambos-nasceu-de-transcricao-e-ha-um-terceiro-dominio.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23b-o-playbook-da-cambos-nasceu-de-transcricao-e-ha-um-terceiro-dominio.md) ·
 🚨 [`_varredura-2026-09-23c-o-indice-tecnico-do-uflow-e-uma-pagina-chamada-credenciais.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23c-o-indice-tecnico-do-uflow-e-uma-pagina-chamada-credenciais.md) — **cita uma página `Credenciais` que eu NÃO abri** ·
 🔴 [`_varredura-2026-09-23d-o-acervo-de-cx-esta-arquivado-e-ha-segmentacao-de-conta.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23d-o-acervo-de-cx-esta-arquivado-e-ha-segmentacao-de-conta.md) ·
+🚨 [`_varredura-2026-09-23e-a-dor-da-caedu-nao-e-arvore.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23e-a-dor-da-caedu-nao-e-arvore.md) — **a hierarquia que a CAEDU pede não aninha nos dados dela: 1.015 combinações reais em 8,8 milhões possíveis** ·
 [`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
 [`_levantamento-2026-08-19-repos-e-prd.md`](uMode/00_Institucional/_contexto/_levantamento-2026-08-19-repos-e-prd.md) · [`_levantamento-2026-09-21-praticas-vault-e-caedu.md`](uMode/00_Institucional/_contexto/_levantamento-2026-09-21-praticas-vault-e-caedu.md) ·
 [`_decisoes-convergencia-proposta.md`](uMode/00_Institucional/_contexto/_decisoes-convergencia-proposta.md) ·
@@ -262,7 +268,13 @@ e os **REGISTROS** datados.
 0. **`python scripts/gera-conexoes.py`** — regenera a camada de links do corpus. **Obrigatório quando se cria cliente, área, demanda ou RFI**, senão o registro novo nasce órfão.
 1. **`python scripts/valida-indexacao.py`** — o grafo do corpus: quantos órfãos, quais hubs,
    links quebrados. **Não é portão, é relatório** — mas é o que diz se o BrainHub está virando
-   cérebro ou continua nuvem de pontos soltos.
+   cérebro ou continua nuvem de pontos soltos. **Use `--detalhe` para ver os nomes.**
+   🔴 **Leia os três contadores como coisas diferentes:** *com alguma ligação* é o arquivo que
+   tem link de entrada **ou** de saída; *órfão* é quem **ninguém cita**. **Eles não somam 100%**,
+   e tratá-los como complementares já produziu conclusão errada em 23 set 2026.
+   ⚠ **`nomes ambiguos` é o contador mais perigoso**: ele conta link que **não resolveu pelo
+   caminho relativo** e caiu no desempate por nome. **Ambiguidade alta = links quebrados em massa**,
+   não um aviso teórico. Foi assim que se achou o `../` a mais que desligava 2.274 links de área.
 2. **`python scripts/valida-padrao-corpus.py`** — o corpus fecha em `694 / 50 / 49 / 49` com
    **0 completados**. Se completar algum, **alguém quebrou o padrão** — entenda antes de commitar.
 3. **`python scripts/valida-documentacao.py`** — nenhum `.md` estrutural órfão do manifesto.

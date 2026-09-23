@@ -84,10 +84,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | Há duas contas na plataforma — `Cambos` (7 usuários) e `Cambos - uFlow` (25). **É conta por módulo, ou duplicidade?** | `T2` | define se `client_id` é mesmo único por cliente | aberta |
-| 2 | O conteúdo T1 da Cambos está com autorização de uso pendente desde julho. **Libera?** | `T1` | trava registrada há mais de dois meses | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | Há duas contas na plataforma — `Cambos` (7 usuários) e `Cambos - uFlow` (25). **É conta por módulo, ou duplicidade?** | `T2` | define se `client_id` é mesmo único por cliente | **⚠ a distribuir** | aberta |
+| 2 | O conteúdo T1 da Cambos está com autorização de uso pendente desde julho. **Libera?** | `T1` | trava registrada há mais de dois meses | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

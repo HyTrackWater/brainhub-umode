@@ -69,10 +69,10 @@
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | 🚨 **A credencial do site de documentação foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
-| 2 | Os dois arquivos de staging `SUPERSEDED` seguem no repositório. **Apago?** | `T2` | apagar é decisão sua, não minha | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | 🚨 **A credencial do site de documentação foi rotacionada?** | `T0` | exposição ativa até prova em contrário | **⚠ a distribuir** | aberta |
+| 2 | Os dois arquivos de staging `SUPERSEDED` seguem no repositório. **Apago?** | `T2` | apagar é decisão sua, não minha | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

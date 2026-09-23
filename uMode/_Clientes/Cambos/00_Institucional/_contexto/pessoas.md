@@ -59,7 +59,7 @@
 > **Dois tipos diferentes de Subárea (nível 3), ambos já existindo na operação.**
 >
 > Para o modelo: `subAreaLabel` precisa aceitar **linha de produto** *e* **local**. Item para a
-> [`_espec-pessoas-e-comunicacoes.md`](../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
+> [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md).
 
 ### ⚠ "Desenvolvimento" aqui não é `03_Desenvolvimento-de-Colecao`
 O time engloba Pesquisa, Criação, Modelagem e Pilotagem — que na grade são `02`, `13` e
@@ -140,7 +140,7 @@ produção interna. **Mesmo nome, escopo diferente. Não traduzi.**
 
 ⚠ **`Contrato` aparece como solicitante** em 2 demandas — não é pessoa.
 
-Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
+Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
 ## Canais de comunicação
 
@@ -208,25 +208,26 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 🔴 **O que ainda não se sabe deste cliente, e onde já se procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)
 
+**Integração deste cliente:** [integracao.md](integracao.md)
+
 **Registros:** **47 demandas** — [índice](../_demandas/_indice.md) · **3 RFIs** — [índice](../_rfis/_indice.md) · **8 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
-**As 15 áreas deste cliente:**
+**As 14 áreas deste cliente:**
 
-- [Institucional](../../../00_Institucional/_contexto/contexto-area.md)
-- [Planejamento](../../../01_Planejamento/_contexto/contexto-area.md)
-- [Estilo Criacao](../../../02_Estilo-Criacao/_contexto/contexto-area.md)
-- [Desenvolvimento de Colecao](../../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
-- [Qualidade](../../../04_Qualidade/_contexto/contexto-area.md)
-- [PCP](../../../05_PCP/_contexto/contexto-area.md)
-- [Compras Supply Sourcing](../../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
-- [Logistica CD](../../../07_Logistica-CD/_contexto/contexto-area.md)
-- [Ecommerce Cadastro](../../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
-- [Comercial Vendas](../../../09_Comercial-Vendas/_contexto/contexto-area.md)
-- [Marketing](../../../10_Marketing/_contexto/contexto-area.md)
-- [Financeiro](../../../11_Financeiro/_contexto/contexto-area.md)
-- [Design](../../../12_Design/_contexto/contexto-area.md)
-- [Modelagem](../../../13_Modelagem/_contexto/contexto-area.md)
-- [Engenharia](../../../14_Engenharia/_contexto/contexto-area.md)
+- [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
+- [Estilo Criacao](../../02_Estilo-Criacao/_contexto/contexto-area.md)
+- [Desenvolvimento de Colecao](../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
+- [Qualidade](../../04_Qualidade/_contexto/contexto-area.md)
+- [PCP](../../05_PCP/_contexto/contexto-area.md)
+- [Compras Supply Sourcing](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
+- [Logistica CD](../../07_Logistica-CD/_contexto/contexto-area.md)
+- [Ecommerce Cadastro](../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
+- [Comercial Vendas](../../09_Comercial-Vendas/_contexto/contexto-area.md)
+- [Marketing](../../10_Marketing/_contexto/contexto-area.md)
+- [Financeiro](../../11_Financeiro/_contexto/contexto-area.md)
+- [Design](../../12_Design/_contexto/contexto-area.md)
+- [Modelagem](../../13_Modelagem/_contexto/contexto-area.md)
+- [Engenharia](../../14_Engenharia/_contexto/contexto-area.md)
 
 **Autoridades da Casa que governam este arquivo:**
 [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md) · [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) · [`protocolo-varredura-cliente.md`](../../../../00_Institucional/_protocolos/protocolo-varredura-cliente.md)

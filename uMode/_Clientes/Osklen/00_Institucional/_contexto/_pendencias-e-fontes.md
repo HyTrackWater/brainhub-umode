@@ -56,10 +56,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | O `Status` diz `Operação Assistida` e a `Etapa` diz `Onboarding`. **Qual descreve a conta hoje?** | `T2` | muda a leitura de maturidade da conta | aberta |
-| 2 | O toggle `Pessoas` da página está vazio. **Quem são a diretoria e os líderes de departamento da Osklen?** | `T2` | sem isso a conta não tem uma pessoa nomeada na própria página | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | O `Status` diz `Operação Assistida` e a `Etapa` diz `Onboarding`. **Qual descreve a conta hoje?** | `T2` | muda a leitura de maturidade da conta | **⚠ a distribuir** | aberta |
+| 2 | O toggle `Pessoas` da página está vazio. **Quem são a diretoria e os líderes de departamento da Osklen?** | `T2` | sem isso a conta não tem uma pessoa nomeada na própria página | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

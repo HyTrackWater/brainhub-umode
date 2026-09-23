@@ -8,7 +8,7 @@
 ## O que esta área faz
 🔴 **Esta área sozinha responde uma pergunta aberta da proposta de grade.**
 
-A [`_proposta-grade-de-areas-revisao.md`](../../../00_Institucional/_contexto/_proposta-grade-de-areas-revisao.md) registrava `12_Design` em **1 de 10** clientes e perguntava se a área se sustenta como canônica. **Aqui são 5 pessoas** — mais que Qualidade, mais que Estilo.
+A [`_proposta-grade-de-areas-revisao.md`](../../../../00_Institucional/_contexto/_proposta-grade-de-areas-revisao.md) registrava `12_Design` em **1 de 10** clientes e perguntava se a área se sustenta como canônica. **Aqui são 5 pessoas** — mais que Qualidade, mais que Estilo.
 
 > **A pergunta certa não era "Design sobra?" e sim "em que tipo de cliente Design aparece?"** — e a resposta é: **varejo de moda com fábrica própria e linha de calçados.**
 
@@ -82,9 +82,8 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 **A mesma área na Casa uMode:** ver `uMode/00_Institucional/_contexto/institucional.md`
 
-**As outras 14 áreas deste cliente:**
+**As outras 13 áreas deste cliente:**
 
-- [Institucional](../../00_Institucional/_contexto/contexto-area.md)
 - [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
 - [Estilo Criacao](../../02_Estilo-Criacao/_contexto/contexto-area.md)
 - [Desenvolvimento de Colecao](../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)

@@ -1183,8 +1183,48 @@ RISCO = {
 # que se tira lendo, e decisao ou conhecimento que so ele tem. Duvida que uma
 # fonte responde nao e pergunta - e varredura que falta fazer.
 #
-# Formato: cliente -> [(pergunta, tier, por que importa, estado)]
-# Estado: "aberta" | "respondida em <data> por <fonte>"
+# Formato: cliente -> [(pergunta, tier, por que importa, estado[, quem responde])]
+#
+# O 5o elemento e OPCIONAL. Sem ele, o destinatario e "Vinicius".
+# Travado pelo Vinicius em 23 set 2026: "provavelmente nao serei eu que
+# responderei". A pergunta passa a ter DONO nomeado - pode ser o Joao, o
+# Bergson, o time de Atendimento, o CS de uma conta.
+#
+# ESTADO - vocabulario fechado. Toda saida de "aberta" carrega justificativa:
+#   "aberta"
+#   "aprovada em <data> por <quem> - <o que fica valendo>"
+#   "recusada em <data> por <quem> - <por que nao precisa ser respondida>"
+#   "alterada em <data> por <quem> - <como a pergunta mudou e por que>"
+#   "respondida em <data> por <fonte> - <a resposta>"
+#
+# RECUSADA nao e fracasso: e a decisao de que a pergunta nao precisa de
+# resposta. A justificativa e o que vira contexto.
+# Sem 5o campo, o destinatario NAO e assumido como Vinicius: fica explicito que
+# ninguem foi designado. Assumir o Vinicius para as 43 seria afirmar um dado que
+# ninguem decidiu - e ele disse em 23 set 2026 que provavelmente nao sera ele.
+DESTINO_PADRAO = u"⚠ a distribuir"
+
+
+def q5(q):
+    u"""Normaliza a tupla de pergunta para 5 campos.
+
+    Aceita a forma antiga de 4 campos para nao exigir reescrita das 63
+    perguntas ja registradas. O 5o campo e o destinatario.
+    """
+    if len(q) >= 5:
+        return q[0], q[1], q[2], q[3], q[4]
+    return q[0], q[1], q[2], q[3], DESTINO_PADRAO
+
+
+def estado_de(q):
+    u"""Primeira palavra do estado: aberta|aprovada|recusada|alterada|respondida."""
+    e = q[3].strip().lower()
+    for k in (u"aberta", u"aprovada", u"recusada", u"alterada", u"respondida"):
+        if e.startswith(k):
+            return k
+    return u"aberta"
+
+
 PERGUNTAS = {
     u"Moda Objetiva": [
         (u"A p\u00e1gina de perfil termina apontando para uma **planilha Google com os "
@@ -1482,10 +1522,11 @@ def doc(cliente):
     A(u"")
     qs = PERGUNTAS.get(cliente)
     if qs:
-        A(u"| # | Pergunta | Tier | Por que importa | Estado |")
-        A(u"|--:|---|:-:|---|---|")
-        for i, (q, tier, pq, est) in enumerate(qs, 1):
-            A(u"| %d | %s | `%s` | %s | %s |" % (i, q, tier, pq, est))
+        A(u"| # | Pergunta | Tier | Por que importa | Quem responde | Estado |")
+        A(u"|--:|---|:-:|---|---|---|")
+        for i, _q in enumerate(qs, 1):
+            q, tier, pq, est, quem = q5(_q)
+            A(u"| %d | %s | `%s` | %s | **%s** | %s |" % (i, q, tier, pq, quem, est))
     else:
         A(u"\u26a0 **Nenhuma ainda** \u2014 e para este cliente isso quase sempre quer dizer que a")
         A(u"**p\u00e1gina dele n\u00e3o foi aberta** (\u00a7 3.2). **Pergunta boa nasce de varredura feita.**")
@@ -1569,28 +1610,60 @@ def consolidada():
     A(u"**O processo inteiro est\u00e1 no** [`protocolo-perguntas-ao-vinicius.md`]"
       u"(../_protocolos/protocolo-perguntas-ao-vinicius.md). \U0001F534 **N\u00e3o inventar outro caminho.**")
     A(u"")
-    ab = [q for q in PERGUNTAS_GERAIS if q[3].startswith(u"aberta")]
-    rs = [q for q in PERGUNTAS_GERAIS if not q[3].startswith(u"aberta")]
-    tot_cli = sum(1 for c in PERGUNTAS for q in PERGUNTAS[c] if q[3].startswith(u"aberta"))
-    A(u"## 0 \u00b7 O placar")
+    todas = list(PERGUNTAS_GERAIS) + [q for c in PERGUNTAS for q in PERGUNTAS[c]]
+    por_estado = {}
+    for q in todas:
+        e = estado_de(q)
+        por_estado[e] = por_estado.get(e, 0) + 1
+    destinos = {}
+    for q in todas:
+        if estado_de(q) != u"aberta":
+            continue
+        d = q5(q)[4]
+        destinos[d] = destinos.get(d, 0) + 1
+    tot_cli = sum(1 for c in PERGUNTAS for q in PERGUNTAS[c] if estado_de(q) == u"aberta")
+    n_ger = sum(1 for q in PERGUNTAS_GERAIS if estado_de(q) == u"aberta")
+    fechadas = len(todas) - por_estado.get(u"aberta", 0)
+
+    A(u"## 0 · O placar")
     A(u"")
-    A(u"| | Quantas |")
+    A(u"| Estado | Quantas | O que significa |")
+    A(u"|---|--:|---|")
+    A(u"| 🔴 **aberta** | **%d** | ninguém decidiu ainda |" % por_estado.get(u"aberta", 0))
+    A(u"| 🟢 aprovada | %d | a resposta virou contexto e já vale |" % por_estado.get(u"aprovada", 0))
+    A(u"| ⚪ recusada | %d | decidiu-se que **não precisa de resposta** — a justificativa é o contexto |" % por_estado.get(u"recusada", 0))
+    A(u"| 🟡 alterada | %d | a pergunta mudou de forma; a justificativa diz por quê |" % por_estado.get(u"alterada", 0))
+    A(u"| 🔵 respondida | %d | respondida por fonte ou por pessoa |" % por_estado.get(u"respondida", 0))
+    A(u"| | **%d** | **total na fila** |" % len(todas))
+    A(u"")
+    A(u"**Das abertas:** %d transversais · %d de um cliente só · "
+      u"**%d já fechadas** (aprovada, recusada, alterada ou respondida)."
+      % (n_ger, tot_cli, fechadas))
+    A(u"")
+    A(u"### 0.1 · Por quem responde — a fila de distribuição")
+    A(u"")
+    A(u"> 🔴 **Travado pelo Vinícius em 23 set 2026:** *provavelmente não serei eu que")
+    A(u"> responderei*. Cada pergunta aberta tem **um destinatário nomeado**. Quem recebe")
+    A(u"> pode **aprovar**, **recusar** (com o motivo de não precisar de resposta) ou")
+    A(u"> **alterar** a pergunta — e **a justificativa sempre entra no contexto**.")
+    A(u"")
+    A(u"| Quem responde | Perguntas abertas |")
     A(u"|---|--:|")
-    A(u"| **Abertas, de um cliente s\u00f3** | **%d** |" % tot_cli)
-    A(u"| **Abertas, transversais** | **%d** |" % len(ab))
-    A(u"| J\u00e1 respondidas | %d |" % (len(rs) + sum(1 for c in PERGUNTAS for q in PERGUNTAS[c]
-                                                    if not q[3].startswith(u"aberta"))))
-    A(u"| Clientes com p\u00e1gina ainda **n\u00e3o aberta** | **%d** |" % (48 - len(PAGINA)))
+    for d in sorted(destinos, key=lambda x: (-destinos[x], x)):
+        A(u"| **%s** | %d |" % (d, destinos[d]))
     A(u"")
-    A(u"> \u26a0 **A lista est\u00e1 curta porque a varredura est\u00e1 no come\u00e7o**, n\u00e3o porque h\u00e1 poucas")
-    A(u"> d\u00favidas. **%d clientes t\u00eam a p\u00e1gina fechada** \u2014 pergunta boa nasce de varredura feita." % (48 - len(PAGINA)))
+    A(u"**Clientes com página ainda não aberta:** %d." % (48 - len(PAGINA)))
+    A(u"")
+    A(u"> ⚠ **A lista está curta porque a varredura está no começo**, não porque há poucas")
+    A(u"> dúvidas. **%d clientes têm a página fechada** — pergunta boa nasce de varredura feita." % (48 - len(PAGINA)))
     A(u"")
     A(u"## 1 \u00b7 Transversais \u2014 valem para a carteira toda")
     A(u"")
-    A(u"| # | Pergunta | Tier | Por que importa | Estado |")
-    A(u"|--:|---|:-:|---|---|")
-    for i, (q, tier, pq, est) in enumerate(PERGUNTAS_GERAIS, 1):
-        A(u"| %d | %s | `%s` | %s | %s |" % (i, q, tier, pq, est))
+    A(u"| # | Pergunta | Tier | Por que importa | Quem responde | Estado |")
+    A(u"|--:|---|:-:|---|---|---|")
+    for i, _q in enumerate(PERGUNTAS_GERAIS, 1):
+        q, tier, pq, est, quem = q5(_q)
+        A(u"| %d | %s | `%s` | %s | **%s** | %s |" % (i, q, tier, pq, quem, est))
     A(u"")
     A(u"## 2 \u00b7 Por cliente")
     A(u"")
@@ -1600,10 +1673,11 @@ def consolidada():
         A(u"[abrir o arquivo do cliente]"
           u"(../../_Clientes/%s/00_Institucional/_contexto/_pendencias-e-fontes.md)" % c)
         A(u"")
-        A(u"| # | Pergunta | Tier | Por que importa | Estado |")
-        A(u"|--:|---|:-:|---|---|")
-        for i, (q, tier, pq, est) in enumerate(PERGUNTAS[c], 1):
-            A(u"| %d | %s | `%s` | %s | %s |" % (i, q, tier, pq, est))
+        A(u"| # | Pergunta | Tier | Por que importa | Quem responde | Estado |")
+        A(u"|--:|---|:-:|---|---|---|")
+        for i, _q in enumerate(PERGUNTAS[c], 1):
+            q, tier, pq, est, quem = q5(_q)
+            A(u"| %d | %s | `%s` | %s | **%s** | %s |" % (i, q, tier, pq, quem, est))
         A(u"")
     A(u"## Governan\u00e7a")
     A(u"")

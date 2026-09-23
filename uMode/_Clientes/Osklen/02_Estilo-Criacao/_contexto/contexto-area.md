@@ -82,9 +82,8 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 **A mesma área na Casa uMode:** ver `uMode/00_Institucional/_contexto/institucional.md`
 
-**As outras 14 áreas deste cliente:**
+**As outras 13 áreas deste cliente:**
 
-- [Institucional](../../00_Institucional/_contexto/contexto-area.md)
 - [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
 - [Desenvolvimento de Colecao](../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
 - [Qualidade](../../04_Qualidade/_contexto/contexto-area.md)

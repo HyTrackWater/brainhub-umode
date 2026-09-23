@@ -49,7 +49,7 @@ Projetos (2) · Planejamento · Operações · Controladoria · RH (2) · TI · 
 > quanto os dez `Ongoing`, **em outro momento**.
 >
 > ⚠ **Mas o enum mistura duas coisas:** `Sem CS` não é momento, **é modo de atendimento**.
-> Registrado em [`_taxonomia-status-cliente.md`](../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
+> Registrado em [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ### Data de ativação
 `[a preencher]` — campo vazio.
@@ -103,7 +103,7 @@ ressalva no kick-off.** Há duas páginas chamadas **`Integração de Escrita - 
 | `SENAI CETIQT` · `Consultoria` · `Instituto E` | 3 | 🔴 **externo** |
 
 ### 🔴 `12_Design` acaba de ganhar um segundo caso — e ele é forte
-A [`_proposta-grade-de-areas-revisao.md`](../../../00_Institucional/_contexto/_proposta-grade-de-areas-revisao.md)
+A [`_proposta-grade-de-areas-revisao.md`](../../../../00_Institucional/_contexto/_proposta-grade-de-areas-revisao.md)
 registrava `12_Design` em **1 de 10** clientes e perguntava se a área se sustenta.
 
 **Na Osklen são 5 pessoas declarando `Design de moda`** — mais que Qualidade, mais que Estilo.
@@ -233,25 +233,26 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 🔴 **O que ainda não se sabe deste cliente, e onde já se procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)
 
+**Integração deste cliente:** [integracao.md](integracao.md)
+
 **Registros:** **117 demandas** — [índice](../_demandas/_indice.md) · **3 RFIs** — [índice](../_rfis/_indice.md) · **17 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
-**As 15 áreas deste cliente:**
+**As 14 áreas deste cliente:**
 
-- [Institucional](../../../00_Institucional/_contexto/contexto-area.md)
-- [Planejamento](../../../01_Planejamento/_contexto/contexto-area.md)
-- [Estilo Criacao](../../../02_Estilo-Criacao/_contexto/contexto-area.md)
-- [Desenvolvimento de Colecao](../../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
-- [Qualidade](../../../04_Qualidade/_contexto/contexto-area.md)
-- [PCP](../../../05_PCP/_contexto/contexto-area.md)
-- [Compras Supply Sourcing](../../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
-- [Logistica CD](../../../07_Logistica-CD/_contexto/contexto-area.md)
-- [Ecommerce Cadastro](../../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
-- [Comercial Vendas](../../../09_Comercial-Vendas/_contexto/contexto-area.md)
-- [Marketing](../../../10_Marketing/_contexto/contexto-area.md)
-- [Financeiro](../../../11_Financeiro/_contexto/contexto-area.md)
-- [Design](../../../12_Design/_contexto/contexto-area.md)
-- [Modelagem](../../../13_Modelagem/_contexto/contexto-area.md)
-- [Engenharia](../../../14_Engenharia/_contexto/contexto-area.md)
+- [Planejamento](../../01_Planejamento/_contexto/contexto-area.md)
+- [Estilo Criacao](../../02_Estilo-Criacao/_contexto/contexto-area.md)
+- [Desenvolvimento de Colecao](../../03_Desenvolvimento-de-Colecao/_contexto/contexto-area.md)
+- [Qualidade](../../04_Qualidade/_contexto/contexto-area.md)
+- [PCP](../../05_PCP/_contexto/contexto-area.md)
+- [Compras Supply Sourcing](../../06_Compras-Supply-Sourcing/_contexto/contexto-area.md)
+- [Logistica CD](../../07_Logistica-CD/_contexto/contexto-area.md)
+- [Ecommerce Cadastro](../../08_Ecommerce-Cadastro/_contexto/contexto-area.md)
+- [Comercial Vendas](../../09_Comercial-Vendas/_contexto/contexto-area.md)
+- [Marketing](../../10_Marketing/_contexto/contexto-area.md)
+- [Financeiro](../../11_Financeiro/_contexto/contexto-area.md)
+- [Design](../../12_Design/_contexto/contexto-area.md)
+- [Modelagem](../../13_Modelagem/_contexto/contexto-area.md)
+- [Engenharia](../../14_Engenharia/_contexto/contexto-area.md)
 
 **Autoridades da Casa que governam este arquivo:**
 [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md) · [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) · [`protocolo-varredura-cliente.md`](../../../../00_Institucional/_protocolos/protocolo-varredura-cliente.md)

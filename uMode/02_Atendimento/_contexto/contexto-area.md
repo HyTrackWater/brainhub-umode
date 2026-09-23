@@ -64,7 +64,6 @@ Responsável da área + CEO
 
 **As outras áreas da Casa:**
 
-- [Institucional](../../00_Institucional/_contexto/contexto-area.md)
 - [Comercial](../../01_Comercial/_contexto/contexto-area.md)
 - [Produto e Solucoes](../../03_Produto-e-Solucoes/_contexto/contexto-area.md)
 - [Dados e IA](../../04_Dados-e-IA/_contexto/contexto-area.md)

@@ -52,10 +52,20 @@ varredura acha a dúvida
                                → NÃO: vira linha em PERGUNTAS
    → python scripts/gera-pendencias-e-fontes.py
    → aparece na § 2.1 do cliente E na lista consolidada
-   → o Vinicius responde por ÁUDIO ou por TRANSCRIÇÃO DE REUNIÃO
-   → a resposta entra como evidência datada, com a fonte citada
+   → recebe um DESTINATÁRIO nomeado (§ 4.1)
+   → quem recebe decide: APROVA · RECUSA · ALTERA · RESPONDE
+   → a decisão entra como evidência datada, com justificativa e fonte
    → a pergunta MUDA DE ESTADO — nunca é apagada
 ```
+
+### 3.1 · 🔴 O destinatário não é sempre o Vinicius
+
+**Travado por ele em 23 set 2026:** *"provavelmente não serei eu que responderei, mas temos um
+local organizado para depois distribuir as perguntas."*
+
+Por isso a pergunta carrega **quem responde**, e o padrão é **`⚠ a distribuir`** — não
+`Vinicius`. Assumir que as 43 abertas são dele seria afirmar um dado que ninguém decidiu.
+**A distribuição é decisão, e decisão não é minha.**
 
 **Quando a lista vai até ele:** ⚠ **não é decisão minha sozinho.** Ele disse *"pensaremos nisso
 quando chegar o momento"*. **Minha obrigação é manter a fila pronta e avisar quando ela crescer
@@ -63,13 +73,31 @@ a ponto de travar a varredura** — não escolher a hora.
 
 ## 4 · O formato de uma pergunta
 
-`(pergunta, tier, por que importa, estado)`
+`(pergunta, tier, por que importa, estado[, quem responde])`
+
+O 5º campo é **opcional**: sem ele, o destinatário sai como `⚠ a distribuir`.
 
 - **pergunta** — redigida para ele responder **falando**, não escrevendo. Pergunta boa cabe numa
   frase de áudio. **Cita a evidência que a gerou**, para ele não ter que lembrar do contexto.
 - **tier** — `T0` · `T1` · `T2`, o mesmo vocabulário do resto do corpus.
 - **por que importa** — o que destrava. Sem isso ele não consegue priorizar.
-- **estado** — `aberta` ou `respondida em <data>, por <fonte>`.
+- **estado** — vocabulário **fechado**, cinco valores. **Toda saída de `aberta` carrega
+  justificativa** — é a justificativa que vira contexto, não o rótulo.
+- **quem responde** — o destinatário. Pode ser pessoa, área ou time.
+
+### 4.1 · 🔴 Os cinco estados, e por que `recusada` não é fracasso
+
+| Estado | Quando se usa | O que a justificativa precisa dizer |
+|---|---|---|
+| 🔴 `aberta` | ninguém decidiu ainda | — |
+| 🟢 `aprovada em <data> por <quem> — <justificativa>` | a resposta foi dada e **vira contexto que já vale** | o que passa a valer |
+| ⚪ `recusada em <data> por <quem> — <justificativa>` | **decidiu-se que a pergunta não precisa de resposta** | **por que não precisa** — é isso que entra no corpus |
+| 🟡 `alterada em <data> por <quem> — <justificativa>` | a pergunta estava mal formulada ou mudou de escopo | **como mudou e por quê** |
+| 🔵 `respondida em <data> por <fonte> — <resposta>` | respondida por fonte ou por pessoa | a resposta, com procedência |
+
+🔴 **`recusada` é resposta, não desistência.** *"Isso não precisa ser respondido porque X"* é
+conhecimento tão útil quanto a resposta — e impede que a mesma dúvida volte na varredura
+seguinte. **Por isso a justificativa é obrigatória nos quatro estados de saída.**
 
 🔴 **Resposta não apaga a pergunta.** O histórico do que já se perguntou vale tanto quanto a
 resposta — é ele que impede perguntar duas vezes a mesma coisa.
@@ -89,6 +117,8 @@ tema: converteu uma pergunta transversal em uma pergunta por cliente.**
 ## 6 · O que este protocolo NÃO resolve
 
 - ⚠ **Não decide quando levar a lista ao Vinicius.** É dele.
+- 🔴 **Não distribui as perguntas sozinho.** As 43 abertas estão com `⚠ a distribuir`. **Atribuir
+  destinatário é decisão**, e sai da mesma fonte de qualquer outra: o Vinicius ou quem ele indicar.
 - ⚠ **Não substitui varredura.** Fila comprida com páginas de cliente fechadas é sinal de
   varredura atrasada, não de dúvida legítima — **pergunta boa nasce de varredura feita.**
 - ⚠ **Não cobre a resposta em áudio/transcrição**: quando ela chegar, entra pelo

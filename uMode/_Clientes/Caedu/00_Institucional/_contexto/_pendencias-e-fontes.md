@@ -58,10 +58,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-| # | Pergunta | Tier | Por que importa | Estado |
-|--:|---|:-:|---|---|
-| 1 | O `Status` da CAEDU virou `Onboarding` em 22/09/2026 às 15:04, e a base `Etapas do Processo` continua marcando `Ongoing`. **O que mudou nesse dia?** | `T2` | o projeto CAEDU 2.0 está sendo montado sobre a premissa de onboarding | aberta |
-| 2 | A dor `Griffe › Linha › Grupo/subgrupo` está escrita desde a weekly de 16/09/2025 e reaparece idêntica em jul e ago/2026. **Quem assume a integração — uMode ou o time tech da CAEDU?** | `T2` | atravessou três ciclos sem destravar | aberta |
+| # | Pergunta | Tier | Por que importa | Quem responde | Estado |
+|--:|---|:-:|---|---|---|
+| 1 | O `Status` da CAEDU virou `Onboarding` em 22/09/2026 às 15:04, e a base `Etapas do Processo` continua marcando `Ongoing`. **O que mudou nesse dia?** | `T2` | o projeto CAEDU 2.0 está sendo montado sobre a premissa de onboarding | **⚠ a distribuir** | aberta |
+| 2 | A dor `Griffe › Linha › Grupo/subgrupo` está escrita desde a weekly de 16/09/2025 e reaparece idêntica em jul e ago/2026. **Quem assume a integração — uMode ou o time tech da CAEDU?** | `T2` | atravessou três ciclos sem destravar | **⚠ a distribuir** | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 

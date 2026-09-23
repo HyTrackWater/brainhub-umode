@@ -65,3 +65,31 @@ CEO (João Risoléo). Decisão de Vinicius Risoléo em 04 ago 2026: **no BrainHu
 - ⚠ Isso também explica a divergência de grafia `CadastroAI` × `CadastrAI` que estava registrada como pendência: **não eram duas grafias do mesmo item, eram dois itens diferentes** — o antigo (hoje EnriqueceAI) e o novo (hoje CadastrAI).
 - Briefing de Vinicius Risoléo em 04 ago 2026: descrição funcional (agentes especialistas em SEO com aprendizado, finalização de cadastro a partir da foto) e a hipótese de equivalência com o CadastrAI, que ele mesmo marcou "a confirmar" — **e que foi confirmada com correção na mesma sessão**, ver `Nome legado`.
 - ⚠ Vocabulário adjacente, sem valor confirmatório: a página "TaxonomyAI — Decisão Arquitetural" cita um serviço externo `data-enrichment-api` no diagrama do CTO e usa o termo "atributos enriquecidos (JSON)". É vocabulário de enriquecimento, **não** o nome EnriqueceAI.
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Solução:** `05_EnriqueceAI` — uma das 16 do Portfólio.
+
+**Protocolo que governa esta ficha:** [`protocolo-gestao-produto.md`](../../../00_Institucional/_protocolos/protocolo-gestao-produto.md)
+
+**Institucional da Casa:** [institucional.md](../../../00_Institucional/_contexto/institucional.md)
+
+**As outras 15 Soluções do Portfólio:**
+
+- [PlanejAI](../../01_PlanejAI/_contexto/produto.md)
+- [CriAI](../../02_CriAI/_contexto/produto.md)
+- [DesenvolvAI](../../03_DesenvolvAI/_contexto/produto.md)
+- [FornecAI](../../04_FornecAI/_contexto/produto.md)
+- [GerenciAI](../../06_GerenciAI/_contexto/produto.md)
+- [AlocAI](../../07_AlocAI/_contexto/produto.md)
+- [VendeAI](../../08_VendeAI/_contexto/produto.md)
+- [CliprocAI](../../09_CliprocAI/_contexto/produto.md)
+- [CadastrAI](../../10_CadastrAI/_contexto/produto.md)
+- [Taxonomia](../../11_Taxonomia/_contexto/produto.md)
+- [CX Hub](../../12_CX-Hub/_contexto/produto.md)
+- [ONB HUB](../../13_ONB-HUB/_contexto/produto.md)
+- [IntHub](../../14_IntHub/_contexto/produto.md)
+- [Gest Hub](../../15_Gest-Hub/_contexto/produto.md)
+- [Sales Hub](../../16_Sales-Hub/_contexto/produto.md)

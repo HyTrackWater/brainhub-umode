@@ -68,3 +68,31 @@ CEO (João Risoléo). Decisão de Vinicius Risoléo em 04 ago 2026: **no BrainHu
 - ⚠ **Existem duas taxonomias distintas na base uMode, ambas de abril/2026, que nunca se citam:** (1) esta, do PLM padrão — 6.567 campos do uFlow → 2.618 clusters, 9 verticais, PO João Risoléo, validação Ana Lucia, engenharia "time uMode + AI HOUSE"; (2) **TaxonomyAI** (Notion `33fb1d38e76881668ab6e516763d703f`), um **serviço** que recebe imagem + dados do PLM e devolve atributos estruturados por API — taxonomia de 12 zonas / 45 dimensões / 431 valores, baseada em Fashionpedia + Shopify Standard Product Taxonomy, com documento normativo próprio ("Dicionário Oficial de Taxonomia", `33bb1d38e768810db75bcd26f5759c08`, responsável João Ferraz). Bases, escalas, donos e galhos do Notion diferentes. Nenhuma das páginas afirma que são a mesma coisa nem que são diferentes.
 - ⚠ Bloqueio declarado pela própria página do TaxonomyAI, sob o título "Decisão pendente antes de construir": "modelo de confiança — quais campos o cadastro PLM sempre prevalece sobre a imagem? Quais a imagem é mais confiável? Sem isso definido, o sistema vai gerar inconsistências silenciosas."
 - ⚠ **~20 subpáginas e ~100 anexos da página "Taxonomia" não foram lidos**, inclusive `00-visao-geral.md` e `09-de-para-mestre.md`.
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Solução:** `11_Taxonomia` — uma das 16 do Portfólio.
+
+**Protocolo que governa esta ficha:** [`protocolo-gestao-produto.md`](../../../00_Institucional/_protocolos/protocolo-gestao-produto.md)
+
+**Institucional da Casa:** [institucional.md](../../../00_Institucional/_contexto/institucional.md)
+
+**As outras 15 Soluções do Portfólio:**
+
+- [PlanejAI](../../01_PlanejAI/_contexto/produto.md)
+- [CriAI](../../02_CriAI/_contexto/produto.md)
+- [DesenvolvAI](../../03_DesenvolvAI/_contexto/produto.md)
+- [FornecAI](../../04_FornecAI/_contexto/produto.md)
+- [EnriqueceAI](../../05_EnriqueceAI/_contexto/produto.md)
+- [GerenciAI](../../06_GerenciAI/_contexto/produto.md)
+- [AlocAI](../../07_AlocAI/_contexto/produto.md)
+- [VendeAI](../../08_VendeAI/_contexto/produto.md)
+- [CliprocAI](../../09_CliprocAI/_contexto/produto.md)
+- [CadastrAI](../../10_CadastrAI/_contexto/produto.md)
+- [CX Hub](../../12_CX-Hub/_contexto/produto.md)
+- [ONB HUB](../../13_ONB-HUB/_contexto/produto.md)
+- [IntHub](../../14_IntHub/_contexto/produto.md)
+- [Gest Hub](../../15_Gest-Hub/_contexto/produto.md)
+- [Sales Hub](../../16_Sales-Hub/_contexto/produto.md)

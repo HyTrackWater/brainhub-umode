@@ -61,6 +61,10 @@ def areas_de(base):
     u"""Pastas numeradas dentro de uma casa (cliente ou Casa uMode)."""
     out = []
     for n in sorted(os.listdir(base)):
+        # `00_Institucional` NAO e area: e o nivel 1 da hierarquia (a casa).
+        # Incluir gerava 824 links para um `contexto-area.md` que nunca existiu ali.
+        if n == u"00_Institucional":
+            continue
         if re.match(u"^[0-9]{2}_", n) and os.path.isdir(os.path.join(base, n)):
             out.append(n)
     return out
@@ -121,6 +125,10 @@ def main():
             b.append(u"🔴 **O que ainda não se sabe deste cliente, e onde já se "
                      u"procurou:** [_pendencias-e-fontes.md](_pendencias-e-fontes.md)")
             b.append(u"")
+            # integracao.md e o 5o MD de cliente: sem esta linha ele fica orfao.
+            if os.path.exists(os.path.join(ctx, u"integracao.md")):
+                b.append(u"**Integração deste cliente:** [integracao.md](integracao.md)")
+            b.append(u"")
             if n_dem or n_rfi or n_pes:
                 partes = []
                 if n_dem:
@@ -133,7 +141,10 @@ def main():
                 b.append(u"")
             b.append(u"**As %d áreas deste cliente:**" % len(areas))
             b.append(u"")
-            b.append(lista_areas.replace(u"../../", u"../../../"))
+            # `institucional/jornada/pessoas.md` vivem em <cliente>/00_Institucional/_contexto/:
+            # subir DOIS niveis ja chega em <cliente>/. O `../../../` que havia aqui
+            # apontava para _Clientes/ e quebrava 2.274 links de area em 145 arquivos.
+            b.append(lista_areas)
             b.append(u"")
             b.append(u"**Autoridades da Casa que governam este arquivo:**")
             b.append(u"[`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md) · "
@@ -384,6 +395,81 @@ def main():
         if poe(os.path.join(fp, u"_indice.md"), chr(10).join(b)):
             tocados += 1
 
+
+
+    # ------------------------------------------------------------------
+    # 3 entidades que ficavam orfas no grafo. Acrescentado em 23 set 2026:
+    # Solucao do portfolio (16), integracao.md (12) e demanda da Casa (5).
+    # ------------------------------------------------------------------
+    NL = chr(10)
+
+    port = os.path.join(RAIZ, u"uMode", u"03_Produto-e-Solucoes")
+    if os.path.isdir(port):
+        sols = sorted(n for n in os.listdir(port)
+                      if re.match(u"^[0-9]{2}_", n)
+                      and os.path.exists(os.path.join(port, n, u"_contexto", u"produto.md")))
+        for s in sols:
+            outras = [x for x in sols if x != s]
+            b = [u"> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**",
+                 u"",
+                 u"**Solução:** `%s` — uma das %d do Portfólio." % (s, len(sols)),
+                 u"",
+                 u"**Protocolo que governa esta ficha:** "
+                 u"[`protocolo-gestao-produto.md`](../../../00_Institucional/_protocolos/protocolo-gestao-produto.md)",
+                 u"",
+                 u"**Institucional da Casa:** "
+                 u"[institucional.md](../../../00_Institucional/_contexto/institucional.md)",
+                 u"",
+                 u"**As outras %d Soluções do Portfólio:**" % len(outras),
+                 u""]
+            b.append(NL.join(u"- [%s](../../%s/_contexto/produto.md)" % (bonito(x), x)
+                             for x in outras))
+            if poe(os.path.join(port, s, u"_contexto", u"produto.md"), NL.join(b)):
+                tocados += 1
+
+    cli_raiz = os.path.join(RAIZ, u"uMode", u"_Clientes")
+    for c in sorted(os.listdir(cli_raiz)):
+        ctx = os.path.join(cli_raiz, c, u"00_Institucional", u"_contexto")
+        pi = os.path.join(ctx, u"integracao.md")
+        if not os.path.exists(pi):
+            continue
+        b = [u"> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**",
+             u"",
+             u"**Cliente:** `%s` — [institucional.md](institucional.md) · "
+             u"[jornada.md](jornada.md) · [pessoas.md](pessoas.md)" % c,
+             u"",
+             u"**Protocolo que governa este arquivo:** "
+             u"[`protocolo-gestao-integracao.md`](../../../../00_Institucional/_protocolos/protocolo-gestao-integracao.md)",
+             u"",
+             u"**Inventário dos sistemas:** "
+             u"[`_inventario-repositorios.md`](../../../../00_Institucional/_contexto/_inventario-repositorios.md)"]
+        if poe(pi, NL.join(b)):
+            tocados += 1
+
+    casa_dem = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_demandas")
+    if os.path.isdir(casa_dem):
+        itens = sorted(f for f in os.listdir(casa_dem)
+                       if f.startswith(u"D-") and f.endswith(u".md"))
+        for f in itens:
+            b = [u"> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**",
+                 u"",
+                 u"**Casa uMode** — [institucional.md](../_contexto/institucional.md)",
+                 u"",
+                 u"**Protocolo que governa este registro:** "
+                 u"[`protocolo-gestao-demanda.md`](../_protocolos/protocolo-gestao-demanda.md)",
+                 u"",
+                 u"**As outras demandas da Casa:** [índice](_indice.md)"]
+            if poe(os.path.join(casa_dem, f), NL.join(b)):
+                tocados += 1
+        if itens:
+            L = [u"# Casa uMode · Demandas — índice", u"",
+                 u"> **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**", u"",
+                 u"**Casa:** [institucional.md](../_contexto/institucional.md)", u"",
+                 u"**%d registros:**" % len(itens), u""]
+            for f in itens:
+                L.append(u"- [%s](%s)" % (f[:-3], f))
+            esc(os.path.join(casa_dem, u"_indice.md"), NL.join(L) + NL)
+            tocados += 1
 
     print(u"arquivos com camada de conexão escrita/atualizada: %d" % tocados)
     return 0

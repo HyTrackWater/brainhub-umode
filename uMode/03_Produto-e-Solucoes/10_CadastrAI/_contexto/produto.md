@@ -66,3 +66,31 @@ CEO (João Risoléo). Decisão de Vinicius Risoléo em 04 ago 2026: **no BrainHu
 - ⚠ **A grafia nas fontes do Notion é `CadastroAI`**; `CONTEXT.md` grafa `CadastrAI`. Divergência real entre fontes, registrada e não resolvida por conta própria — é o segundo caso do tipo, junto de `FornecAI` × `ForneceAI`.
 - Política de auditoria por marca em três modos: (a) flag through (`audit_status = pending`, não vai ao ERP até resolver), (b) quarentena (não entra no CadastrAI), (c) escala (entra com SLA e escalonamento) — "nenhum dos três é 'errado' — é maturidade do cliente". Implicações: coluna `audit_status`, tabela `org_audit_policy`, função compartilhada `canConsume(produto, módulo, política)`.
 - Problema-motivador registrado: uma base sanitizada há 2 anos "está uma zona de novo" por falta de manutenção contínua.
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Solução:** `10_CadastrAI` — uma das 16 do Portfólio.
+
+**Protocolo que governa esta ficha:** [`protocolo-gestao-produto.md`](../../../00_Institucional/_protocolos/protocolo-gestao-produto.md)
+
+**Institucional da Casa:** [institucional.md](../../../00_Institucional/_contexto/institucional.md)
+
+**As outras 15 Soluções do Portfólio:**
+
+- [PlanejAI](../../01_PlanejAI/_contexto/produto.md)
+- [CriAI](../../02_CriAI/_contexto/produto.md)
+- [DesenvolvAI](../../03_DesenvolvAI/_contexto/produto.md)
+- [FornecAI](../../04_FornecAI/_contexto/produto.md)
+- [EnriqueceAI](../../05_EnriqueceAI/_contexto/produto.md)
+- [GerenciAI](../../06_GerenciAI/_contexto/produto.md)
+- [AlocAI](../../07_AlocAI/_contexto/produto.md)
+- [VendeAI](../../08_VendeAI/_contexto/produto.md)
+- [CliprocAI](../../09_CliprocAI/_contexto/produto.md)
+- [Taxonomia](../../11_Taxonomia/_contexto/produto.md)
+- [CX Hub](../../12_CX-Hub/_contexto/produto.md)
+- [ONB HUB](../../13_ONB-HUB/_contexto/produto.md)
+- [IntHub](../../14_IntHub/_contexto/produto.md)
+- [Gest Hub](../../15_Gest-Hub/_contexto/produto.md)
+- [Sales Hub](../../16_Sales-Hub/_contexto/produto.md)
