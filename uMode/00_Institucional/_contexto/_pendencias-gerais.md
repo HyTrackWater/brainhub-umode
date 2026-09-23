@@ -3707,3 +3707,45 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      do próprio corpus, **sem um único nome de pessoa no código.** ⚠ **Isso rejeita o desenho do
      `roteador-tier` do vault**, que tem `joao` como dono fixo — um agente que só sabe rotear
      para uma pessoa não roteia para a Julianne nem para quem entrar amanhã.
+
+## A identidade fechou — e o que ficou aberto (23 set 2026)
+
+603. 🟢 **Achei a base de pessoas que faltava, e ela NÃO é a `uModers`.** É
+     `collection://c82a689c…` — **a mesma que o campo `Atendimento 2024` do `Mapa de Clientes`
+     aponta.** Traz `Email`, `Função`, `Área` e `Situação`. **Duas bases de pessoa da Casa
+     convivem no mesmo workspace do Notion, e o corpus só conhecia uma.**
+     ⚠ **É por isso que o `gera-fichas-umoder.py` não alcançava as 19** — ele lê a outra.
+604. 🟢 **16 das 19 fichas da Casa sem e-mail foram preenchidas** por
+     `scripts/preenche-email-casa.py`. 🔴 **A CAEDU agora resolve ponta a ponta:**
+     `atendimento: pessoa:julianne.dias@umode.com.br` · `pessoa:pedro.murillo@umode.com.br` ·
+     `pessoa:andrea.holmer@umode.com.br`. **Era o bloqueio do item 598.**
+     ⚠ **`T0` não entrou:** a base traz telefone, endereço com CEP e data de nascimento de todos.
+     **Nenhum copiado** — registro que existem e onde.
+605. 🔴 **`Andrea Goulart Holmer dos Santos` está `Inativo` na base de pessoas** e segue listada
+     como Consultor de Negócios da CAEDU no `institucional.md`. **Ou saiu e o corpus não soube,
+     ou a base está defasada.** 🔴 **É o cliente do teste da semana que vem.**
+606. 🔴 **3 pessoas da Casa não têm e-mail NA ORIGEM** — `ana-flavia-maran-carrilo` (Ativo) ·
+     `eduardo-penna` (Inativo) · `filipe-de-lima-kertcher` (Freela, campo vazio).
+     **Não é lacuna nossa: é lacuna da base.** A Ana Flávia está **Ativo** e sem e-mail.
+607. 🔴 **9 valores de `atendimento` ficam AMBÍGUOS e eu não escolhi** — é o comportamento que o
+     protocolo exige, não uma falha:
+     **`Pedro` (6 clientes)** → `Pedro Murillo` (Analista de Relacionamento, Ativo) ou
+     `Pedro Victor Silva` (Designer, Inativo)?
+     **`Fernanda` (3 clientes)** → `Fernanda Araujo` (Head de Design e UX, Ativo) ou
+     `Fernanda Martins` (Inativo)?
+     ⚠ **Pelo cargo, o palpite seria óbvio nos dois casos. Palpite não é identidade** — é a
+     mesma raiz de `STZ` × `Studio Z` e das duas `Cristina` da NK STORE. **Quem confirma é o
+     Atendimento.**
+608. 🔴 **O campo `Atendimento 2025` do `Mapa de Clientes` é `select`, não `relation`** — cinco
+     opções fixas: `SMB` · `Laura + Paulinha` · `Julianne` · `Fernanda` · `Pedro`.
+     🔴 **Um `select` de texto livre JAMAIS vai resolver para pessoa.** Enquanto for `select`,
+     toda varredura futura vai reencontrar o mesmo problema.
+     🟢 **`Atendimento 2024`, ao lado, JÁ É `relation` para a base de pessoas certa.**
+     ⚠ **A correção é no Notion, não aqui: `Atendimento 2025` deveria ser `relation` também.**
+     **É uma mudança de schema de terceiro — decisão do Atendimento.**
+609. 🔴 **Quem é `Paulinha`?** Aparece só em `Laura + Paulinha`, opção do `select`, e **não existe
+     na base de pessoas nem no corpus.** ⚠ **Não é a `Paula Dorsch` (Inativo, Marketing)** — não
+     afirmo que seja, é indício de apelido, não prova.
+610. 🔴 **7 clientes têm `SMB` no campo de atendimento** — segmento, não pessoa. Confirma o
+     item 600 com a leitura do schema: **é valor válido do `select`**, ou seja, **a origem
+     permite, por desenho, preencher responsável com um segmento.**

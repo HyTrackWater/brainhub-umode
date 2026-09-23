@@ -15,7 +15,13 @@ Rafael Del Gaudio Renaldim
 ### Nome preferido / como é chamado(a)
 [a preencher]
 ### Email
-[a preencher]
+**`rafael@umode.com.br`** — e-mail **corporativo**, da base de pessoas do Notion (`collection://c82a689c…`, a mesma que o campo `Atendimento 2024` do `Mapa de Clientes` aponta), lida em 23/09/2026.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+⚠ `Função` na origem: **Head de CX** · `Área`: **Operação** · `Situação`: **Inativo**.
+
+⚠ **A mesma origem traz telefone, endereço com CEP e data de nascimento — `T0`, nenhum copiado.** Registro que existem e onde.
 ### Cadeira / cargo atual
 ⚠ **Não se aplica — a pessoa saiu.** A ata de **07 jun 2024** o registra como **Gerente de Experiência do Cliente**; o CRM o registra como Key Account · Consultor(a) de Negócios (papel conforme o campo em que a pessoa aparece no CRM "Mapa de Clientes" — não é a mesma coisa que Cadeira do organograma, ver protocolo-gestao-pessoas.md)
 ### Nível HIC

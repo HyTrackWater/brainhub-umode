@@ -15,7 +15,13 @@ Dalker Walter
 ### Nome preferido / como é chamado(a)
 [a preencher]
 ### Email
-[a preencher]
+**`dalker@umode.com.br`** — e-mail **corporativo**, da base de pessoas do Notion (`collection://c82a689c…`, a mesma que o campo `Atendimento 2024` do `Mapa de Clientes` aponta), lida em 23/09/2026.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+⚠ `Situação`: **Inativo**.
+
+⚠ **A mesma origem traz telefone, endereço com CEP e data de nascimento — `T0`, nenhum copiado.** Registro que existem e onde.
 ### Cadeira / cargo atual
 ⚠ **Não se aplica — a pessoa saiu.** **O cargo que a fonte registra é `Diretor de Operações`, e vale para 07 jun 2024**, não para hoje.
 ### Nível HIC

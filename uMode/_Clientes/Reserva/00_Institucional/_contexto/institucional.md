@@ -38,7 +38,7 @@ tags:
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 13 pessoas com ficha própria no corpus — [base Segmentação Grupos · 2026-09-21]
-- atendimento: Fernanda — [base Mapa de Clientes · 2026-09-21]
+- atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
 - tamanho-atendimento: Grupo Enterprise · WIP Estratégico 6,00 · Fernanda, que atende as 3 contas — [base Segmentação Grupos · 2026-09-21]
 
 ## Identidade

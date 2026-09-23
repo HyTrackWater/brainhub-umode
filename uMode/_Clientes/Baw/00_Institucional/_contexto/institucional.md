@@ -39,7 +39,7 @@ tags:
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 3 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: Laura — [varredura do Notion · 2026-09-22]
+- atendimento: pessoa:laura.delgado@umode.com.br — [varredura do Notion · 2026-09-22]
 - tamanho-atendimento: Laura, com 5 contas — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve

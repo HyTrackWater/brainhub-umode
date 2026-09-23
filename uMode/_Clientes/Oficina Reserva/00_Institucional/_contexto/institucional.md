@@ -33,7 +33,7 @@ tags:
 - indice-reajuste: ? — [sem fonte]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
-- atendimento: Fernanda — [base Mapa de Clientes · 2026-09-21]
+- atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
 - tamanho-atendimento: Grupo Enterprise · WIP 6,00 · Fernanda, com 3 contas — [varredura do Notion · 2026-09-21]
 
 ## Identidade

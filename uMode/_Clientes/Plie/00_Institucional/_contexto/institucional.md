@@ -38,7 +38,7 @@ tags:
 - indice-reajuste: ? — [sem fonte]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 3 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: Laura — [varredura do Notion · 2026-09-22]
+- atendimento: pessoa:laura.delgado@umode.com.br — [varredura do Notion · 2026-09-22]
 - tamanho-atendimento: ? — [sem fonte]
 
 ## ⚠ O que este documento NÃO resolve

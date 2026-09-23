@@ -39,7 +39,8 @@ tags:
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 42 internos — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 30 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: Julianne & Pedro — [varredura do Notion · 2026-09-22]
+- atendimento: pessoa:julianne.dias@umode.com.br — [varredura do Notion · 2026-09-22]
+- atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
 - tamanho-atendimento: ? — [sem fonte]
 
 ## ⚠ O que este documento NÃO resolve

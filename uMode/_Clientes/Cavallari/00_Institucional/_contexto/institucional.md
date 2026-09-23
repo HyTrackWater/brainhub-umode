@@ -39,7 +39,7 @@ tags:
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: ? — [sem fonte]
-- atendimento: SMB — [base Segmentação Grupos · 2026-09-22]
+- atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
 - tamanho-atendimento: Grupo SMB · WIP Estratégico 1,75 · sem pessoa de atendimento nomeada — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve

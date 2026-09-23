@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **598** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **606** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -330,10 +330,21 @@ contra `## Fatos`, nunca contra a prosa.** Formato travado no
 | chaves de vocabulário fechado | **26** |
 | nomes indexados por e-mail, tirados do próprio corpus | **617** |
 
-🔴 **E o bloqueio que isso revelou: NENHUM dos 49 valores de `atendimento` resolve para
-e-mail.** O CRM guarda primeiro nome (`Laura`, `Fernanda`, `Julianne + Pedro`) e os 3 nomes
-completos têm ficha **sem e-mail**. ⚠ **A Julianne é a Key Account da CAEDU** — o cliente do
-teste da semana que vem. **Itens 598–599.**
+🟢 **E a identidade fechou.** O bloqueio era que nenhum dos 49 valores de `atendimento`
+resolvia para e-mail. **Achei a base de pessoas que faltava** — `collection://c82a689c…`, a que o
+campo `Atendimento 2024` aponta, **e que não é a `uModers`** — e preenchi 16 fichas da Casa.
+
+| `atendimento` nos 49 clientes | |
+|---|---:|
+| 🟢 resolvido para `pessoa:<e-mail>` | **19** |
+| 🔴 **ambíguo, e eu NÃO escolhi** — `Pedro` (6), `Fernanda` (3) | **9** |
+| ⚠ `SMB` — segmento, não pessoa | 7 |
+| campo vazio na origem | 24 |
+
+🟢 **A CAEDU resolve ponta a ponta:** `julianne.dias@` · `pedro.murillo@` · `andrea.holmer@`.
+🔴 **E a Andrea está `Inativo` na base** — no cliente do teste da semana que vem (item 605).
+🔴 **`Atendimento 2025` é `select`, não `relation`** — enquanto for, nunca vai resolver
+sozinho (item 608). **Itens 598–610.**
 
 **Dono:** `scripts/gera-fatos.py` · **Guarda:** `scripts/valida-fatos.py` (acusa chave fora do
 vocabulário, forma e data inválidas — **não corrige**). **Rodar entre `gera-conexoes.py` e

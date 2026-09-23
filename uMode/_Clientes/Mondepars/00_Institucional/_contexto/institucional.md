@@ -38,7 +38,7 @@ tags:
 - indice-reajuste: ? — [sem fonte]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 10 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: SMB — [base Segmentação Grupos · 2026-09-22]
+- atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
 - tamanho-atendimento: Grupo SMB · WIP Estratégico 1,75 · sem pessoa de atendimento nomeada — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve

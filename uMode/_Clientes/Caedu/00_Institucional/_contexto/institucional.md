@@ -39,9 +39,9 @@ tags:
 - indice-reajuste: IGPM / IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 65 internos + 100 externos — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 93 usuários com e-mail na tabela do PLM, em 14 perfis de acesso — [export de CRM · 2026-09-21]
-- atendimento: Julianne Dias Rodrigues — [nao resolvido: ficha sem e-mail]
-- atendimento: Pedro Murillo — [nao resolvido: ficha sem e-mail]
-- atendimento: Andrea Goulart Holmer dos Santos — [nao resolvido: ficha sem e-mail]
+- atendimento: pessoa:julianne.dias@umode.com.br — [export de CRM · 2026-09-21]
+- atendimento: pessoa:pedro.murillo@umode.com.br — [export de CRM · 2026-09-21]
+- atendimento: pessoa:andrea.holmer@umode.com.br — [export de CRM · 2026-09-21]
 - tamanho-atendimento: P — [base Mapa de Clientes · 2026-09-21]
 
 ## Identidade

@@ -88,11 +88,12 @@ RE_H1       = re.compile(u"^# (.+)$", re.M)
 
 # ----------------------------------------------------- identidade por E-MAIL
 _PESSOAS = None
+_CASA_PRIMEIRO = {}
 
 
 def indice_pessoas():
     u"""nome normalizado -> conjunto de e-mails. Construido do proprio corpus."""
-    global _PESSOAS
+    global _PESSOAS, _CASA_PRIMEIRO
     if _PESSOAS is not None:
         return _PESSOAS
     _PESSOAS = {}
@@ -136,14 +137,27 @@ def indice_pessoas():
                         nomes.add(linha.lower())
             for n in nomes:
                 _PESSOAS.setdefault(n, set()).add(email)
+                # O campo `atendimento` do CRM guarda PRIMEIRO NOME ("Laura",
+                # "Julianne"). Indexar o primeiro nome permite resolver quando
+                # ele e unico - e acusar ambiguidade quando nao e, que e o
+                # comportamento que o protocolo exige. O escopo e a Casa
+                # porque atendimento e, por definicao, pessoa da uMode; isso
+                # sai da estrutura do corpus, nao de nome nenhum no codigo.
+                if u"_Clientes" not in dirpath:
+                    primeiro = n.split(u" ")[0]
+                    if len(primeiro) > 2:
+                        _CASA_PRIMEIRO.setdefault(primeiro, set()).add(email)
     return _PESSOAS
 
 
-def resolve_pessoa(nome):
+def resolve_pessoa(nome, casa=False):
     u"""'pessoa:<email>' | None se nao achou | '' se ambiguo (NAO escolhe)."""
     if not nome:
         return None
-    emails = indice_pessoas().get(nome.strip().lower())
+    chave = nome.strip().lower()
+    emails = indice_pessoas().get(chave)
+    if not emails and casa:
+        emails = _CASA_PRIMEIRO.get(chave.split(u" ")[0])
     if not emails:
         return None
     if len(emails) > 1:
@@ -325,6 +339,10 @@ def monta_bloco(txt):
         # `pessoa:<email>`. Identidade por e-mail - nunca por nome.
         if chave == u"atendimento":
             itens = [limpa(l[2:]) for l in linhas_de_valor(corpo) if l.startswith(u"- ")]
+            if not itens and (u"+" in v or u"&" in v):
+                itens = [x.strip() for x in re.split(u"[+&]", v) if x.strip()]
+            elif not itens:
+                itens = [v]
             # NAO se quebra prosa em nomes. Fatiar "Julianne e Pedro (Key Account)
             # sendo que X" por virgula e " e " produz "lido", "isso", "SMB" - lixo
             # com cara de identidade, que e pior que nao resolver. Sem item de
@@ -334,7 +352,7 @@ def monta_bloco(txt):
                 nome = encurta(it)
                 if not nome or vazio(nome):
                     continue
-                r = resolve_pessoa(nome)
+                r = resolve_pessoa(nome, casa=True)
                 emitiu = True
                 if r:
                     emite(chave, r, fonte, data)
@@ -342,7 +360,7 @@ def monta_bloco(txt):
                     fatos.append(u"- %s: %s %s [ambiguo: mais de um e-mail para este nome]"
                                  % (chave, nome, TRACO))
                 else:
-                    fatos.append(u"- %s: %s %s [nao resolvido: ficha sem e-mail]"
+                    fatos.append(u"- %s: %s %s [nao resolvido: sem ficha com e-mail para este nome]"
                                  % (chave, nome, TRACO))
             if emitiu:
                 continue
@@ -426,9 +444,9 @@ def main():
                     continue
                 if ln.endswith(u"[sem fonte]"):
                     sem_fonte += 1
-                elif ln.endswith(u"e este nome]"):
+                elif u"[ambiguo:" in ln:
                     ambiguo += 1
-                elif ln.endswith(u"ficha sem e-mail]"):
+                elif u"[nao resolvido:" in ln:
                     nao_res += 1
 
     w = sys.stdout.write
@@ -438,7 +456,7 @@ def main():
     w(u"  com fonte        : %d\n" % (total - sem_fonte - ambiguo - nao_res))
     w(u"  SEM fonte        : %d  <- lacuna declarada, nao erro\n" % sem_fonte)
     w(u"  pessoa ambigua   : %d  <- nao escolhi: vira pendencia\n" % ambiguo)
-    w(u"  pessoa sem e-mail: %d  <- ficha existe, identidade nao fecha\n" % nao_res)
+    w(u"  sem ficha        : %d  <- nenhuma ficha com e-mail para este nome\n" % nao_res)
     w(u"pessoas indexadas  : %d nomes com e-mail unico\n"
       % len([k for k, v in indice_pessoas().items() if len(v) == 1]))
 

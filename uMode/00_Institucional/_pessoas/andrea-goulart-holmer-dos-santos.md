@@ -15,7 +15,13 @@ Andrea Goulart Holmer dos Santos
 ### Nome preferido / como é chamado(a)
 Andrea Holmer
 ### Email
-[a preencher]
+**`andrea.holmer@umode.com.br`** — e-mail **corporativo**, da base de pessoas do Notion (`collection://c82a689c…`, a mesma que o campo `Atendimento 2024` do `Mapa de Clientes` aponta), lida em 23/09/2026.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+⚠ `Função` na origem: **Key Account** · `Área`: **Operação** · `Situação`: **Inativo**.
+
+⚠ **A mesma origem traz telefone, endereço com CEP e data de nascimento — `T0`, nenhum copiado.** Registro que existem e onde.
 ### Cadeira / cargo atual
 Key Account (confirmado via CRM "Mapa de Clientes" e histórico de demandas/reuniões dos 4
 clientes-piloto)

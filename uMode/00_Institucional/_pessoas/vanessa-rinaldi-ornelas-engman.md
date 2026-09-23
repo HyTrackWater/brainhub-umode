@@ -15,7 +15,13 @@ Vanessa Rinaldi Ornelas Engman
 ### Nome preferido / como é chamado(a)
 Vanessa Rinaldi
 ### Email
-[a preencher]
+**`vanessa.rinaldi@umode.com.br`** — e-mail **corporativo**, da base de pessoas do Notion (`collection://c82a689c…`, a mesma que o campo `Atendimento 2024` do `Mapa de Clientes` aponta), lida em 23/09/2026.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+⚠ `Função` na origem: **Consultora** · `Área`: **Operação** · `Situação`: **Ativo**.
+
+⚠ **A mesma origem traz telefone, endereço com CEP e data de nascimento — `T0`, nenhum copiado.** Registro que existem e onde.
 ### Cadeira / cargo atual
 Lidera Qualificação (Vendas) e co-lidera Gestão de Contrato/Onboarding — confirmado no
 organograma v2.2 (Design Org & Metas 2026). No CRM "Mapa de Clientes", aparece como
