@@ -11,6 +11,24 @@ tags:
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: 8 pessoas com perfil Caedu- Planejamento — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+- entrega: Criação dos produtos da coleção · importação de planilha base — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Sortimento e faixa de preço · definidos na planilha — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Campos obrigatórios iniciais · Nome, Linha, Origem, Departamento — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Necessita padronização e conferência para evitar duplicidade — é o ponto crítico declarado no mapeamento de conta — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Macroplan pouco explorado. Não há uso efetivo de um fluxo macro para agrupar coleções, o que gera risco de *overlap* entre produto Nacional e Importado — [Mapeamento de Contas - Caedu · 2025-04-04]
+
 ## O que esta área faz
 É a **porta de entrada do fluxo**. O time de Planejamento ou os Gerentes de Produto importam a
 planilha base que cria os produtos da coleção no PLM, com os campos obrigatórios iniciais:

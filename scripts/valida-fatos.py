@@ -24,7 +24,8 @@ PROTO = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_protocolos",
                      u"protocolo-fato-atomico.md")
 
 RE_LINHA = re.compile(u"^- ([a-z0-9-]+): (.+?) — \\[(.+)\\]$")
-RE_DATA = re.compile(u"^\\d{4}-\\d{2}-\\d{2}$")
+# AAAA-MM-DD, ou AAAA-MM quando a fonte so diz o mes (protocolo secao 2).
+RE_DATA = re.compile(u"^\\d{4}-\\d{2}(-\\d{2})?$")
 RE_CHAVE_TABELA = re.compile(u"^\\| `([a-z0-9-]+)`(?: · `([a-z0-9-]+)`)? \\|", re.M)
 
 

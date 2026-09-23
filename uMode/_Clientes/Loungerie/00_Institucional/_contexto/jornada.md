@@ -11,6 +11,20 @@ tags:
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: ? — [sem fonte]
+- fase: Onboarding. Única conta neste momento da jornada — [varredura do Notion · 2026-09-22]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2026-04-17]
+- marco: Última edição — a mais recente de toda a base de clientes — [idem · 2026-09-02]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **ESTA CASA ACABOU DE SER CRIADA.** A Loungerie **existia na base `Mapa de Clientes` e não tinha casa no corpus** — lacuna registrada desde a varredura de 21/09/2026 e **fechada agora**.
 - 🔴 **A página do cliente não foi varrida.**

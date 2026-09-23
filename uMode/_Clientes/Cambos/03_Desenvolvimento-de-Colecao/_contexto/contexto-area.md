@@ -17,6 +17,19 @@ tags:
 >
 > **E há um agravante:** o cliente declarou que **não tem coleção definida**.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção · Integração · Relatórios — [sem fonte]
+- pessoas-da-area: Nenhuma nesta área canônica — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+
 ## O que esta área faz
 `[a preencher]`
 

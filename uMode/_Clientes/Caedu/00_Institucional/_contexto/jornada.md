@@ -12,6 +12,56 @@ tags:
 > o `Mapeamento de Contas - Caedu`, as **50+ atas** de weekly da conta e a pasta `caedu` do vault.
 > Campo sem fonte fica `[a preencher]` — nada foi inferido.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing — [base Mapa de Clientes · 2026-09-21]
+- fase: uFlow em regime, com uma frente de onboarding remanescente — [base Mapa de Clientes · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
+- modulo-em-uso: Integração — [base Mapa de Clientes · 2026-09-21]
+- modulo-em-uso: Relatórios — [base Mapa de Clientes · 2026-09-21]
+- modulo-em-uso: Fornecedores — [base Mapa de Clientes · 2026-09-21]
+- metrica: 84% do fitting acontece dentro do uMode — [Mapeamento de Contas - Caedu · 2025-04-04]
+- metrica: 5% são licenciados — [Mapeamento de Contas - Caedu · 2025-04-04]
+- marco: Conta de API criada (api-caedu@umode.app) — indício mais antigo de operação — [tabela de usuários do PLM · 2022-10-05]
+- marco: Primeiro usuário humano ativo na conta — [tabela de usuários do PLM · 2023-07-21]
+- marco: Onda de ativação do time de Estilo (vários usuários em 04–06/09) — [tabela de usuários do PLM · 2023-09]
+- marco: Início das weeklies registradas em ata e dos Comitês (13/05 e 29/05) — [atas · 2024-06]
+- marco: Reunião de dúvidas técnicas — [ata · 2024-06-20]
+- marco: Registro de atraso para liberar perfil de teste de fornecedor — [página Fornecedores da Caedu · 2024-08-02]
+- marco: Reunião com TI de e-commerce — árvore de categoria — [ata · 2024-10-22]
+- marco: Alinhamento do botão de exibição do Mapa — [ata · 2024-12-13]
+- marco: Mapeamento de Conta concluído (AS IS / TO BE + roadmap) — [Mapeamento de Contas - Caedu · 2025-04-04]
+- marco: Alinhamento de expectativas — [ata · 2025-04-29]
+- marco: Alinhamento de Compras — [ata · 2025-05-14]
+- marco: Alinhamento de Estilo — [ata · 2025-05-16]
+- marco: Alinhamento entre comercial uMode e liderança do projeto Caedu — [ata · 2025-09-23]
+- marco: Discussão Referência do Fornecedor × Referência Caedu — [ata · 2025-11-05]
+- marco: Reunião dedicada de Fornecedores — frente aberta — [ata · 2025-11-27]
+- marco: Definição de campos obrigatórios; pré-pedido com time de compras — [ata · 2026-05-13]
+- marco: Manual do iniciante apontado como material específico da conta — [ata · 2026-06-03]
+- marco: Proposta Caedu × uMode — 12 meses — [vault caedu_260600_proposta-12-meses · 2026-06]
+- marco: Visita presencial (ata destilada) — [vault, _arquivo-morto · 2026-07-28]
+- marco: Cronograma de transição PLM 2.0 e negociação — [vault caedu_260814_cronograma-plm2-e-negociacao · 2026-08-14]
+- entrega: Incluir os 4 primeiros fornecedores na plataforma e testar · em aberto — única frente declarada — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Revisar Kanban, removendo etapas inativas · ✅ concluída — a própria fonte registra "o kanban atual está simplificado" — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Limpar cadastro de fornecedores (12 mil) · responsabilidade do time Caedu (Compras); prazo previsto de 6 semanas — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Criar dashboards de piloto, repilotagem e e-commerce · previsto no roadmap; sem confirmação de entrega — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Implementar Macroplan · marcado como opcional no plano — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Treinamento do time de calçados · previsto; sem confirmação de execução — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Transição PLM 2.0 — [Mapeamento de Contas - Caedu · 2025-04-04]
+- incidente: Atraso na liberação do perfil de teste de fornecedor, por permissionamento — [sem fonte]
+- incidente: Campo de Chamado&Atendimento do CRM anotado como "Sistema saiu do ar" — [sem fonte]
+- decisao: Kanban foi simplificado — correção aplicada após o diagnóstico de abr/2025 — [base Mapa de Clientes · 2026-09-21]
+- decisao: Um usuário de domínio terceiro (@stefanini.com) tem acesso ao PLM da conta — [base Mapa de Clientes · 2026-09-21]
+- decisao: A origem do produto está na ficha, não na variante — restrição de modelo que obriga exportações extensas — [base Mapa de Clientes · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 `[a preencher]` — **a lacuna vem antes da conquista: declare aqui o que o documento não cobre, e por quê, antes de qualquer coisa que ele cobre.**
 

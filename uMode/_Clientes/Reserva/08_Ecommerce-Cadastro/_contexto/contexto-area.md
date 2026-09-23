@@ -13,6 +13,19 @@ tags:
 >
 > 🔴 **Nesta conta não existe tabela de usuários do PLM.** O vínculo pessoa↔área sai dos **nomes dos grupos de WhatsApp** e dos títulos de documento da página — **fonte mais fraca que o perfil de acesso**, e declarada como tal.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: 7 de 7 módulos contratados — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: Raquel — [corpo da página Reserva · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+
 ## O que esta área faz
 `[a preencher]` — o sinal mais forte é **"PA"**, que aparece em três nomes de grupo (*Migração PA*, *PROBLEMAS DIÁRIOS PA*). ⚠ **A sigla não é explicada em nenhuma fonte varrida e não foi inferida.**
 

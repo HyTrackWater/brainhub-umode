@@ -15,6 +15,19 @@ tags:
 >
 > **Aqui a ausência vale mais que nos outros clientes**, porque é o próprio cliente que lista — não é inferência a partir de perfil de acesso. **Ainda assim não é prova de que a área não existe**, e sim de que ela **não está engajada no projeto**.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: Nenhuma. A área não consta entre os departamentos engajados declarados pelo cliente — [planilha de contratos do Financeiro · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+
 ## O que esta área faz
 `[a preencher]`
 

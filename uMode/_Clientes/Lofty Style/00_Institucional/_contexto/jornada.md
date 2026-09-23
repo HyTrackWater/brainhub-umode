@@ -11,6 +11,45 @@ tags:
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo as duas bases de pesquisa de
 > satisfação. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 4 de 7 módulos · ERP Linx · grupo Médios · ativada em 10/02/2025 — [varredura do Notion · 2026-09-21]
+- fase: Pós-treinamento, com fila de custo travada. O treinamento de plataforma foi em out/2025 — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Cronograma — [varredura do Notion · 2026-09-21]
+- metrica: É a única conta da carteira com métrica de satisfação medida e registrada — [as duas bases de pesquisa · 2026-09-21]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2023-12-22]
+- marco: Data de ativação do cliente — [idem · 2025-02-10]
+- marco: Kick-off presencial — e pesquisa de satisfação com 7 pessoas — [base Pesquisa Satisfação Kick Off · 2025-03-07]
+- marco: Treinamento de plataforma — e pesquisa com 12 pessoas — [base Pesquisa Satisfação Treinamento · 2025-10-09]
+- marco: Atualização de Projeto — [página Lofty Style — não lida · 2026-01-12]
+- marco: 15 chamados de 6 pessoas — 12 ficam abertos — [Chamados & Atendimentos · 2026-01-29]
+- marco: Atualização de Projeto — [página Lofty Style — não lida · 2026-01-29]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-08-10]
+- entrega: Documentação oficial de integração em docs.umode.app · ✅ publicada · 🚨 senha exposta — [corpo da página Lofty Style · 2026-09-21]
+- entrega: Lofty Style \ · Cronograma — [corpo da página Lofty Style · 2026-09-21]
+- entrega: Lofty Style \ · OKRs — [corpo da página Lofty Style · 2026-09-21]
+- entrega: Lofty Style \ · Gestão da Implantação — [corpo da página Lofty Style · 2026-09-21]
+- entrega: Lofty Style \ · Integração — [corpo da página Lofty Style · 2026-09-21]
+- entrega: Material Treinamento Go Light uFlow · entregue out/2025, não varrido — [corpo da página Lofty Style · 2026-09-21]
+- entrega: Tratamento de NCM e Código CEST · página existe, não varrida — [corpo da página Lofty Style · 2026-09-21]
+- incidente: Relatório de custo com valores diferentes no Linx e uMode — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Mapa de coleções filtrado exibe informações diferentes no cartão — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Custos diferentes — *"se isso se enquadra nos retroativos"* — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Material travado — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Custo · mais uma instabilidade — [Chamados & Atendimentos · 2026-09-21]
+- incidente: 3 chamados — tarefa/config e usabilidade — [Chamados & Atendimentos · 2026-09-21]
+- incidente: 2 chamados de instabilidade — [Chamados & Atendimentos · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 - **As duas páginas de permissionamento não foram abertas** — e são **duas**, uma no Notion e
   uma no Google, **sobre o mesmo assunto**. **Qual é a autoridade é pergunta em aberto.**

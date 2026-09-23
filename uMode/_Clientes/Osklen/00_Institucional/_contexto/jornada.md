@@ -10,6 +10,41 @@ tags:
 
 > **Reescrito em 22 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Operação Assistida · 5 de 7 módulos · ERP Linx · grupo Médios — [varredura do Notion · 2026-09-22]
+- fase: Conta com o maior kick-off da carteira — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Cronograma — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-22]
+- metrica: Pesquisa de satisfação com 33 respondentes: — [varredura do Notion · 2026-09-22]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2023-12-22]
+- marco: Portal uMode \ — [Osklen criado · 2024-03-21]
+- marco: Início do uFlow — *"nova tecnologia"* — [página Osklen · 2026-09-22]
+- marco: Kick-off com 33 participantes e pesquisa de satisfação. Com fotos e vídeo. Participam SENAI CETIQT e Instituto E — [base de pesquisa · 2025-03-25]
+- marco: 1ª entrada do uFlow — ⚠ prevista com "???" — [página Osklen · 2026-09-22]
+- marco: 2ª entrada do uFlow — ⚠ prevista com "???" — [idem · 2026-09-22]
+- marco: Início do uBuy — entrega: "+d???" — [idem · 2026-09-22]
+- marco: 2 chamados — [Chamados & Atendimentos · 2026-01-28]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-09-01]
+- entrega: uFlow — 1ª entrada · jun/2025 *(com "???")* — [sem fonte]
+- entrega: uFlow — 2ª entrada · ago/2025 *(com "???")* — [sem fonte]
+- entrega: uBuy · início jan/2026, entrega "+d???" — [sem fonte]
+- entrega: Integração de Escrita — Plano de Comunicação — [sem fonte]
+- entrega: FAQ Osklen & uMode 2026 — [sem fonte]
+- entrega: Os 11 documentos de implantação — [sem fonte]
+- incidente: Chamado de USABILIDADE — caroline.dantas — [sem fonte]
+- incidente: *"Ver a possibilidade de ticar os tamanhos liberados para produção"* — marcia.lima — [sem fonte]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se as entregas do uFlow aconteceram.** A página prevê *"1ª entrada Junho 2025
   e 2ª entrada Agosto 2025"* — **com três pontos de interrogação na data** — e **nenhuma fonte

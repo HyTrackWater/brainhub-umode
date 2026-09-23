@@ -11,6 +11,43 @@ tags:
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página
 > *[Vix] Perfil de Usuário e Permissionamento*. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 4 de 7 módulos, incluindo Aposta · ERP Linx · grupo Médios — [varredura do Notion · 2026-09-21]
+- fase: Operação madura com governança de acesso muito elaborada e rastreabilidade fraca — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Aposta — [varredura do Notion · 2026-09-21]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2023-06-08]
+- marco: Portal uMode \ — [Vix criado · 2023-08-24]
+- marco: *Onboarding* e transição *Onboarding > Ongoing* — [página VIX — sem data · 2026-09-21]
+- marco: Apresentação *Vix: Atualização Junho24* — [página VIX · 2024-06]
+- marco: Última edição da página de permissionamento — [sub-página · 2025-07-09]
+- marco: Inclusão de campos na integração — mapeamento uMode ↔ Linx — [página VIX · 2025-07-31]
+- marco: 28 chamados de 13 pessoas — 16 ficam abertos — [Chamados & Atendimentos · 2026-01-29]
+- marco: VPN do cliente cai e gera 5 chamados no mesmo dia — [idem · 2026-01-08]
+- marco: Variante excluída sem autor conhecido — [idem · 2026-01-13]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-06-26]
+- entrega: Adicionar VIEW no campo descritivo — liberado pelo André, início previsto 12/01/2026 · Pendente — sem confirmação de conclusão — [sem fonte]
+- entrega: Inclusão de campos na integração (31/07/2025) · tabela existe; execução não confirmada — [sem fonte]
+- entrega: uPick Vix — passo a passo · documento existe, não varrido — [sem fonte]
+- incidente: Não recebeu o e-mail de acesso — token retido por checagem de identidade — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Queda de conexão — *"foi do lado dela"* — [Chamados & Atendimentos · 2026-09-21]
+- incidente: VPN do cliente fora do ar → 5 chamados de 4 pessoas — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Adicionar VIEW no campo descritivo — liberado pelo André — [Chamados & Atendimentos · 2026-09-21]
+- incidente: *"isso é embaraçoso"* — erro momentâneo — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Variante excluída e autor desconhecido — pediu busca no banco — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Instabilidade reportada pela caixa ecommerce@ — [Chamados & Atendimentos · 2026-09-21]
+- incidente: 8 chamados de usabilidade e instabilidade — [Chamados & Atendimentos · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 - **Não há lista nominal de usuários.** A VIX tem a matriz de permissão mais detalhada da
   carteira — **17 perfis** — e **ninguém nomeado em nenhum deles**. Metade do vínculo falta.

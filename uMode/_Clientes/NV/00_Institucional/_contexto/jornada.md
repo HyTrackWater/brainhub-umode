@@ -10,6 +10,44 @@ tags:
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 4 de 7 módulos · ERP Linx · grupo Enterprise · 61 usuários ativos — [varredura do Notion · 2026-09-21]
+- fase: Operação em alto volume, com dor de produto recorrente. É a conta com mais chamados da — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Cronograma — [varredura do Notion · 2026-09-21]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2023-06-08]
+- marco: Portal uMode \ — [NV criado · 2023-08-17]
+- marco: [NV] Fase 1 - Onboarding — [página NV — sem data na origem · 2026-09-21]
+- marco: [NV] Fase 2 - Onboarding — [idem · 2026-09-21]
+- marco: Transição Onboarding > Ongoing — [idem · 2026-09-21]
+- marco: Realinhamento Demandas NV — [idem · 2026-09-21]
+- marco: 39 chamados de 17 pessoas — o maior volume da carteira — [Chamados & Atendimentos · 2026-01-29]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-06-30]
+- entrega: Manual de descancelamento de produtos e variantes · ✅ existe — mas é contorno, não solução — [sem fonte]
+- entrega: NV \ · Variántes Canceladas Inativas — [sem fonte]
+- entrega: NV \ · Importação Programação — [sem fonte]
+- entrega: NV \ · Proposta de comunicação — [sem fonte]
+- entrega: NV \ · Relatórios (Google Sheets) — [sem fonte]
+- incidente: 3 pessoas pedem *Cadastrar opção* no mesmo dia — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Erro ao inserir foto — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Descancelar produto ×2 — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Forçar integração ×2 — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Valores de custo diferentes entre Linx e uMode — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Valores diferentes após atualizar conversão no Linx — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Material travado — [Chamados & Atendimentos · 2026-09-21]
+- incidente: 4 chamados BURLAR PROCESSO sem título — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Opção de campo custom incorreta gerando erro de integração — [Chamados & Atendimentos · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 - **Não há base de atas nesta conta.** Puket tem 23, Reserva tem *Reuniões & Demandas*.
   Na NV **não encontrei registro de reunião recorrente na página do cliente** — o que não

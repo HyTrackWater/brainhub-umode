@@ -10,6 +10,42 @@ tags:
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 5 de 7 módulos · ERP SAP e Linx · grupo Enterprise — [varredura do Notion · 2026-09-21]
+- fase: Conta de grupo, com escopo que cresceu e desfecho não registrado. Entrou como — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Cronograma — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-21]
+- metrica: "Rodando no uMode em 6 meses", resolvendo as dores 1 e 2 — prazo: dez/2024 — [varredura do Notion · 2026-09-21]
+- metrica: Indicadores pedidos: status de lacre · desenvolvimento de MP · mostruário · — [varredura do Notion · 2026-09-21]
+- marco: Call de Sales — João registra no grupo: marca do Grupo AR&CO, entra sem valor adicional, começa apenas com uFlow. Dores, indicadores e critério de sucesso levantados na mesma call — [mensagem na página · 2024-06-26]
+- marco: Linha do cliente criada no Notion — um dia depois — [base Mapa de Clientes · 2024-06-27]
+- marco: Kick-off interno — [título de seção na página · 2024-07-01]
+- marco: Kick-off com o cliente — [idem · 2024-07-12]
+- marco: Prazo declarado para estar "rodando no uMode" — 6 meses a partir da call — [mensagem de Sales · 2024-12]
+- marco: Escopo cresce de *"apenas uFlow"* para 5 módulos — [base Mapa de Clientes · 2026-09-21]
+- marco: 7 chamados de 3 pessoas — [Chamados & Atendimentos · 2026-01-29]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-06-30]
+- entrega: Estar "rodando" no uMode em 6 meses · prazo vencido em dez/2024 · desfecho não registrado — [sem fonte]
+- entrega: MVP para implementação rápida — [sem fonte]
+- entrega: Definição da integração e dos reports (Holmer) — [sem fonte]
+- entrega: Definição de celebração ao atingir o sucesso — [sem fonte]
+- entrega: Lançamento de marca feminina começando no uMode — [sem fonte]
+- incidente: Chamado de INSTABILIDADE — joyce.dias — [Chamados & Atendimentos · 2026-09-21]
+- incidente: 3 chamados de TAREFA/CONFIG — pamela.sanzana — [Chamados & Atendimentos · 2026-09-21]
+- incidente: OUTROS — joyce.dias — [Chamados & Atendimentos · 2026-09-21]
+- incidente: INSTABILIDADE — mariane.araujo — [Chamados & Atendimentos · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se o objetivo de 6 meses foi atingido.** A meta era estar *"rodando no uMode"*
   até **dez/2024**, resolvendo as dores 1 e 2. **Nenhuma fonte varrida registra o desfecho**, e

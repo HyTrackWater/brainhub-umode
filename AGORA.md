@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **616** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **622** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -314,8 +314,9 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
 
 ## 6-bis · 🟢 A camada de fato atômico (23 set 2026)
 
-**O que mudou:** cada `institucional.md` ganhou um bloco **`## Fatos`** no topo —
-**826 fatos em 49 arquivos**, no formato `- chave: valor — [fonte · data]`.
+**O que mudou:** os MDs de entidade ganharam um bloco **`## Fatos`** no topo —
+**3.393 fatos em 769 arquivos** (`institucional.md` 49 · `jornada.md` 48 ·
+`contexto-area.md` 672), no formato `- chave: valor — [fonte · data]`.
 
 🔴 **Decisão de desenho, e ela vale para todo MD de entidade daqui em diante:
 o fato NÃO substitui a prosa — convive com ela.** A prosa é para pessoa (contexto,
@@ -325,10 +326,11 @@ contra `## Fatos`, nunca contra a prosa.** Formato travado no
 
 | | |
 |---|---:|
-| fatos com fonte e data | **424** (51%) |
-| 🔴 fatos `[sem fonte]` — **ninguém procurou** | **397** (48%) |
+| fatos com fonte e data | **1.143** (34%) |
+| 🔴 fatos `[sem fonte]` — **ninguém procurou** | **2.232** (66%) |
+| 🟢 **CAEDU** — 142 fatos em 16 arquivos | **78% com procedência** |
 | 🟢 **ausência VERIFICADA** — `[não consta em: X · data]` | **2** — só a CAEDU |
-| chaves de vocabulário fechado | **26** |
+| chaves de vocabulário fechado | **35** |
 | nomes indexados por e-mail, tirados do próprio corpus | **617** |
 
 🟢 **E a identidade fechou.** O bloqueio era que nenhum dos 49 valores de `atendimento`

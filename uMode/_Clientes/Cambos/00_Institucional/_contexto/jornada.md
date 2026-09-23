@@ -10,6 +10,42 @@ tags:
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 3 de 7 módulos · ERP declarado na base: SPI · grupo Médios — [varredura do Notion · 2026-09-21]
+- fase: Conta implantada com discovery completo e instrumentação de projeto acima da média — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- metrica: O cliente definiu três métricas, sucesso E fracasso — o único caso da carteira com — [*Definições do Projeto* · 2026-09-21]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2024-05-08]
+- marco: Discovery de Sales — 10 perguntas respondidas, com volumes e nota do processo — [página Cambos · 2026-09-21]
+- marco: Kick-off interno — gravado em vídeo — [idem · 2026-09-21]
+- marco: Warm-up com cliente — com feedback interno registrado — [idem · 2026-09-21]
+- marco: Kick-off presencial com o cliente — [idem · 2026-09-21]
+- marco: Playbook homologado, produzido com IA + Doc Laura — [idem · 2026-09-21]
+- marco: 11 chamados, 7 ficam abertos — [Chamados & Atendimentos · 2026-01-29]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-06-30]
+- entrega: Playbook Cambos · ✅ existe · não varrido — [sem fonte]
+- entrega: Playbook \ · Treinamento > IA + Doc Laura — [sem fonte]
+- entrega: Diagnóstico e Reconhecimento · existe · não varrido — [sem fonte]
+- entrega: Perfil de Usuário e Permissionamentos · existe · não varrido — [sem fonte]
+- entrega: Cambos \ · Análise de Demandas — [sem fonte]
+- entrega: Integração · existe · não varrido — [sem fonte]
+- entrega: Plano de Sucesso do Cliente · Google Drive · não varrido — [sem fonte]
+- entrega: Relatórios (2 a 3) · "não detalhados no contrato, porém subentendido" — [sem fonte]
+- incidente: Chamado de TAREFA/CONFIG — carolina@ — [sem fonte]
+- incidente: 6 chamados de Carolina — tarefa/config, bug e usabilidade — [sem fonte]
+- incidente: 4 chamados de INSTABILIDADE de pamela@souzacambos.com.br — [sem fonte]
+- incidente: INSTABILIDADE pela caixa atendimento@cambos.com.br — [sem fonte]
+
 ## ⚠ O que este documento NÃO resolve
 - **Quase nada tem data.** Discovery, kick-off interno, warm-up e kick-off presencial existem
   como blocos **sem data escrita**. **A jornada desta conta é rica em conteúdo e pobre em tempo.**

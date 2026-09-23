@@ -11,6 +11,27 @@ tags:
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Sem CS · Gestão de Coleção · Integração · Relatórios · Fornecedores — [varredura do Notion · 2026-09-22]
+- fase: Operação ativa com classificação inconsistente. 9 chamados em 24 dias — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-22]
+- modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-22]
+- incidente: 3 chamados — tarefa/config e instabilidade — [sem fonte]
+- incidente: Fotos do produto sumiram — domínio externo — [sem fonte]
+- incidente: Material travado — [sem fonte]
+- incidente: Novo acesso — [sem fonte]
+- incidente: 2 chamados — [sem fonte]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.**
 - 🔴 **Não sei por que esta conta está classificada como `Sem CS`** — ela quebra o padrão em todos os campos.

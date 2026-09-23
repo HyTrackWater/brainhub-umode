@@ -15,6 +15,19 @@ tags:
 >
 > **A fonte é a mensagem do João no grupo de Sales, de 26/06/2024**, que levantou as dores por área. **É fonte rica em conteúdo e pobre em nome** — descreve o que cada função sofre, e **não diz quem é.**
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [sem fonte]
+- responsavel-area: ? — [sem fonte]
+
 ## O que esta área faz
 🔴 **A auditoria de qualidade é feita por uma empresa externa: a Qualitá.**
 

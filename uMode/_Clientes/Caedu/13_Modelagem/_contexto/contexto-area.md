@@ -11,6 +11,23 @@ tags:
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: 4 pessoas com perfil Caedu-Modelagem — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+- entrega: Aprovação de piloto · checklist de aprovação + motivo — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Tabela de medidas · aba Tabela de Medidas da ficha — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Repilotagem · novo ciclo de aprovação — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: O tempo de repilotagem não é visível em relatório. As aprovações estão no sistema, mas o indicador de quanto tempo leva uma repilotagem não existe — está no plano de ação como dashboard a criar — [Mapeamento de Contas - Caedu · 2025-04-04]
+
 ## O que esta área faz
 Aprova amostras e **pilotos** no fluxo de produto nacional, incluindo **repilotagem** quando
 necessário. Mantém a tabela de medidas e o checklist de aprovação.

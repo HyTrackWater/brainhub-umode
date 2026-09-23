@@ -11,6 +11,25 @@ tags:
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção + Integração — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: 22 pessoas com perfil Caedu-Produto — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+- entrega: Produto liberado para pedido · Liberado para emissão — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Envio ao ERP · Integração Linx — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Propriedades do importado · Produto repeat ou com tabela? — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Falta de relatório unificado que mostre, por departamento, o que está pendente. É a dor mais citada da área — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Possível overlap entre a visão de desenvolvimento Nacional e Importado — consequência do Macroplan subutilizado — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Origem vive na ficha, não na variante — como o acompanhamento é por variante, obriga exportações extensas no mapa — [Mapeamento de Contas - Caedu · 2025-04-04]
+
 ## O que esta área faz
 Conduz o produto da aprovação de Estilo até a **liberação para emissão de pedido**. O fluxo
 **bifurca pela origem** definida em Estilo:

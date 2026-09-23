@@ -11,6 +11,25 @@ tags:
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: 1 pessoa com perfil Caedu-E-commerce — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+- entrega: SEO, título e descrição · ficha preenchida em Estilo — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Imagens · aba Imagens da ficha — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Atributos de Visual Merchandising · campos de VM — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Árvore de categoria · alinhada com TI da Caedu — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Granularidade de e-commerce exige mais disciplina — SEO e visual merchandising estão entre os campos declarados como subutilizados — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Não há relatório que mostre quais produtos têm SEO e VM preenchidos e quais não têm. Está no plano de ação como dashboard a criar — [Mapeamento de Contas - Caedu · 2025-04-04]
+
 ## O que esta área faz
 Consome os campos de e-commerce preenchidos em `02_Estilo-Criacao` — **SEO, título, descrição,
 imagens e atributos de Visual Merchandising** — e cuida da árvore de categoria do site.

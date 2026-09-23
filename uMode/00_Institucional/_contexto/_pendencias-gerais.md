@@ -3802,3 +3802,35 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      quatro módulos funcionais** (Gestão de Coleção, Integração, Relatórios, Fornecedores).
      🔴 **Confirma que a taxonomia de módulo mudou de nome-de-produto para funcional** entre
      março e setembro de 2026 — e **nenhuma das duas listas é "a certa": são instantes diferentes.**
+
+## A camada de fato chega às áreas e à jornada (23 set 2026)
+
+621. 🟢 **O `## Fatos` saiu de 49 arquivos para 769.** Cobria só `institucional.md`; agora cobre
+     também **`jornada.md` (48)** e **`contexto-area.md` (672)**. **3.393 fatos**, 35 chaves de
+     vocabulário fechado. 🔴 **Era pré-condição do moedor:** uma transcrição da Julianne fala de
+     **área** e de **pessoa**, e até agora não havia superfície de cruzamento nesses arquivos.
+622. 🟢 **A tabela `Marcos da jornada` já era fato atômico e ninguém tinha visto.** As colunas são
+     `Quando | Marco | Fonte` — **data, valor e procedência, por linha, escritas à mão.**
+     A CAEDU rendeu **20 marcos com fonte e data individuais**, de 05/10/2022 a 14/08/2026.
+     ⚠ **O mesmo vale para a tabela `Procedência deste documento`**, que mapeia bloco → fonte →
+     data: passou a ser a procedência **por chave** do `contexto-area.md`, em vez de herança de
+     cabeçalho. **É procedência que o corpus escreveu, não heurística minha.**
+623. 🟢 **Data parcial passou a ser permitida:** a fonte diz *"set/2023"*, o fato diz `2023-09`.
+     **Completar o dia seria inventar; descartar o mês seria perder precisão que a fonte tem.**
+     Protocolo § 2 e `valida-fatos.py` atualizados juntos.
+624. 🟢 **CAEDU: 142 fatos em 16 arquivos, 78% com procedência.** 🔴 **Os 31 `[sem fonte]` estão
+     concentrados nas 7 áreas sem perfil de acesso no PLM** — PCP, Logística, Comercial,
+     Marketing, Financeiro, Design e Engenharia, **3 fatos cada, todos vazios.**
+     ⚠ **Não é ruído espalhado: é a mesma raiz já registrada.** Ou a área não existe na Caedu, ou
+     existe e não usa o PLM — **e essa pergunta agora tem consequência medível.**
+625. 🔴 **No corpus inteiro, 66% dos fatos saem `[sem fonte]`** (2.232 de 3.393). ⚠ **A queda de
+     50% para 66% é efeito de cobertura, não de piora:** os 672 `contexto-area.md` entraram quase
+     todos vazios. **É a medida honesta de quanto do cérebro ainda não tem procedência.**
+626. 🔺 **Três defeitos meus, achados pelos próprios dados antes de commitar:**
+     **(a)** eu mapeava a coluna `Situação` / `Validação que a controla` como **fonte** — não é:
+     descreve a entrega, não diz de onde veio. **Tratar coluna assim como fonte é mentir.**
+     **(b)** o cortador de seções só lia `##`, e as **Dores vivem num `###`** dentro de
+     `## Padrões operacionais` — perdia todas.
+     **(c)** linha de tabela herdava o cabeçalho do documento; **as entregas de um `jornada.md`
+     não vieram da base que atualizou o cabeçalho.** Agora tabela sem coluna de fonte e sem
+     blockquote sai `[sem fonte]`.

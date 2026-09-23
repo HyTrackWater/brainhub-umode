@@ -14,6 +14,25 @@ tags:
 > 🔴 **Esta é a frente aberta da conta.** O campo `O que falta` da base `Mapa de Clientes` diz:
 > *"Fechar etapa fornecedores com a inclusão dos 4 primeiros na plataforma e testes."*
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Fornecedores — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [sem fonte]
+- responsavel-area: ? — [sem fonte]
+- entrega: Cadastro de fornecedores · ativo — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Acesso de fornecedor ao PLM · em implantação — 4 primeiros fornecedores — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Fluxo de produto importado · ativo — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: 12 mil cadastros de fornecedor — volume que dificulta busca e usabilidade. O plano de ação prevê limpeza de redundâncias, com prazo de 6 semanas e responsabilidade do time Caedu — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Negociação e pedido ficam fora da uMode, em planilhas sensíveis — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Ata de 27/11/2025: é necessário completar o campo "referência do fornecedor" e há necessidade de comprometimento do time da Caedu (liderança da Rose) para adaptar processos — [Mapeamento de Contas - Caedu · 2025-04-04]
+
 ## O que esta área faz
 Cadastra e gerencia fornecedores, e conduz o fluxo de **produto importado**. É a área onde está a
 **frente de Acesso de Fornecedores**, que dá ao fornecedor um login no PLM da Caedu.

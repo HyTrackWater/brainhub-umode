@@ -66,7 +66,9 @@ O `institucional.md` da Luiza Barcelos traz, em prosa:
 | **chave** | `kebab-case`, sem acento. **Mesma chave = mesmo significado em todo o corpus** |
 | **valor** | o mínimo que carrega o fato. Sem adjetivo, sem explicação — explicação é prosa |
 | **fonte** | de onde saiu, nomeável. `[a preencher]` **não é fonte** |
-| **data** | `AAAA-MM-DD`. **É a data DA FONTE, não a de hoje** |
+| **data** | `AAAA-MM-DD`, ou `AAAA-MM` quando a fonte só diz o mês. **É a data DA FONTE, não a de hoje** |
+
+⚠ **Data parcial é permitida e é preferível a `sem data`.** Quando a fonte diz *"set/2023"*, escreve-se `2023-09`. **Completar o dia seria inventar; descartar o mês seria perder precisão que a fonte tem.**
 
 🔴 **A data é o que permite o juízo de contradição.** Sem ela, o agente não sabe se a
 transcrição de hoje atualiza ou contradiz o que está escrito. **Fato sem data é opinião.**
@@ -174,6 +176,15 @@ senão duas pessoas escrevem `cnpj` e `CNPJ` e o cruzamento falha em silêncio.
 | `area` | ficha de pessoa · `contexto-area.md` | `Estilo` |
 | `dor` | `jornada.md` · `contexto-area.md` | `hierarquia Griffe › Linha › Grupo` |
 | `marco` | `jornada.md` | `kick-off realizado` |
+| `fase` | `jornada.md` | `uFlow em regime, com uma frente de onboarding remanescente` |
+| `modulo-em-uso` | `jornada.md` | `Gestão de Coleção` (uma linha por módulo) |
+| `metrica` | `jornada.md` | `84% do fitting acontece dentro do uMode` |
+| `entrega` | `jornada.md` · `contexto-area.md` | `Incluir os 4 primeiros fornecedores · em aberto` |
+| `incidente` | `jornada.md` | `Sistema saiu do ar` |
+| `decisao` | `jornada.md` | `Dados de pedido ficam fora da uMode, em planilhas` |
+| `produto-conectado` | `contexto-area.md` | `Gestão de Coleção` |
+| `pessoas-da-area` | `contexto-area.md` | `31 pessoas com perfil Caedu-Estilo` |
+| `responsavel-area` | `contexto-area.md` | `pessoa:<e-mail>` |
 
 ## 5 · Como se escreve um fato — o passo a passo
 

@@ -11,6 +11,60 @@ tags:
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página
 > *Perfil de Usuário e Permissionamentos*. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 4 de 7 módulos · ERP Linx · grupo Médios · receita R$ 144 mi — [varredura do Notion · 2026-09-21]
+- fase: Operação com backlog acumulado. 30 chamados em 24 dias, 21 abertos — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-21]
+- metrica: Sucesso: *eliminar retrabalho da equipe* · *reduzir lead time total e das micro operações* — [varredura do Notion · 2026-09-21]
+- metrica: Objetivos: *centralização das informações* · *digitalização dos processos* — [varredura do Notion · 2026-09-21]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2024-06-07]
+- marco: Data de ativação do cliente — único cliente varrido com o campo preenchido — [base Mapa de Clientes · 2024-06-10]
+- marco: Kick-off interno — escopo e dores validados; decidido que Taís e Sandro vão a SP; OKRs gerados com ChatGPT — [página NK STORE · 2024-06-18]
+- marco: Warm-up com o cliente — "Passagem de Bastão Oficial de Sales para Ops" · departamentos confirmados · risco e oportunidade registrados — [idem · 2024-06-19]
+- marco: Kick-off presencial, 9h30–13h30 — início do mapeamento com o time — [idem · 2024-06-28]
+- marco: Primeiro convite aceito — Nathalia Gomes (TI, NK - Admin) — [base Usuários · 2024-12-05]
+- marco: Validação da matriz de permissão dos perfis NK - Admin e NK - Time — [*Perfil de Usuário e Permissionamentos* · 2024-12-04]
+- marco: Maior onda de onboarding: 8 convites aceitos no mesmo dia — Estilo, PCP, Compras — [base Usuários · 2024-12-12]
+- marco: Dois convites enviados e nunca aceitos — [idem · 2024-12-16]
+- marco: Onda de Modelagem (4) e reforço de PCP (3) — [idem · 2025-01-27]
+- marco: Onda de Estilo (2) — [idem · 2025-02-13]
+- marco: Últimos convites aceitos — [idem · 2025-03-10]
+- marco: Primeira e única inativação declarada — Vanessa Veiga — [idem · 2025-03-10]
+- marco: Base de usuários criada no Notion — e nunca mais atualizada — [idem · 2025-03-13]
+- marco: Última edição registrada da página de permissionamentos — [idem · 2025-04-25]
+- marco: *NK — [Material Gerencial Diretoria* · 2025-05]
+- marco: *NK — [Dúvidas Pendentes Integração de Escrita* — frente aberta datada · 2025-05-29]
+- marco: Última edição da página de permissionamentos — [idem · 2025-07-11]
+- marco: 30 chamados de 10 pessoas — 21 ficam abertos — [Chamados & Atendimentos · 2026-01-29]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-08-04]
+- entrega: Matriz de perfil e permissionamento · ✅ desenhada e validada em 04/12/2024 — ⚠ divergiu da implantação — [sem fonte]
+- entrega: Integração de escrita · dúvidas pendentes desde 29/05/2025 — [sem fonte]
+- entrega: Material de treinamento Go Light uFlow · existe (Slides), não varrido — [sem fonte]
+- entrega: Material Gerencial Diretoria · existe, maio/2025, não varrido — [sem fonte]
+- entrega: Plano de Sucesso do Cliente · existe (Drive), não varrido — [sem fonte]
+- entrega: Base de Upload Importação · Ficha de Produto Completo · existem (Sheets), não varridas — [sem fonte]
+- incidente: Sistema saiu do ar — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Notificações não chegam por e-mail — caroline.silva — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Valores da ficha de produto não são enviados ao Linx — isabely.consul — [Chamados & Atendimentos · 2026-09-21]
+- incidente: *Forçar integração* — lais.batista — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Campos duplicados, cadastrados 2×, preciso corrigir — isabely.consul — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Instabilidades — kauane.boska, lais.batista — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Novo acesso — nathalia.gomes (TI) — [Chamados & Atendimentos · 2026-09-21]
+- incidente: 13 chamados em 4 dias, quase todos Não iniciada — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Melhoria: subir ao Linx só o custo do tamanho usado — carolina.teixeira; *"Marina vai puxar para conversar"* — [Chamados & Atendimentos · 2026-09-21]
+- incidente: 🚨 Credencial de banco de produção em texto plano na página — [Chamados & Atendimentos · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 - **A base de usuários parou em março de 2025.** Criada em 13/03/2025, última data 10/03/2025.
   Os chamados são de **jan/2026**. **Dez meses de buraco** entre cadastro e uso.

@@ -54,6 +54,61 @@ CHAVES_INSTITUCIONAL = [
     (u"Tamanho de atendimento",           u"tamanho-atendimento",   False, True),
 ]
 
+# jornada.md e contexto-area.md usam `##` como secao, nao `###`, e a maior
+# parte do conteudo util deles esta em TABELA. Por isso os dois tem mapa
+# proprio, e nao reaproveitam o do institucional.
+CHAVES_JORNADA = [
+    (u"Status atual",                  u"status",          False, True),
+    (u"Fase atual",                    u"fase",            False, True),
+    (u"Módulos em uso",           u"modulo-em-uso",   True,  True),
+    (u"Métricas de sucesso",      u"metrica",         True,  False),
+]
+
+CHAVES_AREA = [
+    (u"Produto conectado",             u"produto-conectado", False, True),
+    (u"Pessoas desta área",       u"pessoas-da-area",   False, True),
+    (u"Responsável pela área", u"responsavel-area", False, True),
+    (u"Responsável na empresa",   u"responsavel-area",  False, True),
+]
+
+# Secoes cujo conteudo e TABELA, e o que cada coluna significa.
+# (prefixo, chave, i_data, i_valor, i_fonte, i_junta)
+#   i_fonte = coluna que E procedencia de verdade (a `Fonte` dos Marcos).
+#   i_junta = coluna que COMPLEMENTA o valor, e nao e fonte. `Situacao` e
+#             `Validacao que a controla` descrevem a entrega, nao dizem de
+#             onde ela veio - tratar coluna assim como fonte era mentir.
+# -1 = a coluna nao existe nessa tabela.
+TABELAS = {
+    u"jornada.md": [
+        (u"Marcos da jornada",            u"marco",     0,  1,  2, -1),
+        (u"Entregas comprometidas",       u"entrega",  -1,  0, -1,  1),
+        (u"Histórico de incidentes",  u"incidente", 0,  1, -1, -1),
+    ],
+    u"contexto-area.md": [
+        (u"Entregas e responsabilidades", u"entrega",  -1,  0, -1,  1),
+    ],
+}
+
+# O `contexto-area.md` e o `institucional.md` trazem uma tabela
+# `Procedência` que mapeia BLOCO -> FONTE -> DATA. E procedência escrita a
+# mao, por bloco, pelo proprio corpus - vale mais que qualquer heuristica.
+# Aqui se diz qual bloco responde por qual chave.
+BLOCO_DA_CHAVE = {
+    u"dor":                [u"dores", u"fluxo"],
+    u"entrega":            [u"valida", u"fluxo", u"campos", u"entrega"],
+    u"pessoas-da-area":    [u"pessoas"],
+    u"produto-conectado":  [u"módulos", u"modulos", u"produto"],
+    u"responsavel-area":   [u"dupla", u"atendimento", u"pessoas"],
+    u"metrica":            [u"métricas", u"metricas"],
+    u"incidente":          [u"incidente"],
+}
+
+# Listas numeradas que viram um fato por item.
+LISTAS = {
+    u"contexto-area.md": [(u"Dores registradas", u"dor")],
+    u"jornada.md": [(u"Decisões e restrições", u"decisao")],
+}
+
 # pista -> nome da fonte. A primeira que casa vence: ordem do mais especifico
 # para o mais generico.
 FONTES = [
@@ -81,6 +136,7 @@ MESES = {u"jan": 1, u"fev": 2, u"mar": 3, u"abr": 4, u"mai": 5, u"jun": 6,
 RE_DATA_BR  = re.compile(u"(\\d{2})/(\\d{2})/(\\d{4})")
 RE_DATA_EXT = re.compile(u"(\\d{1,2})\\s+(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)\\w*\\s+(\\d{4})", re.I)
 RE_ISO      = re.compile(u"(\\d{4})-(\\d{2})-(\\d{2})")
+RE_MES_ANO  = re.compile(u"(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)\\w*/(\\d{4})", re.I)
 RE_FATURADO = re.compile(u"servi\u00e7os? faturados?\\s*:\\s*(.+)$", re.I)
 RE_EMAIL    = re.compile(u"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}")
 RE_H1       = re.compile(u"^# (.+)$", re.M)
@@ -184,6 +240,12 @@ def normaliza_data(txt):
     m = RE_DATA_EXT.search(txt)
     if m:
         return u"%s-%02d-%02d" % (m.group(3), MESES[m.group(2).lower()[:3]], int(m.group(1)))
+    # Data PARCIAL: "set/2023", "mai-jun/2024". Devolve AAAA-MM.
+    # Truncar para "sem data" seria perder precisao que a fonte tem; inventar
+    # o dia seria inventar dado. O mes e exatamente o que a fonte afirma.
+    m = RE_MES_ANO.search(txt)
+    if m:
+        return u"%s-%02d" % (m.group(2), MESES[m.group(1).lower()[:3]])
     return None
 
 
@@ -212,7 +274,8 @@ def encurta(v):
     u"""Corta o rabo explicativo de campo de enum. So o valor sobrevive."""
     v = re.split(u"\\s\u2014\\s", v)[0]
     v = re.split(u"\\s\\(", v)[0]
-    return v.strip().rstrip(u".,;").strip()
+    # o corte pode deixar um travessao orfao na ponta ("... Caedu-Estilo —")
+    return v.strip().rstrip(u".,;\u2014-").strip()
 
 
 def corta_secoes(txt):
@@ -266,7 +329,12 @@ def valor_da_secao(corpo, e_lista, curto):
     if e_lista:
         itens = [limpa(l[2:]) for l in linhas if l.startswith(u"- ")]
         if not itens:
-            itens = [limpa(linhas[0])]
+            # "Gestao de Colecao · Integracao · Relatorios" e uma lista escrita
+            # em uma linha so. Separar por `·` nao e fatiar prosa: e o
+            # separador que o proprio corpus usa para enumerar.
+            bruto = limpa(linhas[0])
+            itens = ([x.strip() for x in bruto.split(PONTO)]
+                     if PONTO in bruto else [bruto])
         if curto:
             itens = [encurta(i) for i in itens]
         return [i for i in itens if i]
@@ -279,6 +347,203 @@ def vazio(v):
         return True
     low = v.lower()
     return (u"a preencher" in low) or low in (u"", u"-", u"?", u"n/a")
+
+
+CABECALHO_BLOCO = [
+    u"## Fatos",
+    u"",
+    u"> \U0001F534 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**",
+    u"> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o",
+    u"> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.",
+    u"> **A prosa abaixo é para pessoa; esta seção é para máquina.**",
+    u"> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no",
+    u"> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.",
+    u"",
+]
+
+
+def corta_secoes_h2(txt):
+    u"""
+    [(titulo, corpo)] para cada '## ' - o nivel de secao do jornada.md e do
+    contexto-area.md. Para no '## Fatos' e no '## Conexoes', que sao camadas
+    geradas e nao conteudo.
+    """
+    out, titulo, buf = [], None, []
+    for ln in txt.split(u"\n"):
+        # `###` tambem vira secao: as Dores do contexto-area vivem num `###`
+        # dentro de `## Padroes operacionais`, e procurar so no `##` as perdia.
+        if ln.startswith(u"## ") or ln.startswith(u"### "):
+            if titulo is not None:
+                out.append((titulo, u"\n".join(buf)))
+            titulo = ln.split(u" ", 1)[1].strip()
+            buf = []
+        elif titulo is not None:
+            buf.append(ln)
+    if titulo is not None:
+        out.append((titulo, u"\n".join(buf)))
+    return out
+
+
+def celulas(corpo):
+    u"""Linhas de tabela markdown -> lista de listas de celulas ja limpas."""
+    out = []
+    for ln in corpo.split(u"\n"):
+        s = ln.strip()
+        if not s.startswith(u"|") or not s.endswith(u"|"):
+            continue
+        cols = [c.strip() for c in s[1:-1].split(u"|")]
+        if not cols or all(set(c) <= set(u"-: ") for c in cols):
+            continue          # separador
+        if len(cols) < 2:
+            continue
+        out.append([limpa(c) for c in cols])
+    return out[1:] if out else []     # a primeira e o cabecalho
+
+
+def itens_numerados(corpo):
+    u"""'1. **X** - y' -> 'X - y'. Lista numerada e um fato por item."""
+    out = []
+    for ln in corpo.split(u"\n"):
+        s = ln.strip()
+        m = re.match(u"^(?:\\d+\\.|[-*])\\s+(.+)$", s)
+        if m:
+            out.append(limpa(m.group(1)))
+        elif out and s and not s.startswith((u">", u"|", u"#")):
+            # continuacao do item anterior: item de lista quebrado em duas
+            # linhas e um fato so, e cortar na primeira linha mutila a frase.
+            out[-1] = (out[-1] + u" " + limpa(s)).strip()
+    return out
+
+
+def encurta_fonte(f):
+    u"""Nome de fonte curto o bastante para caber na linha e ainda identificar."""
+    if not f:
+        return f
+    f = re.split(u"\\s\\(|,\\s+em\\s+", f)[0]
+    f = f.replace(u"Notion — ", u"").replace(u"Notion - ", u"")
+    return f.strip().rstrip(u".,;").strip()
+
+
+def acha_secao(secoes, prefixo):
+    for t, corpo in secoes:
+        if prefixo.lower() in t.lower():
+            return corpo
+    return None
+
+
+def procedencia_declarada(secoes):
+    u"""[(bloco, fonte, data)] da tabela `Procedência deste documento`."""
+    corpo = acha_secao(secoes, u"Procedência")
+    if corpo is None:
+        return []
+    out = []
+    for cols in celulas(corpo):
+        if len(cols) < 2:
+            continue
+        bloco = cols[0].lower()
+        fonte = cols[1]
+        data = normaliza_data(cols[2]) if len(cols) > 2 else None
+        if fonte and not vazio(fonte):
+            out.append((bloco, encurta_fonte(fonte), data))
+    return out
+
+
+def por_bloco(proc_tab, chave):
+    u"""Fonte e data que a tabela de procedência atribui a esta chave."""
+    for palavra in BLOCO_DA_CHAVE.get(chave, []):
+        for bloco, fonte, data in proc_tab:
+            if palavra in bloco:
+                return fonte, data
+    return None, None
+
+
+def monta_bloco_h2(txt, tipo, chaves):
+    u"""Bloco `## Fatos` para os MDs cujas secoes sao `##` (jornada, area)."""
+    secoes = corta_secoes_h2(txt)
+    proc_tab = procedencia_declarada(secoes)
+    cabecalho = txt.split(u"\n## ")[0]
+    hd_fonte = acha_fonte(cabecalho)
+    hd_data = normaliza_data(cabecalho)
+    vistos = set()
+    fatos = []
+
+    def emite(chave, valor, fonte, data):
+        if not valor or vazio(valor):
+            return
+        # a tabela de procedencia responde por chave; so depois vem heuristica
+        p_fonte, p_data = por_bloco(proc_tab, chave)
+        fonte = p_fonte or fonte
+        data = p_data or data
+        if fonte is None:
+            ln = u"- %s: %s %s [sem fonte]" % (chave, valor, TRACO)
+        else:
+            ln = u"- %s: %s %s [%s %s %s]" % (chave, valor, TRACO, fonte,
+                                              PONTO, data or u"sem data")
+        if ln in vistos:            # duas secoes podem alimentar a mesma chave
+            return
+        vistos.add(ln)
+        fatos.append(ln)
+
+    for prefixo, chave, e_lista, curto in chaves:
+        corpo = acha_secao(secoes, prefixo)
+        if corpo is None:
+            continue
+        proc = linhas_de_procedencia(corpo)
+        fonte = acha_fonte(proc) or hd_fonte
+        data = normaliza_data(proc) or hd_data
+        v = valor_da_secao(corpo, e_lista, curto)
+        if e_lista:
+            for i in (v or []):
+                emite(chave, i, fonte, data)
+        elif vazio(v):
+            ln = u"- %s: ? %s [sem fonte]" % (chave, TRACO)
+            if ln not in vistos:
+                vistos.add(ln)
+                fatos.append(ln)
+        else:
+            emite(chave, v, fonte, data)
+
+    # tabelas: a coluna `Fonte` da tabela, quando existe, E a procedencia -
+    # e melhor que qualquer heuristica, porque foi escrita a mao por linha.
+    for prefixo, chave, i_data, i_val, i_fonte, i_junta in TABELAS.get(tipo, []):
+        corpo = acha_secao(secoes, prefixo)
+        if corpo is None:
+            continue
+        # linha de tabela NAO herda o cabecalho do documento: as entregas de um
+        # jornada nao vieram da base que atualizou o cabecalho. Sem coluna de
+        # fonte e sem blockquote na secao, a tabela de procedencia decide - e
+        # se ela tambem nao cobrir, sai `[sem fonte]`.
+        fb_fonte = acha_fonte(linhas_de_procedencia(corpo))
+        for cols in celulas(corpo):
+            if i_val >= len(cols):
+                continue
+            val = cols[i_val]
+            if not val or vazio(val):
+                continue
+            if 0 <= i_junta < len(cols) and cols[i_junta] and not vazio(cols[i_junta]):
+                val = u"%s %s %s" % (val, PONTO, cols[i_junta])
+            fonte = None
+            if 0 <= i_fonte < len(cols) and cols[i_fonte] and not vazio(cols[i_fonte]):
+                fonte = cols[i_fonte]
+            fonte = fonte or fb_fonte
+            data = None
+            if 0 <= i_data < len(cols):
+                data = normaliza_data(cols[i_data])
+            emite(chave, val, fonte, data or hd_data)
+
+    for prefixo, chave in LISTAS.get(tipo, []):
+        corpo = acha_secao(secoes, prefixo)
+        if corpo is None:
+            continue
+        proc = linhas_de_procedencia(corpo)
+        fonte = acha_fonte(proc) or hd_fonte
+        data = normaliza_data(proc) or hd_data
+        for i in itens_numerados(corpo):
+            emite(chave, i, fonte, data)
+
+    if not fatos:
+        return None
+    return u"\n".join(CABECALHO_BLOCO + fatos) + u"\n"
 
 
 # ----------------------------------------------------------------- montagem
@@ -404,18 +669,7 @@ def monta_bloco(txt):
     if not fatos:
         return None
 
-    cab = [
-        u"## Fatos",
-        u"",
-        u"> \U0001F534 **Camada de FATO AT\u00d4MICO \u2014 alvo do cruzamento de transcri\u00e7\u00e3o.**",
-        u"> Uma linha, um fato: `- chave: valor \u2014 [fonte \u00b7 data]`. **Parse: a proced\u00eancia \u00e9 o",
-        u"> \u00daLTIMO ` \u2014 [` da linha**, que sempre termina em `]` \u2014 o valor pode conter travess\u00e3o.",
-        u"> **A prosa abaixo \u00e9 para pessoa; esta se\u00e7\u00e3o \u00e9 para m\u00e1quina.**",
-        u"> \u26a0 **Gerado por `scripts/gera-fatos.py` \u2014 n\u00e3o editar \u00e0 m\u00e3o.** Formato travado no",
-        u"> `protocolo-fato-atomico.md`. `[sem fonte]` \u00e9 **lacuna declarada**, n\u00e3o defeito.",
-        u"",
-    ]
-    return u"\n".join(cab + fatos) + u"\n"
+    return u"\n".join(CABECALHO_BLOCO + fatos) + u"\n"
 
 
 RE_BLOCO = re.compile(u"\n## Fatos\n.*?(?=\n## )", re.S)
@@ -425,7 +679,13 @@ def aplica(caminho):
     with io.open(caminho, u"r", encoding=u"utf-8") as f:
         txt = f.read()
     limpo = RE_BLOCO.sub(u"\n", txt)
-    bloco = monta_bloco(limpo)
+    nome = os.path.basename(caminho)
+    if nome == u"jornada.md":
+        bloco = monta_bloco_h2(limpo, nome, CHAVES_JORNADA)
+    elif nome == u"contexto-area.md":
+        bloco = monta_bloco_h2(limpo, nome, CHAVES_AREA)
+    else:
+        bloco = monta_bloco(limpo)
     if bloco is None:
         return 0, 0
     partes = limpo.split(u"\n## ", 1)
@@ -448,6 +708,10 @@ def main():
             continue
         if u"institucional.md" in filenames and u"00_Institucional" in dirpath:
             alvos.append(os.path.join(dirpath, u"institucional.md"))
+        if u"jornada.md" in filenames:
+            alvos.append(os.path.join(dirpath, u"jornada.md"))
+        if u"contexto-area.md" in filenames:
+            alvos.append(os.path.join(dirpath, u"contexto-area.md"))
     prop = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_contexto", u"institucional.md")
     if os.path.exists(prop):
         alvos.append(prop)

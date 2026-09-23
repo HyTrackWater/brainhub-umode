@@ -14,6 +14,19 @@ tags:
 >
 > **Fonte: autodeclaração da própria pessoa**, em **25/03/2025**.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção · Fornecedores · Integração · Cronograma · Relatórios — [base Mapa de Clientes · 2026-09-22]
+- pessoas-da-area: 2 pessoas — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
+- responsavel-area: ? — [sem fonte]
+
 ## O que esta área faz
 ⚠ **`Estilo - Sneakers` é subárea por linha de produto** — mesmo padrão da VIX (`Biquini`, `Cover ups`, `Roupas`, `PA`). **Terceiro cliente com esse eixo.**
 

@@ -10,6 +10,46 @@ tags:
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 4 de 7 módulos · ERP Safe Tech · grupo Médios · — [varredura do Notion · 2026-09-21]
+- fase: Projeto em Regime — [varredura do Notion · 2026-04-10]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-21]
+- metrica: O campo *Como vamos medir?* está preenchido com um hífen — [varredura do Notion · 2026-09-21]
+- marco: "Data de Ativação por Vendas" — [ata do kick-off interno · 2024-05-15]
+- marco: Kick-off interno — gravado em vídeo, resumo no HubSpot. Registra o prazo de credibilidade, o trauma com a Linx, os 13+2 usuários e a tese do conhecimento concentrado na Marcinha — [ata na página · 2024-06-06]
+- marco: Data Ativação Cliente da base — 23 dias depois da data de Vendas — [base Mapa de Clientes · 2024-06-07]
+- marco: Warm-up com cliente — [página — sem data · 2026-09-21]
+- marco: Kick-off presencial — 7 sessões, uma por área — [página — sem data · 2026-09-21]
+- marco: Prazo dos "6 primeiros meses para mostrar credibilidade" — [ata de kick-off · 2024-12]
+- marco: Configurações e ajustes pré Go Light — [página — sem data · 2026-09-21]
+- marco: Importação das Listas — [título de página · ⚠ sem ano · 2026-09-21]
+- marco: Regras do WorkFlow — [título de página · ⚠ sem ano · 2026-09-21]
+- marco: Regra Família — [título de página · 2025-08-05]
+- marco: Relatório de Incidente — Weekly Luiza Barcelos <> uMode — [título de página · 2025-08-08]
+- marco: Automações da Aba Etapa & Datas — [título de página · 2025-09-24]
+- marco: Único chamado da janela — USABILIDADE, pela Ticiane — [Chamados & Atendimentos · 2026-01-14]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-07-03]
+- entrega: Relatório de grade — [sem fonte]
+- entrega: Relatório de status · idem — [sem fonte]
+- entrega: Relatório de acompanhamento · idem — [sem fonte]
+- entrega: Integração com Safe Tech · página *Integração com ERP* existe · não varrida — [sem fonte]
+- entrega: Go Light · página *Configurações e ajustes pré Go Light* existe · não varrida — [sem fonte]
+- entrega: Plano de Sucesso do Cliente · "Em construção", marcado em vermelho — [sem fonte]
+- entrega: TAP — uFlow · marcado como "(teste)" · não varrido — [sem fonte]
+- incidente: Relatório de Incidente formal — o único da carteira — [sem fonte]
+- incidente: Chamado de USABILIDADE — Ticiane Rosa — [sem fonte]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se a credibilidade foi estabelecida.** A ata de Sales escreveu em vermelho
   *"6 PRIMEIROS MESES PARA MOSTRAR CREDIBILIDADE DA UMODE"*. **Isso venceu em dez/2024.**

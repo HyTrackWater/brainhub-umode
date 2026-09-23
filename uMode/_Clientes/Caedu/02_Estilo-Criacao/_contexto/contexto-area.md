@@ -15,6 +15,27 @@ tags:
 > **Procedência de cada bloco está declarada no fim.** Campo sem fonte fica `[a preencher]` —
 > nada foi inferido.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: 31 pessoas com perfil Caedu-Estilo, mais 5 com Gerente de Estilo / Caedu-Estilo — [página Caedu em Databases / Mapa de Clientes, tabela de usuários do PLM · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+- entrega: Aprovação de produto · Aprovado pré-line = SIM — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Definição de origem · Origem = Nacional \ — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Ficha liberada para e-commerce · campos de SEO, título e imagem preenchidos — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Atributos de licenciamento · campo de licenciamento na ficha — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Atributos de Visual Merchandising · campos de VM — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Visual merchandising é subexplorado — os campos existem e não são usados com disciplina — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Macros de cor pouco usadas — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: A origem vive na ficha, não na variante. Como a validação acontece por variante, isso obriga exportações extensas no mapa para acompanhar. É um problema de modelo de dado, não de processo — e foi o achado mais citado do diagnóstico — [Mapeamento de Contas - Caedu · 2025-04-04]
+
 ## O que esta área faz
 Aprova produtos e libera a ficha para e-commerce. É a área que decide se o produto segue no fluxo:
 a validação **`Aprovado pré-line = SIM`** é a porta de entrada de todo o desenvolvimento.

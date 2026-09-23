@@ -11,6 +11,22 @@ tags:
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: 2 pessoas com perfil Caedu-Qualidade — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+- entrega: Recebimento da amostra · Amostra recebida — [Mapeamento de Contas - Caedu · 2025-04-04]
+- entrega: Decisão de qualidade · Amostra aprovada — [Mapeamento de Contas - Caedu · 2025-04-04]
+- dor: Frequência de exportações manuais e planilhas paralelas — é a dor declarada da área — [Mapeamento de Contas - Caedu · 2025-04-04]
+
 ## O que esta área faz
 Controla as **amostras de produção**: recebe, avalia e aprova ou reprova antes do envio às lojas.
 É o último portão do fluxo nacional.

@@ -10,6 +10,43 @@ tags:
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · módulos Gestão de Coleção + Integração · ERP Linx / SAP — [varredura do Notion · 2026-09-21]
+- fase: Silêncio operacional. Última ata em 08/01/2026; último chamado em 29/01/2026 — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- marco: Primeiros acessos ao PLM — maria.germano e gabriela.begnini, perfil Projetos — [tabela do PLM · 2022-05-24]
+- marco: Entra o time de Design (3 pessoas no mesmo dia) — [tabela do PLM · 2022-06-03]
+- marco: Maior onda de onboarding: 9 acessos num dia — Estilo, Produto, Sourcing, Qualidade, TEX, Certificação — [tabela do PLM · 2022-06-09]
+- marco: Continuação da onda — mais 11 acessos — [tabela do PLM · 2022-06-23]
+- marco: Primeiro acesso de Hong Kong (@grupounico.hk, perfil Estilo) — [tabela do PLM · 2022-06-30]
+- marco: Entra PCP (1 pessoa) — [tabela do PLM · 2022-08-16]
+- marco: Reforço de Qualidade (3 pessoas) — [tabela do PLM · 2022-09-23]
+- marco: Entra BI — [tabela do PLM · 2022-10-04]
+- marco: Acessos esparsos — Projetos, Produto, Design — [tabela do PLM · 2022-11-25]
+- marco: Linha do cliente criada no Notion — um ano depois da conta existir — [base Mapa de Clientes · 2023-05-22]
+- marco: Entram Sourcing e Projetos pela marca (@puket.com.br) — [tabela do PLM · 2023-05-24]
+- marco: Últimos acessos criados: Controladoria (2) e Importação (2) — as duas áreas mais recentes da conta — [tabela do PLM · 2023-06-21]
+- marco: Reunião presencial de validação de fluxo — primeira ata registrada — [Reuniões com o cliente · 2024-02-15]
+- marco: Início da cadência de weekly — [idem · 2024-02-23]
+- marco: Validação de regras de fluxo NCM — única ata com pauta técnica nomeada — [idem · 2024-05-24]
+- marco: Weeklies: 19/07, 01/08, 15/08, 29/08, 10/10, 17/10, 08/11, 21/11, 05/12 — [idem · 2024-12]
+- marco: Criado o Modelo de Ata — passa a haver padrão — [idem · 2024-11-13]
+- marco: Weeklies: 29/01, 13/02, 27/02, 08/05, 12/06, 01/07, 10/07, 24/07, 04/09, 18/09 — [idem · 2026-09-21]
+- marco: Página Evolução de Conta criada — não varrida — [página Puket · 2026-09-21]
+- marco: Última ata registrada — [Reuniões com o cliente · 2026-01-08]
+- marco: 5 chamados abertos, os últimos registros da conta — [Chamados & Atendimentos · 2026-01-29]
+- incidente: Reclamação sobre tempo de exportação — [Chamados & Atendimentos · 2026-09-21]
+- incidente: *"A opção do campo custom estava incorreta também"* — o "também" indica ocorrência anterior não registrada — [Chamados & Atendimentos · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 - **A data de ativação do contrato.** O campo está vazio na base; o que existe é o primeiro acesso
   ao PLM (24/05/2022), que é piso, não marco comercial.

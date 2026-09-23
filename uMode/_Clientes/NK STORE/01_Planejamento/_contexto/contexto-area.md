@@ -13,6 +13,19 @@ tags:
 >
 > **Acordado em reunião, nunca implantado em acesso.**
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [sem fonte]
+- pessoas-da-area: Bruna — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+
 ## O que esta área faz
 `[a preencher]`
 

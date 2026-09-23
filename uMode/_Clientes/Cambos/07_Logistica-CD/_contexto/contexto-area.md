@@ -15,6 +15,19 @@ tags:
 >
 > **Ausência aqui é ausência no PROJETO, não necessariamente na empresa.** O discovery declara *"em torno de 20 pessoas"* no processo de desenvolvimento e só **5** estão nomeadas.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- produto-conectado: Gestão de Coleção · Integração · Relatórios — [sem fonte]
+- pessoas-da-area: Nenhuma. A área não está entre os times envolvidos no projeto — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
+- responsavel-area: ? — [sem fonte]
+
 ## O que esta área faz
 `[a preencher]`
 

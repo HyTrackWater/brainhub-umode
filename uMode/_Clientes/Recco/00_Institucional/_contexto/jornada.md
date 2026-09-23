@@ -11,6 +11,36 @@ tags:
 > **Reescrito em 22 set 2026 por varredura ao vivo do Notion.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Churn · Última atividade observada: 16/10/2025 · ERP: Totvs · Setor: Lingerie — [varredura do Notion · 2026-09-22]
+- fase: Encerrada. A conta viveu ~8 meses — [varredura do Notion · 2026-09-22]
+- metrica: KRs por área, acordados nos Warm Ups de dezembro/2024: [C] — [página do cliente Recco · 2026-09-22]
+- marco: Warm Up 1 — alinhamento de expectativas e KRs por área — [página do cliente · 2024-12-17]
+- marco: Warm Up 2 — KRs; uMode pede revisão, cliente deve validar o contrato — [página do cliente · 2024-12-18]
+- marco: Ativação — [base Mapa de Clientes · 2025-02-06]
+- marco: Kick-off — 11 dores mapeadas, projeto em 3 fases — [reunião de kick-off · 2025-02-27]
+- marco: Reunião com o time de Engenharia — [base de reuniões · 2025-03-18]
+- marco: Primeira demanda registrada — 5 meses depois do kick-off — [base de demandas · 2025-07-18]
+- marco: 29 das 42 demandas em 4 semanas — [base de demandas · 2025-09-30]
+- marco: Treinamento previsto (referências automáticas) — [demanda · 2025-09-15]
+- marco: Última reunião e última demanda — no mesmo dia — [ambas as bases · 2025-10-16]
+- incidente: *"equipe da engenharia em pausa... pendências na manutenção travando o sistema"* — [reuniões 16/10/2025 e 09/10/2025 · 2026-09-22]
+- incidente: *"dificuldades com débitos em duas mensalidades"* — [reuniões 16/10/2025 e 09/10/2025 · 2026-09-22]
+- incidente: Erro de integração de materiais — material ausente e cores faltando — [reuniões 16/10/2025 e 09/10/2025 · 2026-09-22]
+- decisao: A ficha de produto foi reorganizada por time a pedido do cliente, *"garantindo clareza de responsabilidade no preenchimento"*. [C] — [varredura do Notion · 2026-09-22]
+- decisao: O workflow de etapas foi trocado pelo campo RESPONSÁVEL — decisão alinhada com a Marina (uMode) em 03/09/2025, para reproduzir o efeito que o cliente já tinha no Modeler. [C] — [varredura do Notion · 2026-09-22]
+- decisao: O cálculo de MO passou a usar a funcionalidade de BENEFICIAMENTO, com um beneficiamento do tipo COSTURA de valor fixo por coleção (2,1). [C] — [varredura do Notion · 2026-09-22]
+- decisao: As linhas não entram no custo na Recco — são material de uso e consumo, cadastradas em tela separada e integradas fora da ficha técnica. [C] — [varredura do Notion · 2026-09-22]
+- decisao: Em pelo menos 3 casos a resposta a uma necessidade da Recco foi a configuração de outro cliente — explicitamente *"um caso de uso da Cambos"*. Não é erro, é reuso — mas é decisão de produto tomada no atendimento e não registrada como decisão. [P] — [varredura do Notion · 2026-09-22]
+
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **NÃO SEI A DECISÃO DE SAÍDA.** Sei o que estava acontecendo em **16/10/2025** e sei que
   depois disso **não há mais reunião nem demanda**. **Nenhuma fonte registra quem decidiu

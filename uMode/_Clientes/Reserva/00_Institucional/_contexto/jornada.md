@@ -10,6 +10,53 @@ tags:
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
+## Fatos
+
+> 🔴 **Camada de FATO ATÔMICO — alvo do cruzamento de transcrição.**
+> Uma linha, um fato: `- chave: valor — [fonte · data]`. **Parse: a procedência é o
+> ÚLTIMO ` — [` da linha**, que sempre termina em `]` — o valor pode conter travessão.
+> **A prosa abaixo é para pessoa; esta seção é para máquina.**
+> ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
+> `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
+
+- status: Ongoing · 7 de 7 módulos · ERP Linx / SAP · grupo Enterprise, WIP 6,00 — [varredura do Notion · 2026-09-21]
+- fase: Operação madura com backlog de produto travado. A conta tem a comunicação mais estruturada da — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Cronograma — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Aposta — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Planejamento — [varredura do Notion · 2026-09-21]
+- metrica: A página declara volume esperado, não sucesso: — [varredura do Notion · 2026-09-21]
+- marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2023-05-24]
+- marco: Documento *Solicitações Raquel* — registro nomeado mais antigo da conta — [página Reserva · 2023-06-21]
+- marco: Portal uMode \ — [Reserva criado · 2023-12-21]
+- marco: Início do Review Quinzenal de Projeto para a Claudinha — [página Reserva · 2026-09-21]
+- marco: Envios de review confirmados — [idem · 2026-09-21]
+- marco: Envios de review não confirmados — [idem · 2026-09-21]
+- marco: João envia e-mail sobre lentidão e exportação do Mapa, com vídeos da Ju — [idem · 2024-07-30]
+- marco: Visita presencial — preparação lista 7 cards e 5 assuntos — [idem · 2024-08-14]
+- marco: Conta Oficina Reserva criada no Notion — [base Mapa de Clientes · 2024-06-27]
+- marco: Portal Simples Reserva criado — [base Portal do Cliente · 2024-10-18]
+- marco: Visita presencial da Claudinha em SP, com documentação própria — [página Reserva · 2025-06-06]
+- marco: 13 chamados — 8 do cliente, 5 de fornecedor — [Chamados & Atendimentos · 2026-01-29]
+- marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-06-30]
+- entrega: Review Quinzenal para a Claudinha · 2 envios sem confirmação + 1 sem link — [sem fonte]
+- entrega: DE/PARA Campos uBuy · ⬜ aberto — [sem fonte]
+- entrega: Ficha de Pedido uBuy · ⬜ aberto — [sem fonte]
+- entrega: Explosão MP · ⬜ aberto — [sem fonte]
+- entrega: Dados para uPlan · ⬜ aberto — [sem fonte]
+- entrega: Cronograma · ⬜ aberto — [sem fonte]
+- entrega: Termo de abertura de Projeto — Sourcing · documento existe, não varrido — [sem fonte]
+- incidente: Lentidão em Follow e filtros — vídeo + e-mail — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Dificuldade de exportação/edição do Mapa — vídeo + e-mail — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Erro no filtro de composição — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Inativar variantes de materiais — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Carta lacre com somente itens aprovados — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Fornecedor preso em *"você não tem permissão"* por link salvo em favoritos — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Fornecedor pede autoria de consumo incorreto de tecido — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Fornecedor pede autoria de alteração em referência — [Chamados & Atendimentos · 2026-09-21]
+
 ## ⚠ O que este documento NÃO resolve
 - **A data de ativação do contrato.** O campo está vazio; o piso verificável é mai/2023.
 - **O Kanbanize não foi varrido.** Os sete cards abaixo saem da **página do cliente**, não do
