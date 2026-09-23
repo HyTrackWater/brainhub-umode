@@ -25,11 +25,11 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - id: moda-objetiva — [varredura do Notion · 2026-09-22]
-- segmento: ? — [sem fonte]
-- receita-anual: ? — [sem fonte]
+- segmento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: Médios — [varredura do Notion · 2026-09-22]
 - status: Operação Assistida — [varredura do Notion · 2026-09-22]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Ilimitar — [varredura do Notion · 2026-09-22]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-22]
@@ -67,11 +67,13 @@ tags:
 
 ## Posicionamento
 ### Segmento
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 12 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Receita anual
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Grupo de segmentação uMode
 `Médios` — Grupo 2. `WIP Estratégico 2,25`.
 
@@ -82,8 +84,9 @@ tags:
 **`Operação Assistida`** — **momento da jornada**, não tipo de cliente.
 
 ### Data de ativação
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Módulos contratados
 `Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` — **4 de 7**
 

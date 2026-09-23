@@ -25,11 +25,11 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - id: cavallari — [varredura do Notion · 2026-09-22]
-- segmento: ? — [sem fonte]
-- receita-anual: ? — [sem fonte]
+- segmento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: SMB — [varredura do Notion · 2026-09-22]
 - status: Sem CS — [varredura do Notion · 2026-09-22]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Sem Integração — [varredura do Notion · 2026-09-22]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
@@ -65,11 +65,13 @@ tags:
 
 ## Posicionamento
 ### Segmento
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 12 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Receita anual
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Grupo de segmentação uMode
 `SMB` — Grupo 3. `WIP Estratégico 1,75`.
 
@@ -80,8 +82,9 @@ tags:
 🔴 **`Sem CS` NÃO é momento da jornada — é modo de atendimento**, e na prática um **SKU self-service**: `Atendimento = SMB` (que é segmento, não pessoa), `ERP = Sem Integração`, e **só o módulo `Gestão de Coleção`**. Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
 
 ### Data de ativação
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Módulos contratados
 `Gestão de Coleção` — **1 de 7**
 

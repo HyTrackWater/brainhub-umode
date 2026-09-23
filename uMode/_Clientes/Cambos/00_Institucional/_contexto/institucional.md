@@ -24,10 +24,10 @@ tags:
 
 - id: cambos — [varredura do Notion · 2026-09-21]
 - segmento: Moda · Área de atuação: Atacado — [varredura do Notion · 2026-09-21]
-- receita-anual: ? — [sem fonte]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: A base está incompleta — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
@@ -98,7 +98,9 @@ demandas do cliente"*.
 **Moda** · Área de atuação: **Atacado**.
 
 ### Receita anual
-`[a preencher]` — campo vazio. **Mas há volume:** 140.000 peças/mês.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.** **Mas há volume:** 140.000 peças/mês.
 
 ### Grupo de segmentação uMode
 **`Médios`** — Grupo 2. `WIP Estratégico 2,25`.
@@ -108,7 +110,9 @@ demandas do cliente"*.
 **`Ongoing`** — lido na base em 21/09/2026.
 
 ### Data de ativação
-`[a preencher]` — campo vazio.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 **Piso verificável:** linha criada no Notion em **08/05/2024**.
 
 ### Módulos contratados

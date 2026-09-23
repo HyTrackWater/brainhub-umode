@@ -26,7 +26,7 @@ tags:
 
 - id: recco — [varredura do Notion · 2026-09-22]
 - segmento: Lingerie — [varredura do Notion · 2026-09-22]
-- receita-anual: ? — [sem fonte]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: Churn — [base Segmentação Grupos · 2026-09-22]
 - status: Churn — [varredura do Notion · 2026-09-22]
 - data-ativacao: 06/02/2025 — [varredura do Notion · 2026-09-22]
@@ -71,8 +71,9 @@ tags:
 **Lingerie**
 
 ### Receita anual
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Grupo de segmentação uMode
 `Churn` — grupo próprio na base `Segmentação Grupos`.
 

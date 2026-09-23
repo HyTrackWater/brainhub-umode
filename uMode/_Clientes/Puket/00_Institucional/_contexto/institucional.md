@@ -22,11 +22,11 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - id: puket — [base Segmentação Grupos · 2026-09-21]
-- segmento: ? — [sem fonte]
-- receita-anual: ? — [sem fonte]
+- segmento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: SMB — [base Segmentação Grupos · 2026-09-21]
 - status: Ongoing — [base Segmentação Grupos · 2026-09-21]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Linx / SAP — [base Segmentação Grupos · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [base Segmentação Grupos · 2026-01]
 - modulo-contratado: Integração — [base Segmentação Grupos · 2026-01]
@@ -72,10 +72,14 @@ tags:
 
 ## Posicionamento
 ### Segmento
-`[a preencher]` — campo `Setor da Empresa` vazio na base.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 12 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 ### Receita anual
-`[a preencher]` — campo vazio na base.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 ### Grupo de segmentação uMode
 **`SMB`** — Grupo 3 da base `Segmentação Grupos`. `WIP Time 10` · `WIP Estratégico 1,75`.
@@ -105,7 +109,9 @@ Enum completo do campo `Status` na origem: `Inativo · Pré Onboardings · Opera
 Onboarding · Sem CS · Ongoing · Churn`.
 
 ### Data de ativação
-`[a preencher]` — o campo `Data Ativação Cliente` está **vazio na base**.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.****.
 
 > **Mas há um piso verificável:** o primeiro acesso ao PLM é de **24/05/2022** (maria.germano e
 > gabriela.begnini, perfil `Projetos`). A conta opera **desde maio de 2022, no mínimo**.

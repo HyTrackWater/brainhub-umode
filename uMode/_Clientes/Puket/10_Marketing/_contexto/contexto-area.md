@@ -23,12 +23,22 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: Nenhuma — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: ? — [não consta em: base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: Nenhuma — [página Puket, tabela do PLM · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Puket, tabela do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
+
+🔴 **Marketing não é citado em NENHUM ponto do mapeamento de conta.** Não é o mesmo que dizer que a área não existe na Puket — **é dizer que ela não aparece na fonte que descreve como a conta usa a plataforma.**
+
+⚠ **As funções que um Marketing teria aqui estão em outras áreas:**
+- **estampa, personagem e tema** → `12_Design`, que os define (§ 4.2.1);
+- **arte final e imagem de produto** → `02_Estilo-Criacao` (§ 4.2.3);
+- **Showroom**, que é o evento de apresentação da coleção → `09_Comercial-Vendas` (§ 4.2.5).
+
+🔴 **O escopo mapeado é desenvolvimento de produto, ponta a ponta — e para no código de barras.** Nada depois disso foi diagnosticado.
+
+⚠ **Procedência:** `Mapeamento de Conta — Puket`, abril/2025 — **síntese de IA sobre três transcrições reais** (26/02, 06/03 e 13/03 de 2025), assinada por Rafael. **Não é fonte bruta.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -82,6 +92,18 @@ Qualidade, Design, Importação, TEX, Certificação, PCP, BI e Controladoria.
 
 ### 🔴 Próxima fonte a varrer
 `Mapeamento de Contas - Puket` e a análise comparativa Puket × Caedu, na Documentação CX.
+
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Pessoas e perfis | Notion — página `Puket`, tabela do PLM | varrido 21/09/2026 |
+| O que a área faz, entregas, o que não fazem | Notion — `Mapeamento de Conta — Puket` | 04/2025 |
+| Etapas de desenvolvimento e níveis de aprovação | Notion — `Mapeamento de Conta Puket — segundo Notion` | 21/03/2025 |
+
+🔴 **O mapeamento de abril/2025 é SÍNTESE DE IA sobre três transcrições** (26/02, 06/03 e
+13/03 de 2025), assinada por Rafael. **Não é fonte bruta** — o que vier das transcrições
+originais prevalece. ⚠ **E tem 17 meses: revalidar antes de usar como diagnóstico atual.**
 
 ## Governança
 ### Responsável pela área

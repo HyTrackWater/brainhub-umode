@@ -20,11 +20,11 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - id: oficina-reserva — [varredura do Notion · 2026-09-21]
-- segmento: ? — [sem fonte]
+- segmento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - receita-anual: ? — [sem fonte]
 - grupo-segmentacao: Enterprise — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: SAP e Linx — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
@@ -101,7 +101,9 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 
 ## Posicionamento
 ### Segmento
-`[a preencher]` — campo `Setor da Empresa` **vazio na base**, assim como `Cidade`, `Estado`,
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 12 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.****, assim como `Cidade`, `Estado`,
 `CNPJ`, `Razão Social`, `Área de Atuação` e `Receita Anual`.
 
 > ⚠ **É a conta com mais campos vazios da base entre os Ongoing** — coerente com ter entrado
@@ -118,7 +120,9 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 **`Ongoing`** — lido na base em 21/09/2026.
 
 ### Data de ativação
-`[a preencher]` — campo vazio.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 > **Mas a jornada comercial está datada com precisão incomum:**
 > **26/06/2024** call de Sales · **01/07/2024** kick-off interno · **12/07/2024** kick-off cliente.

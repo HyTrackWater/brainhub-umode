@@ -25,11 +25,11 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - id: paloma-concept — [varredura do Notion · 2026-09-22]
-- segmento: ? — [sem fonte]
-- receita-anual: ? — [sem fonte]
+- segmento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: ? — [sem fonte]
 - status: Inativo — [varredura do Notion · 2026-09-22]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: ? — [sem fonte]
 - modulo-contratado: ? — [sem fonte]
 - contrato-situacao: ? — [sem fonte]
@@ -63,11 +63,13 @@ tags:
 
 ## Posicionamento
 ### Segmento
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 12 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Receita anual
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Grupo de segmentação uMode
 `[a preencher]`
 
@@ -78,8 +80,9 @@ tags:
 ⚠ **`Inativo`** — **estado terminal ou linha de apoio.** ⚠ **Cuidado:** algumas linhas `Inativo` da base **não são clientes** (template, `Fornecedores`, `uMode`). Esta foi tratada como cliente porque tem nome de empresa.
 
 ### Data de ativação
-`[a preencher]` — **campo vazio na base**
-
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Módulos contratados
 `[a preencher]` — **campo vazio na base**
 

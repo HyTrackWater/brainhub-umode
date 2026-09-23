@@ -3881,3 +3881,44 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      citado no próprio documento da Caedu (*"no mesmo padrão que empregamos para Puket"*).
      ⚠ **Se existir um por cliente, é a fonte que preenche `contexto-area.md` em escala** — hoje
      62% dos fatos do corpus saem `[sem fonte]`, quase todos vindos de áreas vazias.
+
+## Puket preenchida, e a ausência nomeada em escala (23 set 2026)
+
+636. 🔴 **Só DOIS clientes têm `Mapeamento de Contas`: Puket e Caedu.** Varri o índice inteiro da
+     `Documentação CX` — são 30 documentos, e a página-mãe `Mapeamento de Contas` tem cinco
+     filhos: Puket, Caedu, a análise comparativa das duas, `Devolutivas para Sandro` e
+     `Indicadores e Rotinas`. **A rota que preencheu a Caedu NÃO escala para os 48.**
+637. 🟢 **Puket saiu de ZERO para 92 fatos, 74% com fonte.** As 14 áreas estavam todas vazias
+     (11–12 `[a preencher]` cada, só boilerplate). **13 têm conteúdo agora**, e é conteúdo com
+     gente e ferramenta nomeadas: Design é a **Mariana** e trabalha *"Email + Pasta em Drive,
+     **fora do uMode**"*; Produto é a **Cátia**, com planilha de **37 campos**; Modelagem é o
+     **Rodrigo**, e `Tabelas de Medidas` *"não é usado consistentemente"*.
+638. 🔴 **A dor central da Puket está registrada e é grave:**
+     > *"Um dos pontos-chave, porém **pouco utilizado no uMode**. O time troca e-mails, faz
+     > **PPTs de 100 páginas**, mas **não registra no sistema as aprovações**."*
+     ⚠ **E o risco é nomeado:** *"A diretora (Andrea) tem baixa visibilidade sobre relatórios,
+     **gerando risco de churn**."* **A conta está `Ongoing` hoje.**
+639. 🔴 **Ressalva de procedência que não pode se perder: o mapeamento da Puket é SÍNTESE DE IA.**
+     O documento se declara *"seguindo análise do Chat GPT"* e *"exemplo de documento... a ideia
+     é ILUSTRAR"*. **É síntese sobre três transcrições reais** (26/02, 06/03 e 13/03 de 2025),
+     assinada por Rafael. 🔴 **Não é fonte bruta, e o que vier das transcrições prevalece.**
+     ⚠ **Marquei isso em cada bloco escrito e na tabela de procedência.**
+640. 🟢 **A própria área da Puket já dizia o que fazer, e ninguém tinha feito.** Havia uma seção
+     `### 🔴 Próxima fonte a varrer para esta área` apontando literalmente o
+     `Mapeamento de Contas - Puket`. **Foi varrida; a nota virou `🟢 Fonte varrida em 23/09/2026`.**
+     ⚠ **Vale checar essa seção nos outros 47 clientes** — pode haver mais fonte apontada e não lida.
+641. 🟢 **108 ausências nomeadas em 43 clientes**, por `scripts/nomeia-ausencia-verificada.py`.
+     O item 618 registrou 137 ocorrências de *"campo vazio na base"* sem dizer QUAL base.
+     Agora dizem: **base `Mapa de Clientes`, lida por SQL em 23/09/2026 e conferida no export de
+     04/03/2026.** 🔴 **Ausência verificada no corpus: 2 → 282.**
+642. 🟢 **E os números da base fecham o argumento:** `Receita Anual` preenchida em **2 de 49**,
+     `Data Ativação` em **6**, `Setor da Empresa` em **12**, `CNPJ` em **8**, `Razão Social`
+     em **7**. 🔴 **Não são lacunas de cliente: são campos que a operação não preenche.**
+     ⚠ **A decisão não é "cobrar cliente a cliente" — é se esses campos devem existir.**
+643. 🟢 **O script acusa o caso inverso e não encontrou nenhum:** nenhum cliente tem dado vivo na
+     base com o MD dizendo vazio. ⚠ **Se houvesse, eu NÃO sobrescreveria** — sobrescrever
+     esconderia dado real. **A regra está no script.**
+644. 🔺 **Meu regex pegou 11 de 137 na primeira tentativa.** A forma dominante do corpus é
+     `**campo vazio na base**`, com o negrito abrindo **antes** de "campo", e eu só previa
+     negrito em volta de "vazio". 🔴 **Medi as quatro formas reais antes de corrigir, em vez de
+     supor a quinta** — está documentado no próprio script.

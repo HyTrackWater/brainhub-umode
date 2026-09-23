@@ -25,9 +25,16 @@ tags:
 - responsavel-area: ? — [não consta em: página Puket, tabela do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` — **a área tem gente com acesso ao PLM, mas nenhuma fonte varrida descreve o que
-ela faz na Puket.** Falta ler o mapeamento de conta do Puket, que existe: o mapeamento da CAEDU
-declara ter sido feito *"no mesmo padrão que empregamos para Puket"*.
+
+⚠ **Não há área de PCP nomeada na Puket.** O que existe é a lacuna que um PCP cobriria — **planejado contra realizado por etapa**:
+
+> *"Criar indicadores de acompanhamento de cada etapa (**planejado vs. realizado**)."* — § 1, Recomendações
+> *"Faltam **KPIs** de desenvolvimento: % de produtos sem composição, pilotagem aprovada etc."* — § 4.3
+> *"**Não há dashboard consolidado.**"* — § 4.3
+
+🔴 **Há também etapa de Kanban que o time não usa:** *"Aguardando amostras showroom"* (§ 4.1).
+
+⚠ **Procedência:** `Mapeamento de Conta — Puket`, abril/2025 — **síntese de IA sobre três transcrições reais** (26/02, 06/03 e 13/03 de 2025), assinada por Rafael. **Não é fonte bruta.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -73,8 +80,15 @@ declara ter sido feito *"no mesmo padrão que empregamos para Puket"*.
 |---|---|---|
 | Pessoas e perfis | Notion — página `Puket`, tabela do PLM | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| O que a área faz, entregas, o que não fazem | Notion — `Mapeamento de Conta — Puket` | 04/2025 |
+| Etapas de desenvolvimento e níveis de aprovação | Notion — `Mapeamento de Conta Puket — segundo Notion` | 21/03/2025 |
 
-### 🔴 Próxima fonte a varrer para esta área
+🔴 **O mapeamento de abril/2025 é SÍNTESE DE IA sobre três transcrições** (26/02, 06/03 e
+13/03 de 2025), assinada por Rafael. **Não é fonte bruta** — o que vier das transcrições
+originais prevalece. ⚠ **E tem 17 meses: revalidar antes de usar como diagnóstico atual.**
+
+
+### 🟢 Fonte varrida em 23/09/2026 — e o que resta
 **`Mapeamento de Contas - Puket`** e a página **`Análise das Similaridades e Diferenças entre
 contas: Puket e Caedu`**, ambas em `Operação de Clientes / Área de CX / Documentação CX`.
 Mais os **Playbooks** e o **Miro de regras e restrições** da conta.
@@ -82,6 +96,7 @@ Mais os **Playbooks** e o **Miro de regras e restrições** da conta.
 ### Documentos que esta área produz
 
 `[a preencher]`
+
 
 ## Governança
 ### Responsável pela área

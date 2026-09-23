@@ -22,10 +22,10 @@ tags:
 
 - id: vix — [varredura do Notion · 2026-09-21]
 - segmento: Vestuário, Moda Praia · Área de atuação: B2C — [varredura do Notion · 2026-09-21]
-- receita-anual: ? — [sem fonte]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Linx — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
@@ -71,7 +71,9 @@ de linha:** `Biquini`, `Cover ups`, `Roupas` e `PA` (produto acabado).
 **Vestuário, Moda Praia** · Área de atuação: **B2C**.
 
 ### Receita anual
-`[a preencher]` — campo vazio na base.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 ### Grupo de segmentação uMode
 **`Médios`** — Grupo 2. `WIP Estratégico 2,25`.
@@ -81,7 +83,9 @@ de linha:** `Biquini`, `Cover ups`, `Roupas` e `PA` (produto acabado).
 **`Ongoing`** — lido na base em 21/09/2026.
 
 ### Data de ativação
-`[a preencher]` — campo vazio.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 **Piso verificável:** linha criada em **08/06/2023**; **Portal uMode | Vix** criado em
 **24/08/2023**; há páginas *Onboarding* e *Onboarding > Ongoing*.
 

@@ -21,10 +21,10 @@ tags:
 
 - id: nv — [varredura do Notion · 2026-09-21]
 - segmento: Vestuário — moda feminina — [varredura do Notion · 2026-09-21]
-- receita-anual: ? — [sem fonte]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: Enterprise — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Linx — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
@@ -71,7 +71,9 @@ Matéria-prima para Facção"*.
 **Vestuário** — moda feminina.
 
 ### Receita anual
-`[a preencher]` — campo vazio na base.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 ### Grupo de segmentação uMode
 **`Enterprise`** — Grupo 1, descrição *"Reserva + Soma"*. `WIP Estratégico 6,00`.
@@ -85,7 +87,9 @@ Matéria-prima para Facção"*.
 **`Ongoing`** — lido na base em 21/09/2026.
 
 ### Data de ativação
-`[a preencher]` — campo vazio.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 > **Piso verificável:** linha criada no Notion em **08/06/2023**; **Portal uMode | NV** criado em
 > **17/08/2023**; e existem páginas ***[NV] Fase 1 - Onboarding*** e ***Fase 2 - Onboarding***.

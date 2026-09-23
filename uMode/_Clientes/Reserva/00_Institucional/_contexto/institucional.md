@@ -22,11 +22,11 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - id: reserva — [base Segmentação Grupos · 2026-09-21]
-- segmento: ? — [sem fonte]
-- receita-anual: ? — [sem fonte]
+- segmento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: Enterprise — [base Segmentação Grupos · 2026-09-21]
 - status: Ongoing — [base Segmentação Grupos · 2026-09-21]
-- data-ativacao: ? — [sem fonte]
+- data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Linx / SAP — [base Segmentação Grupos · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [base Segmentação Grupos · 2026-09-21]
 - modulo-contratado: Integração — [base Segmentação Grupos · 2026-09-21]
@@ -70,10 +70,14 @@ domínio `usereserva.com`
 
 ## Posicionamento
 ### Segmento
-`[a preencher]` — campo vazio na base.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 12 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 ### Receita anual
-`[a preencher]` — campo vazio na base.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 
 ### Grupo de segmentação uMode
 **`Enterprise`** — Grupo 1, descrição **"Reserva + Soma"**.
@@ -92,7 +96,9 @@ domínio `usereserva.com`
 **`Ongoing`** — lido na base em 21/09/2026.
 
 ### Data de ativação
-`[a preencher]` — campo `Data Ativação Cliente` **vazio na base**.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.****.
 
 > **Piso verificável:** a linha do cliente no Notion foi criada em **24/05/2023**, e há um
 > documento *Solicitações Raquel* datado de **21/06/2023**. A conta opera **desde meados de 2023,

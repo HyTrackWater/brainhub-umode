@@ -23,17 +23,31 @@ tags:
 - produto-conectado: Gestão de Coleção + Integração — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: 7 pessoa(s) com acesso ao PLM nesta área: — [página Puket, tabela do PLM · 2026-09-21]
 - responsavel-area: ? — [não consta em: página Puket, tabela do PLM · 2026-09-21]
+- entrega: Esqueleto do produto importado · planilha de 37 campos, importada em lote — [Mapeamento de Conta — Puket · 2026-09-21]
+- entrega: Composição preenchida · obrigatória antes de gerar código Linx (§ 4.2.3) — [Mapeamento de Conta — Puket · 2026-09-21]
+- entrega: Custo na ficha técnica · responsável: Produto (§ 4.2.3) — [Mapeamento de Conta — Puket · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` — **a área tem gente com acesso ao PLM, mas nenhuma fonte varrida descreve o que
-ela faz na Puket.** Falta ler o mapeamento de conta do Puket, que existe: o mapeamento da CAEDU
-declara ter sido feito *"no mesmo padrão que empregamos para Puket"*.
+
+**Faz a subida do esqueleto do produto e responde pelos custos na ficha técnica.**
+
+> *"Em planilha de importação, cadastram **em massa** (preço, cor, linha, ncm, etc.). Responsáveis: **Time de Produto (Cátia ou assistentes)**. Ferramentas: Google Sheets + Import do uMode; Integração com Linx."* — § 4.2.2
+
+🔴 **A planilha de esqueleto tem 37 campos** (§ 2.2), e as validações são condicionais:
+> *"`Cor` — se 'Importado', cor obrigatória; `Composição` — **se 'Linha = Meias' o campo é obrigatório**."* — § 4.2.2
+
+⚠ **Procedência:** `Mapeamento de Conta — Puket`, abril/2025 — **síntese de IA sobre três transcrições reais** (26/02, 06/03 e 13/03 de 2025), assinada por Rafael. **Não é fonte bruta.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
 
 ## Entregas e responsabilidades
-`[a preencher]`
+
+| Entrega | Validação que a controla |
+|---|---|
+| Esqueleto do produto importado | planilha de 37 campos, importada em lote |
+| Composição preenchida | **obrigatória antes de gerar código Linx** (§ 4.2.3) |
+| Custo na ficha técnica | responsável: Produto (§ 4.2.3) |
 
 ## Padrões operacionais
 
@@ -43,7 +57,8 @@ declara ter sido feito *"no mesmo padrão que empregamos para Puket"*.
 
 ### O que não fazem
 
-`[a preencher]`
+- 🔴 **A dor registrada é de padronização, não de processo:**
+> *"**Falta de padronização de cor e ncm** gera retrabalho e suporte."* — § 4.2.2
 
 ## Vocabulário da área
 
@@ -73,8 +88,15 @@ declara ter sido feito *"no mesmo padrão que empregamos para Puket"*.
 |---|---|---|
 | Pessoas e perfis | Notion — página `Puket`, tabela do PLM | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| O que a área faz, entregas, o que não fazem | Notion — `Mapeamento de Conta — Puket` | 04/2025 |
+| Etapas de desenvolvimento e níveis de aprovação | Notion — `Mapeamento de Conta Puket — segundo Notion` | 21/03/2025 |
 
-### 🔴 Próxima fonte a varrer para esta área
+🔴 **O mapeamento de abril/2025 é SÍNTESE DE IA sobre três transcrições** (26/02, 06/03 e
+13/03 de 2025), assinada por Rafael. **Não é fonte bruta** — o que vier das transcrições
+originais prevalece. ⚠ **E tem 17 meses: revalidar antes de usar como diagnóstico atual.**
+
+
+### 🟢 Fonte varrida em 23/09/2026 — e o que resta
 **`Mapeamento de Contas - Puket`** e a página **`Análise das Similaridades e Diferenças entre
 contas: Puket e Caedu`**, ambas em `Operação de Clientes / Área de CX / Documentação CX`.
 Mais os **Playbooks** e o **Miro de regras e restrições** da conta.
@@ -82,6 +104,7 @@ Mais os **Playbooks** e o **Miro de regras e restrições** da conta.
 ### Documentos que esta área produz
 
 `[a preencher]`
+
 
 ## Governança
 ### Responsável pela área
