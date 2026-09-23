@@ -3133,3 +3133,46 @@
      `Caedu 1.jpg`. **São fonte local, fora do Notion — não dependem do conector.**
 500. 🔴 **A CAEDU não tem `integracao.md`**, sendo que **integração é a dor número 1 dela** e
      11 outros clientes têm o arquivo. **Lacuna de corpus, não de fonte.**
+
+## Acesso ao Notion restabelecido, e o que a primeira varredura achou (23 set 2026)
+
+501. 🟢 **RESOLVIDO — acesso ao Notion da uMode.** O conector foi reautorizado no workspace
+     `uMode Mode's Notion`. **A causa era escolha de workspace na tela de OAuth**, não conta
+     errada: o token vinha emitido para `Notion de Vinícius Risoléo` (pessoal, 2 usuários).
+     ⚠ **Lição de diagnóstico:** `get-teams` **não serve** para validar acesso — devolveu
+     `General`/`Inovação`/`Kudos`/`Recrutamento`, nenhum dos teamspaces reais. **O teste que vale
+     é uma busca por termo conhecido.** Fecha o item 498.
+502. 🟢 **RESOLVIDO — a segmentação de conta.** Era a pergunta transversal nº 1 da fila.
+     A base `Segmentação Grupos` tem **Enterprise (Grupo 1, `WIP Estratégico 6`, descrição
+     "Reserva + Soma") · Médios (Grupo 2, `2,25`) · SMB (Grupo 3, `1,75`)**, mais
+     `Grupos 4: Outros Clientes` e `Churn`. **O vocabulário do corpus já estava certo.**
+     🆕 **`WIP Estratégico` é modelo de ALOCAÇÃO DE CARGA** — a base vive sob
+     `Alocação de Cargas por Clientes em Vigor`. **Enterprise pesa 3,4× um SMB.**
+     **O corpus não tem esse conceito em lugar nenhum.** 🔴 **Decisão: vira campo de cliente?**
+503. 🔴 **A CAEDU é `SMB` (Grupo 3) na base viva — e isso contradiz o porte dela.**
+     O corpus supunha que "Grupo 3" fosse resíduo de export antigo. **Não é.** E a fonte do
+     Notion descreve a conta como *100+ lojas, ~R$1bi de faturamento (2023)*.
+     🔴 **Uma conta desse porte está na faixa de MENOR alocação de time (`1,75` contra `6`),
+     em `Onboarding`, com o CAEDU 2.0 em montagem.** **Decisão: reclassificar?** É pergunta
+     comercial, não de dado.
+504. 🔺 **Quatro correções de segmentação aplicadas** — Arezzo e Hering viraram `Enterprise`;
+     Baw virou `SMB`; `Lojão do Brás` saiu de `Churn` para `Grupos 4: Outros Clientes`.
+     **Causa única das quatro: o campo é `relation` e a consulta anterior o lia como valor.**
+     ⚠ **Vale conferir se outros campos do `Mapa de Clientes` são relação e estão vazios pelo
+     mesmo motivo** — `Atendimento 2024` é um deles, e continua sem resolver.
+505. 🔴 **O acervo `Setup - PLM / CLIENTES` foi superestimado no nosso próprio plano.**
+     O `AGORA.md` o tratava como passo imediato e maior rendimento. **4 das 8 páginas estão
+     vazias — inclusive a CAEDU.** Só a **RESERVA** tem acervo real: base
+     `CENTRAL DE DOCUMENTAÇÕES` com **18 documentos** de regra de negócio, integração e operação.
+     **Decisão: a RESERVA virou o caso-referência de documentação por cliente. Replicamos o
+     padrão dela para os outros?**
+506. 🔴 **O diário de varredura produz FALSO-NEGATIVO na § 4.** `Segmentação Grupos` seguia
+     listada como *"não varrida"* nos 48 arquivos **depois de já ter alimentado 34
+     `institucional.md`**. **A § 4 não é podada quando a fonte é varrida.**
+     🔴 **É defeito do mecanismo que existe justamente para impedir retrabalho** — e me fez
+     repetir busca hoje. **Corrigir em `gera-pendencias-e-fontes.py`.**
+507. 🆕 **`Atendimento 2025` não é só pessoa: é pessoa OU o rótulo `SMB`.** Julianne + Pedro (7
+     contas) · Laura (7) · Fernanda (3) · **`SMB` (7, todos em `Sem CS` ou `Churn`)**.
+     🟢 **Confirma por fonte independente que `Sem CS` é SKU self-service**, não momento de jornada.
+     ⚠ **A Baw contradiz:** `SMB` na segmentação, `Sem CS` no status, **mas com a Laura no
+     atendimento**. Os três campos discordam.

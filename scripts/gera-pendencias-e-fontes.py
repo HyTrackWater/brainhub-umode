@@ -108,10 +108,10 @@ NAO_VARRIDAS = [
      u"\u26a0 **o nome implica um estado de valida\u00e7\u00e3o** \u2014 n\u00e3o sei quantos clientes t\u00eam essa pasta nem o que mais h\u00e1 nela"),
     (u"`Playbook Onboarding Novas Marcas`", u"`uMode Geral / Produtos / hist\u00f3rico` (`7ab68b33\u2026`)", u"**FASE 1 | Planejamento de Implanta\u00e7\u00e3o** e cronograma padr\u00e3o \u2014 o processo de implanta\u00e7\u00e3o escrito"),
     (u"`Planos de Quarters OPS`", u"`uMode Geral / Opera\u00e7\u00e3o de Clientes` (`7ac7b3c6\u2026`)", u"OKR de opera\u00e7\u00e3o, com KR de medi\u00e7\u00e3o de satisfa\u00e7\u00e3o de cliente"),
-    (u"Relação `Segmentação Grupos`", u"`collection://a4103fe2-…`",
-     u"grupo/tier comercial do cliente"),
     (u"Relação `Atendimento 2024`", u"`collection://c82a689c-…`",
-     u"quem atendeu em 2024 — o corpus só tem 2025"),
+     u"quem atendeu em 2024 — o corpus só tem 2025. 🔴 **É `relation`: consultar como "
+     u"valor devolve vazio.** Resolver as páginas-alvo, como se fez com `Segmentação Grupos` "
+     u"em 23 set 2026"),
     (u"Campo `Participantes` das 1.161 reuniões", u"IDs de usuário do Notion",
      u"**presença nominal com data** — a melhor fonte de pessoa ativa"),
     (u"As 1.153 atas ainda não abertas", u"base de reuniões",
@@ -1573,6 +1573,12 @@ def doc(cliente):
         A(u"⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.")
     A(u"")
     A(u"## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas")
+    A(u"")
+    A(u"> 🔴 **Esta lista tem que ser PODADA quando a fonte for varrida.** Em 23 set 2026 a")
+    A(u"> `Segmentação Grupos` ainda constava aqui nos 48 arquivos **depois de já ter")
+    A(u"> alimentado 34 `institucional.md`** — e isso me fez repetir a busca.")
+    A(u"> **Falso-negativo aqui custa token e contradiz a razão de existir do diário.**")
+    A(u"> **Varreu? Tire daqui e registre na § 3, no mesmo commit.**")
     A(u"")
     A(u"| Fonte | Endereço | O que deve trazer |")
     A(u"|---|---|---|")

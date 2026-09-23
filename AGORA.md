@@ -217,20 +217,16 @@ alguma forma ligada a esses nós maiores."*
 Lofty Style · Puket · NV · Oficina Reserva · Cambos · Luiza Barcelos · Moda Objetiva · Baw ·
 Loungerie · Lenny Niemeyer · Recco.
 
-### 🚨 BLOQUEIO ATIVO — o Notion desta sessão não é o da uMode
+### 🟢 RESOLVIDO em 23 set 2026 — o acesso ao Notion da uMode
 
-**Descoberto em 23 set 2026.** `get-teams` devolve **um único teamspace: `Vinícius Risoléo`**
-(conta pessoal). Busca por `Caedu` devolve **zero**.
+O conector foi reautorizado no workspace **`uMode Mode's Notion`**. A causa era **escolha de
+workspace na tela de OAuth**, não conta errada: o token vinha emitido para
+`Notion de Vinícius Risoléo` (pessoal, 2 usuários).
 
-⚠ **Não afirmo que o conteúdo sumiu** — as sessões de 22 e 23 set leram esse workspace sem
-problema. **Afirmo que não o alcanço por este conector.** É conta autenticada diferente.
-
-🔴 **Ação do Vinicius: reconectar o Notion na conta da uMode.** Enquanto isso não acontecer,
-**os passos 1, 2 e 4 da § 7 estão parados** — todos dependem do Notion.
-**Item 498 do `_pendencias-gerais.md`.**
-
-🟢 **O que NÃO depende do Notion e segue disponível:** os arquivos em `Downloads` (três da CAEDU
-ainda fechados, item 499), o Google Drive, e todo o trabalho de corpus.
+⚠ **Lição de diagnóstico, para não repetir:** **`get-teams` não serve para validar acesso.**
+Depois de reconectado ele devolveu `General`, `Inovação`, `Kudos`, `Recrutamento` — **nenhum dos
+teamspaces reais.** Quem provou o acesso foi **uma busca por termo conhecido** (`Caedu`, que
+devolvia zero e passou a devolver o acervo). **Item 501.**
 
 ### 🚨 CAEDU — a dor histórica dela mudou de natureza em 23 set 2026
 
@@ -296,10 +292,13 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
    campos `[a preencher]`** (5 em `institucional`, 4 em `jornada`, 15 em `pessoas`, ~134 nos 14
    `contexto-area.md`) · **`integracao.md` não existe.**
 
-1. 🔵 **`uFlow / Documentação de Setup - PLM / CLIENTES` — oito clientes nunca tocados:**
-   RESERVA · BAW · OFICINA · VIX · StudioZ · PUKET · CAEDU · NK Store. **É o passo imediato**,
-   e inclui o segundo endereço da NK STORE e da VIX. **A NV já foi lida** — mas **12 das 13
-   sub-páginas de perfil dela continuam fechadas.**
+1. ✅ **`Setup - PLM / CLIENTES` — VARRIDO em 23 set 2026, e rendeu pouco.**
+   🔴 **4 das 8 páginas estão vazias, inclusive a CAEDU.** VIX (2 páginas), NK Store (1) e
+   StudioZ (1) têm pouco. **Só a RESERVA tem acervo real:** base `CENTRAL DE DOCUMENTAÇÕES`
+   com **18 documentos** de regra de negócio, integração e operação — **o acervo por cliente
+   mais estruturado que apareceu até hoje, e existe só para ela.**
+   🔵 **O que sobrou deste caminho:** abrir os 18 da RESERVA e as 4 páginas de VIX/NK/StudioZ.
+   **Itens 505 e o registro `_varredura-2026-09-23f`.**
 2. 🔵 **As 33 páginas de cliente que faltam** em `Databases / Mapa de Clientes`. Segue sendo a
    fonte de maior rendimento: resolve `cargo`, `área` e a camada de liderança de uma vez.
    🚨 **Toda página aberta é varrida também em busca de segredo.**
@@ -315,8 +314,10 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
    🔴 **As 43 estão com destinatário `⚠ a distribuir`** — e isso é de propósito. O Vinicius disse
    em 23 set 2026 que *provavelmente não será ele quem responde*; **assumir que são dele seria
    inventar um dado.** Atribuir dono é decisão, e não é minha.
-   **As mais caras:** a segmentação de conta · se `excluir variante` é mesmo só permissão ·
-   se a Cambos é fornecedora de marcas e não marca · qual campo manda, `Status` ou `Etapa`.
+   ✅ **A segmentação de conta saiu da fila em 23 set 2026** — respondida por fonte, não por
+   pergunta: `Enterprise` (Grupo 1) · `Médios` (2) · `SMB` (3). **Item 502.**
+   **As que sobram mais caras:** se `excluir variante` é mesmo só permissão · se a Cambos é
+   fornecedora de marcas e não marca · qual campo manda, `Status` ou `Etapa`.
 6. 🔵 **Fechar as 3 entidades que faltam: reunião, e-mail e agente.** Enquanto forem prosa, o
    grafo não liga ata a pessoa nem demanda a conversa.
 7. 🔵 **Resolver o campo `Participantes` das 1.161 reuniões** com `get-users` — dá presença

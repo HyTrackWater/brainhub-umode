@@ -96,6 +96,12 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
+> 🔴 **Esta lista tem que ser PODADA quando a fonte for varrida.** Em 23 set 2026 a
+> `Segmentação Grupos` ainda constava aqui nos 48 arquivos **depois de já ter
+> alimentado 34 `institucional.md`** — e isso me fez repetir a busca.
+> **Falso-negativo aqui custa token e contradiz a razão de existir do diário.**
+> **Varreu? Tire daqui e registre na § 3, no mesmo commit.**
+
 | Fonte | Endereço | O que deve trazer |
 |---|---|---|
 | ⚠ **`Operação de Clientes / ARQUIVO / Área de CX / Documentação CX`** | base `collection://3a26629f…`, **30 documentos, já listados por SQL** | 🔺 **corrigido:** eu tinha escrito o caminho SEM o `Arquivo`. **Está arquivado** — não tem o mesmo peso dos outros acervos. Sub-páginas não abertas: `Mapeamento da Conta - Puket`, `- Caedu`, **`Análise das Similaridades e Diferenças entre contas`**, `Devolutivas para Sandro`, `Indicadores e Rotinas de Acompanhamento` |
@@ -116,8 +122,7 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | Pasta **`Documentação Homologada`** dentro do cliente | vista na Cambos (`4d25eb62…`) | ⚠ **o nome implica um estado de validação** — não sei quantos clientes têm essa pasta nem o que mais há nela |
 | `Playbook Onboarding Novas Marcas` | `uMode Geral / Produtos / histórico` (`7ab68b33…`) | **FASE 1 | Planejamento de Implantação** e cronograma padrão — o processo de implantação escrito |
 | `Planos de Quarters OPS` | `uMode Geral / Operação de Clientes` (`7ac7b3c6…`) | OKR de operação, com KR de medição de satisfação de cliente |
-| Relação `Segmentação Grupos` | `collection://a4103fe2-…` | grupo/tier comercial do cliente |
-| Relação `Atendimento 2024` | `collection://c82a689c-…` | quem atendeu em 2024 — o corpus só tem 2025 |
+| Relação `Atendimento 2024` | `collection://c82a689c-…` | quem atendeu em 2024 — o corpus só tem 2025. 🔴 **É `relation`: consultar como valor devolve vazio.** Resolver as páginas-alvo, como se fez com `Segmentação Grupos` em 23 set 2026 |
 | Campo `Participantes` das 1.161 reuniões | IDs de usuário do Notion | **presença nominal com data** — a melhor fonte de pessoa ativa |
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |

@@ -3128,3 +3128,43 @@ caminho).
   `_indice.md` gerados como se fossem registro (Demanda 1.021, RFI 102). **Números reais:**
   2.403 MDs · 999 demandas · 86 RFIs · 242 fichas de pessoa · 27 de ferramenta · 16 Soluções ·
   11 integrações · 46 perguntas (43 abertas). **A fila de perguntas dizia 63.**
+
+- **23 set 2026** — Sessão 44: **Notion destravado, e a primeira varredura corrigiu o próprio plano.**
+  🟢 **Acesso restabelecido.** A causa não era conta errada: o token estava emitido para o
+  workspace **pessoal** (`Notion de Vinícius Risoléo`, 2 usuários) em vez de
+  **`uMode Mode's Notion`**. O `@gmail.com` sempre teve acesso aos dois — errou-se o **seletor de
+  workspace na tela de OAuth**. ⚠ **Lição:** `get-teams` **não valida acesso** — depois de
+  reconectado devolveu `General`/`Inovação`/`Kudos`/`Recrutamento`, nenhum teamspace real.
+  **O teste que vale é busca por termo conhecido.**
+  🔺 **Cobrança do Vinicius, aceita:** eu tinha saído do plano para analisar um arquivo do
+  `Downloads` em vez de seguir o caminho mapeado no diário. *"Senão vamos ficar rodando em
+  círculos e registrando coisas repetidas."* **Correto.**
+  🔴 **O acervo `Setup - PLM / CLIENTES` foi superestimado pelo nosso próprio `AGORA.md`**, que o
+  tratava como passo imediato e *"fonte de maior rendimento"*. **Abri os 9 e medi: 4 estão
+  VAZIAS — inclusive a CAEDU**, que é o cliente com prazo. VIX tem 2 páginas, NK Store 1,
+  StudioZ 1. 🟢 **Só a RESERVA tem acervo real:** base `CENTRAL DE DOCUMENTAÇÕES` com **18
+  documentos** categorizados em Operacional / Integração / Regras de Negócio — **o acervo por
+  cliente mais estruturado que apareceu até hoje, e existe só para ela.**
+  🟢 **Segmentação de conta RESOLVIDA** — era a pergunta transversal nº 1 da fila, e caiu por
+  fonte, não por resposta do Vinicius: **`Enterprise` (Grupo 1, `WIP Estratégico 6`, descrição
+  "Reserva + Soma") · `Médios` (2, `2,25`) · `SMB` (3, `1,75`)**, mais `Grupos 4` e `Churn`.
+  🆕 **`WIP Estratégico` é a descoberta lateral que vale mais que o rótulo:** a base vive sob
+  `Alocação de Cargas por Clientes em Vigor` e é um **modelo de capacidade** — **Enterprise pesa
+  3,4× um SMB**. O corpus não tem esse conceito.
+  🔺 **Cinco correções aplicadas, todas com a mesma causa técnica:** o campo é **`relation`**, e
+  consultá-lo como valor devolve vazio — o `institucional.md` da CAEDU já dizia isso com todas as
+  letras e ninguém tinha resolvido a relação. **CAEDU → `SMB`; Arezzo e Hering → `Enterprise`;
+  Baw → `SMB`; `Lojão do Brás` → `Grupos 4`** (estava `Churn`, que é outro campo).
+  🔴 **A correção da CAEDU derruba hipótese nossa e abre problema de negócio.** O corpus supunha
+  que "Grupo 3" fosse resíduo de export antigo. **É o valor vivo** — e a fonte do Notion descreve
+  a conta como *100+ lojas, ~R$1bi de faturamento*. **Uma conta desse porte na faixa de MENOR
+  alocação de time, em `Onboarding`, com o CAEDU 2.0 em montagem.**
+  🆕 **`Atendimento 2025` não é só pessoa: é pessoa OU `SMB`.** Julianne + Pedro (7) · Laura (7) ·
+  Fernanda (3) · **`SMB` (7, todos `Sem CS` ou `Churn`)**. **Confirma por fonte independente que
+  `Sem CS` é SKU self-service.** ⚠ A **Baw** contradiz os três campos ao mesmo tempo.
+  🔴 **Achado de processo, e é o mais caro:** **a § 4 do diário produz falso-negativo.**
+  `Segmentação Grupos` seguia listada como *"não varrida"* nos 48 arquivos **depois de já ter
+  alimentado 34 `institucional.md`** — e foi por isso que eu fui até lá. **O mecanismo que existe
+  para impedir retrabalho causou retrabalho.** Corrigido no `gera-pendencias-e-fontes.py`: a
+  entrada saiu da lista e a § 4 passou a carregar a regra de poda.
+  **Registros:** `_varredura-2026-09-23f`. **Itens 501–507.**

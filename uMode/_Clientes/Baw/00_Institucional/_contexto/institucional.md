@@ -36,7 +36,8 @@
 `[a preencher]` — **campo vazio na base**
 
 ### Grupo de segmentação uMode
-`[a preencher]` — **sem grupo de segmentação registrado na base**.
+**`SMB`** — **Grupo 3**. `WIP Time 10` · `WIP Estratégico 1,75`.
+> 🟢 **Lido ao vivo em 23 set 2026** resolvendo a relação. O corpus registrava como ausente.
 
 ## Operação uMode
 ### Status atual

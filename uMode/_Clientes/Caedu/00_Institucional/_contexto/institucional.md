@@ -30,9 +30,16 @@ B2C — **Vestuário, Calçados, Acessórios** — São Paulo/SP
 `[a preencher]` — campo **vazio** na base `Mapa de Clientes`.
 > Há a referência de ~R$ 1 bi (2023) no CRM de mentoria, **não confirmada**. Não usar como dado.
 ### Grupo de segmentação uMode
-`[a preencher]` — o campo mudou de tipo na base viva (virou relação) e não trouxe valor na consulta.
-> O export antigo trazia "Grupo 3: Potenciais Clientes", **classificação incompatível com um
-> cliente em `Ongoing`** — provável resíduo. Reconfirmar com o Comercial.
+**`SMB`** — **Grupo 3** da base `Segmentação Grupos`. `WIP Time 10` · `WIP Estratégico 1,75`.
+> 🟢 **Lido ao vivo em 23 set 2026**, resolvendo a relação (o campo é `relation`, não texto — foi
+> por isso que a consulta anterior voltou vazia).
+> 🔺 **Derruba a hipótese que estava escrita aqui.** O corpus supunha que "Grupo 3" fosse resíduo
+> de export antigo. **Não é: é a classificação viva da conta.**
+> 🔴 **E ela contradiz o porte.** A própria fonte do Notion descreve a CAEDU como *varejista de
+> moda popular, 100+ lojas, ~R$1bi de faturamento (2023)* — e `SMB` é a faixa de menor alocação
+> de time (`WIP Estratégico 1,75` contra `6` do `Enterprise`). **Com o projeto CAEDU 2.0 em
+> montagem e a conta em `Onboarding`, a segmentação subdimensiona a carga.** Ver
+> `_pendencias-gerais.md`.
 
 ## Operação uMode
 ### Status atual

@@ -35,7 +35,10 @@
 `[a preencher]` — **campo vazio na base**
 
 ### Grupo de segmentação uMode
-`Churn` — grupo próprio na base `Segmentação Grupos`.
+**`Grupos 4: Outros Clientes`** — linha própria da base `Segmentação Grupos`, **sem número de
+grupo e sem `WIP`**.
+> 🔺 **Corrigido em 23 set 2026.** O corpus dizia `Churn`. `Churn` é outra linha da mesma base —
+> este cliente está em `Grupos 4`. O `Status` dele é que é `Churn`; **são dois campos diferentes**.
 
 ## Operação uMode
 ### Status atual
