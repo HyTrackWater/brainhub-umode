@@ -27,8 +27,8 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma — [página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
-- responsavel-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
+- pessoas-da-area: ? — [não consta em: página Oficina Reserva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Oficina Reserva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
 
@@ -68,7 +68,8 @@ tags:
 2. 🔴 **A página de permissionamento da conta responde isso** — abrir antes de perguntar.
 
 ## Pessoas desta área
-**Nenhuma.**
+`[a preencher]` — 🔴 **nenhuma fonte de pessoa por área foi encontrada para este cliente** (verificado em 23/09/2026).
+> ⚠ **Corrigido em 23/09/2026.** Esta seção dizia **"Nenhuma."**, o que afirma que a área não tem gente. 🔴 **Não sabemos isso** — sabemos que não há tabela de usuários nem pesquisa que cubra esta conta. **Ausência de fonte não é ausência de pessoa.**
 
 ⚠ **E isso vale pouco nesta conta:** apenas **3 pessoas** foram identificadas no cliente inteiro, todas por e-mail de chamado, **nenhuma com área**.
 
@@ -90,7 +91,8 @@ ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
 | Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
 | Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
-| Pessoas e responsáveis de área | Notion — página `Oficina Reserva`, **sem tabela de usuários do PLM** | varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Oficina Reserva` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próxima fonte a varrer
 **`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas

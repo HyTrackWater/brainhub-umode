@@ -24,9 +24,9 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: Nenhuma — [base Mapa de Clientes · 2024-10-18]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- pessoas-da-area: ? — [não consta em: página Simples · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Simples · 2026-09-23]
 
 ## O que esta área faz
 `[a preencher]`
@@ -55,7 +55,8 @@ tags:
 2. Se existe, **por que não aparece em nenhuma fonte varrida**?
 
 ## Pessoas desta área
-**Nenhuma.**
+`[a preencher]` — 🔴 **nenhuma fonte de pessoa por área foi encontrada para este cliente** (verificado em 23/09/2026).
+> ⚠ **Corrigido em 23/09/2026.** Esta seção dizia **"Nenhuma."**, o que afirma que a área não tem gente. 🔴 **Não sabemos isso** — sabemos que não há tabela de usuários nem pesquisa que cubra esta conta. **Ausência de fonte não é ausência de pessoa.**
 
 ## Produto conectado
 `[a preencher]` — **não há módulos registrados: o cliente não está na base.**
@@ -73,6 +74,8 @@ tags:
 |---|---|---|
 | Existência do portal | Notion — base `Portal do Cliente` | **varrido 21/09/2026** |
 | **Ausência** no `Mapa de Clientes` | Notion — base `Mapa de Clientes`, 50 linhas | **varrida 22 set 2026** |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Simples (by Reserva)` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ## Governança
 

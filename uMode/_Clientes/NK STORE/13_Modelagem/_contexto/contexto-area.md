@@ -24,16 +24,20 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [varredura do Notion · 2026-09-21]
-- pessoas-da-area: Cristina Amorim, Vanessa, Silvia e Vitoria Fernanda — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [base Mapa de Clientes · 2026-09-23]
+- pessoas-da-area: 4 pessoas com perfil NK - Modelagem · Departamento NK: Modelagem — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 - responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` — nenhuma fonte varrida descreve as atribuições da área.
 
-O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentro de uma reunião e **não validado pelo cliente**:
+**Tem perfil próprio: `NK - Modelagem` — 4 das 29 pessoas, o menor perfil operacional.**
 
-`Planejamento → Estilo → Compras/Merchandising → PCP → Oficina`, com um ramo separado `Planejamento → Curadoria`.
+⚠ **A criação das modelagens, porém, é descrita como trabalho de Estilo**, não desta área:
+> *"O departamento de estilo é encarregado de desenvolver as peças (...) incluindo a **criação de modelagens**."*
+
+🔴 **Perfil existe, atribuição está descrita noutra área.** ⚠ **Confirmar com o atendimento quem faz o quê.**
+
+🔴 **Ressalva de fonte:** este trecho saiu do bloco *"Levantamentos e Pesquisa por IA dentro da reunião — IA Tactiq"*, dentro da ata. **É saída de IA registrada numa ata, não documento validado pelo cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -55,7 +59,12 @@ O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentr
 `[a preencher]`
 
 ## Pessoas desta área
-**Cristina Amorim**, **Vanessa**, **Silvia** e **Vitoria Fernanda** — **as quatro entraram entre 08 e 15/01/2025**, numa onda única.
+**4 pessoas** com perfil `NK - Modelagem` · Departamento NK: `Modelagem`.
+
+> **Base `Usuários` da sub-página `Perfil de Usuário e Permissionamentos`, lida em 23/09/2026.** 29 pessoas no total, em 5 perfis.
+> 🔴 **As 3 restantes têm perfil `NK - Admin`** — transversal, não é área.
+> ⚠ **Estado dos convites:** 26 aceitos, **2 pendentes** (12 e 16/12/2024) e **1 inativo** desde 10/03/2025. **4 linhas estão marcadas `INATIVAR`.**
+> 🔴 **A base tem um `Departamento NK` que NÃO bate com os perfis da matriz de permissão** — a matriz usa `NK- Estilo Master`, `Nk Compras Master`, `NK Compras`, `Nk Modelagem`, `NK - Time` e `Fornecedor`. **Só `NK - Admin` coincide literalmente entre as duas.** ⚠ **Não conciliei: são duas taxonomias e a fonte não diz o mapa.**
 
 ## Uso do sistema nesta área
 ⚠ **Nenhuma pessoa de Modelagem abriu chamado em jan/2026.** Quatro cadastradas, zero evidência de ação na janela.
@@ -80,6 +89,9 @@ A matriz dá a esta área a única permissão de **criação** que o cliente tem
 | Permissões por perfil | Notion — matriz na mesma página | varrida 21/09/2026 |
 | Cargos e departamentos confirmados | Notion — página `NK STORE` | varrido 21/09/2026 |
 | Uso e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| O que a área faz, perfis e contagem de pessoas | Notion — `NK STORE` + `Perfil de Usuário e Permissionamentos` | varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — `Perfil de Usuário e Permissionamentos`, base `Usuários` (29 pessoas) | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)* · *NK | Análise de Demandas* ·

@@ -24,7 +24,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios — [varredura do Notion · 2026-09-21]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Valter — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
@@ -78,6 +78,8 @@ Banner (pedidos de atacado) · Trello (gestão de processo).
 | Times envolvidos, pessoas, dores | Notion — *Definições do Projeto* e bloco *Pessoas* | varrido 21/09/2026 |
 | Volumes, sistemas, canais | Notion — *Informações de Discovery de Sales* | varrido 21/09/2026 |
 | Uso e chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Cambos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *Perfil de Usuário e Permissionamentos* · *Playbook Cambos* ·

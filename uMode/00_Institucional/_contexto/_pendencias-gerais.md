@@ -3988,3 +3988,71 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      Vários `jornada.md` declaram o que foi prometido dentro de *"escopo acordado"*, não numa
      seção chamada "entregas" — e as 5 entregas da Oficina vinham da **mensagem do João no grupo
      de Sales, de 26/06/2024**, sem que o gerador soubesse ligar.
+
+## Luiza Barcelos, NK STORE e Osklen — e a procedência em escala (23 set 2026)
+
+659. 🟢 **SEIS clientes com ZERO `[sem fonte]`:** Caedu (142 fatos), NK STORE (107), Puket (92),
+     Luiza Barcelos (92), Osklen (90), Oficina Reserva (88). **São os três mais atendidos da
+     carteira mais os três já varridos.**
+660. 🟢 **Corpus inteiro saiu de 57% para 10% `[sem fonte]`.** 3.396 fatos: **1.325 com fonte
+     (39%) · 1.717 ausência verificada (51%) · 338 sem fonte (10%)**. ⚠ **Metade do cérebro é
+     ausência DECLARADA** — sabe-se onde se olhou e quando. **Isso não é conteúdo, mas é o
+     oposto de silêncio.**
+661. 🔺 **ERRO MEU, corrigido antes de commitar: fabriquei procedência em 672 linhas.** Detectei
+     "cliente tem tabela de usuários" testando se `pessoas-da-area` tinha valor — e o valor
+     dominante é **`Nenhuma`**, que significa *"esta área não tem gente"*, não *"o cliente tem
+     tabela"*. 🔴 **Escrevi "tabela de usuários do PLM" como fonte em 48 clientes, inclusive nos
+     que não têm tabela nenhuma.** ⚠ **É o mesmo defeito do padrão `Financeiro` que fabricava
+     fonte em 51 fatos: pista fraca virando afirmação de procedência.**
+     🟢 **A detecção certa é contagem NUMÉRICA, e devolve 4 clientes — não 48.**
+662. 🔺 **Segunda correção de honestidade, 529 áreas em 39 clientes.** A seção `Pessoas desta
+     área` dizia **"Nenhuma."** — o que afirma que a área não tem gente. 🔴 **Não sabemos isso.**
+     Sabemos que não há tabela de usuários nem pesquisa cobrindo aquela conta.
+     **Ausência de fonte não é ausência de pessoa** — e o MD dizia uma pela outra.
+663. 🟢 **NK STORE tem a tabela de usuários mais rica lida até hoje: 29 pessoas em 5 perfis**, com
+     `Departamento NK` e estado de convite. `NK - Estilo` **10** · `NK - PCP` **7** ·
+     `NK - Compras` **5** · `NK - Modelagem` **4** · `NK - Admin` **3**.
+     ⚠ **26 convites aceitos, 2 pendentes desde dez/2024, 1 inativo, 4 marcados `INATIVAR`.**
+664. 🔴 **Na NK STORE, perfil da matriz e perfil da tabela de usuários NÃO coincidem.** A matriz
+     usa `NK- Estilo Master` (sem espaço), `Nk Compras Master`, `NK Compras`, `Nk Modelagem`,
+     `NK - Time`, `Fornecedor`. A tabela usa `NK - Estilo`, `NK - PCP`, `NK - Compras`,
+     `NK - Modelagem`, `NK - Admin`. **Só `NK - Admin` bate literalmente.**
+     ⚠ **São duas taxonomias e a fonte não diz o mapa. Não conciliei.**
+665. 🔴 **A Osklen está em `Operação Assistida`, é a 3ª mais atendida (101 reuniões) — e a página
+     dela é TEMPLATE EM BRANCO.** `Pessoas`, `Jornada` e `CRM` têm só os rótulos do modelo.
+     ⚠ **O único conteúdo datado tem interrogação na própria fonte:** *"uFlow — entrega: Junho ou
+     Agosto 2025???"* · *"uBuy — entrega: +d???"*. **O material real parece estar fora do Notion.**
+     ⚠ **E a contagem de pessoas da Osklen vem de CSat de kick-off, não de tabela de usuários** —
+     chamar de tabela de PLM seria repetir o erro do item 661.
+666. 🔴 **Luiza Barcelos tem uma cláusula contratual de integração que muda o desenho:**
+     > *"**Não faz parte do escopo deste contrato a integração com o sistema LINX** ou qualquer
+     > outro que não seja o sistema SAFETECH."*
+     🟢 **E a matriz de permissão é coerente:** a linha `Integração` está 🔴 para **todos** os
+     quatro perfis, inclusive `LB - Admin`. ⚠ **O ERP aparece com três grafias na mesma página:**
+     `Safe Tech` (propriedade), `Safe Tech` e `SAFETECH` (corpo).
+667. 🔴 **Luiza Barcelos: dois blocos da MESMA página listam times diferentes.** O Kick Off diz
+     *"Times: Estilo, PCP, Compras"*; `Times Envolvidos` lista nove áreas sob a Diretoria
+     Criativa — **e PCP e Compras não aparecem nela por esses nomes.** ⚠ **`Compras` e
+     `Suprimentos` parecem ser o mesmo time com dois nomes. Não conciliei.**
+668. 🔴 **Um cargo da Luiza Barcelos atravessa QUATRO áreas canônicas:** *"Logística e Cadastro —
+     Desenvolvimento até a Precificação está no guarda-chuvas dele"*. **Não dá para atribuir por
+     área sem quebrar o cargo.**
+669. 🟢 **NOVE clientes têm página `Perfil de Usuário e Permissionamentos`:** VIX, Cambos, Luiza
+     Barcelos, Lenny Niemeyer, Recco, Moda Objetiva, NK STORE, Oficina Reserva e NV.
+     🔴 **É a fonte mais escalável achada até aqui** — dá perfil, aba de ficha e permissão por
+     campo. **Seis foram lidas hoje; o conteúdo está levantado e ainda não foi escrito no corpus.**
+670. 🔴 **`Moda Objetiva` tem um perfil chamado `Objetiva - Engenharia`** — e é o segundo cliente
+     (com a Oficina) em que Engenharia existe de verdade. ⚠ **Tem também `Objetiva - Estamparia`
+     e `Objetiva - Compras MP`**, que não cabem nas 14 áreas canônicas.
+671. 🔴 **`Recco` nomeia os perfis SEM prefixo de cliente:** `Admin`, `Time`, `Fornecedor`.
+     ⚠ **É o único dos nove assim** — e isso impede distinguir perfil de conta por nome.
+672. 🔴 **A aba de integração tem TRÊS nomes entre clientes:** `Integração Linx` (VIX, Lenny, NV),
+     `INTEGRAÇÃO SPI` (Cambos) e só `Integração` (Recco, Moda Objetiva).
+     ⚠ **Mesma função, três vocabulários** — exatamente o que o `CLAUDE.md` chama de defeito de
+     taxonomia. **Antes de cruzar transcrição, isso precisa de um dicionário.**
+673. ⚠ **`NV` tem formato diferente dos outros oito:** não é matriz, é página-índice com **13
+     sub-páginas, uma por perfil** — `NV - Geral`, `Master`, `Estilo`, `Qualidade`, `Planner`,
+     `Planner 2`, `Compras`, `Planejamento Comercial`, `PCP`, `Atacado`, `Marketing`, `View`,
+     `Logística`. 🔴 **Só 1 das 13 foi lida.** ⚠ **E o vocabulário diverge dentro da própria
+     fonte:** a página-mãe chama os modos de `Inclusão`/`Restrição`, a sub-página chama de
+     `exclusão`.

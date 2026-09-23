@@ -24,16 +24,21 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [varredura do Notion · 2026-09-21]
-- pessoas-da-area: Andressa Correa — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [base Mapa de Clientes · 2026-09-23]
+- pessoas-da-area: 7 pessoas com perfil NK - PCP · Departamento NK: PCP — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 - responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` — nenhuma fonte varrida descreve as atribuições da área.
 
-O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentro de uma reunião e **não validado pelo cliente**:
+**Tem perfil próprio: `NK - PCP` — 7 das 29 pessoas, o segundo maior da conta.**
 
-`Planejamento → Estilo → Compras/Merchandising → PCP → Oficina`, com um ramo separado `Planejamento → Curadoria`.
+> *"O departamento de PCP **coordena a produção interna e externa**, garantindo que os prazos sejam cumpridos e que a qualidade dos produtos seja mantida. Eles trabalham em estreita colaboração com a **oficina interna e as facções externas**."*
+
+🔴 **A qualidade é responsabilidade do PCP nesta conta**, não de uma área própria — não há perfil de Qualidade.
+
+⚠ **A Coordenadora do PCP carrega uma nota literal na ficha de pessoas:** *"(Se ela está feliz com o projeto, estamos bem)"*.
+
+🔴 **Ressalva de fonte:** este trecho saiu do bloco *"Levantamentos e Pesquisa por IA dentro da reunião — IA Tactiq"*, dentro da ata. **É saída de IA registrada numa ata, não documento validado pelo cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -55,9 +60,12 @@ O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentr
 `[a preencher]`
 
 ## Pessoas desta área
-**Andressa Correa** — Coordenadora do PCP; a origem registra *"se ela está feliz com o projeto, estamos bem"* · **Robson Bazan** — Gerente Industrial · **Laís**, **Caroline Silva**, **Beatriz Nunes**, **Milena Machado**, **Rosana Campos**.
+**7 pessoas** com perfil `NK - PCP` · Departamento NK: `PCP`.
 
-⚠ **Lucas Gabriel de Oliveira Alves de Souza** está marcado `INATIVAR`.
+> **Base `Usuários` da sub-página `Perfil de Usuário e Permissionamentos`, lida em 23/09/2026.** 29 pessoas no total, em 5 perfis.
+> 🔴 **As 3 restantes têm perfil `NK - Admin`** — transversal, não é área.
+> ⚠ **Estado dos convites:** 26 aceitos, **2 pendentes** (12 e 16/12/2024) e **1 inativo** desde 10/03/2025. **4 linhas estão marcadas `INATIVAR`.**
+> 🔴 **A base tem um `Departamento NK` que NÃO bate com os perfis da matriz de permissão** — a matriz usa `NK- Estilo Master`, `Nk Compras Master`, `NK Compras`, `Nk Modelagem`, `NK - Time` e `Fornecedor`. **Só `NK - Admin` coincide literalmente entre as duas.** ⚠ **Não conciliei: são duas taxonomias e a fonte não diz o mapa.**
 
 ## Uso do sistema nesta área
 🔴 **PCP é a área que mais usa o sistema.** **Caroline Silva** abriu **9 chamados** e **Laís** abriu 3 — juntas, **40% do volume da conta**. Assuntos: instabilidade, notificação que não chega, usabilidade e *forçar integração*.
@@ -80,6 +88,9 @@ O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentr
 | Permissões por perfil | Notion — matriz na mesma página | varrida 21/09/2026 |
 | Cargos e departamentos confirmados | Notion — página `NK STORE` | varrido 21/09/2026 |
 | Uso e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| O que a área faz, perfis e contagem de pessoas | Notion — `NK STORE` + `Perfil de Usuário e Permissionamentos` | varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — `Perfil de Usuário e Permissionamentos`, base `Usuários` (29 pessoas) | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)* · *NK | Análise de Demandas* ·

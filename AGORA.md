@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **654** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **669** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -326,12 +326,10 @@ contra `## Fatos`, nunca contra a prosa.** Formato travado no
 
 | | |
 |---|---:|
-| fatos com fonte e data | **1.138** (34%) |
-| 🔴 fatos `[sem fonte]` — **ninguém procurou** | **1.943** (57%) |
-| 🟢 **CAEDU** — 142 fatos em 16 arquivos | 🔴 **ZERO `[sem fonte]`** — 82% com fonte, 18% ausência verificada |
-| 🟢 ausência VERIFICADA no corpus | **299** — fonte nomeada e data |
-| 🟢 **Puket** — 14 áreas estavam vazias | **92 fatos, ZERO `[sem fonte]`** |
-| 🟢 **Oficina Reserva** — 8 perfis de acesso lidos | **88 fatos, 55% com fonte** |
+| fatos com fonte e data | **1.325** (39%) |
+| 🔴 fatos `[sem fonte]` — **ninguém procurou** | **338** (10%) |
+| 🟢 **SEIS clientes com ZERO `[sem fonte]`** | Caedu 142 · NK STORE 107 · Puket 92 · Luiza Barcelos 92 · Osklen 90 · Oficina Reserva 88 |
+| 🟢 ausência VERIFICADA no corpus | **1.717** (51%) — fonte nomeada e data |
 | 🟢 **ausência VERIFICADA** — `[não consta em: X · data]` | **2** — só a CAEDU |
 | chaves de vocabulário fechado | **35** |
 | nomes indexados por e-mail, tirados do próprio corpus | **617** |

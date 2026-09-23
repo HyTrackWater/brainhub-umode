@@ -98,7 +98,12 @@ BLOCO_DA_CHAVE = {
     # "escopo" entra porque e onde varios jornada.md declaram o que foi
     # prometido - a entrega nasce do escopo acordado, nao de uma secao
     # chamada "entregas".
-    u"entrega":            [u"valida", u"fluxo", u"campos", u"entrega", u"escopo"],
+    # Entrega quase nunca vive numa secao chamada "entregas". Ela e declarada
+    # no escopo acordado, nas definicoes do projeto, no cronograma ou na lista
+    # de documentos combinados - e e assim que os jornada.md a registram.
+    u"entrega":            [u"valida", u"fluxo", u"campos", u"entrega", u"escopo",
+                            u"defini", u"cronograma", u"relatório", u"sucesso",
+                            u"documento"],
     u"pessoas-da-area":    [u"pessoas"],
     u"produto-conectado":  [u"módulos", u"modulos", u"produto"],
     # dono da area E no CLIENTE: a fonte e a tabela de pessoas, nao a dupla

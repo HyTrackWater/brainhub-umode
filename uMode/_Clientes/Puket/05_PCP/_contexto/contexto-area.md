@@ -82,6 +82,8 @@ tags:
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
 | O que a área faz, entregas, o que não fazem | Notion — `Mapeamento de Conta — Puket` | 04/2025 |
 | Etapas de desenvolvimento e níveis de aprovação | Notion — `Mapeamento de Conta Puket — segundo Notion` | 21/03/2025 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Puket`, tabela de usuários do PLM | varrido 21/09/2026 |
 
 🔴 **O mapeamento de abril/2025 é SÍNTESE DE IA sobre três transcrições** (26/02, 06/03 e
 13/03 de 2025), assinada por Rafael. **Não é fonte bruta** — o que vier das transcrições

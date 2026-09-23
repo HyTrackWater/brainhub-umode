@@ -24,16 +24,19 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [varredura do Notion · 2026-09-21]
-- pessoas-da-area: Stella Sunaga — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [base Mapa de Clientes · 2026-09-23]
+- pessoas-da-area: 10 pessoas com perfil NK - Estilo — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 - responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` — nenhuma fonte varrida descreve as atribuições da área.
 
-O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentro de uma reunião e **não validado pelo cliente**:
+**Tem perfil próprio no PLM: `NK - Estilo` — e é o maior da conta, com 10 das 29 pessoas.**
 
-`Planejamento → Estilo → Compras/Merchandising → PCP → Oficina`, com um ramo separado `Planejamento → Curadoria`.
+> *"O departamento de estilo é encarregado de **desenvolver as peças de moda**, incluindo a criação de modelagens, escolha de tecidos e estampas, e realização de provas de roupa. Eles trabalham em colaboração com **fornecedores externos e a oficina interna** para produzir as peças."*
+
+⚠ **A matriz de permissão usa outro nome:** `NK- Estilo Master` — **sem espaço depois de "NK"**. 🔴 **Perfil da matriz e perfil da tabela de usuários não coincidem** (§ abaixo).
+
+🔴 **Ressalva de fonte:** este trecho saiu do bloco *"Levantamentos e Pesquisa por IA dentro da reunião — IA Tactiq"*, dentro da ata. **É saída de IA registrada numa ata, não documento validado pelo cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -55,9 +58,12 @@ O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentr
 `[a preencher]`
 
 ## Pessoas desta área
-**Stella Sunaga** — Diretora de Estilo, 10 anos de casa · **Julia Leone** e **Sam** — Coordenadores · **Thais**, **Moreno Ribeiro**, **Ana Ribeiro**.
+**10 pessoas** com perfil `NK - Estilo` — o maior da conta · Departamento NK: `Estilo`.
 
-⚠ **Mais 3 pessoas de Estilo estão marcadas `INATIVAR`** — Júlia Fontoura, Vanessa Veiga (**inativa desde 10/03/2025**) e gabriela.rocin (**convite nunca aceito**). **Estilo é a área com mais rotatividade da conta.**
+> **Base `Usuários` da sub-página `Perfil de Usuário e Permissionamentos`, lida em 23/09/2026.** 29 pessoas no total, em 5 perfis.
+> 🔴 **As 3 restantes têm perfil `NK - Admin`** — transversal, não é área.
+> ⚠ **Estado dos convites:** 26 aceitos, **2 pendentes** (12 e 16/12/2024) e **1 inativo** desde 10/03/2025. **4 linhas estão marcadas `INATIVAR`.**
+> 🔴 **A base tem um `Departamento NK` que NÃO bate com os perfis da matriz de permissão** — a matriz usa `NK- Estilo Master`, `Nk Compras Master`, `NK Compras`, `Nk Modelagem`, `NK - Time` e `Fornecedor`. **Só `NK - Admin` coincide literalmente entre as duas.** ⚠ **Não conciliei: são duas taxonomias e a fonte não diz o mapa.**
 
 ## Uso do sistema nesta área
 ⚠ **Nenhuma pessoa de Estilo abriu chamado em jan/2026.** Os 30 chamados vieram de PCP, Compras e TI. **Estilo tem 6 pessoas cadastradas e zero evidência de ação na janela.**
@@ -80,6 +86,9 @@ O que existe é o **fluxo de processo** da conta inteira, produzido por IA dentr
 | Permissões por perfil | Notion — matriz na mesma página | varrida 21/09/2026 |
 | Cargos e departamentos confirmados | Notion — página `NK STORE` | varrido 21/09/2026 |
 | Uso e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| O que a área faz, perfis e contagem de pessoas | Notion — `NK STORE` + `Perfil de Usuário e Permissionamentos` | varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — `Perfil de Usuário e Permissionamentos`, base `Usuários` (29 pessoas) | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)* · *NK | Análise de Demandas* ·

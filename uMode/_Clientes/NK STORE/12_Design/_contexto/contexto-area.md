@@ -26,7 +26,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [sem fonte]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Nenhuma — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 - responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
@@ -78,6 +78,8 @@ tags:
 | Permissões por perfil | Notion — matriz na mesma página | varrida 21/09/2026 |
 | Cargos e departamentos confirmados | Notion — página `NK STORE` | varrido 21/09/2026 |
 | Uso e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — `Perfil de Usuário e Permissionamentos`, base `Usuários` (29 pessoas) | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)* · *NK | Análise de Demandas* ·

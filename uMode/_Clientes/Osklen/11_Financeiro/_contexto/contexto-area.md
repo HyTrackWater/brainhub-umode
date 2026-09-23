@@ -28,10 +28,20 @@ tags:
 - responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
 
 ## O que esta área faz
-Expectativa: *"Maior eficiência traduzida em **impacto positivo no resultado**."*
-Ressalva: *"**Informações que dependem do sistema Linx**."*
 
-> ⚠ **A Controladoria depende do Linx e a integração é a maior preocupação da conta.** **Se a integração falha, o impacto chega ao resultado** — que é exatamente o que ela espera.
+🔴 **A página da Osklen no Notion é TEMPLATE EM BRANCO** — varrida em 23/09/2026.
+
+Os blocos `Pessoas`, `Jornada do Cliente e seus Marcos` e `CRM → Anotações Gerais` existem e contêm **apenas os rótulos do modelo**, sem nenhum dado:
+> *"Diretores e Representantes Legais — Nome: / Cargo: / E-mail: / Telefone:"*
+> *"Jornada do Cliente Resumida · Output de cada marco"*
+
+🔴 **E não há página de perfil de usuário da Osklen** — nem na página do cliente, nem na busca do workspace, que retorna essa página para **Luiza Barcelos, Cambos, NK STORE, Moda Objetiva, Oficina Reserva e Recco**. ⚠ **Não afirmo que não exista: não encontrei no Notion.** O Drive de Operação da conta não foi aberto.
+
+🔴 **A conta está em `Operação Assistida` com 101 reuniões registradas** — a terceira mais atendida da carteira — **e a página dela não tem estrutura.** ⚠ **O material real parece estar fora do Notion.**
+
+⚠ **O único conteúdo datado da página tem interrogação na própria fonte:**
+> *"uFlow — início: Fevereiro 2025 · entrega: **Junho ou Agosto 2025???**"* · *"uBuy — início: Janeiro 2026 · entrega: **+d???**"*
+
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -72,6 +82,9 @@ Ressalva: *"**Informações que dependem do sistema Linx**."*
 | 33 pessoas, áreas, expectativas e ressalvas | Notion — `Pesquisa Satisfação Kick Off Osklen` | **25/03/2025** |
 | Cronograma, documentos, canais | Notion — página `Osklen` | varrido 22 set 2026 |
 | Status, módulos, ERP, CNPJ | Notion — base `Mapa de Clientes` | varrido 22 set 2026 |
+| Estrutura da conta | Notion — página `Osklen`, **template em branco** | varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — `Pesquisa Satisfação Kick Off Osklen` — ⚠ **CSat, não tabela de usuários** | 25/03/2025 |
 
 ### 🔴 Próximas fontes a varrer
 **Pesquisa de Satisfação do treinamento** (segunda pesquisa desta conta) ·

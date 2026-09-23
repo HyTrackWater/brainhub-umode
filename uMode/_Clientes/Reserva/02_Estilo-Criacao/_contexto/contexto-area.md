@@ -77,6 +77,8 @@ Produtos citados além do uFlow/PLM: **uBuy** e **uPlan**.
 | Pessoas, canais e áreas | Notion — corpo da página `Reserva` | varrido 21/09/2026 |
 | Chamados e dores de jan/2026 | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Reserva` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 **Kanbanize** (`umode.kanbanize.com`, boards 6 e 18) · *Playbooks Reserva* ·

@@ -24,20 +24,18 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [varredura do Notion · 2026-09-21]
+- produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Ana Lucia Andrade — [*Pessoas* e *Definições do Projeto* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Pessoas* e *Definições do Projeto* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` para as atribuições detalhadas.
 
-⚠ **E aqui há uma lacuna específica:** o kick-off presencial teve como objetivo declarado *"conhecer o dia a dia de cada time, **entender o processo e as dores de cada um**"* — e **o campo *Dores* das Definições do Projeto está preenchido com um hífen**. **O levantamento foi feito e o resultado não está registrado.**
+**É `Precificação`, a outra subárea de `Operações`** — e é a única função de natureza financeira nomeada no projeto.
 
-⚠ **A área não está entre os *Times Envolvidos* do projeto**, mas tem responsável nomeado. **Está na conta, não no projeto.**
+> **Times Envolvidos:** *"Operações — Cadastro · **Precificação**"*
+> *"Desenvolvimento até a **Precificação** está no guarda-chuvas dele"* — Gerente de Operação do Sul
 
-⚠ **O e-mail financeiro está na página e o campo `Email Principal Financeiro` da base está VAZIO** — **mesmo padrão da Cambos.**
-
-⚠ **E `Precificação`, que é sub-time de Operações, não foi encaixada aqui.** **Precificação em moda costuma ser comercial ou merchandising, não financeiro.** **Não forçei.**
+🔴 **Não há menção a Financeiro, contabilidade ou faturamento** em nenhum bloco da página.
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -81,6 +79,9 @@ ERP **`Safe Tech`**, com **exclusão contratual explícita de integração com L
 | Times envolvidos, pessoas, cargos | Notion — *Pessoas* e *Definições do Projeto* | varrido 21/09/2026 |
 | Sessões por área com participantes | Notion — agenda do *Kick Off Cliente - Presencial* | varrido 21/09/2026 |
 | Uso do sistema | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| O que a área faz, times, cargos e escopo | Notion — `Luiza Barcelos`, ata do *Kick Off Interno* e *Definições do Projeto* | 06/06/2024 · varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Luiza Barcelos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 **`Relatório de Incidente | Weekly — 2025/08/08`** (o único da carteira) ·

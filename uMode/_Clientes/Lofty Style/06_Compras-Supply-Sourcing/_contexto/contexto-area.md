@@ -79,6 +79,8 @@ com documentação oficial publicada em `docs.umode.app/integracao-lofty`.
 | Pessoas, área, entusiasmo, CSat e ressalvas | Notion — `Pesquisa Satisfação Kick Off` e `Treinamento` | varridas 21/09/2026 |
 | Uso e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Lofty Style` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 As **duas** páginas de *Perfil de Usuário(s) e Permissionamentos* ·

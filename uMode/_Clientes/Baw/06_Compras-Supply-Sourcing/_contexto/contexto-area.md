@@ -22,8 +22,8 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [sem fonte]
-- pessoas-da-area: Nenhuma — [Chamados & Atendimentos · 2026-09-22]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [base Mapa de Clientes · 2026-09-23]
+- pessoas-da-area: ? — [não consta em: Chamados & Atendimentos · 2026-09-22]
 - responsavel-area: ? — [não consta em: Chamados & Atendimentos · 2026-09-22]
 
 ## O que esta área faz
@@ -53,7 +53,8 @@ tags:
 2. Se existe, **por que não aparece em nenhuma fonte varrida**?
 
 ## Pessoas desta área
-**Nenhuma.**
+`[a preencher]` — 🔴 **nenhuma fonte de pessoa por área foi encontrada para este cliente** (verificado em 23/09/2026).
+> ⚠ **Corrigido em 23/09/2026.** Esta seção dizia **"Nenhuma."**, o que afirma que a área não tem gente. 🔴 **Não sabemos isso** — sabemos que não há tabela de usuários nem pesquisa que cubra esta conta. **Ausência de fonte não é ausência de pessoa.**
 
 ## Produto conectado
 `Gestão de Coleção` · `Integração` · `Relatórios` · `Fornecedores` — **4 de 7** · ERP: ⚠ **`Sem Integração`** (contradiz o módulo `Integração`)
@@ -71,6 +72,8 @@ tags:
 |---|---|---|
 | Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
 | 9 chamados e 3 pessoas | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Baw` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ## Governança
 

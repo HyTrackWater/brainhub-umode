@@ -129,6 +129,12 @@ ERP integrado: **Linx**.
 própria fonte (o Kanban foi simplificado desde então). **Revalidar o AS IS com a dupla de
 atendimento antes de usar como diagnóstico atual.**
 
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — o mapeamento de conta não nomeia o líder de Estilo da Caedu.

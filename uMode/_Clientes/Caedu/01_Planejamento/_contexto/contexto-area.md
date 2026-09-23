@@ -102,6 +102,12 @@ posteriores. **Revalidar com a dupla de atendimento antes de usar como diagnóst
 
 `[a preencher]`
 
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
 ## Governança
 ### Responsável pela área
 `[a preencher]` — nenhuma fonte da uMode nomeia o líder desta área na Caedu.

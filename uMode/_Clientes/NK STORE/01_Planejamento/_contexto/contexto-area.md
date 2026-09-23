@@ -22,12 +22,20 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [sem fonte]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Bruna — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 - responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
+
+🔴 **Não tem perfil de acesso próprio**, mas é descrito como **o ponto de partida de todo o fluxo da conta**:
+
+> *"O departamento de planejamento é responsável por **definir as estratégias de coleção**, selecionar as marcas e produtos a serem incluídos, e realizar o **cadastro dos produtos** no sistema."*
+> *"Planejamento: é o ponto de partida para **ambos os fluxos**, definindo as coleções e direcionando o desenvolvimento e a curadoria."*
+
+⚠ **A conta tem uma Coordenadora do Planejamento nomeada** na lista de participantes.
+
+🔴 **Ressalva de fonte:** este trecho saiu do bloco *"Levantamentos e Pesquisa por IA dentro da reunião — IA Tactiq"*, dentro da ata. **É saída de IA registrada numa ata, não documento validado pelo cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -78,6 +86,9 @@ tags:
 | Permissões por perfil | Notion — matriz na mesma página | varrida 21/09/2026 |
 | Cargos e departamentos confirmados | Notion — página `NK STORE` | varrido 21/09/2026 |
 | Uso e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| O que a área faz, perfis e contagem de pessoas | Notion — `NK STORE` + `Perfil de Usuário e Permissionamentos` | varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — `Perfil de Usuário e Permissionamentos`, base `Usuários` (29 pessoas) | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)* · *NK | Análise de Demandas* ·

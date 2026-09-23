@@ -24,22 +24,21 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [varredura do Notion · 2026-09-21]
+- produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Andre Franco — [*Pessoas* e *Definições do Projeto* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Pessoas* e *Definições do Projeto* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` para as atribuições detalhadas.
 
-⚠ **E aqui há uma lacuna específica:** o kick-off presencial teve como objetivo declarado *"conhecer o dia a dia de cada time, **entender o processo e as dores de cada um**"* — e **o campo *Dores* das Definições do Projeto está preenchido com um hífen**. **O levantamento foi feito e o resultado não está registrado.**
+**É uma das oito áreas sob a Diretoria Criativa**, e tem Gerente de Estilo nomeado no projeto.
 
-🟢 **A expectativa do Gerente de Estilo está registrada**, e é a única expectativa individual nomeada por área em toda a varredura:
+> **Times Envolvidos:** *"Diretoria Criativa — **Estilo** · Desenvolvimento · Produto e Merchandising · Suprimentos · Operações (Cadastro, Precificação) · Estratégia, Processos e Projetos · Tecnologia"*
 
-> *"Animado com a implementação da Ferramenta. Expectativas: **foco na Coleção e Estilo**, **eficiência no Setor**."*
+🟢 **A expectativa do Gerente de Estilo está registrada literalmente:**
+> *"Animado com a implementação da Ferramenta — Expectativas: **Foco na Coleção e Estilo / Eficiência no Setor**"*
 
-**E o critério de sucesso do projeto inteiro termina nesta área:** *"Organização que traz **eficiência para o time de estilo**"*.
-
-🔴 **A Diretora Criativa (Marcinha) é quem detém o processo**, e a missão declarada do projeto é **tirar isso da cabeça dela**. **Esta área é o centro de gravidade da conta.**
+⚠ **A Diretora Criativa nomeia uma oportunidade e um fracasso anterior:**
+> *"Expectativa maior é gerar inovação no processo criativo (...) **Oportunidade: Processo de Pesquisa — Fizeram várias tentativas, com várias ferramentas, e não tiveram sucesso.**"*
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -85,6 +84,9 @@ ERP **`Safe Tech`**, com **exclusão contratual explícita de integração com L
 | Times envolvidos, pessoas, cargos | Notion — *Pessoas* e *Definições do Projeto* | varrido 21/09/2026 |
 | Sessões por área com participantes | Notion — agenda do *Kick Off Cliente - Presencial* | varrido 21/09/2026 |
 | Uso do sistema | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| O que a área faz, times, cargos e escopo | Notion — `Luiza Barcelos`, ata do *Kick Off Interno* e *Definições do Projeto* | 06/06/2024 · varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Luiza Barcelos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 **`Relatório de Incidente | Weekly — 2025/08/08`** (o único da carteira) ·

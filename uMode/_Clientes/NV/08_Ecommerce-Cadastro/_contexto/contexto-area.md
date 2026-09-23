@@ -25,8 +25,8 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: ? — [não consta em: página NV — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
+- responsavel-area: ? — [não consta em: página NV — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
 `[a preencher]` — o departamento **é declarado como engajado**, mas nenhuma fonte varrida descreve o que ele faz.
@@ -77,6 +77,8 @@ ERP **Linx**, com **integração ativa em Produtos e Ficha Técnica**, declarada
 | Departamentos engajados | Notion — template de transição na página `NV` | varrido 21/09/2026 |
 | Chamados e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `NV` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *Manual de descancelamento de produtos e variantes* · *NV | Variantes Canceladas Inativas* ·

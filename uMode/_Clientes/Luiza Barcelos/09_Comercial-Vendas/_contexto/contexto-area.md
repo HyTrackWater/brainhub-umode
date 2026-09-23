@@ -24,12 +24,19 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [sem fonte]
+- produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Nenhuma — [*Pessoas* e *Definições do Projeto* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Pessoas* e *Definições do Projeto* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
+
+**É parte de `Produto e Merchandising`**, e o **Coordenador de Merchandising é o Líder Central do Projeto** — não um papel periférico.
+
+> **Times Envolvidos:** *"Diretoria Criativa — (...) **Produto e Merchandising**"*
+
+⚠ **A conta opera três canais:** *"**Varejo, Atacado, Omnichannel**"* (Kick Off Interno, 06/06/2024).
+
+🔴 **`Merchandising` não cabe nas 14 áreas canônicas** — e este é mais um cliente onde ele aparece. **Ver `_pendencias-gerais.md`.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -78,6 +85,9 @@ ERP **`Safe Tech`**, com **exclusão contratual explícita de integração com L
 | Times envolvidos, pessoas, cargos | Notion — *Pessoas* e *Definições do Projeto* | varrido 21/09/2026 |
 | Sessões por área com participantes | Notion — agenda do *Kick Off Cliente - Presencial* | varrido 21/09/2026 |
 | Uso do sistema | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
+| O que a área faz, times, cargos e escopo | Notion — `Luiza Barcelos`, ata do *Kick Off Interno* e *Definições do Projeto* | 06/06/2024 · varrido 23/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Luiza Barcelos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 **`Relatório de Incidente | Weekly — 2025/08/08`** (o único da carteira) ·

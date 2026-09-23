@@ -101,6 +101,11 @@ antes de usar como diagnóstico atual.
 2. Se existir, **quem responde por ela** e ela interage com a uMode?
 3. Se não interage com o PLM hoje, **deveria**?
 
+### Procedência
+| Bloco | Fonte | Data |
+|---|---|---|
+| Pessoas e responsáveis de área | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
 ## Governança
 ### Responsável pela área
 `[a preencher]`

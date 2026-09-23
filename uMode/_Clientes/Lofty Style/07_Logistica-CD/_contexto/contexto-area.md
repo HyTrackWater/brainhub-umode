@@ -25,7 +25,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma — [Pesquisa Satisfação Kick Off e Treinamento · 2026-09-21]
+- pessoas-da-area: ? — [não consta em: Pesquisa Satisfação Kick Off e Treinamento · 2026-09-21]
 - responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off e Treinamento · 2026-09-21]
 
 ## O que esta área faz
@@ -55,7 +55,8 @@ tags:
 2. É oportunidade de expansão de escopo?
 
 ## Pessoas desta área
-**Nenhuma.**
+`[a preencher]` — 🔴 **nenhuma fonte de pessoa por área foi encontrada para este cliente** (verificado em 23/09/2026).
+> ⚠ **Corrigido em 23/09/2026.** Esta seção dizia **"Nenhuma."**, o que afirma que a área não tem gente. 🔴 **Não sabemos isso** — sabemos que não há tabela de usuários nem pesquisa que cubra esta conta. **Ausência de fonte não é ausência de pessoa.**
 
 🔴 **Mas a área foi pedida explicitamente pelo cliente.** Em **07/03/2025**, **Izabella Veloso** (PCP) escreveu na pesquisa de kick-off, como ressalva:
 
@@ -81,6 +82,8 @@ com documentação oficial publicada em `docs.umode.app/integracao-lofty`.
 | Pessoas, área, entusiasmo, CSat e ressalvas | Notion — `Pesquisa Satisfação Kick Off` e `Treinamento` | varridas 21/09/2026 |
 | Uso e dores | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Lofty Style` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
 
 ### 🔴 Próximas fontes a varrer
 As **duas** páginas de *Perfil de Usuário(s) e Permissionamentos* ·
