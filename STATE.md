@@ -3297,3 +3297,35 @@ caminho).
   segue travado pela mesma armadilha de relation.
   **Grafo ao fim: 2.606 arquivos · 2.567 conectados (98,5%) · 41 órfãos (1,6%).**
   **Itens 551–561.**
+
+- **23 set 2026** — Sessão 49: **triagem das 557 pendências, e a Casa finalmente tem gente.**
+  🔺 **Diagnóstico que eu devia ter feito antes:** eu vinha gerando pendência mais rápido do que
+  fechando. **557 itens abertos e a CAEDU com 158 lacunas e 100 fichas sem cargo.**
+  **Estava medindo as fontes em vez de preencher as entidades.**
+  🟢 **Triagem feita sem mover nada** — inserida a `§ 0` no topo do `_pendencias-gerais.md`.
+  **50 resolvidos · 18 de segurança · 37 citam a CAEDU (≈12 travam) · 50 de decisão ·
+  402 de arquivo.** **Nenhum item apagado ou renumerado** — histórico de pendência não se reescreve.
+  🔴 **Dos ~12 que travam a CAEDU: 2 eu resolvo sozinho, 3 dependem de fonte ou acesso, 7
+  dependem de decisão do Vinicius. Nenhum depende de abrir mais fonte no Notion.**
+  🔴 **Regra nova: não abrir fonte nova enquanto a CAEDU não fechar.** E **a métrica reportada
+  passa a ser completude**, não contagem de arquivo — **CAEDU 0 de 259**.
+  🟢 **Os uModers: a Casa tinha 17 fichas, o time tem 78.** Lida a base `uModers` do Notion —
+  80 linhas, **27 ativos, 51 inativos**, 2 linhas-lixo. **Criadas 60 fichas novas; as 17
+  escritas à mão NÃO foram sobrescritas.** Novo script `gera-fichas-umoder.py`, separado do de
+  cliente **porque os campos são opostos**: `Nível HIC`, `Data de entrada` e `Status na uMode`
+  são "não se aplica" na ficha de cliente e são o miolo na da Casa.
+  🔴 **A base NÃO TEM campo de saída** — desligamento é só `Situação = Inativo`, sem data.
+  **51 inativos sem data de saída, e a lacuna é da fonte.** `Início` existe em 7 de 80.
+  🔴 **Terceira taxonomia de área interna:** a coluna `Área` da base tem **2 valores** e 18/80
+  preenchidos; a relação `Posições` aponta para outra base com **outro** campo `Área` e 6 valores.
+  **Nenhuma das duas é a grade de 8 áreas internas. Não derivei uma da outra.**
+  ⚠ **Senioridade não é campo — vive dentro do nome da cadeira** (*Sênior II*, *Pleno I*).
+  ⚠ **Gestor/reporte não existe** na base de pessoas; `Líder Direto` existe em `Posições`, em
+  5 de 39, e os IDs **não resolvem** — mesma armadilha do item 551.
+  🟢 **Verificação que o Vinicius pediu: NÃO há arquivo duplicado.** Conferido por hash de
+  conteúdo nos 2.666 `.md`. **O que parece duplicata no Obsidian são nomes iguais em pastas
+  diferentes** — 694 `contexto-area.md`, 50 `institucional.md` — **e isso é o padrão, não defeito.**
+  🟢 **`.gitignore` criado** para o estado local do Obsidian, preservando `graph.json`,
+  `app.json` e `appearance.json` versionados.
+  **Grafo: 2.666 arquivos · 2.627 conectados (98,5%) · 41 órfãos (1,5%).**
+  **Itens 562–571.**

@@ -121,7 +121,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50 · 49 · 49** | idem |
 | Demandas | **999** — 994 de cliente + 5 da Casa | idem · 1 staging `SUPERSEDED` |
 | RFIs | **86** | idem · 1 staging `SUPERSEDED` |
-| 🟢 **Fichas de pessoa** | **419** — 402 de cliente + 17 da Casa | `gera-fichas-pessoa.py` |
+| 🟢 **Fichas de pessoa** | **479** — 402 de cliente + **77 da Casa** | `gera-fichas-pessoa.py` · `gera-fichas-umoder.py` |
 | Fichas de ferramenta | **27** | `gera-fichas-ferramenta.py` |
 | Soluções do Portfólio | **16** | `03_Produto-e-Solucoes/` |
 | `integracao.md` | **11** | 5º MD de cliente |
@@ -346,6 +346,25 @@ do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
     **Já confirmado por ele em 22 set 2026 — quatro saídas:** Dalker Walter (Diretor de
     Operações) · Rafael Renaldim (Gerente de Experiência do Cliente) · Tais Moser
     (Customer Success) · Saulo (CTO). ⚠ **Data de saída de nenhum deles é conhecida.**
+
+## 7-bis · 🔴 A TRIAGEM — leia antes de pegar qualquer item da § 8
+
+**As pendências passaram de 557 e o arquivo virou ilegível como fila.** Em 23 set 2026 foi
+inserida a **§ 0 de triagem** no topo do
+[`_pendencias-gerais.md`](uMode/00_Institucional/_contexto/_pendencias-gerais.md), com o placar e
+a **lista curta do que trava a CAEDU**. **Nenhum item foi apagado ou renumerado.**
+
+| Balde | Itens |
+|---|--:|
+| ✅ Já resolvidos | 50 |
+| 🚨 Segurança — **rotação é ação do Vinicius** | 18 |
+| 🔵 Citam a CAEDU — **~12 travam de verdade** | 37 |
+| 🔴 Decisão do Vinicius | 50 |
+| ⚪ Arquivo / técnico — **não é para agora** | 402 |
+
+🔴 **Regra que passa a valer: não abrir fonte nova enquanto a CAEDU não fechar.**
+🔴 **E a métrica reportada passa a ser COMPLETUDE, não contagem de arquivo.**
+**Hoje: CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integracao.md`.
 
 ## 8 · Decisões esperando o Vinicius
 

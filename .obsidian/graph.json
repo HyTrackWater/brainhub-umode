@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "umo",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -123,6 +123,6 @@
   "repelStrength": 12,
   "linkStrength": 0.55,
   "linkDistance": 200,
-  "scale": 0.4,
+  "scale": 0.015355906606692683,
   "close": false
 }

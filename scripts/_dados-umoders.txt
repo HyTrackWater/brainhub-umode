@@ -1,0 +1,60 @@
+Ana Flávia Maran Carrilo|Social Media|VAZIO|VAZIO|Ativo|VAZIO
+Ana Lucia Domingues de Oliveira|VAZIO|VAZIO|ana.lucia@umode.com.br|Ativo|VAZIO
+Ana Paula de Oliveira Ramos|Analista de Suporte|Operação|anapaula.ramos@umode.com.br|Ativo|Analista de Suporte e Atendimento + Analista DEV de Suporte
+Anderson de Assis Nascimento|Desenvolvedor|Tecnologia|anderson.nascimento@umode.com.br|Ativo|VAZIO
+Bergson de Lima Marques|Desenvolvedor|Tecnologia|bergson.marques@umode.com.br|Ativo|Dev Backend -Sênior II- Ruby & Banco de Dados Relacional (Ênfase em O&M) –[S01 - Legado]
+Carlos Eduardo Maurício de Sousa|Desenvolvedor|Tecnologia|carlos.sousa@umode.com.br|Ativo|Desenvolvedor Backend NodeJS Junior
+Danilo Augusto Ferreira Caetano|Designer Gráfico + Filmmaker|VAZIO|danilo@umode.com.br|Ativo|VideoMaker + Designer Gráfico
+Demetrius Leonardo Bantim de Vasconcelos|Full Stack Pleno|VAZIO|demetrius.leonardo@umode.com.br|Ativo|DEV Full Stack Pleno
+Flávia Bonalume Campello|Financeiro|VAZIO|flavia.campello@umode.com.br|Ativo|Analista de Gestão Financeira e Administrativa
+João Ferraz|Desenvolvedor|VAZIO|joao.ferraz@umode.com.br|Ativo|Dev Júnior
+João Lucas Gozzi|Desenvolvedor|VAZIO|lucas.gozzi@umode.com.br|Ativo|VAZIO
+Lucas Raniel Ferreira de Araújo|Desenvolvedor|Tecnologia|lucas.raniel@umode.com.br|Ativo|Desenvolvedor Backend - Pleno I (NestJS)
+Rafael Rocha Souza|Desenvolvedor|VAZIO|rafael.rocha@umode.com.br|Ativo|Dev Júnior
+Renan Ricardo Holler|Desenvolvedor|Tecnologia|renan.holler@umode.com.br|Ativo|VAZIO
+Vinícius Risoleo|Desenvolvedor|VAZIO|vinicius.risoleo@umode.com.br|Ativo|Analista de Dados
+Welington Carlos Alves de Almeida Filho|Desenvolvedor|Tecnologia|welington.filho@umode.com.br|Ativo|Desenvolvedor Frontend - [Pleno II]- React & Vite [S02 - Plataforma]
+Adrian Nascimento|VAZIO|VAZIO|adrian.nascimento@umode.com.br|Inativo|VAZIO
+Airton Espindola de Sousa Junior|Desenvolvedor|VAZIO|airton.espindola@umode.com.br|Inativo|VAZIO
+Alessandro Prudencio da Cruz Silva|Desenvolvedor|VAZIO|alessandro.prudencio@umode.com.br|Inativo|VAZIO
+Alexandre Ferrari|Chief Innovation Officer|VAZIO|alexandre.ferrari@umode.com.br|Inativo|Diretor de Inovação
+Alexandre Queiroz Zamagna Bouhid|Desenvolvedor|VAZIO|alexandre.bouhid@umode.com.br|Inativo|Líder Técnico
+Ami Aram Pires Morais|Full Stack Pleno|VAZIO|ami.aram@umode.com.br|Inativo|DEV Full Stack Pleno
+Andre Borges|Head de Dados|VAZIO|andre.borges@umode.com.br|Inativo|VAZIO
+Antonio Nunes Barros Neto|Product Owner|VAZIO|antonio.barros@umode.com.br|Inativo|PO - Product Owner + Coordenador do Fluxo de Entregas + PMO
+Bruno Marcos Pinheiro da Silva|Desenvolvedor|VAZIO|bruno.silva@umode.com.br|Inativo|VAZIO
+Caroline Faro Xavier|Analista de Inovação|VAZIO|caroline.faro@umode.com.br|Inativo|Analista de Inovação + Analista de Projetos Digitais + Especialista em Integração
+Caroline Medeiros do Nascimento|Analista de Suporte|VAZIO|caroline.medeiros@umode.com.br|Inativo|VAZIO
+Delton Djalma Alves Ambrósio da Silva|Head Vendas B2B SAAS|VAZIO|delton@umode.com.br|Inativo|VAZIO
+Edno Almeida|Desenvolvedor|VAZIO|edno.almeida@umode.com.br|Inativo|Dev Pleno
+Eduardo Penna|VAZIO|VAZIO|VAZIO|Inativo|VAZIO
+Felipe Adriano Araujo da Costa|Head de Growth|VAZIO|felipe.araujo@umode.com.br|Inativo|VAZIO
+Felipe Ricardo do Rosário Augusti|Head de Growth|VAZIO|felipe.augusti@umode.com.br|Inativo|VAZIO
+Fellipe Rodrigues|Financeiro|VAZIO|fellipe.rodrigues@umode.com.br|Inativo|Analista de Gestão Financeira e Administrativa
+Fernanda Martins|VAZIO|VAZIO|fernanda.martins@umode.com.br|Inativo|VAZIO
+Filipe de Lima Kertcher|Freela|VAZIO|VAZIO|Inativo|VAZIO
+Gabriel Cancio|Desenvolvedor|VAZIO|gabriel.cancio@umode.com.br|Inativo|VAZIO
+Gabriel Santos de Medeiro|VAZIO|VAZIO|gabriel.santos@umode.com.br|Inativo|VAZIO
+Gabriel Silveira de Souza|Desenvolvedor|VAZIO|gabriel.silveira@umode.com.br|Inativo|VAZIO
+Gleisson Ferreira da Silva|Key Account|VAZIO|gleisson.silva@umode.com.br|Inativo|VAZIO
+Guilherme Augusti Negri|Head de Growth|VAZIO|guilherme.negri@umode.com.br|Inativo|VAZIO
+Henrique Barbosa de Sousa|Social Media|VAZIO|henrique.sousa@umode.com.br|Inativo|Copywriter Redator Social Media
+Ingrid Maria Aparecida Fiel|VAZIO|VAZIO|ingrid.fiel@umode.com.br|Inativo|VAZIO
+Itagyba Abondanza Kuhlmann|Advisor|VAZIO|giba@umode.com.br|Inativo|Data Reliability Engineering
+Jefferson Diego Camillo|Dados|VAZIO|jefferson.camillo@umode.com.br|Inativo|Analista de Dados
+Joana Corteletti da Silva|Designer Gráfico|VAZIO|joana.corteletti@umode.com.br|Inativo|Designer Gráfico
+Karina Ribeiro Cardoso da Silva|VAZIO|VAZIO|kai.cardoso@umode.com.br|Inativo|VAZIO
+Laine Camargo|Consultora de Pessoas e Cultura|VAZIO|laine.camargo@umode.com.br|Inativo|VAZIO
+Lucas Menezes de Matos|CS|VAZIO|lucas.menezes@umode.com.br|Inativo|VAZIO
+Lucas Otoni|VAZIO|VAZIO|lucas.otoni@umode.com.br|Inativo|Dev Júnior
+Luciano Troiani|Head de CS|VAZIO|luciano.troiani@umode.com.br|Inativo|VAZIO
+Marcela Rayna Vasco Ripoli|CS|VAZIO|marcela.rayna@umode.com.br|Inativo|VAZIO
+Michaelli Silva|Analista de Suporte|VAZIO|michaelli.silva@umode.com.br|Inativo|VAZIO
+Mário Estêvão de Arruda Vasconcelos|Desenvolvedor|VAZIO|kei.vasconcelos@umode.com.br|Inativo|Analista de Dados
+Natália kelly de oliveira gomes|Freela|VAZIO|natalia.oliveira@umode.com.br|Inativo|Dev Júnior
+Nayra Letícia de Oliveira Macêdo Dall Gallo Trentim|Financeiro + People + Administrativo|VAZIO|nayra.macedo@umode.com.br|Inativo|Analista Administrativa
+Paula Dorsch Benevides Martins|Coordenadora de Marketing e Brnading|VAZIO|paula@umode.com.br|Inativo|VAZIO
+Pedro Victor Silva|Designer|VAZIO|pedro.silva@umode.com.br|Inativo|Analista de Suporte e Atendimento
+Talita Bondezzan|Designer|VAZIO|talita.bondezzan@umode.com.br|Inativo|VAZIO
+Tatiana Gerin Mangeon Bertazoli|Desenvolvedor|VAZIO|tatiana.bertazoli@umode.com.br|Inativo|VAZIO
+Williem Berg de Oliveira Gomes|CS|Operação|williem.berg@umode.com.br|Inativo|Analista DEV de Suporte

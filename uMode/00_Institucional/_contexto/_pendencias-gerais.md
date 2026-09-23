@@ -11,6 +11,57 @@
 > cada item abaixo. Essa triagem **ainda não aconteceu**; não atribuir responsável a nenhum item
 > por conta própria até lá.
 
+## § 0 · TRIAGEM — 23 set 2026
+
+> 🔴 **Este arquivo tem 557 itens e virou ilegível como fila de trabalho.** Esta seção existe
+> para dizer **o que é para agora** sem mover nada de lugar. **Nenhum item foi apagado ou
+> renumerado** — histórico de pendência não se reescreve.
+>
+> **Motivo, dito sem rodeio:** eu gerei pendência mais rápido do que fechei. 557 itens abertos e
+> a CAEDU — o cliente com prazo — ainda com 158 lacunas de contexto e 100 fichas sem cargo.
+> **Estava medindo as fontes em vez de preencher as entidades.**
+
+### 0.1 · O placar
+
+| Balde | Itens | O que fazer |
+|---|--:|---|
+| ✅ **Já resolvidos** | **50** | nada — ficam como histórico |
+| 🚨 **Segurança** | **18** | 🔴 **rotação é ação do Vinicius**, não minha |
+| 🔵 **Citam a CAEDU** | **37** | destes, **~12 travam de verdade** (§ 0.2) |
+| 🔴 **Decisão do Vinicius** | **50** | fila em `_perguntas-para-o-vinicius.md` |
+| ⚪ **Arquivo / técnico** | **402** | **não é para agora** — contexto de produto, banco e processo |
+
+### 0.2 · 🔵 O que trava a CAEDU — a lista curta
+
+**Dos 37 que citam a CAEDU, estes são os que impedem dizer "CAEDU contextualizada".**
+Os outros 25 são informativos, já respondidos, ou são de outro cliente com a CAEDU citada de passagem.
+
+| # | O que é | Quem destrava |
+|--:|---|---|
+| **500** | **não existe `integracao.md`** — e integração é a dor nº 1 da conta | 🟢 **eu, agora** |
+| **499** | 3 arquivos de CAEDU em `Downloads` nunca abertos | 🟢 **eu, agora** |
+| **495** | `VERÃO 26/27` e `VERAO 26/27` são duas coleções na base para uma no mundo | 🟢 eu, mas precisa de aval |
+| **308 · 557** | 🔴 **as atas estão em TRÊS acervos que não se falam** — 35 nesta base × ~47 na página. **Não sei o total real** | ⚠ fonte |
+| **313** | sub-página `Fornecedores da Caedu` devolve **404** por este conector | ⚠ acesso |
+| **312** | o `Manual do Cliente` é de **24/08/2023** e descreve módulos que mudaram | ⚠ fonte |
+| **304** | só **uma** pessoa da Qualidade tem acesso à plataforma | ⚠ confirmar |
+| **301 · 311 · 427 · 492 · 494** | 🔴 **a hierarquia `Griffe › Linha › Grupo › Subgrupo`** — **já medida: não aninha como árvore**, é matriz esparsa. Falta **decidir** se tratamos como 4 eixos ou cascata | 🔴 **Vinicius** |
+| **503** | a CAEDU está como **`SMB`** e isso contradiz o porte (100+ lojas) | 🔴 **Vinicius** |
+| **297 · 298 · 299 · 300** | cláusulas do contrato: desligamento do uFlow em 12 meses · saída em 3 meses · dev emprestado · **Escopo 2 confidencial** | 🔴 **Vinicius** |
+
+🔴 **Resumo:** **2 eu resolvo sozinho · 3 dependem de fonte ou acesso · 7 dependem de decisão sua.**
+**Nenhum deles depende de abrir mais fonte no Notion.**
+
+### 0.3 · A regra que passa a valer
+
+🔴 **Não abrir fonte nova enquanto a CAEDU não fechar.** O que sobra no Notion — 25 páginas de
+clientes em `Churn`, 30 documentos do CX arquivado, ~40 páginas técnicas do `Setup - PLM` —
+**não serve à CAEDU**. Fica registrado, esperando.
+
+🔴 **E a métrica que passa a ser reportada é COMPLETUDE, não contagem de arquivo.**
+Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integracao.md`.
+**Arquivo criado não é contexto. Campo preenchido é.**
+
 ## Portfólio / Ferramentas — nomenclatura legado → novo
 
 22. **`CliprocAI` confirmado real — achado em 14 jul 2026, pasta Drive da Cambos**
@@ -3434,3 +3485,44 @@
      Permite desdobrar array de `person` ou `relation` e agregar **server-side**, sem paginar.
      🔴 **Vale para o `Atendimento 2024`**, que segue travado pela mesma armadilha de relation
      (item 504). **Usar isso da próxima vez.**
+
+## Os uModers — a Casa tinha 17 fichas e o time tem 78 (23 set 2026)
+
+562. 🟢 **A base `uModers` do Notion foi lida: 80 linhas, 78 pessoas reais.**
+     **27 ativas · 51 inativas** · 2 linhas-lixo em `Onboarding` (uma sem nome, outra com uma URL
+     de Reels do Instagram no campo Nome). **O corpus tinha 17 fichas da Casa; agora tem 77.**
+     🔴 **As 17 antigas NÃO foram sobrescritas** — são escritas à mão, com ressalvas curadas que
+     um gerador destruiria. **Só as 60 que faltavam foram criadas**, por
+     `scripts/gera-fichas-umoder.py`.
+563. 🔴 **A base `uModers` NÃO TEM campo de SAÍDA.** Desligamento aparece só como
+     `Situação = Inativo`, **sem data**. 🔴 **Para os 51 inativos não há como datar a saída por
+     esta fonte** — e o corpus já registrava quatro saídas confirmadas pelo Vinicius (Dalker,
+     Rafael Renaldim, Taís Moser, Saulo) **também sem data**. **A lacuna é da fonte, não nossa.**
+564. 🔴 **`Início` está preenchido em 7 de 80** — todas contratações de 2025–2026.
+     **Ninguém anterior tem data de entrada.**
+565. 🔴 **A coluna `Área` da base `uModers` NÃO é a grade de 8 áreas internas.** Tem **só dois
+     valores** (`Operação`, `Tecnologia`) e está preenchida em **18 de 80**. ⚠ **E a relação
+     `Posições` aponta para OUTRA base, com outro campo `Área` e valores diferentes**
+     (Operação, Tecnologia, Produto, Sales/Marketing, ADM/FIN, Inovação).
+     🔴 **São duas taxonomias distintas — não derivei uma da outra.** **Nenhuma das duas é a
+     grade de 8.** **É a terceira taxonomia de área interna.**
+566. ⚠ **Senioridade não existe como campo — vive dentro do NOME da cadeira.**
+     *"Sênior II"*, *"Pleno I"*, *"Pleno II"*, *"Junior"*. **Filtrar por senioridade exige
+     parsear string.** **Decisão: vira campo próprio?**
+567. ⚠ **Gestor/reporte não existe na base de pessoas.** Há `Líder Direto` na base de `Posições`,
+     preenchido em **5 de 39**, e os IDs de usuário **não resolveram** — mesma armadilha do
+     item 551. 🔴 **Não afirmo que não exista mapa de gestão: afirmo que não achei por este
+     caminho.**
+568. ⚠ **`Vinícius Risoleo` aparece DUAS vezes na base** — uma `Ativo`/Desenvolvedor com
+     `@umode.com.br` e outra `Inativo`/Dados com `@gmail.com`. **Provavelmente a mesma pessoa em
+     dois registros. Não fundi.**
+569. ⚠ **Cinco pessoas sem e-mail corporativo** — Ana Flávia Maran Carrilo, Eduardo Penna,
+     Filipe de Lima Kertcher e as 2 linhas-lixo. **Sem e-mail, não há chave de identidade**
+     (item 252).
+570. 🔴 **A base traz `T0` em volume: telefone (75 de 80), endereço residencial com CEP (53) e
+     data de nascimento (57).** **Nenhum valor foi copiado** — as fichas registram que existem e
+     onde. **Não há CPF, RG, salário nem senha no schema, e nenhuma credencial.**
+571. ⚠ **77 das 80 sub-páginas de uModer não foram abertas.** As 3 amostradas estavam
+     praticamente vazias, **mas há 2 templates na base** — pode haver conteúdo onde não amostrei.
+     **Não concluo que estejam todas vazias.** ⚠ **E `Mini Bio` está preenchido em 49 de 80 e
+     não foi lido** — é candidato a alimentar a seção `Personificação`.
