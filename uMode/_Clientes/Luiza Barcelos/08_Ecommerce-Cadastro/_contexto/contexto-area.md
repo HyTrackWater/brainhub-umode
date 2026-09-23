@@ -24,7 +24,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Marcelo Tonello — [*Pessoas* e *Definições do Projeto* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Pessoas* e *Definições do Projeto* · 2026-09-21]
 

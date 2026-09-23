@@ -24,7 +24,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: Uma pessoa só, e ela quer sair da operação — [página Oficina Reserva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página Oficina Reserva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 

@@ -31,16 +31,16 @@ tags:
 - status: Churn — [varredura do Notion · 2026-09-22]
 - data-ativacao: 06/02/2025 — [varredura do Notion · 2026-09-22]
 - erp: Totvs — [varredura do Notion · 2026-09-22]
-- modulo-contratado: ? — [sem fonte]
+- modulo-contratado: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2025-02-03 → 2028-01-02 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2025-02-03 → 2028-01-02 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
-- usuarios-contratados: ? — [sem fonte]
+- usuarios-contratados: A CONFIRMAR — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: ? — [sem fonte]
-- tamanho-atendimento: ? — [sem fonte]
+- atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **NÃO SEI A DECISÃO DE SAÍDA.** Sei o que estava acontecendo em **16/10/2025** (ver `jornada.md`)
@@ -87,7 +87,9 @@ tags:
 **06/02/2025** — 🔴 **preenchida, e o cliente está em `Churn`.**
 
 ### Módulos contratados
-`[a preencher]` — **campo vazio na base**
+
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
 
 ### Usuários da conta
 **7 pessoas com ficha própria** no corpus.
@@ -99,7 +101,9 @@ tags:
 **`Totvs`**.
 
 ### Responsável de atendimento (uMode)
-`[a preencher]` — **campo vazio**.
+
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
 
 ## Contrato
 
@@ -117,7 +121,11 @@ Renovação **Via assinatura** · aviso prévio **90 dias**
 ### Índice de reajuste
 IPCA
 ### Usuários contratados
-`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+
+**A CONFIRMAR**
+> ⚠ **`A CONFIRMAR` é o valor LITERAL da planilha de contratos do Financeiro**, conferido em 23/09/2026 — **não é lacuna de varredura nem campo vazio.**
+> 🔴 **A fonte declara que ela própria não sabe.** É estado diferente de "vazio" e diferente de "não procurei" — e por isso entra como valor, não como `?`.
+
 ### Pendências contratuais registradas
 🔴 **Cancelamento uPlan set/25 + uRocket fev/26**
 
@@ -169,26 +177,9 @@ As três que reaparecem nas demandas canceladas: **cálculo de engenharia (encai
 > 🔴 **A conta saiu com as dores que motivaram a entrada ainda abertas.**
 
 ### Tamanho de atendimento
-`[a preencher]`
 
-🔴 **CORREÇÃO — o "coorte de fevereiro de 2025" era leitura minha, e estava errada.**
-
-Estava escrito aqui que três clientes ativados em oito dias **falharam juntos**. **O fato das
-datas é verdadeiro; a conclusão não era.** Elas não morreram juntas:
-
-| Cliente | Ativado em | Última atividade observada | Viveu | ERP |
-|---|---|---|---|---|
-| **Lenny Niemeyer** | **03/02/2025** | **01/04/2026** | **~14 meses** | Linx |
-| **Recco** | **06/02/2025** | **16/10/2025** | **~8 meses** | Totvs |
-| **Highstil** | **11/02/2025** | **16/04/2026** | **~14 meses** | Totvs |
-
-> **É coorte de ativação, não de morte.** A Recco viveu pouco mais da metade das outras duas, e
-> Lenny e Highstil seguiram com reunião até **abril de 2026** — já marcadas como `Churn`.
->
-> ⚠ **"Última atividade observada" não é data de saída.** É a melhor proxy disponível porque
-> **a base não tem campo `Data de Churn`** — e segue sendo a lacuna mais cara do corpus.
->
-> Registrado em [`_varredura-2026-09-22-reunioes-compartilhadas.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md) § 4.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

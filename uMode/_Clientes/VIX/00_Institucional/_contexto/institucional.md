@@ -35,14 +35,14 @@ tags:
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: IPSP — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uPick — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2023-05-05 → 2026-05-05 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2023-05-05 → 2026-05-05 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 53 — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 6 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
 - atendimento: pessoa:julianne.dias@umode.com.br — [base Mapa de Clientes · 2026-09-21]
 - atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: Grupo Médios · WIP 2,25 · Julianne & Pedro, com 6 contas — [varredura do Notion · 2026-09-21]
+- tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-21]
 
 ## Identidade
 ### ID do cliente

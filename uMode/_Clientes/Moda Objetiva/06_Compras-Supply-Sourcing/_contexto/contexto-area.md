@@ -22,12 +22,19 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: ? — [não consta em: página Moda Objetiva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página Moda Objetiva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+🔴 **A conta separa compras em DOIS perfis:** `Objetiva - Compras` e **`Objetiva - Compras MP`** (matéria-prima).
+
+⚠ **Nenhum outro cliente do corpus faz essa separação.** **Compra de produto e compra de insumo são acessos distintos aqui.**
+
+⚠ **A aba `Integração` da ficha é 🟢 só para `Admin` e `Compras`** — os outros oito apenas visualizam.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos - Moda Objetiva`, lida em 29/07/2026. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -73,6 +80,7 @@ tags:
 | Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Moda Objetiva` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Perfil de Usuário e Permissionamentos - Moda Objetiva` | 29/07/2026 |
 
 ## Governança
 

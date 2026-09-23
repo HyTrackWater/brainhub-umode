@@ -24,7 +24,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Carolina — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 

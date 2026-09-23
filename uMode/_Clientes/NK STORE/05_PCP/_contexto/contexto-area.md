@@ -24,8 +24,8 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [base Mapa de Clientes · 2026-09-23]
-- pessoas-da-area: 7 pessoas com perfil NK - PCP · Departamento NK: PCP — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
+- pessoas-da-area: 7 pessoas com perfil NK - PCP — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 - responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz

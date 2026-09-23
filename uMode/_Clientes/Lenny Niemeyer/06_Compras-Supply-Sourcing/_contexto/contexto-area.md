@@ -27,7 +27,15 @@ tags:
 - responsavel-area: ? — [não consta em: Chamados & Atendimentos · 2026-09-22]
 
 ## O que esta área faz
-`[a preencher]`
+
+⚠ **Não há perfil de Compras — a conta só tem `LN - Admin`, `LN - Time` e `Fornecedor`.**
+
+🟢 **Mas há um perfil de fornecedor externo com acesso ao PLM**, e quatro ações de criação estão 🔴 até para Admin e Time:
+`> novo fornecedor` · `> nova grade` · `> nova cor` · `> nova mp`
+
+🔴 **E uma linha está INTEIRAMENTE vazia na matriz:** `> excluir variante` — **nenhum valor para nenhum perfil.** ⚠ **Não é 🔴 nem 🟢: é não-preenchido.**
+
+⚠ **Fonte:** Notion — `Lenny | Perfil de Usuários e Permissionamentos`, lida em 21/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -74,6 +82,7 @@ tags:
 | 5 chamados e 4 pessoas | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Lenny Niemeyer` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Lenny | Perfil de Usuários e Permissionamentos` | 21/07/2025 |
 
 ## Governança
 

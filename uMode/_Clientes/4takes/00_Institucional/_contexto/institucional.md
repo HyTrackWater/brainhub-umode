@@ -34,7 +34,7 @@ tags:
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - contrato-situacao: Assinar renovação — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2020-11-13 → 2022-11-03 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2020-11-13 → 2022-11-03 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: ? — [sem fonte]
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]

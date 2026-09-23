@@ -19,7 +19,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Ongoing · 4 de 7 módulos · ERP Linx · grupo Enterprise · 61 usuários ativos — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
 - fase: Operação em alto volume, com dor de produto recorrente — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
@@ -33,11 +33,11 @@ tags:
 - marco: Realinhamento Demandas NV — [idem · 2026-09-21]
 - marco: 39 chamados de 17 pessoas — o maior volume da carteira — [Chamados & Atendimentos · 2026-01-29]
 - marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-06-30]
-- entrega: Manual de descancelamento de produtos e variantes · ✅ existe — mas é contorno, não solução — [sem fonte]
-- entrega: NV \ · Variántes Canceladas Inativas — [sem fonte]
-- entrega: NV \ · Importação Programação — [sem fonte]
-- entrega: NV \ · Proposta de comunicação — [sem fonte]
-- entrega: NV \ · Relatórios (Google Sheets) — [sem fonte]
+- entrega: Manual de descancelamento de produtos e variantes · ✅ existe — mas é contorno, não solução — [página NV · 2026-09-21]
+- entrega: NV \ · Variántes Canceladas Inativas — [página NV · 2026-09-21]
+- entrega: NV \ · Importação Programação — [página NV · 2026-09-21]
+- entrega: NV \ · Proposta de comunicação — [página NV · 2026-09-21]
+- entrega: NV \ · Relatórios (Google Sheets) — [página NV · 2026-09-21]
 - incidente: 3 pessoas pedem *Cadastrar opção* no mesmo dia — [Chamados & Atendimentos · 2026-09-21]
 - incidente: Erro ao inserir foto — [Chamados & Atendimentos · 2026-09-21]
 - incidente: Descancelar produto ×2 — [Chamados & Atendimentos · 2026-09-21]

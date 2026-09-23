@@ -24,20 +24,17 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Aposta — [base Mapa de Clientes · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]` — nenhuma fonte varrida descreve as atribuições.
 
-**O que a matriz de permissão revela sobre o ofício desta área:**
+**Tem perfil próprio: `Vix-Compras`**, e a ficha traz `Fornecedor` e `Materiais em Desenvolvimento` como abas.
 
-🟢 em `Cor` — **uma das duas únicas exceções à trava de dado mestre** nesta conta (a outra é `Vix-Demo`). Todos os demais perfis têm 🟡 em Cor.
+⚠ **Os relatórios de pendência são dois, e separam produto de material:** *"Linx Produtos pendentes"* e *"Linx Materiais pendentes"*.
 
-🟢 em `Associar Workflow`, junto de `Vix-Demo`, `uDash` e `Vix-Admin`.
-
-⚠ **O módulo `Fornecedores` NÃO está contratado** nesta conta — mas a **aba** `Fornecedor` da ficha de produto está 🟢 para 15 dos 17 perfis. **Módulo e aba são coisas diferentes.**
+⚠ **Fonte:** Notion — `[Vix] Perfil de Usuário e Permissionamento`, lida em 09/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -84,6 +81,7 @@ com telas dedicadas de fila: `Linx Produtos pendentes`, `Linx Materiais pendente
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `VIX` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `[Vix] Perfil de Usuário e Permissionamento` | 09/07/2025 |
 
 ### 🔴 Próximas fontes a varrer
 *uPick Vix - Passo a passo* · *[Produto] Demandas* · *Onboarding* e *Onboarding > Ongoing* ·

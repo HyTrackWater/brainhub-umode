@@ -24,20 +24,22 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` para as atribuições detalhadas — **mas o escopo do time está declarado**, e está abaixo.
 
-**Escopo declarado:** *"Passam demandas dos clientes de PL para o time de Estilo e Criação"*.
+**Tem perfil próprio: `Cambos - Comercial`.**
 
-🔴 **É o time que origina o trabalho nesta conta** — 40% Magazine, 60% marca própria, e os clientes de PL incluem **Caedu e Marisa**.
+🔴 **E há uma funcionalidade exclusiva desta conta, desligada para todos:**
+> **`Novo Pedido (só a Cambos tem)`** — **o rótulo diz isso literalmente, e está 🔴 para os cinco perfis.**
 
-🔴 **E a passagem de bastão do Comercial para o Desenvolvimento é uma das cinco dores declaradas** — *"falta de informação, demora no processo de validação"*.
+⚠ **Funcionalidade feita sob medida e desativada** — vale perguntar se foi descontinuada ou se nunca entrou em uso.
 
-⚠ **Regra de sistema registrada:** *"no momento que o comercial fecha o pedido, duplica as informações para o SPI"* — do **Totvs Virtual Age** para o **SPI**. **Provável raiz da dor de cadastros paralelos.**
+🔴 **Onze funcionalidades estão desligadas para todos os perfis:** `Novo Pedido` · `Tabela Dinâmica` · `Coordenado` · `Estampa` · `Composição de Custo` · `Tag` · `Pack` · `Campo Personalizado` · `Assinaturas` · `Faturas` · `Editar Usuario`.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos`, lida em 15/06/2026. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -82,6 +84,7 @@ Banner (pedidos de atacado) · Trello (gestão de processo).
 | Uso e chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Cambos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Perfil de Usuário e Permissionamentos` | 15/06/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *Perfil de Usuário e Permissionamentos* · *Playbook Cambos* ·

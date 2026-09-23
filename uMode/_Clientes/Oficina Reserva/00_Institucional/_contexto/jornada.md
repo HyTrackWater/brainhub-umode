@@ -19,7 +19,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Ongoing · 5 de 7 módulos · ERP SAP e Linx · grupo Enterprise — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
 - fase: Conta de grupo, com escopo que cresceu e desfecho não registrado — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]

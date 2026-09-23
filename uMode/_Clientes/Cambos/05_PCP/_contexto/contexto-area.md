@@ -24,12 +24,19 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Nenhuma — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
+
+🔴 **PCP e Compras dividem UM único perfil: `Cambos - PCP/Compras`.**
+
+**Não dá para separar as duas áreas pelo acesso** nesta conta — mesmo padrão de `Oficina - Ecommerce Marketing`.
+
+⚠ **A ficha tem `QTD PARA PILOTAR (Lote)` e `TAMANHOS PILOTO (Grade)`**, que são controle de piloto.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos`, lida em 15/06/2026. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -81,6 +88,7 @@ Banner (pedidos de atacado) · Trello (gestão de processo).
 | Uso e chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Cambos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Perfil de Usuário e Permissionamentos` | 15/06/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *Perfil de Usuário e Permissionamentos* · *Playbook Cambos* ·

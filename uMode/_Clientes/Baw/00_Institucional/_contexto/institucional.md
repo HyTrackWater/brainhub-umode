@@ -37,7 +37,7 @@ tags:
 - modulo-contratado: Fornecedores — [varredura do Notion · 2026-09-22]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2025-03-13 → 2028-03-11 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2025-03-13 → 2028-03-11 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]

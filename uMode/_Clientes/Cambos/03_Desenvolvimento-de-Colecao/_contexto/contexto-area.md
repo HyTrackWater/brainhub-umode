@@ -26,12 +26,23 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: Nenhuma nesta área canônica — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
+
+**Tem perfil próprio — e o nome muda entre as duas matrizes da MESMA página:**
+`Cambos - Time Desenvolvimento` (matriz 1) × `Cambos - Desenvolvimento` (matriz 2).
+
+🔴 **A Cambos é facção, e a ficha dela prova isso.** A primeira linha do bloco Desenvolvimento é **`Todos os Clientes`** — nos outros clientes essa linha é *Todas as Coleções*. **Ela desenvolve para terceiros, não para marca própria.**
+
+⚠ **As abas da ficha estão em CAIXA ALTA e trazem o termo do uFlow entre parênteses** — tradução do vocabulário da casa para o do produto:
+`VERSÕES (Variante)` · `TECIDOS E AVIAMENTOS (Empenho)` · `TAMANHOS PILOTO (Grade)` · `QTD PARA PILOTAR (Lote)` · `FABRICAÇÃO (Fornecedor)` · `APROVAÇÕES DA PILOTO (Aprovações)` · `COSTURA E BORDADO` · `ORIGINAL` · `INTEGRAÇÃO SPI`
+
+🟢 **É um dicionário cliente↔produto escrito à mão, e é o único do corpus.**
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos`, lida em 15/06/2026. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -82,6 +93,7 @@ Banner (pedidos de atacado) · Trello (gestão de processo).
 | Uso e chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Cambos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Perfil de Usuário e Permissionamentos` | 15/06/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *Perfil de Usuário e Permissionamentos* · *Playbook Cambos* ·

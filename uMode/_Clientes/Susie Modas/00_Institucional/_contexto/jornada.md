@@ -20,8 +20,8 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: ? — [sem fonte]
-- fase: ? — [sem fonte]
+- status: Inativo — [varredura do Notion · 2026-09-22]
+- fase: Inativo — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.

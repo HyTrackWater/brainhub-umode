@@ -27,7 +27,20 @@ tags:
 - responsavel-area: ? — [não consta em: Chamados & Atendimentos · 2026-09-22]
 
 ## O que esta área faz
-`[a preencher]`
+
+🔴 **A Lenny Niemeyer NÃO tem segmentação por área no PLM.** São três perfis, e nenhum é de área:
+
+`LN - Admin` · `LN - Time` · `Fornecedor`
+
+⚠ **`LN - Time` é um perfil único para toda a operação do cliente.** **Nenhuma área desta conta pode ser distinguida por acesso.**
+
+⚠ **As colunas chamadas `Validação` na matriz NÃO são perfis** — são anotação de teste, quase todas vazias. 🔴 **Ler a matriz como se fossem cinco perfis seria erro.**
+
+🔴 **`Fornecedor` é acesso de TERCEIRO** — tem 🔴 em quase tudo e 🟢 só em `Notificações`, `Editar Usuario`, `Sair`, `Tarefa homepage` e `Tarefa ficha`.
+
+⚠ **A conta está em `Churn`.** A matriz é de 21/07/2025.
+
+⚠ **Fonte:** Notion — `Lenny | Perfil de Usuários e Permissionamentos`, lida em 21/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -74,6 +87,7 @@ tags:
 | 5 chamados e 4 pessoas | Notion — `Chamados & Atendimentos` | **varrido 22 set 2026** |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Lenny Niemeyer` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Lenny | Perfil de Usuários e Permissionamentos` | 21/07/2025 |
 
 ## Governança
 

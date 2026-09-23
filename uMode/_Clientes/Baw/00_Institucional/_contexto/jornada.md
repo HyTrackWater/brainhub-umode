@@ -20,17 +20,17 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Sem CS · Gestão de Coleção · Integração · Relatórios · Fornecedores — [varredura do Notion · 2026-09-22]
+- status: Sem CS — [varredura do Notion · 2026-09-22]
 - fase: Operação ativa com classificação inconsistente. 9 chamados em 24 dias — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-22]
-- incidente: 3 chamados — tarefa/config e instabilidade — [fechados · 2026-01-08]
-- incidente: Fotos do produto sumiram — domínio externo — [Em Aberto · 2026-01-08]
-- incidente: Material travado — [fechado · 2026-01-16]
-- incidente: Novo acesso — [fechado · 2026-01-20]
-- incidente: 2 chamados — [Não iniciada · 2026-01-28]
+- incidente: 3 chamados — tarefa/config e instabilidade — [Chamados & Atendimentos · 2026-09-22]
+- incidente: Fotos do produto sumiram — domínio externo — [Chamados & Atendimentos · 2026-09-22]
+- incidente: Material travado — [Chamados & Atendimentos · 2026-09-22]
+- incidente: Novo acesso — [Chamados & Atendimentos · 2026-09-22]
+- incidente: 2 chamados — [Chamados & Atendimentos · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.**

@@ -20,7 +20,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: ? — [sem fonte]
+- status: Pré Onboardings — [varredura do Notion · 2026-09-22]
 - fase: Pré-onboarding — [varredura do Notion · 2026-09-22]
 - marco: Linha criada no Notion — no mesmo dia que a Loungerie — [base Mapa de Clientes · 2026-04-17]
 - marco: Mencionada como dependência de SAP da Oficina Reserva — [página Oficina Reserva · 2024-06-26]

@@ -20,12 +20,12 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: ? — [sem fonte]
-- fase: ? — [sem fonte]
-- incidente: USABILIDADE — evelyn.olivares — [3 dos 5 abertos · 2026-01-06]
-- incidente: TAREFA/CONFIG — amanda.rego — [sem fonte]
-- incidente: TAREFA/CONFIG — giuliana.ghanem e romulo.grimaldi — [sem fonte]
-- incidente: TAREFA/CONFIG — giuliana.ghanem — [sem fonte]
+- status: Churn — [varredura do Notion · 2026-09-22]
+- fase: Encerrado — [varredura do Notion · 2026-09-22]
+- incidente: USABILIDADE — evelyn.olivares — [Chamados & Atendimentos · 2026-09-22]
+- incidente: TAREFA/CONFIG — amanda.rego — [Chamados & Atendimentos · 2026-09-22]
+- incidente: TAREFA/CONFIG — giuliana.ghanem e romulo.grimaldi — [Chamados & Atendimentos · 2026-09-22]
+- incidente: TAREFA/CONFIG — giuliana.ghanem — [Chamados & Atendimentos · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
@@ -47,7 +47,9 @@ tags:
 `[a preencher]`
 
 ## Módulos em uso
-`[a preencher]` — **campo vazio na base**
+
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
 
 ## Decisões e restrições registradas
 `[a preencher]`

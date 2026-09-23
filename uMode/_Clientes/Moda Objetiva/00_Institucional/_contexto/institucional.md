@@ -37,13 +37,13 @@ tags:
 - modulo-contratado: Cronograma — [varredura do Notion · 2026-09-22]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2025-09-01 → 2028-09-05 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2025-09-01 → 2028-09-05 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IGPM/IPCA menor — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 23 internos — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: pessoa:laura.delgado@umode.com.br — [varredura do Notion · 2026-09-22]
-- tamanho-atendimento: Grupo Médios · WIP 2,25 · Laura, com 5 contas — [varredura do Notion · 2026-09-22]
+- tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.

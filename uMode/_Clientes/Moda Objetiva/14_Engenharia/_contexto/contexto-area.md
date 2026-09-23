@@ -22,12 +22,19 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: ? — [não consta em: página Moda Objetiva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página Moda Objetiva — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+🟢 **A Moda Objetiva tem perfil `Objetiva - Engenharia` — e é o SEGUNDO cliente do corpus em que Engenharia existe de verdade**, ao lado da Oficina Reserva.
+
+⚠ **Na Caedu, na Puket e na Luiza Barcelos, Engenharia não é nomeada em fonte nenhuma.** 🔴 **A área canônica `14_Engenharia` é, portanto, real em 2 de 49 clientes até agora.**
+
+⚠ **A ficha da conta traz `Composição`, `Modelagem`, `Tabela de Medidas`, `EAN` e `Logística e Fiscal`** — estrutura de produto mais detalhada que a média do corpus.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos - Moda Objetiva`, lida em 29/07/2026. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -73,6 +80,7 @@ tags:
 | Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Moda Objetiva` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Perfil de Usuário e Permissionamentos - Moda Objetiva` | 29/07/2026 |
 
 ## Governança
 

@@ -20,7 +20,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Churn · Última atividade observada: 16/10/2025 · ERP: Totvs · Setor: Lingerie — [varredura do Notion · 2026-09-22]
+- status: Churn — [varredura do Notion · 2026-09-22]
 - fase: Encerrada — [varredura do Notion · 2026-09-22]
 - metrica: KRs por área, acordados nos Warm Ups de dezembro/2024: [C] — [página do cliente Recco · 2026-09-22]
 - marco: Warm Up 1 — alinhamento de expectativas e KRs por área — [página do cliente · 2024-12-17]
@@ -90,9 +90,9 @@ homologação de matérias-primas · gestão de cronograma · retrabalho na desc
 controle de referência definitiva · comunicação interna e externa em papel.
 
 ## Módulos em uso
-`[a preencher]` — **campo vazio na base.** ⚠ **Mas há evidência de dois produtos em jogo:**
-**uFlow** (todas as weeklies têm o prefixo `uFlow -`) e **Fashion AI** (há uma líder nomeada só
-para ele e uma página *"[Fashion AI] Implementação Recco"* **não varrida**).
+
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
 
 ## Decisões e restrições registradas
 - **A ficha de produto foi reorganizada por time** a pedido do cliente, *"garantindo clareza de

@@ -24,18 +24,20 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Aposta — [base Mapa de Clientes · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]` — nenhuma fonte varrida descreve as atribuições.
 
-**O que a matriz de permissão revela sobre o ofício desta área:**
+**Tem perfil próprio: `Vix-Desenvolvimento`**, e há também `Vix-Produto TP`, cujo significado de `TP` a fonte **não explica**.
 
-O perfil tem 🟢 em quase toda a ficha de produto e 🔴 em todo o cadastro de dado mestre — **desenvolve, não cadastra**.
+🔴 **Seis funcionalidades estão desligadas para TODOS os perfis:** `Tipo de Produto` · `Campo Personalizado` · `Integração` · `Manual` · `Base de Importação` · `Excluir variante`.
 
-⚠ **Não pode excluir variante** (🔴, como todos). Ver a contradição registrada na [`jornada.md`](../../00_Institucional/_contexto/jornada.md).
+⚠ **E a página registra o contorno operacional disso, literalmente:**
+> *"Quando um usuário que não tem permissionamento para deletar variante do produto fizer a solicitação no chat/atendimento, **pedir que faça a solicitação internamente**, para um usuário que tenha permissão."*
+
+⚠ **Fonte:** Notion — `[Vix] Perfil de Usuário e Permissionamento`, lida em 09/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -82,6 +84,7 @@ com telas dedicadas de fila: `Linx Produtos pendentes`, `Linx Materiais pendente
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `VIX` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `[Vix] Perfil de Usuário e Permissionamento` | 09/07/2025 |
 
 ### 🔴 Próximas fontes a varrer
 *uPick Vix - Passo a passo* · *[Produto] Demandas* · *Onboarding* e *Onboarding > Ongoing* ·

@@ -24,18 +24,20 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios — [base Mapa de Clientes · 2026-09-23]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
 - pessoas-da-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 - responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]` para as atribuições detalhadas — **mas o escopo do time está declarado**, e está abaixo.
 
-**Escopo declarado:** *"Cadastro de MP e Pedido"*.
+🔴 **Compras e PCP dividem UM único perfil: `Cambos - PCP/Compras`.**
 
-**O cliente trabalha com 20 a 40 fornecedores** no desenvolvimento, e usa **produção interna e externa**, com **tecelagem própria**. **Não importam.**
+⚠ **A integração com o SPI — sistema próprio da Cambos — tem cinco relatórios de pendência, e quatro são de suprimento:**
+`[SPI] Aviamentos Pendentes` · `[SPI] Cores Pendentes` · `[SPI] Banhos Pendentes` · `[SPI] Fornecedores Pendentes` · `[SPI] Produtos Pendentes`
 
-⚠ **O módulo `Fornecedores` NÃO está contratado.** **Vale checar se há oportunidade** — mas **não afirmo necessidade**, porque não li o desenho do processo deles.
+🟢 **`Banhos` é vocabulário de beneficiamento** e não aparece em nenhum outro cliente.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos`, lida em 15/06/2026. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -80,6 +82,7 @@ Banner (pedidos de atacado) · Trello (gestão de processo).
 | Uso e chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Cambos` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Perfil de Usuário e Permissionamentos` | 15/06/2026 |
 
 ### 🔴 Próximas fontes a varrer
 *Perfil de Usuário e Permissionamentos* · *Playbook Cambos* ·

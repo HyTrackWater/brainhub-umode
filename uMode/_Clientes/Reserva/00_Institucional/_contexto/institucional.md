@@ -37,13 +37,13 @@ tags:
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-21]
 - servico-faturado: uBuy — [planilha de contratos do Financeiro · 2026-09-21]
 - servico-faturado: uPlan — [planilha de contratos do Financeiro · 2026-09-21]
-- contrato-vigencia: 2020-07-20 → 2021-01-20 · vigência 6 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2020-07-20 → 2021-01-20 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: ? — [sem fonte]
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 13 pessoas com ficha própria no corpus — [base Segmentação Grupos · 2026-09-21]
 - atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: Grupo Enterprise · WIP Estratégico 6,00 · Fernanda, que atende as 3 contas — [base Segmentação Grupos · 2026-09-21]
+- tamanho-atendimento: Grupo Enterprise — [base Segmentação Grupos · 2026-09-21]
 
 ## Identidade
 ### ID do cliente

@@ -31,17 +31,17 @@ tags:
 - status: Churn — [varredura do Notion · 2026-09-22]
 - data-ativacao: 03/02/2025 — [varredura do Notion · 2026-09-22]
 - erp: Linx — [varredura do Notion · 2026-09-22]
-- modulo-contratado: ? — [sem fonte]
+- modulo-contratado: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2025-02-03 → 2028-02-02 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2025-02-03 → 2028-02-02 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 60 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 42 internos — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 30 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: pessoa:julianne.dias@umode.com.br — [varredura do Notion · 2026-09-22]
 - atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: ? — [sem fonte]
+- tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
@@ -85,7 +85,9 @@ tags:
 **03/02/2025** — 🔴 **preenchida, e o cliente está em `Churn`.**
 
 ### Módulos contratados
-`[a preencher]` — **campo vazio na base**
+
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
 
 ### Usuários da conta
 **30 pessoas com ficha própria** no corpus.
@@ -149,31 +151,9 @@ Nenhuma registrada na planilha.
 `[a preencher]`
 
 ### Tamanho de atendimento
-`[a preencher]`
 
-🔴 **ESTE CLIENTE FAZ PARTE DE UM COORTE QUE FALHOU INTEIRO.**
-
-Três clientes têm `Data Ativação Cliente` preenchida **e estão em `Churn`** — e as três ativações acontecem em **oito dias**:
-
-| Cliente | Ativado em | ERP |
-|---|---|---|
-| **Lenny Niemeyer** | **03/02/2025** | Linx |
-| **Recco** | **06/02/2025** | Totvs |
-| **Highstil** | **11/02/2025** | Totvs |
-
-> **Três ativações consecutivas de fevereiro de 2025, todas terminadas em saída.**
->
-> **Não afirmo a causa** — não li as páginas nem os contratos. Afirmo o padrão, com data, e que **nenhuma fonte varrida registra o motivo de nenhuma das três saídas**.
->
-> **É a pergunta mais valiosa de toda a varredura de churn.** Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
-
-> 🔴 **CORREÇÃO — 22 set 2026.** Esta leitura de "coorte" era minha e estava errada no que
-> sugeria. As três contas foram **ativadas** em oito dias, mas **não morreram juntas**:
-> **Recco ~8 meses** (última atividade **16/10/2025**) · **Lenny Niemeyer ~14 meses**
-> (**01/04/2026**) · **Highstil ~14 meses** (**16/04/2026**). Lenny e Highstil seguiram com
-> reunião até **abril de 2026**, já marcadas como `Churn`. **É coorte de ativação, não de morte.**
-> ⚠ **"Última atividade observada" não é data de saída** — a base **não tem `Data de Churn`**.
-> Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

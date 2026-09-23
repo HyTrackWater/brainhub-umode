@@ -103,14 +103,14 @@ BLOCO_DA_CHAVE = {
     # de documentos combinados - e e assim que os jornada.md a registram.
     u"entrega":            [u"valida", u"fluxo", u"campos", u"entrega", u"escopo",
                             u"defini", u"cronograma", u"relatório", u"sucesso",
-                            u"documento"],
+                            u"documento", u"mapeamento", u"sub-página"],
     u"pessoas-da-area":    [u"pessoas"],
     u"produto-conectado":  [u"módulos", u"modulos", u"produto"],
     # dono da area E no CLIENTE: a fonte e a tabela de pessoas, nao a dupla
     # de atendimento da uMode. A ordem aqui e a ordem de preferencia.
     u"responsavel-area":   [u"pessoas", u"dupla", u"atendimento"],
     u"metrica":            [u"métricas", u"metricas"],
-    u"incidente":          [u"incidente"],
+    u"incidente":          [u"incidente", u"chamado"],
 }
 
 # Listas numeradas que viram um fato por item.
@@ -288,6 +288,14 @@ def encurta(v):
     # esta area. Os quatro modulos da Caedu..." a segunda frase ja e prosa.
     v = re.split(u"\\.\\s+(?=[A-Z\u00c0-\u00dd])", v)[0]
     v = re.split(u"\\s\u2014\\s", v)[0]
+    # ` · ` separa valor de comentario em campo de enum: "Churn · [a preencher]
+    # — campo vazio na base · ERP: Linx" tem o valor na primeira posicao, e o
+    # resto anulava o fato inteiro porque continha "[a preencher]".
+    v = re.split(u"\\s\u00b7\\s", v)[0]
+    # "Encerrado. [a preencher] - quando e por que": o valor esta ANTES da
+    # marca de lacuna. Cortar ali preserva o que se sabe; se a linha comecar
+    # por `[a preencher]`, o corte devolve vazio - que e o certo.
+    v = re.split(u"\\s*\\[a preencher\\]", v)[0]
     v = re.split(u"\\s\\(", v)[0]
     # o corte pode deixar um travessao orfao na ponta ("... Caedu-Estilo —")
     return v.strip().rstrip(u".,;\u2014-").strip()
@@ -620,7 +628,20 @@ def monta_bloco(txt):
         if e_lista:
             itens = [i for i in (v or []) if not vazio(i)]
             if not itens:
-                fatos.append(u"- %s: ? %s [sem fonte]" % (chave, TRACO))
+                # lista vazia tambem pode ser ausencia VERIFICADA (2.1-bis):
+                # "Modulos contratados: campo vazio na base X" e o mesmo caso
+                # dos campos simples, e caia direto em [sem fonte].
+                txt_a = (corpo + u"\n" + pai).replace(u"**", u"")
+                m_a = RE_AUSENCIA.search(txt_a)
+                f_a = None
+                if m_a:
+                    for g in m_a.groups():
+                        f_a = f_a or acha_fonte(g)
+                if f_a:
+                    fatos.append(u"- %s: ? %s [não consta em: %s %s %s]"
+                                 % (chave, TRACO, f_a, PONTO, data or u"sem data"))
+                else:
+                    fatos.append(u"- %s: ? %s [sem fonte]" % (chave, TRACO))
             else:
                 for i in itens:
                     emite(chave, i, fonte, data)

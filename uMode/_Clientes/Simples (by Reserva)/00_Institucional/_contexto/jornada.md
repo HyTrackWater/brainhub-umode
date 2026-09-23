@@ -20,7 +20,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: ? — [sem fonte]
+- status: Inativo — [varredura do Notion · 2026-09-22]
 - fase: Indeterminada — [varredura do Notion · 2026-09-22]
 - marco: Portal uMode — [Simples Reserva criado — único marco documentável deste cliente · 2024-10-18]
 

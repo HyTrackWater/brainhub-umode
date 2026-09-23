@@ -24,12 +24,19 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Aposta — [base Mapa de Clientes · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: Nenhuma — [página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+⚠ **Há um perfil `Vix-Ficha Tecnica`**, e a ficha tem aba `Ficha Técnica` própria.
+
+🔴 **Não afirmo que isso seja a área de Engenharia.** Em outros clientes a ficha técnica é responsabilidade dividida entre Estilo, Modelagem e Produto. **É pergunta para o atendimento.**
+
+🔴 **E há um perfil `uDash`** — único nome que **não segue o padrão `Vix-*`**. ⚠ **Aparenta ser perfil da própria uMode dentro da conta do cliente, como na Caedu. A página não explica.**
+
+⚠ **Fonte:** Notion — `[Vix] Perfil de Usuário e Permissionamento`, lida em 09/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -81,6 +88,7 @@ com telas dedicadas de fila: `Linx Produtos pendentes`, `Linx Materiais pendente
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `VIX` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `[Vix] Perfil de Usuário e Permissionamento` | 09/07/2025 |
 
 ### 🔴 Próximas fontes a varrer
 *uPick Vix - Passo a passo* · *[Produto] Demandas* · *Onboarding* e *Onboarding > Ongoing* ·

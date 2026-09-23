@@ -34,7 +34,7 @@ tags:
 - modulo-contratado: Fornecedores — [export de CRM · 2026-09-21]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2022-06-23 → 2027-06-23 · vigência 5 anos — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2022-06-23 → 2027-06-23 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IGPM / IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 65 internos + 100 externos — [planilha de contratos do Financeiro · 2026-09-23]

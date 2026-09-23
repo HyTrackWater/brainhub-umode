@@ -34,14 +34,14 @@ tags:
 - modulo-contratado: ? — [sem fonte]
 - contrato-situacao: Falta assinar — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: Gestão de coleções — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2026-07-27 → 2029-07-27 · vigência 36 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2026-07-27 → 2029-07-27 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 60 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 20 — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: ? — [sem fonte]
 - atendimento: pessoa:julianne.dias@umode.com.br — [varredura do Notion · 2026-09-22]
 - atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: Grupo Médios · WIP 2,25 · Julianne & Pedro, com 6 contas — [varredura do Notion · 2026-09-22]
+- tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **ESTA CASA ACABOU DE SER CRIADA.** A Loungerie **existia na base `Mapa de Clientes` e não tinha casa no corpus** — lacuna registrada desde a varredura de 21/09/2026 e **fechada agora**.

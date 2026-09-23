@@ -24,7 +24,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Fornecedores · Integração · Cronograma · Relatórios — [base Mapa de Clientes · 2026-09-22]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-22]
 - pessoas-da-area: Nenhuma — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
 - responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
 

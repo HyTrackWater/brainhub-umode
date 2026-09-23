@@ -4056,3 +4056,59 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      `Logística`. 🔴 **Só 1 das 13 foi lida.** ⚠ **E o vocabulário diverge dentro da própria
      fonte:** a página-mãe chama os modos de `Inclusão`/`Restrição`, a sub-página chama de
      `exclusão`.
+
+## Os nove clientes com matriz de perfil, escritos (23 set 2026)
+
+674. 🟢 **TREZE clientes com ZERO `[sem fonte]`:** Caedu (142 fatos) · NK STORE (107) ·
+     Luiza Barcelos (92) · NV (92) · Puket (92) · VIX (92) · Lofty Style (91) · Osklen (90) ·
+     Cambos (88) · Oficina Reserva (88) · Recco (79) · Moda Objetiva (70) · Lenny Niemeyer (66).
+     **Corpus: 41% com fonte · 51% ausência verificada · 8% sem fonte.**
+675. 🔴 **A NV NÃO TEM CONTRATO — e é cliente ativo de maior porte.** A base do Financeiro
+     registra `situação: Sem contrato`, com início e término nulos, e a observação literal:
+     > *"**NÃO TEMOS CONTRATO NA REDE NEM DOCSALES.**"*
+     🔴 **E a conta está `Ongoing`, grupo `Enterprise`, com três serviços faturados** — `uFlow` ·
+     `uBuy` · `Reports`. ⚠ **Não é lacuna de varredura: é ausência de contrato, declarada pelo
+     próprio Financeiro.** **É decisão comercial urgente, não item de documentação.**
+676. 🔴 **A VIX segmenta Estilo por LINHA DE PRODUTO — cinco perfis, e nenhum outro cliente faz
+     isso:** `Vix-Estilo Biquini` · `Vix-Estilo Cover ups` · `Vix-Estilo PA` ·
+     `Vix-Estilo Roupas` · `Vix- Estilo Admim`. ⚠ **E a conta tem DUAS fichas com matrizes
+     próprias** — `Ficha de PRODUTO` e `Ficha de ESTAMPA`. **Única do corpus.**
+677. 🔴 **O perfil de Qualidade da VIX aparece com TRÊS grafias na MESMA página:**
+     `Vix- Qualidade` · `Vix qualidade` · `Vix qualdiade` (letras trocadas).
+     🔴 **Qualquer cruzamento por nome de perfil falha aqui — e falha em silêncio.**
+678. 🟢 **A Cambos mantém um dicionário cliente↔produto escrito à mão, e é o único do corpus:**
+     as abas da ficha estão em caixa alta com o termo do uFlow entre parênteses —
+     `VERSÕES (Variante)` · `TECIDOS E AVIAMENTOS (Empenho)` · `TAMANHOS PILOTO (Grade)` ·
+     `QTD PARA PILOTAR (Lote)` · `FABRICAÇÃO (Fornecedor)` · `APROVAÇÕES DA PILOTO (Aprovações)`.
+     ⚠ **É exatamente o artefato que o item 672 pede para o resto da carteira.**
+679. 🔴 **A Cambos é facção, e a ficha prova:** a primeira linha do bloco Desenvolvimento é
+     **`Todos os Clientes`** — nos outros clientes essa linha é *Todas as Coleções*.
+     ⚠ **E há uma funcionalidade sob medida, desligada para todos os cinco perfis:**
+     **`Novo Pedido (só a Cambos tem)`** — o rótulo diz isso literalmente.
+680. 🔴 **Lenny Niemeyer e Recco NÃO têm segmentação por área no PLM** — só `Admin`, `Time` e
+     `Fornecedor`. **Um perfil único para toda a operação do cliente.**
+     ⚠ **As duas estão em `Churn`.** 🔴 **A Recco é a única das nove cujos perfis não levam o
+     nome do cliente** — sem prefixo, não dá para saber de que conta um perfil é.
+681. ⚠ **Na matriz da Lenny, as colunas chamadas `Validação` NÃO são perfis** — são anotação de
+     teste, quase todas vazias. 🔴 **Ler a matriz como se fossem cinco perfis seria erro.**
+     ⚠ **E a linha `> excluir variante` está INTEIRAMENTE vazia** — não é 🔴 nem 🟢, é
+     não-preenchido. **Três estados, e o corpus só modelava dois.**
+682. 🟢 **Moda Objetiva é a conta mais segmentada das nove: DEZ perfis**, e traz dois que não
+     cabem nas 14 áreas canônicas — **`Objetiva - Estamparia`** (segundo caso, com a VIX) e
+     **`Objetiva - Compras MP`**, que separa compra de insumo de compra de produto.
+     🟢 **É também o segundo cliente com `Engenharia` real**, ao lado da Oficina Reserva.
+683. 🟢 **A NV é a única conta com perfil de Logística E de Marketing, e a única com aba
+     `E-commerce` na ficha.** ⚠ **Tem QUATRO perfis com "plan" no nome e funções diferentes:**
+     `NV - Planner` · `NV - Planner 2` · `NV - Planejamento Comercial` · e o PCP.
+     🔴 **Armadilha de leitura, como `Oficina - Planner` × `Oficina - Planejamento`.**
+684. 🔴 **A NV tem 13 sub-páginas de permissionamento, uma por perfil — e só UMA foi lida.**
+     ⚠ **O vocabulário diverge dentro da própria fonte:** a página-mãe define os modos como
+     `Inclusão` e `Restrição`; a sub-página chama o mesmo modo de `exclusão`.
+685. 🟢 **`A CONFIRMAR` virou VALOR, não lacuna.** A planilha de contratos marca assim os usuários
+     da Recco. 🔴 **É estado diferente de "vazio" e diferente de "não procurei": é a fonte
+     declarando que ela própria não sabe.** **Entra como valor, com a fonte nomeada.**
+686. 🔺 **Dois defeitos do gerador, achados por esses seis clientes:**
+     **(a)** valor de enum não cortava em ` · `, então `Churn · [a preencher] — campo vazio · ERP:
+     Linx` virava `?` **mesmo tendo `Churn` na primeira posição.**
+     **(b)** o ramo de LISTA não reconhecia ausência declarada — `Módulos contratados` caía em
+     `[sem fonte]` mesmo com a base nomeada. **Os dois corrigidos.**

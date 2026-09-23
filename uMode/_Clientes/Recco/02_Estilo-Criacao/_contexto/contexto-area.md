@@ -27,7 +27,20 @@ tags:
 - responsavel-area: ? — [não consta em: página Recco — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+🔴 **A Recco NÃO tem segmentação por área no PLM** — e vai além: **os perfis nem levam o nome do cliente.**
+
+`Admin` · `Time` · `Fornecedor`
+
+⚠ **É a única das nove contas com matriz assim.** 🔴 **Sem prefixo, não dá para saber de que conta um perfil é só pelo nome** — e isso atrapalha qualquer cruzamento entre clientes.
+
+🟢 **A estrutura da ficha é quase idêntica à da Lenny Niemeyer**, com duas diferenças: **não há `Informações Complementares`**, e a última aba é **`Integração`** e não `Integração Linx`.
+
+🔴 **Nenhum ERP é nomeado nesta página** — não encontrei menção a Linx, SPI ou outro sistema. ⚠ **Não afirmo que não haja: não consta nesta fonte.**
+
+⚠ **A conta está em `Churn`.** A matriz é de 28/07/2025.
+
+⚠ **Fonte:** Notion — `Recco | Perfil de Usuários e Permissionamentos`, lida em 28/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -73,6 +86,7 @@ tags:
 | Todos os campos | Notion — base `Mapa de Clientes` | **varrido 22 set 2026** |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `Recco` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `Recco | Perfil de Usuários e Permissionamentos` | 28/07/2025 |
 
 ## Governança
 

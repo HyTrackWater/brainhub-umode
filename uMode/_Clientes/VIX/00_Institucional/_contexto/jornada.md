@@ -20,7 +20,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Ongoing · 4 de 7 módulos, incluindo Aposta · ERP Linx · grupo Médios — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
 - fase: Operação madura com governança de acesso muito elaborada e rastreabilidade fraca — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
@@ -36,9 +36,9 @@ tags:
 - marco: VPN do cliente cai e gera 5 chamados no mesmo dia — [idem · 2026-01-08]
 - marco: Variante excluída sem autor conhecido — [idem · 2026-01-13]
 - marco: Última edição da página do cliente — [base Mapa de Clientes · 2026-06-26]
-- entrega: Adicionar VIEW no campo descritivo — liberado pelo André, início previsto 12/01/2026 · Pendente — sem confirmação de conclusão — [sem fonte]
-- entrega: Inclusão de campos na integração (31/07/2025) · tabela existe; execução não confirmada — [sem fonte]
-- entrega: uPick Vix — passo a passo · documento existe, não varrido — [sem fonte]
+- entrega: Adicionar VIEW no campo descritivo — liberado pelo André, início previsto 12/01/2026 · Pendente — sem confirmação de conclusão — [página VIX, bloco de 31/07/2025 · 2026-09-21]
+- entrega: Inclusão de campos na integração (31/07/2025) · tabela existe; execução não confirmada — [página VIX, bloco de 31/07/2025 · 2026-09-21]
+- entrega: uPick Vix — passo a passo · documento existe, não varrido — [página VIX, bloco de 31/07/2025 · 2026-09-21]
 - incidente: Não recebeu o e-mail de acesso — token retido por checagem de identidade — [Chamados & Atendimentos · 2026-09-21]
 - incidente: Queda de conexão — *"foi do lado dela"* — [Chamados & Atendimentos · 2026-09-21]
 - incidente: VPN do cliente fora do ar → 5 chamados de 4 pessoas — [Chamados & Atendimentos · 2026-09-21]

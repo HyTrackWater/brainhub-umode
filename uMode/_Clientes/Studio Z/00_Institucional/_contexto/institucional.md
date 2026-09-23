@@ -34,7 +34,7 @@ tags:
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - contrato-situacao: Falta assinar — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uRocket — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2023-07-01 → 2025-07-01 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2023-07-01 → 2025-07-01 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]

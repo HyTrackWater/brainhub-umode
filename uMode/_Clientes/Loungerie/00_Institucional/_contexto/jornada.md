@@ -20,7 +20,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: ? — [sem fonte]
+- status: Onboarding — [varredura do Notion · 2026-09-22]
 - fase: Onboarding — [varredura do Notion · 2026-09-22]
 - marco: Linha do cliente criada no Notion — [base Mapa de Clientes · 2026-04-17]
 - marco: Última edição — a mais recente de toda a base de clientes — [idem · 2026-09-02]

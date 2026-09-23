@@ -20,7 +20,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Operação Assistida · Gestão de Coleção · Integração · Relatórios · Cronograma — [varredura do Notion · 2026-09-22]
+- status: Operação Assistida — [varredura do Notion · 2026-09-22]
 - fase: Operação assistida, com 4 módulos e nenhum chamado registrado — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-22]

@@ -34,7 +34,7 @@ tags:
 - modulo-contratado: ? — [sem fonte]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: Fashion IA — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2025-03-01 → 2027-03-01 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2025-03-01 → 2027-03-01 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]

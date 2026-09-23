@@ -20,7 +20,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Sem CS · Gestão de Coleção — [varredura do Notion · 2026-09-22]
+- status: Sem CS — [varredura do Notion · 2026-09-22]
 - fase: Operação self-service. 🔴 Os 7 clientes Sem CS têm exatamente o mesmo perfil: Atendimento = SMB — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 

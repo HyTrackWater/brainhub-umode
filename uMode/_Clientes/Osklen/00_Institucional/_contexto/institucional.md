@@ -35,14 +35,14 @@ tags:
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uBuy — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2024-08-15 → 2026-08-15 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2024-08-15 → 2026-08-15 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 30 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 55 — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 46 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: pessoa:julianne.dias@umode.com.br — [base Mapa de Clientes · 2026-09-22]
 - atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: Grupo Médios · WIP 2,25 · Julianne & Pedro, com 6 contas — [varredura do Notion · 2026-09-22]
+- tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-22]
 
 ## Identidade
 ### ID do cliente

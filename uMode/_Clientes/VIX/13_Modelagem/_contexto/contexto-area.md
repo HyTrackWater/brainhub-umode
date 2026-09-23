@@ -24,21 +24,19 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Aposta — [base Mapa de Clientes · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]` — nenhuma fonte varrida descreve as atribuições.
 
-**O que a matriz de permissão revela sobre o ofício desta área:**
+**Tem perfil próprio: `Vix-CAD`**, e a ficha de produto separa três abas que noutros clientes são uma só:
 
-**`[P]` O mapeamento destes dois perfis para Modelagem é proposta minha, não declaração da fonte.** O que a matriz mostra:
+`Modelagem` · `CAD` · `Tabela de Medidas` · `Grade`
 
-- **`Vix-CAD`** tem 🔴 em quase toda a ficha (Informações Gerais, Estilo, Imagens, Variantes, Cadastro, Modelagem, Provas, Arquivos, Cancelamento) e 🟢 em **CAD, Ficha Técnica, Fornecedor, Grade e Tabela de Medidas**. **É um perfil de ofício, muito fechado.**
-- **`Vix-Tabela`** é um dos dois que **podem enviar para o Linx**.
+⚠ **Há também um perfil `Vix-Tabela`**, cujo escopo a fonte não explica. 🔴 **Não afirmo que seja tabela de medidas** — o nome sugere, a fonte não diz.
 
-⚠ **`Vix-CAD` é também um dos três perfis com 🟢 em `Permissionamentos - Exclusão e Edições`**, junto de `uDash` e `Vix-Admin`. **Um perfil operacional administra permissão.** ⚠ **Confirmar.**
+⚠ **Fonte:** Notion — `[Vix] Perfil de Usuário e Permissionamento`, lida em 09/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -85,6 +83,7 @@ com telas dedicadas de fila: `Linx Produtos pendentes`, `Linx Materiais pendente
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `VIX` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `[Vix] Perfil de Usuário e Permissionamento` | 09/07/2025 |
 
 ### 🔴 Próximas fontes a varrer
 *uPick Vix - Passo a passo* · *[Produto] Demandas* · *Onboarding* e *Onboarding > Ongoing* ·

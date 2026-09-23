@@ -19,7 +19,7 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: Ongoing · 4 de 7 módulos · ERP Safe Tech · grupo Médios · — [varredura do Notion · 2026-09-21]
+- status: Ongoing — [varredura do Notion · 2026-09-21]
 - fase: Projeto em Regime — [varredura do Notion · 2026-04-10]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
@@ -47,8 +47,8 @@ tags:
 - entrega: Go Light · página *Configurações e ajustes pré Go Light* existe · não varrida — [*Definições do Projeto* · 2026-09-21]
 - entrega: Plano de Sucesso do Cliente · "Em construção", marcado em vermelho — [*Definições do Projeto* · 2026-09-21]
 - entrega: TAP — uFlow · marcado como "(teste)" · não varrido — [*Definições do Projeto* · 2026-09-21]
-- incidente: Relatório de Incidente formal — o único da carteira — [✅ varrido 22 set 2026 · 2025-08-08]
-- incidente: Chamado de USABILIDADE — Ticiane Rosa — [Em Aberto · 2026-01-14]
+- incidente: Relatório de Incidente formal — o único da carteira — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Chamado de USABILIDADE — Ticiane Rosa — [Chamados & Atendimentos · 2026-09-21]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se a credibilidade foi estabelecida.** A ata de Sales escreveu em vermelho

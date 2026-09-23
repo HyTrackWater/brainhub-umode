@@ -24,20 +24,21 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Aposta — [base Mapa de Clientes · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página VIX — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]` — nenhuma fonte varrida descreve as atribuições.
 
-**O que a matriz de permissão revela sobre o ofício desta área:**
+🔴 **A VIX segmenta Estilo por LINHA DE PRODUTO — são CINCO perfis, e nenhum outro cliente do corpus faz isso:**
 
-🔴 **Cinco perfis, e quatro deles são linhas de produto** — Biquíni, Cover ups (saídas de praia), Roupas e PA (produto acabado).
+`Vix-Estilo Biquini` · `Vix-Estilo Cover ups` · `Vix-Estilo PA` · `Vix-Estilo Roupas` · `Vix- Estilo Admim`
 
-> **É o nível de Subárea da hierarquia do BrainHub aparecendo na prática**, e **já gravado no perfil de acesso do PLM**. A grade canônica trata Estilo como uma área; aqui ela é quatro.
+⚠ **`Vix- Estilo Admim`** tem espaço a mais e **"Admim" por "Admin"** — erro de digitação na origem. **A coluna está vazia em quase tudo:** a única célula preenchida é 🟢 em *"Enviar para integração Linx"*.
 
-🔴 **E `Vix-Estilo Roupas` é um dos dois únicos perfis que podem empurrar para o Linx** — com `Linx Produtos pendentes` e `Linx Materiais pendentes` 🟢. **Um perfil de Estilo opera a fila de integração.** ⚠ **Confirmar se é intenção.**
+🔴 **A conta tem DUAS fichas distintas** — `Ficha de PRODUTO` e `Ficha de ESTAMPA` — **cada uma com sua própria matriz de permissão.** É a única assim no corpus.
+
+⚠ **Fonte:** Notion — `[Vix] Perfil de Usuário e Permissionamento`, lida em 09/07/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -84,6 +85,7 @@ com telas dedicadas de fila: `Linx Produtos pendentes`, `Linx Materiais pendente
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `VIX` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `[Vix] Perfil de Usuário e Permissionamento` | 09/07/2025 |
 
 ### 🔴 Próximas fontes a varrer
 *uPick Vix - Passo a passo* · *[Produto] Demandas* · *Onboarding* e *Onboarding > Ongoing* ·

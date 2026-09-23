@@ -24,14 +24,17 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-21]
+- produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: ? — [não consta em: página NV — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 - responsavel-area: ? — [não consta em: página NV — 🔴 nenhuma fonte de pessoa por área encontrada · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]` — o departamento **é declarado como engajado**, mas nenhuma fonte varrida descreve o que ele faz.
 
-⚠ A área `03_Desenvolvimento-de-Colecao` **não aparece** entre os departamentos declarados, embora o módulo `Gestão de Coleção` esteja contratado. **A função pode estar aqui dentro** — **confirmar, não inferir**.
+⚠ **Não há perfil de Engenharia na NV.** ⚠ **A ficha traz `Definição da Grade`, `Grade de Tamanhos` e `Tabela de Medidas`** — funções de engenharia de produto distribuídas entre os perfis existentes.
+
+🔴 **A integração da NV tem uma ação que nenhum outro cliente tem: `Audit uMode x Linx`.** ⚠ **É conferência entre os dois sistemas, e está 🔴 no perfil `NV - Geral`.**
+
+⚠ **Fonte:** Notion — `[NV] Permissionamento`, lida em 12/02/2025. **É matriz de permissão aplicada no PLM, não organograma do cliente.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -79,6 +82,7 @@ ERP **Linx**, com **integração ativa em Produtos e Ficha Técnica**, declarada
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
 | Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 23/09/2026 |
 | Pessoas e responsáveis de área | Notion — página `NV` — 🔴 **nenhuma fonte de pessoa por área encontrada** | varrido 23/09/2026 |
+| Perfis de acesso, permissões e abas da ficha | Notion — `[NV] Permissionamento` | 12/02/2025 |
 
 ### 🔴 Próximas fontes a varrer
 *Manual de descancelamento de produtos e variantes* · *NV | Variantes Canceladas Inativas* ·

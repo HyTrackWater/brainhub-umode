@@ -34,7 +34,7 @@ tags:
 - modulo-contratado: ? — [sem fonte]
 - contrato-situacao: Assinar aditivo — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uRocket — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2022-12-26 → sem data de término · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2022-12-26 → sem data de término — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 60 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IGPM / IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]

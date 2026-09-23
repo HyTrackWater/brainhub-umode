@@ -20,10 +20,10 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- status: ? — [sem fonte]
-- fase: ? — [sem fonte]
-- incidente: *"Erro ao configurar item a ser mostrado no mapa de coleções, isso é embaraçoso"* — [Em Aberto · 2026-01-13]
-- incidente: USABILIDADE — [Não iniciada · 2026-01-23]
+- status: Churn — [varredura do Notion · 2026-09-22]
+- fase: Encerrado — [varredura do Notion · 2026-09-22]
+- incidente: *"Erro ao configurar item a ser mostrado no mapa de coleções, isso é embaraçoso"* — [Chamados & Atendimentos · 2026-09-22]
+- incidente: USABILIDADE — [Chamados & Atendimentos · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.

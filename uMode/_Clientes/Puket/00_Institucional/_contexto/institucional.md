@@ -33,14 +33,14 @@ tags:
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: Fashion IA — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2022-03-09 → 2024-03-09 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2022-03-09 → 2024-03-09 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 60 — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 43 com acesso ao PLM, em 13 perfis. Detalhe nominal em pessoas.md — [base Segmentação Grupos · 2026-01-08]
 - atendimento: pessoa:julianne.dias@umode.com.br — [base Mapa de Clientes · 2026-09-21]
 - atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: Grupo SMB · WIP Estratégico 1,75 · dupla Julianne & Pedro, que atende também Caedu — [base Segmentação Grupos · 2026-09-21]
+- tamanho-atendimento: Grupo SMB — [base Segmentação Grupos · 2026-09-21]
 
 ## Identidade
 ### ID do cliente

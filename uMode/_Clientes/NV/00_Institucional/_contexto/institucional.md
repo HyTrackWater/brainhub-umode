@@ -34,13 +34,13 @@ tags:
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uBuy — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: Reports — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: ? — [sem fonte]
-- contrato-renovacao: ? — [sem fonte]
-- indice-reajuste: ? — [sem fonte]
-- usuarios-contratados: ? — [sem fonte]
+- contrato-vigencia: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 61 usuários ativos — número declarado pelo próprio cliente no template de transição — [varredura do Notion · 2026-01]
 - atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: Grupo Enterprise · WIP 6,00 · Fernanda, com 3 contas — [varredura do Notion · 2026-09-21]
+- tamanho-atendimento: Grupo Enterprise — [varredura do Notion · 2026-09-21]
 
 ## Identidade
 ### ID do cliente
@@ -118,13 +118,33 @@ Matéria-prima para Facção"*.
 ### Situação do contrato
 **Sem contrato** — serviços faturados: `uFlow` · `uBuy` · `Reports`.
 ### Vigência
-`[a preencher]`
+
+`[a preencher]` — 🔴 **A NV NÃO TEM CONTRATO** e por isso este campo **não consta na planilha de contratos do Financeiro**. A base registra `situação: Sem contrato`, com `data_inicio` e `data_termino` nulos, e a observação literal:
+> *"**NÃO TEMOS CONTRATO NA REDE NEM DOCSALES.**"*
+> 🔴 **Não é lacuna de varredura: é ausência de contrato, declarada pelo próprio Financeiro** (41 registros, conferidos em 23/09/2026).
+> ⚠ **E a conta está `Ongoing`, grupo `Enterprise`, com três serviços faturados** — `uFlow` · `uBuy` · `Reports`. **Cliente ativo de maior porte, sem contrato em arquivo.**
+
 ### Renovação e aviso prévio
-Renovação **[a preencher]** · aviso prévio `[a preencher]`
+
+`[a preencher]` — 🔴 **A NV NÃO TEM CONTRATO** e por isso este campo **não consta na planilha de contratos do Financeiro**. A base registra `situação: Sem contrato`, com `data_inicio` e `data_termino` nulos, e a observação literal:
+> *"**NÃO TEMOS CONTRATO NA REDE NEM DOCSALES.**"*
+> 🔴 **Não é lacuna de varredura: é ausência de contrato, declarada pelo próprio Financeiro** (41 registros, conferidos em 23/09/2026).
+> ⚠ **E a conta está `Ongoing`, grupo `Enterprise`, com três serviços faturados** — `uFlow` · `uBuy` · `Reports`. **Cliente ativo de maior porte, sem contrato em arquivo.**
+
 ### Índice de reajuste
-`[a preencher]`
+
+`[a preencher]` — 🔴 **A NV NÃO TEM CONTRATO** e por isso este campo **não consta na planilha de contratos do Financeiro**. A base registra `situação: Sem contrato`, com `data_inicio` e `data_termino` nulos, e a observação literal:
+> *"**NÃO TEMOS CONTRATO NA REDE NEM DOCSALES.**"*
+> 🔴 **Não é lacuna de varredura: é ausência de contrato, declarada pelo próprio Financeiro** (41 registros, conferidos em 23/09/2026).
+> ⚠ **E a conta está `Ongoing`, grupo `Enterprise`, com três serviços faturados** — `uFlow` · `uBuy` · `Reports`. **Cliente ativo de maior porte, sem contrato em arquivo.**
+
 ### Usuários contratados
-`[a preencher]`
+
+`[a preencher]` — 🔴 **A NV NÃO TEM CONTRATO** e por isso este campo **não consta na planilha de contratos do Financeiro**. A base registra `situação: Sem contrato`, com `data_inicio` e `data_termino` nulos, e a observação literal:
+> *"**NÃO TEMOS CONTRATO NA REDE NEM DOCSALES.**"*
+> 🔴 **Não é lacuna de varredura: é ausência de contrato, declarada pelo próprio Financeiro** (41 registros, conferidos em 23/09/2026).
+> ⚠ **E a conta está `Ongoing`, grupo `Enterprise`, com três serviços faturados** — `uFlow` · `uBuy` · `Reports`. **Cliente ativo de maior porte, sem contrato em arquivo.**
+
 ### Pendências contratuais registradas
 🔴 **NÃO TEMOS CONTRATO NA REDE NEM DOCSALES.**
 

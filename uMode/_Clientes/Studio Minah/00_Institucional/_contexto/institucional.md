@@ -40,7 +40,7 @@ tags:
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: ? — [sem fonte]
 - atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
-- tamanho-atendimento: Grupo SMB · WIP Estratégico 1,75 · sem pessoa de atendimento nomeada — [varredura do Notion · 2026-09-22]
+- tamanho-atendimento: Grupo SMB — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da linha da base.

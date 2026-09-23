@@ -38,7 +38,7 @@ tags:
 - usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
 - atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
-- tamanho-atendimento: Grupo Enterprise · WIP 6,00 · Fernanda, com 3 contas — [varredura do Notion · 2026-09-21]
+- tamanho-atendimento: Grupo Enterprise — [varredura do Notion · 2026-09-21]
 
 ## Identidade
 ### ID do cliente

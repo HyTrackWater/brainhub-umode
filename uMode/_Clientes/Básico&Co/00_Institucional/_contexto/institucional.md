@@ -34,7 +34,7 @@ tags:
 - modulo-contratado: ? — [sem fonte]
 - contrato-situacao: Assinar renovação — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-vigencia: 2020-11-13 → 2022-11-03 · vigência 24 meses — [planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: 2020-11-13 → 2022-11-03 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 120 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 11 usuários — [planilha de contratos do Financeiro · 2026-09-23]
