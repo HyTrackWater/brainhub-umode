@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Regiane Konopka"
+---
 # NK STORE · Pessoa · Regiane Konopka
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

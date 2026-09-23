@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Karina Caroline Reiter Peres"
+---
 # Osklen · Pessoa · Karina Caroline Reiter Peres
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

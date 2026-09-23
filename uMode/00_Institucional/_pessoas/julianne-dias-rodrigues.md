@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Julianne Dias Rodrigues · Pessoa"
+---
 # Julianne Dias Rodrigues · Pessoa
 
 ## Identificação

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · Marcela Polyana"
+---
 # Puket · Pessoa · Marcela Polyana
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

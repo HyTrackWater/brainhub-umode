@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · thamiris descio"
+---
 # Caedu · Pessoa · thamiris descio
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Fluxo de dados do BrainHub — da escrita do MD ao ping na inbox"
+---
 # Fluxo de dados do BrainHub — da escrita do MD ao ping na inbox
 
 > Levantado em **17 ago 2026** por leitura de código em `umode-brainhub-api`, branch

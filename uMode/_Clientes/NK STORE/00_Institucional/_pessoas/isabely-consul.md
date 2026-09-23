@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Isabely Consul Dantas"
+---
 # NK STORE · Pessoa · Isabely Consul Dantas
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

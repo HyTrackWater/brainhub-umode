@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Dalker Walter · Pessoa"
+---
 # Dalker Walter · Pessoa
 
 ## Identificação

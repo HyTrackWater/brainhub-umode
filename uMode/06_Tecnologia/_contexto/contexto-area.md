@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Tecnologia · Contexto de área"
+---
 # Tecnologia · Contexto de área
 
 ## O que esta área faz

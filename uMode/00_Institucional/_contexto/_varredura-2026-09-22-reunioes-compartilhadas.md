@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 — a base `Reuniões Compartilhadas com Clientes`"
+---
 # Varredura 22 set 2026 — a base `Reuniões Compartilhadas com Clientes`
 
 > Varredura ao vivo do Notion, a partir da instrução do Vinicius de **varrer tudo que temos de

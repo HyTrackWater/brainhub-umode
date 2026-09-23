@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · maria germano"
+---
 # Puket · Pessoa · maria germano
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

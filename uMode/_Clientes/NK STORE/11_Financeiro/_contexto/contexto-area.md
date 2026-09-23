@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Financeiro · Contexto de área — NK STORE"
+---
 # Financeiro · Contexto de área — NK STORE
 
 > Criado em **21 set 2026**. ⚠ **Esta área não tem departamento correspondente** na base de usuários da NK, nem foi confirmada na reunião de warm-up de 19/06.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Maria Cristina Cipriano do Carmo"
+---
 # Osklen · Pessoa · Maria Cristina Cipriano do Carmo
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

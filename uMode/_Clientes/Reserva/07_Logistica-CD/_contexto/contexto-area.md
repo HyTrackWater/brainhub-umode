@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Logística e Centro de Distribuição · Contexto de área — Reserva"
+---
 # Logística e Centro de Distribuição · Contexto de área — Reserva
 
 > Criado em **21 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área na Reserva.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Treinamento e contratos da Squad de Desenvolvimento uMode"
+---
 # Treinamento e contratos da Squad de Desenvolvimento uMode
 
 > Os contratos que cada personagem lê no início de toda sessão, e o onboarding que amarra a squad.

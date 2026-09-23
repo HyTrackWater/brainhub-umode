@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (c) — painel de prontidão: de quais clientes eu tenho clareza"
+---
 # Varredura 22 set 2026 (c) — painel de prontidão: de quais clientes eu tenho clareza
 
 > Pergunta do Vinicius: *"Tem algum cliente que você consegue já ter clareza: quem da uMode

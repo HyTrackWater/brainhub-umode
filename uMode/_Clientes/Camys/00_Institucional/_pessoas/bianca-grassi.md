@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Camys · Pessoa · bianca grassi"
+---
 # Camys · Pessoa · bianca grassi
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

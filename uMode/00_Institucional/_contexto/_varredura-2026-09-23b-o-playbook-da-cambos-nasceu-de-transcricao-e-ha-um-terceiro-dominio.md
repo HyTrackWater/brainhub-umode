@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 23 set 2026 (b) — o playbook da Cambos nasceu de transcrição, e há um terceiro domínio de documentação"
+---
 # Varredura 23 set 2026 (b) — o playbook da Cambos nasceu de transcrição, e há um terceiro domínio de documentação
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

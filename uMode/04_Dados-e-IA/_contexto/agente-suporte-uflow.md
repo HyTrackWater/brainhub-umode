@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Agente de Suporte Técnico uFlow · Contexto"
+---
 # Agente de Suporte Técnico uFlow · Contexto
 
 > **Criado em 04 ago 2026 para preservar fonte que saiu do disco.** Vinicius forneceu dois arquivos

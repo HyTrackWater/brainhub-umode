@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 06: aba 'Demandas' (com RFI dobrada dentro)"
+---
 # Prompt de execução — BrainWave · Tarefa 06: aba "Demandas" (com RFI dobrada dentro)
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

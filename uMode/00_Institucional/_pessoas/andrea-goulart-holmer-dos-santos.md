@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Andrea Goulart Holmer dos Santos · Pessoa"
+---
 # Andrea Goulart Holmer dos Santos · Pessoa
 
 ## Identificação

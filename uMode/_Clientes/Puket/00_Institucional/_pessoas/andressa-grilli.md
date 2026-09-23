@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · andressa grilli"
+---
 # Puket · Pessoa · andressa grilli
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

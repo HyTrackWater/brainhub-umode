@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de extração do Notion via Claude in Chrome"
+---
 # Prompt de extração do Notion via Claude in Chrome
 
 > **Classe: `TEMPLATE`.** É um prompt para colar no Claude in Chrome, não um documento de leitura.

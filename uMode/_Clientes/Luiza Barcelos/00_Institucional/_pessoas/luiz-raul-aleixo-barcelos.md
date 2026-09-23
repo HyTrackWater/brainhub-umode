@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Luiz Raul Aleixo Barcelos"
+---
 # Luiza Barcelos · Pessoa · Luiz Raul Aleixo Barcelos
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

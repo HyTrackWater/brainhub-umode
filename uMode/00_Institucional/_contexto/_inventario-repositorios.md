@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Inventário de repositórios — origens e papéis no nosso desenvolvimento"
+---
 # Inventário de repositórios — origens e papéis no nosso desenvolvimento
 
 > Levantado em **17 ago 2026** por varredura somente leitura do disco (33 repositórios git

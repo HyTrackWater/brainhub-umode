@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ferramentas da uMode · índice"
+---
 # Ferramentas da uMode · índice
 
 > **DERIVADO.** Gerado por `scripts/gera-fichas-ferramenta.py`. **Nao se edita a mao.**

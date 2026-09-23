@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Compras, Supply e Sourcing · Contexto de área — Susie Modas"
+---
 # Compras, Supply e Sourcing · Contexto de área — Susie Modas
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · isabelly ramos"
+---
 # Caedu · Pessoa · isabelly ramos
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

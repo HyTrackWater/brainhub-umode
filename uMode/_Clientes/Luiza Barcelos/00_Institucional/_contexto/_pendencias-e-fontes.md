@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pendências e fontes varridas"
+---
 # Luiza Barcelos · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

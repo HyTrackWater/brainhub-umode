@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 07: Demandas em tabela + Conversas + Reatribuir"
+---
 # Prompt de execução — BrainWave · Tarefa 07: Demandas em tabela + Conversas + Reatribuir
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

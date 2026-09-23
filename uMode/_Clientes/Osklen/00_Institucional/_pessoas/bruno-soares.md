@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Bruno Soares"
+---
 # Osklen · Pessoa · Bruno Soares
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

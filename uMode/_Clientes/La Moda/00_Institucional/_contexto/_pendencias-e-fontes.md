@@ -1,3 +1,7 @@
+---
+aliases:
+  - "La Moda · Pendências e fontes varridas"
+---
 # La Moda · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

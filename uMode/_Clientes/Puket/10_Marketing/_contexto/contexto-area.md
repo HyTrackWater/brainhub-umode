@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área — Puket"
+---
 # Marketing · Contexto de área — Puket
 
 > Criado em **21 set 2026**. ⚠ **Nenhuma pessoa da Puket tem perfil de acesso correspondente a esta

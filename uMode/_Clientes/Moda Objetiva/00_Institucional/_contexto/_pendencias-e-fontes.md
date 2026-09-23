@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Moda Objetiva · Pendências e fontes varridas"
+---
 # Moda Objetiva · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

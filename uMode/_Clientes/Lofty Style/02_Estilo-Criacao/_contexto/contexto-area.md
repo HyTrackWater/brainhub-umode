@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Estilo e Criação · Contexto de área — Lofty Style"
+---
 # Estilo e Criação · Contexto de área — Lofty Style
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo, **incluindo as duas bases de pesquisa de satisfação**.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Rafael Del Gaudio Renaldim · Pessoa"
+---
 # Rafael Del Gaudio Renaldim · Pessoa
 
 ## Identificação

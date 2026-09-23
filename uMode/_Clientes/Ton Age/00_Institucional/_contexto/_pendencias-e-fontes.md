@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ton Age · Pendências e fontes varridas"
+---
 # Ton Age · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

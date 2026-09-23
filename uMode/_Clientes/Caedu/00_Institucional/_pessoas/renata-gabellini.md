@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · renata gabellini"
+---
 # Caedu · Pessoa · renata gabellini
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

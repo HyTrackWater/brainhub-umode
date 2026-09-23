@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Romulo Smaniotto"
+---
 # Luiza Barcelos · Pessoa · Romulo Smaniotto
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

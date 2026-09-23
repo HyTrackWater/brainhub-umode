@@ -1,3 +1,7 @@
+---
+aliases:
+  - "CadastrAI · Produto"
+---
 # CadastrAI · Produto
 
 > Criado em 03 ago 2026 pela varredura geral de ferramentas/produtos/áreas. Segue

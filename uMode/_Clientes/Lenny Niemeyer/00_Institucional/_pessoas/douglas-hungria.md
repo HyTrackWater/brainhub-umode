@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · douglas hungria"
+---
 # Lenny Niemeyer · Pessoa · douglas hungria
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

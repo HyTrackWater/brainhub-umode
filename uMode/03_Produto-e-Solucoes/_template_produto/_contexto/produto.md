@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome do produto] · Produto"
+---
 # [Nome do produto] · Produto
 
 ## Identificação

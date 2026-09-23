@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Logística e Centro de Distribuição · Contexto de área — Caedu"
+---
 # Logística e Centro de Distribuição · Contexto de área — Caedu
 
 > Criado em **21 set 2026**. ⚠ **Esta área não tem conteúdo em nenhuma fonte varrida.**

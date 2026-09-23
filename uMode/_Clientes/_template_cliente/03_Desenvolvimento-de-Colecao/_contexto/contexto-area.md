@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Desenvolvimento / de / Colecao · Contexto de área"
+---
 # Desenvolvimento / de / Colecao · Contexto de área
 
 ## O que esta área faz

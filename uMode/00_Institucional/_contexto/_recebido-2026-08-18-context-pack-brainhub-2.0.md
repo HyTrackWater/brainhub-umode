@@ -1,3 +1,7 @@
+---
+aliases:
+  - "RECEBIDO — Pacote de contexto BrainHub 2.0 (João Risoléo / Codex)"
+---
 # RECEBIDO — Pacote de contexto BrainHub 2.0 (João Risoléo / Codex)
 
 > ⚠ **DOCUMENTO EXTERNO. NÃO É NOSSO E NÃO DEVE SER EDITADO.**

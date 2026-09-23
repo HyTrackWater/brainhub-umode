@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mário Estêvão de Arruda Vasconcelos · Pessoa"
+---
 # Mário Estêvão de Arruda Vasconcelos · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

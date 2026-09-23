@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Vivara · Pessoas"
+---
 # Vivara · Pessoas
 
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**

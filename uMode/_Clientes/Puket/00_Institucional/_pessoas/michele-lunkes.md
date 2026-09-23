@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · michele lunkes"
+---
 # Puket · Pessoa · michele lunkes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

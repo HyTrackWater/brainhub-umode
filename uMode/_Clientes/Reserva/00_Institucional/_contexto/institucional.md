@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Reserva · Institucional"
+---
 # Reserva · Institucional
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo** — base `Mapa de Clientes`, página do

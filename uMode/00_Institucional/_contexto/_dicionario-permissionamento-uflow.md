@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Dicionário do permissionamento do uFlow — como a permissão funciona de verdade"
+---
 # Dicionário do permissionamento do uFlow — como a permissão funciona de verdade
 
 > **Classe: `CORPUS`.** É a **autoridade** sobre *como o permissionamento do uFlow funciona*.

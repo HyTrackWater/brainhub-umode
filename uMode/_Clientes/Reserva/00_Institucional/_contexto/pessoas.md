@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Reserva · Pessoas"
+---
 # Reserva · Pessoas
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.

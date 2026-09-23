@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · matheus gomes"
+---
 # Lenny Niemeyer · Pessoa · matheus gomes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

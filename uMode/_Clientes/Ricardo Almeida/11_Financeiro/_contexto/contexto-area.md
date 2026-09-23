@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Financeiro · Contexto de área — Ricardo Almeida"
+---
 # Financeiro · Contexto de área — Ricardo Almeida
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

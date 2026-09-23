@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · charlotte peres"
+---
 # Caedu · Pessoa · charlotte peres
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

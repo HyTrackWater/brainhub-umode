@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Felipe"
+---
 # Lenny Niemeyer · Pessoa · Felipe
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

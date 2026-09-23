@@ -1,3 +1,7 @@
+---
+aliases:
+  - "_boilerplate — Arquivos-raiz do boilerplate governado (encenados)"
+---
 # _boilerplate — Arquivos-raiz do boilerplate governado (encenados)
 
 > Estes são os **contratos de papel** que vão na raiz do boilerplate de produção. Vivem aqui, no

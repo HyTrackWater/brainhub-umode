@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Desenvolvimento de Coleção · Contexto de área — Ladeira Bijuterias"
+---
 # Desenvolvimento de Coleção · Contexto de área — Ladeira Bijuterias
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

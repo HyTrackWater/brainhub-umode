@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mondepars · Pessoa · João"
+---
 # Mondepars · Pessoa · João
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

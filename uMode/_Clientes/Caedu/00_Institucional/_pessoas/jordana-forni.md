@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · jordana forni"
+---
 # Caedu · Pessoa · jordana forni
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

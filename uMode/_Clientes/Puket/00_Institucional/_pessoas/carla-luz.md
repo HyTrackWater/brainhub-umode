@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · Carla"
+---
 # Puket · Pessoa · Carla
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Caroline Silva"
+---
 # NK STORE · Pessoa · Caroline Silva
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

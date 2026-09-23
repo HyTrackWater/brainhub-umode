@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (l) — o template de página de cliente existe, e ninguém o segue"
+---
 # Varredura 22 set 2026 (l) — o template de página de cliente existe, e ninguém o segue
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

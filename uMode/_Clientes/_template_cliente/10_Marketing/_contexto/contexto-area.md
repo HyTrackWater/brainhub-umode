@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área"
+---
 # Marketing · Contexto de área
 
 ## O que esta área faz

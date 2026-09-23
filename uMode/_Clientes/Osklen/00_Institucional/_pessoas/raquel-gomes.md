@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Raquel Gomes"
+---
 # Osklen · Pessoa · Raquel Gomes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

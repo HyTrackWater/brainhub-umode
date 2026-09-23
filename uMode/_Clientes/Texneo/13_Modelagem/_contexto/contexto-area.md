@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Modelagem · Contexto de área — Texneo"
+---
 # Modelagem · Contexto de área — Texneo
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Reserva · Pessoa · Ana Paula"
+---
 # Reserva · Pessoa · Ana Paula
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

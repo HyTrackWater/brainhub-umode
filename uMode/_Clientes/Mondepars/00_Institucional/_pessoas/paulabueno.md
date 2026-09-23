@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mondepars · Pessoa · Paula Bueno"
+---
 # Mondepars · Pessoa · Paula Bueno
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

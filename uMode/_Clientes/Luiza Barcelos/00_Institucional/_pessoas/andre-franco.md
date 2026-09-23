@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Andre Franco"
+---
 # Luiza Barcelos · Pessoa · Andre Franco
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

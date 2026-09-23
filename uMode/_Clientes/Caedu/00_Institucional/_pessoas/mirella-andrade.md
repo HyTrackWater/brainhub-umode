@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · mirella andrade"
+---
 # Caedu · Pessoa · mirella andrade
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

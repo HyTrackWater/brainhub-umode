@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · natasha camila"
+---
 # Lenny Niemeyer · Pessoa · natasha camila
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

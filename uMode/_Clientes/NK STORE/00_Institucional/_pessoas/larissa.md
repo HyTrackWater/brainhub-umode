@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Larissa"
+---
 # NK STORE · Pessoa · Larissa
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

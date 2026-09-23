@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo · Gestão de Produto (Solução do Portfólio)"
+---
 # Protocolo · Gestão de Produto (Solução do Portfólio)
 
 > Operacionaliza a regra já travada em `CONTEXT.md` → "Decisão: camada 'Produto' na

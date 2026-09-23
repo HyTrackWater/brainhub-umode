@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 01: esqueleto de navegação"
+---
 # Prompt de execução — BrainWave · Tarefa 01: esqueleto de navegação
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

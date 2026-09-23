@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Camys · Pessoa · ana vilha"
+---
 # Camys · Pessoa · ana vilha
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Ana Dias"
+---
 # Osklen · Pessoa · Ana Dias
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Elaine de Lima Biscaia Silvano"
+---
 # Lenny Niemeyer · Pessoa · Elaine de Lima Biscaia Silvano
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Oficina Reserva · Pessoa · Pamela"
+---
 # Oficina Reserva · Pessoa · Pamela
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Compras, Supply e Sourcing · Contexto de área — Cambos"
+---
 # Compras, Supply e Sourcing · Contexto de área — Cambos
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

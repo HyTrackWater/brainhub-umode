@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Jornada"
+---
 # Lofty Style · Jornada
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo as duas bases de pesquisa de

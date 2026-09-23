@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Caroline Koller"
+---
 # Lofty Style · Pessoa · Caroline Koller
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

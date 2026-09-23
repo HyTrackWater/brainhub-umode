@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mondepars · Pessoa · Saulo Rocha"
+---
 # Mondepars · Pessoa · Saulo Rocha
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

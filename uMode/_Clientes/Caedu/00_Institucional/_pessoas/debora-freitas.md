@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · debora freitas"
+---
 # Caedu · Pessoa · debora freitas
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

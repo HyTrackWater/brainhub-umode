@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Gabi"
+---
 # Lenny Niemeyer · Pessoa · Gabi
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

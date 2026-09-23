@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Logística e Centro de Distribuição · Contexto de área — Lenny Niemeyer"
+---
 # Logística e Centro de Distribuição · Contexto de área — Lenny Niemeyer
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

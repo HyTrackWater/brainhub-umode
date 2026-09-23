@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Comercial e Vendas · Contexto de área — Plie"
+---
 # Comercial e Vendas · Contexto de área — Plie
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

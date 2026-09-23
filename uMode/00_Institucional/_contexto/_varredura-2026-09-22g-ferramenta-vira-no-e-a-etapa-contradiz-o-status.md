@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (g) — ferramenta vira nó, e a `Etapa` contradiz o `Status`"
+---
 # Varredura 22 set 2026 (g) — ferramenta vira nó, e a `Etapa` contradiz o `Status`
 
 > Continuação da varredura. O Vinicius travou o modelo, textual: *"praticamente tudo que for uma

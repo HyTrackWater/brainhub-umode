@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ingrid Maria Aparecida Fiel · Pessoa"
+---
 # Ingrid Maria Aparecida Fiel · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

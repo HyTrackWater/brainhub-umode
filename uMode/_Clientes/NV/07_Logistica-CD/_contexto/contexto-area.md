@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Logística e Centro de Distribuição · Contexto de área — NV"
+---
 # Logística e Centro de Distribuição · Contexto de área — NV
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

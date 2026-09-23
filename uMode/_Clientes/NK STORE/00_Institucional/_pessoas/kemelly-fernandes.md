@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · kemelly fernandes"
+---
 # NK STORE · Pessoa · kemelly fernandes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

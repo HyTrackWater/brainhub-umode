@@ -1,3 +1,7 @@
+---
+aliases:
+  - "E-commerce e Cadastro · Contexto de área — 4takes"
+---
 # E-commerce e Cadastro · Contexto de área — 4takes
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

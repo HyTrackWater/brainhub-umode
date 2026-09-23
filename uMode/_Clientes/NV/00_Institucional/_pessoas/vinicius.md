@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NV · Pessoa · Vinicius"
+---
 # NV · Pessoa · Vinicius
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

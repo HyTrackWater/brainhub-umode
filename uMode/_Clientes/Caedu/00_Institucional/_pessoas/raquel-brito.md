@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · raquel brito"
+---
 # Caedu · Pessoa · raquel brito
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

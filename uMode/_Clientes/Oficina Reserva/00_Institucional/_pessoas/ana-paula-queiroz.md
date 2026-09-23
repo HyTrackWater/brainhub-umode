@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Oficina Reserva · Pessoa · Ana Paula Queiroz"
+---
 # Oficina Reserva · Pessoa · Ana Paula Queiroz
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

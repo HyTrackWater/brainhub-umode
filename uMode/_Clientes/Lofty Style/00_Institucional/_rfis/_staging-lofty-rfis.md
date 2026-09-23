@@ -1,3 +1,7 @@
+---
+aliases:
+  - "🔴 SUPERSEDED — Lofty Style · RFIs — staging bruto (Notion)"
+---
 ﻿# 🔴 SUPERSEDED — Lofty Style · RFIs — staging bruto (Notion)
 
 > 🔴 **ESTE ARQUIVO ESTÁ SUPERSEDED DESDE 22 set 2026. NÃO É FONTE.**

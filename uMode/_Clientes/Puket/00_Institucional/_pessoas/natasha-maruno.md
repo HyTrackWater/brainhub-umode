@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · natasha maruno"
+---
 # Puket · Pessoa · natasha maruno
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

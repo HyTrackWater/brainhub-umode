@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · camila castro"
+---
 # Caedu · Pessoa · camila castro
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

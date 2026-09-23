@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Bárbara Macedo de Oliveira"
+---
 # Caedu · Pessoa · Bárbara Macedo de Oliveira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

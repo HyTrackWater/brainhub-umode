@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Título da demanda] · Demanda"
+---
 # [Título da demanda] · Demanda
 
 ## Identificação

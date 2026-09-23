@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Nayra Letícia de Oliveira Macêdo Dall Gallo Trentim · Pessoa"
+---
 # Nayra Letícia de Oliveira Macêdo Dall Gallo Trentim · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

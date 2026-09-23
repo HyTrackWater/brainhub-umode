@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 04: seletor de cliente ativo fixo na aba Clientes"
+---
 # Prompt de execução — BrainWave · Tarefa 04: seletor de cliente ativo fixo na aba Clientes
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

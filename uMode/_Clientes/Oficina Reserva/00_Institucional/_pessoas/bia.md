@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Oficina Reserva · Pessoa · Bia"
+---
 # Oficina Reserva · Pessoa · Bia
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Lofty Style"
+---
 # Planejamento · Contexto de área — Lofty Style
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo, **incluindo as duas bases de pesquisa de satisfação**.

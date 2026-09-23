@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Agua de Coco · Pendências e fontes varridas"
+---
 # Agua de Coco · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

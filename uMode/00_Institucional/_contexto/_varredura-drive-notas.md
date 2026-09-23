@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura Google Drive — notas brutas (não é padrão final)"
+---
 # Varredura Google Drive — notas brutas (não é padrão final)
 
 > Bloco de notas de trabalho. Nada aqui foi aplicado a nenhum MD ainda — só captação e

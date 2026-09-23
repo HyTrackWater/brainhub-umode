@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Silvia Shirlei Dias"
+---
 # NK STORE · Pessoa · Silvia Shirlei Dias
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

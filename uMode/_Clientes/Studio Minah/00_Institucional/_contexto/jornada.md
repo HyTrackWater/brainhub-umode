@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Studio Minah · Jornada"
+---
 # Studio Minah · Jornada
 
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**

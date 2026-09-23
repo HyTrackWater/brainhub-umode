@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Pendências gerais — decisões que precisam do Vinicius/CEO"
+---
 # Pendências gerais — decisões que precisam do Vinicius/CEO
 
 > Documento central de dúvidas levantadas durante varreduras e formalizações. Não é padrão
@@ -3526,3 +3530,33 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      praticamente vazias, **mas há 2 templates na base** — pode haver conteúdo onde não amostrei.
      **Não concluo que estejam todas vazias.** ⚠ **E `Mini Bio` está preenchido em 49 de 80 e
      não foi lido** — é candidato a alimentar a seção `Personificação`.
+
+## Os 657 `contexto-area.md` vazios — pergunta do Vinicius em 23 set 2026
+
+572. 🔴 **97% dos arquivos de contexto de área estão praticamente vazios: 657 de 680.**
+     **45 dos 49 clientes têm ZERO área preenchida.** Só quatro casas têm conteúdo:
+     **Casa uMode 8/8 · CAEDU 7/14 · Osklen 7/14 · Oficina Reserva 1/14.**
+     🟢 **É esperado, e não é defeito — é honestidade.** A replicação total de ago 2026 criou a
+     **estrutura** das 14 áreas para os 48 clientes. O **conteúdo** de uma área (*o que ela faz*,
+     *como trabalham*, *vocabulário*) **só existe se alguém varreu aquela área naquele cliente**,
+     e isso só aconteceu em quatro casas. **Preencher por semelhança seria exatamente a alucinação
+     que o `CLAUDE.md` proíbe.**
+573. 🔴 **E a causa raiz é que a FONTE não existe.** O `contexto-area.md` de um cliente só se
+     preenche com: **transcrição de reunião por área** · **mapeamento de conta** · ou a **página
+     do cliente** — e a varredura de 23 set mostrou que **a página quase nunca traz área**
+     (item 517: 7 de 15 clientes não têm nem o toggle `Pessoas`).
+     ⚠ **Para 45 clientes, não há de onde tirar.** **Não é trabalho pendente: é fonte ausente.**
+574. 🔵 **O caminho que existe é o da CAEDU, e é o teste.** As **54 transcrições** que o Vinicius
+     vai trazer são exatamente a fonte que preenche as 14 áreas de um cliente.
+     🔴 **Se funcionar na CAEDU, vira o método para os outros — e aí sim é trabalho, não lacuna.**
+     **Enquanto não funcionar uma vez, replicar para 47 é fantasia.**
+575. ⚠ **Consequência de peso no cérebro: 680 de 2.666 arquivos (26%) são área quase vazia.**
+     **Um quarto do corpus é esqueleto.** 🔴 **Decisão que não é minha:** mantemos os 657 como
+     `[a preencher]` (honesto, e o grafo mostra a hierarquia completa), ou só criamos o arquivo
+     quando houver conteúdo (enxuto, mas o cérebro passa a mentir sobre a estrutura)?
+     **Minha recomendação: manter.** Ausência declarada é informação; ausência escondida não é.
+576. 🟢 **Frontmatter `aliases` aplicado a 2.665 arquivos**, gerado do H1, para a busca rápida do
+     Obsidian parar de mostrar 694 nomes iguais. **Nenhum arquivo renomeado, nenhum link tocado**,
+     e os quatro validadores não acusaram diferença. Travado no `CONTEXT.md`.
+     🔴 **Não resolve o rótulo do GRAFO** — só um plugin de terceiro resolveria, e **recusei**:
+     seria o primeiro plugin do repositório e ficaria por máquina.

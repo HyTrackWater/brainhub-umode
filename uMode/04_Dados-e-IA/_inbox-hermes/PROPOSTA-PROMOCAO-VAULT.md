@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Proposta de promoção ao vault — Governança da Squad (SmartCoding)"
+---
 # Proposta de promoção ao vault — Governança da Squad (SmartCoding)
 
 > **Escrita no vault não é minha** (`CLAUDE.md`: escrita só no `brainhub-umode`; vault é read-only).

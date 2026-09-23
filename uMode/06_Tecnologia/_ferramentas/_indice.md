@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Sistemas de terceiro · índice"
+---
 # Sistemas de terceiro · índice
 
 > **DERIVADO.** Gerado por `scripts/gera-fichas-ferramenta.py`. **Nao se edita a mao.**

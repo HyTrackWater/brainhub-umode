@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Junior Felinto"
+---
 # Lenny Niemeyer · Pessoa · Junior Felinto
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

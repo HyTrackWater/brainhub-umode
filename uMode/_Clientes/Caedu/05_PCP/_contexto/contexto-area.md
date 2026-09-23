@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento e Controle da Produção · Contexto de área — Caedu"
+---
 # Planejamento e Controle da Produção · Contexto de área — Caedu
 
 > Criado em **21 set 2026**. ⚠ **Esta área não tem conteúdo em nenhuma fonte varrida.**

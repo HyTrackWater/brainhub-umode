@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Ticiane"
+---
 # Luiza Barcelos · Pessoa · Ticiane
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

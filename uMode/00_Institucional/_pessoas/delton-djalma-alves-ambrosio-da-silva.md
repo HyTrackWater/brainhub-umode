@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Delton Djalma Alves Ambrósio da Silva · Pessoa"
+---
 # Delton Djalma Alves Ambrósio da Silva · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

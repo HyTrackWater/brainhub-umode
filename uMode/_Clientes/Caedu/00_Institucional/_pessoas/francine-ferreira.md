@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · francine ferreira"
+---
 # Caedu · Pessoa · francine ferreira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

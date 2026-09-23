@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · leticia martins"
+---
 # Puket · Pessoa · leticia martins
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

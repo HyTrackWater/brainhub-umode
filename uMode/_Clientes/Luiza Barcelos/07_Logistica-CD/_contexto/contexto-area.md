@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Logística e Centro de Distribuição · Contexto de área — Luiza Barcelos"
+---
 # Logística e Centro de Distribuição · Contexto de área — Luiza Barcelos
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

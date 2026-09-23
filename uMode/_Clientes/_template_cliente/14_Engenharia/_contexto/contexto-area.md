@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Engenharia · Contexto de área"
+---
 # Engenharia · Contexto de área
 
 ## O que esta área faz

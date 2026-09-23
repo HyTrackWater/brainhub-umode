@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Google Drive · Ferramenta"
+---
 # Google Drive · Ferramenta
 
 > **Ficha gerada por `scripts/gera-fichas-ferramenta.py` em 22 set 2026.**

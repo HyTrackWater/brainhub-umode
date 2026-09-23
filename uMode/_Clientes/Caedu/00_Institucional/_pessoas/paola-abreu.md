@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · paola abreu"
+---
 # Caedu · Pessoa · paola abreu
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

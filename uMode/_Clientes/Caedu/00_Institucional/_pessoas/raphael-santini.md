@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · raphael santini"
+---
 # Caedu · Pessoa · raphael santini
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

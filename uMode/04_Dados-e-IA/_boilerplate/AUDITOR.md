@@ -1,3 +1,7 @@
+---
+aliases:
+  - "AUDITOR.md — Auditor Independente"
+---
 # AUDITOR.md — Auditor Independente
 
 > Arquivo-raiz do boilerplate governado da uMode (topologia-alvo: `governance/roles/AUDITOR.md`).

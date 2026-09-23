@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NV · Pessoa · Camila"
+---
 # NV · Pessoa · Camila
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

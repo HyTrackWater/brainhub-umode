@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Modelagem · Contexto de área"
+---
 # Modelagem · Contexto de área
 
 ## O que esta área faz

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Convergência com o vault do João — diferenças e decisão proposta"
+---
 # Convergência com o vault do João — diferenças e decisão proposta
 
 > Para a conversa com o João. **Uma linha por diferença, minha decisão, e o porquê em até 2 linhas.**

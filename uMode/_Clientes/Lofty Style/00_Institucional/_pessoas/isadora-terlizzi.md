@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Isadora Terlizzi"
+---
 # Lofty Style · Pessoa · Isadora Terlizzi
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

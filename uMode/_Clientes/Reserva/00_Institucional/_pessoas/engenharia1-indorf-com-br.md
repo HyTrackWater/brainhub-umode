@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Reserva · Pessoa · engenharia1@indorf.com.br"
+---
 # Reserva · Pessoa · engenharia1@indorf.com.br
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

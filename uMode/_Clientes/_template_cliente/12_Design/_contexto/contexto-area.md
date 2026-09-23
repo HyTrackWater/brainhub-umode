@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Design · Contexto de área"
+---
 # Design · Contexto de área
 
 ## O que esta área faz

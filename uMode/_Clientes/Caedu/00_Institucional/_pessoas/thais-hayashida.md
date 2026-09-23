@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · thais hayashida"
+---
 # Caedu · Pessoa · thais hayashida
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

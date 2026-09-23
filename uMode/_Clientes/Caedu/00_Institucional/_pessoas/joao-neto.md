@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · João Neto"
+---
 # Caedu · Pessoa · João Neto
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

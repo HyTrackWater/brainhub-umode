@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoas"
+---
 # Puket · Pessoas
 
 > **Atualizado em 21 set 2026 por varredura do Notion ao vivo** — tabela de usuários da conta no PLM.

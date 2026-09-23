@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 03: abas 'uMode' e 'Clientes' (Instituições, Áreas, Subáreas, Pessoas)"
+---
 # Prompt de execução — BrainWave · Tarefa 03: abas "uMode" e "Clientes" (Instituições, Áreas, Subáreas, Pessoas)
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "E-commerce e Cadastro · Contexto de área — Reserva"
+---
 # E-commerce e Cadastro · Contexto de área — Reserva
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.

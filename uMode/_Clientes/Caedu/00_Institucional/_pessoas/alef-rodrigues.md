@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Alef Vinicius Almeida Rodrigues"
+---
 # Caedu · Pessoa · Alef Vinicius Almeida Rodrigues
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

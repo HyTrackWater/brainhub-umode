@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · welvis lucena"
+---
 # Caedu · Pessoa · welvis lucena
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

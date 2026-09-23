@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Paulo Victor"
+---
 # Luiza Barcelos · Pessoa · Paulo Victor
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · ana queiroz"
+---
 # Caedu · Pessoa · ana queiroz
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

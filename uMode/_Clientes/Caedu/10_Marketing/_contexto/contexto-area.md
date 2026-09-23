@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área — Caedu"
+---
 # Marketing · Contexto de área — Caedu
 
 > Criado em **21 set 2026**. ⚠ **Esta área não tem conteúdo em nenhuma fonte varrida.**

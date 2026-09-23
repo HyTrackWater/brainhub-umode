@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Pampili Mini · Pendências e fontes varridas"
+---
 # Pampili Mini · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · carolina correa"
+---
 # Caedu · Pessoa · carolina correa
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

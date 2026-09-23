@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Estilo e Criação · Contexto de área — Caedu"
+---
 # Estilo e Criação · Contexto de área — Caedu
 
 > Criado em **21 set 2026**. **Primeiro `contexto-area.md` de cliente do BrainHub** — serve de

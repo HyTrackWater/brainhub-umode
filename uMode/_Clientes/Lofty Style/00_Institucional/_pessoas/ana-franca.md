@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Ana Paula França"
+---
 # Lofty Style · Pessoa · Ana Paula França
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

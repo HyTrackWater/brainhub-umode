@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · Andrea Nunes"
+---
 # Puket · Pessoa · Andrea Nunes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

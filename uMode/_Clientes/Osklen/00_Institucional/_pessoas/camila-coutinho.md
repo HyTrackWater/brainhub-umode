@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · camila coutinho"
+---
 # Osklen · Pessoa · camila coutinho
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

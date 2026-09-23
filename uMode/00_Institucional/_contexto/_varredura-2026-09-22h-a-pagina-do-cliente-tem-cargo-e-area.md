@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (h) — a página do cliente tem `cargo` e `área`, e eu tinha dito que não"
+---
 # Varredura 22 set 2026 (h) — a página do cliente tem `cargo` e `área`, e eu tinha dito que não
 
 > Varredura cliente a cliente, **abrindo a página de cada um**, como o registro (f) determinou.

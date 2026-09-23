@@ -1,3 +1,7 @@
+---
+aliases:
+  - "João Paulo Contar Risoleo · Pessoa"
+---
 # João Paulo Contar Risoleo · Pessoa
 
 ## Identificação

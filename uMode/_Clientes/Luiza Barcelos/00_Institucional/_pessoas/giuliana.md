@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Giuliana"
+---
 # Luiza Barcelos · Pessoa · Giuliana
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

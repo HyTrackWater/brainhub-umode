@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Compras, Supply e Sourcing · Contexto de área — VIX"
+---
 # Compras, Supply e Sourcing · Contexto de área — VIX
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo, **incluindo a sub-página *[Vix] Perfil de Usuário e Permissionamento***.

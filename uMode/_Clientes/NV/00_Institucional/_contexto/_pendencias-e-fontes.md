@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NV · Pendências e fontes varridas"
+---
 # NV · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

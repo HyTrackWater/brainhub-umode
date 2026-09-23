@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ricardo Almeida · Pendências e fontes varridas"
+---
 # Ricardo Almeida · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

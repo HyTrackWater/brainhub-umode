@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Robson Bazan"
+---
 # NK STORE · Pessoa · Robson Bazan
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

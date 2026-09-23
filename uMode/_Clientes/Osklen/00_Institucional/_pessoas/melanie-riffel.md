@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · MELANIE GIACOBBO RIFFEL"
+---
 # Osklen · Pessoa · MELANIE GIACOBBO RIFFEL
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

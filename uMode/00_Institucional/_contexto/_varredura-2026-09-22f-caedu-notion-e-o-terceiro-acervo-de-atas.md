@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (f) — a página da CAEDU e o TERCEIRO acervo de atas"
+---
 # Varredura 22 set 2026 (f) — a página da CAEDU e o TERCEIRO acervo de atas
 
 > Continuação da varredura, a pedido do Vinicius: *"vamos prosseguir no plano de varredura então?

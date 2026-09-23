@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Pedro Murillo · Pessoa"
+---
 # Pedro Murillo · Pessoa
 
 ## Identificação

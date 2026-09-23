@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · sofia costa"
+---
 # Caedu · Pessoa · sofia costa
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

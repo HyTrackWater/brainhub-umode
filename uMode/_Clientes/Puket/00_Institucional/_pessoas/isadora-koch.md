@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · isadora koch"
+---
 # Puket · Pessoa · isadora koch
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

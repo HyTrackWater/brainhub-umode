@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Plano de funcionamento do BrainHub no banco — hierarquias, endereçamentos e demandas"
+---
 # Plano de funcionamento do BrainHub no banco — hierarquias, endereçamentos e demandas
 
 > Escrito em **17 ago 2026**, terceira e definitiva versão. **As duas anteriores estavam erradas** e o

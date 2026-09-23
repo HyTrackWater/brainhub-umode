@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recebido 23 set 2026 — as receitas fora do PLM: EducAI, Imersão IA, RFIs"
+---
 # Recebido 23 set 2026 — as receitas fora do PLM: EducAI, Imersão IA, RFIs
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**

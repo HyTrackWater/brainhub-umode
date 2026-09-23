@@ -1,3 +1,7 @@
+---
+aliases:
+  - "PCP · Contexto de área"
+---
 # PCP · Contexto de área
 
 ## O que esta área faz

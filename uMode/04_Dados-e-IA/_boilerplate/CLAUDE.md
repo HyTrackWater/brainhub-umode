@@ -1,3 +1,7 @@
+---
+aliases:
+  - "CLAUDE.md — CTO / Líder Técnico"
+---
 # CLAUDE.md — CTO / Líder Técnico
 
 > **`PENDING_MIGRATION` (parecer 2026-09-02):** este conjunto de contratos-raiz migra para a topologia

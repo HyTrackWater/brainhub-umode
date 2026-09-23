@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área — NV"
+---
 # Marketing · Contexto de área — NV
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

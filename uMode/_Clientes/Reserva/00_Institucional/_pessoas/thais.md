@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Reserva · Pessoa · Thais"
+---
 # Reserva · Pessoa · Thais
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

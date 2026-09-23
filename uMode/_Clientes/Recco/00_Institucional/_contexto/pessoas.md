@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recco · Pessoas"
+---
 # Recco · Pessoas
 
 > **Reescrito em 22 set 2026 por varredura ao vivo do Notion.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Design · Contexto de área — Osklen"
+---
 # Design · Contexto de área — Osklen
 
 > Criado em **22 set 2026** por varredura do Notion ao vivo, incluindo a base

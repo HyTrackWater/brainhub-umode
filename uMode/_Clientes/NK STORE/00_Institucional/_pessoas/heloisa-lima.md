@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · heloisa lima"
+---
 # NK STORE · Pessoa · heloisa lima
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

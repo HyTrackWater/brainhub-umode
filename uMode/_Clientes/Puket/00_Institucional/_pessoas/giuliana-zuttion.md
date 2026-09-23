@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · giuliana zuttion"
+---
 # Puket · Pessoa · giuliana zuttion
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

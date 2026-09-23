@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo · Gestão de Pessoas (ficha individual)"
+---
 # Protocolo · Gestão de Pessoas (ficha individual)
 
 > Operacionaliza a regra já travada em `CONTEXT.md`: "Pessoa interna vive só em `Casa ›

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento e Controle da Produção · Contexto de área — Osklen"
+---
 # Planejamento e Controle da Produção · Contexto de área — Osklen
 
 > Criado em **22 set 2026** por varredura do Notion ao vivo, incluindo a base

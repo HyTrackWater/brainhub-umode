@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome do cliente] · Institucional"
+---
 # [Nome do cliente] · Institucional
 
 ## Identidade

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Silvia"
+---
 # NK STORE · Pessoa · Silvia
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

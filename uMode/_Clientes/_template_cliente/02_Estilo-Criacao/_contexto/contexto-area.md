@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Estilo / Criacao · Contexto de área"
+---
 # Estilo / Criacao · Contexto de área
 
 ## O que esta área faz

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 23 set 2026 — a hierarquia que a CAEDU pede não é árvore nos dados dela"
+---
 # Varredura 23 set 2026 — a hierarquia que a CAEDU pede não é árvore nos dados dela
 
 > **Classe: `REGISTRO`.** Evidência datada de uma varredura. 🔴 **Não é autoridade e não se

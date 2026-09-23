@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Reserva · Pessoa · Simone Mendes"
+---
 # Reserva · Pessoa · Simone Mendes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

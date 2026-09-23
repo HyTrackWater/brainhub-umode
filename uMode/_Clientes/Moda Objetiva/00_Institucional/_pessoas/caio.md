@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Moda Objetiva · Pessoa · Caio"
+---
 # Moda Objetiva · Pessoa · Caio
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

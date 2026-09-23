@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Mylena de Araújo"
+---
 # Lenny Niemeyer · Pessoa · Mylena de Araújo
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · roberto ferreira"
+---
 # Caedu · Pessoa · roberto ferreira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

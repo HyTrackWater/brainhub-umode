@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Engenharia · Contexto de área — Paloma concept"
+---
 # Engenharia · Contexto de área — Paloma concept
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

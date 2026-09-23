@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Caedu"
+---
 # Planejamento · Contexto de área — Caedu
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.

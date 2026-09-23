@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Cambos · Pessoa · Fabi"
+---
 # Cambos · Pessoa · Fabi
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

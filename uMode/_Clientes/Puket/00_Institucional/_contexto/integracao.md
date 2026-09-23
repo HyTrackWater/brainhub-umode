@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Integração"
+---
 # Puket · Integração
 
 > Criado em 03 ago 2026 a partir do repositório de integração real. **Só a seção

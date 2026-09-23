@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · marlon ribeiro"
+---
 # Caedu · Pessoa · marlon ribeiro
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

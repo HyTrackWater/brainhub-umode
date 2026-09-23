@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Sales Hub · Produto"
+---
 # Sales Hub · Produto
 
 > Criado em 03 ago 2026 pela varredura geral de ferramentas/produtos/áreas. Segue

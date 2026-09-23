@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · thais diniz"
+---
 # Osklen · Pessoa · thais diniz
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

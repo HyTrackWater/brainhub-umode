@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NV · Pessoa · Giulia"
+---
 # NV · Pessoa · Giulia
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

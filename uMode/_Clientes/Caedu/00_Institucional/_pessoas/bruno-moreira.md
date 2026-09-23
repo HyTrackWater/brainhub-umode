@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · bruno moreira"
+---
 # Caedu · Pessoa · bruno moreira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

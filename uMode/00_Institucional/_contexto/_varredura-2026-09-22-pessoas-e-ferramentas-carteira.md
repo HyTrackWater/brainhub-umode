@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 — pessoas, áreas e ferramentas contratadas, carteira inteira"
+---
 # Varredura 22 set 2026 — pessoas, áreas e ferramentas contratadas, carteira inteira
 
 > Varredura transversal a pedido do Vinicius: *"retome a varredura de todos os clientes pra

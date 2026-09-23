@@ -1,3 +1,7 @@
+---
+aliases:
+  - "HERMES_TRAINING.md — Treinamento persistente da esteira SmartCoding `[P]`"
+---
 # HERMES_TRAINING.md — Treinamento persistente da esteira SmartCoding `[P]`
 
 > Contrato **persistente** da esteira (apontado pelo `AGENTS.md`, **não** concatenado). Persiste

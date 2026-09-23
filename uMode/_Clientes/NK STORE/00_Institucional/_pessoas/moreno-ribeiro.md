@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · moreno ribeiro"
+---
 # NK STORE · Pessoa · moreno ribeiro
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Qualidade · Contexto de área — Lofty Style"
+---
 # Qualidade · Contexto de área — Lofty Style
 
 > Criado em **21 set 2026**. ⚠ **Ninguém desta área respondeu às pesquisas de satisfação**, e nenhuma outra fonte varrida a menciona.

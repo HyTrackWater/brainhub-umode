@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Oficina Reserva · Pessoa · Leandro"
+---
 # Oficina Reserva · Pessoa · Leandro
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

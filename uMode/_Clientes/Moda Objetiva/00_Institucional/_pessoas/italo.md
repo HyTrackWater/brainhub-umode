@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Moda Objetiva · Pessoa · Italo"
+---
 # Moda Objetiva · Pessoa · Italo
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

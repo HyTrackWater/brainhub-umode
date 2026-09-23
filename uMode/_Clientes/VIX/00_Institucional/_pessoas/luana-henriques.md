@@ -1,3 +1,7 @@
+---
+aliases:
+  - "VIX · Pessoa · Luana Henriques"
+---
 # VIX · Pessoa · Luana Henriques
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

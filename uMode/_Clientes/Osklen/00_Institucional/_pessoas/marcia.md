@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Márcia"
+---
 # Osklen · Pessoa · Márcia
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

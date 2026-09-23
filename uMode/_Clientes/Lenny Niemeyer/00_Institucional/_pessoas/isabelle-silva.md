@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Isabelle"
+---
 # Lenny Niemeyer · Pessoa · Isabelle
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

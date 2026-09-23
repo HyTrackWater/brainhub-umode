@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 05: aba 'Soluções' (Portfólio)"
+---
 # Prompt de execução — BrainWave · Tarefa 05: aba "Soluções" (Portfólio)
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

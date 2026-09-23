@@ -1,3 +1,7 @@
+---
+aliases:
+  - "START.md — o condutor da triagem"
+---
 # START.md — o condutor da triagem
 
 > **Cole isto como primeira mensagem de qualquer sessão:** `Leia START.md`
@@ -143,6 +147,9 @@ nosso e não se edita em hipótese nenhuma.**
   [`_pessoas/_template_pessoa.md`](uMode/00_Institucional/_pessoas/_template_pessoa.md) · `_Clientes/_template_cliente/` ·
   `03_Produto-e-Solucoes/_template_produto/`
 - **X:** `_indice/` — 6 CSVs + README, **gerados por `scripts/gen-indice.ps1`. Não editar à mão.**
+- **X:** o **frontmatter `aliases`** de todo `.md` — gerado por `scripts/gera-aliases.py` a partir
+  do H1. 🔴 **Não editar à mão.** Existe porque há 694 arquivos `contexto-area.md` e o Obsidian
+  rotula pelo nome do arquivo. Ver `CONTEXT.md`.
 - **X:** [`_perguntas-para-o-vinicius.md`](uMode/00_Institucional/_contexto/_perguntas-para-o-vinicius.md) — a lista que ele responde **por áudio ou transcrição**. Colhida dos 48 `_pendencias-e-fontes.md` pelo **mesmo script** que os escreve. 🔴 **Não editar à mão e não montar lista paralela.**
 
 ### C · Corpus — o que se replica, e a regra que não se quebra

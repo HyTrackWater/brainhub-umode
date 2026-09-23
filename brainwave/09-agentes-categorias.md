@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 09: aba 'Agentes' — categorias e RAG por escopo"
+---
 # Prompt de execução — BrainWave · Tarefa 09: aba "Agentes" — categorias e RAG por escopo
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

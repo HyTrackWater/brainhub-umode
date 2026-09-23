@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Camys · Pessoa · Camila Simões"
+---
 # Camys · Pessoa · Camila Simões
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

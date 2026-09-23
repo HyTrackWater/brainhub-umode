@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 02: aba Home personalizada"
+---
 # Prompt de execução — BrainWave · Tarefa 02: aba Home personalizada
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

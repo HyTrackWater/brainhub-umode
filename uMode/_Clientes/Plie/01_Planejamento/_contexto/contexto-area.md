@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Plie"
+---
 # Planejamento · Contexto de área — Plie
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Simples (by Reserva) · Pendências e fontes varridas"
+---
 # Simples (by Reserva) · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

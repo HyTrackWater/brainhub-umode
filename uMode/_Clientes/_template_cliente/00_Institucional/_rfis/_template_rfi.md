@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome da RFI] · RFI"
+---
 # [Nome da RFI] · RFI
 
 ## Identificação

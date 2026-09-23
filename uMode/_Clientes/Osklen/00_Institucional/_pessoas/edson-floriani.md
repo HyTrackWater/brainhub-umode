@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · edson floriani"
+---
 # Osklen · Pessoa · edson floriani
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

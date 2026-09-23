@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento e Controle da Produção · Contexto de área — Cambos"
+---
 # Planejamento e Controle da Produção · Contexto de área — Cambos
 
 > Criado em **21 set 2026**. ⚠ **Esta área não aparece entre os *Times Envolvidos* do projeto** nem na seção *Pessoas* da página.

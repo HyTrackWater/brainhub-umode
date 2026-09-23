@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Gustavo Sobrinho"
+---
 # Luiza Barcelos · Pessoa · Gustavo Sobrinho
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

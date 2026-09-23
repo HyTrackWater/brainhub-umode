@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo — o que fazer com aquilo que só o Vinicius responde"
+---
 # Protocolo — o que fazer com aquilo que só o Vinicius responde
 
 > **Classe: `PROTOCOLO`.** É **o único caminho** para levantar, acumular e resolver o que

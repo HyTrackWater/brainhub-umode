@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Highstil · Pessoa · Ariana"
+---
 # Highstil · Pessoa · Ariana
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

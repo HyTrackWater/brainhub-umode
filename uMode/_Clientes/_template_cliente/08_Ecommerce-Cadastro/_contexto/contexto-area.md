@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ecommerce / Cadastro · Contexto de área"
+---
 # Ecommerce / Cadastro · Contexto de área
 
 ## O que esta área faz

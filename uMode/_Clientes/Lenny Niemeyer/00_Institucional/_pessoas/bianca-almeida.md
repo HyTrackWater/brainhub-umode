@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · bianca almeida"
+---
 # Lenny Niemeyer · Pessoa · bianca almeida
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

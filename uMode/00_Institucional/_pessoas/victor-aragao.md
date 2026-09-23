@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Victor Aragão · Pessoa"
+---
 # Victor Aragão · Pessoa
 
 ## Identificação

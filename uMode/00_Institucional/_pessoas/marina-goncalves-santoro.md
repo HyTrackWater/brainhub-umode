@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marina Gonçalves Santoro · Pessoa"
+---
 # Marina Gonçalves Santoro · Pessoa
 
 ## Identificação

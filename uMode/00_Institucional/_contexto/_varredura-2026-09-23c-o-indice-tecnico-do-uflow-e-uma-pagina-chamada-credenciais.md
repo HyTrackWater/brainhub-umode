@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 23 set 2026 (c) — o índice técnico do uFlow, e uma página chamada `Credenciais`"
+---
 # Varredura 23 set 2026 (c) — o índice técnico do uFlow, e uma página chamada `Credenciais`
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

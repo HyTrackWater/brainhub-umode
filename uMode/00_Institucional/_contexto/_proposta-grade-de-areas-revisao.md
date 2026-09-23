@@ -1,3 +1,7 @@
+---
+aliases:
+  - "PROPOSTA — revisão da grade de áreas canônicas de cliente"
+---
 # PROPOSTA — revisão da grade de áreas canônicas de cliente
 
 > Escrita em **21 set 2026** por Vinicius Risoléo (com Claude Code) e **revisada em 22 set 2026**,

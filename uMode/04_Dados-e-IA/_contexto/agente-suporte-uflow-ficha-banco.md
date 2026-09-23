@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ficha de inserção no banco — Agente de Suporte Técnico uFlow"
+---
 # Ficha de inserção no banco — Agente de Suporte Técnico uFlow
 
 > Escrita em **17 ago 2026**, depois de receber as fontes completas em

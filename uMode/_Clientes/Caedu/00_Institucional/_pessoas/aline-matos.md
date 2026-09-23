@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · aline matos"
+---
 # Caedu · Pessoa · aline matos
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

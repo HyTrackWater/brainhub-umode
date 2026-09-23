@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mondepars · Pessoa · Carolina Abreu"
+---
 # Mondepars · Pessoa · Carolina Abreu
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área — Moda Objetiva"
+---
 # Marketing · Contexto de área — Moda Objetiva
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

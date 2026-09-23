@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Pampili Mini"
+---
 # Planejamento · Contexto de área — Pampili Mini
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

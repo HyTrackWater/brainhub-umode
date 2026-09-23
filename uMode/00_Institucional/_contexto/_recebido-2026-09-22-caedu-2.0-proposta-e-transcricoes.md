@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recebido 22 set 2026 — CAEDU 2.0: proposta, 7 transcrições e a visita"
+---
 # Recebido 22 set 2026 — CAEDU 2.0: proposta, 7 transcrições e a visita
 
 > Entregue pelo Vinicius em 22 set 2026, como o pacote de contexto do **novo momento da CAEDU**.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Baw · Pessoa · Mari"
+---
 # Baw · Pessoa · Mari
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

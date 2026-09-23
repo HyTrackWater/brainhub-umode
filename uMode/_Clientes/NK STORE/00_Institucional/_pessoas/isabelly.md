@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Isabelly"
+---
 # NK STORE · Pessoa · Isabelly
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

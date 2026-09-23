@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · stefany silva"
+---
 # Caedu · Pessoa · stefany silva
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

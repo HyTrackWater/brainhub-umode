@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Ana Lucia Andrade"
+---
 # Luiza Barcelos · Pessoa · Ana Lucia Andrade
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

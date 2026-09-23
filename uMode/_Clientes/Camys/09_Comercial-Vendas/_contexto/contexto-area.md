@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Comercial e Vendas · Contexto de área — Camys"
+---
 # Comercial e Vendas · Contexto de área — Camys
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Carlos Eduardo Maurício de Sousa · Pessoa"
+---
 # Carlos Eduardo Maurício de Sousa · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Jaíne dos Santos de Souza"
+---
 # Caedu · Pessoa · Jaíne dos Santos de Souza
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

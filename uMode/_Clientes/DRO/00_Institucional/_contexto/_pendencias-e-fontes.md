@@ -1,3 +1,7 @@
+---
+aliases:
+  - "DRO · Pendências e fontes varridas"
+---
 # DRO · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

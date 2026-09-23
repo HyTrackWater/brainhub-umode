@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — VIX"
+---
 # Planejamento · Contexto de área — VIX
 
 > Criado em **21 set 2026**. ⚠ **Nenhum dos 17 perfis de acesso da VIX corresponde a esta área.**

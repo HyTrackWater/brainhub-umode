@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Dayana Layna"
+---
 # Caedu · Pessoa · Dayana Layna
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

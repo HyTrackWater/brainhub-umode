@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Susie Modas · Pendências e fontes varridas"
+---
 # Susie Modas · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

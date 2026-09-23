@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Taxonomia — o que `Status` de cliente significa, e o que ele mistura"
+---
 # Taxonomia — o que `Status` de cliente significa, e o que ele mistura
 
 > Escrito em **22 set 2026** por Vinicius Risoléo (com Claude Code), a partir de uma correção dele:

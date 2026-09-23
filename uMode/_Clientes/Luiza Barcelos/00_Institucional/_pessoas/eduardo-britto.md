@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Eduardo Britto"
+---
 # Luiza Barcelos · Pessoa · Eduardo Britto
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · jessica bognar"
+---
 # Caedu · Pessoa · jessica bognar
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Elizabeth Alves de Souza Santana · Pessoa"
+---
 # Elizabeth Alves de Souza Santana · Pessoa
 
 ## Identificação

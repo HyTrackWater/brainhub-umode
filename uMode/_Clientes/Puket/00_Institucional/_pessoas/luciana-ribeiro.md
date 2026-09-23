@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · luciana ribeiro"
+---
 # Puket · Pessoa · luciana ribeiro
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · erika haneda"
+---
 # Caedu · Pessoa · erika haneda
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

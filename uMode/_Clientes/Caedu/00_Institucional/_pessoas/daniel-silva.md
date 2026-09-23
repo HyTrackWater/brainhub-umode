@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Daniel Santana da Silva"
+---
 # Caedu · Pessoa · Daniel Santana da Silva
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

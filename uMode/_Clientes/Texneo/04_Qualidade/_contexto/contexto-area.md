@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Qualidade · Contexto de área — Texneo"
+---
 # Qualidade · Contexto de área — Texneo
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

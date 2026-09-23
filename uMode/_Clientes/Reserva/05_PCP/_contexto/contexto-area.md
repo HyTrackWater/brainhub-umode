@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento e Controle da Produção · Contexto de área — Reserva"
+---
 # Planejamento e Controle da Produção · Contexto de área — Reserva
 
 > Criado em **21 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área na Reserva.**

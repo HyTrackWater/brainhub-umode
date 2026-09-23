@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · andreza zan"
+---
 # Puket · Pessoa · andreza zan
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

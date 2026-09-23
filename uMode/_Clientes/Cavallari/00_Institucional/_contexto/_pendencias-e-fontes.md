@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Cavallari · Pendências e fontes varridas"
+---
 # Cavallari · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

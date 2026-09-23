@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · vinicius cesar"
+---
 # Puket · Pessoa · vinicius cesar
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

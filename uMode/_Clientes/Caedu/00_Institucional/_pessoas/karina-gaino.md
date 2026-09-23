@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · karina gaino"
+---
 # Caedu · Pessoa · karina gaino
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

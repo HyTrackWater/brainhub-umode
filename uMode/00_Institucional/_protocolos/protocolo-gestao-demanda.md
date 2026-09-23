@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo · Gestão de demanda"
+---
 # Protocolo · Gestão de demanda
 
 > Define natureza, ciclo de vida, marcos, hierarquia pai/filha e o mecanismo de aprovação que

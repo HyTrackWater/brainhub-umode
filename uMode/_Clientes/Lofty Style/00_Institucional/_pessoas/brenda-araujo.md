@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Brenda Santana"
+---
 # Lofty Style · Pessoa · Brenda Santana
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

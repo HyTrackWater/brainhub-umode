@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Paloma concept · Pendências e fontes varridas"
+---
 # Paloma concept · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

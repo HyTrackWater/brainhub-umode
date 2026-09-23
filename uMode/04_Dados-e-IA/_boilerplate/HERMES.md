@@ -1,3 +1,7 @@
+---
+aliases:
+  - "HERMES.md — A esteira de produção `[P]`"
+---
 # HERMES.md — A esteira de produção `[P]`
 
 > Arquivo-raiz do boilerplate governado da uMode. O HERMES **não é um dos papéis de decisão**; é a

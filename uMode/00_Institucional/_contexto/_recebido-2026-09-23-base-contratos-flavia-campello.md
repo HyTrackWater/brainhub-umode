@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recebido 23 set 2026 — a base de contratos da Flávia Campello, e a terceira taxonomia"
+---
 # Recebido 23 set 2026 — a base de contratos da Flávia Campello, e a terceira taxonomia
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lojão do Brás · Pendências e fontes varridas"
+---
 # Lojão do Brás · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

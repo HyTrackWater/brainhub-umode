@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Stella Sunaga"
+---
 # NK STORE · Pessoa · Stella Sunaga
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

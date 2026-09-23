@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · julia gil"
+---
 # Caedu · Pessoa · julia gil
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lista definitiva de clientes reais — base da replicação total"
+---
 # Lista definitiva de clientes reais — base da replicação total
 
 > **Passo zero da ⭐ ORDEM DE PRIORIDADE** (`STATE.md`): antes de gerar qualquer casa de cliente,

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Studio Minah"
+---
 # Planejamento · Contexto de área — Studio Minah
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

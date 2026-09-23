@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · jorge silva"
+---
 # Caedu · Pessoa · jorge silva
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

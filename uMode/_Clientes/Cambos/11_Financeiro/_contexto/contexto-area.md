@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Financeiro · Contexto de área — Cambos"
+---
 # Financeiro · Contexto de área — Cambos
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

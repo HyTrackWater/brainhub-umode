@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Cambos · Pessoa · Gustavo Paiva"
+---
 # Cambos · Pessoa · Gustavo Paiva
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

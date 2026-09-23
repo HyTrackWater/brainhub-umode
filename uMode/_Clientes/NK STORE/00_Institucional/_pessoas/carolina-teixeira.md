@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Carolina Teixeira"
+---
 # NK STORE · Pessoa · Carolina Teixeira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

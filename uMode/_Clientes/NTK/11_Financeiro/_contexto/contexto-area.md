@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Financeiro · Contexto de área — NTK"
+---
 # Financeiro · Contexto de área — NTK
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

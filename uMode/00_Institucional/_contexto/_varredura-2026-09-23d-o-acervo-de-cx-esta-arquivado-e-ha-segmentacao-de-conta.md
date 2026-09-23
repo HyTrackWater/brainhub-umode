@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 23 set 2026 (d) — o acervo de CX está em `Arquivo`, e existe segmentação de conta"
+---
 # Varredura 23 set 2026 (d) — o acervo de CX está em `Arquivo`, e existe segmentação de conta
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

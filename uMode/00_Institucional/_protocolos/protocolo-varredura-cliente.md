@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo — varredura e preenchimento de contexto de cliente"
+---
 # Protocolo — varredura e preenchimento de contexto de cliente
 
 > Escrito em **21 set 2026** depois de fechar a **CAEDU** como caso de prova, e **revisado no mesmo

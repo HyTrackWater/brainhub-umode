@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Dicionário de dados do BrainHub — o que existe no banco"
+---
 # Dicionário de dados do BrainHub — o que existe no banco
 
 > Levantado em **17 ago 2026** por leitura do código real em

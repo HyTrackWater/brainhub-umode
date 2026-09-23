@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · gabriela begnini"
+---
 # Puket · Pessoa · gabriela begnini
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

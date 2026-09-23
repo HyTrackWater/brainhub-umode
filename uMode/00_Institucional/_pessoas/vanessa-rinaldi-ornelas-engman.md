@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Vanessa Rinaldi Ornelas Engman · Pessoa"
+---
 # Vanessa Rinaldi Ornelas Engman · Pessoa
 
 ## Identificação

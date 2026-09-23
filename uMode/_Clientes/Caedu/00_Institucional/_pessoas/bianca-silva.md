@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Bianca Rocha da Silva"
+---
 # Caedu · Pessoa · Bianca Rocha da Silva
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

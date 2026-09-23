@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Estilo e Criação · Contexto de área — Loungerie"
+---
 # Estilo e Criação · Contexto de área — Loungerie
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

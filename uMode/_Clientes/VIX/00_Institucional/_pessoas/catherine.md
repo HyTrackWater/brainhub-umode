@@ -1,3 +1,7 @@
+---
+aliases:
+  - "VIX · Pessoa · Catherine"
+---
 # VIX · Pessoa · Catherine
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

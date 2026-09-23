@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Cristina"
+---
 # Caedu · Pessoa · Cristina
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

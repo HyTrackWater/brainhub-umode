@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Plie · Pendências e fontes varridas"
+---
 # Plie · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

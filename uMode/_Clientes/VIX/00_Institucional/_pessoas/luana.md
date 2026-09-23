@@ -1,3 +1,7 @@
+---
+aliases:
+  - "VIX · Pessoa · Luana"
+---
 # VIX · Pessoa · Luana
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

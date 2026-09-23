@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome do cliente] · Integração"
+---
 # [Nome do cliente] · Integração
 
 > Existe apenas para cliente que **tem** integração real — ver `protocolo-gestao-integracao.md`.

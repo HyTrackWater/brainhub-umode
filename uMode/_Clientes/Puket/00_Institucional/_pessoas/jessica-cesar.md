@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · jessica cesar"
+---
 # Puket · Pessoa · jessica cesar
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

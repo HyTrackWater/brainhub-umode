@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento e Controle da Produção · Contexto de área — Oficina Reserva"
+---
 # Planejamento e Controle da Produção · Contexto de área — Oficina Reserva
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

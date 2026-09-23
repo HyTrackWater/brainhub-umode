@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área"
+---
 # Planejamento · Contexto de área
 
 ## O que esta área faz

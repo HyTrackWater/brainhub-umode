@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Levantamento 21 set 2026 — práticas do vault, estado dos repos e a lacuna da CAEDU"
+---
 # Levantamento 21 set 2026 — práticas do vault, estado dos repos e a lacuna da CAEDU
 
 > Verificação direta, a pedido do Vinicius. Missão declarada por ele nesta data: **chegar ao brain

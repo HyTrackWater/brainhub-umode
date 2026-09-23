@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Taislaine Alves Caetano"
+---
 # Lofty Style · Pessoa · Taislaine Alves Caetano
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

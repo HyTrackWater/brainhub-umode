@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (j) — a dor da CAEDU está resolvida na página da Loungerie"
+---
 # Varredura 22 set 2026 (j) — a dor da CAEDU está resolvida na página da Loungerie
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

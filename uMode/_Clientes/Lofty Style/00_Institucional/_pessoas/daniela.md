@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Daniela"
+---
 # Lofty Style · Pessoa · Daniela
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

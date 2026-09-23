@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · aline soares"
+---
 # Puket · Pessoa · aline soares
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

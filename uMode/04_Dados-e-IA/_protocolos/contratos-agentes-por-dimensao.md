@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Contratos de agente por dimensão — Squad de Desenvolvimento uMode"
+---
 # Contratos de agente por dimensão — Squad de Desenvolvimento uMode
 
 > Companion de `governanca-squad-desenvolvimento.md` (§2.2). Aquele documento **nomeia** as oito

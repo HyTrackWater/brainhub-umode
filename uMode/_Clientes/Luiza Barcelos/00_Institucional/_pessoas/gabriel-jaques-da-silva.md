@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Gabriel Jaques da Silva"
+---
 # Luiza Barcelos · Pessoa · Gabriel Jaques da Silva
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

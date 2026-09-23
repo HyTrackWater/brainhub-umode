@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Highstil"
+---
 # Planejamento · Contexto de área — Highstil
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

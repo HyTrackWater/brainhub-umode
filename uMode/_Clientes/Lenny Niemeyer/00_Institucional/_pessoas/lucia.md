@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Lúcia Rodrigues Garcia"
+---
 # Lenny Niemeyer · Pessoa · Lúcia Rodrigues Garcia
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

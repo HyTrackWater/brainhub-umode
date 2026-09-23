@@ -1,3 +1,7 @@
+---
+aliases:
+  - "brainwave/CONTEXTO.md — Referência de produto para prompts do BrainWave"
+---
 # brainwave/CONTEXTO.md — Referência de produto para prompts do BrainWave
 
 > **Isto não é lido pelo BrainWave.** O BrainWave é uma ferramenta tipo Lovable — sem acesso a

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · leticia santos"
+---
 # Caedu · Pessoa · leticia santos
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

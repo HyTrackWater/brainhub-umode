@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Fernanda Araujo · Pessoa"
+---
 # Fernanda Araujo · Pessoa
 
 ## Identificação

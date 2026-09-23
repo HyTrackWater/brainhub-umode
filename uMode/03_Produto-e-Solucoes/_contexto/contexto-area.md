@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Produto & Soluções · Contexto de área"
+---
 # Produto & Soluções · Contexto de área
 
 ## O que esta área faz

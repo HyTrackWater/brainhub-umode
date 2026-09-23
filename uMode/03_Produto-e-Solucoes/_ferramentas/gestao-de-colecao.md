@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Gestão de Coleção · Ferramenta"
+---
 # Gestão de Coleção · Ferramenta
 
 > **Ficha gerada por `scripts/gera-fichas-ferramenta.py` em 22 set 2026.**

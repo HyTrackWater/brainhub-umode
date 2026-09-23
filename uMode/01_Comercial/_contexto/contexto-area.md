@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Comercial · Contexto de área"
+---
 # Comercial · Contexto de área
 
 ## O que esta área faz

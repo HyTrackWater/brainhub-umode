@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Desenvolvimento de Coleção · Contexto de área — Cambos"
+---
 # Desenvolvimento de Coleção · Contexto de área — Cambos
 
 > Criado em **21 set 2026**. 🔴 **ATENÇÃO À TAXONOMIA.**

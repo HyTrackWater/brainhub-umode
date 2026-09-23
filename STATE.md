@@ -1,3 +1,7 @@
+---
+aliases:
+  - "STATE.md — Estado do projeto"
+---
 # STATE.md — Estado do projeto
 
 > Estrutura fixa. Não repetir objetivo aqui — ver `CONTEXT.md`.
@@ -3329,3 +3333,30 @@ caminho).
   `app.json` e `appearance.json` versionados.
   **Grafo: 2.666 arquivos · 2.627 conectados (98,5%) · 41 órfãos (1,5%).**
   **Itens 562–571.**
+
+- **23 set 2026** — Sessão 50: **os nomes iguais no Obsidian, e a resposta sobre as áreas vazias.**
+  🟢 **`aliases` em frontmatter YAML aplicado a 2.665 arquivos**, gerado do próprio H1 por
+  `scripts/gera-aliases.py`. **Decidi por teste, não por opinião:** rodei os quatro validadores
+  com o frontmatter aplicado antes de decidir — **nenhum acusou diferença**.
+  **Nenhum arquivo renomeado, nenhum link tocado.** Travado no `CONTEXT.md`.
+  🔴 **Recusei o plugin de terceiro**, que era a única via de mudar o rótulo do GRAFO: seria o
+  primeiro plugin de um repositório que não tem nenhum, e ficaria **por máquina** — o cofre do
+  João ficaria diferente do do Vinicius. **Não vale o rótulo.** No grafo, a cor e a posição já
+  desambiguam.
+  🔺 **Bug achado pelo próprio dado:** um arquivo real ficou de fora porque tem **BOM** no início,
+  e `startswith("# ")` falhava em silêncio. **Falha silenciosa é o defeito que este projeto mais
+  persegue.** Corrigido, e agora são 2.665 de 2.665.
+  🔴 **Pergunta do Vinicius, respondida com número: 657 de 680 `contexto-area.md` estão
+  praticamente vazios — 97%. E 45 dos 49 clientes têm ZERO área preenchida.**
+  Só a Casa (8/8), a CAEDU (7/14), a Osklen (7/14) e a Oficina Reserva (1/14) têm conteúdo.
+  🟢 **É esperado e não é defeito.** A replicação de ago 2026 criou a **estrutura**; o **conteúdo**
+  de uma área só existe se alguém varreu aquela área naquele cliente. **Preencher por semelhança
+  seria a alucinação que o `CLAUDE.md` proíbe.**
+  🔴 **A causa raiz é fonte ausente, não trabalho pendente.** Para 45 clientes não há de onde
+  tirar: a página do cliente quase nunca traz área (7 de 15 nem têm o toggle `Pessoas`).
+  🔵 **O caminho que existe é o da CAEDU:** as 54 transcrições são exatamente a fonte que preenche
+  as 14 áreas de um cliente. **Se funcionar nela, vira método. Enquanto não funcionar uma vez,
+  replicar para 47 é fantasia.**
+  ⚠ **Consequência de peso: 680 de 2.666 arquivos (26%) são área quase vazia — um quarto do
+  corpus é esqueleto.** **Recomendei manter**: ausência declarada é informação, ausência escondida
+  não é. **Itens 572–576.**

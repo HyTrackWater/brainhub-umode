@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · thais arcanjo"
+---
 # Osklen · Pessoa · thais arcanjo
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

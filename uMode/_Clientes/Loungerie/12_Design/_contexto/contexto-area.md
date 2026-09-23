@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Design · Contexto de área — Loungerie"
+---
 # Design · Contexto de área — Loungerie
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

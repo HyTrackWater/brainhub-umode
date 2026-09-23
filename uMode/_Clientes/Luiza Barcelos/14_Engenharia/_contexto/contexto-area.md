@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Engenharia · Contexto de área — Luiza Barcelos"
+---
 # Engenharia · Contexto de área — Luiza Barcelos
 
 > Criado em **21 set 2026**. ⚠ **Esta área não aparece entre os *Times Envolvidos* nem entre as 14 pessoas nomeadas.**

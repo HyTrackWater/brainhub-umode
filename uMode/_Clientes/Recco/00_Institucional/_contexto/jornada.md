@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recco · Jornada"
+---
 # Recco · Jornada
 
 > **Reescrito em 22 set 2026 por varredura ao vivo do Notion.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Design · Contexto de área — Mondepars"
+---
 # Design · Contexto de área — Mondepars
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

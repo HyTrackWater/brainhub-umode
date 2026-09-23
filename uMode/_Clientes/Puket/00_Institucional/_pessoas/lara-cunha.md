@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · lara cunha"
+---
 # Puket · Pessoa · lara cunha
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

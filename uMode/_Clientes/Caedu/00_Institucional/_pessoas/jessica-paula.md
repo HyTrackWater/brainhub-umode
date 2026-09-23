@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · jessica paula"
+---
 # Caedu · Pessoa · jessica paula
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

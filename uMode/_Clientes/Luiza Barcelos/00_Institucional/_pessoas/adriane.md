@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoa · Adriane"
+---
 # Luiza Barcelos · Pessoa · Adriane
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Como o BrainHub funciona — explicação do zero"
+---
 # Como o BrainHub funciona — explicação do zero
 
 > Escrito em **17 ago 2026** a pedido do Vinicius, que pediu uma aula assumindo alguém vendo isso

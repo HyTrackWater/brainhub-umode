@@ -1,3 +1,7 @@
+---
+aliases:
+  - "AGENTS.md — Programador"
+---
 # AGENTS.md — Programador
 
 > Arquivo-raiz do boilerplate governado da uMode. Lido pelo executor de código em **toda sessão** — a

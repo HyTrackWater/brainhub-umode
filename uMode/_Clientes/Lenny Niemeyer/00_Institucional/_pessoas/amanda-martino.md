@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · amanda martino"
+---
 # Lenny Niemeyer · Pessoa · amanda martino
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

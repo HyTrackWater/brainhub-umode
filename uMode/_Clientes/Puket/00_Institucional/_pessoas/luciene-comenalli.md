@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · luciene comenalli"
+---
 # Puket · Pessoa · luciene comenalli
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

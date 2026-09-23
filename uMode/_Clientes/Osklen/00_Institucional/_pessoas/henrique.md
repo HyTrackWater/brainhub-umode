@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Henrique Camacho"
+---
 # Osklen · Pessoa · Henrique Camacho
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "uFlow · Modelo de dados"
+---
 # uFlow · Modelo de dados
 
 > Levantado em **04 ago 2026** por leitura direta de `C:\Ambientes Virtuais\uFlow\umode-flow` —

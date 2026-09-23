@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Compras, Supply e Sourcing · Contexto de área — NK STORE"
+---
 # Compras, Supply e Sourcing · Contexto de área — NK STORE
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo, **incluindo a sub-página *Perfil de Usuário e Permissionamentos***.

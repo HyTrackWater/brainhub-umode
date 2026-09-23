@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recco · Pessoa · Patricia"
+---
 # Recco · Pessoa · Patricia
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

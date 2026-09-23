@@ -1,3 +1,7 @@
+---
+aliases:
+  - "CONTEXT.md — Institucionalização de IA · core"
+---
 # CONTEXT.md — Institucionalização de IA · core
 
 > Documento-base do projeto. Define **o quê** e **como**. É a fonte única do objetivo:
@@ -126,6 +130,30 @@ qual estrutura ele vem:
   (diferente do texto livre em `Módulos contratados` de hoje). Formalizar como protocolo +
   template só depois da varredura de nomenclatura legado→novo (ver nota abaixo em "Decisão:
   camada Produto").
+
+### Frontmatter `aliases` — travado em 23 set 2026
+
+**Todo `.md` do repositório carrega um frontmatter YAML com `aliases`, copiado do próprio H1.**
+Gerado por `scripts/gera-aliases.py`, idempotente e reversível (`--remove`).
+
+**Por que existe.** O padrão manda que *todo MD do mesmo tipo tenha os mesmos títulos, sempre* —
+e o nome do arquivo segue o tipo. Resultado: **694 arquivos `contexto-area.md`**, 50
+`institucional.md`, 49 `jornada.md`. O Obsidian rotula nota pelo **nome do arquivo**, então a
+busca rápida virava uma parede de nomes iguais. **O H1 já desambigua**
+(`# Qualidade · Contexto de área — Caedu`) e é único em **99,1%** dos 2.665 arquivos.
+
+**O que isso NÃO muda, e é importante não prometer:**
+- 🔴 **O rótulo do GRAFO continua sendo o nome do arquivo.** Alias não muda isso. No grafo, a cor
+  (15 grupos por entidade) e a posição é que desambiguam.
+- **Nenhum arquivo foi renomeado. Nenhum link foi tocado.** A estrutura é a mesma.
+
+**Verificado antes de aplicar:** os quatro validadores rodaram com e sem frontmatter e
+**nenhum acusou diferença** — `valida-padrao-corpus` 0 completados, grafo idêntico,
+`gera-conexoes` preserva o bloco.
+
+⚠ **Decisão recusada de propósito: plugin de terceiro.** Só um plugin (`Front Matter Title`)
+mudaria o rótulo do grafo. **Este repositório não tem plugin nenhum, e um plugin seria por
+máquina** — o cofre ficaria diferente para cada pessoa. **Não vale o rótulo.**
 
 ## Glossário
 - **Casa** — a organização interna (foco).

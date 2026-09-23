@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome da área] · Contexto de área"
+---
 # [Nome da área] · Contexto de área
 
 ## O que esta área faz

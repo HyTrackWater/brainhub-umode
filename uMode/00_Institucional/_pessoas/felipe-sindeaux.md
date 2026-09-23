@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Felipe Sindeaux · Pessoa"
+---
 # Felipe Sindeaux · Pessoa
 
 ## Identificação

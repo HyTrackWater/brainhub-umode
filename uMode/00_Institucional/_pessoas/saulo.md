@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Saulo · Pessoa"
+---
 # Saulo · Pessoa
 
 ## Identificação

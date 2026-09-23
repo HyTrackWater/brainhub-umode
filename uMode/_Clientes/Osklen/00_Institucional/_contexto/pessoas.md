@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoas"
+---
 # Osklen · Pessoas
 
 > **Reescrito em 22 set 2026 a partir do Notion ao vivo**, incluindo a base

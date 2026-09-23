@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Agua de Coco · Institucional"
+---
 # Agua de Coco · Institucional
 
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**

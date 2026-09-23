@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 23 set 2026 — o acervo `Setup - PLM` é quase vazio, e a segmentação era uma relação"
+---
 # Varredura 23 set 2026 — o acervo `Setup - PLM` é quase vazio, e a segmentação era uma relação
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**

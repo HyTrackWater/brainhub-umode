@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Moda Objetiva · Pessoa · Maria Carolina"
+---
 # Moda Objetiva · Pessoa · Maria Carolina
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

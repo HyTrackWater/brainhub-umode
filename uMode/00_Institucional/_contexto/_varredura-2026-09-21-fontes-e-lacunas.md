@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 21 set 2026 — fontes rastreadas e o mapa de lacunas de todos os clientes"
+---
 # Varredura 21 set 2026 — fontes rastreadas e o mapa de lacunas de todos os clientes
 
 > Varredura geral a pedido do Vinicius: **todo e qualquer cliente**, não só a CAEDU.

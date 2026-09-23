@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · jose soares"
+---
 # Caedu · Pessoa · jose soares
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

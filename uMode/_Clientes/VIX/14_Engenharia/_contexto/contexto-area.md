@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Engenharia · Contexto de área — VIX"
+---
 # Engenharia · Contexto de área — VIX
 
 > Criado em **21 set 2026**. ⚠ **Nenhum dos 17 perfis de acesso da VIX corresponde a esta área.**

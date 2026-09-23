@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Hering · Pessoa · Day"
+---
 # Hering · Pessoa · Day
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (b) — a base de chamados e a chave de identidade de pessoa"
+---
 # Varredura 22 set 2026 (b) — a base de chamados e a chave de identidade de pessoa
 
 > Continuação da varredura transversal do mesmo dia. **Registro separado, e não emenda ao

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Carolina Marchetti"
+---
 # Caedu · Pessoa · Carolina Marchetti
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

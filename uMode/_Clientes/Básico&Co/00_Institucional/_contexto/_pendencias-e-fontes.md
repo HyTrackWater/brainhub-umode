@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Básico&Co · Pendências e fontes varridas"
+---
 # Básico&Co · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Logistica / CD · Contexto de área"
+---
 # Logistica / CD · Contexto de área
 
 ## O que esta área faz

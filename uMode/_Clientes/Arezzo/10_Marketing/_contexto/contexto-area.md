@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área — Arezzo"
+---
 # Marketing · Contexto de área — Arezzo
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

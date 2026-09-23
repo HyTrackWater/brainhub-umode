@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome do cliente] · Jornada"
+---
 # [Nome do cliente] · Jornada
 
 > Atualizar a cada marco relevante — fase, entrega, decisão, incidente.

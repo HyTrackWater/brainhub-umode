@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo · Criação de cliente"
+---
 # Protocolo · Criação de cliente
 
 > Projetado para execução por agente — nenhuma etapa requer intervenção manual

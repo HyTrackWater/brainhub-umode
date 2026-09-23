@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · Carlos Chermont"
+---
 # Osklen · Pessoa · Carlos Chermont
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

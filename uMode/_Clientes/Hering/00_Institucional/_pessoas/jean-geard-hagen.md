@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Hering · Pessoa · Jean Geard Hagen"
+---
 # Hering · Pessoa · Jean Geard Hagen
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

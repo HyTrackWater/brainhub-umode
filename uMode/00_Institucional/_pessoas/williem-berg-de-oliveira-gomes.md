@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Williem Berg de Oliveira Gomes · Pessoa"
+---
 # Williem Berg de Oliveira Gomes · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "AGORA.md — onde o projeto está, em uma tela"
+---
 # AGORA.md — onde o projeto está, em uma tela
 
 > **Este é o arquivo de orientação.** Serve para retomar o projeto de qualquer lugar, em
@@ -169,10 +173,27 @@ apontando para caminhos do vault dele; 1 é a proposta no `_inbox-hermes` aponta
 vault; e **6 são falso-positivo** — a palavra `[[wikilinks]]` escrita dentro de texto que explica
 o próprio sistema de links.
 
+### 5.3 · 🔴 O esqueleto que ainda não tem carne — 657 áreas vazias
+
+**97% dos `contexto-area.md` estão praticamente vazios: 657 de 680.**
+**45 dos 49 clientes têm ZERO área preenchida.** Com conteúdo, só: **Casa 8/8 · CAEDU 7/14 ·
+Osklen 7/14 · Oficina Reserva 1/14**.
+
+🟢 **É esperado.** A replicação criou a **estrutura**; o **conteúdo** de uma área só existe se
+alguém varreu aquela área naquele cliente. 🔴 **E a causa raiz é fonte ausente, não fila de
+trabalho** — a página do cliente quase nunca traz área.
+
+🔵 **O caminho é a CAEDU:** as 54 transcrições são a fonte que preenche as 14 áreas de um cliente.
+**Se funcionar nela, vira método.** **Itens 572–575.**
+
 ### 5.2 · 🟢 Abrir no Obsidian — configurado em 23 set 2026
 
 **Antes de hoje o repositório não tinha `.obsidian/`**: abria como cofre cru, sem cor, com órfão
 e link não-resolvido poluindo a tela. Agora tem, e **está versionado** — quem clonar vê o mesmo.
+
+🟢 **Desde 23 set 2026, todo `.md` tem `aliases` em frontmatter, copiado do H1** — a busca
+rápida (`Ctrl+O`) mostra *"Qualidade · Contexto de área — Caedu"* em vez de 694 `contexto-area`
+idênticos. 🔴 **O rótulo do GRAFO continua sendo o nome do arquivo** — lá quem desambigua é a cor.
 
 **15 grupos de cor, um por entidade** (`.obsidian/graph.json`): Instituição · Área · Pessoa ·
 Demanda · RFI · Solução · Ferramenta · Integração · Jornada · Autoridade · Protocolo · Registro ·

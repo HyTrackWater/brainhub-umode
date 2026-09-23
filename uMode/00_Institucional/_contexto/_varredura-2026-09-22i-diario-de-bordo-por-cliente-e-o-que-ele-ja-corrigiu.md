@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (i) — o diário de bordo por cliente, e o que ele já corrigiu"
+---
 # Varredura 22 set 2026 (i) — o diário de bordo por cliente, e o que ele já corrigiu
 
 > Cobrança do Vinicius, textual: *"preciso que registre todos os locais de onde já vasculhou pra

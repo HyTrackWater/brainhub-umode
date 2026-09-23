@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · kevlyn sa"
+---
 # Caedu · Pessoa · kevlyn sa
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

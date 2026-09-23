@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · andressa duarte"
+---
 # Puket · Pessoa · andressa duarte
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

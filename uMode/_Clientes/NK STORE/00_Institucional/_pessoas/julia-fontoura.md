@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · julia fontoura"
+---
 # NK STORE · Pessoa · julia fontoura
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

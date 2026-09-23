@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Juliana Ferré Esteves · Pessoa"
+---
 # Juliana Ferré Esteves · Pessoa
 
 ## Identificação

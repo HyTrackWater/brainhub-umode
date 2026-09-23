@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Blueprint — Boilerplate de produção governado + treinamento de squads/agentes/operadores"
+---
 # Blueprint — Boilerplate de produção governado + treinamento de squads/agentes/operadores
 
 > Documento de espec e decisão. Nasce da missão do Vinicius (set/2026): ter um repositório-padrão de

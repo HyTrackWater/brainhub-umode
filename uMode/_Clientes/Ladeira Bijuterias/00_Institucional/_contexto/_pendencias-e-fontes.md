@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ladeira Bijuterias · Pendências e fontes varridas"
+---
 # Ladeira Bijuterias · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

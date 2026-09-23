@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Estilo e Criação · Contexto de área — Oficina Reserva"
+---
 # Estilo e Criação · Contexto de área — Oficina Reserva
 
 > Criado em **21 set 2026**. ⚠ **Esta área não é mencionada em nenhuma fonte varrida.**

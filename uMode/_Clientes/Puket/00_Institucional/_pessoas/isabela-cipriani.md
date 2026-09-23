@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · Isabela Pereira"
+---
 # Puket · Pessoa · Isabela Pereira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

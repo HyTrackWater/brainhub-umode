@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Estilo e Criação · Contexto de área — Baw"
+---
 # Estilo e Criação · Contexto de área — Baw
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

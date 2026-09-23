@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Laura Delgado Cardoso · Pessoa"
+---
 # Laura Delgado Cardoso · Pessoa
 
 ## Identificação

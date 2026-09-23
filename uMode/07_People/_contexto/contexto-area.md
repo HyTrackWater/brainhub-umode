@@ -1,3 +1,7 @@
+---
+aliases:
+  - "People · Contexto de área"
+---
 # People · Contexto de área
 
 ## O que esta área faz

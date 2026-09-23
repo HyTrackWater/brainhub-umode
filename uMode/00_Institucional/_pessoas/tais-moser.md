@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Tais Moser · Pessoa"
+---
 # Tais Moser · Pessoa
 
 ## Identificação

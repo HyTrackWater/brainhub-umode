@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · audria monteiro"
+---
 # Puket · Pessoa · audria monteiro
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

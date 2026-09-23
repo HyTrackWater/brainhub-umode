@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · romina torres"
+---
 # Puket · Pessoa · romina torres
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

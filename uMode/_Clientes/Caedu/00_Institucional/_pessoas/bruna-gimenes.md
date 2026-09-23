@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · bruna gimenes"
+---
 # Caedu · Pessoa · bruna gimenes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

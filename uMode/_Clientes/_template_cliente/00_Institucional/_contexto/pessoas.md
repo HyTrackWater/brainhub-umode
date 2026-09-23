@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome do cliente] · Pessoas"
+---
 # [Nome do cliente] · Pessoas
 
 ## Responsável de atendimento (uMode)

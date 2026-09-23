@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo · Gestão de integração de cliente"
+---
 # Protocolo · Gestão de integração de cliente
 
 > Define o 5º tipo de MD de cliente: `integracao.md`. Formaliza a documentação técnica da integração

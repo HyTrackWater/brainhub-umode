@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoa · Maria Helena Ortiz Niemeyer"
+---
 # Lenny Niemeyer · Pessoa · Maria Helena Ortiz Niemeyer
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

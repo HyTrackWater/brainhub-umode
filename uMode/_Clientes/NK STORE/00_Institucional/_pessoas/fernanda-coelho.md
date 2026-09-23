@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Vitoria Fernanda"
+---
 # NK STORE · Pessoa · Vitoria Fernanda
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Qualidade · Contexto de área — NV"
+---
 # Qualidade · Contexto de área — NV
 
 > Criado em **21 set 2026**. ⚠ **Esta área NÃO aparece entre os 10 departamentos engajados** que a NV declara no template de transição.

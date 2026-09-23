@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pendências e fontes varridas"
+---
 # Lenny Niemeyer · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

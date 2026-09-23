@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Básico&Co · Pessoas"
+---
 # Básico&Co · Pessoas
 
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**

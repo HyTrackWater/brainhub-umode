@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Modelagem · Contexto de área — Recco"
+---
 # Modelagem · Contexto de área — Recco
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

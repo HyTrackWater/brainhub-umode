@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Reserva · Pendências e fontes varridas"
+---
 # Reserva · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

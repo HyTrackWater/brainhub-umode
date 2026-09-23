@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · thais itice"
+---
 # Caedu · Pessoa · thais itice
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

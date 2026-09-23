@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Protocolo · Gestão de RFI"
+---
 # Protocolo · Gestão de RFI
 
 > RFI = Request for Implementation. Formaliza uma demanda para ser apresentada e negociada

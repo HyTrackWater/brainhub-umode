@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Perguntas para o Vinícius"
+---
 # Perguntas para o Vinícius
 
 > **Classe: `DERIVADO`.** Gerado por `scripts/gera-pendencias-e-fontes.py`.

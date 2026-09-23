@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura geral — ferramentas, produtos e áreas (Google Drive, 03 ago 2026)"
+---
 ﻿# Varredura geral — ferramentas, produtos e áreas (Google Drive, 03 ago 2026)
 
 > Varredura pedida pelo Vinicius com dois objetivos: (a) padronizar o que já dá para padronizar, e

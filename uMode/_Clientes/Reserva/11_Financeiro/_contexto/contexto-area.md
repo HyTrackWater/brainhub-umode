@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Financeiro · Contexto de área — Reserva"
+---
 # Financeiro · Contexto de área — Reserva
 
 > Criado em **21 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área na Reserva.**

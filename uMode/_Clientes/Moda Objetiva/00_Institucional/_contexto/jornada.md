@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Moda Objetiva · Jornada"
+---
 # Moda Objetiva · Jornada
 
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**

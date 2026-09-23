@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Backlog de infra de tecnologia — o que precisará ser construído"
+---
 # Backlog de infra de tecnologia — o que precisará ser construído
 
 > **Nada aqui é para desenvolver agora.** Pedido do Vinicius em 03 ago 2026: começar a **rastrear e

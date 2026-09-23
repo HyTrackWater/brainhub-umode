@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 10: correção — filtros de categoria e chat fixo na aba Agentes"
+---
 # Prompt de execução — BrainWave · Tarefa 10: correção — filtros de categoria e chat fixo na aba Agentes
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

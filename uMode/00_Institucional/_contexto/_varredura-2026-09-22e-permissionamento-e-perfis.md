@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (e) — o modelo de permissionamento e o perfil como área"
+---
 # Varredura 22 set 2026 (e) — o modelo de permissionamento e o perfil como área
 
 > Instrução do Vinicius: *"Acessa tudo no Notion dentro dos clientes pra buscar informações."*

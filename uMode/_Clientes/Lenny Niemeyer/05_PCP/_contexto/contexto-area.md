@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento e Controle da Produção · Contexto de área — Lenny Niemeyer"
+---
 # Planejamento e Controle da Produção · Contexto de área — Lenny Niemeyer
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

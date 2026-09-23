@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Parecer Claude — Revisão adversarial da esteira SmartCoding governada (2026-09-02)"
+---
 # Parecer Claude — Revisão adversarial da esteira SmartCoding governada (2026-09-02)
 
 > Revisão read-only do pacote do HERMES (PR #15 do `umode-os-vault`, branch

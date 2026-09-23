@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ana Flávia Maran Carrilo · Pessoa"
+---
 # Ana Flávia Maran Carrilo · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

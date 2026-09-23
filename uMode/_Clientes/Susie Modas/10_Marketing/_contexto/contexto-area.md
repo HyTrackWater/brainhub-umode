@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área — Susie Modas"
+---
 # Marketing · Contexto de área — Susie Modas
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

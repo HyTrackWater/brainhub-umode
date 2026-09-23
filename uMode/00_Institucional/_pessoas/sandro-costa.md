@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Sandro Costa · Pessoa"
+---
 # Sandro Costa · Pessoa
 
 ## Identificação

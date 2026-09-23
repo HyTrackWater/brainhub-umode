@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caroline Faro Xavier · Pessoa"
+---
 # Caroline Faro Xavier · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

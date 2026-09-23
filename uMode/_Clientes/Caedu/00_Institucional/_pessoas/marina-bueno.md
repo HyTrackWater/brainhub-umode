@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · marina bueno"
+---
 # Caedu · Pessoa · marina bueno
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

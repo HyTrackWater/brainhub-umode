@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Governança da Squad de Desenvolvimento uMode"
+---
 # Governança da Squad de Desenvolvimento uMode
 
 > Documento de governança do desenvolvimento de software na uMode. Define **quem faz o quê** (os

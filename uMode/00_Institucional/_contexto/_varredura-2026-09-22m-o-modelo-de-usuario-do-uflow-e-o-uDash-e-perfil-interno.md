@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (m) — o modelo de usuário do uFlow, e `uDash` é perfil interno"
+---
 # Varredura 22 set 2026 (m) — o modelo de usuário do uFlow, e `uDash` é perfil interno
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

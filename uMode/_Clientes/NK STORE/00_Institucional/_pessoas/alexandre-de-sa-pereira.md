@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Alexandre de Sá Pereira"
+---
 # NK STORE · Pessoa · Alexandre de Sá Pereira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

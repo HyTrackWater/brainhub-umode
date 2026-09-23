@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Victoria"
+---
 # Lofty Style · Pessoa · Victoria
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

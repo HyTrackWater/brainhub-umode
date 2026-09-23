@@ -1,3 +1,7 @@
+---
+aliases:
+  - "4takes · Pendências e fontes varridas"
+---
 # 4takes · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

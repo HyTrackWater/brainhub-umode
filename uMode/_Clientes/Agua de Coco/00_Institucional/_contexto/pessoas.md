@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Agua de Coco · Pessoas"
+---
 # Agua de Coco · Pessoas
 
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**

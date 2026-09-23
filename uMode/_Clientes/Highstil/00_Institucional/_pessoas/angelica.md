@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Highstil · Pessoa · Angelica"
+---
 # Highstil · Pessoa · Angelica
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

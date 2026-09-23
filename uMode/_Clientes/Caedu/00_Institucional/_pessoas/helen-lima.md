@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Helen Santos de Lima"
+---
 # Caedu · Pessoa · Helen Santos de Lima
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

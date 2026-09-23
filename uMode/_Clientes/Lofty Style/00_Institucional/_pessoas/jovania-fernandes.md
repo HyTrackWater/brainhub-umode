@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Jovania"
+---
 # Lofty Style · Pessoa · Jovania
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

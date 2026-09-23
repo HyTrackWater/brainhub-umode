@@ -1,3 +1,7 @@
+---
+aliases:
+  - "BrainHub · uMode"
+---
 # BrainHub · uMode
 
 Repositório de contexto institucional do projeto BrainHub.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Qualidade · Contexto de área — Oficina Reserva"
+---
 # Qualidade · Contexto de área — Oficina Reserva
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

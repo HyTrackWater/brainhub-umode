@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Qualidade · Contexto de área"
+---
 # Qualidade · Contexto de área
 
 ## O que esta área faz

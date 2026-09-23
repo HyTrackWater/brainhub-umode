@@ -1,3 +1,7 @@
+---
+aliases:
+  - "CLAUDE_OPERADOR.md — Perfil do Operador"
+---
 # CLAUDE_OPERADOR.md — Perfil do Operador
 
 > Arquivo-raiz do boilerplate governado da uMode. Lido por **qualquer** agente **antes** de interagir.

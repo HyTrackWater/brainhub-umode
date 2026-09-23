@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · andrea mendes"
+---
 # Puket · Pessoa · andrea mendes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

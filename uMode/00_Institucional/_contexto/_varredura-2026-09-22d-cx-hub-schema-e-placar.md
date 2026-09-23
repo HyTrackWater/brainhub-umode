@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (d) — o CX Hub como referência de desenho, e o placar dos avanços"
+---
 # Varredura 22 set 2026 (d) — o CX Hub como referência de desenho, e o placar dos avanços
 
 > Instrução do Vinicius: *"o repositório do CX Hub te proporciona a possibilidade de levantar

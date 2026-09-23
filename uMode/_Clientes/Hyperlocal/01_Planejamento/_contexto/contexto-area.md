@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Hyperlocal"
+---
 # Planejamento · Contexto de área — Hyperlocal
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

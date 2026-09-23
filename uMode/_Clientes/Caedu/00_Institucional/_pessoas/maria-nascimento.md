@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · maria nascimento"
+---
 # Caedu · Pessoa · maria nascimento
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "CLAUDE.md — Instruções operacionais do BrainHub uMode"
+---
 # CLAUDE.md — Instruções operacionais do BrainHub uMode
 
 > Este arquivo é lido automaticamente pelo Claude Code ao abrir este repositório.

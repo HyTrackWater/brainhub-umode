@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Camys · Pessoa · DIGITAL, SAC & INSIDe"
+---
 # Camys · Pessoa · DIGITAL, SAC & INSIDe
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

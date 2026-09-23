@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Laís"
+---
 # NK STORE · Pessoa · Laís
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

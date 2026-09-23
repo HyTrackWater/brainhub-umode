@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · priscilla retucci"
+---
 # Osklen · Pessoa · priscilla retucci
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

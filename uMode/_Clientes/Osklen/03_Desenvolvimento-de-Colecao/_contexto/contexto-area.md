@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Desenvolvimento de Coleção · Contexto de área — Osklen"
+---
 # Desenvolvimento de Coleção · Contexto de área — Osklen
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma das 33 pessoas que responderam à pesquisa de kick-off declarou esta área**, e nenhuma outra fonte varrida a menciona.

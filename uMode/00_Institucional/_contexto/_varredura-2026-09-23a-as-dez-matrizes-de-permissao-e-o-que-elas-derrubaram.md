@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 23 set 2026 (a) — as matrizes de permissão fecharam, e derrubaram duas conclusões minhas"
+---
 # Varredura 23 set 2026 (a) — as matrizes de permissão fecharam, e derrubaram duas conclusões minhas
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

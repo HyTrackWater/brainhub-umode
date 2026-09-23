@@ -1,3 +1,7 @@
+---
+aliases:
+  - "[Nome completo] · Pessoa"
+---
 # [Nome completo] · Pessoa
 
 ## Identificação

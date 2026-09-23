@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Varredura 22 set 2026 (k) — o suporte está bloqueado, e o fornecedor tem login"
+---
 # Varredura 22 set 2026 (k) — o suporte está bloqueado, e o fornecedor tem login
 
 > **Classe: `REGISTRO`.** Evidência datada. **Não é autoridade e não se edita.**

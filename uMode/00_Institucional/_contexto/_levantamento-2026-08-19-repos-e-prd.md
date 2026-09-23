@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Levantamento 19 ago 2026 — os cinco repositórios, e onde o PRD está de fato"
+---
 # Levantamento 19 ago 2026 — os cinco repositórios, e onde o PRD está de fato
 
 > Feito por **verificação direta na máquina do Vinicius**, não por leitura do pacote de contexto. O

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · mayara moura"
+---
 # Caedu · Pessoa · mayara moura
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

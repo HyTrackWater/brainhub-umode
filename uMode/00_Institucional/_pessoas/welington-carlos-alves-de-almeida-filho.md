@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Welington Carlos Alves de Almeida Filho · Pessoa"
+---
 # Welington Carlos Alves de Almeida Filho · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

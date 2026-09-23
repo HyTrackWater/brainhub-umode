@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Paula Dorsch Benevides Martins · Pessoa"
+---
 # Paula Dorsch Benevides Martins · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

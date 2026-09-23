@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Operações · Contexto de área"
+---
 # Operações · Contexto de área
 
 ## O que esta área faz

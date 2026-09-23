@@ -1,3 +1,7 @@
+---
+aliases:
+  - "4takes · Institucional"
+---
 # 4takes · Institucional
 
 > **Criado/reescrito em 22 set 2026 por varredura do Notion ao vivo.**

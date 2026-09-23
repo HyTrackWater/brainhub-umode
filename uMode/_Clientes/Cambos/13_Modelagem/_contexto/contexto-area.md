@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Modelagem · Contexto de área — Cambos"
+---
 # Modelagem · Contexto de área — Cambos
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Qualidade · Contexto de área — Osklen"
+---
 # Qualidade · Contexto de área — Osklen
 
 > Criado em **22 set 2026** por varredura do Notion ao vivo, incluindo a base

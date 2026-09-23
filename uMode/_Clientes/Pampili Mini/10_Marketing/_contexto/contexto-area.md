@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Marketing · Contexto de área — Pampili Mini"
+---
 # Marketing · Contexto de área — Pampili Mini
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

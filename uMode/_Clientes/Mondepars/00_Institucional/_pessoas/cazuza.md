@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mondepars · Pessoa · Matheus Cazuza"
+---
 # Mondepars · Pessoa · Matheus Cazuza
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

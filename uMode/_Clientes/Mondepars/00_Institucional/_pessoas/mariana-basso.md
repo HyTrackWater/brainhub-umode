@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mondepars · Pessoa · mariana basso"
+---
 # Mondepars · Pessoa · mariana basso
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

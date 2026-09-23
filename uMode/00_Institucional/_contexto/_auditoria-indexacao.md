@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Auditoria de padronização e indexação — 03 ago 2026"
+---
 # Auditoria de padronização e indexação — 03 ago 2026
 
 > Medição, não opinião: todo número aqui saiu de varredura dos arquivos reais, logo depois da

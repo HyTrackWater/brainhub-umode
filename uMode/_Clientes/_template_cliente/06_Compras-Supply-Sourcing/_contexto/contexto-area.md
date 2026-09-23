@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Compras / Supply / Sourcing · Contexto de área"
+---
 # Compras / Supply / Sourcing · Contexto de área
 
 ## O que esta área faz

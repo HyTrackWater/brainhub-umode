@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · ROSANA RIBEIRO DA SILVA CAMPOS"
+---
 # NK STORE · Pessoa · ROSANA RIBEIRO DA SILVA CAMPOS
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

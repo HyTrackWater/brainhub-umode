@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · thays pantaleao"
+---
 # Osklen · Pessoa · thays pantaleao
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

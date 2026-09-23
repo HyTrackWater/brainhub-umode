@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — Recco"
+---
 # Planejamento · Contexto de área — Recco
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

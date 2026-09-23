@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · gabriela rocin"
+---
 # NK STORE · Pessoa · gabriela rocin
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

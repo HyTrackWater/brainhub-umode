@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Pessoa · bruno vasconcellos"
+---
 # Osklen · Pessoa · bruno vasconcellos
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

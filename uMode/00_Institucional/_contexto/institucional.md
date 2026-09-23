@@ -1,3 +1,7 @@
+---
+aliases:
+  - "uMode · Institucional"
+---
 # uMode · Institucional
 
 ## Identidade

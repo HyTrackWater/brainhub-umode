@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · tayna basile"
+---
 # Puket · Pessoa · tayna basile
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

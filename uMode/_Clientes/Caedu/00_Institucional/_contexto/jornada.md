@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Jornada"
+---
 # Caedu · Jornada
 
 > **Atualizado em 21 set 2026 por varredura do Notion ao vivo**, cruzando a base `Mapa de Clientes`,

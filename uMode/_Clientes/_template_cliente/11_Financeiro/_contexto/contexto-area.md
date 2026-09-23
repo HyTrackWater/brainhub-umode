@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Financeiro · Contexto de área"
+---
 # Financeiro · Contexto de área
 
 ## O que esta área faz

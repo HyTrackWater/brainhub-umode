@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lucas Raniel Ferreira de Araújo · Pessoa"
+---
 # Lucas Raniel Ferreira de Araújo · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

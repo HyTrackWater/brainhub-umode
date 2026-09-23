@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Desenvolvimento de Coleção · Contexto de área — Puket"
+---
 # Desenvolvimento de Coleção · Contexto de área — Puket
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo. Campo sem fonte fica `[a preencher]`.

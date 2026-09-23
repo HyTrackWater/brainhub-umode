@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · beatriz nunes"
+---
 # NK STORE · Pessoa · beatriz nunes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

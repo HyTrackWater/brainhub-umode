@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Baw · Pessoa · Mariana Basso"
+---
 # Baw · Pessoa · Mariana Basso
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

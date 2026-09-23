@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · rosimare simoes"
+---
 # Puket · Pessoa · rosimare simoes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "ESPEC-BANCO-001 v2 — Especificação do banco do BrainHub"
+---
 # ESPEC-BANCO-001 v2 — Especificação do banco do BrainHub
 
 > Escrita em **17 ago 2026** por Vinicius Risoléo (com Claude Code) para implementação por Bergson.

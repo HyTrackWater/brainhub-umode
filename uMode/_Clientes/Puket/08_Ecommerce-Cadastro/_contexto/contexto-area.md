@@ -1,3 +1,7 @@
+---
+aliases:
+  - "E-commerce e Cadastro · Contexto de área — Puket"
+---
 # E-commerce e Cadastro · Contexto de área — Puket
 
 > Criado em **21 set 2026**. ⚠ **Nenhuma pessoa da Puket tem perfil de acesso correspondente a esta

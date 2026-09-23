@@ -1,3 +1,7 @@
+---
+aliases:
+  - "ESPEC-PESSOAS-001 v1 — Pessoas e comunicações como entidades do banco"
+---
 # ESPEC-PESSOAS-001 v1 — Pessoas e comunicações como entidades do banco
 
 > Escrita em **21 set 2026** por Vinicius Risoléo (com Claude Code), a partir da varredura ao vivo

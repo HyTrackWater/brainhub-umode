@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Plie · Pessoa · Denize"
+---
 # Plie · Pessoa · Denize
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

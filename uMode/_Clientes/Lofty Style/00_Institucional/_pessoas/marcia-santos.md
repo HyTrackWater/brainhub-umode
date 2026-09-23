@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · marcia santos"
+---
 # Lofty Style · Pessoa · marcia santos
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Financeiro · Contexto de área — Ladeira Bijuterias"
+---
 # Financeiro · Contexto de área — Ladeira Bijuterias
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

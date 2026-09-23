@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Compras, Supply e Sourcing · Contexto de área — Ladeira Bijuterias"
+---
 # Compras, Supply e Sourcing · Contexto de área — Ladeira Bijuterias
 
 > Criado em **22 set 2026**. ⚠ **Nenhuma fonte varrida menciona esta área neste cliente.**

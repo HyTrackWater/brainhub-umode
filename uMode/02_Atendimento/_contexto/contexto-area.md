@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Atendimento · Contexto de área"
+---
 # Atendimento · Contexto de área
 
 ## O que esta área faz

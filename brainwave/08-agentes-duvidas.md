@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Prompt de execução — BrainWave · Tarefa 08: aba 'Agentes' — reserva do agente de Dúvidas"
+---
 # Prompt de execução — BrainWave · Tarefa 08: aba "Agentes" — reserva do agente de Dúvidas
 
 > Texto pronto pra colar direto no BrainWave, como está, sem edição. Autocontido — o BrainWave

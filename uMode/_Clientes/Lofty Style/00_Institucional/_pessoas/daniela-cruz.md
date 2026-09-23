@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoa · Daniela Barcelos da Cruz"
+---
 # Lofty Style · Pessoa · Daniela Barcelos da Cruz
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

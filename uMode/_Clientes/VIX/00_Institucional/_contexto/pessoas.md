@@ -1,3 +1,7 @@
+---
+aliases:
+  - "VIX · Pessoas"
+---
 # VIX · Pessoas
 
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo**, incluindo a sub-página

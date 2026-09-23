@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Cambos · Integração"
+---
 # Cambos · Integração
 
 > Criado em 03 ago 2026 a partir do repositório de integração real, e **preenchido com a

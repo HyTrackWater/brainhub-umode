@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · giulia gomes"
+---
 # Puket · Pessoa · giulia gomes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

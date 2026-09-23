@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Roselene"
+---
 # Caedu · Pessoa · Roselene
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

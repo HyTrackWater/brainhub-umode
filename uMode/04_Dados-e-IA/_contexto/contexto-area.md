@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Dados & IA · Contexto de área"
+---
 # Dados & IA · Contexto de área
 
 ## O que esta área faz

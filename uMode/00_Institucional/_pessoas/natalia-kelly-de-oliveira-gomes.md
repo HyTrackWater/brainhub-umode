@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Natália kelly de oliveira gomes · Pessoa"
+---
 # Natália kelly de oliveira gomes · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

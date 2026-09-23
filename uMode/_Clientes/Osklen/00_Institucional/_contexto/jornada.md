@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Osklen · Jornada"
+---
 # Osklen · Jornada
 
 > **Reescrito em 22 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.

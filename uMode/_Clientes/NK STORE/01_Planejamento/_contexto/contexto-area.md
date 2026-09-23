@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Planejamento · Contexto de área — NK STORE"
+---
 # Planejamento · Contexto de área — NK STORE
 
 > Criado em **21 set 2026**. 🔴 **`Planejamento` foi confirmado como departamento envolvido na reunião de warm-up de 19/06, tem coordenadora nomeada — e não existe na base de usuários do PLM.**

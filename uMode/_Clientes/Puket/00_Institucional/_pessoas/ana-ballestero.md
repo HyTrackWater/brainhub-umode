@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoa · ana ballestero"
+---
 # Puket · Pessoa · ana ballestero
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

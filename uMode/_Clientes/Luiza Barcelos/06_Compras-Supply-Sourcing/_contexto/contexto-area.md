@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Compras, Supply e Sourcing · Contexto de área — Luiza Barcelos"
+---
 # Compras, Supply e Sourcing · Contexto de área — Luiza Barcelos
 
 > Criado em **21 set 2026** por varredura do Notion ao vivo.

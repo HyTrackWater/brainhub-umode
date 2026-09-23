@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Backlog de convergência — nosso BrainHub × o vault do João"
+---
 # Backlog de convergência — nosso BrainHub × o vault do João
 
 > Criado em **04 ago 2026** a partir de vistoria **somente leitura** de

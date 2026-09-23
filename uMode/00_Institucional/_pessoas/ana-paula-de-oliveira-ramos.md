@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Ana Paula de Oliveira Ramos · Pessoa"
+---
 # Ana Paula de Oliveira Ramos · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base

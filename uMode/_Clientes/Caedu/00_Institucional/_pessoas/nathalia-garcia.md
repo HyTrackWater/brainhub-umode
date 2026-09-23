@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · nathalia garcia"
+---
 # Caedu · Pessoa · nathalia garcia
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

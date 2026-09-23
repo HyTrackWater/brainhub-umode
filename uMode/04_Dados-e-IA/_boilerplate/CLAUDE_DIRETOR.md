@@ -1,3 +1,7 @@
+---
+aliases:
+  - "CLAUDE_DIRETOR.md — Diretor de Produto / Negócios"
+---
 # CLAUDE_DIRETOR.md — Diretor de Produto / Negócios
 
 > Arquivo-raiz do boilerplate governado da uMode. Agente (Claude Project). É o único agente que fala

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NV · Pessoa · Karina"
+---
 # NV · Pessoa · Karina
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

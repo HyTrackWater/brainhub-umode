@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoa · Nelson Tadeu Alves Ferreira"
+---
 # NK STORE · Pessoa · Nelson Tadeu Alves Ferreira
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

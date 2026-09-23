@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · Fabiana Oliveira dos Santos"
+---
 # Caedu · Pessoa · Fabiana Oliveira dos Santos
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

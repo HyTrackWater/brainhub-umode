@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Studio Z · Pendências e fontes varridas"
+---
 # Studio Z · Pendências e fontes varridas
 
 > **Classe: `AUTORIDADE`** sobre **as pendências e a cobertura de varredura DESTE cliente.**

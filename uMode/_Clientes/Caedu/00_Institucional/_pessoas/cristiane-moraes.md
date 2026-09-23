@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Pessoa · cristiane moraes"
+---
 # Caedu · Pessoa · cristiane moraes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**

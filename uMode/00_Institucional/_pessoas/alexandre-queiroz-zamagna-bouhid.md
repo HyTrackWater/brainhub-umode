@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Alexandre Queiroz Zamagna Bouhid · Pessoa"
+---
 # Alexandre Queiroz Zamagna Bouhid · Pessoa
 
 > **Ficha gerada por `scripts/gera-fichas-umoder.py` em 23 set 2026**, a partir da base
