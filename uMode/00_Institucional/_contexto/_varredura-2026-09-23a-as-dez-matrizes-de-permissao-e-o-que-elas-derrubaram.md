@@ -156,12 +156,29 @@ Duas células da coluna `Lofty - Compras MP`: `[C]`
 
 > 🔴 **É a primeira vez no corpus que a permissão é de uma pessoa, não de um perfil.**
 
-🔴 **E o modelo de dados do uFlow não tem onde guardar isso.** O registro `(m)` leu a
-cadeia: `jumper_users` → `user_roles` → `policies`. **A permissão pendura na `policy`, e a
-`policy` é do perfil.**
+> 🔺 **CORRIGIDO NO MESMO DIA, algumas horas depois.** O que vem abaixo deste
+> quadro **está errado** e fica aqui porque `REGISTRO` guarda o que eu escrevi, não o que
+> eu gostaria de ter escrito. **A correção é autoridade em
+> [`_dicionario-permissionamento-uflow.md`](_dicionario-permissionamento-uflow.md) § 4.**
+>
+> 🟢 **O mecanismo existe e chama-se `scopable`.** Vale `policy` (o perfil inteiro) ou
+> **`user`** (um usuário específico), e está documentado desde 2024 no
+> `📕 Manual do Permissionamento`. **Há até um controller dedicado:
+> `j3/user_or_policy_accesses`.**
+>
+> **Por que eu errei:** o registro `(m)` leu uma **query de análise de acesso** e eu tratei
+> aquele recorte como **o modelo inteiro**. ⚠ **É parente do erro do `entity_id = 3344`:
+> tomar o alcance de um artefato pelo alcance do sistema.** E é a quinta variação de
+> *"não encontrei em X" virando "não existe"* — desta vez com a página que respondia
+> já listada como fonte não varrida, a uma leitura de distância.
 
-⚠ **Ou existe um mecanismo que eu não vi, ou a regra só existe no papel.** Registrei como
-pergunta — **não afirmo nenhuma das duas.**
+~~🔴 **E o modelo de dados do uFlow não tem onde guardar isso.** O registro `(m)` leu a
+cadeia: `jumper_users` → `user_roles` → `policies`. **A permissão pendura na `policy`, e a
+`policy` é do perfil.**~~
+
+~~⚠ **Ou existe um mecanismo que eu não vi, ou a regra só existe no papel.**~~ **A pergunta ao
+Vinicius muda de forma:** não é mais *"como isso está implementado?"* — é **"a Isadora tem
+`scopable: user` de fato, ou é combinado que ninguém aplicou?"**
 
 ⚠ **`Isadora` e `Dora` estão na mesma coluna.** Provavelmente a mesma pessoa com dois
 apelidos. **Não fundi.**

@@ -57,6 +57,16 @@ GLOBAIS = [
      u"7 etapas; **discorda do campo `Status`**", u"⚠ **não**: as 5 páginas de etapa não foram abertas"),
     (u"Repositório do **CX Hub**", u"leitura de código", u"22 set 2026",
      u"schema e modelo; **não é fonte de dado** — feature nunca finalizada", u"sim"),
+    (u"🟢 **As 10 páginas `Perfil de Usuário e Permissionamentos`**",
+     u"sub-página de cliente — VIX, Luiza Barcelos, Oficina Reserva, Lenny, "
+     u"Cambos, NK STORE, Moda Objetiva, Recco, NV e Lofty Style", u"23 set 2026",
+     u"perfis por cliente (de 3 a 17), matriz de permissão, e o placar do "
+     u"`Fale com o Suporte`: **4 bloqueados × 6 liberados**",
+     u"🟢 **sim, as dez** — ⚠ exceto 12 sub-páginas de perfil da NV"),
+    (u"📕 **Manual do Permissionamento**", u"`6d0379fa…`, em `uFlow / Setup - PLM`", u"23 set 2026",
+     u"🟢 **o MECANISMO**: `Includes`/`Excludes`, os 3 controllers, `scopable: user|policy`, "
+     u"23 parâmetros de `actions`, 20 `entity_configs` e o mapa de **72 controllers**",
+     u"🟢 **sim, por inteiro** — virou `_dicionario-permissionamento-uflow.md`"),
     (u"**Google Drive** — pastas de operação", u"varredura de 03 ago 2026", u"03 ago 2026",
      u"16 Soluções, Arquitetura V1, planilha de acessos", u"⚠ **não**"),
 ]
@@ -76,9 +86,6 @@ NAO_VARRIDAS = [
     (u"🔴 **`uMode Geral / uFlow / Documentação de Setup - PLM / CLIENTES`**",
      u"segundo acervo de documentação por cliente, fora do `Mapa de Clientes`",
      u"**setup de PLM por cliente** — achado em 22 set 2026, jamais tocado"),
-    (u"**As 10 páginas `Perfil de Usuário e Permissionamentos`**",
-     u"sub-página de cliente", u"**perfis = áreas do cliente** e a matriz de permissão "
-     u"— **2 lidas de 10**"),
     (u"🟢 `Controle de Acessos de Usuários` — **LIDA em 22 set 2026**",
      u"`uModers / Vinícius Risoleo / Assunto | Ferramenta`",
      u"deu o **modelo de dados do uFlow**; ⚠ **falta rodar as queries** e trazer o "
@@ -90,6 +97,12 @@ NAO_VARRIDAS = [
     (u"**`Operation Hub`** e o domínio `documentacao.umode.tech`",
      u"`Operação de Clientes`",
      u"🔴 **segundo domínio de documentação**, além do `docs.umode.app`"),
+    (u"Página `Ficha de Produto` e suas **7 sub-páginas de permissionamento em template**",
+     u"`c3deb3dd…` — citada pelo Manual do Permissionamento",
+     u"**como se bloqueia edição de aba e se libera campo por usuário** dentro da ficha"),
+    (u"`umode.app/admin/j3_entity_configs`", u"painel administrativo de "
+     u"**produção** — não acessado",
+     u"🔴 **quais `entity_configs` existem e em que conta estão ativas.** O Manual lista 20 como exemplo, não como catálogo"),
     (u"**Grupos de WhatsApp**", u"fora de qualquer sistema",
      u"operação real — a Reserva tem 9 mapeados"),
 ]
@@ -1225,8 +1238,8 @@ PERGUNTAS = {
 
 # PERGUNTAS QUE NAO SAO DE UM CLIENTE SO.
 PERGUNTAS_GERAIS = [
-    (u"\U0001F534 **A matriz da Lofty Style d\u00e1 permiss\u00e3o a uma PESSOA dentro da c\u00e9lula de um PERFIL** \u2014 *Liberado s\u00f3 Isadora desse Perfil* e *Somente a Dora*. **Como isso est\u00e1 implementado de verdade?** Perfil separado s\u00f3 para ela, exce\u00e7\u00e3o no c\u00f3digo, ou combinado que ningu\u00e9m aplicou?", u"T2",
-     u"\U0001F534 **o modelo de dados do uFlow n\u00e3o tem onde guardar permiss\u00e3o nominal** (`jumper_users` \u2192 `user_roles` \u2192 `policies`). **Ou existe um mecanismo que eu n\u00e3o vi, ou a regra s\u00f3 existe no papel.**", u"aberta"),
+    (u"🔺 **Pergunta reformulada no mesmo dia.** A matriz da Lofty Style dá permissão a uma PESSOA (*Liberado só Isadora desse Perfil*, *Somente a Dora*). 🟢 **O mecanismo existe — é `scopable: user`, documentado desde 2024 no Manual do Permissionamento.** Então a pergunta é outra: **essas duas regras estão APLICADAS no sistema, ou só combinadas no papel?**", u"T2",
+     u"eu tinha escrito que o uFlow não tinha onde guardar isso. **Tinha — e a página que respondia já estava na minha lista de fontes não varridas, a uma leitura de distância.**", u"aberta"),
     (u"Tr\u00eas clientes t\u00eam um perfil que \u00e9 s\u00f3 consulta \u2014 `Objetiva - Consulta`, `NV - View` e `Lofty - Mkt, Multimarcas e ecommerce`. **Isso \u00e9 uma licen\u00e7a mais barata, ou o mesmo usu\u00e1rio com menos permiss\u00e3o?**",
      u"T1", u"mexe em contagem de usu\u00e1rio contratado", u"aberta"),
     (u"Onze linhas da Lofty Style e oito da Moda Objetiva est\u00e3o \U0001F534 para **todos os perfis, Admin inclusive**. **Isso \u00e9 permiss\u00e3o negada ou funcionalidade desligada na conta?**", u"T2",
