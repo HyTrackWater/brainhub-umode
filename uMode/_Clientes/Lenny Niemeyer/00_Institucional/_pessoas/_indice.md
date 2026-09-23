@@ -7,7 +7,7 @@
 
 **Cliente:** [institucional.md](../_contexto/institucional.md) · [jornada.md](../_contexto/jornada.md) · [pessoas.md](../_contexto/pessoas.md)
 
-**9 fichas:**
+**12 fichas:**
 
 - [amanda](amanda.md)
 - [andre](andre.md)
@@ -15,6 +15,9 @@
 - [gabi](gabi.md)
 - [giuliana](giuliana.md)
 - [juliana](juliana.md)
+- [lulu](lulu.md)
+- [maria-helena-ortiz-niemeyer](maria-helena-ortiz-niemeyer.md)
 - [mariana](mariana.md)
 - [natalia](natalia.md)
 - [renato](renato.md)
+- [victor-siqueira](victor-siqueira.md)

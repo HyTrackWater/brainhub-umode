@@ -3168,3 +3168,37 @@ caminho).
   para impedir retrabalho causou retrabalho.** Corrigido no `gera-pendencias-e-fontes.py`: a
   entrada saiu da lista e a § 4 passou a carregar a regra de poda.
   **Registros:** `_varredura-2026-09-23f`. **Itens 501–507.**
+
+- **23 set 2026** — Sessão 45: **a colheita de pessoas, e a expectativa corrigida.**
+  🔺 **Cobrança do Vinicius, aceita:** *"parece que está trazendo muito mais que encontra coisas
+  vazias... está apontando problemas nos próprios arquivos"*. **Estava.** A sessão tinha virado
+  auditoria de mecanismo. Virei para colheita de entidade.
+  🟢 **CAEDU: 10 → 100 fichas de pessoa.** A página dela no `Mapa de Clientes` carregava uma
+  **tabela de 93 usuários** nunca extraída — nome, **e-mail corporativo**, **perfil de acesso**,
+  `Ativo desde` e 6 colunas de permissão. **Total de pessoa de cliente: 225 → 318.**
+  🔴 **O que NÃO fiz de propósito:** não mapeei `Perfil de Acesso` para a grade de 14 áreas
+  canônicas. **Perfil é como o cliente nomeia, não área organizacional** — cada ficha diz isso.
+  🔺 **Sujeira da fonte preservada e sinalizada:** 9 datas `Ativo desde` corrompidas (`0202`),
+  `Admim` escrito assim na origem, 9 células que misturam cargo e perfil.
+  🔺 **A replicação para os 15 clientes com página aberta rendeu 2, não 15 — e a razão importa.**
+  **A tabela de usuários da CAEDU é exceção:** só a **Puket** tem outra (43 linhas, versão
+  reduzida de 4 colunas), **e já estava extraída**. O que existe de verdade é o **toggle
+  `Pessoas`, em 6 de 15** — e **4 já estavam no gerador**. 🟢 **Novos: Lenny Niemeyer e Recco.**
+  **Conferi o gerador ANTES de escrever** — foi o que evitou repetir Puket, NK STORE, Cambos,
+  Luiza Barcelos e Moda Objetiva. **É a lição do item 506 aplicada no mesmo dia.**
+  🚨 **Terceira página com credencial em texto claro: `Lofty Style`** (senha da doc de
+  integração), ao lado da **NK STORE** (usuário/senha/IP do banco Linx) e da página `Credenciais`
+  do uFlow. **Nenhum valor copiado. Quatro focos conhecidos.**
+  🔴 **Achada a primeira pessoa ligada a `Fashion IA` em qualquer fonte:** na **Recco**, `Aline —
+  Analista de Ecommerce` é nomeada *Líder Responsável pelo Projeto — **Fashion AI***.
+  ⚠ **Grafia divergente:** `Fashion AI` na página, `Fashion IA` na base do Financeiro.
+  **E a Recco está em `Churn`** — o serviço que o corpus não conhecia tinha líder nomeada numa
+  conta perdida.
+  🔴 **`financeiro3@recco.com.br` é caixa de setor, não endereço nominal** — idêntico à property
+  da página. **Caixa de setor não serve como chave de identidade** (item 252): a regra precisa
+  distinguir nominal de setor.
+  🔵 **Fonte nova, não varrida: 5 bases de Pesquisa de Satisfação** (Lofty, Lenny, Recco,
+  Osklen). Trazem **nome e área do respondente** — a da Lenny declara 22. **É a melhor fonte de
+  pessoa ainda fechada.** E há **sub-páginas de perfil de acesso fechadas na Baw (4) e na
+  Oficina Reserva (1)** — o lugar provável dos usuários delas.
+  **Itens 516–523.**

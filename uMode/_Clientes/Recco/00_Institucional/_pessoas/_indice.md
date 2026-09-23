@@ -7,9 +7,12 @@
 
 **Cliente:** [institucional.md](../_contexto/institucional.md) · [jornada.md](../_contexto/jornada.md) · [pessoas.md](../_contexto/pessoas.md)
 
-**4 fichas:**
+**7 fichas:**
 
+- [aline](aline.md)
+- [barbara](barbara.md)
 - [flavia](flavia.md)
+- [marcelo](marcelo.md)
 - [patricia](patricia.md)
 - [priscila](priscila.md)
 - [vitor](vitor.md)

@@ -121,7 +121,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50 · 49 · 49** | idem |
 | Demandas | **999** — 994 de cliente + 5 da Casa | idem · 1 staging `SUPERSEDED` |
 | RFIs | **86** | idem · 1 staging `SUPERSEDED` |
-| Fichas de pessoa | **242** — 225 de cliente + 17 da Casa | `gera-fichas-pessoa.py` |
+| 🟢 **Fichas de pessoa** | **335** — 318 de cliente + 17 da Casa |
 | Fichas de ferramenta | **27** | `gera-fichas-ferramenta.py` |
 | Soluções do Portfólio | **16** | `03_Produto-e-Solucoes/` |
 | `integracao.md` | **11** | 5º MD de cliente |

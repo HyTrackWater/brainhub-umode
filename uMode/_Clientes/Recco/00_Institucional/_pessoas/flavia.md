@@ -9,18 +9,22 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-`[a preencher]` — a fonte registra **`Flávia`**
+**Flavia** — da página do cliente. A base de demandas a escreve como `Flávia`.
 ### Nome preferido / como é chamado(a)
 **Flávia**
 ### Email
-`[a preencher]`
+🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
+Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
+**Registro que existe e onde; o valor fica na fonte.**
 ### Cadeira / cargo atual
-`[a preencher]` — ⚠ **esta pessoa não aparece no toggle `Pessoas` da
-página do cliente**, que é onde o cargo vive quando existe.
+**[a preencher]**
+
+Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelos Projetos`.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-`[a preencher]` — 🔴 **o vínculo pessoa e área é a lacuna aberta do corpus**
+**[a preencher]** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
+14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode
@@ -35,6 +39,9 @@ página do cliente**, que é onde o cargo vive quando existe.
 `[a preencher]`
 ### Interfaces
 `[a preencher]`
+
+### Observação da fonte
+⚠ **Só o primeiro nome, sem cargo e sem e-mail** — os três rótulos existem na fonte e estão vazios. O sub-toggle a nomeia como *Líder Responsável pelo Projeto — **uFlow***.
 
 ## Histórico
 ### Áreas de atuação histórica

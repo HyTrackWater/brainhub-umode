@@ -9,18 +9,24 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-`[a preencher]` — a fonte registra **`Mariana`**
+**Mariana Bello** — da página do cliente. A base de demandas a escreve como `Mariana`.
 ### Nome preferido / como é chamado(a)
 **Mariana**
 ### Email
-`[a preencher]`
+**`mariana.bello@lennyniemeyer.com`** — e-mail **corporativo**, da página do cliente.
+
+🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+
+🔴 **A fonte também traz telefone, e num caso CPF — nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).
 ### Cadeira / cargo atual
-`[a preencher]` — ⚠ **esta pessoa não aparece no toggle `Pessoas` da
-página do cliente**, que é onde o cargo vive quando existe.
+**Líder do Desenvolvimento**
+
+Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelos Projetos`.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-`[a preencher]` — 🔴 **o vínculo pessoa e área é a lacuna aberta do corpus**
+**Desenvolvimento de Coleção** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
+14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode

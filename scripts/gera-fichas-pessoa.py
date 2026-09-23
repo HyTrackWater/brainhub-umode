@@ -110,6 +110,30 @@ def e_pessoa(nome):
 #
 # Formato: cliente -> [(nome como a pagina escreve, cargo, area, bloco)]
 DA_PAGINA = {
+    u"Lenny Niemeyer": [
+        (u"Maria Helena Ortiz Niemeyer", u"Diretora", u"Diretoria",
+         u"Diretores e Representantes Legais", u"lenny@lennyniemeyer.com"),
+        (u"Lulu", u"CEO", u"Diretoria",
+         u"Responsáveis pelos Projetos", u"lulu@lennyniemeyer.com"),
+        (u"André Rodrigues", u"Coordenado do Planejamento", u"Planejamento",
+         u"Responsáveis pelos Projetos", u"andre.rodrigues@lennyniemeyer.com"),
+        (u"Victor Siqueira", u"Planejamento", u"Planejamento",
+         u"Responsáveis pelos Projetos", u"victor.siqueira@lennyniemeyer.com"),
+        (u"Mariana Bello", u"Líder do Desenvolvimento", u"Desenvolvimento de Coleção",
+         u"Responsáveis pelos Projetos", u"mariana.bello@lennyniemeyer.com"),
+        (u"Renato Dias", u"[a preencher]", u"Tecnologia",
+         u"Responsável Tecnologia", u"renato.dias@lennyniemeyer.com"),
+    ],
+    u"Recco": [
+        (u"Marcelo", u"CEO", u"Diretoria",
+         u"Diretores e Representantes Legais", u""),
+        (u"Barbara", u"[a preencher]", u"Financeiro",
+         u"Responsável pelo Financeiro", u"financeiro3@recco.com.br"),
+        (u"Flavia", u"[a preencher]", u"[a preencher]",
+         u"Responsáveis pelos Projetos", u""),
+        (u"Aline", u"Analista de Ecommerce", u"E-commerce / Cadastro",
+         u"Responsáveis pelos Projetos", u""),
+    ],
     u"Luiza Barcelos": [
         (u"Luiz Raul Aleixo Barcelos", u"Diretor / Representante Legal", u"Diretoria",
          u"Diretores e Representantes Legais", u"luiz@luizabarcelos.com.br"),
@@ -202,6 +226,15 @@ DA_PAGINA = {
 USADAS = set()
 
 NOTA_PAGINA = {
+    (u"Lenny Niemeyer", u"Maria Helena Ortiz Niemeyer"): u"🔴 **O bloco da fonte traz também nacionalidade, estado civil, profissão, CPF/MF, RG (DETRAN/RJ) e telefone. NENHUM entrou aqui** — são `T0`, que entra por referência e nunca por valor (`AGORA.md` § 8.1). **Registro que existem e onde.**",
+    (u"Lenny Niemeyer", u"André Rodrigues"): u"⚠ **`Coordenado do Planejamento` está escrito assim na fonte**, sem o `r`. **Não corrigi.** O bloco também traz telefone (`T0`, não copiado).",
+    (u"Lenny Niemeyer", u"Victor Siqueira"): u"🟢 **O campo `Observação` da fonte diz *Trabalhou no Soma*.** ⚠ `Soma` é o grupo citado na descrição do segmento `Enterprise` (*Reserva + Soma*) — **não afirmo que seja o mesmo**, registro a coincidência. O bloco traz telefone (`T0`, não copiado).",
+    (u"Lenny Niemeyer", u"Lulu"): u"⚠ **A fonte lista `Lulu` como CEO e `Maria Helena Ortiz Niemeyer` como Diretora, em sub-toggles diferentes.** **Não fundi** — podem ser a mesma pessoa por apelido ou duas pessoas. `protocolo-varredura-cliente.md` § 9.",
+    (u"Lenny Niemeyer", u"Renato Dias"): u"⚠ **O rótulo `Cargo` existe na fonte e está vazio.** Não deduzi cargo a partir do sub-toggle.",
+    (u"Recco", u"Marcelo"): u"⚠ **Aparece DUAS vezes no mesmo toggle** — em `Diretores e Representantes Legais` e em `Responsáveis pelos Projetos`, com o mesmo cargo `CEO`. **Uma ficha só.** 🔴 **Não há e-mail em nenhuma das duas ocorrências** — o rótulo existe e está vazio. O bloco traz telefone (`T0`, não copiado).",
+    (u"Recco", u"Barbara"): u"🔴 **`financeiro3@recco.com.br` é CAIXA DE SETOR, não endereço nominal** — é idêntico à property `Email Principal Financeiro` da página. ⚠ **Não serve como chave de identidade de pessoa** (item 252): duas pessoas do financeiro teriam o mesmo.",
+    (u"Recco", u"Flavia"): u"⚠ **Só o primeiro nome, sem cargo e sem e-mail** — os três rótulos existem na fonte e estão vazios. O sub-toggle a nomeia como *Líder Responsável pelo Projeto — **uFlow***.",
+    (u"Recco", u"Aline"): u"🔴 **O sub-toggle a nomeia como *Líder Responsável pelo Projeto — **Fashion AI***.** ⚠ **`Fashion AI` é o serviço faturado que tem ZERO ocorrência no resto do corpus** (item 511) — e aqui ele aparece com líder nomeada, numa conta em `Churn`. **Primeira pessoa ligada a `Fashion IA` em qualquer fonte.**",
     (u"Moda Objetiva", u"Paula"): u"\u26a0 **O papel dela \u00e9 literalmente operar o ERP** \u2014 a fonte escreve `Cadastro ERP Ilimitar`. **\u00c9 a depend\u00eancia de ERP virando cadeira.**",
     (u"Moda Objetiva", u"Maria Carolina"): u"\u26a0 **Veio do bloco `Stakeholders`**, que **s\u00f3 esta conta tem** \u2014 os outros clientes t\u00eam quatro blocos, esta tem cinco. **O template de pessoa N\u00c3O \u00e9 fixo.**",
     (u"Luiza Barcelos", u"Luiz Raul Aleixo Barcelos"): u"🟢 **Trazido pelo Vinícius em 22 set 2026**, copiando à mão um bloco que este conector não renderiza. ⚠ **É o único Diretor/Representante Legal nomeado da conta**, e o e-mail dele é o mesmo do campo `Email Principal Financeiro` da base. 🔴 **A fonte traz telefone e CPF — nenhum dos dois entrou aqui.**",

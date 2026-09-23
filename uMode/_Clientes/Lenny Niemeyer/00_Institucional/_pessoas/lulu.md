@@ -1,4 +1,4 @@
-# Lenny Niemeyer · Pessoa · Andre
+# Lenny Niemeyer · Pessoa · Lulu
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
@@ -9,23 +9,23 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-**André Rodrigues** — da página do cliente. A base de demandas a escreve como `Andre`.
+**Lulu** — da página do cliente. A base de demandas a escreve como `Lulu`.
 ### Nome preferido / como é chamado(a)
-**Andre**
+**Lulu**
 ### Email
-**`andre.rodrigues@lennyniemeyer.com`** — e-mail **corporativo**, da página do cliente.
+**`lulu@lennyniemeyer.com`** — e-mail **corporativo**, da página do cliente.
 
 🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
 
 🔴 **A fonte também traz telefone, e num caso CPF — nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).
 ### Cadeira / cargo atual
-**Coordenado do Planejamento**
+**CEO**
 
 Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelos Projetos`.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-**Planejamento** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
+**Diretoria** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
 14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
@@ -43,7 +43,7 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelos P
 `[a preencher]`
 
 ### Observação da fonte
-⚠ **`Coordenado do Planejamento` está escrito assim na fonte**, sem o `r`. **Não corrigi.** O bloco também traz telefone (`T0`, não copiado).
+⚠ **A fonte lista `Lulu` como CEO e `Maria Helena Ortiz Niemeyer` como Diretora, em sub-toggles diferentes.** **Não fundi** — podem ser a mesma pessoa por apelido ou duas pessoas. `protocolo-varredura-cliente.md` § 9.
 
 ## Histórico
 ### Áreas de atuação histórica
@@ -80,12 +80,12 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelos P
 
 | Sinal | Valor |
 |---|---|
-| **Demandas abertas** | **6** |
-| Primeira atividade observada | 24/07/2025 |
-| Última atividade observada | 24/03/2026 |
+| **Demandas abertas** | **0** |
+| Primeira atividade observada | `[a preencher]` |
+| Última atividade observada | `[a preencher]` |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
 
-**Observação da fonte:** também André
+**Observação da fonte:** nao aparece na base de demandas
 
 ## Governança
 ### Quem pode alterar este documento

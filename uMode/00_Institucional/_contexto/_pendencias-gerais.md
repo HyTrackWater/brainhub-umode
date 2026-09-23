@@ -3221,3 +3221,44 @@
      **oportunidade na Cambos** (*"uPlan e IPSP — cliente não tem informações de performance"*).
      **São a mesma coisa? E o que é `IPSP`?** ⚠ **Grafia divergente já registrada:** o corpus
      também tem `ISPS` em outro ponto. **Uma das duas está errada.**
+
+## A colheita de pessoas nos 15 clientes com página aberta (23 set 2026)
+
+516. 🔺 **A tabela de usuários da CAEDU é EXCEÇÃO, não padrão.** Varridos os 15 clientes com
+     página aberta: **só a Puket tem tabela de usuários com e-mail** (43 linhas, e em versão
+     reduzida — 4 colunas, sem as 6 de permissão que a CAEDU tem). **Os outros 13 não têm.**
+     ⚠ **E a Puket já estava extraída.** **Expectativa corrigida: não há 93 pessoas por cliente
+     esperando em cada página.**
+517. 🔴 **O toggle `Pessoas` é o que realmente existe — e em 6 de 15.** NK STORE · Cambos ·
+     Luiza Barcelos · Moda Objetiva · Lenny Niemeyer · Recco. **Quatro já estavam no gerador**;
+     🟢 **Lenny Niemeyer e Recco foram extraídos agora** (+3 fichas na Lenny, +3 na Recco, com
+     cargo e e-mail). **Lofty Style tem o template vazio** e **7 não têm o toggle**:
+     Reserva · VIX · Puket · NV · Oficina Reserva · Baw · Loungerie.
+     ⚠ **Reforça o registro `_varredura-2026-09-22l`: o template de página de cliente existe e
+     quase ninguém segue.**
+518. 🚨 **TERCEIRA página com credencial em texto claro: `Lofty Style`.** A página expõe a senha
+     de acesso da documentação de integração. **Nenhum valor foi copiado.** Junta-se a
+     **NK STORE** (usuário/senha/IP do banco Linx, na própria página do cliente) e à página
+     `Credenciais` do uFlow (item 480). 🔴 **Agora são quatro focos conhecidos. A rotação é ação
+     do Vinicius.**
+519. 🔴 **Achada a PRIMEIRA pessoa ligada a `Fashion IA` em qualquer fonte.** Na Recco, o toggle
+     `Pessoas` nomeia **Aline, Analista de Ecommerce**, como *Líder Responsável pelo Projeto —
+     **Fashion AI***. ⚠ **A grafia na fonte é `Fashion AI`; na base de contratos do Financeiro é
+     `Fashion IA`** — duas grafias para o que parece ser a mesma coisa.
+     🔴 **E a Recco está em `Churn`.** Ou seja: o serviço que o corpus não conhecia (item 511)
+     tinha líder nomeada numa conta que a uMode perdeu. **Isso é fio para puxar.**
+520. ⚠ **`Soma` reaparece.** O campo `Observação` de Victor Siqueira (Lenny Niemeyer) diz
+     *"Trabalhou no Soma"*. `Soma` é o grupo citado na descrição do segmento `Enterprise`
+     (*"Reserva + Soma"*, item 502). **Não afirmo que seja o mesmo** — registro a coincidência.
+521. ⚠ **`financeiro3@recco.com.br` é caixa de setor, não endereço nominal** — idêntico à
+     property `Email Principal Financeiro` da página. 🔴 **Caixa de setor NÃO serve como chave
+     de identidade de pessoa** (item 252): duas pessoas do financeiro teriam a mesma.
+     **A regra de identidade precisa distinguir e-mail nominal de e-mail de setor.**
+522. 🔵 **Caminho novo, não varrido: as bases de Pesquisa de Satisfação.** Cinco encontradas —
+     Kick Off e Treinamento de `Lofty Style`, `Lenny`, `Recco` e `Osklen`. **Tipicamente trazem
+     nome e área do respondente**, ou seja, são censo parcial do time do cliente. A da Lenny
+     declara **22 respondentes por área**. **É a melhor fonte de pessoa ainda fechada.**
+523. 🔵 **Sub-páginas de perfil de acesso não abertas em Baw e Oficina Reserva.** Quatro na Baw
+     (`Perfil de Acesso - BAW`, mais `(1)`, `Estilo` e `Engenharia/Compras`) e uma na Oficina
+     (`2b6b1d38…`). **É o lugar provável dos usuários desses dois** — eles não têm toggle
+     `Pessoas` nem tabela.
