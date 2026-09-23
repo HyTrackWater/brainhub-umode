@@ -102,6 +102,24 @@ o título indica que **a integração de escrita tem pendências em aberto desde
 **Outras pessoas da uMode citadas:** **Taís** e **Sandro** (foram a SP para o kick-off) ·
 **Nayra** (comprou as passagens) · **Marina** (citada num chamado de melhoria).
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+### Vigência
+**2024-06-10 → 2027-05-10** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **30 dias**
+### Índice de reajuste
+IGPM/IPCA menor
+### Usuários contratados
+21 internos + 40 externos
+### Pendências contratuais registradas
+🔴 **Contrato sem data na assinatura / diferença valor tabela e valor total**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

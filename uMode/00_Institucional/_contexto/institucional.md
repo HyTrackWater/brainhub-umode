@@ -90,6 +90,34 @@ entre times e digitalizar processos que hoje vivem em e-mail, WhatsApp e planilh
 
 `[a preencher]`
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+
+`[a preencher]`
+
+### Vigência
+
+`[a preencher]`
+
+### Renovação e aviso prévio
+
+`[a preencher]`
+
+### Índice de reajuste
+
+`[a preencher]`
+
+### Usuários contratados
+
+`[a preencher]`
+
+### Pendências contratuais registradas
+
+`[a preencher]`
+
 ### Responsável de atendimento (uMode)
 
 `[a preencher]`

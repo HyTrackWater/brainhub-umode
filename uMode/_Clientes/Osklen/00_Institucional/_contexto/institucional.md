@@ -82,6 +82,24 @@ ressalva no kick-off.** Há duas páginas chamadas **`Integração de Escrita - 
 - **2025:** **Julianne & Pedro** — dupla que atende **6 contas**.
 - **2024:** **três** pessoas registradas como relação — `[a preencher]`
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow` · `uBuy`.
+### Vigência
+**2024-08-15 → 2026-08-15** · vigência 24 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **30 dias**
+### Índice de reajuste
+IGPM
+### Usuários contratados
+55 (45 "P" + 10 "M")
+### Pendências contratuais registradas
+🔴 **Sandro segurou reajuste em 08/25**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

@@ -58,6 +58,24 @@
 ### Responsável de atendimento (uMode)
 `[a preencher]` — **campo vazio**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Sem contrato** — serviços faturados: `uFlow`.
+### Vigência
+`[a preencher]`
+### Renovação e aviso prévio
+Renovação **[a preencher]** · aviso prévio `[a preencher]`
+### Índice de reajuste
+`[a preencher]`
+### Usuários contratados
+`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+### Pendências contratuais registradas
+🔴 **sem contrato / CA valor fixo desde 8/22**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

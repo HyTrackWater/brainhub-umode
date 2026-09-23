@@ -103,6 +103,24 @@ operação melhor que qualquer campo:
 > **Também operam a conta, do lado uMode:** **Marina Santoro** (integração e solução) e
 > **Sandro** — ⚠ este último sem lado confirmado.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+### Vigência
+**2024-06-24 → 2027-06-24** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+17 internos + 3 externos
+### Pendências contratuais registradas
+🔴 **Contrato sem data na assinatura**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

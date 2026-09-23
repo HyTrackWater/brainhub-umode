@@ -58,6 +58,24 @@
 ### Responsável de atendimento (uMode)
 `[a preencher]` — **campo vazio**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinar renovação** — serviços faturados: `uFlow`.
+### Vigência
+**2020-11-13 → 2022-11-03** · vigência 24 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **120 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+11 usuários (proposta)
+### Pendências contratuais registradas
+🔴 **assinar renovação / reajusta jan26**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

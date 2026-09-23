@@ -32,7 +32,18 @@ CriAI — "mix sugerido" (atributos da Taxonomia + pesos da marca) que vira inpu
 GerenciAI (o modo in-season "exige integração ativa com GerenciAI"); Taxonomia; vertical "Realocação" do AI First, cuja porta de entrada é o modo in-season.
 ## Adoção por cliente
 ### Clientes que contrataram
-Reserva — cliente âncora segundo o ÍNDICE MESTRE do Notion. ⚠ O índice **não qualifica** se é `(contratado)` ou `(piloto)`, e o protocolo exige o qualificador; fica pendente de confirmação.
+**Reserva (contratado)** — 🟢 **qualificador confirmado em 23 set 2026 pela base de contratos do
+Financeiro**, que lista `uPlan` entre os serviços faturados da conta. O ÍNDICE MESTRE do Notion já
+a apontava como cliente âncora, mas **não dizia se era contratado ou piloto**; o protocolo exige o
+qualificador e agora ele tem fonte.
+
+🔴 **Recco (contratado — CANCELADO em set/2025).** A base de contratos registra, no campo `OBS` da
+conta: *"Cancelamento uPlan set/25 + uRocket fev/26"*. **`uPlan` é o PlanejAI** — linhagem travada
+no `CONTEXT.md` desde 13 jul 2026.
+
+⚠ **Esta ficha registrava um cliente. Foram dois, e um cancelou** — e o cancelamento é anterior ao
+churn da própria conta. **Nenhuma fonte do corpus tinha esse dado até a base do Financeiro chegar.**
+
 ## Marcos
 | Data | Evento/decisão | Responsável | Nota |
 |---|---|---|---|

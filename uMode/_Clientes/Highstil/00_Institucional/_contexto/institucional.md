@@ -58,6 +58,22 @@
 ### Responsável de atendimento (uMode)
 **Laura** (2025) — ⚠ **e a Laura segue atribuída a uma conta em churn**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+### Vigência
+**2025-02-10 → 2028-02-09** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+25 internos
+### Pendências contratuais registradas
+Nenhuma registrada na planilha.
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`
@@ -116,7 +132,6 @@ Três clientes têm `Data Ativação Cliente` preenchida **e estão em `Churn`**
 > reunião até **abril de 2026**, já marcadas como `Churn`. **É coorte de ativação, não de morte.**
 > ⚠ **"Última atividade observada" não é data de saída** — a base **não tem `Data de Churn`**.
 > Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
-
 
 ## Governança
 ### Responsável de atendimento (uMode)

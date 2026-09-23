@@ -59,6 +59,22 @@
 ### Responsável de atendimento (uMode)
 **Julianne & Pedro** (2025) — dupla que atende também Caedu, Puket, NK STORE, VIX e Osklen. **Com a Loungerie, 6 contas.**
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Falta assinar** — serviços faturados: `Gestão de coleções`.
+### Vigência
+**2026-07-27 → 2029-07-27** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **60 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+20
+### Pendências contratuais registradas
+Nenhuma registrada na planilha.
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

@@ -63,6 +63,25 @@
 
 > `SMB` é o nome do **Grupo 3 da base `Segmentação Grupos`**, colocado num campo que nos outros clientes contém nome de gente (Julianne & Pedro, Laura, Fernanda). **É a forma que a base encontrou de dizer "ninguém atende".**
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `SaaS`.
+> 🔺 **A base do Financeiro chama este cliente de `Tempo de Criança`**, com razão social
+> *TDC - TEMPO DE CRIANCA MODA INFANTIL*. **É a mesma empresa que o corpus registra como `TDC`.**
+> ⚠ **E os dois discordam do serviço:** o Notion diz `Gestão de Coleção`, a base diz `SaaS`.
+### Vigência
+**2025-06-18 → 2025-06-18** · vigência 12 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **60 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+### Pendências contratuais registradas
+Nenhuma registrada na planilha.
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

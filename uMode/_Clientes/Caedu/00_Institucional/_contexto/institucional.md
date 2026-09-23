@@ -73,6 +73,24 @@ B2C — **Vestuário, Calçados, Acessórios** — São Paulo/SP
 - Pedro Murillo — Key Account
 - Andrea Goulart Holmer dos Santos — Consultor de Negócios
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+### Vigência
+**2022-06-23 → 2027-06-23** · vigência 5 anos
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **90 dias**
+### Índice de reajuste
+IGPM / IPCA
+### Usuários contratados
+65 internos + 100 externos
+### Pendências contratuais registradas
+🔴 **Checar nova quantidade de usuários + quando haverá reajuste inflação**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

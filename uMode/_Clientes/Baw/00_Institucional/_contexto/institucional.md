@@ -64,6 +64,24 @@
 
 > A Laura atende também Cambos, Lofty Style, Luiza Barcelos e Moda Objetiva — **5 contas**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+### Vigência
+**2025-03-13 → 2028-03-11** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+### Pendências contratuais registradas
+🔴 **não foi feito aditivo excluindo explosão MP**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

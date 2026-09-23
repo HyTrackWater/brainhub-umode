@@ -58,6 +58,22 @@
 ### Responsável de atendimento (uMode)
 `[a preencher]` — **campo vazio**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `Fashion IA`.
+### Vigência
+**2025-03-01 → 2027-03-01** · vigência 24 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+`[a preencher]`
+### Pendências contratuais registradas
+Nenhuma registrada na planilha.
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

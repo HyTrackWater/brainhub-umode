@@ -30,6 +30,9 @@ CANON = {
   u"## Opera\u00e7\u00e3o uMode", u"### Status atual", u"### Data de ativa\u00e7\u00e3o",
   u"### M\u00f3dulos contratados", u"### Usu\u00e1rios da conta", u"### ERP / Integra\u00e7\u00e3o",
   u"### Respons\u00e1vel de atendimento (uMode)",
+  u"## Contrato", u"### Situa\u00e7\u00e3o do contrato", u"### Vig\u00eancia",
+  u"### Renova\u00e7\u00e3o e aviso pr\u00e9vio", u"### \u00cdndice de reajuste",
+  u"### Usu\u00e1rios contratados", u"### Pend\u00eancias contratuais registradas",
   u"## Aliases de \u00e1reas", u"### Mapeamento alias \u2192 can\u00f4nico",
   u"## Sistemas e fontes de verdade", u"### Drive de opera\u00e7\u00e3o", u"### Outras fontes",
   u"## Contexto cr\u00edtico", u"### Onde estamos", u"### \U0001f534 A frente aberta",
@@ -96,7 +99,12 @@ APURA = (u"> **Uma pessoa n\u00e3o \u00e9 ativa porque tem cadastro. \u00c9 ativ
  u"**Todo estado carrega a data da evid\u00eancia.** "
  u"**`DESATIVADO` s\u00f3 com marca\u00e7\u00e3o na fonte** \u2014 nunca por infer\u00eancia de inatividade.")
 
-CORPO = {u"### Proced\u00eancia": PROC,
+CONTRATO_NOTA = (u"`[a preencher]` \u2014 \U0001F534 **A autoridade deste bloco \u00e9 a base de "
+                 u"contratos do Financeiro**, n\u00e3o o Notion. Ver "
+                 u"`_recebido-2026-09-23-base-contratos-flavia-campello.md`.")
+
+CORPO = {
+ u"## Contrato": CONTRATO_NOTA,u"### Proced\u00eancia": PROC,
          u"## \u26a0 O que este documento N\u00c3O resolve": DECL,
          u"### Como o estado \u00e9 apurado": APURA,
          u"### Raz\u00e3o de pessoas": RAZAO,

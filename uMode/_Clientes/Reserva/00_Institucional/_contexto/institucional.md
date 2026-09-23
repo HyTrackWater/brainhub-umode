@@ -83,6 +83,27 @@ Oficina** — **a convivência dos dois ERPs tem canal próprio e diário.**
 - **2025:** **Fernanda** — que atende também NV e Oficina Reserva, **as três contas `Enterprise`**
 - **2024:** três pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinar renovação** — serviços faturados: `uFlow` · `uBuy` · `uPlan`.
+> 🔴 **A razão social da Reserva na base de contratos é `AREZZO INDUSTRIA E COMERCIO S.A.`**
+> — **juridicamente, a Reserva é a Arezzo.** Isso toca a questão de **grupo econômico** já aberta
+> (Reserva · Oficina Reserva · Simples · Arezzo como quatro casas para o que pode ser um contrato só).
+### Vigência
+**2020-07-20 → 2021-01-20** · vigência 6 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio `[a preencher]`
+### Índice de reajuste
+IGPM
+### Usuários contratados
+`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+### Pendências contratuais registradas
+🔴 **CONTRATO DESATUALIZADO**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

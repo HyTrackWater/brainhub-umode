@@ -114,6 +114,24 @@ as informações para o SPI"*.
 **Outras pessoas da uMode citadas:** **Sandro** — deu feedback crítico sobre o warm-up (ver
 *Contexto crítico*).
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinar aditivo** — serviços faturados: `uFlow` · `uRocket`.
+### Vigência
+**2024-04-30 → 2027-04-30** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+20 internos
+### Pendências contratuais registradas
+🔴 **falta minuta uRocket / Checar tabela contrato (faltam meses)**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

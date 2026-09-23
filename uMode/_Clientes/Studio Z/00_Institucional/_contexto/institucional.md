@@ -58,6 +58,27 @@
 ### Responsável de atendimento (uMode)
 `[a preencher]` — **campo vazio**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Falta assinar** — serviços faturados: `uRocket`.
+> 🔺 **A base do Financeiro chama este cliente de `STZ`**, com razão social
+> *OUZE - CALCARD S.A. - INSTIT. DE PAGAMENTOS*. **Confirmado pelo Vinicius em 23 set 2026:
+> `STZ` é o Studio Z.** A razão social de instituição de pagamento não contradiz isso.
+### Vigência
+**2023-07-01 → 2025-07-01** · vigência 24 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+`[a preencher]`
+### Pendências contratuais registradas
+🔴 **não tem contrato uRocket assinado na rede**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

@@ -90,6 +90,24 @@ Há também duas páginas dedicadas a regra fiscal e a defeito:
 - **2025:** **Laura** — atende **4 contas**: Lofty Style, Cambos, Luiza Barcelos e Moda Objetiva.
 - **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+### Vigência
+**2025-02-10 → 2028-01-09** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **60 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+12 internos
+### Pendências contratuais registradas
+🔴 **Data término correta seria 09/02/28**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

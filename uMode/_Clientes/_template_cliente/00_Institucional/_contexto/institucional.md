@@ -28,6 +28,34 @@ títulos de RFI) — é o que permite reconhecer o mesmo cliente vindo de fonte 
 ### ERP / Integração
 ### Responsável de atendimento (uMode)
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+
+`[a preencher]`
+
+### Vigência
+
+`[a preencher]`
+
+### Renovação e aviso prévio
+
+`[a preencher]`
+
+### Índice de reajuste
+
+`[a preencher]`
+
+### Usuários contratados
+
+`[a preencher]`
+
+### Pendências contratuais registradas
+
+`[a preencher]`
+
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 | Alias no cliente | Área canônica |

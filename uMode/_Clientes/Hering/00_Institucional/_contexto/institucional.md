@@ -61,6 +61,34 @@
 ### Responsável de atendimento (uMode)
 `[a preencher]` — **campo vazio**. Coerente com `Pré Onboardings`.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+
+`[a preencher]`
+
+### Vigência
+
+`[a preencher]`
+
+### Renovação e aviso prévio
+
+`[a preencher]`
+
+### Índice de reajuste
+
+`[a preencher]`
+
+### Usuários contratados
+
+`[a preencher]`
+
+### Pendências contratuais registradas
+
+`[a preencher]`
+
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

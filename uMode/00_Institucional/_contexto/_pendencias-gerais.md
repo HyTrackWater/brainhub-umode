@@ -3344,3 +3344,53 @@
      **9,58** (12) · Lofty Kick Off **9,57** (7) · Lenny **9,48** (23, 8–10).
      ⚠ **A Lenny está em `Churn` com CSat 9,48 no Kick Off.** **Satisfação declarada no início
      não previu a saída** — vale para calibrar o que o `Health Score` deveria medir.
+
+## Contrato virou entidade, e as receitas fora do PLM (23 set 2026)
+
+541. 🟢 **`Contrato` passou a ser campo do cliente — não existia no BrainHub.** O template de
+     `institucional.md` só tinha `Data de ativação` e `Módulos contratados`; **zero dos 48
+     clientes tinham situação, vigência, reajuste ou usuários contratados.** Acrescentados ao
+     `CANON` seis campos — `Situação do contrato` · `Vigência` · `Renovação e aviso prévio` ·
+     `Índice de reajuste` · `Usuários contratados` · `Pendências contratuais registradas` —
+     propagados para os **50** e **preenchidos em 31** com a base do Financeiro.
+     🔴 **A autoridade desse bloco é a planilha do Financeiro, não o Notion** — está escrito no
+     cabeçalho da seção em todos.
+542. 🔺 **CORREÇÃO do item 513: `TDC` e `Tempo de Criança` são a MESMA empresa.** A razão social
+     na base é *"TDC - TEMPO DE CRIANCA MODA INFANTIL"*. **Eu tinha afirmado que Tempo de Criança
+     não existia no corpus. Existe, como `TDC`.** ⚠ **E as duas fontes discordam do serviço:**
+     o Notion diz `Gestão de Coleção`, a base do Financeiro diz `SaaS`.
+543. 🔺 **CORREÇÃO minha, apontada pelo Vinicius em 23 set 2026: `STZ` É o Studio Z.**
+     Eu tinha usado a razão social *"OUZE - CALCARD S.A. - INSTIT. DE PAGAMENTOS"* para afirmar
+     que eram empresas diferentes. **Estava errado** — razão social de instituição de pagamento
+     não contradiz a marca. **Lição: razão social divergente é indício, não prova de entidade
+     distinta.**
+544. 🔴 **O PlanejAI teve DOIS clientes, não um — e perdeu um.** O campo `OBS` da Recco diz
+     *"Cancelamento uPlan set/25 + uRocket fev/26"*, e `uPlan` é o PlanejAI (linhagem travada).
+     **A ficha do produto registrava só a Reserva.** Corrigida. ⚠ **O cancelamento do uPlan é
+     anterior ao churn da conta** — vale entender se um puxou o outro.
+545. 🟢 **`Reserva` tem razão social `AREZZO INDUSTRIA E COMERCIO S.A.`** —
+     **juridicamente a Reserva É a Arezzo.** 🔴 **Toca direto a pendência de grupo econômico:**
+     Reserva · Oficina Reserva · Simples (by Reserva) · Arezzo são **quatro casas no corpus** para
+     o que a base de contratos trata como **uma razão social**. **Decisão de modelagem.**
+546. 🟢 **O gap de mentoria fechou: chama-se `EducAI` e tem 5 clientes.** Fecha o item 512.
+     ⚠ **`EducAI` não é nenhuma das 16 Soluções** — o nome segue o padrão `…AI`, mas **não
+     presumo que seja uma delas renomeada.** 🔴 **A Cambos é o único cliente que compra PLM e
+     EducAI** — primeira conta que atravessa as duas naturezas de receita.
+547. 🔴 **`Imersão IA` traz PESSOA FÍSICA como cliente — 7 das 13 linhas são nomes de gente.**
+     🔴 **A hierarquia travada (`Instituição → Áreas → Subáreas → Pessoas`) não comporta isso:**
+     a pessoa seria uma Instituição com 14 áreas vazias, ou uma Pessoa sem Instituição acima.
+     **É decisão de arquitetura, e não é minha.** ⚠ `Stephan` e `Andreas Buttendorf` dividem
+     sobrenome — não agrupei.
+548. 🔴 **`RFIs` é serviço FATURÁVEL — e o corpus tem 86 delas modeladas como registro de
+     trabalho.** Sete clientes compram RFI: Osklen · VIX · Puket · CAEDU · Luiza Barcelos ·
+     La Moda · NK STORE. **Nenhuma ficha de RFI tem preço, escopo contratado ou aceite.**
+     **Se RFI é vendida, o modelo dela está incompleto.** ⚠ **E a `La Moda` compra RFI tendo
+     só `Fashion IA` na base de contratos** — ela não tem PLM.
+549. 🔴 **Somando as três listas, o Financeiro fatura 15 coisas distintas.** 11 na base de
+     contratos + `EducAI` · `Imersão IA` · `RFIs` · `Outros serviços`. **O corpus modela 7
+     módulos e 16 Soluções. Nenhuma das três listas cobre as outras.**
+550. 🔴 **18 clientes novos nas receitas fora do PLM**, incluindo porte relevante:
+     **MAGAZINE LUIZA (NETSHOES)** · **GRUPO KYLY** · **DI-SANTINNI / DS FOOTWEAR / CAPODARTE** ·
+     **ARAMIS** · SHOEBIZ · VITRINE · TS STUDIO · Ufo Way Denim Brasil · ETXE CONSULTORIA.
+     ⚠ **`DI-SANTINNI, DS FOOTWEAR E CAPODARTE` é uma linha com três marcas** — um cliente ou
+     três? **Não desmembrei.** **Criar casa é decisão.**

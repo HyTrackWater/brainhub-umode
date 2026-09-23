@@ -62,6 +62,27 @@
 ### Responsável de atendimento (uMode)
 `[a preencher]` — **campo vazio**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+> 🔴 **A observação da base diz: *Cancelamento uPlan set/25 + uRocket fev/26*.**
+> **Então a Recco TINHA `uPlan`** — que é o **PlanejAI** (linhagem travada no `CONTEXT.md`).
+> ⚠ **A ficha do PlanejAI registra só a Reserva como cliente. Foram dois, e um cancelou.**
+### Vigência
+**2025-02-03 → 2028-01-02** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+### Pendências contratuais registradas
+🔴 **Cancelamento uPlan set/25 + uRocket fev/26**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

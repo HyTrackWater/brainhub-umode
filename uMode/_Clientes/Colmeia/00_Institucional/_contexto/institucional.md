@@ -58,6 +58,24 @@
 ### Responsável de atendimento (uMode)
 `[a preencher]` — **campo vazio**.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinar aditivo** — serviços faturados: `uRocket`.
+### Vigência
+**2022-12-26 → **sem data de término**** · vigência 24 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **60 dias**
+### Índice de reajuste
+IGPM / IPCA
+### Usuários contratados
+`[a preencher]`
+### Pendências contratuais registradas
+🔴 **inconsistência na vigência 36/24/12**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

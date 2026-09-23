@@ -3238,3 +3238,32 @@ caminho).
   ser parâmetro — **quem vem da pesquisa não é usuário da plataforma, e a ficha não pode dizer
   que é.**
   **Itens 524–540.**
+
+- **23 set 2026** — Sessão 47: **`Contrato` virou entidade, e apareceram as receitas que não são PLM.**
+  🟢 **O BrainHub não modelava contrato.** O template de `institucional.md` tinha `Data de
+  ativação` e `Módulos contratados` e mais nada — **zero dos 48 clientes tinham situação,
+  vigência, reajuste ou usuários contratados.** Seis campos entraram no `CANON`, propagaram para
+  os **50** e foram **preenchidos em 31** a partir da base do Financeiro. **A autoridade do bloco
+  é a planilha, não o Notion** — e isso está escrito no cabeçalho da seção em todos.
+  🔺 **Duas correções minhas, uma delas apontada pelo Vinicius.**
+  **(a) `STZ` É o Studio Z** — eu tinha usado a razão social *"OUZE - CALCARD S.A."* para afirmar
+  que eram empresas diferentes. **Errado.** *Razão social divergente é indício, não prova de
+  entidade distinta.* **(b) `TDC` e `Tempo de Criança` são a mesma empresa** — a razão social é
+  *"TDC - TEMPO DE CRIANCA MODA INFANTIL"*. **Eu tinha dito no item 513 que não existia no corpus.**
+  🔴 **O PlanejAI teve dois clientes e perdeu um.** O `OBS` da Recco diz *"Cancelamento uPlan
+  set/25 + uRocket fev/26"* — e `uPlan` é o PlanejAI. **A ficha registrava só a Reserva.**
+  ⚠ **O cancelamento é anterior ao churn da conta.**
+  🟢 **`Reserva` tem razão social `AREZZO INDUSTRIA E COMERCIO S.A.`** — juridicamente a Reserva
+  **é** a Arezzo. 🔴 **Quatro casas no corpus (Reserva · Oficina Reserva · Simples · Arezzo) para
+  uma razão social na base.** Toca direto a pendência de grupo econômico.
+  🟢 **O gap de mentoria fechou: chama-se `EducAI`, 5 clientes.** Fecha o item 512. ⚠ **E não é
+  nenhuma das 16 Soluções** — o nome segue o padrão `…AI` mas não está na lista. **Não presumi.**
+  🔴 **`Imersão IA` traz PESSOA FÍSICA como cliente** — 7 das 13 linhas são nomes de gente.
+  **A hierarquia travada não comporta:** seria Instituição com 14 áreas vazias, ou Pessoa sem
+  Instituição acima. **Decisão de arquitetura, não minha.**
+  🔴 **`RFIs` é serviço faturável, e o corpus tem 86 delas modeladas como registro de trabalho** —
+  sem preço, sem escopo contratado, sem aceite. ⚠ **A `La Moda` compra RFI e não tem PLM.**
+  🔴 **Somando as três listas, o Financeiro fatura 15 coisas.** O corpus modela 7 módulos e 16
+  Soluções. **Nenhuma das três cobre as outras.** **18 clientes novos**, incluindo Magazine Luiza
+  (Netshoes), Grupo Kyly, Di-Santinni/DS Footwear/Capodarte e Aramis.
+  **Itens 541–550.**

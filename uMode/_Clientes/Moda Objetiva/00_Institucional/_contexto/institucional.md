@@ -58,6 +58,24 @@
 ### Responsável de atendimento (uMode)
 **Laura** (2025) — atende também Cambos, Lofty Style, Luiza Barcelos e Baw.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow`.
+### Vigência
+**2025-09-01 → 2028-09-05** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Via assinatura** · aviso prévio **90 dias**
+### Índice de reajuste
+IGPM/IPCA menor
+### Usuários contratados
+23 internos
+### Pendências contratuais registradas
+🔴 **2 formas de reajuste diferentes (IPCA e menor entre IPCA e IGPM)**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 `[a preencher]`

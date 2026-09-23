@@ -72,6 +72,24 @@ tabelas e colunas reais do ERP (`PRODUTOS`, `PROP_PRODUTOS`).
 identidade de uma usuária) · **Felipe** (tratou a VPN diretamente com o TI do cliente) ·
 **André** (liberou a inclusão de VIEW no campo descritivo).
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow` · `IPSP` · `uPick`.
+### Vigência
+**2023-05-05 → 2026-05-05** · vigência 36 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+53
+### Pendências contratuais registradas
+🔴 **Criar aditivo com novos usuários e excluir IPSP e Dados externos**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 

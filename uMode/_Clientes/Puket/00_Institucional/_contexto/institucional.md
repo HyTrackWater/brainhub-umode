@@ -100,6 +100,24 @@ par com grafia diferente — **erro de taxonomia na origem**.)
 - **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
 - ⚠ Há uma passada de bastão — ver *Contexto crítico*.
 
+## Contrato
+
+`[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
+
+### Situação do contrato
+**Assinado** — serviços faturados: `uFlow` · `Fashion IA`.
+### Vigência
+**2022-03-09 → 2024-03-09** · vigência 24 meses
+### Renovação e aviso prévio
+Renovação **Automática** · aviso prévio **90 dias**
+### Índice de reajuste
+IPCA
+### Usuários contratados
+60
+### Pendências contratuais registradas
+🔴 **Criar aditivo atualização valores / falta anexo B no contrato com forma pgto**
+
+> Texto literal do campo `OBS` da planilha de contratos. **Não interpretei.**
 ## Aliases de áreas
 ### Mapeamento alias → canônico
 
