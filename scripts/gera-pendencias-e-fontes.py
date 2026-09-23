@@ -73,6 +73,16 @@ GLOBAIS = [
 
 # FONTES CONHECIDAS E AINDA NAO VARRIDAS, para a carteira inteira.
 NAO_VARRIDAS = [
+    (u"\U0001F534 **`playbook.umode.app`**", u"p\u00e1gina `Engenharia de Software` (`dc5980a5\u2026`), em `uMode Geral` \u2014 editada em **07/09/2026**",
+     u"\U0001F534 **TERCEIRO dom\u00ednio de documenta\u00e7\u00e3o**, com `docs.umode.app` e `documentacao.umode.tech`. A fonte diz que \u00e9 *de atendimento obrigat\u00f3rio para todos os membros do time*"),
+    (u"Teamspace **`AGENTES E PROJETOS`**", u"`Templates & Boas Pr\u00e1ticas` \u00b7 `Projeto: Mentoria (Jo\u00e3o Risol\u00e9o)` \u00b7 `Metodologia MBS`",
+     u"\U0001F534 **os MENTORADOS que o Vin\u00edcius anunciou j\u00e1 t\u00eam acervo aqui** \u2014 e h\u00e1 um `Playbook de Engenharia \u2014 DUMP T\u00e9cnico Completo`"),
+    (u"**`Opera\u00e7\u00e3o de Clientes / \u00c1rea de CX / Documenta\u00e7\u00e3o CX / Mapeamento de Contas`**", u"acervo por cliente",
+     u"\U0001F534 **TERCEIRO acervo de documenta\u00e7\u00e3o por cliente**, com o `Mapa de Clientes` e o `Setup - PLM`. A Puket tem uma p\u00e1gina l\u00e1"),
+    (u"Pasta **`Documenta\u00e7\u00e3o Homologada`** dentro do cliente", u"vista na Cambos (`4d25eb62\u2026`)",
+     u"\u26a0 **o nome implica um estado de valida\u00e7\u00e3o** \u2014 n\u00e3o sei quantos clientes t\u00eam essa pasta nem o que mais h\u00e1 nela"),
+    (u"`Playbook Onboarding Novas Marcas`", u"`uMode Geral / Produtos / hist\u00f3rico` (`7ab68b33\u2026`)", u"**FASE 1 | Planejamento de Implanta\u00e7\u00e3o** e cronograma padr\u00e3o \u2014 o processo de implanta\u00e7\u00e3o escrito"),
+    (u"`Planos de Quarters OPS`", u"`uMode Geral / Opera\u00e7\u00e3o de Clientes` (`7ac7b3c6\u2026`)", u"OKR de opera\u00e7\u00e3o, com KR de medi\u00e7\u00e3o de satisfa\u00e7\u00e3o de cliente"),
     (u"Relação `Segmentação Grupos`", u"`collection://a4103fe2-…`",
      u"grupo/tier comercial do cliente"),
     (u"Relação `Atendimento 2024`", u"`collection://c82a689c-…`",
@@ -274,6 +284,10 @@ SUBPAGINAS = {
          u"`> excluir variante` **em branco**"),
     ],
     u"Cambos": [
+        (u"23 set 2026",
+         u"`Documenta\u00e7\u00e3o Homologada \u203a Playbook Cambos \\| Treinamento \\> IA + Doc Laura`",
+         u"`32cb1d38\u2026`",
+         u"**PLAYBOOK \u2014 SISTEMA PLM [CAMBOS] v1.1, 23/03/2026, gerado a partir de TRANSCRI\u00c7\u00d5ES DE TREINAMENTO com IA**; SP \u00d7 MG; cinco IDs de automa\u00e7\u00e3o; trava SPI; `Lacre`; `Riachuelo` como cliente DA Cambos"),
         (u"22 set 2026", u"`Perfil de Usu\u00e1rio e Permissionamentos`",
          u"`1a7b1d38\u2026`",
          u"5 perfis; \U0001F7E2 **`Manual` e `Base de Importa\u00e7\u00e3o` LIBERADOS** \u2014 "
@@ -833,6 +847,23 @@ PEND = {
          u"nenhuma base.", u"T2", u"tempo de varredura"),
     ],
     u"Cambos": [
+        (u"\U0001F7E2 **Existe um PLAYBOOK de PLM da Cambos, v1.1, e ele foi gerado a partir de TRANSCRI\u00c7\u00d5ES DE TREINAMENTO, com IA.** O t\u00edtulo diz: `Treinamento > IA + Doc Laura`. \U0001F534 **\u00c9 exatamente o caminho que o Vin\u00edcius anunciou para as ~50 transcri\u00e7\u00f5es da CAEDU \u2014 e j\u00e1 rodou uma vez, aqui.**", u"T2", u"\u2014 vale virar refer\u00eancia de m\u00e9todo"),
+        (u"\U0001F534 **A Cambos tem DUAS opera\u00e7\u00f5es geogr\u00e1ficas:** `Desenvolvimento SP` (cadastro e `Produto Original`) e `Desenvolvimento MG` (`Aprova\u00e7\u00f5es das Pilotos`, lacres, pesos). **O campo `Liberado para Desenv. MG` \u00e9 o gatilho entre as duas.** \u26a0 **O corpus n\u00e3o tinha nada disso.**",
+         u"T2", u"\u2014"),
+        (u"\U0001F534 **A Cambos \u00e9 FORNECEDORA de marcas \u2014 a `Riachuelo` aparece como exemplo de filtro de *cliente* dentro da conta dela.** \U0001F7E2 **Isso explica `Novo Pedido (s\u00f3 a Cambos tem)`, o perfil `Atacado` e a natureza do neg\u00f3cio.** \u26a0 **O corpus tratava a Cambos como marca.**", u"T2",
+         u"**confer\u00eancia \u2014 muda a classifica\u00e7\u00e3o da conta**"),
+        (u"\U0001F195 **Cinco AUTOMA\u00c7\u00d5ES com ID num\u00e9rico:** `#1136` (descri\u00e7\u00e3o concatenada de Modelagem+G\u00eanero+Tipo+Tamanho+Detalhe), `#1175` (cria a Piloto automaticamente), `#1134` (valida pr\u00e9-requisitos de integra\u00e7\u00e3o), `#989` (validação t\u00e9cnica ao entrar em coluna do workflow), `#1135` (limpeza da \u00faltima integra\u00e7\u00e3o SPI). \U0001F534 **O corpus n\u00e3o tinha NENHUM ID de automa\u00e7\u00e3o da plataforma.**", u"T2",
+         u"\u2014 vale procurar o cat\u00e1logo dessas automa\u00e7\u00f5es"),
+        (u"\U0001F534 **Dois c\u00f3digos convivem no mesmo produto:** `C\u00f3digo uMode` (gerado pela plataforma, vale at\u00e9 a aprova\u00e7\u00e3o do or\u00e7amento) e `C\u00f3digo SPI` (gerado pelo ERP). **E h\u00e1 uma TRAVA: `Modelagem`, `Tipo`, `G\u00eanero` e `Tamanho` ficam travados depois que o C\u00f3digo SPI nasce.**", u"T2",
+         u"\u2014"),
+        (u"\U0001F534 **Na integra\u00e7\u00e3o, s\u00f3 a \u00daLTIMA VARIANTE \u00e9 enviada ao ERP.** \u26a0 **\u00c9 perda de informa\u00e7\u00e3o por desenho**, e liga direto com a dor de variante de cinco clientes.", u"T2", u"confer\u00eancia"),
+        (u"\U0001F7E2 **`Exibi\u00e7\u00f5es Compartilhadas` s\u00f3 para Admin; usu\u00e1rio comum salva em *Somente Eu*.** \U0001F534 **Casa exatamente com a config `hide_map_template` do Manual do Permissionamento** \u2014 primeira vez que uma regra de playbook e uma `entity_config` se encontram no corpus.", u"T2", u"\u2014"),
+        (u"\U0001F195 **`Lacre`** \u2014 identificador da amostra f\u00edsica vinculada \u00e0 aprova\u00e7\u00e3o t\u00e9cnica; o sistema registra **at\u00e9 6**. \U0001F195 **`Produto Original`** \u2014 acervo de bases de modelagem mantido pelo Desenvolvimento SP. **Dois termos de moda que o corpus n\u00e3o tinha.**", u"T2",
+         u"\u2014"),
+        (u"\u26a0 **O playbook fala de 2 perfis (`Comercial` e `Admin`); a matriz de permiss\u00e3o tem 5.** **N\u00e3o sei qual dos dois est\u00e1 desatualizado.**", u"T2",
+         u"confer\u00eancia"),
+        (u"\u26a0 **O pr\u00f3prio playbook lista TR\u00caS pend\u00eancias de valida\u00e7\u00e3o em aberto** (\u00a77): relat\u00f3rios de Gest\u00e3o de Cole\u00e7\u00e3o e Tarefas liberados para o perfil operacional; migra\u00e7\u00e3o dos `Produtos Originais` que est\u00e3o em planilha; e se o gatilho `#1175` vale para todo tipo de produto ou **s\u00f3 jeans**. **Escritas em 23/03/2026 e sem dono.**", u"T2",
+         u"**pergunta registrada**"),
         (u"🔺 **A Cambos QUEBRA a hipótese do `Manual` bloqueado.** Eu tinha "
          u"escrito *dois de dois: hipótese forte* com VIX e Luiza Barcelos. **Na Cambos, "
          u"`Manual` e `Base de Importação` estão LIBERADOS para os 5 perfis.** "
