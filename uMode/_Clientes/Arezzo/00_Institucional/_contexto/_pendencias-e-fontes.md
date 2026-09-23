@@ -24,6 +24,16 @@
 ⚠ **Isso não é atestado de limpeza:** significa que **nas fontes da § 3** não apareceu
 segredo. **As fontes da § 4 não foram olhadas.**
 
+## 1-bis · 🔴 O que eu NÃO consegui ler
+
+> **Pedido do Vinícius em 22 set 2026:** *sobre suspeitas de blocos, sempre tenha atenção e me indique, porque temos que ter a garantia de que tudo que está varrendo está conseguindo tirar proveito de tudo o que podemos*.
+>
+> 🔴 **Bloco que não renderiza NÃO é bloco vazio.** Na Luiza Barcelos, 17 blocos ilegíveis escondiam **o único Representante Legal da conta** e o cargo do Gerente de Inovação e Tecnologia. **Eu cheguei a chamar isso de falta de acesso, e estava errado** — ver `protocolo-varredura-cliente.md` § 11.
+
+🟢 **Nada ilegível nas fontes já abertas.**
+
+⚠ **Isso só vale para o que foi aberto** (§ 3). **Nas fontes da § 4 não sei**, e a página deste cliente pode ter o mesmo tipo de bloco.
+
 ## 2 · Pendências abertas
 
 | # | O que está em aberto | Tier | O que destrava |

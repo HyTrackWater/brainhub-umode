@@ -72,3 +72,15 @@ outro documento — ver protocolo-gestao-pessoas.md]
 CRM "Mapa de Clientes" (Drive `1_Bt8qKNeTVnlDAaeM1oOdoWgBmb6ek8k`, snapshot de 05 mar 2026) — varredura de 03 ago 2026, cobrindo os 46 clientes reais
 ### Quem pode alterar este documento
 [a preencher]
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Instância:** `Casa uMode` — pessoa INTERNA. Pessoa da Casa **nunca se duplica dentro do cliente** (`CLAUDE.md`).
+
+**As outras pessoas da Casa:** [índice](_indice.md)
+
+**Institucional da Casa:** [institucional.md](../_contexto/institucional.md)
+
+**O protocolo que governa esta ficha:** [`protocolo-gestao-pessoas.md`](../_protocolos/protocolo-gestao-pessoas.md)

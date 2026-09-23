@@ -83,3 +83,15 @@ Compartilhadas com Clientes" — varredura de 09 jul 2026, cobrindo os 4 cliente
 Style, Cambos, Luiza Barcelos, Moda Objetiva)
 ### Quem pode alterar este documento
 [a preencher]
+
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Instância:** `Casa uMode` — pessoa INTERNA. Pessoa da Casa **nunca se duplica dentro do cliente** (`CLAUDE.md`).
+
+**As outras pessoas da Casa:** [índice](_indice.md)
+
+**Institucional da Casa:** [institucional.md](../_contexto/institucional.md)
+
+**O protocolo que governa esta ficha:** [`protocolo-gestao-pessoas.md`](../_protocolos/protocolo-gestao-pessoas.md)

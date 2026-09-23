@@ -86,6 +86,8 @@ Todas em `uMode/00_Institucional/_contexto/`, salvo indicação.
 
 🔴 [`protocolo-perguntas-ao-vinicius.md`](uMode/00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md) — **o único caminho** para o que só o Vinícius responde. **Não criar um segundo.**
 
+🟡 [`prompt-extracao-notion-via-chrome.md`](uMode/00_Institucional/_protocolos/prompt-extracao-notion-via-chrome.md) — **classe `TEMPLATE`**: o prompt para o Claude in Chrome abrir **as 50 páginas de cliente com todos os blocos expandidos** e devolver um zip. 🔴 **Usar quando a dúvida for “será que tem algo nesse destino que eu não estou vendo?”** — para varredura de rotina, o conector basta.
+
 Em `uMode/00_Institucional/_protocolos/`:
 [`protocolo-varredura-cliente.md`](uMode/00_Institucional/_protocolos/protocolo-varredura-cliente.md) · [`protocolo-criacao-cliente.md`](uMode/00_Institucional/_protocolos/protocolo-criacao-cliente.md) · [`protocolo-gestao-demanda.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-demanda.md) ·
 [`protocolo-gestao-rfi.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-rfi.md) · [`protocolo-gestao-integracao.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-integracao.md) · [`protocolo-gestao-pessoas.md`](uMode/00_Institucional/_protocolos/protocolo-gestao-pessoas.md) ·
@@ -227,6 +229,8 @@ e os **REGISTROS** datados.
 ---
 
 ## 3 · O contrato da primeira resposta
+
+> 🔴 **Antes de varrer qualquer cliente, leia duas coisas:** a § 3 do `_pendencias-e-fontes.md` **dele** — o diário do que já foi varrido — e a **§ 12 do [`protocolo-varredura-cliente.md`](uMode/00_Institucional/_protocolos/protocolo-varredura-cliente.md)**, que é o catálogo dos erros já cometidos **com o status honesto de cada trava**: três abortam, quatro avisam, **três não têm mecanismo nenhum e dependem de você lembrar.**
 
 1. **Leia o Nível 0 por inteiro.** Nenhum resumo, nenhum trecho.
 2. **Não altere nada nesta primeira resposta.** Só leitura e confirmação.

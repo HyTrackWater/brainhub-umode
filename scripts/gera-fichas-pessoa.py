@@ -62,17 +62,25 @@ def limpa(cel):
     return c.strip()
 
 
+# Tudo que o filtro descarta fica aqui e e IMPRESSO no fim. Filtro silencioso
+# foi como o `Hermes` (Gerente de TI da NK STORE, 5 demandas) sumiu do corpus.
+DESCARTADOS = []
+
 def e_pessoa(nome):
     n = slug(nome).replace(u"-", u" ")
     if not n or len(n) < 2:
+        DESCARTADOS.append((nome, u"regra do filtro"))
         return False
     for t in NAO_PESSOA:
         if n == t or n.startswith(t + u" ") or n.endswith(u" " + t):
+            DESCARTADOS.append((nome, u"regra do filtro"))
             return False
     if u" e " in n or u"/" in nome or u"+" in nome:
-        return False  # duas pessoas na mesma celula: nao desmembro sem confirmacao
+        DESCARTADOS.append((nome, u"duas pessoas na mesma celula: nao desmembro sem confirmacao"))
+        return False
     if u"umode" in n:
-        return False  # pessoa da Casa nao se duplica dentro do cliente
+        DESCARTADOS.append((nome, u"pessoa da Casa nao se duplica dentro do cliente"))
+        return False
     return True
 
 
@@ -501,6 +509,18 @@ def main():
             print(u"   %s / %s" % (c, n))
         print(u"Corrija a chave para o nome EXATO em DA_PAGINA.")
         return 1
+
+    if DESCARTADOS:
+        print(u"")
+        print(u"\u26a0 NOMES DESCARTADOS PELO FILTRO (%d) - confira se algum e pessoa:"
+              % len(DESCARTADOS))
+        vistos = set()
+        for nome, motivo in DESCARTADOS:
+            if nome in vistos:
+                continue
+            vistos.add(nome)
+            print(u"   %-28s %s" % (nome, motivo))
+        print(u"Filtro silencioso foi como o `Hermes` sumiu. Descarte tem que ser visivel.")
 
     print(u"fichas de pessoa de cliente criadas/atualizadas: %d em %d clientes"
           % (criadas, clientes))

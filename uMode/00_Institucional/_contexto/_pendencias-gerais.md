@@ -2727,3 +2727,43 @@
      observações de pessoa que não chegavam a arquivo nenhum. **Mesma classe do bug da chave sem
      pasta: perda silenciosa.** **Corrigido na causa** — o script agora **aborta** se uma nota
      não casar com ficha nenhuma.
+
+## Travas de erro e a via do Chrome (22 set 2026)
+
+422. **🔺 RESPOSTA HONESTA à pergunta "isso tudo está integrado pra nunca mais errar?": NÃO
+     estava, para metade.** Auditei os 10 erros desta sessão. **Registrar um erro numa pendência
+     é memória, não impedimento.** Placar real, agora na **§ 12 do
+     `protocolo-varredura-cliente.md`**, citada pelo `START.md`:
+     🟢 **3 abortam** (chave sem pasta · nota órfã · arquivo fora do manifesto) ·
+     🟡 **4 avisam ou ficam visíveis** (filtro de pessoa · padrão de MD · bloco ilegível ·
+     página não aberta) · 🔴 **3 não têm mecanismo nenhum** e dependem de eu lembrar:
+     **concluir padrão com dois casos** · **não usar enum que o corpus já tinha** ·
+     **fonte nova dependendo da fonte antiga**.
+     **Não afirmo que as três vermelhas estão resolvidas — dependem de julgamento.**
+423. **🟢 NOVA TRAVA — o filtro de pessoa agora IMPRIME todo nome que descarta, com o motivo.**
+     Era assim que o `Hermes` sumia. **Descarte silencioso virou descarte visível.**
+     ⚠ **No primeiro uso, descartou 1 nome:** `Conrrado e Ingrid` — duas pessoas na mesma célula,
+     descarte legítimo.
+424. **🟢 NOVA SEÇÃO EM TODOS OS 48 CLIENTES: `§ 1-bis · O que eu NÃO consegui ler`.**
+     Pedido do Vinicius, textual: *"sobre suspeitas de blocos, sempre tenha atenção e me indique,
+     porque temos que ter a garantia de que tudo que está varrendo está conseguindo tirar
+     proveito de tudo o que podemos."* `[D]`
+     🔴 **Bloco que não renderiza NÃO é bloco vazio** — na Luiza Barcelos, 17 blocos ilegíveis
+     escondiam o único Representante Legal da conta.
+     **Três tipos de perda já catalogados:** bloco não renderizado (resolvido por copiar/colar) ·
+     **incorporação do Drive** (`Plano de Sucesso do Cliente` em 3 clientes, aberto) ·
+     **404 real** (`Fornecedores da Caedu`, o único caso de permissão de verdade).
+425. **🟢 CRIADO — `prompt-extracao-notion-via-chrome.md`, classe `TEMPLATE`.**
+     Ideia do Vinicius: *"se precisar montar um prompt para, via Claude Chrome, indicar todos os
+     caminhos que precisa, com as instruções de abrir todos os blocos que forem possíveis, para
+     então gerar arquivos md de cada caminho, organizar por cliente, zipar tudo e depois te
+     trazer — sem problemas... Só não quero que tenhamos a sensação de não ter algum tipo de
+     informação num destino e na verdade ele estar por lá."* `[D]`
+     **Traz as 50 URLs de cliente, ordenadas por quem está vivo primeiro**, instrução de expandir
+     todo toggle, synced block e database inline, convenção de nome de arquivo para eu ingerir
+     sem ambiguidade, e a regra de **escrever `[NAO-ABRIU]` no lugar do bloco em vez de pular em
+     silêncio** — porque bloco que não abriu é informação.
+426. **🔴 O zip que voltar é `T0` enquanto existir.** Ele vai trazer a credencial da NK STORE, a
+     senha da Lofty Style e CPF/telefone de representantes legais.
+     **Não versionar, não subir ao Drive compartilhado: descompactar no `scratchpad`, extrair só
+     o que é `T2`, e apagar.**

@@ -253,6 +253,39 @@ def main():
                 esc(os.path.join(pes, u"_indice.md"), chr(10).join(L) + chr(10))
                 tocados += 1
 
+    # ---- pessoas da propria Casa uMode ----
+    # Mesmo esquecimento das 5 demandas da Casa: o gerador cuidava so das fichas
+    # de cliente, e as 16 da Casa ficavam orfas. Classe inteira ou nada.
+    pcasa = os.path.join(UMODE, u"00_Institucional", u"_pessoas")
+    if os.path.isdir(pcasa):
+        fichas = sorted(f for f in os.listdir(pcasa)
+                        if f.endswith(u".md") and not f.startswith(u"_"))
+        for f in fichas:
+            b = (u"> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**" +
+                 chr(10) + chr(10) +
+                 u"**Instância:** `Casa uMode` — pessoa INTERNA. "
+                 u"Pessoa da Casa **nunca se duplica dentro do cliente** (`CLAUDE.md`)." +
+                 chr(10) + chr(10) +
+                 u"**As outras pessoas da Casa:** [índice](_indice.md)" +
+                 chr(10) + chr(10) +
+                 u"**Institucional da Casa:** "
+                 u"[institucional.md](../_contexto/institucional.md)" +
+                 chr(10) + chr(10) +
+                 u"**O protocolo que governa esta ficha:** "
+                 u"[`protocolo-gestao-pessoas.md`](../_protocolos/protocolo-gestao-pessoas.md)")
+            if poe(os.path.join(pcasa, f), b):
+                tocados += 1
+        I = [u"# Casa uMode · Pessoas · índice", u"",
+             u"> **DERIVADO.** Gerado por `scripts/gera-conexoes.py`. **Não se edita à mão.**",
+             u"", u"**%d fichas de pessoa interna.**" % len(fichas), u""]
+        for f in fichas:
+            I.append(u"- [%s](%s)" % (f[:-3].replace(u"-", u" ").title(), f))
+        I += [u"", u"⚠ **Cargo e `Status na uMode` serão revistos de uma vez ao fim "
+              u"da varredura** — `AGORA.md` § 7, item 9. **Não corrigir aos pedaços.**",
+              u"", u"[institucional.md](../_contexto/institucional.md)", u""]
+        esc(os.path.join(pcasa, u"_indice.md"), chr(10).join(I) + chr(10))
+        tocados += 1
+
     # ---- demandas da propria Casa uMode ----
     # Sem isto elas ficam com estrutura diferente das 993 de cliente, e o
     # valida-padrao-corpus.py acusa - com razao: a regra e "toda a classe".

@@ -379,6 +379,37 @@ item 9**, e não se antecipa.
 cliente entra normalmente — a página é a fonte viva daquele cliente, e não há organograma
 nosso para conferir contra.
 
+## § 12 · Catálogo de erro meu — e o que REALMENTE impede cada um
+
+> **Cobrança do Vinícius em 22 set 2026:** *"Tudo isso está registrado e integrado já na
+> documentação pra nunca mais cometer mesmos erros?"*
+>
+> 🔴 **A resposta honesta era NÃO para metade.** Registrar um erro numa pendência é
+> **memória**, não **impedimento**. Esta tabela separa os dois, e **não esconde o que segue sem
+> trava.**
+
+| # | O erro | O que impede hoje | É trava? |
+|--:|---|---|:-:|
+| 1 | **Chave de dado sem pasta correspondente** — `Mondepars` × `Mondpars`: o arquivo saiu completo e errado | `gera-pendencias-e-fontes.py` **aborta** e nomeia a chave | 🟢 **sim** |
+| 2 | **Nota escrita e nunca lida** — `NOTA_PAGINA` existia e não chegava a arquivo nenhum | `gera-fichas-pessoa.py` **aborta** e nomeia a nota órfã | 🟢 **sim** |
+| 3 | **Arquivo estrutural fora do manifesto** | `valida-documentacao.py` **aborta** | 🟢 **sim** |
+| 4 | **Filtro descartando pessoa em silêncio** — o `Hermes`, Gerente de TI da NK STORE, com 5 demandas | o gerador **imprime todo nome descartado e o motivo** | 🟡 **avisa** |
+| 5 | **MD de cliente fora do padrão** | `valida-padrao-corpus.py` **avisa** (não aborta) | 🟡 **avisa** |
+| 6 | **Bloco ilegível confundido com falta de acesso** | § 11 + a **§ 1-bis de cada `_pendencias-e-fontes.md`**, que lista o que não foi lido | 🟡 **visível** |
+| 7 | **Concluir que dado não existe sem abrir a página do cliente** | § 3 e § 4 do diário por cliente | 🟡 **visível** |
+| 8 | 🔴 **Concluir padrão com dois casos** — disse que havia um "template de pessoa" e a terceira página desmentiu | **nada** — só a regra *um é anedota, dois é hipótese, três é padrão* | 🔴 **não** |
+| 9 | 🔴 **Não usar um enum que o próprio corpus já tinha** — o campo `tool` do `_espec-pessoas-e-comunicacoes.md` | **nada** — só a regra *antes de varrer fonte externa, varrer o corpus* | 🔴 **não** |
+| 10 | 🔴 **Fonte nova dependendo da fonte antiga** — o gerador só processava cliente que tivesse tabela de demanda | corrigido no código, **sem guarda contra repetir** | 🔴 **não** |
+
+### O que fazer com as linhas vermelhas
+
+🔴 **Não afirmar que estão resolvidas.** As três dependem de julgamento, e julgamento não se
+mecaniza com script. **O que dá para fazer é o que está feito: deixá-las escritas aqui, nesta
+tabela, dentro do protocolo que se lê antes de varrer.**
+
+⚠ **E medir:** sempre que um padrão for afirmado, **dizer em quantos casos** — e se forem dois,
+dizer que são dois.
+
 ## Governança
 Somente o CEO altera conteúdo no BrainHub. **Alterar este protocolo exige ter executado a varredura
 de pelo menos um cliente com o método novo** — protocolo não se corrige por opinião.

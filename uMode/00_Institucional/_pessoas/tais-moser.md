@@ -66,3 +66,14 @@ Ata da reunião de Warm Up com a Luiza Barcelos, **07 jun 2024** (Notion `21bb3e
 ### Quem pode alterar este documento
 Liderança de People. 🔴 **O `Status na uMode` de toda a Casa será revisto de uma vez ao fim da varredura** — ver `AGORA.md` § 7.
 
+## Conexões
+
+> Camada de ligação. **Gerada por `scripts/gera-conexoes.py`.**
+
+**Instância:** `Casa uMode` — pessoa INTERNA. Pessoa da Casa **nunca se duplica dentro do cliente** (`CLAUDE.md`).
+
+**As outras pessoas da Casa:** [índice](_indice.md)
+
+**Institucional da Casa:** [institucional.md](../_contexto/institucional.md)
+
+**O protocolo que governa esta ficha:** [`protocolo-gestao-pessoas.md`](../_protocolos/protocolo-gestao-pessoas.md)

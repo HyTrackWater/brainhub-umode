@@ -574,6 +574,42 @@ PEND = {
 }
 
 # RISCO DE SEGURANCA, separado por peso proprio: (o que, onde, estado)
+# BLOCO QUE O CONECTOR NAO RENDERIZA. Pedido do Vinicius em 22 set 2026:
+# "sobre suspeitas de blocos, sempre tenha atencao e me indique, porque temos que
+# ter a garantia de que tudo que esta varrendo esta conseguindo tirar proveito de
+# tudo o que podemos". Formato: cliente -> [(onde, quantos, o que era, estado)]
+NAO_RENDERIZOU = {
+    u"Luiza Barcelos": [
+        (u"`Warm Up Cliente` › `Pessoas` › `Diretores e Representantes Legais`", 4,
+         u"linhas de contato de **Luiz Raul Aleixo Barcelos**",
+         u"🟢 **resolvido** — o Vinícius copiou e colou em 22 set 2026"),
+        (u"`Warm Up Cliente` › `Pessoas` › `Responsável pelo Financeiro`", 2,
+         u"e-mail e telefone da Ana Lucia Andrade",
+         u"🟢 **resolvido** — copiado e colado"),
+        (u"`Warm Up Cliente` › `Pessoas` › `Responsáveis pelo Projeto`", 8,
+         u"contatos e cargos de Gustavo Sobrinho e Gabriel Jaques da Silva",
+         u"🟢 **resolvido** — copiado e colado"),
+        (u"`Warm Up Cliente` › `Pessoas` › `Responsável Tecnologia`", 3,
+         u"contatos e o cargo de **Samuel Correa**",
+         u"🟢 **resolvido** — copiado e colado"),
+        (u"`Plano de Sucesso do Cliente`", 1, u"incorporação do Google Drive",
+         u"🔴 **aberto** — não é Notion, é arquivo do Drive"),
+    ],
+    u"NK STORE": [
+        (u"`Plano de Sucesso do Cliente`", 1, u"incorporação do Google Drive",
+         u"🔴 **aberto** — não é Notion, é arquivo do Drive"),
+    ],
+    u"Cambos": [
+        (u"`Plano de Sucesso do Cliente`", 1, u"incorporação do Google Drive",
+         u"🔴 **aberto** — não é Notion, é arquivo do Drive"),
+    ],
+    u"Caedu": [
+        (u"sub-página `Fornecedores da Caedu`", 1, u"desconhecido",
+         u"🔴 **aberto** — **404 por este conector.** Único caso de acesso "
+         u"negado de verdade na carteira"),
+    ],
+}
+
 RISCO = {
     u"NK STORE": [(u"Credencial de produção do **Linx** (usuário, senha, IP, porta, banco)",
                    u"Notion — página do cliente, toggle `Documentos › Conexão com Linx`",
@@ -755,6 +791,32 @@ def doc(cliente):
         A(u"⚠ **Isso não é atestado de limpeza:** significa que **nas fontes da § 3** não apareceu")
         A(u"segredo. **As fontes da § 4 não foram olhadas.**")
     A(u"")
+    A(u"## 1-bis · 🔴 O que eu NÃO consegui ler")
+    A(u"")
+    A(u"> **Pedido do Vinícius em 22 set 2026:** *sobre suspeitas de blocos, sempre tenha "
+      u"atenção e me indique, porque temos que ter a garantia de que tudo que está "
+      u"varrendo está conseguindo tirar proveito de tudo o que podemos*.")
+    A(u">")
+    A(u"> 🔴 **Bloco que não renderiza NÃO é bloco vazio.** Na Luiza Barcelos, "
+      u"17 blocos ilegíveis escondiam **o único Representante Legal da conta** e o cargo "
+      u"do Gerente de Inovação e Tecnologia. **Eu cheguei a chamar isso de falta de "
+      u"acesso, e estava errado** — ver `protocolo-varredura-cliente.md` § 11.")
+    A(u"")
+    nr = NAO_RENDERIZOU.get(cliente)
+    if nr:
+        A(u"| Onde | Quantos | O que era | Estado |")
+        A(u"|---|--:|---|---|")
+        for onde, q, oque, est in nr:
+            A(u"| %s | %d | %s | %s |" % (onde, q, oque, est))
+        A(u"")
+        A(u"**O contorno que funciona:** pedir ao Vinícius **só aquele trecho**, copiado "
+          u"e colado. **Barato, e o que vier entra como fonte normal, com procedência.**")
+    else:
+        A(u"🟢 **Nada ilegível nas fontes já abertas.**")
+        A(u"")
+        A(u"⚠ **Isso só vale para o que foi aberto** (§ 3). **Nas fontes da § 4 "
+          u"não sei**, e a página deste cliente pode ter o mesmo tipo de bloco.")
+    A(u"")
     A(u"## 2 · Pendências abertas")
     A(u"")
     ps = PEND.get(cliente)
@@ -920,7 +982,7 @@ def main():
     # aconteceu com `Mondepars` (nome no Notion) contra a pasta `Mondpars`.
     # Silencio e pior que erro: o arquivo sai completo e errado.
     pastas = set(os.listdir(CLI))
-    orfas = sorted(set(list(PAGINA) + list(PEND) + list(RISCO) + list(PERGUNTAS)) - pastas)
+    orfas = sorted(set(list(PAGINA) + list(PEND) + list(RISCO) + list(PERGUNTAS) + list(NAO_RENDERIZOU)) - pastas)
     if orfas:
         print(u"")
         print(u"❌ CHAVE SEM PASTA - o dado destas chaves NAO foi escrito:")

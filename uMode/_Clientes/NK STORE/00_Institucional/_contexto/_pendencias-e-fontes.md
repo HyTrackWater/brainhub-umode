@@ -27,6 +27,18 @@
 > **A rotação é ação do Vinicius.** ⚠ Pode já estar inativa; **rotacionar mesmo assim**
 > é mais barato que descobrir que não estava.
 
+## 1-bis · 🔴 O que eu NÃO consegui ler
+
+> **Pedido do Vinícius em 22 set 2026:** *sobre suspeitas de blocos, sempre tenha atenção e me indique, porque temos que ter a garantia de que tudo que está varrendo está conseguindo tirar proveito de tudo o que podemos*.
+>
+> 🔴 **Bloco que não renderiza NÃO é bloco vazio.** Na Luiza Barcelos, 17 blocos ilegíveis escondiam **o único Representante Legal da conta** e o cargo do Gerente de Inovação e Tecnologia. **Eu cheguei a chamar isso de falta de acesso, e estava errado** — ver `protocolo-varredura-cliente.md` § 11.
+
+| Onde | Quantos | O que era | Estado |
+|---|--:|---|---|
+| `Plano de Sucesso do Cliente` | 1 | incorporação do Google Drive | 🔴 **aberto** — não é Notion, é arquivo do Drive |
+
+**O contorno que funciona:** pedir ao Vinícius **só aquele trecho**, copiado e colado. **Barato, e o que vier entra como fonte normal, com procedência.**
+
 ## 2 · Pendências abertas
 
 | # | O que está em aberto | Tier | O que destrava |
