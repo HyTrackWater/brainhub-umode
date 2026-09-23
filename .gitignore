@@ -24,3 +24,13 @@
 __pycache__/
 *.pyc
 .trash/
+
+# Scripts temporarios de sessao
+_tri.py
+_x.py
+_pat.py
+_fill.py
+_gen.py
+_dup.py
+_ids.py
+_alvos.json
