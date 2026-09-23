@@ -152,7 +152,7 @@ alguma forma ligada a esses nós maiores."* **Linha de tabela não é nó de gra
 | Pessoa | ✅ | `_pessoas/` — gerado por `scripts/gera-fichas-pessoa.py` |
 | Demanda · RFI | ✅ | `_demandas/` · `_rfis/` |
 | Solução do portfólio | ✅ | `03_Produto-e-Solucoes/NN_Nome/_contexto/produto.md` |
-| **Ferramenta** | ✅ | [`03_Produto-e-Solucoes/_ferramentas/`](uMode/03_Produto-e-Solucoes/_ferramentas/_indice.md) — os **7 módulos da uMode** · [`06_Tecnologia/_ferramentas/`](uMode/06_Tecnologia/_ferramentas/_indice.md) — os **9 sistemas de terceiro**. Gerado por `scripts/gera-fichas-ferramenta.py` |
+| **Ferramenta** | ✅ | [`03_Produto-e-Solucoes/_ferramentas/`](uMode/03_Produto-e-Solucoes/_ferramentas/_indice.md) — os **7 módulos da uMode** · [`06_Tecnologia/_ferramentas/`](uMode/06_Tecnologia/_ferramentas/_indice.md) — os **20 sistemas e ferramentas de trabalho**. Gerado por `scripts/gera-fichas-ferramenta.py` |
 | Reunião / ata | 🔴 **não** | 1.161 conhecidas, **nenhuma é arquivo** |
 | E-mail | 🔴 **não** | 92 conhecidos |
 | Agente | 🔴 **não** | 4 nomeados na Arquitetura V1 |
@@ -257,17 +257,17 @@ e os **REGISTROS** datados.
 
 ## 4 · Ao fechar a sessão — obrigatório
 
-**Toda sessão que gera commit faz os quatro passos, nesta ordem:**
+**Toda sessão que gera commit faz os seis passos, nesta ordem:**
 
 0. **`python scripts/gera-conexoes.py`** — regenera a camada de links do corpus. **Obrigatório quando se cria cliente, área, demanda ou RFI**, senão o registro novo nasce órfão.
 1. **`python scripts/valida-indexacao.py`** — o grafo do corpus: quantos órfãos, quais hubs,
    links quebrados. **Não é portão, é relatório** — mas é o que diz se o BrainHub está virando
    cérebro ou continua nuvem de pontos soltos.
-1. **`python scripts/valida-padrao-corpus.py`** — o corpus fecha em `694 / 50 / 49 / 49` com
+2. **`python scripts/valida-padrao-corpus.py`** — o corpus fecha em `694 / 50 / 49 / 49` com
    **0 completados**. Se completar algum, **alguém quebrou o padrão** — entenda antes de commitar.
-2. **`python scripts/valida-documentacao.py`** — nenhum `.md` estrutural órfão do manifesto.
-3. **`STATE.md`** — o que aconteceu, no `## Log de sessões`. **Nunca reescrever sessão anterior.**
-4. **`AGORA.md`** — data, números da § 5 e as listas de § 6 e § 7.
+3. **`python scripts/valida-documentacao.py`** — nenhum `.md` estrutural órfão do manifesto.
+4. **`STATE.md`** — o que aconteceu, no `## Log de sessões`. **Nunca reescrever sessão anterior.**
+5. **`AGORA.md`** — data, números da § 5 e as listas de § 6 e § 7.
 
 > 🔴 **Se só a `STATE.md` for atualizada, o `AGORA.md` passa a mentir** — e ele é o primeiro
 > arquivo que todo mundo lê.

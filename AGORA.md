@@ -3,7 +3,7 @@
 > **Este é o arquivo de orientação.** Serve para retomar o projeto de qualquer lugar, em
 > qualquer workspace, sem ler as 2.700 linhas da `STATE.md`.
 >
-> **Atualizado em: 22 set 2026.** Se esta data não for de hoje ou de ontem, **desconfie** —
+> **Atualizado em: 23 set 2026.** Se esta data não for de hoje ou de ontem, **desconfie** —
 > confira o fim do `## Log de sessões` da [`STATE.md`](STATE.md) e o `git log -1`.
 >
 > *(Este arquivo não fixa hash de commit de propósito: ele envelheceria a cada commit e
@@ -83,6 +83,12 @@ Instituição (Casa uMode OU Cliente)
 | [`_varredura-2026-09-22-reunioes-compartilhadas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22-reunioes-compartilhadas.md) | a base de reuniões do Notion |
 | [`_proposta-grade-de-areas-revisao.md`](uMode/00_Institucional/_contexto/_proposta-grade-de-areas-revisao.md) | revisão da grade de áreas canônicas |
 | [`_varredura-2026-09-21-fontes-e-lacunas.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-21-fontes-e-lacunas.md) | fontes rastreadas e lacunas por cliente |
+| 🟢 [`_dicionario-permissionamento-uflow.md`](uMode/00_Institucional/_contexto/_dicionario-permissionamento-uflow.md) | **como a permissão do uFlow funciona** — `Includes`/`Excludes`, `scopable`, `entity_configs`, 72 controllers |
+
+> 🔴 **Onde buscar contexto novo no Notion — leia isto antes de abrir qualquer coisa lá.**
+> **Cada cliente tem um `_pendencias-e-fontes.md`** em `uMode/_Clientes/<cliente>/00_Institucional/_contexto/`, e ele é **o diário de varredura**:
+> **§ 3.1** fontes da carteira inteira já varridas · **§ 3.2** a página daquele cliente · **§ 3.3** sub-páginas dele já abertas · 🔴 **§ 4 fontes conhecidas e AINDA NÃO varridas.**
+> **As §§ 3.1 e 4 são iguais nos 48 arquivos** — abrir um só basta para ter o mapa do Notion inteiro. **Não reabra o que a § 3 diz que já foi lido.**
 
 **Protocolos** (em `uMode/00_Institucional/_protocolos/`): `protocolo-varredura-cliente.md` ·
 `protocolo-criacao-cliente.md` · `protocolo-gestao-demanda.md` · `protocolo-gestao-rfi.md`.
@@ -99,29 +105,31 @@ Instituição (Casa uMode OU Cliente)
 | **Base de reuniões** | 22 set 2026 | 1.161 reuniões achadas · Recco e Luiza Barcelos varridas |
 | **Modelo de documentação** | 22 set 2026 | **8 classes travadas · manifesto declarado no `START.md` § 1 · verificável por script** |
 | **Pessoas e ferramentas** | 22 set 2026 | **enum de 7 módulos · atendimento de 17 contas · razão de pessoas datado em 17 clientes** |
+| 🟢 **Permissionamento do uFlow** | **23 set 2026** | **as 10 matrizes lidas · o mecanismo virou autoridade (`_dicionario-permissionamento-uflow.md`) · os 4 acervos do Notion mapeados** |
 
 **Cobertura hoje, medida:**
 
 | | Número |
 |---|---:|
 | Clientes no corpus | **48** |
-| MDs em `uMode/` | **2.020** |
-| Demandas formalizadas | **1.001** |
-| RFIs formalizadas | **87** |
+| MDs em `uMode/` | **2.402** |
+| Demandas formalizadas | **998** |
+| RFIs formalizadas | **85** |
 | `contexto-area.md` conformes | **694/694** |
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50/50 · 49/49 · 49/49** |
 | Atas de reunião lidas por inteiro | **8 de 1.161** |
-| `.md` estruturais, todos classificados | **68/68** |
-| 🟢 **Conectados no grafo** (Obsidian) | **1.996 de 2.079 · 96,0%** |
-| Órfãos restantes | **88 · 4,0%** |
-| 🟢 **Fichas de pessoa de cliente** | **127 em 17 clientes** |
-| Decisões pendentes registradas | **317** |
-| Clientes com permissionamento documentado | **12** |
-| Bases do Notion varridas | **7** |
-| Clientes com as 8 dimensões respondidas | **12 de 48** |
-| Pessoas de cliente com e-mail individual | **92** · janela de jan/2026 |
-| Arquivos de demanda no padrão canônico | **998/999** · 1 staging `SUPERSEDED` |
-| Clientes com razão de pessoas datado | **18 de 48** |
+| `.md` estruturais, todos classificados | **90/90** |
+| 🟢 **Conectados no grafo** (Obsidian) | **2.351 de 2.420 · 97,1%** |
+| Órfãos restantes | **74 · 3,1%** |
+| 🟢 **Fichas de pessoa** | **243** — 225 de cliente + 18 da Casa |
+| 🟢 **Fichas de ferramenta** | **27** |
+| Decisões pendentes registradas | **487** |
+| 🟢 **Perguntas na fila do Vinicius** | **63** — `_perguntas-para-o-vinicius.md` |
+| 🟢 **Matrizes `Perfil de Usuário` lidas** | **10 de 10 — conjunto FECHADO** |
+| 🟢 **Páginas de cliente abertas no Notion** | **16 de 49** |
+| 🟢 **Clientes com sub-página registrada no diário** | **10** |
+| Arquivos de demanda no padrão canônico | **997/998** · 1 staging `SUPERSEDED` |
+| 🚨 **Credenciais expostas conhecidas** | **3** — NK STORE · Lofty Style · **a própria plataforma** |
 
 ## 6 · O que está sendo feito agora
 
@@ -144,47 +152,87 @@ alguma forma ligada a esses nós maiores."*
 | **Ferramenta** | ✅ **novo em 22 set** | **16** |
 | Reunião / ata · E-mail · Agente | 🔴 **não** | 1.161 · 92 · 4 conhecidos |
 
-**Páginas de cliente abertas: 3 de 49** — CAEDU, Osklen, NK STORE.
+**Páginas de cliente abertas: 16 de 49** — CAEDU · Osklen · NK STORE · Reserva · VIX ·
+Lofty Style · Puket · NV · Oficina Reserva · Cambos · Luiza Barcelos · Moda Objetiva · Baw ·
+Loungerie · Lenny Niemeyer · Recco.
 
-- 🟢 **NK STORE:** 13 pessoas com **cargo e área**, das quais **8 nunca abriram demanda**
-  — incluindo as **duas diretoras do projeto**. De 15 para **24 fichas**.
-- 🔴 **Osklen:** o **mesmo** toggle `Pessoas`, **inteiramente vazio.**
-- 🔴 **CAEDU:** 56 sub-páginas, **~47 atas de weekly** que nenhuma consulta SQL vê.
-- 🔴 **A CAEDU mudou de `Ongoing` para `Onboarding` em 22/09/2026 às 15:04**, entre duas
-  leituras minhas — e a base `Etapas do Processo de Clientes` **ainda a marca como `Ongoing`.`**
-  **Perguntar o motivo antes de retomar a frente dela.**
+### 🔴 O que mudou em 23 set 2026, e o próximo agente precisa saber antes de tudo
+
+**1 · As dez matrizes de permissão estão lidas. O conjunto fechou.**
+Duas conclusões minhas caíram no processo: o `Fale com o Suporte` **não é padrão** (4 bloqueiam
+× 6 liberam) e a dor de **excluir variante é configuração, não limitação** da plataforma — a
+Recco tem a linha liberada.
+
+**2 · O mecanismo de permissão virou autoridade.**
+O `📕 Manual do Permissionamento` estava na minha lista de fontes não varridas **enquanto eu
+registrava como pergunta uma coisa que ele responde desde 2024.** Virou
+[`_dicionario-permissionamento-uflow.md`](uMode/00_Institucional/_contexto/_dicionario-permissionamento-uflow.md).
+
+**3 · 🔴 Documentação de cliente mora em QUATRO lugares no Notion, não em um:**
+
+| Acervo | Estado |
+|---|---|
+| `Databases / Mapa de Clientes` | 🟢 é por onde a varredura anda — **16 de 49 abertas** |
+| **`uFlow / Documentação de Setup - PLM / CLIENTES`** | 🔴 **9 clientes, só a NV tocada** |
+| `Operação de Clientes / **Arquivo** / Área de CX / Documentação CX` | ⚠ **arquivado** · 30 docs listados, nenhum aberto |
+| **`Documentação Homologada`**, dentro do cliente | ⚠ vista na Cambos · **não sei quem mais tem** |
+
+🔴 **NK STORE e VIX, que eu considerava bem varridas, têm um SEGUNDO endereço nunca aberto.**
+
+**4 · 🚨 Há um terceiro risco de credencial, e ele é da plataforma.**
+Uma página chamada **`Credenciais`** em `uFlow / Setup - PLM`, seção `Nova uFlow/uRocket`.
+🔴 **NÃO a abri, de propósito** — o título basta para registrar o risco, e abrir traria segredo
+para dentro do contexto. **Item 480 do `_pendencias-gerais.md`.**
+
+**5 · 🔴 Existe segmentação de conta — `SaaS`, `Enterprise`, `SMB` — e nenhuma ficha de cliente
+do corpus carrega segmento.** Os 48 vêm sendo tratados como um bloco só.
 
 ## 7 · Próximos passos, em ordem
 
-1. 🔵 **Abrir as 46 páginas de cliente que faltam.** É a fonte de maior rendimento
-   descoberta até agora: resolve `cargo`, `área` e a camada de liderança de uma vez.
-   **Medir, por cliente, se o toggle `Pessoas` está preenchido** — vira placar de prontidão.
-2. 🚨 **Credenciais.** As duas expostas (NK STORE — **agora com o lugar exato**,
-   Lofty Style) **e a varredura das 1.153 atas não abertas.** **Toda página de cliente aberta
-   daqui pra frente passa a ser varrida também em busca de segredo.**
-3. 🔴 **Perguntar ao Vinicius por que a CAEDU virou `Onboarding`** — e qual campo manda,
-   `Status` ou `Etapa`, que discordam em 5 clientes.
-4. 🔵 **Fechar as 3 entidades que faltam: reunião, e-mail e agente.** Enquanto forem
-   prosa, o grafo não liga ata a pessoa nem demanda a conversa.
-5. 🔵 **Resolver o campo `Participantes` das 1.161 reuniões** com `get-users` — dá
-   **presença nominal com data**, a melhor fonte de pessoa ativa ainda não extraída.
-6. 🔴 **Varrer as duas relações fechadas de `Mapa de Clientes`:** `Segmentação Grupos`
-   e `Atendimento 2024`.
-7. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.
-8. 🔵 **Retomar a CAEDU** assim que as ~50 transcrições reais chegarem.
-9. 🔴 **AO FIM DE TODA A VARREDURA, e só ao fim: o `HOJE` dos uModers.**
-   **Decisão do Vinícius em 22 set 2026**, textual: *"os cargos dos demais também terão
-   atualizações. Isso vai ser uma coisa recorrente e que teremos que corrigir somente ao
-   final de toda a varredura: como é o HOJE dos uModers."* `[D]`
+> 🔴 **Antes de qualquer um destes: abra o `_pendencias-e-fontes.md` do cliente em questão e
+> leia a § 3.** É o diário do que já foi varrido. **Repetir busca é o desperdício que o
+> Vinicius nomeou explicitamente.**
 
-   🔴 **A regra que vale até lá: cargo lido em ata é cargo NAQUELA DATA, nunca cargo de
-   hoje.** Toda ficha de uModer que receber cargo de uma fonte datada **cita a data junto**.
-   ⚠ **Não corrigir de um em um pelo caminho** — ele pediu de uma vez, no fim, e corrigir aos
-   pedaços só cria versões parciais conflitantes.
+1. 🔵 **`uFlow / Documentação de Setup - PLM / CLIENTES` — oito clientes nunca tocados:**
+   RESERVA · BAW · OFICINA · VIX · StudioZ · PUKET · CAEDU · NK Store. **É o passo imediato**,
+   e inclui o segundo endereço da NK STORE e da VIX. **A NV já foi lida** — mas **12 das 13
+   sub-páginas de perfil dela continuam fechadas.**
+2. 🔵 **As 33 páginas de cliente que faltam** em `Databases / Mapa de Clientes`. Segue sendo a
+   fonte de maior rendimento: resolve `cargo`, `área` e a camada de liderança de uma vez.
+   🚨 **Toda página aberta é varrida também em busca de segredo.**
+3. 🚨 **Credenciais — agora são três.** NK STORE (lugar exato) · Lofty Style (lugar exato) ·
+   **`Credenciais` do uFlow, não aberta.** **A rotação é ação do Vinicius, não minha.**
+4. 🔵 **As seções do `Setup - PLM` que respondem dor aberta:** `Como é o processo de
+   integração?` e `Logs e integração` (dor de CAEDU, VIX, Moda Objetiva, Luiza Barcelos) ·
+   `Automações` (os IDs `#1136`, `#1175`, `#989` do playbook da Cambos) · `Traduções` (onde o
+   apelido interno é operado) · `Ficha de Produto` e suas 7 sub-páginas.
+5. 🔴 **Perguntar ao Vinicius:** são **63 perguntas na fila**, em
+   [`_perguntas-para-o-vinicius.md`](uMode/00_Institucional/_contexto/_perguntas-para-o-vinicius.md).
+   **As mais caras:** a segmentação de conta · se `excluir variante` é mesmo só permissão ·
+   se a Cambos é fornecedora de marcas e não marca · qual campo manda, `Status` ou `Etapa`.
+6. 🔵 **Fechar as 3 entidades que faltam: reunião, e-mail e agente.** Enquanto forem prosa, o
+   grafo não liga ata a pessoa nem demanda a conversa.
+7. 🔵 **Resolver o campo `Participantes` das 1.161 reuniões** com `get-users` — dá presença
+   nominal com data, a melhor fonte de pessoa ativa ainda não extraída.
+8. 🔴 **Varrer `Segmentação Grupos` e `Atendimento 2024`** — a primeira ganhou urgência: há
+   três rótulos de segmento (`SaaS`, `Enterprise`, `SMB`) sem dono no corpus.
+9. 🔴 **Criar o campo `Data de Churn`** — segue sendo a lacuna mais cara do corpus.
+10. 🔵 **Retomar a CAEDU** assim que as ~50 transcrições reais chegarem. 🟢 **E há precedente
+    de método:** o `Playbook Cambos` nasceu de transcrição de treinamento processada com IA, em
+    23/03/2026. **Já rodou uma vez.**
+11. 🔴 **AO FIM DE TODA A VARREDURA, e só ao fim: o `HOJE` dos uModers.**
+    **Decisão do Vinícius em 22 set 2026**, textual: *"os cargos dos demais também terão
+    atualizações. Isso vai ser uma coisa recorrente e que teremos que corrigir somente ao
+    final de toda a varredura: como é o HOJE dos uModers."* `[D]`
 
-   **Já confirmado por ele em 22 set 2026 — quatro saídas:** Dalker Walter (Diretor de
-   Operações) · Rafael Renaldim (Gerente de Experiência do Cliente) · Tais Moser
-   (Customer Success) · Saulo (CTO). ⚠ **Data de saída de nenhum deles é conhecida.**
+    🔴 **A regra que vale até lá: cargo lido em ata é cargo NAQUELA DATA, nunca cargo de
+    hoje.** Toda ficha de uModer que receber cargo de uma fonte datada **cita a data junto**.
+    ⚠ **Não corrigir de um em um pelo caminho** — ele pediu de uma vez, no fim, e corrigir aos
+    pedaços só cria versões parciais conflitantes.
+
+    **Já confirmado por ele em 22 set 2026 — quatro saídas:** Dalker Walter (Diretor de
+    Operações) · Rafael Renaldim (Gerente de Experiência do Cliente) · Tais Moser
+    (Customer Success) · Saulo (CTO). ⚠ **Data de saída de nenhum deles é conhecida.**
 
 ## 8 · Decisões esperando o Vinicius
 
@@ -234,8 +282,11 @@ chegar o momento"*. **Minha obrigação é manter a fila pronta e avisar se ela 
 
 **Este arquivo mente rápido se ninguém o atualizar.** A regra:
 
-- **O ritual de fechamento completo está no [`START.md`](START.md) § 4** — são quatro passos:
-  `propaga.py`, `valida-documentacao.py`, `STATE.md` e **este arquivo**.
+- **O ritual de fechamento completo está no [`START.md`](START.md) § 4** — são seis passos:
+  `gera-conexoes.py`, `valida-indexacao.py`, `valida-padrao-corpus.py`,
+  `valida-documentacao.py`, `STATE.md` e **este arquivo**.
+  ⚠ **Corrigido em 23 set 2026:** esta linha mandava rodar um `propaga.py` que
+  **não existe mais** — virou `scripts/valida-padrao-corpus.py`.
 - **Toda sessão que gera commit atualiza `AGORA.md`** — no mínimo a data, os números da § 5 e as
   listas das § 6 e § 7.
 - **`AGORA.md` é resumo, `STATE.md` é histórico.** O que aconteceu vai para a `STATE.md`;

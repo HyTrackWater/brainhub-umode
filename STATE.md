@@ -3025,3 +3025,61 @@ caminho).
   🔴 **E a dor da hierarquia `Griffe › Linha › Grupo/subgrupo` é de set/2025**, idêntica na
   visita de jul/2026 e na reunião de ago/2026 — **atravessou três ciclos sem destravar.**
   **Grafo após tudo: 2.224 arquivos, 96,3% conectados, 88 órfãos.** Itens 308–317.
+
+- **23 set 2026** — Sessão 42: **as dez matrizes de permissão fecharam, duas
+  conclusões minhas caíram, e o Notion revelou ter QUATRO acervos de cliente.**
+  🟢 **Abertas as cinco páginas `Perfil de Usuário e Permissionamentos` que
+  faltavam** — NK STORE, Moda Objetiva, Recco, NV e Lofty Style. **O conjunto de dez está
+  lido.** Duas conclusões minhas caíram: o `Fale com o Suporte` **não é
+  padrão** (4 bloqueiam × 6 liberam — eu tinha construído hipótese sobre
+  dois casos), e a **dor de excluir variante é CONFIGURAÇÃO, não
+  limitação da plataforma**: a Recco tem a linha liberada. **Eu vinha registrando como
+  dor de PRODUTO em cinco clientes.**
+  🔺 **E errei de novo na mesma tarde, num erro que vale mais que os achados.** Na
+  Lofty Style achei permissão dada a uma PESSOA (*"Liberado só Isadora desse Perfil"*)
+  e escrevi que o modelo de dados do uFlow **não tinha onde guardar isso**. **Tinha.**
+  Chama-se **`scopable`**, vale `user` ou `policy`, e está documentado desde 2024 no
+  `📕 Manual do Permissionamento` — **uma página que eu mesmo já listava
+  como fonte não varrida.** **A causa:** o registro `(m)` leu uma *query de análise de
+  acesso* e eu tratei aquele recorte como o modelo inteiro. **Primo do erro do
+  `entity_id = 3344`, e quinta variação de "não encontrei em X" virando "não
+  existe".** A afirmação errada ficou **riscada** no registro, com quadro de
+  correção por cima.
+  🟢 **O Manual virou autoridade:** `_dicionario-permissionamento-uflow.md`, classe
+  `CORPUS`. **A permissão mora em TRÊS lugares** (`j3_policies`, `j3_entity_configs`,
+  `j3_active_form_templates`) — e é por isso que "bloqueado" e "desligado" aparecem
+  iguais na matriz. **`update` sem `edit` não mostra os 3 pontinhos**, que é exatamente
+  a pendência de homologação da NK STORE, respondida desde 2024. E
+  **`model_name_brand/collection/theme/batch`** dão nome ao "apelido interno" da Arquitetura
+  V1. Mapa completo `controller → área`: **72 linhas**.
+  🔴 **O Playbook da Cambos mostrou que a uMode JÁ transformou transcrição
+  de treinamento em playbook, com IA, em 23/03/2026** — exatamente o caminho anunciado para
+  as ~50 transcrições da CAEDU. **E que a Cambos é FORNECEDORA de marcas**: a
+  `Riachuelo` aparece como filtro de *cliente* dentro da conta dela. **Registrei a
+  evidência sem mudar a classificação.**
+  🔴 **Documentação de cliente mora em QUATRO lugares no Notion**, e nenhum
+  documento do corpus dizia isso — **é a causa mecânica de procurar no lugar certo
+  e não achar.** `Mapa de Clientes` · `uFlow / Setup - PLM / CLIENTES` (**9 clientes,
+  só a NV tocada** — NK STORE e VIX têm um SEGUNDO endereço nunca aberto) ·
+  `Operação de Clientes / **Arquivo** / Área de CX` (**arquivado**, 30 docs) ·
+  `Documentação Homologada` dentro do cliente.
+  🚨 **Terceiro risco de credencial, e este é da plataforma:** uma página
+  chamada **`Credenciais`** em `uFlow / Setup - PLM`. 🔴 **NÃO a abri, de
+  propósito** — o título basta para registrar o risco, e abrir traria segredo para
+  dentro do contexto e do histórico da sessão **sem acrescentar nada à ação,
+  que é do Vinicius.**
+  🔴 **Existe segmentação de conta** — `SaaS`, `Enterprise`, `SMB` —
+  **e nenhuma ficha de cliente carrega segmento.** Os 48 vêm sendo tratados como um bloco
+  só.
+  🔺 **Segunda correção do dia, minha:** registrei o caminho do acervo de CX
+  **sem o `Arquivo`** que existe nele. Li o campo `path` da resposta, que vem resumido, em vez
+  do `ancestor-path`, que vem completo. **Duas representações do mesmo caminho na mesma
+  resposta, e eu peguei a curta.**
+  🟢 **Correção de engenharia obrigada pelo dado:** três laços do
+  `gera-fichas-pessoa.py` escreviam no mesmo diretório e **o segundo sobrescrevia o
+  primeiro em silêncio** — mesmo defeito de `chave sem pasta`. Agora o primeiro fica e
+  a colisão vira alerta. **Sobrou uma, legítima:** duas `Cristina` para um primeiro
+  nome. E o **diário de varredura ganhou a § 3.3** — sub-páginas já
+  abertas dentro de cada cliente, que era onde eu repetia busca.
+  **Grafo ao fim: 2.420 arquivos, 97,1% conectados, 74 órfãos. 243 fichas de pessoa,
+  27 de ferramenta, 63 perguntas na fila.** Itens 472–491.
