@@ -3038,3 +3038,56 @@
 479. **🔴 Sete funções bloqueadas para TODOS os perfis, em dois clientes** (Cambos e Oficina
      Reserva): `Tabela Dinâmica` · `Composição de Custo` · `Coordenado` · `Estampa` · `Tag` ·
      `Pack` · `Campo Personalizado`. ⚠ **Dois casos: pode ser função que ninguém usa.**
+480. **🚨 TERCEIRO risco de credencial, e este está no coração da plataforma:
+     há uma página chamada `Credenciais` em `uMode Geral / uFlow / Documentação
+     de Setup - PLM`, seção `Nova uFlow/uRocket`** (`c422e214…`).
+     🔴 **NÃO ABRI, de propósito.** O título já basta para registrar o
+     risco, e abrir só traria segredo para dentro do contexto e do histórico da sessão.
+     ⚠ **Diferente das outras duas, esta não é de um cliente — é da
+     própria plataforma.** **A rotação segue sendo ação sua.**
+481. **🔴 Existe um ÍNDICE TÉCNICO COMPLETO do uFlow e o corpus não tinha
+     nada dele:** `Documentação de Setup - PLM`, com **~70 páginas em 14
+     seções** — Automações, Configs da Conta, Checklists, Validação,
+     Menus Personalizados, Traduções, Documentação DEV, Relatórios, Deploys,
+     Integrações, E-mails Automatizados. **Li o índice; não li as páginas.**
+482. **🟢 Achei o catálogo de automações que eu tinha perguntado onde
+     ficava** (os IDs `#1136`, `#1175`, `#989` da Cambos). São 8 páginas: `Aprovação`
+     · `Calculadora de campos` · `Gerador de Referencia` · `Ação de destruir
+     Materiais` · `Habilitar mover card para etapa anterior` · `Ações com mais de
+     uma expression` · **`Projeto Puket - Kanban de Estilo NOVO`** · `Criar fornecedor no
+     produto ao entrar em etapa do workflow`. ⚠ **Nenhuma aberta.**
+483. **🟢 Cada `entity_config` tem página própria — e DUAS são
+     NOMINAIS de cliente:** **`[Vivara] Alterar nomes tecido/aviamento`** e **`[NV] Bloquear
+     Alteração de Elementos da Tabela na FT`**. 🔴 **A Vivara é cliente da
+     carteira, e "alterar nomes" é o apelido interno de novo — agora com config e
+     documentação própria.**
+484. **🆕 Há uma seção inteira de `Traduções`:** `Abas e nomes de
+     campos da Ficha técnica` · `Campos Custom` · `Impressão` · **`Nomes de
+     Modelos`**. 🟢 **É onde o apelido interno é OPERADO**, e fecha a cadeia:
+     princípio (Arquitetura V1) → config (`model_name_*`) → procedimento (aqui).
+485. **🔴 `Como é o processo de integração?` e `Logs e integração
+     (Google Cloud Watch)` existem como páginas.** ⚠ **A dor de integração
+     atravessa CAEDU, VIX, Moda Objetiva e Luiza Barcelos — e o processo está escrito
+     em algum lugar que ninguém do corpus tinha apontado.** **Não abertas.**
+486. **🆕 Três ferramentas novas, todas na seção de Relatórios:**
+     **`BigQuery`** (`Utilização do BigQuery para consulta no banco`), **`Blazzer`**
+     (`[Blazzer] Realizando consultas pelo BigQuery` — ⚠ grafia da fonte; o produto
+     conhecido chama-se `Blazer`) e **`MongoDB Compass`** (`MongoDB Compass (Aggregations)`, em
+     Documentação DEV). 🔴 **Mongo aparecendo no acervo do uFlow é
+     estranho** — o Mongo do corpus é o do BrainHub, e o uFlow é Rails/`J3`.
+     **Não concluo: registro a estranheza.**
+487. **⚠ O Manual do Permissionamento tem DUAS formas na mesma página:** a página do
+     Notion e um PDF anexado, `manual_do_permissionamento_umode_(5).pdf` — **versão 5**.
+     **Li a página; não li o PDF. Podem divergir.**
+488. **🆕 `Estudo de caso do Card 17680`** — ⚠ **`Card` com ID de cinco
+     dígitos** é vocabulário de ticket que o corpus não tem. **De qual sistema?**
+489. **🆕 `Associar usuário na uDash` é página de Menu Personalizado** —
+     **terceira evidência de que `uDash` é perfil interno**, com o registro `(m)` e a
+     página de Controle de Acessos.
+490. **⚠ A página `Importação` do acervo técnico ESTÁ VAZIA** — o
+     próprio Notion devolve *"este documento não tem conteúdo"*. **Seção
+     criada e nunca escrita.**
+491. **🔴 O acervo `Setup - PLM / CLIENTES` tem NOVE clientes, não um:** NV ·
+     RESERVA · BAW · OFICINA · VIX · **StudioZ** · PUKET · CAEDU ·
+     NK Store. ⚠ **Só a NV foi tocada.** E o título diz `(Em desenvolvimento)`,
+     **última edição em 16/07/2025** — **mais de um ano.**

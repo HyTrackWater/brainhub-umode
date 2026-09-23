@@ -73,6 +73,20 @@ GLOBAIS = [
 
 # FONTES CONHECIDAS E AINDA NAO VARRIDAS, para a carteira inteira.
 NAO_VARRIDAS = [
+    (u"\U0001F534 **`Setup - PLM / CLIENTES` \u2014 OITO clientes n\u00e3o tocados**",
+     u"`bf9891a8\u2026` \u2014 RESERVA \u00b7 BAW \u00b7 OFICINA \u00b7 VIX \u00b7 StudioZ \u00b7 PUKET \u00b7 CAEDU \u00b7 NK Store (a NV foi lida)",
+     u"**setup de PLM por cliente.** \u26a0 **NK STORE e VIX t\u00eam um SEGUNDO endere\u00e7o que eu n\u00e3o tinha aberto**"),
+    (u"**`Setup - PLM` \u2014 se\u00e7\u00e3o `Automa\u00e7\u00f5es`, 8 p\u00e1ginas**", u"`Gerador de Referencia`, `Calculadora de campos`, `A\u00e7\u00f5es com mais de uma expression`, `Projeto Puket - Kanban de Estilo NOVO`\u2026",
+     u"\U0001F7E2 **o cat\u00e1logo das automa\u00e7\u00f5es com ID** (`#1136`, `#1175`, `#989`) que o playbook da Cambos cita e n\u00e3o explica"),
+    (u"**`Setup - PLM` \u2014 se\u00e7\u00e3o `Configs da Conta`, 18 p\u00e1ginas**", u"uma por `entity_config`, **duas nominais**: `[Vivara] Alterar nomes tecido/aviamento` e `[NV] Bloquear Altera\u00e7\u00e3o de Elementos da Tabela na FT`",
+     u"**o procedimento de cada config** \u2014 e `Habilitar Usu\u00e1rios espec\u00edficos a gravar tabela de medida` \u00e9 o `scopable: user` na pr\u00e1tica"),
+    (u"**`Setup - PLM` \u2014 se\u00e7\u00e3o `Tradu\u00e7\u00f5es`, 4 p\u00e1ginas**", u"`Abas e nomes de campos da Ficha t\u00e9cnica` \u00b7 `Campos Custom` \u00b7 `Impress\u00e3o` \u00b7 `Nomes de Modelos`",
+     u"\U0001F7E2 **onde o apelido interno \u00e9 OPERADO** \u2014 fecha a cadeia princ\u00edpio \u2192 config \u2192 procedimento"),
+    (u"\U0001F534 **`Como \u00e9 o processo de integra\u00e7\u00e3o?` e `Logs e integra\u00e7\u00e3o (Google Cloud Watch)`**", u"`e6ca5775\u2026` e `eb6f3a42\u2026`, em `Setup - PLM`",
+     u"**a dor de integra\u00e7\u00e3o atravessa CAEDU, VIX, Moda Objetiva e Luiza Barcelos \u2014 e o processo est\u00e1 escrito aqui**"),
+    (u"**`Ficha de Produto` e suas 7 sub-p\u00e1ginas**", u"`c3deb3dd\u2026`, em `Setup - PLM / Templates de Formul\u00e1rio`",
+     u"**como se bloqueia edi\u00e7\u00e3o de aba e se libera campo por usu\u00e1rio** dentro do template"),
+    (u"**PDF `manual_do_permissionamento_umode_(5).pdf`**", u"anexo na p\u00e1gina `Setup - PLM`", u"\u26a0 **vers\u00e3o 5 do manual.** Li a p\u00e1gina do Notion; **o PDF pode divergir**"),
     (u"\U0001F534 **`playbook.umode.app`**", u"p\u00e1gina `Engenharia de Software` (`dc5980a5\u2026`), em `uMode Geral` \u2014 editada em **07/09/2026**",
      u"\U0001F534 **TERCEIRO dom\u00ednio de documenta\u00e7\u00e3o**, com `docs.umode.app` e `documentacao.umode.tech`. A fonte diz que \u00e9 *de atendimento obrigat\u00f3rio para todos os membros do time*"),
     (u"Teamspace **`AGENTES E PROJETOS`**", u"`Templates & Boas Pr\u00e1ticas` \u00b7 `Projeto: Mentoria (Jo\u00e3o Risol\u00e9o)` \u00b7 `Metodologia MBS`",
@@ -93,9 +107,6 @@ NAO_VARRIDAS = [
      u"conteúdo — **e varredura de credencial**"),
     (u"**Gist** — o chat da plataforma", u"canal oficial de dúvida de usabilidade",
      u"conversa de suporte, por cliente"),
-    (u"🔴 **`uMode Geral / uFlow / Documentação de Setup - PLM / CLIENTES`**",
-     u"segundo acervo de documentação por cliente, fora do `Mapa de Clientes`",
-     u"**setup de PLM por cliente** — achado em 22 set 2026, jamais tocado"),
     (u"🟢 `Controle de Acessos de Usuários` — **LIDA em 22 set 2026**",
      u"`uModers / Vinícius Risoleo / Assunto | Ferramenta`",
      u"deu o **modelo de dados do uFlow**; ⚠ **falta rodar as queries** e trazer o "
