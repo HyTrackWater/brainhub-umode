@@ -78,6 +78,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `a27d12dd…` | 🟢 **o mapeamento de dores mais completo da carteira**, escrito pelo João no grupo de Sales em **26/06/2024**: cadastro no SAP, dependência do time da **AREZZO**, relação com a **Qualitá** por WhatsApp, ausência de governança, **400 SKUs por coleção**, **90% do tempo no SAP**; Kick Off interno 01/07 e com cliente 12/07/2024 | ⚠ **não** — 4 sub-páginas e 3 databases inline não abertos **+ a sub-página `Perfil de Usuário e Permissionamentos OFICINA` (`2b6b1d38…`), com 8 perfis, as interfaces do SAP numeradas e uma regra de código vazada no título** |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **22 set 2026** | `Perfil de Usuário e Permissionamentos` | ⚠ **id não anotado na época** | 8 perfis, **`Qualitá` entre eles — terceiro com login**; 🟢 `Fale com o Suporte` liberado; **a linha `Manual` nem existe**; interfaces SAP numeradas; regra de código `read_only: !current_policy.name.in?(…)` vazada no título de uma seção |
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

@@ -43,12 +43,26 @@
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🚨 **Credencial de produção do Linx em TEXTO CLARO** na página do cliente, toggle `Documentos › Conexão com Linx`: usuário, senha, IP, porta e nome do banco. **O valor não foi replicado em lugar nenhum do corpus.** | `T0` | 🚨 **rotação da chave — ação do Vinicius** |
-| 2 | 🔴 **CPF e telefone pessoal de dois representantes legais** na mesma página. **Nada entrou no corpus** — registro que existe e onde. | `T0` | nada — é tratamento |
-| 3 | 🔴 **8 das 13 pessoas com cargo nunca abriram demanda** — incluindo as **duas diretoras do projeto** (Regiane Konopka, Merchandising; Stella Sunaga, Estilo). | `T2` | nada — já corrigido, as fichas existem |
-| 4 | ⚠ **`Merchandising`, `Curadoria` e `Oficina` são etapas do processo com dono, e não existem na grade canônica de 14 áreas.** Aqui **não são apelido.** | `T2` | decisão sobre a grade de áreas (item 234 — `15_Producao-Interna`) |
-| 5 | ⚠ **11 das 24 pessoas seguem sem cargo** — as que vieram só da base de demandas e não aparecem no toggle `Pessoas` da página. | `T2` | preenchimento pelo atendimento |
-| 6 | 🆕 **`uBuy` aparece como oportunidade** (*Follow Up de Entregas → Pedidos de Compras*) e **não está nos 7 módulos nem nas 16 Soluções.** | `T2` | decisão sobre o portfólio |
+| 1 | 🔴 **A base `Usuários` da página de perfil tem 30 linhas, TODAS PREENCHIDAS** — nome, e-mail corporativo, `Perfil do Usuário`, `Departamento NK` e `Status`. 🟢 **É a mesma base que na Lenny Niemeyer está VAZIA**, com o mesmo schema. **Responde a pendência que eu tinha deixado aberta lá: sim, outro cliente tem a base preenchida.** | `T2` | — já virou ficha de pessoa |
+| 2 | 🔴 **`INATIVAR` é usado como valor de `Departamento NK` em 5 das 30 linhas.** ⚠ **Não é departamento — é instrução operacional escrita no campo de área.** O campo foi sequestrado para virar fila de tarefa, e com isso **a área dessas 5 pessoas se perdeu.** | `T2` | decisão de modelagem + conferência com o cliente |
+| 3 | 🔴 **Os perfis da MATRIZ e os perfis da BASE não batem.** A matriz tem `NK - Admin`, `NK - Time`, `NK- Estilo Master`, `Nk Compras Master`, `Nk Modelagem`, `NK Compras` e `Fornecedor`. A base usa `NK - Admin`, `NK - Estilo`, `NK - Compras`, `NK - Modelagem` e **`NK - PCP`**. 🔴 **`NK - PCP` existe na base e NÃO existe na matriz — são 7 pessoas sem permissão documentada.** E `NK - Time` e `Fornecedor` não têm nenhum usuário. | `T2` | conferência com o atendimento |
+| 4 | ⚠ **A grafia dos perfis na matriz é inconsistente na própria fonte:** `NK - Admin`, `NK- Estilo Master`, `Nk Compras Master`, `NK Compras`. **Três jeitos de escrever o mesmo prefixo.** | `T2` | — |
+| 5 | 🔴 **Os 4 perfis de função da matriz (`Estilo Master`, `Compras Master`, `Modelagem`, `Compras`) têm valor em DUAS linhas só** — `Importação` e `Integração`. **Todo o resto da matriz está vazio para eles.** ⚠ **Matriz incompleta ≠ permissão negada, e eu não sei qual dos dois é.** | `T2` | conferência |
+| 6 | 🆕 **Duas colunas de VALIDAÇÃO datada dentro da matriz** — `Validação NK - Admin 04/12` e `Validação NK - Time 04/12`, com ✔️, ✖️ e comentários (*não pode aparecer os 3 pontinhos*, *incluir ação de cancelado*, *travar edição de grade qnd tiver tabela*). 🟢 **É homologação com o cliente registrada na própria matriz — o único caso no corpus.** | `T2` | — vale virar padrão |
+| 7 | 🔴 **`Fale com o Suporte` BLOQUEADO para `NK - Admin` e `NK - Time`.** **Terceiro cliente bloqueado**, com Luiza Barcelos e Lenny. | `T2` | — |
+| 8 | 🆕 **`Integração Linx` é aba da ficha de produto aqui**, 🟡 somente visualizar. ⚠ **Liga direto com o risco de credencial Linx deste mesmo cliente.** | `T2` | — |
+| 9 | 🆕 **A aba de chat se chama `Chat NK`** — nome do cliente no rótulo. Com o `Chat NV` da NV, são **dois casos**; Moda Objetiva e Recco usam `Chat` seco. **É customização de rótulo, não padrão.** | `T2` | — |
+| 10 | 🔴 **`nelson tadeu` entra pelo e-mail `expedicao2@nkstore.com.br`** — **caixa funcional, não nominal**, com pessoa nomeada atrás. ⚠ **A chave de identidade aqui é de uma CAIXA**, e o `2` sugere que existe uma `expedicao1`. | `T2` | conferência |
+| 11 | ⚠ **Duas `Cristina`, duas `Vanessa` e duas `Julia` na mesma base**, distintas pelo e-mail. 🔴 **A ficha `cristina.md`, vinda da base de demandas, NÃO pôde ser casada** — o gerador parou e avisou em vez de sobrescrever. | `T2` | **pergunta registrada** |
+| 12 | ⚠ **`kemely.md` (demandas) × `kemelly.fernandes@` (base): um `l` de diferença.** **NÃO fundi — uma letra não é prova.** Mesmo caso de `silvia-shirlei-dias` × `silvia.nascimento@`. | `T2` | **pergunta registrada** |
+| 13 | ⚠ **Uma linha está DUPLICADA na base**: `Sam` / `sam.santos@`, mesma data, duas vezes. | `T2` | limpeza na fonte |
+| 14 | 🔴 **Callout `Documentação tech →` aponta para `6d0379fa…`** — **a MESMA página técnica citada na Recco**. Página compartilhada entre clientes, **não varrida**. | `T2` | tempo de varredura |
+| 15 | 🚨 **Credencial de produção do Linx em TEXTO CLARO** na página do cliente, toggle `Documentos › Conexão com Linx`: usuário, senha, IP, porta e nome do banco. **O valor não foi replicado em lugar nenhum do corpus.** | `T0` | 🚨 **rotação da chave — ação do Vinicius** |
+| 16 | 🔴 **CPF e telefone pessoal de dois representantes legais** na mesma página. **Nada entrou no corpus** — registro que existe e onde. | `T0` | nada — é tratamento |
+| 17 | 🔴 **8 das 13 pessoas com cargo nunca abriram demanda** — incluindo as **duas diretoras do projeto** (Regiane Konopka, Merchandising; Stella Sunaga, Estilo). | `T2` | nada — já corrigido, as fichas existem |
+| 18 | ⚠ **`Merchandising`, `Curadoria` e `Oficina` são etapas do processo com dono, e não existem na grade canônica de 14 áreas.** Aqui **não são apelido.** | `T2` | decisão sobre a grade de áreas (item 234 — `15_Producao-Interna`) |
+| 19 | ⚠ **11 das 24 pessoas seguem sem cargo** — as que vieram só da base de demandas e não aparecem no toggle `Pessoas` da página. | `T2` | preenchimento pelo atendimento |
+| 20 | 🆕 **`uBuy` aparece como oportunidade** (*Follow Up de Entregas → Pedidos de Compras*) e **não está nos 7 módulos nem nas 16 Soluções.** | `T2` | decisão sobre o portfólio |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -62,8 +76,12 @@
 
 | # | Pergunta | Tier | Por que importa | Estado |
 |--:|---|:-:|---|---|
-| 1 | 🚨 **A credencial de produção do Linx está em texto claro na página do cliente. Foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
-| 2 | `Merchandising`, `Curadoria` e `Oficina` são etapas do processo com dono e não existem na grade de 14 áreas. **Viram área canônica, subárea, ou apelido?** | `T2` | é o mesmo tema do `15_Producao-Interna` | aberta |
+| 1 | Há **duas `Cristina`** na base de usuários da NK STORE (`cristina@` em Compras, `cristina.amorim@` em Modelagem) e **uma ficha `cristina.md`** vinda da base de demandas, que traz só o primeiro nome. **Qual das duas abriu as demandas?** | `T2` | 🔴 **o gerador PAROU e avisou em vez de sobrescrever** — sem a resposta, ficam duas fichas para uma pessoa ou uma ficha para duas | aberta |
+| 2 | A base tem **`kemelly.fernandes@`** e o corpus tem a ficha **`kemely.md`**, um `l` de diferença. E tem **`silvia.nascimento@`** contra **`silvia-shirlei-dias.md`**. **São as mesmas pessoas?** | `T2` | **não fundi — uma letra não é prova** | aberta |
+| 3 | **5 das 30 linhas têm `Departamento NK = INATIVAR`.** É instrução pendente ou já foi executada? E **qual era a área real dessas pessoas antes de o campo ser sequestrado?** | `T2` | são 5 pessoas sem área no corpus | aberta |
+| 4 | A matriz de permissão **não tem o perfil `NK - PCP`**, mas **7 pessoas o usam**. E os perfis `NK - Time` e `Fornecedor`, que a matriz detalha, **não têm nenhum usuário**. **Qual dos dois documentos está velho?** | `T2` | 7 pessoas sem permissão documentada | aberta |
+| 5 | 🚨 **A credencial de produção do Linx está em texto claro na página do cliente. Foi rotacionada?** | `T0` | exposição ativa até prova em contrário | aberta |
+| 6 | `Merchandising`, `Curadoria` e `Oficina` são etapas do processo com dono e não existem na grade de 14 áreas. **Viram área canônica, subárea, ou apelido?** | `T2` | é o mesmo tema do `15_Producao-Interna` | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
@@ -88,6 +106,15 @@
 | Quando | Endereço | O que saiu | Esgotada? |
 |---|---|---|---|
 | **22 set 2026** | `0f24dfbe…` | **13 pessoas com cargo e área**; processo `Planejamento → Estilo → Compras/Merchandising → PCP → Oficina`; dores mapeadas; **`uBuy`** como oportunidade; 🚨 **credencial de produção em texto claro** | ⚠ **não** — 1 bloco não abriu (`Plano de Sucesso do Cliente`) |
+
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **23 set 2026** | `Documentos › Perfil de Usuário e Permissionamentos` | `0385f372…` | 7 perfis + **2 colunas de validação datada (04/12)**; 🔴 `Fale com o Suporte` bloqueado; `Integração Linx` e `Chat NK` como abas; **base `Usuários` inline com 30 linhas PREENCHIDAS** — virou 28 fichas de pessoa |
+| **23 set 2026** | base `Usuários` (inline na página de perfil) | `collection://1b5b1d38-e768-80b0-aaac-000b33b9657a` | 30 linhas: `Nome` · `E-mail` · `Perfil do Usuário` · **`Departamento NK`** · `Status`. **Consultada por SQL, linha a linha.** |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 

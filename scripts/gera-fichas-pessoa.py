@@ -31,6 +31,14 @@ import re
 import sys
 import unicodedata
 
+# Windows entrega stdout em cp1252 e o script imprime emoji de alerta.
+# Sem isto, o relatorio de descarte MORRE justo na parte que existe para
+# ser vista - foi assim que o `Hermes` sumiu em silencio.
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLI = os.path.join(RAIZ, u"uMode", u"_Clientes")
 
@@ -64,6 +72,7 @@ def limpa(cel):
 
 # Tudo que o filtro descarta fica aqui e e IMPRESSO no fim. Filtro silencioso
 # foi como o `Hermes` (Gerente de TI da NK STORE, 5 demandas) sumiu do corpus.
+COLISOES = []   # dois lacos mirando o mesmo arquivo: o dado sumia calado
 DESCARTADOS = []
 
 def e_pessoa(nome):
@@ -216,6 +225,64 @@ NOTA_PAGINA = {
 # E a unica fonte que da DATA DE ATIVACAO por pessoa, e a unica com chave de
 # identidade. Formato: cliente -> [(nome, email, perfil, ativo_desde, obs)]
 DA_PLATAFORMA = {
+    u"NK STORE": [
+        (u"Nathalia Gomes", u"nathalia.gomes@nkstore.com.br", u"TI", u"CONVITE ACEITO em 05/12/2024",
+         u"perfil de acesso `NK - Admin`. 🆕 **Única pessoa de `TI` na base** — e a NK STORE é o cliente do risco de credencial Linx.", u"Departamento NK", u"Status na base"),
+        (u"Cristina", u"cristina@nkstore.com.br", u"Compras", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - Admin`. ⚠ **`Departamento` e perfil DIVERGEM**: departamento `Compras`, perfil `NK - Admin`. ⚠ **E existe outra `Cristina` na mesma base** (`cristina.amorim`, Modelagem) — não fundi.", u"Departamento NK", u"Status na base"),
+        (u"Larissa Castilho", u"larissa.castilho@nkstore.com.br", u"INATIVAR", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - Admin`. 🔴 **`Departamento NK` = `INATIVAR`** — ⚠ **não é departamento, é INSTRUÇÃO OPERACIONAL escrita no campo de área.** Não afirmo que saiu: afirmo que a fonte pede a inativação.", u"Departamento NK", u"Status na base"),
+        (u"Lucas Gabriel de Oliveira Alves de Souza", u"lucas.souza@nkstore.com.br", u"INATIVAR", u"CONVITE ACEITO em 23/01/2025",
+         u"perfil de acesso `NK - PCP`. 🔴 **`Departamento NK` = `INATIVAR`** — ⚠ **não é departamento, é INSTRUÇÃO OPERACIONAL escrita no campo de área.** Não afirmo que saiu: afirmo que a fonte pede a inativação.", u"Departamento NK", u"Status na base"),
+        (u"Vanessa Veiga", u"vanessa.ventura@nkstore.com.br", u"INATIVAR", u"USUÁRIO INATIVO desde 10/03/2025",
+         u"perfil de acesso `NK - Estilo`. 🔴 **Única linha da base com status de INATIVO de fato.** ⚠ **Nome e e-mail divergem** (`Veiga` × `ventura`) — não resolvi.", u"Departamento NK", u"Status na base"),
+        (u"Júlia Fontoura", u"julia.fontoura@nkstore.com.br", u"INATIVAR", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - Estilo`. 🔴 **`Departamento NK` = `INATIVAR`** — ⚠ **não é departamento, é INSTRUÇÃO OPERACIONAL escrita no campo de área.** Não afirmo que saiu: afirmo que a fonte pede a inativação.", u"Departamento NK", u"Status na base"),
+        (u"Gabriela Rocin", u"gabriela.rocin@nkstore.com.br", u"INATIVAR", u"CONVITE PENDENTE desde 12/12/2024",
+         u"perfil de acesso `NK - Estilo`. 🔴 **`Nome` está `(Não definido)` na fonte** — o nome aqui vem da parte local do e-mail, e **isso é dedução minha, não dado.** 🔴 **`Departamento NK` = `INATIVAR`** — ⚠ **não é departamento, é INSTRUÇÃO OPERACIONAL escrita no campo de área.** Não afirmo que saiu: afirmo que a fonte pede a inativação.", u"Departamento NK", u"Status na base"),
+        (u"Kemelly Fernandes", u"kemelly.fernandes@nkstore.com.br", u"Compras", u"CONVITE PENDENTE desde 16/12/2024",
+         u"perfil de acesso `NK - Compras`. 🔴 **`Nome` está `(Não definido)` na fonte.** ⚠ **Há uma ficha `kemely.md` vinda da base de demandas** — um `l` de diferença. **NÃO fundi: uma letra não é prova.**", u"Departamento NK", u"Status na base"),
+        (u"Sam", u"sam.santos@nkstore.com.br", u"Estilo", u"CONVITE ACEITO em 10/03/2025",
+         u"perfil de acesso `NK - Estilo`. 🔴 **Esta pessoa aparece DUAS VEZES na base**, com o mesmo e-mail e a mesma data — linha duplicada na fonte.", u"Departamento NK", u"Status na base"),
+        (u"Moreno Ribeiro", u"moreno.ribeiro@nkstore.com.br", u"Estilo", u"CONVITE ACEITO em 13/02/2025",
+         u"perfil de acesso `NK - Estilo`.", u"Departamento NK", u"Status na base"),
+        (u"Julia Leone", u"julia.leone@nkstore.com.br", u"Estilo", u"CONVITE ACEITO em 18/12/2024",
+         u"perfil de acesso `NK - Estilo`. ⚠ **Segunda `Julia` da base** (com `Júlia Fontoura`) — não fundi.", u"Departamento NK", u"Status na base"),
+        (u"Thais", u"thais.cerqueira@nkstore.com.br", u"Estilo", u"CONVITE ACEITO em 12/02/2025",
+         u"perfil de acesso `NK - Estilo`.", u"Departamento NK", u"Status na base"),
+        (u"Ana Ribeiro", u"ana.ribeiro@nkstore.com.br", u"Estilo", u"CONVITE ACEITO em 27/02/2025",
+         u"perfil de acesso `NK - Estilo`.", u"Departamento NK", u"Status na base"),
+        (u"Stella Sunaga", u"stella.sunaga@nkstore.com.br", u"Estilo", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - Estilo`.", u"Departamento NK", u"Status na base"),
+        (u"Heloisa Lima", u"heloisa.lima@nkstore.com.br", u"Compras", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - Compras`.", u"Departamento NK", u"Status na base"),
+        (u"Negrita Moreira Candido", u"negrita.candido@nkstore.com.br", u"Compras", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - Compras`.", u"Departamento NK", u"Status na base"),
+        (u"Isabely Consul Dantas", u"isabely.consul@nkstore.com.br", u"Compras", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - Compras`.", u"Departamento NK", u"Status na base"),
+        (u"Nelson Tadeu Alves Ferreira", u"expedicao2@nkstore.com.br", u"Compras", u"CONVITE ACEITO em 06/01/2025",
+         u"perfil de acesso `NK - Compras`. 🔴 **E-mail FUNCIONAL, não nominal** (`expedicao2@`) com pessoa nomeada atrás. ⚠ **A chave de identidade aqui é de uma CAIXA, não de uma pessoa** — e o `2` sugere que existe uma `expedicao1`.", u"Departamento NK", u"Status na base"),
+        (u"Laís", u"lais.batista@nkstore.com.br", u"PCP", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - PCP`.", u"Departamento NK", u"Status na base"),
+        (u"Beatriz Nunes", u"beatriz.nunes@nkstore.com.br", u"PCP", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - PCP`.", u"Departamento NK", u"Status na base"),
+        (u"Caroline Silva", u"caroline.silva@nkstore.com.br", u"PCP", u"CONVITE ACEITO em 23/01/2025",
+         u"perfil de acesso `NK - PCP`.", u"Departamento NK", u"Status na base"),
+        (u"Milena Machado", u"milena.machado@nkstore.com.br", u"PCP", u"CONVITE ACEITO em 27/01/2025",
+         u"perfil de acesso `NK - PCP`.", u"Departamento NK", u"Status na base"),
+        (u"Andressa Correa", u"andressa.correa@nkstore.com.br", u"PCP", u"CONVITE ACEITO em 12/12/2024",
+         u"perfil de acesso `NK - PCP`.", u"Departamento NK", u"Status na base"),
+        (u"ROSANA RIBEIRO DA SILVA CAMPOS", u"rosana.campos@nkstore.com.br", u"PCP", u"CONVITE ACEITO em 23/01/2025",
+         u"perfil de acesso `NK - PCP`. ⚠ **O nome está em CAIXA ALTA na fonte** — mantido como está, `protocolo-varredura-cliente.md` § 9.", u"Departamento NK", u"Status na base"),
+        (u"Vanessa", u"vanessa.oliveira@nkstore.com.br", u"Modelagem", u"CONVITE ACEITO em 15/01/2025",
+         u"perfil de acesso `NK - Modelagem`. ⚠ **Segunda `Vanessa` da base** (com `Vanessa Veiga`, `vanessa.ventura`) — não fundi.", u"Departamento NK", u"Status na base"),
+        (u"Silvia", u"silvia.nascimento@nkstore.com.br", u"Modelagem", u"CONVITE ACEITO em 15/01/2025",
+         u"perfil de acesso `NK - Modelagem`. ⚠ **Há uma ficha `silvia-shirlei-dias.md`** vinda da base de demandas. **NÃO fundi:** `Shirlei Dias` × `nascimento` não batem.", u"Departamento NK", u"Status na base"),
+        (u"Vitoria Fernanda", u"fernanda.coelho@nkstore.com.br", u"Modelagem", u"CONVITE ACEITO em 15/01/2025",
+         u"perfil de acesso `NK - Modelagem`. ⚠ **nome e e-mail divergem** (`Vitoria Fernanda` × `fernanda.coelho`) — não resolvi.", u"Departamento NK", u"Status na base"),
+        (u"Cristina Amorim", u"cristina.amorim@nkstore.com.br", u"Modelagem", u"CONVITE ACEITO em 08/01/2025",
+         u"perfil de acesso `NK - Modelagem`. ⚠ **Segunda `Cristina` da base** — não fundi.", u"Departamento NK", u"Status na base"),
+    ],
     u"Puket": [
         (u"Michele Lunkes", u"michele.lunkes@grupounico.com", u"Sourcing Nacional", u"02/12/2022", u""),
         (u"Yves", u"yves.pancotti@puket.com.br", u"Produto", u"02/02/2023", u""),
@@ -272,13 +339,20 @@ DA_PLATAFORMA = {
 def casa_plataforma(cliente, nome_curto):
     u"""Casa um nome da base de demandas com a tabela de usuarios da plataforma.
 
-    Casa por primeiro nome OU pela parte local do e-mail. Ambiguidade devolve
-    None: suspeita se levanta, fusao so com confirmacao humana.
+    Casa por nome INTEIRO, por primeiro nome OU pela parte local do e-mail.
+    Ambiguidade devolve None: suspeita se levanta, fusao so com confirmacao humana.
+
+    O casamento por nome inteiro foi acrescentado em 23 set 2026: sem ele,
+    `Stella Sunaga` da pagina e `stella.sunaga@` da plataforma viravam DUAS
+    fichas da mesma pessoa, e a segunda sobrescrevia a primeira em silencio.
+    Nome completo identico nao e palpite - e a evidencia mais forte que existe
+    aqui depois do e-mail.
     """
     alvo = slug(nome_curto)
     hits = []
     for r in DA_PLATAFORMA.get(cliente, ()):
-        if slug(r[0]).split(u"-")[0] == alvo or slug(r[1].split(u"@")[0]) == alvo:
+        sn = slug(r[0])
+        if sn == alvo or sn.split(u"-")[0] == alvo or slug(r[1].split(u"@")[0]) == alvo:
             hits.append(r)
     return hits[0] if len(hits) == 1 else None
 
@@ -352,11 +426,12 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None, plat=None):
     L.append(u"⚠ **não se aplica** — é campo da Casa uMode")
     L.append(u"### \u00c1rea (organizacional)")
     if plat:
-        L.append(u"**%s** — **`Perfil de Acesso`** na tabela de usuários da plataforma."
-                 % plat[2])
+        L.append(u"**%s** — **`%s`** na tabela de usuários da plataforma."
+                 % (plat[2], plat[5] if len(plat) > 5 else u"Perfil de Acesso"))
         L.append(u"")
-        L.append(u"⚠ **Perfil de acesso NÃO é área canônica** — é como o "
-                 u"cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.")
+        L.append(u"⚠ **`%s` NÃO é área canônica** — é como o cliente "
+                 u"nomeia. **Não mapeei para a grade de 14** sem sua confirmação."
+                 % (plat[5] if len(plat) > 5 else u"Perfil de acesso"))
     elif pag:
         L.append(u"**%s** — ⚠ **como a fonte a nomeia**, não necessariamente uma das"
                  % pag[2])
@@ -417,7 +492,7 @@ def ficha(cliente, nome, demandas, pri, ult, obs, pag=None, plat=None):
     L.append(u"| Última atividade observada | %s |" % (ult or u"`[a preencher]`"))
     L.append(u"| Fonte | campo `Quem solicitou?` da base de demandas do Notion |")
     if plat:
-        L.append(u"| **Ativo na plataforma desde** | **%s** |" % plat[3])
+        L.append(u"| **%s** | **%s** |" % (plat[6] if len(plat) > 6 else u"Ativo na plataforma desde", plat[3]))
         L.append(u"| Fonte | tabela de usuários da página do cliente |")
     if obs and obs != u"—":
         L.append(u"")
@@ -458,6 +533,7 @@ def main():
         n_cli = 0
         usados = set()
         usados_plat = set()
+        escritos = {}   # caminho -> qual fonte ja escreveu nele
         for linha in bloco.split(u"\n"):
             if not linha.startswith(u"| ") or linha.startswith(u"|---") or u"Demandas |" in linha:
                 continue
@@ -476,6 +552,7 @@ def main():
             p = os.path.join(destino, slug(nome) + u".md")
             novo = ficha(c, nome, cels[1], cels[2], cels[3],
                          cels[4] if len(cels) > 4 else u"", pag, plat)
+            escritos[p] = (u"base de demandas", nome)
             if os.path.exists(p) and io.open(p, encoding="utf-8").read() == novo:
                 continue
             io.open(p, "w", encoding="utf-8", newline="").write(novo)
@@ -488,8 +565,19 @@ def main():
             if r[0] in usados:
                 continue
             p = os.path.join(destino, slug(r[0]) + u".md")
+            if p in escritos:
+                COLISOES.append((c, p, escritos[p], (u"pagina do cliente", r[0])))
+                continue
+            escritos[p] = (u"pagina do cliente", r[0])
+            # A pagina do cliente da o CARGO; a tabela de usuarios da o E-MAIL.
+            # Ate 23 set 2026 os dois lados nasciam como fichas separadas e uma
+            # sobrescrevia a outra. Quem esta nas duas fontes merece UMA ficha
+            # com as duas metades.
+            plat_p = casa_plataforma(c, r[0])
+            if plat_p:
+                usados_plat.add(plat_p[1])
             novo = ficha(c, r[0], u"0", u"", u"",
-                         u"nao aparece na base de demandas", r)
+                         u"nao aparece na base de demandas", r, plat_p)
             if os.path.exists(p) and io.open(p, encoding="utf-8").read() == novo:
                 continue
             io.open(p, "w", encoding="utf-8", newline="").write(novo)
@@ -500,8 +588,15 @@ def main():
         for r in DA_PLATAFORMA.get(c, ()):
             if r[1] in usados_plat:
                 continue
-            base_nome = r[0] if u" " in r[0] else r[1].split(u"@")[0].replace(u".", u" ")
+            local = r[1].split(u"@")[0]
+            e_login = u"." in r[0] or slug(r[0]) == slug(local)
+            base_nome = local.replace(u".", u" ") if e_login else r[0]
             pth = os.path.join(destino, slug(r[1].split(u"@")[0]) + u".md")
+            if pth in escritos:
+                COLISOES.append((c, pth, escritos[pth],
+                                 (u"tabela de usuarios", r[1])))
+                continue
+            escritos[pth] = (u"tabela de usuarios", r[1])
             novo = ficha(c, base_nome, u"0", u"", u"",
                          r[4] or u"nao aparece na base de demandas", None, r)
             if os.path.exists(pth) and io.open(pth, encoding="utf-8").read() == novo:
@@ -522,6 +617,18 @@ def main():
             print(u"   %s / %s" % (c, n))
         print(u"Corrija a chave para o nome EXATO em DA_PAGINA.")
         return 1
+
+    if COLISOES:
+        print(u"")
+        print(u"\U0001F534 COLISAO DE ARQUIVO (%d) - duas fontes miraram o mesmo "
+              u".md. A PRIMEIRA ficou; a segunda NAO foi escrita:" % len(COLISOES))
+        for cli, cam, a, b in COLISOES:
+            print(u"   %s" % os.path.basename(cam))
+            print(u"      ficou:  %s -> %s" % a)
+            print(u"      perdeu: %s -> %s" % b)
+            print(u"      cliente: %s" % cli)
+        print(u"Decida a mao se sao a MESMA pessoa. "
+              u"Fusao nao se faz no palpite.")
 
     if DESCARTADOS:
         print(u"")

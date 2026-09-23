@@ -80,6 +80,10 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 `Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
 **`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

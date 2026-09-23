@@ -1,4 +1,4 @@
-# Puket · Pessoa · Tayna Basile
+# Puket · Pessoa · tayna basile
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
@@ -9,9 +9,9 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-`[a preencher]` — a fonte registra **`Tayna Basile`**
+`[a preencher]` — a fonte registra **`tayna basile`**
 ### Nome preferido / como é chamado(a)
-**Tayna Basile**
+**tayna basile**
 ### Email
 **`tayna.basile@puket.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
 
@@ -26,7 +26,7 @@ página do cliente**, que é onde o cargo vive quando existe.
 ### Área (organizacional)
 **Design** — **`Perfil de Acesso`** na tabela de usuários da plataforma.
 
-⚠ **Perfil de acesso NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
+⚠ **`Perfil de acesso` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode

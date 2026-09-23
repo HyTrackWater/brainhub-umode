@@ -1,4 +1,4 @@
-# Puket · Pessoa · Sarah Nunes
+# Puket · Pessoa · sarah nunes
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
@@ -9,9 +9,9 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-`[a preencher]` — a fonte registra **`Sarah Nunes`**
+`[a preencher]` — a fonte registra **`sarah nunes`**
 ### Nome preferido / como é chamado(a)
-**Sarah Nunes**
+**sarah nunes**
 ### Email
 **`sarah.nunes@grupounico.com`** — e-mail **corporativo**, da tabela de usuários da plataforma.
 
@@ -26,7 +26,7 @@ página do cliente**, que é onde o cargo vive quando existe.
 ### Área (organizacional)
 **Controladoria** — **`Perfil de Acesso`** na tabela de usuários da plataforma.
 
-⚠ **Perfil de acesso NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
+⚠ **`Perfil de acesso` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode

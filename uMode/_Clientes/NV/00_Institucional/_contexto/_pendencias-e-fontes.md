@@ -38,13 +38,23 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🟢 **O bloco `Marca:` está preenchido** — é o mesmo template que na Puket está vazio. **Linha de produção:** compra de Produto Acabado, Importado e **triangulação de Matéria-prima para Facção**. **ERP** Linx, **integração ativa** em Produtos e Ficha Técnica. | `T2` | nada — é dado |
-| 2 | 🔴 **61 usuários ativos declarados, e o corpus tem 13 fichas.** **O número se sabe; os nomes, não.** ⚠ **A NV NÃO tem a tabela de usuários que a Puket tem.** | `T2` | exportar a lista de usuários |
-| 3 | 🔴 **10 departamentos engajados, e QUATRO não têm área canônica:** `Engenharia de Produto`, `Planejamento Comercial`, `Cadastro/Planners`, **`Atacado`** e 🔴 **`Atelier`**. Os outros: Estilo, PCP, Marketing, Compras, Logística. | `T2` | decisão sobre a grade |
-| 4 | 🔴 **`Atelier` é a SÉTIMA evidência do `15_Producao-Interna`** (item 234) — depois de `Oficina` na NK STORE e `facção` em vários. | `T2` | decisão sobre criar a área |
-| 5 | 🔴 **QUARTO e QUINTO caso da dor de variante:** `Manual de descancelamento de produtos e variantes` e `NV | Variantes Canceladas Inativas`. Com VIX, Reserva e Lofty Style são **quatro clientes**. **Não é mais hipótese.** | `T2` | decisão de produto |
-| 6 | ⚠ **Onboarding partido em duas fases documentadas** (`Fase 1`, `Fase 2`) mais uma página `On`. **Nenhum outro cliente tem onboarding faseado assim.** | `T2` | tempo de varredura |
-| 7 | 🆕 **`NV | Proposta de comunicação`** — segundo cliente com plano de comunicação formal, junto da Osklen (`Integração de Escrita`). | `T2` | — |
+| 1 | 🔴 **A NV é a única que NÃO tem matriz única: tem 13 SUB-PÁGINAS, uma por perfil** — `Geral`, `Master`, `Estilo`, `Qualidade`, `Planner`, **`Planner 2`**, `Compras`, `Planejamento Comercial`, `PCP`, `Atacado`, `Marketing`, **`View`** e `Logística`. **13 perfis é o maior número do corpus.** ⚠ **12 dessas sub-páginas continuam NÃO abertas.** | `T2` | tempo de varredura |
+| 2 | 🔴 **A página-mãe define o MECANISMO de permissionamento da plataforma, em texto:** *na uMode, o permissionamento pode ser configurado de duas formas: **Inclusão** → tudo aquilo que o perfil PODE fazer; **Restrição** → tudo aquilo que o perfil NÃO pode fazer.* 🟢 **É a definição conceitual que faltava** — o corpus só tinha a evidência de código (`INCLUDES` no Setup-PLM, `read_only: !current_policy.name.in?([…])` na Oficina). **Allowlist e denylist, por perfil.** `[C]` | `T2` | — |
+| 3 | 🔺 **E o vocabulário DIVERGE dentro do próprio documento:** a página-mãe diz **`Restrição`**, a sub-página `NV - Geral` diz **`exclusão`** para a mesma coisa. ⚠ **Duas palavras para o mesmo conceito, a uma clicada de distância** — exatamente o que o `CLAUDE.md` trava como essencial. | `T2` | decisão de taxonomia |
+| 4 | 🔴 **`Todas as Subcoleções`** — todos os outros clientes dizem `Todas as Coleções`. 🔴 **A NV tem um nível A MAIS na hierarquia de moda**, e isso conecta direto com a dor `Griffe › Linha › Grupo › Subgrupo` da CAEDU e com o desenho da Loungerie. | `T2` | **conferência — pode ser a resposta que a CAEDU espera** |
+| 5 | 🔴 **`Audit uMode x Linx` é uma TELA da ficha de produto** (bloqueada para o `NV - Geral`). 🔴 **Auditoria de integração como funcionalidade — o corpus não tinha nada disso**, e é precisamente a dor aberta na CAEDU e na VIX. | `T2` | **conferência com quem cuida de integração** |
+| 6 | 🆕 **Telas exclusivas da NV:** `Programações` + `Tipo de Programação` (um módulo inteiro), `Enviar para Integração`, `Enviar para e-commerce`, `E-commerce`, `Conferência Cadastro Estilo`, `Comentários Prova`, `Cancelamento`. | `T2` | — |
+| 7 | 🔴 **`Datas - Estilo`, `Datas - Qualidade` e `Datas - Planner` são abas SEPARADAS da ficha** — **primeiro caso de aba segmentada por área funcional** no corpus. ⚠ **É marco de projeto vivendo dentro da ficha de produto.** | `T2` | — |
+| 8 | 🔴 **`Permissionamento - Exclusões e Edições` é uma ABA DENTRO da ficha de produto** — configuração de permissão por produto, não só por perfil. | `T2` | conferência |
+| 9 | 🆕 **`Cabeçalho` 🟢 *(não edita Referência NV e Entrada NV)*** — campos com o prefixo do cliente no próprio nome. **Terceiro caso de apelido interno**, com as abas em caixa alta da Cambos e o `Chat NV`. | `T2` | — |
+| 10 | 🟢 **`Fale com o Suporte` LIBERADO para `NV - Geral`.** 🔴 **Com isto o placar fecha em 4 bloqueados × 5 liberados, em 9 clientes** — **NÃO é padrão, é decisão por cliente.** | `T2` | — |
+| 11 | 🟢 **O bloco `Marca:` está preenchido** — é o mesmo template que na Puket está vazio. **Linha de produção:** compra de Produto Acabado, Importado e **triangulação de Matéria-prima para Facção**. **ERP** Linx, **integração ativa** em Produtos e Ficha Técnica. | `T2` | nada — é dado |
+| 12 | 🔴 **61 usuários ativos declarados, e o corpus tem 13 fichas.** **O número se sabe; os nomes, não.** ⚠ **A NV NÃO tem a tabela de usuários que a Puket tem.** | `T2` | exportar a lista de usuários |
+| 13 | 🔴 **10 departamentos engajados, e QUATRO não têm área canônica:** `Engenharia de Produto`, `Planejamento Comercial`, `Cadastro/Planners`, **`Atacado`** e 🔴 **`Atelier`**. Os outros: Estilo, PCP, Marketing, Compras, Logística. | `T2` | decisão sobre a grade |
+| 14 | 🔴 **`Atelier` é a SÉTIMA evidência do `15_Producao-Interna`** (item 234) — depois de `Oficina` na NK STORE e `facção` em vários. | `T2` | decisão sobre criar a área |
+| 15 | 🔴 **QUARTO e QUINTO caso da dor de variante:** `Manual de descancelamento de produtos e variantes` e `NV | Variantes Canceladas Inativas`. Com VIX, Reserva e Lofty Style são **quatro clientes**. **Não é mais hipótese.** | `T2` | decisão de produto |
+| 16 | ⚠ **Onboarding partido em duas fases documentadas** (`Fase 1`, `Fase 2`) mais uma página `On`. **Nenhum outro cliente tem onboarding faseado assim.** | `T2` | tempo de varredura |
+| 17 | 🆕 **`NV | Proposta de comunicação`** — segundo cliente com plano de comunicação formal, junto da Osklen (`Integração de Escrita`). | `T2` | — |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -82,6 +92,15 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | Quando | Endereço | O que saiu | Esgotada? |
 |---|---|---|---|
 | **22 set 2026** | `c03ae4ec…` | 🟢 **o bloco `Marca:` está PREENCHIDO** — linha de produção, segmento, ERP, integração ativa, **61 usuários ativos** e **10 departamentos engajados**; onboarding em **duas fases**; 🔴 **dois documentos sobre variante cancelada**; `Realinhamento Demandas`; `Proposta de comunicação` | ⚠ **não** — 11 sub-páginas e 1 database inline não abertos |
+
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **23 set 2026** | `[NV] Permissionamento` (em `uFlow / Setup - PLM / CLIENTES`) | `198b1d38…` | **13 sub-páginas, uma por perfil**; 🟢 **define o mecanismo: `Inclusão` × `Restrição`** — allowlist e denylist |
+| **23 set 2026** | `NV - Geral` | `198b1d38…b6` | perfil do tipo **exclusão**; `Todas as Subcoleções`; **`Audit uMode x Linx`**; `Programações`; `Datas - Estilo / Qualidade / Planner`; `Permissionamento - Exclusões e Edições` como aba da ficha. ⚠ **As outras 12 sub-páginas continuam fechadas.** |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 

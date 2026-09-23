@@ -82,7 +82,15 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | Quando | Endereço | O que saiu | Esgotada? |
 |---|---|---|---|
-| **22 set 2026** | sub-página `Lenny | Perfil de Usuários e Permissionamentos` (`3f308ebb…`) — **a página principal do cliente ainda NÃO foi aberta** | 3 perfis (`LN - Admin`, `LN - Time`, **`Fornecedor`**); 🔴 **`Fale com o Suporte` bloqueado para os três**; 🔴 **base `Usuários` com 29 linhas TODAS VAZIAS**, mas com o schema `Nome · E-mail · Perfil do Usuário · Departamento Cliente · Status` | 🔴 **não** — **a página do cliente não foi aberta**; só esta sub-página |
+| **22 set 2026** | sub-página `Lenny \| Perfil de Usuários e Permissionamentos` (`3f308ebb…`) — **a página principal do cliente ainda NÃO foi aberta** | 3 perfis (`LN - Admin`, `LN - Time`, **`Fornecedor`**); 🔴 **`Fale com o Suporte` bloqueado para os três**; 🔴 **base `Usuários` com 29 linhas TODAS VAZIAS**, mas com o schema `Nome · E-mail · Perfil do Usuário · Departamento Cliente · Status` | 🔴 **não** — **a página do cliente não foi aberta**; só esta sub-página |
+
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **22 set 2026** | `Lenny \| Perfil de Usuários e Permissionamentos` | `3f308ebb…` | 3 perfis; 🔴 `Fale com o Suporte` bloqueado para os três; **base `Usuários` com 29 linhas TODAS VAZIAS**, mas com o schema certo; `> excluir variante` **em branco** |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 

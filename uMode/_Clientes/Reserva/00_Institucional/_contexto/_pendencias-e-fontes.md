@@ -88,6 +88,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `1be19527…` | **9 grupos de WhatsApp mapeados** com decisão manter/excluir; canal oficial declarado (**formulário** para demanda, **Gist** para dúvida); média declarada de **1 chamado/dia e 2 reuniões/semana**; 🔴 **7 cartões no `umode.kanbanize.com`**; `uBuy` e `uPlan`; **Review Quinzenal** com envios parados; 2 visitas presenciais | ⚠ **não** — 10 sub-páginas e 3 databases inline não abertos |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

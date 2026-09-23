@@ -84,6 +84,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `6c36c6a4…` | 🔴 **`Negociação pós AR&CO | 23/01/25`** — **terceiro cliente ligado ao Grupo AR&CO**; 🆕 **`[BAW] Contrato 2025`**, primeiro documento de contrato nomeado da carteira; **QUATRO** páginas `Perfil de Acesso`, uma delas duplicata `(1)`; `Projeto Reciclagem BAW` | ⚠ **não** — 8 sub-páginas e 3 databases inline não abertos |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

@@ -85,6 +85,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `6463bb11…` | toggle `Pessoas` **vazio**; `uFlow` início fev/2025; **`uBuy: fup`** início jan/2026; 11 documentos de implantação citados **sem link**; **pesquisas de CSat** | sim, a página; ⚠ as sub-páginas de CSat **não** |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

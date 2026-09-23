@@ -108,6 +108,16 @@ PAGINA = {
                 u"toggle `Pessoas` **vazio**; `uFlow` início fev/2025; **`uBuy: fup`** início "
                 u"jan/2026; 11 documentos de implantação citados **sem link**; **pesquisas de CSat**",
                 u"sim, a página; ⚠ as sub-páginas de CSat **não**"),
+    u"Recco": (u"23 set 2026",
+              u"sub-p\u00e1gina `Recco \\| Perfil de Usu\u00e1rios e Permissionamentos` "
+              u"(`191b1d38\u2026`) \u2014 **a p\u00e1gina principal do cliente ainda "
+              u"N\u00c3O foi aberta**",
+              u"3 perfis (`Admin`, `Time`, `Fornecedor`) \u2014 \U0001F534 **os \u00fanicos "
+              u"do corpus SEM prefixo de cliente**; \U0001F534 `Fale com o Suporte` "
+              u"bloqueado para os tr\u00eas; \U0001F7E2 **`> excluir variante` LIBERADO** "
+              u"\u2014 o primeiro caso; regra em texto na matriz: `Perfis dentro de "
+              u"Tarefas = Somente relacionados ao cliente`",
+              u"\U0001F534 **n\u00e3o** \u2014 s\u00f3 esta sub-p\u00e1gina"),
     u"Reserva": (u"22 set 2026", u"`1be19527…`",
                 u"**9 grupos de WhatsApp mapeados** com decisão manter/excluir; canal oficial "
                 u"declarado (**formulário** para demanda, **Gist** para dúvida); média declarada "
@@ -136,7 +146,7 @@ PAGINA = {
                         u"com cliente 12/07/2024",
                         u"\u26a0 **n\u00e3o** \u2014 4 sub-p\u00e1ginas e 3 databases inline n\u00e3o abertos" + u" **+ a sub-página `Perfil de Usuário e Permissionamentos OFICINA` (`2b6b1d38…`), com 8 perfis, as interfaces do SAP numeradas e uma regra de código vazada no título**"),
     u"Lenny Niemeyer": (u"22 set 2026",
-                       u"sub-p\u00e1gina `Lenny | Perfil de Usu\u00e1rios e Permissionamentos` "
+                       u"sub-p\u00e1gina `Lenny \\| Perfil de Usu\u00e1rios e Permissionamentos` "
                        u"(`3f308ebb\u2026`) \u2014 **a p\u00e1gina principal do cliente ainda "
                        u"N\u00c3O foi aberta**",
                        u"3 perfis (`LN - Admin`, `LN - Time`, **`Fornecedor`**); "
@@ -208,6 +218,101 @@ PAGINA = {
 }
 
 # PENDENCIAS especificas do cliente: (texto, tier, o que destrava)
+# ---------------------------------------------------------------------------
+# SUB-PAGINAS e documentos abertos DENTRO de um cliente.
+# cliente -> [(data, titulo, identificador, o que saiu)]
+# Regra: so entra o que foi ABERTO E LIDO. Achar na busca nao e varrer.
+SUBPAGINAS = {
+    u"Lofty Style": [
+        (u"23 set 2026",
+         u"`Documenta\u00e7\u00e3o/Regras \u203a Perfil de Usu\u00e1rio e Permissionamentos`",
+         u"`2e1b1d38\u2026`",
+         u"**10 perfis**; \U0001F7E2 `Fale com o Suporte`, `Manual` e `Base de Importa\u00e7\u00e3o` liberados para os 10; \U0001F534 **permiss\u00e3o NOMINAL \u2014 *Liberado s\u00f3 Isadora desse Perfil* e *Somente a Dora***; \U0001F534 `Editar Usuario` bloqueado para os 10, **Admin inclusive**; `Integra\u00e7\u00e3o Linx` como aba"),
+    ],
+    u"VIX": [
+        (u"22 set 2026", u"`[Vix] Perfil de Usu\u00e1rio e Permissionamento`",
+         u"\u26a0 **id n\u00e3o anotado na \u00e9poca**",
+         u"**17 perfis \u2014 o maior n\u00famero da carteira**; \U0001F7E2 `Fale com o "
+         u"Suporte` liberado para os 17; \U0001F534 `Manual` e `Base de Importa\u00e7\u00e3o` "
+         u"bloqueados; `> excluir variante` bloqueado"),
+    ],
+    u"Luiza Barcelos": [
+        (u"22 set 2026",
+         u"`Luiza Barcelos \u203a Onboarding \u203a Perfil de Usu\u00e1rio e Permissionamentos`",
+         u"`e3dbb553\u2026`",
+         u"6 perfis, **`Fornecedor` entre eles**; \U0001F534 `Fale com o Suporte` **bloqueado "
+         u"para os 6** \u2014 a causa mec\u00e2nica de a conta parecer invis\u00edvel; "
+         u"\U0001F534 `Manual` bloqueado; coment\u00e1rio de valida\u00e7\u00e3o virou "
+         u"c\u00e9lula permanente"),
+    ],
+    u"Oficina Reserva": [
+        (u"22 set 2026", u"`Perfil de Usu\u00e1rio e Permissionamentos`",
+         u"\u26a0 **id n\u00e3o anotado na \u00e9poca**",
+         u"8 perfis, **`Qualit\u00e1` entre eles \u2014 terceiro com login**; \U0001F7E2 "
+         u"`Fale com o Suporte` liberado; **a linha `Manual` nem existe**; interfaces SAP "
+         u"numeradas; regra de c\u00f3digo `read_only: !current_policy.name.in?(\u2026)` "
+         u"vazada no t\u00edtulo de uma se\u00e7\u00e3o"),
+    ],
+    u"Lenny Niemeyer": [
+        (u"22 set 2026", u"`Lenny \\| Perfil de Usu\u00e1rios e Permissionamentos`",
+         u"`3f308ebb\u2026`",
+         u"3 perfis; \U0001F534 `Fale com o Suporte` bloqueado para os tr\u00eas; **base "
+         u"`Usu\u00e1rios` com 29 linhas TODAS VAZIAS**, mas com o schema certo; "
+         u"`> excluir variante` **em branco**"),
+    ],
+    u"Cambos": [
+        (u"22 set 2026", u"`Perfil de Usu\u00e1rio e Permissionamentos`",
+         u"`1a7b1d38\u2026`",
+         u"5 perfis; \U0001F7E2 **`Manual` e `Base de Importa\u00e7\u00e3o` LIBERADOS** \u2014 "
+         u"o que derrubou minha hip\u00f3tese; telas `[SPI]` feitas para o ERP do cliente; "
+         u"`Novo Pedido (s\u00f3 a Cambos tem)` bloqueado para todos; **abas da ficha "
+         u"renomeadas em caixa alta pelo cliente**"),
+    ],
+    u"NK STORE": [
+        (u"23 set 2026", u"`Documentos \u203a Perfil de Usu\u00e1rio e Permissionamentos`",
+         u"`0385f372\u2026`",
+         u"7 perfis + **2 colunas de valida\u00e7\u00e3o datada (04/12)**; \U0001F534 "
+         u"`Fale com o Suporte` bloqueado; `Integra\u00e7\u00e3o Linx` e `Chat NK` como abas; "
+         u"**base `Usu\u00e1rios` inline com 30 linhas PREENCHIDAS** \u2014 virou 28 fichas "
+         u"de pessoa"),
+        (u"23 set 2026", u"base `Usu\u00e1rios` (inline na p\u00e1gina de perfil)",
+         u"`collection://1b5b1d38-e768-80b0-aaac-000b33b9657a`",
+         u"30 linhas: `Nome` \u00b7 `E-mail` \u00b7 `Perfil do Usu\u00e1rio` \u00b7 "
+         u"**`Departamento NK`** \u00b7 `Status`. **Consultada por SQL, linha a linha.**"),
+    ],
+    u"Moda Objetiva": [
+        (u"23 set 2026",
+         u"`Documentos Implanta\u00e7\u00e3o uFlow \u203a Perfil de Usu\u00e1rio e "
+         u"Permissionamentos - Moda Objetiva`",
+         u"`38bb1d38\u2026`",
+         u"**10 perfis**, um deles somente-leitura (`Consulta`); \U0001F7E2 `Fale com o "
+         u"Suporte`, `Manual` e `Base de Importa\u00e7\u00e3o` liberados; abas `Vari\u00e2ntes`, "
+         u"`EAN`, `Log\u00edstica e Fiscal`; `Grupo` no Cadastro; **link para planilha Google "
+         u"com e-mails \u2014 n\u00e3o aberta**"),
+    ],
+    u"Recco": [
+        (u"23 set 2026",
+         u"`Documentos Implanta\u00e7\u00e3o uFlow \u203a Recco \\| Perfil de Usu\u00e1rios e "
+         u"Permissionamentos`",
+         u"`191b1d38\u2026`",
+         u"3 perfis **sem prefixo de cliente**; \U0001F534 `Fale com o Suporte` bloqueado; "
+         u"\U0001F7E2 **`> excluir variante` LIBERADO \u2014 o primeiro caso**; "
+         u"`Perfis dentro de Tarefas = Somente relacionados ao cliente`; aba `Fabricantes`"),
+    ],
+    u"NV": [
+        (u"23 set 2026", u"`[NV] Permissionamento` (em `uFlow / Setup - PLM / CLIENTES`)",
+         u"`198b1d38\u2026`",
+         u"**13 sub-p\u00e1ginas, uma por perfil**; \U0001F7E2 **define o mecanismo: "
+         u"`Inclus\u00e3o` \u00d7 `Restri\u00e7\u00e3o`** \u2014 allowlist e denylist"),
+        (u"23 set 2026", u"`NV - Geral`", u"`198b1d38\u2026b6`",
+         u"perfil do tipo **exclus\u00e3o**; `Todas as Subcole\u00e7\u00f5es`; **`Audit uMode "
+         u"x Linx`**; `Programa\u00e7\u00f5es`; `Datas - Estilo / Qualidade / Planner`; "
+         u"`Permissionamento - Exclus\u00f5es e Edi\u00e7\u00f5es` como aba da ficha. "
+         u"\u26a0 **As outras 12 sub-p\u00e1ginas continuam fechadas.**"),
+    ],
+}
+
+
 PEND = {
     u"Caedu": [
         (u"🔴 **O `Status` diz `Onboarding` e a `Etapa` diz `Ongoing`.** É o único cliente da "
@@ -232,6 +337,66 @@ PEND = {
          u"T2", u"tempo de varredura"),
     ],
     u"NK STORE": [
+        (u"\U0001F534 **A base `Usu\u00e1rios` da p\u00e1gina de perfil tem 30 linhas, TODAS "
+         u"PREENCHIDAS** \u2014 nome, e-mail corporativo, `Perfil do Usu\u00e1rio`, "
+         u"`Departamento NK` e `Status`. \U0001F7E2 **\u00c9 a mesma base que na Lenny "
+         u"Niemeyer est\u00e1 VAZIA**, com o mesmo schema. **Responde a pend\u00eancia que "
+         u"eu tinha deixado aberta l\u00e1: sim, outro cliente tem a base preenchida.**",
+         u"T2", u"\u2014 j\u00e1 virou ficha de pessoa"),
+        (u"\U0001F534 **`INATIVAR` \u00e9 usado como valor de `Departamento NK` em 5 das 30 "
+         u"linhas.** \u26a0 **N\u00e3o \u00e9 departamento \u2014 \u00e9 instru\u00e7\u00e3o "
+         u"operacional escrita no campo de \u00e1rea.** O campo foi sequestrado para virar "
+         u"fila de tarefa, e com isso **a \u00e1rea dessas 5 pessoas se perdeu.**", u"T2",
+         u"decis\u00e3o de modelagem + confer\u00eancia com o cliente"),
+        (u"\U0001F534 **Os perfis da MATRIZ e os perfis da BASE n\u00e3o batem.** A matriz "
+         u"tem `NK - Admin`, `NK - Time`, `NK- Estilo Master`, `Nk Compras Master`, "
+         u"`Nk Modelagem`, `NK Compras` e `Fornecedor`. A base usa `NK - Admin`, "
+         u"`NK - Estilo`, `NK - Compras`, `NK - Modelagem` e **`NK - PCP`**. "
+         u"\U0001F534 **`NK - PCP` existe na base e N\u00c3O existe na matriz \u2014 s\u00e3o 7 "
+         u"pessoas sem permiss\u00e3o documentada.** E `NK - Time` e `Fornecedor` n\u00e3o "
+         u"t\u00eam nenhum usu\u00e1rio.", u"T2", u"confer\u00eancia com o atendimento"),
+        (u"\u26a0 **A grafia dos perfis na matriz \u00e9 inconsistente na pr\u00f3pria fonte:** "
+         u"`NK - Admin`, `NK- Estilo Master`, `Nk Compras Master`, `NK Compras`. "
+         u"**Tr\u00eas jeitos de escrever o mesmo prefixo.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **Os 4 perfis de fun\u00e7\u00e3o da matriz (`Estilo Master`, `Compras "
+         u"Master`, `Modelagem`, `Compras`) t\u00eam valor em DUAS linhas s\u00f3** \u2014 "
+         u"`Importa\u00e7\u00e3o` e `Integra\u00e7\u00e3o`. **Todo o resto da matriz est\u00e1 "
+         u"vazio para eles.** \u26a0 **Matriz incompleta \u2260 permiss\u00e3o negada, e eu "
+         u"n\u00e3o sei qual dos dois \u00e9.**", u"T2", u"confer\u00eancia"),
+        (u"\U0001F195 **Duas colunas de VALIDA\u00c7\u00c3O datada dentro da matriz** \u2014 "
+         u"`Valida\u00e7\u00e3o NK - Admin 04/12` e `Valida\u00e7\u00e3o NK - Time 04/12`, com "
+         u"\u2714\ufe0f, \u2716\ufe0f e comentários (*n\u00e3o pode aparecer os 3 "
+         u"pontinhos*, *incluir a\u00e7\u00e3o de cancelado*, *travar edi\u00e7\u00e3o de grade "
+         u"qnd tiver tabela*). \U0001F7E2 **\u00c9 homologa\u00e7\u00e3o com o cliente "
+         u"registrada na pr\u00f3pria matriz \u2014 o \u00fanico caso no corpus.**", u"T2",
+         u"\u2014 vale virar padr\u00e3o"),
+        (u"\U0001F534 **`Fale com o Suporte` BLOQUEADO para `NK - Admin` e `NK - Time`.** "
+         u"**Terceiro cliente bloqueado**, com Luiza Barcelos e Lenny.", u"T2", u"\u2014"),
+        (u"\U0001F195 **`Integra\u00e7\u00e3o Linx` \u00e9 aba da ficha de produto aqui**, "
+         u"\U0001F7E1 somente visualizar. \u26a0 **Liga direto com o risco de credencial "
+         u"Linx deste mesmo cliente.**", u"T2", u"\u2014"),
+        (u"\U0001F195 **A aba de chat se chama `Chat NK`** \u2014 nome do cliente no "
+         u"r\u00f3tulo. Com o `Chat NV` da NV, s\u00e3o **dois casos**; Moda Objetiva e "
+         u"Recco usam `Chat` seco. **\u00c9 customiza\u00e7\u00e3o de r\u00f3tulo, n\u00e3o "
+         u"padr\u00e3o.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **`nelson tadeu` entra pelo e-mail `expedicao2@nkstore.com.br`** "
+         u"\u2014 **caixa funcional, n\u00e3o nominal**, com pessoa nomeada atr\u00e1s. "
+         u"\u26a0 **A chave de identidade aqui \u00e9 de uma CAIXA**, e o `2` sugere que "
+         u"existe uma `expedicao1`.", u"T2", u"confer\u00eancia"),
+        (u"\u26a0 **Duas `Cristina`, duas `Vanessa` e duas `Julia` na mesma base**, "
+         u"distintas pelo e-mail. \U0001F534 **A ficha `cristina.md`, vinda da base de "
+         u"demandas, N\u00c3O p\u00f4de ser casada** \u2014 o gerador parou e avisou em vez "
+         u"de sobrescrever.", u"T2", u"**pergunta registrada**"),
+        (u"\u26a0 **`kemely.md` (demandas) \u00d7 `kemelly.fernandes@` (base): um `l` de "
+         u"diferen\u00e7a.** **N\u00c3O fundi \u2014 uma letra n\u00e3o \u00e9 prova.** Mesmo "
+         u"caso de `silvia-shirlei-dias` \u00d7 `silvia.nascimento@`.", u"T2",
+         u"**pergunta registrada**"),
+        (u"\u26a0 **Uma linha est\u00e1 DUPLICADA na base**: `Sam` / `sam.santos@`, mesma "
+         u"data, duas vezes.", u"T2", u"limpeza na fonte"),
+        (u"\U0001F534 **Callout `Documenta\u00e7\u00e3o tech \u2192` aponta para "
+         u"`6d0379fa\u2026`** \u2014 **a MESMA p\u00e1gina t\u00e9cnica citada na Recco**. "
+         u"P\u00e1gina compartilhada entre clientes, **n\u00e3o varrida**.", u"T2",
+         u"tempo de varredura"),
         (u"🚨 **Credencial de produção do Linx em TEXTO CLARO** na página do cliente, toggle "
          u"`Documentos › Conexão com Linx`: usuário, senha, IP, porta e nome do banco. "
          u"**O valor não foi replicado em lugar nenhum do corpus.**", u"T0",
@@ -270,6 +435,51 @@ PEND = {
          u"e `(1)`.", u"T2", u"—"),
     ],
     u"NV": [
+        (u"\U0001F534 **A NV \u00e9 a \u00fanica que N\u00c3O tem matriz \u00fanica: tem 13 "
+         u"SUB-P\u00c1GINAS, uma por perfil** \u2014 `Geral`, `Master`, `Estilo`, "
+         u"`Qualidade`, `Planner`, **`Planner 2`**, `Compras`, `Planejamento Comercial`, "
+         u"`PCP`, `Atacado`, `Marketing`, **`View`** e `Log\u00edstica`. **13 perfis \u00e9 o "
+         u"maior n\u00famero do corpus.** \u26a0 **12 dessas sub-p\u00e1ginas continuam "
+         u"N\u00c3O abertas.**", u"T2", u"tempo de varredura"),
+        (u"\U0001F534 **A p\u00e1gina-m\u00e3e define o MECANISMO de permissionamento da "
+         u"plataforma, em texto:** *na uMode, o permissionamento pode ser configurado de "
+         u"duas formas: **Inclus\u00e3o** \u2192 tudo aquilo que o perfil PODE fazer; "
+         u"**Restri\u00e7\u00e3o** \u2192 tudo aquilo que o perfil N\u00c3O pode fazer.* "
+         u"\U0001F7E2 **\u00c9 a defini\u00e7\u00e3o conceitual que faltava** \u2014 o corpus "
+         u"s\u00f3 tinha a evid\u00eancia de c\u00f3digo (`INCLUDES` no Setup-PLM, "
+         u"`read_only: !current_policy.name.in?([\u2026])` na Oficina). **Allowlist e "
+         u"denylist, por perfil.** `[C]`", u"T2", u"\u2014"),
+        (u"\U0001F53A **E o vocabul\u00e1rio DIVERGE dentro do pr\u00f3prio documento:** a "
+         u"p\u00e1gina-m\u00e3e diz **`Restri\u00e7\u00e3o`**, a sub-p\u00e1gina `NV - Geral` "
+         u"diz **`exclus\u00e3o`** para a mesma coisa. \u26a0 **Duas palavras para o mesmo "
+         u"conceito, a uma clicada de dist\u00e2ncia** \u2014 exatamente o que o "
+         u"`CLAUDE.md` trava como essencial.", u"T2", u"decis\u00e3o de taxonomia"),
+        (u"\U0001F534 **`Todas as Subcole\u00e7\u00f5es`** \u2014 todos os outros clientes "
+         u"dizem `Todas as Cole\u00e7\u00f5es`. \U0001F534 **A NV tem um n\u00edvel A MAIS na "
+         u"hierarquia de moda**, e isso conecta direto com a dor `Griffe \u203a Linha "
+         u"\u203a Grupo \u203a Subgrupo` da CAEDU e com o desenho da Loungerie.", u"T2",
+         u"**confer\u00eancia \u2014 pode ser a resposta que a CAEDU espera**"),
+        (u"\U0001F534 **`Audit uMode x Linx` \u00e9 uma TELA da ficha de produto** "
+         u"(bloqueada para o `NV - Geral`). \U0001F534 **Auditoria de integra\u00e7\u00e3o "
+         u"como funcionalidade \u2014 o corpus n\u00e3o tinha nada disso**, e \u00e9 "
+         u"precisamente a dor aberta na CAEDU e na VIX.", u"T2",
+         u"**confer\u00eancia com quem cuida de integra\u00e7\u00e3o**"),
+        (u"\U0001F195 **Telas exclusivas da NV:** `Programa\u00e7\u00f5es` + `Tipo de "
+         u"Programa\u00e7\u00e3o` (um m\u00f3dulo inteiro), `Enviar para Integra\u00e7\u00e3o`, "
+         u"`Enviar para e-commerce`, `E-commerce`, `Confer\u00eancia Cadastro Estilo`, "
+         u"`Coment\u00e1rios Prova`, `Cancelamento`.", u"T2", u"\u2014"),
+        (u"\U0001F534 **`Datas - Estilo`, `Datas - Qualidade` e `Datas - Planner` s\u00e3o "
+         u"abas SEPARADAS da ficha** \u2014 **primeiro caso de aba segmentada por \u00e1rea "
+         u"funcional** no corpus. \u26a0 **\u00c9 marco de projeto vivendo dentro da ficha "
+         u"de produto.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **`Permissionamento - Exclus\u00f5es e Edi\u00e7\u00f5es` \u00e9 uma ABA "
+         u"DENTRO da ficha de produto** \u2014 configura\u00e7\u00e3o de permiss\u00e3o "
+         u"por produto, n\u00e3o s\u00f3 por perfil.", u"T2", u"confer\u00eancia"),
+        (u"\U0001F195 **`Cabe\u00e7alho` \U0001F7E2 *(n\u00e3o edita Refer\u00eancia NV e "
+         u"Entrada NV)*** \u2014 campos com o prefixo do cliente no pr\u00f3prio nome. "
+         u"**Terceiro caso de apelido interno**, com as abas em caixa alta da Cambos e o "
+         u"`Chat NV`.", u"T2", u"\u2014"),
+        (u"\U0001F7E2 **`Fale com o Suporte` LIBERADO para `NV - Geral`.** \U0001F534 **Com isto o placar fecha em 4 bloqueados \u00d7 5 liberados, em 9 clientes** \u2014 **N\u00c3O \u00e9 padr\u00e3o, \u00e9 decis\u00e3o por cliente.**", u"T2", u"\u2014"),
         (u"\U0001F7E2 **O bloco `Marca:` est\u00e1 preenchido** \u2014 \u00e9 o mesmo template que "
          u"na Puket est\u00e1 vazio. **Linha de produ\u00e7\u00e3o:** compra de Produto Acabado, "
          u"Importado e **triangula\u00e7\u00e3o de Mat\u00e9ria-prima para Fac\u00e7\u00e3o**. **ERP** Linx, "
@@ -363,6 +573,18 @@ PEND = {
          u"tempo de varredura"),
     ],
     u"Lofty Style": [
+        (u"\U0001F534 **A permiss\u00e3o aqui \u00e9 dada a uma PESSOA, dentro da c\u00e9lula de um PERFIL.** Duas ocorr\u00eancias, as duas na coluna `Lofty - Compras MP`: `Importa\u00e7\u00e3o` \U0001F7E1 *(Liberado s\u00f3 Isadora desse Perfil)* e `Integra\u00e7\u00e3o Linx` \U0001F7E2 *(Somente a Dora)*. \U0001F534 **O modelo de dados do uFlow \u2014 `jumper_users` \u2192 `user_roles` \u2192 `policies` \u2014 N\u00c3O tem onde guardar isso.** \u26a0 **A regra existe no papel e n\u00e3o existe no sistema.**", u"T2", u"**pergunta registrada**"),
+        (u"\u26a0 **`Isadora` e `Dora` est\u00e3o na mesma coluna de perfil** \u2014 provavelmente a mesma pessoa com dois apelidos. **N\u00c3O fundi.**", u"T2",
+         u"confer\u00eancia com o atendimento"),
+        (u"\U0001F534 **`Editar Usuario` est\u00e1 BLOQUEADO para os 10 perfis, `Lofty - Admin` inclusive.** \u26a0 **\u00danico caso do corpus em que nem o Admin edita o pr\u00f3prio usu\u00e1rio.**", u"T2", u"confer\u00eancia"),
+        (u"\U0001F534 **Onze linhas est\u00e3o \U0001F534 para os DEZ perfis:** `Lotes`, `Tabela Din\u00e2mica`, `Coordenado`, `Estampa`, `Composi\u00e7\u00e3o de Custo`, `Ficha T\u00e9cnica Base`, `Tag`, `Tipo de Lote`, `Pack`, `Campo Personalizado`, `Salvar como Ficha T\u00e9cnica Base`. **Mesmo fen\u00f4meno da Moda Objetiva** \u2014 **isso \u00e9 funcionalidade DESLIGADA, n\u00e3o permiss\u00e3o.**",
+         u"T2", u"decis\u00e3o de produto"),
+        (u"\U0001F195 **Permiss\u00e3o por CAMPO, n\u00e3o por aba:** `Lofty - Modelagem` em `Estilo | Informa\u00e7\u00f5es Gerais` \u00e9 \U0001F7E2 *(S\u00f3 o campo modelista, piloteiro e Operador CAD)*. **Terceira granularidade** \u2014 tela, aba e agora campo.", u"T2", u"espec de produto"),
+        (u"\U0001F195 **Regra em TEXTO dentro de c\u00e9lula verde:** `Mapa de Cole\u00e7\u00e3o` \U0001F7E2 *(Somente para uso de filtros, sem editar informa\u00e7\u00f5es)*. **Terceiro cliente** com regra escrita na c\u00e9lula, com Recco e NK STORE. \u26a0 **O sem\u00e1foro n\u00e3o d\u00e1 conta, e o texto ao lado contradiz a cor.**", u"T2", u"\u2014"),
+        (u"\U0001F195 **`Lofty - Mkt, Multimarcas e ecommerce`: TR\u00caS fun\u00e7\u00f5es num perfil s\u00f3**, e quase tudo \U0001F7E1/\U0001F534. **\u00c9 o perfil-consulta deste cliente**, junto de `Objetiva - Consulta` e `NV - View`. **Tr\u00eas casos \u2014 vira padr\u00e3o.**", u"T2", u"decis\u00e3o sobre a grade"),
+        (u"\u26a0 **`Lofty  - Planejamento` tem DOIS espa\u00e7os no nome** \u2014 erro de digita\u00e7\u00e3o vivo, e que quebra qualquer casamento por string.", u"T2",
+         u"limpeza na fonte"),
+        (u"\U0001F7E2 **`Fale com o Suporte`, `Manual` e `Base de Importa\u00e7\u00e3o` liberados para os 10.** \U0001F534 **Placar final das 10 matrizes: suporte 4 bloqueados \u00d7 6 liberados.**", u"T2", u"\u2014"),
         (u"\U0001F6A8 **A credencial do site de documenta\u00e7\u00e3o est\u00e1 EM TEXTO CLARO na "
          u"p\u00e1gina do cliente**, no toggle `Documenta\u00e7\u00e3o/Regras`, ao lado da URL "
          u"`docs.umode.app/integracao-lofty`. **O valor n\u00e3o foi replicado em lugar nenhum.**",
@@ -423,6 +645,41 @@ PEND = {
          u"confer\u00eancia"),
     ],
     u"Moda Objetiva": [
+        (u"\U0001F195 **10 perfis** \u2014 `Admin`, `Estilo`, `Compras`, `Compras MP`, "
+         u"`Desenvolvimento de Produto`, `Engenharia`, `Estamparia`, `PCP`, "
+         u"`Planejamento` e **`Consulta`**. \U0001F534 **`Objetiva - Consulta` \u00e9 o "
+         u"primeiro perfil explicitamente somente-leitura do corpus** \u2014 quase tudo "
+         u"\U0001F7E1. Com o `NV - View`, s\u00e3o **dois casos**.", u"T2",
+         u"decis\u00e3o sobre a grade de \u00e1reas"),
+        (u"\U0001F7E2 **`Fale com o Suporte`, `Manual` e `Base de Importa\u00e7\u00e3o` "
+         u"LIBERADOS** para os 9 perfis operacionais. **Segundo cliente com `Manual` "
+         u"liberado**, com a Cambos \u2014 e os dois \u00faltimos vinham destacados em "
+         u"vermelho na fonte.", u"T2", u"\u2014"),
+        (u"\U0001F534 **Oito linhas est\u00e3o \U0001F534 para os DEZ perfis, inclusive o "
+         u"Admin:** `Tabela Din\u00e2mica`, `Coordenado`, `Estampa`, `Composi\u00e7\u00e3o "
+         u"de Custo`, `Ficha T\u00e9cnica Base`, `Tag`, `Campo Personalizado` e `Salvar "
+         u"como Ficha T\u00e9cnica Base`. \u26a0 **Bloqueio para todo mundo n\u00e3o \u00e9 "
+         u"permiss\u00e3o \u2014 \u00e9 funcionalidade DESLIGADA.** O corpus n\u00e3o "
+         u"distingue as duas coisas.", u"T2", u"decis\u00e3o de produto"),
+        (u"\U0001F195 **Abas que nenhum outro cliente lido tem:** `Vari\u00e2ntes`, "
+         u"**`EAN`**, `Log\u00edstica e Fiscal`, `Quantidade Grade Tam.`, `Composi\u00e7\u00e3o`, "
+         u"`Estampas`. \U0001F7E2 **`Vari\u00e2ntes` \u00e9 aba pr\u00f3pria e liberada "
+         u"aqui** \u2014 contraste direto com a dor de variante de cinco clientes.", u"T2",
+         u"\u2014"),
+        (u"\U0001F195 **`Mapa > Configura\u00e7\u00e3o`, `Mapa > Filtro` e `Mapa > "
+         u"Exibi\u00e7\u00e3o` s\u00e3o linhas separadas** \u2014 granularidade de "
+         u"sub-permiss\u00e3o que s\u00f3 este cliente tem. **Na Recco, `Mapa de Cole\u00e7\u00e3o "
+         u"> Exibi\u00e7\u00f5es` est\u00e1 bloqueado at\u00e9 para o Admin.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **`Grupo` \u00e9 item de Cadastro aqui**, liberado s\u00f3 para "
+         u"`Planejamento`. \u26a0 **`Grupo` \u00e9 exatamente o n\u00edvel que a CAEDU pede "
+         u"desde 16/09/2025** (`Griffe \u203a Linha \u203a Grupo \u203a Subgrupo`). "
+         u"**Existe, e est\u00e1 em p\u00e9 em outro cliente.**", u"T2",
+         u"confer\u00eancia com o desenho da Loungerie"),
+        (u"\U0001F534 **A p\u00e1gina termina com link para uma PLANILHA GOOGLE "
+         u"`Planilha de e-mail dos usu\u00e1rios`** (`docs.google.com/spreadsheets/"
+         u"d/1pflncdc3prZKN0pTXWlzbYFAyr6UG3Ab`). **Fonte externa com dado pessoal, "
+         u"n\u00e3o varrida.** \u26a0 **\u00c9 o equivalente da base `Usu\u00e1rios` da NK "
+         u"STORE, s\u00f3 que fora do Notion.**", u"T2", u"acesso \u00e0 planilha"),
         (u"🔴 **O `Status` diz `Operação Assistida` e a `Etapa` diz `Onboarding`.**", u"T2",
          u"**Qual dos dois manda?**"),
         (u"⚠ **`Objetiva` na plataforma × `Moda Objetiva` no CRM** — mesmo cliente, confirmado "
@@ -726,6 +983,29 @@ PEND = {
          u"corte de gastos.", u"T2", u"nada — resolvido"),
     ],
     u"Recco": [
+        (u"\U0001F534 **Os perfis da Recco N\u00c3O t\u00eam prefixo de cliente:** `Admin`, "
+         u"`Time`, `Fornecedor`. **Todos os outros nove clientes lidos prefixam** "
+         u"(`NK - `, `Objetiva - `, `LN - `, `Oficina - `, `NV - `). \u26a0 **Num banco "
+         u"multi-conta, perfil sem prefixo \u00e9 colis\u00e3o esperando acontecer.**", u"T2",
+         u"decis\u00e3o de modelagem"),
+        (u"\U0001F7E2 **`> excluir variante` est\u00e1 LIBERADO para `Admin` e `Time`.** "
+         u"\U0001F534 **\u00c9 o PRIMEIRO caso do corpus.** Contra VIX, Reserva, Lofty "
+         u"Style e NV (bloqueado) e Lenny (em branco): **6 casos, 4 bloqueiam, 1 n\u00e3o "
+         u"decidiu, 1 libera.** \U0001F534 **Conclus\u00e3o que muda a leitura: a dor de "
+         u"excluir variante N\u00c3O \u00e9 limita\u00e7\u00e3o da plataforma \u2014 \u00e9 "
+         u"configura\u00e7\u00e3o.**", u"T2", u"**revisar os cinco registros anteriores**"),
+        (u"\U0001F534 **`Fale com o Suporte` bloqueado para os tr\u00eas perfis** \u2014 quarto cliente bloqueado.", u"T2", u"\u2014"),
+        (u"\U0001F195 **`Perfis dentro de Tarefas` = *Somente relacionados ao cliente*** "
+         u"\u2014 c\u00e9lula com **REGRA EM TEXTO**, n\u00e3o sem\u00e1foro. \U0001F534 **\u00c9 "
+         u"regra de ESCOPO DE VISIBILIDADE dentro da tarefa**, e a NK pediu a mesma coisa "
+         u"na valida\u00e7\u00e3o (*ajustar lista de perfis*). **Dois casos.**", u"T2",
+         u"espec de produto"),
+        (u"\U0001F195 **A aba se chama `Fabricantes`, n\u00e3o `Fornecedor`** \u2014 mas a linha de cria\u00e7\u00e3o dentro dela \u00e9 `> novo fornecedor`. **O apelido do cliente ficou por cima do termo can\u00f4nico s\u00f3 no t\u00edtulo.**", u"T2", u"\u2014"),
+        (u"\u26a0 **A matriz da Recco N\u00c3O tem as linhas `Manual` nem `Base de "
+         u"Importa\u00e7\u00e3o`** \u2014 como a Oficina Reserva. **Aus\u00eancia de linha "
+         u"continua sendo coisa que eu n\u00e3o sei ler.**", u"T2", u"confer\u00eancia"),
+        (u"\U0001F534 **A p\u00e1gina PRINCIPAL da Recco nunca foi aberta** \u2014 cheguei "
+         u"pela sub-p\u00e1gina. Mesmo caso da Lenny Niemeyer.", u"T2", u"tempo de varredura"),
         (u"⚠ **Ativação em 06/02/2025 e churn** — **~8 meses**, o mais curto da coorte. "
          u"🔺 **Correção registrada: eu tinha dito que as três eram equivalentes. Não são.**",
          u"T2", u"nada — corrigido"),
@@ -840,6 +1120,12 @@ RISCO = {
 # Formato: cliente -> [(pergunta, tier, por que importa, estado)]
 # Estado: "aberta" | "respondida em <data> por <fonte>"
 PERGUNTAS = {
+    u"Moda Objetiva": [
+        (u"A p\u00e1gina de perfil termina apontando para uma **planilha Google com os "
+         u"e-mails dos usu\u00e1rios**. **Posso abrir?** \u00c9 o equivalente da base "
+         u"`Usu\u00e1rios` da NK STORE, s\u00f3 que fora do Notion.", u"T2",
+         u"\u00e9 a fonte de pessoa deste cliente", u"aberta"),
+    ],
     u"Caedu": [
         (u"O `Status` da CAEDU virou `Onboarding` em 22/09/2026 \u00e0s 15:04, e a base "
          u"`Etapas do Processo` continua marcando `Ongoing`. **O que mudou nesse dia?**",
@@ -858,6 +1144,24 @@ PERGUNTAS = {
          u"sem isso a conta n\u00e3o tem uma pessoa nomeada na pr\u00f3pria p\u00e1gina", u"aberta"),
     ],
     u"NK STORE": [
+        (u"H\u00e1 **duas `Cristina`** na base de usu\u00e1rios da NK STORE "
+         u"(`cristina@` em Compras, `cristina.amorim@` em Modelagem) e **uma ficha "
+         u"`cristina.md`** vinda da base de demandas, que traz s\u00f3 o primeiro nome. "
+         u"**Qual das duas abriu as demandas?**", u"T2",
+         u"\U0001F534 **o gerador PAROU e avisou em vez de sobrescrever** \u2014 sem a "
+         u"resposta, ficam duas fichas para uma pessoa ou uma ficha para duas", u"aberta"),
+        (u"A base tem **`kemelly.fernandes@`** e o corpus tem a ficha **`kemely.md`**, um "
+         u"`l` de diferen\u00e7a. E tem **`silvia.nascimento@`** contra **`silvia-shirlei-"
+         u"dias.md`**. **S\u00e3o as mesmas pessoas?**", u"T2",
+         u"**n\u00e3o fundi \u2014 uma letra n\u00e3o \u00e9 prova**", u"aberta"),
+        (u"**5 das 30 linhas t\u00eam `Departamento NK = INATIVAR`.** \u00c9 instru\u00e7\u00e3o "
+         u"pendente ou j\u00e1 foi executada? E **qual era a \u00e1rea real dessas pessoas "
+         u"antes de o campo ser sequestrado?**", u"T2",
+         u"s\u00e3o 5 pessoas sem \u00e1rea no corpus", u"aberta"),
+        (u"A matriz de permiss\u00e3o **n\u00e3o tem o perfil `NK - PCP`**, mas **7 pessoas "
+         u"o usam**. E os perfis `NK - Time` e `Fornecedor`, que a matriz detalha, "
+         u"**n\u00e3o t\u00eam nenhum usu\u00e1rio**. **Qual dos dois documentos est\u00e1 "
+         u"velho?**", u"T2", u"7 pessoas sem permiss\u00e3o documentada", u"aberta"),
         (u"\U0001F6A8 **A credencial de produ\u00e7\u00e3o do Linx est\u00e1 em texto claro na p\u00e1gina do "
          u"cliente. Foi rotacionada?**", u"T0", u"exposi\u00e7\u00e3o ativa at\u00e9 prova em contr\u00e1rio",
          u"aberta"),
@@ -921,6 +1225,37 @@ PERGUNTAS = {
 
 # PERGUNTAS QUE NAO SAO DE UM CLIENTE SO.
 PERGUNTAS_GERAIS = [
+    (u"\U0001F534 **A matriz da Lofty Style d\u00e1 permiss\u00e3o a uma PESSOA dentro da c\u00e9lula de um PERFIL** \u2014 *Liberado s\u00f3 Isadora desse Perfil* e *Somente a Dora*. **Como isso est\u00e1 implementado de verdade?** Perfil separado s\u00f3 para ela, exce\u00e7\u00e3o no c\u00f3digo, ou combinado que ningu\u00e9m aplicou?", u"T2",
+     u"\U0001F534 **o modelo de dados do uFlow n\u00e3o tem onde guardar permiss\u00e3o nominal** (`jumper_users` \u2192 `user_roles` \u2192 `policies`). **Ou existe um mecanismo que eu n\u00e3o vi, ou a regra s\u00f3 existe no papel.**", u"aberta"),
+    (u"Tr\u00eas clientes t\u00eam um perfil que \u00e9 s\u00f3 consulta \u2014 `Objetiva - Consulta`, `NV - View` e `Lofty - Mkt, Multimarcas e ecommerce`. **Isso \u00e9 uma licen\u00e7a mais barata, ou o mesmo usu\u00e1rio com menos permiss\u00e3o?**",
+     u"T1", u"mexe em contagem de usu\u00e1rio contratado", u"aberta"),
+    (u"Onze linhas da Lofty Style e oito da Moda Objetiva est\u00e3o \U0001F534 para **todos os perfis, Admin inclusive**. **Isso \u00e9 permiss\u00e3o negada ou funcionalidade desligada na conta?**", u"T2",
+     u"\U0001F534 **o corpus registra as duas coisas com o mesmo s\u00edmbolo** \u2014 e s\u00e3o decis\u00f5es diferentes, de donos diferentes", u"aberta"),
+    (u"\U0001F53A **O placar do `Fale com o Suporte` fechou: 4 clientes bloqueiam "
+     u"(Luiza Barcelos, Lenny, NK STORE, Recco) e 5 liberam (VIX, Oficina Reserva, "
+     u"Cambos, Moda Objetiva, NV).** \u00c9 decis\u00e3o comercial, decis\u00e3o de "
+     u"atendimento, ou heran\u00e7a de quem configurou?", u"T2",
+     u"\U0001F534 **derruba a hip\u00f3tese que eu tinha levantado com 2 casos** \u2014 "
+     u"n\u00e3o \u00e9 padr\u00e3o, \u00e9 configura\u00e7\u00e3o por cliente. **E nenhuma "
+     u"m\u00e9trica de chamado entre contas se sustenta sem esse asterisco.**", u"aberta"),
+    (u"\U0001F534 **`> excluir variante` est\u00e1 LIBERADO na Recco** e bloqueado em "
+     u"VIX, Reserva, Lofty Style e NV. **Ent\u00e3o a dor de excluir variante \u00e9 "
+     u"configura\u00e7\u00e3o, n\u00e3o limita\u00e7\u00e3o da plataforma?**", u"T2",
+     u"\U0001F534 **eu vinha registrando como dor de PRODUTO em cinco clientes** \u2014 se for permiss\u00e3o, a solu\u00e7\u00e3o \u00e9 outra e \u00e9 barata", u"aberta"),
+    (u"A NV tem **`Todas as Subcole\u00e7\u00f5es`** onde todo mundo tem `Todas as "
+     u"Cole\u00e7\u00f5es`, e a Moda Objetiva tem **`Grupo`** como cadastro. **Isso \u00e9 "
+     u"o n\u00edvel que a CAEDU pede desde 16/09/2025?**", u"T2",
+     u"\U0001F534 **se for, a resposta para a CAEDU j\u00e1 est\u00e1 rodando em dois "
+     u"clientes** \u2014 e a dor dela \u00e9 s\u00f3 integra\u00e7\u00e3o", u"aberta"),
+    (u"A NV tem uma tela **`Audit uMode x Linx`** na ficha de produto. **Ela existe para "
+     u"todos os clientes Linx ou foi feita s\u00f3 para a NV?**", u"T2",
+     u"NK STORE tamb\u00e9m \u00e9 Linx, e a VIX tem tabela DE/PARA campo a campo feita "
+     u"\u00e0 m\u00e3o", u"aberta"),
+    (u"A p\u00e1gina-m\u00e3e da NV diz **`Restri\u00e7\u00e3o`**; a sub-p\u00e1gina "
+     u"`NV - Geral` diz **`exclus\u00e3o`** para a mesma coisa. **Qual dos dois \u00e9 o "
+     u"termo?**", u"T2",
+     u"o `CLAUDE.md` trava taxonomia como essencial \u2014 e aqui s\u00e3o duas palavras "
+     u"a uma clicada de dist\u00e2ncia", u"aberta"),
     (u"🔴 **`Fale com o Suporte` está BLOQUEADO para todos os 6 perfis da Luiza "
      u"Barcelos e LIBERADO para todos os 17 da VIX. É decisão ou configuração "
      u"esquecida?**", u"T2",
@@ -1113,6 +1448,19 @@ def doc(cliente):
         A(u"`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**")
         A(u"**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**")
     A(u"")
+    A(u"### 3.3 · Sub-páginas e documentos deste cliente já abertos")
+    A(u"")
+    sub = SUBPAGINAS.get(cliente)
+    if sub:
+        A(u"> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.")
+        A(u"")
+        A(u"| Quando | O quê | Endereço | O que saiu |")
+        A(u"|---|---|---|---|")
+        for d, t, ident, saiu in sub:
+            A(u"| **%s** | %s | %s | %s |" % (d, t, ident, saiu))
+    else:
+        A(u"⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.")
+    A(u"")
     A(u"## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas")
     A(u"")
     A(u"| Fonte | Endereço | O que deve trazer |")
@@ -1216,7 +1564,8 @@ def main():
     # aconteceu com `Mondepars` (nome no Notion) contra a pasta `Mondpars`.
     # Silencio e pior que erro: o arquivo sai completo e errado.
     pastas = set(os.listdir(CLI))
-    orfas = sorted(set(list(PAGINA) + list(PEND) + list(RISCO) + list(PERGUNTAS) + list(NAO_RENDERIZOU)) - pastas)
+    orfas = sorted(set(list(PAGINA) + list(PEND) + list(RISCO) + list(PERGUNTAS) + list(NAO_RENDERIZOU)
+                          + list(SUBPAGINAS)) - pastas)
     if orfas:
         print(u"")
         print(u"❌ CHAVE SEM PASTA - o dado destas chaves NAO foi escrito:")

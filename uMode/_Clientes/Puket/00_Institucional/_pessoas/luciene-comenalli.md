@@ -26,7 +26,7 @@ página do cliente**, que é onde o cargo vive quando existe.
 ### Área (organizacional)
 **Sourcing Nacional** — **`Perfil de Acesso`** na tabela de usuários da plataforma.
 
-⚠ **Perfil de acesso NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
+⚠ **`Perfil de acesso` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode

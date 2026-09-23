@@ -13,14 +13,20 @@
 ### Nome preferido / como é chamado(a)
 **Nathalia**
 ### Email
-`[a preencher]`
+**`nathalia.gomes@nkstore.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
+
+🟢 **É a chave de identidade desta pessoa** — o que resolve grafia diferente sem inventar gente (item 252). Tier `T2`.
+
+⚠ **E-mail corporativo entra; e-mail pessoal, telefone e CPF não** — `AGORA.md` § 8.1.
 ### Cadeira / cargo atual
 `[a preencher]` — ⚠ **esta pessoa não aparece no toggle `Pessoas` da
 página do cliente**, que é onde o cargo vive quando existe.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-`[a preencher]` — 🔴 **o vínculo pessoa e área é a lacuna aberta do corpus**
+**TI** — **`Departamento NK`** na tabela de usuários da plataforma.
+
+⚠ **`Departamento NK` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode
@@ -75,6 +81,8 @@ página do cliente**, que é onde o cargo vive quando existe.
 | Primeira atividade observada | 12/12/2024 |
 | Última atividade observada | 29/01/2026 |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
+| **Status na base** | **CONVITE ACEITO em 05/12/2024** |
+| Fonte | tabela de usuários da página do cliente |
 
 ## Governança
 ### Quem pode alterar este documento

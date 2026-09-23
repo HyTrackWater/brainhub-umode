@@ -38,7 +38,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | ⚠ **Ativação em 06/02/2025 e churn** — **~8 meses**, o mais curto da coorte. 🔺 **Correção registrada: eu tinha dito que as três eram equivalentes. Não são.** | `T2` | nada — corrigido |
+| 1 | 🔴 **Os perfis da Recco NÃO têm prefixo de cliente:** `Admin`, `Time`, `Fornecedor`. **Todos os outros nove clientes lidos prefixam** (`NK - `, `Objetiva - `, `LN - `, `Oficina - `, `NV - `). ⚠ **Num banco multi-conta, perfil sem prefixo é colisão esperando acontecer.** | `T2` | decisão de modelagem |
+| 2 | 🟢 **`> excluir variante` está LIBERADO para `Admin` e `Time`.** 🔴 **É o PRIMEIRO caso do corpus.** Contra VIX, Reserva, Lofty Style e NV (bloqueado) e Lenny (em branco): **6 casos, 4 bloqueiam, 1 não decidiu, 1 libera.** 🔴 **Conclusão que muda a leitura: a dor de excluir variante NÃO é limitação da plataforma — é configuração.** | `T2` | **revisar os cinco registros anteriores** |
+| 3 | 🔴 **`Fale com o Suporte` bloqueado para os três perfis** — quarto cliente bloqueado. | `T2` | — |
+| 4 | 🆕 **`Perfis dentro de Tarefas` = *Somente relacionados ao cliente*** — célula com **REGRA EM TEXTO**, não semáforo. 🔴 **É regra de ESCOPO DE VISIBILIDADE dentro da tarefa**, e a NK pediu a mesma coisa na validação (*ajustar lista de perfis*). **Dois casos.** | `T2` | espec de produto |
+| 5 | 🆕 **A aba se chama `Fabricantes`, não `Fornecedor`** — mas a linha de criação dentro dela é `> novo fornecedor`. **O apelido do cliente ficou por cima do termo canônico só no título.** | `T2` | — |
+| 6 | ⚠ **A matriz da Recco NÃO tem as linhas `Manual` nem `Base de Importação`** — como a Oficina Reserva. **Ausência de linha continua sendo coisa que eu não sei ler.** | `T2` | conferência |
+| 7 | 🔴 **A página PRINCIPAL da Recco nunca foi aberta** — cheguei pela sub-página. Mesmo caso da Lenny Niemeyer. | `T2` | tempo de varredura |
+| 8 | ⚠ **Ativação em 06/02/2025 e churn** — **~8 meses**, o mais curto da coorte. 🔺 **Correção registrada: eu tinha dito que as três eram equivalentes. Não são.** | `T2` | nada — corrigido |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -73,12 +80,17 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **23 set 2026** | sub-página `Recco \| Perfil de Usuários e Permissionamentos` (`191b1d38…`) — **a página principal do cliente ainda NÃO foi aberta** | 3 perfis (`Admin`, `Time`, `Fornecedor`) — 🔴 **os únicos do corpus SEM prefixo de cliente**; 🔴 `Fale com o Suporte` bloqueado para os três; 🟢 **`> excluir variante` LIBERADO** — o primeiro caso; regra em texto na matriz: `Perfis dentro de Tarefas = Somente relacionados ao cliente` | 🔴 **não** — só esta sub-página |
 
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **23 set 2026** | `Documentos Implantação uFlow › Recco \| Perfil de Usuários e Permissionamentos` | `191b1d38…` | 3 perfis **sem prefixo de cliente**; 🔴 `Fale com o Suporte` bloqueado; 🟢 **`> excluir variante` LIBERADO — o primeiro caso**; `Perfis dentro de Tarefas = Somente relacionados ao cliente`; aba `Fabricantes` |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -96,7 +108,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | **`Databases / Demandas de Clientes`** | base própria do Notion | ⚠ **é a mesma base das 999 demandas, ou outra?** Não confirmei |
 | **`Operation Hub`** e o domínio `documentacao.umode.tech` | `Operação de Clientes` | 🔴 **segundo domínio de documentação**, além do `docs.umode.app` |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

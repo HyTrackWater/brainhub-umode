@@ -86,6 +86,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `70a10ec2…` **+ a sub-página `[Vix] Perfil de Usuário e Permissionamento`** | 🔴 **17 perfis de usuário nomeados por área** e uma matriz de **~60 funções × 17 perfis**; tabela **DE/PARA de integração** campo uMode → campo Linx (31/07/2025); `uPick`; ⚠ **nenhum nome de pessoa** | ⚠ **não** — 5 sub-páginas e 2 databases inline não abertos |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **22 set 2026** | `[Vix] Perfil de Usuário e Permissionamento` | ⚠ **id não anotado na época** | **17 perfis — o maior número da carteira**; 🟢 `Fale com o Suporte` liberado para os 17; 🔴 `Manual` e `Base de Importação` bloqueados; `> excluir variante` bloqueado |
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

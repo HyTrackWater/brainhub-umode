@@ -13,9 +13,11 @@
 ### Nome preferido / como é chamado(a)
 **Larissa**
 ### Email
-🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
-Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
-**Registro que existe e onde; o valor fica na fonte.**
+**`larissa.castilho@nkstore.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
+
+🟢 **É a chave de identidade desta pessoa** — o que resolve grafia diferente sem inventar gente (item 252). Tier `T2`.
+
+⚠ **E-mail corporativo entra; e-mail pessoal, telefone e CPF não** — `AGORA.md` § 8.1.
 ### Cadeira / cargo atual
 **Gerente de Projeto / Gerente de Produto**
 
@@ -23,8 +25,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Líderes Responsávei
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-**`[a preencher]`** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
-14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
+**INATIVAR** — **`Departamento NK`** na tabela de usuários da plataforma.
+
+⚠ **`Departamento NK` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode
@@ -82,6 +85,8 @@ a fonte anota: *"Já implantou PLM em várias empresas"*
 | Primeira atividade observada | 12/12/2024 |
 | Última atividade observada | 19/12/2024 |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
+| **Status na base** | **CONVITE ACEITO em 12/12/2024** |
+| Fonte | tabela de usuários da página do cliente |
 
 ## Governança
 ### Quem pode alterar este documento

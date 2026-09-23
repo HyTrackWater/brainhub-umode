@@ -38,8 +38,15 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🔴 **O `Status` diz `Operação Assistida` e a `Etapa` diz `Onboarding`.** | `T2` | **Qual dos dois manda?** |
-| 2 | ⚠ **`Objetiva` na plataforma × `Moda Objetiva` no CRM** — mesmo cliente, confirmado pelo Vinicius em 03 ago 2026; registrado como alias. | `T2` | nada — resolvido |
+| 1 | 🆕 **10 perfis** — `Admin`, `Estilo`, `Compras`, `Compras MP`, `Desenvolvimento de Produto`, `Engenharia`, `Estamparia`, `PCP`, `Planejamento` e **`Consulta`**. 🔴 **`Objetiva - Consulta` é o primeiro perfil explicitamente somente-leitura do corpus** — quase tudo 🟡. Com o `NV - View`, são **dois casos**. | `T2` | decisão sobre a grade de áreas |
+| 2 | 🟢 **`Fale com o Suporte`, `Manual` e `Base de Importação` LIBERADOS** para os 9 perfis operacionais. **Segundo cliente com `Manual` liberado**, com a Cambos — e os dois últimos vinham destacados em vermelho na fonte. | `T2` | — |
+| 3 | 🔴 **Oito linhas estão 🔴 para os DEZ perfis, inclusive o Admin:** `Tabela Dinâmica`, `Coordenado`, `Estampa`, `Composição de Custo`, `Ficha Técnica Base`, `Tag`, `Campo Personalizado` e `Salvar como Ficha Técnica Base`. ⚠ **Bloqueio para todo mundo não é permissão — é funcionalidade DESLIGADA.** O corpus não distingue as duas coisas. | `T2` | decisão de produto |
+| 4 | 🆕 **Abas que nenhum outro cliente lido tem:** `Variântes`, **`EAN`**, `Logística e Fiscal`, `Quantidade Grade Tam.`, `Composição`, `Estampas`. 🟢 **`Variântes` é aba própria e liberada aqui** — contraste direto com a dor de variante de cinco clientes. | `T2` | — |
+| 5 | 🆕 **`Mapa > Configuração`, `Mapa > Filtro` e `Mapa > Exibição` são linhas separadas** — granularidade de sub-permissão que só este cliente tem. **Na Recco, `Mapa de Coleção > Exibições` está bloqueado até para o Admin.** | `T2` | — |
+| 6 | 🔴 **`Grupo` é item de Cadastro aqui**, liberado só para `Planejamento`. ⚠ **`Grupo` é exatamente o nível que a CAEDU pede desde 16/09/2025** (`Griffe › Linha › Grupo › Subgrupo`). **Existe, e está em pé em outro cliente.** | `T2` | conferência com o desenho da Loungerie |
+| 7 | 🔴 **A página termina com link para uma PLANILHA GOOGLE `Planilha de e-mail dos usuários`** (`docs.google.com/spreadsheets/d/1pflncdc3prZKN0pTXWlzbYFAyr6UG3Ab`). **Fonte externa com dado pessoal, não varrida.** ⚠ **É o equivalente da base `Usuários` da NK STORE, só que fora do Notion.** | `T2` | acesso à planilha |
+| 8 | 🔴 **O `Status` diz `Operação Assistida` e a `Etapa` diz `Onboarding`.** | `T2` | **Qual dos dois manda?** |
+| 9 | ⚠ **`Objetiva` na plataforma × `Moda Objetiva` no CRM** — mesmo cliente, confirmado pelo Vinicius em 03 ago 2026; registrado como alias. | `T2` | nada — resolvido |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -51,8 +58,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 > que ele responde **por áudio ou por transcrição de reunião**. Ver
 > [`protocolo-perguntas-ao-vinicius.md`](../../../../00_Institucional/_protocolos/protocolo-perguntas-ao-vinicius.md).
 
-⚠ **Nenhuma ainda** — e para este cliente isso quase sempre quer dizer que a
-**página dele não foi aberta** (§ 3.2). **Pergunta boa nasce de varredura feita.**
+| # | Pergunta | Tier | Por que importa | Estado |
+|--:|---|:-:|---|---|
+| 1 | A página de perfil termina apontando para uma **planilha Google com os e-mails dos usuários**. **Posso abrir?** É o equivalente da base `Usuários` da NK STORE, só que fora do Notion. | `T2` | é a fonte de pessoa deste cliente | aberta |
 
 ## 3 · 🟢 Fontes JÁ varridas — não reabrir
 
@@ -77,6 +85,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | Quando | Endereço | O que saiu | Esgotada? |
 |---|---|---|---|
 | **22 set 2026** | `295b1d38…` | 🟢 **bloco `Pessoas` PREENCHIDO** — 6 pessoas, e um bloco **`Stakeholders` que só esta conta tem**; 🔴 **quatro toggles com título e sem conteúdo**; sub-páginas `Dossie Acompanhamento Integração` e **`Regras de Negócios da Conta`** | ⚠ **não** — 3 sub-páginas e 2 databases inline não abertos |
+
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **23 set 2026** | `Documentos Implantação uFlow › Perfil de Usuário e Permissionamentos - Moda Objetiva` | `38bb1d38…` | **10 perfis**, um deles somente-leitura (`Consulta`); 🟢 `Fale com o Suporte`, `Manual` e `Base de Importação` liberados; abas `Variântes`, `EAN`, `Logística e Fiscal`; `Grupo` no Cadastro; **link para planilha Google com e-mails — não aberta** |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 

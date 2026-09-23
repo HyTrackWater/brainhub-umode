@@ -85,6 +85,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `345b1d38…` | 🔴 **A HIERARQUIA DE PRODUTO EM 4 NÍVEIS, COMPLETA E COM EXEMPLOS** — `Griffe › Linha › Grupo › Subgrupo`, **a mesma dor travada da CAEDU**; 5 discoveries gravados; `Consultoria de Planejamento`; rituais `Ata da Carteira` e `FUP`; tabela fiscal `IMPORTADO LOUNG` com HSCODE; **`Tactiq`** | ⚠ **não** — 1 bloco `alias` não renderizou; 6 planilhas do Drive e 5 gravações não abertas |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

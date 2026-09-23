@@ -78,6 +78,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `aae6d54c…` | 🟢 **TABELA DE USUÁRIOS com 43 pessoas** — nome, **e-mail corporativo**, **perfil de acesso** e **ativo desde**. 🔴 **Dois domínios**: `@puket.com.br` e `@grupounico.com` (+1 `.hk`); treinamentos gravados no **YouTube**; `Passada de bastão`; `MAIO 2025 | Evolução de Conta`; template de Marca com os campos vazios | ⚠ **não** — 6 sub-páginas e 2 databases inline não abertos |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

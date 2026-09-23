@@ -114,6 +114,7 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 🔴 [`_varredura-2026-09-22k-o-suporte-esta-bloqueado-e-o-fornecedor-tem-login.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22k-o-suporte-esta-bloqueado-e-o-fornecedor-tem-login.md) ·
 [`_varredura-2026-09-22l-o-template-de-pagina-de-cliente-existe-e-ninguem-segue.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22l-o-template-de-pagina-de-cliente-existe-e-ninguem-segue.md) ·
 🔴 [`_varredura-2026-09-22m-o-modelo-de-usuario-do-uflow-e-o-uDash-e-perfil-interno.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22m-o-modelo-de-usuario-do-uflow-e-o-uDash-e-perfil-interno.md) ·
+🔴 [`_varredura-2026-09-23a-as-dez-matrizes-de-permissao-e-o-que-elas-derrubaram.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23a-as-dez-matrizes-de-permissao-e-o-que-elas-derrubaram.md) ·
 [`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
 [`_levantamento-2026-08-19-repos-e-prd.md`](uMode/00_Institucional/_contexto/_levantamento-2026-08-19-repos-e-prd.md) · [`_levantamento-2026-09-21-praticas-vault-e-caedu.md`](uMode/00_Institucional/_contexto/_levantamento-2026-09-21-praticas-vault-e-caedu.md) ·
 [`_decisoes-convergencia-proposta.md`](uMode/00_Institucional/_contexto/_decisoes-convergencia-proposta.md) ·

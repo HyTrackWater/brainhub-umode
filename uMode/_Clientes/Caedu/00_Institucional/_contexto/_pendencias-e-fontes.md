@@ -87,6 +87,10 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | página `Caedu` no Notion | **56 sub-páginas**; `Reuniões com o cliente` com **~47 atas de weekly** (24/04/2024 → 16/09/2025); `Manual do Cliente para o Sistema PLM` de 2023 | ⚠ **não** — abri 2 das 56 sub-páginas |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+⚠ **Nenhuma.** Nada dentro deste cliente foi aberto individualmente.
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

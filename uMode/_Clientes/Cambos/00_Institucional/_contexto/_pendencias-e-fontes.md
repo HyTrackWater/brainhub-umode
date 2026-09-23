@@ -103,6 +103,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `d6d48327…` | 🟢 **bloco `Pessoas` PREENCHIDO** (5 pessoas com cargo) + **Discovery de Sales com 10 perguntas respondidas**: 140 mil peças/mês, 20 a 40 fornecedores, ~20 pessoas no desenvolvimento, **nota 6,0** para o processo atual, 10% de quebra de entrega; 🔴 **fornecem para CAEDU e Marisa**; `Trello`, `Banner`, `Totvs Virtual Age`, `Data Lake` | ⚠ **não** — 9 sub-páginas e 4 databases inline não abertos |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **22 set 2026** | `Perfil de Usuário e Permissionamentos` | `1a7b1d38…` | 5 perfis; 🟢 **`Manual` e `Base de Importação` LIBERADOS** — o que derrubou minha hipótese; telas `[SPI]` feitas para o ERP do cliente; `Novo Pedido (só a Cambos tem)` bloqueado para todos; **abas da ficha renomeadas em caixa alta pelo cliente** |
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |

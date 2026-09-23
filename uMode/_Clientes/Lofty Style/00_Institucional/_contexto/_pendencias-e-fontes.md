@@ -41,14 +41,23 @@
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🚨 **A credencial do site de documentação está EM TEXTO CLARO na página do cliente**, no toggle `Documentação/Regras`, ao lado da URL `docs.umode.app/integracao-lofty`. **O valor não foi replicado em lugar nenhum.** | `T0` | 🚨 **rotação da chave — ação do Vinícius** |
-| 2 | 🔴 **O `Status` diz `Ongoing` e a `Etapa` diz `Operação Assistida`.** | `T2` | pergunta registrada |
-| 3 | 🔴 **O toggle `Pessoas` existe e está VAZIO** — segundo caso, junto da Osklen. **De 3 clientes que têm o toggle, 1 preencheu.** | `T2` | preenchimento pelo atendimento |
-| 4 | 🔴 **TERCEIRO cliente com a dor de excluir/inativar variante** — a página tem `Exclusão de Variante após integração`. Os outros dois: **VIX** (aprendizado de permissão) e **Reserva** (cartão antigo). **Um caso é anedota, dois é hipótese, três é PADRÃO.** | `T2` | decisão de produto — é lacuna da plataforma, não do cliente |
-| 5 | ⚠ **Dois arquivos de staging `SUPERSEDED` seguem no repositório.** **Apagar é decisão sua.** | `T2` | decisão do Vinícius (item 257) |
-| 6 | 🆕 **Duas `Atualização de Projeto`** (12/01/2026 e 29/01/2026) e nada depois. ⚠ **Mesma marca da Reserva**, cuja cadência parou em 30/06. | `T2` | conferência com o atendimento |
-| 7 | 🆕 **Duas pesquisas de CSat** (Kick Off e Treinamento) — **segundo cliente com CSat**, junto da Osklen. **Fonte nunca varrida.** | `T2` | tempo de varredura |
-| 8 | 🆕 `NCM e Código CEST` — **tema fiscal**, que nenhuma área canônica das 14 cobre com clareza. | `T2` | — |
+| 1 | 🔴 **A permissão aqui é dada a uma PESSOA, dentro da célula de um PERFIL.** Duas ocorrências, as duas na coluna `Lofty - Compras MP`: `Importação` 🟡 *(Liberado só Isadora desse Perfil)* e `Integração Linx` 🟢 *(Somente a Dora)*. 🔴 **O modelo de dados do uFlow — `jumper_users` → `user_roles` → `policies` — NÃO tem onde guardar isso.** ⚠ **A regra existe no papel e não existe no sistema.** | `T2` | **pergunta registrada** |
+| 2 | ⚠ **`Isadora` e `Dora` estão na mesma coluna de perfil** — provavelmente a mesma pessoa com dois apelidos. **NÃO fundi.** | `T2` | conferência com o atendimento |
+| 3 | 🔴 **`Editar Usuario` está BLOQUEADO para os 10 perfis, `Lofty - Admin` inclusive.** ⚠ **Único caso do corpus em que nem o Admin edita o próprio usuário.** | `T2` | conferência |
+| 4 | 🔴 **Onze linhas estão 🔴 para os DEZ perfis:** `Lotes`, `Tabela Dinâmica`, `Coordenado`, `Estampa`, `Composição de Custo`, `Ficha Técnica Base`, `Tag`, `Tipo de Lote`, `Pack`, `Campo Personalizado`, `Salvar como Ficha Técnica Base`. **Mesmo fenômeno da Moda Objetiva** — **isso é funcionalidade DESLIGADA, não permissão.** | `T2` | decisão de produto |
+| 5 | 🆕 **Permissão por CAMPO, não por aba:** `Lofty - Modelagem` em `Estilo | Informações Gerais` é 🟢 *(Só o campo modelista, piloteiro e Operador CAD)*. **Terceira granularidade** — tela, aba e agora campo. | `T2` | espec de produto |
+| 6 | 🆕 **Regra em TEXTO dentro de célula verde:** `Mapa de Coleção` 🟢 *(Somente para uso de filtros, sem editar informações)*. **Terceiro cliente** com regra escrita na célula, com Recco e NK STORE. ⚠ **O semáforo não dá conta, e o texto ao lado contradiz a cor.** | `T2` | — |
+| 7 | 🆕 **`Lofty - Mkt, Multimarcas e ecommerce`: TRÊS funções num perfil só**, e quase tudo 🟡/🔴. **É o perfil-consulta deste cliente**, junto de `Objetiva - Consulta` e `NV - View`. **Três casos — vira padrão.** | `T2` | decisão sobre a grade |
+| 8 | ⚠ **`Lofty  - Planejamento` tem DOIS espaços no nome** — erro de digitação vivo, e que quebra qualquer casamento por string. | `T2` | limpeza na fonte |
+| 9 | 🟢 **`Fale com o Suporte`, `Manual` e `Base de Importação` liberados para os 10.** 🔴 **Placar final das 10 matrizes: suporte 4 bloqueados × 6 liberados.** | `T2` | — |
+| 10 | 🚨 **A credencial do site de documentação está EM TEXTO CLARO na página do cliente**, no toggle `Documentação/Regras`, ao lado da URL `docs.umode.app/integracao-lofty`. **O valor não foi replicado em lugar nenhum.** | `T0` | 🚨 **rotação da chave — ação do Vinícius** |
+| 11 | 🔴 **O `Status` diz `Ongoing` e a `Etapa` diz `Operação Assistida`.** | `T2` | pergunta registrada |
+| 12 | 🔴 **O toggle `Pessoas` existe e está VAZIO** — segundo caso, junto da Osklen. **De 3 clientes que têm o toggle, 1 preencheu.** | `T2` | preenchimento pelo atendimento |
+| 13 | 🔴 **TERCEIRO cliente com a dor de excluir/inativar variante** — a página tem `Exclusão de Variante após integração`. Os outros dois: **VIX** (aprendizado de permissão) e **Reserva** (cartão antigo). **Um caso é anedota, dois é hipótese, três é PADRÃO.** | `T2` | decisão de produto — é lacuna da plataforma, não do cliente |
+| 14 | ⚠ **Dois arquivos de staging `SUPERSEDED` seguem no repositório.** **Apagar é decisão sua.** | `T2` | decisão do Vinícius (item 257) |
+| 15 | 🆕 **Duas `Atualização de Projeto`** (12/01/2026 e 29/01/2026) e nada depois. ⚠ **Mesma marca da Reserva**, cuja cadência parou em 30/06. | `T2` | conferência com o atendimento |
+| 16 | 🆕 **Duas pesquisas de CSat** (Kick Off e Treinamento) — **segundo cliente com CSat**, junto da Osklen. **Fonte nunca varrida.** | `T2` | tempo de varredura |
+| 17 | 🆕 `NCM e Código CEST` — **tema fiscal**, que nenhuma área canônica das 14 cobre com clareza. | `T2` | — |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -88,6 +97,14 @@
 | Quando | Endereço | O que saiu | Esgotada? |
 |---|---|---|---|
 | **22 set 2026** | `293c8829…` | toggle `Pessoas` **presente e VAZIO**; 🚨 **a credencial do site de documentação está em texto claro na página**; `Exclusão de Variante após integração`; `NCM e Código CEST`; duas `Atualização de Projeto` (12/01 e 29/01/2026); **duas pesquisas de CSat**; documento `As Is`; quadro Miro | ⚠ **não** — 6 sub-páginas e 4 databases inline não abertos |
+
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **23 set 2026** | `Documentação/Regras › Perfil de Usuário e Permissionamentos` | `2e1b1d38…` | **10 perfis**; 🟢 `Fale com o Suporte`, `Manual` e `Base de Importação` liberados para os 10; 🔴 **permissão NOMINAL — *Liberado só Isadora desse Perfil* e *Somente a Dora***; 🔴 `Editar Usuario` bloqueado para os 10, **Admin inclusive**; `Integração Linx` como aba |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 

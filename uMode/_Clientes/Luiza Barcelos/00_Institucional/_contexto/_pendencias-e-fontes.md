@@ -96,6 +96,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 |---|---|---|---|
 | **22 set 2026** | `b0c819c0…` **+ a sub-página `Warm Up Cliente` (`21bb3e7e…`)** | 🟢 **a página de pessoas mais rica da carteira** — **16 pessoas do cliente com cargo**, incluindo a própria **Marcinha (Luiza Barcelos), Diretora Criativa**; a sub-página traz a **ata completa de 07/06/2024** com **6 uModers nomeados com cargo**, expectativa **por pessoa** e 10 áreas envolvidas; 🔴 **`Relatório de Incidente` de 08/08/2025**; 8 páginas de regra datadas; `HubSpot`; **13 usuários uFlow + 2 uDash** | ⚠ **quase** — **17 blocos do toggle `Pessoas` não renderizam neste conector**; 11 sub-páginas não lidas |
 
+### 3.3 · Sub-páginas e documentos deste cliente já abertos
+
+> 🔴 **NÃO reabrir.** O que saiu daqui já está na seção 2.
+
+| Quando | O quê | Endereço | O que saiu |
+|---|---|---|---|
+| **22 set 2026** | `Luiza Barcelos › Onboarding › Perfil de Usuário e Permissionamentos` | `e3dbb553…` | 6 perfis, **`Fornecedor` entre eles**; 🔴 `Fale com o Suporte` **bloqueado para os 6** — a causa mecânica de a conta parecer invisível; 🔴 `Manual` bloqueado; comentário de validação virou célula permanente |
+
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
 | Fonte | Endereço | O que deve trazer |
