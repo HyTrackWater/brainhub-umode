@@ -1,0 +1,20 @@
+Baw	**Laura**, com 5 contas — ⚠ **e esta conta não entra na contagem de CS**, por estar marcada `Sem CS`.
+Caedu	P (base `Mapa de Clientes`, março/2026 — reconfirmar)
+Cambos	Grupo **`Médios`** · `WIP 2,25` · **Laura**, com 4 contas.
+Camys	Grupo **`SMB`** · `WIP Estratégico 1,75` · **sem pessoa de atendimento nomeada**.
+Cavallari	Grupo **`SMB`** · `WIP Estratégico 1,75` · **sem pessoa de atendimento nomeada**.
+Lofty Style	Grupo **`Médios`** · `WIP 2,25` · **Laura**, com **4 contas**.
+Loungerie	Grupo **`Médios`** · `WIP 2,25` · **Julianne & Pedro**, com 6 contas.
+Luiza Barcelos	Grupo **`Médios`** · `WIP 2,25` · **Laura**, com 4 contas — **e esta é a de maior receita da
+Moda Objetiva	Grupo **`Médios`** · `WIP 2,25` · **Laura**, com 5 contas.
+Mondepars	Grupo **`SMB`** · `WIP Estratégico 1,75` · **sem pessoa de atendimento nomeada**.
+NK STORE	Grupo **`Médios`** · `WIP 2,25` · **Julianne & Pedro**, com **6 contas**.
+NV	Grupo **`Enterprise`** · `WIP 6,00` · **Fernanda**, com 3 contas.
+Oficina Reserva	Grupo **`Enterprise`** · `WIP 6,00` · **Fernanda**, com 3 contas.
+Osklen	Grupo **`Médios`** · `WIP 2,25` · **Julianne & Pedro**, com 6 contas.
+Puket	Grupo **SMB** · `WIP Estratégico 1,75` · dupla **Julianne & Pedro**, que atende também Caedu,
+Reserva	Grupo **`Enterprise`** · `WIP Estratégico 6,00` · **Fernanda**, que atende as **3 contas
+Studio Minah	Grupo **`SMB`** · `WIP Estratégico 1,75` · **sem pessoa de atendimento nomeada**.
+TDC	Grupo **`SMB`** · `WIP Estratégico 1,75` · **sem pessoa de atendimento nomeada**.
+Ton Age	Grupo **`SMB`** · `WIP Estratégico 1,75` · **sem pessoa de atendimento nomeada**.
+VIX	Grupo **`Médios`** · `WIP 2,25` · **Julianne & Pedro**, com 6 contas.

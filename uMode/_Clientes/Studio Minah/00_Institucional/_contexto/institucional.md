@@ -37,8 +37,8 @@ tags:
 - contrato-vigencia: ? — [sem fonte]
 - contrato-renovacao: ? — [sem fonte]
 - indice-reajuste: ? — [sem fonte]
-- usuarios-contratados: ? — [sem fonte]
-- usuarios-conta: ? — [sem fonte]
+- usuarios-contratados: nao_informado — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
 - atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
 - tamanho-atendimento: Grupo SMB — [varredura do Notion · 2026-09-22]
 
@@ -89,7 +89,9 @@ tags:
 `Gestão de Coleção` — **1 de 7**
 
 ### Usuários da conta
-`[a preencher]`
+
+`[a preencher]` — 🔴 **não há tabela de usuários do PLM varrida para esta conta.**
+> **Ausência VERIFICADA em 23/09/2026.** No corpus inteiro, só **Caedu, Puket e NK STORE** têm tabela de usuários lida. ⚠ **Não afirmo que a conta não tenha usuários** — afirmo que **não há fonte varrida que os liste.**
 
 ### ERP / Integração
 **`Sem Integração`** — declarado na base.
@@ -108,13 +110,29 @@ tags:
 ### Situação do contrato
 **Sem contrato** — serviços faturados: `uFlow`.
 ### Vigência
-`[a preencher]`
+
+`[a preencher]` — campo **`data_inicio` vazio na planilha de contratos do Financeiro**.
+> 🔴 **Ausência VERIFICADA:** os **41 registros** foram conferidos em **23/09/2026**. **O cliente consta na base; este campo está vazio nele.**
+> ⚠ **É lacuna da fonte, não da varredura.**
+
 ### Renovação e aviso prévio
-Renovação **[a preencher]** · aviso prévio `[a preencher]`
+
+`[a preencher]` — campo **`renovacao` vazio na planilha de contratos do Financeiro**.
+> 🔴 **Ausência VERIFICADA:** os **41 registros** foram conferidos em **23/09/2026**. **O cliente consta na base; este campo está vazio nele.**
+> ⚠ **É lacuna da fonte, não da varredura.**
+
 ### Índice de reajuste
-`[a preencher]`
+
+`[a preencher]` — campo **`indice_reajuste` vazio na planilha de contratos do Financeiro**.
+> 🔴 **Ausência VERIFICADA:** os **41 registros** foram conferidos em **23/09/2026**. **O cliente consta na base; este campo está vazio nele.**
+> ⚠ **É lacuna da fonte, não da varredura.**
+
 ### Usuários contratados
-`[a preencher]`
+
+**nao_informado**
+> ⚠ **É o valor LITERAL do campo `usuarios_contratados_status` da planilha** — a fonte declara que ela própria não tem o número.
+> Planilha de contratos do Financeiro, conferida em **23/09/2026**.
+
 ### Pendências contratuais registradas
 Nenhuma registrada na planilha.
 ## Aliases de áreas

@@ -37,10 +37,10 @@ tags:
 - contrato-vigencia: 2023-07-01 → 2025-07-01 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Automática · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
-- usuarios-contratados: ? — [sem fonte]
-- usuarios-conta: ? — [sem fonte]
-- atendimento: ? — [sem fonte]
-- tamanho-atendimento: ? — [sem fonte]
+- usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
+- atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
@@ -87,13 +87,17 @@ tags:
 `Gestão de Coleção` — **1 de 7**
 
 ### Usuários da conta
-`[a preencher]`
+
+`[a preencher]` — 🔴 **não há tabela de usuários do PLM varrida para esta conta.**
+> **Ausência VERIFICADA em 23/09/2026.** No corpus inteiro, só **Caedu, Puket e NK STORE** têm tabela de usuários lida. ⚠ **Não afirmo que a conta não tenha usuários** — afirmo que **não há fonte varrida que os liste.**
 
 ### ERP / Integração
 **`SAP`**.
 
 ### Responsável de atendimento (uMode)
-`[a preencher]` — **campo vazio**.
+
+`[a preencher]` — campo **`Atendimento 2025` vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ## Contrato
 
@@ -111,7 +115,10 @@ Renovação **Automática** · aviso prévio **90 dias**
 ### Índice de reajuste
 IPCA
 ### Usuários contratados
-`[a preencher]`
+
+`[a preencher]` — 🔴 **`Studio Z` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
+
 ### Pendências contratuais registradas
 🔴 **não tem contrato uRocket assinado na rede**
 
@@ -147,7 +154,10 @@ IPCA
 `[a preencher]`
 
 ### Tamanho de atendimento
-`[a preencher]`
+
+`[a preencher]` — 🔴 **o campo `Tamanho atendimento` NÃO EXISTE MAIS na base `Mapa de Clientes`.**
+> **Verificado em 23/09/2026:** o schema da base viva tem 23 propriedades e **nenhuma delas é `Tamanho atendimento`**. ⚠ **Ele existia no export de 04/03/2026**, que o traz preenchido para vários clientes.
+> 🔴 **Campo removido da origem, não campo vazio.** São coisas diferentes, e o valor que o corpus tiver dele é histórico de março — **não reconfirmável na base de hoje.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

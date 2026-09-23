@@ -30,7 +30,7 @@ tags:
 - grupo-segmentacao: SMB — [varredura do Notion · 2026-09-23]
 - status: Sem CS — [varredura do Notion · 2026-09-22]
 - data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
-- erp: Sem Integração — [varredura do Notion · 2026-09-22]
+- erp: Sem Integração — [base Mapa de Clientes · 2026-09-23]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-22]
 - modulo-contratado: Relatórios — [varredura do Notion · 2026-09-22]
@@ -40,7 +40,7 @@ tags:
 - contrato-vigencia: 2025-03-13 → 2028-03-11 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 90 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
-- usuarios-contratados: ? — [sem fonte]
+- usuarios-contratados: a_confirmar — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 3 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: pessoa:laura.delgado@umode.com.br — [varredura do Notion · 2026-09-22]
 - tamanho-atendimento: Laura, com 5 contas — [varredura do Notion · 2026-09-22]
@@ -99,9 +99,9 @@ tags:
 
 > Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
-🔴 **`Sem Integração`** — **e isso contradiz o módulo contratado.**
 
-> A conta tem **`Integração`** entre os módulos e o campo `ERP/Integração` diz **`Sem Integração`**. **Os dois não podem estar certos.** `[a preencher]`
+**Sem Integração**
+> lido por SQL na base `Mapa de Clientes` em **23/09/2026**.
 
 ### Responsável de atendimento (uMode)
 **Laura** (2025) — **pessoa nomeada**, diferente dos outros 6 `Sem CS`, que têm `SMB`.
@@ -121,7 +121,11 @@ Renovação **Via assinatura** · aviso prévio **90 dias**
 ### Índice de reajuste
 IPCA
 ### Usuários contratados
-`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+
+**a_confirmar**
+> ⚠ **É o valor LITERAL do campo `usuarios_contratados_status` da planilha** — a fonte declara que ela própria não tem o número.
+> Planilha de contratos do Financeiro, conferida em **23/09/2026**.
+
 ### Pendências contratuais registradas
 🔴 **não foi feito aditivo excluindo explosão MP**
 

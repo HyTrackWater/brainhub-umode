@@ -178,8 +178,9 @@ As três que reaparecem nas demandas canceladas: **cálculo de engenharia (encai
 
 ### Tamanho de atendimento
 
-`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
-> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
+`[a preencher]` — 🔴 **o campo `Tamanho atendimento` NÃO EXISTE MAIS na base `Mapa de Clientes`.**
+> **Verificado em 23/09/2026:** o schema da base viva tem 23 propriedades e **nenhuma delas é `Tamanho atendimento`**. ⚠ **Ele existia no export de 04/03/2026**, que o traz preenchido para vários clientes.
+> 🔴 **Campo removido da origem, não campo vazio.** São coisas diferentes, e o valor que o corpus tiver dele é histórico de março — **não reconfirmável na base de hoje.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

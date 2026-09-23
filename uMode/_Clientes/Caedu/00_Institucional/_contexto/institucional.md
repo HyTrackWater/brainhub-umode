@@ -42,7 +42,7 @@ tags:
 - atendimento: pessoa:julianne.dias@umode.com.br — [export de CRM · 2026-09-21]
 - atendimento: pessoa:pedro.murillo@umode.com.br — [export de CRM · 2026-09-21]
 - atendimento: pessoa:andrea.holmer@umode.com.br — [export de CRM · 2026-09-21]
-- tamanho-atendimento: P — [base Mapa de Clientes · 2026-09-21]
+- tamanho-atendimento: P — [base Mapa de Clientes · 2026-09-23]
 
 ## Identidade
 ### ID do cliente
@@ -256,6 +256,8 @@ monte de problema"*.
 
 ### Tamanho de atendimento
 P (base `Mapa de Clientes`, março/2026 — reconfirmar)
+> 🔴 **O campo `Tamanho atendimento` NÃO EXISTE MAIS na base `Mapa de Clientes`** — verificado em 23/09/2026: o schema da base viva tem 23 propriedades e nenhuma delas é essa. ⚠ **`P` vem do export de 04/03/2026.**
+> **Campo removido da origem, não campo vazio.** 🔴 **Não é reconfirmável na base de hoje.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

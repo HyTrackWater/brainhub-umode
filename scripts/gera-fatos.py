@@ -133,6 +133,9 @@ FONTES = [
     (u"pesquisa de \u00e1reas",        u"pesquisa de \u00e1reas"),
     (u"banco da API",                  u"banco da API"),
     (u"conta de API",                  u"banco da API"),
+    # "tabela de usuarios do PLM" e fonte propria e vinha antes da pista
+    # generica "tabela do PLM", que devolvia "banco da API" - outra coisa.
+    (u"tabela de usuários do PLM",  u"tabela de usuários do PLM"),
     (u"tabela do PLM",                 u"banco da API"),
     (u"CRM de mentoria",               u"CRM de mentoria"),
     (u"export de CRM",                 u"export de CRM"),
@@ -157,6 +160,8 @@ RE_H1       = re.compile(u"^# (.+)$", re.M)
 RE_AUSENCIA = re.compile(
     u"(?:campo\\s+)?(?:est\u00e1\\s+)?vazi[ao]\\s+n[ao]\\s+base(.{0,70})"
     u"|n\u00e3o\\s+consta\\s+n[ao](.{0,70})"
+    u"|n\u00e3o\\s+existe\\s+mais\\s+n[ao](.{0,70})"
+    u"|n\u00e3o\\s+h\u00e1\\s+(.{0,70})"
     u"|sem\\s+preenchimento\\s+n[ao]\\s+base(.{0,70})", re.I)
 
 

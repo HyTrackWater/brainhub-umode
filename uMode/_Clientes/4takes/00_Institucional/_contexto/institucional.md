@@ -38,9 +38,9 @@ tags:
 - contrato-renovacao: ? — [sem fonte]
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [sem fonte]
-- usuarios-conta: ? — [sem fonte]
+- usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
 - atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
-- tamanho-atendimento: ? — [sem fonte]
+- tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
@@ -88,7 +88,9 @@ tags:
 `Gestão de Coleção` — **1 de 7**
 
 ### Usuários da conta
-`[a preencher]`
+
+`[a preencher]` — 🔴 **não há tabela de usuários do PLM varrida para esta conta.**
+> **Ausência VERIFICADA em 23/09/2026.** No corpus inteiro, só **Caedu, Puket e NK STORE** têm tabela de usuários lida. ⚠ **Não afirmo que a conta não tenha usuários** — afirmo que **não há fonte varrida que os liste.**
 
 ### ERP / Integração
 **`Sem Integração`** — mesmo perfil dos clientes `Sem CS`.
@@ -145,7 +147,10 @@ IGPM
 `[a preencher]`
 
 ### Tamanho de atendimento
-`[a preencher]`
+
+`[a preencher]` — 🔴 **o campo `Tamanho atendimento` NÃO EXISTE MAIS na base `Mapa de Clientes`.**
+> **Verificado em 23/09/2026:** o schema da base viva tem 23 propriedades e **nenhuma delas é `Tamanho atendimento`**. ⚠ **Ele existia no export de 04/03/2026**, que o traz preenchido para vários clientes.
+> 🔴 **Campo removido da origem, não campo vazio.** São coisas diferentes, e o valor que o corpus tiver dele é histórico de março — **não reconfirmável na base de hoje.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

@@ -31,14 +31,14 @@ tags:
 - status: Onboarding — [varredura do Notion · 2026-09-22]
 - data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Linx — [varredura do Notion · 2026-09-22]
-- modulo-contratado: ? — [sem fonte]
+- modulo-contratado: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - contrato-situacao: Falta assinar — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: Gestão de coleções — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-vigencia: 2026-07-27 → 2029-07-27 — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação Via assinatura · aviso prévio 60 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 20 — [planilha de contratos do Financeiro · 2026-09-23]
-- usuarios-conta: ? — [sem fonte]
+- usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
 - atendimento: pessoa:julianne.dias@umode.com.br — [varredura do Notion · 2026-09-22]
 - atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
 - tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-22]
@@ -87,10 +87,14 @@ tags:
 > 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio nos dois.**
 > ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Módulos contratados
-`[a preencher]` — **campo vazio na base**
+
+`[a preencher]` — campo **`Módulos Contratados` vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ### Usuários da conta
-`[a preencher]`
+
+`[a preencher]` — 🔴 **não há tabela de usuários do PLM varrida para esta conta.**
+> **Ausência VERIFICADA em 23/09/2026.** No corpus inteiro, só **Caedu, Puket e NK STORE** têm tabela de usuários lida. ⚠ **Não afirmo que a conta não tenha usuários** — afirmo que **não há fonte varrida que os liste.**
 
 ### ERP / Integração
 **`Linx`**.

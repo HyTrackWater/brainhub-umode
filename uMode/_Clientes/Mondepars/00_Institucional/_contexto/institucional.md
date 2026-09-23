@@ -32,11 +32,11 @@ tags:
 - data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: Sem Integração — [varredura do Notion · 2026-09-22]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-22]
-- contrato-situacao: ? — [sem fonte]
-- contrato-vigencia: ? — [sem fonte]
-- contrato-renovacao: ? — [sem fonte]
-- indice-reajuste: ? — [sem fonte]
-- usuarios-contratados: ? — [sem fonte]
+- contrato-situacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 10 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
 - tamanho-atendimento: Grupo SMB — [varredura do Notion · 2026-09-22]
@@ -109,23 +109,28 @@ tags:
 
 ### Situação do contrato
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Mondepars` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Vigência
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Mondepars` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Renovação e aviso prévio
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Mondepars` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Índice de reajuste
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Mondepars` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Usuários contratados
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Mondepars` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Pendências contratuais registradas
 

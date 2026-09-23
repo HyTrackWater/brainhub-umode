@@ -30,16 +30,16 @@ tags:
 - grupo-segmentacao: Churn — [base Segmentação Grupos · 2026-09-22]
 - status: Churn — [varredura do Notion · 2026-09-22]
 - data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
-- erp: ? — [sem fonte]
-- modulo-contratado: ? — [sem fonte]
-- contrato-situacao: ? — [sem fonte]
-- contrato-vigencia: ? — [sem fonte]
-- contrato-renovacao: ? — [sem fonte]
-- indice-reajuste: ? — [sem fonte]
-- usuarios-contratados: ? — [sem fonte]
-- usuarios-conta: ? — [sem fonte]
-- atendimento: ? — [sem fonte]
-- tamanho-atendimento: ? — [sem fonte]
+- erp: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- modulo-contratado: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- contrato-situacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
+- atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
@@ -84,16 +84,24 @@ tags:
 > 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
 > ⚠ **O campo está preenchido em 6 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
 ### Módulos contratados
-`[a preencher]` — **campo vazio na base**
+
+`[a preencher]` — campo **`Módulos Contratados` vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ### Usuários da conta
-`[a preencher]`
+
+`[a preencher]` — 🔴 **não há tabela de usuários do PLM varrida para esta conta.**
+> **Ausência VERIFICADA em 23/09/2026.** No corpus inteiro, só **Caedu, Puket e NK STORE** têm tabela de usuários lida. ⚠ **Não afirmo que a conta não tenha usuários** — afirmo que **não há fonte varrida que os liste.**
 
 ### ERP / Integração
-`[a preencher]`
+
+`[a preencher]` — campo **`ERP/Integração` vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ### Responsável de atendimento (uMode)
-`[a preencher]` — **campo vazio**.
+
+`[a preencher]` — campo **`Atendimento 2025` vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ## Contrato
 
@@ -101,23 +109,28 @@ tags:
 
 ### Situação do contrato
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Ricardo Almeida` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Vigência
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Ricardo Almeida` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Renovação e aviso prévio
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Ricardo Almeida` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Índice de reajuste
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Ricardo Almeida` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Usuários contratados
 
-`[a preencher]`
+`[a preencher]` — 🔴 **`Ricardo Almeida` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Pendências contratuais registradas
 
@@ -154,7 +167,10 @@ tags:
 `[a preencher]`
 
 ### Tamanho de atendimento
-`[a preencher]`
+
+`[a preencher]` — 🔴 **o campo `Tamanho atendimento` NÃO EXISTE MAIS na base `Mapa de Clientes`.**
+> **Verificado em 23/09/2026:** o schema da base viva tem 23 propriedades e **nenhuma delas é `Tamanho atendimento`**. ⚠ **Ele existia no export de 04/03/2026**, que o traz preenchido para vários clientes.
+> 🔴 **Campo removido da origem, não campo vazio.** São coisas diferentes, e o valor que o corpus tiver dele é histórico de março — **não reconfirmável na base de hoje.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

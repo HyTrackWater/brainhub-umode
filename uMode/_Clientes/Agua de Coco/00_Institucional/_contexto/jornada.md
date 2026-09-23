@@ -43,7 +43,9 @@ tags:
 `[a preencher]`
 
 ## Módulos em uso
-`[a preencher]` — **campo vazio na base**
+
+`[a preencher]` — campo **`Módulos Contratados` vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ## Decisões e restrições registradas
 `[a preencher]`

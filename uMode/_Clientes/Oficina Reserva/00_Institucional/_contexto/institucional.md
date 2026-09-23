@@ -26,16 +26,16 @@ tags:
 - status: Ongoing — [varredura do Notion · 2026-09-21]
 - data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: SAP e Linx — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Relatórios — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Cronograma — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Fornecedores — [varredura do Notion · 2026-09-21]
-- contrato-situacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
-- contrato-vigencia: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
-- contrato-renovacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
-- indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
-- usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
+- modulo-contratado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
+- modulo-contratado: Integração — [base Mapa de Clientes · 2026-09-23]
+- modulo-contratado: Relatórios — [base Mapa de Clientes · 2026-09-23]
+- modulo-contratado: Cronograma — [base Mapa de Clientes · 2026-09-23]
+- modulo-contratado: Fornecedores — [base Mapa de Clientes · 2026-09-23]
+- contrato-situacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- contrato-vigencia: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- contrato-renovacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
 - atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
 - tamanho-atendimento: Grupo Enterprise — [varredura do Notion · 2026-09-21]
@@ -133,13 +133,14 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 > Linha criada no Notion em **27/06/2024**, **um dia depois da call.**
 
 ### Módulos contratados
-`Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` · `Fornecedores` — **5 de 7**.
 
-> ⚠ **A mensagem de Sales dizia *"começarão apenas com uFlow"*, e hoje há 5 módulos.**
-> **O escopo cresceu.** `[a preencher]` — **quando e como?**
->
-> 🟢 **`Fornecedores` está contratado** — e a relação com fornecedor era **a dor número 1.3**.
-> **Coerente.**
+- **Gestão de Coleção**
+- **Integração**
+- **Relatórios**
+- **Cronograma**
+- **Fornecedores**
+
+> lido por SQL na base `Mapa de Clientes` em **23/09/2026**.
 
 ### Usuários da conta
 **7 pessoas com ficha própria** no corpus.
@@ -169,23 +170,28 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 
 ### Situação do contrato
 
-`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
+`[a preencher]` — 🔴 **`Oficina Reserva` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Vigência
 
-`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
+`[a preencher]` — 🔴 **`Oficina Reserva` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Renovação e aviso prévio
 
-`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
+`[a preencher]` — 🔴 **`Oficina Reserva` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Índice de reajuste
 
-`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
+`[a preencher]` — 🔴 **`Oficina Reserva` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Usuários contratados
 
-`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
+`[a preencher]` — 🔴 **`Oficina Reserva` não consta na planilha de contratos do Financeiro.**
+> **Ausência VERIFICADA:** os **41 registros** da base foram conferidos um a um em **23/09/2026**. ⚠ **A ausência é da fonte** — ou o contrato existe fora dela, ou não existe. **Quem confirma é o Financeiro.**
 
 ### Pendências contratuais registradas
 

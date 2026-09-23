@@ -38,9 +38,9 @@ tags:
 - servico-faturado: uBuy — [planilha de contratos do Financeiro · 2026-09-21]
 - servico-faturado: uPlan — [planilha de contratos do Financeiro · 2026-09-21]
 - contrato-vigencia: 2020-07-20 → 2021-01-20 — [planilha de contratos do Financeiro · 2026-09-23]
-- contrato-renovacao: ? — [sem fonte]
+- contrato-renovacao: Via assinatura — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
-- usuarios-contratados: ? — [sem fonte]
+- usuarios-contratados: a_confirmar — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 13 pessoas com ficha própria no corpus — [base Segmentação Grupos · 2026-09-21]
 - atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
 - tamanho-atendimento: Grupo Enterprise — [base Segmentação Grupos · 2026-09-21]
@@ -136,11 +136,18 @@ Oficina** — **a convivência dos dois ERPs tem canal próprio e diário.**
 ### Vigência
 **2020-07-20 → 2021-01-20** · vigência 6 meses
 ### Renovação e aviso prévio
-Renovação **Via assinatura** · aviso prévio `[a preencher]`
+
+**Via assinatura**
+> Planilha de contratos do Financeiro, conferida em **23/09/2026**.
+
 ### Índice de reajuste
 IGPM
 ### Usuários contratados
-`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+
+**a_confirmar**
+> ⚠ **É o valor LITERAL do campo `usuarios_contratados_status` da planilha** — a fonte declara que ela própria não tem o número.
+> Planilha de contratos do Financeiro, conferida em **23/09/2026**.
+
 ### Pendências contratuais registradas
 🔴 **CONTRATO DESATUALIZADO**
 

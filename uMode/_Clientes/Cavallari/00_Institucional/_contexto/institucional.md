@@ -37,8 +37,8 @@ tags:
 - contrato-vigencia: 2021-02-15 → sem data de término — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-renovacao: Renovação N/A · aviso prévio 150 dias — [planilha de contratos do Financeiro · 2026-09-23]
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
-- usuarios-contratados: ? — [sem fonte]
-- usuarios-conta: ? — [sem fonte]
+- usuarios-contratados: a_confirmar — [planilha de contratos do Financeiro · 2026-09-23]
+- usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
 - atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
 - tamanho-atendimento: Grupo SMB — [varredura do Notion · 2026-09-22]
 
@@ -89,7 +89,9 @@ tags:
 `Gestão de Coleção` — **1 de 7**
 
 ### Usuários da conta
-`[a preencher]`
+
+`[a preencher]` — 🔴 **não há tabela de usuários do PLM varrida para esta conta.**
+> **Ausência VERIFICADA em 23/09/2026.** No corpus inteiro, só **Caedu, Puket e NK STORE** têm tabela de usuários lida. ⚠ **Não afirmo que a conta não tenha usuários** — afirmo que **não há fonte varrida que os liste.**
 
 ### ERP / Integração
 **`Sem Integração`** — declarado na base.
@@ -114,7 +116,11 @@ Renovação **N/A** · aviso prévio **150 dias**
 ### Índice de reajuste
 IGPM
 ### Usuários contratados
-`[a preencher]` — ⚠ **a própria planilha marca como A CONFIRMAR.**
+
+**a_confirmar**
+> ⚠ **É o valor LITERAL do campo `usuarios_contratados_status` da planilha** — a fonte declara que ela própria não tem o número.
+> Planilha de contratos do Financeiro, conferida em **23/09/2026**.
+
 ### Pendências contratuais registradas
 Nenhuma registrada na planilha.
 ## Aliases de áreas

@@ -21,10 +21,10 @@ tags:
 
 - status: Ongoing — [varredura do Notion · 2026-09-21]
 - fase: Projeto em Regime — [varredura do Notion · 2026-04-10]
-- modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
-- modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
-- modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
-- modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-21]
+- modulo-em-uso: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
+- modulo-em-uso: Relatórios — [base Mapa de Clientes · 2026-09-23]
+- modulo-em-uso: Integração — [base Mapa de Clientes · 2026-09-23]
+- modulo-em-uso: Fornecedores — [base Mapa de Clientes · 2026-09-23]
 - metrica: O campo *Como vamos medir?* está preenchido com um hífen — [varredura do Notion · 2026-09-21]
 - marco: "Data de Ativação por Vendas" — [ata do kick-off interno · 2024-05-15]
 - marco: Kick-off interno — gravado em vídeo, resumo no HubSpot. Registra o prazo de credibilidade, o trauma com a Linx, os 13+2 usuários e a tese do conhecimento concentrado na Marcinha — [ata na página · 2024-06-06]
@@ -129,11 +129,13 @@ julho de 2026. `[C]`
 > **Duas contas, duas práticas opostas. A desta é a certa.**
 
 ## Módulos em uso
-`Gestão de Coleção` · `Relatórios` · `Integração` · `Fornecedores` — 4 de 7.
-**Não contratados:** `Cronograma` · `Aposta` · `Planejamento`.
 
-> ⚠ **`Cronograma` não está contratado**, e o time tem **trauma declarado de cronograma**
-> (*"frustrações passadas com a Linx"*). **Pode ser deliberado, pode ser lacuna.** `[a preencher]`
+- **Gestão de Coleção**
+- **Relatórios**
+- **Integração**
+- **Fornecedores**
+
+> lido por SQL na base `Mapa de Clientes` em **23/09/2026**.
 
 ## Decisões e restrições registradas
 | Decisão / restrição | Fonte | Estado |

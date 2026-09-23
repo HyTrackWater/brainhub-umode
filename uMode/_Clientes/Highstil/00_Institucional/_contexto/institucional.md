@@ -31,7 +31,7 @@ tags:
 - status: Churn — [varredura do Notion · 2026-09-22]
 - data-ativacao: 11/02/2025 — [varredura do Notion · 2026-09-22]
 - erp: Totvs — [varredura do Notion · 2026-09-22]
-- modulo-contratado: ? — [sem fonte]
+- modulo-contratado: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - contrato-situacao: Assinado — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
 - contrato-vigencia: 2025-02-10 → 2028-02-09 — [planilha de contratos do Financeiro · 2026-09-23]
@@ -40,7 +40,7 @@ tags:
 - usuarios-contratados: 25 internos — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 3 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: pessoa:laura.delgado@umode.com.br — [varredura do Notion · 2026-09-22]
-- tamanho-atendimento: ? — [sem fonte]
+- tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.
@@ -84,7 +84,9 @@ tags:
 **11/02/2025** — 🔴 **preenchida, e o cliente está em `Churn`.**
 
 ### Módulos contratados
-`[a preencher]` — **campo vazio na base**
+
+`[a preencher]` — campo **`Módulos Contratados` vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ### Usuários da conta
 **3 pessoas com ficha própria** no corpus.
@@ -147,31 +149,10 @@ Nenhuma registrada na planilha.
 `[a preencher]`
 
 ### Tamanho de atendimento
-`[a preencher]`
 
-🔴 **ESTE CLIENTE FAZ PARTE DE UM COORTE QUE FALHOU INTEIRO.**
-
-Três clientes têm `Data Ativação Cliente` preenchida **e estão em `Churn`** — e as três ativações acontecem em **oito dias**:
-
-| Cliente | Ativado em | ERP |
-|---|---|---|
-| **Lenny Niemeyer** | **03/02/2025** | Linx |
-| **Recco** | **06/02/2025** | Totvs |
-| **Highstil** | **11/02/2025** | Totvs |
-
-> **Três ativações consecutivas de fevereiro de 2025, todas terminadas em saída.**
->
-> **Não afirmo a causa** — não li as páginas nem os contratos. Afirmo o padrão, com data, e que **nenhuma fonte varrida registra o motivo de nenhuma das três saídas**.
->
-> **É a pergunta mais valiosa de toda a varredura de churn.** Ver [`_taxonomia-status-cliente.md`](../../../../00_Institucional/_contexto/_taxonomia-status-cliente.md).
-
-> 🔴 **CORREÇÃO — 22 set 2026.** Esta leitura de "coorte" era minha e estava errada no que
-> sugeria. As três contas foram **ativadas** em oito dias, mas **não morreram juntas**:
-> **Recco ~8 meses** (última atividade **16/10/2025**) · **Lenny Niemeyer ~14 meses**
-> (**01/04/2026**) · **Highstil ~14 meses** (**16/04/2026**). Lenny e Highstil seguiram com
-> reunião até **abril de 2026**, já marcadas como `Churn`. **É coorte de ativação, não de morte.**
-> ⚠ **"Última atividade observada" não é data de saída** — a base **não tem `Data de Churn`**.
-> Ver `_varredura-2026-09-22-reunioes-compartilhadas.md` § 4.
+`[a preencher]` — 🔴 **o campo `Tamanho atendimento` NÃO EXISTE MAIS na base `Mapa de Clientes`.**
+> **Verificado em 23/09/2026:** o schema da base viva tem 23 propriedades e **nenhuma delas é `Tamanho atendimento`**. ⚠ **Ele existia no export de 04/03/2026**, que o traz preenchido para vários clientes.
+> 🔴 **Campo removido da origem, não campo vazio.** São coisas diferentes, e o valor que o corpus tiver dele é histórico de março — **não reconfirmável na base de hoje.**
 
 ## Governança
 ### Responsável de atendimento (uMode)

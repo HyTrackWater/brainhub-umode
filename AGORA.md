@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **682** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **690** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -326,10 +326,10 @@ contra `## Fatos`, nunca contra a prosa.** Formato travado no
 
 | | |
 |---|---:|
-| fatos com fonte e data | **1.385** (41%) |
-| 🔴 fatos `[sem fonte]` — **ninguém procurou** | **269** (8%) |
-| 🟢 **TREZE clientes com ZERO `[sem fonte]`** | Caedu 142 · NK STORE 107 · Luiza Barcelos 92 · NV 92 · Puket 92 · VIX 92 · Lofty Style 91 · Osklen 90 · Cambos 88 · Oficina Reserva 88 · Recco 79 · Moda Objetiva 70 · Lenny Niemeyer 66 |
-| 🟢 ausência VERIFICADA no corpus | **1.726** (51%) — fonte nomeada e data |
+| fatos com fonte e data | **1.396** (41%) |
+| 🔴 fatos `[sem fonte]` — **ninguém procurou** | **63** (2%) |
+| 🟢 **clientes com ZERO `[sem fonte]`** | **34 de 48** |
+| 🟢 ausência VERIFICADA no corpus | **1.921** (57%) — fonte nomeada e data |
 | 🟢 **ausência VERIFICADA** — `[não consta em: X · data]` | **2** — só a CAEDU |
 | chaves de vocabulário fechado | **35** |
 | nomes indexados por e-mail, tirados do próprio corpus | **617** |

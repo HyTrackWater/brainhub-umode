@@ -4112,3 +4112,36 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      Linx` virava `?` **mesmo tendo `Churn` na primeira posição.**
      **(b)** o ramo de LISTA não reconhecia ausência declarada — `Módulos contratados` caía em
      `[sem fonte]` mesmo com a base nomeada. **Os dois corrigidos.**
+
+## A procedência fechada em escala: 2% de `[sem fonte]` (23 set 2026)
+
+687. 🟢 **34 dos 48 clientes com ZERO `[sem fonte]`.** Corpus: **3.396 fatos — 1.396 com fonte
+     (41%) · 1.921 ausência verificada (57%) · 63 sem fonte (2%)**.
+     ⚠ **Saiu de 66% para 2% em um dia.** 🔴 **Isso NÃO é conteúdo novo: é procedência declarada.**
+     **57% do cérebro é "procurei ali, naquela data, e não tem".**
+688. 🔺 **ERRO MEU, com perda real: sobrescrevi 20 valores preenchidos.** Ao declarar que o campo
+     `Tamanho atendimento` não existe mais na base, apaguei o conteúdo de 20 clientes — incluindo
+     grupo, WIP e dupla de atendimento. 🟢 **Recuperados do Git e restaurados.**
+     🔴 **A condição do meu script sobrescrevia mesmo quando havia valor.** ⚠ **Terceira vez hoje
+     que uma condição frouxa destrói ou fabrica dado** — ver itens 631 e 661.
+689. 🔴 **O campo `Tamanho atendimento` NÃO EXISTE MAIS na base `Mapa de Clientes`.** O schema da
+     base viva tem 23 propriedades e nenhuma é essa; ele existia no **export de 04/03/2026**.
+     🔴 **Campo removido da origem ≠ campo vazio.** ⚠ **O valor que o corpus tem dele é histórico
+     de março e não é reconfirmável.** **A CAEDU carrega `P` nessa condição.**
+690. 🟢 **19 casos de "a base TEM dado e o corpus não" foram achados pelo próprio script**, que se
+     recusa a escrever "vazio" por cima. **Cinco eram reais e foram preenchidos:**
+     `Hering` ERP **Ilimitar** · `Baw` ERP **Sem Integração** + 4 módulos ·
+     `Cambos` 3 módulos · `Luiza Barcelos` 4 módulos · `Oficina Reserva` 5 módulos.
+691. 🟢 **E um deles CONFIRMA o que eu tinha inferido da matriz de permissão:** o campo
+     `ERP/Integração` da Oficina Reserva vale literalmente **`SAP e Linx`** — **dois sistemas na
+     mesma conta**, como a ficha já sugeria com `Integração Linx` e duas interfaces SAP.
+692. 🟢 **`usuarios_contratados_status` está preenchido em 41 de 41 registros da planilha**, mesmo
+     quando `usuarios_contratados` está vazio (13 de 41). ⚠ **É a fonte declarando o estado do
+     próprio campo** — entra como valor com a ressalva, não como lacuna.
+693. 🔺 **Defeito de fonte que custou 28 fatos:** a pista `tabela do PLM` devolvia
+     **`banco da API`** — outra coisa — e por isso `tabela de usuários do PLM` não resolvia.
+     **Pista genérica engolindo a específica.** 🟢 **Corrigido: a específica vem antes.**
+694. 🔴 **Restam 63 `[sem fonte]` em 14 clientes**, concentrados em `contrato-renovacao`,
+     `indice-reajuste`, `contrato-vigencia` e `usuarios-contratados`.
+     ⚠ **São clientes que não constam na planilha do Financeiro OU cujo campo está vazio lá.**
+     **O que falta não é varredura: é a fonte não ter o dado.**

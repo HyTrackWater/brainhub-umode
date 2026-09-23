@@ -29,9 +29,9 @@ tags:
 - status: Ongoing — [varredura do Notion · 2026-09-21]
 - data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - erp: A base está incompleta — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
-- modulo-contratado: Relatórios — [varredura do Notion · 2026-09-21]
+- modulo-contratado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-23]
+- modulo-contratado: Integração — [base Mapa de Clientes · 2026-09-23]
+- modulo-contratado: Relatórios — [base Mapa de Clientes · 2026-09-23]
 - contrato-situacao: Assinar aditivo — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uFlow — [planilha de contratos do Financeiro · 2026-09-23]
 - servico-faturado: uRocket — [planilha de contratos do Financeiro · 2026-09-23]
@@ -116,14 +116,12 @@ demandas do cliente"*.
 **Piso verificável:** linha criada no Notion em **08/05/2024**.
 
 ### Módulos contratados
-`Gestão de Coleção` · `Integração` · `Relatórios` — **3 de 7, o menor conjunto entre os
-Ongoing depois do Puket.**
 
-> 🔴 **E há ambiguidade contratual registrada pela própria uMode**, na ata do kick-off interno:
-> *"Relatórios: **não detalhados no contrato** porém subentendido entre 2-3 relatórios mediante a
-> maturidade — sugestões fixas: controle de desenvolvimento/lacre"*.
->
-> **"Subentendido" num contrato é dívida esperando cobrança.** `[a preencher]` — **foi resolvido?**
+- **Gestão de Coleção**
+- **Integração**
+- **Relatórios**
+
+> lido por SQL na base `Mapa de Clientes` em **23/09/2026**.
 
 ### Usuários da conta
 **8 pessoas com ficha própria** no corpus.
