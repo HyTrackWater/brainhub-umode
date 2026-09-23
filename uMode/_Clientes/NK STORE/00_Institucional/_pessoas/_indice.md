@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Pessoas — índice"
+---
 # NK STORE · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

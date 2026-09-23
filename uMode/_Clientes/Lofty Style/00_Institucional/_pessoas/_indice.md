@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lofty Style · Pessoas — índice"
+---
 # Lofty Style · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

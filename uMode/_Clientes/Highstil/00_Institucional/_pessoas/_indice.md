@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Highstil · Pessoas — índice"
+---
 # Highstil · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

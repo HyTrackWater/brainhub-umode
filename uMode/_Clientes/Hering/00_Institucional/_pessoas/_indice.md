@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Hering · Pessoas — índice"
+---
 # Hering · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

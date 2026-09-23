@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Casa uMode · Pessoas · índice"
+---
 # Casa uMode · Pessoas · índice
 
 > **DERIVADO.** Gerado por `scripts/gera-conexoes.py`. **Não se edita à mão.**

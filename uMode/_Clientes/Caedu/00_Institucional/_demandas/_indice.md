@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Caedu · Demandas — índice"
+---
 # Caedu · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

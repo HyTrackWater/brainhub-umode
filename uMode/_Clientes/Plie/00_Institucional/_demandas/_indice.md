@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Plie · Demandas — índice"
+---
 # Plie · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

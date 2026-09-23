@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Demandas — índice"
+---
 # Luiza Barcelos · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

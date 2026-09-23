@@ -20,6 +20,13 @@ O rotulo do GRAFO continua sendo o nome do arquivo. Alias nao muda isso - so um
 plugin de terceiro mudaria, e este repositorio deliberadamente nao tem plugin.
 No grafo, a cor (15 grupos por entidade) e a posicao ja desambiguam.
 
+ORDEM NO RITUAL - IMPORTA
+-------------------------
+Rodar SEMPRE DEPOIS do `gera-conexoes.py`. Motivo: o `gera-conexoes` reescreve os
+~60 arquivos `_indice.md` do zero, e isso APAGA o frontmatter deles. Nao e
+destrutivo - este script devolve o alias - mas se a ordem inverter, os indices
+ficam sem alias ate a proxima rodada.
+
 SEGURANCA
 ---------
 - Nao renomeia arquivo nenhum. Nao mexe em link nenhum.

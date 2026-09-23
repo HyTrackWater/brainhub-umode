@@ -1,3 +1,7 @@
+---
+aliases:
+  - "NK STORE · Demandas — índice"
+---
 # NK STORE · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

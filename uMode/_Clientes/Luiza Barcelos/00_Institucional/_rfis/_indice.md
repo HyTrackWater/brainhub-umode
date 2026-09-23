@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · RFIs — índice"
+---
 # Luiza Barcelos · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

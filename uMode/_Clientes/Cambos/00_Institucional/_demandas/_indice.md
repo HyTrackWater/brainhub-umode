@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Cambos · Demandas — índice"
+---
 # Cambos · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -289,6 +289,15 @@ e os **REGISTROS** datados.
 2. **`python scripts/valida-padrao-corpus.py`** — o corpus fecha em `694 / 50 / 49 / 49` com
    **0 completados**. Se completar algum, **alguém quebrou o padrão** — entenda antes de commitar.
 3. **`python scripts/valida-documentacao.py`** — nenhum `.md` estrutural órfão do manifesto.
+3-bis. 🔴 **`python scripts/valida-numeros.py`** — confere os números do `AGORA.md` contra o
+   disco. **Existe porque o `AGORA.md` mentiu três vezes em 23 set 2026** (2.403 MDs quando
+   havia 2.648, 487 pendências quando havia 572, 1.161 reuniões quando eram 1.162).
+   **Número escrito à mão envelhece em silêncio**, e o `AGORA.md` é o primeiro arquivo que
+   todo mundo lê. **Ele acusa, não corrige** — às vezes é o disco que está errado.
+3-ter. **`python scripts/gera-aliases.py`** — reescreve o `aliases` de quem teve o H1
+   alterado. 🔴 **Tem que rodar DEPOIS do `gera-conexoes.py`**: aquele reescreve os ~60
+   `_indice.md` do zero e apaga o frontmatter deles. Invertendo a ordem, os índices ficam
+   sem alias até a rodada seguinte.
 4. **`STATE.md`** — o que aconteceu, no `## Log de sessões`. **Nunca reescrever sessão anterior.**
 5. **`AGORA.md`** — data, números da § 5 e as listas de § 6 e § 7.
 

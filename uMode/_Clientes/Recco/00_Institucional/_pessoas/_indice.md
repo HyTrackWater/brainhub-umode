@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recco · Pessoas — índice"
+---
 # Recco · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Demandas — índice"
+---
 # Lenny Niemeyer · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

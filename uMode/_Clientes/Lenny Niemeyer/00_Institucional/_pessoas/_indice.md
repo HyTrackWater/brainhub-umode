@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Lenny Niemeyer · Pessoas — índice"
+---
 # Lenny Niemeyer · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

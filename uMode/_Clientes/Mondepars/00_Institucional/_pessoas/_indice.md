@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Mondepars · Pessoas — índice"
+---
 # Mondepars · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

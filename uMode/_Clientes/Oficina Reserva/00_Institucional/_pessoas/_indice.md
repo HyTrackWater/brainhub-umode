@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Oficina Reserva · Pessoas — índice"
+---
 # Oficina Reserva · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Recco · Demandas — índice"
+---
 # Recco · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

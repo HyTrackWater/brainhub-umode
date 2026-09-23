@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Moda Objetiva · Pessoas — índice"
+---
 # Moda Objetiva · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

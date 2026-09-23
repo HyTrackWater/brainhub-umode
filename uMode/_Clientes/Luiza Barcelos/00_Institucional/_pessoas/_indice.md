@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Luiza Barcelos · Pessoas — índice"
+---
 # Luiza Barcelos · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

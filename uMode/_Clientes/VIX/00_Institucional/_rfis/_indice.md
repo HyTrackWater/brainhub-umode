@@ -1,3 +1,7 @@
+---
+aliases:
+  - "VIX · RFIs — índice"
+---
 # VIX · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

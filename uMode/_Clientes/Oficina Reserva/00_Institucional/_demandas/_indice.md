@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Oficina Reserva · Demandas — índice"
+---
 # Oficina Reserva · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

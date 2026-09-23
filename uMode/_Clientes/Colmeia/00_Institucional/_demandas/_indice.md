@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Colmeia · Demandas — índice"
+---
 # Colmeia · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

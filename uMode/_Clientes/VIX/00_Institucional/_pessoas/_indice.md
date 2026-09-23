@@ -1,3 +1,7 @@
+---
+aliases:
+  - "VIX · Pessoas — índice"
+---
 # VIX · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

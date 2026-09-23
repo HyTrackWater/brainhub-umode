@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · Pessoas — índice"
+---
 # Puket · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

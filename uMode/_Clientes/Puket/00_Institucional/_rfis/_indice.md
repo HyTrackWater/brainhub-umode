@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Puket · RFIs — índice"
+---
 # Puket · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

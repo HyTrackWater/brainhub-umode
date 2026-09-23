@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Oficina Reserva · RFIs — índice"
+---
 # Oficina Reserva · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**
