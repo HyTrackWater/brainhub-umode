@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Cambos
 

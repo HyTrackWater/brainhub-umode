@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Demandas — índice
 

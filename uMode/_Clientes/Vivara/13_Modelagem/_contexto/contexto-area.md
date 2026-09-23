@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Vivara
 

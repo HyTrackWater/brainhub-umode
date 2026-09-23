@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Colmeia
 

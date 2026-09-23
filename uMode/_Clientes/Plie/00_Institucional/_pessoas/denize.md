@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Plie · Pessoa · Denize"
+tags:
+  - tipo/pessoa
+  - cliente/plie
+  - status/churn
 ---
 # Plie · Pessoa · Denize
 

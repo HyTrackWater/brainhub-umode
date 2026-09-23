@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Phos · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/phos
+  - status/churn
 ---
 # Phos · Jornada
 

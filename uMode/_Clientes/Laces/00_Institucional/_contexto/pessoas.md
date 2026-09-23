@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Laces · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/laces
+  - status/churn
 ---
 # Laces · Pessoas
 

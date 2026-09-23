@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Cronograma · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Cronograma · Ferramenta
 

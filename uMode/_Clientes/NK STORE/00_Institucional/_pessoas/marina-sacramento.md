@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Marina Sacramento"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Marina Sacramento
 

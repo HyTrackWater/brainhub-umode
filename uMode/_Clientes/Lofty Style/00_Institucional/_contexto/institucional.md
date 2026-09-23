@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Institucional
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — TDC
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Ladeira Bijuterias"
+tags:
+  - tipo/area
+  - cliente/ladeira-bijuterias
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Ladeira Bijuterias
 

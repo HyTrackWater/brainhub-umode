@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Hering
 

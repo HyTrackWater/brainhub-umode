@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Ladeira Bijuterias"
+tags:
+  - tipo/area
+  - cliente/ladeira-bijuterias
+  - status/churn
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Ladeira Bijuterias
 

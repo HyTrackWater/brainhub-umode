@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · rosimare simoes"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · rosimare simoes
 

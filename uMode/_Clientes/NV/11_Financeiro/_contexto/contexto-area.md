@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — NV
 

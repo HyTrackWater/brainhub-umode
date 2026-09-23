@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Tatiana Gerin Mangeon Bertazoli · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Tatiana Gerin Mangeon Bertazoli · Pessoa
 

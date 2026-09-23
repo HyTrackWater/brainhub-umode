@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Pessoa · Janaina"
+tags:
+  - tipo/pessoa
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Pessoa · Janaina
 

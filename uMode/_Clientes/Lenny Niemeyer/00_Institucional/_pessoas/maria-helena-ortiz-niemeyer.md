@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Pessoa · Maria Helena Ortiz Niemeyer"
+tags:
+  - tipo/pessoa
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Pessoa · Maria Helena Ortiz Niemeyer
 

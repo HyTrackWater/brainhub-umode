@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Mondepars
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Pessoa · thamiris marangoni"
+tags:
+  - tipo/pessoa
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Pessoa · thamiris marangoni
 

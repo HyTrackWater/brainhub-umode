@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Jornada
 

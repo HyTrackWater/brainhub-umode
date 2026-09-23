@@ -1,6 +1,9 @@
 ---
 aliases:
   - "YouTube · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # YouTube · Ferramenta
 

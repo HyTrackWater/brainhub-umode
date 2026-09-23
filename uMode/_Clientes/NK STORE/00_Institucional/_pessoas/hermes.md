@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Hermes"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Hermes
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Puket
 

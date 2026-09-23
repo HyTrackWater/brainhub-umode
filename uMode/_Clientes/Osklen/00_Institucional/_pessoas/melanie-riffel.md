@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · MELANIE GIACOBBO RIFFEL"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · MELANIE GIACOBBO RIFFEL
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · heloisa lima"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · heloisa lima
 

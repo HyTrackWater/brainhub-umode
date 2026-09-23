@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Susie Modas
 

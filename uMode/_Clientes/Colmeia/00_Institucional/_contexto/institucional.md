@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Colmeia · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/colmeia
+  - status/churn
 ---
 # Colmeia · Institucional
 

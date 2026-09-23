@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · camila blaudt"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · camila blaudt
 

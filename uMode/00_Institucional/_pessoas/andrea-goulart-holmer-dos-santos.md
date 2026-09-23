@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Andrea Goulart Holmer dos Santos · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Andrea Goulart Holmer dos Santos · Pessoa
 

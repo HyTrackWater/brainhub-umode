@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Marina Gonçalves Santoro · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Marina Gonçalves Santoro · Pessoa
 

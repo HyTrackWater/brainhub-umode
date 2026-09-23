@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Studio Z"
+tags:
+  - tipo/area
+  - cliente/studio-z
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Studio Z
 

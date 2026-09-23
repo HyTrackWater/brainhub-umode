@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Laces
 

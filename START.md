@@ -1,6 +1,8 @@
 ---
 aliases:
   - "START.md — o condutor da triagem"
+tags:
+  - tipo/governanca
 ---
 # START.md — o condutor da triagem
 
@@ -147,7 +149,7 @@ nosso e não se edita em hipótese nenhuma.**
   [`_pessoas/_template_pessoa.md`](uMode/00_Institucional/_pessoas/_template_pessoa.md) · `_Clientes/_template_cliente/` ·
   `03_Produto-e-Solucoes/_template_produto/`
 - **X:** `_indice/` — 6 CSVs + README, **gerados por `scripts/gen-indice.ps1`. Não editar à mão.**
-- **X:** o **frontmatter `aliases`** de todo `.md` — gerado por `scripts/gera-aliases.py` a partir
+- **X:** o **frontmatter (`aliases` + `tags`)** de todo `.md` — gerado por `scripts/gera-frontmatter.py` a partir
   do H1. 🔴 **Não editar à mão.** Existe porque há 694 arquivos `contexto-area.md` e o Obsidian
   rotula pelo nome do arquivo. Ver `CONTEXT.md`.
 - **X:** [`_perguntas-para-o-vinicius.md`](uMode/00_Institucional/_contexto/_perguntas-para-o-vinicius.md) — a lista que ele responde **por áudio ou transcrição**. Colhida dos 48 `_pendencias-e-fontes.md` pelo **mesmo script** que os escreve. 🔴 **Não editar à mão e não montar lista paralela.**
@@ -294,7 +296,7 @@ e os **REGISTROS** datados.
    havia 2.648, 487 pendências quando havia 572, 1.161 reuniões quando eram 1.162).
    **Número escrito à mão envelhece em silêncio**, e o `AGORA.md` é o primeiro arquivo que
    todo mundo lê. **Ele acusa, não corrige** — às vezes é o disco que está errado.
-3-ter. **`python scripts/gera-aliases.py`** — reescreve o `aliases` de quem teve o H1
+3-ter. **`python scripts/gera-frontmatter.py`** — reescreve `aliases` e `tags` de quem teve o H1
    alterado. 🔴 **Tem que rodar DEPOIS do `gera-conexoes.py`**: aquele reescreve os ~60
    `_indice.md` do zero e apaga o frontmatter deles. Invertendo a ordem, os índices ficam
    sem alias até a rodada seguinte.

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Minah · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/studio-minah
+  - status/sem-cs
 ---
 # Studio Minah · Pessoas
 

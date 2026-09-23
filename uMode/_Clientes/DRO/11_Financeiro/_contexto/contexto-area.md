@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — DRO"
+tags:
+  - tipo/area
+  - cliente/dro
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — DRO
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NTK · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/ntk
+  - status/churn
 ---
 # NTK · Pendências e fontes varridas
 

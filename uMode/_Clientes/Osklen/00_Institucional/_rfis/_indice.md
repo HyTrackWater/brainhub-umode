@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · RFIs — índice
 

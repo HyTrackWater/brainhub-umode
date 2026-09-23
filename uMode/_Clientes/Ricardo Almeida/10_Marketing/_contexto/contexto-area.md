@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Ricardo Almeida
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "TDC · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/tdc
+  - status/sem-cs
 ---
 # TDC · Institucional
 

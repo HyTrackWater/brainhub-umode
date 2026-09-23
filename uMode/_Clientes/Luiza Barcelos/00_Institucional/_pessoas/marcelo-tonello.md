@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Pessoa · Marcelo Tonello"
+tags:
+  - tipo/pessoa
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Pessoa · Marcelo Tonello
 

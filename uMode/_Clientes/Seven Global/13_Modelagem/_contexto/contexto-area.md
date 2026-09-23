@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Seven Global"
+tags:
+  - tipo/area
+  - cliente/seven-global
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Seven Global
 

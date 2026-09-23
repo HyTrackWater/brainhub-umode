@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Ladeira Bijuterias"
+tags:
+  - tipo/area
+  - cliente/ladeira-bijuterias
+  - status/churn
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Ladeira Bijuterias
 

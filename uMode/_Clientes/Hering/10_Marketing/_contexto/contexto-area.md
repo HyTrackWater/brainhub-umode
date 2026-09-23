@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/marketing
 ---
 # Marketing · Contexto de área — Hering
 

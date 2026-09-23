@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · camila coutinho"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · camila coutinho
 

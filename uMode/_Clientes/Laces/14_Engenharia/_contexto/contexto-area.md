@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Laces
 

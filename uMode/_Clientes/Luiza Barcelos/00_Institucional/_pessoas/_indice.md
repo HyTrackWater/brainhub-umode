@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Pessoas — índice
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ricardo Almeida · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/ricardo-almeida
+  - status/churn
 ---
 # Ricardo Almeida · Pendências e fontes varridas
 

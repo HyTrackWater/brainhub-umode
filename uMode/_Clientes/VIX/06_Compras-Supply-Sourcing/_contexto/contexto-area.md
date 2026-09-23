@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — VIX
 

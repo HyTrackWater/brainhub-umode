@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Integração"
+tags:
+  - tipo/integracao
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Integração
 

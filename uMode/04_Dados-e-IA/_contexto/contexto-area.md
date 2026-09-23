@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Dados & IA · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/dados-e-ia
 ---
 # Dados & IA · Contexto de área
 

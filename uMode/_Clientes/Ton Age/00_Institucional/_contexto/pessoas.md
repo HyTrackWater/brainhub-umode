@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ton Age · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/ton-age
+  - status/sem-cs
 ---
 # Ton Age · Pessoas
 

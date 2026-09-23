@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Cavallari
 

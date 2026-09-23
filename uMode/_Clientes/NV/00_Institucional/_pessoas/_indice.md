@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoas — índice
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Hering
 

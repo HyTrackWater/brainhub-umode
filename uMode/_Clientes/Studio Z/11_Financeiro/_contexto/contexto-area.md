@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Studio Z"
+tags:
+  - tipo/area
+  - cliente/studio-z
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Studio Z
 

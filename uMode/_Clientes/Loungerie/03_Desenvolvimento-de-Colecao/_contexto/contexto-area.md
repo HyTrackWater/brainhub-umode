@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Loungerie
 

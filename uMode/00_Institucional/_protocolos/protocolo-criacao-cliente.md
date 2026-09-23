@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo · Criação de cliente"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo · Criação de cliente
 

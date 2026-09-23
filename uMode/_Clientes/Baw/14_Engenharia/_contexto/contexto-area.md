@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Baw
 

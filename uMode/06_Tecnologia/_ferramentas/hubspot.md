@@ -1,6 +1,9 @@
 ---
 aliases:
   - "HubSpot · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # HubSpot · Ferramenta
 

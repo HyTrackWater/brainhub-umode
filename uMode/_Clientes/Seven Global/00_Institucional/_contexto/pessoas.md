@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Seven Global · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/seven-global
+  - status/churn
 ---
 # Seven Global · Pessoas
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Simples (by Reserva)"
+tags:
+  - tipo/area
+  - cliente/simples-by-reserva
+  - status/inativo
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Simples (by Reserva)
 

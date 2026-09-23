@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Agua de Coco"
+tags:
+  - tipo/area
+  - cliente/agua-de-coco
+  - status/inativo
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Agua de Coco
 

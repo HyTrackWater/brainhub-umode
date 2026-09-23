@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Parecer Claude — Revisão adversarial da esteira SmartCoding governada (2026-09-02)"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Parecer Claude — Revisão adversarial da esteira SmartCoding governada (2026-09-02)
 

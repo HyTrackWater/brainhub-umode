@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Alexandre Queiroz Zamagna Bouhid · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Alexandre Queiroz Zamagna Bouhid · Pessoa
 

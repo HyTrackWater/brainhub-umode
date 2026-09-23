@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Highstil
 

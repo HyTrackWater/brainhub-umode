@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · jessica paula"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · jessica paula
 

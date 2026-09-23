@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — NV
 

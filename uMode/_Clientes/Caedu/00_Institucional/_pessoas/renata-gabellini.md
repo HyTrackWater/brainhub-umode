@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · renata gabellini"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · renata gabellini
 

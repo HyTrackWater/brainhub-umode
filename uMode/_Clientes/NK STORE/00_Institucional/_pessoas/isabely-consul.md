@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Isabely Consul Dantas"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Isabely Consul Dantas
 

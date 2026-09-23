@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Colmeia
 

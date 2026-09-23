@@ -1,6 +1,9 @@
 ---
 aliases:
   - "CLAUDE_DIRETOR.md — Diretor de Produto / Negócios"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # CLAUDE_DIRETOR.md — Diretor de Produto / Negócios
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Wesley Oliveira"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Wesley Oliveira
 

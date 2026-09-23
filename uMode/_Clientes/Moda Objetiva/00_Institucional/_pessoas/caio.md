@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Moda Objetiva · Pessoa · Caio"
+tags:
+  - tipo/pessoa
+  - cliente/moda-objetiva
+  - status/operacao-assistida
 ---
 # Moda Objetiva · Pessoa · Caio
 

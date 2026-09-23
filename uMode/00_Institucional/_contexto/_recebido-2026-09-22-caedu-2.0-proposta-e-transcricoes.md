@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Recebido 22 set 2026 — CAEDU 2.0: proposta, 7 transcrições e a visita"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Recebido 22 set 2026 — CAEDU 2.0: proposta, 7 transcrições e a visita
 

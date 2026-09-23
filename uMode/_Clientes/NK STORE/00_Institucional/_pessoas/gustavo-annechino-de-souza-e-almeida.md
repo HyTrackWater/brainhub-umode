@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Gustavo Annechino de Souza e Almeida"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Gustavo Annechino de Souza e Almeida
 

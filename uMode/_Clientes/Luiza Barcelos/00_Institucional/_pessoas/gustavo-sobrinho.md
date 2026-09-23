@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Pessoa · Gustavo Sobrinho"
+tags:
+  - tipo/pessoa
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Pessoa · Gustavo Sobrinho
 

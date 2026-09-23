@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · marisangela santana"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · marisangela santana
 

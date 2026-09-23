@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Janaína Iramaia"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Janaína Iramaia
 

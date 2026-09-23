@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Governança da Squad de Desenvolvimento uMode"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Governança da Squad de Desenvolvimento uMode
 

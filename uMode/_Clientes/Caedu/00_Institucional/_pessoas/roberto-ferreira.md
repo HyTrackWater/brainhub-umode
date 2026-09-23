@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · roberto ferreira"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · roberto ferreira
 

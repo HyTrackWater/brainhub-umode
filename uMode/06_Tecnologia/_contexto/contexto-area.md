@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Tecnologia · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/tecnologia
 ---
 # Tecnologia · Contexto de área
 

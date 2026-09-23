@@ -1,6 +1,8 @@
 ---
 aliases:
   - "CLAUDE.md — Instruções operacionais do BrainHub uMode"
+tags:
+  - tipo/governanca
 ---
 # CLAUDE.md — Instruções operacionais do BrainHub uMode
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Oficina Reserva"
+tags:
+  - tipo/area
+  - cliente/oficina-reserva
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — Oficina Reserva
 

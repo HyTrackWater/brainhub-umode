@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Colmeia
 

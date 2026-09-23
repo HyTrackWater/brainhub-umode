@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Bruna"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Bruna
 

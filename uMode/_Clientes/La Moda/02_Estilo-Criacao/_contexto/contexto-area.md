@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — La Moda
 

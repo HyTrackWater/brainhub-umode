@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Estrela"
+tags:
+  - tipo/area
+  - cliente/estrela
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Estrela
 

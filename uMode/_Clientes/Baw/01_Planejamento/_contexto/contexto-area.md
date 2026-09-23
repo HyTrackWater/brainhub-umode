@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Baw
 

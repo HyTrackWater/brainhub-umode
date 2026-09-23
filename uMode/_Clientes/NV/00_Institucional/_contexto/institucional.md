@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Institucional
 

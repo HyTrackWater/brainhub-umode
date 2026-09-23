@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Demandas — índice
 

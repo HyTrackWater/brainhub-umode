@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Studio Z"
+tags:
+  - tipo/area
+  - cliente/studio-z
+  - status/churn
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Studio Z
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ladeira Bijuterias · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/ladeira-bijuterias
+  - status/churn
 ---
 # Ladeira Bijuterias · Jornada
 

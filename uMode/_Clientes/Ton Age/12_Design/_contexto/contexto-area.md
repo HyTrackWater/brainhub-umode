@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/design
 ---
 # Design · Contexto de área — Ton Age
 

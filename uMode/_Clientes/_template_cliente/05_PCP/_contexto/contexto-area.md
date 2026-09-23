@@ -1,6 +1,9 @@
 ---
 aliases:
   - "PCP · Contexto de área"
+tags:
+  - tipo/template
+  - area/pcp
 ---
 # PCP · Contexto de área
 

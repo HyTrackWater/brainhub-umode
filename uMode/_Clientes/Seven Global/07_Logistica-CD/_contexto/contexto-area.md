@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Seven Global"
+tags:
+  - tipo/area
+  - cliente/seven-global
+  - status/churn
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Seven Global
 

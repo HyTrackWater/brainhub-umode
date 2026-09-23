@@ -1,6 +1,10 @@
 ---
 aliases:
   - "La Moda · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/la-moda
+  - status/inativo
 ---
 # La Moda · Pessoas
 

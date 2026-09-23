@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 — a base `Reuniões Compartilhadas com Clientes`"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 — a base `Reuniões Compartilhadas com Clientes`
 

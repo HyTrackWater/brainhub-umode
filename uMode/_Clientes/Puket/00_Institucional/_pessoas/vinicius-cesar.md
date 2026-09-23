@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · vinicius cesar"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · vinicius cesar
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Taxonomia · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # Taxonomia · Produto
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "ONB HUB · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # ONB HUB · Produto
 

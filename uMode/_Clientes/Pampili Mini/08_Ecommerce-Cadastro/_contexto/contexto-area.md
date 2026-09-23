@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Pampili Mini"
+tags:
+  - tipo/area
+  - cliente/pampili-mini
+  - status/inativo
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Pampili Mini
 

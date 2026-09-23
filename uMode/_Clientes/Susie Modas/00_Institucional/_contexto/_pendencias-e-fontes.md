@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Susie Modas · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/susie-modas
+  - status/inativo
 ---
 # Susie Modas · Pendências e fontes varridas
 

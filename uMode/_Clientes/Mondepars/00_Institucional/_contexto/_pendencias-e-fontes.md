@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pendências e fontes varridas
 

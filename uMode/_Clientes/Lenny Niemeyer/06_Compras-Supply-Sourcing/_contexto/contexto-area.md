@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Lenny Niemeyer
 

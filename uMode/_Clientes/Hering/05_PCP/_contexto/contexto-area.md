@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Hering
 

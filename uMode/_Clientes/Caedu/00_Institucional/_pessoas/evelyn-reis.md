@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Evelyn Vasques"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Evelyn Vasques
 

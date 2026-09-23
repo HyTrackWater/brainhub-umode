@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · natasha maruno"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · natasha maruno
 

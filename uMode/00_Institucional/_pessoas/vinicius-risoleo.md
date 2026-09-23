@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Vinícius Risoleo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Vinícius Risoleo · Pessoa
 

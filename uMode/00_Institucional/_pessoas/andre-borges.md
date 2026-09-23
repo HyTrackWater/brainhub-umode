@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Andre Borges · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Andre Borges · Pessoa
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Jornada
 

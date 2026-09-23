@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Vivara
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/design
 ---
 # Design · Contexto de área — Moda Objetiva
 

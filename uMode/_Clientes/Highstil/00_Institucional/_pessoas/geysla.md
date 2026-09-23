@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Pessoa · Geysla"
+tags:
+  - tipo/pessoa
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Pessoa · Geysla
 

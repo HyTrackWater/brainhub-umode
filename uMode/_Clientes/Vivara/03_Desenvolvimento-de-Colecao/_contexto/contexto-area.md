@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Vivara
 

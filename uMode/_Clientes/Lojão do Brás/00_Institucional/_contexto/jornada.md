@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lojão do Brás · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/lojao-do-bras
+  - status/churn
 ---
 # Lojão do Brás · Jornada
 

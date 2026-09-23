@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Minah · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/studio-minah
+  - status/sem-cs
 ---
 # Studio Minah · Institucional
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (b) — a base de chamados e a chave de identidade de pessoa"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (b) — a base de chamados e a chave de identidade de pessoa
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Seven Global"
+tags:
+  - tipo/area
+  - cliente/seven-global
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Seven Global
 

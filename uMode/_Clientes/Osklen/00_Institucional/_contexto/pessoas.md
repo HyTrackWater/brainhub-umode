@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoas
 

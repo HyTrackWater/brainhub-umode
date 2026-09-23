@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · larissa ruani"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · larissa ruani
 

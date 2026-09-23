@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Operações · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/operacoes
 ---
 # Operações · Contexto de área
 

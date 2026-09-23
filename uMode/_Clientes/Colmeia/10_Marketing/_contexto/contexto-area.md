@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Colmeia
 

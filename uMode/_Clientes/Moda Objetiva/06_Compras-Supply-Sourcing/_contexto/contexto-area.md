@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Moda Objetiva
 

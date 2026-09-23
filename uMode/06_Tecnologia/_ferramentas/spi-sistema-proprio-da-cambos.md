@@ -1,6 +1,9 @@
 ---
 aliases:
   - "SPI - Sistema próprio da Cambos · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # SPI - Sistema próprio da Cambos · Ferramenta
 

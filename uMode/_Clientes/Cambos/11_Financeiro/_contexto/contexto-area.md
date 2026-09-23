@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Cambos
 

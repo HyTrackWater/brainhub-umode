@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Recco
 

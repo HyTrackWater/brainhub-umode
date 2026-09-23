@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Colmeia
 

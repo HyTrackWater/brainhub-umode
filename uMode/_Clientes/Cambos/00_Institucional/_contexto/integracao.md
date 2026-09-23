@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Integração"
+tags:
+  - tipo/integracao
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Integração
 

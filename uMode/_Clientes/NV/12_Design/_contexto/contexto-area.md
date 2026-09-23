@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — NV
 

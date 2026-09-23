@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Bruno Marcos Pinheiro da Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Bruno Marcos Pinheiro da Silva · Pessoa
 

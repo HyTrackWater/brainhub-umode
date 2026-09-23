@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Integração"
+tags:
+  - tipo/integracao
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Integração
 

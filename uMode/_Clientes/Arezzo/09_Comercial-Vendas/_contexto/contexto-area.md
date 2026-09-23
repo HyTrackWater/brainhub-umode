@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Arezzo
 

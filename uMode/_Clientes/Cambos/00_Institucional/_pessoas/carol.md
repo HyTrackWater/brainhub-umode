@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoa · Carol"
+tags:
+  - tipo/pessoa
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoa · Carol
 

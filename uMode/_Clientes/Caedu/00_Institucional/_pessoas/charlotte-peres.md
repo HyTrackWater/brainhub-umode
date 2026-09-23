@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · charlotte peres"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · charlotte peres
 

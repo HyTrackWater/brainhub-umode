@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (e) — o modelo de permissionamento e o perfil como área"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (e) — o modelo de permissionamento e o perfil como área
 

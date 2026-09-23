@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Puket
 

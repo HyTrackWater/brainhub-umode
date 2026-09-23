@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Lenny Niemeyer
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Planejamento · Contexto de área"
+tags:
+  - tipo/template
+  - area/planejamento
 ---
 # Planejamento · Contexto de área
 

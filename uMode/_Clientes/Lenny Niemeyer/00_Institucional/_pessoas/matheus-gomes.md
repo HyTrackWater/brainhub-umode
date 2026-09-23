@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Pessoa · matheus gomes"
+tags:
+  - tipo/pessoa
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Pessoa · matheus gomes
 

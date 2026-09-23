@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (i) — o diário de bordo por cliente, e o que ele já corrigiu"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (i) — o diário de bordo por cliente, e o que ele já corrigiu
 

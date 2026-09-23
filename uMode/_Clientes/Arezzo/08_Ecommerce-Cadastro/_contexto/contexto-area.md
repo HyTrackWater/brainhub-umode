@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Arezzo
 

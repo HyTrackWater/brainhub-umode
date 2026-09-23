@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · thais itice"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · thais itice
 

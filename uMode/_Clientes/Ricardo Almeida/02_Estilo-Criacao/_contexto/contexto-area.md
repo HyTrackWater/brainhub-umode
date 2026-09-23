@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Ricardo Almeida
 

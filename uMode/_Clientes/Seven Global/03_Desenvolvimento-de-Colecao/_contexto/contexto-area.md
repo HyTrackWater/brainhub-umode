@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Seven Global"
+tags:
+  - tipo/area
+  - cliente/seven-global
+  - status/churn
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Seven Global
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Susie Modas
 

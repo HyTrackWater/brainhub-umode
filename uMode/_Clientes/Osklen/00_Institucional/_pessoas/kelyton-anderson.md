@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · kelyton anderson"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · kelyton anderson
 

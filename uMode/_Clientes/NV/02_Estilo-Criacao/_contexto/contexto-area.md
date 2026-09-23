@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — NV
 

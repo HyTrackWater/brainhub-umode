@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Recebido 23 set 2026 — as receitas fora do PLM: EducAI, Imersão IA, RFIs"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Recebido 23 set 2026 — as receitas fora do PLM: EducAI, Imersão IA, RFIs
 

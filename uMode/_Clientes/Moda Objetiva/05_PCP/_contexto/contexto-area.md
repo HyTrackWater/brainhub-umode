@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Moda Objetiva
 

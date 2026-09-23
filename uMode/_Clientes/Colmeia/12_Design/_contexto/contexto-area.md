@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Colmeia
 

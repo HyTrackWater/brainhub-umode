@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Moda Objetiva
 

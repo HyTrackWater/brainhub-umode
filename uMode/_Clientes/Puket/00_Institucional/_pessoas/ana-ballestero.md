@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · ana ballestero"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · ana ballestero
 

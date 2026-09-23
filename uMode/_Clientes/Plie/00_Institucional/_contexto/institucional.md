@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Plie · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/plie
+  - status/churn
 ---
 # Plie · Institucional
 

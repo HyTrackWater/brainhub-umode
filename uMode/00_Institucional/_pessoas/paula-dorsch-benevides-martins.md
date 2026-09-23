@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Paula Dorsch Benevides Martins · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Paula Dorsch Benevides Martins · Pessoa
 

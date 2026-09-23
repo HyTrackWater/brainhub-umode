@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Plie
 

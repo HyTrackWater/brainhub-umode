@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Studio Minah"
+tags:
+  - tipo/area
+  - cliente/studio-minah
+  - status/sem-cs
+  - area/design
 ---
 # Design · Contexto de área — Studio Minah
 

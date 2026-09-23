@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Laces · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/laces
+  - status/churn
 ---
 # Laces · Pendências e fontes varridas
 

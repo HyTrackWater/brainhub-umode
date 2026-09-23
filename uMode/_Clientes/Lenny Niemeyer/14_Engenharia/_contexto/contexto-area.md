@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Lenny Niemeyer
 

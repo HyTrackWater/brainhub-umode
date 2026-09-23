@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · audria monteiro"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · audria monteiro
 

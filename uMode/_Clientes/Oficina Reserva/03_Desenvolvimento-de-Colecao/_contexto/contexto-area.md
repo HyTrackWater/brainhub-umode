@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Oficina Reserva"
+tags:
+  - tipo/area
+  - cliente/oficina-reserva
+  - status/ongoing
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Oficina Reserva
 

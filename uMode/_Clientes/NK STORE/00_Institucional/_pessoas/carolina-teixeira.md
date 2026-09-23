@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Carolina Teixeira"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Carolina Teixeira
 

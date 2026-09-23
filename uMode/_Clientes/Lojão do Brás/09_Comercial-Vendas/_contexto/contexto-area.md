@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Lojão do Brás"
+tags:
+  - tipo/area
+  - cliente/lojao-do-bras
+  - status/churn
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Lojão do Brás
 

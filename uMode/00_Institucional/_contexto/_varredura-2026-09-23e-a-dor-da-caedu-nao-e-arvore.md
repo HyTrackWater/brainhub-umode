@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 23 set 2026 — a hierarquia que a CAEDU pede não é árvore nos dados dela"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 23 set 2026 — a hierarquia que a CAEDU pede não é árvore nos dados dela
 

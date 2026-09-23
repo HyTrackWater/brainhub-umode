@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Moda Objetiva
 

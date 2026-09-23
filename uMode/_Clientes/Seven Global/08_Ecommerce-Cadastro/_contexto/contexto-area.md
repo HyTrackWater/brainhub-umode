@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Seven Global"
+tags:
+  - tipo/area
+  - cliente/seven-global
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Seven Global
 

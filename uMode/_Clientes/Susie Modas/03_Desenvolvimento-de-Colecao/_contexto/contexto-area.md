@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Susie Modas
 

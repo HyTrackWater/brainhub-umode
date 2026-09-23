@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Pessoa · Giuliana"
+tags:
+  - tipo/pessoa
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Pessoa · Giuliana
 

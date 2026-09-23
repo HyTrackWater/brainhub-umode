@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Paloma concept"
+tags:
+  - tipo/area
+  - cliente/paloma-concept
+  - status/inativo
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Paloma concept
 

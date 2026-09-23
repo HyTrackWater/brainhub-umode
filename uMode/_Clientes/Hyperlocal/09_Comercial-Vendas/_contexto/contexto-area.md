@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Hyperlocal
 

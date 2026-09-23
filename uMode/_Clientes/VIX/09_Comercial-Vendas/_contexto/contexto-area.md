@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — VIX
 

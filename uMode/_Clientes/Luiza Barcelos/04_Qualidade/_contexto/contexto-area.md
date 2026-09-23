@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Luiza Barcelos
 

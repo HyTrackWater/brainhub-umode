@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · bruno moreira"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · bruno moreira
 

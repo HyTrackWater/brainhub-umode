@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Baw
 

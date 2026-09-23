@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Milena"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Milena
 

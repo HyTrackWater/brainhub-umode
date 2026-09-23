@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · erika haneda"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · erika haneda
 

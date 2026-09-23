@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Maria Clara"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Maria Clara
 

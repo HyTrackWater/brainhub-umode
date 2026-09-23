@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Backlog de convergência — nosso BrainHub × o vault do João"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Backlog de convergência — nosso BrainHub × o vault do João
 

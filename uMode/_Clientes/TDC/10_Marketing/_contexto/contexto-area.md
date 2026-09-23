@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/marketing
 ---
 # Marketing · Contexto de área — TDC
 

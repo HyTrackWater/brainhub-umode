@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pendências e fontes varridas
 

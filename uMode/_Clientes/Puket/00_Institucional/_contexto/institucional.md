@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Institucional
 

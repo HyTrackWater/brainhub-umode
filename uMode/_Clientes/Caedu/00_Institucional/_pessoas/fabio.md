@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Fábio"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Fábio
 

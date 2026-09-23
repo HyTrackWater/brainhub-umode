@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Básico&Co"
+tags:
+  - tipo/area
+  - cliente/basico-co
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Básico&Co
 

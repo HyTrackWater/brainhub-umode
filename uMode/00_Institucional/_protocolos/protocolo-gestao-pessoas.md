@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo · Gestão de Pessoas (ficha individual)"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo · Gestão de Pessoas (ficha individual)
 

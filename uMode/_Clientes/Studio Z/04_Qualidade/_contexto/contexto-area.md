@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Studio Z"
+tags:
+  - tipo/area
+  - cliente/studio-z
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Studio Z
 

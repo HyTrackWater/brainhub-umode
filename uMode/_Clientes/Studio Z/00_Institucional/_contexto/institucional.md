@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Z · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/studio-z
+  - status/churn
 ---
 # Studio Z · Institucional
 

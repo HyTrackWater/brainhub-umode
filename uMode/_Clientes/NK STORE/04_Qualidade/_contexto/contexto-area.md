@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — NK STORE"
+tags:
+  - tipo/area
+  - cliente/nk-store
+  - status/ongoing
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — NK STORE
 

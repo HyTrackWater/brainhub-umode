@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Pessoa · Marcinha"
+tags:
+  - tipo/pessoa
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Pessoa · Marcinha
 

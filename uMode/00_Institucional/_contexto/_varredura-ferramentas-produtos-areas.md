@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura geral — ferramentas, produtos e áreas (Google Drive, 03 ago 2026)"
+tags:
+  - tipo/registro
+  - casa
 ---
 ﻿# Varredura geral — ferramentas, produtos e áreas (Google Drive, 03 ago 2026)
 

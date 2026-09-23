@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Demandas — índice
 

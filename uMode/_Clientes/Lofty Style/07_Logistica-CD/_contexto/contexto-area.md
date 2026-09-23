@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Lofty Style"
+tags:
+  - tipo/area
+  - cliente/lofty-style
+  - status/ongoing
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Lofty Style
 

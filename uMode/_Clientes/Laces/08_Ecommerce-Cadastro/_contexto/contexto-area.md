@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Laces
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Phos"
+tags:
+  - tipo/area
+  - cliente/phos
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Phos
 

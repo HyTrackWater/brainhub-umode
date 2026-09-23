@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 23 set 2026 — o campo `Participantes` das 1.162 reuniões não tem nome"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 23 set 2026 — o campo `Participantes` das 1.162 reuniões não tem nome
 

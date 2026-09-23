@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · karina ossugui"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · karina ossugui
 

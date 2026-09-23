@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Bianca Rocha da Silva"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Bianca Rocha da Silva
 

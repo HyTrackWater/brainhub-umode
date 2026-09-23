@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — Caedu
 

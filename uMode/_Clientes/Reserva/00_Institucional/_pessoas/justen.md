@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · Justen"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · Justen
 

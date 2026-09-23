@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Z · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/studio-z
+  - status/churn
 ---
 # Studio Z · Pessoas
 

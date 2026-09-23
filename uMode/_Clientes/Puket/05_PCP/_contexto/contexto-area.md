@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Puket
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Plie
 

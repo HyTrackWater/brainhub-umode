@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Agua de Coco"
+tags:
+  - tipo/area
+  - cliente/agua-de-coco
+  - status/inativo
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Agua de Coco
 

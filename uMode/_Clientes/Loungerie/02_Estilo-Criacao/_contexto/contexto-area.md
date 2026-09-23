@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Loungerie
 

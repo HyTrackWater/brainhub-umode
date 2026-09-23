@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cavallari · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/cavallari
+  - status/sem-cs
 ---
 # Cavallari · Pendências e fontes varridas
 

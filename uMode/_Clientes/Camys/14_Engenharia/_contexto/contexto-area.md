@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Camys"
+tags:
+  - tipo/area
+  - cliente/camys
+  - status/sem-cs
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Camys
 

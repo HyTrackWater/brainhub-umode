@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Colmeia
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Highstil
 

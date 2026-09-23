@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Mário Estêvão de Arruda Vasconcelos · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Mário Estêvão de Arruda Vasconcelos · Pessoa
 

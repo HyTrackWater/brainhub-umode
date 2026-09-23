@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Talita Bondezzan · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Talita Bondezzan · Pessoa
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Integração"
+tags:
+  - tipo/integracao
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Integração
 

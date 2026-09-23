@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Maria Cristina Cipriano do Carmo"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Maria Cristina Cipriano do Carmo
 

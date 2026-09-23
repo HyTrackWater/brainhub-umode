@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Marketing · Contexto de área"
+tags:
+  - tipo/template
+  - area/marketing
 ---
 # Marketing · Contexto de área
 

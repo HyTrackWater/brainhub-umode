@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Mondepars
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Phos · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/phos
+  - status/churn
 ---
 # Phos · Institucional
 

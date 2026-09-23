@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Osklen
 

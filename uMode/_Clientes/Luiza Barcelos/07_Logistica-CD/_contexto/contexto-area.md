@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Luiza Barcelos
 

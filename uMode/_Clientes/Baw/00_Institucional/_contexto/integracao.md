@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Integração"
+tags:
+  - tipo/integracao
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Integração
 

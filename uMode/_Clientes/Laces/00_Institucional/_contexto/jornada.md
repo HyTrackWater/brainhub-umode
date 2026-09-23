@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Laces · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/laces
+  - status/churn
 ---
 # Laces · Jornada
 

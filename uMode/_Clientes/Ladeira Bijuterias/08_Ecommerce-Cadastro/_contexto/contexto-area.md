@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Ladeira Bijuterias"
+tags:
+  - tipo/area
+  - cliente/ladeira-bijuterias
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Ladeira Bijuterias
 

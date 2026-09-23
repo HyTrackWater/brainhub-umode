@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Agente de Suporte Técnico uFlow · Contexto"
+tags:
+  - tipo/agente
+  - casa
 ---
 # Agente de Suporte Técnico uFlow · Contexto
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Arezzo · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/arezzo
+  - status/pre-onboardings
 ---
 # Arezzo · Pendências e fontes varridas
 

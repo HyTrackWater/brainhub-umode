@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — NTK"
+tags:
+  - tipo/area
+  - cliente/ntk
+  - status/churn
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — NTK
 

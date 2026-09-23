@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · RFIs — índice
 

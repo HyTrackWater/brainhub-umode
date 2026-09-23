@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Mariana Maia"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Mariana Maia
 

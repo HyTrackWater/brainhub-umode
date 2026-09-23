@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · jose prior"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · jose prior
 

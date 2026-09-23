@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Cavallari
 

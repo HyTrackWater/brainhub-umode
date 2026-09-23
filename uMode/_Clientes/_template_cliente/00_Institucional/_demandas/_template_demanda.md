@@ -1,6 +1,8 @@
 ---
 aliases:
   - "[Título da demanda] · Demanda"
+tags:
+  - tipo/template
 ---
 # [Título da demanda] · Demanda
 

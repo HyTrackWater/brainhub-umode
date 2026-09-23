@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ton Age · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/ton-age
+  - status/sem-cs
 ---
 # Ton Age · Pendências e fontes varridas
 

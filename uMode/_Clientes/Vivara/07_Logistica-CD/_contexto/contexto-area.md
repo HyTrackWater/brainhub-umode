@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Vivara
 

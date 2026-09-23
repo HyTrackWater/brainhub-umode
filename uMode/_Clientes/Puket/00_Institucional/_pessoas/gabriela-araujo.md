@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · gabriela araujo"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · gabriela araujo
 

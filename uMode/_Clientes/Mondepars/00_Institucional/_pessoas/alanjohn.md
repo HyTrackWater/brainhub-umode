@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoa · Alan John"
+tags:
+  - tipo/pessoa
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoa · Alan John
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — NV
 

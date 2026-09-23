@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Catherine"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Catherine
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Cavallari
 

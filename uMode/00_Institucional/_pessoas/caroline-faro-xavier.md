@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Caroline Faro Xavier · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Caroline Faro Xavier · Pessoa
 

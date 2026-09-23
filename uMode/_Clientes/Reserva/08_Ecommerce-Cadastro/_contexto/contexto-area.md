@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Reserva"
+tags:
+  - tipo/area
+  - cliente/reserva
+  - status/ongoing
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Reserva
 

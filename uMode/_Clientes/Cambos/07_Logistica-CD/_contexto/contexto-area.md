@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Cambos
 

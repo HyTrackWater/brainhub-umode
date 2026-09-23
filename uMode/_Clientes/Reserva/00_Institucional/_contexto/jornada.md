@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Jornada
 

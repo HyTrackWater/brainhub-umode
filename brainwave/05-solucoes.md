@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 05: aba 'Soluções' (Portfólio)"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 05: aba "Soluções" (Portfólio)
 

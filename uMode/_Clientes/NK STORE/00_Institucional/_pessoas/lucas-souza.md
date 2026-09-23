@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Lucas Gabriel de Oliveira Alves de Souza"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Lucas Gabriel de Oliveira Alves de Souza
 

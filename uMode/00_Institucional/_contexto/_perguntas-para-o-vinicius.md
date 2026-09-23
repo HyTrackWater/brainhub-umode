@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Perguntas para o Vinícius"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Perguntas para o Vinícius
 

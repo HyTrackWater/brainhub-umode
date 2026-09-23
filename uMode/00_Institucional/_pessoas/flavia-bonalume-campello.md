@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Flávia Bonalume Campello · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Flávia Bonalume Campello · Pessoa
 

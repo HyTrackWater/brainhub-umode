@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Loungerie
 

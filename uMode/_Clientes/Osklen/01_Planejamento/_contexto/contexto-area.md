@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Osklen
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Nayra Letícia de Oliveira Macêdo Dall Gallo Trentim · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Nayra Letícia de Oliveira Macêdo Dall Gallo Trentim · Pessoa
 

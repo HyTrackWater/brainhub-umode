@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Ton Age
 

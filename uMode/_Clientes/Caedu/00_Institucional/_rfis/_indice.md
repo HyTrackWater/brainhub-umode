@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · RFIs — índice
 

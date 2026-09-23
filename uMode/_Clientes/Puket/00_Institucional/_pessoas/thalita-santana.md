@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · thalita santana"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · thalita santana
 

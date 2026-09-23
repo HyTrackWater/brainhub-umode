@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · RFIs — índice
 

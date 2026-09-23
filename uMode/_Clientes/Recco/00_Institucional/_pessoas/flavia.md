@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Pessoa · Flávia"
+tags:
+  - tipo/pessoa
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Pessoa · Flávia
 

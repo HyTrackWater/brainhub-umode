@@ -1,6 +1,8 @@
 ---
 aliases:
   - "brainwave/CONTEXTO.md — Referência de produto para prompts do BrainWave"
+tags:
+  - tipo/frente-brainwave
 ---
 # brainwave/CONTEXTO.md — Referência de produto para prompts do BrainWave
 

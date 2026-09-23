@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Osklen
 

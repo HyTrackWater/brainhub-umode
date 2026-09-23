@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Pessoa · bianca grassi"
+tags:
+  - tipo/pessoa
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Pessoa · bianca grassi
 

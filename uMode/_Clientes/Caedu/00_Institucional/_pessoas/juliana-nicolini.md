@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · juliana nicolini"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · juliana nicolini
 

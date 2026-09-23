@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Institucional
 

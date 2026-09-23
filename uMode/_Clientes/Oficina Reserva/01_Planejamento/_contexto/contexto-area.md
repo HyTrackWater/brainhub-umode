@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Oficina Reserva"
+tags:
+  - tipo/area
+  - cliente/oficina-reserva
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Oficina Reserva
 

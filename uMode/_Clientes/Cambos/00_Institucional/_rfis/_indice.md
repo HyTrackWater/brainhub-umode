@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · RFIs — índice
 

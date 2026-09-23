@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — VIX
 

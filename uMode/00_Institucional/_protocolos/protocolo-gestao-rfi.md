@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo · Gestão de RFI"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo · Gestão de RFI
 

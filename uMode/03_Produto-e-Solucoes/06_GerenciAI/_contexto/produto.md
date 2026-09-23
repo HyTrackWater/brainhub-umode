@@ -1,6 +1,9 @@
 ---
 aliases:
   - "GerenciAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # GerenciAI · Produto
 

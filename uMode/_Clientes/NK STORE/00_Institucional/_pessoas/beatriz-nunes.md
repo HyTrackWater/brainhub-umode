@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · beatriz nunes"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · beatriz nunes
 

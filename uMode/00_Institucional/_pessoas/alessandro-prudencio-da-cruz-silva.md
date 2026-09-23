@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Alessandro Prudencio da Cruz Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Alessandro Prudencio da Cruz Silva · Pessoa
 

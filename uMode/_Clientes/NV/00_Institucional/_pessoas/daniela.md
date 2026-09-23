@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Daniela"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Daniela
 

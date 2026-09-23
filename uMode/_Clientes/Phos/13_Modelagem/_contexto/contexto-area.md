@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Phos"
+tags:
+  - tipo/area
+  - cliente/phos
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Phos
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — TDC
 

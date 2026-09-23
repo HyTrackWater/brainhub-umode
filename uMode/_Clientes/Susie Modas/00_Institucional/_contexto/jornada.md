@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Susie Modas · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/susie-modas
+  - status/inativo
 ---
 # Susie Modas · Jornada
 

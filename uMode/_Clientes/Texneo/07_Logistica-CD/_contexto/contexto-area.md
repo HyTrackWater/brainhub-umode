@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Texneo"
+tags:
+  - tipo/area
+  - cliente/texneo
+  - status/churn
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Texneo
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Hyperlocal
 

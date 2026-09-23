@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoa · Tony Stefan Lopes"
+tags:
+  - tipo/pessoa
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoa · Tony Stefan Lopes
 

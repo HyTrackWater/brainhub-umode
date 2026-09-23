@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · welvis lucena"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · welvis lucena
 

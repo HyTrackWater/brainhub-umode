@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Comercial · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/comercial
 ---
 # Comercial · Contexto de área
 

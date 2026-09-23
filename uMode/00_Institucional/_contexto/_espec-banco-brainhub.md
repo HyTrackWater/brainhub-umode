@@ -1,6 +1,9 @@
 ---
 aliases:
   - "ESPEC-BANCO-001 v2 — Especificação do banco do BrainHub"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # ESPEC-BANCO-001 v2 — Especificação do banco do BrainHub
 

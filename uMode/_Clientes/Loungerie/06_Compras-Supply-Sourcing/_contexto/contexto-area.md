@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Loungerie
 

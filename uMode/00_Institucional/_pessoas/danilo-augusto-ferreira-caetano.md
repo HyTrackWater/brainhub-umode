@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Danilo Augusto Ferreira Caetano · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Danilo Augusto Ferreira Caetano · Pessoa
 

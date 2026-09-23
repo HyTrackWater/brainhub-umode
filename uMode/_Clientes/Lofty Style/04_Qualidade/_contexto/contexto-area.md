@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Lofty Style"
+tags:
+  - tipo/area
+  - cliente/lofty-style
+  - status/ongoing
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Lofty Style
 

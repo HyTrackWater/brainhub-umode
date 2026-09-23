@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Simples (by Reserva)"
+tags:
+  - tipo/area
+  - cliente/simples-by-reserva
+  - status/inativo
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Simples (by Reserva)
 

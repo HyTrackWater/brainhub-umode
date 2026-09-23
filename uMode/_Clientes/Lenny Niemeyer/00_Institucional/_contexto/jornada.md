@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Jornada
 

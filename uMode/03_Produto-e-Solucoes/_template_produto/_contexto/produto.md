@@ -1,6 +1,9 @@
 ---
 aliases:
   - "[Nome do produto] · Produto"
+tags:
+  - tipo/template
+  - casa
 ---
 # [Nome do produto] · Produto
 

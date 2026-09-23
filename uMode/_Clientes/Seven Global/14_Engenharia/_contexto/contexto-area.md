@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Seven Global"
+tags:
+  - tipo/area
+  - cliente/seven-global
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Seven Global
 

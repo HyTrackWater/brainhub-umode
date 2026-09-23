@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Recco
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Plie
 

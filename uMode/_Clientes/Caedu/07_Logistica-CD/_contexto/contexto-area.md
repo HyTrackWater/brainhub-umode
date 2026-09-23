@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Caedu
 

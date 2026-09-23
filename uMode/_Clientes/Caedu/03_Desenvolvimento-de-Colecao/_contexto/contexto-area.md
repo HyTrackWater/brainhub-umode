@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Caedu
 

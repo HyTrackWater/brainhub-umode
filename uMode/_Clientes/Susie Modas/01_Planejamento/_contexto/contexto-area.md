@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Susie Modas
 

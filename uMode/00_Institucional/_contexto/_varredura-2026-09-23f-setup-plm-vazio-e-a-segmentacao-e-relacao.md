@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 23 set 2026 — o acervo `Setup - PLM` é quase vazio, e a segmentação era uma relação"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 23 set 2026 — o acervo `Setup - PLM` é quase vazio, e a segmentação era uma relação
 

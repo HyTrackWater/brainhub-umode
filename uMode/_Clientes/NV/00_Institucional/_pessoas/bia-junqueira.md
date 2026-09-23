@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Bia Junqueira"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Bia Junqueira
 

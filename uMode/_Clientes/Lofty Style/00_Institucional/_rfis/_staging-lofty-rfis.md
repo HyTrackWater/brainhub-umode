@@ -1,6 +1,10 @@
 ---
 aliases:
   - "🔴 SUPERSEDED — Lofty Style · RFIs — staging bruto (Notion)"
+tags:
+  - tipo/rfi
+  - cliente/lofty-style
+  - status/ongoing
 ---
 ﻿# 🔴 SUPERSEDED — Lofty Style · RFIs — staging bruto (Notion)
 

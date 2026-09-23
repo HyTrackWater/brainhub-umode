@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · RFIs — índice
 

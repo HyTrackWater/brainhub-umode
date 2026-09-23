@@ -1,6 +1,8 @@
 ---
 aliases:
   - "[Nome do cliente] · Jornada"
+tags:
+  - tipo/template
 ---
 # [Nome do cliente] · Jornada
 

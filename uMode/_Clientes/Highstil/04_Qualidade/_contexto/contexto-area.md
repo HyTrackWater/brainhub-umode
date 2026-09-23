@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Highstil
 

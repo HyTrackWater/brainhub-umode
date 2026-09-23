@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Pessoa · Evelyn"
+tags:
+  - tipo/pessoa
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Pessoa · Evelyn
 

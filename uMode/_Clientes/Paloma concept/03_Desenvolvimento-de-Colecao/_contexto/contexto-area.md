@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Paloma concept"
+tags:
+  - tipo/area
+  - cliente/paloma-concept
+  - status/inativo
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Paloma concept
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Tactiq · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Tactiq · Ferramenta
 

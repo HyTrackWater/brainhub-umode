@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · Brendon"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · Brendon
 

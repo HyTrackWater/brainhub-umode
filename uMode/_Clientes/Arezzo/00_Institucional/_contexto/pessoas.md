@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Arezzo · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/arezzo
+  - status/pre-onboardings
 ---
 # Arezzo · Pessoas
 

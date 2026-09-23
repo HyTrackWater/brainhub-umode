@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Natália kelly de oliveira gomes · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Natália kelly de oliveira gomes · Pessoa
 

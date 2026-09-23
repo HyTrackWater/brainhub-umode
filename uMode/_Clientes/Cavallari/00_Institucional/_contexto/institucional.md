@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cavallari · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/cavallari
+  - status/sem-cs
 ---
 # Cavallari · Institucional
 

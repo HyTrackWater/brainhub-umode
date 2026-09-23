@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Lojão do Brás"
+tags:
+  - tipo/area
+  - cliente/lojao-do-bras
+  - status/churn
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Lojão do Brás
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Institucional
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — NTK"
+tags:
+  - tipo/area
+  - cliente/ntk
+  - status/churn
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — NTK
 

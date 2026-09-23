@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · jordana forni"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · jordana forni
 

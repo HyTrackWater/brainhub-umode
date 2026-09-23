@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pendências e fontes varridas
 

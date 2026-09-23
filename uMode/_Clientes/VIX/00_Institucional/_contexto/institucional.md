@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Institucional
 

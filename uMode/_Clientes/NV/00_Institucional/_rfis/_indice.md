@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · RFIs — índice
 

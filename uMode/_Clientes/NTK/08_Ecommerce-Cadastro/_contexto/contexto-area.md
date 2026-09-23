@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — NTK"
+tags:
+  - tipo/area
+  - cliente/ntk
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — NTK
 

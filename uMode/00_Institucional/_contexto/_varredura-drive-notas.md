@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura Google Drive — notas brutas (não é padrão final)"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura Google Drive — notas brutas (não é padrão final)
 

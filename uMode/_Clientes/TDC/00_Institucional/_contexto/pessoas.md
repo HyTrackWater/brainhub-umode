@@ -1,6 +1,10 @@
 ---
 aliases:
   - "TDC · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/tdc
+  - status/sem-cs
 ---
 # TDC · Pessoas
 

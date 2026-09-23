@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Pendências e fontes varridas
 

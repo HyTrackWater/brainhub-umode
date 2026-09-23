@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Loungerie
 

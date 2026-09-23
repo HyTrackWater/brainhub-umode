@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Caedu
 

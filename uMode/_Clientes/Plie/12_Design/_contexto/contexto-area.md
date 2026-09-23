@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Plie
 

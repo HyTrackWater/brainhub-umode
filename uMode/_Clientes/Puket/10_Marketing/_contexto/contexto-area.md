@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — Puket
 

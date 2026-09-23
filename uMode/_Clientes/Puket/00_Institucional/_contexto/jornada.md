@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Jornada
 

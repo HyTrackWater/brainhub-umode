@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Caedu
 

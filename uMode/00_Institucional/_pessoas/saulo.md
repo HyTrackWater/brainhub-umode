@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Saulo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Saulo · Pessoa
 

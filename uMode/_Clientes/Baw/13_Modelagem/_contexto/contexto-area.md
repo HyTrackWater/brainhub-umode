@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Baw
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Highstil
 

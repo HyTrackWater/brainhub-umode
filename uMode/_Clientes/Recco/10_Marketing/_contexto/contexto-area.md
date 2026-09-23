@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Recco
 

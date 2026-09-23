@@ -1,6 +1,9 @@
 ---
 aliases:
   - "João Ferraz · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # João Ferraz · Pessoa
 

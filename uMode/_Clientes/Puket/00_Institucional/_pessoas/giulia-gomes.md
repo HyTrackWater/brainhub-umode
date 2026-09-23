@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · giulia gomes"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · giulia gomes
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Sistemas de terceiro · índice"
+tags:
+  - tipo/indice
+  - casa
 ---
 # Sistemas de terceiro · índice
 

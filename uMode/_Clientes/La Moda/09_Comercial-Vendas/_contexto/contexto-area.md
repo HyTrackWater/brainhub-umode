@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — La Moda
 

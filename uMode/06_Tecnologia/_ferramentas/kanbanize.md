@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Kanbanize · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Kanbanize · Ferramenta
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · RFIs — índice
 

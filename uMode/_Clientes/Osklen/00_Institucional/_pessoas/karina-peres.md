@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Karina Caroline Reiter Peres"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Karina Caroline Reiter Peres
 

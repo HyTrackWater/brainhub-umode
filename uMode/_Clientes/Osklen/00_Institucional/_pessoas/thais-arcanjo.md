@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · thais arcanjo"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · thais arcanjo
 

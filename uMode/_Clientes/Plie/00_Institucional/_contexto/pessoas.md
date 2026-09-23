@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Plie · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/plie
+  - status/churn
 ---
 # Plie · Pessoas
 

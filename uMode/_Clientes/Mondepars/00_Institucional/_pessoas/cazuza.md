@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoa · Matheus Cazuza"
+tags:
+  - tipo/pessoa
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoa · Matheus Cazuza
 

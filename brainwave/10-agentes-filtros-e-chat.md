@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 10: correção — filtros de categoria e chat fixo na aba Agentes"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 10: correção — filtros de categoria e chat fixo na aba Agentes
 

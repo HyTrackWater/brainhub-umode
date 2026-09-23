@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · jessica bognar"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · jessica bognar
 

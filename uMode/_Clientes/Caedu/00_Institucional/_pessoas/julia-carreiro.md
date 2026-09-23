@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · julia carreiro"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · julia carreiro
 

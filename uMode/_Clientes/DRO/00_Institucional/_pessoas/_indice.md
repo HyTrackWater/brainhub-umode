@@ -1,6 +1,10 @@
 ---
 aliases:
   - "DRO · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/dro
+  - status/churn
 ---
 # DRO · Pessoas — índice
 

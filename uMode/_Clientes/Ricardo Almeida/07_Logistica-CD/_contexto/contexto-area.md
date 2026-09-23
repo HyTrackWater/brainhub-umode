@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Ricardo Almeida
 

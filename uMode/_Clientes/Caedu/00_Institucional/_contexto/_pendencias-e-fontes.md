@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pendências e fontes varridas
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Colmeia · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/colmeia
+  - status/churn
 ---
 # Colmeia · Pessoas
 

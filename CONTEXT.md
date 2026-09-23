@@ -1,6 +1,8 @@
 ---
 aliases:
   - "CONTEXT.md — Institucionalização de IA · core"
+tags:
+  - tipo/governanca
 ---
 # CONTEXT.md — Institucionalização de IA · core
 
@@ -130,6 +132,29 @@ qual estrutura ele vem:
   (diferente do texto livre em `Módulos contratados` de hoje). Formalizar como protocolo +
   template só depois da varredura de nomenclatura legado→novo (ver nota abaixo em "Decisão:
   camada Produto").
+
+### Frontmatter `tags` — travado em 23 set 2026
+
+**Todo `.md` carrega `tags` no frontmatter**, escritas pelo mesmo
+`scripts/gera-frontmatter.py`. Quatro famílias, nenhuma inventada:
+
+| Família | De onde sai | Exemplo |
+|---|---|---|
+| `tipo/` | caminho e nome do arquivo | `tipo/area` · `tipo/pessoa` · `tipo/demanda` |
+| `cliente/` | a pasta em `_Clientes/` | `cliente/caedu` |
+| `status/` | 🔴 **o `### Status atual` do `institucional.md` daquele cliente** | `status/ongoing` |
+| `area/` | o nome da pasta numerada | `area/qualidade` |
+
+🔴 **`status/` não é inventado: é lido do próprio corpus.** Cliente sem status declarado fica
+sem a tag — **ausência é informação.**
+
+**Por que existe.** O Vinicius perguntou em 23 set 2026 **como filtrar só os clientes ativos da
+uMode** e não havia resposta. Com tag há: `tag:#status/ongoing` funciona **na busca e nos grupos
+de cor do grafo**. Hoje são **1.233 arquivos** em `ongoing` contra **592** em `churn`.
+
+🟢 **E é o que resolve o grafo**, que o `aliases` não resolvia: os 17 grupos de cor do
+`.obsidian/graph.json` passaram a ser consultas `tag:#tipo/…` em vez de `path:…`. **Mais preciso,
+e não quebra quando uma pasta é renomeada.**
 
 ### Frontmatter `aliases` — travado em 23 set 2026
 

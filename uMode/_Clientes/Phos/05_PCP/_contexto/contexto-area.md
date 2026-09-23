@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Phos"
+tags:
+  - tipo/area
+  - cliente/phos
+  - status/churn
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Phos
 

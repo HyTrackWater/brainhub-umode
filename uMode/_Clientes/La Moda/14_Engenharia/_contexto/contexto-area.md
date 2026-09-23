@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — La Moda
 

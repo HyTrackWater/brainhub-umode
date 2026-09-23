@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · maria nascimento"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · maria nascimento
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/marketing
 ---
 # Marketing · Contexto de área — Arezzo
 

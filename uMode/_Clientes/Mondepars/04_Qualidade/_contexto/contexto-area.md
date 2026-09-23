@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Mondepars
 

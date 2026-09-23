@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Baw
 

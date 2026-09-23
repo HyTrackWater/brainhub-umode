@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — DRO"
+tags:
+  - tipo/area
+  - cliente/dro
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — DRO
 

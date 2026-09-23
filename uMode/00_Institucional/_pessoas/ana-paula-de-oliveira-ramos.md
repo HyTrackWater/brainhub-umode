@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ana Paula de Oliveira Ramos · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Ana Paula de Oliveira Ramos · Pessoa
 

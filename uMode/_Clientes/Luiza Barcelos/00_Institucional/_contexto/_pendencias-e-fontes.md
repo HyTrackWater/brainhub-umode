@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Pendências e fontes varridas
 

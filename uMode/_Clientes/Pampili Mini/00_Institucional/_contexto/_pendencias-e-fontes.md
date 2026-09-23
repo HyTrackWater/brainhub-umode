@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Pampili Mini · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/pampili-mini
+  - status/inativo
 ---
 # Pampili Mini · Pendências e fontes varridas
 

@@ -1,6 +1,8 @@
 ---
 aliases:
   - "[Nome do cliente] · Pessoas"
+tags:
+  - tipo/template
 ---
 # [Nome do cliente] · Pessoas
 

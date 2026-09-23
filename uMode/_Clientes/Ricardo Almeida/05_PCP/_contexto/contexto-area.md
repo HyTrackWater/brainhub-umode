@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Ricardo Almeida
 

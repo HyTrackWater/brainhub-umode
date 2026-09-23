@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Agua de Coco · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/agua-de-coco
+  - status/inativo
 ---
 # Agua de Coco · Jornada
 

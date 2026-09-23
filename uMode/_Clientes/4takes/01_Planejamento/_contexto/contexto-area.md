@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — 4takes"
+tags:
+  - tipo/area
+  - cliente/4takes
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — 4takes
 

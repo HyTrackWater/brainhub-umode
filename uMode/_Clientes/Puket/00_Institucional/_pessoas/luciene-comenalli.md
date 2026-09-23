@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · luciene comenalli"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · luciene comenalli
 

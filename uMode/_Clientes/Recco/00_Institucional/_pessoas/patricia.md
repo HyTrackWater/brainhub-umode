@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Pessoa · Patricia"
+tags:
+  - tipo/pessoa
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Pessoa · Patricia
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Lojão do Brás"
+tags:
+  - tipo/area
+  - cliente/lojao-do-bras
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Lojão do Brás
 

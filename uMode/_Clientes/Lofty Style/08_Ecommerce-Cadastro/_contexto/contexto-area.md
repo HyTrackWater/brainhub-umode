@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Lofty Style"
+tags:
+  - tipo/area
+  - cliente/lofty-style
+  - status/ongoing
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Lofty Style
 

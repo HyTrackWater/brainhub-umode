@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Jornada
 

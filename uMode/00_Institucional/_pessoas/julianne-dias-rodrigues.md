@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Julianne Dias Rodrigues · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Julianne Dias Rodrigues · Pessoa
 

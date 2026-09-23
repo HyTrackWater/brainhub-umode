@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Mondepars
 

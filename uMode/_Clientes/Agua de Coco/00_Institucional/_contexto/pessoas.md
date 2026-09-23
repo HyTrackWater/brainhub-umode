@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Agua de Coco · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/agua-de-coco
+  - status/inativo
 ---
 # Agua de Coco · Pessoas
 

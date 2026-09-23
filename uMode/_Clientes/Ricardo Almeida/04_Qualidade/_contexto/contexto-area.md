@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Ricardo Almeida
 

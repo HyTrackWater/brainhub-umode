@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ana Lucia Domingues de Oliveira · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Ana Lucia Domingues de Oliveira · Pessoa
 

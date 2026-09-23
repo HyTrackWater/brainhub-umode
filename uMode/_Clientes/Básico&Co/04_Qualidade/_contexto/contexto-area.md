@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Básico&Co"
+tags:
+  - tipo/area
+  - cliente/basico-co
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Básico&Co
 

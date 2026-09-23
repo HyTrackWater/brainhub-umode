@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Simples (by Reserva) · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/simples-by-reserva
+  - status/inativo
 ---
 # Simples (by Reserva) · Pendências e fontes varridas
 

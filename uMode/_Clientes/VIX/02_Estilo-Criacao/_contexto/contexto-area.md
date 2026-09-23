@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — VIX
 

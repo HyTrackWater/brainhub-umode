@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Pampili Mini"
+tags:
+  - tipo/area
+  - cliente/pampili-mini
+  - status/inativo
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Pampili Mini
 

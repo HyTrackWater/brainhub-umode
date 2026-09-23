@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Oficina Reserva · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/oficina-reserva
+  - status/ongoing
 ---
 # Oficina Reserva · Pendências e fontes varridas
 

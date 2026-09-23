@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Highstil
 

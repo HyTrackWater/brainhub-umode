@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Fernanda Martins · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Fernanda Martins · Pessoa
 

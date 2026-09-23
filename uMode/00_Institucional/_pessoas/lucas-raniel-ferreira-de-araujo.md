@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Lucas Raniel Ferreira de Araújo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Lucas Raniel Ferreira de Araújo · Pessoa
 

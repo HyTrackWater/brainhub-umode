@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Levantamento 21 set 2026 — práticas do vault, estado dos repos e a lacuna da CAEDU"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Levantamento 21 set 2026 — práticas do vault, estado dos repos e a lacuna da CAEDU
 

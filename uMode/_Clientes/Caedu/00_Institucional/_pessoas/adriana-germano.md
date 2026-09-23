@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · adriana germano"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · adriana germano
 

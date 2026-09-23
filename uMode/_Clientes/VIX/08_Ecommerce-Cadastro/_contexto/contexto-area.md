@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — VIX
 

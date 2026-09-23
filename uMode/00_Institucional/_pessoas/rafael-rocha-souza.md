@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Rafael Rocha Souza · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Rafael Rocha Souza · Pessoa
 

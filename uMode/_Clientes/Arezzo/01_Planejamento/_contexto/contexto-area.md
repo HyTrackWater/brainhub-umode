@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Arezzo
 

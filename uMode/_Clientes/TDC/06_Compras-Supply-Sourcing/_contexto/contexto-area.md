@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — TDC
 

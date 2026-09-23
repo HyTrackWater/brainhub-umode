@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Osklen
 

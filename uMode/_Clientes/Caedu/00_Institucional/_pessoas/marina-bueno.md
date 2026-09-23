@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · marina bueno"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · marina bueno
 

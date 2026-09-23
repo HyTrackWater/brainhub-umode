@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Seven Global · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/seven-global
+  - status/churn
 ---
 # Seven Global · Institucional
 

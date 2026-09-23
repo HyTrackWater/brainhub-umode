@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Arezzo · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/arezzo
+  - status/pre-onboardings
 ---
 # Arezzo · Jornada
 

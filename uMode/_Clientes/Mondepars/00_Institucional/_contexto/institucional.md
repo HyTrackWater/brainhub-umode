@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Institucional
 

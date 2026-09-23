@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Mondepars
 

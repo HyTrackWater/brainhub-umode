@@ -1,6 +1,10 @@
 ---
 aliases:
   - "4takes · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/4takes
+  - status/churn
 ---
 # 4takes · Pessoas
 

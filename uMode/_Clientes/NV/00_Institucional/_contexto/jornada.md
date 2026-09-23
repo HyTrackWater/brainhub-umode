@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Jornada
 

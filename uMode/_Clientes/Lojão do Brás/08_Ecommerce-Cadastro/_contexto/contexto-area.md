@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Lojão do Brás"
+tags:
+  - tipo/area
+  - cliente/lojao-do-bras
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Lojão do Brás
 

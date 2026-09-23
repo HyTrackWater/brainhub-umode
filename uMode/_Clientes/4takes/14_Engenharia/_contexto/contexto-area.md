@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — 4takes"
+tags:
+  - tipo/area
+  - cliente/4takes
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — 4takes
 

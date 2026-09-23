@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Lofty Style"
+tags:
+  - tipo/area
+  - cliente/lofty-style
+  - status/ongoing
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Lofty Style
 

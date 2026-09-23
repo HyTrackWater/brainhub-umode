@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Mondepars
 

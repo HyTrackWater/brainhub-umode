@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Mondepars
 

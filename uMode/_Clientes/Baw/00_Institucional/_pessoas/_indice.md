@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Pessoas — índice
 

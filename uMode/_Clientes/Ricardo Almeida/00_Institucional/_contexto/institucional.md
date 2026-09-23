@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ricardo Almeida · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/ricardo-almeida
+  - status/churn
 ---
 # Ricardo Almeida · Institucional
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Pampili Mini"
+tags:
+  - tipo/area
+  - cliente/pampili-mini
+  - status/inativo
+  - area/design
 ---
 # Design · Contexto de área — Pampili Mini
 

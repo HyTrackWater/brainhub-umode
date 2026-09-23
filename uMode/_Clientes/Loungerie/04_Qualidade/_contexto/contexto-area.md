@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Loungerie
 

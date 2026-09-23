@@ -1,6 +1,8 @@
 ---
 aliases:
   - "[Nome da RFI] · RFI"
+tags:
+  - tipo/template
 ---
 # [Nome da RFI] · RFI
 

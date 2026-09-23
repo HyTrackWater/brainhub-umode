@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Jornada
 

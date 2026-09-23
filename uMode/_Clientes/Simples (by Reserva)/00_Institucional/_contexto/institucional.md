@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Simples (by Reserva) · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/simples-by-reserva
+  - status/inativo
 ---
 # Simples (by Reserva) · Institucional
 

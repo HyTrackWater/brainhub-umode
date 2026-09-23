@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/design
 ---
 # Design · Contexto de área — Hering
 

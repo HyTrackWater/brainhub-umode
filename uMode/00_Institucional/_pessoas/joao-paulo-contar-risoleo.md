@@ -1,6 +1,9 @@
 ---
 aliases:
   - "João Paulo Contar Risoleo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # João Paulo Contar Risoleo · Pessoa
 

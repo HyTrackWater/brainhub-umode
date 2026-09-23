@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · raquel brito"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · raquel brito
 

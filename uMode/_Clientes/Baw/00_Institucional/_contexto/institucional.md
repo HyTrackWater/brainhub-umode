@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Institucional
 

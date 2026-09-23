@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Highstil
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "[Nome da área] · Contexto de área"
+tags:
+  - tipo/template
+  - casa
 ---
 # [Nome da área] · Contexto de área
 

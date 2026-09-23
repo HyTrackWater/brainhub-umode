@@ -1,6 +1,9 @@
 ---
 aliases:
   - "VendeAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # VendeAI · Produto
 

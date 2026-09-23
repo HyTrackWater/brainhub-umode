@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Cavallari
 

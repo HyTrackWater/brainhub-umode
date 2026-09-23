@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hering · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/hering
+  - status/pre-onboardings
 ---
 # Hering · Pessoas
 

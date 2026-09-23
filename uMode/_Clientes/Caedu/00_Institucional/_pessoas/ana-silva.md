@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · ana silva"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · ana silva
 

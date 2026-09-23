@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · mayara moura"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · mayara moura
 

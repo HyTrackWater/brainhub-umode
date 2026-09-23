@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Institucional
 

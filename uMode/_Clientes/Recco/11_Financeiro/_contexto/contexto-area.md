@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Recco
 

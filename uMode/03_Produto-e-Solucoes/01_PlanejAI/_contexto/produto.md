@@ -1,6 +1,9 @@
 ---
 aliases:
   - "PlanejAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # PlanejAI · Produto
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Osklen
 

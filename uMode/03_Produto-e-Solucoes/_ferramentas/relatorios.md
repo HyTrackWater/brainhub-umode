@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Relatórios · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Relatórios · Ferramenta
 

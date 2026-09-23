@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Oficina Reserva"
+tags:
+  - tipo/area
+  - cliente/oficina-reserva
+  - status/ongoing
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Oficina Reserva
 

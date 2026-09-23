@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Agua de Coco"
+tags:
+  - tipo/area
+  - cliente/agua-de-coco
+  - status/inativo
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Agua de Coco
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Lenny Niemeyer
 

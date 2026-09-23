@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Estilo e Criação · Contexto de área — Simples (by Reserva)"
+tags:
+  - tipo/area
+  - cliente/simples-by-reserva
+  - status/inativo
+  - area/estilo-criacao
 ---
 # Estilo e Criação · Contexto de área — Simples (by Reserva)
 

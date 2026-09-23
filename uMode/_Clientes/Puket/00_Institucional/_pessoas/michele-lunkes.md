@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · michele lunkes"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · michele lunkes
 

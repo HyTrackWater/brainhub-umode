@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo · Gestão de integração de cliente"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo · Gestão de integração de cliente
 

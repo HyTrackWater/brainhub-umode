@@ -1,6 +1,10 @@
 ---
 aliases:
   - "TDC · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/tdc
+  - status/sem-cs
 ---
 # TDC · Pendências e fontes varridas
 

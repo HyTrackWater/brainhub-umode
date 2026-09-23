@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · RFIs — índice
 

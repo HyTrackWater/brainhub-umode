@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Studio Minah"
+tags:
+  - tipo/area
+  - cliente/studio-minah
+  - status/sem-cs
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Studio Minah
 

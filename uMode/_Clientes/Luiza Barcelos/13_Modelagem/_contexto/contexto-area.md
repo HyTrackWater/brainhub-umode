@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Luiza Barcelos
 

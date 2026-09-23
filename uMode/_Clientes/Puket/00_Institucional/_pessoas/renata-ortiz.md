@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · renata ortiz"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · renata ortiz
 

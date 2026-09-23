@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Millennium · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Millennium · Ferramenta
 

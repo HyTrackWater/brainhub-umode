@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Estrela"
+tags:
+  - tipo/area
+  - cliente/estrela
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Estrela
 

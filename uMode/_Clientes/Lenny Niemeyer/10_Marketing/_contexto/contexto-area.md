@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Lenny Niemeyer
 

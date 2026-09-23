@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Paloma concept · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/paloma-concept
+  - status/inativo
 ---
 # Paloma concept · Pessoas
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Comercial e Vendas · Contexto de área — Básico&Co"
+tags:
+  - tipo/area
+  - cliente/basico-co
+  - status/churn
+  - area/comercial-vendas
 ---
 # Comercial e Vendas · Contexto de área — Básico&Co
 

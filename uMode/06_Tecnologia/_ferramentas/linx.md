@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Linx · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Linx · Ferramenta
 

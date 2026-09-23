@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Básico&Co · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/basico-co
+  - status/churn
 ---
 # Básico&Co · Institucional
 

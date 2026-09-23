@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Ton Age
 

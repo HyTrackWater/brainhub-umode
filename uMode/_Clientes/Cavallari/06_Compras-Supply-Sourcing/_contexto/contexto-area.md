@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — Cavallari
 

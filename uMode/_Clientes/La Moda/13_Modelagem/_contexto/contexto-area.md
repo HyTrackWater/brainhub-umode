@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — La Moda
 

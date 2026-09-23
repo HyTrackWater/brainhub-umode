@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Simples (by Reserva)"
+tags:
+  - tipo/area
+  - cliente/simples-by-reserva
+  - status/inativo
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Simples (by Reserva)
 

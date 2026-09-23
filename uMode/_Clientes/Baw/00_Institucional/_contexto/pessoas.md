@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Pessoas
 

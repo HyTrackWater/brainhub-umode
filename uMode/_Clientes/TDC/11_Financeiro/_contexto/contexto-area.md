@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — TDC
 

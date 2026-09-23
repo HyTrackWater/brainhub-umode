@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — Cambos
 

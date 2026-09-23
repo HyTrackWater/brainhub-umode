@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cavallari · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/cavallari
+  - status/sem-cs
 ---
 # Cavallari · Pessoas
 

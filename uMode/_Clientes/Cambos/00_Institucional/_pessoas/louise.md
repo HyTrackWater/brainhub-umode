@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoa · Louise"
+tags:
+  - tipo/pessoa
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoa · Louise
 

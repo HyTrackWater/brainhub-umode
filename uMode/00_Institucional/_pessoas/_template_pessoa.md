@@ -1,6 +1,9 @@
 ---
 aliases:
   - "[Nome completo] · Pessoa"
+tags:
+  - tipo/template
+  - casa
 ---
 # [Nome completo] · Pessoa
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Lofty Style"
+tags:
+  - tipo/area
+  - cliente/lofty-style
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — Lofty Style
 

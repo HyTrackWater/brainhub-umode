@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoa · Luiza"
+tags:
+  - tipo/pessoa
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoa · Luiza
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ladeira Bijuterias · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/ladeira-bijuterias
+  - status/churn
 ---
 # Ladeira Bijuterias · Pessoas
 

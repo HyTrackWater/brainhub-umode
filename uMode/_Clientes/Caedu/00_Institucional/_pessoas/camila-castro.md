@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · camila castro"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · camila castro
 

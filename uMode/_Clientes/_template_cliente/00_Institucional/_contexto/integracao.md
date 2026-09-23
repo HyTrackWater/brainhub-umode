@@ -1,6 +1,8 @@
 ---
 aliases:
   - "[Nome do cliente] · Integração"
+tags:
+  - tipo/template
 ---
 # [Nome do cliente] · Integração
 

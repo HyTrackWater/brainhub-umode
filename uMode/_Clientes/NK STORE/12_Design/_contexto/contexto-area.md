@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — NK STORE"
+tags:
+  - tipo/area
+  - cliente/nk-store
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — NK STORE
 

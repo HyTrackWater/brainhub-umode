@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Arezzo
 

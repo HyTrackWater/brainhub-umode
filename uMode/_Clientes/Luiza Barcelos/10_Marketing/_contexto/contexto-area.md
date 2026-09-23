@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — Luiza Barcelos
 

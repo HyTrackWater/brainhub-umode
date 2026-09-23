@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/design
 ---
 # Design · Contexto de área — Arezzo
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/design
 ---
 # Design · Contexto de área — Mondepars
 

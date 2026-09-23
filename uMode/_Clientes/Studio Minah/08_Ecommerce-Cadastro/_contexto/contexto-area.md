@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Studio Minah"
+tags:
+  - tipo/area
+  - cliente/studio-minah
+  - status/sem-cs
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Studio Minah
 

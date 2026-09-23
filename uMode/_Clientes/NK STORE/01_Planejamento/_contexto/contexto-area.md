@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — NK STORE"
+tags:
+  - tipo/area
+  - cliente/nk-store
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — NK STORE
 

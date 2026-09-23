@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Adrian Nascimento · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Adrian Nascimento · Pessoa
 

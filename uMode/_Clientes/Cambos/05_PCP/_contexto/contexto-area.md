@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Cambos
 

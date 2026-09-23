@@ -1,6 +1,9 @@
 ---
 aliases:
   - "CLAUDE_OPERADOR.md — Perfil do Operador"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # CLAUDE_OPERADOR.md — Perfil do Operador
 

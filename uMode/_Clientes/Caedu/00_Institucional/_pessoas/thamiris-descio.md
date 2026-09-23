@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · thamiris descio"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · thamiris descio
 

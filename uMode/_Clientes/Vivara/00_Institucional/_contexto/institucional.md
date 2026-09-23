@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Vivara · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/vivara
+  - status/churn
 ---
 # Vivara · Institucional
 

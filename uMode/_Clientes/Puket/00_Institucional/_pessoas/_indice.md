@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoas — índice
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Oficina Reserva · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/oficina-reserva
+  - status/ongoing
 ---
 # Oficina Reserva · Pessoas
 

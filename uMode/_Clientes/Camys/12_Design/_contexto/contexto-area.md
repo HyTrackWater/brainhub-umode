@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Camys"
+tags:
+  - tipo/area
+  - cliente/camys
+  - status/sem-cs
+  - area/design
 ---
 # Design · Contexto de área — Camys
 

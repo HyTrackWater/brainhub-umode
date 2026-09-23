@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Caroline Dantas"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Caroline Dantas
 

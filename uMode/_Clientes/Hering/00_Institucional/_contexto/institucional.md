@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hering · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/hering
+  - status/pre-onboardings
 ---
 # Hering · Institucional
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Simples (by Reserva) · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/simples-by-reserva
+  - status/inativo
 ---
 # Simples (by Reserva) · Jornada
 

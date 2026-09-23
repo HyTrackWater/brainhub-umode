@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Victor Aragão · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Victor Aragão · Pessoa
 

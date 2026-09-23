@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Oficina Reserva · Integração"
+tags:
+  - tipo/integracao
+  - cliente/oficina-reserva
+  - status/ongoing
 ---
 # Oficina Reserva · Integração
 

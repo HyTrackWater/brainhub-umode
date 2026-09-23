@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Vinicius"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Vinicius
 

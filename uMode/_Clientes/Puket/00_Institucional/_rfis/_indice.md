@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · RFIs — índice
 

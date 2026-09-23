@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · andrea mendes"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · andrea mendes
 

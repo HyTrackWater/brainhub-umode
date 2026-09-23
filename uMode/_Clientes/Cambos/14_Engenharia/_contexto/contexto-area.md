@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Cambos
 

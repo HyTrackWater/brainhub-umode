@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Thais Pantaleão"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Thais Pantaleão
 

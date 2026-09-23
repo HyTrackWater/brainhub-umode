@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Pessoas — índice
 

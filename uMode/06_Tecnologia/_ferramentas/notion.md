@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Notion · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Notion · Ferramenta
 

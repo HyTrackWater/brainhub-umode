@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Loungerie · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/loungerie
+  - status/onboarding
 ---
 # Loungerie · Pendências e fontes varridas
 

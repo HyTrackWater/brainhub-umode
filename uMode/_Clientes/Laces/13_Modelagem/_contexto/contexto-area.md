@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Laces
 

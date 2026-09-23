@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · nathalia garcia"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · nathalia garcia
 

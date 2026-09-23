@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Demandas — índice
 

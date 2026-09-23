@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pendências e fontes varridas
 

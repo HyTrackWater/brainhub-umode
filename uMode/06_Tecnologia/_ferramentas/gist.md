@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Gist · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Gist · Ferramenta
 

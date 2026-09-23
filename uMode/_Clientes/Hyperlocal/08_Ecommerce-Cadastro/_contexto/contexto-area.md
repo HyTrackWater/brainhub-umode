@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Hyperlocal
 

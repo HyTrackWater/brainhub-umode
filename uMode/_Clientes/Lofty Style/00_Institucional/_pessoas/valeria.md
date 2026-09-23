@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · Valeria"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · Valeria
 

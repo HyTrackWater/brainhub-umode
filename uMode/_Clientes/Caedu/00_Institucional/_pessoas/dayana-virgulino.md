@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Dayana Layna"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Dayana Layna
 

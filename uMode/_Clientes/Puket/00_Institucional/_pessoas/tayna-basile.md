@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · tayna basile"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · tayna basile
 

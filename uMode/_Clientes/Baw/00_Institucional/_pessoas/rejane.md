@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Pessoa · Rejane"
+tags:
+  - tipo/pessoa
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Pessoa · Rejane
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Williem Berg de Oliveira Gomes · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Williem Berg de Oliveira Gomes · Pessoa
 

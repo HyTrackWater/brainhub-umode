@@ -1,6 +1,9 @@
 ---
 aliases:
   - "_boilerplate — Arquivos-raiz do boilerplate governado (encenados)"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # _boilerplate — Arquivos-raiz do boilerplate governado (encenados)
 

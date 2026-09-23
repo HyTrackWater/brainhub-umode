@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — NV
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Studio Z"
+tags:
+  - tipo/area
+  - cliente/studio-z
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Studio Z
 

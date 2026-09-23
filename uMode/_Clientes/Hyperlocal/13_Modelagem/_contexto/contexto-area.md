@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Hyperlocal
 

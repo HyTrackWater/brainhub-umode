@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · isabelly ramos"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · isabelly ramos
 

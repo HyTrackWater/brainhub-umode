@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Pampili Mini · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/pampili-mini
+  - status/inativo
 ---
 # Pampili Mini · Jornada
 

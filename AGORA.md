@@ -1,6 +1,8 @@
 ---
 aliases:
   - "AGORA.md — onde o projeto está, em uma tela"
+tags:
+  - tipo/governanca
 ---
 # AGORA.md — onde o projeto está, em uma tela
 
@@ -133,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **576** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **580** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -191,7 +193,20 @@ trabalho** — a página do cliente quase nunca traz área.
 **Antes de hoje o repositório não tinha `.obsidian/`**: abria como cofre cru, sem cor, com órfão
 e link não-resolvido poluindo a tela. Agora tem, e **está versionado** — quem clonar vê o mesmo.
 
-🟢 **Desde 23 set 2026, todo `.md` tem `aliases` em frontmatter, copiado do H1** — a busca
+🟢 **Desde 23 set 2026, todo `.md` tem `tags` em frontmatter** — `tipo/`, `cliente/`, `status/`
+e `area/`. **É como se filtra o cérebro.** Na busca do grafo ou no `Ctrl+O`:
+
+| Para ver | Digite |
+|---|---|
+| **só os clientes ativos** | `tag:#status/ongoing` |
+| tudo de um cliente | `tag:#cliente/caedu` |
+| todas as pessoas | `tag:#tipo/pessoa` |
+| as áreas de Qualidade da carteira | `tag:#area/qualidade` |
+| o que está em churn | `tag:#status/churn` |
+
+**Os 17 grupos de cor do grafo agora são consultas de tag**, não de caminho.
+
+🟢 **E todo `.md` tem `aliases` copiado do H1** — a busca
 rápida (`Ctrl+O`) mostra *"Qualidade · Contexto de área — Caedu"* em vez de 694 `contexto-area`
 idênticos. 🔴 **O rótulo do GRAFO continua sendo o nome do arquivo** — lá quem desambigua é a cor.
 

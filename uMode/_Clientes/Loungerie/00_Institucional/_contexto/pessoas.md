@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Loungerie · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/loungerie
+  - status/onboarding
 ---
 # Loungerie · Pessoas
 

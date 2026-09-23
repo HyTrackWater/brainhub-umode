@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Texneo"
+tags:
+  - tipo/area
+  - cliente/texneo
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Texneo
 

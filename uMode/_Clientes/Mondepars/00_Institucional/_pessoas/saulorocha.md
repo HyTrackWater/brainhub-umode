@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoa · Saulo Rocha"
+tags:
+  - tipo/pessoa
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoa · Saulo Rocha
 

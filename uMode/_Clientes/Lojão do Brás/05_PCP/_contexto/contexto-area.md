@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Lojão do Brás"
+tags:
+  - tipo/area
+  - cliente/lojao-do-bras
+  - status/churn
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Lojão do Brás
 

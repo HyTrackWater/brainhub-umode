@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — La Moda
 

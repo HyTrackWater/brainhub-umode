@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Luiza Barcelos
 

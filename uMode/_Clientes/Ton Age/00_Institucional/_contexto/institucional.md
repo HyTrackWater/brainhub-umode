@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ton Age · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/ton-age
+  - status/sem-cs
 ---
 # Ton Age · Institucional
 

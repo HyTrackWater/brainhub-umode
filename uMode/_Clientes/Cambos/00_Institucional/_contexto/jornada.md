@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Jornada
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — DRO"
+tags:
+  - tipo/area
+  - cliente/dro
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — DRO
 

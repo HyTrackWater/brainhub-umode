@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — NK STORE"
+tags:
+  - tipo/area
+  - cliente/nk-store
+  - status/ongoing
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — NK STORE
 

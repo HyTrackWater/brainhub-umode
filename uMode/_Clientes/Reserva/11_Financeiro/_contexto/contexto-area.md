@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Reserva"
+tags:
+  - tipo/area
+  - cliente/reserva
+  - status/ongoing
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Reserva
 

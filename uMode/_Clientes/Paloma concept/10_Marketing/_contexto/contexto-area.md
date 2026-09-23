@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Paloma concept"
+tags:
+  - tipo/area
+  - cliente/paloma-concept
+  - status/inativo
+  - area/marketing
 ---
 # Marketing · Contexto de área — Paloma concept
 

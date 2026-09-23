@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Ricardo Almeida
 

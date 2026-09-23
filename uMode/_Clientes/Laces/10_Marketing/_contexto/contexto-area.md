@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Laces
 

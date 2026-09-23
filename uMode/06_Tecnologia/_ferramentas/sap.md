@@ -1,6 +1,9 @@
 ---
 aliases:
   - "SAP · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # SAP · Ferramenta
 

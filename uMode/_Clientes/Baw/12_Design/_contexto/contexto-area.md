@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/design
 ---
 # Design · Contexto de área — Baw
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Pessoa · Priscilla"
+tags:
+  - tipo/pessoa
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Pessoa · Priscilla
 

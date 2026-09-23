@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Susie Modas
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Luiza Barcelos
 

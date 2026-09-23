@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Gabriel Silveira de Souza · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Gabriel Silveira de Souza · Pessoa
 

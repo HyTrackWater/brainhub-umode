@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Vivara
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · indira magalhaes"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · indira magalhaes
 

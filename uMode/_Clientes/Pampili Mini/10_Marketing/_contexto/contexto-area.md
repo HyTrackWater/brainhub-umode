@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Pampili Mini"
+tags:
+  - tipo/area
+  - cliente/pampili-mini
+  - status/inativo
+  - area/marketing
 ---
 # Marketing · Contexto de área — Pampili Mini
 

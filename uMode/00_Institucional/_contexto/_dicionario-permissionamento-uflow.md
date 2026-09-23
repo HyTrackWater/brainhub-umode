@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Dicionário do permissionamento do uFlow — como a permissão funciona de verdade"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Dicionário do permissionamento do uFlow — como a permissão funciona de verdade
 

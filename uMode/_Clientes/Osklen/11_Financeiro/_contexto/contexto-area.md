@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Osklen
 

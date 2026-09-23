@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Hyperlocal
 

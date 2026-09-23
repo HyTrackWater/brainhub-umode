@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Demandas — índice
 

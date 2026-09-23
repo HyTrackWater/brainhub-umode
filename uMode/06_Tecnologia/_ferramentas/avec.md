@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Avec · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Avec · Ferramenta
 

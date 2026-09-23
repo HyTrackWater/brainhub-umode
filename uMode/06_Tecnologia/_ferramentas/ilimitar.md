@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ilimitar · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Ilimitar · Ferramenta
 

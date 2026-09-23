@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Nelson Tadeu Alves Ferreira"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Nelson Tadeu Alves Ferreira
 

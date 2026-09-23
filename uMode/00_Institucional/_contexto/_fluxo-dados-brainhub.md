@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Fluxo de dados do BrainHub — da escrita do MD ao ping na inbox"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Fluxo de dados do BrainHub — da escrita do MD ao ping na inbox
 

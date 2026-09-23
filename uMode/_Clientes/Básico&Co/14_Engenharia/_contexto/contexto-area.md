@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Básico&Co"
+tags:
+  - tipo/area
+  - cliente/basico-co
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Básico&Co
 

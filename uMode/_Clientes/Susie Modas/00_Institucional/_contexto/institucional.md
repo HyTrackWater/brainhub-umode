@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Susie Modas · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/susie-modas
+  - status/inativo
 ---
 # Susie Modas · Institucional
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "FornecAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # FornecAI · Produto
 

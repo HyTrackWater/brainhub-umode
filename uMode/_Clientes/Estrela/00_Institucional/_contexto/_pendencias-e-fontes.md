@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Estrela · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/estrela
+  - status/churn
 ---
 # Estrela · Pendências e fontes varridas
 

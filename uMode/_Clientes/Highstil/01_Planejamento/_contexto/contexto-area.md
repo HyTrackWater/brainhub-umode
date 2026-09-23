@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Highstil
 

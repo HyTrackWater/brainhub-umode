@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Comercial / Vendas · Contexto de área"
+tags:
+  - tipo/template
+  - area/comercial-vendas
 ---
 # Comercial / Vendas · Contexto de área
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — NV
 

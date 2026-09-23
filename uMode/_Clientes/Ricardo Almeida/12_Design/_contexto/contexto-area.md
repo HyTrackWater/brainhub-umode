@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Ricardo Almeida
 

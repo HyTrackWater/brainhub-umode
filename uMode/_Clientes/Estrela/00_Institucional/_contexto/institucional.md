@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Estrela · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/estrela
+  - status/churn
 ---
 # Estrela · Institucional
 

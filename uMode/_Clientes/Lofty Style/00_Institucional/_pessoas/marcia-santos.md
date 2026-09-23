@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · marcia santos"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · marcia santos
 

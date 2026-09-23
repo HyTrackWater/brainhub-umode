@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Lofty Style"
+tags:
+  - tipo/area
+  - cliente/lofty-style
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — Lofty Style
 

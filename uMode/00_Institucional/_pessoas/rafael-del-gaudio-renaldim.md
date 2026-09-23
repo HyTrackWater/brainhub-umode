@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Rafael Del Gaudio Renaldim · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Rafael Del Gaudio Renaldim · Pessoa
 

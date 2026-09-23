@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Susie Modas · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/susie-modas
+  - status/inativo
 ---
 # Susie Modas · Pessoas
 

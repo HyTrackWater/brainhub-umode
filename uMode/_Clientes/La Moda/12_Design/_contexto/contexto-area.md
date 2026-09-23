@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/design
 ---
 # Design · Contexto de área — La Moda
 

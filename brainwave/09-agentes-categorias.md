@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 09: aba 'Agentes' — categorias e RAG por escopo"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 09: aba "Agentes" — categorias e RAG por escopo
 

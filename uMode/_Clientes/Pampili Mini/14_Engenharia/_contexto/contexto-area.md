@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Pampili Mini"
+tags:
+  - tipo/area
+  - cliente/pampili-mini
+  - status/inativo
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Pampili Mini
 

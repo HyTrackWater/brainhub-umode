@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Colmeia
 

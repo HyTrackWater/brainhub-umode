@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ladeira Bijuterias · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/ladeira-bijuterias
+  - status/churn
 ---
 # Ladeira Bijuterias · Institucional
 

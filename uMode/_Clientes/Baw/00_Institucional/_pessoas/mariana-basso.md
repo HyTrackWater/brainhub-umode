@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Pessoa · Mariana Basso"
+tags:
+  - tipo/pessoa
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Pessoa · Mariana Basso
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Susie Modas
 

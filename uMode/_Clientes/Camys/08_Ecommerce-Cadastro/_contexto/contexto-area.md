@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Camys"
+tags:
+  - tipo/area
+  - cliente/camys
+  - status/sem-cs
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Camys
 

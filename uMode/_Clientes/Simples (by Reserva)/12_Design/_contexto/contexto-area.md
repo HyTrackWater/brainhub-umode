@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Simples (by Reserva)"
+tags:
+  - tipo/area
+  - cliente/simples-by-reserva
+  - status/inativo
+  - area/design
 ---
 # Design · Contexto de área — Simples (by Reserva)
 

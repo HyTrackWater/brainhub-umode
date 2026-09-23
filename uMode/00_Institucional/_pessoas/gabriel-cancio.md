@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Gabriel Cancio · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Gabriel Cancio · Pessoa
 

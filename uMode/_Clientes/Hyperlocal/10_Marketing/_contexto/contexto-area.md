@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Hyperlocal
 

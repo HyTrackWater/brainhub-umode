@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Susie Modas
 

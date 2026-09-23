@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pendências e fontes varridas
 

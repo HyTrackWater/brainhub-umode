@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoas
 

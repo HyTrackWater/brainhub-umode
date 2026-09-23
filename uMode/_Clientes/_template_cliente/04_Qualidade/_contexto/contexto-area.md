@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Qualidade · Contexto de área"
+tags:
+  - tipo/template
+  - area/qualidade
 ---
 # Qualidade · Contexto de área
 

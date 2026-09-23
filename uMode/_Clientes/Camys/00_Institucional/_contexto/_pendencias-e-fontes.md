@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Pendências e fontes varridas
 

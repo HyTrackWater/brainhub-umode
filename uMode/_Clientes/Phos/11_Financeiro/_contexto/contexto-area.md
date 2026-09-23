@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Phos"
+tags:
+  - tipo/area
+  - cliente/phos
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Phos
 

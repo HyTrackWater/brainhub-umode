@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Stéfany"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Stéfany
 

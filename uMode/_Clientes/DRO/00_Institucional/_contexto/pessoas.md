@@ -1,6 +1,10 @@
 ---
 aliases:
   - "DRO · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/dro
+  - status/churn
 ---
 # DRO · Pessoas
 

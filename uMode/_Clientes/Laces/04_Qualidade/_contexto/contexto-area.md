@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Laces
 

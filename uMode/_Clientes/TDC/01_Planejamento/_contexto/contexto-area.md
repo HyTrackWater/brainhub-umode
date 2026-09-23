@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — TDC
 

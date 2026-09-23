@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · sofia costa"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · sofia costa
 

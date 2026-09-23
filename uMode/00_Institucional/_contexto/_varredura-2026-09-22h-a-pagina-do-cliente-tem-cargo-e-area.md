@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (h) — a página do cliente tem `cargo` e `área`, e eu tinha dito que não"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (h) — a página do cliente tem `cargo` e `área`, e eu tinha dito que não
 

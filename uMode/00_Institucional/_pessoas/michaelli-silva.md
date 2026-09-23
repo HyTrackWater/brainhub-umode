@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Michaelli Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Michaelli Silva · Pessoa
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Demandas — índice
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoas
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Loungerie
 

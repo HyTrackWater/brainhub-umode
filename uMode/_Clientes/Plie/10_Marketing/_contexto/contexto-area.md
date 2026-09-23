@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Plie
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Engenharia · Contexto de área"
+tags:
+  - tipo/template
+  - area/engenharia
 ---
 # Engenharia · Contexto de área
 

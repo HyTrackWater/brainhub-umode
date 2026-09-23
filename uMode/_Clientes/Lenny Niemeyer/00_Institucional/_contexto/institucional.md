@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Institucional
 

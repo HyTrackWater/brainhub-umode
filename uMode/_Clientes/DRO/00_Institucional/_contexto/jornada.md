@@ -1,6 +1,10 @@
 ---
 aliases:
   - "DRO · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/dro
+  - status/churn
 ---
 # DRO · Jornada
 

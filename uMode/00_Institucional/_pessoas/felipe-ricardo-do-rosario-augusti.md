@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Felipe Ricardo do Rosário Augusti · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Felipe Ricardo do Rosário Augusti · Pessoa
 

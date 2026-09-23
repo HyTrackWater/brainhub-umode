@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Silvia Shirlei Dias"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Silvia Shirlei Dias
 

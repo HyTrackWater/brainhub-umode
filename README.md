@@ -1,6 +1,8 @@
 ---
 aliases:
   - "BrainHub · uMode"
+tags:
+  - tipo/governanca
 ---
 # BrainHub · uMode
 

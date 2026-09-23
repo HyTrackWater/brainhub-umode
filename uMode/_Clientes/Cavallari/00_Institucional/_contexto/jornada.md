@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cavallari · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/cavallari
+  - status/sem-cs
 ---
 # Cavallari · Jornada
 

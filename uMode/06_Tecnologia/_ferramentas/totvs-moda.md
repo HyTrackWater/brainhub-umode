@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Totvs Moda · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Totvs Moda · Ferramenta
 

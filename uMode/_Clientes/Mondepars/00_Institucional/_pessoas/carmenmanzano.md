@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoa · Carmen Manzano"
+tags:
+  - tipo/pessoa
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoa · Carmen Manzano
 

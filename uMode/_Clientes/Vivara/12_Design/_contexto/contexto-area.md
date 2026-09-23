@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Vivara
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hering · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/hering
+  - status/pre-onboardings
 ---
 # Hering · Jornada
 

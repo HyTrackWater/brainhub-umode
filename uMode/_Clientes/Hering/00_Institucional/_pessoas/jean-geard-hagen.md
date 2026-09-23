@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hering · Pessoa · Jean Geard Hagen"
+tags:
+  - tipo/pessoa
+  - cliente/hering
+  - status/pre-onboardings
 ---
 # Hering · Pessoa · Jean Geard Hagen
 

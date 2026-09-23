@@ -1,6 +1,9 @@
 ---
 aliases:
   - "AlocAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # AlocAI · Produto
 

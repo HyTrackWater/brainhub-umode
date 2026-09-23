@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · milena machado"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · milena machado
 

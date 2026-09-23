@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Blueprint — Boilerplate de produção governado + treinamento de squads/agentes/operadores"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Blueprint — Boilerplate de produção governado + treinamento de squads/agentes/operadores
 

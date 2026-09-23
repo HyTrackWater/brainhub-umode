@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hyperlocal · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/hyperlocal
+  - status/churn
 ---
 # Hyperlocal · Jornada
 

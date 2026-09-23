@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Agua de Coco"
+tags:
+  - tipo/area
+  - cliente/agua-de-coco
+  - status/inativo
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Agua de Coco
 

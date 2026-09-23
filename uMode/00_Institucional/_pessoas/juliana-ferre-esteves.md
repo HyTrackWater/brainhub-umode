@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Juliana Ferré Esteves · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Juliana Ferré Esteves · Pessoa
 

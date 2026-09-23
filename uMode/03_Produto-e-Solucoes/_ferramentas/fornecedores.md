@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Fornecedores · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Fornecedores · Ferramenta
 

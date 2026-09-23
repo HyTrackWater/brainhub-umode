@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Moda Objetiva · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/moda-objetiva
+  - status/operacao-assistida
 ---
 # Moda Objetiva · Pendências e fontes varridas
 

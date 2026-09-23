@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Institucional
 

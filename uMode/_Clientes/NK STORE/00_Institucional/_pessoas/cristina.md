@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Cristina"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Cristina
 

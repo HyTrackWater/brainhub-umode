@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Arezzo
 

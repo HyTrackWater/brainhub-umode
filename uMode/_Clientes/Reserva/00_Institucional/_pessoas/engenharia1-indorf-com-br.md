@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · engenharia1@indorf.com.br"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · engenharia1@indorf.com.br
 

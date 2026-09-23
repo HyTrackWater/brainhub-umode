@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Ana Dias"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Ana Dias
 

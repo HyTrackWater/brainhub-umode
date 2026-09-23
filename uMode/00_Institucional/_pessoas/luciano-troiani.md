@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Luciano Troiani · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Luciano Troiani · Pessoa
 

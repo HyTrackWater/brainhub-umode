@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · Daniela Barcelos da Cruz"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · Daniela Barcelos da Cruz
 

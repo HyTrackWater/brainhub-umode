@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Carlos Eduardo Maurício de Sousa · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Carlos Eduardo Maurício de Sousa · Pessoa
 

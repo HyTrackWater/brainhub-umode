@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/design
 ---
 # Design · Contexto de área — Osklen
 

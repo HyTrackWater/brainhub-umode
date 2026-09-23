@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · giuliana zuttion"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · giuliana zuttion
 

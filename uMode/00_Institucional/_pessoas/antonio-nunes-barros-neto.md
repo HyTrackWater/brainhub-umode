@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Antonio Nunes Barros Neto · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Antonio Nunes Barros Neto · Pessoa
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Camys"
+tags:
+  - tipo/area
+  - cliente/camys
+  - status/sem-cs
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Camys
 

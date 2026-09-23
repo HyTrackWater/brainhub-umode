@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — Luiza Barcelos
 

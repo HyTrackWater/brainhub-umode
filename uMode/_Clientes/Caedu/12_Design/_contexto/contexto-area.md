@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — Caedu
 

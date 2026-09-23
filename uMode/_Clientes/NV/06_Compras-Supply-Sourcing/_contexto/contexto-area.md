@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — NV
 

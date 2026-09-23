@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Jornada
 

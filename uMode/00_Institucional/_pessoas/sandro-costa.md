@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Sandro Costa · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Sandro Costa · Pessoa
 

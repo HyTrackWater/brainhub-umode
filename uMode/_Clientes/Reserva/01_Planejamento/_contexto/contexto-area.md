@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Reserva"
+tags:
+  - tipo/area
+  - cliente/reserva
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Reserva
 

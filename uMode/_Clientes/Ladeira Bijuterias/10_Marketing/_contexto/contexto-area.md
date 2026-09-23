@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Ladeira Bijuterias"
+tags:
+  - tipo/area
+  - cliente/ladeira-bijuterias
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Ladeira Bijuterias
 

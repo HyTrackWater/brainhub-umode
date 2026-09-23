@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Produto & Soluções · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/produto-e-solucoes
 ---
 # Produto & Soluções · Contexto de área
 

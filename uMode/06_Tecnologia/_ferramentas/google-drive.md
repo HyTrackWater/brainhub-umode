@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Google Drive · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Google Drive · Ferramenta
 

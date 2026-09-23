@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Pessoas — índice
 

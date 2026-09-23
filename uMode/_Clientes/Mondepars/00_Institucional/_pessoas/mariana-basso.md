@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoa · mariana basso"
+tags:
+  - tipo/pessoa
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoa · mariana basso
 

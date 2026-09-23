@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · Yves"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · Yves
 

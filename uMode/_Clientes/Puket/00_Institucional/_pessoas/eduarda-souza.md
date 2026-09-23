@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · Eduarda de Souza"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · Eduarda de Souza
 

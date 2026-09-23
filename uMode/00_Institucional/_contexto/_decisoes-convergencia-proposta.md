@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Convergência com o vault do João — diferenças e decisão proposta"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Convergência com o vault do João — diferenças e decisão proposta
 

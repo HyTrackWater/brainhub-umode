@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Pendências e fontes varridas
 

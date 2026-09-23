@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Desenvolvimento / de / Colecao · Contexto de área"
+tags:
+  - tipo/template
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento / de / Colecao · Contexto de área
 

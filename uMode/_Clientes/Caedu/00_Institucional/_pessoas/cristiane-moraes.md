@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · cristiane moraes"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · cristiane moraes
 

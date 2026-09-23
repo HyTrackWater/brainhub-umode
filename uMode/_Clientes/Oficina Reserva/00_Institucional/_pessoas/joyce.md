@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Oficina Reserva · Pessoa · Joyce"
+tags:
+  - tipo/pessoa
+  - cliente/oficina-reserva
+  - status/ongoing
 ---
 # Oficina Reserva · Pessoa · Joyce
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Hyperlocal
 

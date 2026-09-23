@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Renan Ricardo Holler · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Renan Ricardo Holler · Pessoa
 

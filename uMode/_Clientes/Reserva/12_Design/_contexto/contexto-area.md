@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Reserva"
+tags:
+  - tipo/area
+  - cliente/reserva
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — Reserva
 

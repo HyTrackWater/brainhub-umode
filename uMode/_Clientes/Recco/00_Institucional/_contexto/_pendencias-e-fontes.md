@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Pendências e fontes varridas
 

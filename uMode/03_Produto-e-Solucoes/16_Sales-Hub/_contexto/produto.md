@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Sales Hub · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # Sales Hub · Produto
 

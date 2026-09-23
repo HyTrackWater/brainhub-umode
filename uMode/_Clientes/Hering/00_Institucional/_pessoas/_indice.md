@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hering · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/hering
+  - status/pre-onboardings
 ---
 # Hering · Pessoas — índice
 

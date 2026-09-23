@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Integração"
+tags:
+  - tipo/integracao
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Integração
 

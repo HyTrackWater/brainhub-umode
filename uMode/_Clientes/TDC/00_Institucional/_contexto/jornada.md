@@ -1,6 +1,10 @@
 ---
 aliases:
   - "TDC · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/tdc
+  - status/sem-cs
 ---
 # TDC · Jornada
 

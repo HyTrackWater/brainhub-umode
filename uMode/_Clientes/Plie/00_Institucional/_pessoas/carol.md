@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Plie · Pessoa · Carol"
+tags:
+  - tipo/pessoa
+  - cliente/plie
+  - status/churn
 ---
 # Plie · Pessoa · Carol
 

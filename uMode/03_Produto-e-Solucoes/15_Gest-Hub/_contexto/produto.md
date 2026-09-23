@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Gest Hub · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # Gest Hub · Produto
 

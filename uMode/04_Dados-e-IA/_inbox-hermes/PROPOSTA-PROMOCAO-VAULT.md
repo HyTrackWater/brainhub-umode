@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Proposta de promoção ao vault — Governança da Squad (SmartCoding)"
+tags:
+  - tipo/frente-hermes
+  - casa
 ---
 # Proposta de promoção ao vault — Governança da Squad (SmartCoding)
 

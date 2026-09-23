@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Pessoa · Ariana"
+tags:
+  - tipo/pessoa
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Pessoa · Ariana
 

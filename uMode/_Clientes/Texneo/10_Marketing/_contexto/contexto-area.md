@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Texneo"
+tags:
+  - tipo/area
+  - cliente/texneo
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Texneo
 

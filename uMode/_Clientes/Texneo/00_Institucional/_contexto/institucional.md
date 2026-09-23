@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Texneo · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/texneo
+  - status/churn
 ---
 # Texneo · Institucional
 

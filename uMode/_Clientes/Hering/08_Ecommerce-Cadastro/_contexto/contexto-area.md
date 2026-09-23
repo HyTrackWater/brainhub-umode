@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Hering
 

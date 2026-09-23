@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Levantamento 19 ago 2026 — os cinco repositórios, e onde o PRD está de fato"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Levantamento 19 ago 2026 — os cinco repositórios, e onde o PRD está de fato
 

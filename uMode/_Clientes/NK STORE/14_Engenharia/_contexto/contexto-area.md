@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — NK STORE"
+tags:
+  - tipo/area
+  - cliente/nk-store
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — NK STORE
 

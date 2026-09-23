@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Paloma concept · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/paloma-concept
+  - status/inativo
 ---
 # Paloma concept · Institucional
 

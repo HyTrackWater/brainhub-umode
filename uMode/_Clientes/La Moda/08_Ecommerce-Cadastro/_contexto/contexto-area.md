@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — La Moda
 

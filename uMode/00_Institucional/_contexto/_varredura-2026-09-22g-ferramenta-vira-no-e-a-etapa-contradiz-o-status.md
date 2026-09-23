@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (g) — ferramenta vira nó, e a `Etapa` contradiz o `Status`"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (g) — ferramenta vira nó, e a `Etapa` contradiz o `Status`
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hyperlocal · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/hyperlocal
+  - status/churn
 ---
 # Hyperlocal · Pessoas
 

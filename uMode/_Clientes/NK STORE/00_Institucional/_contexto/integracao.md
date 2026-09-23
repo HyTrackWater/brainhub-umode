@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Integração"
+tags:
+  - tipo/integracao
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Integração
 

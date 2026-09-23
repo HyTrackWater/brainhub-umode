@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Pampili Mini · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/pampili-mini
+  - status/inativo
 ---
 # Pampili Mini · Pessoas
 

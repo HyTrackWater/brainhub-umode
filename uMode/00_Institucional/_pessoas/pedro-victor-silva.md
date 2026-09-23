@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Pedro Victor Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Pedro Victor Silva · Pessoa
 

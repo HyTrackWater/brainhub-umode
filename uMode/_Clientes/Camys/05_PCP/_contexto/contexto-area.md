@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Camys"
+tags:
+  - tipo/area
+  - cliente/camys
+  - status/sem-cs
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Camys
 

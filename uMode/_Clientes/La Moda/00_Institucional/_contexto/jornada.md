@@ -1,6 +1,10 @@
 ---
 aliases:
   - "La Moda · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/la-moda
+  - status/inativo
 ---
 # La Moda · Jornada
 

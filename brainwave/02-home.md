@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 02: aba Home personalizada"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 02: aba Home personalizada
 

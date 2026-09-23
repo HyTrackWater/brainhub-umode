@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Plie · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/plie
+  - status/churn
 ---
 # Plie · Jornada
 

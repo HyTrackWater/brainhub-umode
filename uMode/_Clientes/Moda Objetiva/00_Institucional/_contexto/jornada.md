@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Moda Objetiva · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/moda-objetiva
+  - status/operacao-assistida
 ---
 # Moda Objetiva · Jornada
 

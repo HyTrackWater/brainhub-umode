@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo — varredura e preenchimento de contexto de cliente"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo — varredura e preenchimento de contexto de cliente
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (d) — o CX Hub como referência de desenho, e o placar dos avanços"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (d) — o CX Hub como referência de desenho, e o placar dos avanços
 

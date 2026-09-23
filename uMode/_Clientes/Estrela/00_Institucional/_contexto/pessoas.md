@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Estrela · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/estrela
+  - status/churn
 ---
 # Estrela · Pessoas
 

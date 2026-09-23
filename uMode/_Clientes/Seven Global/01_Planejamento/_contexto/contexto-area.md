@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Seven Global"
+tags:
+  - tipo/area
+  - cliente/seven-global
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Seven Global
 

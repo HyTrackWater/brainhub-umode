@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Pendências gerais — decisões que precisam do Vinicius/CEO"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Pendências gerais — decisões que precisam do Vinicius/CEO
 
@@ -3589,3 +3592,24 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      **Medindo direito: só 2 clientes têm ficha e `pessoas.md` pobre** — Hering (3 fichas, 31%) e
      Mondepars (10 fichas, 38%). **CAEDU está a 93%, NK STORE 92%, Puket 88%, Luiza Barcelos 88%.**
      **O trabalho que eu propus era de 2 arquivos, não de 48.**
+
+## Tags no frontmatter — o filtro que faltava (23 set 2026)
+
+581. 🟢 **RESOLVIDO — "como filtro só os clientes da uMode?"**, pergunta do Vinicius.
+     Todo `.md` ganhou `tags` no frontmatter: **`tipo/` · `cliente/` · `status/` · `area/`**.
+     **`tag:#status/ongoing` funciona na busca E nos grupos de cor do grafo.**
+     Hoje: **1.233 arquivos em `ongoing`** · 592 `churn` · 249 `operacao-assistida` ·
+     173 `sem-cs` · 108 `inativo` · 40 `pre-onboardings` · 18 `onboarding`.
+     🔴 **`status/` não é inventado — sai do `### Status atual` do `institucional.md` daquele
+     cliente.** Cliente sem status fica sem a tag.
+582. 🟢 **Os 17 grupos de cor do grafo passaram de `path:` para `tag:#tipo/…`.** Mais preciso e
+     **não quebra quando uma pasta é renomeada**. 🔺 **Isto é o que eu deveria ter entregado na
+     primeira vez** — o `aliases` resolvia a busca e eu sabia que não resolvia o grafo.
+583. ⚠ **O inventário de tipos revelou a forma real do corpus:** `demanda` 999 · `area` 680 ·
+     `pessoa` 479 · `rfi` 86 · `indice` 60 · `institucional` 49 · `jornada` 48 · `pessoas` 48 ·
+     `diario` 48 · `registro` 30 · `ferramenta` 26 · `template` 24 · `autoridade` 18 ·
+     `solucao` 16 · `protocolo` 13 · `integracao` 12 · `governanca` 6 · **`outro` 4**.
+     ⚠ **Os 4 `tipo/outro` são classificação que faltou** — verificar e dar tipo próprio.
+584. ⚠ **A CAEDU está como `status/ongoing` no corpus, mas a base do Notion diz `Onboarding`**
+     desde 22/09/2026 (itens 249 e 258). **O `institucional.md` dela não foi atualizado** — e
+     agora essa divergência se propaga para as 100+ tags do cliente. **Corrigir na fonte.**

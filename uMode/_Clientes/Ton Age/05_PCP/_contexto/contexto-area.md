@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento e Controle da Produção · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/pcp
 ---
 # Planejamento e Controle da Produção · Contexto de área — Ton Age
 

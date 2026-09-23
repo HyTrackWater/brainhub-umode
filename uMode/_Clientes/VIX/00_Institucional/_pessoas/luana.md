@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Pessoa · Luana"
+tags:
+  - tipo/pessoa
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Pessoa · Luana
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Colmeia · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/colmeia
+  - status/churn
 ---
 # Colmeia · Jornada
 

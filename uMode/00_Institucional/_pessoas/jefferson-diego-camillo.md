@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Jefferson Diego Camillo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Jefferson Diego Camillo · Pessoa
 

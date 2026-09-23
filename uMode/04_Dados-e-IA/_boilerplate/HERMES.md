@@ -1,6 +1,9 @@
 ---
 aliases:
   - "HERMES.md — A esteira de produção `[P]`"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # HERMES.md — A esteira de produção `[P]`
 

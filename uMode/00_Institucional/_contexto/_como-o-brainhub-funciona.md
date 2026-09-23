@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Como o BrainHub funciona — explicação do zero"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Como o BrainHub funciona — explicação do zero
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "DesenvolvAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # DesenvolvAI · Produto
 

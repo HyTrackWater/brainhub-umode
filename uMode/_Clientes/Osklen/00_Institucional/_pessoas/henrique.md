@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Henrique Camacho"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Henrique Camacho
 

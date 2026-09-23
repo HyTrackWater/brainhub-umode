@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Oficina Reserva"
+tags:
+  - tipo/area
+  - cliente/oficina-reserva
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — Oficina Reserva
 

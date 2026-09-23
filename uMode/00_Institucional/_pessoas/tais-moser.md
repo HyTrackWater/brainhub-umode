@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Tais Moser · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Tais Moser · Pessoa
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Anderson"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Anderson
 

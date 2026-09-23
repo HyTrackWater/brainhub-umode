@@ -1,6 +1,10 @@
 ---
 aliases:
   - "DRO · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/dro
+  - status/churn
 ---
 # DRO · RFIs — índice
 

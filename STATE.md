@@ -1,6 +1,8 @@
 ---
 aliases:
   - "STATE.md — Estado do projeto"
+tags:
+  - tipo/governanca
 ---
 # STATE.md — Estado do projeto
 
@@ -3360,3 +3362,34 @@ caminho).
   ⚠ **Consequência de peso: 680 de 2.666 arquivos (26%) são área quase vazia — um quarto do
   corpus é esqueleto.** **Recomendei manter**: ausência declarada é informação, ausência escondida
   não é. **Itens 572–576.**
+
+- **23 set 2026** — Sessão 51: **as `tags` — o filtro que faltava, e que eu devia ter entregado
+  na primeira vez.**
+  🔺 **Sessão aberta com o Vinicius preocupado com a minha condução**, e com razão em três pontos:
+  (a) os MDs pareciam vazios, (b) não havia como filtrar só os clientes da uMode, (c) o grafo não
+  deixava reconhecer entidade. **Os três estavam certos.**
+  🔺 **E antes disso eu precisei corrigir um erro meu, grave:** tinha reportado o corpus como
+  **"6% preenchido"** com `pessoas.md` a 0%. **Era bug da minha métrica**, que contava só títulos
+  `###`. Real: `jornada` 67% · `pessoas` 47% · `contexto-area` 26% · `institucional` 55%.
+  **O `pessoas.md` da CAEDU está a 93%** — eu propus gerar 48 arquivos que já estavam prontos.
+  🟢 **`tags` no frontmatter de todos os 2.666**, quatro famílias: `tipo/` · `cliente/` ·
+  `status/` · `area/`. **`tag:#status/ongoing` agora funciona na busca E nos grupos de cor.**
+  **1.233 arquivos em `ongoing`, 592 em `churn`.** 🔴 **O `status/` sai do `### Status atual` do
+  `institucional.md` daquele cliente — não é inventado.** Sem status declarado, sem tag.
+  🟢 **Os 18 grupos de cor do grafo passaram de `path:` para `tag:#tipo/…`** — mais preciso, e
+  não quebra se uma pasta for renomeada.
+  🟢 **O inventário de tipos mostrou a forma real do corpus:** demanda 999 · área 680 · pessoa 479 ·
+  rfi 86 · índice 60 · institucional 49 · jornada 48 · pessoas 48 · diário 48 · registro 30 ·
+  ferramenta 26 · template 24 · autoridade 18 · solução 16 · protocolo 13 · integração 12 ·
+  governança 6 · **agente 2**.
+  🟢 **A vistoria dos agentes achou o que importa:** o modelo de governança já está travado
+  (**Steward × Operador × Consumidor**, com `agents`/`agent_versions`/`agent_runs`/`agent_shares`),
+  há **um agente concreto** especificado (Suporte Técnico uFlow, com duas versões de instrução
+  guardadas), e — o achado — **`cx-meeting-transcriber` JÁ EXISTE**, junto de `cx-classifier`,
+  `cx-demand-analyst` e `cx-summarizer`. **O "moedor" existe em peças no CX Hub.**
+  🔴 **E o mapa certo do vazio: no `contexto-area.md` a camada de PESSOA já está 96%** (642 de 672)
+  **e o que está a zero é a camada operacional** — `O que esta área faz` 4%, `Como trabalham` 0%,
+  `Vocabulário` 0%. **Isso não sai de base: sai de reunião.**
+  ⚠ **Divergência que as tags expuseram:** a CAEDU está `status/ongoing` no corpus e `Onboarding`
+  na base do Notion desde 22/09 — **e agora isso se propaga para 100+ tags do cliente.**
+  **Itens 577–584.**

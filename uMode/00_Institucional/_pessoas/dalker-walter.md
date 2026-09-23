@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Dalker Walter · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Dalker Walter · Pessoa
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 23 set 2026 (a) — as matrizes de permissão fecharam, e derrubaram duas conclusões minhas"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 23 set 2026 (a) — as matrizes de permissão fecharam, e derrubaram duas conclusões minhas
 

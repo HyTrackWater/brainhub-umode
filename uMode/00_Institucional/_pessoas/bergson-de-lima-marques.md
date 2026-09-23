@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Bergson de Lima Marques · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Bergson de Lima Marques · Pessoa
 

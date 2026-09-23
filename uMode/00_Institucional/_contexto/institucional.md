@@ -1,6 +1,9 @@
 ---
 aliases:
   - "uMode · Institucional"
+tags:
+  - tipo/institucional
+  - casa
 ---
 # uMode · Institucional
 

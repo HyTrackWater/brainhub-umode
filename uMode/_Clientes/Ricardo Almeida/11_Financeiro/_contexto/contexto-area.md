@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Ricardo Almeida
 

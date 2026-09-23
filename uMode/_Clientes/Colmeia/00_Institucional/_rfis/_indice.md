@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Colmeia · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/colmeia
+  - status/churn
 ---
 # Colmeia · RFIs — índice
 

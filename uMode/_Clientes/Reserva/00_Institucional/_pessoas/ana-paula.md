@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · Ana Paula"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · Ana Paula
 

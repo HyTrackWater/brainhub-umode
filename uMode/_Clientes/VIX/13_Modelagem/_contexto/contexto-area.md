@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — VIX
 

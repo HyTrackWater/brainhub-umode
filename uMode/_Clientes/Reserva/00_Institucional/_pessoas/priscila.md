@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · Priscila"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · Priscila
 

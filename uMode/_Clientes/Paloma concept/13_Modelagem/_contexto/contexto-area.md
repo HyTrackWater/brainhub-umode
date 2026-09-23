@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Paloma concept"
+tags:
+  - tipo/area
+  - cliente/paloma-concept
+  - status/inativo
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Paloma concept
 

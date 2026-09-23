@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · girlaine rocha"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · girlaine rocha
 

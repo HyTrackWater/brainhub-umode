@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Desenvolvimento de Coleção · Contexto de área — Agua de Coco"
+tags:
+  - tipo/area
+  - cliente/agua-de-coco
+  - status/inativo
+  - area/desenvolvimento-de-colecao
 ---
 # Desenvolvimento de Coleção · Contexto de área — Agua de Coco
 

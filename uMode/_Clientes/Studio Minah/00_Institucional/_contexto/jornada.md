@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Minah · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/studio-minah
+  - status/sem-cs
 ---
 # Studio Minah · Jornada
 

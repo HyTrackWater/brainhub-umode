@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/marketing
 ---
 # Marketing · Contexto de área — Ton Age
 

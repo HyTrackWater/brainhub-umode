@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Auditoria de padronização e indexação — 03 ago 2026"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Auditoria de padronização e indexação — 03 ago 2026
 

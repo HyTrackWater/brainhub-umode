@@ -1,6 +1,10 @@
 ---
 aliases:
   - "DRO · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/dro
+  - status/churn
 ---
 # DRO · Institucional
 

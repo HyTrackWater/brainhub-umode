@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — VIX
 

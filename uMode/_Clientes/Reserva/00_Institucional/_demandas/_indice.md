@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Demandas — índice
 

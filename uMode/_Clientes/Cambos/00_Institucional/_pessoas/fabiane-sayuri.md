@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoa · Fabiane Sayuri"
+tags:
+  - tipo/pessoa
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoa · Fabiane Sayuri
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — NTK"
+tags:
+  - tipo/area
+  - cliente/ntk
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — NTK
 

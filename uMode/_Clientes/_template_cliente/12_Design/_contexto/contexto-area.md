@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Design · Contexto de área"
+tags:
+  - tipo/template
+  - area/design
 ---
 # Design · Contexto de área
 

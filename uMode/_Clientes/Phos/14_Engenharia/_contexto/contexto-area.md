@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Phos"
+tags:
+  - tipo/area
+  - cliente/phos
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Phos
 

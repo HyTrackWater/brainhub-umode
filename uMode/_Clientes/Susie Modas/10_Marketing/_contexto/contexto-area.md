@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/marketing
 ---
 # Marketing · Contexto de área — Susie Modas
 

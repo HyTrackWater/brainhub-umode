@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · Isadora Terlizzi"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · Isadora Terlizzi
 

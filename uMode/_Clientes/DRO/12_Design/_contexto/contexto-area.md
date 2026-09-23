@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — DRO"
+tags:
+  - tipo/area
+  - cliente/dro
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — DRO
 

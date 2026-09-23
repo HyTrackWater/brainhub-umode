@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · vitoria meneghin"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · vitoria meneghin
 

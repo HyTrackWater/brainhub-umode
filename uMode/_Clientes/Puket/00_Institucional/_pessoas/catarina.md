@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · Catarina"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · Catarina
 

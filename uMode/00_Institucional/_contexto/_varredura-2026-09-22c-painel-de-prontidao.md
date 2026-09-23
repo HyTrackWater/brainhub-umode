@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (c) — painel de prontidão: de quais clientes eu tenho clareza"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (c) — painel de prontidão: de quais clientes eu tenho clareza
 

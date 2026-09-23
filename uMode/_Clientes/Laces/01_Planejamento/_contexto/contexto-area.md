@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Laces
 

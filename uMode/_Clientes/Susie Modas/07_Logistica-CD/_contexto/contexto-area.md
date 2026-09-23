@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Susie Modas
 

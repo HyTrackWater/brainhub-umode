@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Institucional
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · luiza pavanate"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · luiza pavanate
 

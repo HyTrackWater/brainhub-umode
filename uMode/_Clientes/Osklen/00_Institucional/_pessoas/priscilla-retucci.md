@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · priscilla retucci"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · priscilla retucci
 

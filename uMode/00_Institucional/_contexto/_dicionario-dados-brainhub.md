@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Dicionário de dados do BrainHub — o que existe no banco"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Dicionário de dados do BrainHub — o que existe no banco
 

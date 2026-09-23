@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · julia fontoura"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · julia fontoura
 

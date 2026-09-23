@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · bruno vasconcellos"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · bruno vasconcellos
 

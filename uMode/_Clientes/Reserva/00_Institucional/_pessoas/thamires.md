@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · thamires"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · thamires
 

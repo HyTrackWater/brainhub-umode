@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Vitória"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Vitória
 

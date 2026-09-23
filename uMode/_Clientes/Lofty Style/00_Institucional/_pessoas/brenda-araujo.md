@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · Brenda Santana"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · Brenda Santana
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Caroline Medeiros do Nascimento · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Caroline Medeiros do Nascimento · Pessoa
 

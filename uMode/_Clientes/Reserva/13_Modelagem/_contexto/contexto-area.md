@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Reserva"
+tags:
+  - tipo/area
+  - cliente/reserva
+  - status/ongoing
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Reserva
 

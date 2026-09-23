@@ -1,6 +1,10 @@
 ---
 aliases:
   - "4takes · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/4takes
+  - status/churn
 ---
 # 4takes · Institucional
 

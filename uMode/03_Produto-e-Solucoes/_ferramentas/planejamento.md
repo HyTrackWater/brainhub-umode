@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Planejamento · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Planejamento · Ferramenta
 

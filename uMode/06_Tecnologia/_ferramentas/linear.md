@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Linear · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Linear · Ferramenta
 

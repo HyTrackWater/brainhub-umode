@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ladeira Bijuterias · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/ladeira-bijuterias
+  - status/churn
 ---
 # Ladeira Bijuterias · Pendências e fontes varridas
 

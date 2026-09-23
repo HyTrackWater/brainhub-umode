@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Seven Global · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/seven-global
+  - status/churn
 ---
 # Seven Global · Pendências e fontes varridas
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Pessoa · Camila Simões"
+tags:
+  - tipo/pessoa
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Pessoa · Camila Simões
 

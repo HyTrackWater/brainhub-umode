@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Miro · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Miro · Ferramenta
 

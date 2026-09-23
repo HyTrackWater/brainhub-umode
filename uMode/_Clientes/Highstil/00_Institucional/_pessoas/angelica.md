@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Pessoa · Angelica"
+tags:
+  - tipo/pessoa
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Pessoa · Angelica
 

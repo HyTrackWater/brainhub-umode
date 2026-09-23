@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoas
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Arezzo
 

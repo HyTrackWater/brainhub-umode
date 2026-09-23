@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Loungerie
 

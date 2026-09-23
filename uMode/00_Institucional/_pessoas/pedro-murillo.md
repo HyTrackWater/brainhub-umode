@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Pedro Murillo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Pedro Murillo · Pessoa
 

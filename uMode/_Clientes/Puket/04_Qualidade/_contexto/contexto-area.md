@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Puket
 

@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 01: esqueleto de navegação"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 01: esqueleto de navegação
 

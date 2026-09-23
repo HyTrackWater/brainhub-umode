@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Texneo"
+tags:
+  - tipo/area
+  - cliente/texneo
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Texneo
 

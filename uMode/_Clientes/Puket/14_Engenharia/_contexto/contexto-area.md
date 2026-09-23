@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Puket
 

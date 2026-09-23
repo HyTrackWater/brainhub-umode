@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Pampili Mini"
+tags:
+  - tipo/area
+  - cliente/pampili-mini
+  - status/inativo
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Pampili Mini
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 21 set 2026 — fontes rastreadas e o mapa de lacunas de todos os clientes"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 21 set 2026 — fontes rastreadas e o mapa de lacunas de todos os clientes
 

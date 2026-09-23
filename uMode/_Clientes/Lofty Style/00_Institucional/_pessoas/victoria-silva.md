@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · Victoria"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · Victoria
 

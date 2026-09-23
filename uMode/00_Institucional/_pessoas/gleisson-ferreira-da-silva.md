@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Gleisson Ferreira da Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Gleisson Ferreira da Silva · Pessoa
 

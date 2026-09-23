@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (l) — o template de página de cliente existe, e ninguém o segue"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (l) — o template de página de cliente existe, e ninguém o segue
 

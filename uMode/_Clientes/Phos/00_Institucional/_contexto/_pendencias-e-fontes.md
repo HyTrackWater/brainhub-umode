@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Phos · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/phos
+  - status/churn
 ---
 # Phos · Pendências e fontes varridas
 

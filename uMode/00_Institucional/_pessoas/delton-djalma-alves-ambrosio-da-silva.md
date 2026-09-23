@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Delton Djalma Alves Ambrósio da Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Delton Djalma Alves Ambrósio da Silva · Pessoa
 

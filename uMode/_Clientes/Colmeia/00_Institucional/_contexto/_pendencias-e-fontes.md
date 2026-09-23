@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Colmeia · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/colmeia
+  - status/churn
 ---
 # Colmeia · Pendências e fontes varridas
 

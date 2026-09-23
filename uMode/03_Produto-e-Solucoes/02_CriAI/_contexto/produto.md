@@ -1,6 +1,9 @@
 ---
 aliases:
   - "CriAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # CriAI · Produto
 

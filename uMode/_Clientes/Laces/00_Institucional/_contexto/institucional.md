@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Laces · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/laces
+  - status/churn
 ---
 # Laces · Institucional
 

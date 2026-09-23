@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · raphael santini"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · raphael santini
 

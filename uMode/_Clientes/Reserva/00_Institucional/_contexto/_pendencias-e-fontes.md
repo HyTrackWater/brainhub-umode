@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pendências e fontes varridas
 

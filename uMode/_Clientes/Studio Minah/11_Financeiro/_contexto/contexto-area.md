@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Studio Minah"
+tags:
+  - tipo/area
+  - cliente/studio-minah
+  - status/sem-cs
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Studio Minah
 

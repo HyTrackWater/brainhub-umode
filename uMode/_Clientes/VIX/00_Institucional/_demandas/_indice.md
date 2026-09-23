@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Demandas — índice
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · stefany silva"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · stefany silva
 

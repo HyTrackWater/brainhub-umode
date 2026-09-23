@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · alessandra rocha"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · alessandra rocha
 

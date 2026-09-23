@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Lenny Niemeyer
 

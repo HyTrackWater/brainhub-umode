@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · debora freitas"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · debora freitas
 

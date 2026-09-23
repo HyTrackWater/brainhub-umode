@@ -1,6 +1,10 @@
 ---
 aliases:
   - "People · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/people
 ---
 # People · Contexto de área
 

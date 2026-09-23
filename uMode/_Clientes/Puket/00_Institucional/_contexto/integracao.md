@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Integração"
+tags:
+  - tipo/integracao
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Integração
 

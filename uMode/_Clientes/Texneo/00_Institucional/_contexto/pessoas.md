@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Texneo · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/texneo
+  - status/churn
 ---
 # Texneo · Pessoas
 

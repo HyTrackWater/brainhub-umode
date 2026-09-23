@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Institucional
 

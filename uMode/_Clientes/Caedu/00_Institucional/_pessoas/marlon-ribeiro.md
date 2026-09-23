@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · marlon ribeiro"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · marlon ribeiro
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Bárbara Macedo de Oliveira"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Bárbara Macedo de Oliveira
 

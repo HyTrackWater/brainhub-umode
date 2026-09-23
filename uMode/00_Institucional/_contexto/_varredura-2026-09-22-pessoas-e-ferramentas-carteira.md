@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 — pessoas, áreas e ferramentas contratadas, carteira inteira"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 — pessoas, áreas e ferramentas contratadas, carteira inteira
 

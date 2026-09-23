@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Moda Objetiva · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/moda-objetiva
+  - status/operacao-assistida
 ---
 # Moda Objetiva · Pessoas — índice
 

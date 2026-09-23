@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Arezzo"
+tags:
+  - tipo/area
+  - cliente/arezzo
+  - status/pre-onboardings
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Arezzo
 

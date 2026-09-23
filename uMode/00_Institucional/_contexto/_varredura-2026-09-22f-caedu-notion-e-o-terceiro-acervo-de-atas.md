@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (f) — a página da CAEDU e o TERCEIRO acervo de atas"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (f) — a página da CAEDU e o TERCEIRO acervo de atas
 

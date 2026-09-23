@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lojão do Brás · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/lojao-do-bras
+  - status/churn
 ---
 # Lojão do Brás · Pessoas
 

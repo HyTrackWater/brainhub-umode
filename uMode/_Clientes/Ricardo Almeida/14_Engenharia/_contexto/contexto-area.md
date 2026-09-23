@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Ricardo Almeida
 

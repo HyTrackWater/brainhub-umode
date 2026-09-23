@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hyperlocal · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/hyperlocal
+  - status/churn
 ---
 # Hyperlocal · Institucional
 

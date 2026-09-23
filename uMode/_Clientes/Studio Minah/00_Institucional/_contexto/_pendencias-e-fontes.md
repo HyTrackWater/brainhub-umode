@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Minah · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/studio-minah
+  - status/sem-cs
 ---
 # Studio Minah · Pendências e fontes varridas
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "CadastrAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # CadastrAI · Produto
 

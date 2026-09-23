@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Inventário de repositórios — origens e papéis no nosso desenvolvimento"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Inventário de repositórios — origens e papéis no nosso desenvolvimento
 

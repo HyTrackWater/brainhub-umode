@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Estrela"
+tags:
+  - tipo/area
+  - cliente/estrela
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Estrela
 

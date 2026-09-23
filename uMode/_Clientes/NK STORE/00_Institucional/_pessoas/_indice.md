@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoas — índice
 

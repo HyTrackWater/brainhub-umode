@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Phos"
+tags:
+  - tipo/area
+  - cliente/phos
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Phos
 

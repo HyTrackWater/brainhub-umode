@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Highstil"
+tags:
+  - tipo/area
+  - cliente/highstil
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Highstil
 

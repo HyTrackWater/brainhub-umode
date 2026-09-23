@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ricardo Almeida · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/ricardo-almeida
+  - status/churn
 ---
 # Ricardo Almeida · Jornada
 

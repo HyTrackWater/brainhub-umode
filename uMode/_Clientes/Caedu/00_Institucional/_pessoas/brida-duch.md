@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · brida duch"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · brida duch
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Fernanda Araujo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Fernanda Araujo · Pessoa
 

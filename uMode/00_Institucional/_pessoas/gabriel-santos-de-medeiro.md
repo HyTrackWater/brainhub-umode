@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Gabriel Santos de Medeiro · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Gabriel Santos de Medeiro · Pessoa
 

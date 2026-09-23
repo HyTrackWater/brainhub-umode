@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — NK STORE"
+tags:
+  - tipo/area
+  - cliente/nk-store
+  - status/ongoing
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — NK STORE
 

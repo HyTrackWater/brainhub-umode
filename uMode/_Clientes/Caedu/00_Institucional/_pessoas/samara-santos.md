@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Samara Santos"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Samara Santos
 

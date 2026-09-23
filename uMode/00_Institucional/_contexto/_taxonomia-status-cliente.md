@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Taxonomia — o que `Status` de cliente significa, e o que ele mistura"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Taxonomia — o que `Status` de cliente significa, e o que ele mistura
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (k) — o suporte está bloqueado, e o fornecedor tem login"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (k) — o suporte está bloqueado, e o fornecedor tem login
 

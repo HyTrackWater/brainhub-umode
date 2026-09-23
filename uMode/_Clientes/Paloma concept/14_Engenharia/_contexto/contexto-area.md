@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Paloma concept"
+tags:
+  - tipo/area
+  - cliente/paloma-concept
+  - status/inativo
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Paloma concept
 

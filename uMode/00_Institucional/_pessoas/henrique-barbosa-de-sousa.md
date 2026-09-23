@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Henrique Barbosa de Sousa · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Henrique Barbosa de Sousa · Pessoa
 

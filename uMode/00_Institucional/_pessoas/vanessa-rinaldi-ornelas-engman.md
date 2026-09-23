@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Vanessa Rinaldi Ornelas Engman · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Vanessa Rinaldi Ornelas Engman · Pessoa
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Loungerie
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Pampili Mini"
+tags:
+  - tipo/area
+  - cliente/pampili-mini
+  - status/inativo
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Pampili Mini
 

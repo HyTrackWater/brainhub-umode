@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · rosimeire castilho"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · rosimeire castilho
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Paloma concept · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/paloma-concept
+  - status/inativo
 ---
 # Paloma concept · Pendências e fontes varridas
 

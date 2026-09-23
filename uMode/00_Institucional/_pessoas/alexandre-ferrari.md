@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Alexandre Ferrari · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Alexandre Ferrari · Pessoa
 

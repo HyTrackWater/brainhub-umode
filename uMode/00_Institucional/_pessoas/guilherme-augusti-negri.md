@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Guilherme Augusti Negri · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Guilherme Augusti Negri · Pessoa
 

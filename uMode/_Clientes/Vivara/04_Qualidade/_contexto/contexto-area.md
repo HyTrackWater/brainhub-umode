@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Vivara
 

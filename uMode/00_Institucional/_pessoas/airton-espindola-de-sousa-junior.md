@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Airton Espindola de Sousa Junior · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Airton Espindola de Sousa Junior · Pessoa
 

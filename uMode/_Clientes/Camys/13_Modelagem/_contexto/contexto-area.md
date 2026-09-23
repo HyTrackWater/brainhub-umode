@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Camys"
+tags:
+  - tipo/area
+  - cliente/camys
+  - status/sem-cs
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Camys
 

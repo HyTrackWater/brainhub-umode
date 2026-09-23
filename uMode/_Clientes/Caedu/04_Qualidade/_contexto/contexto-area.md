@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Caedu
 

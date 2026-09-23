@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Jornada
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · Simone Mendes"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · Simone Mendes
 

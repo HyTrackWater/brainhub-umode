@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Compras, Supply e Sourcing · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/compras-supply-sourcing
 ---
 # Compras, Supply e Sourcing · Contexto de área — La Moda
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Z · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/studio-z
+  - status/churn
 ---
 # Studio Z · Jornada
 

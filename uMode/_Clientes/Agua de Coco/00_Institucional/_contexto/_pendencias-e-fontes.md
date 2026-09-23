@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Agua de Coco · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/agua-de-coco
+  - status/inativo
 ---
 # Agua de Coco · Pendências e fontes varridas
 

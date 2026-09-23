@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Financeiro · Contexto de área"
+tags:
+  - tipo/template
+  - area/financeiro
 ---
 # Financeiro · Contexto de área
 

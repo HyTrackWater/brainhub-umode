@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Colmeia"
+tags:
+  - tipo/area
+  - cliente/colmeia
+  - status/churn
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Colmeia
 

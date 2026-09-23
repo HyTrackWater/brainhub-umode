@@ -1,6 +1,10 @@
 ---
 aliases:
   - "4takes · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/4takes
+  - status/churn
 ---
 # 4takes · Jornada
 

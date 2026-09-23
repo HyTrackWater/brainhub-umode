@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Moda Objetiva · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/moda-objetiva
+  - status/operacao-assistida
 ---
 # Moda Objetiva · Institucional
 

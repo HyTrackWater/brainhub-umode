@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Demandas — índice
 

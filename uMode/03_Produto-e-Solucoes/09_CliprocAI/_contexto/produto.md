@@ -1,6 +1,9 @@
 ---
 aliases:
   - "CliprocAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # CliprocAI · Produto
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NV · Pessoa · Érika Leutério"
+tags:
+  - tipo/pessoa
+  - cliente/nv
+  - status/ongoing
 ---
 # NV · Pessoa · Érika Leutério
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Laces
 

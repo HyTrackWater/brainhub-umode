@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Plie · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/plie
+  - status/churn
 ---
 # Plie · Pendências e fontes varridas
 

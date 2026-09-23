@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Hering
 

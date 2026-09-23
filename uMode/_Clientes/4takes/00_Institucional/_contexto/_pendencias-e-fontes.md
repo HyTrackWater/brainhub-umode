@@ -1,6 +1,10 @@
 ---
 aliases:
   - "4takes · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/4takes
+  - status/churn
 ---
 # 4takes · Pendências e fontes varridas
 

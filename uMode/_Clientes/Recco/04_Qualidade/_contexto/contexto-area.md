@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Recco
 

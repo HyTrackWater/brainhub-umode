@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · luis stepan"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · luis stepan
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Puket
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Lenny Niemeyer
 

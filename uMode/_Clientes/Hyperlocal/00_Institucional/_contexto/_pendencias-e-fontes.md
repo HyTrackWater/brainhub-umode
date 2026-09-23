@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hyperlocal · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/hyperlocal
+  - status/churn
 ---
 # Hyperlocal · Pendências e fontes varridas
 

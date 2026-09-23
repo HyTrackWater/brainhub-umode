@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pendências e fontes varridas
 

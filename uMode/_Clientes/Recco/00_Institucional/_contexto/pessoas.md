@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Pessoas
 

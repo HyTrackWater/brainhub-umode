@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 03: abas 'uMode' e 'Clientes' (Instituições, Áreas, Subáreas, Pessoas)"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 03: abas "uMode" e "Clientes" (Instituições, Áreas, Subáreas, Pessoas)
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Backlog de infra de tecnologia — o que precisará ser construído"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Backlog de infra de tecnologia — o que precisará ser construído
 

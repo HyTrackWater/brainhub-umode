@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Reserva · Pessoa · Karine"
+tags:
+  - tipo/pessoa
+  - cliente/reserva
+  - status/ongoing
 ---
 # Reserva · Pessoa · Karine
 

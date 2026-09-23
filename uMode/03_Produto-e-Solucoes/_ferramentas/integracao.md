@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Integração · Ferramenta"
+tags:
+  - tipo/integracao
+  - casa
 ---
 # Integração · Ferramenta
 

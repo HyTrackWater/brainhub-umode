@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Vivara
 

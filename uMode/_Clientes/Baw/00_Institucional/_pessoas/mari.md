@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Pessoa · Mari"
+tags:
+  - tipo/pessoa
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Pessoa · Mari
 

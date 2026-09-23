@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · Isabela Pereira"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · Isabela Pereira
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Itagyba Abondanza Kuhlmann · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Itagyba Abondanza Kuhlmann · Pessoa
 

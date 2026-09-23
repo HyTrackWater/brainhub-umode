@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Filipe de Lima Kertcher · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Filipe de Lima Kertcher · Pessoa
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Vivara · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/vivara
+  - status/churn
 ---
 # Vivara · Jornada
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Jornada
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Lojão do Brás"
+tags:
+  - tipo/area
+  - cliente/lojao-do-bras
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Lojão do Brás
 

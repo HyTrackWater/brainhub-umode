@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Recco
 

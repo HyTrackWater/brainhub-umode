@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Moda Objetiva
 

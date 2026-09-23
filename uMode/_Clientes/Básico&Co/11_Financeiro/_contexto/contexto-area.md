@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Básico&Co"
+tags:
+  - tipo/area
+  - cliente/basico-co
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Básico&Co
 

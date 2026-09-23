@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Ton Age
 

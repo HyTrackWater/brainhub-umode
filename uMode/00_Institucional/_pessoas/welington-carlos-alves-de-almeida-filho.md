@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Welington Carlos Alves de Almeida Filho · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Welington Carlos Alves de Almeida Filho · Pessoa
 

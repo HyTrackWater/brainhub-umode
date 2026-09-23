@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — 4takes"
+tags:
+  - tipo/area
+  - cliente/4takes
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — 4takes
 

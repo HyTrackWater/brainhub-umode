@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · thais hayashida"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · thais hayashida
 

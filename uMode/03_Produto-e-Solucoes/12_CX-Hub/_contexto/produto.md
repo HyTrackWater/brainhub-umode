@@ -1,6 +1,9 @@
 ---
 aliases:
   - "CX Hub · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # CX Hub · Produto
 

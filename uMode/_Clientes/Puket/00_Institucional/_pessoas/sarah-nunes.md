@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · sarah nunes"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · sarah nunes
 

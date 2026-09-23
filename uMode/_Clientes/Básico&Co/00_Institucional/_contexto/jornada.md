@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Básico&Co · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/basico-co
+  - status/churn
 ---
 # Básico&Co · Jornada
 

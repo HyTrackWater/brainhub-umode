@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Arezzo · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/arezzo
+  - status/pre-onboardings
 ---
 # Arezzo · Institucional
 

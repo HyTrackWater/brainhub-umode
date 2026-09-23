@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · thais diniz"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · thais diniz
 

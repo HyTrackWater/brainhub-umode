@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoa · Carolina Abreu"
+tags:
+  - tipo/pessoa
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoa · Carolina Abreu
 

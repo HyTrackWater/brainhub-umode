@@ -1,6 +1,9 @@
 ---
 aliases:
   - "CLAUDE.md — CTO / Líder Técnico"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # CLAUDE.md — CTO / Líder Técnico
 

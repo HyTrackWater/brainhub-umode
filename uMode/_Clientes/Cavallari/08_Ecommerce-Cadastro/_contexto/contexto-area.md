@@ -1,6 +1,11 @@
 ---
 aliases:
   - "E-commerce e Cadastro · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/ecommerce-cadastro
 ---
 # E-commerce e Cadastro · Contexto de área — Cavallari
 

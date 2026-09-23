@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Eduardo Penna · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Eduardo Penna · Pessoa
 

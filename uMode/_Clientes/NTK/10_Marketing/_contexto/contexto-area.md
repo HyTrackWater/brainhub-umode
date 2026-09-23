@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — NTK"
+tags:
+  - tipo/area
+  - cliente/ntk
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — NTK
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Caedu
 

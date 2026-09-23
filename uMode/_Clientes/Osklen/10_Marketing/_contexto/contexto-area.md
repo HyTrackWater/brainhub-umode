@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/marketing
 ---
 # Marketing · Contexto de área — Osklen
 

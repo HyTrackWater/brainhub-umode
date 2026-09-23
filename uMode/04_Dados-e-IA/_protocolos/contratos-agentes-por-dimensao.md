@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Contratos de agente por dimensão — Squad de Desenvolvimento uMode"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Contratos de agente por dimensão — Squad de Desenvolvimento uMode
 

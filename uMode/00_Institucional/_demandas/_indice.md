@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Casa uMode · Demandas — índice"
+tags:
+  - tipo/indice
+  - casa
 ---
 # Casa uMode · Demandas — índice
 

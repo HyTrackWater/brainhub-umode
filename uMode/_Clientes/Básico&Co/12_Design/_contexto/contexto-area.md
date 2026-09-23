@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Básico&Co"
+tags:
+  - tipo/area
+  - cliente/basico-co
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Básico&Co
 

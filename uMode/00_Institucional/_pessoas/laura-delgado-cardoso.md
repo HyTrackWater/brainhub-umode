@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Laura Delgado Cardoso · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Laura Delgado Cardoso · Pessoa
 

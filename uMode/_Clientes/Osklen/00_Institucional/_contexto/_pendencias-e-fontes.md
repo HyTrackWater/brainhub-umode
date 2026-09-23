@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pendências e fontes varridas
 

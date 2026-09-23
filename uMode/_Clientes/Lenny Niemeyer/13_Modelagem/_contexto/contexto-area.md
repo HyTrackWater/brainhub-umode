@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Lenny Niemeyer
 

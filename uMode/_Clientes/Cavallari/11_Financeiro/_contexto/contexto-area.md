@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Cavallari
 

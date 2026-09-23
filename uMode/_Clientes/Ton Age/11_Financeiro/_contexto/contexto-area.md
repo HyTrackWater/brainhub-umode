@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Ton Age
 

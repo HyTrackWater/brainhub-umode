@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 07: Demandas em tabela + Conversas + Reatribuir"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 07: Demandas em tabela + Conversas + Reatribuir
 

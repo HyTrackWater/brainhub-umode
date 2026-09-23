@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Phos"
+tags:
+  - tipo/area
+  - cliente/phos
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Phos
 

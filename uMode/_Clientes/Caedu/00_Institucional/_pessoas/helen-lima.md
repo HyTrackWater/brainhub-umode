@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Helen Santos de Lima"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Helen Santos de Lima
 

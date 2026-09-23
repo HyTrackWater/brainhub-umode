@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Loungerie
 

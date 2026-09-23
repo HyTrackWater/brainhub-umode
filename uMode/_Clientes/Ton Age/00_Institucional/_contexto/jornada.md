@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ton Age · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/ton-age
+  - status/sem-cs
 ---
 # Ton Age · Jornada
 

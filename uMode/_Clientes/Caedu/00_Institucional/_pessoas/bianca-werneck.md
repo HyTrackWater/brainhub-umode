@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · BIANCA FONSECA"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · BIANCA FONSECA
 

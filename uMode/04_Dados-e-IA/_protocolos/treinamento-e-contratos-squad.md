@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Treinamento e contratos da Squad de Desenvolvimento uMode"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Treinamento e contratos da Squad de Desenvolvimento uMode
 

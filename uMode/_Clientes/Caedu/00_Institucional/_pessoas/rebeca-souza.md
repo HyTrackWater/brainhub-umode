@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Rebeca Marques"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Rebeca Marques
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — VIX
 

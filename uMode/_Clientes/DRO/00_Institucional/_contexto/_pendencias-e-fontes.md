@@ -1,6 +1,10 @@
 ---
 aliases:
   - "DRO · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/dro
+  - status/churn
 ---
 # DRO · Pendências e fontes varridas
 

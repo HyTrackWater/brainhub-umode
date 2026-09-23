@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Institucional
 

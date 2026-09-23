@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Laine Camargo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Laine Camargo · Pessoa
 

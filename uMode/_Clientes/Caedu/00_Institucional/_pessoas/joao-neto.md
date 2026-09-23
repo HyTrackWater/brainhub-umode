@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · João Neto"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · João Neto
 

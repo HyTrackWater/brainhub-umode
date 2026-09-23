@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · leticia martins"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · leticia martins
 

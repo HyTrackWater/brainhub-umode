@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — 4takes"
+tags:
+  - tipo/area
+  - cliente/4takes
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — 4takes
 

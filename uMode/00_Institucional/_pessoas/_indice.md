@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Casa uMode · Pessoas · índice"
+tags:
+  - tipo/indice
+  - casa
 ---
 # Casa uMode · Pessoas · índice
 

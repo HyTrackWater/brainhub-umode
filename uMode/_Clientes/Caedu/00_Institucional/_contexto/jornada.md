@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Jornada
 

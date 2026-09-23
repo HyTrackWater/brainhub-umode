@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — NV"
+tags:
+  - tipo/area
+  - cliente/nv
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — NV
 

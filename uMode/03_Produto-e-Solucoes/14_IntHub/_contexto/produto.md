@@ -1,6 +1,9 @@
 ---
 aliases:
   - "IntHub · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # IntHub · Produto
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ana Flávia Maran Carrilo · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Ana Flávia Maran Carrilo · Pessoa
 

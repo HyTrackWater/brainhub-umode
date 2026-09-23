@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Karina Ribeiro Cardoso da Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Karina Ribeiro Cardoso da Silva · Pessoa
 

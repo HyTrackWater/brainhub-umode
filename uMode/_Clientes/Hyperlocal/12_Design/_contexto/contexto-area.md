@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Hyperlocal
 

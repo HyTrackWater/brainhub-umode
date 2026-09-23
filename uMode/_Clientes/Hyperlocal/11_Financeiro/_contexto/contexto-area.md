@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Hyperlocal"
+tags:
+  - tipo/area
+  - cliente/hyperlocal
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Hyperlocal
 

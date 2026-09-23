@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Oficina Reserva · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/oficina-reserva
+  - status/ongoing
 ---
 # Oficina Reserva · Institucional
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Lucas Menezes de Matos · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Lucas Menezes de Matos · Pessoa
 

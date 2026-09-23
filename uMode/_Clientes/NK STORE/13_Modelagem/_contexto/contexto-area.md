@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — NK STORE"
+tags:
+  - tipo/area
+  - cliente/nk-store
+  - status/ongoing
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — NK STORE
 

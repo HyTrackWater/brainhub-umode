@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo · Gestão de demanda"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo · Gestão de demanda
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/marketing
 ---
 # Marketing · Contexto de área — Baw
 

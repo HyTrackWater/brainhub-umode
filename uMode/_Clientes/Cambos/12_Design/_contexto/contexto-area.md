@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — Cambos
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Vivara"
+tags:
+  - tipo/area
+  - cliente/vivara
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Vivara
 

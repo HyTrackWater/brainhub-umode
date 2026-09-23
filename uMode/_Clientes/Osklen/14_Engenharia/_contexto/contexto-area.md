@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Osklen
 

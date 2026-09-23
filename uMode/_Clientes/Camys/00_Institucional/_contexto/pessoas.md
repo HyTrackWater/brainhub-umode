@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Pessoas
 

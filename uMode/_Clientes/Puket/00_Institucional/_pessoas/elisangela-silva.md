@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · Eli"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · Eli
 

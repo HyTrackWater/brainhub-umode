@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · romina torres"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · romina torres
 

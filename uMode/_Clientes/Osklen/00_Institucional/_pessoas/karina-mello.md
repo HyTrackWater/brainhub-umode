@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Karina Mello"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Karina Mello
 

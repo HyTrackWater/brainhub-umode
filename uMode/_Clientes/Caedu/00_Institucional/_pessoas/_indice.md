@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoas — índice"
+tags:
+  - tipo/indice
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoas — índice
 

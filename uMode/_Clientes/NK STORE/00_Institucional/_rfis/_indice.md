@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · RFIs — índice
 

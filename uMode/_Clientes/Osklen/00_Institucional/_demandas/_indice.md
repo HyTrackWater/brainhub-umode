@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Demandas — índice
 

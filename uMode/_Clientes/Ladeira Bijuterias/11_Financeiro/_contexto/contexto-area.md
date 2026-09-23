@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Ladeira Bijuterias"
+tags:
+  - tipo/area
+  - cliente/ladeira-bijuterias
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Ladeira Bijuterias
 

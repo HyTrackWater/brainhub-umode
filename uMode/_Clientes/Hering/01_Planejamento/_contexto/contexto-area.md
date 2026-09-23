@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Hering
 

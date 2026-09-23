@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Highstil · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/highstil
+  - status/churn
 ---
 # Highstil · Jornada
 

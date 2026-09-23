@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · andreza zan"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · andreza zan
 

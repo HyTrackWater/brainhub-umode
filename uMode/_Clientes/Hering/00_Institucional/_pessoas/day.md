@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hering · Pessoa · Day"
+tags:
+  - tipo/pessoa
+  - cliente/hering
+  - status/pre-onboardings
 ---
 # Hering · Pessoa · Day
 

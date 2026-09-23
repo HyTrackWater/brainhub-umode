@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Pessoa · Kariele"
+tags:
+  - tipo/pessoa
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Pessoa · Kariele
 

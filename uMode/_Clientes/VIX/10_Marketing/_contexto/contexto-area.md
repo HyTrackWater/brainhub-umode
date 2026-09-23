@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/marketing
 ---
 # Marketing · Contexto de área — VIX
 

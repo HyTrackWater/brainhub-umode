@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Felipe Adriano Araujo da Costa · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Felipe Adriano Araujo da Costa · Pessoa
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Loungerie"
+tags:
+  - tipo/area
+  - cliente/loungerie
+  - status/onboarding
+  - area/marketing
 ---
 # Marketing · Contexto de área — Loungerie
 

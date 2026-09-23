@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Oficina Reserva"
+tags:
+  - tipo/area
+  - cliente/oficina-reserva
+  - status/ongoing
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Oficina Reserva
 

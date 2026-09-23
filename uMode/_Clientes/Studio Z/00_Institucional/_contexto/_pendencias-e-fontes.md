@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Studio Z · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/studio-z
+  - status/churn
 ---
 # Studio Z · Pendências e fontes varridas
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Plie
 

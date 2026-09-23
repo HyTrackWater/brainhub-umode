@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Puket
 

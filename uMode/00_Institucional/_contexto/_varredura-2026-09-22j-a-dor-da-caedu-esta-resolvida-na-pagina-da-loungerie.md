@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (j) — a dor da CAEDU está resolvida na página da Loungerie"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (j) — a dor da CAEDU está resolvida na página da Loungerie
 

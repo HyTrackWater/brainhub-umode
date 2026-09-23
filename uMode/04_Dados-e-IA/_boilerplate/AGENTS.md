@@ -1,6 +1,9 @@
 ---
 aliases:
   - "AGENTS.md — Programador"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # AGENTS.md — Programador
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo — o que fazer com aquilo que só o Vinicius responde"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo — o que fazer com aquilo que só o Vinicius responde
 

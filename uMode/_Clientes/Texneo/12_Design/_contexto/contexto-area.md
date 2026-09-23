@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Texneo"
+tags:
+  - tipo/area
+  - cliente/texneo
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Texneo
 

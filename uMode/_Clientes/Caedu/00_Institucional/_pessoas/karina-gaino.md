@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · karina gaino"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · karina gaino
 

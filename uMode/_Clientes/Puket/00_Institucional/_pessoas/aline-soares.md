@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · aline soares"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · aline soares
 

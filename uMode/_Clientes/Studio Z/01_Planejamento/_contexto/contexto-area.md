@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Studio Z"
+tags:
+  - tipo/area
+  - cliente/studio-z
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Studio Z
 

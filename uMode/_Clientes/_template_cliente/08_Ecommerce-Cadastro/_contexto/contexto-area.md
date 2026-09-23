@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ecommerce / Cadastro · Contexto de área"
+tags:
+  - tipo/template
+  - area/ecommerce-cadastro
 ---
 # Ecommerce / Cadastro · Contexto de área
 

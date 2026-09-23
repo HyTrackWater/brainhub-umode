@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · Caroline Koller"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · Caroline Koller
 

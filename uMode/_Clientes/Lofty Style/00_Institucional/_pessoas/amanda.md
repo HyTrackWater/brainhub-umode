@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lofty Style · Pessoa · Amanda"
+tags:
+  - tipo/pessoa
+  - cliente/lofty-style
+  - status/ongoing
 ---
 # Lofty Style · Pessoa · Amanda
 

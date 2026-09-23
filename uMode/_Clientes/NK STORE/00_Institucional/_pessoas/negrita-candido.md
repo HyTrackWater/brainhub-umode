@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Negrita Moreira Candido"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Negrita Moreira Candido
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "La Moda · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/la-moda
+  - status/inativo
 ---
 # La Moda · Pendências e fontes varridas
 

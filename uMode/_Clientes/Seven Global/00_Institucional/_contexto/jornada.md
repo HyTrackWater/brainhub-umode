@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Seven Global · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/seven-global
+  - status/churn
 ---
 # Seven Global · Jornada
 

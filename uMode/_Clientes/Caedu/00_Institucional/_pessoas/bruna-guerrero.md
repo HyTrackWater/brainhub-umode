@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Bruna"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Bruna
 

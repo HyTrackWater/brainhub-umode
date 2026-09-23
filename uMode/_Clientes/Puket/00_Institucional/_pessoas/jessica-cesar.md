@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · jessica cesar"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · jessica cesar
 

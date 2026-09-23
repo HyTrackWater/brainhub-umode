@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Plie
 

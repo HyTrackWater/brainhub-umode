@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Aposta · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Aposta · Ferramenta
 

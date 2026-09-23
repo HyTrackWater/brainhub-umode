@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · Demandas — índice
 

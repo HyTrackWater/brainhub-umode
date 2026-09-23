@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Jaíne dos Santos de Souza"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Jaíne dos Santos de Souza
 

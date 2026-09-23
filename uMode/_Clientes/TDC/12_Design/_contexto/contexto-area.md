@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/design
 ---
 # Design · Contexto de área — TDC
 

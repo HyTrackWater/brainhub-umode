@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · luciana ribeiro"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · luciana ribeiro
 

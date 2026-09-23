@@ -1,6 +1,9 @@
 ---
 aliases:
   - "RECEBIDO — Pacote de contexto BrainHub 2.0 (João Risoléo / Codex)"
+tags:
+  - tipo/registro
+  - casa
 ---
 # RECEBIDO — Pacote de contexto BrainHub 2.0 (João Risoléo / Codex)
 

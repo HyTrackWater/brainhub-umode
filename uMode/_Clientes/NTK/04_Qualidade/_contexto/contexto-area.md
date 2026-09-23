@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — NTK"
+tags:
+  - tipo/area
+  - cliente/ntk
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — NTK
 

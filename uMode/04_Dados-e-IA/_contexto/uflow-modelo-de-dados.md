@@ -1,6 +1,9 @@
 ---
 aliases:
   - "uFlow · Modelo de dados"
+tags:
+  - tipo/outro
+  - casa
 ---
 # uFlow · Modelo de dados
 

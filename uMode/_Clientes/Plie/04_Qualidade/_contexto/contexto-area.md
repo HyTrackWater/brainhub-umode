@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Plie"
+tags:
+  - tipo/area
+  - cliente/plie
+  - status/churn
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Plie
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · marcus lobo"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · marcus lobo
 

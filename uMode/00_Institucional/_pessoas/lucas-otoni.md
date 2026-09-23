@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Lucas Otoni · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Lucas Otoni · Pessoa
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Ricardo Almeida"
+tags:
+  - tipo/area
+  - cliente/ricardo-almeida
+  - status/churn
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Ricardo Almeida
 

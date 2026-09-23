@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 23 set 2026 (d) — o acervo de CX está em `Arquivo`, e existe segmentação de conta"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 23 set 2026 (d) — o acervo de CX está em `Arquivo`, e existe segmentação de conta
 

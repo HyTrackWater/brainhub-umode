@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Plie · Pessoa · Jéssica"
+tags:
+  - tipo/pessoa
+  - cliente/plie
+  - status/churn
 ---
 # Plie · Pessoa · Jéssica
 

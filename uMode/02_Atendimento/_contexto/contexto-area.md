@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Atendimento · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/atendimento
 ---
 # Atendimento · Contexto de área
 

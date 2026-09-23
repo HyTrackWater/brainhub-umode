@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · leticia santos"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · leticia santos
 

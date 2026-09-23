@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Pessoas
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Prompt de extração do Notion via Claude in Chrome"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Prompt de extração do Notion via Claude in Chrome
 

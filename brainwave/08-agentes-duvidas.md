@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 08: aba 'Agentes' — reserva do agente de Dúvidas"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 08: aba "Agentes" — reserva do agente de Dúvidas
 

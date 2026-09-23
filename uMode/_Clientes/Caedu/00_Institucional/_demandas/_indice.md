@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Demandas — índice
 

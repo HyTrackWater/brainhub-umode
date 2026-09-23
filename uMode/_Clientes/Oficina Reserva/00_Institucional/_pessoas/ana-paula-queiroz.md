@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Oficina Reserva · Pessoa · Ana Paula Queiroz"
+tags:
+  - tipo/pessoa
+  - cliente/oficina-reserva
+  - status/ongoing
 ---
 # Oficina Reserva · Pessoa · Ana Paula Queiroz
 

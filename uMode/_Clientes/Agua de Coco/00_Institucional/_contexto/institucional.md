@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Agua de Coco · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/agua-de-coco
+  - status/inativo
 ---
 # Agua de Coco · Institucional
 

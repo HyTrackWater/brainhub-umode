@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 04: seletor de cliente ativo fixo na aba Clientes"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 04: seletor de cliente ativo fixo na aba Clientes
 

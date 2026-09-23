@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · andrea guedes"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · andrea guedes
 

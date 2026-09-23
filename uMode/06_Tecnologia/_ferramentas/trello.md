@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Trello · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Trello · Ferramenta
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Compras / Supply / Sourcing · Contexto de área"
+tags:
+  - tipo/template
+  - area/compras-supply-sourcing
 ---
 # Compras / Supply / Sourcing · Contexto de área
 

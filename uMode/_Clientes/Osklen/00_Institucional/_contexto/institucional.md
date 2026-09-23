@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Institucional
 

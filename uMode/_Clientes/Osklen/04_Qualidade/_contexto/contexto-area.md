@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Osklen"
+tags:
+  - tipo/area
+  - cliente/osklen
+  - status/operacao-assistida
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Osklen
 

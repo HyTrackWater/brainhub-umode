@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Moda Objetiva
 

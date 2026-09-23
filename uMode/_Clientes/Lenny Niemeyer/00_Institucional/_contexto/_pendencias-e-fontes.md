@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lenny Niemeyer · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/lenny-niemeyer
+  - status/churn
 ---
 # Lenny Niemeyer · Pendências e fontes varridas
 

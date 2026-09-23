@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Luiza Barcelos"
+tags:
+  - tipo/area
+  - cliente/luiza-barcelos
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Luiza Barcelos
 

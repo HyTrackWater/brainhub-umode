@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Logística e Centro de Distribuição · Contexto de área — Simples (by Reserva)"
+tags:
+  - tipo/area
+  - cliente/simples-by-reserva
+  - status/inativo
+  - area/logistica-cd
 ---
 # Logística e Centro de Distribuição · Contexto de área — Simples (by Reserva)
 

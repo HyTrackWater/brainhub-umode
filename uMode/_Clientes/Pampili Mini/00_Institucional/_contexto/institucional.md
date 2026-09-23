@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Pampili Mini · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/pampili-mini
+  - status/inativo
 ---
 # Pampili Mini · Institucional
 

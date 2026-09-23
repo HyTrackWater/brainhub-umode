@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — La Moda"
+tags:
+  - tipo/area
+  - cliente/la-moda
+  - status/inativo
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — La Moda
 

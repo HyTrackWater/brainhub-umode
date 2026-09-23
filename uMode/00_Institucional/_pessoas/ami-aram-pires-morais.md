@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ami Aram Pires Morais · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Ami Aram Pires Morais · Pessoa
 

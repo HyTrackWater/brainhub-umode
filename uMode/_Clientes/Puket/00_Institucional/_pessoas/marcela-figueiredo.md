@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · Marcela Polyana"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · Marcela Polyana
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Felipe Sindeaux · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Felipe Sindeaux · Pessoa
 

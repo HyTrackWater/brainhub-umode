@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NTK · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/ntk
+  - status/churn
 ---
 # NTK · Institucional
 

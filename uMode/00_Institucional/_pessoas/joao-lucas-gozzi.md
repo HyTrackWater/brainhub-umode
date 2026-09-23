@@ -1,6 +1,9 @@
 ---
 aliases:
   - "João Lucas Gozzi · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # João Lucas Gozzi · Pessoa
 

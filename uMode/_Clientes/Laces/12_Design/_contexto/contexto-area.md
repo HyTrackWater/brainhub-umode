@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Laces"
+tags:
+  - tipo/area
+  - cliente/laces
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Laces
 

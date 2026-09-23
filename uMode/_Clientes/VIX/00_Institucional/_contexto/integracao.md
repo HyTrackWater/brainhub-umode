@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Integração"
+tags:
+  - tipo/integracao
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Integração
 

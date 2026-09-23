@@ -1,6 +1,10 @@
 ---
 aliases:
   - "La Moda · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/la-moda
+  - status/inativo
 ---
 # La Moda · Institucional
 

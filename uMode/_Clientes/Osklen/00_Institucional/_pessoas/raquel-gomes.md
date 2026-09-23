@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Raquel Gomes"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Raquel Gomes
 

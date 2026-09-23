@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — NTK"
+tags:
+  - tipo/area
+  - cliente/ntk
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — NTK
 

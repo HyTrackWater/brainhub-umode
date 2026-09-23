@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Fellipe Rodrigues · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Fellipe Rodrigues · Pessoa
 

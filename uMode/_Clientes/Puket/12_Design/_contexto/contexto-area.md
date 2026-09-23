@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — Puket
 

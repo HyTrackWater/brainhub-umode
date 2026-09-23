@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Susie Modas"
+tags:
+  - tipo/area
+  - cliente/susie-modas
+  - status/inativo
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Susie Modas
 

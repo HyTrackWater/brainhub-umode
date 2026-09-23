@@ -1,6 +1,10 @@
 ---
 aliases:
   - "DRO · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/dro
+  - status/churn
 ---
 # DRO · Demandas — índice
 

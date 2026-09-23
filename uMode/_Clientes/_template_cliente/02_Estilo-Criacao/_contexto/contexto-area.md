@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Estilo / Criacao · Contexto de área"
+tags:
+  - tipo/template
+  - area/estilo-criacao
 ---
 # Estilo / Criacao · Contexto de área
 

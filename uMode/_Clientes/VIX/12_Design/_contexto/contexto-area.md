@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — VIX"
+tags:
+  - tipo/area
+  - cliente/vix
+  - status/ongoing
+  - area/design
 ---
 # Design · Contexto de área — VIX
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Moda Objetiva · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/moda-objetiva
+  - status/operacao-assistida
 ---
 # Moda Objetiva · Pessoas
 

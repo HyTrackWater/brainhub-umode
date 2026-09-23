@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Cambos"
+tags:
+  - tipo/area
+  - cliente/cambos
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Cambos
 

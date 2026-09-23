@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ferramentas da uMode · índice"
+tags:
+  - tipo/indice
+  - casa
 ---
 # Ferramentas da uMode · índice
 

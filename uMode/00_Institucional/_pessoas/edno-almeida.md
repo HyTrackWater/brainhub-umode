@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Edno Almeida · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Edno Almeida · Pessoa
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Básico&Co · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/basico-co
+  - status/churn
 ---
 # Básico&Co · Pessoas
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Ton Age"
+tags:
+  - tipo/area
+  - cliente/ton-age
+  - status/sem-cs
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Ton Age
 

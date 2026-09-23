@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Mondepars"
+tags:
+  - tipo/area
+  - cliente/mondepars
+  - status/sem-cs
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Mondepars
 

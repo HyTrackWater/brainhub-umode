@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Hering"
+tags:
+  - tipo/area
+  - cliente/hering
+  - status/pre-onboardings
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Hering
 

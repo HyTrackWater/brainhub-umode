@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Moda Objetiva"
+tags:
+  - tipo/area
+  - cliente/moda-objetiva
+  - status/operacao-assistida
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Moda Objetiva
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lojão do Brás · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/lojao-do-bras
+  - status/churn
 ---
 # Lojão do Brás · Institucional
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Vivara · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/vivara
+  - status/churn
 ---
 # Vivara · Pendências e fontes varridas
 

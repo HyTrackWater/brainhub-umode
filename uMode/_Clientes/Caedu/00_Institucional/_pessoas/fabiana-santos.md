@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Fabiana Oliveira dos Santos"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Fabiana Oliveira dos Santos
 

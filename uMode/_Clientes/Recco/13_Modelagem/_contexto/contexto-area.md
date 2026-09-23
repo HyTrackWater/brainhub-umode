@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Recco
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NTK · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/ntk
+  - status/churn
 ---
 # NTK · Jornada
 

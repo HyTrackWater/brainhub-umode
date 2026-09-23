@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Loungerie · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/loungerie
+  - status/onboarding
 ---
 # Loungerie · Jornada
 

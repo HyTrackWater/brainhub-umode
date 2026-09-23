@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Carlos Chermont"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Carlos Chermont
 

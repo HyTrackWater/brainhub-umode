@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Mondepars · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/mondepars
+  - status/sem-cs
 ---
 # Mondepars · Jornada
 

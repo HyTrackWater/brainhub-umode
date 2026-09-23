@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Lista definitiva de clientes reais — base da replicação total"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Lista definitiva de clientes reais — base da replicação total
 

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "ESPEC-PESSOAS-001 v1 — Pessoas e comunicações como entidades do banco"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # ESPEC-PESSOAS-001 v1 — Pessoas e comunicações como entidades do banco
 

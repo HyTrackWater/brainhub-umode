@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Colmeia · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/colmeia
+  - status/churn
 ---
 # Colmeia · Demandas — índice
 

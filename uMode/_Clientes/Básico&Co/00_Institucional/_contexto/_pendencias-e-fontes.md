@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Básico&Co · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/basico-co
+  - status/churn
 ---
 # Básico&Co · Pendências e fontes varridas
 

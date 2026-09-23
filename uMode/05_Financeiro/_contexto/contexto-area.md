@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Financeiro · Contexto de área"
+tags:
+  - tipo/area
+  - casa
+  - area/financeiro
 ---
 # Financeiro · Contexto de área
 

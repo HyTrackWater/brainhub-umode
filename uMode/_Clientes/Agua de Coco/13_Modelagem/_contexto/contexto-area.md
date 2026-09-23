@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Agua de Coco"
+tags:
+  - tipo/area
+  - cliente/agua-de-coco
+  - status/inativo
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Agua de Coco
 

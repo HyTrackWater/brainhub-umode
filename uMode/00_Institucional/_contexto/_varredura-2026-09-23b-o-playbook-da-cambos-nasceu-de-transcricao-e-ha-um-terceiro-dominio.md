@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 23 set 2026 (b) — o playbook da Cambos nasceu de transcrição, e há um terceiro domínio de documentação"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 23 set 2026 (b) — o playbook da Cambos nasceu de transcrição, e há um terceiro domínio de documentação
 

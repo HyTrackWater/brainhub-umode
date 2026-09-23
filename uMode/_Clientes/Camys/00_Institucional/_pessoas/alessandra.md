@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Camys · Pessoa · DIGITAL, SAC & INSIDe"
+tags:
+  - tipo/pessoa
+  - cliente/camys
+  - status/sem-cs
 ---
 # Camys · Pessoa · DIGITAL, SAC & INSIDe
 

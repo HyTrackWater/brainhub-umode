@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Marketing · Contexto de área — Studio Z"
+tags:
+  - tipo/area
+  - cliente/studio-z
+  - status/churn
+  - area/marketing
 ---
 # Marketing · Contexto de área — Studio Z
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Texneo · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/texneo
+  - status/churn
 ---
 # Texneo · Jornada
 

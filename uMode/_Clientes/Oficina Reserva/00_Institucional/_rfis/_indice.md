@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Oficina Reserva · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/oficina-reserva
+  - status/ongoing
 ---
 # Oficina Reserva · RFIs — índice
 

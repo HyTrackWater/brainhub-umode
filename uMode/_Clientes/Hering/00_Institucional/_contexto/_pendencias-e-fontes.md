@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Hering · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/hering
+  - status/pre-onboardings
 ---
 # Hering · Pendências e fontes varridas
 

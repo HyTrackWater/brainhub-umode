@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · pedro pereira"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · pedro pereira
 

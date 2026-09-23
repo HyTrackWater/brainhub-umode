@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Pessoa · Catherine"
+tags:
+  - tipo/pessoa
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Pessoa · Catherine
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Recco"
+tags:
+  - tipo/area
+  - cliente/recco
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Recco
 

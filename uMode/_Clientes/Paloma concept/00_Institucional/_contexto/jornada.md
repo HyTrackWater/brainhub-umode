@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Paloma concept · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/paloma-concept
+  - status/inativo
 ---
 # Paloma concept · Jornada
 

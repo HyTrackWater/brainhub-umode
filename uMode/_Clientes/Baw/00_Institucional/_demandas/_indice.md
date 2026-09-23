@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Baw · Demandas — índice"
+tags:
+  - tipo/indice
+  - cliente/baw
+  - status/sem-cs
 ---
 # Baw · Demandas — índice
 

@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Recco · Pessoa · Priscila"
+tags:
+  - tipo/pessoa
+  - cliente/recco
+  - status/churn
 ---
 # Recco · Pessoa · Priscila
 

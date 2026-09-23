@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · mirella andrade"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · mirella andrade
 

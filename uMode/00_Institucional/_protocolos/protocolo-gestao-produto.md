@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Protocolo · Gestão de Produto (Solução do Portfólio)"
+tags:
+  - tipo/protocolo
+  - casa
 ---
 # Protocolo · Gestão de Produto (Solução do Portfólio)
 

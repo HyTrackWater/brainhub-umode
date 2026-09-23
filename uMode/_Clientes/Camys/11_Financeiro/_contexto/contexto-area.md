@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Financeiro · Contexto de área — Camys"
+tags:
+  - tipo/area
+  - cliente/camys
+  - status/sem-cs
+  - area/financeiro
 ---
 # Financeiro · Contexto de área — Camys
 

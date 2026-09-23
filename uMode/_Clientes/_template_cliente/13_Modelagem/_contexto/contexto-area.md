@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Modelagem · Contexto de área"
+tags:
+  - tipo/template
+  - area/modelagem
 ---
 # Modelagem · Contexto de área
 

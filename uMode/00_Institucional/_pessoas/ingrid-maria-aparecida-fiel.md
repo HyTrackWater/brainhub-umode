@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ingrid Maria Aparecida Fiel · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Ingrid Maria Aparecida Fiel · Pessoa
 

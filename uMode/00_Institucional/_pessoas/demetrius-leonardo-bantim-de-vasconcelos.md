@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Demetrius Leonardo Bantim de Vasconcelos · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Demetrius Leonardo Bantim de Vasconcelos · Pessoa
 

@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Planejamento · Contexto de área — Puket"
+tags:
+  - tipo/area
+  - cliente/puket
+  - status/ongoing
+  - area/planejamento
 ---
 # Planejamento · Contexto de área — Puket
 

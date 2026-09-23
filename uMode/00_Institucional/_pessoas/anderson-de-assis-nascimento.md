@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Anderson de Assis Nascimento · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Anderson de Assis Nascimento · Pessoa
 

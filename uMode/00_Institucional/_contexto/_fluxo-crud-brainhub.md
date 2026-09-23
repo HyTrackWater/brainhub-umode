@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Plano de funcionamento do BrainHub no banco — hierarquias, endereçamentos e demandas"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # Plano de funcionamento do BrainHub no banco — hierarquias, endereçamentos e demandas
 

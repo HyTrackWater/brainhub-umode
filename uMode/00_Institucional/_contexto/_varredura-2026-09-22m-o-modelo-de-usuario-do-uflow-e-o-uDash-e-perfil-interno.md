@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Varredura 22 set 2026 (m) — o modelo de usuário do uFlow, e `uDash` é perfil interno"
+tags:
+  - tipo/registro
+  - casa
 ---
 # Varredura 22 set 2026 (m) — o modelo de usuário do uFlow, e `uDash` é perfil interno
 

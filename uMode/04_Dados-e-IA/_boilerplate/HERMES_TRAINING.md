@@ -1,6 +1,9 @@
 ---
 aliases:
   - "HERMES_TRAINING.md — Treinamento persistente da esteira SmartCoding `[P]`"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # HERMES_TRAINING.md — Treinamento persistente da esteira SmartCoding `[P]`
 

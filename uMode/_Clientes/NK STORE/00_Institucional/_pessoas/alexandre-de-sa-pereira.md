@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NK STORE · Pessoa · Alexandre de Sá Pereira"
+tags:
+  - tipo/pessoa
+  - cliente/nk-store
+  - status/ongoing
 ---
 # NK STORE · Pessoa · Alexandre de Sá Pereira
 

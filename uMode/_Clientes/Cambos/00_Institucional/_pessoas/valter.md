@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoa · Valter"
+tags:
+  - tipo/pessoa
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoa · Valter
 

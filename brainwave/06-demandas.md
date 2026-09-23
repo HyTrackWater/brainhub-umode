@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Prompt de execução — BrainWave · Tarefa 06: aba 'Demandas' (com RFI dobrada dentro)"
+tags:
+  - tipo/frente-brainwave
 ---
 # Prompt de execução — BrainWave · Tarefa 06: aba "Demandas" (com RFI dobrada dentro)
 

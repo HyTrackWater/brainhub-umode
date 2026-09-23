@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Texneo · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/texneo
+  - status/churn
 ---
 # Texneo · Pendências e fontes varridas
 

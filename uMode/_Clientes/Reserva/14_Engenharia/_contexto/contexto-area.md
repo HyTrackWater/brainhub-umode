@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Reserva"
+tags:
+  - tipo/area
+  - cliente/reserva
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Reserva
 

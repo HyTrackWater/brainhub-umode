@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Integração"
+tags:
+  - tipo/integracao
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Integração
 

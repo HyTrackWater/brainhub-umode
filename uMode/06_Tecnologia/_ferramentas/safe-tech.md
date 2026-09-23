@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Safe Tech · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Safe Tech · Ferramenta
 

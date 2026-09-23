@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Phos · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/phos
+  - status/churn
 ---
 # Phos · Pessoas
 

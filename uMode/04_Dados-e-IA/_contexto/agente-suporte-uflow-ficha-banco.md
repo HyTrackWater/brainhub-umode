@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Ficha de inserção no banco — Agente de Suporte Técnico uFlow"
+tags:
+  - tipo/agente
+  - casa
 ---
 # Ficha de inserção no banco — Agente de Suporte Técnico uFlow
 

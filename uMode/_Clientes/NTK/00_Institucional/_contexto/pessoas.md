@@ -1,6 +1,10 @@
 ---
 aliases:
   - "NTK · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/ntk
+  - status/churn
 ---
 # NTK · Pessoas
 

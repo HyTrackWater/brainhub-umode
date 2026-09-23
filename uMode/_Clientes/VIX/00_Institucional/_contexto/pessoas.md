@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Pessoas
 

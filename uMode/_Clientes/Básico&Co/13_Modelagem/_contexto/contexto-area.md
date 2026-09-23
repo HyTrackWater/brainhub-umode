@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Modelagem · Contexto de área — Básico&Co"
+tags:
+  - tipo/area
+  - cliente/basico-co
+  - status/churn
+  - area/modelagem
 ---
 # Modelagem · Contexto de área — Básico&Co
 

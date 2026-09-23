@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Gestão de Coleção · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # Gestão de Coleção · Ferramenta
 

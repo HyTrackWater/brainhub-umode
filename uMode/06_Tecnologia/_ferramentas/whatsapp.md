@@ -1,6 +1,9 @@
 ---
 aliases:
   - "WhatsApp · Ferramenta"
+tags:
+  - tipo/ferramenta
+  - casa
 ---
 # WhatsApp · Ferramenta
 

@@ -8,108 +8,129 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "file:AGORA.md OR file:START.md OR file:CONTEXT.md OR file:STATE.md OR file:CLAUDE.md OR file:README.md",
+      "query": "tag:#tipo/governanca",
       "color": {
         "a": 1,
         "rgb": 16777215
       }
     },
     {
-      "query": "path:_protocolos",
+      "query": "tag:#tipo/protocolo",
       "color": {
         "a": 1,
         "rgb": 11566312
       }
     },
     {
-      "query": "path:_varredura- OR path:_levantamento- OR path:_recebido-",
+      "query": "tag:#tipo/registro",
       "color": {
         "a": 1,
         "rgb": 9079434
       }
     },
     {
-      "query": "file:_pendencias-e-fontes.md",
-      "color": {
-        "a": 1,
-        "rgb": 14248624
-      }
-    },
-    {
-      "query": "path:uMode/00_Institucional/_contexto/_",
+      "query": "tag:#tipo/autoridade",
       "color": {
         "a": 1,
         "rgb": 15253852
       }
     },
     {
-      "query": "path:_pessoas/",
+      "query": "tag:#tipo/diario",
       "color": {
         "a": 1,
-        "rgb": 5032359
+        "rgb": 14248624
       }
     },
     {
-      "query": "path:_ferramentas/",
+      "query": "tag:#tipo/agente",
       "color": {
         "a": 1,
-        "rgb": 15232844
+        "rgb": 16731469
       }
     },
     {
-      "query": "path:03_Produto-e-Solucoes",
-      "color": {
-        "a": 1,
-        "rgb": 15223963
-      }
-    },
-    {
-      "query": "path:_demandas/",
-      "color": {
-        "a": 1,
-        "rgb": 5012976
-      }
-    },
-    {
-      "query": "path:_rfis/",
-      "color": {
-        "a": 1,
-        "rgb": 8366325
-      }
-    },
-    {
-      "query": "file:contexto-area.md",
-      "color": {
-        "a": 1,
-        "rgb": 10217548
-      }
-    },
-    {
-      "query": "file:institucional.md",
+      "query": "tag:#tipo/institucional",
       "color": {
         "a": 1,
         "rgb": 16109568
       }
     },
     {
-      "query": "file:jornada.md",
+      "query": "tag:#tipo/area",
       "color": {
         "a": 1,
-        "rgb": 13081134
+        "rgb": 10217548
       }
     },
     {
-      "query": "file:pessoas.md",
+      "query": "tag:#tipo/pessoa",
+      "color": {
+        "a": 1,
+        "rgb": 5032359
+      }
+    },
+    {
+      "query": "tag:#tipo/pessoas",
       "color": {
         "a": 1,
         "rgb": 3122042
       }
     },
     {
-      "query": "file:integracao.md",
+      "query": "tag:#tipo/jornada",
+      "color": {
+        "a": 1,
+        "rgb": 13081134
+      }
+    },
+    {
+      "query": "tag:#tipo/integracao",
       "color": {
         "a": 1,
         "rgb": 49092
+      }
+    },
+    {
+      "query": "tag:#tipo/demanda",
+      "color": {
+        "a": 1,
+        "rgb": 5012976
+      }
+    },
+    {
+      "query": "tag:#tipo/rfi",
+      "color": {
+        "a": 1,
+        "rgb": 8366325
+      }
+    },
+    {
+      "query": "tag:#tipo/solucao",
+      "color": {
+        "a": 1,
+        "rgb": 15223963
+      }
+    },
+    {
+      "query": "tag:#tipo/ferramenta",
+      "color": {
+        "a": 1,
+        "rgb": 15232844
+      }
+    },
+    {
+      "query": "tag:#tipo/indice",
+      "color": {
+        "a": 1,
+        "rgb": 5921370
+      }
+    },
+    {
+      "query": "tag:#tipo/template",
+      "color": {
+        "a": 1,
+        "rgb": 4013373
       }
     }
   ],

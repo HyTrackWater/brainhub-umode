@@ -1,6 +1,9 @@
 ---
 aliases:
   - "AUDITOR.md — Auditor Independente"
+tags:
+  - tipo/frente-boilerplate
+  - casa
 ---
 # AUDITOR.md — Auditor Independente
 

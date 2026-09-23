@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Caedu"
+tags:
+  - tipo/area
+  - cliente/caedu
+  - status/ongoing
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Caedu
 

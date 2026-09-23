@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Vivara · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/vivara
+  - status/churn
 ---
 # Vivara · Pessoas
 

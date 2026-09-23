@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — TDC"
+tags:
+  - tipo/area
+  - cliente/tdc
+  - status/sem-cs
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — TDC
 

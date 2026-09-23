@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Jornada
 

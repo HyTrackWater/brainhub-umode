@@ -1,3 +1,9 @@
+---
+aliases:
+  - "_indice/ — índice derivado do cérebro"
+tags:
+  - tipo/outro
+---
 # _indice/ — índice derivado do cérebro
 
 > **Gerado por `scripts/gen-indice.ps1` em 03 ago 2026. Não editar a mão.**

@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Logistica / CD · Contexto de área"
+tags:
+  - tipo/template
+  - area/logistica-cd
 ---
 # Logistica / CD · Contexto de área
 

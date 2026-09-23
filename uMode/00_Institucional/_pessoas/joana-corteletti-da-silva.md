@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Joana Corteletti da Silva · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Joana Corteletti da Silva · Pessoa
 

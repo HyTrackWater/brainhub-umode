@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Estrela · Jornada"
+tags:
+  - tipo/jornada
+  - cliente/estrela
+  - status/churn
 ---
 # Estrela · Jornada
 

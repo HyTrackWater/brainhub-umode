@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · beatriz netto"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · beatriz netto
 

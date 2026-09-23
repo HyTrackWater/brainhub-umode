@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Ricardo Almeida · Pessoas"
+tags:
+  - tipo/pessoas
+  - cliente/ricardo-almeida
+  - status/churn
 ---
 # Ricardo Almeida · Pessoas
 

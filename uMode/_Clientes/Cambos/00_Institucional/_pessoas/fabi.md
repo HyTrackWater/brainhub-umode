@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoa · Fabi"
+tags:
+  - tipo/pessoa
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoa · Fabi
 

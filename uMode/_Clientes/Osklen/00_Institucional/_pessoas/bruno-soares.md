@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Osklen · Pessoa · Bruno Soares"
+tags:
+  - tipo/pessoa
+  - cliente/osklen
+  - status/operacao-assistida
 ---
 # Osklen · Pessoa · Bruno Soares
 

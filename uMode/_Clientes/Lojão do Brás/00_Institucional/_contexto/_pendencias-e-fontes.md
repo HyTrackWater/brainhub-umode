@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Lojão do Brás · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/lojao-do-bras
+  - status/churn
 ---
 # Lojão do Brás · Pendências e fontes varridas
 

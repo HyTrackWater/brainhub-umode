@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Engenharia · Contexto de área — Cavallari"
+tags:
+  - tipo/area
+  - cliente/cavallari
+  - status/sem-cs
+  - area/engenharia
 ---
 # Engenharia · Contexto de área — Cavallari
 

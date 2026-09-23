@@ -1,6 +1,10 @@
 ---
 aliases:
   - "🔴 SUPERSEDED — Lofty Style · Demandas — staging bruto (Notion)"
+tags:
+  - tipo/demanda
+  - cliente/lofty-style
+  - status/ongoing
 ---
 ﻿# 🔴 SUPERSEDED — Lofty Style · Demandas — staging bruto (Notion)
 

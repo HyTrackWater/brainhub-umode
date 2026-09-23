@@ -1,6 +1,10 @@
 ---
 aliases:
   - "VIX · Pendências e fontes varridas"
+tags:
+  - tipo/diario
+  - cliente/vix
+  - status/ongoing
 ---
 # VIX · Pendências e fontes varridas
 

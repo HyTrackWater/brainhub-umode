@@ -1,6 +1,9 @@
 ---
 aliases:
   - "PROPOSTA — revisão da grade de áreas canônicas de cliente"
+tags:
+  - tipo/autoridade
+  - casa
 ---
 # PROPOSTA — revisão da grade de áreas canônicas de cliente
 

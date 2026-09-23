@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Loungerie · Institucional"
+tags:
+  - tipo/institucional
+  - cliente/loungerie
+  - status/onboarding
 ---
 # Loungerie · Institucional
 

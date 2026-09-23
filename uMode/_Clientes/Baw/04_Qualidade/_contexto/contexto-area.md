@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Qualidade · Contexto de área — Baw"
+tags:
+  - tipo/area
+  - cliente/baw
+  - status/sem-cs
+  - area/qualidade
 ---
 # Qualidade · Contexto de área — Baw
 

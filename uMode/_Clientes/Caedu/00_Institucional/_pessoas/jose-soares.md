@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · jose soares"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · jose soares
 

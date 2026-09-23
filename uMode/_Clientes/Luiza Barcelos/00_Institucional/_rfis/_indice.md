@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Luiza Barcelos · RFIs — índice"
+tags:
+  - tipo/indice
+  - cliente/luiza-barcelos
+  - status/ongoing
 ---
 # Luiza Barcelos · RFIs — índice
 

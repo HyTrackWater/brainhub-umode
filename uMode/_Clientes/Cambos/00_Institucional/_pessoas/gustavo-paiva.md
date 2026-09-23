@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Cambos · Pessoa · Gustavo Paiva"
+tags:
+  - tipo/pessoa
+  - cliente/cambos
+  - status/ongoing
 ---
 # Cambos · Pessoa · Gustavo Paiva
 

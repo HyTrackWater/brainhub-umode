@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · Carolina Marchetti"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · Carolina Marchetti
 

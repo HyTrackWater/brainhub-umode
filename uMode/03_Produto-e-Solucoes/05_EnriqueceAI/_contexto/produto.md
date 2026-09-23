@@ -1,6 +1,9 @@
 ---
 aliases:
   - "EnriqueceAI · Produto"
+tags:
+  - tipo/solucao
+  - casa
 ---
 # EnriqueceAI · Produto
 

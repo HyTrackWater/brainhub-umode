@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Marcela Rayna Vasco Ripoli · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Marcela Rayna Vasco Ripoli · Pessoa
 

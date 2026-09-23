@@ -1,6 +1,11 @@
 ---
 aliases:
   - "Design · Contexto de área — Lenny Niemeyer"
+tags:
+  - tipo/area
+  - cliente/lenny-niemeyer
+  - status/churn
+  - area/design
 ---
 # Design · Contexto de área — Lenny Niemeyer
 

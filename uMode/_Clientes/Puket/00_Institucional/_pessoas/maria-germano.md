@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Puket · Pessoa · maria germano"
+tags:
+  - tipo/pessoa
+  - cliente/puket
+  - status/ongoing
 ---
 # Puket · Pessoa · maria germano
 

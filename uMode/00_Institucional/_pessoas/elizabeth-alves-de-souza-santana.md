@@ -1,6 +1,9 @@
 ---
 aliases:
   - "Elizabeth Alves de Souza Santana · Pessoa"
+tags:
+  - tipo/pessoa
+  - casa
 ---
 # Elizabeth Alves de Souza Santana · Pessoa
 

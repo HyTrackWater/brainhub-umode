@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Caedu · Pessoa · EMILLY"
+tags:
+  - tipo/pessoa
+  - cliente/caedu
+  - status/ongoing
 ---
 # Caedu · Pessoa · EMILLY
 
