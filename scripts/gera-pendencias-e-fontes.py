@@ -435,6 +435,13 @@ PEND = {
          u"preenchimento"),
     ],
     u"Baw": [
+        (u"🔺 **CORREÇÃO — eu contei uma evidência a mais.** O "
+         u"`entity_id` da Baw é **3344**, e uma query de validação de mai/2026 esperava "
+         u"**41 usuários ativos e 16 roles**. **Eu li isso como sexta evidência, "
+         u"quantitativa, de má classificação.** Vinícius corrigiu: *é dado do banco, "
+         u"não é relevante no contexto*. `[D]` **É fixture de teste, não medição de "
+         u"conta.** 🔴 **A má classificação da Baw segue com CINCO evidências "
+         u"qualitativas, não seis.**", u"T2", u"nada — corrigido"),
         (u"\U0001F534 **`Negocia\u00e7\u00e3o p\u00f3s AR&CO | 23/01/25`** \u2014 **a Baw \u00e9 o "
          u"TERCEIRO cliente ligado ao Grupo AR&CO**, com Reserva e Oficina Reserva (e Arezzo "
          u"citada na dor da Oficina). \u26a0 **Pode explicar por que est\u00e1 `Sem CS` com 4 "
@@ -556,6 +563,39 @@ PEND = {
          u"nenhuma base.", u"T2", u"tempo de varredura"),
     ],
     u"Cambos": [
+        (u"🔺 **A Cambos QUEBRA a hipótese do `Manual` bloqueado.** Eu tinha "
+         u"escrito *dois de dois: hipótese forte* com VIX e Luiza Barcelos. **Na Cambos, "
+         u"`Manual` e `Base de Importação` estão LIBERADOS para os 5 perfis.** "
+         u"🔴 **Dois bloqueados, um liberado: não é padrão, é configuração "
+         u"por cliente.** ⚠ **E na Oficina a linha nem existe.**", u"T2",
+         u"nada — hipótese derrubada"),
+        (u"🆕 **A integração SPI tem TELAS PRÓPRIAS no uFlow**, com prefixo "
+         u"`[SPI]`: `Aviamentos Pendentes`, `Cores Pendentes`, `Banhos Pendentes`, "
+         u"`Fornecedores Pendentes`, `Produtos Pendentes`. 🔴 **A plataforma tem "
+         u"tela feita sob medida para o ERP de UM cliente.**", u"T2",
+         u"— muda a leitura do que é ‘integração’"),
+        (u"🔴 **`Novo Pedido (só a Cambos tem)`** — funcionalidade exclusiva de um "
+         u"cliente, **e está 🔴 bloqueada para os cinco perfis**. "
+         u"⚠ **Construída, exclusiva, e desligada.**", u"T2", u"conferência"),
+        (u"🆕 **O cliente RENOMEOU as abas da ficha de produto**, em caixa alta e "
+         u"com vocabulário próprio: `COSTURA E BORDADO`, `TAMANHOS PILOTO (Grade)`, "
+         u"`QTD PARA PILOTAR (Lote)`, `FABRICAÇÃO (Fornecedor)`, `APROVAÇÕES DA PILOTO`, "
+         u"`ORIGINAL`, `INTEGRAÇÃO SPI`. **É o *apelido interno* da Arquitetura V1 "
+         u"acontecendo de verdade** — o termo canônico entre parênteses, o do cliente "
+         u"na frente.", u"T2", u"—"),
+        (u"🆕 **Há uma `Planilha com os usuários ativos`** no Google Sheets, "
+         u"linkada no topo da página. ⚠ **Não aberta** — pode ser a lista de pessoas "
+         u"que falta.", u"T2", u"tempo de varredura"),
+        (u"⚠ **O mesmo perfil tem dois nomes na mesma página:** `Cambos - Time "
+         u"Desenvolvimento` na primeira tabela e `Cambos - Desenvolvimento` na segunda. "
+         u"**Não escolhi um.**", u"T2", u"conferência"),
+        (u"🟢 **`Fale com o Suporte` liberado para os 5 perfis** — quarto cliente. "
+         u"**O placar fica 2 bloqueados (Luiza Barcelos, Lenny) × 3 liberados (VIX, Oficina, "
+         u"Cambos).**", u"T2", u"pergunta já registrada"),
+        (u"🔴 **`Tabela Dinâmica`, `Composição de Custo`, `Coordenado`, `Estampa`, "
+         u"`Tag`, `Pack` e `Campo Personalizado` estão bloqueados para TODOS os perfis.** "
+         u"⚠ **Mesmo conjunto que aparece bloqueado na Oficina Reserva** — dois casos, "
+         u"pode ser função que ninguém usa.", u"T2", u"conferência de produto"),
         (u"\U0001F7E2 **Bloco `Pessoas` PREENCHIDO \u2014 segundo caso da carteira**, junto da "
          u"NK STORE. 5 pessoas com cargo: Tony Stefan Lopes (Gerente Geral/Diretor de "
          u"Opera\u00e7\u00e3o da F\u00e1brica), Valter (Head Financeiro), Fabiane Sayuri (Desenv. de "

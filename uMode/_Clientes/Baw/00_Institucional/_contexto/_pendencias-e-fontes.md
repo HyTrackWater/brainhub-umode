@@ -38,12 +38,13 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🔴 **`Negociação pós AR&CO | 23/01/25`** — **a Baw é o TERCEIRO cliente ligado ao Grupo AR&CO**, com Reserva e Oficina Reserva (e Arezzo citada na dor da Oficina). ⚠ **Pode explicar por que está `Sem CS` com 4 módulos: entrou pelo pacote do grupo.** | `T2` | confirmação do Vinícius |
-| 2 | 🆕 **`[BAW] Contrato 2025`** — **primeiro documento de contrato nomeado da carteira.** 🔴 **Não abri, e quando abrir o conteúdo é `T1`.** | `T1` | tempo de varredura |
-| 3 | 🔴 **Tem o módulo `Integração` contratado e o ERP diz `Sem Integração`.** Os dois não podem estar certos. | `T2` | pergunta registrada |
-| 4 | ⚠ **QUATRO páginas `Perfil de Acesso - BAW`**, uma delas duplicata explícita `(1)`, e duas por área (`Estilo`, `Engenharia/Compras`). **Mesmo padrão de duplicata `(1)` da Osklen.** | `T2` | limpeza |
-| 5 | 🆕 **`Projeto Reciclagem BAW`** — projeto próprio, fora de qualquer base. | `T2` | tempo de varredura |
-| 6 | ⚠ **Sem bloco `Pessoas` e sem etapa do processo.** O corpus tem 3 fichas, todas da base de demandas, **sem cargo**. | `T2` | preenchimento |
+| 1 | 🔺 **CORREÇÃO — eu contei uma evidência a mais.** O `entity_id` da Baw é **3344**, e uma query de validação de mai/2026 esperava **41 usuários ativos e 16 roles**. **Eu li isso como sexta evidência, quantitativa, de má classificação.** Vinícius corrigiu: *é dado do banco, não é relevante no contexto*. `[D]` **É fixture de teste, não medição de conta.** 🔴 **A má classificação da Baw segue com CINCO evidências qualitativas, não seis.** | `T2` | nada — corrigido |
+| 2 | 🔴 **`Negociação pós AR&CO | 23/01/25`** — **a Baw é o TERCEIRO cliente ligado ao Grupo AR&CO**, com Reserva e Oficina Reserva (e Arezzo citada na dor da Oficina). ⚠ **Pode explicar por que está `Sem CS` com 4 módulos: entrou pelo pacote do grupo.** | `T2` | confirmação do Vinícius |
+| 3 | 🆕 **`[BAW] Contrato 2025`** — **primeiro documento de contrato nomeado da carteira.** 🔴 **Não abri, e quando abrir o conteúdo é `T1`.** | `T1` | tempo de varredura |
+| 4 | 🔴 **Tem o módulo `Integração` contratado e o ERP diz `Sem Integração`.** Os dois não podem estar certos. | `T2` | pergunta registrada |
+| 5 | ⚠ **QUATRO páginas `Perfil de Acesso - BAW`**, uma delas duplicata explícita `(1)`, e duas por área (`Estilo`, `Engenharia/Compras`). **Mesmo padrão de duplicata `(1)` da Osklen.** | `T2` | limpeza |
+| 6 | 🆕 **`Projeto Reciclagem BAW`** — projeto próprio, fora de qualquer base. | `T2` | tempo de varredura |
+| 7 | ⚠ **Sem bloco `Pessoas` e sem etapa do processo.** O corpus tem 3 fichas, todas da base de demandas, **sem cargo**. | `T2` | preenchimento |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 

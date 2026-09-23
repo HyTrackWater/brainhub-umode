@@ -3001,3 +3001,40 @@
 471. **⚠ Validação citada com `entity_id = 3344`**, esperando **41 usuários ativos e 16 roles
      ativas**. ⚠ **Não sei qual conta é** — e o `entity_id` é a chave que ligaria o corpus à
      plataforma.
+
+## A correção do entity_id, e a Cambos derrubando uma hipótese (22 set 2026)
+
+472. **🔺 CORREÇÃO — eu transformei um identificador técnico em leitura de negócio.**
+     O Vinícius confirmou que `entity_id = 3344` é a Baw **e corrigiu o uso que eu fiz disso**:
+     *"É dado do banco. Não é relevante essa informação no contexto. Somente pra você identificar
+     de onde era o contexto que está consultando."* `[D]`
+     **Eu tinha escrito que os "41 usuários ativos e 16 roles" eram a SEXTA evidência, e a
+     primeira quantitativa, de que a Baw está mal classificada.** São **contagem esperada de uma
+     query de validação** — fixture de teste de mai/2026, não medição de conta.
+     🔴 **A má classificação da Baw segue com CINCO evidências qualitativas, não seis.**
+     **O erro é primo do de tratar estado em sistema descontinuado como estado.**
+     **Removidas as duas perguntas que nasceram dele.**
+473. **🔺 A Cambos DERRUBA a hipótese do `Manual` bloqueado.** Eu tinha escrito *"dois de dois:
+     hipótese forte"* com VIX e Luiza Barcelos. **Na Cambos, `Manual` e `Base de Importação`
+     estão LIBERADOS para os 5 perfis.** ⚠ **E na Oficina Reserva a linha nem existe.**
+     🔴 **Dois bloqueados, um liberado, um ausente: não é padrão, é configuração por cliente.**
+     **Foi bom ter escrito "hipótese" e não "padrão".**
+474. **🆕 A integração SPI tem TELAS PRÓPRIAS no uFlow**, com prefixo `[SPI]`:
+     `Aviamentos Pendentes` · `Cores Pendentes` · `Banhos Pendentes` · `Fornecedores Pendentes` ·
+     `Produtos Pendentes`. 🔴 **A plataforma tem tela feita sob medida para o ERP de UM cliente.**
+     **Isso muda a leitura do que "módulo Integração" significa.**
+475. **🔴 `Novo Pedido (só a Cambos tem)` — funcionalidade exclusiva de um cliente, e está
+     BLOQUEADA para os cinco perfis.** **Construída, exclusiva, e desligada.**
+476. **🆕 O cliente RENOMEOU as abas da ficha de produto**, em caixa alta e com vocabulário
+     próprio: `COSTURA E BORDADO` · `TAMANHOS PILOTO (Grade)` · `QTD PARA PILOTAR (Lote)` ·
+     `FABRICAÇÃO (Fornecedor)` · `APROVAÇÕES DA PILOTO` · `ORIGINAL` · `INTEGRAÇÃO SPI`.
+     🟢 **É o "apelido interno" do princípio nº 1 da Arquitetura V1 acontecendo de verdade** —
+     o termo canônico entre parênteses, o do cliente na frente. **Primeira evidência concreta
+     desse princípio no corpus.**
+477. **🆕 Há uma `Planilha com os usuários ativos` da Cambos no Google Sheets**, linkada no topo
+     da página de perfil. ⚠ **Não aberta — pode ser a lista de pessoas que falta.**
+478. **⚠ O mesmo perfil tem dois nomes na mesma página da Cambos:** `Cambos - Time
+     Desenvolvimento` na primeira tabela, `Cambos - Desenvolvimento` na segunda. **Não escolhi um.**
+479. **🔴 Sete funções bloqueadas para TODOS os perfis, em dois clientes** (Cambos e Oficina
+     Reserva): `Tabela Dinâmica` · `Composição de Custo` · `Coordenado` · `Estampa` · `Tag` ·
+     `Pack` · `Campo Personalizado`. ⚠ **Dois casos: pode ser função que ninguém usa.**

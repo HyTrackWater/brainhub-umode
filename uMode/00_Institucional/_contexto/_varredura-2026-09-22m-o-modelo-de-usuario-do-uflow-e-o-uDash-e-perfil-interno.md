@@ -99,10 +99,35 @@ precisa dizer qual das duas está usando.**
 |---|---|
 | Dash: lista de contas válidas da uMode | ⬜ **não feito** |
 | Dash: gráfico mensal comparando as 15 maiores contas | ⬜ **não feito** |
-| Validação com `entity_id = 3344` | esperado **41 usuários ativos, 16 roles ativas** ⚠ **não sei qual conta é** |
+| Validação com `entity_id = 3344` | **41 usuários ativos, 16 roles ativas** — 🟢 **é a BAW**, confirmado pelo Vinícius em 22 set 2026 `[D]` |
 
 🆕 **`Flávia`** aparece como autora das sugestões. ⚠ **Não crio ficha: um nome de seção não é
 fonte suficiente** — mesma régua do Felipe Sindeaux, que só nasceu depois da confirmação.
+
+## 7 · 🔺 `entity_id = 3344` é a BAW — e eu tirei daí uma conclusão que não cabia
+
+**O Vinícius confirmou que `3344` é a Baw. E corrigiu o uso que eu fiz disso**, textual em
+22 set 2026: *"É dado do banco. Não é relevante essa informação no contexto. Somente pra você
+identificar de onde era o contexto que está consultando."* `[D]`
+
+> 🔴 **O que eu tinha escrito e está ERRADO:** que os *"41 usuários ativos e 16 roles
+> ativas"* eram a **sexta evidência, e a primeira quantitativa**, de que a Baw está mal
+> classificada.
+
+**Por que está errado:** aqueles números são **contagem esperada de uma query de validação**,
+escrita para conferir se o SQL devolvia o mesmo que uma planilha. É **fixture de teste**,
+no contexto de mai/2026. **Não é medição do estado da conta, e eu tratei como se fosse.**
+
+**O erro tem nome:** peguei um **identificador técnico dentro de um exemplo** e transformei em
+**leitura de negócio**. É primo do erro de tratar estado em sistema descontinuado como estado.
+
+### O que fica de verdade
+
+| | |
+|---|---|
+| `entity_id` | **chave do banco.** Serve para saber **de qual conta um exemplo fala** |
+| Os 41/16 | **número de conferência de query**, de mai/2026. **Não entra como fato de conta** |
+| A classificação da Baw | segue com **cinco** evidências qualitativas, **não seis** |
 
 ## Governança
 
