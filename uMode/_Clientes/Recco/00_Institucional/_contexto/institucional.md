@@ -58,8 +58,11 @@ aliases:
 `[a preencher]` — **campo vazio na base**
 
 ### Usuários da conta
-`[a preencher]`
+**7 pessoas com ficha própria** no corpus.
 
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
+
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Totvs`**.
 

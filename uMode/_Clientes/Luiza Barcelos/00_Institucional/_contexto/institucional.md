@@ -100,13 +100,7 @@ operação melhor que qualquer campo:
 > **Aqui alguém escreveu o que NÃO está incluso. Isso é boa prática e deveria ser padrão.**
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Laura Delgado** — atende **4 contas**: Luiza Barcelos, Cambos, Lofty Style e
-  Moda Objetiva. 🟢 **Nome completo confirmado** no relatório de incidente de 08/08/2025.
-- **2024:** duas pessoas registradas como relação — `[a preencher]`
-
-> **Também operam a conta, do lado uMode:** **Marina Santoro** (integração e solução) e
-> **Sandro** — ⚠ este último sem lado confirmado.
-
+**Laura** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

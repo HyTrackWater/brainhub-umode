@@ -54,8 +54,11 @@ aliases:
 `Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` — **4 de 7**
 
 ### Usuários da conta
-`[a preencher]`
+**7 pessoas com ficha própria** no corpus.
 
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
+
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Ilimitar`** — ⚠ **ERP raro na carteira**: só aparece aqui e na **Hering** (`Pré Onboardings`). **Dois clientes, mesmo ERP incomum.**
 

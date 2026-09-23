@@ -70,11 +70,11 @@ Projetos (2) · Planejamento · Operações · Controladoria · RH (2) · TI · 
 > Oficina Reserva (5). **Contradiz a leitura de que `Operação Assistida` seja um estágio menor.**
 
 ### Usuários da conta
-`[a preencher]` — **33 pessoas responderam à pesquisa de kick-off**, e **2 outras abriram chamado
-em jan/2026**. Ver [`pessoas.md`](pessoas.md).
+**46 pessoas com ficha própria** no corpus.
 
-> ⚠ Há um documento `Perfil de Usuários e Permissionamentos` **listado sem link** — ver abaixo.
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
 
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Linx`**.
 
@@ -83,9 +83,7 @@ ressalva no kick-off.** Há duas páginas chamadas **`Integração de Escrita - 
 — **duplicadas**, e não varridas.
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Julianne & Pedro** — dupla que atende **6 contas**.
-- **2024:** **três** pessoas registradas como relação — `[a preencher]`
-
+**Julianne + Pedro** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

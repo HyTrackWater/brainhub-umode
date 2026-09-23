@@ -69,24 +69,18 @@ domínio `usereserva.com`
 > Para comparação: Oficina Reserva e Osklen têm 5, a maioria tem 4, a Puket tem 2.
 
 ### Usuários da conta
-`[a preencher]` — 🔴 **a página da Reserva não tem tabela de usuários do PLM.**
+**13 pessoas com ficha própria** no corpus.
 
-> Esta é a diferença mais importante entre esta conta e Caedu/Puket: **o eixo pessoa↔área que
-> funcionou nos outros dois não existe aqui.** O que existe está em *Aliases de áreas*, abaixo, e
-> vem de outra fonte.
->
-> **8 pessoas de `@usereserva.com`** aparecem abrindo chamado em jan/2026 — ver
-> [`pessoas.md`](pessoas.md).
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
 
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Linx / SAP`** — dois ERPs. Há um grupo de WhatsApp chamado
 *"PROBLEMAS DIÁRIOS PA"* cujos participantes declarados são **SAP, Linx, Cadastro RSV e Cadastro
 Oficina** — **a convivência dos dois ERPs tem canal próprio e diário.**
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Fernanda** — que atende também NV e Oficina Reserva, **as três contas `Enterprise`**
-- **2024:** três pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
-
+**Fernanda** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

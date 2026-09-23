@@ -83,14 +83,11 @@ Bate com a sequência de kick-off registrada na página: **18/06** (kick-off int
 `Gestão de Coleção` · `Integração` · `Relatórios` · `Fornecedores` — **4 de 7**.
 
 ### Usuários da conta
-`[a preencher]` — **não há tabela de usuários do PLM na página.**
+**45 pessoas com ficha própria** no corpus.
 
-> Existe um documento **"Perfil de Usuário e Permissionamentos"**, **não varrido**, que é a fonte
-> mais provável da lista.
->
-> **10 pessoas** aparecem abrindo chamado em jan/2026, e **12 estão nomeadas com cargo** na
-> página — mas **os dois conjuntos quase não se sobrepõem**. Ver [`pessoas.md`](pessoas.md).
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
 
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Linx`** — com bancos de **homologação e produção** separados.
 🚨 **Credencial exposta na página de origem** — ver o alerta no topo.
@@ -99,13 +96,7 @@ Há um documento **"NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)
 o título indica que **a integração de escrita tem pendências em aberto desde maio de 2025**.
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Julianne & Pedro** — dupla que atende **6 contas**: NK STORE, Caedu, Puket, VIX,
-  Osklen e Loungerie.
-- **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
-
-**Outras pessoas da uMode citadas:** **Taís** e **Sandro** (foram a SP para o kick-off) ·
-**Nayra** (comprou as passagens) · **Marina** (citada num chamado de melhoria).
-
+**Julianne + Pedro** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

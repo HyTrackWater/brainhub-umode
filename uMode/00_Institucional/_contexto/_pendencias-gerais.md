@@ -3560,3 +3560,32 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      e os quatro validadores não acusaram diferença. Travado no `CONTEXT.md`.
      🔴 **Não resolve o rótulo do GRAFO** — só um plugin de terceiro resolveria, e **recusei**:
      seria o primeiro plugin do repositório e ficaria por máquina.
+
+## 🔺 A MEDIÇÃO DE COMPLETUDE QUE EU ERREI, e o mapa certo (23 set 2026)
+
+577. 🔺 **ERRO MEU, grave, corrigido no mesmo dia.** Eu reportei ao Vinicius que o corpus estava
+     **"6% preenchido"**, com `pessoas.md` a **0%** e `jornada.md` a **2%**. **Estava errado.**
+     A métrica contava só títulos `###`, e essas duas classes usam `##`. **Os números reais:**
+     `jornada.md` **67%** · `pessoas.md` **47%** · `contexto-area.md` **26%** ·
+     `institucional.md` **55%** (campos de folha).
+     🔴 **Eu quase fiz o Vinicius tomar decisão com número inventado por bug de medição.**
+     **Lição: métrica também é afirmação técnica e precisa de evidência antes de virar relatório.**
+578. 🟢 **O mapa certo do que está vazio, por CAMPO — não por arquivo.**
+     **No `institucional.md`**, o que falta é dado que **não temos fonte**:
+     `Receita anual` 4% · `O que fazem` 10% · `Para quem fazem` 10% · `Data de ativação` 12%
+     (⚠ **a própria base do Notion só tem em 6 de 50**).
+     **No `contexto-area.md`**, a camada de PESSOA já está **96%** (642 de 672) e
+     `O que levar ao negócio` **100%** — o que falta é a camada **operacional**:
+     `O que esta área faz` **4%** · `Como trabalham` **0%** · `Vocabulário da área` **0%** ·
+     `Termos específicos` **1%**. 🔴 **Isso não sai de base nenhuma: sai de reunião e entrevista.**
+     **É exatamente o que as 54 transcrições da CAEDU deveriam preencher.**
+579. 🟢 **27 campos preenchidos em 20 clientes com dado que já estava na mão:**
+     `Responsável de atendimento (uMode)` em 10 (do campo `Atendimento 2025` do Mapa de Clientes)
+     e `Usuários da conta` em 17 (contagem real de fichas de pessoa).
+     🔴 **Nenhum sobrescreveu conteúdo existente** — só preencheu onde estava `[a preencher]`.
+     ⚠ **E `Usuários da conta` ganhou ressalva obrigatória:** é **pessoa documentada**, não
+     **licença contratada** — os dois divergem por natureza e não se somam.
+580. 🔺 **`pessoas.md` NÃO precisava ser gerado.** Eu propus gerar os 48 a partir das fichas.
+     **Medindo direito: só 2 clientes têm ficha e `pessoas.md` pobre** — Hering (3 fichas, 31%) e
+     Mondepars (10 fichas, 38%). **CAEDU está a 93%, NK STORE 92%, Puket 88%, Luiza Barcelos 88%.**
+     **O trabalho que eu propus era de 2 arquivos, não de 48.**

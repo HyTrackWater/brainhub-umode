@@ -100,14 +100,11 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 > **Coerente.**
 
 ### Usuários da conta
-`[a preencher]` — existe uma página **`Perfil de Usuário e Permissionamentos OFICINA`**,
-**não varrida**.
+**7 pessoas com ficha própria** no corpus.
 
-**3 pessoas** aparecem em chamado em jan/2026. Ver [`pessoas.md`](pessoas.md).
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
 
-> 🔴 **A dor original dizia: *"Há apenas UMA pessoa dedicada ao cadastro"*.**
-> **Dois anos depois, três pessoas usam o sistema.** É pouco para 400 SKUs por coleção.
-
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`SAP e Linx`** — dois ERPs.
 
@@ -119,12 +116,7 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 > com muitas etapas entre SAP e Linx."* · *"**90% do tempo dedicado ao SAP**"* (pedido de compra).
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Fernanda** — atende as **3 contas `Enterprise`**: Oficina Reserva, Reserva e NV.
-- **2024:** **uma** pessoa registrada como relação — `[a preencher]`
-
-**Outras pessoas da uMode citadas:** **João** — escreveu a mensagem de Sales ·
-**Holmer** — nomeado como responsável pelos próximos passos.
-
+**Fernanda** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

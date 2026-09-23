@@ -54,11 +54,11 @@ de linha:** `Biquini`, `Cover ups`, `Roupas` e `PA` (produto acabado).
 > **A VIX e a Reserva são as únicas contas com o módulo `Aposta`.**
 
 ### Usuários da conta
-`[a preencher]` — **a página de permissionamento tem a matriz, mas não a lista nominal.**
-Diferente da NK, aqui **não há base de usuários embutida**.
+**6 pessoas com ficha própria** no corpus.
 
-**14 pessoas** aparecem abrindo chamado em jan/2026 — ver [`pessoas.md`](pessoas.md).
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
 
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Linx`**. Há um bloco datado **31/07/2025** com mapeamento de campo uMode ↔ Linx, citando
 tabelas e colunas reais do ERP (`PRODUTOS`, `PROP_PRODUTOS`).
@@ -69,13 +69,7 @@ tabelas e colunas reais do ERP (`PRODUTOS`, `PROP_PRODUTOS`).
 > **A integração aqui não é pano de fundo — é uma área de trabalho com dono.**
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Julianne & Pedro** — dupla que atende **6 contas**.
-- **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
-
-**Outras pessoas da uMode citadas nos chamados:** **Pedro** (mandou e-mail para confirmar
-identidade de uma usuária) · **Felipe** (tratou a VPN diretamente com o TI do cliente) ·
-**André** (liberou a inclusão de VIEW no campo descritivo).
-
+**Julianne + Pedro** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

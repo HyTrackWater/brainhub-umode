@@ -55,8 +55,11 @@ aliases:
 `Gestão de Coleção` — **1 de 7**
 
 ### Usuários da conta
-`[a preencher]`
+**6 pessoas com ficha própria** no corpus.
 
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
+
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Sem Integração`** — declarado na base.
 

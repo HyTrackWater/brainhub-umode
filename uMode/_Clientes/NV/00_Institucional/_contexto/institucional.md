@@ -70,9 +70,7 @@ Matéria-prima para Facção"*.
 **`Linx`** — ERP único. Integração ativa em **Produtos e Ficha Técnica**.
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Fernanda** — atende as 3 contas `Enterprise`: NV, Reserva e Oficina Reserva.
-- **2024:** três pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
-
+**Fernanda** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

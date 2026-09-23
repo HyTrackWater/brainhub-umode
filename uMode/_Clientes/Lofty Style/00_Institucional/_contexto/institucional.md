@@ -74,13 +74,11 @@ que é a fonte mais provável da descrição de processo.
 `Gestão de Coleção` · `Integração` · `Relatórios` · `Cronograma` — 4 de 7.
 
 ### Usuários da conta
-`[a preencher]` — há **duas** fontes de perfil não varridas:
-*Lofty Style | Perfil de Usuários e Permissionamentos* (Google) e
-*Perfil de Usuário e Permissionamentos* (Notion, criada em jan/2026).
+**28 pessoas com ficha própria** no corpus.
 
-> 🟢 **Mas esta conta tem algo que nenhuma outra tem: duas pesquisas de satisfação com
-> nome, e-mail e área.** **19 participações, 18 pessoas distintas.** Ver [`pessoas.md`](pessoas.md).
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
 
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 **`Linx`**. Há **documentação oficial de integração publicada em `docs.umode.app/integracao-lofty`**.
 
@@ -91,9 +89,7 @@ Há também duas páginas dedicadas a regra fiscal e a defeito:
 **`NCM e Código CEST`** e **`Exclusão de Variante após integração`**.
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Laura** — atende **4 contas**: Lofty Style, Cambos, Luiza Barcelos e Moda Objetiva.
-- **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
-
+**Laura** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

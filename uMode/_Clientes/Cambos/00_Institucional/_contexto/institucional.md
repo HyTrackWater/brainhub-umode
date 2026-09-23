@@ -88,11 +88,11 @@ Ongoing depois do Puket.**
 > **"Subentendido" num contrato é dívida esperando cobrança.** `[a preencher]` — **foi resolvido?**
 
 ### Usuários da conta
-`[a preencher]` — existe uma página **`Perfil de Usuário e Permissionamentos`**, **não varrida**.
+**8 pessoas com ficha própria** no corpus.
 
-**O discovery declara *"em torno de 20 pessoas"*** no processo de desenvolvimento.
-**5 pessoas estão nomeadas com cargo** e **3 aparecem em chamado**. Ver [`pessoas.md`](pessoas.md).
+> 🔴 **Isto é contagem de PESSOA DOCUMENTADA, não de licença contratada** — o número contratado está em `## Contrato › Usuários contratados`. **Os dois divergem por natureza** e não devem ser somados nem comparados sem olhar a fonte de cada um.
 
+> Índice: [`_pessoas/_indice.md`](../_pessoas/_indice.md)
 ### ERP / Integração
 🔴 **A base está incompleta.** O campo `ERP/Integração` diz apenas
 **`SPI - Sistema próprio da Cambos`**. **O discovery, na mesma página, descreve quatro sistemas:**
@@ -112,12 +112,7 @@ as informações para o SPI"*.
 > origem provável da dor de "cadastros paralelos" que o próprio cliente reporta.**
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Laura** — atende **4 contas**: Cambos, Lofty Style, Luiza Barcelos e Moda Objetiva.
-- **2024:** duas pessoas registradas como relação — `[a preencher]`
-
-**Outras pessoas da uMode citadas:** **Sandro** — deu feedback crítico sobre o warm-up (ver
-*Contexto crítico*).
-
+**Laura** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

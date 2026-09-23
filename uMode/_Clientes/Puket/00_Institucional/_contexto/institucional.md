@@ -100,10 +100,7 @@ Onboarding · Sem CS · Ongoing · Churn`.
 par com grafia diferente — **erro de taxonomia na origem**.)
 
 ### Responsável de atendimento (uMode)
-- **2025:** **Julianne & Pedro**
-- **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
-- ⚠ Há uma passada de bastão — ver *Contexto crítico*.
-
+**Julianne + Pedro** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
