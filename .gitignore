@@ -1,0 +1,26 @@
+# Estado LOCAL do Obsidian — muda a cada vez que alguém abre o cofre.
+# O que fica versionado é só o que define o cérebro para todo mundo:
+#   .obsidian/graph.json      — os 15 grupos de cor por entidade
+#   .obsidian/app.json        — força link relativo de markdown, nunca wikilink
+#   .obsidian/appearance.json — tema
+# O resto é preferência de quem abriu e não pertence ao repositório.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/core-plugins.json
+.obsidian/core-plugins-migration.json
+.obsidian/community-plugins.json
+.obsidian/hotkeys.json
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/snippets/
+.obsidian/canvas.json
+.obsidian/backlink.json
+.obsidian/page-preview.json
+.obsidian/starred.json
+.obsidian/bookmarks.json
+.obsidian/types.json
+
+# Cache e temporário
+__pycache__/
+*.pyc
+.trash/
