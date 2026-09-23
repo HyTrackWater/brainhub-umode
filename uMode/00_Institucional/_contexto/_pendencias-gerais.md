@@ -3176,3 +3176,48 @@
      🟢 **Confirma por fonte independente que `Sem CS` é SKU self-service**, não momento de jornada.
      ⚠ **A Baw contradiz:** `SMB` na segmentação, `Sem CS` no status, **mas com a Laura no
      atendimento**. Os três campos discordam.
+
+## A base de contratos do Financeiro — a terceira taxonomia (23 set 2026)
+
+508. 🔴 **Existe uma TERCEIRA taxonomia de ferramenta, e ela mistura níveis.** Além dos
+     **7 módulos** do uFlow e das **16 Soluções** do Portfólio, a planilha de contratos do
+     Financeiro tem **11 serviços faturados** — e na mesma coluna convivem **plataforma**
+     (`uFlow`, `uRocket`), **produto** (`uBuy`, `uPick`, `uPlan`, `Fashion IA`), **módulo**
+     (`Gestão de coleções`, `Reports`) e **serviço** (`Workshop`, `SaaS`, `IPSP`).
+     🔴 **A Loungerie aparece com `Gestão de coleções` e SEM `uFlow`** — sendo que o primeiro é
+     módulo do segundo. **Contar cliente de uFlow por essa coluna subconta.**
+     **Decisão: separamos na origem, ou traduzimos na entrada do corpus?**
+509. 🟢 **CONFIRMADO por fonte independente: o PlanejAI é `(contratado)` na Reserva, não piloto.**
+     `uPlan` → `PlanejAI` já estava travado no `CONTEXT.md`; a ficha do produto deixava o
+     qualificador pendente porque o ÍNDICE MESTRE não dizia. **A planilha de contratos diz.**
+     🔴 **Consequência:** uma solução `MVP`, rodando em Lovable, **já gera receita**.
+510. 🔴 **`uBuy` é o EnriqueceAI? Não afirmo — e o caso que impede é a Osklen.**
+     Reserva e NV têm `uBuy` (bate com o que o Vinicius apontou), **mas a Osklen também tem, e
+     ele não a citou.** ⚠ **E o nome legado registrado do EnriqueceAI é `CadastroAI`, que não
+     existe na base.** **Se `uBuy` não for ele, o EnriqueceAI não é faturado em lugar nenhum —
+     e esse é o gap de receita.** **Pergunta para o Comercial.**
+511. 🔴 **`Fashion IA` é receita ativa em 3 contas e tem ZERO ocorrência no corpus.**
+     `PUKET`, `AGUA DE COCO` e `LA MODA`. **Verificado por busca nos 2.513 `.md`.** Não é um dos
+     7 módulos nem uma das 16 Soluções. ⚠ **A Puket é das contas mais varridas que temos —
+     43 pessoas, página aberta — e nenhuma fonte dela menciona isso.**
+     **O que é `Fashion IA`? É uma das 16 com outro nome, ou um 17º item?**
+512. 🔴 **Mentoria não é linha da base de contratos, mas tem CRM e acervo.**
+     `AGENTES E PROJETOS / Projeto: Mentoria (João Risoléo)` + `Metodologia MBS` +
+     `CRM — EducAI`, e o `protocolo-varredura-cliente.md` cita *um CRM de mentoria*.
+     **Na base só existe `Workshop`, em um cliente (`SINBI`).**
+     **Mentoria é serviço faturável? Ou é faturada como `Workshop`?**
+513. 🔴 **Dois clientes ATIVOS não existem no corpus — e o corpus os conhecia de forma que
+     CONTRADIZ a base.** **`SINBI`** (serviço `Workshop`) aparece no
+     `_backlog-infra-tecnologia.md` 3.2b apenas como *dona de dezenas de submarcas* na base de
+     Taxonomia. **`Tempo de Criança`** (serviço `SaaS`) está no
+     `_varredura-ferramentas-produtos-areas.md` com a anotação literal **"(não existe no CRM)"**.
+     🔴 **A base do Financeiro diz que os dois são clientes ativos.** **Viram casa no corpus?**
+514. 🟢 **O `uRocket` teve carteira própria de 15 contas e hoje tem uma.** Os 9 ex-clientes
+     (`CRIS-FAEL`, `Tropical Fashion`, `Luxo das Marias`, `Opera Kids`, `Four One Moda`,
+     `Aladim Decorações`, `Ribeiro e Pavani`, `Nanaminze`, `FORMITZ`) **não existem no corpus**.
+     **Não é só um produto descontinuado: é uma carteira que evaporou.** ⚠ **Entram como casa,
+     ou ficam só como história de portfólio?** — ver item 519 do protocolo de criação.
+515. ⚠ **`IPSP` e `uPick` aparecem contratados só na VIX.** O corpus registra `IPSP` como
+     **oportunidade na Cambos** (*"uPlan e IPSP — cliente não tem informações de performance"*).
+     **São a mesma coisa? E o que é `IPSP`?** ⚠ **Grafia divergente já registrada:** o corpus
+     também tem `ISPS` em outro ponto. **Uma das duas está errada.**
