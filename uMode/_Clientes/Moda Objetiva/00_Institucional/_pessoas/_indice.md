@@ -7,9 +7,12 @@
 
 **Cliente:** [institucional.md](../_contexto/institucional.md) · [jornada.md](../_contexto/jornada.md) · [pessoas.md](../_contexto/pessoas.md)
 
-**4 fichas:**
+**7 fichas:**
 
 - [caio](caio.md)
 - [carol](carol.md)
+- [claudio-gamboni](claudio-gamboni.md)
+- [italo](italo.md)
+- [maria-carolina](maria-carolina.md)
 - [paula](paula.md)
 - [thamires](thamires.md)

@@ -149,6 +149,17 @@ DA_PAGINA = {
         (u"Carolina", u"Estilista", u"Estilo", u"Participantes do Projeto"),
         (u"Gustavo Paiva", u"Head de Tecnologia", u"Tecnologia", u"Respons\u00e1vel Tecnologia"),
     ],
+    u"Moda Objetiva": [
+        (u"Italo", u"Diretor / Representante Legal", u"Diretoria",
+         u"Diretores e Representantes Legais", u""),
+        (u"Thamires Ribeiro", u"Respons\u00e1vel pelo Projeto", u"`[a preencher]`",
+         u"Respons\u00e1veis pelos Projetos", u""),
+        (u"Claudio Gamboni", u"Respons\u00e1vel Tecnologia", u"Tecnologia",
+         u"Respons\u00e1vel Tecnologia", u""),
+        (u"Maria Carolina", u"`[a preencher]`", u"Estilo", u"Stakeholders", u""),
+        (u"Caio", u"`[a preencher]`", u"Planejamento", u"Stakeholders", u""),
+        (u"Paula", u"`[a preencher]`", u"Cadastro \u2014 ERP Ilimitar", u"Stakeholders", u""),
+    ],
     u"NK STORE": [
         (u"Alexandre de S\u00e1 Pereira", u"Representante Legal",
          u"Diretoria", u"Diretores e Representantes Legais"),
@@ -182,6 +193,8 @@ DA_PAGINA = {
 USADAS = set()
 
 NOTA_PAGINA = {
+    (u"Moda Objetiva", u"Paula"): u"\u26a0 **O papel dela \u00e9 literalmente operar o ERP** \u2014 a fonte escreve `Cadastro ERP Ilimitar`. **\u00c9 a depend\u00eancia de ERP virando cadeira.**",
+    (u"Moda Objetiva", u"Maria Carolina"): u"\u26a0 **Veio do bloco `Stakeholders`**, que **s\u00f3 esta conta tem** \u2014 os outros clientes t\u00eam quatro blocos, esta tem cinco. **O template de pessoa N\u00c3O \u00e9 fixo.**",
     (u"Luiza Barcelos", u"Luiz Raul Aleixo Barcelos"): u"🟢 **Trazido pelo Vinícius em 22 set 2026**, copiando à mão um bloco que este conector não renderiza. ⚠ **É o único Diretor/Representante Legal nomeado da conta**, e o e-mail dele é o mesmo do campo `Email Principal Financeiro` da base. 🔴 **A fonte traz telefone e CPF — nenhum dos dois entrou aqui.**",
     (u"Luiza Barcelos", u"Samuel Correa"): u"🟢 **Cargo trazido pelo Vinícius em 22 set 2026:** **Gerente de Inovação e Tecnologia**. Estava `[a preencher]` porque o bloco não renderizava. ⚠ **São DOIS em Tecnologia** — ele e o Eduardo.",
     (u"Luiza Barcelos", u"Marcinha"): u"\U0001F534 **\u00c9 a pr\u00f3pria Luiza Barcelos.** A fonte registra: *o processo est\u00e1 na cabe\u00e7a da Marcinha \u2014 a miss\u00e3o \u00e9 tirar as informa\u00e7\u00f5es da cabe\u00e7a dela e colocar na ferramenta*. **\u00c9 risco de pessoa-chave, escrito pela pr\u00f3pria uMode.** Expectativa dela: *inovar no processo criativo sem perder a criatividade*.",

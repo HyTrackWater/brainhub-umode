@@ -38,9 +38,12 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🔴 **Tem o módulo `Integração` contratado e o ERP diz `Sem Integração`.** Os dois não podem estar certos. **Quinta evidência independente de que a Baw está mal classificada.** | `T2` | conferência com o atendimento |
-| 2 | ⚠ **`Sem CS` com 4 módulos contratados** — é a única conta `Sem CS` com mais de um. | `T2` | — |
-| 3 | ⚠ **Sem etapa do processo atribuída.** | `T2` | preenchimento |
+| 1 | 🔴 **`Negociação pós AR&CO | 23/01/25`** — **a Baw é o TERCEIRO cliente ligado ao Grupo AR&CO**, com Reserva e Oficina Reserva (e Arezzo citada na dor da Oficina). ⚠ **Pode explicar por que está `Sem CS` com 4 módulos: entrou pelo pacote do grupo.** | `T2` | confirmação do Vinícius |
+| 2 | 🆕 **`[BAW] Contrato 2025`** — **primeiro documento de contrato nomeado da carteira.** 🔴 **Não abri, e quando abrir o conteúdo é `T1`.** | `T1` | tempo de varredura |
+| 3 | 🔴 **Tem o módulo `Integração` contratado e o ERP diz `Sem Integração`.** Os dois não podem estar certos. | `T2` | pergunta registrada |
+| 4 | ⚠ **QUATRO páginas `Perfil de Acesso - BAW`**, uma delas duplicata explícita `(1)`, e duas por área (`Estilo`, `Engenharia/Compras`). **Mesmo padrão de duplicata `(1)` da Osklen.** | `T2` | limpeza |
+| 5 | 🆕 **`Projeto Reciclagem BAW`** — projeto próprio, fora de qualquer base. | `T2` | tempo de varredura |
+| 6 | ⚠ **Sem bloco `Pessoas` e sem etapa do processo.** O corpus tem 3 fichas, todas da base de demandas, **sem cargo**. | `T2` | preenchimento |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -76,12 +79,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | `6c36c6a4…` | 🔴 **`Negociação pós AR&CO | 23/01/25`** — **terceiro cliente ligado ao Grupo AR&CO**; 🆕 **`[BAW] Contrato 2025`**, primeiro documento de contrato nomeado da carteira; **QUATRO** páginas `Perfil de Acesso`, uma delas duplicata `(1)`; `Projeto Reciclagem BAW` | ⚠ **não** — 8 sub-páginas e 3 databases inline não abertos |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -93,7 +93,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

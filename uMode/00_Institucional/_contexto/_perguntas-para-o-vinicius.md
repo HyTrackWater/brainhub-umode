@@ -14,25 +14,27 @@
 | | Quantas |
 |---|--:|
 | **Abertas, de um cliente só** | **16** |
-| **Abertas, transversais** | **7** |
+| **Abertas, transversais** | **9** |
 | Já respondidas | 3 |
-| Clientes com página ainda **não aberta** | **37** |
+| Clientes com página ainda **não aberta** | **34** |
 
 > ⚠ **A lista está curta porque a varredura está no começo**, não porque há poucas
-> dúvidas. **37 clientes têm a página fechada** — pergunta boa nasce de varredura feita.
+> dúvidas. **34 clientes têm a página fechada** — pergunta boa nasce de varredura feita.
 
 ## 1 · Transversais — valem para a carteira toda
 
 | # | Pergunta | Tier | Por que importa | Estado |
 |--:|---|:-:|---|---|
-| 1 | 🔴 **Como o BrainHub modela GRUPO ECONÔMICO?** Achei dois: **Grupo Único** (Puket — gente com e-mail `@grupounico.com` opera dentro da conta) e **Grupo AR&CO** (Oficina Reserva entrou *no mesmo pacote do Grupo*, e a dor número 1 dela cita dependência do **time da Arezzo**). **Reserva, Oficina Reserva, Simples e Arezzo são quatro pastas isoladas para o que pode ser um contrato só.** | `T2` | o isolamento de cliente é regra travada, e grupo econômico a atravessa | aberta |
-| 2 | 🔴 **Como o BrainHub modela TERCEIRO que não é cliente nem fornecedor de material?** A `Qualitá` inspeciona qualidade para a Oficina Reserva, **por WhatsApp**, e a fonte registra que *o inspetor chega para auditar e não tem o documento*. | `T2` | é onde a operação do cliente vaza para fora de qualquer sistema | aberta |
-| 3 | 🔴 **A dor de excluir/inativar variante aparece em QUATRO clientes** — VIX, Reserva, Lofty Style e NV (com dois documentos). **É lacuna da plataforma?** | `T2` | quatro casos independentes: não é mais hipótese | aberta |
-| 4 | **`Status` ou `Etapa` — qual manda?** Discordam em 5 clientes. | `T2` | 🟢 **Respondida em 22 set 2026 pelo Vinícius:** *"a verdade é que não sei. Nós vamos ter que ver caso a caso."* — vira **pergunta por cliente**, não regra geral | respondida em 22 set 2026, por mensagem |
-| 5 | **O portfólio de 16 Soluções está incompleto?** `uBuy` aparece em três clientes (Osklen, NK STORE, Reserva) e `uPlan` na Reserva, e nenhum dos dois está na lista. | `T2` | um caso é anedota, três é padrão | aberta |
-| 6 | **Qual é a chave de identidade de pessoa?** Sem ela, grafia diferente não se resolve sem inventar gente. | `T2` | trava a fusão de 149 fichas | aberta |
-| 7 | **O campo `Data de Churn` não existe na base.** Criamos? | `T2` | segue sendo a lacuna mais cara do corpus | aberta |
-| 8 | **`Merchandising`, `Curadoria`, `Oficina` e `facção` não existem na grade de 14 áreas.** A grade cresce, ou viram subárea? | `T2` | sexta evidência do `15_Producao-Interna` | aberta |
+| 1 | 🔴 **Por que o desenho de `Griffe › Linha › Grupo › Subgrupo` feito para a **Loungerie** nunca chegou na **CAEDU**?** A CAEDU pede essa hierarquia desde a weekly de **16/09/2025** e ela reaparece idêntica em jul e ago/2026. A página da Loungerie tem os **4 níveis com exemplos e até a alternativa de extensibilidade**. | `T2` | 🔴 **não é pergunta de taxonomia, é de circulação de conhecimento** — e é exatamente o que o BrainHub existe para impedir | aberta |
+| 2 | ⚠ **A hierarquia da Loungerie foi IMPLEMENTADA ou é só desenho na página?** Muda se serve de referência provada ou de proposta. | `T2` | define se dá para levar à CAEDU como caso pronto | aberta |
+| 3 | 🔴 **Como o BrainHub modela GRUPO ECONÔMICO?** Achei dois: **Grupo Único** (Puket — gente com e-mail `@grupounico.com` opera dentro da conta) e **Grupo AR&CO** (Oficina Reserva entrou *no mesmo pacote do Grupo*, e a dor número 1 dela cita dependência do **time da Arezzo**). **Reserva, Oficina Reserva, Simples e Arezzo são quatro pastas isoladas para o que pode ser um contrato só.** | `T2` | o isolamento de cliente é regra travada, e grupo econômico a atravessa | aberta |
+| 4 | 🔴 **Como o BrainHub modela TERCEIRO que não é cliente nem fornecedor de material?** A `Qualitá` inspeciona qualidade para a Oficina Reserva, **por WhatsApp**, e a fonte registra que *o inspetor chega para auditar e não tem o documento*. | `T2` | é onde a operação do cliente vaza para fora de qualquer sistema | aberta |
+| 5 | 🔴 **A dor de excluir/inativar variante aparece em QUATRO clientes** — VIX, Reserva, Lofty Style e NV (com dois documentos). **É lacuna da plataforma?** | `T2` | quatro casos independentes: não é mais hipótese | aberta |
+| 6 | **`Status` ou `Etapa` — qual manda?** Discordam em 5 clientes. | `T2` | 🟢 **Respondida em 22 set 2026 pelo Vinícius:** *"a verdade é que não sei. Nós vamos ter que ver caso a caso."* — vira **pergunta por cliente**, não regra geral | respondida em 22 set 2026, por mensagem |
+| 7 | **O portfólio de 16 Soluções está incompleto?** `uBuy` aparece em três clientes (Osklen, NK STORE, Reserva) e `uPlan` na Reserva, e nenhum dos dois está na lista. | `T2` | um caso é anedota, três é padrão | aberta |
+| 8 | **Qual é a chave de identidade de pessoa?** Sem ela, grafia diferente não se resolve sem inventar gente. | `T2` | trava a fusão de 149 fichas | aberta |
+| 9 | **O campo `Data de Churn` não existe na base.** Criamos? | `T2` | segue sendo a lacuna mais cara do corpus | aberta |
+| 10 | **`Merchandising`, `Curadoria`, `Oficina` e `facção` não existem na grade de 14 áreas.** A grade cresce, ou viram subárea? | `T2` | sexta evidência do `15_Producao-Interna` | aberta |
 
 ## 2 · Por cliente
 

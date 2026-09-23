@@ -152,6 +152,26 @@ PAGINA = {
                        u"de regra datadas; `HubSpot`; **13 usuários uFlow + 2 uDash**",
                        u"⚠ **quase** — **17 blocos do toggle `Pessoas` não "
                        u"renderizam neste conector**; 11 sub-páginas não lidas"),
+    u"Moda Objetiva": (u"22 set 2026", u"`295b1d38\u2026`",
+                      u"\U0001F7E2 **bloco `Pessoas` PREENCHIDO** \u2014 6 pessoas, e um bloco "
+                      u"**`Stakeholders` que s\u00f3 esta conta tem**; \U0001F534 **quatro toggles "
+                      u"com t\u00edtulo e sem conte\u00fado**; sub-p\u00e1ginas `Dossie Acompanhamento "
+                      u"Integra\u00e7\u00e3o` e **`Regras de Neg\u00f3cios da Conta`**",
+                      u"\u26a0 **n\u00e3o** \u2014 3 sub-p\u00e1ginas e 2 databases inline n\u00e3o abertos"),
+    u"Baw": (u"22 set 2026", u"`6c36c6a4\u2026`",
+            u"\U0001F534 **`Negocia\u00e7\u00e3o p\u00f3s AR&CO | 23/01/25`** \u2014 **terceiro cliente "
+            u"ligado ao Grupo AR&CO**; \U0001F195 **`[BAW] Contrato 2025`**, primeiro documento "
+            u"de contrato nomeado da carteira; **QUATRO** p\u00e1ginas `Perfil de Acesso`, uma "
+            u"delas duplicata `(1)`; `Projeto Reciclagem BAW`",
+            u"\u26a0 **n\u00e3o** \u2014 8 sub-p\u00e1ginas e 3 databases inline n\u00e3o abertos"),
+    u"Loungerie": (u"22 set 2026", u"`345b1d38\u2026`",
+                  u"\U0001F534 **A HIERARQUIA DE PRODUTO EM 4 N\u00cdVEIS, COMPLETA E COM "
+                  u"EXEMPLOS** \u2014 `Griffe \u203a Linha \u203a Grupo \u203a Subgrupo`, **a mesma dor "
+                  u"travada da CAEDU**; 5 discoveries gravados; `Consultoria de Planejamento`; "
+                  u"rituais `Ata da Carteira` e `FUP`; tabela fiscal `IMPORTADO LOUNG` com "
+                  u"HSCODE; **`Tactiq`**",
+                  u"\u26a0 **n\u00e3o** \u2014 1 bloco `alias` n\u00e3o renderizou; 6 planilhas do Drive "
+                  u"e 5 grava\u00e7\u00f5es n\u00e3o abertas"),
     u"NK STORE": (u"22 set 2026", u"`0f24dfbe…`",
                   u"**13 pessoas com cargo e área**; processo `Planejamento → Estilo → "
                   u"Compras/Merchandising → PCP → Oficina`; dores mapeadas; **`uBuy`** como "
@@ -347,12 +367,65 @@ PEND = {
          u"preenchimento"),
     ],
     u"Baw": [
-        (u"🔴 **Tem o módulo `Integração` contratado e o ERP diz `Sem Integração`.** Os dois não "
-         u"podem estar certos. **Quinta evidência independente de que a Baw está mal "
-         u"classificada.**", u"T2", u"conferência com o atendimento"),
-        (u"⚠ **`Sem CS` com 4 módulos contratados** — é a única conta `Sem CS` com mais de um.",
-         u"T2", u"—"),
-        (u"⚠ **Sem etapa do processo atribuída.**", u"T2", u"preenchimento"),
+        (u"\U0001F534 **`Negocia\u00e7\u00e3o p\u00f3s AR&CO | 23/01/25`** \u2014 **a Baw \u00e9 o "
+         u"TERCEIRO cliente ligado ao Grupo AR&CO**, com Reserva e Oficina Reserva (e Arezzo "
+         u"citada na dor da Oficina). \u26a0 **Pode explicar por que est\u00e1 `Sem CS` com 4 "
+         u"m\u00f3dulos: entrou pelo pacote do grupo.**", u"T2", u"confirma\u00e7\u00e3o do Vin\u00edcius"),
+        (u"\U0001F195 **`[BAW] Contrato 2025`** \u2014 **primeiro documento de contrato nomeado "
+         u"da carteira.** \U0001F534 **N\u00e3o abri, e quando abrir o conte\u00fado \u00e9 `T1`.**",
+         u"T1", u"tempo de varredura"),
+        (u"\U0001F534 **Tem o m\u00f3dulo `Integra\u00e7\u00e3o` contratado e o ERP diz `Sem "
+         u"Integra\u00e7\u00e3o`.** Os dois n\u00e3o podem estar certos.", u"T2",
+         u"pergunta registrada"),
+        (u"\u26a0 **QUATRO p\u00e1ginas `Perfil de Acesso - BAW`**, uma delas duplicata expl\u00edcita "
+         u"`(1)`, e duas por \u00e1rea (`Estilo`, `Engenharia/Compras`). **Mesmo padr\u00e3o de "
+         u"duplicata `(1)` da Osklen.**", u"T2", u"limpeza"),
+        (u"\U0001F195 **`Projeto Reciclagem BAW`** \u2014 projeto pr\u00f3prio, fora de qualquer "
+         u"base.", u"T2", u"tempo de varredura"),
+        (u"\u26a0 **Sem bloco `Pessoas` e sem etapa do processo.** O corpus tem 3 fichas, "
+         u"todas da base de demandas, **sem cargo**.", u"T2", u"preenchimento"),
+    ],
+    u"Loungerie": [
+        (u"\U0001F534 **A P\u00c1GINA TRAZ A HIERARQUIA DE PRODUTO COMPLETA, EM 4 N\u00cdVEIS, "
+         u"COM EXEMPLOS:** `1\u00ba GRIFFE` (ocasi\u00e3o de uso) \u203a `2\u00ba LINHA` (categoria) \u203a "
+         u"`3\u00ba GRUPO` (tipo) \u203a `4\u00ba SUBGRUPO` (modelagem/silhueta). "
+         u"\U0001F534 **\u00c9 EXATAMENTE `Griffe \u203a Linha \u203a Grupo/subgrupo`, a dor da CAEDU "
+         u"que atravessou tr\u00eas ciclos sem destravar** \u2014 e aqui est\u00e1 resolvida, **com "
+         u"alternativa sugerida pela pr\u00f3pria uMode** para o caso de categoria nova.", u"T2",
+         u"\U0001F534 **levar para a CAEDU** \u2014 decis\u00e3o sua"),
+        (u"\U0001F195 **`Consultoria de Planejamento`** \u2014 **\u00e9 SERVI\u00c7O, n\u00e3o m\u00f3dulo**, e "
+         u"n\u00e3o est\u00e1 nos 7 m\u00f3dulos nem nas 16 Solu\u00e7\u00f5es. **Sexto nome de oferta fora "
+         u"das listas**, com `uBuy`, `uPlan`, `uPick`, `IPSP` e `uDash`.", u"T2",
+         u"decis\u00e3o sobre o portf\u00f3lio"),
+        (u"\U0001F195 **5 discoveries gravados**, todos com link: `Linx`, `Planejamento e "
+         u"Compras`, `Intelig\u00eancia Comercial`, `Estilo`, mais **2 Agendas de Mapa de "
+         u"Assuntos feitas ANTES do fechamento do contrato**. \U0001F534 **\u00c9 o acervo de "
+         u"grava\u00e7\u00e3o mais organizado da carteira, e nenhuma foi ouvida.**", u"T2",
+         u"tempo \u2014 e h\u00e1 transcri\u00e7\u00e3o Tactiq de pelo menos uma"),
+        (u"\U0001F195 **`Tactiq` \u2014 d\u00e9cima primeira ferramenta**, com link de transcri\u00e7\u00e3o "
+         u"vivo. **\u00c9 a mesma ferramenta das 7 transcri\u00e7\u00f5es da CAEDU** que voc\u00ea "
+         u"entregou \u2014 e ela tem hist\u00f3rico pr\u00f3prio, fora do Notion.", u"T2",
+         u"acesso ao Tactiq"),
+        (u"\U0001F195 **Dois rituais de opera\u00e7\u00e3o descritos em detalhe:** `Ata da Carteira` "
+         u"(Compras + Planejamento + Aloca\u00e7\u00e3o + Log\u00edstica, pedido a pedido, revendo data "
+         u"de lan\u00e7amento) e `FUP` (Time & Action com fornecedor: amostra, aprova\u00e7\u00e3o de "
+         u"cor, 1\u00ba fit, 2\u00ba fit, PP, pe\u00e7a de marketing). **S\u00e3o os rituais de cliente "
+         u"mais bem descritos do corpus.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **`Aloca\u00e7\u00e3o` e `Intelig\u00eancia Comercial` n\u00e3o existem na grade de "
+         u"14 \u00e1reas.** Somam-se a Merchandising, Curadoria, Oficina, Atelier, BI, TEX, "
+         u"Certifica\u00e7\u00e3o, Controladoria, Importa\u00e7\u00e3o, Projetos e Atacado.", u"T2",
+         u"decis\u00e3o sobre a grade"),
+        (u"\U0001F195 **`IMPORTADO LOUNG` \u2014 tabela de classifica\u00e7\u00e3o fiscal** com "
+         u"**HSCODE**, composi\u00e7\u00e3o e medidas. **Segundo tema fiscal da carteira**, depois "
+         u"do `NCM e C\u00f3digo CEST` da Lofty Style. **Dois casos: \u00e9 hip\u00f3tese.**", u"T2",
+         u"\u2014"),
+        (u"\u26a0 **Datas de opera\u00e7\u00e3o declaradas:** desenvolvimento concentrado no "
+         u"**2\u00ba sem/2027**, importados com abastecimento at\u00e9 **abril/2027**. "
+         u"**\u00c9 o \u00fanico cliente com horizonte de cole\u00e7\u00e3o declarado.**", u"T2", u"\u2014"),
+        (u"\U0001F534 **O `Status` diz `Onboarding` e a `Etapa` diz `Pr\u00e9 Onboarding`** \u2014 "
+         u"e o campo `M\u00f3dulos Contratados` est\u00e1 **vazio**, apesar do discovery avan\u00e7ado "
+         u"e de haver contrato fechado (a fonte cita *antes do fechamento do contrato*).",
+         u"T2", u"confer\u00eancia com o comercial"),
     ],
     u"VIX": [
         (u"🔴 **A VIX tem 17 perfis de usuário, e eles SÃO áreas** — "
@@ -711,6 +784,16 @@ PERGUNTAS = {
 
 # PERGUNTAS QUE NAO SAO DE UM CLIENTE SO.
 PERGUNTAS_GERAIS = [
+    (u"🔴 **Por que o desenho de `Griffe › Linha › Grupo › Subgrupo` feito "
+     u"para a **Loungerie** nunca chegou na **CAEDU**?** A CAEDU pede essa hierarquia desde a "
+     u"weekly de **16/09/2025** e ela reaparece idêntica em jul e ago/2026. A página da "
+     u"Loungerie tem os **4 níveis com exemplos e até a alternativa de extensibilidade**.",
+     u"T2",
+     u"🔴 **não é pergunta de taxonomia, é de circulação de conhecimento** "
+     u"— e é exatamente o que o BrainHub existe para impedir", u"aberta"),
+    (u"⚠ **A hierarquia da Loungerie foi IMPLEMENTADA ou é só desenho na página?** "
+     u"Muda se serve de referência provada ou de proposta.", u"T2",
+     u"define se dá para levar à CAEDU como caso pronto", u"aberta"),
     (u"🔴 **Como o BrainHub modela GRUPO ECONÔMICO?** Achei dois: "
      u"**Grupo Único** (Puket — gente com e-mail `@grupounico.com` opera dentro da conta) "
      u"e **Grupo AR&CO** (Oficina Reserva entrou *no mesmo pacote do Grupo*, e a dor número 1 "

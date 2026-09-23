@@ -110,6 +110,7 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 [`_varredura-2026-09-22g-ferramenta-vira-no-e-a-etapa-contradiz-o-status.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22g-ferramenta-vira-no-e-a-etapa-contradiz-o-status.md) ·
 [`_varredura-2026-09-22h-a-pagina-do-cliente-tem-cargo-e-area.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22h-a-pagina-do-cliente-tem-cargo-e-area.md) ·
 [`_varredura-2026-09-22i-diario-de-bordo-por-cliente-e-o-que-ele-ja-corrigiu.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22i-diario-de-bordo-por-cliente-e-o-que-ele-ja-corrigiu.md) ·
+🔴 [`_varredura-2026-09-22j-a-dor-da-caedu-esta-resolvida-na-pagina-da-loungerie.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-22j-a-dor-da-caedu-esta-resolvida-na-pagina-da-loungerie.md) ·
 [`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
 [`_levantamento-2026-08-19-repos-e-prd.md`](uMode/00_Institucional/_contexto/_levantamento-2026-08-19-repos-e-prd.md) · [`_levantamento-2026-09-21-praticas-vault-e-caedu.md`](uMode/00_Institucional/_contexto/_levantamento-2026-09-21-praticas-vault-e-caedu.md) ·
 [`_decisoes-convergencia-proposta.md`](uMode/00_Institucional/_contexto/_decisoes-convergencia-proposta.md) ·

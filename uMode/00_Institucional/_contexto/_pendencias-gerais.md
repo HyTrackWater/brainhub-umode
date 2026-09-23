@@ -2767,3 +2767,55 @@
      senha da Lofty Style e CPF/telefone de representantes legais.
      **Não versionar, não subir ao Drive compartilhado: descompactar no `scratchpad`, extrair só
      o que é `T2`, e apagar.**
+
+## Varredura — Moda Objetiva, Baw e Loungerie (22 set 2026)
+
+427. **🔴🔴 A DOR DA CAEDU ESTÁ RESOLVIDA NA PÁGINA DA LOUNGERIE.** A hierarquia
+     `Griffe › Linha › Grupo › Subgrupo`, que a CAEDU pede desde a weekly de **16/09/2025** e que
+     reaparece idêntica em jul e ago/2026, **está na página da Loungerie com os 4 níveis
+     nomeados, definidos, exemplificados — e com a alternativa de extensibilidade já sugerida
+     pela própria uMode** (*"criar no 1º nível 'OUTRAS OCASIÕES' ou 'NOVAS CATEGORIAS'… vantagem:
+     garantir posições para alocar novas Categorias que venham a surgir"*).
+     **Registro em `_varredura-2026-09-22j`.**
+     ⚠ **O que isso NÃO resolve:** a dor da CAEDU é de **integração**, não de taxonomia — a frase
+     dela é sobre a API estar do lado do cliente. **A Loungerie resolve o modelo; a CAEDU trava
+     no lado técnico.** E os níveis são os mesmos, **os valores não**.
+     🔴 **A pergunta que fica não é de taxonomia, é de circulação de conhecimento: por que o
+     desenho feito para uma conta não chegou na outra?** → pergunta registrada.
+428. **🟢 Moda Objetiva é o TERCEIRO cliente com o bloco `Pessoas` preenchido** (com NK STORE e
+     Cambos) — 6 pessoas. **E tem um bloco `Stakeholders` que NENHUM outro cliente tem:**
+     os outros têm quatro blocos, este tem cinco. **Confirma de novo: o template de pessoa não é
+     fixo.** ⚠ **`Paula — Cadastro ERP Ilimitar`: o papel dela é literalmente operar o ERP.**
+429. **🔴 Quatro toggles da Moda Objetiva têm título e nenhum conteúdo:** `Dores Mapeadas na
+     Imersão` · `Plano de Sucesso do Cliente - OKRs` · `Reunião de Warm Up e Kick Off` ·
+     `CRM → Anotações Gerais`. **Estrutura criada, nunca preenchida.**
+430. **🔴 `Negociação pós AR&CO | 23/01/25` — a Baw é o TERCEIRO cliente ligado ao Grupo AR&CO**,
+     com Reserva e Oficina Reserva (e Arezzo citada na dor da Oficina).
+     ⚠ **Pode explicar por que a Baw está `Sem CS` com 4 módulos: entrou pelo pacote do grupo.**
+     **O tema grupo econômico já tem dois grupos e cinco contas.**
+431. **🆕 `[BAW] Contrato 2025` — primeiro documento de contrato nomeado da carteira.**
+     🔴 **Não abri; quando abrir, o conteúdo é `T1`.**
+432. **⚠ A Baw tem QUATRO páginas `Perfil de Acesso`**, uma delas duplicata explícita `(1)` e
+     duas por área (`Estilo`, `Engenharia/Compras`). **Mesmo padrão de duplicata `(1)` da
+     Osklen.** **Dois casos: é hipótese de higiene de página.**
+433. **🆕 `Consultoria de Planejamento` (Loungerie) — é SERVIÇO, não módulo**, e não está nos 7
+     módulos nem nas 16 Soluções. **Sexto nome de oferta fora das listas**, com `uBuy`, `uPlan`,
+     `uPick`, `IPSP` e `uDash`. 🔴 **O portfólio declarado não descreve o que a uMode vende.**
+434. **🆕 `Tactiq` — décima primeira ferramenta, e tem histórico PRÓPRIO fora do Notion.**
+     As 7 transcrições da CAEDU são dela, e a Loungerie tem link vivo para um transcript.
+     🔴 **É onde vive a fala real das reuniões, e nunca foi varrido.**
+435. **🆕 A Loungerie tem os dois rituais de cliente mais bem descritos do corpus:**
+     **`Ata da Carteira`** (Compras + Planejamento + Alocação + Logística, pedido a pedido,
+     revendo data de lançamento quando há risco) e **`FUP`** (Time & Action com fornecedor:
+     amostra, aprovação de cor, 1º fit, 2º fit, PP, peça de marketing).
+436. **🔴 `Alocação` e `Inteligência Comercial` não existem na grade de 14 áreas.**
+     Somam-se a Merchandising, Curadoria, Oficina, Atelier, BI, TEX, Certificação,
+     Controladoria, Importação, Projetos e Atacado. **São treze nomes de área fora da grade,
+     vindos de oito clientes diferentes. A grade de 14 não descreve a carteira.**
+437. **🆕 Segundo tema fiscal: `IMPORTADO LOUNG`** — tabela de classificação com **HSCODE**,
+     composição e medidas, depois do `NCM e Código CEST` da Lofty Style. **Dois casos: hipótese.**
+438. **🔴 A Loungerie tem `Status` `Onboarding`, `Etapa` `Pré Onboarding` e `Módulos
+     Contratados` VAZIO** — apesar de 5 discoveries gravados e de a fonte citar *"antes do
+     fechamento do contrato"*, o que implica contrato fechado.
+439. **🆕 A Loungerie é o único cliente com horizonte de coleção declarado:** desenvolvimento
+     concentrado no **2º sem/2027**, importados com abastecimento até **abril/2027**.

@@ -125,6 +125,11 @@ CANAIS = [
      u"pastas de opera\u00e7\u00e3o por cliente \u2014 o campo `Drive Opera\u00e7\u00e3o` da base aponta para c\u00e1"),
     (u"YouTube", u"Google",
      u"grava\u00e7\u00e3o de reuni\u00e3o e treinamento \u2014 \u26a0 **nunca varrido**"),
+    (u"Tactiq", u"Tactiq",
+     u"🔴 **transcrição de reunião, e tem histórico próprio fora do Notion.** "
+     u"As 7 transcrições da CAEDU entregues pelo Vinícius são dela, e a página da "
+     u"Loungerie tem link vivo para um transcript. ⚠ **Nunca varrido — e é onde vive "
+     u"a fala real das reuniões.**"),
     (u"HubSpot", u"HubSpot",
      u"🔴 **é o CRM da uMode** — a página da Luiza Barcelos tem link direto "
      u"para o *deal* da conta. **Não estava no enum `tool` do corpus**, e é onde vive o "

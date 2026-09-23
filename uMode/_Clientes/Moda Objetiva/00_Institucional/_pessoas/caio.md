@@ -9,18 +9,22 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-`[a preencher]` — a fonte registra **`Caio`**
+**Caio** — da página do cliente. A base de demandas a escreve como `Caio`.
 ### Nome preferido / como é chamado(a)
 **Caio**
 ### Email
-`[a preencher]`
+🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
+Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
+**Registro que existe e onde; o valor fica na fonte.**
 ### Cadeira / cargo atual
-`[a preencher]` — ⚠ **esta pessoa não aparece no toggle `Pessoas` da
-página do cliente**, que é onde o cargo vive quando existe.
+**`[a preencher]`**
+
+Fonte: página do cliente no Notion, toggle `Pessoas` › `Stakeholders`.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-`[a preencher]` — 🔴 **o vínculo pessoa e área é a lacuna aberta do corpus**
+**Planejamento** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
+14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode

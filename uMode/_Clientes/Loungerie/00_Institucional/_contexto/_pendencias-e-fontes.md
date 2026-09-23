@@ -38,8 +38,15 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | 🔴 **O `Status` diz `Onboarding` e a `Etapa` diz `Pré Onboarding`.** | `T2` | **Qual dos dois manda?** |
-| 2 | ⚠ **Campo `Módulos Contratados` vazio** e status de onboarding ativo. | `T2` | preenchimento |
+| 1 | 🔴 **A PÁGINA TRAZ A HIERARQUIA DE PRODUTO COMPLETA, EM 4 NÍVEIS, COM EXEMPLOS:** `1º GRIFFE` (ocasião de uso) › `2º LINHA` (categoria) › `3º GRUPO` (tipo) › `4º SUBGRUPO` (modelagem/silhueta). 🔴 **É EXATAMENTE `Griffe › Linha › Grupo/subgrupo`, a dor da CAEDU que atravessou três ciclos sem destravar** — e aqui está resolvida, **com alternativa sugerida pela própria uMode** para o caso de categoria nova. | `T2` | 🔴 **levar para a CAEDU** — decisão sua |
+| 2 | 🆕 **`Consultoria de Planejamento`** — **é SERVIÇO, não módulo**, e não está nos 7 módulos nem nas 16 Soluções. **Sexto nome de oferta fora das listas**, com `uBuy`, `uPlan`, `uPick`, `IPSP` e `uDash`. | `T2` | decisão sobre o portfólio |
+| 3 | 🆕 **5 discoveries gravados**, todos com link: `Linx`, `Planejamento e Compras`, `Inteligência Comercial`, `Estilo`, mais **2 Agendas de Mapa de Assuntos feitas ANTES do fechamento do contrato**. 🔴 **É o acervo de gravação mais organizado da carteira, e nenhuma foi ouvida.** | `T2` | tempo — e há transcrição Tactiq de pelo menos uma |
+| 4 | 🆕 **`Tactiq` — décima primeira ferramenta**, com link de transcrição vivo. **É a mesma ferramenta das 7 transcrições da CAEDU** que você entregou — e ela tem histórico próprio, fora do Notion. | `T2` | acesso ao Tactiq |
+| 5 | 🆕 **Dois rituais de operação descritos em detalhe:** `Ata da Carteira` (Compras + Planejamento + Alocação + Logística, pedido a pedido, revendo data de lançamento) e `FUP` (Time & Action com fornecedor: amostra, aprovação de cor, 1º fit, 2º fit, PP, peça de marketing). **São os rituais de cliente mais bem descritos do corpus.** | `T2` | — |
+| 6 | 🔴 **`Alocação` e `Inteligência Comercial` não existem na grade de 14 áreas.** Somam-se a Merchandising, Curadoria, Oficina, Atelier, BI, TEX, Certificação, Controladoria, Importação, Projetos e Atacado. | `T2` | decisão sobre a grade |
+| 7 | 🆕 **`IMPORTADO LOUNG` — tabela de classificação fiscal** com **HSCODE**, composição e medidas. **Segundo tema fiscal da carteira**, depois do `NCM e Código CEST` da Lofty Style. **Dois casos: é hipótese.** | `T2` | — |
+| 8 | ⚠ **Datas de operação declaradas:** desenvolvimento concentrado no **2º sem/2027**, importados com abastecimento até **abril/2027**. **É o único cliente com horizonte de coleção declarado.** | `T2` | — |
+| 9 | 🔴 **O `Status` diz `Onboarding` e a `Etapa` diz `Pré Onboarding`** — e o campo `Módulos Contratados` está **vazio**, apesar do discovery avançado e de haver contrato fechado (a fonte cita *antes do fechamento do contrato*). | `T2` | conferência com o comercial |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -74,12 +81,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | `345b1d38…` | 🔴 **A HIERARQUIA DE PRODUTO EM 4 NÍVEIS, COMPLETA E COM EXEMPLOS** — `Griffe › Linha › Grupo › Subgrupo`, **a mesma dor travada da CAEDU**; 5 discoveries gravados; `Consultoria de Planejamento`; rituais `Ata da Carteira` e `FUP`; tabela fiscal `IMPORTADO LOUNG` com HSCODE; **`Tactiq`** | ⚠ **não** — 1 bloco `alias` não renderizou; 6 planilhas do Drive e 5 gravações não abertas |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -91,7 +95,6 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | As 1.153 atas ainda não abertas | base de reuniões | conteúdo — **e varredura de credencial** |
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

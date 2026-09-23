@@ -1,4 +1,4 @@
-# Moda Objetiva · Pessoa · Paula
+# Moda Objetiva · Pessoa · Italo
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
@@ -9,21 +9,21 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-**Paula** — da página do cliente. A base de demandas a escreve como `Paula`.
+**Italo** — da página do cliente. A base de demandas a escreve como `Italo`.
 ### Nome preferido / como é chamado(a)
-**Paula**
+**Italo**
 ### Email
 🔴 **Existe na página do cliente e NÃO foi replicado aqui.**
 Mesma decisão vale para telefone e CPF — `AGORA.md` § 8.1.
 **Registro que existe e onde; o valor fica na fonte.**
 ### Cadeira / cargo atual
-**`[a preencher]`**
+**Diretor / Representante Legal**
 
-Fonte: página do cliente no Notion, toggle `Pessoas` › `Stakeholders`.
+Fonte: página do cliente no Notion, toggle `Pessoas` › `Diretores e Representantes Legais`.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-**Cadastro — ERP Ilimitar** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
+**Diretoria** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
 14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
@@ -39,9 +39,6 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Stakeholders`.
 `[a preencher]`
 ### Interfaces
 `[a preencher]`
-
-### Observação da fonte
-⚠ **O papel dela é literalmente operar o ERP** — a fonte escreve `Cadastro ERP Ilimitar`. **É a dependência de ERP virando cadeira.**
 
 ## Histórico
 ### Áreas de atuação histórica
@@ -78,12 +75,12 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Stakeholders`.
 
 | Sinal | Valor |
 |---|---|
-| **Demandas abertas** | **1** |
-| Primeira atividade observada | 04/05/2026 |
-| Última atividade observada | 04/05/2026 |
+| **Demandas abertas** | **0** |
+| Primeira atividade observada | `[a preencher]` |
+| Última atividade observada | `[a preencher]` |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
 
-**Observação da fonte:** a mais recente da conta
+**Observação da fonte:** nao aparece na base de demandas
 
 ## Governança
 ### Quem pode alterar este documento
