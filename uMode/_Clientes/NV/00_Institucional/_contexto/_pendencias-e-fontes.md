@@ -108,6 +108,12 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | Fonte | Endereço | O que deve trazer |
 |---|---|---|
+| ⚠ **`Operação de Clientes / ARQUIVO / Área de CX / Documentação CX`** | base `collection://3a26629f…`, **30 documentos, já listados por SQL** | 🔺 **corrigido:** eu tinha escrito o caminho SEM o `Arquivo`. **Está arquivado** — não tem o mesmo peso dos outros acervos. Sub-páginas não abertas: `Mapeamento da Conta - Puket`, `- Caedu`, **`Análise das Similaridades e Diferenças entre contas`**, `Devolutivas para Sandro`, `Indicadores e Rotinas de Acompanhamento` |
+| 🔴 **`Health Score`** — dashboard **Looker** | base `Documentação CX` | **a métrica de saúde de conta que falta no corpus.** ⚠ **`Em Construção` desde fev/2025** |
+| **`Planilha de Cardápio de Dores e KRs`** e `Template Planilha Plano Sucesso Cliente (KRs)` | base `Documentação CX`, Excel | 🟢 **cardápio de dores é exatamente o que a varredura vem catalogando cliente a cliente** |
+| **`Plano de Gestão de Risco - Legado`** | base `Documentação CX`, `Versão 1`, `Done`, **dois owners** | ⚠ **é plano de risco do uFlow, e o corpus não o cita** |
+| **`Migração e Padronização de Ferramentas de Trabalho`** | base `Documentação CX`, `Done` em abr/2025 | ⚠ **provável decisão que descontinuou Kanbanize e Linear** — hipótese, não abri |
+| **`[CX] Estrutura de Pesquisa de Satisfação Trimestral`** e `Pesquisa Satisfação Agosto/24` | base `Documentação CX`, **Validados** | 🟢 **o CSat tem estrutura definida e pelo menos uma rodada** — eu listava como fonte solta |
 | 🔴 **`Setup - PLM / CLIENTES` — OITO clientes não tocados** | `bf9891a8…` — RESERVA · BAW · OFICINA · VIX · StudioZ · PUKET · CAEDU · NK Store (a NV foi lida) | **setup de PLM por cliente.** ⚠ **NK STORE e VIX têm um SEGUNDO endereço que eu não tinha aberto** |
 | **`Setup - PLM` — seção `Automações`, 8 páginas** | `Gerador de Referencia`, `Calculadora de campos`, `Ações com mais de uma expression`, `Projeto Puket - Kanban de Estilo NOVO`… | 🟢 **o catálogo das automações com ID** (`#1136`, `#1175`, `#989`) que o playbook da Cambos cita e não explica |
 | **`Setup - PLM` — seção `Configs da Conta`, 18 páginas** | uma por `entity_config`, **duas nominais**: `[Vivara] Alterar nomes tecido/aviamento` e `[NV] Bloquear Alteração de Elementos da Tabela na FT` | **o procedimento de cada config** — e `Habilitar Usuários específicos a gravar tabela de medida` é o `scopable: user` na prática |
@@ -117,7 +123,6 @@ segredo. **As fontes da § 4 não foram olhadas.**
 | **PDF `manual_do_permissionamento_umode_(5).pdf`** | anexo na página `Setup - PLM` | ⚠ **versão 5 do manual.** Li a página do Notion; **o PDF pode divergir** |
 | 🔴 **`playbook.umode.app`** | página `Engenharia de Software` (`dc5980a5…`), em `uMode Geral` — editada em **07/09/2026** | 🔴 **TERCEIRO domínio de documentação**, com `docs.umode.app` e `documentacao.umode.tech`. A fonte diz que é *de atendimento obrigatório para todos os membros do time* |
 | Teamspace **`AGENTES E PROJETOS`** | `Templates & Boas Práticas` · `Projeto: Mentoria (João Risoléo)` · `Metodologia MBS` | 🔴 **os MENTORADOS que o Vinícius anunciou já têm acervo aqui** — e há um `Playbook de Engenharia — DUMP Técnico Completo` |
-| **`Operação de Clientes / Área de CX / Documentação CX / Mapeamento de Contas`** | acervo por cliente | 🔴 **TERCEIRO acervo de documentação por cliente**, com o `Mapa de Clientes` e o `Setup - PLM`. A Puket tem uma página lá |
 | Pasta **`Documentação Homologada`** dentro do cliente | vista na Cambos (`4d25eb62…`) | ⚠ **o nome implica um estado de validação** — não sei quantos clientes têm essa pasta nem o que mais há nela |
 | `Playbook Onboarding Novas Marcas` | `uMode Geral / Produtos / histórico` (`7ab68b33…`) | **FASE 1 | Planejamento de Implantação** e cronograma padrão — o processo de implantação escrito |
 | `Planos de Quarters OPS` | `uMode Geral / Operação de Clientes` (`7ac7b3c6…`) | OKR de operação, com KR de medição de satisfação de cliente |

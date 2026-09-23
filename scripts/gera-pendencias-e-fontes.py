@@ -73,6 +73,19 @@ GLOBAIS = [
 
 # FONTES CONHECIDAS E AINDA NAO VARRIDAS, para a carteira inteira.
 NAO_VARRIDAS = [
+    (u"\u26a0 **`Opera\u00e7\u00e3o de Clientes / ARQUIVO / \u00c1rea de CX / Documenta\u00e7\u00e3o CX`**", u"base `collection://3a26629f\u2026`, **30 documentos, j\u00e1 listados por SQL**",
+     u"\U0001F53A **corrigido:** eu tinha escrito o caminho SEM o `Arquivo`. **Est\u00e1 arquivado** \u2014 n\u00e3o tem o mesmo peso dos outros acervos. Sub-p\u00e1ginas n\u00e3o abertas: `Mapeamento da Conta - Puket`, `- Caedu`, **`An\u00e1lise das Similaridades e Diferen\u00e7as entre contas`**, `Devolutivas para Sandro`, `Indicadores e Rotinas de Acompanhamento`"),
+    (u"\U0001F534 **`Health Score`** \u2014 dashboard **Looker**", u"base `Documenta\u00e7\u00e3o CX`",
+     u"**a m\u00e9trica de sa\u00fade de conta que falta no corpus.** \u26a0 **`Em Constru\u00e7\u00e3o` desde fev/2025**"),
+    (u"**`Planilha de Card\u00e1pio de Dores e KRs`** e `Template Planilha Plano Sucesso Cliente (KRs)`", u"base `Documenta\u00e7\u00e3o CX`, Excel",
+     u"\U0001F7E2 **card\u00e1pio de dores \u00e9 exatamente o que a varredura vem catalogando cliente a cliente**"),
+    (u"**`Plano de Gest\u00e3o de Risco - Legado`**", u"base `Documenta\u00e7\u00e3o CX`, `Vers\u00e3o 1`, `Done`, **dois owners**",
+     u"\u26a0 **\u00e9 plano de risco do uFlow, e o corpus n\u00e3o o cita**"),
+    (u"**`Migra\u00e7\u00e3o e Padroniza\u00e7\u00e3o de Ferramentas de Trabalho`**",
+     u"base `Documenta\u00e7\u00e3o CX`, `Done` em abr/2025",
+     u"\u26a0 **prov\u00e1vel decis\u00e3o que descontinuou Kanbanize e Linear** \u2014 hip\u00f3tese, n\u00e3o abri"),
+    (u"**`[CX] Estrutura de Pesquisa de Satisfa\u00e7\u00e3o Trimestral`** e `Pesquisa Satisfa\u00e7\u00e3o Agosto/24`", u"base `Documenta\u00e7\u00e3o CX`, **Validados**",
+     u"\U0001F7E2 **o CSat tem estrutura definida e pelo menos uma rodada** \u2014 eu listava como fonte solta"),
     (u"\U0001F534 **`Setup - PLM / CLIENTES` \u2014 OITO clientes n\u00e3o tocados**",
      u"`bf9891a8\u2026` \u2014 RESERVA \u00b7 BAW \u00b7 OFICINA \u00b7 VIX \u00b7 StudioZ \u00b7 PUKET \u00b7 CAEDU \u00b7 NK Store (a NV foi lida)",
      u"**setup de PLM por cliente.** \u26a0 **NK STORE e VIX t\u00eam um SEGUNDO endere\u00e7o que eu n\u00e3o tinha aberto**"),
@@ -91,8 +104,6 @@ NAO_VARRIDAS = [
      u"\U0001F534 **TERCEIRO dom\u00ednio de documenta\u00e7\u00e3o**, com `docs.umode.app` e `documentacao.umode.tech`. A fonte diz que \u00e9 *de atendimento obrigat\u00f3rio para todos os membros do time*"),
     (u"Teamspace **`AGENTES E PROJETOS`**", u"`Templates & Boas Pr\u00e1ticas` \u00b7 `Projeto: Mentoria (Jo\u00e3o Risol\u00e9o)` \u00b7 `Metodologia MBS`",
      u"\U0001F534 **os MENTORADOS que o Vin\u00edcius anunciou j\u00e1 t\u00eam acervo aqui** \u2014 e h\u00e1 um `Playbook de Engenharia \u2014 DUMP T\u00e9cnico Completo`"),
-    (u"**`Opera\u00e7\u00e3o de Clientes / \u00c1rea de CX / Documenta\u00e7\u00e3o CX / Mapeamento de Contas`**", u"acervo por cliente",
-     u"\U0001F534 **TERCEIRO acervo de documenta\u00e7\u00e3o por cliente**, com o `Mapa de Clientes` e o `Setup - PLM`. A Puket tem uma p\u00e1gina l\u00e1"),
     (u"Pasta **`Documenta\u00e7\u00e3o Homologada`** dentro do cliente", u"vista na Cambos (`4d25eb62\u2026`)",
      u"\u26a0 **o nome implica um estado de valida\u00e7\u00e3o** \u2014 n\u00e3o sei quantos clientes t\u00eam essa pasta nem o que mais h\u00e1 nela"),
     (u"`Playbook Onboarding Novas Marcas`", u"`uMode Geral / Produtos / hist\u00f3rico` (`7ab68b33\u2026`)", u"**FASE 1 | Planejamento de Implanta\u00e7\u00e3o** e cronograma padr\u00e3o \u2014 o processo de implanta\u00e7\u00e3o escrito"),
@@ -1280,6 +1291,10 @@ PERGUNTAS = {
 
 # PERGUNTAS QUE NAO SAO DE UM CLIENTE SO.
 PERGUNTAS_GERAIS = [
+    (u"\U0001F534 **A base `Documenta\u00e7\u00e3o CX` traz tr\u00eas r\u00f3tulos de SEGMENTO \u2014 `[SaaS]`, `[CX] Enterprise` e `SMB` \u2014 e nenhuma ficha de cliente do corpus carrega segmento.** **Quais s\u00e3o os segmentos de verdade, e qual cliente est\u00e1 em cada um?**", u"T2",
+     u"\U0001F534 **muda leitura de carteira inteira**: 48 clientes tratados como um bloco s\u00f3. E d\u00e1 sentido \u00e0 fonte `Segmenta\u00e7\u00e3o Grupos`", u"aberta"),
+    (u"O `Health Score` \u00e9 um dashboard Looker **`Em Constru\u00e7\u00e3o` desde fev/2025**. **Ele existe hoje, ou parou?**", u"T2",
+     u"\u00e9 a m\u00e9trica de sa\u00fade de conta que o corpus n\u00e3o tem \u2014 e h\u00e1 quatro superf\u00edcies de relat\u00f3rio (Looker, BigQuery, Blazzer, uDash) sem dono declarado", u"aberta"),
     (u"🔺 **Pergunta reformulada no mesmo dia.** A matriz da Lofty Style dá permissão a uma PESSOA (*Liberado só Isadora desse Perfil*, *Somente a Dora*). 🟢 **O mecanismo existe — é `scopable: user`, documentado desde 2024 no Manual do Permissionamento.** Então a pergunta é outra: **essas duas regras estão APLICADAS no sistema, ou só combinadas no papel?**", u"T2",
      u"eu tinha escrito que o uFlow não tinha onde guardar isso. **Tinha — e a página que respondia já estava na minha lista de fontes não varridas, a uma leitura de distância.**", u"aberta"),
     (u"Tr\u00eas clientes t\u00eam um perfil que \u00e9 s\u00f3 consulta \u2014 `Objetiva - Consulta`, `NV - View` e `Lofty - Mkt, Multimarcas e ecommerce`. **Isso \u00e9 uma licen\u00e7a mais barata, ou o mesmo usu\u00e1rio com menos permiss\u00e3o?**",

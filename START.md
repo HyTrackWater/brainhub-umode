@@ -118,6 +118,7 @@ Em `uMode/04_Dados-e-IA/_protocolos/`:
 🔴 [`_varredura-2026-09-23a-as-dez-matrizes-de-permissao-e-o-que-elas-derrubaram.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23a-as-dez-matrizes-de-permissao-e-o-que-elas-derrubaram.md) ·
 🔴 [`_varredura-2026-09-23b-o-playbook-da-cambos-nasceu-de-transcricao-e-ha-um-terceiro-dominio.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23b-o-playbook-da-cambos-nasceu-de-transcricao-e-ha-um-terceiro-dominio.md) ·
 🚨 [`_varredura-2026-09-23c-o-indice-tecnico-do-uflow-e-uma-pagina-chamada-credenciais.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23c-o-indice-tecnico-do-uflow-e-uma-pagina-chamada-credenciais.md) — **cita uma página `Credenciais` que eu NÃO abri** ·
+🔴 [`_varredura-2026-09-23d-o-acervo-de-cx-esta-arquivado-e-ha-segmentacao-de-conta.md`](uMode/00_Institucional/_contexto/_varredura-2026-09-23d-o-acervo-de-cx-esta-arquivado-e-ha-segmentacao-de-conta.md) ·
 [`_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-22-caedu-2.0-proposta-e-transcricoes.md) — ⚠ **contém valor comercial e um escopo confidencial de diretoria** ·
 [`_levantamento-2026-08-19-repos-e-prd.md`](uMode/00_Institucional/_contexto/_levantamento-2026-08-19-repos-e-prd.md) · [`_levantamento-2026-09-21-praticas-vault-e-caedu.md`](uMode/00_Institucional/_contexto/_levantamento-2026-09-21-praticas-vault-e-caedu.md) ·
 [`_decisoes-convergencia-proposta.md`](uMode/00_Institucional/_contexto/_decisoes-convergencia-proposta.md) ·
