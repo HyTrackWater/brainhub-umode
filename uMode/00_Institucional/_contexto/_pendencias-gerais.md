@@ -2962,3 +2962,42 @@
      `Databases / Processos mapeados` · `Databases / Demandas de Clientes` (⚠ **é a mesma base
      das 999 demandas, ou outra?**) · **`Operation Hub`**, que cita **`documentacao.umode.tech`**
      — 🔴 **segundo domínio de documentação**, além do `docs.umode.app` da Lofty Style.
+
+## O modelo de usuário do uFlow (22 set 2026)
+
+465. **🔺 CORREÇÃO do item 406: `uDash` é PERFIL INTERNO da uMode, não produto contratado.**
+     A página `Controle de Acessos de Usuários` lista, entre os filtros de exclusão da análise:
+     *"os perfis `uRocket` e `uDash` são sempre internos"* — **com checkbox marcado, ou seja,
+     perguntado e respondido.**
+     **Os "2 usuários uDash" da Luiza Barcelos não são licenças vendidas: são acessos da própria
+     uMode dentro da conta do cliente.** ⚠ **E resolve a ambiguidade:** `uDash` é **perfil** nos
+     dois casos que eu li. O nome de produto legado existe, mas não é isso que essas linhas dizem.
+     🆕 **`uRocket` também é perfil interno**, com nota de *"cancelamento serviço"*.
+466. **🟢 ACHADO GRANDE — o corpus ganhou o modelo de dados do uFlow.** Tinha o do BrainHub
+     (Mongo) e **nada** sobre a plataforma que os clientes usam. Registro em
+     `_varredura-2026-09-22m`. Tabelas reais: **`jumper_users`** · **`jumper_entities`** (🔴 **é
+     a conta, o cliente**) · **`user_roles`** · **`policies`** (🔴 **é o perfil**) ·
+     `ahoy_visits`/`ahoy_events` · **`audits`** (modelo `J3::UserRole`).
+     🆕 **O prefixo `jumper_` e o namespace `J3` dizem que a plataforma se chama `Jumper` no
+     código. O corpus nunca registrou esse nome.**
+467. **🔴 Regra contraintuitiva confirmada: `ju.status IS NULL` significa usuário ATIVO.**
+     A própria fonte precisou perguntar duas vezes, e a resposta é *"sim, é a regra oficial da
+     plataforma, não uma exceção"*. **Qualquer análise que trate `NULL` como ausência de dado vai
+     contar errado.** Role ativa = `ur.status = 1` **e** `ur.deleted_at IS NULL`.
+     **Contas internas: `entity_id` 935 e 69.** **`API` conta como usuário válido.**
+468. **🔴 A métrica que falta no corpus é ENGAJAMENTO POR ACESSO**, e a fonte já a define:
+     *"usuários que acessaram no mês ÷ usuários ativos — dá uma leitura rápida de quais contas
+     estão dormentes antes mesmo de entrar nelas"*; *"a distância entre 'ativos' e 'acessaram' é
+     exatamente o indicador de engajamento que mais interessa ao gestor"*.
+     🔴 **O corpus mede conta por demanda e por chamado — e chamado depende de ter o botão
+     liberado (item 440). Acesso é a única medida que não depende de permissão.**
+469. **⚠ Há DUAS medidas de último acesso, e elas divergem:** `last_sign_in_at` é **login de
+     fato**; `ultima_visita` (de `ahoy_visits`) é **navegação na sessão logada**, que pode durar
+     uma semana. A fonte registra: *"temos algumas divergências disso nítidas"*.
+     🔴 **Toda ficha de pessoa com "última atividade" precisa dizer qual das duas está usando.**
+470. **⚠ `Flávia` aparece como autora de sugestões na página.** **Ficha não criada — um nome de
+     seção não é fonte suficiente**, mesma régua aplicada ao Felipe Sindeaux, que só nasceu
+     depois da sua confirmação. **Entra na revisão do `HOJE` dos uModers.**
+471. **⚠ Validação citada com `entity_id = 3344`**, esperando **41 usuários ativos e 16 roles
+     ativas**. ⚠ **Não sei qual conta é** — e o `entity_id` é a chave que ligaria o corpus à
+     plataforma.

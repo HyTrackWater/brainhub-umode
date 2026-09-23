@@ -79,10 +79,10 @@ NAO_VARRIDAS = [
     (u"**As 10 páginas `Perfil de Usuário e Permissionamentos`**",
      u"sub-página de cliente", u"**perfis = áreas do cliente** e a matriz de permissão "
      u"— **2 lidas de 10**"),
-    (u"🔴 **`Controle de Acessos de Usuários`**",
+    (u"🟢 `Controle de Acessos de Usuários` — **LIDA em 22 set 2026**",
      u"`uModers / Vinícius Risoleo / Assunto | Ferramenta`",
-     u"**total de usuários ativos e % de ENGAJAMENTO por conta** — métrica que o "
-     u"corpus não tem"),
+     u"deu o **modelo de dados do uFlow**; ⚠ **falta rodar as queries** e trazer o "
+     u"**engajamento por conta**"),
     (u"**`Databases / Processos mapeados`**", u"base própria do Notion",
      u"playbooks de processo — inclui o de **limite contratado de usuários**"),
     (u"**`Databases / Demandas de Clientes`**", u"base própria do Notion",
