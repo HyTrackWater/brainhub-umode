@@ -3202,3 +3202,39 @@ caminho).
   pessoa ainda fechada.** E há **sub-páginas de perfil de acesso fechadas na Baw (4) e na
   Oficina Reserva (1)** — o lugar provável dos usuários delas.
   **Itens 516–523.**
+
+- **23 set 2026** — Sessão 46: **as Pesquisas de Satisfação são a melhor fonte de pessoa da
+  carteira — 74 respondentes nomeados, todos com e-mail.**
+  🟢 **Corpus de pessoa de cliente: 318 → 402 nesta rodada.** Osklen 18→46 · Lenny Niemeyer
+  12→30 · **Lofty Style 0→28** · Camys 0→6 · Mondepars 0→10 · Hering 0→3.
+  **Duas frentes em paralelo, por subagente**, para não queimar contexto do principal.
+  🔺 **Os 8 clientes ativos com página nunca aberta renderam 3 de 8.** Camys (6), Mondepars (10)
+  e Hering (3, **sem nenhum e-mail na página inteira**). **Cinco estão vazios:** Arezzo em
+  branco, TDC com um link só, e Cavallari/Studio Minah/Ton Age com o template íntegro.
+  🔴 **`Recco`: base de pesquisa criada e ZERO respostas.** Schema íntegro, nenhuma linha.
+  ⚠ Linhas arquivadas não foram verificadas — o modo SQL não aceita `is_archived`.
+  🔴 **As sub-páginas de perfil de Baw e Oficina Reserva não têm pessoa** — são matriz
+  perfil × permissão, só. Fecha o item 523 **negativo**. ⚠ **E as 4 da Baw são a mesma matriz
+  fatiada** — defeito de documento duplicado, só a primeira precisa existir.
+  🔴 **A `Área` das pesquisas é auto-declaração: é uma QUARTA taxonomia de área.** Traz cargo
+  onde deveria haver área, empresa onde deveria haver área, e a mesma área em 4 grafias.
+  **Não derivei área organizacional disso** — cada ficha guarda o verbatim com a ressalva.
+  🔴 **TERCEIRO virou padrão, não anedota.** SENAI CETIQT (2) e Instituto E (1) no Kick Off da
+  Osklen; `thela.studio` com perfil **`Dono`** na Mondepars; `Qualitá` na Oficina Reserva.
+  **Três casos independentes — o BrainHub precisa modelar.**
+  🔺 **A cautela com e-mail se pagou, e dá para medir.** Eu me recusei a completar endereço a
+  partir do padrão do domínio e pedi o dump exato. **Em 6 dos 74 o padrão estaria errado** —
+  `Ana Dias` é `ana.lopes@`, `Bruno` é `bruno.soares@`, `Brenda Santana` é `brenda.araujo@`,
+  `Ana suassuna` é `ana.beatriz@`, `Mariana` é `mariana.coelho@`, `Karina …Peres` é
+  `karina.peres@`. **Seriam 6 pessoas com identidade errada no cérebro.**
+  🔴 **`Junior Felinto` respondeu com `ivan.gouveia@`** — nome e e-mail não batem. **Não escolhi.**
+  ⚠ **`Gabriela Cunha` respondeu às duas rodadas com e-mail e área diferentes** — não fundi.
+  🟢 **CSat:** Osklen 9,78 · Lofty Treinamento 9,58 · Lofty Kick Off 9,57 · Lenny 9,48.
+  ⚠ **A Lenny está em `Churn` com 9,48 no Kick Off** — satisfação declarada no início não
+  previu a saída. **Calibra o que o `Health Score` deveria medir.**
+  🔺 **Mais dois bugs do gerador, achados pelo dado:** sem e-mail o arquivo virava `.md` e a
+  pessoa sumia calada; e a ficha imprimia *"e-mail corporativo"* com o campo vazio.
+  **Afirmação falsa é pior que campo vazio.** Terceiro: o rótulo de origem do e-mail passou a
+  ser parâmetro — **quem vem da pesquisa não é usuário da plataforma, e a ficha não pode dizer
+  que é.**
+  **Itens 524–540.**

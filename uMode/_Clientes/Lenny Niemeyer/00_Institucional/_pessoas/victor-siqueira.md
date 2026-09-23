@@ -13,11 +13,11 @@
 ### Nome preferido / como é chamado(a)
 **Victor Siqueira**
 ### Email
-**`victor.siqueira@lennyniemeyer.com`** — e-mail **corporativo**, da página do cliente.
+**`victor.siqueira@lennyniemeyer.com`** — e-mail **corporativo**, da base de **Pesquisa de Satisfação** do cliente — **não é usuário da plataforma**.
 
-🟢 **É a chave de identidade desta pessoa** (item 252). Tier `T2`.
+🟢 **É a chave de identidade desta pessoa** — o que resolve grafia diferente sem inventar gente (item 252). Tier `T2`.
 
-🔴 **A fonte também traz telefone, e num caso CPF — nenhum dos dois entrou aqui** (`T0`, `AGORA.md` § 8.1).
+⚠ **E-mail corporativo entra; e-mail pessoal, telefone e CPF não** — `AGORA.md` § 8.1.
 ### Cadeira / cargo atual
 **Planejamento**
 
@@ -25,8 +25,9 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelos P
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-**Planejamento** — ⚠ **como a fonte a nomeia**, não necessariamente uma das
-14 áreas canônicas. **Não mapeei para a grade** sem sua confirmação.
+**Planejamento** — **`Área — auto-declarada na Pesquisa de Satisfação`** na tabela de usuários da plataforma.
+
+⚠ **`Área — auto-declarada na Pesquisa de Satisfação` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode
@@ -84,6 +85,8 @@ Fonte: página do cliente no Notion, toggle `Pessoas` › `Responsáveis pelos P
 | Primeira atividade observada | `[a preencher]` |
 | Última atividade observada | `[a preencher]` |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
+| **Respondeu à Pesquisa de Satisfação — rodada** | **Kick Off** |
+| Fonte | tabela de usuários da página do cliente |
 
 **Observação da fonte:** nao aparece na base de demandas
 

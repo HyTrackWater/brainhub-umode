@@ -13,14 +13,20 @@
 ### Nome preferido / como é chamado(a)
 **Natalia**
 ### Email
-`[a preencher]`
+**`natalia.lima@lennyniemeyer.com`** — e-mail **corporativo**, da base de **Pesquisa de Satisfação** do cliente — **não é usuário da plataforma**.
+
+🟢 **É a chave de identidade desta pessoa** — o que resolve grafia diferente sem inventar gente (item 252). Tier `T2`.
+
+⚠ **E-mail corporativo entra; e-mail pessoal, telefone e CPF não** — `AGORA.md` § 8.1.
 ### Cadeira / cargo atual
 `[a preencher]` — ⚠ **esta pessoa não aparece no toggle `Pessoas` da
 página do cliente**, que é onde o cargo vive quando existe.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-`[a preencher]` — 🔴 **o vínculo pessoa e área é a lacuna aberta do corpus**
+**Compras** — **`Área — auto-declarada na Pesquisa de Satisfação`** na tabela de usuários da plataforma.
+
+⚠ **`Área — auto-declarada na Pesquisa de Satisfação` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode
@@ -75,6 +81,8 @@ página do cliente**, que é onde o cargo vive quando existe.
 | Primeira atividade observada | 20/03/2026 |
 | Última atividade observada | 20/03/2026 |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
+| **Respondeu à Pesquisa de Satisfação — rodada** | **Kick Off** |
+| Fonte | tabela de usuários da página do cliente |
 
 ## Governança
 ### Quem pode alterar este documento

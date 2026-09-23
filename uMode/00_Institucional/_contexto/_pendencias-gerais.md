@@ -3299,3 +3299,48 @@
 531. 🚨 **Quinto foco de credencial: a Camys linka uma planilha Google chamada `Acessos`.**
      **Não foi aberta.** O nome indica armazenamento de acesso. Junta-se a NK STORE, Lofty Style,
      Recco/uFlow `Credenciais` e ao YAML do uFlow (`RISC-001`). **Rotação é ação do Vinicius.**
+
+## As Pesquisas de Satisfação — a melhor fonte de pessoa da carteira (23 set 2026)
+
+532. 🟢 **As bases de Pesquisa de Satisfação renderam 74 respondentes NOMEADOS, todos com
+     e-mail.** Osklen 32 · Lenny Niemeyer 23 · Lofty Style 19 (7 Kick Off + 12 Treinamento).
+     **Nenhuma caixa funcional** — são 100% endereços nominais, ao contrário das tabelas de
+     usuário. **Corpus de pessoa de cliente: 340 → 402.** Osklen 18→46 · Lenny 12→30 ·
+     **Lofty Style 0→28**. 🔴 **É a fonte de pessoa de maior rendimento achada até hoje.**
+533. 🔴 **A `Recco` tem a base criada e ZERO respostas.** Schema íntegro, 7 colunas, idêntico ao
+     de Osklen e Lenny — e nenhuma linha. **Não é erro de acesso nem filtro: é base que nunca foi
+     respondida.** ⚠ **Ressalva:** o modo SQL não aceita `is_archived`, então **linhas arquivadas
+     não foram verificadas** — precisa de view mode (`view://1a7b1d38-e768-8128-882e-000c11b32668`).
+534. 🔴 **As sub-páginas de perfil de acesso de Baw e Oficina Reserva NÃO têm pessoa.**
+     Abertas as 5 (4 da Baw + 1 da Oficina): são exclusivamente **matrizes perfil × permissão**
+     com legenda. **Zero nome, zero e-mail.** Fecha o item 523 como respondido — e negativo.
+     ⚠ **E as 4 da Baw são a mesma matriz fatiada** (uma completa, uma duplicata parcial `(1)`,
+     e dois recortes de perfil único). **Só a primeira precisa existir** — é o defeito de
+     documento duplicado que o `START.md` § 0 proíbe.
+535. 🔴 **A coluna `Área` das pesquisas é AUTO-DECLARAÇÃO, não taxonomia — é uma QUARTA
+     taxonomia de área.** A mesma base traz **cargo onde deveria haver área** (*Coordenadora de
+     desenvolvimento de produto*, *Modelista de Lycra*, *Assistente de estilo*), **empresa onde
+     deveria haver área** (*SENAI CETIQT*, *Instituto E*, *Lofty style*) e **a mesma área em
+     quatro grafias** (*Estilo*, *estilo*, *Design de moda*, *design*).
+     🔴 **NÃO derivei área organizacional disso** — cada ficha registra o valor verbatim com a
+     ressalva. **Normalizar é decisão.**
+536. 🔴 **Terceiros no Kick Off da Osklen: 3 pessoas que não são do quadro.**
+     `SENAI CETIQT` (2 pessoas, domínio `@cetiqt.senai.br`) e `Instituto E`
+     (`@institutoe.org.br`). **Mesma natureza de `Qualitá` (Oficina Reserva) e do domínio
+     `thela.studio` com perfil `Dono` (Mondepars).** 🔴 **Já são três casos independentes: o
+     BrainHub precisa modelar TERCEIRO.** Um caso é anedota, três é padrão.
+537. ⚠ **Seis e-mails com domínio divergente do padrão do cliente, reproduzidos como estão.**
+     `@loftystyle.com.be` (provável `.br`), `@lennyninemeyer.com` (com *nine*),
+     `@lennyniemeyer.com.br` (o resto da base é sem `.br`), e dois `@osklen.com` sem `.br`.
+     **Não corrigi nenhum.** ⚠ **Isso quebra deduplicação por domínio.**
+538. 🔴 **`Junior Felinto` (Lenny) respondeu com o e-mail `ivan.gouveia@lennyniemeyer.com`.**
+     Nome e endereço não batem. **Pode ser resposta dada do computador de outra pessoa, ou dois
+     nomes da mesma pessoa.** **Não escolhi e não fundi.**
+539. ⚠ **`Gabriela Cunha` (Lofty) respondeu às DUAS rodadas com e-mails e áreas diferentes** —
+     `Sourcing / compras` com `.com.br` no Kick Off (mar/2025), `Estilo` com `.com` no
+     Treinamento (out/2025). **Mudança de área ou erro de preenchimento?** A segunda ficha
+     colidiu no nome do arquivo e **não foi escrita** — a primeira carrega a nota das duas.
+540. 🟢 **CSat medido, por cliente:** Osklen **9,78** (32 respostas, 8–10) · Lofty Treinamento
+     **9,58** (12) · Lofty Kick Off **9,57** (7) · Lenny **9,48** (23, 8–10).
+     ⚠ **A Lenny está em `Churn` com CSat 9,48 no Kick Off.** **Satisfação declarada no início
+     não previu a saída** — vale para calibrar o que o `Health Score` deveria medir.
