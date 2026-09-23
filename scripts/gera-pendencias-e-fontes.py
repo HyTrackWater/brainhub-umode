@@ -79,6 +79,17 @@ NAO_VARRIDAS = [
     (u"**As 10 páginas `Perfil de Usuário e Permissionamentos`**",
      u"sub-página de cliente", u"**perfis = áreas do cliente** e a matriz de permissão "
      u"— **2 lidas de 10**"),
+    (u"🔴 **`Controle de Acessos de Usuários`**",
+     u"`uModers / Vinícius Risoleo / Assunto | Ferramenta`",
+     u"**total de usuários ativos e % de ENGAJAMENTO por conta** — métrica que o "
+     u"corpus não tem"),
+    (u"**`Databases / Processos mapeados`**", u"base própria do Notion",
+     u"playbooks de processo — inclui o de **limite contratado de usuários**"),
+    (u"**`Databases / Demandas de Clientes`**", u"base própria do Notion",
+     u"⚠ **é a mesma base das 999 demandas, ou outra?** Não confirmei"),
+    (u"**`Operation Hub`** e o domínio `documentacao.umode.tech`",
+     u"`Operação de Clientes`",
+     u"🔴 **segundo domínio de documentação**, além do `docs.umode.app`"),
     (u"**Grupos de WhatsApp**", u"fora de qualquer sistema",
      u"operação real — a Reserva tem 9 mapeados"),
 ]
@@ -124,6 +135,17 @@ PAGINA = {
                         u"por cole\u00e7\u00e3o**, **90% do tempo no SAP**; Kick Off interno 01/07 e "
                         u"com cliente 12/07/2024",
                         u"\u26a0 **n\u00e3o** \u2014 4 sub-p\u00e1ginas e 3 databases inline n\u00e3o abertos" + u" **+ a sub-página `Perfil de Usuário e Permissionamentos OFICINA` (`2b6b1d38…`), com 8 perfis, as interfaces do SAP numeradas e uma regra de código vazada no título**"),
+    u"Lenny Niemeyer": (u"22 set 2026",
+                       u"sub-p\u00e1gina `Lenny | Perfil de Usu\u00e1rios e Permissionamentos` "
+                       u"(`3f308ebb\u2026`) \u2014 **a p\u00e1gina principal do cliente ainda "
+                       u"N\u00c3O foi aberta**",
+                       u"3 perfis (`LN - Admin`, `LN - Time`, **`Fornecedor`**); "
+                       u"\U0001F534 **`Fale com o Suporte` bloqueado para os tr\u00eas**; "
+                       u"\U0001F534 **base `Usu\u00e1rios` com 29 linhas TODAS VAZIAS**, mas com "
+                       u"o schema `Nome \u00b7 E-mail \u00b7 Perfil do Usu\u00e1rio \u00b7 Departamento "
+                       u"Cliente \u00b7 Status`",
+                       u"\U0001F534 **n\u00e3o** \u2014 **a p\u00e1gina do cliente n\u00e3o foi aberta**; "
+                       u"s\u00f3 esta sub-p\u00e1gina"),
     u"Lofty Style": (u"22 set 2026", u"`293c8829\u2026`",
                     u"toggle `Pessoas` **presente e VAZIO**; \U0001F6A8 **a credencial do site "
                     u"de documenta\u00e7\u00e3o est\u00e1 em texto claro na p\u00e1gina**; "
@@ -627,6 +649,35 @@ PEND = {
         (u"⚠ **Ativação em 11/02/2025** — coorte de fev/2025 com Recco e Lenny.", u"T2", u"—"),
     ],
     u"Lenny Niemeyer": [
+        (u"\U0001F534 **`Fale com o Suporte` BLOQUEADO para os tr\u00eas perfis** \u2014 "
+         u"**segundo cliente**, com a Luiza Barcelos. Contra VIX e Oficina Reserva, que "
+         u"liberam para todos. **\u00c9 2 \u00d7 2: n\u00e3o \u00e9 exce\u00e7\u00e3o de um cliente, \u00e9 "
+         u"metade dos que li.**", u"T2", u"pergunta registrada"),
+        (u"\U0001F534 **A base `Usu\u00e1rios` tem 29 linhas e TODAS est\u00e3o VAZIAS** \u2014 nome, "
+         u"e-mail, perfil, departamento e status, tudo nulo. **As 29 foram criadas no mesmo "
+         u"segundo, em 11/07/2025.** \u26a0 **Esqueleto colado e nunca preenchido.**", u"T2",
+         u"nada \u2014 a base est\u00e1 vazia"),
+        (u"\U0001F7E2 **MAS o SCHEMA dessa base \u00e9 o modelo de pessoa de cliente que falta "
+         u"no corpus:** `Nome` \u00b7 `E-mail` \u00b7 `Perfil do Usu\u00e1rio` \u00b7 **`Departamento "
+         u"Cliente`** \u00b7 `Status`. **S\u00e3o exatamente os cinco campos que eu venho "
+         u"perseguindo** \u2014 e `Departamento Cliente` \u00e9 o v\u00ednculo pessoa\u2194\u00e1rea. "
+         u"\U0001F534 **A uMode j\u00e1 desenhou a tabela certa e a deixou vazia.**", u"T2",
+         u"\U0001F534 **verificar se outros clientes t\u00eam a mesma base preenchida**"),
+        (u"\U0001F534 **`Fornecedor` \u00e9 perfil aqui tamb\u00e9m, e MAIS restrito que o da Luiza "
+         u"Barcelos:** s\u00f3 `Tarefa homepage`, `Tarefa ficha`, `Notifica\u00e7\u00f5es`, "
+         u"`Editar Usu\u00e1rio` e `Sair`. **Todo o resto bloqueado.**", u"T2",
+         u"decis\u00e3o de modelagem do terceiro"),
+        (u"\u26a0 **A linha `> excluir variante` existe na matriz e est\u00e1 EM BRANCO para todos "
+         u"os perfis** \u2014 nem liberado, nem bloqueado. **Quinto caso da dor de variante**, "
+         u"e aqui ela aparece como **decis\u00e3o n\u00e3o tomada dentro do pr\u00f3prio documento de "
+         u"permiss\u00e3o.**", u"T2", u"decis\u00e3o de produto"),
+        (u"\u26a0 **Coment\u00e1rio de valida\u00e7\u00e3o preservado na matriz:** *Cliquei mas n\u00e3o foi, "
+         u"deve ser pq nao tem grade nenhuma*. **Mesmo padr\u00e3o da Luiza Barcelos** \u2014 "
+         u"teste vira c\u00e9lula permanente.", u"T2", u"\u2014"),
+        (u"\U0001F534 **A p\u00e1gina PRINCIPAL da Lenny nunca foi aberta.** Cheguei \u00e0 "
+         u"sub-p\u00e1gina pela busca, n\u00e3o pela p\u00e1gina. \u26a0 **O caminho dela \u00e9 `Lenny "
+         u"Niemeyer \u203a RFDocumentos Implanta\u00e7\u00e3o uFlow`** \u2014 note o `RF` no nome, "
+         u"provavelmente erro de digita\u00e7\u00e3o vivo.", u"T2", u"tempo de varredura"),
         (u"⚠ **`Churn` confirmado pelo Vinicius.** Ativação em 03/02/2025 — **~14 meses de "
          u"relação**, não 8 como a Recco.", u"T2", u"nada — resolvido"),
     ],

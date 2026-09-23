@@ -38,7 +38,14 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 | # | O que está em aberto | Tier | O que destrava |
 |--:|---|:-:|---|
-| 1 | ⚠ **`Churn` confirmado pelo Vinicius.** Ativação em 03/02/2025 — **~14 meses de relação**, não 8 como a Recco. | `T2` | nada — resolvido |
+| 1 | 🔴 **`Fale com o Suporte` BLOQUEADO para os três perfis** — **segundo cliente**, com a Luiza Barcelos. Contra VIX e Oficina Reserva, que liberam para todos. **É 2 × 2: não é exceção de um cliente, é metade dos que li.** | `T2` | pergunta registrada |
+| 2 | 🔴 **A base `Usuários` tem 29 linhas e TODAS estão VAZIAS** — nome, e-mail, perfil, departamento e status, tudo nulo. **As 29 foram criadas no mesmo segundo, em 11/07/2025.** ⚠ **Esqueleto colado e nunca preenchido.** | `T2` | nada — a base está vazia |
+| 3 | 🟢 **MAS o SCHEMA dessa base é o modelo de pessoa de cliente que falta no corpus:** `Nome` · `E-mail` · `Perfil do Usuário` · **`Departamento Cliente`** · `Status`. **São exatamente os cinco campos que eu venho perseguindo** — e `Departamento Cliente` é o vínculo pessoa↔área. 🔴 **A uMode já desenhou a tabela certa e a deixou vazia.** | `T2` | 🔴 **verificar se outros clientes têm a mesma base preenchida** |
+| 4 | 🔴 **`Fornecedor` é perfil aqui também, e MAIS restrito que o da Luiza Barcelos:** só `Tarefa homepage`, `Tarefa ficha`, `Notificações`, `Editar Usuário` e `Sair`. **Todo o resto bloqueado.** | `T2` | decisão de modelagem do terceiro |
+| 5 | ⚠ **A linha `> excluir variante` existe na matriz e está EM BRANCO para todos os perfis** — nem liberado, nem bloqueado. **Quinto caso da dor de variante**, e aqui ela aparece como **decisão não tomada dentro do próprio documento de permissão.** | `T2` | decisão de produto |
+| 6 | ⚠ **Comentário de validação preservado na matriz:** *Cliquei mas não foi, deve ser pq nao tem grade nenhuma*. **Mesmo padrão da Luiza Barcelos** — teste vira célula permanente. | `T2` | — |
+| 7 | 🔴 **A página PRINCIPAL da Lenny nunca foi aberta.** Cheguei à sub-página pela busca, não pela página. ⚠ **O caminho dela é `Lenny Niemeyer › RFDocumentos Implantação uFlow`** — note o `RF` no nome, provavelmente erro de digitação vivo. | `T2` | tempo de varredura |
+| 8 | ⚠ **`Churn` confirmado pelo Vinicius.** Ativação em 03/02/2025 — **~14 meses de relação**, não 8 como a Recco. | `T2` | nada — resolvido |
 
 ### 2.1 · 🔴 Perguntas que só o Vinícius responde
 
@@ -73,12 +80,9 @@ segredo. **As fontes da § 4 não foram olhadas.**
 
 ### 3.2 · A página deste cliente no Notion
 
-🔴 **NÃO ABERTA.**
-
-**É a lacuna de maior rendimento deste cliente.** A página tem um toggle `Pessoas`
-com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Financeiro` ·
-`Responsáveis pelos Projetos` · `Responsável Tecnologia` — que é **a única fonte de**
-**`cargo` e `área`** do corpus. **Nenhuma consulta SQL alcança a página.**
+| Quando | Endereço | O que saiu | Esgotada? |
+|---|---|---|---|
+| **22 set 2026** | sub-página `Lenny | Perfil de Usuários e Permissionamentos` (`3f308ebb…`) — **a página principal do cliente ainda NÃO foi aberta** | 3 perfis (`LN - Admin`, `LN - Time`, **`Fornecedor`**); 🔴 **`Fale com o Suporte` bloqueado para os três**; 🔴 **base `Usuários` com 29 linhas TODAS VAZIAS**, mas com o schema `Nome · E-mail · Perfil do Usuário · Departamento Cliente · Status` | 🔴 **não** — **a página do cliente não foi aberta**; só esta sub-página |
 
 ## 4 · 🔴 Fontes conhecidas e AINDA NÃO varridas
 
@@ -91,8 +95,11 @@ com 4 blocos — `Diretores e Representantes Legais` · `Responsável pelo Finan
 | **Gist** — o chat da plataforma | canal oficial de dúvida de usabilidade | conversa de suporte, por cliente |
 | 🔴 **`uMode Geral / uFlow / Documentação de Setup - PLM / CLIENTES`** | segundo acervo de documentação por cliente, fora do `Mapa de Clientes` | **setup de PLM por cliente** — achado em 22 set 2026, jamais tocado |
 | **As 10 páginas `Perfil de Usuário e Permissionamentos`** | sub-página de cliente | **perfis = áreas do cliente** e a matriz de permissão — **2 lidas de 10** |
+| 🔴 **`Controle de Acessos de Usuários`** | `uModers / Vinícius Risoleo / Assunto | Ferramenta` | **total de usuários ativos e % de ENGAJAMENTO por conta** — métrica que o corpus não tem |
+| **`Databases / Processos mapeados`** | base própria do Notion | playbooks de processo — inclui o de **limite contratado de usuários** |
+| **`Databases / Demandas de Clientes`** | base própria do Notion | ⚠ **é a mesma base das 999 demandas, ou outra?** Não confirmei |
+| **`Operation Hub`** e o domínio `documentacao.umode.tech` | `Operação de Clientes` | 🔴 **segundo domínio de documentação**, além do `docs.umode.app` |
 | **Grupos de WhatsApp** | fora de qualquer sistema | operação real — a Reserva tem 9 mapeados |
-| 🔴 **A página deste cliente no Notion** | base `Mapa de Clientes` | **`cargo`, `área`, diretoria, sub-páginas de ata — e risco de segredo** |
 
 ## Governança
 

@@ -2917,3 +2917,48 @@
 456. **🔴 Mais cinco nomes de perfil sem área canônica** (Oficina): `Planner` · `Atacado` ·
      **`Qualitá`** · `Ecommerce Marketing` · `Master`. **O total de nomes de área fora da grade
      passa de treze.**
+
+## O template de página de cliente, e a Lenny (22 set 2026)
+
+457. **🔺 CORREÇÃO do que eu escrevi hoje mesmo: o template de página de cliente EXISTE.**
+     No registro (i) eu afirmei que *"não existe 'o template de pessoa da página do cliente'"*.
+     **Existe:** `. Página Cliente [Template]`, dentro do próprio `Mapa de Clientes`, com
+     `Status = Inativo` e **oito blocos definidos**. Registro em `_varredura-2026-09-22l`.
+     **O que eu errei foi a causa: não é falta de template, é falta de adesão.**
+     ⚠ **A conclusão prática de (i) continua valendo** — não dá para prever a estrutura de uma
+     página sem abri-la. **O motivo é outro; o efeito é o mesmo.**
+458. **🔴 Nenhuma das 15 páginas que abri tem os oito blocos.** E o bloco mais revelador é o
+     **`Atendimento e Suporte`**, que prevê **`Aprendizados e Anotações Importantes`** —
+     exatamente onde deveria estar coisa como *"Se ela está feliz com o projeto, estamos bem"*
+     (NK STORE) ou o aprendizado de permissão da VIX.
+     **Esses aprendizados existem e estão em lugares improvisados: dentro de célula de tabela,
+     no fim de página de permissão, em comentário de validação. O lugar certo estava desenhado
+     desde o começo.**
+459. **🔴 O template NÃO tem `Diretores e Representantes Legais`, e QUATRO clientes têm**
+     (NK STORE, Osklen, Lofty Style, Moda Objetiva). **Ou o template envelheceu, ou quatro
+     clientes o ampliaram por conta.** ⚠ **A diferença importa: é onde mora o Representante
+     Legal.** Última edição do template: **16/07/2025**.
+460. **🔴 HÁ LIMITE CONTRATADO DE USUÁRIOS, e o corpus não tem esse número para cliente nenhum.**
+     O `Playbook Cadastro de Novos Usuários uFlow` registra: *"livre dentro do limite contratado,
+     o KA precisa aprovar com o líder do cliente a contratação de mais usuários"*.
+     **Muda a leitura de dois achados: Puket com 43 usuários e 2 módulos, NV com 61 declarados.**
+461. **🔴 `Fale com o Suporte` BLOQUEADO na Lenny Niemeyer também — é 2 × 2.**
+     Bloqueado: Luiza Barcelos, Lenny Niemeyer. Liberado: VIX, Oficina Reserva.
+     **Não é exceção de um cliente: é metade dos que li.**
+462. **🔴 A base `Usuários` da Lenny tem 29 linhas e TODAS estão VAZIAS** — criadas no mesmo
+     segundo, em 11/07/2025. **Esqueleto colado e nunca preenchido.**
+     🟢 **MAS o SCHEMA dela é o modelo de pessoa de cliente que falta no corpus:**
+     `Nome` · `E-mail` · `Perfil do Usuário` · **`Departamento Cliente`** · `Status`.
+     **São exatamente os cinco campos que eu venho perseguindo, e `Departamento Cliente` é o
+     vínculo pessoa↔área.** 🔴 **A uMode já desenhou a tabela certa e a deixou vazia.**
+     **Verificar se outro cliente tem a mesma base preenchida.**
+463. **⚠ A linha `> excluir variante` existe na matriz da Lenny e está EM BRANCO para todos os
+     perfis** — nem liberado, nem bloqueado. **Quinto caso da dor de variante, e aqui ela
+     aparece como decisão não tomada dentro do próprio documento de permissão.**
+464. **🆕 Fontes que a busca revelou e ninguém varreu:**
+     🔴 **`Controle de Acessos de Usuários`** (em `uModers / Vinícius Risoleo`) — **lista de
+     contas com total de usuários ativos e % de ENGAJAMENTO** (quem acessou no mês ÷ ativos).
+     **O corpus não tem métrica de engajamento.** ·
+     `Databases / Processos mapeados` · `Databases / Demandas de Clientes` (⚠ **é a mesma base
+     das 999 demandas, ou outra?**) · **`Operation Hub`**, que cita **`documentacao.umode.tech`**
+     — 🔴 **segundo domínio de documentação**, além do `docs.umode.app` da Lofty Style.
