@@ -3968,3 +3968,23 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      · **Puket** — 92 fatos, **0 `[sem fonte]`**, 74% com fonte
      · **Oficina Reserva** — 88 fatos, 11 `[sem fonte]` (institucional e jornada), 55% com fonte
      🔴 **Corpus inteiro: 1.138 com fonte (34%) · 299 ausência verificada (9%) · 1.943 `[sem fonte]` (57%).**
+
+## Oficina Reserva zerada — e uma dúvida de identidade de cliente (23 set 2026)
+
+655. 🟢 **Oficina Reserva chegou a ZERO `[sem fonte]`** — 88 fatos, 63 com fonte, 25 ausência
+     verificada. **Três clientes agora estão inteiramente rastreáveis: Caedu, Puket e Oficina.**
+656. 🔴 **`Oficina Reserva` NÃO consta na base de contratos do Financeiro.** Conferi os **41
+     registros um a um**. ⚠ **A base tem `Reserva`** — que o corpus trata como cliente distinto,
+     com pasta própria e serviços próprios (`uFlow` · `uBuy` · `uPlan`).
+     🔴 **Não afirmo que sejam a mesma conta nem que sejam diferentes.** É exatamente o tipo de
+     confusão de `STZ` × `Studio Z`, em que eu errei e o Vinicius corrigiu.
+     **Quem confirma é o Financeiro — e até lá todo campo de contrato da conta fica sem valor,
+     com a ausência declarada.**
+657. 🔺 **Quase li um dado como outro.** A seção `Receita anual` da Oficina dizia *"a mensagem de
+     Sales diz **'não haverá valor adicional'**"*. 🔴 **Isso é sobre cobrança da uMode, não sobre
+     a receita do cliente.** São coisas diferentes, e o MD as colocava no mesmo campo.
+     **Separei as duas com a ressalva escrita.**
+658. 🟢 **A chave `entrega` passou a reconhecer bloco de `escopo` na tabela de procedência.**
+     Vários `jornada.md` declaram o que foi prometido dentro de *"escopo acordado"*, não numa
+     seção chamada "entregas" — e as 5 entregas da Oficina vinham da **mensagem do João no grupo
+     de Sales, de 26/06/2024**, sem que o gerador soubesse ligar.

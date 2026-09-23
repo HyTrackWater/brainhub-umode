@@ -21,7 +21,7 @@ tags:
 
 - id: oficina-reserva — [varredura do Notion · 2026-09-21]
 - segmento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
-- receita-anual: ? — [sem fonte]
+- receita-anual: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 - grupo-segmentacao: Enterprise — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
 - data-ativacao: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
@@ -31,11 +31,11 @@ tags:
 - modulo-contratado: Relatórios — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Cronograma — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Fornecedores — [varredura do Notion · 2026-09-21]
-- contrato-situacao: ? — [sem fonte]
-- contrato-vigencia: ? — [sem fonte]
-- contrato-renovacao: ? — [sem fonte]
-- indice-reajuste: ? — [sem fonte]
-- usuarios-contratados: ? — [sem fonte]
+- contrato-situacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
+- contrato-vigencia: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
+- contrato-renovacao: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
+- indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
+- usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-21]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
 - atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
 - tamanho-atendimento: Grupo Enterprise · WIP 6,00 · Fernanda, com 3 contas — [varredura do Notion · 2026-09-21]
@@ -110,7 +110,11 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 > *"no mesmo pacote do Grupo"*, sem ciclo comercial próprio.
 
 ### Receita anual
-`[a preencher]` — e a mensagem de Sales diz **"não haverá valor adicional"**.
+`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
+> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026** e também no **export de 04/03/2026** que está no vault. **Vazio nos dois.**
+> ⚠ **O campo está preenchido em 2 dos 49 clientes** — **não é lacuna deste cliente, é campo que a operação não preenche.**
+>
+> ⚠ **A mensagem de Sales diz "não haverá valor adicional"** — 🔴 **isso é sobre cobrança da uMode, não sobre a receita do cliente.** São coisas diferentes e não devem ser lidas uma pela outra.
 
 ### Grupo de segmentação uMode
 **`Enterprise`** — Grupo 1, descrição *"Reserva + Soma"*. `WIP Estratégico 6,00`.
@@ -159,25 +163,29 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.
 
+> 🔴 **Ausência VERIFICADA em 23/09/2026: `Oficina Reserva` NÃO consta na base de contratos do Financeiro.** Os **41 registros** foram conferidos um a um.
+> ⚠ **A base tem `Reserva`** — que o corpus trata como **cliente distinto**, com pasta própria e serviços próprios (`uFlow` · `uBuy` · `uPlan`). 🔴 **Não afirmo que sejam a mesma conta nem que sejam contas diferentes** — é exatamente o tipo de confusão que já aconteceu com `STZ` × `Studio Z`. **Quem confirma é o Financeiro.**
+> ⚠ **Enquanto não se confirma, todo campo de contrato desta conta fica sem valor** — e a ausência está declarada, não esquecida.
+
 ### Situação do contrato
 
-`[a preencher]`
+`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
 
 ### Vigência
 
-`[a preencher]`
+`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
 
 ### Renovação e aviso prévio
 
-`[a preencher]`
+`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
 
 ### Índice de reajuste
 
-`[a preencher]`
+`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
 
 ### Usuários contratados
 
-`[a preencher]`
+`[a preencher]` — **não consta na base de contratos do Financeiro** (41 registros, conferidos em 23/09/2026).
 
 ### Pendências contratuais registradas
 

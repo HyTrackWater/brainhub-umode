@@ -95,7 +95,10 @@ TABELAS = {
 # Aqui se diz qual bloco responde por qual chave.
 BLOCO_DA_CHAVE = {
     u"dor":                [u"dores", u"fluxo"],
-    u"entrega":            [u"valida", u"fluxo", u"campos", u"entrega"],
+    # "escopo" entra porque e onde varios jornada.md declaram o que foi
+    # prometido - a entrega nasce do escopo acordado, nao de uma secao
+    # chamada "entregas".
+    u"entrega":            [u"valida", u"fluxo", u"campos", u"entrega", u"escopo"],
     u"pessoas-da-area":    [u"pessoas"],
     u"produto-conectado":  [u"módulos", u"modulos", u"produto"],
     # dono da area E no CLIENTE: a fonte e a tabela de pessoas, nao a dupla
