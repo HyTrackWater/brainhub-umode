@@ -1,4 +1,4 @@
-# Caedu · Pessoa · Samara Santos
+# Caedu · Pessoa · camila castro
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
@@ -9,11 +9,11 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-`[a preencher]` — a fonte registra **`Samara Santos`**
+`[a preencher]` — a fonte registra **`camila castro`**
 ### Nome preferido / como é chamado(a)
-**Samara Santos**
+**camila castro**
 ### Email
-**`samara.santos@caedu.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
+**`camila.castro@caedu.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
 
 🟢 **É a chave de identidade desta pessoa** — o que resolve grafia diferente sem inventar gente (item 252). Tier `T2`.
 
@@ -24,7 +24,7 @@ página do cliente**, que é onde o cargo vive quando existe.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-**Produto** — **`Perfil de Acesso`** na tabela de usuários da plataforma.
+**Gerentes** — **`Perfil de Acesso`** na tabela de usuários da plataforma.
 
 ⚠ **`Perfil de acesso` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
@@ -77,12 +77,14 @@ página do cliente**, que é onde o cargo vive quando existe.
 
 | Sinal | Valor |
 |---|---|
-| **Demandas abertas** | **1** |
-| Primeira atividade observada | 21/10/2025 |
-| Última atividade observada | 21/10/2025 |
+| **Demandas abertas** | **0** |
+| Primeira atividade observada | `[a preencher]` |
+| Última atividade observada | `[a preencher]` |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
-| **Ativo na plataforma desde** | **29/11/20** |
+| **Ativo na plataforma desde** | **04/09/2023** |
 | Fonte | tabela de usuários da página do cliente |
+
+**Observação da fonte:** perfil de acesso `Gerente de Estilo / Caedu-Gerentes`, da tabela de usuários da página do cliente. 🔴 **O campo traz cargo E perfil na mesma célula** (`Gerente de Estilo / Caedu-Gerentes`) — a fonte mistura as duas coisas. 🔴 **`Ativo desde` está corrompido na fonte: `04/09/2023`.** Não deduzi a data. ⚠ **Sem acesso a:** `Aba de cadastros`.
 
 ## Governança
 ### Quem pode alterar este documento

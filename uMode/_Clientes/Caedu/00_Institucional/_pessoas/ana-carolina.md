@@ -1,4 +1,4 @@
-# Caedu · Pessoa · Samara Santos
+# Caedu · Pessoa · ana carolina
 
 > **Ficha gerada por `scripts/gera-fichas-pessoa.py` em 22 set 2026.**
 > Campo sem fonte fica `[a preencher]` — **nada foi inferido.**
@@ -9,11 +9,11 @@
 ### Foto
 `[a preencher]`
 ### Nome completo
-`[a preencher]` — a fonte registra **`Samara Santos`**
+`[a preencher]` — a fonte registra **`ana carolina`**
 ### Nome preferido / como é chamado(a)
-**Samara Santos**
+**ana carolina**
 ### Email
-**`samara.santos@caedu.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
+**`ana.carolina@caedu.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
 
 🟢 **É a chave de identidade desta pessoa** — o que resolve grafia diferente sem inventar gente (item 252). Tier `T2`.
 
@@ -77,12 +77,14 @@ página do cliente**, que é onde o cargo vive quando existe.
 
 | Sinal | Valor |
 |---|---|
-| **Demandas abertas** | **1** |
-| Primeira atividade observada | 21/10/2025 |
-| Última atividade observada | 21/10/2025 |
+| **Demandas abertas** | **0** |
+| Primeira atividade observada | `[a preencher]` |
+| Última atividade observada | `[a preencher]` |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
-| **Ativo na plataforma desde** | **29/11/20** |
+| **Ativo na plataforma desde** | **19/06/2024** |
 | Fonte | tabela de usuários da página do cliente |
+
+**Observação da fonte:** perfil de acesso `Caedu-Produto`, da tabela de usuários da página do cliente. 🔴 **`Ativo desde` está corrompido na fonte: `19/06/2024`.** Não deduzi a data. ⚠ **Sem acesso a:** `Aba de cadastros`, `Meus produtos`.
 
 ## Governança
 ### Quem pode alterar este documento

@@ -13,14 +13,20 @@
 ### Nome preferido / como é chamado(a)
 **Mariana**
 ### Email
-`[a preencher]`
+**`mariana.amaral@caedu.com.br`** — e-mail **corporativo**, da tabela de usuários da plataforma.
+
+🟢 **É a chave de identidade desta pessoa** — o que resolve grafia diferente sem inventar gente (item 252). Tier `T2`.
+
+⚠ **E-mail corporativo entra; e-mail pessoal, telefone e CPF não** — `AGORA.md` § 8.1.
 ### Cadeira / cargo atual
 `[a preencher]` — ⚠ **esta pessoa não aparece no toggle `Pessoas` da
 página do cliente**, que é onde o cargo vive quando existe.
 ### Nível HIC
 ⚠ **não se aplica** — é campo da Casa uMode
 ### Área (organizacional)
-`[a preencher]` — 🔴 **o vínculo pessoa e área é a lacuna aberta do corpus**
+**Geral** — **`Perfil de Acesso`** na tabela de usuários da plataforma.
+
+⚠ **`Perfil de acesso` NÃO é área canônica** — é como o cliente nomeia. **Não mapeei para a grade de 14** sem sua confirmação.
 ### Data de entrada na uMode
 ⚠ **não se aplica** — pessoa de cliente
 ### Status na uMode
@@ -75,6 +81,8 @@ página do cliente**, que é onde o cargo vive quando existe.
 | Primeira atividade observada | 02/07/2025 |
 | Última atividade observada | 02/07/2025 |
 | Fonte | campo `Quem solicitou?` da base de demandas do Notion |
+| **Ativo na plataforma desde** | **17/07/2023** |
+| Fonte | tabela de usuários da página do cliente |
 
 ## Governança
 ### Quem pode alterar este documento
