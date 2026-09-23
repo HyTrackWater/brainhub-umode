@@ -27,11 +27,23 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Nenhuma — [página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+**Tem perfil próprio no PLM: `Oficina - Estilo`**, e é um dos três perfis de maior alcance da conta.
+
+🟢 **É um dos três perfis que a regra de permissão trata como privilegiados**, e a regra está escrita na própria fonte:
+> `!current_context.current_policy.name.in?(['Oficina - Master', 'Oficina - Planner', 'Oficina - Estilo'])`
+
+⚠ **As sete abas de Estilo na ficha de produto são:** `Informações Gerais` · `Ficha Técnica` · `Variantes` · `Materiais (Facção)` · `Materiais P.A.` · `Imagens` · `Arquivos`.
+
+🔴 **E há uma exceção dura:** `Estilo | Ficha Técnica` é **🔴 para todos os perfis menos o Master** — inclusive para o próprio Estilo.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos OFICINA`, lida em 17/03/2026, na página da conta em `Databases / Mapa de Clientes`.
+
+🔴 **Oito funcionalidades estão desligadas para TODOS os oito perfis:** `Lotes` · `Tabela Dinâmica` · `Coordenado` · `Estampa` · `Composição de Custo` · `Tag` · `Tipo de Lote` · `Pack`. **É decisão de conta, não de área.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -79,6 +91,7 @@ ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
 | Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
 | Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Oficina Reserva`, **sem tabela de usuários do PLM** | varrido 23/09/2026 |
 
 ### 🔴 Próxima fonte a varrer
 **`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas

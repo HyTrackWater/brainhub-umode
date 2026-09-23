@@ -200,6 +200,28 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 
 > **As outras oito áreas canônicas não são mencionadas em nenhuma fonte varrida.**
 
+
+### 🟢 Perfis de acesso reais — fonte forte, lida em 17/03/2026
+
+> 🔴 **Esta tabela PREVALECE sobre a de funções-citadas-em-dores acima**, que a própria
+> se declara *"fonte fraca"*. **Aquela fica como histórico do que se sabia antes.**
+> **Fonte:** Notion — `Perfil de Usuário e Permissionamentos OFICINA`.
+
+| Perfil no PLM | → Área canônica |
+|---|---|
+| `Oficina - Master` | **transversal** — único com `Usuários da Conta` e `Editar Usuário` |
+| `Oficina - Planner` | **transversal** — privilegiado, **não confundir com `Oficina - Planejamento`** |
+| `Oficina - Estilo` | `02_Estilo-Criacao` |
+| `Oficina - Planejamento` | `01_Planejamento` |
+| `Oficina - Compras` | `06_Compras-Supply-Sourcing` — 🔴 **marcado para ser extinto** |
+| `Oficina - Atacado` | `09_Comercial-Vendas` — o mais restrito dos oito |
+| `Oficina - Qualitá` | `04_Qualidade` — 🔴 **perfil de EMPRESA EXTERNA** |
+| `Oficina - Ecommerce Marketing` | 🔴 **`08_Ecommerce-Cadastro` E `10_Marketing`** — um perfil, duas áreas |
+
+🔴 **Sete das 14 áreas canônicas não têm perfil:** PCP, Logística, Financeiro, Design,
+Modelagem, Engenharia e Desenvolvimento de Coleção. ⚠ **Mas Engenharia existe como bloco da
+ficha de produto** — **perfil e área não são a mesma coisa nesta conta.**
+
 ## Sistemas e fontes de verdade
 ### Drive de operação
 ⚠ **Não há pasta registrada na base** — campo ausente, diferente de todos os outros Ongoing.

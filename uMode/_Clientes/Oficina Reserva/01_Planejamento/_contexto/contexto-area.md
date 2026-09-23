@@ -27,11 +27,18 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Nenhuma — [página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+**Tem perfil próprio: `Oficina - Planejamento`**, e é o único perfil não-privilegiado com **edição** na aba `Planejamento` da ficha.
+
+⚠ **Também edita, ao contrário dos demais perfis operacionais:** `Marca`, `Coleção`, `Tema`, `Associar Workflow`, `Todas as Entradas` e `Meus Produtos`.
+
+🔴 **Há um perfil vizinho e distinto — `Oficina - Planner`** — que é privilegiado e não se confunde com este. **São dois perfis diferentes com nomes quase iguais.**
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos OFICINA`, lida em 17/03/2026, na página da conta em `Databases / Mapa de Clientes`.
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -79,6 +86,7 @@ ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
 | Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
 | Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Oficina Reserva`, **sem tabela de usuários do PLM** | varrido 23/09/2026 |
 
 ### 🔴 Próxima fonte a varrer
 **`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas

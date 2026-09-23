@@ -27,11 +27,16 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Nenhuma — [página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+⚠ **Não há perfil de Modelagem na Oficina Reserva.** A função vive na aba **`Engenharia | Tamanhos e Medidas`** da ficha, editada por Master, Planner e Estilo.
+
+⚠ **O cadastro `Tabela de Medidas` está 🟢 só para Master e Planner**; os outros seis perfis apenas visualizam.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos OFICINA`, lida em 17/03/2026, na página da conta em `Databases / Mapa de Clientes`.
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -79,6 +84,7 @@ ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
 | Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
 | Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Oficina Reserva`, **sem tabela de usuários do PLM** | varrido 23/09/2026 |
 
 ### 🔴 Próxima fonte a varrer
 **`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas

@@ -25,20 +25,19 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
 
 ## O que esta área faz
-**Duas frentes declaradas: pedido de compra e relação com fornecedor.**
 
-**Pedido de compra:** *"**90% do tempo dedicado ao SAP**"*.
+**Tem perfil próprio: `Oficina - Compras`.**
 
-**Relação com fornecedor** — dor 1.3:
-- *"Fornecedores justificam que **não realizaram tarefas por não receberem a demanda**."*
-- *"Muitos documentos separados para resolver a relação (**e-mail, planilha, Corel, vídeos**)."*
-- *"Percepção negativa por **ser a única marca diferente das demais**."*
+🔴 **E ele está marcado para desaparecer:**
+> *"Provavelmente no **novo formato da Oficina não teremos mais o Perfil de compras**. Por hora, seguimos com esse perfil ativo."*
 
-🟢 **O módulo `Fornecedores` está contratado** — e responde diretamente a esta dor.
+⚠ **Hoje o perfil vê o custo:** `Relatório de Pré Custo` está 🟡 para Compras, e 🔴 para Atacado, Qualitá e Ecommerce.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos OFICINA`, lida em 17/03/2026, na página da conta em `Databases / Mapa de Clientes`.
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -82,6 +81,7 @@ ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
 | Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
 | Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Oficina Reserva`, **sem tabela de usuários do PLM** | varrido 23/09/2026 |
 
 ### 🔴 Próxima fonte a varrer
 **`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas

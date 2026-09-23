@@ -27,11 +27,24 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Nenhuma — [página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
 
 ## O que esta área faz
-`[a preencher]`
+
+🟢 **Aqui Engenharia NÃO é hipótese: é um bloco da ficha de produto, com três abas próprias.**
+
+| Aba | Quem edita |
+|---|---|
+| `Engenharia \| Tamanhos e Medidas` | Master, Planner, Estilo |
+| `Engenharia \| Aprovações` | Master, Planner, Estilo — **🔴 Atacado e Ecommerce não veem** |
+| `Engenharia \| Engenharia` | Master, Planner, Estilo |
+
+⚠ **Não existe perfil de acesso chamado Engenharia.** O bloco existe na ficha e é operado pelos três perfis privilegiados.
+
+🔴 **Contraste que vale registrar:** na Caedu e na Puket, Engenharia **não é nomeada em fonte nenhuma**. Aqui ela é estrutura de produto.
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos OFICINA`, lida em 17/03/2026, na página da conta em `Databases / Mapa de Clientes`.
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -79,6 +92,7 @@ ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
 | Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
 | Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Oficina Reserva`, **sem tabela de usuários do PLM** | varrido 23/09/2026 |
 
 ### 🔴 Próxima fonte a varrer
 **`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas

@@ -3922,3 +3922,49 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      `**campo vazio na base**`, com o negrito abrindo **antes** de "campo", e eu só previa
      negrito em volta de "vazio". 🔴 **Medi as quatro formas reais antes de corrigir, em vez de
      supor a quinta** — está documentado no próprio script.
+
+## A Oficina Reserva apontava a fonte e ninguém tinha lido (23 set 2026)
+
+645. 🔺 **Catorze `contexto-area.md` da Oficina Reserva traziam uma seção `### 🔴 Próxima fonte a
+     varrer para esta área` apontando literalmente `Perfil de Usuário e Permissionamentos
+     OFICINA`.** 🔴 **Estava escrito o que fazer, e ninguém tinha feito.**
+     ⚠ **21 arquivos do corpus têm essa seção** — 14 da Oficina e 7 da Puket. **As duas foram
+     varridas hoje. Não há mais fonte apontada e não lida.**
+646. 🟢 **A matriz de perfis SUBSTITUI uma fonte que o próprio corpus marcava como fraca.**
+     O `institucional.md` da conta dizia: *"esta conta não tem lista de times, nem tabela de PLM
+     varrida, nem pesquisa. O que existe são **funções citadas dentro das dores**. Fonte fraca,
+     e declarada como tal."* 🟢 **Agora há oito perfis nomeados, com permissão campo a campo.**
+     ⚠ **Não apaguei a tabela fraca** — marquei qual prevalece e deixei a anterior como histórico.
+647. 🔴 **`Oficina - Qualitá` é perfil de EMPRESA EXTERNA dentro da conta do cliente.**
+     A Qualitá audita a qualidade da Oficina Reserva e **tem perfil próprio no PLM**.
+     🟢 **Confirma com fonte forte o que era indício fraco** (*"auditoria de qualidade — feita
+     pela Qualitá, empresa externa"*, tirado de uma dor). ⚠ **É o primeiro caso conhecido de
+     terceiro com acesso ao PLM de um cliente** — tem implicação de permissionamento e de LGPD
+     que o corpus não modela.
+648. 🔴 **`Oficina - Ecommerce Marketing` é UM perfil para DUAS áreas canônicas.**
+     **Não dá para atribuir trabalho por área nesta conta** — o perfil de acesso não separa
+     `08_Ecommerce-Cadastro` de `10_Marketing`. ⚠ **É o padrão "alias não cabe na grade", agora
+     em PERMISSÃO e não em nome de time.**
+649. 🟢 **Engenharia existe de verdade aqui, e isso contrasta com Caedu e Puket.** Na Oficina é
+     **bloco da ficha de produto com três abas** — `Tamanhos e Medidas`, `Aprovações` e
+     `Engenharia`. 🔴 **Nas outras duas contas, Engenharia não é nomeada em fonte nenhuma.**
+     ⚠ **Perfil de acesso e área canônica não são a mesma coisa** — e esta conta prova: sete
+     áreas não têm perfil, mas Engenharia tem estrutura de produto.
+650. 🔴 **Oito funcionalidades estão desligadas para TODOS os oito perfis:** `Lotes` ·
+     `Tabela Dinâmica` · `Coordenado` · `Estampa` · `Composição de Custo` · `Tag` ·
+     `Tipo de Lote` · `Pack`. ⚠ **É decisão de conta, não de área** — e vale perguntar se é
+     escolha ou se é funcionalidade que a conta não contratou.
+651. 🔴 **A conta cita DOIS ERPs.** `Novos Produtos ZZNet` é **SAP Interface 1** e
+     `Atualização de Produtos` é **SAP Interface 3** — e há uma aba `Integração Linx` na ficha,
+     restrita a três perfis. ⚠ **Confirmar qual é o ERP vigente e o que a outra integração faz.**
+652. ⚠ **`Oficina - Compras` está marcado para desaparecer:** *"provavelmente no novo formato da
+     Oficina não teremos mais o Perfil de compras. Por hora, seguimos com esse perfil ativo."*
+     **Registrado como estado de transição, com a citação.**
+653. ⚠ **Dois perfis com nomes quase iguais e papéis diferentes:** `Oficina - Planner`
+     (privilegiado, transversal) e `Oficina - Planejamento` (operacional, edita a aba
+     Planejamento). 🔴 **É armadilha de leitura** — igual a `Pedro Murillo` × `Pedro Victor`.
+654. 🟢 **Estado da camada de fato nos três clientes varridos a fundo:**
+     · **Caedu** — 142 fatos, **0 `[sem fonte]`**, 82% com fonte
+     · **Puket** — 92 fatos, **0 `[sem fonte]`**, 74% com fonte
+     · **Oficina Reserva** — 88 fatos, 11 `[sem fonte]` (institucional e jornada), 55% com fonte
+     🔴 **Corpus inteiro: 1.138 com fonte (34%) · 299 ausência verificada (9%) · 1.943 `[sem fonte]` (57%).**

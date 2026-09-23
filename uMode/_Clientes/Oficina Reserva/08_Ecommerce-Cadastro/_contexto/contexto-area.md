@@ -25,16 +25,18 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma · Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Uma pessoa só, e ela quer sair da operação — [varredura do Notion · 2024-06-26]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Uma pessoa só, e ela quer sair da operação — [página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
+- responsavel-area: ? — [não consta em: página Oficina Reserva, sem tabela de usuários do PLM · 2026-09-23]
 
 ## O que esta área faz
-🔴 **É a área da dor número 1 da conta.** O cadastro de produto é feito **inteiramente no SAP**, e a mensagem de Sales registra:
 
-- *"Sistema pouco intuitivo e com **muitas etapas entre SAP e Linx**."*
-- *"Falta de time de apoio do SAP, **dependência do time da AREZZO**."*
-- *"Necessidade de ajustes em **cor, grade, NCM**, etc."*
-- *"Informações desafiadoras de serem encontradas."*
+🔴 **E-commerce e Marketing compartilham UM único perfil: `Oficina - Ecommerce Marketing`.**
+
+⚠ **É um perfil para DUAS áreas canônicas** — `08_Ecommerce-Cadastro` e `10_Marketing`. **Não dá para separar quem fez o quê pelo perfil de acesso**, e isso limita qualquer atribuição por área nesta conta.
+
+⚠ **O `institucional.md` já registrava, de fonte fraca, que *"há apenas uma pessoa dedicada ao cadastro"*.** 🟢 **A matriz de perfis é coerente com isso.**
+
+⚠ **Fonte:** Notion — `Perfil de Usuário e Permissionamentos OFICINA`, lida em 17/03/2026, na página da conta em `Databases / Mapa de Clientes`.
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -82,6 +84,7 @@ ERP **`SAP e Linx`**, com o cadastro feito **inteiramente no SAP**.
 | Dores por função, atores externos, indicadores | Notion — mensagem do João no grupo de Sales | **26/06/2024** · varrida 21/09/2026 |
 | Chamados | Notion — `Chamados & Atendimentos` | varrido 21/09/2026 |
 | Módulos e ERP | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Pessoas e responsáveis de área | Notion — página `Oficina Reserva`, **sem tabela de usuários do PLM** | varrido 23/09/2026 |
 
 ### 🔴 Próxima fonte a varrer
 **`Perfil de Usuário e Permissionamentos OFICINA`** — **é a fonte que pode nomear as pessoas
