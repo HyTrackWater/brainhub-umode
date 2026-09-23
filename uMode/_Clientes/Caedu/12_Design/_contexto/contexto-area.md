@@ -23,14 +23,17 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: ? — [não consta em: base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
 
-> Na Caedu a criação está sob `02_Estilo-Criacao` — **não há indício de uma área de Design separada.** Confirmar se ela existe no organograma do cliente.
+🔴 **Nenhuma fonte varrida nomeia uma área de Design na Caedu.** Não é o mesmo que dizer que ela não existe — **é dizer que não foi encontrada em nenhuma das quatro fontes abaixo.**
+
+⚠ **O mapeamento de conta cobre seis processos e Design não é um deles:** Planejamento, Estilo, Importação, Modelagem, Produto Nacional e Qualidade (§ 2.2).
+
+⚠ **A criação de produto está sob `02_Estilo-Criacao`**, que é quem aprova produto e preenche ficha técnica (§ 4.2.2). 🔴 **Não afirmo que Design seja Estilo com outro nome** — é hipótese a confirmar com o atendimento.
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -72,11 +75,21 @@ Gerentes, Geral e Admin.
 
 `[a preencher]`
 
+### Procedência deste documento
+| Bloco | Fonte | Data |
+|---|---|---|
+| O que a área faz, relações, o que não fazem | Notion — `Mapeamento de Contas - Caedu` (AS IS / TO BE) | 04/04/2025 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Ausência de perfil de acesso e de pessoas | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
+⚠ **O mapeamento de conta é de abr/2025 — tem 17 meses.** Revalidar com a dupla de atendimento
+antes de usar como diagnóstico atual.
+
 ### Fontes varridas e o que cada uma não trouxe
 | Fonte | Resultado |
 |---|---|
 | Notion — página `Caedu` em `Databases / Mapa de Clientes` | sem perfil de acesso para esta área |
-| Notion — `Mapeamento de Contas - Caedu` | área não consta no escopo mapeado |
+| Notion — `Mapeamento de Contas - Caedu` | 🔴 **não nomeada** — os 6 processos mapeados não incluem Design (§ 2.2) |
 | Notion — base `Mapa de Clientes` | sem campo correspondente |
 | vault do João — pasta `caedu` | proposta e cronograma, sem detalhe de área |
 

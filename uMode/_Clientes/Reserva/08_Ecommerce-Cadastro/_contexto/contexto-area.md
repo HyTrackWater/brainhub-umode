@@ -24,7 +24,7 @@ tags:
 
 - produto-conectado: 7 de 7 módulos contratados — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: Raquel — [corpo da página Reserva · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: corpo da página Reserva · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` — o sinal mais forte é **"PA"**, que aparece em três nomes de grupo (*Migração PA*, *PROBLEMAS DIÁRIOS PA*). ⚠ **A sigla não é explicada em nenhuma fonte varrida e não foi inferida.**

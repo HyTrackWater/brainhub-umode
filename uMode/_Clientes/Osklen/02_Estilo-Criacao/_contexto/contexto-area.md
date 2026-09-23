@@ -25,7 +25,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Fornecedores · Integração · Cronograma · Relatórios — [base Mapa de Clientes · 2026-09-22]
 - pessoas-da-area: 2 pessoas — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
 
 ## O que esta área faz
 ⚠ **`Estilo - Sneakers` é subárea por linha de produto** — mesmo padrão da VIX (`Biquini`, `Cover ups`, `Roupas`, `PA`). **Terceiro cliente com esse eixo.**

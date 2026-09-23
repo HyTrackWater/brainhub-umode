@@ -21,7 +21,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - status: Ongoing · 4 de 7 módulos · ERP Linx · grupo Médios · ativada em 10/02/2025 — [varredura do Notion · 2026-09-21]
-- fase: Pós-treinamento, com fila de custo travada. O treinamento de plataforma foi em out/2025 — [varredura do Notion · 2026-09-21]
+- fase: Pós-treinamento, com fila de custo travada — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]

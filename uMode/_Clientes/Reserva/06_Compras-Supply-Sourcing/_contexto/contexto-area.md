@@ -24,7 +24,7 @@ tags:
 
 - produto-conectado: 7 de 7 módulos contratados — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: - Claudinha — [corpo da página Reserva · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: corpo da página Reserva · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` — mas **é a área com mais sinal na conta inteira**: quatro dos nove grupos de WhatsApp são dela, há um **Termo de abertura de Projeto — Sourcing** próprio, e a liderança do projeto (**Claudinha**) atua por aqui.

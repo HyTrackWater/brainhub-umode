@@ -22,8 +22,8 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção — [planilha de contratos do Financeiro · 2026-09-22]
-- pessoas-da-area: Nenhuma — [planilha de contratos do Financeiro · 2026-09-22]
+- produto-conectado: Gestão de Coleção — [sem fonte]
+- pessoas-da-area: Nenhuma — [sem fonte]
 - responsavel-area: ? — [sem fonte]
 
 ## O que esta área faz

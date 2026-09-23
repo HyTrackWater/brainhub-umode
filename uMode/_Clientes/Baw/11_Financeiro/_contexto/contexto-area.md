@@ -22,9 +22,9 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [planilha de contratos do Financeiro · 2026-09-22]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [sem fonte]
 - pessoas-da-area: Nenhuma — [Chamados & Atendimentos · 2026-09-22]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: Chamados & Atendimentos · 2026-09-22]
 
 ## O que esta área faz
 `[a preencher]`

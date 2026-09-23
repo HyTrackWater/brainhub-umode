@@ -22,7 +22,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: 4 pessoas com perfil Caedu-Modelagem — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: página Caedu em Databases / Mapa de Clientes · 2026-09-21]
 - entrega: Aprovação de piloto · checklist de aprovação + motivo — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Tabela de medidas · aba Tabela de Medidas da ficha — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Repilotagem · novo ciclo de aprovação — [Mapeamento de Contas - Caedu · 2025-04-04]

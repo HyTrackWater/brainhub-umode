@@ -23,14 +23,20 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: Nenhum módulo contratado atende esta área — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
 
-> O fluxo mapeado termina na aprovação de qualidade — o que acontece depois, até a loja, **não está em nenhuma fonte da uMode.**
+⚠ **A logística da Caedu não está na plataforma. Ela aparece apenas como o DESTINO do fluxo**, depois da última validação de Qualidade:
+
+> *"Controle de amostras de produção, reprovando ou aprovando (lacrando) **antes do envio a lojas**."*
+> — `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025, § 4.2.6 *Qualidade*
+
+⚠ **Dois vestígios a mais, e só dois:** o campo **`Localização de loja`** na ficha de produto (§ 4.2.2) e o **planejamento de loja e cluster** previsto no Macroplan, que o próprio mapeamento classifica como **pouco explorado** (§ 4.4, dor 4).
+
+🔴 **Nenhuma fonte descreve operação de CD, expedição ou armazenagem da Caedu.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -60,7 +66,10 @@ Os perfis existentes são: Estilo, Produto, Planejamento, Modelagem, Qualidade, 
 Gerentes, Geral e Admin.
 
 ## Produto conectado
-`[a preencher]`
+
+**Nenhum módulo contratado atende esta área.**
+
+⚠ **`Gestão de Coleção` faz fronteira com ela** no campo `Localização de loja` e no Macroplan — **que está registrado como subutilizado.**
 
 ## Fontes e referências
 
@@ -72,11 +81,21 @@ Gerentes, Geral e Admin.
 
 `[a preencher]`
 
+### Procedência deste documento
+| Bloco | Fonte | Data |
+|---|---|---|
+| O que a área faz, relações, o que não fazem | Notion — `Mapeamento de Contas - Caedu` (AS IS / TO BE) | 04/04/2025 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Ausência de perfil de acesso e de pessoas | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
+⚠ **O mapeamento de conta é de abr/2025 — tem 17 meses.** Revalidar com a dupla de atendimento
+antes de usar como diagnóstico atual.
+
 ### Fontes varridas e o que cada uma não trouxe
 | Fonte | Resultado |
 |---|---|
 | Notion — página `Caedu` em `Databases / Mapa de Clientes` | sem perfil de acesso para esta área |
-| Notion — `Mapeamento de Contas - Caedu` | área não consta no escopo mapeado |
+| Notion — `Mapeamento de Contas - Caedu` | ⚠ aparece **só como destino do fluxo** (*"antes do envio a lojas"*, § 4.2.6) |
 | Notion — base `Mapa de Clientes` | sem campo correspondente |
 | vault do João — pasta `caedu` | proposta e cronograma, sem detalhe de área |
 

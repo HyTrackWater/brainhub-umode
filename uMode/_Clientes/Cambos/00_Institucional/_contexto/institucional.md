@@ -28,7 +28,7 @@ tags:
 - grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
 - data-ativacao: ? — [sem fonte]
-- erp: A base está incompleta. O campo ERP/Integração diz apenas — [varredura do Notion · 2026-09-21]
+- erp: A base está incompleta — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Relatórios — [varredura do Notion · 2026-09-21]

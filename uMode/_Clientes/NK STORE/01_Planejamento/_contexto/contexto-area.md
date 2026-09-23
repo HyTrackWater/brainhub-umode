@@ -24,7 +24,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [sem fonte]
 - pessoas-da-area: Bruna — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]`

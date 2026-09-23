@@ -42,8 +42,8 @@ tags:
 - entrega: Integração de Escrita — Plano de Comunicação — [sem fonte]
 - entrega: FAQ Osklen & uMode 2026 — [sem fonte]
 - entrega: Os 11 documentos de implantação — [sem fonte]
-- incidente: Chamado de USABILIDADE — caroline.dantas — [sem fonte]
-- incidente: *"Ver a possibilidade de ticar os tamanhos liberados para produção"* — marcia.lima — [sem fonte]
+- incidente: Chamado de USABILIDADE — caroline.dantas — [Não iniciada · 2026-01-23]
+- incidente: *"Ver a possibilidade de ticar os tamanhos liberados para produção"* — marcia.lima — [Em Aberto · com o Pedro · 2026-01-28]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se as entregas do uFlow aconteceram.** A página prevê *"1ª entrada Junho 2025

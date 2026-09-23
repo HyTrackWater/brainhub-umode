@@ -26,7 +26,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Relatórios · Integração · Fornecedores — [varredura do Notion · 2026-09-21]
 - pessoas-da-area: Marcelo Tonello — [*Pessoas* e *Definições do Projeto* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: *Pessoas* e *Definições do Projeto* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` para as atribuições detalhadas.

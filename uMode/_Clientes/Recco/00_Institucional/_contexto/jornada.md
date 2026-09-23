@@ -21,7 +21,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - status: Churn · Última atividade observada: 16/10/2025 · ERP: Totvs · Setor: Lingerie — [varredura do Notion · 2026-09-22]
-- fase: Encerrada. A conta viveu ~8 meses — [varredura do Notion · 2026-09-22]
+- fase: Encerrada — [varredura do Notion · 2026-09-22]
 - metrica: KRs por área, acordados nos Warm Ups de dezembro/2024: [C] — [página do cliente Recco · 2026-09-22]
 - marco: Warm Up 1 — alinhamento de expectativas e KRs por área — [página do cliente · 2024-12-17]
 - marco: Warm Up 2 — KRs; uMode pede revisão, cliente deve validar o contrato — [página do cliente · 2024-12-18]

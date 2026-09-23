@@ -23,17 +23,28 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: Integração — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
 
-> 🔴 **Declarado explicitamente fora de escopo:** o mapeamento de conta registra que negociação e dados de pedido **ficam fora da uMode**, em planilhas sensíveis do cliente. A ausência aqui é **decisão, não lacuna de varredura.**
+🔴 **O dado comercial da Caedu vive FORA do uMode, por decisão, e isso está registrado como dor.**
+
+> *"**Sensibilidade de Dados** (parte de negociação e pedido) está fora da uMode."* — § 4.4, dor 2
+> *"Parte da negociação de pedidos é feita em **planilhas sensíveis**."* — § 4.2.3
+
+⚠ **O que chega à plataforma é a emissão do pedido, não a negociação:**
+
+> *"Integração com **Linx** para geração de pedidos e controle de estoque."* — § 2.1
+
+**Fonte de tudo acima:** `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025.
 
 ## Com quem se relaciona (interno e externo)
-`[a preencher]`
+
+- **`03_Desenvolvimento-de-Colecao`** — recebe o produto liberado; a validação *"Liberado para emissão"* é o ponto de passagem (§ 4.2.5).
+- **Linx (ERP)** — é por onde o pedido é gerado e o estoque controlado (§ 2.1).
+- ⚠ **Planilhas externas** — onde a negociação acontece hoje. **Não é sistema mapeado.**
 
 ## Entregas e responsabilidades
 `[a preencher]`
@@ -46,7 +57,7 @@ tags:
 
 ### O que não fazem
 
-`[a preencher]`
+- **Não negociam dentro do uMode.** A negociação e o dado sensível de pedido estão em planilhas externas — e há ação aberta no roadmap para reavaliar isso (§ 5.2, *Segurança de Dados — rever permissão de pedidos*, responsável **Time Caedu + uMode**, prazo previsto de **6 semanas**, contado de 04/04/2025).
 
 ## Vocabulário da área
 
@@ -60,7 +71,10 @@ Os perfis existentes são: Estilo, Produto, Planejamento, Modelagem, Qualidade, 
 Gerentes, Geral e Admin.
 
 ## Produto conectado
-`[a preencher]`
+
+**`Integração`** (uFlow) — módulo contratado pela Caedu. É o que liga a liberação do produto à emissão de pedido no **Linx**.
+
+⚠ **Não há módulo que cubra negociação comercial** — e isso é escopo declarado, não falha.
 
 ## Fontes e referências
 
@@ -72,11 +86,21 @@ Gerentes, Geral e Admin.
 
 `[a preencher]`
 
+### Procedência deste documento
+| Bloco | Fonte | Data |
+|---|---|---|
+| O que a área faz, relações, o que não fazem | Notion — `Mapeamento de Contas - Caedu` (AS IS / TO BE) | 04/04/2025 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Ausência de perfil de acesso e de pessoas | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
+⚠ **O mapeamento de conta é de abr/2025 — tem 17 meses.** Revalidar com a dupla de atendimento
+antes de usar como diagnóstico atual.
+
 ### Fontes varridas e o que cada uma não trouxe
 | Fonte | Resultado |
 |---|---|
 | Notion — página `Caedu` em `Databases / Mapa de Clientes` | sem perfil de acesso para esta área |
-| Notion — `Mapeamento de Contas - Caedu` | área não consta no escopo mapeado |
+| Notion — `Mapeamento de Contas - Caedu` | 🔴 **excluída do escopo POR DECISÃO** (§ 2.2, *dados de pedidos sensíveis*) — **mas há dor e ação registradas** (§ 4.4 e § 5.2) |
 | Notion — base `Mapa de Clientes` | sem campo correspondente |
 | vault do João — pasta `caedu` | proposta e cronograma, sem detalhe de área |
 

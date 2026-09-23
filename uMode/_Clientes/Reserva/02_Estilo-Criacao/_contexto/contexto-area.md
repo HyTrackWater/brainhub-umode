@@ -24,7 +24,7 @@ tags:
 
 - produto-conectado: 7 de 7 módulos contratados — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: Adriana — [corpo da página Reserva · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: corpo da página Reserva · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` — a área **existe e tem interlocutor nomeado**, mas nenhuma fonte varrida descreve o que ela faz na Reserva.

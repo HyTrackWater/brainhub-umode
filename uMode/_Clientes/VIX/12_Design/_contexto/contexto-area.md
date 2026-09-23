@@ -25,7 +25,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Aposta — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma. Nenhum perfil da conta corresponde a esta área — [sem fonte]
+- pessoas-da-area: Nenhuma — [sem fonte]
 - responsavel-area: ? — [sem fonte]
 
 ## O que esta área faz

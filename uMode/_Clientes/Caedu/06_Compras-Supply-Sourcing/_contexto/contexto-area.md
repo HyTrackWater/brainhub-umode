@@ -24,8 +24,8 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Fornecedores — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: ? — [não consta em: página Caedu em Databases / Mapa de Clientes · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Caedu em Databases / Mapa de Clientes · 2026-09-21]
 - entrega: Cadastro de fornecedores · ativo — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Acesso de fornecedor ao PLM · em implantação — 4 primeiros fornecedores — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Fluxo de produto importado · ativo — [Mapeamento de Contas - Caedu · 2025-04-04]

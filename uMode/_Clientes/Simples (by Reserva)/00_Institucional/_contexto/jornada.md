@@ -21,7 +21,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - status: ? — [sem fonte]
-- fase: Indeterminada. Não há status porque não há linha na base principal — [varredura do Notion · 2026-09-22]
+- fase: Indeterminada — [varredura do Notion · 2026-09-22]
 - marco: Portal uMode — [Simples Reserva criado — único marco documentável deste cliente · 2024-10-18]
 
 ## ⚠ O que este documento NÃO resolve

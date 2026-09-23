@@ -24,8 +24,8 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Fornecedores · Integração · Cronograma · Relatórios — [base Mapa de Clientes · 2026-09-22]
-- pessoas-da-area: 1 pessoa. Melanie Giacobbo Riffel — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: 1 pessoa — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
+- responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
 
 ## O que esta área faz
 Expectativa: *"Maior eficiência traduzida em **impacto positivo no resultado**."*

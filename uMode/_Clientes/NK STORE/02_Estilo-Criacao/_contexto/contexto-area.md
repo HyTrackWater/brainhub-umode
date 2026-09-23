@@ -26,7 +26,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [varredura do Notion · 2026-09-21]
 - pessoas-da-area: Stella Sunaga — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` — nenhuma fonte varrida descreve as atribuições da área.

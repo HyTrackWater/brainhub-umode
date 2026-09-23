@@ -22,7 +22,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção + Integração — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: 22 pessoas com perfil Caedu-Produto — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: página Caedu em Databases / Mapa de Clientes · 2026-09-21]
 - entrega: Produto liberado para pedido · Liberado para emissão — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Envio ao ERP · Integração Linx — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Propriedades do importado · Produto repeat ou com tabela? — [Mapeamento de Contas - Caedu · 2025-04-04]

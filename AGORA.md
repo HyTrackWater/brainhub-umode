@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **622** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **631** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -328,7 +328,8 @@ contra `## Fatos`, nunca contra a prosa.** Formato travado no
 |---|---:|
 | fatos com fonte e data | **1.143** (34%) |
 | 🔴 fatos `[sem fonte]` — **ninguém procurou** | **2.232** (66%) |
-| 🟢 **CAEDU** — 142 fatos em 16 arquivos | **78% com procedência** |
+| 🟢 **CAEDU** — 142 fatos em 16 arquivos | 🔴 **ZERO `[sem fonte]`** — 82% com fonte, 18% ausência verificada |
+| 🟢 ausência VERIFICADA no corpus | **149** |
 | 🟢 **ausência VERIFICADA** — `[não consta em: X · data]` | **2** — só a CAEDU |
 | chaves de vocabulário fechado | **35** |
 | nomes indexados por e-mail, tirados do próprio corpus | **617** |

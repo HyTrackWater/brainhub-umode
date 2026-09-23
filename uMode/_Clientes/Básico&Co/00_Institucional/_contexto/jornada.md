@@ -22,8 +22,8 @@ tags:
 
 - status: ? — [sem fonte]
 - fase: ? — [sem fonte]
-- incidente: *"Erro ao configurar item a ser mostrado no mapa de coleções, isso é embaraçoso"* — [sem fonte]
-- incidente: USABILIDADE — [sem fonte]
+- incidente: *"Erro ao configurar item a ser mostrado no mapa de coleções, isso é embaraçoso"* — [Em Aberto · 2026-01-13]
+- incidente: USABILIDADE — [Não iniciada · 2026-01-23]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.

@@ -25,8 +25,8 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios — [sem fonte]
-- pessoas-da-area: Nenhuma. A área não está entre os times envolvidos no projeto — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Nenhuma — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
+- responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]`

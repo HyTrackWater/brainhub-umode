@@ -24,9 +24,9 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios — [planilha de contratos do Financeiro · 2026-09-21]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios — [varredura do Notion · 2026-09-21]
 - pessoas-da-area: Valter — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` para as atribuições detalhadas — **mas o escopo do time está declarado**, e está abaixo.

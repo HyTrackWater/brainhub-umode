@@ -82,7 +82,7 @@ TABELAS = {
     u"jornada.md": [
         (u"Marcos da jornada",            u"marco",     0,  1,  2, -1),
         (u"Entregas comprometidas",       u"entrega",  -1,  0, -1,  1),
-        (u"Histórico de incidentes",  u"incidente", 0,  1, -1, -1),
+        (u"Histórico de incidentes",  u"incidente", 0,  1,  2, -1),
     ],
     u"contexto-area.md": [
         (u"Entregas e responsabilidades", u"entrega",  -1,  0, -1,  1),
@@ -98,7 +98,9 @@ BLOCO_DA_CHAVE = {
     u"entrega":            [u"valida", u"fluxo", u"campos", u"entrega"],
     u"pessoas-da-area":    [u"pessoas"],
     u"produto-conectado":  [u"módulos", u"modulos", u"produto"],
-    u"responsavel-area":   [u"dupla", u"atendimento", u"pessoas"],
+    # dono da area E no CLIENTE: a fonte e a tabela de pessoas, nao a dupla
+    # de atendimento da uMode. A ordem aqui e a ordem de preferencia.
+    u"responsavel-area":   [u"pessoas", u"dupla", u"atendimento"],
     u"metrica":            [u"métricas", u"metricas"],
     u"incidente":          [u"incidente"],
 }
@@ -116,7 +118,9 @@ FONTES = [
     (u"Mapa de Clientes",              u"base Mapa de Clientes"),
     (u"base de contratos",             u"planilha de contratos do Financeiro"),
     (u"planilha de contratos",         u"planilha de contratos do Financeiro"),
-    (u"Financeiro",                    u"planilha de contratos do Financeiro"),
+    # ⚠ `Financeiro` sozinho NAO entra: e nome de area canonica (`11_Financeiro`)
+    # e casava com o texto da propria area, fabricando fonte. So conta quando
+    # vem acompanhado de "contratos" ou "planilha", acima.
     (u"call de Sales",                 u"call de Sales"),
     (u"pesquisa de \u00e1reas",        u"pesquisa de \u00e1reas"),
     (u"banco da API",                  u"banco da API"),
@@ -272,6 +276,9 @@ def limpa(v):
 
 def encurta(v):
     u"""Corta o rabo explicativo de campo de enum. So o valor sobrevive."""
+    # fim da primeira frase tambem e fim do valor: em "Nenhum modulo atende
+    # esta area. Os quatro modulos da Caedu..." a segunda frase ja e prosa.
+    v = re.split(u"\\.\\s+(?=[A-Z\u00c0-\u00dd])", v)[0]
     v = re.split(u"\\s\u2014\\s", v)[0]
     v = re.split(u"\\s\\(", v)[0]
     # o corte pode deixar um travessao orfao na ponta ("... Caedu-Estilo —")
@@ -496,7 +503,16 @@ def monta_bloco_h2(txt, tipo, chaves):
             for i in (v or []):
                 emite(chave, i, fonte, data)
         elif vazio(v):
-            ln = u"- %s: ? %s [sem fonte]" % (chave, TRACO)
+            # 2.1-bis tambem aqui: se a tabela de Procedencia nomeia o bloco
+            # que responde por esta chave, alguem JA olhou e declarou onde.
+            # `Ausencia de perfil de acesso e de pessoas -> tabela do PLM,
+            # 21/09/2026` e exatamente "procurei ali e nao ha".
+            p_fonte, p_data = por_bloco(proc_tab, chave)
+            if p_fonte:
+                ln = u"- %s: ? %s [não consta em: %s %s %s]" % (
+                    chave, TRACO, p_fonte, PONTO, p_data or u"sem data")
+            else:
+                ln = u"- %s: ? %s [sem fonte]" % (chave, TRACO)
             if ln not in vistos:
                 vistos.add(ln)
                 fatos.append(ln)

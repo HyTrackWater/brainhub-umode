@@ -23,17 +23,25 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: Relatórios — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
 
-> O mapeamento de conta cobre o fluxo de desenvolvimento, não o de produção. **Nenhuma fonte da uMode descreve o PCP da Caedu.**
+⚠ **Não existe área de PCP mapeada na Caedu.** As funções que um PCP teria estão **distribuídas entre Modelagem, Produto Nacional e Qualidade** — e o que falta delas está registrado como **lacuna de relatório**, não como área ausente:
+
+> *"Há alto volume de produtos/variantes, com necessidade de **acompanhamento de cronogramas**."* — § 1
+> *"Falta de relatórios unificados que mostrem **por departamento se algo está pendente**."* — § 4.2.5
+> *"Lacunas: relatórios automáticos de repilotagem, **tempo entre etapas**."* — § 4.3
+
+**Fonte:** `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025.
 
 ## Com quem se relaciona (interno e externo)
-`[a preencher]`
+
+- **`13_Modelagem`** — onde ficam piloto, fitting e repilotagem (§ 4.2.4).
+- **`04_Qualidade`** — amostras de produção e liberação final (§ 4.2.6).
+- **`03_Desenvolvimento-de-Colecao`** — liberação para emissão de pedido (§ 4.2.5).
 
 ## Entregas e responsabilidades
 `[a preencher]`
@@ -60,7 +68,10 @@ Os perfis existentes são: Estilo, Produto, Planejamento, Modelagem, Qualidade, 
 Gerentes, Geral e Admin.
 
 ## Produto conectado
-`[a preencher]`
+
+**`Relatórios`** (uFlow) — módulo contratado. É onde o acompanhamento de cronograma e tempo entre etapas **deveria** aparecer.
+
+🔴 **E é exatamente o que o mapeamento aponta como lacuna** (§ 4.3): não há relatório de tempo entre etapas nem de repilotagem.
 
 ## Fontes e referências
 
@@ -72,11 +83,21 @@ Gerentes, Geral e Admin.
 
 `[a preencher]`
 
+### Procedência deste documento
+| Bloco | Fonte | Data |
+|---|---|---|
+| O que a área faz, relações, o que não fazem | Notion — `Mapeamento de Contas - Caedu` (AS IS / TO BE) | 04/04/2025 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Ausência de perfil de acesso e de pessoas | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
+⚠ **O mapeamento de conta é de abr/2025 — tem 17 meses.** Revalidar com a dupla de atendimento
+antes de usar como diagnóstico atual.
+
 ### Fontes varridas e o que cada uma não trouxe
 | Fonte | Resultado |
 |---|---|
 | Notion — página `Caedu` em `Databases / Mapa de Clientes` | sem perfil de acesso para esta área |
-| Notion — `Mapeamento de Contas - Caedu` | área não consta no escopo mapeado |
+| Notion — `Mapeamento de Contas - Caedu` | ⚠ **função distribuída** entre Modelagem, Produto Nacional e Qualidade; o que falta é **relatório** (§ 4.3) |
 | Notion — base `Mapa de Clientes` | sem campo correspondente |
 | vault do João — pasta `caedu` | proposta e cronograma, sem detalhe de área |
 

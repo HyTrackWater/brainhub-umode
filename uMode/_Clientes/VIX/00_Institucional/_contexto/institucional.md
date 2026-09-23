@@ -26,7 +26,7 @@ tags:
 - grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
 - data-ativacao: ? — [sem fonte]
-- erp: Linx. Há um bloco datado 31/07/2025 com mapeamento de campo uMode ↔ Linx, citando — [varredura do Notion · 2026-09-21]
+- erp: Linx — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Relatórios — [varredura do Notion · 2026-09-21]

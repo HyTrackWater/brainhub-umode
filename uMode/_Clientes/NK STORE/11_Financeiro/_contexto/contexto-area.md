@@ -26,9 +26,9 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [planilha de contratos do Financeiro · 2026-09-21]
-- pessoas-da-area: Nenhuma. A área não tem departamento na base de usuários nem foi confirmada em reunião — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: Gestão de Coleção · Integração · Relatórios · Fornecedores — [sem fonte]
+- pessoas-da-area: Nenhuma — [base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
+- responsavel-area: ? — [não consta em: base Usuários em *Perfil de Usuário e Permissionamentos* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]`

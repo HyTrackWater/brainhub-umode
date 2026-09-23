@@ -41,10 +41,10 @@ tags:
 - entrega: Integração · existe · não varrido — [sem fonte]
 - entrega: Plano de Sucesso do Cliente · Google Drive · não varrido — [sem fonte]
 - entrega: Relatórios (2 a 3) · "não detalhados no contrato, porém subentendido" — [sem fonte]
-- incidente: Chamado de TAREFA/CONFIG — carolina@ — [sem fonte]
-- incidente: 6 chamados de Carolina — tarefa/config, bug e usabilidade — [sem fonte]
-- incidente: 4 chamados de INSTABILIDADE de pamela@souzacambos.com.br — [sem fonte]
-- incidente: INSTABILIDADE pela caixa atendimento@cambos.com.br — [sem fonte]
+- incidente: Chamado de TAREFA/CONFIG — carolina@ — [fechado · 2026-01-08]
+- incidente: 6 chamados de Carolina — tarefa/config, bug e usabilidade — [maioria fechada · 2026-01-28]
+- incidente: 4 chamados de INSTABILIDADE de pamela@souzacambos.com.br — [3 abertos · 2026-01-29]
+- incidente: INSTABILIDADE pela caixa atendimento@cambos.com.br — [Não iniciada · 2026-01-28]
 
 ## ⚠ O que este documento NÃO resolve
 - **Quase nada tem data.** Discovery, kick-off interno, warm-up e kick-off presencial existem

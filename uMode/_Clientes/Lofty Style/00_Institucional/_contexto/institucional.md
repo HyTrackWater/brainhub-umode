@@ -45,7 +45,7 @@ tags:
 - grupo-segmentacao: Médios — [varredura do Notion · 2026-09-21]
 - status: Ongoing — [varredura do Notion · 2026-09-21]
 - data-ativacao: 10/02/2025 — [varredura do Notion · 2026-09-21]
-- erp: Linx. Há documentação oficial de integração publicada em docs.umode.app/integracao-lofty — [varredura do Notion · 2026-09-21]
+- erp: Linx — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Integração — [varredura do Notion · 2026-09-21]
 - modulo-contratado: Relatórios — [varredura do Notion · 2026-09-21]

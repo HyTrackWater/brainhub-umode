@@ -25,8 +25,8 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: 7 de 7 módulos contratados — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma. As áreas com sinal nesta conta são Estilo, Produto, Compras/Sourcing, Cadastro e Engenharia — [corpo da página Reserva · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Nenhuma — [corpo da página Reserva · 2026-09-21]
+- responsavel-area: ? — [não consta em: corpo da página Reserva · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]`

@@ -20,7 +20,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - status: Ongoing · módulos Gestão de Coleção + Integração · ERP Linx / SAP — [varredura do Notion · 2026-09-21]
-- fase: Silêncio operacional. Última ata em 08/01/2026; último chamado em 29/01/2026 — [varredura do Notion · 2026-09-21]
+- fase: Silêncio operacional — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
 - marco: Primeiros acessos ao PLM — maria.germano e gabriela.begnini, perfil Projetos — [tabela do PLM · 2022-05-24]

@@ -23,8 +23,8 @@ tags:
 - status: Sem CS · Gestão de Coleção — [varredura do Notion · 2026-09-22]
 - fase: Operação self-service. 🔴 Os 7 clientes Sem CS têm exatamente o mesmo perfil: Atendimento = SMB — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-22]
-- incidente: INSTABILIDADE — celine.inoue — [sem fonte]
-- incidente: TAREFA/CONFIG — kariele.marinho — [sem fonte]
+- incidente: INSTABILIDADE — celine.inoue — [Não iniciada · 2026-01-23]
+- incidente: TAREFA/CONFIG — kariele.marinho — [Não iniciada · 2026-01-28]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da linha da base.

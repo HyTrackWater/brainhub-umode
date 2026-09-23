@@ -25,7 +25,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-21]
-- pessoas-da-area: Nenhuma. A área não consta entre os departamentos engajados declarados pelo cliente — [sem fonte]
+- pessoas-da-area: Nenhuma — [sem fonte]
 - responsavel-area: ? — [sem fonte]
 
 ## O que esta área faz

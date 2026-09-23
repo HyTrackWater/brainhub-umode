@@ -56,8 +56,8 @@ tags:
 - entrega: Implementar Macroplan · marcado como opcional no plano — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Treinamento do time de calçados · previsto; sem confirmação de execução — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Transição PLM 2.0 — [Mapeamento de Contas - Caedu · 2025-04-04]
-- incidente: Atraso na liberação do perfil de teste de fornecedor, por permissionamento — [sem fonte]
-- incidente: Campo de Chamado&Atendimento do CRM anotado como "Sistema saiu do ar" — [sem fonte]
+- incidente: Atraso na liberação do perfil de teste de fornecedor, por permissionamento — [página Fornecedores da Caedu · 2024-08-02]
+- incidente: Campo de Chamado&Atendimento do CRM anotado como "Sistema saiu do ar" — [base Mapa de Clientes, campo Chamado&Atendimento · 2026-03]
 - decisao: Kanban foi simplificado — correção aplicada após o diagnóstico de abr/2025 — [base Mapa de Clientes · 2026-09-21]
 - decisao: Um usuário de domínio terceiro (@stefanini.com) tem acesso ao PLM da conta — [base Mapa de Clientes · 2026-09-21]
 - decisao: A origem do produto está na ficha, não na variante — restrição de modelo que obriga exportações extensas — [base Mapa de Clientes · 2026-09-21]
@@ -155,10 +155,13 @@ quer **visão de mapa de coleção pelo pedido**, não pelo cadastro.
 3. os **papéis e responsabilidades por campo**
 
 ## Histórico de incidentes / alertas
-| Quando | O quê |
-|---|---|
-| 02/08/2024 | Atraso na liberação do perfil de teste de fornecedor, por permissionamento |
-| março/2026 | Campo de Chamado&Atendimento do CRM anotado como **"Sistema saiu do ar"** |
+| Quando | O quê | Fonte |
+|---|---|---|
+| 02/08/2024 | Atraso na liberação do perfil de teste de fornecedor, por permissionamento | página `Fornecedores da Caedu` |
+| março/2026 | Campo de Chamado&Atendimento do CRM anotado como **"Sistema saiu do ar"** | base `Mapa de Clientes`, campo `Chamado&Atendimento` |
+
+> ⚠ **A coluna `Fonte` foi acrescentada em 23/09/2026**, no padrão da tabela `Marcos da jornada`.
+> **Tabela que carrega fato e não carrega fonte produz fato órfão** — ver `protocolo-fato-atomico.md`.
 
 ## Observações
 - **Relação Puket × Caedu:** há análise comparativa das duas contas na Documentação CX. O

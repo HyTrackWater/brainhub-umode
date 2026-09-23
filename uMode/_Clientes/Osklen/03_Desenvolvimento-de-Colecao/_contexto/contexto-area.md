@@ -25,8 +25,8 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: Gestão de Coleção · Fornecedores · Integração · Cronograma · Relatórios — [base Mapa de Clientes · 2026-09-22]
-- pessoas-da-area: Nenhuma. Nenhum dos 33 respondentes declarou esta área — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
-- responsavel-area: ? — [sem fonte]
+- pessoas-da-area: Nenhuma — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
+- responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
 
 ## O que esta área faz
 `[a preencher]`

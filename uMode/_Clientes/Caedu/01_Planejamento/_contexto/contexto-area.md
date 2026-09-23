@@ -22,7 +22,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: 8 pessoas com perfil Caedu- Planejamento — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: página Caedu em Databases / Mapa de Clientes · 2026-09-21]
 - entrega: Criação dos produtos da coleção · importação de planilha base — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Sortimento e faixa de preço · definidos na planilha — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Campos obrigatórios iniciais · Nome, Linha, Origem, Departamento — [Mapeamento de Contas - Caedu · 2025-04-04]

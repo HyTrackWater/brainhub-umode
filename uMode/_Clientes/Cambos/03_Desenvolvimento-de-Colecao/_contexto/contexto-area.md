@@ -28,7 +28,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios — [sem fonte]
 - pessoas-da-area: Nenhuma nesta área canônica — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]`

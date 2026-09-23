@@ -23,14 +23,20 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: ? — [não consta em: base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
 
-> **Nenhuma fonte da uMode descreve Engenharia na Caedu.** A interlocução técnica aparece nas atas apenas como *Caedu TI*, sem pessoa nomeada.
+🔴 **Nenhuma fonte varrida nomeia uma área de Engenharia na Caedu.** Como acima: **não encontrada**, e não *inexistente*.
+
+⚠ **As funções típicas de engenharia de produto aparecem, mas sob outras áreas:**
+- **ficha técnica** → `02_Estilo-Criacao` (§ 4.2.2);
+- **tabela de medidas e checklist de aprovação** → `13_Modelagem` (§ 4.2.4);
+- **tabela de medidas de importados** → o processo de Importação (§ 4.2.3).
+
+🔴 **`Importação` e `Produto Nacional` são etapas do processo da Caedu que NÃO cabem nas 14 áreas canônicas** — mesmo padrão de `Atelier`, `Estamparia` e `Oficina` em outros clientes. **Ver `_pendencias-gerais.md`.**
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -72,11 +78,21 @@ Gerentes, Geral e Admin.
 
 `[a preencher]`
 
+### Procedência deste documento
+| Bloco | Fonte | Data |
+|---|---|---|
+| O que a área faz, relações, o que não fazem | Notion — `Mapeamento de Contas - Caedu` (AS IS / TO BE) | 04/04/2025 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Ausência de perfil de acesso e de pessoas | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
+⚠ **O mapeamento de conta é de abr/2025 — tem 17 meses.** Revalidar com a dupla de atendimento
+antes de usar como diagnóstico atual.
+
 ### Fontes varridas e o que cada uma não trouxe
 | Fonte | Resultado |
 |---|---|
 | Notion — página `Caedu` em `Databases / Mapa de Clientes` | sem perfil de acesso para esta área |
-| Notion — `Mapeamento de Contas - Caedu` | área não consta no escopo mapeado |
+| Notion — `Mapeamento de Contas - Caedu` | 🔴 **não nomeada** — funções aparecem sob Estilo, Modelagem e Importação |
 | Notion — base `Mapa de Clientes` | sem campo correspondente |
 | vault do João — pasta `caedu` | proposta e cronograma, sem detalhe de área |
 

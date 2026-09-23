@@ -26,7 +26,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios · Cronograma — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: Gabriela Cunha — [Pesquisa Satisfação Kick Off e Treinamento · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off e Treinamento · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` — nenhuma fonte varrida descreve as atribuições.

@@ -26,7 +26,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Integração · Relatórios — [varredura do Notion · 2026-09-21]
 - pessoas-da-area: Carolina — [*Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: *Definições do Projeto* e bloco *Pessoas* · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` para as atribuições detalhadas — **mas o escopo do time está declarado**, e está abaixo.

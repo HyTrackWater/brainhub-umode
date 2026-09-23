@@ -22,7 +22,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: 2 pessoas com perfil Caedu-Qualidade — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: página Caedu em Databases / Mapa de Clientes · 2026-09-21]
 - entrega: Recebimento da amostra · Amostra recebida — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Decisão de qualidade · Amostra aprovada — [Mapeamento de Contas - Caedu · 2025-04-04]
 - dor: Frequência de exportações manuais e planilhas paralelas — é a dor declarada da área — [Mapeamento de Contas - Caedu · 2025-04-04]

@@ -25,7 +25,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção · Fornecedores · Integração · Cronograma · Relatórios — [base Mapa de Clientes · 2026-09-22]
 - pessoas-da-area: 4 pessoas, em três rótulos diferentes — [Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: Pesquisa Satisfação Kick Off Osklen · 2025-03-25]
 
 ## O que esta área faz
 🔴 **Duas perguntas técnicas concretas desta área, feitas em mar/2025 e sem resposta em nenhuma fonte varrida:**

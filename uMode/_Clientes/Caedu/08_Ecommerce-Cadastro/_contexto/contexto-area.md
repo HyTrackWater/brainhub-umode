@@ -22,7 +22,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: 1 pessoa com perfil Caedu-E-commerce — [página Caedu em Databases / Mapa de Clientes · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: página Caedu em Databases / Mapa de Clientes · 2026-09-21]
 - entrega: SEO, título e descrição · ficha preenchida em Estilo — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Imagens · aba Imagens da ficha — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Atributos de Visual Merchandising · campos de VM — [Mapeamento de Contas - Caedu · 2025-04-04]

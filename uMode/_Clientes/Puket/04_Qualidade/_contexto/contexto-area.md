@@ -22,7 +22,7 @@ tags:
 
 - produto-conectado: Gestão de Coleção + Integração — [base Mapa de Clientes · 2026-09-21]
 - pessoas-da-area: 5 pessoa(s) com acesso ao PLM nesta área: — [página Puket, tabela do PLM · 2026-09-21]
-- responsavel-area: ? — [sem fonte]
+- responsavel-area: ? — [não consta em: página Puket, tabela do PLM · 2026-09-21]
 
 ## O que esta área faz
 `[a preencher]` — **a área tem gente com acesso ao PLM, mas nenhuma fonte varrida descreve o que

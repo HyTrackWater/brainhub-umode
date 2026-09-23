@@ -20,7 +20,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - status: Ongoing · 4 de 7 módulos · ERP Linx · grupo Enterprise · 61 usuários ativos — [varredura do Notion · 2026-09-21]
-- fase: Operação em alto volume, com dor de produto recorrente. É a conta com mais chamados da — [varredura do Notion · 2026-09-21]
+- fase: Operação em alto volume, com dor de produto recorrente — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]

@@ -22,7 +22,7 @@ tags:
 
 - status: ? — [sem fonte]
 - fase: ? — [sem fonte]
-- incidente: USABILIDADE — evelyn.olivares — [sem fonte]
+- incidente: USABILIDADE — evelyn.olivares — [3 dos 5 abertos · 2026-01-06]
 - incidente: TAREFA/CONFIG — amanda.rego — [sem fonte]
 - incidente: TAREFA/CONFIG — giuliana.ghanem e romulo.grimaldi — [sem fonte]
 - incidente: TAREFA/CONFIG — giuliana.ghanem — [sem fonte]

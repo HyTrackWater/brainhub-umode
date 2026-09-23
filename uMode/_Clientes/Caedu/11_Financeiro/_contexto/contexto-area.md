@@ -23,14 +23,21 @@ tags:
 > ⚠ **Gerado por `scripts/gera-fatos.py` — não editar à mão.** Formato travado no
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
-- produto-conectado: ? — [sem fonte]
-- pessoas-da-area: ? — [sem fonte]
-- responsavel-area: ? — [sem fonte]
+- produto-conectado: Nenhum módulo contratado atende esta área — [base Mapa de Clientes · 2026-09-21]
+- pessoas-da-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
+- responsavel-area: ? — [não consta em: página Caedu, tabela de usuários do PLM · 2026-09-21]
 
 ## O que esta área faz
-`[a preencher]`
 
-> **Nenhuma fonte descreve o Financeiro da Caedu.** O campo `Email Principal Financeiro` da base `Mapa de Clientes` está **vazio**, e `Receita Anual` também.
+🔴 **A área foi EXPLICITAMENTE excluída do escopo do mapeamento de conta** — não é lacuna de varredura, é decisão registrada.
+
+> *"**Não incluso**: aspectos de contabilidade, faturamento, e dados de pedidos sensíveis (planilhas externas)."*
+> — `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025, § 2.2 *Escopo do Mapeamento*
+
+⚠ **O único tema financeiro que aparece na plataforma é cálculo de margem**, e aparece como lacuna de relatório:
+
+> *"Cálculo de margens e tags de licenciamento — **sem dashboard consolidado**."*
+> — `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025, § 4.3 *Indicadores e Relatórios*
 
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
@@ -46,7 +53,8 @@ tags:
 
 ### O que não fazem
 
-`[a preencher]`
+- **Não usam o uFlow para contabilidade nem para faturamento** — excluído do escopo por decisão registrada (§ 2.2 do mapeamento).
+- **Não mantêm dados de pedido na plataforma** — vivem em planilhas externas.
 
 ## Vocabulário da área
 
@@ -60,7 +68,10 @@ Os perfis existentes são: Estilo, Produto, Planejamento, Modelagem, Qualidade, 
 Gerentes, Geral e Admin.
 
 ## Produto conectado
-`[a preencher]`
+
+**Nenhum módulo contratado atende esta área.** Os quatro módulos da Caedu — Gestão de Coleção, Integração, Relatórios e Fornecedores — cobrem desenvolvimento de produto, não financeiro.
+
+⚠ **`Relatórios` toca o tema de margem**, mas o próprio mapeamento registra que não há dashboard consolidado.
 
 ## Fontes e referências
 
@@ -72,11 +83,21 @@ Gerentes, Geral e Admin.
 
 `[a preencher]`
 
+### Procedência deste documento
+| Bloco | Fonte | Data |
+|---|---|---|
+| O que a área faz, relações, o que não fazem | Notion — `Mapeamento de Contas - Caedu` (AS IS / TO BE) | 04/04/2025 |
+| Módulos e produto conectado | Notion — base `Mapa de Clientes` | varrido 21/09/2026 |
+| Ausência de perfil de acesso e de pessoas | Notion — página `Caedu`, tabela de usuários do PLM | varrido 21/09/2026 |
+
+⚠ **O mapeamento de conta é de abr/2025 — tem 17 meses.** Revalidar com a dupla de atendimento
+antes de usar como diagnóstico atual.
+
 ### Fontes varridas e o que cada uma não trouxe
 | Fonte | Resultado |
 |---|---|
 | Notion — página `Caedu` em `Databases / Mapa de Clientes` | sem perfil de acesso para esta área |
-| Notion — `Mapeamento de Contas - Caedu` | área não consta no escopo mapeado |
+| Notion — `Mapeamento de Contas - Caedu` | 🔴 **excluída do escopo POR DECISÃO** — § 2.2 diz literalmente *"não incluso: contabilidade, faturamento"* |
 | Notion — base `Mapa de Clientes` | sem campo correspondente |
 | vault do João — pasta `caedu` | proposta e cronograma, sem detalhe de área |
 

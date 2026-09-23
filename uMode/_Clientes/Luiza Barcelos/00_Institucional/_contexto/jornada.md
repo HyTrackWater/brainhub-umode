@@ -47,8 +47,8 @@ tags:
 - entrega: Go Light · página *Configurações e ajustes pré Go Light* existe · não varrida — [sem fonte]
 - entrega: Plano de Sucesso do Cliente · "Em construção", marcado em vermelho — [sem fonte]
 - entrega: TAP — uFlow · marcado como "(teste)" · não varrido — [sem fonte]
-- incidente: Relatório de Incidente formal — o único da carteira — [sem fonte]
-- incidente: Chamado de USABILIDADE — Ticiane Rosa — [sem fonte]
+- incidente: Relatório de Incidente formal — o único da carteira — [✅ varrido 22 set 2026 · 2025-08-08]
+- incidente: Chamado de USABILIDADE — Ticiane Rosa — [Em Aberto · 2026-01-14]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se a credibilidade foi estabelecida.** A ata de Sales escreveu em vermelho

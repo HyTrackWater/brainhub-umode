@@ -24,7 +24,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - produto-conectado: ? — [sem fonte]
-- pessoas-da-area: Nenhuma. Os 13 perfis existentes na conta são: Estilo, Produto, Sourcing Nacional, Projetos — [sem fonte]
+- pessoas-da-area: Nenhuma — [sem fonte]
 - responsavel-area: ? — [sem fonte]
 
 ## O que esta área faz

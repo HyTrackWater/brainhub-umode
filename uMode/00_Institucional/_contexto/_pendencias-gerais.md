@@ -3834,3 +3834,50 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      **(c)** linha de tabela herdava o cabeçalho do documento; **as entregas de um `jornada.md`
      não vieram da base que atualizou o cabeçalho.** Agora tabela sem coluna de fonte e sem
      blockquote sai `[sem fonte]`.
+
+## As 7 áreas vazias da CAEDU — havia material, e eu não tinha ido buscar (23 set 2026)
+
+627. 🔺 **Eu tratei "sem perfil de acesso no PLM" como "sem fonte" e parei. Era hipótese, não
+     conclusão.** Faltava abrir o `Mapeamento de Contas - Caedu` (04/04/2025) — **a mesma fonte
+     que alimentou as 7 áreas preenchidas.** 🟢 **As 7 áreas estão preenchidas.**
+628. 🟢 **E o que a fonte diz é melhor que conteúdo: ela declara o próprio escopo.**
+     > *"**Não incluso**: aspectos de contabilidade, faturamento, e dados de pedidos sensíveis
+     > (planilhas externas)."* — § 2.2
+     🔴 **Isso não é ausência de fonte: é EXCLUSÃO DECLARADA, com data e autor.** Uma área fora
+     do escopo por decisão registrada vale muito mais, no cérebro, que um `[a preencher]` mudo.
+629. 🟢 **O mapeamento cobre SEIS processos** — Planejamento, Estilo, Importação, Modelagem,
+     Produto Nacional e Qualidade. As 7 áreas ou foram excluídas de propósito, ou têm a função
+     **absorvida** por um desses seis:
+     · **`11_Financeiro`** — excluída por decisão. Único tema que aparece: *"cálculo de margens
+       e tags de licenciamento — **sem dashboard consolidado**"* (§ 4.3).
+     · **`09_Comercial-Vendas`** — negociação e pedido **fora do uMode, em planilhas sensíveis**
+       (§ 4.4); há ação aberta de 6 semanas para reavaliar (§ 5.2).
+     · **`07_Logistica-CD`** — aparece **só como destino**: *"antes do envio a lojas"* (§ 4.2.6).
+     · **`05_PCP`** — função distribuída entre Modelagem, Produto Nacional e Qualidade; o que
+       falta é **relatório de tempo entre etapas** (§ 4.3).
+     · **`10_Marketing`** — SEO, VM e e-commerce são produzidos por **`02_Estilo-Criacao`**
+       (§ 4.2.2), e a dor registrada é de **subuso**, não de área ausente.
+     · **`12_Design`** e **`14_Engenharia`** — 🔴 **não nomeadas em fonte nenhuma.** Escrevi
+       *"não encontrada"*, não *"não existe"*. **Não afirmei que Design seja Estilo com outro
+       nome** — é hipótese para o atendimento confirmar.
+630. 🔴 **`Importação` e `Produto Nacional` são etapas do processo da Caedu que NÃO cabem nas 14
+     áreas canônicas.** Mesmo padrão de `Atelier`, `Estamparia`, `Oficina`, `Fábrica` e
+     `Merchandising` em outros clientes. **É o sexto e o sétimo caso — o limiar já passou.**
+631. 🔺 **Defeito grave que o preenchimento expôs: eu estava FABRICANDO fonte em 51 fatos.**
+     O padrão `Financeiro` da tabela de fontes casava com o texto da **área `11_Financeiro`**,
+     e o gerador atribuía a ela *"planilha de contratos do Financeiro"* — **fonte que nunca
+     tocou aquele dado.** 🔴 **Palavra comum não pode ser pista de fonte.** Corrigido: só casa
+     acompanhada de `contratos` ou `planilha`.
+632. 🟢 **`[a preencher]` com procedência declarada virou ausência verificada.** Quando a tabela
+     `Procedência` nomeia o bloco que responde pela chave — *"Ausência de perfil de acesso e de
+     pessoas → tabela de usuários do PLM · 21/09/2026"* — isso É *"procurei ali e não há"*.
+     **Ausência verificada no corpus: 2 → 149.**
+633. 🟢 **CAEDU: 142 fatos, ZERO `[sem fonte]`.** 82% com fonte nomeada, 18% ausência verificada.
+     🔴 **É o primeiro cliente do corpus com a camada de fato inteiramente rastreável.**
+634. ⚠ **A tabela `Histórico de incidentes` não tinha coluna `Fonte`** — a de `Marcos` tem.
+     Acrescentei na Caedu. 🔴 **Tabela que carrega fato e não carrega fonte produz fato órfão**,
+     e isso vale para os outros 47 clientes que têm a mesma tabela sem a coluna.
+635. 🔴 **Próximo alvo óbvio: os outros clientes têm `Mapeamento de Contas`?** O da Puket é
+     citado no próprio documento da Caedu (*"no mesmo padrão que empregamos para Puket"*).
+     ⚠ **Se existir um por cliente, é a fonte que preenche `contexto-area.md` em escala** — hoje
+     62% dos fatos do corpus saem `[sem fonte]`, quase todos vindos de áreas vazias.

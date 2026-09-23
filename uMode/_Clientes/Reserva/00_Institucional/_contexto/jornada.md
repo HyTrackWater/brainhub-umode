@@ -20,7 +20,7 @@ tags:
 > `protocolo-fato-atomico.md`. `[sem fonte]` é **lacuna declarada**, não defeito.
 
 - status: Ongoing · 7 de 7 módulos · ERP Linx / SAP · grupo Enterprise, WIP 6,00 — [varredura do Notion · 2026-09-21]
-- fase: Operação madura com backlog de produto travado. A conta tem a comunicação mais estruturada da — [varredura do Notion · 2026-09-21]
+- fase: Operação madura com backlog de produto travado — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Gestão de Coleção — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-21]
 - modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-21]
