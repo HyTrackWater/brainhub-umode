@@ -101,9 +101,19 @@ def resolve(nome, cat):
         return None, u"apelido: nome de um token so nao identifica"
     cands = set()
     for tokens, email, origem in cat:
+        local = chave(email.split(u"@")[0])
+        # (a) o LOCAL-PART do e-mail corporativo e a pista mais forte que existe:
+        #     ele e construido do nome da pessoa. Se todos os tokens do falante
+        #     aparecem nele, e a mesma pessoa.
+        #     Sem isto, `Mariana Amaral` nao resolvia para
+        #     `mariana.amaral@caedu.com.br`, porque a FICHA dela se chama so
+        #     `Mariana` - um token - e a regra do nome a bloqueava.
+        if local and all(t in local for t in tk):
+            cands.add((email, origem))
+            continue
+        # (b) pelo nome da ficha: primeiro nome igual + mais um token em comum
         if not tokens or tokens[0] != tk[0]:
             continue
-        # alem do primeiro nome, pelo menos mais um token em comum
         if set(tk[1:]) & set(tokens[1:]):
             cands.add((email, origem))
     if not cands:

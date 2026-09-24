@@ -4265,3 +4265,41 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
 715. 🔺 **Li 4 das 53 transcrições.** ⚠ **`fornecedores` tem 506 menções e eu segui um fio só.**
      🔴 **E não classifiquei nada como NOVO / CONFIRMA / CONTRADIZ** — o cruzamento automático
      não existe; isto foi leitura humana. **A lacuna está declarada no registro.**
+
+## O contrato de entrada de call, e a CAEDU organizada (24 set 2026)
+
+716. 🟢 **Escrito o `protocolo-entrada-de-call.md`** — o contrato de como uma reunião entra no
+     BrainHub, a pedido do Vinicius, para o coletor que ele monta no Google Workspace.
+     🔴 **A regra que governa: o coletor escreve SÓ em `_inbox-calls/`, nunca no canônico.**
+     **Duas razões medidas:** a transcrição chega com 33% das falas cortadas, e é a mesma regra
+     que o vault do João já aplica (*"agente escreve só no próprio inbox"*).
+717. 🔴 **O pedido central ao coletor é UM: mande E-MAIL, não nome de exibição.**
+     **23 dos 42 falantes da CAEDU não resolvem por nome**, e um deles — `Rose` — é a terceira
+     maior voz da conta. 🟢 **O convite do Meet tem a lista com e-mail, e o corpus tem 637 nomes
+     indexados por e-mail.** ⚠ **É o único dado que só o coletor consegue e que o BrainHub não
+     obtém sozinho.**
+718. 🔴 **`natureza` e `destino` saem do DOMÍNIO do e-mail, nunca do título.**
+     **`2026-06-22_Caedu_2_0` e `2026-09-08_Plano_de_Acao_Caedu` têm "Caedu" no nome e são
+     INTERNAS da uMode.** **O título mente; o domínio não.**
+719. 🔴 **15 das 53 reuniões da CAEDU (28%) não têm ninguém do cliente falando.**
+     ⚠ **Não é crítica — é classificação.** Reunião interna de preparo é trabalho legítimo, **mas
+     misturar as duas infla a intensidade de atendimento.** **A métrica deve separá-las?**
+720. 🔴 **A contraparte da CAEDU mudou QUATRO vezes em dois anos:** Vitoria Meneghin
+     (jul/2024→ago/2025, 1.805 falas) → Mariana Amaral / `tamiris` → Roselene (out–nov/2025) →
+     `Rose` (dez/2025→abr/2026, 733 falas) → **Cleiton Gomes** (abr→ago/2026) → `Bruno`.
+     🔴 **A Vitoria desaparece depois de 06/08/2025 e o corpus não registra a saída.**
+     ⚠ **Quatro trocas de interlocutor explica, em parte, por que o processo não se fixou** numa
+     conta que está em reconquista de confiança.
+721. 🟡 **`Rose` é a `Roselene`? Testável, e o teste foi feito:** as duas grafias **nunca aparecem
+     na mesma reunião** e são sequenciais — Roselene em out–nov/2025, Rose de dez/2025 em diante.
+     ⚠ **Indício forte, não prova.** 🔴 **Só o e-mail confirma** — e é o que o coletor traz.
+     ⚠ **E `Tamires` tem TRÊS grafias no corpus:** `Tamires`, `tamiris` e a da ata.
+722. 🔺 **Minha própria regra me bloqueou, e a pista boa estava no e-mail.** `Mariana Amaral` não
+     resolvia porque a **ficha dela se chama só `Mariana`** — um token — e eu exijo dois.
+     🟢 **Corrigido com a pista mais forte que existe: o LOCAL-PART do e-mail corporativo.**
+     `mariana.amaral@caedu.com.br` contém os dois tokens do falante. **Resolvidos: 19 → 20.**
+723. 🟢 **`jornada.md` da CAEDU: 21 → 33 marcos**, todos com fonte e data. **A cronologia completa
+     das 53 ficou no registro `c`** — o `jornada.md` guarda só os marcos. **Um assunto, um dono.**
+724. 🟢 **Três registros escritos para a CAEDU:** `a` índice e identidade · `b` primeira leitura
+     de conteúdo · `c` cronologia e sucessão. ⚠ **Li 4 das 53 transcrições** — a lacuna está
+     declarada em cada um.

@@ -33,7 +33,38 @@ tags:
   > Fonte: ata `Weekly 23/09/25`.
 - **Rose** — liderança citada como necessária para adaptar processos internos na frente de
   Fornecedores (ata `Fornecedores Caedu 27/11/2025`). Sobrenome e e-mail: `[a preencher]`
+  > 🟡 **733 falas em 7 reuniões, de 02/12/2025 a 28/04/2026** — **a maior voz do lado do
+  > cliente no período.** ⚠ **Pode ser a `Roselene`:** as duas grafias **nunca aparecem na mesma
+  > reunião** e são sequenciais. 🔴 **Indício forte, não prova — só o e-mail confirma.**
 - **Tamires** — modelista ("nova modelista", ata de 19/08/25). E-mail: `[a preencher]`
+  > ⚠ **Aparece como `tamiris` na transcrição de 06/08/2025**, 64 falas. **Terceira grafia do
+  > mesmo nome.**
+
+### 🔴 A contraparte da CAEDU mudou QUATRO vezes em dois anos
+
+> **Medido nas 53 transcrições Tactiq, em 24/09/2026.** Detalhe e tabela completa em
+> [`_recebido-2026-09-24c-cronologia-e-sucessao-de-contraparte.md`](_recebido-2026-09-24c-cronologia-e-sucessao-de-contraparte.md).
+
+| Período | Quem responde pela CAEDU | Volume |
+|---|---|---|
+| **jul/2024 → ago/2025** | **Vitoria Meneghin** | 1.805 falas em 22 reuniões |
+| jul–ago/2025 | Mariana Amaral · `tamiris` | transição |
+| out–nov/2025 | Roselene Gonçalves | 2 reuniões |
+| dez/2025 → abr/2026 | **`Rose`** | 733 falas em 7 |
+| **abr/2026 → ago/2026** | **Cleiton Gomes** | 305 falas em 6 |
+| ago–set/2026 | `Bruno` | 21 falas em 3 |
+
+🔴 **`Vitoria Meneghin` desaparece depois de 06/08/2025** — era a contraparte havia 13 meses e
+**a segunda maior voz de toda a conta**. ⚠ **O corpus não registra a saída dela.**
+
+⚠ **E a conta está em reconquista de confiança.** **Quatro trocas de interlocutor em dois anos
+explica, em parte, por que o processo não se fixou** — cada troca reinicia o conhecimento do
+lado do cliente.
+
+- **Cleiton Gomes** — 🔴 **voz atual do cliente**, 305 falas em 6 reuniões desde 14/04/2026.
+  **Não existe ficha nem e-mail no corpus.** Cargo e área: `[a preencher]`
+- **Bruno** — aparece em 3 reuniões de jun a set/2026, 21 falas. Sobrenome e e-mail:
+  `[a preencher]`
 
 ## Time do projeto por área
 

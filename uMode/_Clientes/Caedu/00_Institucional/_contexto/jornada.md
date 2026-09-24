@@ -29,26 +29,39 @@ tags:
 - modulo-em-uso: Fornecedores — [base Mapa de Clientes · 2026-09-21]
 - metrica: 84% do fitting acontece dentro do uMode — [Mapeamento de Contas - Caedu · 2025-04-04]
 - metrica: 5% são licenciados — [Mapeamento de Contas - Caedu · 2025-04-04]
-- marco: Conta de API criada (api-caedu@umode.app) — indício mais antigo de operação — [tabela de usuários do PLM · 2022-10-05]
-- marco: Primeiro usuário humano ativo na conta — [tabela de usuários do PLM · 2023-07-21]
 - marco: Onda de ativação do time de Estilo (vários usuários em 04–06/09) — [tabela de usuários do PLM · 2023-09]
 - marco: Início das weeklies registradas em ata e dos Comitês (13/05 e 29/05) — [atas · 2024-06]
+- marco: Proposta Caedu × uMode — 12 meses — [vault caedu_260600_proposta-12-meses · 2026-06]
+- marco: Conta de API criada (api-caedu@umode.app) — indício mais antigo de operação — [tabela de usuários do PLM · 2022-10-05]
+- marco: Primeiro usuário humano ativo na conta — [tabela de usuários do PLM · 2023-07-21]
 - marco: Reunião de dúvidas técnicas — [ata · 2024-06-20]
+- marco: Primeira reunião registrada em transcrição — Julianne e Marina, 90m — [transcrição Tactiq · 2024-06-25]
+- marco: Bi-Weekly com 11 participantes — a reunião de maior audiência da conta — [transcrição Tactiq · 2024-07-15]
+- marco: Sugestões B2B — 84m, 494 falas; mapa B2B e Macroplan — [transcrição Tactiq · 2024-07-24]
 - marco: Registro de atraso para liberar perfil de teste de fornecedor — [página Fornecedores da Caedu · 2024-08-02]
+- marco: Treinamento de Estilo — 84m, primeiro treinamento registrado — [transcrição Tactiq · 2024-08-22]
+- marco: Reunião de BI, com Thiago Tadeu do lado da Caedu — [transcrição Tactiq · 2024-09-11]
 - marco: Reunião com TI de e-commerce — árvore de categoria — [ata · 2024-10-22]
 - marco: Alinhamento do botão de exibição do Mapa — [ata · 2024-12-13]
+- marco: Workflow — 88m e 518 falas: a reunião mais densa das 53 — [transcrição Tactiq · 2025-01-10]
 - marco: Mapeamento de Conta concluído (AS IS / TO BE + roadmap) — [Mapeamento de Contas - Caedu · 2025-04-04]
+- marco: Mapeamento de Contas — origem do documento AS IS / TO BE — [transcrição Tactiq · 2025-04-14]
 - marco: Alinhamento de expectativas — [ata · 2025-04-29]
 - marco: Alinhamento de Compras — [ata · 2025-05-14]
+- marco: uMode e Compras — onde a hierarquia Linha › Grupo › Subgrupo foi mapeada — [transcrição Tactiq · 2025-05-14]
 - marco: Alinhamento de Estilo — [ata · 2025-05-16]
+- marco: Erro de integração (status backlog/finalizado) — com Bergson e Felipe Sindeaux — [transcrição Tactiq · 2025-07-08]
+- marco: Última reunião de Vitoria Meneghin — contraparte da conta por 13 meses — [transcrição Tactiq · 2025-08-06]
 - marco: Alinhamento entre comercial uMode e liderança do projeto Caedu — [ata · 2025-09-23]
 - marco: Discussão Referência do Fornecedor × Referência Caedu — [ata · 2025-11-05]
 - marco: Reunião dedicada de Fornecedores — frente aberta — [ata · 2025-11-27]
+- marco: Cleiton Gomes assume como voz da Caedu — [transcrição Tactiq · 2026-04-14]
 - marco: Definição de campos obrigatórios; pré-pedido com time de compras — [ata · 2026-05-13]
+- marco: Alinhamento de Integração — Marina, Bergson e Felipe; 7 falas — [transcrição Tactiq · 2026-05-25]
 - marco: Manual do iniciante apontado como material específico da conta — [ata · 2026-06-03]
-- marco: Proposta Caedu × uMode — 12 meses — [vault caedu_260600_proposta-12-meses · 2026-06]
 - marco: Visita presencial (ata destilada) — [vault, _arquivo-morto · 2026-07-28]
 - marco: Cronograma de transição PLM 2.0 e negociação — [vault caedu_260814_cronograma-plm2-e-negociacao · 2026-08-14]
+- marco: Plano de Ação — 🔴 interna da uMode, sem ninguém da Caedu — [transcrição Tactiq · 2026-09-08]
 - entrega: Incluir os 4 primeiros fornecedores na plataforma e testar · em aberto — única frente declarada — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Revisar Kanban, removendo etapas inativas · ✅ concluída — a própria fonte registra "o kanban atual está simplificado" — [Mapeamento de Contas - Caedu · 2025-04-04]
 - entrega: Limpar cadastro de fornecedores (12 mil) · responsabilidade do time Caedu (Compras); prazo previsto de 6 semanas — [Mapeamento de Contas - Caedu · 2025-04-04]
@@ -80,26 +93,44 @@ tags:
 
 | Quando | Marco | Fonte |
 |---|---|---|
-| **05/10/2022** | Conta de API criada (`api-caedu@umode.app`) — indício mais antigo de operação | tabela de usuários do PLM |
-| **21/07/2023** | Primeiro usuário humano ativo na conta | tabela de usuários do PLM |
 | set/2023 | Onda de ativação do time de Estilo (vários usuários em 04–06/09) | tabela de usuários do PLM |
 | **mai–jun/2024** | Início das weeklies registradas em ata e dos Comitês (13/05 e 29/05) | atas |
+| **jun/2026** | **Proposta Caedu × uMode — 12 meses** | vault `caedu_260600_proposta-12-meses` |
+| **05/10/2022** | Conta de API criada (`api-caedu@umode.app`) — indício mais antigo de operação | tabela de usuários do PLM |
+| **21/07/2023** | Primeiro usuário humano ativo na conta | tabela de usuários do PLM |
 | 20/06/2024 | Reunião de dúvidas técnicas | ata |
+| 25/06/2024 | **Primeira reunião registrada em transcrição** — Julianne e Marina, 90m | transcrição Tactiq |
+| 15/07/2024 | **Bi-Weekly com 11 participantes** — a reunião de maior audiência da conta | transcrição Tactiq |
+| 24/07/2024 | **Sugestões B2B** — 84m, 494 falas; mapa B2B e Macroplan | transcrição Tactiq |
 | **02/08/2024** | Registro de atraso para liberar perfil de teste de fornecedor | página `Fornecedores da Caedu` |
+| 22/08/2024 | **Treinamento de Estilo** — 84m, primeiro treinamento registrado | transcrição Tactiq |
+| 11/09/2024 | Reunião de **BI**, com Thiago Tadeu do lado da Caedu | transcrição Tactiq |
 | 22/10/2024 | Reunião com TI de e-commerce — árvore de categoria | ata |
 | 13/12/2024 | Alinhamento do botão de exibição do Mapa | ata |
+| 10/01/2025 | **Workflow** — 88m e **518 falas: a reunião mais densa das 53** | transcrição Tactiq |
 | **04/04/2025** | **Mapeamento de Conta concluído** (AS IS / TO BE + roadmap) | `Mapeamento de Contas - Caedu` |
+| 14/04/2025 | **Mapeamento de Contas** — origem do documento AS IS / TO BE | transcrição Tactiq |
 | 29/04/2025 | Alinhamento de expectativas | ata |
 | 14/05/2025 | Alinhamento de Compras | ata |
+| 14/05/2025 | 🔴 **uMode e Compras — onde a hierarquia `Linha › Grupo › Subgrupo` foi mapeada** | transcrição Tactiq |
 | 16/05/2025 | Alinhamento de Estilo | ata |
+| 08/07/2025 | **Erro de integração** (status backlog/finalizado) — com Bergson e Felipe Sindeaux | transcrição Tactiq |
+| 06/08/2025 | 🔴 **Última reunião de Vitoria Meneghin** — contraparte da conta por 13 meses | transcrição Tactiq |
 | 23/09/2025 | Alinhamento entre comercial uMode e liderança do projeto Caedu | ata |
 | 05/11/2025 | Discussão Referência do Fornecedor × Referência Caedu | ata |
 | **27/11/2025** | Reunião dedicada de Fornecedores — frente aberta | ata |
+| 14/04/2026 | **Cleiton Gomes assume como voz da Caedu** | transcrição Tactiq |
 | 13/05/2026 | Definição de campos obrigatórios; pré-pedido com time de compras | ata |
+| 25/05/2026 | **Alinhamento de Integração** — Marina, Bergson e Felipe; 7 falas | transcrição Tactiq |
 | 03/06/2026 | Manual do iniciante apontado como material específico da conta | ata |
-| **jun/2026** | **Proposta Caedu × uMode — 12 meses** | vault `caedu_260600_proposta-12-meses` |
 | **28/07/2026** | Visita presencial (ata destilada) | vault, `_arquivo-morto` |
 | **14/08/2026** | **Cronograma de transição PLM 2.0 e negociação** | vault `caedu_260814_cronograma-plm2-e-negociacao` |
+| 08/09/2026 | **Plano de Ação** — 🔴 **interna da uMode**, sem ninguém da Caedu | transcrição Tactiq |
+
+> 🟢 **Acrescentados em 24/09/2026 a partir das 53 transcrições Tactiq.**
+> 🔴 **A cronologia COMPLETA das 53 reuniões está em**
+> [`_recebido-2026-09-24c-cronologia-e-sucessao-de-contraparte.md`](_recebido-2026-09-24c-cronologia-e-sucessao-de-contraparte.md)
+> — aqui ficam só os marcos. **Um assunto, um dono.**
 
 > ⚠ **A cadência de ata some depois de 03/06/2026.** Ou as weeklies pararam de ser registradas no
 > Notion, ou mudaram de lugar. **Confirmar com a dupla** — é a maior descontinuidade do histórico.
