@@ -4386,3 +4386,18 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
 742. ⚠ **Não encontrei `Projetos.csv`, `Módulos.csv` nem `uFlowDataBase.csv` em
      `_geral/notion/`** — eu os havia citado como existentes. 🔴 **"Não encontrei em X" não é
      "não existe"**: ficam como pendência de procura, não como fato negativo.
+743. 🔴 **As 206 transcrições paradas no Drive são a resposta para "outros clientes" — e eu NÃO
+     as alcanço.** As 53 da CAEDU vieram por zip, na mão do Vinicius. As outras ~153 são de
+     outras contas e continuam paradas.
+     ⚠ **O que procurei, em 24/09/2026, pelo conector do Drive na conta do Vinicius:**
+     `title contains 'Tactiq'` · `fullText contains 'tactiq'` · pastas com `'Transcri'` no título ·
+     todas as pastas `sharedWithMe`. **Voltaram `transcribe-audio` (a esteira de áudio do
+     WhatsApp, do João) e os CSVs do Notion — nenhuma pasta de transcrição de reunião.**
+     🔴 **Escrevo "não encontrei nessas buscas", não "não existe":** a pasta é do
+     `joao.risoleo@umode.com.br` e **não está compartilhada com esta conta.**
+     🟢 **Dois caminhos de desbloqueio, e os dois são decisão do Vinicius:** (a) o João
+     compartilha a pasta; (b) **o agente coletor do Google Workspace entrega, e o contrato de
+     entrega já está escrito** — `protocolo-entrada-de-call.md` + o prompt pronto em
+     `prompt-agente-classificador-de-call.md`.
+     ⚠ **Enquanto isso não acontece, "atacar outro cliente" não é limitado por trabalho meu —
+     é limitado por acesso.**
