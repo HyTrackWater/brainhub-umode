@@ -4171,3 +4171,54 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
 699. 🔴 **Pergunta que fica, e não é minha:** referência operacional da uMode **nunca** deve entrar
      no cérebro pessoal, ou pode entrar como atalho de consulta desde que aponte para o dono no
      corpus? ⚠ **Adotei a forma dura — nunca** — por ser a que não cria documento concorrente.
+
+## Chegaram as 53 transcrições da CAEDU (24 set 2026)
+
+700. 🟢 **53 transcrições Tactiq da CAEDU, de 25/06/2024 a 15/09/2026** — **36,1 horas**,
+     **9.392 falas**, **42 falantes**. Registro: `_recebido-2026-09-24-transcricoes-tactiq-caedu.md`.
+     ⚠ **As brutas NÃO entraram no repositório** — processadas em disco.
+     🔴 **43 das 49 datas não têm marco no `jornada.md`.** **É material complementar, não repetido.**
+701. 🔺 **Corrige um negativo que eu fechei ontem.** O `_varredura-2026-09-23g` concluiu que
+     *"presença nominal com data NÃO sai por API"* — 99,2% dos participantes anônimos no Notion.
+     🟢 **Continua verdadeiro para a API do Notion, e deixou de ser verdadeiro para a conta:**
+     toda linha de transcrição é `[HH:MM:SS] Nome: fala`.
+     ⚠ **A lição não é "eu errei" — é que um negativo vale contra a FONTE testada, nunca contra
+     o fato.** **Vale para todos os negativos rigorosos que registrei.**
+702. 🟢 **19 dos 42 falantes resolvem para e-mail** (`scripts/resolve-falantes.py`).
+     🔴 **A Julianne está em 53 de 53 reuniões** — a conta inteira passa por uma pessoa, e é a
+     mesma cuja ficha estava sem e-mail até ontem. 🟢 **`Vitoria Meneghin` é a contraparte do
+     cliente:** 1.805 falas em 22 reuniões.
+703. 🔺 **QUARTA vez que uma condição frouxa quase fabricou dado.** O falante `Juliana` (2 falas)
+     resolveu para **`juliana@osklen.com.br`** — pessoa de OUTRO cliente numa reunião da CAEDU.
+     🟢 **Três regras entraram no resolvedor:** escopo só do próprio cliente + Casa; **nome de um
+     token só NÃO resolve**; casamento por token (primeiro nome + mais um).
+     ⚠ **Foi a regra 3 que fez `Juliana Ferré` passar a resolver para `Juliana Ferré Esteves`.**
+704. 🔴 **13 pessoas falam nas reuniões e não existem no corpus.** A maior é **`Cleiton Gomes`:
+     305 falas em 6 reuniões.** ⚠ **`Roselene` aparece com duas grafias** e já está no corpus por
+     outro caminho — a demanda `D-2025-013` diz *"solicitado por: Roselene"*.
+     🔴 **`Rose` (733 falas, 7 reuniões) é a TERCEIRA maior voz da conta e é só um apelido.**
+     **Pode ou não ser a Roselene. Não decidi.**
+705. 🟢 **RESPONDIDA a pergunta da hierarquia de produto da CAEDU**, que estava em aberto
+     esperando decisão. A transcrição de **14/05/2025** traz, pela boca do cliente:
+     · **`Linha` é o topo** — *"a linha é o primeiro para vocês"* (Vitoria Meneghin);
+     · **`Grupo` e `Subgrupo` são sempre pareados** — *"os dois são juntos, sempre casadinho"*;
+     · **`Feminino/Masculino/Infantil` é outra dimensão**, que a uMode teve de perguntar onde
+       entrava;
+     · 🔴 **e o mesmo item muda de classificação conforme a linha** — *"dentro do promocional ele
+       é uma **mesa**, mas dentro do jovem, dentro do adulto, ele é **top**"*.
+     **Não são 4 eixos independentes nem cascata simples: é cascata com reclassificação
+     contextual.**
+706. 🔴 **E a consequência é de modelo de dado, não de processo.** O campo do uFlow que recebe
+     isso é o `Product Type`, e a própria Julianne diz: *"aquele campo de `produto Type`, ele
+     **não pode ter hierarquias depois dele**"*. **A CAEDU pede filtro em cascata desde meados de
+     2024 e o produto é plano.**
+     🟢 **É a mesma família da dor estrutural nº 5 já registrada** (*"a origem vive na ficha, não
+     na variante — é problema de modelo de dado"*).
+     ⚠ **Item de especificação ou limitação a aceitar? É decisão do Vinicius e do Produto** —
+     e vale lembrar o item 631 do `CLAUDE.md`: **limitação de schema não é restrição de projeto.**
+707. 🔴 **`fornecedores` tem 506 menções nas 53 transcrições** — a veia mais rica, e é exatamente
+     `A frente aberta` da conta. ⚠ **Ainda não foi lida.** A mais densa é
+     `2025-11-05_Caedu_Importacao_weekly` (67 menções).
+     **Depois dela: `planilha` (367) · `importação` (323) · `Linx` (229).**
+708. ⚠ **As transcrições brutas precisam de casa.** Ficaram fora do repositório, em disco local.
+     🔴 **O Drive compartilhado é o destino declarado no plano do moedor — confirmar.**
