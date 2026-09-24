@@ -105,6 +105,27 @@ atuam por perfis transversais (`Caedu-Geral`, `Caedu-Gerentes`) ou não usam o P
 ## Produto conectado
 **Fornecedores** — módulo contratado pela Caedu, e o que sustenta esta frente.
 
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**40 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 05/11/2025 | Caedu Importacao weekly | 69 |
+| 29/04/2025 | CAEDU (presencial) | 39 |
+| 22/06/2026 | Caedu 2.0 | 35 |
+| 14/05/2025 | uMode e Compras Caedu | 35 |
+| 22/04/2025 | Alinhamento Caedu | 30 |
+| 21/05/2025 | Weekly quinzenal CAEDU | 27 |
+| 25/04/2025 | Alinhamento CAEDU | 26 |
+| 08/09/2026 | Plano de Ação - Caedu | 23 |
+
+⚠ **Termos contados:** `fornecedor` · `compras` · `aviamento` · `tecido`.
+
 ## Fontes e referências
 
 ### Documentos que esta área consome

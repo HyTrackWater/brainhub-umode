@@ -84,6 +84,27 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 ## Produto conectado
 **Gestão de Coleção** (uFlow). Módulo **Planejamento** **não** está contratado pela Caedu.
 
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**17 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 14/05/2025 | uMode e Compras Caedu | 33 |
+| 22/08/2024 | CAEDU - Treinamento Estilo | 31 |
+| 05/11/2025 | Caedu Importacao weekly | 18 |
+| 22/06/2026 | Caedu 2.0 | 15 |
+| 24/07/2024 | Sugestões B2B CAEDU | 15 |
+| 27/11/2024 | Weekly Caedu | 14 |
+| 29/04/2025 | CAEDU (presencial) | 8 |
+| 04/12/2024 | Weekly quinzenal CAEDU | 7 |
+
+⚠ **Termos contados:** `planejamento` · `sortimento` · `macroplan`.
+
 ## Fontes e referências
 
 ### Documentos que esta área consome

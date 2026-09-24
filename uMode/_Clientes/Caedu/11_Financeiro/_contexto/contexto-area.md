@@ -39,6 +39,26 @@ tags:
 > *"Cálculo de margens e tags de licenciamento — **sem dashboard consolidado**."*
 > — `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025, § 4.3 *Indicadores e Relatórios*
 
+
+---
+
+### 🟢 Confirmado pelas 53 transcrições, em 24/09/2026
+
+**Varridas 36,1 horas de reunião, 9.392 falas, de jun/2024 a set/2026.**
+
+🔴 **A expressão `time financeiro` aparece **1 vez** nas 53 transcrições.**
+
+⚠ **Isto deixa de ser ausência num documento e passa a ser ausência em dois anos de conversa
+gravada.** **É evidência POSITIVA de que a área não é unidade organizacional da conta** — não
+apenas de que um mapeamento não a cobriu.
+
+🟢 **Os times da CAEDU que as transcrições NOMEIAM são cinco**, e são os mesmos que têm perfil
+de acesso no PLM: **Produto** (`time de produto`, 12 · `gerente de produto`, 25) · **Modelagem**
+(10) · **Estilo** (9) · **Planejamento** (8) · **Compras** (8).
+
+⚠ **Fonte:** contagem em `scripts/indexa-transcricoes.py` sobre as 53 transcrições Tactiq. Ver
+[`_recebido-2026-09-24-transcricoes-tactiq-caedu.md`](../../00_Institucional/_contexto/_recebido-2026-09-24-transcricoes-tactiq-caedu.md).
+
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
 
@@ -72,6 +92,27 @@ Gerentes, Geral e Admin.
 **Nenhum módulo contratado atende esta área.** Os quatro módulos da Caedu — Gestão de Coleção, Integração, Relatórios e Fornecedores — cobrem desenvolvimento de produto, não financeiro.
 
 ⚠ **`Relatórios` toca o tema de margem**, mas o próprio mapeamento registra que não há dashboard consolidado.
+
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**13 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 12/03/2026 | Weekly quinzenal CAEDU | 12 |
+| 24/07/2024 | Sugestões B2B CAEDU | 10 |
+| 23/07/2024 | Caedu - Importação | 10 |
+| 07/01/2026 | Weekly quinzenal CAEDU | 9 |
+| 19/07/2024 | Weekly CAEDU | 8 |
+| 08/07/2025 | Caedu uMode - erro integrar status backlog e | 7 |
+| 22/04/2025 | Alinhamento Caedu | 7 |
+| 15/07/2024 | uMode <> Caedu Bi-Weekly | 7 |
+
+⚠ **Termos contados:** `custo` · `margem` · `ncm` · `fiscal`.
 
 ## Fontes e referências
 

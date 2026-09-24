@@ -83,6 +83,27 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 ## Produto conectado
 **Gestão de Coleção** + **Integração** (uFlow). ERP: **Linx**.
 
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**31 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 04/12/2024 | Weekly quinzenal CAEDU | 32 |
+| 25/10/2024 | wf caedu | 29 |
+| 14/04/2026 | Weekly quinzenal CAEDU | 24 |
+| 25/06/2024 | Julianne / Marina - Caedu | 22 |
+| 29/04/2025 | CAEDU (presencial) | 21 |
+| 22/08/2024 | CAEDU - Treinamento Estilo | 19 |
+| 20/08/2024 | Workflow Caedu | 19 |
+| 04/07/2025 | CAEDU | 17 |
+
+⚠ **Termos contados:** `ficha técnica` · `ficha de produto` · `coleção`.
+
 ## Fontes e referências
 
 ### Documentos que esta área consome

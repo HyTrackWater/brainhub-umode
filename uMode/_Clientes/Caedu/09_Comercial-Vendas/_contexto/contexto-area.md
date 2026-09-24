@@ -40,6 +40,26 @@ tags:
 
 **Fonte de tudo acima:** `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025.
 
+
+---
+
+### 🟢 Confirmado pelas 53 transcrições, em 24/09/2026
+
+**Varridas 36,1 horas de reunião, 9.392 falas, de jun/2024 a set/2026.**
+
+🔴 **A expressão `time comercial` aparece **ZERO vezes** nas 53 transcrições.**
+
+⚠ **Isto deixa de ser ausência num documento e passa a ser ausência em dois anos de conversa
+gravada.** **É evidência POSITIVA de que a área não é unidade organizacional da conta** — não
+apenas de que um mapeamento não a cobriu.
+
+🟢 **Os times da CAEDU que as transcrições NOMEIAM são cinco**, e são os mesmos que têm perfil
+de acesso no PLM: **Produto** (`time de produto`, 12 · `gerente de produto`, 25) · **Modelagem**
+(10) · **Estilo** (9) · **Planejamento** (8) · **Compras** (8).
+
+⚠ **Fonte:** contagem em `scripts/indexa-transcricoes.py` sobre as 53 transcrições Tactiq. Ver
+[`_recebido-2026-09-24-transcricoes-tactiq-caedu.md`](../../00_Institucional/_contexto/_recebido-2026-09-24-transcricoes-tactiq-caedu.md).
+
 ## Com quem se relaciona (interno e externo)
 
 - **`03_Desenvolvimento-de-Colecao`** — recebe o produto liberado; a validação *"Liberado para emissão"* é o ponto de passagem (§ 4.2.5).
@@ -75,6 +95,27 @@ Gerentes, Geral e Admin.
 **`Integração`** (uFlow) — módulo contratado pela Caedu. É o que liga a liberação do produto à emissão de pedido no **Linx**.
 
 ⚠ **Não há módulo que cubra negociação comercial** — e isso é escopo declarado, não falha.
+
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**26 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 22/04/2025 | Alinhamento Caedu | 48 |
+| 28/04/2026 | Weekly Caedu | 37 |
+| 28/01/2026 | Weekly quinzenal CAEDU | 35 |
+| 14/05/2025 | uMode e Compras Caedu | 35 |
+| 13/05/2026 | Weekly quinzenal CAEDU | 32 |
+| 22/06/2026 | Caedu 2.0 | 26 |
+| 07/01/2026 | Weekly quinzenal CAEDU | 23 |
+| 05/11/2025 | Caedu Importacao weekly | 23 |
+
+⚠ **Termos contados:** `pedido` · `b2b` · `atacado` · `pré-pedido` · `pre-pedido`.
 
 ## Fontes e referências
 

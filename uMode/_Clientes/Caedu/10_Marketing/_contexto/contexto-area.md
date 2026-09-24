@@ -40,6 +40,26 @@ tags:
 
 **Fonte:** `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025.
 
+
+---
+
+### 🟢 Confirmado pelas 53 transcrições, em 24/09/2026
+
+**Varridas 36,1 horas de reunião, 9.392 falas, de jun/2024 a set/2026.**
+
+🔴 **A expressão `time de marketing` aparece **1 vez** nas 53 transcrições.**
+
+⚠ **Isto deixa de ser ausência num documento e passa a ser ausência em dois anos de conversa
+gravada.** **É evidência POSITIVA de que a área não é unidade organizacional da conta** — não
+apenas de que um mapeamento não a cobriu.
+
+🟢 **Os times da CAEDU que as transcrições NOMEIAM são cinco**, e são os mesmos que têm perfil
+de acesso no PLM: **Produto** (`time de produto`, 12 · `gerente de produto`, 25) · **Modelagem**
+(10) · **Estilo** (9) · **Planejamento** (8) · **Compras** (8).
+
+⚠ **Fonte:** contagem em `scripts/indexa-transcricoes.py` sobre as 53 transcrições Tactiq. Ver
+[`_recebido-2026-09-24-transcricoes-tactiq-caedu.md`](../../00_Institucional/_contexto/_recebido-2026-09-24-transcricoes-tactiq-caedu.md).
+
 ## Com quem se relaciona (interno e externo)
 
 - **`02_Estilo-Criacao`** — é quem preenche SEO, título, imagem e atributos de VM na ficha (§ 4.2.2).
@@ -74,6 +94,22 @@ Gerentes, Geral e Admin.
 **`Gestão de Coleção`** (uFlow) — os campos de e-commerce e VM vivem na ficha de produto.
 
 ⚠ **A ação de roadmap é de adoção, não de construção:** *"ampliar uso de campos de VM e e-commerce"* (§ 5.1). **Os campos já existem.**
+
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**3 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 22/06/2026 | Caedu 2.0 | 7 |
+| 20/08/2024 | Workflow Caedu | 7 |
+| 14/08/2024 | Weekly quinzenal CAEDU | 4 |
+
+⚠ **Termos contados:** `marketing` · `visual merchandising`.
 
 ## Fontes e referências
 

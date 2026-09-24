@@ -77,6 +77,27 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 ## Produto conectado
 **Gestão de Coleção** (uFlow).
 
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**15 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 10/01/2025 | Caedu : workflow | 103 |
+| 04/12/2024 | Weekly quinzenal CAEDU | 45 |
+| 25/06/2024 | Julianne / Marina - Caedu | 42 |
+| 14/08/2024 | Weekly quinzenal CAEDU | 27 |
+| 20/08/2024 | Workflow Caedu | 25 |
+| 25/10/2024 | wf caedu | 9 |
+| 12/08/2024 | Workflow Caedu | 8 |
+| 24/07/2024 | Sugestões B2B CAEDU | 7 |
+
+⚠ **Termos contados:** `qualidade` · `amostra` · `lacre`.
+
 ## Fontes e referências
 
 ### Documentos que esta área consome

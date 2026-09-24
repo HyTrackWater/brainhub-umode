@@ -78,6 +78,27 @@ imagens e atributos de Visual Merchandising** — e cuida da árvore de categori
 ## Produto conectado
 **Gestão de Coleção** (uFlow).
 
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**26 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 22/04/2025 | Alinhamento Caedu | 47 |
+| 15/07/2024 | uMode <> Caedu Bi-Weekly | 16 |
+| 29/04/2025 | CAEDU (presencial) | 15 |
+| 14/04/2026 | Weekly quinzenal CAEDU | 14 |
+| 22/06/2026 | Caedu 2.0 | 13 |
+| 28/04/2026 | Weekly Caedu | 13 |
+| 22/08/2024 | CAEDU - Treinamento Estilo | 13 |
+| 14/08/2024 | Weekly quinzenal CAEDU | 11 |
+
+⚠ **Termos contados:** `cadastro` · `e-commerce` · `seo`.
+
 ## Fontes e referências
 
 ### Documentos que esta área consome

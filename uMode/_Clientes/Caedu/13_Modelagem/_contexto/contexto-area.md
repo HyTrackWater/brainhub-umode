@@ -82,6 +82,27 @@ Lista nominal em [`pessoas.md`](../../00_Institucional/_contexto/pessoas.md).
 **Gestão de Coleção** (uFlow). Há **treinamento dedicado de tabela de medidas** registrado como
 reunião com o cliente.
 
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**29 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 15/07/2024 | uMode <> Caedu Bi-Weekly | 89 |
+| 04/12/2024 | Weekly quinzenal CAEDU | 50 |
+| 25/10/2024 | wf caedu | 47 |
+| 12/08/2024 | Workflow Caedu | 47 |
+| 06/08/2025 | Weekly quinzenal CAEDU | 46 |
+| 10/01/2025 | Caedu : workflow | 42 |
+| 27/11/2025 | CAEDU - Acompanhamento PLM | 38 |
+| 20/08/2024 | Workflow Caedu | 27 |
+
+⚠ **Termos contados:** `modelagem` · `tabela de medida` · `piloto` · `fitting` · `grade`.
+
 ## Fontes e referências
 
 ### Documentos que esta área consome

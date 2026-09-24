@@ -111,6 +111,27 @@ A lista nominal com e-mail e data de ativação está em
 Demais módulos da conta: Integração, Relatórios, Fornecedores.
 ERP integrado: **Linx**.
 
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**25 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 24/07/2024 | Sugestões B2B CAEDU | 33 |
+| 22/08/2024 | CAEDU - Treinamento Estilo | 31 |
+| 29/04/2025 | CAEDU (presencial) | 24 |
+| 14/05/2025 | uMode e Compras Caedu | 23 |
+| 25/06/2024 | Julianne / Marina - Caedu | 21 |
+| 10/01/2025 | Caedu : workflow | 17 |
+| 12/08/2024 | Workflow Caedu | 17 |
+| 04/12/2024 | Weekly quinzenal CAEDU | 15 |
+
+⚠ **Termos contados:** `estilo` · `estampa` · `pré-line` · `pre-line` · `pre line`.
+
 ## Fontes e referências
 ### Documentos que esta área consome
 - Planilha base de sortimento vinda de `01_Planejamento`

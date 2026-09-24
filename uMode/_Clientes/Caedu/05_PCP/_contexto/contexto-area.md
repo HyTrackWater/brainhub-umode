@@ -37,6 +37,26 @@ tags:
 
 **Fonte:** `Mapeamento de Contas - Caedu` (AS IS / TO BE), 04/04/2025.
 
+
+---
+
+### 🟢 Confirmado pelas 53 transcrições, em 24/09/2026
+
+**Varridas 36,1 horas de reunião, 9.392 falas, de jun/2024 a set/2026.**
+
+🔴 **A expressão `time de PCP` aparece **ZERO vezes** nas 53 transcrições.**
+
+⚠ **Isto deixa de ser ausência num documento e passa a ser ausência em dois anos de conversa
+gravada.** **É evidência POSITIVA de que a área não é unidade organizacional da conta** — não
+apenas de que um mapeamento não a cobriu.
+
+🟢 **Os times da CAEDU que as transcrições NOMEIAM são cinco**, e são os mesmos que têm perfil
+de acesso no PLM: **Produto** (`time de produto`, 12 · `gerente de produto`, 25) · **Modelagem**
+(10) · **Estilo** (9) · **Planejamento** (8) · **Compras** (8).
+
+⚠ **Fonte:** contagem em `scripts/indexa-transcricoes.py` sobre as 53 transcrições Tactiq. Ver
+[`_recebido-2026-09-24-transcricoes-tactiq-caedu.md`](../../00_Institucional/_contexto/_recebido-2026-09-24-transcricoes-tactiq-caedu.md).
+
 ## Com quem se relaciona (interno e externo)
 
 - **`13_Modelagem`** — onde ficam piloto, fitting e repilotagem (§ 4.2.4).
@@ -72,6 +92,21 @@ Gerentes, Geral e Admin.
 **`Relatórios`** (uFlow) — módulo contratado. É onde o acompanhamento de cronograma e tempo entre etapas **deveria** aparecer.
 
 🔴 **E é exatamente o que o mapeamento aponta como lacuna** (§ 4.3): não há relatório de tempo entre etapas nem de repilotagem.
+
+
+### 🔴 Nenhuma reunião atinge o limiar — e isso é dado
+
+> **Varrido em 24/09/2026 nas 53 transcrições Tactiq** (36,1 horas, 9.392 falas).
+
+**Termos contados:** `pcp` · `facção`.
+
+🔴 **Nenhuma das 53 reuniões menciona esses termos 3 vezes ou mais.** As outras 12 áreas
+canônicas têm de 13 a 39 reuniões acima do limiar; **esta tem zero.**
+
+⚠ **Isso NÃO prova que a função não exista na CAEDU.** 🟢 **Prova que ela não é assunto
+das reuniões com a uMode** — e, para o cruçamento de contexto, é isso que importa: **não há de
+onde tirar conteúdo para esta área nesta conta.**
+
 
 ## Fontes e referências
 

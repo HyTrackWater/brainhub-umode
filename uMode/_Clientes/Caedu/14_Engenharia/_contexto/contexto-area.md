@@ -38,6 +38,26 @@ tags:
 
 🔴 **`Importação` e `Produto Nacional` são etapas do processo da Caedu que NÃO cabem nas 14 áreas canônicas** — mesmo padrão de `Atelier`, `Estamparia` e `Oficina` em outros clientes. **Ver `_pendencias-gerais.md`.**
 
+
+---
+
+### 🟢 Confirmado pelas 53 transcrições, em 24/09/2026
+
+**Varridas 36,1 horas de reunião, 9.392 falas, de jun/2024 a set/2026.**
+
+🔴 **A expressão `time de engenharia` aparece **ZERO vezes** nas 53 transcrições.**
+
+⚠ **Isto deixa de ser ausência num documento e passa a ser ausência em dois anos de conversa
+gravada.** **É evidência POSITIVA de que a área não é unidade organizacional da conta** — não
+apenas de que um mapeamento não a cobriu.
+
+🟢 **Os times da CAEDU que as transcrições NOMEIAM são cinco**, e são os mesmos que têm perfil
+de acesso no PLM: **Produto** (`time de produto`, 12 · `gerente de produto`, 25) · **Modelagem**
+(10) · **Estilo** (9) · **Planejamento** (8) · **Compras** (8).
+
+⚠ **Fonte:** contagem em `scripts/indexa-transcricoes.py` sobre as 53 transcrições Tactiq. Ver
+[`_recebido-2026-09-24-transcricoes-tactiq-caedu.md`](../../00_Institucional/_contexto/_recebido-2026-09-24-transcricoes-tactiq-caedu.md).
+
 ## Com quem se relaciona (interno e externo)
 `[a preencher]`
 
@@ -67,6 +87,27 @@ Gerentes, Geral e Admin.
 
 ## Produto conectado
 `[a preencher]`
+
+### 🟢 Onde esta área foi discutida — as 53 transcrições Tactiq
+
+> **Varrido em 24/09/2026.** 🔴 **Isto é ROTEAMENTO, não conteúdo:** diz em que reunião
+> procurar, não o que foi dito. ⚠ **A transcrição automática tem 33% das falas cortadas** —
+> contagem de termo sobrevive ao ruído, narrativa não.
+
+**33 das 53 reuniões tocam esta área.** As mais densas:
+
+| Data | Reunião | Menções |
+|---|---|---:|
+| 15/07/2024 | uMode <> Caedu Bi-Weekly | 43 |
+| 22/04/2025 | Alinhamento Caedu | 30 |
+| 08/07/2025 | Caedu uMode - erro integrar status backlog e | 29 |
+| 08/09/2026 | Plano de Ação - Caedu | 25 |
+| 12/03/2026 | Weekly quinzenal CAEDU | 19 |
+| 24/07/2024 | Sugestões B2B CAEDU | 16 |
+| 04/12/2024 | Weekly quinzenal CAEDU | 13 |
+| 29/04/2025 | CAEDU (presencial) | 12 |
+
+⚠ **Termos contados:** `integração` · `linx` · `api`.
 
 ## Fontes e referências
 

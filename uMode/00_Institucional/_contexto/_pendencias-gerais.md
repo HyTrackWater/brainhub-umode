@@ -4303,3 +4303,36 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
 724. 🟢 **Três registros escritos para a CAEDU:** `a` índice e identidade · `b` primeira leitura
      de conteúdo · `c` cronologia e sucessão. ⚠ **Li 4 das 53 transcrições** — a lacuna está
      declarada em cada um.
+
+## A CAEDU terminada, e o prompt entregue (24 set 2026)
+
+725. 🔺 **Duas correções que o Vinicius me cobrou, e as duas eram justas.**
+     **(a)** Eu escrevi o contrato de entrada de call **dentro do corpus** e não entreguei o
+     **texto que ele cola no outro agente** — que era o pedido. 🟢 **Feito:
+     `prompt-agente-classificador-de-call.md`**, classe `TEMPLATE`, com System Prompt, JSON
+     Schema e três testes de aceite.
+     **(b)** Eu parava a CAEDU no meio e relatava. 🟢 **As 53 foram varridas.**
+726. 🟢 **As 14 áreas da CAEDU ganharam camada de ROTEAMENTO** — em que reunião procurar cada
+     assunto, com data e densidade. 🔴 **É roteamento, não conteúdo:** contagem de termo
+     sobrevive ao ruído de 33% de falas cortadas; **narrativa não sobrevive.**
+     **12 das 14 têm reuniões acima do limiar** — de 13 a 39 cada.
+727. 🟢 **CONFIRMADAS as 7 áreas que eu havia preenchido por ausência — agora por evidência
+     POSITIVA em 36 horas de conversa gravada.** As expressões `time de financeiro`,
+     `time de logística`, `time de design`, `time de PCP`, `time de engenharia` e
+     `time de e-commerce` aparecem **ZERO vezes** nas 53 transcrições.
+     ⚠ **Deixa de ser ausência num documento e passa a ser ausência em dois anos de reunião.**
+728. 🟢 **Os times que a CAEDU NOMEIA são cinco, e são os mesmos com perfil no PLM:**
+     **Produto** (`time de produto` 12 · `gerente de produto` 25) · **Modelagem** (10) ·
+     **Estilo** (9) · **Planejamento** (8) · **Compras** (8).
+     🟢 **Duas fontes independentes — perfil de acesso e fala — chegam à mesma lista.**
+729. 🔴 **`05_PCP` e `12_Design` não têm NENHUMA reunião acima do limiar.** As outras 12 têm de 13
+     a 39. ⚠ **Não prova que a função não exista na CAEDU** — 🟢 **prova que não é assunto das
+     reuniões com a uMode**, e para o cruzamento é isso que importa: **não há de onde tirar
+     conteúdo para essas duas nesta conta.**
+730. 🟢 **Achado novo: `gerente de grupo` é cargo real da CAEDU**, ligado à taxonomia
+     `grupo/subgrupo`. *"vai ficar gerente de produto mais gerente de grupo"* — Vitoria Meneghin.
+     ⚠ **O corpus não tinha esse papel.**
+731. ⚠ **O que NÃO consegui extrair, e por quê:** narrativa fina por área. **O ruído do ASR
+     inviabiliza** — as falas vêm cortadas no meio e com erro de palavra. 🔴 **Tentei e parei:
+     insistir produziria citação mutilada com aparência de fato.** **O que entrega valor com
+     esse material é roteamento + identidade + cronologia, e é o que está escrito.**
