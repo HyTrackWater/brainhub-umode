@@ -1,11 +1,3 @@
----
-aliases:
-  - "NK STORE · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/nk-store
-  - status/ongoing
----
 # NK STORE · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

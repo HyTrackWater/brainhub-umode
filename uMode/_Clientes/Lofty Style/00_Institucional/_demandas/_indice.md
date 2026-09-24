@@ -1,11 +1,3 @@
----
-aliases:
-  - "Lofty Style · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/lofty-style
-  - status/ongoing
----
 # Lofty Style · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -1,11 +1,3 @@
----
-aliases:
-  - "Reserva · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/reserva
-  - status/ongoing
----
 # Reserva · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

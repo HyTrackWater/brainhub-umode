@@ -151,6 +151,30 @@ ao mesmo tempo **uma variante foi excluída sem que ninguém soubesse quem fez**
   `Vix qualdiade` (por *qualidade*) numa das matrizes, e uma coluna chamada apenas `v`.
 - O campo `Jogo 29/06` desta linha diz *"atuação até 12h"*. **Campo ad hoc que virou ruído no schema.**
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **29** |
+| nota média (1–5) | ⚠ **3.83** |
+| avaliações com **flag** | **4** de 29 (14%) |
+| período coberto | 08/03/2024 → 08/11/2024 |
+
+**Percepção registrada:** **Precisamos de atenção e foco** (22) · **Tudo em dia** (4) · **Cronograma atrasado  mas cliente satisfeito** (2) · **Cronograma atrasado e cliente insatisfeito** (1).
+
+**Quem avaliou (da uMode):** Taís Moser (18) · Andrea Holmer (4) · Julianne Rodrigues (4) · Marina (2).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

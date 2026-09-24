@@ -1,11 +1,3 @@
----
-aliases:
-  - "Cambos · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/cambos
-  - status/ongoing
----
 # Cambos · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

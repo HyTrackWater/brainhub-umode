@@ -1,11 +1,3 @@
----
-aliases:
-  - "Cambos · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/cambos
-  - status/ongoing
----
 # Cambos · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

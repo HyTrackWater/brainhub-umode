@@ -82,6 +82,30 @@ tags:
 - ⚠ **Contradição entre módulo `Integração` e ERP `Sem Integração`.**
 - **Terceiro cliente com "material travado"**, com NV e Lofty Style.
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **28** |
+| nota média (1–5) | 🟢 **4.43** |
+| avaliações com **flag** | **2** de 28 (7%) |
+| período coberto | 16/02/2024 → 18/11/2024 |
+
+**Percepção registrada:** **Tudo em dia** (22) · **Precisamos de atenção e foco** (6).
+
+**Quem avaliou (da uMode):** Andrea Holmer (23) · Juliana (3) · Marina (1) · Ju (1).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

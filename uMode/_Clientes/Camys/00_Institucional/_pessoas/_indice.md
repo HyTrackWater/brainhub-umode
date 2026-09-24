@@ -1,11 +1,3 @@
----
-aliases:
-  - "Camys · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/camys
-  - status/sem-cs
----
 # Camys · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

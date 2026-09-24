@@ -1,11 +1,3 @@
----
-aliases:
-  - "Colmeia · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/colmeia
-  - status/churn
----
 # Colmeia · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

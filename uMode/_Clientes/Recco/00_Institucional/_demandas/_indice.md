@@ -1,11 +1,3 @@
----
-aliases:
-  - "Recco · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/recco
-  - status/churn
----
 # Recco · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

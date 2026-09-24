@@ -1,11 +1,3 @@
----
-aliases:
-  - "Oficina Reserva · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/oficina-reserva
-  - status/ongoing
----
 # Oficina Reserva · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

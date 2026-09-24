@@ -1,11 +1,3 @@
----
-aliases:
-  - "Highstil · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/highstil
-  - status/churn
----
 # Highstil · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

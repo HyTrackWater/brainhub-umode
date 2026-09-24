@@ -1,11 +1,3 @@
----
-aliases:
-  - "Cambos · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/cambos
-  - status/ongoing
----
 # Cambos · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

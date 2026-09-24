@@ -167,6 +167,30 @@ Métrica de sucesso propriamente dita: `[a preencher]`.
 - O campo `Jogo 29/06` existe nesta linha da base e está **vazio** (na Puket está preenchido).
   **A base carrega campos ad hoc que viram ruído permanente no schema.**
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **27** |
+| nota média (1–5) | ⚠ **3.70** |
+| avaliações com **flag** | **1** de 27 (4%) |
+| período coberto | 20/02/2024 → 18/11/2024 |
+
+**Percepção registrada:** **Precisamos de atenção e foco** (24) · **Tudo em dia** (2) · **Cronograma atrasado  mas cliente satisfeito** (1).
+
+**Quem avaliou (da uMode):** Andrea Holmer (23) · Juliana (3) · Ju (1).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

@@ -1,11 +1,3 @@
----
-aliases:
-  - "NV · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/nv
-  - status/ongoing
----
 # NV · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

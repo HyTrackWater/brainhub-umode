@@ -1,10 +1,3 @@
----
-aliases:
-  - "Casa uMode · Demandas — índice"
-tags:
-  - tipo/indice
-  - casa
----
 # Casa uMode · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

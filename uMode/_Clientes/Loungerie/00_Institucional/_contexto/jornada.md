@@ -70,6 +70,24 @@ tags:
 - **Única conta em `Onboarding`.**
 - **Edição mais recente de toda a base de clientes** (02/09/2026).
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+**Não consta em:** `Feedback Interno Clientes` · conferido em **24/09/2026**.
+
+🔴 **Este cliente nunca foi avaliado neste ritual.** ⚠ **Isso é ausência de
+MEDIÇÃO, não conta saudável** — e não autoriza nenhuma leitura sobre a saúde da
+conta, para bem nem para mal.
+
+⚠ **24 dos 48 clientes estão nesta mesma situação** — metade da carteira. **Por que
+metade nunca foi avaliada é pergunta aberta**, registrada em
+[`_varredura-2026-09-24`](../../../../00_Institucional/_contexto/_varredura-2026-09-24-os-exports-nao-lidos-do-vault.md) § 7.
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

@@ -1,11 +1,3 @@
----
-aliases:
-  - "Moda Objetiva · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/moda-objetiva
-  - status/operacao-assistida
----
 # Moda Objetiva · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

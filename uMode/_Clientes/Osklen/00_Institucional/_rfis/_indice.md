@@ -1,11 +1,3 @@
----
-aliases:
-  - "Osklen · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/osklen
-  - status/operacao-assistida
----
 # Osklen · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

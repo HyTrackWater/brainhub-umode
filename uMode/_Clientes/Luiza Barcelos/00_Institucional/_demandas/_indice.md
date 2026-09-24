@@ -1,11 +1,3 @@
----
-aliases:
-  - "Luiza Barcelos · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/luiza-barcelos
-  - status/ongoing
----
 # Luiza Barcelos · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

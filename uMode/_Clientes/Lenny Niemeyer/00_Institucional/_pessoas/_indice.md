@@ -1,11 +1,3 @@
----
-aliases:
-  - "Lenny Niemeyer · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/lenny-niemeyer
-  - status/churn
----
 # Lenny Niemeyer · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

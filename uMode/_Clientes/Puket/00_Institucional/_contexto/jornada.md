@@ -137,6 +137,30 @@ tags:
   carrega campos ad hoc de uso pontual**, que viram ruído permanente no schema.
 - A dupla **Julianne & Pedro** atende **6 contas** simultâneas.
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **23** |
+| nota média (1–5) | ⚠ **3.96** |
+| avaliações com **flag** | **0** de 23 (0%) |
+| período coberto | 21/02/2024 → 08/11/2024 |
+
+**Percepção registrada:** **Precisamos de atenção e foco** (12) · **Cronograma atrasado  mas cliente satisfeito** (7) · **Tudo em dia** (4).
+
+**Quem avaliou (da uMode):** Julianne Rodrigues (15) · Gleisson (3) · Elizabeth (3) · Juliana (1).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

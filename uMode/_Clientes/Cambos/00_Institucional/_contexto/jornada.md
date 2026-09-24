@@ -195,6 +195,30 @@ retrabalho e menos tempo de desenvolvimento.
   a passagem de Sales para Ops.
 - O campo `Jogo 29/06` desta linha diz *"Até 12h"*.
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **27** |
+| nota média (1–5) | 🟢 **4.85** |
+| avaliações com **flag** | **1** de 27 (4%) |
+| período coberto | 14/05/2024 → 08/11/2024 |
+
+**Percepção registrada:** **Tudo em dia** (20) · **Precisamos de atenção e foco** (7).
+
+**Quem avaliou (da uMode):** Elizabeth (19) · Tony (2) · Rafael (1) · Marina (1).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

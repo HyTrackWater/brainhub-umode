@@ -1,11 +1,3 @@
----
-aliases:
-  - "Colmeia · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/colmeia
-  - status/churn
----
 # Colmeia · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

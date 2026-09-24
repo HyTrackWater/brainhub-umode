@@ -1,11 +1,3 @@
----
-aliases:
-  - "Baw · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/baw
-  - status/sem-cs
----
 # Baw · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

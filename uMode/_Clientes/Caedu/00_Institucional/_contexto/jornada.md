@@ -284,6 +284,30 @@ demonstração do **`Coleção Moda`** na frente da uMode. **É o único caso da
 | Escopo 2 | central | ⚠ **não aparece nas reuniões de operação lidas** — mas é confidencial, então **não concluo abandono** |
 
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **21** |
+| nota média (1–5) | ⚠ **3.86** |
+| avaliações com **flag** | **2** de 21 (10%) |
+| período coberto | 28/02/2024 → 08/11/2024 |
+
+**Percepção registrada:** **Precisamos de atenção e foco** (11) · **Tudo em dia** (8) · **Cronograma atrasado  mas cliente satisfeito** (2).
+
+**Quem avaliou (da uMode):** Julianne Rodrigues (16) · Marina (5).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

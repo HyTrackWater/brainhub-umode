@@ -1,11 +1,3 @@
----
-aliases:
-  - "DRO · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/dro
-  - status/churn
----
 # DRO · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

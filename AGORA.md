@@ -122,11 +122,11 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | | Número | Como se mede |
 |---|---:|---|
 | Clientes no corpus | **48** | pastas em `_Clientes/` |
-| MDs em `uMode/` | **2.655** | `find` |
+| MDs em `uMode/` | **2.657** | `find` |
 | `contexto-area.md` conformes | **694 / 694** | `valida-padrao-corpus.py` |
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50 · 49 · 49** | idem |
 | Demandas | **999** — 994 de cliente + 5 da Casa | idem · 1 staging `SUPERSEDED` |
-| RFIs | **86** | idem · 1 staging `SUPERSEDED` |
+| RFIs | **87** | idem · 1 staging `SUPERSEDED` |
 | 🟢 **Fichas de pessoa** | **479** — 402 de cliente + **77 da Casa** | `gera-fichas-pessoa.py` · `gera-fichas-umoder.py` |
 | Fichas de ferramenta | **27** | `gera-fichas-ferramenta.py` |
 | Soluções do Portfólio | **16** | `03_Produto-e-Solucoes/` |
@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **727** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **738** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
@@ -238,7 +238,7 @@ alguma forma ligada a esses nós maiores."*
 | Instituição | ✅ | 50 | ✅ |
 | Área | ✅ | 694 | 🟢 **religada em 23 set** |
 | Demanda | ✅ | 999 | ✅ |
-| RFI | ✅ | 86 | ✅ |
+| RFI | ✅ | 87 | ✅ |
 | Pessoa | ✅ | **242** | ✅ |
 | Ferramenta | ✅ | **27** | ✅ |
 | **Solução do Portfólio** | ✅ | **16** | 🟢 **religada em 23 set** |

@@ -1,11 +1,3 @@
----
-aliases:
-  - "Moda Objetiva · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/moda-objetiva
-  - status/operacao-assistida
----
 # Moda Objetiva · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -156,6 +156,30 @@ num universo de **61** — **28% da base ativa na janela**.
 - É também o **único cliente varrido** com `Setor`, `Cidade` e `Área de Atuação` preenchidos.
 - **7 dos 7 chamados `BURLAR PROCESSO` da carteira inteira são desta conta.**
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **25** |
+| nota média (1–5) | ⚠ **4.12** |
+| avaliações com **flag** | **1** de 25 (4%) |
+| período coberto | 08/03/2024 → 18/11/2024 |
+
+**Percepção registrada:** **Precisamos de atenção e foco** (20) · **Tudo em dia** (5).
+
+**Quem avaliou (da uMode):** Andrea Holmer (23) · Michaelli (1) · Elizabeth (1).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
@@ -181,7 +205,7 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 **Integração deste cliente:** [integracao.md](integracao.md)
 
-**Registros:** **108 demandas** — [índice](../_demandas/_indice.md) · **10 RFIs** — [índice](../_rfis/_indice.md) · **13 fichas de pessoa** — [índice](../_pessoas/_indice.md)
+**Registros:** **108 demandas** — [índice](../_demandas/_indice.md) · **11 RFIs** — [índice](../_rfis/_indice.md) · **13 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
 **As 14 áreas deste cliente:**
 

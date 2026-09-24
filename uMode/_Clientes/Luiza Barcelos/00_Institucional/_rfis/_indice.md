@@ -1,11 +1,3 @@
----
-aliases:
-  - "Luiza Barcelos · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/luiza-barcelos
-  - status/ongoing
----
 # Luiza Barcelos · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

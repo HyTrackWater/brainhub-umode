@@ -1,11 +1,3 @@
----
-aliases:
-  - "Highstil · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/highstil
-  - status/churn
----
 # Highstil · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

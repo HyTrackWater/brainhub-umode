@@ -4336,3 +4336,53 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      inviabiliza** — as falas vêm cortadas no meio e com erro de palavra. 🔴 **Tentei e parei:
      insistir produziria citação mutilada com aparência de fato.** **O que entrega valor com
      esse material é roteamento + identidade + cronologia, e é o que está escrito.**
+732. 🚨 **O corpus só tinha aberto 1 dos 6 exports do Notion no vault do João.** Os outros
+     cinco estavam em `BrainHub/uMode/_Clientes/_geral/notion/` desde sempre.
+     ⚠ **O que me levou até eles não foi varredura — foi a UNIFORMIDADE da lacuna:**
+     `Resultado esperado` e `Quem aprova` vazios em **993 de 993** demandas, `Missão da cadeira`
+     em **402 de 402** fichas. 🟢 **Lacuna uniforme demais não é falha de leitura: é template
+     que nunca foi alimentado** — e isso é pergunta sobre a FONTE, não sobre o documento.
+     *(Terceira variação de "ausência de fonte é hipótese". Ver `_varredura-2026-09-24`.)*
+733. 🔴 **Existia um ritual semanal de avaliar a saúde de cada conta, e ele parou em 2024.**
+     388 avaliações `Feedback Semanal`, por gente da uMode — Taís Moser, Andrea Holmer, Laura,
+     Elizabeth, Julianne. ⚠ **Pergunta para o Vinicius: o ritual acabou, ou mudou de lugar?**
+     🔴 **Não sei, e a diferença muda o que o BrainHub deve fazer com isso.**
+734. 🔴 **Metade da carteira nunca foi avaliada nesse ritual** — 24 de 48 clientes.
+     ⚠ **Isso é ausência de MEDIÇÃO, não conta saudável**, e está escrito assim no `jornada.md`
+     de cada um dos 24, como ausência VERIFICADA. **Por que metade ficou de fora é pergunta
+     aberta.**
+735. 🔴 **No que foi medido, 220 das 427 avaliações (52%) são "atenção", "atraso" ou
+     "bloqueio".** Piores: **Estrela 2,00** · **Studio Z 2,84** (53% de flag) ·
+     **NTK 2,89** (dominante: *Bloqueio*) · **Vivara 3,00** (🔴 **71% de flag**).
+     ⚠ **É retrato de 2024 e não estado de hoje** — mas é o único histórico de saúde que existe.
+736. 🟢 **`Resultado esperado`, urgência e autor de demanda deixam de ser "campo sem fonte
+     possível": o formulário que os coleta EXISTE.** `Formulário de Demandas` tem
+     `Objetivo Esperado`, `Urgência e Impacto` e 🟢 **`E-mail de contato`** — identidade por
+     e-mail, que é exatamente o que o corpus pede. 🔴 **E foi usado 2 vezes.**
+     ⚠ **Muda quem resolve: não é trabalho de documentação, é decisão de processo.**
+737. ⚠ **Duas sujeiras já visíveis nas 2 linhas do formulário:** `Cliente` vem como `Reserva`
+     e `reserva`; e **`Setor - Seu nome` colapsa instituição, área e pessoa num campo de texto
+     livre** — `"Reserva - Engenharia - Thamires"`, `"Umode - Fernanda"`. 🔴 **É exatamente o
+     que a hierarquia do BrainHub separa em quatro níveis.**
+738. 🟢 **RESOLVIDO: `Oficina Reserva` ≠ `Reserva`.** São duas contas, não duas grafias.
+     **Prova:** a MESMA avaliadora (Andrea Holmer) avalia as duas no MESMO mês (set/2024).
+     🟢 **E a regra que decidiu vale para o próximo caso:** grafias em períodos **sequenciais**
+     são conta renomeada (`STZ`→`Studio Z`, `Básico`→`Básico&Co`); grafias em período
+     **sobreposto com o mesmo avaliador** são contas distintas. ⚠ **A semelhança entre as
+     strings não decide nada** — `Reserva`/`Oficina Reserva` são mais parecidas que
+     `STZ`/`Studio Z`, e são o par que NÃO se funde.
+739. 🔴 **Não dá para calcular margem de RFI, e não é falta de varredura.** `Valor` existe em 22
+     de 53 (R$ 85.237) e `Horas Totais` em 30 (1.101 h) — ⚠ **mas `Cobrado` está preenchido em
+     3 de 53 e `Horas Trabalhadas` em 1 de 53.** **Sem realizado não há comparação com o
+     estimado.** *(No corpus: `Cobrada?` 12/85, `Horas trabalhadas` 4/85, `Taxa aplicada` 0/85.)*
+     **Pergunta para o Financeiro, não para mim.**
+740. ⚠ **`RFI-72` é RFI da própria uMode, sem cliente.** O padrão só tem `_rfis` dentro de
+     cliente. 🔴 **Não criei pasta para ela** — criar estrutura é decisão, não consequência de
+     um import. **Fica registrada aqui até o Vinicius decidir onde RFI interna mora.**
+741. 🔺 **Anomalia de data preservada como está, em `RFI-2026-007` (NV):** criada em
+     **02/01/2026**, com **aceite do cliente em 05/12/2025** — **o aceite antecede a criação.**
+     ⚠ **Não inverti nem "corrigi" nenhuma das duas**: pode ser registro retroativo, pode ser
+     digitação. 🔴 **Escolher uma seria inventar dado com aparência de conserto.**
+742. ⚠ **Não encontrei `Projetos.csv`, `Módulos.csv` nem `uFlowDataBase.csv` em
+     `_geral/notion/`** — eu os havia citado como existentes. 🔴 **"Não encontrei em X" não é
+     "não existe"**: ficam como pendência de procura, não como fato negativo.

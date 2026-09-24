@@ -1,11 +1,3 @@
----
-aliases:
-  - "Hering · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/hering
-  - status/pre-onboardings
----
 # Hering · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

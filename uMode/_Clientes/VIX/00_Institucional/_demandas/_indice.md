@@ -1,11 +1,3 @@
----
-aliases:
-  - "VIX · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/vix
-  - status/ongoing
----
 # VIX · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

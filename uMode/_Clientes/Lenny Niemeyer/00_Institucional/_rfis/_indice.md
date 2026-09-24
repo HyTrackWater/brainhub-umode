@@ -1,11 +1,3 @@
----
-aliases:
-  - "Lenny Niemeyer · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/lenny-niemeyer
-  - status/churn
----
 # Lenny Niemeyer · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -1,11 +1,3 @@
----
-aliases:
-  - "Puket · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/puket
-  - status/ongoing
----
 # Puket · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

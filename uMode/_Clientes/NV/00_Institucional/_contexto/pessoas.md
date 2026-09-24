@@ -219,7 +219,7 @@ Responsável de atendimento + liderança de Atendimento uMode
 
 **Integração deste cliente:** [integracao.md](integracao.md)
 
-**Registros:** **108 demandas** — [índice](../_demandas/_indice.md) · **10 RFIs** — [índice](../_rfis/_indice.md) · **13 fichas de pessoa** — [índice](../_pessoas/_indice.md)
+**Registros:** **108 demandas** — [índice](../_demandas/_indice.md) · **11 RFIs** — [índice](../_rfis/_indice.md) · **13 fichas de pessoa** — [índice](../_pessoas/_indice.md)
 
 **As 14 áreas deste cliente:**
 

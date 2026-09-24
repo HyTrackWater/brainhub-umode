@@ -1,11 +1,3 @@
----
-aliases:
-  - "Caedu · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/caedu
-  - status/ongoing
----
 # Caedu · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -154,6 +154,30 @@ tags:
 - **Única conta sem `Drive Operação` registrado.**
 - **Única conta com apenas uma pessoa em `Atendimento 2024`.**
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **12** |
+| nota média (1–5) | 🔴 **2.92** |
+| avaliações com **flag** | **1** de 12 (8%) |
+| período coberto | 09/08/2024 → 18/11/2024 |
+
+**Percepção registrada:** **Precisamos de atenção e foco** (9) · **Cronograma atrasado e cliente insatisfeito** (3).
+
+**Quem avaliou (da uMode):** Andrea Holmer (12).
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

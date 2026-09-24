@@ -1,11 +1,3 @@
----
-aliases:
-  - "Lofty Style · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/lofty-style
-  - status/ongoing
----
 # Lofty Style · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

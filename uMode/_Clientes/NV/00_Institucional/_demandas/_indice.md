@@ -1,11 +1,3 @@
----
-aliases:
-  - "NV · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/nv
-  - status/ongoing
----
 # NV · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

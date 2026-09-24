@@ -1,11 +1,3 @@
----
-aliases:
-  - "Mondepars · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/mondepars
-  - status/sem-cs
----
 # Mondepars · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

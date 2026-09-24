@@ -1,11 +1,3 @@
----
-aliases:
-  - "Caedu · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/caedu
-  - status/ongoing
----
 # Caedu · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

@@ -1,11 +1,3 @@
----
-aliases:
-  - "Oficina Reserva · Demandas — índice"
-tags:
-  - tipo/indice
-  - cliente/oficina-reserva
-  - status/ongoing
----
 # Oficina Reserva · Demandas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

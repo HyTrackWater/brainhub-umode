@@ -1,11 +1,3 @@
----
-aliases:
-  - "Plie · Pessoas — índice"
-tags:
-  - tipo/indice
-  - cliente/plie
-  - status/churn
----
 # Plie · Pessoas — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

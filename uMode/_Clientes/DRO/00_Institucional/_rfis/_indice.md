@@ -1,11 +1,3 @@
----
-aliases:
-  - "DRO · RFIs — índice"
-tags:
-  - tipo/indice
-  - cliente/dro
-  - status/churn
----
 # DRO · RFIs — índice
 
 > **Gerado por `scripts/gera-conexoes.py`. Não editar à mão.**

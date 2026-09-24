@@ -65,6 +65,33 @@ tags:
 - **Portal criado em 24/08/2023.**
 - 🔴 **Motivo e data de churn: `[a preencher]`.**
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **38** |
+| nota média (1–5) | 🔴 **2.84** |
+| avaliações com **flag** | **20** de 38 (53%) |
+| período coberto | 01/03/2024 → 01/11/2024 |
+
+**Percepção registrada:** **Cronograma atrasado e cliente insatisfeito** (20) · **Tudo em dia** (15) · **Precisamos de atenção e foco** (2) · **Cronograma atrasado  mas cliente satisfeito** (1).
+
+**Quem avaliou (da uMode):** Taís Moser (21) · Laura (12) · Marina (2) · Rafael (1).
+
+⚠ **Duas grafias na base** — `STZ` (34) e `Studio Z` (4) — tratadas como a **mesma conta**: os
+períodos são **sequenciais, sem sobreposição**, o que é renomeação e não duas contas.
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

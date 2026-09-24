@@ -71,6 +71,33 @@ tags:
 - 🔴 **2 chamados em jan/2026 numa conta em churn.**
 - 🔴 **Motivo e data de churn: `[a preencher]`.**
 
+## Leitura interna de saúde da conta
+
+> **Fonte:** export `Feedback Interno Clientes` do vault do João, conferido em **24/09/2026**.
+>
+> 🔴 **Isto NÃO é satisfação do cliente.** O campo `Quem` é sempre alguém da
+> uMode — **é a leitura que a uMode fazia da saúde da conta**, num ritual semanal.
+> ⚠ **Não confundir com CSat**, que vem de pesquisa **com** o cliente e é outra coisa.
+
+| | |
+|---|---|
+| avaliações | **17** |
+| nota média (1–5) | ⚠ **3.82** |
+| avaliações com **flag** | **3** de 17 (18%) |
+| período coberto | 08/03/2024 → 08/11/2024 |
+
+**Percepção registrada:** **Tudo em dia** (12) · **Precisamos de atenção e foco** (3) · **Cronograma atrasado  mas cliente satisfeito** (1) · **Cronograma atrasado e cliente insatisfeito** (1).
+
+**Quem avaliou (da uMode):** Julianne Rodrigues (8) · Elizabeth (6) · Williem Berg De Oliveira Gomes (1) · Julianne Dias (1).
+
+⚠ **Duas grafias na base** — `Básico` (11) e `Básico&Co` (6) — tratadas como a **mesma conta**: os
+períodos são **sequenciais, sem sobreposição**, o que é renomeação e não duas contas.
+
+⚠ **A série termina em 2024.** Não há avaliação posterior nesta base — o que
+significa **que o ritual parou, ou que passou a viver noutro lugar, e eu não sei qual
+dos dois.** 🔴 **A nota é o que se registrava quando se registrava; não é o estado
+de hoje.**
+
 ## Governança
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode
