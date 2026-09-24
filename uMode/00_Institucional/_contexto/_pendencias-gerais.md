@@ -4222,3 +4222,46 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      **Depois dela: `planilha` (367) · `importação` (323) · `Linx` (229).**
 708. ⚠ **As transcrições brutas precisam de casa.** Ficaram fora do repositório, em disco local.
      🔴 **O Drive compartilhado é o destino declarado no plano do moedor — confirmar.**
+
+## O que as transcrições da CAEDU dizem — primeira leitura (24 set 2026)
+
+709. 🔴 **A transcrição automática é RUIDOSA, e isso muda o desenho do moedor.** Medido nas 9.392
+     falas: **33% sem pontuação final** (frase cortada), **15% com 1 ou 2 palavras**.
+     ⚠ **E o erro é de palavra, não só de forma:** *"o conflito sempre Maurício"* · *"um modelo
+     de humor"* · *"a gente foi criança"* · *"Deus Olha como igreja"*.
+     🔴 **Um extrator que leia isso literalmente produz fato FALSO.**
+     🟢 **O que é confiável mesmo com ruído: QUEM falou, QUANDO e sobre QUE TEMA** — rótulo de
+     falante e timestamp não passam pelo reconhecimento de fala.
+     **Decisão do Vinicius: o moedor lê transcrição corrida ou o resumo do Tactiq?**
+710. 🟢 **A frente de fornecedores tem estado REAL, e é outro.** A expressão *"4 primeiros
+     fornecedores"* do CRM **não aparece em nenhuma das 53 transcrições**. O que um executivo da
+     CAEDU conta em 29/04/2025 é mais concreto:
+     · **o teste de perfil de fornecedor JÁ FOI FEITO** — uma colaboradora teve o e-mail
+       habilitado como fornecedor *"para testar todas as notificações (...) que campos que eles
+       viam, para ter certeza de que **não estavam vendo o que a gente não gostaria**"*;
+     · **o bloqueio era uma planilha, e ela ficou pronta**;
+     · **falta alinhar data, escolher quais fornecedores e treinar.**
+     ⚠ **É de abr/2025 e não há confirmação posterior.**
+711. 🔴 **E a frente ESFRIOU.** Menções a `fornecedor`: **33** em 05/11/2025 · 12 · 8 · 12 · 13 ·
+     e **UMA** no Plano de Ação de 08/09/2026. 🔴 **A única frente declarada em aberto da conta
+     aparece uma vez na reunião de planejamento mais recente.** **Ou foi concluída e ninguém
+     fechou o registro, ou saiu de prioridade. É pergunta para a Julianne.**
+712. 🟢 **O cliente atribui ganho financeiro ao processo — e é o único lugar do corpus onde isso
+     aparece.** Executivo da CAEDU, 29/04/2025: *"antes a gente fazia **30% de desenvolvimento**
+     [na coleção], **agora a gente faz sempre**"* · *"a gente conseguiu fazer **renegociações,
+     diminuir custo do produto e melhorar a margem**"*.
+     ⚠ **Sem número e sem período — é depoimento, não métrica.** 🔴 **Mas é depoimento de
+     executivo numa conta em reconquista de confiança, e pode virar caso** com autorização.
+713. 🔴 **As reuniões "Caedu 2.0" são INTERNAS da uMode.** Tanto `2026-06-22` quanto o
+     `2026-09-08_Plano_de_Acao` têm só Juliana Ferré, Julianne, Vanessa Rinaldi, Marina Santoro e
+     Fernanda Araujo. ⚠ **Nenhuma pessoa da CAEDU participa.** **O "CAEDU 2.0" nessas duas é
+     planejamento da uMode sobre a conta, não acordo com o cliente.**
+     🔴 **Valor e termo de contrato NÃO foram copiados — `T1`**, no mesmo critério do registro da
+     proposta.
+714. ⚠ **`Edson` aparece uma segunda vez, por via independente** — na fala do executivo no
+     presencial. 🔴 **A transcrição não diz o cargo.** **Confirma que existe um `Edson` na conta;
+     não confirma que seja o CEO.** ⚠ **Aparecem também `Nilson`, `Cris` e `Mariana`, sem
+     sobrenome e não resolvíveis.**
+715. 🔺 **Li 4 das 53 transcrições.** ⚠ **`fornecedores` tem 506 menções e eu segui um fio só.**
+     🔴 **E não classifiquei nada como NOVO / CONFIRMA / CONTRADIZ** — o cruzamento automático
+     não existe; isto foi leitura humana. **A lacuna está declarada no registro.**

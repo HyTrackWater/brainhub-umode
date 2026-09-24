@@ -122,7 +122,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | | Número | Como se mede |
 |---|---:|---|
 | Clientes no corpus | **48** | pastas em `_Clientes/` |
-| MDs em `uMode/` | **2.651** | `find` |
+| MDs em `uMode/` | **2.652** | `find` |
 | `contexto-area.md` conformes | **694 / 694** | `valida-padrao-corpus.py` |
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50 · 49 · 49** | idem |
 | Demandas | **999** — 994 de cliente + 5 da Casa | idem · 1 staging `SUPERSEDED` |
@@ -135,7 +135,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | Atas de reunião lidas por inteiro | **8 de 1.162** | 🔺 a base tem 1.162, não 1.161 |
 | Páginas de cliente abertas no Notion | **16 de 49** | |
 | Matrizes `Perfil de Usuário` lidas | **10 de 10 — FECHADO** | |
-| Decisões pendentes | **704** | `_pendencias-gerais.md` — **triadas na § 0** |
+| Decisões pendentes | **711** | `_pendencias-gerais.md` — **triadas na § 0** |
 | Perguntas na fila | **46** — 43 abertas · 3 respondidas | `_perguntas-para-o-vinicius.md` |
 | 🚨 Credenciais expostas conhecidas | **3** | NK STORE · Lofty Style · a própria plataforma |
 
