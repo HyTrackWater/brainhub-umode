@@ -4435,3 +4435,19 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      Souza Santana e `Ju Ferré` → Juliana Ferré Esteves entraram como `Nome preferido`, **cada um
      com duas fontes independentes e sobrenome único na Casa.** ⚠ **O resolvedor já lia esse
      campo** — a lacuna era de dado, não de código. **Nome de pessoa nunca entra em script.**
+751. 🔴 **`Aprovação necessária: Não` em 997 de 998 demandas é DEFAULT DE IMPORTAÇÃO, não
+     avaliação — e eu quase derivei uma conclusão em cima disso.** Ia preencher `Quem aprova`
+     com *"não se aplica"* nos 997, o que parecia lógica limpa. **Três checagens desmontaram:**
+     (a) o `_template_demanda.md` traz o campo como `[sim/não]`, **placeholder**; (b) o valor
+     entrou em massa no commit `b6d4ff55` *"Replica a estrutura completa para os 46 clientes
+     reais"*; (c) 🔴 **o `protocolo-gestao-demanda.md` NÃO define esse campo em lugar nenhum** —
+     não há regra que diga quando uma demanda exige aprovação de contexto.
+     ⚠ **A única demanda com `Sim` é da Casa e foi preenchida à mão**, com `Quem aprova` real.
+     🔴 **997 valores iguais não são 997 decisões.** É a mesma armadilha do `pessoas-da-area`
+     que me fez julgar 48 de 48 clientes com tabela de usuário quando eram 4.
+752. 🔴 **Falta a REGRA que diz quando uma demanda exige aprovação de contexto.** O mecanismo
+     existe (item 745), o campo existe, o ciclo de estados existe — **e o critério de acionamento
+     não.** ⚠ **Sem ele o pipeline inteiro do `_espec-pipeline-de-contexto-e-aprovacao.md` não
+     tem gatilho:** o agente saberia aprovar, mas não saberia **quando precisa** aprovar.
+     🟢 **Isto entra na Fase 1**, junto com o critério de relevância — são a mesma família de
+     decisão e não devem virar dois documentos.
