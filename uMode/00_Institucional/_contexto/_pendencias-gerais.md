@@ -4401,3 +4401,37 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      `prompt-agente-classificador-de-call.md`.
      ⚠ **Enquanto isso não acontece, "atacar outro cliente" não é limitado por trabalho meu —
      é limitado por acesso.**
+744. 🔴 **CORREÇÃO do que eu disse em 25/09: as 999 demandas sem dono NÃO são o bloqueio do
+     roteamento.** O `protocolo-gestao-demanda.md` § *Mecanismo de aprovação* roteia para o
+     **`Governança` do MD-ALVO** — o documento que a mudança altera — **não para a demanda.**
+     🟢 **E os alvos estão cobertos: 1.292 de 1.321 (98%) têm papel declarado.**
+     ⚠ **O gargalo nunca foi cobertura; é que 0% dos papéis vira pessoa.**
+745. 🟢 **O mecanismo de aprovação de contexto JÁ ESTAVA ESCRITO** no `protocolo-gestao-demanda.md`
+     — inclusive a frase *"nenhum agente escreve contexto sem essa aprovação registrada como
+     marco"*, o ciclo `Nenhuma aprovação pendente → Aguardando → Aprovada → Aplicada`, e a
+     distinção `Contexto consultado` × `Contexto impactado`. ⚠ **O template de demanda tem os
+     campos e eles estão vazios:** `Quem aprova` em 1 de 998, `Contexto impactado` em 1 de 998.
+     🔴 **Não é mecanismo a inventar — é mecanismo desenhado que nunca foi alimentado.**
+746. 🔴 **`liderança de Atendimento uMode` não resolve, e trava 1.219 documentos.** Três leituras:
+     `Ju — Diretora de Operações` (do `02_Atendimento/contexto-area.md`) · `Luciano Troiani`
+     (**Head de CS**, o cargo mais próximo, mas a área não o nomeia) · e a hipótese de que
+     Diretora de Operações ≠ liderança de Atendimento. ⚠ **E `Ju` é um token só com DUAS
+     candidatas na Casa** — Juliana Ferré e Julianne Dias. 🔴 **Pior: nenhuma das duas fichas tem
+     a cadeira `Diretora de Operações`.** **Decisão do Vinicius.**
+747. ⚠ **`Liderança de Pessoas e Cultura`: dois documentos do corpus discordam.**
+     `07_People/contexto-area.md` diz **Flávia Campello (execução) · João Risoléo (decisão)**; a
+     ficha da Flávia diz cadeira **`Analista de Gestão Financeira e Administrativa`**.
+     🟢 **Pode ser acúmulo** — mas os textos não se referenciam. 64 documentos dependem disso.
+748. ⚠ **`SMB` obriga fallback no roteador, e isso é requisito.** 6 contas não têm CS dedicado
+     **por desenho** — 4takes, Camys, Cavallari, Studio Minah, TDC, Ton Age. 🔴 **O destino de
+     exceção provavelmente é a liderança de Atendimento — que é exatamente o papel do item 746.**
+749. 🟢 **Dois defeitos do resolvedor de identidade corrigidos em 25/09.** (a) **Não havia
+     normalização de acento** — `Taís Moser` não achava a ficha `tais-moser.md`; acento nunca foi
+     identidade. (b) **Eu pus a regra fraca antes da forte:** só-primeiro-nome rodava antes do
+     casamento por token, então `Rafael Renaldim` caía em dois Rafael e voltava ambíguo **sem usar
+     o sobrenome que estava na mão.** ⚠ **A regra que usa mais informação tem de ser tentada
+     primeiro** — vale para qualquer resolvedor, não só este.
+750. 🟢 **Apelido agora se declara na ficha, não no código.** `Eliza Alves` → Elizabeth Alves de
+     Souza Santana e `Ju Ferré` → Juliana Ferré Esteves entraram como `Nome preferido`, **cada um
+     com duas fontes independentes e sobrenome único na Casa.** ⚠ **O resolvedor já lia esse
+     campo** — a lacuna era de dado, não de código. **Nome de pessoa nunca entra em script.**
