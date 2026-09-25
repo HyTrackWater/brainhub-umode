@@ -4499,3 +4499,37 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      endereçam para a **Head de Atendimento (Marina)**, que por D77 responde pela carteira
      inteira. 🔴 **Ainda é decisão do Vinicius** — mas deixou de ser pergunta sem resposta
      possível.
+761. 🔴 **O acervo da Laura não tem transcrição de fala. Nenhuma.** São **76 resumos do Gemini**
+     e **25 chats digitados** — e chat tem **87 linhas com falante em 25 arquivos**, média de
+     **3,5 por reunião**. ⚠ **A regra travada em 24/09 — "transcrição sempre prevalece sobre
+     resumo" — não tem como ser aplicada: não há transcrição.** 🟢 **Todo o acervo é o caso
+     `tem_transcricao: false` do protocolo**, e isso é lacuna declarada, não equivalência.
+762. 🟢 **E ele resolve exatamente o que a CAEDU deixou aberto: identidade.** **90 pessoas de
+     cliente por e-mail, 82 novas para o corpus**, em 10 domínios. Na CAEDU, **23 de 42 falantes
+     não resolviam** — incluindo a `Rose`, 733 falas, terceira maior voz, e ninguém sabia quem
+     era. ⚠ **Os dois acervos são opostos e complementares: um é só fala sem identidade, o outro
+     é só identidade sem fala.**
+763. 🔴 **Distinção que não se colapsa: participante × mencionado.** **18** saem do cabeçalho
+     `convidado` — **a pessoa esteve na reunião, naquela data**. **72** aparecem só no **corpo do
+     resumo, escrito por um modelo** — prova que o endereço existe no domínio, **nada além**.
+     ⚠ **Colapsar os dois transformaria "o Gemini citou este e-mail" em "esta pessoa participou".**
+     🟢 **O que sustenta usar os 72:** e-mail é string estruturada, não sofre paráfrase — ou está
+     sintaticamente certo, ou não é e-mail. E **89 dos 90 batem com domínio de cliente conhecido**.
+764. ⚠ **Só 21 dos 76 resumos trazem o cabeçalho de participantes.** 55 não trazem. 🔴 **Se o
+     coletor do Workspace for a fonte futura, o cabeçalho é o campo que mais importa** — é dele
+     que sai o dado primário de presença.
+765. 🚨 **Dado pessoal está no acervo e apareceu no segundo arquivo aberto:** **7 telefones** em 6
+     arquivos, **3 CPFs** em 3, **1 e-mail pessoal**. 🔴 **Nenhum valor foi lido ou copiado** — o
+     script conta e para. 🟢 **É a prova concreta de que o eixo de sensibilidade tem de agir na
+     ENTRADA:** o dado já está lá, e qualquer importação ingênua o traz junto.
+766. ⚠ **Domínio `illimitar.com.br`, 3 pessoas, 8 ocorrências, sempre junto da Moda Objetiva e nas
+     mesmas datas de julho/2026.** 🔴 **Não dá para dizer de que cliente é** — parceiro,
+     fornecedor ou outra conta. **Não foi atribuído a ninguém.** Pergunta para a Laura.
+767. ⚠ **Três 1:1 internos no acervo** — `Victor _ Laura - Permissionamento` · `Ana Paula _ Laura`
+     · `Alinhamento Onboarding _ Dupla Lala e Holmer`. 🔴 **Registrados como existentes e não
+     lidos para conteúdo.** O Vinicius decidiu em 25/09 que material interno seria processado,
+     **mas a regra do `T0-P` continua: juízo sobre pessoa identificável nunca por valor.**
+768. 🟢 **O acervo cobre 19 clientes e 4 anos (set/2022 → set/2026)** — inclusive contas que o
+     corpus mal tinha material: **Plie (15 reuniões), Highstil (4), Ladeira Bijuterias, Laces,
+     Piccadilly, Tee Fashion, Gagnoa, Aramodu, Disparate**. ⚠ **É a carteira da Laura, não um
+     cliente** — e muda a natureza do processamento em relação à CAEDU.

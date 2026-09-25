@@ -150,6 +150,54 @@ produção interna. **Mesmo nome, escopo diferente. Não traduzi.**
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+#### Participantes de reunião — acervo Laura Cardoso
+
+> **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
+> 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
+>
+> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
+> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
+> sintaticamente inválido.
+>
+> ⚠ **Duas colunas de evidência, e elas não se misturam:**
+> **participante** sai do cabeçalho `convidado` — a pessoa **esteve** na reunião.
+> **mencionado** aparece no corpo do resumo, **escrito por um modelo** — prova que
+> o endereço existe no domínio, **não** que a pessoa participou de algo.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Ocorr. | Primeira | Última |
+|---|---|---|---:|---|---|
+| `fabiane@cambos.com.br` | Fabiane | 🟢 **participante** | 2 | 2026-05-13 | 2026-09-23 |
+| `louise@souzacambos.com.br` | Louise | 🟢 **participante** | 1 | 2026-09-23 | 2026-09-23 |
+| `pamela@souzacambos.com.br` | Pamela | 🟢 **participante** | 1 | 2026-05-13 | 2026-05-13 |
+| `carolina@cambos.com.br` | Carolina | ⚠ mencionado | 3 | 2025-06-12 | 2025-09-01 |
+| `tony@souzacambos.com.br` | Tony | ⚠ mencionado | 3 | 2025-08-08 | 2025-09-22 |
+| `mileide@souzacambos.com.br` | Mileide | ⚠ mencionado | 2 | 2025-06-12 | 2025-07-23 |
+| `rdlavanderia@souzacambos.com.br` | Rdlavanderia | ⚠ mencionado | 2 | 2025-06-12 | 2025-07-23 |
+| `atendimento@cambos.com.br` | Atendimento | ⚠ mencionado | 1 | 2025-09-01 | 2025-09-01 |
+| `desenvolvimento@souzacambos.com.br` | Desenvolvimento | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `douglasoliveira@souzacambos.com.br` | Douglasoliveira | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `edson@souzacambos.com.br` | Edson | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `encaixe@souzacambos.com.br` | Encaixe | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `ezequiel@souzacambos.com.br` | Ezequiel | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `gustavo@souzacambos.com.br` | Gustavo | ⚠ mencionado | 1 | 2025-07-23 | 2025-07-23 |
+| `julia@souzacambos.com.br` | Julia | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `leonardo@souzacambos.com.br` | Leonardo | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `marcelo@cambos.com.br` | Marcelo | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `marieleandrade@souzacambos.com.br` | Marieleandrade | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+| `marina@cambos.com.br` | Marina | ⚠ mencionado | 1 | 2025-09-01 | 2025-09-01 |
+| `rogerio@souzacambos.com.br` | Rogerio | ⚠ mencionado | 1 | 2025-07-23 | 2025-07-23 |
+| `wellington@souzacambos.com.br` | Wellington | ⚠ mencionado | 1 | 2025-07-23 | 2025-07-23 |
+| `wellingtonmodelagem@souzacambos.com.br` | Wellingtonmodelagem | ⚠ mencionado | 1 | 2025-06-12 | 2025-06-12 |
+
+⚠ **O nome é derivado do local-part do e-mail, mecanicamente** — não foi lido
+de nenhuma fonte. **A chave é o e-mail.** Cargo e área ficam `[a preencher]`:
+o acervo não os declara, e 🔴 **derivar cargo de assunto de reunião seria inventar**.
+
+🔴 **Nenhuma fusão com a tabela de solicitantes acima.** Lá os nomes vieram sem
+e-mail; aqui só há e-mail. **Unir os dois por semelhança de nome é exatamente o que
+aquela tabela avisa para não fazer** — a junção é decisão humana, item a item.
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

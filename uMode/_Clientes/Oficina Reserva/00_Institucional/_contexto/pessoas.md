@@ -107,6 +107,35 @@ desta conta · **Holmer** — nomeado responsável pelos próximos passos.
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+#### Participantes de reunião — acervo Laura Cardoso
+
+> **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
+> 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
+>
+> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
+> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
+> sintaticamente inválido.
+>
+> ⚠ **Duas colunas de evidência, e elas não se misturam:**
+> **participante** sai do cabeçalho `convidado` — a pessoa **esteve** na reunião.
+> **mencionado** aparece no corpo do resumo, **escrito por um modelo** — prova que
+> o endereço existe no domínio, **não** que a pessoa participou de algo.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Ocorr. | Primeira | Última |
+|---|---|---|---:|---|---|
+| `ana.queiroz@oficinareserva.com` | Ana Queiroz | ⚠ mencionado | 1 | 2026-02-05 | 2026-02-05 |
+| `joyce.dias@oficinareserva.com` | Joyce Dias | ⚠ mencionado | 1 | 2026-02-05 | 2026-02-05 |
+| `larissa.santana@oficinareserva.com` | Larissa Santana | ⚠ mencionado | 1 | 2026-02-05 | 2026-02-05 |
+
+⚠ **O nome é derivado do local-part do e-mail, mecanicamente** — não foi lido
+de nenhuma fonte. **A chave é o e-mail.** Cargo e área ficam `[a preencher]`:
+o acervo não os declara, e 🔴 **derivar cargo de assunto de reunião seria inventar**.
+
+🔴 **Nenhuma fusão com a tabela de solicitantes acima.** Lá os nomes vieram sem
+e-mail; aqui só há e-mail. **Unir os dois por semelhança de nome é exatamente o que
+aquela tabela avisa para não fazer** — a junção é decisão humana, item a item.
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

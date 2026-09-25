@@ -176,6 +176,38 @@ que aparecem como chamado em jan/2026** — **três meses depois**.
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+#### Participantes de reunião — acervo Laura Cardoso
+
+> **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
+> 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
+>
+> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
+> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
+> sintaticamente inválido.
+>
+> ⚠ **Duas colunas de evidência, e elas não se misturam:**
+> **participante** sai do cabeçalho `convidado` — a pessoa **esteve** na reunião.
+> **mencionado** aparece no corpo do resumo, **escrito por um modelo** — prova que
+> o endereço existe no domínio, **não** que a pessoa participou de algo.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Ocorr. | Primeira | Última |
+|---|---|---|---:|---|---|
+| `marcello.saga@loftystyle.com.br` | Marcello Saga | 🟢 **participante** | 4 | 2026-06-24 | 2026-09-10 |
+| `regina.santangelo@loftystyle.com.br` | Regina Santangelo | 🟢 **participante** | 2 | 2026-06-24 | 2026-09-09 |
+| `tamara.antunes@loftystyle.com.br` | Tamara Antunes | 🟢 **participante** | 2 | 2026-09-01 | 2026-09-09 |
+| `gabriela.cunha@loftystyle.com.br` | Gabriela Cunha | 🟢 **participante** | 1 | 2026-09-10 | 2026-09-10 |
+| `jessica.cangussu@loftystyle.com.br` | Jessica Cangussu | 🟢 **participante** | 1 | 2026-09-09 | 2026-09-09 |
+| `gustavo.amaral@loftystyle.com.br` | Gustavo Amaral | ⚠ mencionado | 3 | 2025-09-02 | 2025-10-30 |
+
+⚠ **O nome é derivado do local-part do e-mail, mecanicamente** — não foi lido
+de nenhuma fonte. **A chave é o e-mail.** Cargo e área ficam `[a preencher]`:
+o acervo não os declara, e 🔴 **derivar cargo de assunto de reunião seria inventar**.
+
+🔴 **Nenhuma fusão com a tabela de solicitantes acima.** Lá os nomes vieram sem
+e-mail; aqui só há e-mail. **Unir os dois por semelhança de nome é exatamente o que
+aquela tabela avisa para não fazer** — a junção é decisão humana, item a item.
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

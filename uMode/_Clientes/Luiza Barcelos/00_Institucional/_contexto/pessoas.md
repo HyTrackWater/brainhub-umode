@@ -182,6 +182,58 @@ Estratégia e Gestão**"*.
 
 **Corrigir é na fonte.** Aqui ficam registrados para a reconciliação não contar duas pessoas.
 
+#### Participantes de reunião — acervo Laura Cardoso
+
+> **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
+> 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
+>
+> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
+> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
+> sintaticamente inválido.
+>
+> ⚠ **Duas colunas de evidência, e elas não se misturam:**
+> **participante** sai do cabeçalho `convidado` — a pessoa **esteve** na reunião.
+> **mencionado** aparece no corpo do resumo, **escrito por um modelo** — prova que
+> o endereço existe no domínio, **não** que a pessoa participou de algo.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Ocorr. | Primeira | Última |
+|---|---|---|---:|---|---|
+| `gustavo.sobrinho@luizabarcelos.com.br` | Gustavo Sobrinho | 🟢 **participante** | 3 | 2026-05-05 | 2026-09-22 |
+| `michelle.rodrigues@luizabarcelos.com.br` | Michelle Rodrigues | 🟢 **participante** | 3 | 2026-05-05 | 2026-09-22 |
+| `gabriel.silva@luizabarcelos.com.br` | Gabriel Silva | ⚠ mencionado | 7 | 2025-06-10 | 2025-09-24 |
+| `tiago.polesso@luizabarcelos.com.br` | Tiago Polesso | ⚠ mencionado | 3 | 2025-05-27 | 2025-09-05 |
+| `marcio.jantsch@luizabarcelos.com.br` | Marcio Jantsch | ⚠ mencionado | 2 | 2025-06-13 | 2025-09-24 |
+| `adriane.campos@luizabarcelos.com.br` | Adriane Campos | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `ana.benetti@luizabarcelos.com.br` | Ana Benetti | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `andre.franco@luizabarcelos.com.br` | Andre Franco | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `elisete.morais@luizabarcelos.com.br` | Elisete Morais | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `gabriel.dart@luizabarcelos.com.br` | Gabriel Dart | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `gerson.junior@luizabarcelos.com.br` | Gerson Junior | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `gisele.schnorr@luizabarcelos.com.br` | Gisele Schnorr | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `giuliana.marteleto@luizabarcelos.com.br` | Giuliana Marteleto | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `janaina.araujo@luizabarcelos.com.br` | Janaina Araujo | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `lucas.falcade@luizabarcelos.com.br` | Lucas Falcade | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `lucas.sales@luizabarcelos.com.br` | Lucas Sales | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `lucia@luizabarcelos.com.br` | Lucia | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `luiza.garcia@luizabarcelos.com.br` | Luiza Garcia | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `marisol.camargo@luizabarcelos.com.br` | Marisol Camargo | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `matheus.oliveira@luizabarcelos.com.br` | Matheus Oliveira | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `odete.santos@luizabarcelos.com.br` | Odete Santos | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `pamela.silva@luizabarcelos.com.br` | Pamela Silva | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `paulo.franca@luizabarcelos.com.br` | Paulo Franca | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `roberto.silva@luizabarcelos.com.br` | Roberto Silva | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `romulo.smaniotto@luizabarcelos.com.br` | Romulo Smaniotto | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+| `tcharles.vieira@luizabarcelos.com.br` | Tcharles Vieira | ⚠ mencionado | 1 | 2025-09-24 | 2025-09-24 |
+
+⚠ **O nome é derivado do local-part do e-mail, mecanicamente** — não foi lido
+de nenhuma fonte. **A chave é o e-mail.** Cargo e área ficam `[a preencher]`:
+o acervo não os declara, e 🔴 **derivar cargo de assunto de reunião seria inventar**.
+
+🔴 **Nenhuma fusão com a tabela de solicitantes acima.** Lá os nomes vieram sem
+e-mail; aqui só há e-mail. **Unir os dois por semelhança de nome é exatamente o que
+aquela tabela avisa para não fazer** — a junção é decisão humana, item a item.
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto.

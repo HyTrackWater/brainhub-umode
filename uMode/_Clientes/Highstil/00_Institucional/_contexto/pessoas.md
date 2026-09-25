@@ -70,6 +70,43 @@ tags:
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+#### Participantes de reunião — acervo Laura Cardoso
+
+> **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
+> 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
+>
+> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
+> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
+> sintaticamente inválido.
+>
+> ⚠ **Duas colunas de evidência, e elas não se misturam:**
+> **participante** sai do cabeçalho `convidado` — a pessoa **esteve** na reunião.
+> **mencionado** aparece no corpo do resumo, **escrito por um modelo** — prova que
+> o endereço existe no domínio, **não** que a pessoa participou de algo.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Ocorr. | Primeira | Última |
+|---|---|---|---:|---|---|
+| `ariana.anciutti@highstil.com.br` | Ariana Anciutti | ⚠ mencionado | 4 | 2025-09-12 | 2026-02-20 |
+| `ana.ribeiro@highstil.com.br` | Ana Ribeiro | ⚠ mencionado | 3 | 2025-06-09 | 2025-10-31 |
+| `joseane.ferreira@highstil.com.br` | Joseane Ferreira | ⚠ mencionado | 3 | 2025-06-09 | 2025-10-31 |
+| `diogo.nunes@highstil.com.br` | Diogo Nunes | ⚠ mencionado | 2 | 2025-10-22 | 2026-02-20 |
+| `michelle.torresi@highstil.com.br` | Michelle Torresi | ⚠ mencionado | 2 | 2025-09-12 | 2025-09-19 |
+| `taisa.santos@highstil.com.br` | Taisa Santos | ⚠ mencionado | 2 | 2025-10-22 | 2026-02-20 |
+| `aglais.abreu@highstil.com.br` | Aglais Abreu | ⚠ mencionado | 1 | 2025-06-18 | 2025-06-18 |
+| `angelica.celestino@highstil.com.br` | Angelica Celestino | ⚠ mencionado | 1 | 2025-09-12 | 2025-09-12 |
+| `edna.santos@highstil.com.br` | Edna Santos | ⚠ mencionado | 1 | 2025-10-31 | 2025-10-31 |
+| `geysla.lima@highstil.com.br` | Geysla Lima | ⚠ mencionado | 1 | 2026-02-20 | 2026-02-20 |
+| `mauricio.brito@highstil.com.br` | Mauricio Brito | ⚠ mencionado | 1 | 2025-10-22 | 2025-10-22 |
+
+⚠ **O nome é derivado do local-part do e-mail, mecanicamente** — não foi lido
+de nenhuma fonte. **A chave é o e-mail.** Cargo e área ficam `[a preencher]`:
+o acervo não os declara, e 🔴 **derivar cargo de assunto de reunião seria inventar**.
+
+🔴 **Nenhuma fusão com a tabela de solicitantes acima.** Lá os nomes vieram sem
+e-mail; aqui só há e-mail. **Unir os dois por semelhança de nome é exatamente o que
+aquela tabela avisa para não fazer** — a junção é decisão humana, item a item.
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

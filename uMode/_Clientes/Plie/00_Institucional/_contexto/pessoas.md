@@ -70,6 +70,40 @@ tags:
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+#### Participantes de reunião — acervo Laura Cardoso
+
+> **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
+> 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
+>
+> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
+> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
+> sintaticamente inválido.
+>
+> ⚠ **Duas colunas de evidência, e elas não se misturam:**
+> **participante** sai do cabeçalho `convidado` — a pessoa **esteve** na reunião.
+> **mencionado** aparece no corpo do resumo, **escrito por um modelo** — prova que
+> o endereço existe no domínio, **não** que a pessoa participou de algo.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Ocorr. | Primeira | Última |
+|---|---|---|---:|---|---|
+| `denize.araujo@plie.com.br` | Denize Araujo | ⚠ mencionado | 7 | 2025-06-18 | 2025-10-31 |
+| `jessica.vieira@plie.com.br` | Jessica Vieira | ⚠ mencionado | 4 | 2025-06-18 | 2025-10-28 |
+| `carolina.carvalho@plie.com.br` | Carolina Carvalho | ⚠ mencionado | 3 | 2025-05-21 | 2025-06-10 |
+| `rudinei.oliveira@plie.com.br` | Rudinei Oliveira | ⚠ mencionado | 3 | 2025-06-09 | 2025-10-31 |
+| `thais.centolani@plie.com.br` | Thais Centolani | ⚠ mencionado | 2 | 2025-05-21 | 2025-10-28 |
+| `beatriz.ogeda@plie.com.br` | Beatriz Ogeda | ⚠ mencionado | 1 | 2025-05-21 | 2025-05-21 |
+| `guilherme.bicudo@plie.com.br` | Guilherme Bicudo | ⚠ mencionado | 1 | 2025-06-18 | 2025-06-18 |
+| `sandra.bento@plie.com.br` | Sandra Bento | ⚠ mencionado | 1 | 2025-10-31 | 2025-10-31 |
+
+⚠ **O nome é derivado do local-part do e-mail, mecanicamente** — não foi lido
+de nenhuma fonte. **A chave é o e-mail.** Cargo e área ficam `[a preencher]`:
+o acervo não os declara, e 🔴 **derivar cargo de assunto de reunião seria inventar**.
+
+🔴 **Nenhuma fusão com a tabela de solicitantes acima.** Lá os nomes vieram sem
+e-mail; aqui só há e-mail. **Unir os dois por semelhança de nome é exatamente o que
+aquela tabela avisa para não fazer** — a junção é decisão humana, item a item.
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a

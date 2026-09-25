@@ -69,6 +69,41 @@ tags:
 
 Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md`](../../../../00_Institucional/_contexto/_varredura-2026-09-22-pessoas-e-ferramentas-carteira.md).
 
+#### Participantes de reunião — acervo Laura Cardoso
+
+> **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
+> 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
+>
+> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
+> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
+> sintaticamente inválido.
+>
+> ⚠ **Duas colunas de evidência, e elas não se misturam:**
+> **participante** sai do cabeçalho `convidado` — a pessoa **esteve** na reunião.
+> **mencionado** aparece no corpo do resumo, **escrito por um modelo** — prova que
+> o endereço existe no domínio, **não** que a pessoa participou de algo.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Ocorr. | Primeira | Última |
+|---|---|---|---:|---|---|
+| `thamires.ribeiro@modaobjetiva.com.br` | Thamires Ribeiro | 🟢 **participante** | 9 | 2026-05-13 | 2026-08-04 |
+| `carolina.riegel@modaobjetiva.com.br` | Carolina Riegel | 🟢 **participante** | 8 | 2026-07-03 | 2026-08-04 |
+| `paula.galvao@modaobjetiva.com.br` | Paula Galvao | 🟢 **participante** | 5 | 2026-05-13 | 2026-07-22 |
+| `claudio.gamboni@modaobjetiva.com.br` | Claudio Gamboni | 🟢 **participante** | 4 | 2026-05-13 | 2026-07-22 |
+| `eliane.moura@modaobjetiva.com.br` | Eliane Moura | 🟢 **participante** | 1 | 2026-07-08 | 2026-07-08 |
+| `luiz.cabral@modaobjetiva.com.br` | Luiz Cabral | 🟢 **participante** | 1 | 2026-05-13 | 2026-05-13 |
+| `barbara@modaobjetiva.com.br` | Barbara | ⚠ mencionado | 1 | 2026-03-26 | 2026-03-26 |
+| `italo@modaobjetiva.com.br` | Italo | ⚠ mencionado | 1 | 2026-03-26 | 2026-03-26 |
+| `velto@modaobjetiva.com.br` | Velto | ⚠ mencionado | 1 | 2025-11-11 | 2025-11-11 |
+
+⚠ **O nome é derivado do local-part do e-mail, mecanicamente** — não foi lido
+de nenhuma fonte. **A chave é o e-mail.** Cargo e área ficam `[a preencher]`:
+o acervo não os declara, e 🔴 **derivar cargo de assunto de reunião seria inventar**.
+
+🔴 **Nenhuma fusão com a tabela de solicitantes acima.** Lá os nomes vieram sem
+e-mail; aqui só há e-mail. **Unir os dois por semelhança de nome é exatamente o que
+aquela tabela avisa para não fazer** — a junção é decisão humana, item a item.
+
 ## Canais de comunicação
 
 > **Cada canal é uma entidade** — tem participantes, cadência, dono e assunto. É por aqui que a
