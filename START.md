@@ -76,7 +76,8 @@ Todas em `uMode/00_Institucional/_contexto/`, salvo indicação.
 | Arquivo | É dono de |
 |---|---|
 | [`_espec-banco-brainhub.md`](uMode/00_Institucional/_contexto/_espec-banco-brainhub.md) | **o banco** — collections, campos, relações, invariantes |
-| [`_espec-pessoas-e-comunicacoes.md`](uMode/00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) | **pessoas e comunicações no banco** — `SUPERSEDED` o anterior nesses temas |
+| 🚨 [`_espec-pipeline-de-contexto-e-aprovacao.md`](uMode/00_Institucional/_contexto/_espec-pipeline-de-contexto-e-aprovacao.md) — **dono do assunto sensibilidade, endereçamento e aprovação. Quatro eixos que não se fundem; `T0-P` para juízo sobre pessoa; 999 de 1.000 demandas sem dono e 0% dos donos com e-mail** ·
+[`_espec-pessoas-e-comunicacoes.md`](uMode/00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md) | **pessoas e comunicações no banco** — `SUPERSEDED` o anterior nesses temas |
 | [`_dicionario-dados-brainhub.md`](uMode/00_Institucional/_contexto/_dicionario-dados-brainhub.md) | **o dicionário de dados** — o que existe hoje no código |
 | 🟢 [`_dicionario-permissionamento-uflow.md`](uMode/00_Institucional/_contexto/_dicionario-permissionamento-uflow.md) | **como a permissão do uFlow funciona** — `Includes`/`Excludes`, `scopable`, as `entity_configs` e o mapa de 72 controllers |
 | [`_fluxo-dados-brainhub.md`](uMode/00_Institucional/_contexto/_fluxo-dados-brainhub.md) | **o fluxo de dados** — da escrita do MD ao ping na inbox |

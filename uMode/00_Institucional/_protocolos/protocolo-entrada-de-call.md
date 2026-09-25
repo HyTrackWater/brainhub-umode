@@ -122,6 +122,18 @@ isso é errado.** **O domínio do e-mail não mente; o título mente.**
 
 ## 5 · Tier — e a regra é fail-closed
 
+> ⚠ **`SUPERSEDED` em 25/09/2026, e só nesta seção.** A autoridade sobre **sensibilidade**
+> passou para
+> [`_espec-pipeline-de-contexto-e-aprovacao.md`](../_contexto/_espec-pipeline-de-contexto-e-aprovacao.md).
+> **Dois motivos:** (a) a escada abaixo protege **tipos de dado** e **não protege juízo sobre
+> pessoa** — lacuna que apareceu quando o Vinicius decidiu processar call interna de umoder;
+> (b) 🔴 **`T0` significa duas coisas neste projeto** — sensibilidade aqui, **autoridade de
+> aprovação** no `ApprovalTier` do banco. **A espec separa os eixos.**
+>
+> 🟢 **Este protocolo continua dono do FORMATO DE CHEGADA** — nome de arquivo, cabeçalho,
+> corpo, e a regra de que o coletor só escreve no `_inbox-calls/`. **A tabela abaixo fica como
+> estava até a espec ser aplicada ao prompt do classificador.**
+
 | Tier | O que é | O que o coletor faz |
 |---|---|---|
 | **`T0`** | CPF, telefone, endereço, senha, token, e-mail pessoal | 🔴 **NUNCA pelo valor.** Registra que existe e em que minuto |
