@@ -4533,3 +4533,29 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      corpus mal tinha material: **Plie (15 reuniões), Highstil (4), Ladeira Bijuterias, Laces,
      Piccadilly, Tee Fashion, Gagnoa, Aramodu, Disparate**. ⚠ **É a carteira da Laura, não um
      cliente** — e muda a natureza do processamento em relação à CAEDU.
+769. 🚨 **Oficina Reserva está `Ongoing` e a dupla que a atende não existe mais inteira.** Três
+     fontes independentes convergem: o **organograma** diz que a **Andrea Holmer foi desligada em
+     02/09** (D75) · o **CRM** diz que o time é `Holmer & Laura` · e o **acervo de reuniões da
+     Laura** mostra **uma única reunião com a conta, em 05/02/2026 — 232 dias de silêncio**.
+     🔴 **Metade da dupla saiu da empresa; a outra metade não tem reunião há oito meses.**
+     ⚠ **Não prova abandono** — a conta pode ter passado para outra pessoa sem o CRM registrar.
+     🟢 **Mas é exatamente a pergunta que nenhuma das três fontes faz sozinha.**
+770. 🟢 **O cruzamento produziu dois alertas e um deles se explica sozinho — o que valida o
+     método.** A **NV** aparece como `Ongoing` com **827 dias** sem reunião da Laura; mas o
+     atendimento da NV é **Fernanda Araújo + Victor Aragão**, e a conta tem RFI com aceite em
+     dez/2025. ⚠ **A Laura simplesmente não atende a NV.** 🔴 **Falso positivo previsto pelo
+     próprio dado** — e é por isso que o alerta nasce como pergunta, não como conclusão.
+771. 🆕 **O título da reunião é dado primário e conta a história da conta.** Ele é o que uma
+     pessoa digitou ao marcar o evento — **não passou por modelo nenhum**, ao contrário do corpo
+     do resumo. Daí sai cliente, data e assunto com segurança.
+     ⚠ **Padrão que aparece:** a **Plie** teve **9 discoveries em 15 reuniões**, todas entre
+     mai e out/2025, e hoje está `Churn` / `Encerrado`. A **Moda Objetiva** tem **7 de 17 em
+     integração** e está em `Operação Assistida`. 🟢 **A distribuição de assunto separa conta em
+     diagnóstico de conta em operação** — e é mensurável sem ler uma linha de conteúdo.
+772. 🟢 **Cadência de atendimento medida, por cliente, em 4 anos.** Vivas na carteira da Laura:
+     **Cambos** (2 dias), **Luiza Barcelos** (3), **Lofty Style** (15), **Moda Objetiva** (52).
+     Frias e coerentes com o corpus: Highstil `Churn` (217) · Plie `Churn` (329) · DRO `Churn`
+     (408) · Studio Z `Churn` (613) · Laces, Ladeira, NTK todas `Churn` com mais de 800 dias.
+     ⚠ **E cinco contas no acervo não estão na carteira atual** — Piccadilly, Tee Fashion,
+     Gagnoa, Aramodu, Disparate. **Nenhuma foi criada**: aparecer numa reunião de 2023 não é
+     estar na carteira hoje.
