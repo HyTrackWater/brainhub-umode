@@ -96,7 +96,16 @@ tags:
 **`Sem Integração`** — mesmo perfil dos clientes `Sem CS`.
 
 ### Responsável de atendimento (uMode)
-**`SMB`** — ⚠ **segmento, não pessoa.** Mesmo padrão dos clientes `Sem CS`.
+**`SMB`** — 🔴 **conta SEM CS dedicado.**
+
+⚠ **Isto é resposta, não lacuna:** o campo de atendimento na base aceita
+**pessoa OU o rótulo `SMB`**, e **todos os `SMB` estão em `Sem CS` ou `Churn`**.
+
+> 🔴 **Consequência para o roteamento de aprovação: esta conta não tem
+> pessoa de atendimento a quem endereçar** — e isso é por desenho, não por
+> falta de registro. **O roteador precisa de fallback, não pode só falhar.**
+> Ver `_espec-pipeline-de-contexto-e-aprovacao.md` § 5.
+> **Fonte:** `Mapa de Clientes` · coluna `Time de Atendimento` · conferido em 25/09/2026.
 
 ## Contrato
 

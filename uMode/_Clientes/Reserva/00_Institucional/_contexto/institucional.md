@@ -42,7 +42,10 @@ tags:
 - indice-reajuste: IGPM — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: a_confirmar — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 13 pessoas com ficha própria no corpus — [base Segmentação Grupos · 2026-09-21]
-- atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
+- atendimento: pessoa:fernanda.araujo@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:andrea.holmer@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:marina.santoro@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:victor.aragao@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: Grupo Enterprise — [base Segmentação Grupos · 2026-09-21]
 
 ## Identidade
@@ -123,7 +126,18 @@ domínio `usereserva.com`
 Oficina** — **a convivência dos dois ERPs tem canal próprio e diário.**
 
 ### Responsável de atendimento (uMode)
-**Fernanda** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
+**Time de atendimento (base `Mapa de Clientes`): Fernanda & Victor**
+
+- Fernanda Araujo — 3 de 6 demandas atribuídas (50%)
+- Andrea Holmer — 1 de 6 demandas atribuídas (17%)
+- Marina Santoro — 1 de 6 demandas atribuídas (17%)
+- Victor Aragão — 1 de 6 demandas atribuídas (17%)
+
+> **Fonte:** `Mapa de Clientes` · `Time de Atendimento` + `Demandas de Clientes` · `Key Account/Responsável` · conferido em 25/09/2026.
+> ⚠ **A contagem é de demanda trabalhada, não de designação formal.**
+> É evidência de quem atendeu — **e a diferença importa quando a conta
+> trocou de mão.**
+
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

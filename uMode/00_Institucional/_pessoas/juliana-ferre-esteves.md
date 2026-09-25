@@ -13,7 +13,11 @@ tags:
 ### Nome completo
 Juliana Ferré Esteves
 ### Nome preferido / como é chamado(a)
-[a preencher]
+Ju Ferré
+> **Fonte:** bases `Reuniões Compartilhadas com Clientes` (editora das notas da **Hering**) e
+> `RFI Escopo - Lista de Entregáveis` (`Responsável pela RFI` em 6 RFIs), conferidas em 25/09/2026.
+> ⚠ **Sobrenome `Ferré` bate exato e é único na Casa**, e o local-part do e-mail corporativo é
+> `juliana.ferre`. 🔴 **`Ju` sozinho não identificaria ninguém** — quem resolve é o sobrenome.
 ### Email
 **`juliana.ferre@umode.com.br`** — e-mail **corporativo**, da base de pessoas do Notion (`collection://c82a689c…`, a mesma que o campo `Atendimento 2024` do `Mapa de Clientes` aponta), lida em 23/09/2026.
 

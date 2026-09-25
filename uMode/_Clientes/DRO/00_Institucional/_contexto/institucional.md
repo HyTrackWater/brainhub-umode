@@ -39,7 +39,8 @@ tags:
 - indice-reajuste: ? — [sem fonte]
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 1 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- atendimento: pessoa:laura.delgado@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:andrea.holmer@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
@@ -101,9 +102,16 @@ tags:
 > 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ### Responsável de atendimento (uMode)
+- Laura Delgado — 21 de 25 demandas atribuídas (84%)
+- Andrea Holmer — 4 de 25 demandas atribuídas (16%)
 
-`[a preencher]` — campo **`Atendimento 2025` vazio na base `Mapa de Clientes`**.
-> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
+> **Fonte:** `Demandas de Clientes` · `Key Account/Responsável` · conferido em 25/09/2026.
+> ⚠ **A contagem é de demanda trabalhada, não de designação formal.**
+> É evidência de quem atendeu — **e a diferença importa quando a conta
+> trocou de mão.**
+> ⚠ **`Atendimento 2025` segue vazio na base `Mapa de Clientes`**
+> (ausência verificada em 23/09/2026). 🟢 **Isto não contradiz aquilo**
+> — uma fonte diz quem está designado, a outra diz quem trabalhou.
 
 ## Contrato
 

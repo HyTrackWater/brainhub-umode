@@ -39,7 +39,8 @@ tags:
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: A CONFIRMAR — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- atendimento: pessoa:julianne.dias@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:pedro.murillo@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
@@ -101,9 +102,16 @@ tags:
 **`Totvs`**.
 
 ### Responsável de atendimento (uMode)
+- Julianne Rodrigues — 15 de 23 demandas atribuídas (65%)
+- Pedro Murillo — 7 de 23 demandas atribuídas (30%)
 
-`[a preencher]` — campo **vazio na base `Mapa de Clientes`**.
-> 🔴 **Ausência VERIFICADA:** lido por SQL na base viva em **23/09/2026**. **Vazio.**
+> **Fonte:** `Demandas de Clientes` · `Key Account/Responsável` · conferido em 25/09/2026.
+> ⚠ **A contagem é de demanda trabalhada, não de designação formal.**
+> É evidência de quem atendeu — **e a diferença importa quando a conta
+> trocou de mão.**
+> ⚠ **`Atendimento 2025` segue vazio na base `Mapa de Clientes`**
+> (ausência verificada em 23/09/2026). 🟢 **Isto não contradiz aquilo**
+> — uma fonte diz quem está designado, a outra diz quem trabalhou.
 
 ## Contrato
 

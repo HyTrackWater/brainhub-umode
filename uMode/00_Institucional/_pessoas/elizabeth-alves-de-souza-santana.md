@@ -13,7 +13,14 @@ tags:
 ### Nome completo
 Elizabeth Alves de Souza Santana
 ### Nome preferido / como é chamado(a)
-[a preencher]
+Eliza Alves
+> **Fonte:** base `Reuniões Compartilhadas com Clientes` do Notion, conferida em 25/09/2026 —
+> assina `Eliza Alves` como editora das notas de reunião do **Básico&Co** e da **NTK**.
+> 🟢 **Duas fontes independentes, mesma conta:** na base `Feedback Interno Clientes` quem faz a
+> avaliação semanal do **Básico&Co** é **`Elizabeth`** (6 avaliações). ⚠ **Sobrenome `Alves` bate
+> exato e é único na Casa**, e o local-part do e-mail corporativo é `elizabeth.alves`.
+> 🔴 **O apelido é declarado aqui, na ficha, e não no código do resolvedor** — assim ele vale para
+> qualquer fonte futura sem nome de pessoa embutido em script.
 ### Email
 **`elizabeth.alves@umode.com.br`** — e-mail **corporativo**, da base de pessoas do Notion (`collection://c82a689c…`, a mesma que o campo `Atendimento 2024` do `Mapa de Clientes` aponta), lida em 23/09/2026.
 

@@ -39,7 +39,8 @@ tags:
 - indice-reajuste: ? — [sem fonte]
 - usuarios-contratados: nao_informado — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 61 usuários ativos — número declarado pelo próprio cliente no template de transição — [tabela de usuários do PLM · 2026-01]
-- atendimento: Fernanda — [ambiguo: mais de um e-mail para este nome]
+- atendimento: pessoa:fernanda.araujo@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:victor.aragao@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: Grupo Enterprise — [varredura do Notion · 2026-09-21]
 
 ## Identidade
@@ -110,7 +111,16 @@ Matéria-prima para Facção"*.
 **`Linx`** — ERP único. Integração ativa em **Produtos e Ficha Técnica**.
 
 ### Responsável de atendimento (uMode)
-**Fernanda** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
+**Time de atendimento (base `Mapa de Clientes`): Vanessa & Fernanda & Victor**
+
+- Fernanda Araujo — 12 de 24 demandas atribuídas (50%)
+- Victor Aragão — 12 de 24 demandas atribuídas (50%)
+
+> **Fonte:** `Mapa de Clientes` · `Time de Atendimento` + `Demandas de Clientes` · `Key Account/Responsável` · conferido em 25/09/2026.
+> ⚠ **A contagem é de demanda trabalhada, não de designação formal.**
+> É evidência de quem atendeu — **e a diferença importa quando a conta
+> trocou de mão.**
+
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

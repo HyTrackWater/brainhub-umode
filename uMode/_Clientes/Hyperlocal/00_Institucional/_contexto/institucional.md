@@ -38,7 +38,7 @@ tags:
 - indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
-- atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- atendimento: ? — [sem fonte]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
@@ -96,9 +96,15 @@ tags:
 **`Avec`** — ⚠ **ERP único na carteira**, não aparece em nenhum outro cliente.
 
 ### Responsável de atendimento (uMode)
+`[a preencher]` — 🔴 **ninguém designado que eu tenha encontrado.**
 
-`[a preencher]` — campo **`Atendimento 2025` vazio na base `Mapa de Clientes`**.
-> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
+> **Ausência VERIFICADA** — **três** fontes lidas em 25/09/2026:
+> `Mapa de Clientes` · `Time de Atendimento` e `Atendimento 2025` → **vazio** ·
+> `Demandas de Clientes` · `Key Account/Responsável` → **sem linha deste cliente** ·
+> `Reuniões Compartilhadas` · `Participantes`/`Last edited by` → **sem reunião**.
+>
+> ⚠ **É ausência de REGISTRO, não prova de que a conta não é atendida.**
+> 🔴 **Para o roteador de aprovação, esta conta não tem endereço.**
 
 ## Contrato
 

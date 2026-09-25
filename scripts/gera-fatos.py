@@ -25,7 +25,7 @@ E por isso que o agente e generalizado - nenhum nome de pessoa esta no codigo.
 
 Rodar DEPOIS de gera-conexoes.py e ANTES de gera-frontmatter.py.
 """
-import io, os, re, sys, codecs
+import io, os, re, sys, codecs, unicodedata
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRACO = u"\u2014"
@@ -168,11 +168,31 @@ RE_AUSENCIA = re.compile(
 # ----------------------------------------------------- identidade por E-MAIL
 _PESSOAS = None
 _CASA_PRIMEIRO = {}
+# Indice de nome inteiro RESTRITO a Casa. \U0001F534 Existe separado do
+# `_PESSOAS` porque o casamento por token (`_por_token`) NAO pode varrer ficha
+# de cliente: em 23/09/2026 o falante `Juliana` de uma reuniao da CAEDU casou
+# com `juliana@osklen.com.br`, pessoa de OUTRO cliente. Atendimento e, por
+# definicao, gente da uMode - o escopo sai da estrutura do corpus.
+_CASA_NOMES = {}
+
+
+def _norm(s):
+    u"""
+    minusculo, SEM ACENTO, espacos colapsados.
+
+    \U0001F534 A falta disto era defeito, nao lacuna de dado: a fonte escreve
+    `Tais Moser` com acento no i, a ficha `tais-moser.md` indexa sem, e o
+    resolvedor devolvia "sem ficha com e-mail para este nome" para uma pessoa
+    que existe no corpus. Acento nunca foi identidade.
+    """
+    s = unicodedata.normalize(u"NFKD", (s or u"").strip().lower())
+    s = u"".join(c for c in s if not unicodedata.combining(c))
+    return u" ".join(s.split())
 
 
 def indice_pessoas():
     u"""nome normalizado -> conjunto de e-mails. Construido do proprio corpus."""
-    global _PESSOAS, _CASA_PRIMEIRO
+    global _PESSOAS, _CASA_PRIMEIRO, _CASA_NOMES
     if _PESSOAS is not None:
         return _PESSOAS
     _PESSOAS = {}
@@ -207,15 +227,19 @@ def indice_pessoas():
             segs = [s for s in segs if s and s.lower() != u"pessoa"]
             nomes = set()
             if segs:
-                nomes.add(segs[-1].lower())
+                nomes.add(_norm(segs[-1]))
             for rotulo in (u"### Nome completo", u"### Nome preferido"):
                 if rotulo in t:
                     linha = t.split(rotulo, 1)[1].split(u"\n")[1].strip()
                     linha = linha.split(u" \u2014 ")[0].strip()
                     if linha and u"a preencher" not in linha.lower():
-                        nomes.add(linha.lower())
+                        nomes.add(_norm(linha))
             for n in nomes:
+                if not n:
+                    continue
                 _PESSOAS.setdefault(n, set()).add(email)
+                if u"_Clientes" not in dirpath:
+                    _CASA_NOMES.setdefault(n, set()).add(email)
                 # O campo `atendimento` do CRM guarda PRIMEIRO NOME ("Laura",
                 # "Julianne"). Indexar o primeiro nome permite resolver quando
                 # ele e unico - e acusar ambiguidade quando nao e, que e o
@@ -233,15 +257,62 @@ def resolve_pessoa(nome, casa=False):
     u"""'pessoa:<email>' | None se nao achou | '' se ambiguo (NAO escolhe)."""
     if not nome:
         return None
-    chave = nome.strip().lower()
+    chave = _norm(nome)
     emails = indice_pessoas().get(chave)
     if not emails and casa:
+        # TERCEIRA passada: casamento por TOKEN - primeiro nome igual e pelo
+        # menos mais um token em comum. E a regra que o `resolve-falantes.py`
+        # ja usa, trazida para ca em 25/09/2026 para o roteador de aprovacao.
+        #
+        # Por que ela e necessaria: a fonte escreve `Rafael Renaldim`, a ficha
+        # se chama `Rafael del Gaudio Renaldim`. O indice de nome inteiro nao
+        # casa, e o indice de PRIMEIRO nome devolve ambiguo porque ha dois
+        # Rafael na Casa. \U0001F534 O sobrenome desempata, e ignora-lo estava
+        # jogando fora a informacao que resolvia.
+        #
+        # ⚠ O que ela continua NAO fazendo, de proposito: nome de um token
+        # so (`Pedro`) segue ambiguo, e apelido que nao e prefixo de token
+        # (`Ju` para `Juliana`) segue sem resolver. Apelido se declara no
+        # `### Nome preferido` da ficha - o lugar certo e a ficha, nao o codigo.
+        emails = _por_token(chave)
+    if not emails and casa:
+        # ULTIMA passada, e a mais fraca: so o PRIMEIRO nome. O campo de
+        # atendimento do CRM guarda `Laura`, `Julianne` - resolve quando e
+        # unico na Casa e acusa ambiguidade quando nao e.
+        #
+        # \U0001F534 A ORDEM aqui e o que importa, e eu a errei na primeira
+        # versao: com esta regra ANTES do `_por_token`, `Rafael Renaldim` caia
+        # em `_CASA_PRIMEIRO['rafael']`, achava dois Rafael e devolvia ambiguo
+        # - **sem nunca usar o sobrenome que estava na mao e desempatava.**
+        # ⚠ A regra que usa MAIS informacao tem de ser tentada primeiro.
         emails = _CASA_PRIMEIRO.get(chave.split(u" ")[0])
     if not emails:
         return None
     if len(emails) > 1:
         return u""
     return u"pessoa:" + sorted(emails)[0]
+
+
+def _por_token(chave):
+    u"""
+    Primeiro nome igual + pelo menos mais um token em comum, SO na Casa.
+
+    \U0001F534 Varrer `_PESSOAS` aqui reabriria a falha do `Juliana` da CAEDU
+    casando com `juliana@osklen.com.br`. O escopo e `_CASA_NOMES`.
+    ⚠ Dois candidatos que passam no teste = ambiguo, e ambiguo NAO se escolhe.
+    """
+    tk = chave.split(u" ")
+    if len(tk) < 2:
+        return None
+    indice_pessoas()
+    achados = set()
+    for nome, emails in _CASA_NOMES.items():
+        t2 = nome.split(u" ")
+        if not t2 or t2[0] != tk[0]:
+            continue
+        if set(tk[1:]) & set(t2[1:]):
+            achados |= emails
+    return achados or None
 
 
 # ------------------------------------------------------------------ utilidades

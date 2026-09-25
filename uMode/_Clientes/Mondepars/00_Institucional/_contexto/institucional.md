@@ -38,7 +38,7 @@ tags:
 - indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 10 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
-- atendimento: SMB — [nao resolvido: sem ficha com e-mail para este nome]
+- atendimento: ? — [sem fonte]
 - tamanho-atendimento: Grupo SMB — [varredura do Notion · 2026-09-22]
 
 ## ⚠ O que este documento NÃO resolve
@@ -99,9 +99,15 @@ tags:
 > ⚠ **É o mesmo valor nos 7 clientes `Sem CS`.** **Não há integração com ERP nesta conta**, o que é coerente com o único módulo contratado.
 
 ### Responsável de atendimento (uMode)
-🔴 **`SMB`** — **e isso não é uma pessoa.**
+`[a preencher]` — 🔴 **ninguém designado que eu tenha encontrado.**
 
-> `SMB` é o nome do **Grupo 3 da base `Segmentação Grupos`**, colocado num campo que nos outros clientes contém nome de gente (Julianne & Pedro, Laura, Fernanda). **É a forma que a base encontrou de dizer "ninguém atende".**
+> **Ausência VERIFICADA** — **três** fontes lidas em 25/09/2026:
+> `Mapa de Clientes` · `Time de Atendimento` e `Atendimento 2025` → **vazio** ·
+> `Demandas de Clientes` · `Key Account/Responsável` → **sem linha deste cliente** ·
+> `Reuniões Compartilhadas` · `Participantes`/`Last edited by` → **sem reunião**.
+>
+> ⚠ **É ausência de REGISTRO, não prova de que a conta não é atendida.**
+> 🔴 **Para o roteador de aprovação, esta conta não tem endereço.**
 
 ## Contrato
 

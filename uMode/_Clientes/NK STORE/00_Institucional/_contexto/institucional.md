@@ -57,8 +57,8 @@ tags:
 - indice-reajuste: IGPM/IPCA menor — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 21 internos + 40 externos — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 45 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
-- atendimento: pessoa:julianne.dias@umode.com.br — [base Mapa de Clientes · 2026-09-21]
-- atendimento: Pedro — [ambiguo: mais de um e-mail para este nome]
+- atendimento: pessoa:julianne.dias@umode.com.br — [export de CRM · 2026-09-25]
+- atendimento: pessoa:pedro.murillo@umode.com.br — [export de CRM · 2026-09-25]
 - tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-21]
 
 ## Identidade
@@ -131,7 +131,11 @@ Há um documento **"NK | Dúvidas Pendentes Integração de Escrita (29/05/2025)
 o título indica que **a integração de escrita tem pendências em aberto desde maio de 2025**.
 
 ### Responsável de atendimento (uMode)
-**Julianne + Pedro** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
+**Julianne + Pedro Murillo** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
+
+> 🟢 **Apelido desambiguado em 25/09/2026:** o rótulo do CRM trazia só o primeiro nome, que **não identifica** — o nome completo veio da base `Demandas de Clientes` · `Key Account/Responsável`, **deste mesmo cliente**.
+> ⚠ **Duas fontes; nenhuma delas resolveria sozinha.**
+
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

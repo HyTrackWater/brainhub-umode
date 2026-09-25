@@ -39,7 +39,9 @@ tags:
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 11 usuários — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
-- atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
+- atendimento: pessoa:elizabeth.alves@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:joao.risoleo@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:sandro@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve
@@ -100,9 +102,18 @@ tags:
 > 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
 
 ### Responsável de atendimento (uMode)
+- Eliza Alves — 5 reuniões da conta
+- João Risoléo — 3 reuniões da conta
+- Sandro Costa — 3 reuniões da conta
 
-`[a preencher]` — campo **`Atendimento 2025` vazio na base `Mapa de Clientes`**.
-> 🔴 **Ausência VERIFICADA:** os 50 registros da base foram lidos por SQL em **23/09/2026**. **Vazio neste cliente.**
+> **Fonte:** `Reuniões Compartilhadas com Clientes` · conferido em 25/09/2026.
+> 🔴 **EVIDÊNCIA FRACA, e a diferença é de natureza:** isto é
+> **quem conduziu ou manteve as reuniões** da conta — **não é designação
+> de atendimento.** ⚠ **Serve para o roteador ter a quem endereçar na
+> falta de designado; não serve para afirmar quem atende.**
+> ⚠ **`Atendimento 2025` segue vazio na base `Mapa de Clientes`**
+> (ausência verificada em 23/09/2026). 🟢 **Isto não contradiz aquilo**
+> — uma fonte diz quem está designado, a outra diz quem trabalhou.
 
 ## Contrato
 
