@@ -91,6 +91,63 @@ com CSat 9,6 e entusiasmo 4,9. Três meses depois, **15 chamados em 24 dias e 12
 > início.** Nas contas antigas (Caedu, Puket, VIX) a linha do tempo teve que ser reconstruída de
 > datas de acesso.
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 9 reuniões, de 2025-09-02 a 2026-09-10
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2025-09-02 | ficha técnica | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-02_lofty-style_ficha-de-impressao-umode-lofty-style.md) |
+| 2025-09-19 | weekly | resumo | [11](../../../../00_Institucional/_inbox-calls/2025-09-19_lofty-style_weekly-lofty-style-umode.md) |
+| 2025-10-30 | weekly | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-10-30_lofty-style_weekly-lofty-style-umode.md) |
+| 2026-02-04 | integração | resumo | [15](../../../../00_Institucional/_inbox-calls/2026-02-04_lofty-style_integracao-e-custos-lofty-umode.md) |
+| 2026-06-24 | — | resumo | [25](../../../../00_Institucional/_inbox-calls/2026-06-24_lofty-style_umode-lofty-style-arvore-mercadologica-e-acervo.md) |
+| 2026-08-20 | — | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-08-20_lofty-style_criai-lofty.md) |
+| 2026-09-01 | ritual quinzenal | resumo + **transcrição** | [7](../../../../00_Institucional/_inbox-calls/2026-09-01_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
+| 2026-09-09 | alinhamento | resumo | [18](../../../../00_Institucional/_inbox-calls/2026-09-09_lofty-style_alinhamento-de-mapa-e-exportacao-umode-lofty-sty.md) |
+| 2026-09-10 | ritual quinzenal | resumo | [21](../../../../00_Institucional/_inbox-calls/2026-09-10_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2026-09-10 — *Lofty Style · uMode - Alinhamento Quinzenal* — **15 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** `gabriela.cunha@loftystyle.com.br` · `marcello.saga@loftystyle.com.br`.
+- 🟢 **Coerente:** status ativo e reunião há 15 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 5 de 5 itens):
+  - `incidente` Relatório de Quebras de Tela do uMode e Monitoramento de Instabilidade: Laura Delgado informou que a equipe de Laura Delgado está puxando um relatório para analisar quedas e quebras de tela no uMode, ferramenta que atualmente não possui histórico…
+  - `dor` Para mitigar o problema, Laura Delgado enviou uma mensagem a Tamara orientando que qualquer ocorrência seja sinalizada imediatamente tanto a Marcello Saga quanto a Laura Delgado, permitindo que a equipe monitore ativamente os incidentes.
+  - `dor` Nova Tela de Exportação de Produtos da Versão 2.0: Laura Delgado apresentou a nova tela de exportação do sistema versão 2.0 no ambiente de homologação, desenvolvida para solucionar a lentidão anterior da ferramenta, demonstrando que a extração de mais de…
+  - `dor` Como problema identificado, Laura Delgado notou a ausência do campo de armário de entrada da cor, comprometendo a visualização esperada por Tamara, o que levou Laura Delgado a solicitar que a equipe inclua o campo faltante, com previsão de entrega para o…
+  - `dor` Revisão de Grupos, Subgrupos e Correção de Erros de Carga (Saia Itália e Body): Laura Delgado relatou um problema de inconsistência hierárquica em que um subgrupo inativo vinculado ao grupo de blusas compartilhava o mesmo código de referência de um novo…
+
+#### ⏭ Por vir
+
+⚠ **Compromissos da reunião de 2026-09-10** — derivados do resumo, **não aprovados**:
+- [Laura Delgado] Incluir campos relatório: Incluir os campos de armário de entrada e cor no relatório de produtos da versão 2.0 da uMode.
+- [Laura Delgado] Criar entradas armário: Criar as novas entradas de armário Resort Black Friday para a coleção Verão 2026 conforme solicitado pela equipe.
+- [Marcello Saga] Enviar dados armário: Fornecer para Laura Delgado o código do Links e o nome da propriedade para a criação das entradas de armário.
+- [Laura Delgado] Corrigir vínculos produtos: Corrigir os vínculos de grupo e subgrupo dos produtos da Saia Itália na uMode.
+- [Marcello Saga] Definir subgrupo saia: Verificar com R o subgrupo correto da Saia Itália e informar para Laura Delgado.
+- [Marcello Saga] Definir integração custo: Definir a estratégia para a integração de custo e enviar um retorno para Laura Delgado até o início da próxima semana.
+- [Marcello Saga] Alinhar Macroplan: Discutir com Tamara os pontos críticos do Macroplan incluindo campos de cluster, quantidade de varejo, multimarcas, atacado e data de entrega.
+- [Marcello Saga] Enviar nomes: Enviar a lista contendo os nomes das famílias para Laura.
+- [Laura Delgado] Enviar print: Encaminhar o print do modelo básico de macroplano via WhatsApp para Marcello.
+- [Marcello Saga] Validar layout: Discutir com Tamara a preferência pelo layout personalizado versus o padrão. Avaliar o impacto nos prazos e custos antes da decisão final.
+- [Laura Delgado] Compartilhar link: Enviar o link de acesso do relatório para Marcello compartilhar com Tamara e Regina.
+- [Laura Delgado] Atualizar relatório: Adicionar a coluna de armário ao relatório antes da liberação final.
+- [Marcello Saga] Enviar links: Repassar os links dos armários para Laura após receber a relação completa.
+- Laura Delgado explicou que erros não mapeados no histórico de integração costumam derivar de subgrupos inativos, os quais somem da lista sem aviso explícito (diferente dos grupos que exibem a palavra "inativo"), e Laura Delgado prometeu concluir esses…
+- Ficou decidido que Marcello Saga revisará esses quatro pontos com Tamara, podendo agendar uma reunião futura com Laura Delgado e estilistas (Ju ou Marina) se necessário.
+- Marcello Saga ponderou que conversará com Tamara para verificar se o modelo básico é suficiente, visto que o padrão exige menos tempo de desenvolvimento (estimado em 15 dias de prazo de validação após a entrega dos campos alinhados).
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Estado |
 |---|---|

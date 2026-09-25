@@ -112,8 +112,9 @@ Evidência completa da carteira em [`_varredura-2026-09-22-pessoas-e-ferramentas
 > **Fonte:** acervo de reuniões da Laura Cardoso — 76 resumos do Gemini e
 > 25 chats, período 2022-09 a 2026-09 — conferido em 25/09/2026.
 >
-> 🔴 **O acervo NÃO tem transcrição de fala.** Narrativa vinda dele é
-> **derivada** e não vira afirmação canônica. 🟢 **Identidade é outra coisa:**
+> ⚠ **Só 16 das 72 reuniões lidas têm transcrição de fala** (dentro do `.docx`, depois do
+> resumo — corrigido em 25/09, item 774). O resto é resumo de modelo: **derivado**, não vira
+> afirmação canônica. 🟢 **Identidade é outra coisa:**
 > e-mail é string estruturada, não sofre paráfrase — ou está certo, ou é
 > sintaticamente inválido.
 >

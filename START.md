@@ -221,6 +221,10 @@ que ele responde **por áudio ou por transcrição de reunião**. **Processo com
   repositório** — não confundir com o da raiz.
 - `uMode/04_Dados-e-IA/_inbox-hermes/` — **canal de saída para o João/HERMES**: pacotes-proposta
   prontos para ele colar no vault. 🔴 **Escrita no vault não é nossa** — aqui só se propõe.
+- `uMode/00_Institucional/_inbox-calls/` — **canal de ENTRADA de reunião**: um `REGISTRO` por call,
+  com as propostas separadas em **aconteceu / acontecendo / por vir** pela posição da reunião na
+  linha do tempo do cliente. Formato no `protocolo-entrada-de-call.md`. 🔴 **Nada ali é fato** —
+  toda linha é `PROPOSTA · DERIVADA` e espera aprovação humana, item a item.
 
 ---
 

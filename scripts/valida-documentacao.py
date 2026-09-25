@@ -89,6 +89,7 @@ def manifesto():
     pastas = set()
     for padrao in (u"brainwave/", u"uMode/04_Dados-e-IA/_boilerplate/",
                    u"uMode/04_Dados-e-IA/_inbox-hermes/",
+                   u"uMode/00_Institucional/_inbox-calls/",
                    u"_Clientes/_template_cliente/", u"03_Produto-e-Solucoes/_template_produto/",
                    u"_indice/"):
         if padrao in bloco:

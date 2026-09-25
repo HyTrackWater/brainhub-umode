@@ -39,6 +39,41 @@ tags:
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 3 reuniões, de 2025-04-16 a 2025-08-13
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2025-04-16 | alinhamento | só chat | — |
+| 2025-05-14 | ficha técnica | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-05-14_dro_nova-ficha-dro.md) |
+| 2025-08-13 | fechamento | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-08-13_dro_fechamento-nova-ficha-dro.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2025-08-13 — *Fechamento Nova Ficha · DRO* — **408 dias atrás**.
+- **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🟢 **Limite do churn:** o cliente estava em reunião em **2025-08-13**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 408 dias; o que ela prometia é compromisso de 2025-08-13, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 3 itens):
+- Laura Delgado se comprometeu a analisar a questão para verificar se é um bug.
+- Andrea Holmer ressaltou a importância de manter o cadastro correto do consumo e se comprometeu a avaliar uma forma de facilitar a operação de ajuste de valores. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Laura Delgado se comprometeu a verificar a questão, e Thais Assi se ofereceu para perguntar a eles caso a reunião terminasse antes.
+
+🔴 **1 de 3 compromissos envolvem pessoa hoje desligada** (Andrea Holmer). Se não foram cumpridos antes da saída, **ficaram sem dono** — e nenhuma fonte diz quem herdou.
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

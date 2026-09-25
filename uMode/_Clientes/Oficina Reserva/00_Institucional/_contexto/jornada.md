@@ -80,6 +80,38 @@ tags:
 > 🟢 **Dezesseis dias da call de Sales ao kick-off com o cliente.** **É a entrada mais rápida
 > de toda a carteira** — coerente com ter entrado por um grupo já cliente.
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 1 reuniões, de 2026-02-05 a 2026-02-05
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2026-02-05 | discovery | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-02-05_oficina-reserva_discovery-costume-oficina-umode.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2026-02-05 — *Discovery Costume Oficina · uMode* — **232 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- 🔴 **`Ongoing` no corpus e 232 dias sem reunião neste acervo.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 232 dias; o que ela prometia é compromisso de 2026-02-05, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 4 itens):
+- Joyce Dias will mandar exemplos dessas fichas separadas (PDFs) para Juliana Ferré e Laura Delgado construírem o template, com a ideia de anexar as fichas detalhadas do blazer e da calça na ficha mãe do costume.
+- Joyce Dias will mandar o print da tela do Links da parte da tabela de medidas para Laura Delgado.
+- Laura Delgado will conferir se o campo de local de aplicação está disponível no documento impresso para o fornecedor.
+- Laura Delgado and Juliana Ferré will sentar com o time de integração para ver como excluir os novos produtos (fichas paralelas do blazer e da calça) da integração, ou se isso acontece automaticamente por não ser a ficha de produto principal.
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Estado |
 |---|---|

@@ -4559,3 +4559,59 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      ⚠ **E cinco contas no acervo não estão na carteira atual** — Piccadilly, Tee Fashion,
      Gagnoa, Aramodu, Disparate. **Nenhuma foi criada**: aparecer numa reunião de 2023 não é
      estar na carteira hoje.
+773. 🔴 **CORREÇÃO dos itens 771 e 772, apontada pelo Vinicius no mesmo dia: eu cruzei status de
+     HOJE com reuniões de QUATRO ANOS como se o status fosse atemporal.** **48 de 48** `status` do
+     corpus carregam a **data da varredura** (21–22/09/2026), **não a data em que passaram a
+     valer** — e nenhum `jornada.md` tem marco datando a virada para Churn.
+     ⚠ **Consequências:** (a) para conta `Churn`, "silêncio longo" é **tautologia** — conta
+     encerrada não tem reunião; o item 772 chamou isso de "coerente com o corpus", e é coerente
+     com um retrato, não com uma linha do tempo. (b) o item 771 descreve a Plie como "9 discoveries
+     e hoje Churn", o que **insinua trajetória que eu não sei**: se a Plie virou Churn em nov/2025,
+     as reuniões terminando em out/2025 são só o fim da conta.
+     🟢 **O item 769, Oficina Reserva, se sustenta** — e pelo motivo exato: os três dados são
+     **atuais** (status de hoje · silêncio medido até hoje · desligamento de 02/09).
+     🔴 **É o mesmo defeito que eu documentei a sessão inteira — fato sem intervalo de validade —
+     cometido na minha própria análise.** Regra que sai daqui: **cruzamento temporal só vale entre
+     dados que carregam a mesma referência de tempo.**
+774. 🔴 **CORREÇÃO do item 761 e do registro de 25/09: o acervo da Laura TEM transcrição de fala.**
+     **17 dos 76 `.docx`** trazem o bloco `📖 Transcrição` **depois** do resumo — **1.263 falas,
+     573 mil caracteres**. Eu olhei o cabeçalho e o resumo e **não abri o documento até o fim**.
+     **16 foram lidos** (o 17º é o 1:1 `Dupla Lala e Holmer`, que não se lê). Contas com fala:
+     Luiza Barcelos 6 · Cambos 6 · Lofty Style 2 · Highstil 1 · Plie 1 — **incluindo as duas
+     reuniões mais recentes do acervo** (LB 22/09 e Cambos 23/09/2026).
+     ⚠ **O erro contaminou a primeira extração:** o recorte ia até o fim do arquivo e **fala entrou
+     rotulada como "resumo Gemini"**. Refeita. 🔴 **O registro de 25/09 não se edita**; esta é a
+     correção, e os 8 `pessoas.md` que repetiam a frase foram corrigidos apontando para cá.
+     🔴 **É a quarta variação de "ausência de fonte é hipótese"** — desta vez dentro do próprio
+     arquivo que eu tinha na mão.
+775. 🟢 **As propostas passaram a ter eixo de tempo — cobrança do Vinicius em 25/09:** *"em um
+     cérebro, tem que ficar claro o que aconteceu, o que está acontecendo e o que está por vir."*
+     **493 propostas em 68 reuniões**, cada uma posicionada na linha do tempo do cliente:
+     **161 aconteceu** · **9 acontecendo** · **42 por vir** · **281 compromissos antigos com
+     cumprimento não verificado**. Regra: só a reunião **mais recente** do cliente, com **até 90
+     dias**, fala do presente; frase no **futuro** é compromisso, seja qual for a chave.
+     🟢 **E 13 `jornada.md` ganharam a linha do tempo das reuniões** sob `## Marcos da jornada`,
+     com os três blocos. ⚠ **O "por vir" quase vazio da primeira versão era defeito meu:** o
+     extrator **cortava fora** o bloco `Próximas etapas` do Gemini — presente em **49 de 72**
+     resumos, com dono. Recuperado.
+776. 🚨 **Compromissos órfãos: o cruzamento de PESSOA com o momento da jornada.** No último contato
+     de três contas, os compromissos pendentes citam **quem hoje está desligado — Andrea Holmer**:
+     **Highstil 6 de 6** · **Plie 7 de 8** · **DRO 1 de 3**. 🔴 **Se não foram cumpridos antes da
+     saída, ficaram sem dono, e nenhuma fonte diz quem herdou.** ⚠ As três estão `Churn`, então
+     hoje isso é **história** — o que estava prometido quando a conta saiu. 🟢 **Para conta viva o
+     mesmo cruzamento vira alerta**, e o extrator já o marca em `por vir`.
+     ⚠ **Oficina Reserva (`Ongoing`) não tem órfão**: as pendências de 05/02/2026 citam Joyce Dias,
+     Juliana Ferré e Laura — mas estão **232 dias sem verificação**.
+777. 🔴 **CORREÇÃO dos itens 768 e 771: eu contei ARQUIVOS, não reuniões.** O resumo e o chat da
+     mesma reunião entravam duas vezes. **Plie: 15 arquivos = 11 reuniões**, das quais **6 são
+     discovery** — não "9 de 15". Moda Objetiva **17 → 14** · Luiza Barcelos **19 → 18** · Lofty
+     Style **10 → 9** · Cambos **11 = 11**. 🟢 **A leitura do 771 se mantém** (Plie concentrada em
+     diagnóstico, mai–out/2025), **com o número certo**.
+778. 🟢 **Item 766 resolvido — e a resposta já estava no corpus.** `illimitar.com.br` é o
+     **fornecedor do ERP da Moda Objetiva**: o `institucional.md` dela diz `erp: Ilimitar`
+     (Notion, 22/09), e os **títulos** das reuniões de jul/2026 — dado primário — são *"Testes
+     Integração uMode · Ilimitar · Objetiva"*, **nas mesmas datas** dos e-mails. ⚠ **As 3 pessoas
+     são do fornecedor, não do cliente** — não entram na tabela de pessoas da Moda Objetiva como
+     time dela. 🔵 **Decisão do Vinicius:** onde registrar contato de **fornecedor de sistema do
+     cliente** — hoje não há lugar no padrão. 🔴 **Eu escrevi "não dá para dizer de quem é" sem
+     um `grep` no corpus.**

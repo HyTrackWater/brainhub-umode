@@ -40,6 +40,33 @@ tags:
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 2 reuniões, de 2024-12-13 a 2025-01-20
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2024-12-13 | importação | só chat | — |
+| 2025-01-20 | integração | só chat | — |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2025-01-20 — *Testes de Integração · STZ* — **613 dias atrás**.
+- **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🟢 **Limite do churn:** o cliente estava em reunião em **2025-01-20**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 613 dias; o que ela prometia é compromisso de 2025-01-20, **com cumprimento não verificado**.
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

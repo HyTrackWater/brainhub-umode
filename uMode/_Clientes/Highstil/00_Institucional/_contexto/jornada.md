@@ -39,6 +39,45 @@ tags:
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 4 reuniões, de 2025-09-12 a 2026-02-20
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2025-09-12 | weekly | resumo + **transcrição** | [7](../../../../00_Institucional/_inbox-calls/2025-09-12_highstil_weekly-highstil-umode.md) |
+| 2025-09-19 | weekly | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-09-19_highstil_weekly-highstil-umode.md) |
+| 2025-10-22 | integração | resumo | [3](../../../../00_Institucional/_inbox-calls/2025-10-22_highstil_duvidas-de-integracao-highstil-umode.md) |
+| 2026-02-20 | weekly | resumo | [7](../../../../00_Institucional/_inbox-calls/2026-02-20_highstil_weekly-highstil-umode.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2026-02-20 — *Weekly Highstil · uMode* — **217 dias atrás**.
+- **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🟢 **Limite do churn:** o cliente estava em reunião em **2026-02-20**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 217 dias; o que ela prometia é compromisso de 2026-02-20, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 6 itens):
+- Andrea Holmer irá anotar para ajustar e incluir os itens faltantes na lista de classificação que precisa ser revisada. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer irá registrar para verificar se é possível bloquear a adição de duas cores iguais no mesmo produto e a forma de configuração do material "linha para costura amarelo". — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer irá verificar se é possível fazer uma regra para que a unidade de medida do material na ficha técnica venha automaticamente do cadastro. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer irá se colocar à disposição para realizar mais um exercício de treinamento antes da próxima reunião semanal, caso o grupo precise. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer se comprometeu a anotar e ajustar os itens faltantes, como a lista de padronagens que necessita da opção "liso". — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Geysla Danielle Lima demonstrou que o sistema permitiu a inclusão da mesma cor duas vezes, o que não deveria ocorrer, e Andrea Holmer se comprometeu a registrar a necessidade de bloquear essa repetição. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+
+🔴 **6 de 6 compromissos envolvem pessoa hoje desligada** (Andrea Holmer). Se não foram cumpridos antes da saída, **ficaram sem dono** — e nenhuma fonte diz quem herdou.
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

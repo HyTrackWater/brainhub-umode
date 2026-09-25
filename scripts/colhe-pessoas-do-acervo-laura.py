@@ -10,8 +10,9 @@ POR QUE ESTE ACERVO RESOLVE O QUE A CAEDU NAO RESOLVEU. A tabela
 
 === A DISTINCAO QUE NAO SE COLAPSA ===
 
-O acervo tem 76 resumos do Gemini e 25 chats. \U0001F534 **Nenhum e transcricao
-de fala**, entao narrativa daqui e derivada e nao vira afirmacao canonica.
+O acervo tem 76 resumos do Gemini e 25 chats. ⚠ Corrigido em 25/09 (item
+774): 17 dos .docx trazem transcricao de fala depois do resumo; o resto e
+resumo de modelo, e narrativa dele e derivada.
 Identidade, porem, e outra coisa: e string estruturada, nao sofre parafrase.
 
 Ainda assim ha dois graus, e eles ficam separados:
@@ -125,8 +126,10 @@ def bloco(cliente, part, ment):
     L.append(u"> **Fonte:** acervo de reuni\u00f5es da Laura Cardoso \u2014 76 resumos do Gemini e")
     L.append(u"> 25 chats, per\u00edodo 2022-09 a 2026-09 \u2014 conferido em %s." % HOJE)
     L.append(u">")
-    L.append(u"> \U0001F534 **O acervo N\u00c3O tem transcri\u00e7\u00e3o de fala.** Narrativa vinda dele \u00e9")
-    L.append(u"> **derivada** e n\u00e3o vira afirma\u00e7\u00e3o can\u00f4nica. \U0001F7E2 **Identidade \u00e9 outra coisa:**")
+    # 🔴 corrigido em 25/09 (item 774): 16 das 72 reunioes lidas TEM transcricao
+    L.append(u"> ⚠ **Só 16 das 72 reuniões lidas têm transcrição de fala** (dentro do `.docx`, depois do")
+    L.append(u"> resumo — corrigido em 25/09, item 774). O resto é resumo de modelo: **derivado**, não vira")
+    L.append(u"> afirmação canônica. 🟢 **Identidade é outra coisa:**")
     L.append(u"> e-mail \u00e9 string estruturada, n\u00e3o sofre par\u00e1frase \u2014 ou est\u00e1 certo, ou \u00e9")
     L.append(u"> sintaticamente inv\u00e1lido.")
     L.append(u">")

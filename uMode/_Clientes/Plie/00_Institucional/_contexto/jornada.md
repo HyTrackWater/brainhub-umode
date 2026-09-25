@@ -39,6 +39,54 @@ tags:
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 11 reuniões, de 2025-05-21 a 2025-10-31
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2025-05-21 | discovery | resumo | [3](../../../../00_Institucional/_inbox-calls/2025-05-21_plie_umode-plie-discovery-planejamento.md) |
+| 2025-06-09 | discovery | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-06-09_plie_umode-plie-discovery-modelagem-engenharia.md) |
+| 2025-06-10 | discovery | resumo | [3](../../../../00_Institucional/_inbox-calls/2025-06-10_plie_umode-plie-discovery-modelagem-engenharia.md) |
+| 2025-06-18 | discovery | resumo | [8](../../../../00_Institucional/_inbox-calls/2025-06-18_plie_discovery-umode-plie-pcp-compras.md) |
+| 2025-06-24 | discovery | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-24_plie_discovery-plie-umode-jessica.md) |
+| 2025-06-24 | discovery | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-06-24_plie_discovery-umode-plie-denize.md) |
+| 2025-08-28 | weekly | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-08-28_plie_weekly-plie-umode.md) |
+| 2025-09-05 | weekly | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-09-05_plie_weekly-plie-umode.md) |
+| 2025-09-11 | — | resumo | [8](../../../../00_Institucional/_inbox-calls/2025-09-11_plie_validacao-de-campos-erp-plie-umode.md) |
+| 2025-10-28 | alinhamento | resumo | [15](../../../../00_Institucional/_inbox-calls/2025-10-28_plie_alinhamento-duvidas-feedbacks-plie-umode.md) |
+| 2025-10-31 | dúvidas | resumo | [10](../../../../00_Institucional/_inbox-calls/2025-10-31_plie_duvidas-e-feedbacks-modelagem-estilo-plie-umode.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2025-10-31 — *Dúvidas e Feedbacks Modelagem·Estilo Plie · uMode* — **329 dias atrás**.
+- **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🟢 **Limite do churn:** o cliente estava em reunião em **2025-10-31**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 329 dias; o que ela prometia é compromisso de 2025-10-31, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 8 itens):
+- Andrea Holmer vai avaliar se é possível alterar o título 'fornecedores' para 'fornecedores de produto acabado', considerando a inclusão da fábrica interna nesse grupo. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer, Carolina Carvalho e Denize Cassiano Araújo vão conversar para definir, junto com a Jéssica, se a informação da tabela de medidas precisa estar no RP. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer vai enviar uma planilha com o modelo de pacotes de materiais para Denize Cassiano Araújo. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer irá verificar a viabilidade técnica de (1) adicionar um segundo código para o tecido e (2) entender como cadastrar a composição, largura e gramatura dos materiais (seja no Totos ou na plataforma atual). — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer e Laura Delgado enviarão uma planilha para o time de estilo começar a cadastrar pacotes de materiais para teste. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Andrea Holmer irá verificar com a Marina se já consegue puxar as listas de materiais, CST e seleção de campos diretamente da base do virtual. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Carolina Carvalho verificará com o time de estilistas se conseguem cadastrar produtos e avisará Andrea Holmer para agendar a próxima reunião de dúvidas, idealmente após o cadastro de alguns itens. — 🔴 **pessoa hoje desligada: Andrea Holmer**
+- Inclusão de Prazo de Entrega e Código MP Denize Cassiano Araújo indicou a importância de incluir o prazo de entrega de materiais (para consulta por outros setores) e o código da Matéria-Prima (MP), que é o código de controle interno usado para requisições…
+
+🔴 **7 de 8 compromissos envolvem pessoa hoje desligada** (Andrea Holmer). Se não foram cumpridos antes da saída, **ficaram sem dono** — e nenhuma fonte diz quem herdou.
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

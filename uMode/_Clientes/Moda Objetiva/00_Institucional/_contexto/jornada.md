@@ -46,6 +46,62 @@ tags:
 | **23/10/2025** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
 | **10/08/2026** | Última edição da página | idem |
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 14 reuniões, de 2025-11-03 a 2026-08-04
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2025-11-03 | discovery | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-11-03_moda-objetiva_umode-moda-objetiva-discovery-cadastro-ilimitar.md) |
+| 2025-11-11 | — | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-11-11_moda-objetiva_portal-moda-objetiva-umode.md) |
+| 2026-02-03 | — | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-02-03_moda-objetiva_mod-objetiva-umode-cadastro-e-compras.md) |
+| 2026-02-12 | — | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-02-12_moda-objetiva_moda-objetiva-umode-cadastro-e-compras.md) |
+| 2026-03-26 | weekly | resumo | [10](../../../../00_Institucional/_inbox-calls/2026-03-26_moda-objetiva_umode-moda-objetiva-weekly.md) |
+| 2026-05-13 | integração | resumo | [12](../../../../00_Institucional/_inbox-calls/2026-05-13_moda-objetiva_umode-moda-objetiva-integracao.md) |
+| 2026-06-19 | integração | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-06-19_moda-objetiva_duvidas-integracao-objetiva-umode.md) |
+| 2026-07-03 | integração | resumo | [9](../../../../00_Institucional/_inbox-calls/2026-07-03_moda-objetiva_alinhamento-integracao-moda-objetiva.md) |
+| 2026-07-08 | cronograma | resumo | [5](../../../../00_Institucional/_inbox-calls/2026-07-08_moda-objetiva_cronograma-umode-objetiva.md) |
+| 2026-07-14 | integração | resumo | [11](../../../../00_Institucional/_inbox-calls/2026-07-14_moda-objetiva_testes-integracao-umode-ilimitar-objetiva.md) |
+| 2026-07-15 | integração | resumo | [10](../../../../00_Institucional/_inbox-calls/2026-07-15_moda-objetiva_testes-integracao-umode-ilimitar-objetiva.md) |
+| 2026-07-21 | integração | resumo | [5](../../../../00_Institucional/_inbox-calls/2026-07-21_moda-objetiva_testes-integracao-umode-ilimitar-objetiva.md) |
+| 2026-07-22 | integração | resumo | [14](../../../../00_Institucional/_inbox-calls/2026-07-22_moda-objetiva_testes-integracao-umode-ilimitar-objetiva.md) |
+| 2026-08-04 | treinamento | resumo | [15](../../../../00_Institucional/_inbox-calls/2026-08-04_moda-objetiva_treinamento-umode-objetiva.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2026-08-04 — *Treinamento uMode · Objetiva* — **52 dias atrás**.
+- **Status no corpus:** `Operação Assistida` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** `carolina.riegel@modaobjetiva.com.br` · `thamires.ribeiro@modaobjetiva.com.br`.
+- 🟢 **Coerente:** status ativo e reunião há 52 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 2 de 2 itens):
+  - `dor` Desafios atuais no ciclo de vida do produto: Vanessa Rinaldo destaca que muitas marcas ignoram os processos internos que ocorrem entre estilo, engenharia e criação, o que gera desperdício de tempo na busca por informações, retrabalho e desgaste na…
+  - `decisao` Acompanhamento e Suporte: Foi estabelecida uma agenda recorrente de acompanhamento pelas próximas semanas (três vezes por semana), sendo importante a participação da equipe para alinhar as práticas.
+
+#### ⏭ Por vir
+
+⚠ **Compromissos da reunião de 2026-08-04** — derivados do resumo, **não aprovados**:
+- [O grupo] Usar plataforma: Adotar a ferramenta como base central de dados para evitar retrabalho e garantir informacoes precisas.
+- [O time de projeto] Definir estrategia: Estabelecer a metodologia para migracao de dados ou recadastramento dos produtos no sistema.
+- [Laura Delgado] Configurar pacotes materiais: Configurar kits de aviamentos pré-prontos para facilitar a atualização em massa das fichas de produto conforme a necessidade do time.
+- [Carol, Tamires] Definir regras composição: Realizar reunião técnica para estruturar como o sistema deve tratar conjuntos com composições diferentes e orientações fiscais específicas.
+- [Laura Delgado] Adicionar campo marcar: Incluir um campo de marcar na aba de compras do sistema conforme solicitado por Italo.
+- [Carol] Discutir padronização cores: Realizar uma conversa para entender a padronização de cores e definir como o cadastro será feito no sistema Ilimitar.
+- [Jeferson] Compartilhar apresentação: Disponibilizar o documento de regras de negócio para a equipe após o término da reunião.
+- [Vanessa] Agendar reunião relatórios: Marcar uma agenda para revisar os relatórios de gestão de coleção com os usuários após o período de teste.
+- [O grupo] Testar mapa coleção: Navegar pelo mapa de coleção realizando buscas e alternando configurações de visualização. Explorar agrupamentos e filtros para se familiarizar com a ferramenta.
+- [O grupo] Realizar cadastros teste: Criar cadastros de produtos antigos ou novos na pasta de testes do sistema. Reproduzir os processos diários de preenchimento de abas para popular os dados.
+- [O grupo] Participar acompanhamento treinamento: Entrar nas reuniões recorrentes de suporte agendadas para os próximos dias. Acompanhar as dúvidas dos colegas e compartilhar experiências de uso da ferramenta.
+- [O grupo] Cadastrar produtos reais: Incluir produtos da coleção real no sistema para verificar o funcionamento do fluxo de trabalho. Colaborar entre departamentos para preencher as informações de cada área.
+- [O grupo] Responder pesquisa feedback: Responder ao questionário de avaliação do treinamento disponibilizado via código QR. Fornecer feedback para melhorias futuras no aprendizado da plataforma.
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

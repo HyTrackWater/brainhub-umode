@@ -83,6 +83,54 @@ tags:
 > **Para o BrainHub é espec:** `communication_events.occurredAt` obrigatório. Sem data,
 > nada disso entra numa linha do tempo.
 
+
+<!-- acervo-laura:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+
+> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 11 reuniões, de 2025-06-12 a 2026-09-23
+
+| Data | Assunto (do título) | Fonte | Propostas no inbox |
+|---|---|---|---|
+| 2025-06-12 | treinamento | resumo | [13](../../../../00_Institucional/_inbox-calls/2025-06-12_cambos_treinamento-cambos-umode.md) |
+| 2025-06-18 | workflow | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-18_cambos_workflow-cambos.md) |
+| 2025-07-23 | discovery | resumo | — |
+| 2025-07-23 | integração | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-07-23_cambos_testes-integracao-cambos.md) |
+| 2025-08-08 | weekly | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-08-08_cambos_weekly-cambos-umode.md) |
+| 2025-08-29 | weekly | resumo + **transcrição** | [6](../../../../00_Institucional/_inbox-calls/2025-08-29_cambos_weekly-cambos-umode.md) |
+| 2025-09-01 | discovery | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-09-01_cambos_discovery-umode-cambos-time-comercial.md) |
+| 2025-09-09 | alinhamento | resumo + **transcrição** | [9](../../../../00_Institucional/_inbox-calls/2025-09-09_cambos_alinhamento-interno-cambos.md) |
+| 2025-09-22 | alinhamento | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-09-22_cambos_alinhamento-umode-cambos.md) |
+| 2026-05-13 | discovery | resumo + **transcrição** | [10](../../../../00_Institucional/_inbox-calls/2026-05-13_cambos_discovery-processo-spi-umode-cambos.md) |
+| 2026-09-23 | workflow | resumo + **transcrição** | [10](../../../../00_Institucional/_inbox-calls/2026-09-23_cambos_workflow-cambos-umode.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião neste acervo:** 2026-09-23 — *Workflow Cambos · uMode* — **2 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** `fabiane@cambos.com.br` · `louise@souzacambos.com.br` · Louise Carlos · Laura Delgado.
+- 🟢 **Coerente:** status ativo e reunião há 2 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 2 de 2 itens):
+  - `dor` Automação de Status de Produtos e Aprovações no Fluxo de Criação: Louise apontou o problema de precisar atualizar manualmente o status dos produtos e das aprovações no sistema, visto que repilotagens frequentemente entram incorretamente como revisão ou não…
+  - `dor` Por fim, Laura pediu que Louise verifique junto à equipe de qualidade se a colaboradora Mariele conseguiu resolver um problema recente de acesso ao sistema com o suporte.
+
+#### ⏭ Por vir
+
+⚠ **Compromissos da reunião de 2026-09-23** — derivados do resumo, **não aprovados**:
+- [Laura Delgado] Validar requisitos: Consolidar todas as regras de automação e validações discutidas no documento de requisitos para validar com Fabi e Louise.
+- [Laura Delgado] Configurar automações: Implementar as automações de status para Desenvolvimento e Revisão, além de criar novas aprovações automaticamente ao entrar nas etapas de entrada loja ou cliente. Configurar o preenchimento automático da data de…
+- [Laura Delgado] Implementar travas: Configurar travas de movimentação para exigir o preenchimento obrigatório de lacres e pontuação na cronoanálise, e peso da peça na lavanderia. Garantir que o status de finalizado seja aplicado automaticamente ao entrar…
+- [Laura Delgado] Remover testes: Remover o vínculo da pasta de testes com o fluxo de criação para evitar poluição dos dados e das métricas.
+- [Louise Carlos] Verificar acesso: Verificar com Mariele se o acesso ao sistema foi restabelecido.
+- Ficou acordado que Laura mapeará esses fluxos para validação conjunta.
+- Ficou decidido que, ao entrar nas etapas de modelagem Wellington ou modelagem Milade, a data de início do piloto será preenchida de forma automática, enquanto exceções pontuais por erros de lavanderia ou medidas serão tratadas manualmente por Louise.
+- Ficou acordado que Laura configurará duas travas específicas: só será permitido avançar da cronoanálise para frente com os lacres e a pontuação preenchidos, e só será permitido sair da etapa de lavanderia para acabamento caso o peso da peça esteja…
+<!-- acervo-laura:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Estado |
 |---|---|
