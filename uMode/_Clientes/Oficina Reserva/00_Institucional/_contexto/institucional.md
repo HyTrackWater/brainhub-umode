@@ -37,7 +37,7 @@ tags:
 - indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
-- atendimento: pessoa:andrea.holmer@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:andrea.holmer@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
 - atendimento: pessoa:laura.delgado@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: Grupo Enterprise — [varredura do Notion · 2026-09-21]
 

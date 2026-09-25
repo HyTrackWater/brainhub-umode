@@ -49,7 +49,15 @@ Não alteramos produção sem registro prévio no CX-Hub.
 
 ## Governança
 ### Responsável pela área
-Ju — Diretora de Operações
+**Marina Santoro** — **Head de Atendimento**, reportando à **Juliana Ferré (Ju)**, Diretora de Produto & Cliente.
+> **Fonte:** página `🏛️ Organograma uMode — V2` do Notion, **Organograma V4 (02/09/2026 · D75)**, lida em 25/09/2026.
+> 🔴 **Correção de 25/09:** esta seção dizia *"Ju — Diretora de Operações"*. **Dois erros:**
+> a Ju é **Diretora de Produto & Cliente** desde 12/08/2026 (D73) — `CC1/Operações` era o nome
+> antigo da cadeira — e **quem lidera Atendimento é a Marina**, sob ela.
+> ⚠ **D77 (02/09) ampliou a cadeira:** Head de Atendimento **+ Gestão de Contas & Projetos**,
+> com **Fernanda Araújo (Key Account) reportando a ela**.
+> 🟢 **É para cá que vai toda aprovação do papel `liderança de Atendimento uMode`** — ver
+> [`_dicionario-de-papeis-e-enderecamento.md`](../../00_Institucional/_contexto/_dicionario-de-papeis-e-enderecamento.md) § 3.
 
 ### Responsável na empresa cliente
 

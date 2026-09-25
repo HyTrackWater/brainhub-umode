@@ -61,7 +61,44 @@ clientes**, mais 6 `SMB`. ⚠ **Mas ele quase nunca aparece sozinho:** vem sempr
 `Responsável de atendimento + liderança de Atendimento uMode`. 🔴 **A segunda metade não resolve,
 então o par fica pela metade em 1.219 documentos.**
 
-## 3 · 🔴 `liderança de Atendimento uMode` — três leituras, e eu não escolho
+## 3 · 🟢 RESOLVIDO em 25/09 — e a fonte estava no Notion o tempo todo
+
+> ⚠ **Esta seção substitui a § 3-bis abaixo**, que registrava três leituras possíveis e nenhuma
+> escolha. **A pergunta não precisava do Vinicius: precisava de eu procurar direito.**
+
+**Fonte:** página **`🏛️ Organograma uMode — V2`** do Notion (`AGENTES E PROJETOS / Mentoria:
+Muritiba`), última edição **08/09/2026**, lida em 25/09/2026. Ela carrega o **Organograma V4
+(02/09/2026 · D75)** com a árvore vigente e o histórico de reorganizações.
+
+| Papel | Resolve para | Desde | Evidência |
+|---|---|---|---|
+| **`liderança de Atendimento uMode`** | 🟢 **Marina Santoro** — **Head de Atendimento** | **12/08/2026 · D73** | *"Marina Santoro → Head de Atendimento, reportando à Ju. Deixa a cadeira PO Integração."* **D77 (02/09) ampliou:** a cadeira vira **Head de Atendimento + Gestão de Contas & Projetos**, e **Fernanda (Key Account) reporta a ela** |
+| **`Ju`** | 🟢 **Juliana Ferré** — `juliana.ferre@umode.com.br` | — | 🔴 **O organograma escreve o apelido literalmente: "Juliana Ferré (Ju)"**, em duas tabelas. ⚠ **Não é inferência minha — é a fonte declarando o apelido** |
+| **`CEO`** | 🟢 **João Risoléo** | — | topo da árvore V4 |
+| **`Liderança de Pessoas e Cultura`** | 🟢 **João Risoléo** (acumula) **+ Vanessa Rinaldi** (Líder de Trilha LC) | **02/09/2026 · D75** | árvore V4: *"Pessoas (João acumula) — Talento · Cultura · T&D + Vanessa (Líder de Trilha LC)"* |
+
+### 3.1 · 🔴 Três coisas que o corpus dizia e estão ERRADAS
+
+| Onde | O corpus diz | O organograma diz |
+|---|---|---|
+| `02_Atendimento/contexto-area.md` | *"Ju — Diretora de Operações"* | 🔴 **Ju é `Diretora de Produto & Cliente`** desde 12/08 (D73). **E quem lidera Atendimento é a Marina**, sob ela |
+| ficha da [`juliana-ferre-esteves`](../_pessoas/juliana-ferre-esteves.md) | *"Key Account · Consultor(a) de Negócios"* | 🔴 **Ela é DIRETORA** — uma das 3 pessoas que ocupam as 8 cadeiras de diretoria |
+| `07_People/contexto-area.md` | *"Flávia Campello (execução) · João Risoléo (decisão)"* | ⚠ **Desatualizado.** Na V2.2 a Flávia acumulava Talento; **na V4 ela ficou com Administrativo (Financeiro · Jurídico)** e Pessoas passou a ser acúmulo do João |
+
+⚠ **A ficha da Flávia não estava errada** — `Analista de Gestão Financeira e Administrativa`
+bate com a V4. 🟢 **O documento desatualizado era o da área**, não o da pessoa. **O conflito que
+eu registrei era real, e o lado errado era o que eu supus ser o certo.**
+
+### 3.2 · 🔴 O erro que isto expôs, e ele é maior que a pergunta
+
+Eu tinha levantado **`Luciano Troiani` — Head de CS** como leitura possível de *liderança de
+Atendimento*. 🔴 **A ficha dele diz `Inativo`, e o organograma registra que o Head de CS era o
+`Rafael Del Gaudio Renaldim`, que saiu em 12/08.**
+
+⚠ **Eu estava propondo endereçar 1.219 aprovações para uma cadeira que não existe mais, ocupada
+por alguém que saiu.**
+
+## 3-bis · ⚠ `SUPERSEDED` — as três leituras, preservadas como registro do erro
 
 | Leitura | Fonte no corpus | Problema |
 |---|---|---|
@@ -80,7 +117,27 @@ assinada e parece legítima.
 **Decisão do Vinicius.** Até lá, o roteador trata este papel como **não resolvido** e
 🔴 **falha alto**.
 
-## 4 · ⚠ `Liderança de Pessoas e Cultura` — dois documentos discordam
+## 3-ter · 🔴 O que este episódio revelou: fato sem validade vira endereço errado
+
+**Medido em 25/09/2026, depois de ler o organograma:** o corpus tinha **47 fichas marcadas
+`Inativo`** e **10 fatos `atendimento` apontando para essas pessoas** — **5 clientes endereçando
+para a Andrea Holmer**, cuja própria ficha **já dizia `Inativo`**.
+
+🔴 **O `gera-fatos.py` lia o nome e o e-mail e não lia o status.**
+
+> ⚠ **Na manhã de 25/09 eu descrevi essa lacuna — fato sem intervalo de validade — como
+> "dívida latente, não dor atual". 🔴 Estava errado: ela já tinha materializado, e eu mesmo a
+> produzi na Fase 0 na véspera.**
+
+🟢 **O conserto não é apagar o fato.** `atendimento: Andrea` **foi verdade** e continua sendo
+verdade histórica; o que não vale mais é usar a linha como **endereço**. Então o fato fica e
+ganha marca `⚠ DESLIGADO`, e o roteador ignora o marcado. **É a metade barata do intervalo de
+validade: não diz quando deixou de valer, mas diz que não vale mais.**
+
+🟢 **Consequência medida: nenhum cliente perdeu o endereço** — em todos havia também alguém vivo.
+**Seguem 25 com endereço vivo, 6 `SMB`, 17 sem endereço.**
+
+## 4 · ⚠ `SUPERSEDED` — `Liderança de Pessoas e Cultura`, a divergência já resolvida na § 3
 
 | Documento | O que diz |
 |---|---|

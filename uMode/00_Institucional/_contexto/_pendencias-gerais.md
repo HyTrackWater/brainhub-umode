@@ -4451,3 +4451,51 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      tem gatilho:** o agente saberia aprovar, mas não saberia **quando precisa** aprovar.
      🟢 **Isto entra na Fase 1**, junto com o critério de relevância — são a mesma família de
      decisão e não devem virar dois documentos.
+753. 🟢 **RESOLVIDO sem precisar do Vinicius: `liderança de Atendimento uMode` é a Marina Santoro,
+     Head de Atendimento desde 12/08/2026 (D73), reportando à Ju.** 🔴 **A pergunta não precisava
+     de decisão — precisava de eu procurar direito.** A fonte é a página `🏛️ Organograma uMode —
+     V2` do Notion, com o **Organograma V4 (02/09/2026 · D75)**. ⚠ **D77 ampliou a cadeira:**
+     Head de Atendimento **+ Gestão de Contas & Projetos**, com Fernanda Araújo reportando a ela.
+     **Isso destrava 1.219 documentos.**
+754. 🟢 **`Ju` = Juliana Ferré, e não é inferência: o organograma escreve o apelido literalmente**
+     — *"Juliana Ferré (Ju)"*, em duas tabelas. ⚠ **O Vinicius levantou as duas possibilidades
+     (Juliana Ferré ou Julianne Rodrigues); a Julianne não aparece como `Ju` em lugar nenhum do
+     organograma.** 🔴 **E a ficha da Juliana estava errada:** dizia `Key Account · Consultor(a)
+     de Negócios`, derivado do CRM. **Ela é Diretora de Produto & Cliente** — uma das 3 pessoas
+     que ocupam as 8 cadeiras de diretoria. O próprio `protocolo-gestao-pessoas.md` já avisava
+     que papel no CRM ≠ cadeira no organograma, e eu tratei como se fosse.
+755. 🟢 **`Liderança de Pessoas` = João Risoléo (acumula) + Vanessa Rinaldi (Líder de Trilha LC).**
+     ⚠ **E o conflito que registrei no item 747 tinha o lado errado:** eu supus que a ficha da
+     Flávia pudesse estar desatualizada. **Era o `07_People/contexto-area.md`.** A Flávia
+     acumulava Talento na V2.2 (mai/2026) e **deixou de acumular na V4** — ficou com
+     Administrativo (Financeiro · Jurídico). **A ficha dela nunca esteve errada.**
+756. 🚨 **Eu estava propondo endereçar aprovação para uma cadeira que não existe mais.** Levantei
+     `Luciano Troiani — Head de CS` como leitura possível. 🔴 **A ficha dele diz `Inativo`, e o
+     Head de CS era o `Rafael Del Gaudio Renaldim`, que saiu em 12/08.** ⚠ **Duas camadas de
+     erro: cargo extinto e pessoa desligada.**
+757. 🚨 **10 fatos `atendimento` apontavam para pessoas DESLIGADAS — 5 clientes para a Andrea
+     Holmer, cuja própria ficha já dizia `Inativo`.** O `gera-fatos.py` lia nome e e-mail e **não
+     lia o status**. 🔴 **Na manhã de 25/09 eu descrevi essa lacuna — fato sem intervalo de
+     validade — como "dívida latente, não dor atual". Estava errado: ela já tinha materializado,
+     e eu mesmo a produzi na Fase 0 na véspera.**
+     🟢 **Conserto aplicado, e não é apagar:** o fato fica (foi verdade e é verdade histórica) e
+     ganha marca `⚠ DESLIGADO`; o roteador ignora o marcado. **É a metade barata do intervalo de
+     validade — não diz quando deixou de valer, diz que não vale mais.**
+     🟢 **Nenhum cliente perdeu o endereço:** em todos havia também alguém vivo. Seguem **25 com
+     endereço vivo · 6 `SMB` · 17 sem endereço**.
+758. 🔴 **CORRIGIDO: eu havia escrito que NÃO EXISTE fonte de desligamento.** O
+     `_espec-pessoas-e-comunicacoes.md` § 0.3 dizia *"nenhum sistema varrido registra saída de
+     pessoa"*. **O organograma do Notion registra, com nome, data e código de decisão** — D73,
+     D75, D76. ⚠ **Eu varri o CRM e a base `uModers` e declarei sobre o universo.** É a mesma
+     falha que o `CLAUDE.md` trava, desta vez de minha autoria: **"não encontrei em X" nunca é
+     "não existe"**.
+759. 🆕 **O organograma traz oito desligamentos que o corpus não registrava como tal** —
+     Rafael Del Gaudio Renaldim (D73) · Alexandre Ferrari, Andrea Goulart, André Gustavo (D75) ·
+     Gabriel Cancio, Tatiana Bertazoli, Henrique Barbosa de Sousa, Williem Berg de Oliveira Gomes
+     (D76). ⚠ **E cadeiras novas que o corpus não tem:** `GTM` (João) · `Eventos` (Sandro) ·
+     `Líder de Trilha LC` (Vanessa) · `PMO` (Victor, absorveu PO Integração) · **`CTO` VAGA**, com
+     o João interino.
+760. ⚠ **Fallback de `SMB` agora tem candidato fundamentado:** as 6 contas sem CS dedicado
+     endereçam para a **Head de Atendimento (Marina)**, que por D77 responde pela carteira
+     inteira. 🔴 **Ainda é decisão do Vinicius** — mas deixou de ser pergunta sem resposta
+     possível.

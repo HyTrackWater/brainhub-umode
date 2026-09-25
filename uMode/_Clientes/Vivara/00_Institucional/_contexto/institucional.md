@@ -39,8 +39,8 @@ tags:
 - usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
 - atendimento: pessoa:marina.santoro@umode.com.br — [base Mapa de Clientes · 2026-09-25]
-- atendimento: pessoa:luciano.troiani@umode.com.br — [base Mapa de Clientes · 2026-09-25]
-- atendimento: pessoa:andrea.holmer@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:luciano.troiani@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:andrea.holmer@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve

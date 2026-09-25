@@ -27,7 +27,16 @@ Ju Ferré
 
 ⚠ **A mesma origem traz telefone, endereço com CEP e data de nascimento — `T0`, nenhum copiado.** Registro que existem e onde.
 ### Cadeira / cargo atual
-Key Account · Consultor(a) de Negócios (papel conforme o campo em que a pessoa aparece no CRM "Mapa de Clientes" — não é a mesma coisa que Cadeira do organograma, ver protocolo-gestao-pessoas.md)
+**Diretora de Produto & Cliente** — Produto (Roadmap · Regime · Inovação) **+ Atendimento**,
+via Marina Santoro (Head de Atendimento). Uma das **3 pessoas que ocupam as 8 cadeiras de
+diretoria**; acumula Diretora CC1 e Diretora Produto.
+> **Fonte:** página `🏛️ Organograma uMode — V2` do Notion, **Organograma V4 (02/09/2026 · D75)**, lida em 25/09/2026.
+> 🔴 **Correção de 25/09:** este campo dizia `Key Account · Consultor(a) de Negócios`,
+> derivado do campo em que ela aparece no CRM `Mapa de Clientes`. ⚠ **O CRM mostra em que
+> papel ela toca contas, não a cadeira dela no organograma** — e o próprio
+> `protocolo-gestao-pessoas.md` avisa que as duas coisas não são a mesma.
+>
+> ⚠ Mantido como registro: `Key Account · Consultor(a) de Negócios` (papel conforme o campo em que a pessoa aparece no CRM "Mapa de Clientes" — não é a mesma coisa que Cadeira do organograma, ver protocolo-gestao-pessoas.md)
 ### Nível HIC
 [a preencher — critério de triagem/escala ainda não definido]
 ### Área (organizacional)

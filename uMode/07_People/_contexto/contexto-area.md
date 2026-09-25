@@ -49,7 +49,15 @@ Não interferimos na execução das áreas. Não normalizamos acumulação de ca
 
 ## Governança
 ### Responsável pela área
-Flávia Campello (execução) · João Risoléo (decisão)
+**João Risoléo** — acumula a diretoria de Pessoas (Talento · Cultura · T&D) ·
+**Vanessa Rinaldi** — **Líder de Trilha LC** (Líder de Contexto), cadeira nova.
+> **Fonte:** página `🏛️ Organograma uMode — V2` do Notion, **Organograma V4 (02/09/2026 · D75)**, lida em 25/09/2026.
+> 🔴 **Correção de 25/09:** esta seção dizia *"Flávia Campello (execução)"*. **Era verdade na
+> V2.2 (mai/2026)**, quando ela acumulava Talento — **e deixou de ser na V4**: a Flávia ficou
+> com **Administrativo (Financeiro · Jurídico)** e Pessoas passou a ser acúmulo do João.
+> ⚠ **A ficha da Flávia nunca esteve errada** (`Analista de Gestão Financeira e
+> Administrativa` bate com a V4). 🟢 **O documento desatualizado era este** — e eu havia
+> registrado o conflito supondo o contrário.
 
 ### Responsável na empresa cliente
 

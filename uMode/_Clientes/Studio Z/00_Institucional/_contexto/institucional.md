@@ -41,7 +41,7 @@ tags:
 - usuarios-conta: ? — [não consta em: tabela de usuários do PLM · 2026-09-23]
 - atendimento: pessoa:marina.santoro@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - atendimento: pessoa:vanessa.rinaldi@umode.com.br — [base Mapa de Clientes · 2026-09-25]
-- atendimento: pessoa:tais.moser@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:tais.moser@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve

@@ -174,6 +174,23 @@ _CASA_PRIMEIRO = {}
 # com `juliana@osklen.com.br`, pessoa de OUTRO cliente. Atendimento e, por
 # definicao, gente da uMode - o escopo sai da estrutura do corpus.
 _CASA_NOMES = {}
+# E-mails de quem a propria ficha declara DESLIGADO.
+#
+# \U0001F534 Por que isto existe. Em 25/09/2026 o resolvedor casou 10 fatos
+# `atendimento` com pessoas que sairam da uMode - 5 clientes apontando para a
+# Andrea Holmer, cuja ficha JA DIZIA "Inativo". O resolvedor lia o nome e o
+# e-mail e **nao lia o status**.
+#
+# ⚠ E o conserto NAO e apagar o fato: `atendimento: Andrea` foi verdade em
+# 2024 e continua sendo verdade historica. O que nao vale mais e usar essa
+# linha como ENDERECO. Entao o fato fica e ganha marca; quem roteia aprovacao
+# ignora o marcado.
+#
+# \U0001F7E2 Isto e a metade barata do intervalo de validade que o corpus nao
+# tem: nao diz QUANDO deixou de valer, mas diz QUE nao vale mais.
+_INATIVOS = set()
+RE_DESLIGADO = re.compile(
+    u"inativo|não está mais|não faz mais|desligad|saiu da uMode", re.I)
 
 
 def _norm(s):
@@ -216,6 +233,10 @@ def indice_pessoas():
             if not e:
                 continue
             email = e.group(0).lower()
+            # a ficha diz se a pessoa saiu; le-se ANTES de indexar o nome
+            ms = re.search(u"### Status na uMode\n(.*?)(?:\n#|\\Z)", t, re.S)
+            if ms and RE_DESLIGADO.search(ms.group(1)):
+                _INATIVOS.add(email)
 
             # Duas formas de H1 convivem no corpus e nenhuma e "errada":
             #   Casa    -> "Nome Sobrenome <PONTO> Pessoa"
@@ -290,7 +311,12 @@ def resolve_pessoa(nome, casa=False):
         return None
     if len(emails) > 1:
         return u""
-    return u"pessoa:" + sorted(emails)[0]
+    em = sorted(emails)[0]
+    # \U0001F534 O fato fica; a marca impede que ele seja usado como ENDERECO.
+    # Apagar seria perder verdade historica - a pessoa atendeu mesmo.
+    if em in _INATIVOS:
+        return u"pessoa:" + em + u" ⚠ DESLIGADO"
+    return u"pessoa:" + em
 
 
 def _por_token(chave):

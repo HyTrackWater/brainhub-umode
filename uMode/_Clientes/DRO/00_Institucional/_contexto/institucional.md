@@ -40,7 +40,7 @@ tags:
 - usuarios-contratados: ? — [sem fonte]
 - usuarios-conta: 1 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: pessoa:laura.delgado@umode.com.br — [base Mapa de Clientes · 2026-09-25]
-- atendimento: pessoa:andrea.holmer@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:andrea.holmer@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
 ## ⚠ O que este documento NÃO resolve

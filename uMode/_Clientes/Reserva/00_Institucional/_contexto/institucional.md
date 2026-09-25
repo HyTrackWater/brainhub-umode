@@ -43,7 +43,7 @@ tags:
 - usuarios-contratados: a_confirmar — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 13 pessoas com ficha própria no corpus — [base Segmentação Grupos · 2026-09-21]
 - atendimento: pessoa:fernanda.araujo@umode.com.br — [base Mapa de Clientes · 2026-09-25]
-- atendimento: pessoa:andrea.holmer@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:andrea.holmer@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
 - atendimento: pessoa:marina.santoro@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - atendimento: pessoa:victor.aragao@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: Grupo Enterprise — [base Segmentação Grupos · 2026-09-21]

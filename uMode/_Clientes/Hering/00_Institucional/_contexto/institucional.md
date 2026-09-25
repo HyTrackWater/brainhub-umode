@@ -39,7 +39,7 @@ tags:
 - usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 3 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-22]
 - atendimento: pessoa:juliana.ferre@umode.com.br — [base Mapa de Clientes · 2026-09-25]
-- atendimento: pessoa:rafael@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:rafael@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
 - atendimento: pessoa:marina.santoro@umode.com.br — [base Mapa de Clientes · 2026-09-25]
 - tamanho-atendimento: ? — [não consta em: base Mapa de Clientes · 2026-09-23]
 
