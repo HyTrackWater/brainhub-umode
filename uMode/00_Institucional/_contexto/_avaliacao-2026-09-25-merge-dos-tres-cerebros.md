@@ -22,7 +22,7 @@ tags:
 |---|---|---|
 | 1 | 🔴 **Não dá veredito sobre o cérebro do Pedro** | **não tenho o repositório dele.** Li o que ele descreve, não o que ele tem. § 7 lista os 6 artefatos que fecham isso |
 | 2 | **Não mede nenhum dos três** | `[C]` só o do Pedro tem avaliação (0,811). **Do João e do meu não existe número de acerto** — § 4 |
-| 3 | **Não valida o desenho do Rafael contra volume real** | o protótipo tem **128 itens fictícios**. O meu corpus tem **2.659**. § 5 é sobre o que quebra nessa diferença |
+| 3 | **Não valida o desenho do Rafael contra volume real** | o protótipo tem **128 itens fictícios**. O meu corpus tem **2.660**. § 5 é sobre o que quebra nessa diferença |
 | 4 | **Não decide arquitetura** | `[D]` banco, infra e prazo foram decididos na reunião 2. Aqui é estrutura e organização de conhecimento |
 
 ## 1 · 🟢 A tese: não são três versões da mesma coisa — são três CAMADAS
@@ -71,14 +71,33 @@ de `loop` de `rotina`.
 | # | Lacuna | Medida |
 |---|---|---|
 | 1 | 🔴 **Nada meu RODA** | `[C]` **28 scripts, todos em lote**, disparados por mim numa sessão. **Zero rotina contínua, zero consolidação, zero recuperação por turno.** O corpus é lido **por mim**, não por um sistema |
-| 2 | 🔴 **Zero avaliação de substância** | `[C]` tenho **6 validadores de FORMA** (acusam chave fora do vocabulário, data, manifesto órfão, número divergente) e **nenhum de acerto**. **Não sei dizer se uma pergunta é respondida certo.** O Pedro mede 0,811; eu não meço nada |
+| 2 | 🔴 **Zero avaliação de substância** | `[C]` tenho **5 validadores de FORMA** — `valida-documentacao` · `valida-fatos` · `valida-indexacao` · `valida-numeros` · `valida-padrao-corpus` — (acusam chave fora do vocabulário, data, manifesto órfão, número divergente) e **nenhum de acerto**. **Não sei dizer se uma pergunta é respondida certo.** O Pedro mede 0,811; eu não meço nada |
 | 3 | 🔴 **3.438 fatos, ZERO com intervalo de validade** | `[C]` a data que gravo é a da **FONTE**, não o período em que o fato vale. **Consequência: trato sucessão como contradição** — a regra § 2.2 manda deixar as duas linhas com `⚠ CONFLITA`. A contraparte da CAEDU **mudou 4 vezes em 2 anos**; é o caso que prova a necessidade |
-| 4 | 🔴 **Busca é `grep`** | `[C]` **zero índice vetorial, zero embedding.** Funciona em 2.659 arquivos **comigo lendo**; não funciona com agente respondendo em produção |
+| 4 | 🔴 **Busca é `grep`** | `[C]` **zero índice vetorial, zero embedding.** Funciona em 2.660 arquivos **comigo lendo**; não funciona com agente respondendo em produção |
 | 5 | 🔴 **Nada dorme, nada é podado** | o corpus só cresce |
 
-> ⚠ **Honestidade sobre o item 3:** hoje há **apenas 2** linhas `CONFLITA`. **O custo ainda não
-> apareceu** porque o corpus é jovem e quase tudo tem fonte única. 🔴 **É dívida latente, não dor
-> atual** — e a camada de afirmações datadas do Pedro é exatamente o conserto.
+> 🔴 **CORRIGIDO no mesmo dia, horas depois de publicar.** Esta nota dizia que a falta de
+> validade era *"dívida latente, não dor atual"*, porque só havia 2 linhas `CONFLITA`.
+> **Errado — e o contra-exemplo era meu.** Ao ler o organograma do Notion na mesma tarde,
+> medi **10 fatos `atendimento` apontando para pessoas DESLIGADAS**, sendo **5 clientes para
+> a Andrea Holmer, cuja própria ficha já dizia `Inativo`** — e **fui eu que os produzi**, na
+> Fase 0, na véspera.
+>
+> ⚠ **`CONFLITA` era o termômetro errado.** Ele só acende quando **duas fontes discordam**.
+> Sucessão silenciosa — a pessoa sai e ninguém escreve nada — **não produz conflito nenhum:
+> produz um fato antigo que continua parecendo vigente.** 🔴 **Medir o dano pelo número de
+> conflitos era medir exatamente o caso que não acontece.**
+>
+> 🟢 **Conserto aplicado:** o fato fica (foi verdade, e verdade histórica não se apaga) e
+> ganha marca `⚠ DESLIGADO`; quem roteia aprovação ignora o marcado. **É a metade barata do
+> intervalo de validade: não diz QUANDO deixou de valer, diz QUE não vale mais.**
+> **A camada de afirmações datadas do Pedro segue sendo o conserto completo.**
+
+> 🔴 **Segunda correção de 25/09, depois da publicação:** o item 2 dizia **6 validadores**.
+> São **5**. ⚠ **E o erro prova a lacuna que o próprio item descreve:** o `valida-numeros.py`
+> confere as contagens do `AGORA.md` **e de nenhum outro documento** — então um número errado
+> num parecer feito para circular **passa batido**. 🟢 **Vira requisito: validador de número
+> tem de cobrir todo documento que afirma contagem, não só o painel.**
 
 ### 3.2 · No do João
 
@@ -110,11 +129,11 @@ de `loop` de `rotina`.
 ⚠ **Nada aqui é crítica ao trabalho dele.** O protótipo tem **128 itens fictícios** e cumpre o que
 se propôs: dar clareza de produto — e conseguiu, tanto que ele próprio disse na reunião 1 que só
 depois do fluxograma passou a saber o que construir. 🔴 **O que segue é o que quebra quando entram
-2.659 arquivos reais.**
+2.660 arquivos reais.**
 
 | # | Tela | 🔴 O que falta | Por que importa |
 |---|---|---|---|
-| 1 | **Contextos** | 🔴 **A tela é PLANA.** Filtra por **origem** (`Todos · 128 / Enviados · 34 / Agenda · 61 / E-mail · 33 / Empresarial`) e **não tem onde mostrar ONDE o contexto mora** | **Nenhum dos três cérebros é plano.** O meu é hierarquia de 4 níveis; o do Pedro é pasta por tipo (`pessoas/`, `reunioes/`, `projetos/`); o do João é por tema com tier. 🔴 **"Onde mora" decide quem lê, quem aprova e o que o agente recupera.** Sem isso, meus 2.659 arquivos viram **uma lista de 2.659 linhas** |
+| 1 | **Contextos** | 🔴 **A tela é PLANA.** Filtra por **origem** (`Todos · 128 / Enviados · 34 / Agenda · 61 / E-mail · 33 / Empresarial`) e **não tem onde mostrar ONDE o contexto mora** | **Nenhum dos três cérebros é plano.** O meu é hierarquia de 4 níveis; o do Pedro é pasta por tipo (`pessoas/`, `reunioes/`, `projetos/`); o do João é por tema com tier. 🔴 **"Onde mora" decide quem lê, quem aprova e o que o agente recupera.** Sem isso, meus 2.660 arquivos viram **uma lista de 2.660 linhas** |
 | 2 | **Aprovações** | 🔴 Só **dois** desfechos (`Sim, cria` / `Agora não`) e **nenhuma faixa** | (a) falta o terceiro, **`Alterar`** — 🟢 **é o único que mostra a distância entre o que a IA propôs e o que estava certo** (PRD § 4.4; Pedro F31). (b) 🔴 **o exemplo da própria tela** — *"você comentou que ia olhar a documentação, crio uma tarefa?"* — **é faixa verde/amarela: pelo desenho do Pedro esse card não deveria existir.** E ele mediu o efeito: **fila grande faz a pessoa parar de ler** |
 | 3 | **Integrações** | 🔴 Mostra `Ativa` e nada mais | **`Ativa` é booleano; saúde é medida.** Os três têm noção de cadência — heartbeat (João), atraso > 1,5× a cadência + 30 min (Pedro), `expected_cadence` (PRD § 4.2). 🔴 **Fonte que parou há 3 dias aparece como `Ativa`** |
 | 4 | **Agente** | 🟢 **cita fonte em chips — isto está certo e é o requisito mais importante.** ⚠ Falta a **abstenção** | o Pedro fica calado abaixo do limiar e desiste em **8 s**. 🔴 **Sem isso a busca sempre devolve um primeiro colocado** — foi assim que *"qwerty"* pontuou 1,315 |
