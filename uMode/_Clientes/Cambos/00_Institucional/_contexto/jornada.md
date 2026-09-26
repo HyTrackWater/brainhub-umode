@@ -98,7 +98,7 @@ tags:
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2024-05-08 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-05-08 | kick-off | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-05-08_cambos_cambos-kick-off-interno-2024-05-08-15-10-gmt-3.md) |
 | 2025-03-07 | weekly | não confirmada | Marina | vídeo + transcrição automática | [6](../../../../00_Institucional/_inbox-calls/2025-03-07_cambos_weekly-tech-cambos-umode.md) |
 | 2025-06-12 | treinamento | não confirmada | Laura | resumo | [13](../../../../00_Institucional/_inbox-calls/2025-06-12_cambos_treinamento-cambos-umode.md) |
 | 2025-06-18 | workflow | não confirmada | Laura | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-18_cambos_workflow-cambos.md) |

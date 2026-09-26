@@ -126,7 +126,7 @@ sobre **campos duplicados no cadastro** e **valores da ficha que não chegam ao 
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2024-06-18 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-06-18 | kick-off | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-06-18_nk-store_kick-off-interno-nk-store-2024-06-18-11-38-gmt-3.md) |
 | 2024-10-22 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-10-22_nk-store_nk-umode-entendimento-sobre-campos-2024-10-22-16.md) |
 | 2024-11-12 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-11-12_nk-store_umode-nk-conversa-sobre-2-referencias-por-produt.md) |
 | 2024-12-11 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-11_nk-store_umode-nk-estilo-book.md) |
