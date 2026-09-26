@@ -155,8 +155,8 @@ tags:
 | 2023-07-19 | treinamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2023-08-30 | treinamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-03-21 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2024-06-24 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2024-08-09 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-06-24 | — | não confirmada | Marina | vídeo + transcrição automática | [11](../../../../00_Institucional/_inbox-calls/2024-06-24_caedu_saulo-marina-caedu-2024-06-24-16-47-gmt-3.md) |
+| 2024-08-09 | — | não confirmada | Marina | vídeo + transcrição automática | [13](../../../../00_Institucional/_inbox-calls/2024-08-09_caedu_caedu-qualidade-v3-2024-08-09-14-34-gmt-3.md) |
 | 2025-04-07 | — | não confirmada | Juliana | só chat | — |
 | 2025-04-29 | — | não confirmada | Juliana | resumo + **transcrição** | [6](../../../../00_Institucional/_inbox-calls/2025-04-29_caedu_caedu-presencial.md) |
 | 2026-08-17 | — | interna | Juliana + Marina | resumo | [11](../../../../00_Institucional/_inbox-calls/2026-08-17_caedu_caedu-revisao-novo-escopo.md) |

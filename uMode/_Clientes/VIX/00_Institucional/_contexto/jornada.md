@@ -104,7 +104,7 @@ ao mesmo tempo **uma variante foi excluída sem que ninguém soubesse quem fez**
 | 2023-10-18 | integração | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-05-23 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-06-04 | — | não confirmada | Juliana | só chat | — |
-| 2024-09-17 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-09-17 | — | não confirmada | Marina | vídeo + transcrição automática | [13](../../../../00_Institucional/_inbox-calls/2024-09-17_vix_vix-revisao-fluxo-atual-2024-09-17-16-15-brt-rec.md) |
 | 2024-10-16 | alinhamento | não confirmada | Marina | vídeo + transcrição automática | [8](../../../../00_Institucional/_inbox-calls/2024-10-16_vix_alinhamento-expectativas-vix-2024-10-16-14-27-br.md) |
 | 2024-10-30 | tabela de medidas | não confirmada | Marina | vídeo + transcrição automática | [10](../../../../00_Institucional/_inbox-calls/2024-10-30_vix_umode-vix-editar-tabela-de-medidas-na-base-2024.md) |
 | 2025-03-31 | — | não confirmada | Juliana | só chat | — |
