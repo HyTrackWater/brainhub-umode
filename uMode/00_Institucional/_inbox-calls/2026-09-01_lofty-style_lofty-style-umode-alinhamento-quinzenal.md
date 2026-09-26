@@ -16,7 +16,7 @@ participantes_sem_email:
   - "Marcello Saga"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/10
+posicao_na_linha_do_tempo: 16/18
 reunioes_depois: 2
 idade_em_dias: 24
 horizonte: historico
@@ -37,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 10** de Lofty Style nos acervos |
+| Reunião | **16 de 18** de Lofty Style nos acervos |
 | Data | **2026-09-01** — **24 dias atrás** |
 | Depois dela | **2 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

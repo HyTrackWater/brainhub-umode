@@ -13,7 +13,7 @@ participantes_sem_email:
   - "Mauricio"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 3/4
+posicao_na_linha_do_tempo: 4/5
 reunioes_depois: 1
 idade_em_dias: 514
 horizonte: historico
@@ -34,7 +34,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **3 de 4** de Caedu nos acervos |
+| Reunião | **4 de 5** de Caedu nos acervos |
 | Data | **2025-04-29** — **514 dias atrás** |
 | Depois dela | **1 reuniões** — a última em **2026-08-17** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

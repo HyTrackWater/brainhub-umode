@@ -100,28 +100,29 @@ tags:
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 1 reuniões, de 2022-09-21 a 2022-09-21
+#### ✅ Aconteceu — 2 reuniões, de 2022-09-21 a 2024-01-15
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2022-09-21 | integração | não confirmada | Juliana | só chat | — |
+| 2024-01-15 | — | não confirmada | Marina | só chat | — |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião nos acervos:** 2022-09-21 — *Umode · Puket · Integração (2022-09-21 15·03 GMT-3)* — **1465 dias atrás**.
+- **Última reunião nos acervos:** 2024-01-15 — *Puket - próximos passos e demandas (2024-01-15 11·38 GMT-3)* — **984 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
-- 🔴 **`Ongoing` no corpus e 1465 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+- 🔴 **`Ongoing` no corpus e 984 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
 
 #### ⏭ Por vir
 
-🔴 **Nada por vir registrado.** A última reunião tem 1465 dias; o que ela prometia é compromisso de 2022-09-21, **com cumprimento não verificado**.
+🔴 **Nada por vir registrado.** A última reunião tem 984 dias; o que ela prometia é compromisso de 2024-01-15, **com cumprimento não verificado**.
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas

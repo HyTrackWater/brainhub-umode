@@ -4655,3 +4655,21 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      fail-closed. 🔵 **Se o Vinicius declarar que série de título interno é da Casa mesmo sem
      cabeçalho** (`K.A.FÉ`, `Tech & Produto · Weekly`, `Estratégica de Produto`), a regra vira
      lista explícita de séries — nunca inferência pelo título.
+785. 🟢 **Acervo da Marina Santoro processado junto com os outros dois:** **357 reuniões distintas**
+     nos três acervos, **21 em comum** entre eles (viraram uma só), **1.522 propostas em 210
+     arquivos** do `_inbox-calls/`, **28 `jornada.md` de cliente** com linha do tempo + a da Casa
+     (29 reuniões, 20 séries). É o acervo de **implantação e integração**: é a fonte principal de
+     **Recco (11 de 11), NK Store (10 de 10), Osklen (10 de 12), Lenny Niemeyer (9 de 11)**. Registro: `_recebido-2026-09-25-acervo-reunioes-
+     marina-santoro.md`.
+786. 🚨 **VIX está `Ongoing` e sem reunião nos três acervos há 360 dias** (última: `API de
+     Qualidade`, 30/09/2025). ⚠ **Não prova abandono** — a conta pode estar com quem não entregou
+     acervo. **Mesma pergunta da Oficina Reserva (item 769): quem atende hoje?**
+787. 🔵 **194 gravações da Marina (96 GB) não foram lidas, e 122 não têm resumo do Gemini.** O
+     conteúdo dessas 122 reuniões **só existe em vídeo**. Transcrever exige reconhecimento de
+     fala em escala — tempo de máquina alto, e a transcrição bruta não entra no repositório.
+     **Decisão do Vinicius:** transcrever (tudo, ou só as 122 sem resumo, ou só as de conta viva),
+     ou registrar como fora de escopo. ⚠ **E 4 anexos não lidos** (3 planilhas, 1 apresentação)
+     — nomes no registro; podem ter dado de cliente.
+788. ⚠ **`RSV` não roteou.** `RSV + uMode · Checkpoint #3` (29/05/2025) pode ser **Reserva**, mas
+     **nenhuma fonte do corpus declara esse apelido.** 🔵 **Confirmar** — se for, entra em
+     `### Aliases do cliente` do `institucional.md` da Reserva, e o extrator passa a ler de lá.

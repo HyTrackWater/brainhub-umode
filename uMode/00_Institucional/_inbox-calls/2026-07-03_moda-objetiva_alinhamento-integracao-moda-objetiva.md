@@ -17,7 +17,7 @@ participantes:
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/14
+posicao_na_linha_do_tempo: 10/16
 reunioes_depois: 6
 idade_em_dias: 84
 horizonte: historico
@@ -36,7 +36,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 14** de Moda Objetiva nos acervos |
+| Reunião | **10 de 16** de Moda Objetiva nos acervos |
 | Data | **2026-07-03** — **84 dias atrás** |
 | Depois dela | **6 reuniões** — a última em **2026-08-04** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

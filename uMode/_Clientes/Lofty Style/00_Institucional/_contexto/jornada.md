@@ -95,27 +95,35 @@ com CSat 9,6 e entusiasmo 4,9. Três meses depois, **15 chamados em 24 dias e 12
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Laura Cardoso e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 10 reuniões, de 2025-09-02 a 2026-09-10
+#### ✅ Aconteceu — 18 reuniões, de 2025-03-27 a 2026-09-10
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
+| 2025-03-27 | — | não confirmada | Marina | só chat | — |
+| 2025-08-15 | weekly | não confirmada | Marina | resumo + **transcrição** | [2](../../../../00_Institucional/_inbox-calls/2025-08-15_lofty-style_weekly-lofty-style-umode.md) |
 | 2025-09-02 | ficha técnica | não confirmada | Laura | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-02_lofty-style_ficha-de-impressao-umode-lofty-style.md) |
 | 2025-09-19 | weekly | não confirmada | Laura | resumo | [11](../../../../00_Institucional/_inbox-calls/2025-09-19_lofty-style_weekly-lofty-style-umode.md) |
+| 2025-09-29 | integração | não confirmada | Marina | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-29_lofty-style_umode-lofty-style-teste-integracao-de-escrita.md) |
 | 2025-10-30 | weekly | não confirmada | Laura | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-10-30_lofty-style_weekly-lofty-style-umode.md) |
 | 2026-02-04 | integração | não confirmada | Laura | resumo | [15](../../../../00_Institucional/_inbox-calls/2026-02-04_lofty-style_integracao-e-custos-lofty-umode.md) |
+| 2026-03-16 | integração | não confirmada | Marina | resumo | [9](../../../../00_Institucional/_inbox-calls/2026-03-16_lofty-style_umode-lofty-testes-integracao-de-escrita-custos.md) |
+| 2026-03-17 | alinhamento | não confirmada | Marina | resumo | [15](../../../../00_Institucional/_inbox-calls/2026-03-17_lofty-style_lofty-alinhamento-reuniao-sandro-com-cliente.md) |
+| 2026-03-17 | integração | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2026-03-17_lofty-style_umode-lofty-testes-integracao-de-escrita-custos.md) |
+| 2026-05-18 | — | interna | Marina | resumo | [1](../../../../00_Institucional/_inbox-calls/2026-05-18_lofty-style_lofty-estimar-rfi-enriquecimento-vtex.md) |
+| 2026-05-19 | dúvidas | interna | Marina | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-05-19_lofty-style_lofty-duvidas-enriqueceai-vtex.md) |
 | 2026-06-24 | — | externa | Laura | resumo | [25](../../../../00_Institucional/_inbox-calls/2026-06-24_lofty-style_umode-lofty-style-arvore-mercadologica-e-acervo.md) |
 | 2026-08-19 | teste | interna | Juliana | resumo | [17](../../../../00_Institucional/_inbox-calls/2026-08-19_lofty-style_testes-lofty-criai.md) |
-| 2026-08-20 | — | interna | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-08-20_lofty-style_criai-lofty.md) |
+| 2026-08-20 | — | interna | Laura + Marina | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-08-20_lofty-style_criai-lofty.md) |
 | 2026-09-01 | ritual quinzenal | externa | Laura | resumo + **transcrição** | [7](../../../../00_Institucional/_inbox-calls/2026-09-01_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
 | 2026-09-09 | alinhamento | externa | Laura | resumo | [18](../../../../00_Institucional/_inbox-calls/2026-09-09_lofty-style_alinhamento-de-mapa-e-exportacao-umode-lofty-sty.md) |
-| 2026-09-10 | ritual quinzenal | externa | Laura | resumo | [21](../../../../00_Institucional/_inbox-calls/2026-09-10_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
+| 2026-09-10 | ritual quinzenal | externa | Laura + Marina | resumo | [21](../../../../00_Institucional/_inbox-calls/2026-09-10_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 

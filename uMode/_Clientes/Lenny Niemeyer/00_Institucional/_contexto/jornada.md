@@ -47,37 +47,43 @@ tags:
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 2 reuniões, de 2026-02-03 a 2026-02-19
+#### ✅ Aconteceu — 11 reuniões, de 2025-02-14 a 2026-03-13
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
+| 2025-02-14 | — | não confirmada | Marina | só chat | — |
+| 2025-04-09 | — | não confirmada | Marina | só chat | — |
+| 2025-06-03 | — | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-06-03_lenny-niemeyer_umode-lenny-mapa-de-jornadas.md) |
+| 2025-06-27 | weekly | não confirmada | Marina | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-06-27_lenny-niemeyer_weekly-lenny-niemeyer-umode.md) |
+| 2025-07-21 | treinamento | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-07-21_lenny-niemeyer_umode-lenny-niemeyer-treinamento-usuarios-chave.md) |
+| 2025-07-23 | integração | não confirmada | Marina | resumo | — |
+| 2025-08-08 | weekly | não confirmada | Marina | resumo + **transcrição** | [2](../../../../00_Institucional/_inbox-calls/2025-08-08_lenny-niemeyer_weekly-lenny-niemeyer-umode.md) |
+| 2025-10-13 | integração | não confirmada | Marina | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2025-10-13_lenny-niemeyer_umode-lenny-teste-integracao-producao.md) |
 | 2026-02-03 | — | não confirmada | Juliana | resumo | [9](../../../../00_Institucional/_inbox-calls/2026-02-03_lenny-niemeyer_lenny-plano-de-acao.md) |
 | 2026-02-19 | — | não confirmada | Juliana | resumo | [13](../../../../00_Institucional/_inbox-calls/2026-02-19_lenny-niemeyer_lenny-proximos-passos.md) |
+| 2026-03-13 | — | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2026-03-13_lenny-niemeyer_umode-lenny-relatorio-de-auditoria-e-acoes.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião nos acervos:** 2026-02-19 — *Lenny · Proximos Passos* — **218 dias atrás**.
+- **Última reunião nos acervos:** 2026-03-13 — *uMode · Lenny - Relatório de Auditoria e Ações* — **196 dias atrás**.
 - **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
-- 🟢 **Limite do churn:** o cliente estava em reunião em **2026-02-19**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
+- 🟢 **Limite do churn:** o cliente estava em reunião em **2026-03-13**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
 
 #### ⏭ Por vir
 
-🔴 **Nada por vir registrado.** A última reunião tem 218 dias; o que ela prometia é compromisso de 2026-02-19, **com cumprimento não verificado**.
+🔴 **Nada por vir registrado.** A última reunião tem 196 dias; o que ela prometia é compromisso de 2026-03-13, **com cumprimento não verificado**.
 
-⌛ **O que estava pendente no último contato** (⚠ derivado, 6 itens):
-- Juliana Ferré irá desenhar e enviar a Vanessa Rinaldi a solução encontrada para o problema da Osklen, que não utiliza campo de múltipla seleção.
-- Juliana Ferré irá se sentar com André para discutir melhorias no legado, incluindo a colocação de um totalizador no cambã e a fixação do card como primeiro no cambã.
-- Ana Lucia vai entrar em um 'discovery' de produto com a cliente para desenhar o dashboard necessário, abordando a questão sob a perspectiva de produto.
-- Juliana Ferré vai juntar todos os pontos discutidos para listar os próximos passos de forma a não gerar expectativas, incluindo a pauta de marcar reuniões de produto para falar de dashboard, repetir sobre as integrações e o que os clientes estão devendo.
-- Julianne Rodrigues vai enviar o detalhamento das demandas por escrito para Juliana Ferré montar um documento para ser apresentado na weekly.
-- Vanessa Rinaldi vai responder ao André, confirmando que os temas serão tratados na weekly de amanhã e o horário da reunião, para garantir que não haja desencontro.
+⌛ **O que estava pendente no último contato** (⚠ derivado, 3 itens):
+- Marina Santoro vai levar para o time a possibilidade de criar uma trava ou validação para não permitir incluir a mesma cor no mesmo material na mode.
+- Marina Santoro vai confirmar com o time de operação qual é o plano e até quando eles conseguirão rever os pacotes de materiais que estão com a cor 00.
+- Marina Santoro vai confirmar com o Sandro se a reunião das 4:30 vai acontecer.
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas

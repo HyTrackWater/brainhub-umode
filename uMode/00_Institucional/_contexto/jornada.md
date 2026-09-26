@@ -31,12 +31,13 @@ tags:
 
 ## ⚠ O que este documento NÃO resolve
 
-- 🔴 **Fonte única, e estreita: reuniões de duas pessoas.** Tudo aqui vem dos acervos de reunião
-  da **Laura Cardoso** e da **Juliana Ferré**. **Reunião ausente aqui não prova reunião ausente**
-  — é a agenda de duas pessoas, não da empresa.
+- 🔴 **Fonte única, e estreita: reuniões de três pessoas.** Tudo aqui vem dos acervos de reunião
+  da **Laura Cardoso**, da **Juliana Ferré** e da **Marina Santoro**. **Reunião ausente aqui não
+  prova reunião ausente** — é a agenda de três pessoas, não da empresa.
 - 🔴 **Só entra reunião interna CONFIRMADA** (cabeçalho de participantes só com gente da uMode).
-  **88 reuniões da Juliana** ficaram sem destino — sem cabeçalho e sem cliente no título — e **não
-  estão aqui**, mesmo que sejam da Casa. Séries como `Hora do K.A.FÉ` aparecem **incompletas**.
+  **128 reuniões** dos três acervos ficaram sem destino — sem cabeçalho e sem cliente no título —
+  e **não estão aqui**, mesmo que sejam da Casa: `Comitê de Projetos` (6), `Key Accounts -
+  Operacional`, parte do `Hora do K.A.FÉ`. **Essas séries aparecem incompletas ou ausentes.**
 - 🔴 **Status e fase da Casa não são declarados por nenhuma fonte.** Ficam `[a preencher]`.
 - ⚠ **O que o título diz é primário; o que o resumo diz é derivado.** Datas e nomes de série vêm do
   título do evento. **Todo conteúdo de reunião está no `_inbox-calls/` como proposta não aprovada.**
@@ -70,19 +71,21 @@ da migração: `[a preencher]`.**
 ### ⏱ Linha do tempo das reuniões da Casa — acervos de reunião
 
 > **Fonte:** título e data de cada reunião **interna confirmada** (cabeçalho só com
-> gente da uMode) nos acervos de Juliana Ferré — **dado primário**. Conferido em **25/09/2026**.
+> gente da uMode) nos acervos de Juliana Ferré e Marina Santoro — **dado primário**. Conferido em **25/09/2026**.
 > ⚠ **Só reunião com cabeçalho entra aqui.** A série `Hora do K.A.FÉ`, por exemplo, tem
 > mais sessões sem cabeçalho — elas ficam `não confirmada`, fora da Casa.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 25 reuniões em 16 séries
+#### ✅ Aconteceu — 29 reuniões em 20 séries
 
 | Série (do título) | Reuniões | Primeira | Última | Propostas no inbox |
 |---|---:|---|---|---|
 | Agentes e Clientes | 1 | 2026-09-22 | 2026-09-22 | [22/09](../_inbox-calls/2026-09-22_casa_agentes-e-clientes.md) |
 | BrainWave | 1 | 2026-09-22 | 2026-09-22 | [22/09](../_inbox-calls/2026-09-22_casa_brainwave.md) |
 | Ana · Juliana - Desenvolvimento de Família | 1 | 2026-09-17 | 2026-09-17 | [17/09](../_inbox-calls/2026-09-17_casa_ana-juliana-desenvolvimento-de-familia.md) |
+| Mixin — Lideranças uMode | 1 | 2026-09-01 | 2026-09-01 | [01/09](../_inbox-calls/2026-09-01_casa_mixin-liderancas-umode.md) |
 | 🚚 Migração de Sistema - Grupo Azzas | 3 | 2026-08-17 | 2026-08-31 | [17/08](../_inbox-calls/2026-08-17_casa_migracao-de-sistema-grupo-azzas.md) · [24/08](../_inbox-calls/2026-08-24_casa_migracao-de-sistema-grupo-azzas.md) · [31/08](../_inbox-calls/2026-08-31_casa_migracao-de-sistema-grupo-azzas.md) |
+| Portal de Fornecedor | 1 | 2026-08-28 | 2026-08-28 | [28/08](../_inbox-calls/2026-08-28_casa_portal-de-fornecedor.md) |
 | 🚚 Migração de Sistema - Pedro | 1 | 2026-08-27 | 2026-08-27 | [27/08](../_inbox-calls/2026-08-27_casa_migracao-de-sistema-pedro.md) |
 | Site uMode | 1 | 2026-08-25 | 2026-08-25 | [25/08](../_inbox-calls/2026-08-25_casa_site-umode.md) |
 | 🚚 Migração de Sistema - Lala e Marina | 1 | 2026-08-25 | 2026-08-25 | [25/08](../_inbox-calls/2026-08-25_casa_migracao-de-sistema-lala-e-marina.md) |
@@ -92,6 +95,8 @@ da migração: `[a preencher]`.**
 | Ju · Ana · Tela de Empenho | 1 | 2026-08-11 | 2026-08-11 | [11/08](../_inbox-calls/2026-08-11_casa_ju-ana-tela-de-empenho.md) |
 | ☕️ Hora do K.A.FÉ ☕️ | 4 | 2026-06-26 | 2026-08-07 | [26/06](../_inbox-calls/2026-06-26_casa_hora-do-k-a-fe.md) · [10/07](../_inbox-calls/2026-07-10_casa_hora-do-k-a-fe.md) · [31/07](../_inbox-calls/2026-07-31_casa_hora-do-k-a-fe.md) · [07/08](../_inbox-calls/2026-08-07_casa_hora-do-k-a-fe.md) |
 | Migração PLM | 1 | 2026-08-05 | 2026-08-05 | [05/08](../_inbox-calls/2026-08-05_casa_migracao-plm.md) |
+| [uMode] Variantes em Multiplas Coleções | 1 | 2026-07-21 | 2026-07-21 | [21/07](../_inbox-calls/2026-07-21_casa_umode-variantes-em-multiplas-colecoes.md) |
+| ☕️ Hora do K.A.FÉ ☕️Edição Melhorias de Integração para Suporte | 1 | 2026-06-11 | 2026-06-11 | [11/06](../_inbox-calls/2026-06-11_casa_hora-do-k-a-fe-edicao-melhorias-de-integracao-pa.md) |
 | Migração · Próximos Passos | 1 | 2026-05-11 | 2026-05-11 | [11/05](../_inbox-calls/2026-05-11_casa_migracao-proximos-passos.md) |
 | Relatório de Lacre | 1 | 2026-04-30 | 2026-04-30 | [30/04](../_inbox-calls/2026-04-30_casa_relatorio-de-lacre.md) |
 | ☕️ Hora do K.A.FÉ ☕️ · Teste Login | 1 | 2026-04-14 | 2026-04-14 | [14/04](../_inbox-calls/2026-04-14_casa_hora-do-k-a-fe-teste-login.md) |
@@ -101,7 +106,9 @@ da migração: `[a preencher]`.**
 - **Agentes e Clientes** — 1 reunião(ões), a última em **2026-09-22** (3 dias atrás).
 - **BrainWave** — 1 reunião(ões), a última em **2026-09-22** (3 dias atrás).
 - **Ana · Juliana - Desenvolvimento de Família** — 1 reunião(ões), a última em **2026-09-17** (8 dias atrás).
+- **Mixin — Lideranças uMode** — 1 reunião(ões), a última em **2026-09-01** (24 dias atrás).
 - **🚚 Migração de Sistema - Grupo Azzas** — 3 reunião(ões), a última em **2026-08-31** (25 dias atrás).
+- **Portal de Fornecedor** — 1 reunião(ões), a última em **2026-08-28** (28 dias atrás).
 - **🚚 Migração de Sistema - Pedro** — 1 reunião(ões), a última em **2026-08-27** (29 dias atrás).
 - **Site uMode** — 1 reunião(ões), a última em **2026-08-25** (31 dias atrás).
 - **🚚 Migração de Sistema - Lala e Marina** — 1 reunião(ões), a última em **2026-08-25** (31 dias atrás).
@@ -111,6 +118,7 @@ da migração: `[a preencher]`.**
 - **Ju · Ana · Tela de Empenho** — 1 reunião(ões), a última em **2026-08-11** (45 dias atrás).
 - **☕️ Hora do K.A.FÉ ☕️** — 4 reunião(ões), a última em **2026-08-07** (49 dias atrás).
 - **Migração PLM** — 1 reunião(ões), a última em **2026-08-05** (51 dias atrás).
+- **[uMode] Variantes em Multiplas Coleções** — 1 reunião(ões), a última em **2026-07-21** (66 dias atrás).
 
 #### ⏭ Por vir — compromissos da última reunião de cada série viva
 
@@ -132,12 +140,28 @@ da migração: `[a preencher]`.**
 - [Juliana Ferré, Aninha] Discutir conceito família: Analisar as propostas para o desenvolvimento de famílias de produtos e definir a melhor abordagem técnica. Avaliar o uso de compartilhamento de abas ou estrutura de pai e filho conforme as necessidades do…
 - [O grupo] Analisar impactos sistêmicos: Mapear os impactos da implementação do novo conceito de família em todas as funcionalidades existentes. Considerar integrações, fluxo de trabalho, impressão coletiva e as regras de desvinculação de produtos.
 
+**Mixin — Lideranças uMode** — 2026-09-01 · [6 compromissos](../_inbox-calls/2026-09-01_casa_mixin-liderancas-umode.md)
+- [João Risoléo] Implementar piloto DRO: Desconectar a DRO do Brain Wave e iniciar o projeto piloto conforme alinhado.
+- [O grupo] Implementar governança técnica: Estabelecer níveis de governança nos repositórios para garantir mais celeridade e qualidade no desenvolvimento.
+- [Juliana Ferré, O grupo] Definir go to market: Estabelecer os prazos e estratégias de entrada no mercado para o produto Criaim.
+- [Sandro Costa] Estruturar comunidade: Organizar a frente de comunidade como uma unidade de negócio ativa e estruturada.
+- [Vanessa Rinaldi] Disseminar informações: Levar as informações do Mixin para o Mixup garantindo que o cenário macro chegue a todo o time.
+- … e mais 1 no arquivo.
+
 **🚚 Migração de Sistema - Grupo Azzas** — 2026-08-31 · [5 compromissos](../_inbox-calls/2026-08-31_casa_migracao-de-sistema-grupo-azzas.md)
 - [The group] Testar mapa: Testar exaustivamente as novas funcionalidades do mapa, incluindo filtros, agrupamentos, edições em massa e visualizações, para identificar erros e pontos de melhoria antes da liberação para clientes.
 - [The group] Configurar mapas e impressões: Configurar mapas pré-salvos e modelos de impressão nas contas dos clientes para demonstrar a entrega de valor e facilitar a adoção da nova interface.
 - [Marina Santoro] Reunião cliente: Participar de reunião com o cliente para discutir o fluxo de exportação de produtos e apresentações de dados.
 - [Juliana Ferré, Laura Delgado] Revisar dúvidas Notion: Revisar as dúvidas marcadas sobre a ferramenta no Notion e discutir os pontos específicos em reunião agendada para o dia seguinte.
 - [Victor Aragão] Ajustar mapa: Implementar melhorias e ajustes no front-end do mapa, incluindo a funcionalidade de exportação e edição em planilha, com previsão de retorno até quarta-feira.
+
+**Portal de Fornecedor** — 2026-08-28 · [6 compromissos](../_inbox-calls/2026-08-28_casa_portal-de-fornecedor.md)
+- [João Ferraz] Otimizar Configuração Fornecedores: Tornar a ativação de subitens de fornecedores mais amigável no painel administrativo.
+- [João Ferraz] Corrigir Exibição Dados: Investigar e resolver problemas de exibição de dados de fornecedores e produtos no ambiente de homologação.
+- [João Ferraz] Ajustar Edição Campos: Corrigir a falha na persistência das edições realizadas pelos fornecedores em campos de texto.
+- [Marina Santoro] Reportar Feedbacks: Testar as funcionalidades apresentadas e enviar os feedbacks formais após a reunião com a C&A.
+- [O grupo] Implementar Chat: Desenvolver funcionalidade de mensagens para follow-up, garantindo que as comunicações sejam restritas a cada fornecedor.
+- … e mais 1 no arquivo.
 
 **🚚 Migração de Sistema - Pedro** — 2026-08-27 · [12 compromissos](../_inbox-calls/2026-08-27_casa_migracao-de-sistema-pedro.md)
 - [The group] Comitê de Campos: Organizar um comitê de campos toda sexta-feira para definir quais campos novos serão criados e padronizar o uso de campos entre os clientes.
@@ -202,6 +226,10 @@ da migração: `[a preencher]`.**
 - [The group] Migrar Relatórios: Verificar a estrutura dos relatórios para planejar a alteração de apontamento do banco de dados legado para o novo.
 - … e mais 4 no arquivo.
 
+**[uMode] Variantes em Multiplas Coleções** — 2026-07-21 · [2 compromissos](../_inbox-calls/2026-07-21_casa_umode-variantes-em-multiplas-colecoes.md)
+- [Marina Santoro] Discutir workflows: Discutir a pendencia sobre fluxos de trabalho apos a reuniao.
+- [O responsavel] Definir implementacao tecnica: Definir a implementacao tecnica para o mapeamento de colecoes e o comportamento de variantes no sistema para a OSCLIN.
+
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas
@@ -224,7 +252,7 @@ As fichas de ferramenta vivem em `03_Produto-e-Solucoes/_ferramentas/` e
 1. 🔴 **Declarar o escopo do programa de migração** — de qual sistema para qual, quais clientes,
    com que prazo. **É o fato mais importante da Casa hoje e nenhuma fonte lida o diz.**
 2. **Aprovar ou recusar as propostas dos arquivos `*_casa_*`** do `_inbox-calls/`.
-3. **Rotear as 88 reuniões da Juliana sem destino** — boa parte é da Casa e está fora daqui.
+3. **Rotear as 128 reuniões sem destino** — boa parte é da Casa e está fora daqui (pendência 784).
 
 ## Histórico de incidentes / alertas
 - **2025-07-01 — `🚨 Atualização de Queda do Legado 🚨`.** Só o título é primário: houve uma
@@ -259,6 +287,6 @@ Casa ainda não foi definido.
 ### Procedência
 | Bloco | Fonte | Data |
 |---|---|---|
-| Linha do tempo, marcos, fase | título e data dos eventos — acervos de reunião da Laura Cardoso e da Juliana Ferré | **conferido 25/09/2026** |
+| Linha do tempo, marcos, fase | título e data dos eventos — acervos de reunião da Laura Cardoso, da Juliana Ferré e da Marina Santoro | **conferido 25/09/2026** |
 | `Grupo Azzas` | `_pendencias-gerais.md` — varredura do CRM | conferido 25/09/2026 |
 | Status, entregas, métricas | — | `[a preencher]` |

@@ -20,8 +20,8 @@ participantes_nao_resolvidos: "Ana Flávia uMode"
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 94/98
-reunioes_depois: 4
+posicao_na_linha_do_tempo: 122/128
+reunioes_depois: 6
 idade_em_dias: 50
 horizonte: historico
 tier: T2
@@ -39,13 +39,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **94 de 98** de destino não identificado nos acervos |
+| Reunião | **122 de 128** de destino não identificado nos acervos |
 | Data | **2026-08-06** — **50 dias atrás** |
-| Depois dela | **4 reuniões** — a última em **2026-09-22** |
+| Depois dela | **6 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-08-06**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **4 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **6 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

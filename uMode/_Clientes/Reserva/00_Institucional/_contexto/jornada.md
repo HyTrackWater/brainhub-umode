@@ -102,20 +102,21 @@ página, que foi editada pela última vez em **30/06/2026**.
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 4 reuniões, de 2024-06-12 a 2026-07-14
+#### ✅ Aconteceu — 5 reuniões, de 2024-06-12 a 2026-07-14
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2024-06-12 | cronograma | não confirmada | Juliana | só chat | — |
 | 2024-10-17 | — | não confirmada | Juliana | só chat | — |
 | 2025-09-29 | — | não confirmada | Juliana | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-09-29_reserva_andre-juliana-joao-reserva.md) |
+| 2026-05-27 | — | externa | Marina | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2026-05-27_reserva_umode-reserva-validacao-materiais-com-flag-permi.md) |
 | 2026-07-14 | — | interna | Juliana | resumo | [18](../../../../00_Institucional/_inbox-calls/2026-07-14_reserva_reserva-proximos-passos.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido

@@ -16,7 +16,7 @@ participantes_sem_email:
   - "Thayane Almeida"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 18/18
+posicao_na_linha_do_tempo: 25/25
 reunioes_depois: 0
 idade_em_dias: 3
 horizonte: recente
@@ -37,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **18 de 18** de Luiza Barcelos nos acervos |
+| Reunião | **25 de 25** de Luiza Barcelos nos acervos |
 | Data | **2026-09-22** — **3 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

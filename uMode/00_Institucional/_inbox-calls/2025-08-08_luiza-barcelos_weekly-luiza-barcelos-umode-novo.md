@@ -16,8 +16,8 @@ participantes_sem_email:
   - "Michelle Rodrigues"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/18
-reunioes_depois: 10
+posicao_na_linha_do_tempo: 13/25
+reunioes_depois: 12
 idade_em_dias: 413
 horizonte: historico
 tier: T2
@@ -37,13 +37,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 18** de Luiza Barcelos nos acervos |
+| Reunião | **13 de 25** de Luiza Barcelos nos acervos |
 | Data | **2025-08-08** — **413 dias atrás** |
-| Depois dela | **10 reuniões** — a última em **2026-09-22** |
+| Depois dela | **12 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-08-08**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **10 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **12 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

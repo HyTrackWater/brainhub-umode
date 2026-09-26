@@ -84,17 +84,19 @@ tags:
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 1 reuniões, de 2026-02-05 a 2026-02-05
+#### ✅ Aconteceu — 3 reuniões, de 2025-10-31 a 2026-02-05
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
+| 2025-10-31 | integração | não confirmada | Marina | resumo + **transcrição** | [11](../../../../00_Institucional/_inbox-calls/2025-10-31_oficina-reserva_umode-oficina-reserva-teste-integracao-escrita.md) |
+| 2025-12-10 | integração | não confirmada | Marina | resumo | [12](../../../../00_Institucional/_inbox-calls/2025-12-10_oficina-reserva_umode-oficina-reserva-homologacao-dos-campos-de.md) |
 | 2026-02-05 | discovery | não confirmada | Laura | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-02-05_oficina-reserva_discovery-costume-oficina-umode.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido

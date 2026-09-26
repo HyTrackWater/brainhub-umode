@@ -15,8 +15,8 @@ participantes_sem_email:
   - "Andrea Holmer"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 1/10
-reunioes_depois: 9
+posicao_na_linha_do_tempo: 3/18
+reunioes_depois: 15
 idade_em_dias: 388
 horizonte: historico
 tier: T2
@@ -36,13 +36,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **1 de 10** de Lofty Style nos acervos |
+| Reunião | **3 de 18** de Lofty Style nos acervos |
 | Data | **2025-09-02** — **388 dias atrás** |
-| Depois dela | **9 reuniões** — a última em **2026-09-10** |
+| Depois dela | **15 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-09-02**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **9 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **15 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

@@ -1,7 +1,7 @@
 ---
 tipo: registro
 origem: google-meet · resumo do Gemini
-acervo: acervo Laura Cardoso
+acervo: acervo Laura Cardoso + Marina Santoro
 titulo: "Lofty Style · uMode - Alinhamento Quinzenal"
 data: 2026-09-10
 referente_a: 2026-09-10
@@ -14,7 +14,7 @@ participantes:
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 10/10
+posicao_na_linha_do_tempo: 18/18
 reunioes_depois: 0
 idade_em_dias: 15
 horizonte: recente
@@ -25,7 +25,7 @@ processado_em: 2026-09-25
 # Lofty Style · uMode - Alinhamento Quinzenal — 2026-09-10
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
-> **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
+> **Fonte:** resumo do Gemini, acervo Laura Cardoso + Marina Santoro. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
 > 🟢 **Destino `lofty-style` saiu do e-mail dos participantes** — natureza **externa**.
 
@@ -33,7 +33,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **10 de 10** de Lofty Style nos acervos |
+| Reunião | **18 de 18** de Lofty Style nos acervos |
 | Data | **2026-09-10** — **15 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

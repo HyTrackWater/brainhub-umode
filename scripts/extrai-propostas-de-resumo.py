@@ -81,6 +81,8 @@ ACERVOS = [
     (_SCRATCH + u"juliana", u"Juliana Ferr\u00e9",
      (u"victor _ ju _ 1_1", u"saulo _ juliana", u"dupla sinistra",
       u"ana _ juliana - 20")),
+    (_SCRATCH + u"marina", u"Marina Santoro",
+     (u"dalker _ marina 1_1",)),
 ]
 INBOX = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_inbox-calls")
 CLIENTES_DIR = os.path.join(RAIZ, u"uMode", u"_Clientes")
@@ -96,6 +98,8 @@ APELIDOS = [
     (u"pli[e\u00e9]", u"Plie"), (u"stz", u"Studio Z"), (u"oficina", u"Oficina Reserva"),
     (u"lo?u?ngerie|longerie", u"Loungerie"), (u"colm[e\u00e9]ia", u"Colmeia"),
     (u"lenny", u"Lenny Niemeyer"), (u"ladeira", u"Ladeira Bijuterias"),
+    # "NK" sozinho: os proprios titulos alternam "NK Store" e "NK" (acervo Marina)
+    (u"nk", u"NK STORE"),
 ]
 
 ASSUNTOS = [
@@ -224,7 +228,9 @@ def padroes_de_titulo():
 
 def clientes_no_titulo(nome):
     u"""Pastas citadas no titulo. Trecho ja casado por nome maior nao conta de novo."""
-    low = sem_acento(nome)
+    # separador vira espaco: "Oficina_Reserva" / "Oficina\u00b7Reserva" casava
+    # "oficina" E "reserva" - dois clientes, e a reuniao ficava sem destino
+    low = re.sub(u"[_\u00b7]+", u" ", sem_acento(nome))
     achados = []
     for pad, pasta in padroes_de_titulo():
         m = re.search(u"(?<![a-z0-9])(%s)(?![a-z0-9])" % pad, low)

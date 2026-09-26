@@ -1,7 +1,7 @@
 ---
 tipo: registro
 origem: google-meet · resumo do Gemini
-acervo: acervo Juliana Ferré
+acervo: acervo Juliana Ferré + Marina Santoro
 titulo: "Kick Off Longerie"
 data: 2026-07-29
 referente_a: 2026-07-29
@@ -19,8 +19,8 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 1/3
-reunioes_depois: 2
+posicao_na_linha_do_tempo: 1/4
+reunioes_depois: 3
 idade_em_dias: 58
 horizonte: historico
 tier: T2
@@ -30,7 +30,7 @@ processado_em: 2026-09-25
 # Kick Off Longerie — 2026-07-29
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
-> **Fonte:** resumo do Gemini, acervo Juliana Ferré. 🔴 **Não há transcrição de fala desta reunião** —
+> **Fonte:** resumo do Gemini, acervo Juliana Ferré + Marina Santoro. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
 > ⚠ **Destino `loungerie` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
@@ -38,13 +38,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **1 de 3** de Loungerie nos acervos |
+| Reunião | **1 de 4** de Loungerie nos acervos |
 | Data | **2026-07-29** — **58 dias atrás** |
-| Depois dela | **2 reuniões** — a última em **2026-09-02** |
+| Depois dela | **3 reuniões** — a última em **2026-09-14** |
 | Status no corpus | `Onboarding` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-07-29**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **2 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **3 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

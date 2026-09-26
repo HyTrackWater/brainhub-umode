@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 2/2
-reunioes_depois: 0
+posicao_na_linha_do_tempo: 10/11
+reunioes_depois: 1
 idade_em_dias: 218
 horizonte: historico
 tier: T2
@@ -31,17 +31,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **2 de 2** de Lenny Niemeyer nos acervos |
+| Reunião | **10 de 11** de Lenny Niemeyer nos acervos |
 | Data | **2026-02-19** — **218 dias atrás** |
-| Depois dela | **0 reuniões** — **é a mais recente** |
+| Depois dela | **1 reuniões** — a última em **2026-03-13** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-02-19**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior nos acervos** onde conferir.
-
-🟢 **Limite temporal do churn:** o corpus diz `Churn` (lido em 2026-09-22) e esta é a última
-reunião do cliente nos acervos. **O cliente estava ativo em 2026-02-19 — a saída foi depois.** A data
-exata segue `[a preencher]`.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

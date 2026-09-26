@@ -14,7 +14,7 @@ participantes_sem_email:
   - "Fabiane Sayuri Kanasiro"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 5/13
+posicao_na_linha_do_tempo: 6/14
 reunioes_depois: 8
 idade_em_dias: 413
 horizonte: historico
@@ -35,7 +35,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **5 de 13** de Cambos nos acervos |
+| Reunião | **6 de 14** de Cambos nos acervos |
 | Data | **2025-08-08** — **413 dias atrás** |
 | Depois dela | **8 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

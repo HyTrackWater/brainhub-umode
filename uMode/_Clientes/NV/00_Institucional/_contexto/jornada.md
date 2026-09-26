@@ -90,40 +90,43 @@ mesmos limites**. Cinco chamados em dez dias só para *cadastrar opção de camp
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 5 reuniões, de 2023-07-27 a 2026-06-16
+#### ✅ Aconteceu — 10 reuniões, de 2023-07-27 a 2026-07-07
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2023-07-27 | alinhamento | não confirmada | Juliana | só chat | — |
+| 2024-01-08 | cronograma | não confirmada | Marina | só chat | — |
+| 2024-01-09 | — | não confirmada | Marina | só chat | — |
 | 2024-03-19 | cronograma | não confirmada | Juliana | só chat | — |
 | 2025-03-24 | — | não confirmada | Juliana | só chat | — |
+| 2025-12-18 | — | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-12-18_nv_vanessa-marina-nv-relatorio-de-compras.md) |
+| 2025-12-22 | — | não confirmada | Marina | resumo | [3](../../../../00_Institucional/_inbox-calls/2025-12-22_nv_nv-de-relatorio-de-compras-para-one-page.md) |
 | 2026-06-10 | ficha técnica | interna | Juliana | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-06-10_nv_migracao-conta-nv-ficha.md) |
 | 2026-06-16 | — | interna | Juliana | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2026-06-16_nv_lote-programacao-nv.md) |
+| 2026-07-07 | — | externa | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2026-07-07_nv_homologacao-aperto-de-botoes-flag-varia-cor.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião nos acervos:** 2026-06-16 — *Lote · Programação NV* — **101 dias atrás**.
+- **Última reunião nos acervos:** 2026-07-07 — *Homologação - Aperto de Botões · Flag Varia Cor* — **80 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
-- **Quem esteve na última reunião:** Vanessa Rinaldi · Marina Santoro · Ana Lucia · Juliana Ferré · Fernanda Araujo.
-- ⚠ **Entre 3 e 6 meses sem reunião nos acervos** — 101 dias.
+- **Quem esteve na última reunião:** `allie.terassi@bynv.com.br` · `vinicius.dias@bynv.com.br`.
+- 🟢 **Coerente:** status ativo e reunião há 80 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 1 de 1 itens):
+  - `dor` Problemas de visualização da tela compartilhada: Vinicius Dias, Marina Santoro, Fernanda Araujo e Allie Terassi discutem dificuldades técnicas iniciais com a visualização da tela compartilhada durante a reunião.
 
 #### ⏭ Por vir
 
-🔴 **Nada por vir registrado.** A última reunião tem 101 dias; o que ela prometia é compromisso de 2026-06-16, **com cumprimento não verificado**.
-
-⌛ **O que estava pendente no último contato** (⚠ derivado, 5 itens):
-- [O grupo] Criar campos base: Desenvolver a estrutura de campos customizados do legado no novo sistema. Integrar os campos padrao e personalizados necessarios para a migracao da NV.
-- [Ana Lucia] Implementar sem pack: Adicionar a funcionalidade de cadastro sem o uso de packs. Incorporar a opcao de realizar o fluxo de programacao sem a obrigatoriedade dessa estrutura.
-- [Juliana Ferré] Solicitar dados de uso: Solicitar dados sobre a utilização da funcionalidade de comentários nos lotes para o Vítor.
-- [The group] Projetar protótipo: Projetar um protótipo para o gerenciamento e criação de lotes em um tabelão de fácil digitação, com foco na NV e Kaidu.
-- [The group] Validar protótipo: Validar o protótipo do tabelão de lotes com Marina Santoro e Vanessa Rinaldi após a elaboração.
+⚠ **Compromissos da reunião de 2026-07-07** — derivados do resumo, **não aprovados**:
+- [Anderson Nascimento] Ajustar Integração: Alterar o fluxo de envio de dados para que os campos se tornem imutáveis após o primeiro preenchimento, impedindo que novas ações alterem valores já registrados.
+- [Anderson Nascimento, Marina Santoro] Realizar Teste: Executar uma nova validação de produto no ambiente de homologação para confirmar se a integração mantém os dados consistentes conforme o esperado.
+- [Vinicius Dias] Validar com Equipe: Coordenar com as colaboradoras da NV a validação final do fluxo de liberação após a conclusão dos testes técnicos.
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas

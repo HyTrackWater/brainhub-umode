@@ -1,7 +1,7 @@
 ---
 tipo: registro
 origem: google-meet · resumo do Gemini
-acervo: acervo Juliana Ferré
+acervo: acervo Juliana Ferré + Marina Santoro
 titulo: "🚚 Migração de Sistema - Loungerie"
 data: 2026-09-02
 referente_a: 2026-09-02
@@ -22,10 +22,10 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 3/3
-reunioes_depois: 0
+posicao_na_linha_do_tempo: 3/4
+reunioes_depois: 1
 idade_em_dias: 23
-horizonte: recente
+horizonte: historico
 tier: T2
 tier_motivo: "sem dado pessoal nem valor comercial detectado"
 processado_em: 2026-09-25
@@ -33,7 +33,7 @@ processado_em: 2026-09-25
 # 🚚 Migração de Sistema - Loungerie — 2026-09-02
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
-> **Fonte:** resumo do Gemini, acervo Juliana Ferré. 🔴 **Não há transcrição de fala desta reunião** —
+> **Fonte:** resumo do Gemini, acervo Juliana Ferré + Marina Santoro. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
 > ⚠ **Destino `loungerie` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
@@ -41,21 +41,21 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **3 de 3** de Loungerie nos acervos |
+| Reunião | **3 de 4** de Loungerie nos acervos |
 | Data | **2026-09-02** — **23 dias atrás** |
-| Depois dela | **0 reuniões** — **é a mais recente** |
+| Depois dela | **1 reuniões** — a última em **2026-09-14** |
 | Status no corpus | `Onboarding` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
-🟢 **É a evidência mais recente deste cliente e tem até 90 dias.** O que ela afirma é o
-**último estado conhecido** — não "o estado"; e o que ela promete é o que está **por vir**.
+⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-09-02**; o que prometia
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 
-### 🔄 Acontecendo — último estado conhecido, 2026-09-02
+### ✅ Aconteceu — em 2026-09-02
 
 - dor: Desejo de Funcionalidade "Canva": Juliana Ferré discute uma melhoria futura, apelidada de "Canva", que funcionaria como uma tela livre para upload de imagens e anotações (setas, textos) estilo formato A4, superando a atual limitação de espaço para rabiscos. — [resumo Gemini 2026-09-02] ⚠ PROPOSTA · DERIVADA
 
-### ⏭ Por vir — compromissos da reunião mais recente
+### ⌛ Compromissos de 2026-09-02 — cumprimento não verificado
 
 - entrega: [O grupo] Testar sistema: Explorar as funcionalidades de solicitações e aprovações via computador e celular. Enviar feedbacks sobre usabilidade e possíveis melhorias para a equipe. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA
 - entrega: [Fernanda Araujo] Apresentar fluxos: Apresentar o fluxo completo de lote e aposta para o time na próxima reunião. Demonstrar como o processo funcionará de forma independente para diferentes clientes. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA

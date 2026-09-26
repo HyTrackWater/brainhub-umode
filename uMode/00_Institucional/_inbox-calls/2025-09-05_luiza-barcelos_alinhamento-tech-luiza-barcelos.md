@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 11/18
-reunioes_depois: 7
+posicao_na_linha_do_tempo: 16/25
+reunioes_depois: 9
 idade_em_dias: 385
 horizonte: historico
 tier: T2
@@ -31,13 +31,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **11 de 18** de Luiza Barcelos nos acervos |
+| Reunião | **16 de 25** de Luiza Barcelos nos acervos |
 | Data | **2025-09-05** — **385 dias atrás** |
-| Depois dela | **7 reuniões** — a última em **2026-09-22** |
+| Depois dela | **9 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-09-05**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **7 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **9 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

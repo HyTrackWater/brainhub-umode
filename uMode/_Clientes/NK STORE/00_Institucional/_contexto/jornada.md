@@ -111,6 +111,55 @@ sobre **campos duplicados no cadastro** e **valores da ficha que não chegam ao 
 | **06–29/01/2026** | **30 chamados de 10 pessoas** — **21 ficam abertos** | `Chamados & Atendimentos` |
 | **04/08/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Marina Santoro — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 10 reuniões, de 2024-06-18 a 2026-06-30
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2024-06-18 | kick-off | não confirmada | Marina | só chat | — |
+| 2024-11-12 | — | não confirmada | Marina | só chat | — |
+| 2024-11-13 | — | não confirmada | Marina | só chat | — |
+| 2025-01-07 | — | não confirmada | Marina | só chat | — |
+| 2025-03-12 | — | não confirmada | Marina | só chat | — |
+| 2025-08-08 | integração | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-08-08_nk-store_umode-nk-revisao-integracao-leitura-e-escrita.md) |
+| 2025-09-19 | weekly | não confirmada | Marina | resumo | [8](../../../../00_Institucional/_inbox-calls/2025-09-19_nk-store_weekly-nk-store-umode.md) |
+| 2026-04-02 | teste | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2026-04-02_nk-store_umode-nk-teste-rota-operacao-homologacao.md) |
+| 2026-04-08 | integração | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2026-04-08_nk-store_umode-nk-teste-de-integracao-rota-operacao.md) |
+| 2026-06-30 | — | externa | Marina | resumo | [10](../../../../00_Institucional/_inbox-calls/2026-06-30_nk-store_umode-nk-view-de-mp.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2026-06-30 — *uMode · NK - View de MP* — **87 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** `cristina@nkstore.com.br` · `kemelly.fernandes@nkstore.com.br`.
+- 🟢 **Coerente:** status ativo e reunião há 87 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 3 de 3 itens):
+  - `dor` Acesso ao Google Drive e Integração de Conta: Kemelly Fernandes relata dificuldades recorrentes de acesso à pasta do Google Drive, pois a conta corporativa da NK utiliza Outlook e não está vinculada ao sistema Google, exigindo uma solução ou link direto…
+  - `dor` Integridade dos Dados e Validação: Kemelly Fernandes aponta problemas na integração de dados, onde informações presentes nas fichas técnicas aparecem como campos em branco ou zerados na planilha, e propõe realizar a validação de uma amostra de itens para…
+  - `dor` Controle de Alterações e Notificações: Marina Santoro e Kemelly Fernandes discutem a dificuldade de monitorar as alterações diárias feitas pela equipe de estilo em cerca de 90 produtos.
+
+#### ⏭ Por vir
+
+⚠ **Compromissos da reunião de 2026-06-30** — derivados do resumo, **não aprovados**:
+- [Vinicius Risoleo, Marina Santoro] Ajustar Consolidação: Somar materiais e cores nas abas de tecido e aviamento com precisão.
+- [Vinicius Risoleo, Marina Santoro] Padronizar Formatos: Ajustar códigos de cores com zeros à esquerda e definir padrão de duas casas decimais para valores.
+- [Vinicius Risoleo, Marina Santoro] Auditoria de Dados: Auditar integração entre fichas técnicas e planilhas para eliminar campos vazios indevidos.
+- [Vinicius Risoleo, Marina Santoro] Remover Abas: Excluir abas consolidadas por produto que não possuem utilidade prática.
+- [Vinicius Risoleo, Marina Santoro] Configurar Notificações: Implementar envio automático de e-mails diários sobre alterações em fichas técnicas.
+- [Vinicius Risoleo, Marina Santoro] Resolver Acesso: Corrigir problema de permissão no Google Drive para contas com domínio Outlook.
+- [Kemelly Fernandes] Validar Dados: Testar exemplos de materiais para confirmar correção das integrações e consolidar validação.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Estado |
 |---|---|

@@ -15,7 +15,7 @@ participantes_sem_email:
   - "Andrea Holmer"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/13
+posicao_na_linha_do_tempo: 9/14
 reunioes_depois: 5
 idade_em_dias: 381
 horizonte: historico
@@ -36,7 +36,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 13** de Cambos nos acervos |
+| Reunião | **9 de 14** de Cambos nos acervos |
 | Data | **2025-09-09** — **381 dias atrás** |
 | Depois dela | **5 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

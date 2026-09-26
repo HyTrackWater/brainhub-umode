@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 1/2
-reunioes_depois: 1
+posicao_na_linha_do_tempo: 9/11
+reunioes_depois: 2
 idade_em_dias: 234
 horizonte: historico
 tier: T2
@@ -31,13 +31,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **1 de 2** de Lenny Niemeyer nos acervos |
+| Reunião | **9 de 11** de Lenny Niemeyer nos acervos |
 | Data | **2026-02-03** — **234 dias atrás** |
-| Depois dela | **1 reuniões** — a última em **2026-02-19** |
+| Depois dela | **2 reuniões** — a última em **2026-03-13** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-02-03**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **2 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

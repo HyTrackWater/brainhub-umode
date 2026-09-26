@@ -15,8 +15,8 @@ participantes_sem_email:
   - "Ana Lucia"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 75/98
-reunioes_depois: 23
+posicao_na_linha_do_tempo: 97/128
+reunioes_depois: 31
 idade_em_dias: 296
 horizonte: historico
 tier: T0
@@ -36,13 +36,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **75 de 98** de destino não identificado nos acervos |
+| Reunião | **97 de 128** de destino não identificado nos acervos |
 | Data | **2025-12-03** — **296 dias atrás** |
-| Depois dela | **23 reuniões** — a última em **2026-09-22** |
+| Depois dela | **31 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-12-03**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **23 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **31 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

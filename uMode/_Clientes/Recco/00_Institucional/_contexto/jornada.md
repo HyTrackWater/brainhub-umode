@@ -77,6 +77,53 @@ tags:
 > 🔴 **O vão entre o kick-off e a primeira demanda é de cinco meses.** O kick-off é de 27/02 e a
 > primeira demanda registrada é de 18/07. **Nenhuma fonte varrida explica o que houve no meio.**
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Marina Santoro — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 11 reuniões, de 2025-02-27 a 2025-10-16
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2025-02-27 | — | não confirmada | Marina | só chat | — |
+| 2025-02-27 | kick-off | não confirmada | Marina | só chat | — |
+| 2025-03-28 | — | não confirmada | Marina | só chat | — |
+| 2025-04-01 | — | não confirmada | Marina | só chat | — |
+| 2025-04-02 | tabela de medidas | não confirmada | Marina | só chat | — |
+| 2025-04-10 | — | não confirmada | Marina | só chat | — |
+| 2025-08-01 | treinamento | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-08-01_recco_umode-recco-uflow-fase-1-treinamento-usuarios-ch.md) |
+| 2025-08-14 | weekly | não confirmada | Marina | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-08-14_recco_weekly-recco-umode.md) |
+| 2025-09-04 | weekly | não confirmada | Marina | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-09-04_recco_weekly-recco-umode.md) |
+| 2025-09-11 | weekly | não confirmada | Marina | resumo | [12](../../../../00_Institucional/_inbox-calls/2025-09-11_recco_weekly-recco-umode.md) |
+| 2025-10-16 | weekly | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-10-16_recco_weekly-recco-umode.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2025-10-16 — *Weekly Recco · uMode* — **344 dias atrás**.
+- **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🟢 **Limite do churn:** o cliente estava em reunião em **2025-10-16**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 344 dias; o que ela prometia é compromisso de 2025-10-16, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 7 itens):
+- Julianne Rodrigues criará um campo para rendimento, uma planilha base de importação para editar tecidos e enviará para Engenharia Patricia.
+- Engenharia Patricia enviará as listas de opções de linha e o print da tela de impressão da ficha completa para Julianne Rodrigues.
+- Engenharia Patricia pedirá para o estilo verificar se algum material que estava faltando foi adicionado.
+- Engenharia Patricia e sua equipe testarão as duas opções de aba de prova, com um campo de observação separado para engenharia, modelagem e estilo.
+- Julianne Rodrigues levará para um fórum interno a questão de o estilo ter que criar uma 'caixinha' para materiais homologados e aprovados.
+- Julianne Rodrigues se comprometeu a enviar a planilha até o dia seguinte e que a análise do molde ficará pronta para teste na segunda ou terça-feira.
+- Ela se comprometeu a enviar a planilha e configurar a aba de provas para teste, destacando que a colaboração da equipe é crucial para o avanço das implementações.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 **Três fases, definidas no kick-off de 27/02/2025:** `[C]`
 1. **Cadastro de produtos**

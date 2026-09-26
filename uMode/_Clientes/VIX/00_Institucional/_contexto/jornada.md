@@ -85,31 +85,42 @@ ao mesmo tempo **uma variante foi excluída sem que ninguém soubesse quem fez**
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 4 reuniões, de 2023-05-05 a 2025-08-25
+#### ✅ Aconteceu — 9 reuniões, de 2023-05-05 a 2025-09-30
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2023-05-05 | — | não confirmada | Juliana | só chat | — |
+| 2023-09-27 | integração | não confirmada | Marina | só chat | — |
+| 2023-09-28 | integração | não confirmada | Marina | só chat | — |
+| 2023-10-18 | integração | não confirmada | Marina | só chat | — |
 | 2024-06-04 | — | não confirmada | Juliana | só chat | — |
+| 2024-10-16 | alinhamento | não confirmada | Marina | só chat | — |
 | 2025-03-31 | — | não confirmada | Juliana | só chat | — |
 | 2025-08-25 | — | não confirmada | Juliana | resumo | — |
+| 2025-09-30 | — | não confirmada | Marina | resumo | [5](../../../../00_Institucional/_inbox-calls/2025-09-30_vix_umode-vix-api-de-qualidade.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião nos acervos:** 2025-08-25 — *Relatório Vix* — **396 dias atrás**.
+- **Última reunião nos acervos:** 2025-09-30 — *uMode · Vix - API de Qualidade* — **360 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
-- 🔴 **`Ongoing` no corpus e 396 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+- 🔴 **`Ongoing` no corpus e 360 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
 
 #### ⏭ Por vir
 
-🔴 **Nada por vir registrado.** A última reunião tem 396 dias; o que ela prometia é compromisso de 2025-08-25, **com cumprimento não verificado**.
+🔴 **Nada por vir registrado.** A última reunião tem 360 dias; o que ela prometia é compromisso de 2025-09-30, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 4 itens):
+- Marina Santoro vai documentar os campos da ficha técnica em uma planilha, incluindo a imagem do tipo desenho LS, e enviar por e-mail para as equipes de qualidade e desenvolvimento revisarem.
+- Luciana Riccioppo e JAQUELINE GOMES precisarão informar a Marina Santoro quaisquer campos adicionais necessários além da ficha técnica, ou alinhar com o desenvolvimento sobre a categoria das imagens que precisam ser incluídas na API, respondendo ao e-mail…
+- Luciana Riccioppo vai falar com a Lu para verificar se há algum outro campo relevante para inclusão na API.
+- Marina Santoro se comprometeu a enviar um e-mail com a listagem dos campos mapeados para revisão e confirmação final, visando fechar o escopo ainda na mesma semana.
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas

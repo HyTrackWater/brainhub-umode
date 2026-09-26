@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 97/98
-reunioes_depois: 1
+posicao_na_linha_do_tempo: 126/128
+reunioes_depois: 2
 idade_em_dias: 15
 horizonte: historico
 tier: T2
@@ -31,13 +31,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **97 de 98** de destino não identificado nos acervos |
+| Reunião | **126 de 128** de destino não identificado nos acervos |
 | Data | **2026-09-10** — **15 dias atrás** |
-| Depois dela | **1 reuniões** — a última em **2026-09-22** |
+| Depois dela | **2 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-09-10**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **2 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

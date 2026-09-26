@@ -16,7 +16,7 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 6/10
+posicao_na_linha_do_tempo: 14/18
 reunioes_depois: 4
 idade_em_dias: 37
 horizonte: historico
@@ -35,7 +35,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **6 de 10** de Lofty Style nos acervos |
+| Reunião | **14 de 18** de Lofty Style nos acervos |
 | Data | **2026-08-19** — **37 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

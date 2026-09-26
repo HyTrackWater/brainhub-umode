@@ -15,8 +15,8 @@ participantes_sem_email:
   - "Andrea Holmer"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 13/18
-reunioes_depois: 5
+posicao_na_linha_do_tempo: 18/25
+reunioes_depois: 7
 idade_em_dias: 371
 horizonte: historico
 tier: T2
@@ -36,13 +36,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **13 de 18** de Luiza Barcelos nos acervos |
+| Reunião | **18 de 25** de Luiza Barcelos nos acervos |
 | Data | **2025-09-19** — **371 dias atrás** |
-| Depois dela | **5 reuniões** — a última em **2026-09-22** |
+| Depois dela | **7 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-09-19**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **5 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **7 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

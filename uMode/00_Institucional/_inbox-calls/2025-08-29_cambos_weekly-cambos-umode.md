@@ -14,7 +14,7 @@ participantes_sem_email:
   - "Laura Delgado"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 6/13
+posicao_na_linha_do_tempo: 7/14
 reunioes_depois: 7
 idade_em_dias: 392
 horizonte: historico
@@ -35,7 +35,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **6 de 13** de Cambos nos acervos |
+| Reunião | **7 de 14** de Cambos nos acervos |
 | Data | **2025-08-29** — **392 dias atrás** |
 | Depois dela | **7 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

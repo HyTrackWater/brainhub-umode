@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 3/4
-reunioes_depois: 1
+posicao_na_linha_do_tempo: 9/12
+reunioes_depois: 3
 idade_em_dias: 338
 horizonte: historico
 tier: T2
@@ -31,13 +31,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **3 de 4** de Highstil nos acervos |
+| Reunião | **9 de 12** de Highstil nos acervos |
 | Data | **2025-10-22** — **338 dias atrás** |
-| Depois dela | **1 reuniões** — a última em **2026-02-20** |
+| Depois dela | **3 reuniões** — a última em **2026-02-20** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-10-22**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **3 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

@@ -23,8 +23,8 @@ participantes_sem_email:
   - "Ana Lucia"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 5/5
-reunioes_depois: 0
+posicao_na_linha_do_tempo: 9/10
+reunioes_depois: 1
 idade_em_dias: 101
 horizonte: historico
 tier: T2
@@ -44,13 +44,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **5 de 5** de NV nos acervos |
+| Reunião | **9 de 10** de NV nos acervos |
 | Data | **2026-06-16** — **101 dias atrás** |
-| Depois dela | **0 reuniões** — **é a mais recente** |
+| Depois dela | **1 reuniões** — a última em **2026-07-07** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-06-16**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior nos acervos** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

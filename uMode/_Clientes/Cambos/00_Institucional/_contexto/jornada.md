@@ -87,17 +87,18 @@ tags:
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Laura Cardoso e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 13 reuniões, de 2025-06-12 a 2026-09-23
+#### ✅ Aconteceu — 14 reuniões, de 2024-05-08 a 2026-09-23
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
+| 2024-05-08 | kick-off | não confirmada | Marina | só chat | — |
 | 2025-06-12 | treinamento | não confirmada | Laura | resumo | [13](../../../../00_Institucional/_inbox-calls/2025-06-12_cambos_treinamento-cambos-umode.md) |
 | 2025-06-18 | workflow | não confirmada | Laura | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-18_cambos_workflow-cambos.md) |
 | 2025-07-23 | discovery | não confirmada | Laura | resumo | — |

@@ -15,7 +15,7 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 4/4
+posicao_na_linha_do_tempo: 5/5
 reunioes_depois: 0
 idade_em_dias: 73
 horizonte: recente
@@ -34,7 +34,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **4 de 4** de Reserva nos acervos |
+| Reunião | **5 de 5** de Reserva nos acervos |
 | Data | **2026-07-14** — **73 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

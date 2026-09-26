@@ -117,17 +117,22 @@ julho de 2026. `[C]`
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 18 reuniões, de 2025-05-06 a 2026-09-22
+#### ✅ Aconteceu — 25 reuniões, de 2024-11-08 a 2026-09-22
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
+| 2024-11-08 | weekly | não confirmada | Marina | só chat | — |
+| 2024-12-05 | — | não confirmada | Marina | só chat | — |
+| 2024-12-10 | dúvidas | não confirmada | Marina | só chat | — |
+| 2025-01-30 | integração | não confirmada | Marina | só chat | — |
+| 2025-03-17 | — | não confirmada | Marina | só chat | — |
 | 2025-05-06 | treinamento | não confirmada | Laura | só chat | — |
 | 2025-05-27 | alinhamento | não confirmada | Laura | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_luiza-barcelos-umode-alinhamento-de-demandas-tim.md) |
 | 2025-05-27 | weekly | não confirmada | Laura | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_weekly-tech-luiza-barcelos-umode.md) |
@@ -142,6 +147,8 @@ julho de 2026. `[C]`
 | 2025-09-16 | discovery | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-16_luiza-barcelos_discovery-fornecedores-luiza-barcelos-umode.md) |
 | 2025-09-19 | weekly | não confirmada | Laura | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-19_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
 | 2025-09-24 | alinhamento | não confirmada | Laura | resumo + **transcrição** | [15](../../../../00_Institucional/_inbox-calls/2025-09-24_luiza-barcelos_alinhamento-e-duvidas-umode-luiza-barcelos.md) |
+| 2025-10-30 | integração | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-10-30_luiza-barcelos_umode-luiza-barcelos-checkpoint-integracao-de-it.md) |
+| 2025-11-04 | integração | não confirmada | Marina | resumo | [5](../../../../00_Institucional/_inbox-calls/2025-11-04_luiza-barcelos_umode-luiza-barcelos-checkpoint-integracao-de-it.md) |
 | 2026-01-29 | discovery | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-01-29_luiza-barcelos_umode-luiza-barcelos-discovery-de-gestao-de-avia.md) |
 | 2026-05-05 | weekly | externa | Laura | resumo | [3](../../../../00_Institucional/_inbox-calls/2026-05-05_luiza-barcelos_weekly-luiza-barcelos-umode.md) |
 | 2026-06-09 | ritual quinzenal | externa | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-06-09_luiza-barcelos_alinhamento-quinzenal-luiza-barcelos-umode.md) |

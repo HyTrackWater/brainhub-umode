@@ -86,29 +86,46 @@ externas — e cronograma sem data firme.** **uBuy iniciado em jan/2026.**
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 2 reuniões, de 2023-10-18 a 2023-10-27
+#### ✅ Aconteceu — 12 reuniões, de 2023-10-18 a 2026-09-09
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2023-10-18 | teste | não confirmada | Juliana | só chat | — |
 | 2023-10-27 | teste | não confirmada | Juliana | só chat | — |
+| 2025-04-24 | — | não confirmada | Marina | só chat | — |
+| 2025-06-18 | — | não confirmada | Marina | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-06-18_osklen_umode-osklen-devolutiva-mapa-de-jornadas-assunto.md) |
+| 2025-07-14 | weekly | não confirmada | Marina | resumo + **transcrição** | — |
+| 2025-08-18 | weekly | não confirmada | Marina | resumo + **transcrição** | [5](../../../../00_Institucional/_inbox-calls/2025-08-18_osklen_weekly-osklen-umode.md) |
+| 2025-09-15 | weekly | não confirmada | Marina | resumo | [5](../../../../00_Institucional/_inbox-calls/2025-09-15_osklen_weekly-osklen-umode.md) |
+| 2025-11-10 | weekly | não confirmada | Marina | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2025-11-10_osklen_weekly-osklen-umode.md) |
+| 2025-12-08 | weekly | não confirmada | Marina | resumo + **transcrição** | [9](../../../../00_Institucional/_inbox-calls/2025-12-08_osklen_weekly-osklen-umode.md) |
+| 2026-03-27 | teste | não confirmada | Marina | resumo | [5](../../../../00_Institucional/_inbox-calls/2026-03-27_osklen_osklen-teste-acervo.md) |
+| 2026-05-04 | integração | externa | Marina | resumo | [12](../../../../00_Institucional/_inbox-calls/2026-05-04_osklen_umode-osklen-teste-integracao-perenes.md) |
+| 2026-09-09 | — | interna | Marina | resumo + **transcrição** | [5](../../../../00_Institucional/_inbox-calls/2026-09-09_osklen_osklen-variante-em-n-colecoes-pastas.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião nos acervos:** 2023-10-27 — *uMode · Osklen · Teste de Preenchimento - Vest Masculino (2023-10-27 10·08 GMT-3)* — **1064 dias atrás**.
+- **Última reunião nos acervos:** 2026-09-09 — *[Osklen] Variante em N coleções (pastas)* — **16 dias atrás**.
 - **Status no corpus:** `Operação Assistida` — varredura de 2026-09-22 (data da **leitura**, não da transição).
-- 🔴 **`Operação Assistida` no corpus e 1064 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+- **Quem esteve na última reunião:** Marina Santoro · Bergson de Lima Marques.
+- 🟢 **Coerente:** status ativo e reunião há 16 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 1 de 1 itens):
+  - `dor` Marina Santoro demonstrou que é possível vincular variantes a pastas específicas dentro das coleções, mas identificou um problema técnico onde a contagem de produtos aparece zerada na visão de "todas as coleções", apesar dos produtos terem sido alocados…
 
 #### ⏭ Por vir
 
-🔴 **Nada por vir registrado.** A última reunião tem 1064 dias; o que ela prometia é compromisso de 2023-10-27, **com cumprimento não verificado**.
+⚠ **Compromissos da reunião de 2026-09-09** — derivados do resumo, **não aprovados**:
+- [Bergson de Lima Marques] Ajustar Funcionalidades: Corrigir a exibição do contador de produtos nas coleções e ajustar a visualização do mapa para mostrar apenas as variantes vinculadas à coleção específica.
+- [Marina Santoro] Documentar Ajustes: Comentar os dois últimos ajustes necessários na tarefa da prova de conceito para documentar as pendências.
+- [Marina Santoro] Validar Alterações: Testar os ajustes em ambiente de homologação após a liberação e validar com o time interno.
+- [Marina Santoro] Apresentar ao Cliente: Apresentar as funcionalidades atualizadas em homologação para o cliente antes da reunião de segunda-feira.
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas

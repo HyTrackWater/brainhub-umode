@@ -1,7 +1,7 @@
 ---
 tipo: registro
 origem: google-meet · resumo do Gemini
-acervo: acervo Juliana Ferré
+acervo: acervo Juliana Ferré + Marina Santoro
 titulo: "💜 Reconhecimento do Novo Sistema 💜"
 data: 2026-08-11
 referente_a: 2026-08-11
@@ -32,7 +32,7 @@ processado_em: 2026-09-25
 # 💜 Reconhecimento do Novo Sistema 💜 — 2026-08-11
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
-> **Fonte:** resumo do Gemini, acervo Juliana Ferré. 🔴 **Não há transcrição de fala desta reunião** —
+> **Fonte:** resumo do Gemini, acervo Juliana Ferré + Marina Santoro. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
 > 🟢 **Destino `casa` saiu do e-mail dos participantes** — natureza **interna**.
 

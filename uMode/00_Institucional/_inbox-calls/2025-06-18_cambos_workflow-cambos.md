@@ -12,7 +12,7 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 2/13
+posicao_na_linha_do_tempo: 3/14
 reunioes_depois: 11
 idade_em_dias: 464
 horizonte: historico
@@ -31,7 +31,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **2 de 13** de Cambos nos acervos |
+| Reunião | **3 de 14** de Cambos nos acervos |
 | Data | **2025-06-18** — **464 dias atrás** |
 | Depois dela | **11 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

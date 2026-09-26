@@ -50,14 +50,14 @@ tags:
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 14 reuniões, de 2025-11-03 a 2026-08-04
+#### ✅ Aconteceu — 16 reuniões, de 2025-11-03 a 2026-08-04
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
@@ -66,7 +66,9 @@ tags:
 | 2026-02-03 | — | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-02-03_moda-objetiva_mod-objetiva-umode-cadastro-e-compras.md) |
 | 2026-02-12 | — | não confirmada | Laura | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-02-12_moda-objetiva_moda-objetiva-umode-cadastro-e-compras.md) |
 | 2026-03-26 | weekly | não confirmada | Laura | resumo | [10](../../../../00_Institucional/_inbox-calls/2026-03-26_moda-objetiva_umode-moda-objetiva-weekly.md) |
+| 2026-04-24 | integração | externa | Marina | resumo | [11](../../../../00_Institucional/_inbox-calls/2026-04-24_moda-objetiva_umode-moda-objetiva-validacao-integracao-leitura.md) |
 | 2026-05-13 | integração | externa | Laura | resumo | [12](../../../../00_Institucional/_inbox-calls/2026-05-13_moda-objetiva_umode-moda-objetiva-integracao.md) |
+| 2026-05-25 | integração | externa | Marina | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-05-25_moda-objetiva_umode-moda-objetiva-integracao-de-escrita.md) |
 | 2026-06-19 | integração | externa | Laura | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-06-19_moda-objetiva_duvidas-integracao-objetiva-umode.md) |
 | 2026-07-03 | integração | externa | Laura | resumo | [9](../../../../00_Institucional/_inbox-calls/2026-07-03_moda-objetiva_alinhamento-integracao-moda-objetiva.md) |
 | 2026-07-08 | cronograma | externa | Laura | resumo | [5](../../../../00_Institucional/_inbox-calls/2026-07-08_moda-objetiva_cronograma-umode-objetiva.md) |

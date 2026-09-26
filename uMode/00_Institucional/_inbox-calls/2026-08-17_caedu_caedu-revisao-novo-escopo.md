@@ -1,7 +1,7 @@
 ---
 tipo: registro
 origem: google-meet · resumo do Gemini
-acervo: acervo Juliana Ferré
+acervo: acervo Juliana Ferré + Marina Santoro
 titulo: "Caedu - Revisão Novo Escopo"
 data: 2026-08-17
 referente_a: 2026-08-17
@@ -16,7 +16,7 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 4/4
+posicao_na_linha_do_tempo: 5/5
 reunioes_depois: 0
 idade_em_dias: 39
 horizonte: recente
@@ -27,7 +27,7 @@ processado_em: 2026-09-25
 # Caedu - Revisão Novo Escopo — 2026-08-17
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
-> **Fonte:** resumo do Gemini, acervo Juliana Ferré. 🔴 **Não há transcrição de fala desta reunião** —
+> **Fonte:** resumo do Gemini, acervo Juliana Ferré + Marina Santoro. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
 > ⚠ **Destino `caedu` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
@@ -35,7 +35,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **4 de 4** de Caedu nos acervos |
+| Reunião | **5 de 5** de Caedu nos acervos |
 | Data | **2026-08-17** — **39 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

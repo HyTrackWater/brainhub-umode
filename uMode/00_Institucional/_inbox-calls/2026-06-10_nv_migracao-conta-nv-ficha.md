@@ -17,8 +17,8 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 4/5
-reunioes_depois: 1
+posicao_na_linha_do_tempo: 8/10
+reunioes_depois: 2
 idade_em_dias: 107
 horizonte: historico
 tier: T2
@@ -36,13 +36,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **4 de 5** de NV nos acervos |
+| Reunião | **8 de 10** de NV nos acervos |
 | Data | **2026-06-10** — **107 dias atrás** |
-| Depois dela | **1 reuniões** — a última em **2026-06-16** |
+| Depois dela | **2 reuniões** — a última em **2026-07-07** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-06-10**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **2 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

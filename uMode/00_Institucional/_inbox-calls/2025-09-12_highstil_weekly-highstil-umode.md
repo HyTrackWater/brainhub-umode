@@ -15,8 +15,8 @@ participantes_sem_email:
   - "Apresentação de Andrea Holmer"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 1/4
-reunioes_depois: 3
+posicao_na_linha_do_tempo: 7/12
+reunioes_depois: 5
 idade_em_dias: 378
 horizonte: historico
 tier: T2
@@ -36,13 +36,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **1 de 4** de Highstil nos acervos |
+| Reunião | **7 de 12** de Highstil nos acervos |
 | Data | **2025-09-12** — **378 dias atrás** |
-| Depois dela | **3 reuniões** — a última em **2026-02-20** |
+| Depois dela | **5 reuniões** — a última em **2026-02-20** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-09-12**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **3 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **5 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

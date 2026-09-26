@@ -43,20 +43,28 @@ tags:
 <!-- acervos-reunioes:linha-do-tempo:inicio -->
 ### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso e Marina Santoro — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
 > ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
 > **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 4 reuniões, de 2025-09-12 a 2026-02-20
+#### ✅ Aconteceu — 12 reuniões, de 2025-02-24 a 2026-02-20
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
+| 2025-02-24 | — | não confirmada | Marina | só chat | — |
+| 2025-04-02 | — | não confirmada | Marina | só chat | — |
+| 2025-04-03 | ficha técnica | não confirmada | Marina | só chat | — |
+| 2025-06-10 | — | não confirmada | Marina | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-10_highstil_umode-highstil-mapa-de-jornada.md) |
+| 2025-08-08 | weekly | não confirmada | Marina | resumo + **transcrição** | — |
+| 2025-08-13 | treinamento | não confirmada | Marina | resumo | [5](../../../../00_Institucional/_inbox-calls/2025-08-13_highstil_umode-highstil-uflow-fase-1-treinamento-usuarios.md) |
 | 2025-09-12 | weekly | não confirmada | Laura | resumo + **transcrição** | [7](../../../../00_Institucional/_inbox-calls/2025-09-12_highstil_weekly-highstil-umode.md) |
 | 2025-09-19 | weekly | não confirmada | Laura | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-09-19_highstil_weekly-highstil-umode.md) |
 | 2025-10-22 | integração | não confirmada | Laura | resumo | [3](../../../../00_Institucional/_inbox-calls/2025-10-22_highstil_duvidas-de-integracao-highstil-umode.md) |
+| 2025-12-10 | — | não confirmada | Marina | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-12-10_highstil_umode-highstil-acesso-totvs-treino-e-producao.md) |
+| 2026-02-05 | integração | não confirmada | Marina | resumo | [5](../../../../00_Institucional/_inbox-calls/2026-02-05_highstil_umode-highstil-homologacao-integracao-de-leitura.md) |
 | 2026-02-20 | weekly | não confirmada | Laura | resumo | [7](../../../../00_Institucional/_inbox-calls/2026-02-20_highstil_weekly-highstil-umode.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido

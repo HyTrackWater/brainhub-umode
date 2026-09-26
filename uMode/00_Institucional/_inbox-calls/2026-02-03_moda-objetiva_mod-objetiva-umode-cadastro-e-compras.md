@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 3/14
-reunioes_depois: 11
+posicao_na_linha_do_tempo: 3/16
+reunioes_depois: 13
 idade_em_dias: 234
 horizonte: historico
 tier: T2
@@ -31,13 +31,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **3 de 14** de Moda Objetiva nos acervos |
+| Reunião | **3 de 16** de Moda Objetiva nos acervos |
 | Data | **2026-02-03** — **234 dias atrás** |
-| Depois dela | **11 reuniões** — a última em **2026-08-04** |
+| Depois dela | **13 reuniões** — a última em **2026-08-04** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-02-03**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **11 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **13 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 
