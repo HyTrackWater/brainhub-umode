@@ -122,7 +122,7 @@ a § 6 congelada uma sessão atrás, e a fila de perguntas inflada.
 | | Número | Como se mede |
 |---|---:|---|
 | Clientes no corpus | **48** | pastas em `_Clientes/` |
-| MDs em `uMode/` | **2.896** | `find` |
+| MDs em `uMode/` | **2.899** | `find` |
 | `contexto-area.md` conformes | **694 / 694** | `valida-padrao-corpus.py` |
 | `institucional.md` · `jornada.md` · `pessoas.md` | **50 · 49 · 49** | idem |
 | Demandas | **999** — 994 de cliente + 5 da Casa | idem · 1 staging `SUPERSEDED` |

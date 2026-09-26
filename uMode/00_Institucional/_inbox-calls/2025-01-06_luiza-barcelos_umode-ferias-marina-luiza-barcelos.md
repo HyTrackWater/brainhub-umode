@@ -61,9 +61,9 @@ processado_em: 2026-09-25
 - erp: Não está claro se o código de cor no SafeTech tem um dígito ou zeros à esquerda, pois a tela pode diferir do banco; é preciso confirmar com o time de tecnologia da Luiza Barcelos antes de cadastrar. — [transcrição automática 2025-01-06 · 00:03:26] ⚠ PROPOSTA · DERIVADA
 - entrega: A Laura assume a conta da Luiza Barcelos por 15 dias durante as férias da responsável, com foco em finalizar cores, fornecedores e tecidos/aviamentos, cobrando do cliente o envio das listas. — [transcrição automática 2025-01-06 · 00:10:05] ⚠ PROPOSTA · DERIVADA
 - entrega: Treinamento da Luiza Barcelos pré-agendado para 27 jan 2025, na volta das férias, condicionado à conclusão das configurações pendentes. — [transcrição automática 2025-01-06 · 00:10:18] ⚠ PROPOSTA · DERIVADA
-- entrega: Ficou combinado deixar pronta uma base de importação da Luiza Barcelos em Excel Online, no mesmo modelo da base validada da NK Store, para carga massiva de cadastros como as cores. — [transcrição automática 2025-01-06 · 00:11:04] ⚠ PROPOSTA · DERIVADA
 - erp: A integração com o SafeTech ainda não começou e está sem responsável definido na uMode; precisa ser iniciada dentro do programa do projeto, sendo a primeira vez que se integra esse ERP. — [transcrição automática 2025-01-06 · 00:18:57] ⚠ PROPOSTA · DERIVADA
 - marco: O Go Light da Luiza Barcelos, previsto para 20 jan 2025, foi adiado em uma semana por coincidir com férias e por uma mudança de foco no meio do projeto. — [transcrição automática 2025-01-06 · 00:22:01] ⚠ PROPOSTA · DERIVADA
+- entrega: Ficou combinado deixar pronta uma base de importação da Luiza Barcelos em Excel Online, para carga massiva de cadastros como as cores. — [transcrição automática 2025-01-06 · 00:11:04] ⚠ PROPOSTA · DERIVADA
 
 ## Governança
 

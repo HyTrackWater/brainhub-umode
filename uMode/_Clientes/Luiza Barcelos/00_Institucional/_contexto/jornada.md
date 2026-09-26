@@ -133,7 +133,7 @@ julho de 2026. `[C]`
 | 2024-12-04 | alinhamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-12-05 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-12-10 | dúvidas | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2024-12-20 | weekly | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-20 | weekly | não confirmada | Marina | vídeo + transcrição automática | [14](../../../../00_Institucional/_inbox-calls/2024-12-20_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
 | 2025-01-06 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-01-06_luiza-barcelos_umode-ferias-marina-luiza-barcelos.md) |
 | 2025-01-28 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-01-28_luiza-barcelos_umode-luiza-barcelos-revisao-de-campos-para-go-l.md) |
 | 2025-01-30 | integração | não confirmada | Marina | vídeo + transcrição automática | [13](../../../../00_Institucional/_inbox-calls/2025-01-30_luiza-barcelos_umode-luiza-barcelos-integracao.md) |
