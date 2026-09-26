@@ -76,6 +76,7 @@ Todas em `uMode/00_Institucional/_contexto/`, salvo indicação.
 | Arquivo | É dono de |
 |---|---|
 | [`_espec-banco-brainhub.md`](uMode/00_Institucional/_contexto/_espec-banco-brainhub.md) | **o banco** — collections, campos, relações, invariantes |
+| [`jornada.md` da Casa](uMode/00_Institucional/_contexto/jornada.md) | **a linha do tempo da própria uMode** — o que aconteceu, está acontecendo e está por vir na Casa. Criada em 25/09/2026 (pendência 780) |
 | 🚨 [`_recebido-2026-09-25-acervo-reunioes-laura-cardoso.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-25-acervo-reunioes-laura-cardoso.md) — **101 arquivos, 19 clientes, 4 anos. ⚠ Dizia "zero transcrição": errado, 17 `.docx` têm fala (item 774). 90 pessoas de cliente por e-mail, 82 novas: resolve a identidade que a CAEDU deixou aberta. 7 telefones e 3 CPFs achados e não copiados** ·
 | 🟢 [`_recebido-2026-09-25-acervo-reunioes-juliana-ferre.md`](uMode/00_Institucional/_contexto/_recebido-2026-09-25-acervo-reunioes-juliana-ferre.md) — **150 reuniões, 4 anos, a agenda de uma diretora: é o primeiro acervo que mostra a linha do tempo da CASA — o programa de migração de sistema de ago–set/2026. 59% não roteia, e isso está declarado** ·
 🚨 [`_avaliacao-2026-09-25-merge-dos-tres-cerebros.md`](uMode/00_Institucional/_contexto/_avaliacao-2026-09-25-merge-dos-tres-cerebros.md) — **os três cérebros não são três versões, são três camadas: Pedro é runtime, João é governança, este corpus é ontologia. Quatro nomes para a mesma coisa nos três documentos. Nada meu roda e eu não meço nada** ·

@@ -39,6 +39,10 @@ Loungerie · Hering · Lenny Niemeyer · Colmeia · Osklen · Puket · TDC.
 
 ## 2 · 🟢 O que ele traz que nenhuma fonte tinha: a linha do tempo da CASA
 
+> ⚠ **`SUPERSEDED` em 25/09/2026, só nesta seção, como linha do tempo viva.** O Vinicius decidiu
+> a pendência 780: a linha do tempo da Casa passou a viver no [`jornada.md` da Casa](jornada.md),
+> gerada pelo extrator. **O que segue abaixo fica como evidência do que se viu nesta data.**
+
 A Casa **não tem documento de jornada** — `jornada.md` é classe de cliente. **Onde a linha do
 tempo da Casa deve viver é decisão do Vinicius** (pendência 780). Até lá, ela fica registrada
 aqui, datada.

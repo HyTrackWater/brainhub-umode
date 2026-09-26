@@ -36,6 +36,10 @@ trabalho fluido: pessoas (e, depois, agentes) operam já com o contexto do seu v
 - **Comunicação entre casas:** *demanda* sai da Casa → cliente; *contexto* volta cliente → Casa.
 - **Isolamento:** cada cliente é uma casa fechada; contexto não vaza entre clientes.
 - **Nem todo fluxo envolve cliente:** há processos 100% internos (ex.: People), sem demanda.
+- **Toda casa tem `jornada.md` — inclusive a Casa.** No cliente, a jornada são as fases macro da
+  relação uMode↔cliente; **na Casa, é a linha do tempo da própria uMode** (programas, marcos,
+  incidentes): o que aconteceu, o que está acontecendo, o que está por vir. Mesma estrutura de
+  títulos. *Emenda de 25 set 2026, aprovada pelo Vinicius (pendência 780).*
 
 ## Endereçamento de volume
 Todo volume tem um endereço previsível — base para que pessoas e agentes achem o contexto certo:
@@ -190,7 +194,7 @@ máquina** — o cofre ficaria diferente para cada pessoa. **Não vale o rótulo
   `## Demandas` abaixo e em `uMode/00_Institucional/_protocolos/protocolo-gestao-demanda.md`.
 - **Marco (de demanda)** — evento ou decisão pontual registrado dentro de uma demanda, com
   data e responsável. Não confundir com "Marcos da jornada" (fases macro da relação
-  uMode↔cliente, registradas em `jornada.md`).
+  uMode↔cliente, registradas em `jornada.md` — e, na Casa, da própria uMode).
 - **RFI** — Request for Implementation. Formaliza uma demanda para negociação/entrega com o
   cliente; sempre nasce de uma demanda (nunca é aberta do zero), mas nem toda demanda vira
   RFI. Modelo completo em `uMode/00_Institucional/_protocolos/protocolo-gestao-rfi.md`.

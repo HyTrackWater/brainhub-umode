@@ -818,6 +818,79 @@ def escreve_jornada(pasta, linha, st, res):
     return u"ok"
 
 
+CASA_JORNADA = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_contexto", u"jornada.md")
+
+
+def escreve_jornada_casa(linha, res):
+    u"""
+    Linha do tempo da CASA no `jornada.md` dela (decisao do Vinicius, 25/09).
+    ⏱ Diferente do cliente: a Casa tem SERIES paralelas (Migracao, K.A.FE,
+    Reconhecimento do Novo Sistema). "Acontecendo" e por serie - a serie cuja
+    ultima reuniao tem ate JANELA dias.
+    """
+    if not os.path.exists(CASA_JORNADA):
+        return u"sem jornada.md da Casa"
+    t = io.open(CASA_JORNADA, encoding=u"utf-8").read()
+    rel = u"../_inbox-calls/"
+    series = collections.OrderedDict()
+    for r in sorted(linha, key=lambda r: r[u"data"]):
+        series.setdefault(kebab(r[u"titulo"], 30), []).append(r)
+    ordem = sorted(series.values(), key=lambda v: v[-1][u"data"], reverse=True)
+
+    B = [INI, u"### ⏱ Linha do tempo das reuniões da Casa — acervos de reunião", u"",
+         u"> **Fonte:** título e data de cada reunião **interna confirmada** (cabeçalho só com",
+         u"> gente da uMode) nos acervos de %s — **dado primário**. Conferido em **%s**." % (
+             u" e ".join(sorted(set(a for r in linha for a in r[u"acervos"])) ), HOJE.strftime(u"%d/%m/%Y")),
+         u"> ⚠ **Só reunião com cabeçalho entra aqui.** A série `Hora do K.A.FÉ`, por exemplo, tem",
+         u"> mais sessões sem cabeçalho — elas ficam `não confirmada`, fora da Casa.",
+         u"> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**", u"",
+         u"#### ✅ Aconteceu — %d reuniões em %d séries" % (len(linha), len(series)), u"",
+         u"| Série (do título) | Reuniões | Primeira | Última | Propostas no inbox |",
+         u"|---|---:|---|---|---|"]
+    for v in ordem:
+        links = u" · ".join(u"[%s](%s%s.md)" % (r[u"data"].strftime(u"%d/%m"), rel, r[u"arq"])
+                                for r in v if r.get(u"arq"))
+        B.append(u"| %s | %d | %s | %s | %s |" % (
+            v[0][u"titulo"], len(v), v[0][u"data"].isoformat(), v[-1][u"data"].isoformat(), links or u"—"))
+    vivas = [v for v in ordem if (HOJE - v[-1][u"data"]).days <= JANELA]
+    B += [u"", u"#### \U0001F504 Acontecendo — séries com reunião nos últimos %d dias" % JANELA, u""]
+    if vivas:
+        for v in vivas:
+            B.append(u"- **%s** — %d reunião(ões), a última em **%s** (%s atrás)." % (
+                v[0][u"titulo"], len(v), v[-1][u"data"].isoformat(), dias((HOJE - v[-1][u"data"]).days)))
+    else:
+        B.append(u"\U0001F534 **Nenhuma série com reunião nos últimos %d dias.**" % JANELA)
+    B += [u"", u"#### ⏭ Por vir — compromissos da última reunião de cada série viva", u"",
+          u"⚠ **Derivados do resumo do Gemini, não aprovados.** Cada linha aponta o arquivo do inbox.", u""]
+    total = 0
+    for v in vivas:
+        u_ = v[-1]
+        pv = res.get(u_.get(u"arq"), {}).get(u"por-vir", [])
+        if not pv:
+            continue
+        total += len(pv)
+        B.append(u"**%s** — %s · [%d compromissos](%s%s.md)" % (
+            u_[u"titulo"], u_[u"data"].isoformat(), len(pv), rel, u_[u"arq"]))
+        B += linhas_compromisso(pv[:5])
+        if len(pv) > 5:
+            B.append(u"- … e mais %d no arquivo." % (len(pv) - 5))
+        B.append(u"")
+    if not total:
+        B.append(u"`[a preencher]` — nenhuma série viva tem compromisso extraído.")
+    B += [FIM]
+    bloco = u"\n".join(B)
+    if INI in t:
+        t = re.sub(re.escape(INI) + u".*?" + re.escape(FIM), lambda m: bloco, t, flags=re.S)
+    else:
+        a = t.find(u"\n## Marcos da jornada")
+        b = t.find(u"\n## ", a + 5) if a != -1 else -1
+        if b == -1:
+            return u"sem seção Marcos"
+        t = t[:b] + u"\n\n" + bloco + u"\n" + t[b:]
+    io.open(CASA_JORNADA, u"w", encoding=u"utf-8").write(t)
+    return u"ok · %d séries · %d vivas · %d compromissos" % (len(series), len(vivas), total)
+
+
 # ================================================================ main
 def main():
     w = sys.stdout.write
@@ -894,6 +967,8 @@ def main():
                 porbloco[k] += len(v)
 
     jorn = []
+    if porcli.get(u"casa"):
+        jorn.append((u"Casa", len(porcli[u"casa"]), escreve_jornada_casa(porcli[u"casa"], res)))
     for slug, linha in sorted(porcli.items(), key=lambda x: x[0] or u""):
         pasta = linha[0][u"pasta"]
         if pasta:

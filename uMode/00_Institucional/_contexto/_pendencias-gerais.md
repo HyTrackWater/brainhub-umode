@@ -4642,3 +4642,16 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      para o corpus. **E dois defeitos do extrator achados no mesmo passo:** e-mail **pessoal** do
      cabeçalho ia para o front-matter do inbox (**T0**, agora omitido e contado), e o rótulo de
      falante aceitava trecho de fala como nome (`eu falava`) — agora só nome próprio.
+783. 🟢 **Item 780 decidido pelo Vinicius em 25/09: a Casa tem `jornada.md`.** Criado em
+     `00_Institucional/_contexto/jornada.md`, mesma estrutura de títulos do de cliente, com a
+     linha do tempo gerada pelo extrator **por série de reunião** (a Casa tem séries paralelas:
+     16 séries, 13 com reunião nos últimos 90 dias, 81 compromissos por vir). **Emenda no
+     `CONTEXT.md` › `## Regras travadas`** e no glossário; `gera-fatos.py` passou a cobri-lo.
+     O registro da Juliana ficou `SUPERSEDED` só na § 2. 🔴 **O fato mais importante da Casa
+     hoje não tem fonte:** o **escopo do programa de migração** — de qual sistema para qual,
+     quais clientes, que prazo. **Status e fase da Casa também não são declarados por ninguém.**
+784. ⚠ **A série `Hora do K.A.FÉ` aparece incompleta na jornada da Casa:** 4 sessões com cabeçalho
+     só de umoder entram; **10 sem cabeçalho ficam `não confirmada`** e fora. É o custo do
+     fail-closed. 🔵 **Se o Vinicius declarar que série de título interno é da Casa mesmo sem
+     cabeçalho** (`K.A.FÉ`, `Tech & Produto · Weekly`, `Estratégica de Produto`), a regra vira
+     lista explícita de séries — nunca inferência pelo título.

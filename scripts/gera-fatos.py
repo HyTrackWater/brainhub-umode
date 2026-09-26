@@ -862,6 +862,10 @@ def main():
     prop = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_contexto", u"institucional.md")
     if os.path.exists(prop):
         alvos.append(prop)
+    # a jornada da Casa (emenda de 25/09/2026 no CONTEXT.md): mesma classe
+    casa_j = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_contexto", u"jornada.md")
+    if os.path.exists(casa_j):
+        alvos.append(casa_j)
     alvos = sorted(set(alvos))
 
     tocados, total = 0, 0
