@@ -99,7 +99,7 @@ externas — e cronograma sem data firme.** **uBuy iniciado em jan/2026.**
 |---|---|---|---|---|---|
 | 2023-10-18 | teste | não confirmada | Juliana | só chat | — |
 | 2023-10-27 | teste | não confirmada | Juliana | só chat | — |
-| 2025-03-25 | kick-off | não confirmada | Marina | vídeo + transcrição automática | — |
+| 2025-03-25 | kick-off | não confirmada | Marina | vídeo + transcrição automática | [14](../../../../00_Institucional/_inbox-calls/2025-03-25_osklen_umode-osklen-kickoff.md) |
 | 2025-04-24 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-04-24_osklen_osklen-umode-senai-cetiqt-parte-2.md) |
 | 2025-06-18 | — | não confirmada | Marina | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-06-18_osklen_umode-osklen-devolutiva-mapa-de-jornadas-assunto.md) |
 | 2025-07-14 | weekly | não confirmada | Marina | resumo + **transcrição** | — |
