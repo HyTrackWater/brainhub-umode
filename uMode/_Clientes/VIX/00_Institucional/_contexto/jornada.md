@@ -39,14 +39,14 @@ tags:
 - entrega: Adicionar VIEW no campo descritivo — liberado pelo André, início previsto 12/01/2026 · Pendente — sem confirmação de conclusão — [página VIX, bloco de 31/07/2025 · 2026-09-21]
 - entrega: Inclusão de campos na integração (31/07/2025) · tabela existe; execução não confirmada — [página VIX, bloco de 31/07/2025 · 2026-09-21]
 - entrega: uPick Vix — passo a passo · documento existe, não varrido — [página VIX, bloco de 31/07/2025 · 2026-09-21]
-- incidente: Não recebeu o e-mail de acesso — token retido por checagem de identidade — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Queda de conexão — *"foi do lado dela"* — [Chamados & Atendimentos · 2026-09-21]
-- incidente: VPN do cliente fora do ar → 5 chamados de 4 pessoas — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Adicionar VIEW no campo descritivo — liberado pelo André — [Chamados & Atendimentos · 2026-09-21]
-- incidente: *"isso é embaraçoso"* — erro momentâneo — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Variante excluída e autor desconhecido — pediu busca no banco — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Instabilidade reportada pela caixa ecommerce@ — [Chamados & Atendimentos · 2026-09-21]
-- incidente: 8 chamados de usabilidade e instabilidade — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Não recebeu o e-mail de acesso — token retido por checagem de identidade — [Chamados & Atendimentos · 2026-01-06]
+- incidente: Queda de conexão — *"foi do lado dela"* — [Chamados & Atendimentos · 2026-01-06]
+- incidente: VPN do cliente fora do ar → 5 chamados de 4 pessoas — [Chamados & Atendimentos · 2026-01-08]
+- incidente: Adicionar VIEW no campo descritivo — liberado pelo André — [Chamados & Atendimentos · 2026-01-08]
+- incidente: *"isso é embaraçoso"* — erro momentâneo — [Chamados & Atendimentos · 2026-01-09]
+- incidente: Variante excluída e autor desconhecido — pediu busca no banco — [Chamados & Atendimentos · 2026-01-13]
+- incidente: Instabilidade reportada pela caixa ecommerce@ — [Chamados & Atendimentos · 2026-01-14]
+- incidente: 8 chamados de usabilidade e instabilidade — [Chamados & Atendimentos · 2026-01-29]
 
 ## ⚠ O que este documento NÃO resolve
 - **Não há lista nominal de usuários.** A VIX tem a matriz de permissão mais detalhada da

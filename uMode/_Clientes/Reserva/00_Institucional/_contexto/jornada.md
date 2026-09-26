@@ -48,14 +48,14 @@ tags:
 - entrega: Dados para uPlan · ⬜ aberto — [sem fonte]
 - entrega: Cronograma · ⬜ aberto — [sem fonte]
 - entrega: Termo de abertura de Projeto — Sourcing · documento existe, não varrido — [sem fonte]
-- incidente: Lentidão em Follow e filtros — vídeo + e-mail — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Dificuldade de exportação/edição do Mapa — vídeo + e-mail — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Erro no filtro de composição — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Inativar variantes de materiais — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Carta lacre com somente itens aprovados — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Fornecedor preso em *"você não tem permissão"* por link salvo em favoritos — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Fornecedor pede autoria de consumo incorreto de tecido — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Fornecedor pede autoria de alteração em referência — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Lentidão em Follow e filtros — vídeo + e-mail — [Chamados & Atendimentos · 2024-07-30]
+- incidente: Dificuldade de exportação/edição do Mapa — vídeo + e-mail — [Chamados & Atendimentos · 2024-07-30]
+- incidente: Erro no filtro de composição — [Chamados & Atendimentos · 2024-08]
+- incidente: Inativar variantes de materiais — [Chamados & Atendimentos · 2024-08]
+- incidente: Carta lacre com somente itens aprovados — [Chamados & Atendimentos · 2024-08]
+- incidente: Fornecedor preso em *"você não tem permissão"* por link salvo em favoritos — [Chamados & Atendimentos · 2026-01-08]
+- incidente: Fornecedor pede autoria de consumo incorreto de tecido — [Chamados & Atendimentos · 2026-01-20]
+- incidente: Fornecedor pede autoria de alteração em referência — [Chamados & Atendimentos · 2026-01-29]
 
 ## ⚠ O que este documento NÃO resolve
 - **A data de ativação do contrato.** O campo está vazio; o piso verificável é mai/2023.

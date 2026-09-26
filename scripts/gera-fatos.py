@@ -127,6 +127,8 @@ FONTES = [
     # do CRM - e a pista do CRM nao pode roubar a procedencia do fato atual.
     # ⚠ So escrever "informado pelo Vinicius" onde ELE e a fonte do fato.
     (u"informado pelo Vinicius",       u"informado pelo Vinicius"),
+    # gravacao do Meet transcrita por maquina (faster-whisper) - fonte DERIVADA
+    (u"transcrita por m\u00e1quina",     u"grava\u00e7\u00e3o transcrita por m\u00e1quina"),
     (u"Segmenta\u00e7\u00e3o Grupos",  u"base Segmenta\u00e7\u00e3o Grupos"),
     (u"Mapa de Clientes",              u"base Mapa de Clientes"),
     (u"base de contratos",             u"planilha de contratos do Financeiro"),
@@ -530,6 +532,15 @@ def celulas(corpo):
     return out[1:] if out else []     # a primeira e o cabecalho
 
 
+def cabecalho_tabela(corpo):
+    u"""Primeira linha da primeira tabela da secao - os NOMES das colunas."""
+    for ln in corpo.split(u"\n"):
+        s = ln.strip()
+        if s.startswith(u"|") and s.endswith(u"|"):
+            return [limpa(c.strip()) for c in s[1:-1].split(u"|")]
+    return []
+
+
 def itens_numerados(corpo):
     u"""'1. **X** - y' -> 'X - y'. Lista numerada e um fato por item."""
     out = []
@@ -597,13 +608,22 @@ def monta_bloco_h2(txt, tipo, chaves):
     vistos = set()
     fatos = []
 
-    def emite(chave, valor, fonte, data):
+    def emite(chave, valor, fonte, data, linha=False, reserva=None):
         if not valor or vazio(valor):
             return
         # a tabela de procedencia responde por chave; so depois vem heuristica
         p_fonte, p_data = por_bloco(proc_tab, chave)
-        fonte = p_fonte or fonte
-        data = p_data or data
+        if linha:
+            # \U0001F534 LINHA DE TABELA: a data e a fonte DA LINHA vencem. Ate
+            # 26/09/2026 a procedencia do bloco sobrescrevia a data da linha, e o
+            # incidente de 08/08/2025 saia como fato de 2026-09-21 - a data da
+            # VARREDURA, nao do acontecimento. E o erro de tempo que o corpus
+            # inteiro combate (pendencia 773), dentro do proprio gerador.
+            fonte = fonte or p_fonte
+            data = data or p_data or reserva
+        else:
+            fonte = p_fonte or fonte
+            data = p_data or data
         if fonte is None:
             ln = u"- %s: %s %s [sem fonte]" % (chave, valor, TRACO)
         else:
@@ -653,6 +673,12 @@ def monta_bloco_h2(txt, tipo, chaves):
         # fonte e sem blockquote na secao, a tabela de procedencia decide - e
         # se ela tambem nao cobrir, sai `[sem fonte]`.
         fb_fonte = acha_fonte(linhas_de_procedencia(corpo))
+        # a coluna so e FONTE se o cabecalho diz que e ("Fonte", "Origem").
+        # \u26a0 No jornada da LB a 3a coluna e "Estado" - lida como fonte, virava
+        # "superado" no lugar da procedencia.
+        cab = cabecalho_tabela(corpo)
+        col_fonte_ok = (0 <= i_fonte < len(cab)
+                        and re.search(u"fonte|origem|proced", cab[i_fonte].lower()) is not None)
         for cols in celulas(corpo):
             if i_val >= len(cols):
                 continue
@@ -662,13 +688,15 @@ def monta_bloco_h2(txt, tipo, chaves):
             if 0 <= i_junta < len(cols) and cols[i_junta] and not vazio(cols[i_junta]):
                 val = u"%s %s %s" % (val, PONTO, cols[i_junta])
             fonte = None
-            if 0 <= i_fonte < len(cols) and cols[i_fonte] and not vazio(cols[i_fonte]):
+            if col_fonte_ok and i_fonte < len(cols) and cols[i_fonte] and not vazio(cols[i_fonte]):
                 fonte = cols[i_fonte]
-            fonte = fonte or fb_fonte
+            # sem coluna de fonte, a procedencia ESCRITA NA LINHA ("Fonte:
+            # gravacao ... transcrita por maquina") vale mais que a do bloco
+            fonte = fonte or acha_fonte(u" ".join(cols)) or fb_fonte
             data = None
             if 0 <= i_data < len(cols):
                 data = normaliza_data(cols[i_data])
-            emite(chave, val, fonte, data or hd_data)
+            emite(chave, val, fonte, data, linha=True, reserva=hd_data)
 
     for prefixo, chave in LISTAS.get(tipo, []):
         corpo = acha_secao(secoes, prefixo)

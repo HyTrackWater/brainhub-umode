@@ -22,10 +22,10 @@ tags:
 
 - status: Churn — [varredura do Notion · 2026-09-22]
 - fase: Encerrado — [varredura do Notion · 2026-09-22]
-- incidente: USABILIDADE — evelyn.olivares — [Chamados & Atendimentos · 2026-09-22]
-- incidente: TAREFA/CONFIG — amanda.rego — [Chamados & Atendimentos · 2026-09-22]
-- incidente: TAREFA/CONFIG — giuliana.ghanem e romulo.grimaldi — [Chamados & Atendimentos · 2026-09-22]
-- incidente: TAREFA/CONFIG — giuliana.ghanem — [Chamados & Atendimentos · 2026-09-22]
+- incidente: USABILIDADE — evelyn.olivares — [Chamados & Atendimentos · 2026-01-06]
+- incidente: TAREFA/CONFIG — amanda.rego — [Chamados & Atendimentos · 2026-01-08]
+- incidente: TAREFA/CONFIG — giuliana.ghanem e romulo.grimaldi — [Chamados & Atendimentos · 2026-01-13]
+- incidente: TAREFA/CONFIG — giuliana.ghanem — [Chamados & Atendimentos · 2026-01-28]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.** O que se sabe vem da **linha da base `Mapa de Clientes`**.

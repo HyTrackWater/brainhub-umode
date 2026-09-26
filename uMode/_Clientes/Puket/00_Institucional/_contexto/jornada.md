@@ -44,8 +44,8 @@ tags:
 - marco: Página Evolução de Conta criada — não varrida — [página Puket · 2026-09-21]
 - marco: Última ata registrada — [Reuniões com o cliente · 2026-01-08]
 - marco: 5 chamados abertos, os últimos registros da conta — [Chamados & Atendimentos · 2026-01-29]
-- incidente: Reclamação sobre tempo de exportação — [Chamados & Atendimentos · 2026-09-21]
-- incidente: *"A opção do campo custom estava incorreta também"* — o "também" indica ocorrência anterior não registrada — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Reclamação sobre tempo de exportação — [Chamados & Atendimentos · 2026-01-08]
+- incidente: *"A opção do campo custom estava incorreta também"* — o "também" indica ocorrência anterior não registrada — [Chamados & Atendimentos · 2026-01-28]
 
 ## ⚠ O que este documento NÃO resolve
 - **A data de ativação do contrato.** O campo está vazio na base; o que existe é o primeiro acesso

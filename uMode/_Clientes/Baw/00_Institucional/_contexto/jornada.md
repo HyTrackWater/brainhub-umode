@@ -26,11 +26,11 @@ tags:
 - modulo-em-uso: Integração — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Relatórios — [varredura do Notion · 2026-09-22]
 - modulo-em-uso: Fornecedores — [varredura do Notion · 2026-09-22]
-- incidente: 3 chamados — tarefa/config e instabilidade — [Chamados & Atendimentos · 2026-09-22]
-- incidente: Fotos do produto sumiram — domínio externo — [Chamados & Atendimentos · 2026-09-22]
-- incidente: Material travado — [Chamados & Atendimentos · 2026-09-22]
-- incidente: Novo acesso — [Chamados & Atendimentos · 2026-09-22]
-- incidente: 2 chamados — [Chamados & Atendimentos · 2026-09-22]
+- incidente: 3 chamados — tarefa/config e instabilidade — [Chamados & Atendimentos · 2026-01-08]
+- incidente: Fotos do produto sumiram — domínio externo — [Chamados & Atendimentos · 2026-01-08]
+- incidente: Material travado — [Chamados & Atendimentos · 2026-01-16]
+- incidente: Novo acesso — [Chamados & Atendimentos · 2026-01-20]
+- incidente: 2 chamados — [Chamados & Atendimentos · 2026-01-28]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **A página do cliente não foi varrida.**

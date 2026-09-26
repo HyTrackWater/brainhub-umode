@@ -42,13 +42,13 @@ tags:
 - entrega: Lofty Style \ · Integração — [corpo da página Lofty Style · 2026-09-21]
 - entrega: Material Treinamento Go Light uFlow · entregue out/2025, não varrido — [corpo da página Lofty Style · 2026-09-21]
 - entrega: Tratamento de NCM e Código CEST · página existe, não varrida — [corpo da página Lofty Style · 2026-09-21]
-- incidente: Relatório de custo com valores diferentes no Linx e uMode — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Mapa de coleções filtrado exibe informações diferentes no cartão — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Custos diferentes — *"se isso se enquadra nos retroativos"* — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Material travado — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Custo · mais uma instabilidade — [Chamados & Atendimentos · 2026-09-21]
-- incidente: 3 chamados — tarefa/config e usabilidade — [Chamados & Atendimentos · 2026-09-21]
-- incidente: 2 chamados de instabilidade — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Relatório de custo com valores diferentes no Linx e uMode — [Chamados & Atendimentos · 2026-01-09]
+- incidente: Mapa de coleções filtrado exibe informações diferentes no cartão — [Chamados & Atendimentos · 2026-01-13]
+- incidente: Custos diferentes — *"se isso se enquadra nos retroativos"* — [Chamados & Atendimentos · 2026-01-13]
+- incidente: Material travado — [Chamados & Atendimentos · 2026-01-16]
+- incidente: Custo · mais uma instabilidade — [Chamados & Atendimentos · 2026-01-20]
+- incidente: 3 chamados — tarefa/config e usabilidade — [Chamados & Atendimentos · 2026-01-23]
+- incidente: 2 chamados de instabilidade — [Chamados & Atendimentos · 2026-01-29]
 
 ## ⚠ O que este documento NÃO resolve
 - **As duas páginas de permissionamento não foram abertas** — e são **duas**, uma no Notion e

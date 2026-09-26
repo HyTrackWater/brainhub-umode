@@ -4756,3 +4756,19 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      🔴 **Fora do inbox, de propósito:** a fala de que o cliente **cancelaria** sem ferramenta de
      desenho — é condição de contrato (`T1`) e só pode viver na pasta da LB. 🔵 **Decisão do
      Vinicius:** registrar esse risco de cancelamento na `jornada.md` da Luiza Barcelos, com a data.
+799. 🟢 **Item 798 decidido pelo Vinicius em 26/09/2026 — e com o tempo certo.** O risco de
+     cancelamento de 13/11/2024 **aconteceu e foi superado**: registrado no `Histórico de
+     incidentes` da `jornada.md` da LB (pasta do cliente, onde `T1` pode viver). 🔄 **O presente é
+     outro:** sem risco de cancelamento; **nova fase em planejamento — integração de ESCRITA, que a
+     conta não tem hoje, e possível reonboarding.** 🟢 **Isso responde a dúvida que a jornada
+     deixava aberta** ("estabilizada ou desengajada?"): a queda de reuniões de 2026 é intervalo
+     antes de nova fase, não saída. ⏭ **Data e escopo da nova fase: `[a preencher]`.**
+800. 🔴 **Defeito de TEMPO dentro do próprio `gera-fatos.py`, corrigido — 74 fatos recuperaram a
+     data real.** Numa linha de tabela da `jornada.md`, a procedência do BLOCO sobrescrevia a data
+     da LINHA: o incidente de 08/08/2025 da Luiza Barcelos saía como fato de **2026-09-21** (a data
+     da varredura), os chamados de jan/2026 da VIX como de 2026-09-22. **É o erro que o corpus
+     inteiro combate (item 773) — cometido pelo gerador.** 🟢 Agora: **data e fonte da linha
+     vencem**; a coluna só é lida como fonte se o cabeçalho diz "Fonte/Origem" (a coluna "Estado"
+     virava procedência — `[Não iniciada · 2026-01-28]`); sem coluna de fonte, vale a procedência
+     escrita na própria linha. **2 fatos passaram a `[sem fonte]`** — antes tinham status de
+     chamado no lugar da fonte; agora a lacuna aparece como lacuna.

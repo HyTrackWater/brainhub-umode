@@ -41,10 +41,10 @@ tags:
 - entrega: Definição da integração e dos reports (Holmer) — [mensagem do João no grupo de Sales · 2024-06-26]
 - entrega: Definição de celebração ao atingir o sucesso — [mensagem do João no grupo de Sales · 2024-06-26]
 - entrega: Lançamento de marca feminina começando no uMode — [mensagem do João no grupo de Sales · 2024-06-26]
-- incidente: Chamado de INSTABILIDADE — joyce.dias — [Chamados & Atendimentos · 2026-09-21]
-- incidente: 3 chamados de TAREFA/CONFIG — pamela.sanzana — [Chamados & Atendimentos · 2026-09-21]
-- incidente: OUTROS — joyce.dias — [Chamados & Atendimentos · 2026-09-21]
-- incidente: INSTABILIDADE — mariane.araujo — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Chamado de INSTABILIDADE — joyce.dias — [Chamados & Atendimentos · 2026-01-08]
+- incidente: 3 chamados de TAREFA/CONFIG — pamela.sanzana — [Chamados & Atendimentos · 2026-01-23]
+- incidente: OUTROS — joyce.dias — [Chamados & Atendimentos · 2026-01-28]
+- incidente: INSTABILIDADE — mariane.araujo — [Chamados & Atendimentos · 2026-01-29]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se o objetivo de 6 meses foi atingido.** A meta era estar *"rodando no uMode"*

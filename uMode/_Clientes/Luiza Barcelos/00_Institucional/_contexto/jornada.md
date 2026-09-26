@@ -47,8 +47,9 @@ tags:
 - entrega: Go Light · página *Configurações e ajustes pré Go Light* existe · não varrida — [*Definições do Projeto* · 2026-09-21]
 - entrega: Plano de Sucesso do Cliente · "Em construção", marcado em vermelho — [*Definições do Projeto* · 2026-09-21]
 - entrega: TAP — uFlow · marcado como "(teste)" · não varrido — [*Definições do Projeto* · 2026-09-21]
-- incidente: Relatório de Incidente formal — o único da carteira — [Chamados & Atendimentos · 2026-09-21]
-- incidente: Chamado de USABILIDADE — Ticiane Rosa — [Chamados & Atendimentos · 2026-09-21]
+- incidente: Risco de cancelamento levantado internamente — o estilo esperava ferramenta de desenho, e o uFlow é de gestão; a resposta foi um faseamento (merch e desenvolvimento até jan/2025, integração Safe Tech, suprimentos em mai/2025). Fonte: gravação interna de 13/11/2024, transcrita por máquina — derivado — [gravação transcrita por máquina · 2024-11-13]
+- incidente: Relatório de Incidente formal — o único da carteira — [Chamados & Atendimentos · 2025-08-08]
+- incidente: Chamado de USABILIDADE — Ticiane Rosa — [Chamados & Atendimentos · 2026-01-14]
 
 ## ⚠ O que este documento NÃO resolve
 - 🔴 **Não sei se a credibilidade foi estabelecida.** A ata de Sales escreveu em vermelho
@@ -87,6 +88,15 @@ julho de 2026. `[C]`
 >
 > ⚠ **Isso pode ser conta estabilizada OU conta desengajada. Não decido com esta evidência** —
 > mas o § abaixo sobre a pauta repetida pesa para o segundo.
+
+🔄 **O presente, segundo o Vinicius em 26/09/2026 — e ele responde à dúvida acima:**
+- **Não há risco de cancelamento hoje.**
+- **Está em planejamento uma nova fase:** adicionar a **integração de ESCRITA**, que a conta
+  **não tem hoje** — com **possível reonboarding**. Data e escopo: `[a preencher]`.
+
+⚠ **O que isso NÃO desfaz:** a queda de reuniões e de demandas em 2026 é medida e continua
+valendo como fato. A leitura muda — **não é desengajamento rumo à saída; é intervalo antes de uma
+nova fase.**
 
 ## Marcos da jornada
 
@@ -230,6 +240,8 @@ julho de 2026. `[C]`
 **Baseline disponível:** **13 usuários uFlow / 2 uDash**, declarados em 06/06/2024.
 
 ## Próximos passos
+0. ⏭ **Nova fase em planejamento — integração de escrita e possível reonboarding** (segundo o
+   Vinicius, 26/09/2026). Data, escopo e responsáveis: `[a preencher]`.
 1. 🔴 **Ler o `Relatório de Incidente | Weekly — 2025/08/08`.** É o único da carteira.
 2. 🔴 **Responder se a credibilidade dos 6 meses foi estabelecida** — prazo venceu em dez/2024.
 3. 🔴 **Terminar o Plano de Sucesso do Cliente**, em construção há mais de dois anos.
@@ -244,6 +256,7 @@ julho de 2026. `[C]`
 ## Histórico de incidentes / alertas
 | Data | Registro | Estado |
 |---|---|---|
+| 13/11/2024 | ⚠ **Risco de cancelamento levantado internamente** — o estilo esperava ferramenta de desenho, e o uFlow é de gestão; a resposta foi um faseamento (merch e desenvolvimento até jan/2025, integração Safe Tech, suprimentos em mai/2025). Fonte: gravação interna de 13/11/2024, transcrita por máquina — **derivado** | ✅ **superado** — segundo o Vinicius em 26/09/2026, **não é o cenário atual** |
 | **08/08/2025** | 🔴 **Relatório de Incidente formal** — o único da carteira | ✅ **varrido 22 set 2026** |
 | 14/01/2026 | Chamado de `USABILIDADE` — Ticiane Rosa | **`Em Aberto`** |
 
