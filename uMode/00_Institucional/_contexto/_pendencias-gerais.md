@@ -4709,3 +4709,12 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      🔵 **Regra proposta:** reunião com uma sala num aparelho só (título com "presencial", ou um
      falante com fatia desproporcional das falas) tem identidade de falante `não confiável`.
      ⚠ Pode ser a mesma raiz da `Rose` da CAEDU no Tactiq (733 falas, item 762) — **não verificado.**
+794. 🟢 **Regra do presencial (item 793) aplicada nas 53 transcrições Tactiq da CAEDU.** Quatro
+     sinais por reunião: `presencial` no título, um rótulo com fatia desproporcional, o rótulo
+     dizendo o próprio nome, marcas de sala. **Dispara em UMA:** `CAEDU presencial` de 29/04/2025 —
+     `Mauricio` com 71% das falas é o aparelho. 🟢 **E a `Rose` NÃO é sala:** chamada pelo nome
+     51 vezes em 7 reuniões, nunca diz o próprio nome, e os outros nomes da CAEDU aparecem em
+     terceira pessoa — **é uma voz só.** Isso **responde metade** da suspeita do item 793; a
+     outra metade — `Rose` é a `Roselene`? — **segue aberta** e só o e-mail fecha.
+     ⚠ **Limite do teste:** ele pega sala com várias vozes que se chamam pelo nome. Duas pessoas
+     no mesmo aparelho que não se chamam passam despercebidas.

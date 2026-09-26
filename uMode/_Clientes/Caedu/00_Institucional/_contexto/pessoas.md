@@ -36,6 +36,10 @@ tags:
   > 🟡 **733 falas em 7 reuniões, de 02/12/2025 a 28/04/2026** — **a maior voz do lado do
   > cliente no período.** ⚠ **Pode ser a `Roselene`:** as duas grafias **nunca aparecem na mesma
   > reunião** e são sequenciais. 🔴 **Indício forte, não prova — só o e-mail confirma.**
+  > 🟢 **Regra do presencial (item 793) aplicada em 25/09/2026: `Rose` é UMA voz, não uma sala.**
+  > A Julianne a chama pelo nome nas 7 reuniões (**51 vezes**); o rótulo **nunca** diz o próprio
+  > nome; Cris e Mauricio aparecem **em terceira pessoa**, não como interlocutores. ⚠ **O que
+  > continua aberto é identidade (é a Roselene?), não multiplicidade de vozes.**
 - **Tamires** — modelista ("nova modelista", ata de 19/08/25). E-mail: `[a preencher]`
   > ⚠ **Aparece como `tamiris` na transcrição de 06/08/2025**, 64 falas. **Terceira grafia do
   > mesmo nome.**
@@ -53,6 +57,11 @@ tags:
 | dez/2025 → abr/2026 | **`Rose`** | 733 falas em 7 |
 | **abr/2026 → ago/2026** | **Cleiton Gomes** | 305 falas em 6 |
 | ago–set/2026 | `Bruno` | 21 falas em 3 |
+
+> 🔴 **`Mauricio` na `CAEDU presencial` de 29/04/2025 é rótulo de APARELHO, não de pessoa**
+> (item 793): **29 falas, 71% da reunião**, o rótulo cita o próprio nome e há 5 marcas de sala —
+> **várias vozes, da CAEDU e da uMode, num notebook só.** **Não usar para identidade.** É a
+> **única** das 53 transcrições Tactiq em que a regra dispara.
 
 🔴 **`Vitoria Meneghin` desaparece depois de 06/08/2025** — era a contraparte havia 13 meses e
 **a segunda maior voz de toda a conta**. ⚠ **O corpus não registra a saída dela.**
