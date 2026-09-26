@@ -6,8 +6,8 @@ titulo: "Workflow Cambos · uMode"
 data: 2026-09-23
 referente_a: 2026-09-23
 destino: cambos
-confianca_destino: media
-natureza: "[a preencher]"
+confianca_destino: alta
+natureza: externa
 participantes:
   - fabiane@cambos.com.br
   - louise@souzacambos.com.br
@@ -16,7 +16,7 @@ participantes_sem_email:
   - "Laura Delgado"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 11/11
+posicao_na_linha_do_tempo: 13/13
 reunioes_depois: 0
 idade_em_dias: 2
 horizonte: recente
@@ -31,13 +31,13 @@ processado_em: 2026-09-25
 > `.docx` original — **311 falas, 2 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `cambos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> 🟢 **Destino `cambos` saiu do e-mail dos participantes** — natureza **externa**.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **11 de 11** de Cambos neste acervo |
+| Reunião | **13 de 13** de Cambos nos acervos |
 | Data | **2026-09-23** — **2 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

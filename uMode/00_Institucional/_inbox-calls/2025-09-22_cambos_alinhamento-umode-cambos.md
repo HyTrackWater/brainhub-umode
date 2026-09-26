@@ -15,8 +15,8 @@ participantes_sem_email:
   - "Andrea Holmer"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 9/11
-reunioes_depois: 2
+posicao_na_linha_do_tempo: 9/13
+reunioes_depois: 4
 idade_em_dias: 368
 horizonte: historico
 tier: T0
@@ -30,19 +30,19 @@ processado_em: 2026-09-25
 > `.docx` original — **42 falas, 3 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `cambos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `cambos` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **9 de 11** de Cambos neste acervo |
+| Reunião | **9 de 13** de Cambos nos acervos |
 | Data | **2025-09-22** — **368 dias atrás** |
-| Depois dela | **2 reuniões** — a última em **2026-09-23** |
+| Depois dela | **4 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-09-22**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **2 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **4 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

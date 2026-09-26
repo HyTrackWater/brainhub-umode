@@ -42,6 +42,42 @@ tags:
 | **28/10/2025** | Linha criada no Notion | base `Mapa de Clientes` |
 | **20/04/2026** | Última edição | idem |
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 2 reuniões, de 2025-11-19 a 2025-11-26
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2025-11-19 | — | não confirmada | Juliana | resumo | [14](../../../../00_Institucional/_inbox-calls/2025-11-19_hering_umode-hering-validacao-dos-assuntos.md) |
+| 2025-11-26 | — | não confirmada | Juliana | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-11-26_hering_umode-hering-validacao-dos-assuntos-ll.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2025-11-26 — *uMode · Hering · Validação dos Assuntos ll* — **303 dias atrás**.
+- **Status no corpus:** `Pré Onboardings` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🔴 **`Pré Onboardings` no corpus e 303 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 303 dias; o que ela prometia é compromisso de 2025-11-26, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 5 itens):
+- Juliana Ferré irá conferir e liberar o acesso à planilha para Jean Marcelo Calao.
+- Dayana Dos Santos irá alinhar com a Carla e o time sobre a organização dos processos por blocos de produto (independente da fonte) para definir a estrutura do workflow entre nacional e importado.
+- Sheila De Oliveira irá enviar uma lista de regras e automações necessárias para que Vanessa Rinaldi possa avaliar o impacto no cronograma e fará um check com a área de negócios sobre a exclusão dos cálculos de custo do escopo do projeto.
+- Dayana Dos Santos irá listar relatórios e outputs adicionais, como o relatório de explosão de insumos, que precisam ser considerados no projeto.
+- Vanessa Rinaldi vai liberar a planilha para os participantes validarem os pontos que ficaram em aberto.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

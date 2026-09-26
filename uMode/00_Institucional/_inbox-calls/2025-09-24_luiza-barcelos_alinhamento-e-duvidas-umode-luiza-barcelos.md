@@ -18,7 +18,6 @@ participantes_sem_email:
   - "Michelle Rodrigues"
   - "Iara Furtado"
   - "Apresentação de Andrea Holmer"
-  - "ticiane knierin"
 tem_transcricao: true
 tem_resumo: true
 posicao_na_linha_do_tempo: 14/18
@@ -33,16 +32,16 @@ processado_em: 2026-09-25
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🟢 **Esta reunião TEM transcrição de fala** no
-> `.docx` original — **59 falas, 9 falantes**. As propostas abaixo vêm do **resumo**
+> `.docx` original — **58 falas, 8 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `luiza-barcelos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `luiza-barcelos` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **14 de 18** de Luiza Barcelos neste acervo |
+| Reunião | **14 de 18** de Luiza Barcelos nos acervos |
 | Data | **2025-09-24** — **366 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

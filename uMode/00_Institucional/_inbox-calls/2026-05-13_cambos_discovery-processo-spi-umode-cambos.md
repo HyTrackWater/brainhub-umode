@@ -6,8 +6,8 @@ titulo: "Discovery Processo SPI - uMode · Cambos"
 data: 2026-05-13
 referente_a: 2026-05-13
 destino: cambos
-confianca_destino: media
-natureza: "[a preencher]"
+confianca_destino: alta
+natureza: externa
 participantes:
   - fabiane@cambos.com.br
   - pamela@souzacambos.com.br
@@ -17,7 +17,7 @@ participantes_sem_email:
   - "Fabiane Sayuri Kanasiro"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 10/11
+posicao_na_linha_do_tempo: 12/13
 reunioes_depois: 1
 idade_em_dias: 135
 horizonte: historico
@@ -32,13 +32,13 @@ processado_em: 2026-09-25
 > `.docx` original — **21 falas, 3 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `cambos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> 🟢 **Destino `cambos` saiu do e-mail dos participantes** — natureza **externa**.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **10 de 11** de Cambos neste acervo |
+| Reunião | **12 de 13** de Cambos nos acervos |
 | Data | **2026-05-13** — **135 dias atrás** |
 | Depois dela | **1 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

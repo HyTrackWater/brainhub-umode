@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 3/9
-reunioes_depois: 6
+posicao_na_linha_do_tempo: 3/10
+reunioes_depois: 7
 idade_em_dias: 330
 horizonte: historico
 tier: T2
@@ -25,19 +25,19 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `lofty-style` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `lofty-style` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **3 de 9** de Lofty Style neste acervo |
+| Reunião | **3 de 10** de Lofty Style nos acervos |
 | Data | **2025-10-30** — **330 dias atrás** |
-| Depois dela | **6 reuniões** — a última em **2026-09-10** |
+| Depois dela | **7 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-10-30**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **6 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **7 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

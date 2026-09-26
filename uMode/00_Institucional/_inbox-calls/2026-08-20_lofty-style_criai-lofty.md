@@ -7,12 +7,16 @@ data: 2026-08-20
 referente_a: 2026-08-20
 destino: lofty-style
 confianca_destino: media
-natureza: "[a preencher]"
+natureza: interna
 participantes: []
+participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
+  - "Marina Santoro -> marina.santoro@umode.com.br"
+  - "Laura Delgado -> laura.delgado@umode.com.br"
+  - "Juliana Ferré -> juliana.ferre@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 6/9
+posicao_na_linha_do_tempo: 7/10
 reunioes_depois: 3
 idade_em_dias: 36
 horizonte: historico
@@ -25,13 +29,13 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `lofty-style` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `lofty-style` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **6 de 9** de Lofty Style neste acervo |
+| Reunião | **7 de 10** de Lofty Style nos acervos |
 | Data | **2026-08-20** — **36 dias atrás** |
 | Depois dela | **3 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

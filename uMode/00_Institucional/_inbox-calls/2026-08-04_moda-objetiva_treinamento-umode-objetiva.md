@@ -6,8 +6,8 @@ titulo: "Treinamento uMode · Objetiva"
 data: 2026-08-04
 referente_a: 2026-08-04
 destino: moda-objetiva
-confianca_destino: media
-natureza: "[a preencher]"
+confianca_destino: alta
+natureza: externa
 participantes:
   - carolina.riegel@modaobjetiva.com.br
   - thamires.ribeiro@modaobjetiva.com.br
@@ -27,13 +27,13 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `moda-objetiva` saiu do título:** não é prova de que a reunião foi com o cliente.
+> 🟢 **Destino `moda-objetiva` saiu do e-mail dos participantes** — natureza **externa**.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **14 de 14** de Moda Objetiva neste acervo |
+| Reunião | **14 de 14** de Moda Objetiva nos acervos |
 | Data | **2026-08-04** — **52 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

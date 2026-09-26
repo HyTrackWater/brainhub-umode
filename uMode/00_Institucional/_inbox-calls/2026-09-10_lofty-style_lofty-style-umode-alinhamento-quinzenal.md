@@ -6,15 +6,15 @@ titulo: "Lofty Style · uMode - Alinhamento Quinzenal"
 data: 2026-09-10
 referente_a: 2026-09-10
 destino: lofty-style
-confianca_destino: media
-natureza: "[a preencher]"
+confianca_destino: alta
+natureza: externa
 participantes:
   - gabriela.cunha@loftystyle.com.br
   - marcello.saga@loftystyle.com.br
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 9/9
+posicao_na_linha_do_tempo: 10/10
 reunioes_depois: 0
 idade_em_dias: 15
 horizonte: recente
@@ -27,13 +27,13 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `lofty-style` saiu do título:** não é prova de que a reunião foi com o cliente.
+> 🟢 **Destino `lofty-style` saiu do e-mail dos participantes** — natureza **externa**.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **9 de 9** de Lofty Style neste acervo |
+| Reunião | **10 de 10** de Lofty Style nos acervos |
 | Data | **2026-09-10** — **15 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

@@ -92,31 +92,34 @@ com CSat 9,6 e entusiasmo 4,9. Três meses depois, **15 chamados em 24 dias e 12
 > datas de acesso.
 
 
-<!-- acervo-laura:linha-do-tempo:inicio -->
-### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Laura Cardoso — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
-> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 9 reuniões, de 2025-09-02 a 2026-09-10
+#### ✅ Aconteceu — 10 reuniões, de 2025-09-02 a 2026-09-10
 
-| Data | Assunto (do título) | Fonte | Propostas no inbox |
-|---|---|---|---|
-| 2025-09-02 | ficha técnica | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-02_lofty-style_ficha-de-impressao-umode-lofty-style.md) |
-| 2025-09-19 | weekly | resumo | [11](../../../../00_Institucional/_inbox-calls/2025-09-19_lofty-style_weekly-lofty-style-umode.md) |
-| 2025-10-30 | weekly | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-10-30_lofty-style_weekly-lofty-style-umode.md) |
-| 2026-02-04 | integração | resumo | [15](../../../../00_Institucional/_inbox-calls/2026-02-04_lofty-style_integracao-e-custos-lofty-umode.md) |
-| 2026-06-24 | — | resumo | [25](../../../../00_Institucional/_inbox-calls/2026-06-24_lofty-style_umode-lofty-style-arvore-mercadologica-e-acervo.md) |
-| 2026-08-20 | — | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-08-20_lofty-style_criai-lofty.md) |
-| 2026-09-01 | ritual quinzenal | resumo + **transcrição** | [7](../../../../00_Institucional/_inbox-calls/2026-09-01_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
-| 2026-09-09 | alinhamento | resumo | [18](../../../../00_Institucional/_inbox-calls/2026-09-09_lofty-style_alinhamento-de-mapa-e-exportacao-umode-lofty-sty.md) |
-| 2026-09-10 | ritual quinzenal | resumo | [21](../../../../00_Institucional/_inbox-calls/2026-09-10_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2025-09-02 | ficha técnica | não confirmada | Laura | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-02_lofty-style_ficha-de-impressao-umode-lofty-style.md) |
+| 2025-09-19 | weekly | não confirmada | Laura | resumo | [11](../../../../00_Institucional/_inbox-calls/2025-09-19_lofty-style_weekly-lofty-style-umode.md) |
+| 2025-10-30 | weekly | não confirmada | Laura | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-10-30_lofty-style_weekly-lofty-style-umode.md) |
+| 2026-02-04 | integração | não confirmada | Laura | resumo | [15](../../../../00_Institucional/_inbox-calls/2026-02-04_lofty-style_integracao-e-custos-lofty-umode.md) |
+| 2026-06-24 | — | externa | Laura | resumo | [25](../../../../00_Institucional/_inbox-calls/2026-06-24_lofty-style_umode-lofty-style-arvore-mercadologica-e-acervo.md) |
+| 2026-08-19 | teste | interna | Juliana | resumo | [17](../../../../00_Institucional/_inbox-calls/2026-08-19_lofty-style_testes-lofty-criai.md) |
+| 2026-08-20 | — | interna | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-08-20_lofty-style_criai-lofty.md) |
+| 2026-09-01 | ritual quinzenal | externa | Laura | resumo + **transcrição** | [7](../../../../00_Institucional/_inbox-calls/2026-09-01_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
+| 2026-09-09 | alinhamento | externa | Laura | resumo | [18](../../../../00_Institucional/_inbox-calls/2026-09-09_lofty-style_alinhamento-de-mapa-e-exportacao-umode-lofty-sty.md) |
+| 2026-09-10 | ritual quinzenal | externa | Laura | resumo | [21](../../../../00_Institucional/_inbox-calls/2026-09-10_lofty-style_lofty-style-umode-alinhamento-quinzenal.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião neste acervo:** 2026-09-10 — *Lofty Style · uMode - Alinhamento Quinzenal* — **15 dias atrás**.
+- **Última reunião nos acervos:** 2026-09-10 — *Lofty Style · uMode - Alinhamento Quinzenal* — **15 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
 - **Quem esteve na última reunião:** `gabriela.cunha@loftystyle.com.br` · `marcello.saga@loftystyle.com.br`.
 - 🟢 **Coerente:** status ativo e reunião há 15 dias.
@@ -146,7 +149,7 @@ com CSat 9,6 e entusiasmo 4,9. Três meses depois, **15 chamados em 24 dias e 12
 - Laura Delgado explicou que erros não mapeados no histórico de integração costumam derivar de subgrupos inativos, os quais somem da lista sem aviso explícito (diferente dos grupos que exibem a palavra "inativo"), e Laura Delgado prometeu concluir esses…
 - Ficou decidido que Marcello Saga revisará esses quatro pontos com Tamara, podendo agendar uma reunião futura com Laura Delgado e estilistas (Ju ou Marina) se necessário.
 - Marcello Saga ponderou que conversará com Tamara para verificar se o modelo básico é suficiente, visto que o padrão exige menos tempo de desenvolvimento (estimado em 15 dias de prazo de validação após a entrega dos campos alinhados).
-<!-- acervo-laura:linha-do-tempo:fim -->
+<!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas
 | Entrega | Estado |

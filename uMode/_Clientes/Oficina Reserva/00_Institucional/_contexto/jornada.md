@@ -81,25 +81,27 @@ tags:
 > de toda a carteira** — coerente com ter entrado por um grupo já cliente.
 
 
-<!-- acervo-laura:linha-do-tempo:inicio -->
-### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
-> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
 #### ✅ Aconteceu — 1 reuniões, de 2026-02-05 a 2026-02-05
 
-| Data | Assunto (do título) | Fonte | Propostas no inbox |
-|---|---|---|---|
-| 2026-02-05 | discovery | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-02-05_oficina-reserva_discovery-costume-oficina-umode.md) |
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2026-02-05 | discovery | não confirmada | Laura | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-02-05_oficina-reserva_discovery-costume-oficina-umode.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião neste acervo:** 2026-02-05 — *Discovery Costume Oficina · uMode* — **232 dias atrás**.
+- **Última reunião nos acervos:** 2026-02-05 — *Discovery Costume Oficina · uMode* — **232 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
-- 🔴 **`Ongoing` no corpus e 232 dias sem reunião neste acervo.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+- 🔴 **`Ongoing` no corpus e 232 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
 
 #### ⏭ Por vir
 
@@ -110,7 +112,7 @@ tags:
 - Joyce Dias will mandar o print da tela do Links da parte da tabela de medidas para Laura Delgado.
 - Laura Delgado will conferir se o campo de local de aplicação está disponível no documento impresso para o fornecedor.
 - Laura Delgado and Juliana Ferré will sentar com o time de integração para ver como excluir os novos produtos (fichas paralelas do blazer e da calça) da integração, ou se isso acontece automaticamente por não ser a ficha de produto principal.
-<!-- acervo-laura:linha-do-tempo:fim -->
+<!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas
 | Entrega | Estado |

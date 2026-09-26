@@ -25,13 +25,13 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `luiza-barcelos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `luiza-barcelos` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **5 de 18** de Luiza Barcelos neste acervo |
+| Reunião | **5 de 18** de Luiza Barcelos nos acervos |
 | Data | **2025-06-16** — **466 dias atrás** |
 | Depois dela | **13 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

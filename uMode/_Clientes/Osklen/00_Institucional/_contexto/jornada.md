@@ -82,6 +82,35 @@ externas — e cronograma sem data firme.** **uBuy iniciado em jan/2026.**
 > ⚠ **Quinze meses entre a criação da linha (dez/2023) e o kick-off (mar/2025).**
 > `[a preencher]` — **o que aconteceu no intervalo?**
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 2 reuniões, de 2023-10-18 a 2023-10-27
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2023-10-18 | teste | não confirmada | Juliana | só chat | — |
+| 2023-10-27 | teste | não confirmada | Juliana | só chat | — |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2023-10-27 — *uMode · Osklen · Teste de Preenchimento - Vest Masculino (2023-10-27 10·08 GMT-3)* — **1064 dias atrás**.
+- **Status no corpus:** `Operação Assistida` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🔴 **`Operação Assistida` no corpus e 1064 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 1064 dias; o que ela prometia é compromisso de 2023-10-27, **com cumprimento não verificado**.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Previsto | Estado |
 |---|---|---|

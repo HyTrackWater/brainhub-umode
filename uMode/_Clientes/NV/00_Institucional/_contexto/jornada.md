@@ -86,6 +86,46 @@ mesmos limites**. Cinco chamados em dez dias só para *cadastrar opção de camp
 > [`_espec-pessoas-e-comunicacoes.md`](../../../../00_Institucional/_contexto/_espec-pessoas-e-comunicacoes.md)
 > §5.1 trata: **data tem que ser campo.**
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 5 reuniões, de 2023-07-27 a 2026-06-16
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2023-07-27 | alinhamento | não confirmada | Juliana | só chat | — |
+| 2024-03-19 | cronograma | não confirmada | Juliana | só chat | — |
+| 2025-03-24 | — | não confirmada | Juliana | só chat | — |
+| 2026-06-10 | ficha técnica | interna | Juliana | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-06-10_nv_migracao-conta-nv-ficha.md) |
+| 2026-06-16 | — | interna | Juliana | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2026-06-16_nv_lote-programacao-nv.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2026-06-16 — *Lote · Programação NV* — **101 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** Vanessa Rinaldi · Marina Santoro · Ana Lucia · Juliana Ferré · Fernanda Araujo.
+- ⚠ **Entre 3 e 6 meses sem reunião nos acervos** — 101 dias.
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 101 dias; o que ela prometia é compromisso de 2026-06-16, **com cumprimento não verificado**.
+
+⌛ **O que estava pendente no último contato** (⚠ derivado, 5 itens):
+- [O grupo] Criar campos base: Desenvolver a estrutura de campos customizados do legado no novo sistema. Integrar os campos padrao e personalizados necessarios para a migracao da NV.
+- [Ana Lucia] Implementar sem pack: Adicionar a funcionalidade de cadastro sem o uso de packs. Incorporar a opcao de realizar o fluxo de programacao sem a obrigatoriedade dessa estrutura.
+- [Juliana Ferré] Solicitar dados de uso: Solicitar dados sobre a utilização da funcionalidade de comentários nos lotes para o Vítor.
+- [The group] Projetar protótipo: Projetar um protótipo para o gerenciamento e criação de lotes em um tabelão de fácil digitação, com foco na NV e Kaidu.
+- [The group] Validar protótipo: Validar o protótipo do tabelão de lotes com Marina Santoro e Vanessa Rinaldi após a elaboração.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Estado |
 |---|---|

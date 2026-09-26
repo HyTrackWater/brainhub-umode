@@ -13,11 +13,10 @@ participantes_sem_email:
   - "Gabriela Cunha"
   - "Laura Delgado"
   - "Andrea Holmer"
-  - "Gustavo F. Amaral"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 1/9
-reunioes_depois: 8
+posicao_na_linha_do_tempo: 1/10
+reunioes_depois: 9
 idade_em_dias: 388
 horizonte: historico
 tier: T2
@@ -28,22 +27,22 @@ processado_em: 2026-09-25
 
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🟢 **Esta reunião TEM transcrição de fala** no
-> `.docx` original — **27 falas, 4 falantes**. As propostas abaixo vêm do **resumo**
+> `.docx` original — **25 falas, 3 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `lofty-style` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `lofty-style` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **1 de 9** de Lofty Style neste acervo |
+| Reunião | **1 de 10** de Lofty Style nos acervos |
 | Data | **2025-09-02** — **388 dias atrás** |
-| Depois dela | **8 reuniões** — a última em **2026-09-10** |
+| Depois dela | **9 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-09-02**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **8 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **9 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

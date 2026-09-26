@@ -114,40 +114,42 @@ julho de 2026. `[C]`
 > completa. **A documentação de configuração aqui é exemplar; a de resultado é que falta.**
 
 
-<!-- acervo-laura:linha-do-tempo:inicio -->
-### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
-> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
 #### ✅ Aconteceu — 18 reuniões, de 2025-05-06 a 2026-09-22
 
-| Data | Assunto (do título) | Fonte | Propostas no inbox |
-|---|---|---|---|
-| 2025-05-06 | treinamento | só chat | — |
-| 2025-05-27 | alinhamento | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_luiza-barcelos-umode-alinhamento-de-demandas-tim.md) |
-| 2025-05-27 | weekly | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_weekly-tech-luiza-barcelos-umode.md) |
-| 2025-06-10 | — | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-06-10_luiza-barcelos_sugestao-para-familia-umode-luiza-barcelos.md) |
-| 2025-06-16 | workflow | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-06-16_luiza-barcelos_luiza-barcelos-estrutura-workflow.md) |
-| 2025-06-20 | weekly | resumo + **transcrição** | [1](../../../../00_Institucional/_inbox-calls/2025-06-20_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
-| 2025-07-03 | weekly | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-07-03_luiza-barcelos_weekly-tech-luiza-barcelos-umode.md) |
-| 2025-08-08 | weekly | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-08-08_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
-| 2025-08-27 | alinhamento | resumo | [17](../../../../00_Institucional/_inbox-calls/2025-08-27_luiza-barcelos_alinhamento-luiza-barcelos-umode.md) |
-| 2025-08-29 | weekly | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2025-08-29_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
-| 2025-09-05 | alinhamento | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-05_luiza-barcelos_alinhamento-tech-luiza-barcelos.md) |
-| 2025-09-16 | discovery | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-16_luiza-barcelos_discovery-fornecedores-luiza-barcelos-umode.md) |
-| 2025-09-19 | weekly | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-19_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
-| 2025-09-24 | alinhamento | resumo + **transcrição** | [15](../../../../00_Institucional/_inbox-calls/2025-09-24_luiza-barcelos_alinhamento-e-duvidas-umode-luiza-barcelos.md) |
-| 2026-01-29 | discovery | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-01-29_luiza-barcelos_umode-luiza-barcelos-discovery-de-gestao-de-avia.md) |
-| 2026-05-05 | weekly | resumo | [3](../../../../00_Institucional/_inbox-calls/2026-05-05_luiza-barcelos_weekly-luiza-barcelos-umode.md) |
-| 2026-06-09 | ritual quinzenal | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-06-09_luiza-barcelos_alinhamento-quinzenal-luiza-barcelos-umode.md) |
-| 2026-09-22 | ritual quinzenal | resumo + **transcrição** | [5](../../../../00_Institucional/_inbox-calls/2026-09-22_luiza-barcelos_alinhamento-quinzenal-luiza-barcelos-umode.md) |
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2025-05-06 | treinamento | não confirmada | Laura | só chat | — |
+| 2025-05-27 | alinhamento | não confirmada | Laura | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_luiza-barcelos-umode-alinhamento-de-demandas-tim.md) |
+| 2025-05-27 | weekly | não confirmada | Laura | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_weekly-tech-luiza-barcelos-umode.md) |
+| 2025-06-10 | — | não confirmada | Laura | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-06-10_luiza-barcelos_sugestao-para-familia-umode-luiza-barcelos.md) |
+| 2025-06-16 | workflow | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-06-16_luiza-barcelos_luiza-barcelos-estrutura-workflow.md) |
+| 2025-06-20 | weekly | não confirmada | Laura | resumo + **transcrição** | [1](../../../../00_Institucional/_inbox-calls/2025-06-20_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
+| 2025-07-03 | weekly | não confirmada | Laura | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-07-03_luiza-barcelos_weekly-tech-luiza-barcelos-umode.md) |
+| 2025-08-08 | weekly | não confirmada | Laura | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-08-08_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
+| 2025-08-27 | alinhamento | não confirmada | Laura | resumo | [17](../../../../00_Institucional/_inbox-calls/2025-08-27_luiza-barcelos_alinhamento-luiza-barcelos-umode.md) |
+| 2025-08-29 | weekly | não confirmada | Laura | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2025-08-29_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
+| 2025-09-05 | alinhamento | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-05_luiza-barcelos_alinhamento-tech-luiza-barcelos.md) |
+| 2025-09-16 | discovery | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-16_luiza-barcelos_discovery-fornecedores-luiza-barcelos-umode.md) |
+| 2025-09-19 | weekly | não confirmada | Laura | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-19_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
+| 2025-09-24 | alinhamento | não confirmada | Laura | resumo + **transcrição** | [15](../../../../00_Institucional/_inbox-calls/2025-09-24_luiza-barcelos_alinhamento-e-duvidas-umode-luiza-barcelos.md) |
+| 2026-01-29 | discovery | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-01-29_luiza-barcelos_umode-luiza-barcelos-discovery-de-gestao-de-avia.md) |
+| 2026-05-05 | weekly | externa | Laura | resumo | [3](../../../../00_Institucional/_inbox-calls/2026-05-05_luiza-barcelos_weekly-luiza-barcelos-umode.md) |
+| 2026-06-09 | ritual quinzenal | externa | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-06-09_luiza-barcelos_alinhamento-quinzenal-luiza-barcelos-umode.md) |
+| 2026-09-22 | ritual quinzenal | externa | Laura | resumo + **transcrição** | [5](../../../../00_Institucional/_inbox-calls/2026-09-22_luiza-barcelos_alinhamento-quinzenal-luiza-barcelos-umode.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião neste acervo:** 2026-09-22 — *Alinhamento Quinzenal - Luiza Barcelos · uMode* — **3 dias atrás**.
+- **Última reunião nos acervos:** 2026-09-22 — *Alinhamento Quinzenal - Luiza Barcelos · uMode* — **3 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
 - **Quem esteve na última reunião:** `gustavo.sobrinho@luizabarcelos.com.br` · `michelle.rodrigues@luizabarcelos.com.br` · Laura Delgado · Thayane Almeida.
 - 🟢 **Coerente:** status ativo e reunião há 3 dias.
@@ -160,7 +162,7 @@ julho de 2026. `[C]`
 - [Thayane Almeida] Propor Melhorias: Definir e solicitar a criação de novos campos e estruturas para as fichas de cadastro de produtos na ferramenta. Adequar os modelos de ficha de enfeites e linhas aos requisitos atuais do processo.
 - [O grupo] Agendar Fórum: Marcar uma reunião para discutir os requisitos e expectativas da nova ferramenta personalizada de gestão de carteira de pedidos.
 - Ficou decidido que Laura Delgado marcará um fórum específico com uma pessoa do time de produto para ouvir as demandas e expectativas de Thayane Almeida e desenhar a ferramenta sob medida.
-<!-- acervo-laura:linha-do-tempo:fim -->
+<!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas
 | Entrega | Estado |

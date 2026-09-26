@@ -25,13 +25,13 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `highstil` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `highstil` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **2 de 4** de Highstil neste acervo |
+| Reunião | **2 de 4** de Highstil nos acervos |
 | Data | **2025-09-19** — **371 dias atrás** |
 | Depois dela | **2 reuniões** — a última em **2026-02-20** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

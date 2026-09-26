@@ -30,13 +30,13 @@ processado_em: 2026-09-25
 > `.docx` original — **13 falas, 3 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `highstil` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `highstil` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **1 de 4** de Highstil neste acervo |
+| Reunião | **1 de 4** de Highstil nos acervos |
 | Data | **2025-09-12** — **378 dias atrás** |
 | Depois dela | **3 reuniões** — a última em **2026-02-20** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

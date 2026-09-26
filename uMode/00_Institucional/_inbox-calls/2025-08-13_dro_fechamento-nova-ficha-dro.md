@@ -25,22 +25,22 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `dro` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `dro` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **3 de 3** de DRO neste acervo |
+| Reunião | **3 de 3** de DRO nos acervos |
 | Data | **2025-08-13** — **408 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-08-13**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior neste acervo** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior nos acervos** onde conferir.
 
 🟢 **Limite temporal do churn:** o corpus diz `Churn` (lido em 2026-09-22) e esta é a última
-reunião do cliente neste acervo. **O cliente estava ativo em 2025-08-13 — a saída foi depois.** A data
+reunião do cliente nos acervos. **O cliente estava ativo em 2025-08-13 — a saída foi depois.** A data
 exata segue `[a preencher]`.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos

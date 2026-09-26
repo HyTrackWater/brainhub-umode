@@ -25,19 +25,19 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `oficina-reserva` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `oficina-reserva` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **1 de 1** de Oficina Reserva neste acervo |
+| Reunião | **1 de 1** de Oficina Reserva nos acervos |
 | Data | **2026-02-05** — **232 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-02-05**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior neste acervo** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior nos acervos** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

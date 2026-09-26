@@ -25,22 +25,22 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `highstil` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `highstil` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **4 de 4** de Highstil neste acervo |
+| Reunião | **4 de 4** de Highstil nos acervos |
 | Data | **2026-02-20** — **217 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-02-20**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior neste acervo** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — e **não há reunião posterior nos acervos** onde conferir.
 
 🟢 **Limite temporal do churn:** o corpus diz `Churn` (lido em 2026-09-22) e esta é a última
-reunião do cliente neste acervo. **O cliente estava ativo em 2026-02-20 — a saída foi depois.** A data
+reunião do cliente nos acervos. **O cliente estava ativo em 2026-02-20 — a saída foi depois.** A data
 exata segue `[a preencher]`.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos

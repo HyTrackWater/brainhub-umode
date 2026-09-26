@@ -39,6 +39,35 @@ tags:
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 2 reuniões, de 2023-08-29 a 2024-05-29
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2023-08-29 | — | não confirmada | Juliana | só chat | — |
+| 2024-05-29 | — | não confirmada | Juliana | só chat | — |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2024-05-29 — *🚨 Report Colméia (2024-05-29 11·07 GMT-3) - Transcrição do chat* — **849 dias atrás**.
+- **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- 🟢 **Limite do churn:** o cliente estava em reunião em **2024-05-29**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 849 dias; o que ela prometia é compromisso de 2024-05-29, **com cumprimento não verificado**.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

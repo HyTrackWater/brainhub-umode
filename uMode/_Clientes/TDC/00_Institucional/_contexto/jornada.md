@@ -41,6 +41,41 @@ tags:
 |---|---|---|
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 1 reuniões, de 2026-07-15 a 2026-07-15
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2026-07-15 | — | externa | Juliana | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-07-15_tdc_umode-tdc.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2026-07-15 — *uMode · TDC* — **72 dias atrás**.
+- **Status no corpus:** `Sem CS` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** `karinamesquita@tempodecrianca.com.br`.
+- 🟢 **Coerente:** status ativo e reunião há 72 dias.
+
+#### ⏭ Por vir
+
+⚠ **Compromissos da reunião de 2026-07-15** — derivados do resumo, **não aprovados**:
+- [Juliana Ferré] Agendar Reunião: Organizar uma conversa entre Melina Aquino e João para discutir soluções de automação e consultoria em inteligência artificial.
+- [Melina Aquino] Enviar Layout: Encaminhar o arquivo PDF com o modelo atual de fichas técnicas para Juliana Ferré e Fernanda Araujo.
+- [Juliana Ferré] Discutir escopo: Conversar com João sobre as possibilidades de fatiar o projeto e definir as fases de desenvolvimento. Analisar caminhos para a criação de uma solução integrada ao banco de dados real.
+- [Juliana Ferré] Informar clientes: Comunicar Melina e Fernanda sobre os próximos passos e o planejamento do projeto até o dia seguinte. Enviar uma resposta sobre a viabilidade das sugestões apresentadas.
+- [Juliana Ferré] Agendar reuniões: Marcar as agendas para as sessões de imersão destinadas ao detalhamento do escopo técnico. Organizar os encontros para o refinamento do fluxo de trabalho e validação dos protótipos.
+- Próximos Passos e Integração com ERP: Foi discutida a futura integração com o ERP Millennium, visando uma biblioteca central única que alimentará tanto a ficha técnica quanto o sistema de gestão.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

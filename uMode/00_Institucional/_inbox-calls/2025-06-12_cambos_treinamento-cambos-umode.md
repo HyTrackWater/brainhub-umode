@@ -12,8 +12,8 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 1/11
-reunioes_depois: 10
+posicao_na_linha_do_tempo: 1/13
+reunioes_depois: 12
 idade_em_dias: 470
 horizonte: historico
 tier: T2
@@ -25,19 +25,19 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `cambos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `cambos` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **1 de 11** de Cambos neste acervo |
+| Reunião | **1 de 13** de Cambos nos acervos |
 | Data | **2025-06-12** — **470 dias atrás** |
-| Depois dela | **10 reuniões** — a última em **2026-09-23** |
+| Depois dela | **12 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-06-12**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **10 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **12 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

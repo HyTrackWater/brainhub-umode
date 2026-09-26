@@ -6,8 +6,8 @@ titulo: "Weekly Luiza Barcelos · uMode"
 data: 2026-05-05
 referente_a: 2026-05-05
 destino: luiza-barcelos
-confianca_destino: media
-natureza: "[a preencher]"
+confianca_destino: alta
+natureza: externa
 participantes:
   - gustavo.sobrinho@luizabarcelos.com.br
   - michelle.rodrigues@luizabarcelos.com.br
@@ -27,13 +27,13 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `luiza-barcelos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> 🟢 **Destino `luiza-barcelos` saiu do e-mail dos participantes** — natureza **externa**.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **16 de 18** de Luiza Barcelos neste acervo |
+| Reunião | **16 de 18** de Luiza Barcelos nos acervos |
 | Data | **2026-05-05** — **143 dias atrás** |
 | Depois dela | **2 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

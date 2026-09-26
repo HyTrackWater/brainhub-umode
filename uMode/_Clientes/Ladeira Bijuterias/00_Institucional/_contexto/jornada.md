@@ -40,31 +40,33 @@ tags:
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
 
-<!-- acervo-laura:linha-do-tempo:inicio -->
-### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
-> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
 #### ✅ Aconteceu — 2 reuniões, de 2024-01-24 a 2024-02-06
 
-| Data | Assunto (do título) | Fonte | Propostas no inbox |
-|---|---|---|---|
-| 2024-01-24 | treinamento | só chat | — |
-| 2024-02-06 | integração | só chat | — |
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2024-01-24 | treinamento | não confirmada | Laura | só chat | — |
+| 2024-02-06 | integração | não confirmada | Laura | só chat | — |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião neste acervo:** 2024-02-06 — *Alinhamento integração · Ladeira Bijuterias (2024-02-06 11·06 GMT-3)* — **962 dias atrás**.
+- **Última reunião nos acervos:** 2024-02-06 — *Alinhamento integração · Ladeira Bijuterias (2024-02-06 11·06 GMT-3)* — **962 dias atrás**.
 - **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
 - 🟢 **Limite do churn:** o cliente estava em reunião em **2024-02-06**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
 
 #### ⏭ Por vir
 
 🔴 **Nada por vir registrado.** A última reunião tem 962 dias; o que ela prometia é compromisso de 2024-02-06, **com cumprimento não verificado**.
-<!-- acervo-laura:linha-do-tempo:fim -->
+<!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas
 `[a preencher]`

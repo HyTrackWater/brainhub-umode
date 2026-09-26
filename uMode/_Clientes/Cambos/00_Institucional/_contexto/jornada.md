@@ -84,33 +84,37 @@ tags:
 > nada disso entra numa linha do tempo.
 
 
-<!-- acervo-laura:linha-do-tempo:inicio -->
-### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré e Laura Cardoso — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
-> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 11 reuniões, de 2025-06-12 a 2026-09-23
+#### ✅ Aconteceu — 13 reuniões, de 2025-06-12 a 2026-09-23
 
-| Data | Assunto (do título) | Fonte | Propostas no inbox |
-|---|---|---|---|
-| 2025-06-12 | treinamento | resumo | [13](../../../../00_Institucional/_inbox-calls/2025-06-12_cambos_treinamento-cambos-umode.md) |
-| 2025-06-18 | workflow | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-18_cambos_workflow-cambos.md) |
-| 2025-07-23 | discovery | resumo | — |
-| 2025-07-23 | integração | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-07-23_cambos_testes-integracao-cambos.md) |
-| 2025-08-08 | weekly | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-08-08_cambos_weekly-cambos-umode.md) |
-| 2025-08-29 | weekly | resumo + **transcrição** | [6](../../../../00_Institucional/_inbox-calls/2025-08-29_cambos_weekly-cambos-umode.md) |
-| 2025-09-01 | discovery | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-09-01_cambos_discovery-umode-cambos-time-comercial.md) |
-| 2025-09-09 | alinhamento | resumo + **transcrição** | [9](../../../../00_Institucional/_inbox-calls/2025-09-09_cambos_alinhamento-interno-cambos.md) |
-| 2025-09-22 | alinhamento | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-09-22_cambos_alinhamento-umode-cambos.md) |
-| 2026-05-13 | discovery | resumo + **transcrição** | [10](../../../../00_Institucional/_inbox-calls/2026-05-13_cambos_discovery-processo-spi-umode-cambos.md) |
-| 2026-09-23 | workflow | resumo + **transcrição** | [10](../../../../00_Institucional/_inbox-calls/2026-09-23_cambos_workflow-cambos-umode.md) |
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2025-06-12 | treinamento | não confirmada | Laura | resumo | [13](../../../../00_Institucional/_inbox-calls/2025-06-12_cambos_treinamento-cambos-umode.md) |
+| 2025-06-18 | workflow | não confirmada | Laura | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-18_cambos_workflow-cambos.md) |
+| 2025-07-23 | discovery | não confirmada | Laura | resumo | — |
+| 2025-07-23 | integração | não confirmada | Laura | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-07-23_cambos_testes-integracao-cambos.md) |
+| 2025-08-08 | weekly | não confirmada | Laura | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-08-08_cambos_weekly-cambos-umode.md) |
+| 2025-08-29 | weekly | não confirmada | Laura | resumo + **transcrição** | [6](../../../../00_Institucional/_inbox-calls/2025-08-29_cambos_weekly-cambos-umode.md) |
+| 2025-09-01 | discovery | não confirmada | Laura | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-09-01_cambos_discovery-umode-cambos-time-comercial.md) |
+| 2025-09-09 | alinhamento | não confirmada | Laura | resumo + **transcrição** | [9](../../../../00_Institucional/_inbox-calls/2025-09-09_cambos_alinhamento-interno-cambos.md) |
+| 2025-09-22 | alinhamento | não confirmada | Laura | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2025-09-22_cambos_alinhamento-umode-cambos.md) |
+| 2026-03-04 | treinamento | não confirmada | Juliana | resumo | [8](../../../../00_Institucional/_inbox-calls/2026-03-04_cambos_treinamento-playbook-cambos.md) |
+| 2026-03-06 | treinamento | não confirmada | Juliana | resumo | [6](../../../../00_Institucional/_inbox-calls/2026-03-06_cambos_treinamento-playbook-cambos-parte-2.md) |
+| 2026-05-13 | discovery | externa | Laura | resumo + **transcrição** | [10](../../../../00_Institucional/_inbox-calls/2026-05-13_cambos_discovery-processo-spi-umode-cambos.md) |
+| 2026-09-23 | workflow | externa | Laura | resumo + **transcrição** | [10](../../../../00_Institucional/_inbox-calls/2026-09-23_cambos_workflow-cambos-umode.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião neste acervo:** 2026-09-23 — *Workflow Cambos · uMode* — **2 dias atrás**.
+- **Última reunião nos acervos:** 2026-09-23 — *Workflow Cambos · uMode* — **2 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
 - **Quem esteve na última reunião:** `fabiane@cambos.com.br` · `louise@souzacambos.com.br` · Louise Carlos · Laura Delgado.
 - 🟢 **Coerente:** status ativo e reunião há 2 dias.
@@ -129,7 +133,7 @@ tags:
 - Ficou acordado que Laura mapeará esses fluxos para validação conjunta.
 - Ficou decidido que, ao entrar nas etapas de modelagem Wellington ou modelagem Milade, a data de início do piloto será preenchida de forma automática, enquanto exceções pontuais por erros de lavanderia ou medidas serão tratadas manualmente por Louise.
 - Ficou acordado que Laura configurará duas travas específicas: só será permitido avançar da cronoanálise para frente com os lacres e a pontuação preenchidos, e só será permitido sair da etapa de lavanderia para acabamento caso o peso da peça esteja…
-<!-- acervo-laura:linha-do-tempo:fim -->
+<!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas
 | Entrega | Estado |

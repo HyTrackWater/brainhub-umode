@@ -40,25 +40,27 @@ tags:
 | `[a preencher]` | `[a preencher]` | `[a preencher]` |
 
 
-<!-- acervo-laura:linha-do-tempo:inicio -->
-### ⏱ Linha do tempo das reuniões — acervo Laura Cardoso
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
 
-> **Fonte:** título e data de cada reunião no acervo da Laura Cardoso — **dado primário**
+> **Fonte:** título e data de cada reunião nos acervos de Laura Cardoso — **dado primário**
 > (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
-> ⚠ **É a carteira de UMA atendente:** reunião ausente aqui não prova reunião ausente.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
 #### ✅ Aconteceu — 3 reuniões, de 2025-04-16 a 2025-08-13
 
-| Data | Assunto (do título) | Fonte | Propostas no inbox |
-|---|---|---|---|
-| 2025-04-16 | alinhamento | só chat | — |
-| 2025-05-14 | ficha técnica | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-05-14_dro_nova-ficha-dro.md) |
-| 2025-08-13 | fechamento | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-08-13_dro_fechamento-nova-ficha-dro.md) |
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2025-04-16 | alinhamento | não confirmada | Laura | só chat | — |
+| 2025-05-14 | ficha técnica | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-05-14_dro_nova-ficha-dro.md) |
+| 2025-08-13 | fechamento | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-08-13_dro_fechamento-nova-ficha-dro.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião neste acervo:** 2025-08-13 — *Fechamento Nova Ficha · DRO* — **408 dias atrás**.
+- **Última reunião nos acervos:** 2025-08-13 — *Fechamento Nova Ficha · DRO* — **408 dias atrás**.
 - **Status no corpus:** `Churn` — varredura de 2026-09-22 (data da **leitura**, não da transição).
 - 🟢 **Limite do churn:** o cliente estava em reunião em **2025-08-13**; a saída foi **depois** disso e **antes de 2026-09-22**. Data exata `[a preencher]`.
 
@@ -72,7 +74,7 @@ tags:
 - Laura Delgado se comprometeu a verificar a questão, e Thais Assi se ofereceu para perguntar a eles caso a reunião terminasse antes.
 
 🔴 **1 de 3 compromissos envolvem pessoa hoje desligada** (Andrea Holmer). Se não foram cumpridos antes da saída, **ficaram sem dono** — e nenhuma fonte diz quem herdou.
-<!-- acervo-laura:linha-do-tempo:fim -->
+<!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas
 `[a preencher]`

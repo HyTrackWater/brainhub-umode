@@ -14,8 +14,8 @@ participantes_sem_email:
   - "Fabiane Sayuri Kanasiro"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 5/11
-reunioes_depois: 6
+posicao_na_linha_do_tempo: 5/13
+reunioes_depois: 8
 idade_em_dias: 413
 horizonte: historico
 tier: T2
@@ -29,19 +29,19 @@ processado_em: 2026-09-25
 > `.docx` original — **25 falas, 2 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `cambos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `cambos` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **5 de 11** de Cambos neste acervo |
+| Reunião | **5 de 13** de Cambos nos acervos |
 | Data | **2025-08-08** — **413 dias atrás** |
-| Depois dela | **6 reuniões** — a última em **2026-09-23** |
+| Depois dela | **8 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-08-08**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **6 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **8 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

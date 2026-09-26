@@ -118,7 +118,27 @@ aquela tabela avisa para não fazer** — a junção é decisão humana, item a 
 `[a preencher]`
 
 ## Tecnologia
-`[a preencher]`
+- **ERP `Ilimitar`** — `erp: Ilimitar` no `institucional.md` (varredura do Notion, 22/09/2026).
+- Interlocutor de TI do cliente: `[a preencher]`
+
+#### Fornecedor da integração — Ilimitar
+
+> **Decisão do Vinicius em 25/09/2026:** contato de fornecedor de sistema do cliente fica **na
+> pasta do cliente, como fornecedor da integração**. **Fonte:** cabeçalho `convidado` dos resumos
+> do Gemini no acervo da Laura Cardoso — **dado primário de presença**. Conferido em 25/09/2026.
+>
+> 🔴 **São pessoas do FORNECEDOR, não do time da Moda Objetiva.** Não entram em
+> `Estado de atividade das pessoas` nem na razão de pessoas do cliente.
+
+| E-mail (chave de identidade) | Nome derivado | Evidência | Reuniões | Primeira | Última |
+|---|---|---|---:|---|---|
+| `mauricio@illimitar.com.br` | Mauricio | 🟢 **participante** | 5 | 2026-07-03 | 2026-07-22 |
+| `alex.moraes@illimitar.com.br` | Alex Moraes | 🟢 **participante** | 3 | 2026-07-03 | 2026-07-22 |
+
+**Reuniões:** `Alinhamento Integração · Moda Objetiva` (03/07) e `Testes Integração uMode ·
+Ilimitar · Objetiva` (14, 15, 21 e 22/07/2026).
+⚠ **Nome derivado do local-part do e-mail**, mecanicamente. **Cargo e papel no fornecedor:
+`[a preencher]`** — o acervo não declara.
 
 ## Governança
 ### Quem pode alterar este documento

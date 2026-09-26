@@ -96,6 +96,34 @@ tags:
 > **dentro do título**, como texto. **Para o BrainHub isso é especificação:** data de reunião tem
 > que ser campo, não string — senão não há como ordenar, filtrar ou disparar por ela.
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 1 reuniões, de 2022-09-21 a 2022-09-21
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2022-09-21 | integração | não confirmada | Juliana | só chat | — |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2022-09-21 — *Umode · Puket · Integração (2022-09-21 15·03 GMT-3)* — **1465 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- 🔴 **`Ongoing` no corpus e 1465 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 1465 dias; o que ela prometia é compromisso de 2022-09-21, **com cumprimento não verificado**.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]` — nenhuma entrega comprometida foi localizada. Estão provavelmente **dentro das
 23 atas**, que não foram abertas.

@@ -6,8 +6,8 @@ titulo: "Alinhamento Quinzenal - Luiza Barcelos · uMode"
 data: 2026-09-22
 referente_a: 2026-09-22
 destino: luiza-barcelos
-confianca_destino: media
-natureza: "[a preencher]"
+confianca_destino: alta
+natureza: externa
 participantes:
   - gustavo.sobrinho@luizabarcelos.com.br
   - michelle.rodrigues@luizabarcelos.com.br
@@ -31,13 +31,13 @@ processado_em: 2026-09-25
 > `.docx` original — **128 falas, 2 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `luiza-barcelos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> 🟢 **Destino `luiza-barcelos` saiu do e-mail dos participantes** — natureza **externa**.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **18 de 18** de Luiza Barcelos neste acervo |
+| Reunião | **18 de 18** de Luiza Barcelos nos acervos |
 | Data | **2026-09-22** — **3 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

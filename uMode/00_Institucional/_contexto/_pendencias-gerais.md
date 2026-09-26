@@ -4615,3 +4615,30 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      time dela. 🔵 **Decisão do Vinicius:** onde registrar contato de **fornecedor de sistema do
      cliente** — hoje não há lugar no padrão. 🔴 **Eu escrevi "não dá para dizer de quem é" sem
      um `grep` no corpus.**
+779. 🟢 **Item 778 decidido pelo Vinicius em 25/09: fornecedor de sistema do cliente fica na pasta
+     do cliente, como fornecedor da integração.** Registrado em `Moda Objetiva › pessoas.md ›
+     Tecnologia`. 🔴 **Correção de número:** o domínio tem **2 pessoas, não 3** (itens 766 e 778)
+     — `mauricio@` (5 reuniões) e `alex.moraes@` (3), **as duas no cabeçalho `convidado`**, ou
+     seja, **participantes**, não mencionadas. **8 ocorrências** estava certo.
+     ⚠ **O padrão precisa acolher isto em todo cliente:** a Hering também declara ERP `Ilimitar`,
+     e qualquer cliente com integração terá contato de fornecedor. Hoje a subseção existe só aqui.
+780. 🔵 **Onde vive a linha do tempo da CASA? Decisão do Vinicius.** O acervo da Juliana é o
+     primeiro que mostra o que está acontecendo **na uMode**, não num cliente: um **programa de
+     migração de sistema** em cinco frentes (ago–set/2026), a semana de `Reconhecimento do Novo
+     Sistema`, `BrainWave` e `Agentes e Clientes` em 22/09. 🔴 **`jornada.md` é classe de
+     cliente; a Casa não tem uma.** Criar seria classe nova, e isso não é meu. **Hoje ela está no
+     registro de 25/09 da Juliana e em 25 arquivos `*_casa_*` do `_inbox-calls/`.** Opções:
+     (a) `jornada.md` da Casa em `00_Institucional/_contexto/`; (b) por área, no `contexto-area.md`
+     de quem é dono do assunto (a migração seria de `03_Produto-e-Solucoes` ou `06_Tecnologia`).
+781. 🟢 **Os dois acervos agora formam UMA linha do tempo por cliente**, e destino e natureza
+     saem do **e-mail**, como o `protocolo-entrada-de-call.md` § 4 já mandava e o extrator não
+     fazia: **24 `jornada.md`** com a linha do tempo (eram 13), coluna `Natureza` (`externa` ·
+     `interna` · `não confirmada`) e coluna `Acervo`. 🔴 **Reunião interna SOBRE o cliente deixou
+     de parecer reunião COM o cliente** — era o defeito que o protocolo descreve com a Caedu.
+     ⚠ **Cabeçalho só com nomes** (34 dos 40 da Juliana) é resolvido pelo índice do corpus,
+     mais estrito que o `_por_token`; **um nome que não resolve deixa a reunião `não confirmada`.**
+782. 🔴 **CORREÇÃO: relatei "37 cabeçalhos só com gente da uMode" no acervo da Juliana.** Eram
+     cabeçalhos **sem e-mail**; conjunto vazio passava no teste de subconjunto. Pego antes de ir
+     para o corpus. **E dois defeitos do extrator achados no mesmo passo:** e-mail **pessoal** do
+     cabeçalho ia para o front-matter do inbox (**T0**, agora omitido e contado), e o rótulo de
+     falante aceitava trecho de fala como nome (`eu falava`) — agora só nome próprio.

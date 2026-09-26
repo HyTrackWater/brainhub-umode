@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 u"""
-extrai-propostas-de-resumo.py - le os resumos do Gemini do acervo da Laura e
-escreve, com o TEMPO como eixo:
+extrai-propostas-de-resumo.py - le os resumos do Gemini dos acervos de reuniao
+(Laura Cardoso, Juliana Ferre, ...) e escreve, com o TEMPO como eixo:
 
   1. PROPOSTAS no `_inbox-calls/`, uma por reuniao, no formato do
      `protocolo-entrada-de-call.md`, separadas em ACONTECEU / ACONTECENDO /
@@ -50,43 +50,52 @@ para antes de `\U0001F4D6 Transcricao`, o arquivo declara `tem_transcricao: true
 e os falantes, e cada proposta com minuto e conferivel contra a fala.
 \U0001F534 A transcricao bruta nao entra no repositorio.
 
+=== VARIOS ACERVOS, UMA LINHA DO TEMPO ===
+A mesma reuniao aparece no acervo de mais de uma pessoa (o evento e um so).
+Chave: data + titulo. Cada cliente tem UMA linha do tempo, com a coluna
+`Acervo` dizendo de quem veio - um assunto, um dono.
+
+=== DESTINO E NATUREZA SAEM DO E-MAIL (protocolo-entrada-de-call.md \u00a7 4) ===
+*"O dominio do e-mail nao mente; o titulo mente."* Com cabecalho `convidado`:
+dominio de cliente -> destino com `confianca_destino: alta`, natureza
+`externa`; so `@umode.com.br` -> natureza `interna`. Sem cabecalho, o titulo
+indica (`media`) e a natureza fica `nao confirmada`. Dois clientes no titulo ->
+`baixa`, sem destino: chutar e pior que nao classificar. O mapa dominio ->
+cliente e derivado do proprio corpus, nao escrito a mao.
+
 === O QUE NAO SE LE ===
-Os tres 1:1 internos do acervo: registrados como existentes, nao lidos.
+1:1 e reuniao de dupla interna: registrados como existentes, NAO lidos. O
+Vinicius decidiu em 25/09 que material interno entra - mas "o que entra no
+repositorio e o criterio, nunca o teor" (`_espec-pipeline` \u00a7 1).
 """
 import io, os, re, sys, codecs, collections, zipfile, html, unicodedata, datetime
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ACERVO = (u"C:/Users/Vinicius/AppData/Local/Temp/claude/"
-          u"C--Ambientes-Virtuais-BrainHub-brainhub-umode/"
-          u"76bedddf-cfb1-4ab7-9d9e-6a5d6536ec9e/scratchpad/laura2")
+_SCRATCH = (u"C:/Users/Vinicius/AppData/Local/Temp/claude/"
+            u"C--Ambientes-Virtuais-BrainHub-brainhub-umode/"
+            u"76bedddf-cfb1-4ab7-9d9e-6a5d6536ec9e/scratchpad/")
+# (pasta com os arquivos + _mapa.tsv, nome da pessoa, titulos que NAO se leem)
+ACERVOS = [
+    (_SCRATCH + u"laura2", u"Laura Cardoso",
+     (u"victor _ laura", u"ana paula _ laura", u"dupla lala e holmer")),
+    (_SCRATCH + u"juliana", u"Juliana Ferr\u00e9",
+     (u"victor _ ju _ 1_1", u"saulo _ juliana", u"dupla sinistra",
+      u"ana _ juliana - 20")),
+]
 INBOX = os.path.join(RAIZ, u"uMode", u"00_Institucional", u"_inbox-calls")
 CLIENTES_DIR = os.path.join(RAIZ, u"uMode", u"_Clientes")
 HOJE = datetime.date(2026, 9, 25)
-ORIGEM = u"acervo Laura Cardoso"
 JANELA = 90          # dias: ate aqui, a reuniao mais recente e "acontecendo"
+CASA = u"umode.com.br"
+PESSOAL = (u"gmail.com", u"hotmail.com", u"outlook.com", u"yahoo.com.br",
+           u"yahoo.com", u"icloud.com", u"bol.com.br", u"terra.com.br", u"uol.com.br")
 
-# ----------------------------------------------------------- nao se le
-NAO_LER = (u"victor _ laura", u"ana paula _ laura", u"dupla lala e holmer")
-
-# ----------------------------------------------------------- destino
-# (padrao com borda de palavra, slug, pasta). A ordem importa.
-DESTINO = [
-    (u"luiza barcelos", u"luiza-barcelos", u"Luiza Barcelos"),
-    (u"moda objetiva", u"moda-objetiva", u"Moda Objetiva"),
-    (u"objetiva", u"moda-objetiva", u"Moda Objetiva"),
-    (u"cambos", u"cambos", u"Cambos"),
-    (u"lofty", u"lofty-style", u"Lofty Style"),
-    (u"pli[e\u00e9]", u"plie", u"Plie"),
-    (u"highstil", u"highstil", u"Highstil"),
-    (u"dro", u"dro", u"DRO"),
-    (u"ladeira", u"ladeira-bijuterias", u"Ladeira Bijuterias"),
-    (u"laces", u"laces", u"Laces"),
-    (u"stz|studio z", u"studio-z", u"Studio Z"),
-    (u"oficina", u"oficina-reserva", u"Oficina Reserva"),
-    (u"ntk", u"ntk", u"NTK"),
-    (u"nv", u"nv", u"NV"),
-    (u"hyperlocal", u"hyperlocal", u"Hyperlocal"),
-    (u"il+imitar", u"ilimitar", None),
+# apelido de titulo -> pasta. So o que o nome da pasta nao cobre sozinho.
+APELIDOS = [
+    (u"objetiva", u"Moda Objetiva"), (u"lofty", u"Lofty Style"),
+    (u"pli[e\u00e9]", u"Plie"), (u"stz", u"Studio Z"), (u"oficina", u"Oficina Reserva"),
+    (u"lo?u?ngerie|longerie", u"Loungerie"), (u"colm[e\u00e9]ia", u"Colmeia"),
+    (u"lenny", u"Lenny Niemeyer"), (u"ladeira", u"Ladeira Bijuterias"),
 ]
 
 ASSUNTOS = [
@@ -156,10 +165,15 @@ RE_DATA = re.compile(u"(\\d{4})[_-](\\d{2})[_-](\\d{2})")
 RE_TS = re.compile(u"\\s*\\((\\d{2}:\\d{2}:\\d{2})\\)")
 RE_E = re.compile(u"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}")
 RE_CONV = re.compile(u"convidado\\s+(.{0,400}?)(?:\\n|Anexos)", re.S)
-RE_FALA = re.compile(u"^\\s*([^\\n:]{2,40}): \\S", re.M)
+# rotulo de falante = nome proprio (1 a 5 palavras capitalizadas). A 1a
+# versao aceitava qualquer "xxx: yyy" e pegava trecho de fala ("eu falava").
+RE_FALA = re.compile(u"^[ \\t\u00a0]*([A-Z\u00c0-\u00dd][a-z\u00e0-\u00ff'-]+(?: (?:d[aeo]s? )?[A-Z\u00c0-\u00dd][a-z\u00e0-\u00ff'-]+){0,4}): \\S", re.M)
 MARCA_TR = u"\U0001F4D6 Transcri"
-INI = u"<!-- acervo-laura:linha-do-tempo:inicio -->"
-FIM = u"<!-- acervo-laura:linha-do-tempo:fim -->"
+INI = u"<!-- acervos-reunioes:linha-do-tempo:inicio -->"
+FIM = u"<!-- acervos-reunioes:linha-do-tempo:fim -->"
+# bloco da 1a versao, so do acervo da Laura: substituido pelo bloco unico
+INI_V1 = u"<!-- acervo-laura:linha-do-tempo:inicio -->"
+FIM_V1 = u"<!-- acervo-laura:linha-do-tempo:fim -->"
 
 
 def docx(p):
@@ -185,12 +199,159 @@ def titulo_limpo(nome):
     return t.replace(u"_", u"\u00b7").strip(u" \u00b7")
 
 
-def destino_de(nome):
-    low = nome.lower()
-    for pad, slug, pasta in DESTINO:
-        if re.search(u"(?<![a-z\u00e0-\u00ff])(%s)(?![a-z\u00e0-\u00ff])" % pad, low):
-            return slug, pasta
-    return None, None
+def sem_acento(s):
+    s = unicodedata.normalize(u"NFKD", s or u"")
+    return u"".join(c for c in s if not unicodedata.combining(c)).lower()
+
+
+def slug_de(pasta):
+    return kebab(pasta, 40)
+
+
+_PADROES = None
+
+
+def padroes_de_titulo():
+    u"""Nome de toda pasta de cliente + apelidos. Mais longo primeiro."""
+    global _PADROES
+    if _PADROES is None:
+        ps = [(re.escape(sem_acento(p)), p) for p in os.listdir(CLIENTES_DIR)
+              if not p.startswith(u"_") and os.path.isdir(os.path.join(CLIENTES_DIR, p))]
+        ps += [(a, p) for a, p in APELIDOS]
+        _PADROES = sorted(ps, key=lambda x: -len(x[0]))
+    return _PADROES
+
+
+def clientes_no_titulo(nome):
+    u"""Pastas citadas no titulo. Trecho ja casado por nome maior nao conta de novo."""
+    low = sem_acento(nome)
+    achados = []
+    for pad, pasta in padroes_de_titulo():
+        m = re.search(u"(?<![a-z0-9])(%s)(?![a-z0-9])" % pad, low)
+        if m and pasta not in achados:
+            achados.append(pasta)
+            low = low[:m.start()] + u" " * (m.end() - m.start()) + low[m.end():]
+    return achados
+
+
+_DOMINIOS = None
+
+
+def dominios_de_cliente():
+    u"""
+    dominio -> pasta, DERIVADO do corpus: todo e-mail citado dentro da pasta de
+    um cliente. Dominio em mais de uma pasta fica com a que concentra >= 80%;
+    abaixo disso, nao roteia (medido em 25/09: 44 dominios, 2 em duas pastas,
+    ambos com maioria clara).
+    """
+    global _DOMINIOS
+    if _DOMINIOS is None:
+        cont = collections.defaultdict(collections.Counter)
+        for pasta in os.listdir(CLIENTES_DIR):
+            if pasta.startswith(u"_"):
+                continue
+            for dp, _, fs in os.walk(os.path.join(CLIENTES_DIR, pasta)):
+                for f in fs:
+                    if f.endswith(u".md"):
+                        t = io.open(os.path.join(dp, f), encoding=u"utf-8", errors=u"replace").read()
+                        for e in RE_E.findall(t):
+                            cont[e.split(u"@")[1].lower()][pasta] += 1
+        _DOMINIOS = {}
+        for d, cs in cont.items():
+            if d == CASA or d in PESSOAL:
+                continue
+            pasta, n = cs.most_common(1)[0]
+            if n >= 0.8 * sum(cs.values()):
+                _DOMINIOS[d] = pasta
+    return _DOMINIOS
+
+
+_G = None
+
+
+def _gera_fatos():
+    global _G
+    if _G is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            u"gera_fatos", os.path.join(RAIZ, u"scripts", u"gera-fatos.py"))
+        _G = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(_G)
+        _G.indice_pessoas()
+    return _G
+
+
+def resolve_cabecalho(texto):
+    u"""
+    Cabecalho `convidado` SEM e-mail: nomes de exibicao colados por espaco
+    ("Ana Paula Ramos Ana Lucia Fernanda Araujo"). \U0001F534 Medido em 25/09:
+    34 dos 40 cabecalhos da Juliana sao assim - e eu contei os 34 como "so
+    uMode" porque conjunto vazio de dominios passava no teste de subconjunto.
+
+    Segmenta pelo trecho MAIS LONGO (4 a 2 tokens) que resolve para UM e-mail:
+      1. nome inteiro no indice do corpus (qualquer pessoa);
+      2. so na Casa: primeiro nome igual e TODO outro token do trecho contido
+         no nome da ficha (mais estrito que o `_por_token`, para que
+         "Ana Paula Ramos Ana" nao engula a Ana seguinte).
+    Um token so nunca resolve; ambiguo nunca se escolhe. Sobra vai como esta.
+    """
+    g = _gera_fatos()
+    P = dict((k.replace(u"*", u"").strip(), v) for k, v in g.indice_pessoas().items())
+    casa = [(n.split(u" "), es) for n, es in g._CASA_NOMES.items()]
+    tk = texto.split()
+    ok, sobra, i = [], [], 0
+    while i < len(tk):
+        for L in range(min(4, len(tk) - i), 1, -1):
+            n = g._norm(u" ".join(tk[i:i + L]))
+            es = P.get(n)
+            if not es:
+                p = n.split(u" ")
+                es = set()
+                for t2, e2 in casa:
+                    if t2[0] == p[0] and set(p[1:]) <= set(t2[1:]):
+                        es |= e2
+            if es and len(es) == 1:
+                ok.append((u" ".join(tk[i:i + L]), sorted(es)[0]))
+                i += L
+                break
+        else:
+            sobra.append(tk[i])
+            i += 1
+    return ok, sobra
+
+
+def roteia(r):
+    u"""destino, confianca e natureza - e-mail primeiro, titulo depois."""
+    doms = set(e.split(u"@")[1] for e in r.get(u"emails", []))
+    doms |= set(e.split(u"@")[1] for _, e in r.get(u"resolvidos", []))
+    if r.get(u"sobra"):
+        doms.add(u"?")          # alguem no cabecalho nao resolveu: fail-closed
+    externos = doms - {CASA, u"?"} - set(PESSOAL)
+    desconhecido = u"?" in doms or bool(doms & set(PESSOAL))
+    por_email = sorted(set(dominios_de_cliente()[d] for d in externos if d in dominios_de_cliente()))
+    por_titulo = clientes_no_titulo(r[u"titulo"])
+    if doms and not externos and not desconhecido:
+        r[u"natureza"] = u"interna"
+    elif externos:
+        r[u"natureza"] = u"externa"
+    else:
+        r[u"natureza"] = u"não confirmada"
+    if len(por_email) == 1:
+        r[u"pasta"], r[u"conf"] = por_email[0], u"alta"
+    elif len(por_titulo) == 1 and not por_email:
+        r[u"pasta"], r[u"conf"] = por_titulo[0], u"media"
+    elif len(por_email) > 1 or len(por_titulo) > 1:
+        r[u"pasta"], r[u"conf"] = None, u"baixa"
+    else:
+        r[u"pasta"], r[u"conf"] = None, u"baixa"
+    if r[u"pasta"]:
+        r[u"slug"] = slug_de(r[u"pasta"])
+    elif r[u"natureza"] == u"interna" and not por_titulo:
+        # reuniao so de umoder, sem cliente no titulo: e da Casa
+        r[u"slug"], r[u"conf"] = u"casa", u"alta"
+    else:
+        r[u"slug"] = None
+    r[u"candidatos"] = sorted(set(por_email) | set(por_titulo))
 
 
 def assunto_de(nome):
@@ -228,41 +389,46 @@ def status_do_corpus(pasta):
 
 # ================================================================ passo 1
 def le_acervo():
-    u"""Toda reuniao do acervo (docx e chat), com data e destino do TITULO."""
-    mapa = {}
-    for l in io.open(os.path.join(ACERVO, u"_mapa.tsv"),
-                     encoding=u"utf-8").read().splitlines()[1:]:
-        c = l.split(u"\t")
-        if len(c) >= 2:
-            mapa[c[0]] = c[1]
-    reunioes = {}          # (slug, data, chave-titulo) -> reuniao
+    u"""
+    Toda reuniao de todos os acervos (docx e chat). A mesma reuniao em dois
+    acervos e UMA reuniao: chave = data + titulo.
+    """
+    reunioes = {}
     nao_lidos = []
-    for fn, nome in sorted(mapa.items()):
-        if any(k in nome.lower() for k in NAO_LER):
-            nao_lidos.append(nome)
+    for pasta_acervo, pessoa, nao_ler in ACERVOS:
+        if not os.path.isdir(pasta_acervo):
             continue
-        md = RE_DATA.search(nome)
-        if not md:
-            continue
-        try:
-            d = datetime.date(*(int(x) for x in md.groups()))
-        except ValueError:
-            continue
-        slug, pasta = destino_de(nome)
-        titulo = titulo_limpo(nome)
-        k = (slug, d, kebab(titulo, 30))
-        r = reunioes.setdefault(k, {u"slug": slug, u"pasta": pasta, u"data": d,
-                                    u"titulo": titulo, u"assunto": assunto_de(nome),
-                                    u"docx": None, u"chat": False})
-        if fn.endswith(u".docx"):
-            r[u"docx"] = fn
-        else:
-            r[u"chat"] = True
+        for l in io.open(os.path.join(pasta_acervo, u"_mapa.tsv"),
+                         encoding=u"utf-8").read().splitlines()[1:]:
+            c = l.split(u"\t")
+            if len(c) < 2:
+                continue
+            fn, nome = c[0], c[1]
+            if any(k in nome.lower() for k in nao_ler):
+                nao_lidos.append((pessoa, nome))
+                continue
+            md = RE_DATA.search(nome)
+            if not md:
+                continue
+            try:
+                d = datetime.date(*(int(x) for x in md.groups()))
+            except ValueError:
+                continue
+            titulo = titulo_limpo(nome)
+            k = (d, kebab(titulo, 30))
+            r = reunioes.setdefault(k, {u"data": d, u"titulo": titulo,
+                                        u"assunto": assunto_de(nome), u"docxs": [],
+                                        u"chat": False, u"acervos": set()})
+            r[u"acervos"].add(pessoa)
+            if fn.endswith(u".docx"):
+                r[u"docxs"].append(os.path.join(pasta_acervo, fn))
+            else:
+                r[u"chat"] = True
     return list(reunioes.values()), nao_lidos
 
 
-def le_resumo(fn):
-    t = docx(os.path.join(ACERVO, fn))
+def le_resumo(caminho):
+    t = docx(caminho)
     i = t.find(u"Detalhes")
     ti = t.find(MARCA_TR)
     falantes = []
@@ -273,13 +439,15 @@ def le_resumo(fn):
         n_falas = sum(v for n, v in cont.items() if not re.match(u"^\\d", n))
     mc = RE_CONV.search(t)
     emails = sorted(set(e.lower() for e in RE_E.findall(mc.group(1)))) if mc else []
+    # cabecalho so com nomes: guarda o texto para `resolve_cabecalho`
+    le_resumo.cab = mc.group(1).strip() if (mc and not emails) else u""
     etapas = proximas_etapas(t, ti)
     if i == -1:
         return None, etapas, emails, falantes, n_falas
     # \U0001F534 o recorte para ANTES da transcricao: fala nao e resumo
     det = t[i + len(u"Detalhes"):(ti if ti > i else len(t))]
-    for corte in (u"Pr\u00f3ximas etapas sugeridas", u"Suggested next steps",
-                  u"Voc\u00ea deve revisar", u"Revise as anota"):
+    for corte in (u"Próximas etapas sugeridas", u"Suggested next steps",
+                  u"Você deve revisar", u"Revise as anota"):
         j = det.find(corte)
         if j != -1:
             det = det[:j]
@@ -418,18 +586,29 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
     emails, falantes, n_falas = r[u"emails"], r[u"falantes"], r[u"n_falas"]
     tem_tr = n_falas > 0
     status, st_data = st
-    cli = r[u"pasta"] or r[u"slug"] or u"cliente n\u00e3o identificado"
+    cli = r[u"pasta"] or (u"Casa" if r[u"slug"] == u"casa" else u"destino n\u00e3o identificado")
+    origem = u"acervo " + u" + ".join(sorted(r[u"acervos"]))
 
     L = [u"---", u"tipo: registro",
          u"origem: google-meet \u00b7 resumo do Gemini" + (u" + transcri\u00e7\u00e3o" if tem_tr else u""),
-         u"acervo: %s" % ORIGEM,
+         u"acervo: %s" % origem,
          u'titulo: "%s"' % r[u"titulo"].replace(u'"', u"'"),
          u"data: %s" % data, u"referente_a: %s" % data,
          u"destino: %s" % (r[u"slug"] or u"\"[a preencher]\""),
-         u"confianca_destino: %s" % (u"media" if r[u"slug"] else u"baixa"),
-         u"natureza: \"[a preencher]\""]
+         u"confianca_destino: %s" % r[u"conf"],
+         u"natureza: %s" % (r[u"natureza"] if r[u"natureza"] != u"n\u00e3o confirmada" else u"\"[a preencher]\"")]
+    # \U0001F534 e-mail PESSOAL no cabecalho e T0: conta, nao escreve
+    pessoais = [e for e in emails if e.split(u"@")[1] in PESSOAL]
+    emails = [e for e in emails if e not in pessoais]
     L.append(u"participantes:" if emails else u"participantes: []")
     L += [u"  - %s" % e for e in emails]
+    if pessoais:
+        L.append(u"participantes_email_pessoal_omitido: %d   # T0, valor nao escrito" % len(pessoais))
+    if r.get(u"resolvidos") or r.get(u"sobra"):
+        L.append(u"participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus")
+        L += [u'  - "%s -> %s"' % (n, e) for n, e in r.get(u"resolvidos", [])]
+        if r.get(u"sobra"):
+            L.append(u'participantes_nao_resolvidos: "%s"' % u" ".join(r[u"sobra"]))
     if falantes:
         L.append(u"participantes_sem_email:")
         L += [u'  - "%s"' % f.replace(u'"', u"'") for f in falantes]
@@ -450,17 +629,23 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
           u"# %s \u2014 %s" % (r[u"titulo"], data), u"",
           u"> **Classe: `REGISTRO`.** Evid\u00eancia datada. \U0001F534 **N\u00e3o \u00e9 autoridade e n\u00e3o se edita.**"]
     if tem_tr:
-        L += [u"> **Fonte:** resumo do Gemini, %s. \U0001F7E2 **Esta reuni\u00e3o TEM transcri\u00e7\u00e3o de fala** no" % ORIGEM,
+        L += [u"> **Fonte:** resumo do Gemini, %s. \U0001F7E2 **Esta reuni\u00e3o TEM transcri\u00e7\u00e3o de fala** no" % origem,
               u"> `.docx` original \u2014 **%d falas, %d falantes**. As propostas abaixo v\u00eam do **resumo**" % (n_falas, len(falantes)),
               u"> (derivado); **cada uma com minuto \u00e9 confer\u00edvel contra a fala**. \U0001F534 A transcri\u00e7\u00e3o",
               u"> bruta n\u00e3o entra no reposit\u00f3rio."]
     else:
-        L += [u"> **Fonte:** resumo do Gemini, %s. \U0001F534 **N\u00e3o h\u00e1 transcri\u00e7\u00e3o de fala desta reuni\u00e3o** \u2014" % ORIGEM,
+        L += [u"> **Fonte:** resumo do Gemini, %s. \U0001F534 **N\u00e3o h\u00e1 transcri\u00e7\u00e3o de fala desta reuni\u00e3o** \u2014" % origem,
               u"> tudo abaixo foi escrito por um modelo e \u00e9 **derivado**."]
-    L += [u"> \u26a0 **Destino `%s` saiu do t\u00edtulo:** n\u00e3o \u00e9 prova de que a reuni\u00e3o foi com o cliente." % (r[u"slug"] or u"?"),
+    if r[u"conf"] == u"alta":
+        L += [u"> \U0001F7E2 **Destino `%s` saiu do e-mail dos participantes** \u2014 natureza **%s**." % (r[u"slug"], r[u"natureza"])]
+    elif r[u"conf"] == u"media":
+        L += [u"> \u26a0 **Destino `%s` saiu s\u00f3 do t\u00edtulo:** o t\u00edtulo mente \u2014 pode ser reuni\u00e3o interna *sobre* o cliente." % r[u"slug"]]
+    else:
+        L += [u"> \U0001F534 **Destino n\u00e3o roteado** \u2014 candidatos: %s. **Rotear exige olho humano.**" % (u", ".join(r[u"candidatos"]) or u"nenhum")]
+    L += [
           u"", u"## \u23f1 Posi\u00e7\u00e3o no tempo", u"",
           u"| | |", u"|---|---|",
-          u"| Reuni\u00e3o | **%d de %d** de %s neste acervo |" % (pos[u"k"], pos[u"n"], cli),
+          u"| Reuni\u00e3o | **%d de %d** de %s nos acervos |" % (pos[u"k"], pos[u"n"], cli),
           u"| Data | **%s** \u2014 **%s atr\u00e1s** |" % (data, dias(pos[u"idade"])),
           u"| Depois dela | **%d reuni\u00f5es**%s |" % (
               pos[u"depois"], (u" \u2014 a \u00faltima em **%s**" % pos[u"ultima"].isoformat())
@@ -476,10 +661,10 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
         L += [u"\u26a0 **Esta reuni\u00e3o \u00e9 hist\u00f3ria.** O que ela afirma **aconteceu em %s**; o que prometia" % data,
               u"**estava por vir naquela data**, e o cumprimento **n\u00e3o est\u00e1 verificado**%s." % (
                   (u" \u2014 h\u00e1 **%d reuni\u00f5es posteriores** onde conferir" % pos[u"depois"]) if pos[u"depois"]
-                  else u" \u2014 e **n\u00e3o h\u00e1 reuni\u00e3o posterior neste acervo** onde conferir")]
+                  else u" \u2014 e **n\u00e3o h\u00e1 reuni\u00e3o posterior nos acervos** onde conferir")]
     if status and status.lower().startswith(u"churn") and pos[u"depois"] == 0:
         L += [u"", u"\U0001F7E2 **Limite temporal do churn:** o corpus diz `%s` (lido em %s) e esta \u00e9 a \u00faltima" % (status, st_data),
-              u"reuni\u00e3o do cliente neste acervo. **O cliente estava ativo em %s \u2014 a sa\u00edda foi depois.** A data" % data,
+              u"reuni\u00e3o do cliente nos acervos. **O cliente estava ativo em %s \u2014 a sa\u00edda foi depois.** A data" % data,
               u"exata segue `[a preencher]`."]
 
     rot = {u"aconteceu": u"\u2705 Aconteceu \u2014 em %s" % data,
@@ -547,15 +732,18 @@ def escreve_jornada(pasta, linha, st, res):
     idade = (HOJE - ult[u"data"]).days
     rel = u"../../../../00_Institucional/_inbox-calls/"
 
-    B = [INI, u"### \u23f1 Linha do tempo das reuni\u00f5es \u2014 acervo Laura Cardoso", u"",
-         u"> **Fonte:** t\u00edtulo e data de cada reuni\u00e3o no acervo da Laura Cardoso \u2014 **dado prim\u00e1rio**",
+    acs = sorted(set(a for r in linha for a in r[u"acervos"]))
+    B = [INI, u"### \u23f1 Linha do tempo das reuni\u00f5es \u2014 acervos de reuni\u00e3o", u"",
+         u"> **Fonte:** t\u00edtulo e data de cada reuni\u00e3o nos acervos de %s \u2014 **dado prim\u00e1rio**" % u" e ".join(acs),
          u"> (o t\u00edtulo \u00e9 o evento da agenda; n\u00e3o passou por modelo). Conferido em **%s**." % HOJE.strftime(u"%d/%m/%Y"),
-         u"> \u26a0 **\u00c9 a carteira de UMA atendente:** reuni\u00e3o ausente aqui n\u00e3o prova reuni\u00e3o ausente.",
+         u"> \u26a0 **S\u00e3o acervos de pessoas, n\u00e3o do cliente:** reuni\u00e3o ausente aqui n\u00e3o prova reuni\u00e3o ausente.",
+         u"> **Natureza** sai do e-mail do cabe\u00e7alho: `externa` = cliente presente \u00b7 `interna` = s\u00f3 uMode,",
+         u"> **sobre** o cliente \u00b7 `n\u00e3o confirmada` = sem cabe\u00e7alho, s\u00f3 o t\u00edtulo indica.",
          u"> \u26a0 **Gerado por `scripts/extrai-propostas-de-resumo.py` \u2014 n\u00e3o editar \u00e0 m\u00e3o.**", u"",
          u"#### \u2705 Aconteceu \u2014 %d reuni\u00f5es, de %s a %s" % (
              len(linha), linha[0][u"data"].isoformat(), ult[u"data"].isoformat()), u"",
-         u"| Data | Assunto (do t\u00edtulo) | Fonte | Propostas no inbox |",
-         u"|---|---|---|---|"]
+         u"| Data | Assunto (do t\u00edtulo) | Natureza | Acervo | Fonte | Propostas no inbox |",
+         u"|---|---|---|---|---|---|"]
     for r in linha:
         if r[u"docx"]:
             fonte = u"resumo" + (u" + **transcri\u00e7\u00e3o**" if r.get(u"n_falas") else u"")
@@ -566,14 +754,18 @@ def escreve_jornada(pasta, linha, st, res):
             prop = u"[%d](%s%s.md)" % (n, rel, r[u"arq"])
         else:
             prop = u"\u2014"
-        B.append(u"| %s | %s | %s | %s |" % (r[u"data"].isoformat(), r[u"assunto"], fonte, prop))
+        B.append(u"| %s | %s | %s | %s | %s | %s |" % (
+            r[u"data"].isoformat(), r[u"assunto"], r[u"natureza"],
+            u" + ".join(a.split()[0] for a in sorted(r[u"acervos"])), fonte, prop))
     B += [u"", u"#### \U0001F504 Acontecendo \u2014 o \u00faltimo estado conhecido", u"",
-          u"- **\u00daltima reuni\u00e3o neste acervo:** %s \u2014 *%s* \u2014 **%s atr\u00e1s**." % (
+          u"- **\u00daltima reuni\u00e3o nos acervos:** %s \u2014 *%s* \u2014 **%s atr\u00e1s**." % (
               ult[u"data"].isoformat(), ult[u"titulo"], dias(idade)),
           u"- **Status no corpus:** %s." % (
               (u"`%s` \u2014 varredura de %s (data da **leitura**, n\u00e3o da transi\u00e7\u00e3o)" % (status, st_data))
               if status else u"`[a preencher]`")]
-    quem = [u"`%s`" % e for e in ult.get(u"emails", [])] + list(ult.get(u"falantes", []))
+    quem = [u"`%s`" % e for e in ult.get(u"emails", []) if e.split(u"@")[1] not in PESSOAL]
+    quem += [n for n, _ in ult.get(u"resolvidos", [])]
+    quem += [f for f in ult.get(u"falantes", []) if f not in quem]
     if quem:
         B.append(u"- **Quem esteve na \u00faltima reuni\u00e3o:** %s." % u" \u00b7 ".join(quem))
     s = (status or u"").lower()
@@ -581,12 +773,12 @@ def escreve_jornada(pasta, linha, st, res):
         B.append(u"- \U0001F7E2 **Limite do churn:** o cliente estava em reuni\u00e3o em **%s**; a sa\u00edda foi **depois**"
                  u" disso e **antes de %s**. Data exata `[a preencher]`." % (ult[u"data"].isoformat(), st_data))
     elif idade > 180:
-        B.append(u"- \U0001F534 **`%s` no corpus e %s sem reuni\u00e3o neste acervo.** N\u00e3o prova abandono \u2014"
+        B.append(u"- \U0001F534 **`%s` no corpus e %s sem reuni\u00e3o nos acervos.** N\u00e3o prova abandono \u2014"
                  u" a conta pode estar com outra pessoa \u2014 **mas \u00e9 a pergunta a fazer.**" % (status or u"?", dias(idade)))
     elif idade <= JANELA:
         B.append(u"- \U0001F7E2 **Coerente:** status ativo e reuni\u00e3o h\u00e1 %s." % dias(idade))
     else:
-        B.append(u"- \u26a0 **Entre 3 e 6 meses sem reuni\u00e3o neste acervo** \u2014 %s." % dias(idade))
+        B.append(u"- \u26a0 **Entre 3 e 6 meses sem reuni\u00e3o nos acervos** \u2014 %s." % dias(idade))
     g = res.get(ult.get(u"arq"), {})
     ac = g.get(u"acontecendo", [])
     if ac:
@@ -610,7 +802,9 @@ def escreve_jornada(pasta, linha, st, res):
     B += [FIM]
     bloco = u"\n".join(B)
 
-    if INI in t:
+    if INI_V1 in t:
+        t = re.sub(re.escape(INI_V1) + u".*?" + re.escape(FIM_V1), lambda m: bloco, t, flags=re.S)
+    elif INI in t:
         t = re.sub(re.escape(INI) + u".*?" + re.escape(FIM), lambda m: bloco, t, flags=re.S)
     else:
         a = t.find(u"\n## Marcos da jornada")
@@ -628,6 +822,22 @@ def escreve_jornada(pasta, linha, st, res):
 def main():
     w = sys.stdout.write
     reunioes, nao_lidos = le_acervo()
+
+    # 1 - le o resumo (o maior .docx, se a reuniao veio em mais de um acervo)
+    #     e roteia pelo e-mail ANTES de montar a linha do tempo
+    lidos = {}
+    for r in reunioes:
+        r[u"emails"], r[u"falantes"], r[u"n_falas"] = [], [], 0
+        if r[u"docxs"]:
+            r[u"docx"] = max(r[u"docxs"], key=os.path.getsize)
+            det, etapas, r[u"emails"], r[u"falantes"], r[u"n_falas"] = le_resumo(r[u"docx"])
+            lidos[id(r)] = (det, etapas)
+            if le_resumo.cab:
+                r[u"resolvidos"], r[u"sobra"] = resolve_cabecalho(le_resumo.cab)
+        else:
+            r[u"docx"] = None
+        roteia(r)
+
     porcli = collections.defaultdict(list)
     for r in reunioes:
         porcli[r[u"slug"]].append(r)
@@ -637,29 +847,34 @@ def main():
     if not os.path.isdir(INBOX):
         os.makedirs(INBOX)
     tot = collections.Counter()
+    poracervo = collections.Counter()
+    pornat = collections.Counter()
     porbloco = collections.Counter()
     res = {}
     usados = set()
     for slug, linha in porcli.items():
         st = status_do_corpus(linha[0][u"pasta"])
         for r in linha:
+            pornat[r[u"natureza"]] += 1
             if not r[u"docx"]:
                 continue
-            det, etapas, r[u"emails"], r[u"falantes"], r[u"n_falas"] = le_resumo(r[u"docx"])
+            det, etapas = lidos[id(r)]
+            for a in r[u"acervos"]:
+                poracervo[a] += 1
             if r[u"n_falas"]:
-                tot[u"com transcri\u00e7\u00e3o"] += 1
+                tot[u"com transcrição"] += 1
             if etapas:
-                tot[u"com pr\u00f3ximas etapas"] += 1
-            if det is None:
-                tot[u"sem Detalhes"] += 1
+                tot[u"com próximas etapas"] += 1
+            if len(r[u"acervos"]) > 1:
+                tot[u"em mais de um acervo"] += 1
             props, t0, t0p, t1 = classifica(det or u"", etapas)
-            tot[u"reuni\u00f5es lidas"] += 1
+            tot[u"reuniões lidas"] += 1
             tot[u"propostas"] += len(props)
             tot[u"T0 descartado"] += len(t0)
             tot[u"T0-P descartado"] += len(t0p)
             tot[u"T1 descartado"] += len(t1)
             if not props and not (t0 or t0p or t1):
-                tot[u"reuni\u00f5es sem proposta"] += 1
+                tot[u"reuniões sem proposta"] += 1
                 continue
             base = u"%s_%s_%s" % (r[u"data"].isoformat(), slug or u"sem-destino", kebab(r[u"titulo"]))
             arq, n = base, 2
@@ -668,7 +883,12 @@ def main():
                 n += 1
             usados.add(arq)
             r[u"arq"] = arq
-            g = escreve_inbox(r, tempo_da(r, linha), props, t0, t0p, t1, st)
+            # ⏱ Casa tem series paralelas (Migracao, K.A.FE, CriAi): o
+            # "mais recente" e da SERIE, nao da Casa inteira
+            ref = linha
+            if slug == u"casa":
+                ref = [x for x in linha if kebab(x[u"titulo"], 30) == kebab(r[u"titulo"], 30)]
+            g = escreve_inbox(r, tempo_da(r, ref), props, t0, t0p, t1, st)
             res[arq] = g
             for k, v in g.items():
                 porbloco[k] += len(v)
@@ -679,22 +899,31 @@ def main():
         if pasta:
             jorn.append((pasta, len(linha), escreve_jornada(pasta, linha, status_do_corpus(pasta), res)))
 
-    w(u"=" * 70 + u"\nPROPOSTAS COM EIXO DE TEMPO \u00b7 acervo da Laura\n" + u"=" * 70 + u"\n\n")
+    w(u"=" * 70 + u"\nPROPOSTAS COM EIXO DE TEMPO · %s\n" % u" + ".join(a[1] for a in ACERVOS) + u"=" * 70 + u"\n\n")
+    w(u"reuniões distintas     : %d\n" % len(reunioes))
     w(u"arquivos no _inbox-calls/ : %d\n" % len(res))
-    for k in (u"reuni\u00f5es lidas", u"com transcri\u00e7\u00e3o", u"com pr\u00f3ximas etapas",
-              u"reuni\u00f5es sem proposta", u"sem Detalhes",
-              u"propostas", u"T0 descartado", u"T0-P descartado", u"T1 descartado"):
+    for k in (u"reuniões lidas", u"em mais de um acervo", u"com transcrição", u"com próximas etapas",
+              u"reuniões sem proposta", u"propostas", u"T0 descartado", u"T0-P descartado", u"T1 descartado"):
         w(u"   %-24s %5d\n" % (k, tot[k]))
+    w(u"\nPOR ACERVO (resumos lidos)\n")
+    for k, v in poracervo.most_common():
+        w(u"   %-24s %4d\n" % (k, v))
+    w(u"\nPOR NATUREZA (todas as reuniões)\n")
+    for k, v in pornat.most_common():
+        w(u"   %-24s %4d\n" % (k, v))
     w(u"\nPOR TEMPO\n")
     for k in (u"aconteceu", u"acontecendo", u"por-vir", u"compromisso-antigo"):
         w(u"   %-20s %4d\n" % (k, porbloco[k]))
     w(u"\nJORNADA.MD (linha do tempo)\n")
     for pasta, n, r in jorn:
-        w(u"   %-20s %3d reuni\u00f5es \u00b7 %s\n" % (pasta, n, r))
-    w(u"\nsem destino no t\u00edtulo: %d reuni\u00f5es\n" % len(porcli.get(None, [])))
-    for r in porcli.get(None, []):
-        w(u"   %s  %s\n" % (r[u"data"].isoformat(), r[u"titulo"][:60]))
-    w(u"N\u00c3O lidos (1:1 internos): %d\n" % len(nao_lidos))
+        w(u"   %-20s %3d reuniões · %s\n" % (pasta, n, r))
+    w(u"\ncasa: %d reuniões · sem destino: %d\n" % (len(porcli.get(u"casa", [])), len(porcli.get(None, []))))
+    amb = [r for r in porcli.get(None, []) if len(r[u"candidatos"]) > 1]
+    for r in amb:
+        w(u"   ⚠ ambígua %s  %s -> %s\n" % (r[u"data"].isoformat(), r[u"titulo"][:50], u" / ".join(r[u"candidatos"])))
+    w(u"NÃO lidos (1:1 e dupla interna): %d\n" % len(nao_lidos))
+    for p, n in nao_lidos:
+        w(u"   %s · %s\n" % (p, n[:60]))
     return 0
 
 

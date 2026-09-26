@@ -43,6 +43,42 @@ tags:
 | **17/04/2026** | Linha do cliente criada no Notion | base `Mapa de Clientes` |
 | **02/09/2026** | Última edição — **a mais recente de toda a base de clientes** | idem |
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 3 reuniões, de 2026-07-29 a 2026-09-02
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2026-07-29 | kick-off | interna | Juliana | resumo | [25](../../../../00_Institucional/_inbox-calls/2026-07-29_loungerie_kick-off-longerie.md) |
+| 2026-08-19 | — | interna | Juliana | resumo | [13](../../../../00_Institucional/_inbox-calls/2026-08-19_loungerie_migracao-de-sistema-loungerie.md) |
+| 2026-09-02 | — | interna | Juliana | resumo | [4](../../../../00_Institucional/_inbox-calls/2026-09-02_loungerie_migracao-de-sistema-loungerie.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2026-09-02 — *🚚 Migração de Sistema - Loungerie* — **23 dias atrás**.
+- **Status no corpus:** `Onboarding` — varredura de 2026-09-22 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** Julianne Rodrigues · Marina Santoro · Laura Delgado · Pedro Murillo · Ana Paula Ramos · Ana Lucia · Juliana Ferré · Fernanda Araujo · Victor Aragão.
+- 🟢 **Coerente:** status ativo e reunião há 23 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 1 de 1 itens):
+  - `dor` Desejo de Funcionalidade "Canva": Juliana Ferré discute uma melhoria futura, apelidada de "Canva", que funcionaria como uma tela livre para upload de imagens e anotações (setas, textos) estilo formato A4, superando a atual limitação de espaço para rabiscos.
+
+#### ⏭ Por vir
+
+⚠ **Compromissos da reunião de 2026-09-02** — derivados do resumo, **não aprovados**:
+- [O grupo] Testar sistema: Explorar as funcionalidades de solicitações e aprovações via computador e celular. Enviar feedbacks sobre usabilidade e possíveis melhorias para a equipe.
+- [Fernanda Araujo] Apresentar fluxos: Apresentar o fluxo completo de lote e aposta para o time na próxima reunião. Demonstrar como o processo funcionará de forma independente para diferentes clientes.
+- [Julianne Rodrigues] Montar cenários: Analisar a documentação disponível. Montar cenários de uso dentro do sistema para validar os campos e as aprovações dos clientes.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 `[a preencher]`
 

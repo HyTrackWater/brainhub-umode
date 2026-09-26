@@ -135,6 +135,50 @@ tags:
 > ⚠ **A cadência de ata some depois de 03/06/2026.** Ou as weeklies pararam de ser registradas no
 > Notion, ou mudaram de lugar. **Confirmar com a dupla** — é a maior descontinuidade do histórico.
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 4 reuniões, de 2022-08-17 a 2026-08-17
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2022-08-17 | importação | não confirmada | Juliana | só chat | — |
+| 2025-04-07 | — | não confirmada | Juliana | só chat | — |
+| 2025-04-29 | — | não confirmada | Juliana | resumo + **transcrição** | [6](../../../../00_Institucional/_inbox-calls/2025-04-29_caedu_caedu-presencial.md) |
+| 2026-08-17 | — | interna | Juliana | resumo | [11](../../../../00_Institucional/_inbox-calls/2026-08-17_caedu_caedu-revisao-novo-escopo.md) |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2026-08-17 — *Caedu - Revisão Novo Escopo* — **39 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- **Quem esteve na última reunião:** Vanessa Rinaldi · Juliana Ferré · Marina Santoro.
+- 🟢 **Coerente:** status ativo e reunião há 39 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 5 de 5 itens):
+  - `dor` Identificação de Dores Técnicas: Durante a visita, foram levantados diversos problemas técnicos pelo time do cliente, incluindo campos repetidos ou redundantes, falta de uso de *workflow*, problemas de hierarquia entre pastas, necessidade de conciliação de…
+  - `marco` Cronograma de Implantação - Primeiros Meses: O plano inicial prevê que, a partir da assinatura do contrato, o primeiro mês seja dedicado à definição de escopo, *kickoff* e diagnóstico técnico entre PLM e Links.
+  - `decisao` Workshops Combinados de Negócio e Tecnologia: Ficou decidido que os workshops devem envolver tanto o time de negócios quanto o de tecnologia para unificar a visão, resolver as pendências de escopo e garantir que todos estejam alinhados antes da assinatura…
+  - `decisao` Priorização da Caedu: Foi acordado que o projeto da Caedu deve ter prioridade sobre outros, como o da Pq, para garantir o sucesso do contrato e mitigar os problemas de gestão enfrentados pelo cliente.
+  - `decisao` Flexibilidade e Gestão do Cronograma: Ficou estabelecido que, embora exista um plano de 12 meses, o escopo deve ser revisto mensalmente conforme as dores do cliente evoluírem.
+
+#### ⏭ Por vir
+
+⚠ **Compromissos da reunião de 2026-08-17** — derivados do resumo, **não aprovados**:
+- [A equipe] Agendar Workshop Caedu: Agendar workshop presencial com o time de negócios e técnico da Caedu para a próxima semana. O objetivo é realizar o mapeamento de necessidades e definir o escopo do projeto antes da assinatura do contrato.
+- [Marina Santoro] Mapear Integração Técnica: Realizar o levantamento detalhado das integrações com o time técnico da Caedu. Validar os insumos necessários para a correta reimplantação do sistema.
+- [Marina Santoro] Limpeza de Dados: Executar o tratamento e a limpeza da base de dados e hierarquia de campos para a migração da Caedu. Atender todas as solicitações documentadas na planilha de pendências do cliente.
+- [Juliana Ferré] Listar pontos de atenção: Enviar para o João as observações sobre o cronograma e ajustes necessários para a revisão da proposta com Maurício.
+- [Juliana Ferré, Vanessa Rinaldi] Alinhar reunião: Verificar com João a agenda de sexta-feira para definir o formato do encontro com Maurício.
+- [The group] Definir responsável: Alocar um profissional de negócios para gerir a integração de dados da Caedu e evitar sobrecarga de Marina Santoro.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Situação |
 |---|---|

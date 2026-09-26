@@ -14,8 +14,8 @@ participantes_sem_email:
   - "Laura Delgado"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 6/11
-reunioes_depois: 5
+posicao_na_linha_do_tempo: 6/13
+reunioes_depois: 7
 idade_em_dias: 392
 horizonte: historico
 tier: T2
@@ -29,19 +29,19 @@ processado_em: 2026-09-25
 > `.docx` original — **34 falas, 2 falantes**. As propostas abaixo vêm do **resumo**
 > (derivado); **cada uma com minuto é conferível contra a fala**. 🔴 A transcrição
 > bruta não entra no repositório.
-> ⚠ **Destino `cambos` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `cambos` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **6 de 11** de Cambos neste acervo |
+| Reunião | **6 de 13** de Cambos nos acervos |
 | Data | **2025-08-29** — **392 dias atrás** |
-| Depois dela | **5 reuniões** — a última em **2026-09-23** |
+| Depois dela | **7 reuniões** — a última em **2026-09-23** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-08-29**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **5 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **7 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

@@ -25,13 +25,13 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `plie` saiu do título:** não é prova de que a reunião foi com o cliente.
+> ⚠ **Destino `plie` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **10 de 11** de Plie neste acervo |
+| Reunião | **10 de 11** de Plie nos acervos |
 | Data | **2025-10-28** — **332 dias atrás** |
 | Depois dela | **1 reuniões** — a última em **2025-10-31** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

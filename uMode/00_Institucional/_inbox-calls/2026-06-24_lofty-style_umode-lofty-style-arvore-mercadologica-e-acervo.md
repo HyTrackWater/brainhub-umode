@@ -6,16 +6,16 @@ titulo: "uMode · Lofty Style - Árvore Mercadológica e Acervo."
 data: 2026-06-24
 referente_a: 2026-06-24
 destino: lofty-style
-confianca_destino: media
-natureza: "[a preencher]"
+confianca_destino: alta
+natureza: externa
 participantes:
   - marcello.saga@loftystyle.com.br
   - regina.santangelo@loftystyle.com.br
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 5/9
-reunioes_depois: 4
+posicao_na_linha_do_tempo: 5/10
+reunioes_depois: 5
 idade_em_dias: 93
 horizonte: historico
 tier: T2
@@ -27,19 +27,19 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Laura Cardoso. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> ⚠ **Destino `lofty-style` saiu do título:** não é prova de que a reunião foi com o cliente.
+> 🟢 **Destino `lofty-style` saiu do e-mail dos participantes** — natureza **externa**.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **5 de 9** de Lofty Style neste acervo |
+| Reunião | **5 de 10** de Lofty Style nos acervos |
 | Data | **2026-06-24** — **93 dias atrás** |
-| Depois dela | **4 reuniões** — a última em **2026-09-10** |
+| Depois dela | **5 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-06-24**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **4 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **5 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

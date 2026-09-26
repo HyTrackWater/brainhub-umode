@@ -81,6 +81,37 @@ ao mesmo tempo **uma variante foi excluída sem que ninguém soubesse quem fez**
 | **13/01/2026** | 🔴 **Variante excluída sem autor conhecido** | idem |
 | **26/06/2026** | Última edição da página do cliente | base `Mapa de Clientes` |
 
+
+<!-- acervos-reunioes:linha-do-tempo:inicio -->
+### ⏱ Linha do tempo das reuniões — acervos de reunião
+
+> **Fonte:** título e data de cada reunião nos acervos de Juliana Ferré — **dado primário**
+> (o título é o evento da agenda; não passou por modelo). Conferido em **25/09/2026**.
+> ⚠ **São acervos de pessoas, não do cliente:** reunião ausente aqui não prova reunião ausente.
+> **Natureza** sai do e-mail do cabeçalho: `externa` = cliente presente · `interna` = só uMode,
+> **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
+> ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
+
+#### ✅ Aconteceu — 4 reuniões, de 2023-05-05 a 2025-08-25
+
+| Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
+|---|---|---|---|---|---|
+| 2023-05-05 | — | não confirmada | Juliana | só chat | — |
+| 2024-06-04 | — | não confirmada | Juliana | só chat | — |
+| 2025-03-31 | — | não confirmada | Juliana | só chat | — |
+| 2025-08-25 | — | não confirmada | Juliana | resumo | — |
+
+#### 🔄 Acontecendo — o último estado conhecido
+
+- **Última reunião nos acervos:** 2025-08-25 — *Relatório Vix* — **396 dias atrás**.
+- **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
+- 🔴 **`Ongoing` no corpus e 396 dias sem reunião nos acervos.** Não prova abandono — a conta pode estar com outra pessoa — **mas é a pergunta a fazer.**
+
+#### ⏭ Por vir
+
+🔴 **Nada por vir registrado.** A última reunião tem 396 dias; o que ela prometia é compromisso de 2025-08-25, **com cumprimento não verificado**.
+<!-- acervos-reunioes:linha-do-tempo:fim -->
+
 ## Entregas comprometidas
 | Entrega | Estado |
 |---|---|
