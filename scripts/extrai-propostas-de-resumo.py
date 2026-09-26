@@ -522,7 +522,7 @@ def propostas_de_asr(r):
         texto = re.sub(u"\\s+", u" ", p.get(u"texto", u"")).strip()
         ts = p.get(u"ts") or None
         chave = p.get(u"chave")
-        if not texto or chave not in (u"decisao", u"entrega", u"dor", u"marco", u"incidente", u"erp", u"processo"):
+        if not texto or chave not in (u"decisao", u"entrega", u"dor", u"marco", u"incidente", u"erp", u"processo", u"metrica"):
             continue
         if sensivel(texto, ts, t0, t0p, t1):
             continue
