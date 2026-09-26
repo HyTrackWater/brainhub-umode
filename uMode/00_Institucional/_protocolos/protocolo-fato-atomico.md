@@ -182,6 +182,7 @@ senão duas pessoas escrevem `cnpj` e `CNPJ` e o cruzamento falha em silêncio.
 | `entrega` | `jornada.md` · `contexto-area.md` | `Incluir os 4 primeiros fornecedores · em aberto` |
 | `incidente` | `jornada.md` | `Sistema saiu do ar` |
 | `decisao` | `jornada.md` | `Dados de pedido ficam fora da uMode, em planilhas` |
+| `processo` | `contexto-area.md` · `jornada.md` | `PCP cadastra a ficha técnica no Linx e só depois no PLM` — **como a área trabalha HOJE**, não o que foi decidido. *Acrescentada em 25/09/2026: sem ela, descrição de processo entrava como `decisao`, o mesmo erro que a conferência contra a fala mediu (intenção ou prática registrada como decisão, item 792).* |
 | `produto-conectado` | `contexto-area.md` | `Gestão de Coleção` |
 | `pessoas-da-area` | `contexto-area.md` | `31 pessoas com perfil Caedu-Estilo` |
 | `responsavel-area` | `contexto-area.md` | `pessoa:<e-mail>` |

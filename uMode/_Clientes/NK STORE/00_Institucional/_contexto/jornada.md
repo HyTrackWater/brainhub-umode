@@ -137,7 +137,7 @@ sobre **campos duplicados no cadastro** e **valores da ficha que não chegam ao 
 | 2025-02-10 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-03-12 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-03-24 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-04-15 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-15 | — | não confirmada | Marina | vídeo + transcrição automática | [11](../../../../00_Institucional/_inbox-calls/2025-04-15_nk-store_umode-nk-revisao-status-das-provas.md) |
 | 2025-08-08 | integração | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-08-08_nk-store_umode-nk-revisao-integracao-leitura-e-escrita.md) |
 | 2025-09-19 | weekly | não confirmada | Marina | resumo | [8](../../../../00_Institucional/_inbox-calls/2025-09-19_nk-store_weekly-nk-store-umode.md) |
 | 2026-04-02 | teste | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2026-04-02_nk-store_umode-nk-teste-rota-operacao-homologacao.md) |

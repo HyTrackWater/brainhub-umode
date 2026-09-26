@@ -108,9 +108,9 @@ com CSat 9,6 e entusiasmo 4,9. Três meses depois, **15 chamados em 24 dias e 12
 |---|---|---|---|---|---|
 | 2025-03-27 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-03-28 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-04-01 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-04-11 | ficha técnica | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-04-22 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-01 | — | não confirmada | Marina | vídeo + transcrição automática | [13](../../../../00_Institucional/_inbox-calls/2025-04-01_lofty-style_umode-lofty-style-time-de-compras.md) |
+| 2025-04-11 | ficha técnica | não confirmada | Marina | vídeo + transcrição automática | [13](../../../../00_Institucional/_inbox-calls/2025-04-11_lofty-style_umode-lofty-style-pcp-ficha-tecnica-no-linx.md) |
+| 2025-04-22 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-04-22_lofty-style_umode-lofty-style-sourcing.md) |
 | 2025-04-29 | — | não confirmada | Marina | vídeo + transcrição automática | [14](../../../../00_Institucional/_inbox-calls/2025-04-29_lofty-style_umode-lofty-style-presencial-validacao-de-fluxo.md) |
 | 2025-08-15 | weekly | não confirmada | Marina | resumo + **transcrição** | [2](../../../../00_Institucional/_inbox-calls/2025-08-15_lofty-style_weekly-lofty-style-umode.md) |
 | 2025-09-02 | ficha técnica | não confirmada | Laura | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-02_lofty-style_ficha-de-impressao-umode-lofty-style.md) |

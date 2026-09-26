@@ -4718,3 +4718,11 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      outra metade — `Rose` é a `Roselene`? — **segue aberta** e só o e-mail fecha.
      ⚠ **Limite do teste:** ele pega sala com várias vozes que se chamam pelo nome. Duas pessoas
      no mesmo aparelho que não se chamam passam despercebidas.
+795. 🟢 **Chave nova no vocabulário fechado: `processo` — como a área trabalha HOJE.** Acrescentada
+     ao `protocolo-fato-atomico.md` § 4, como o próprio protocolo manda ("se não existir,
+     acrescente na tabela primeiro"). 🔴 **Motivo medido:** nas propostas tiradas das gravações, **11
+     de 28 `decisao` (39%) eram descrição de processo** — "o estilo faz a ficha e o sourcing envia"
+     não é decisão de ninguém. É o mesmo erro que a conferência contra a fala mediu no resumo do
+     Gemini (item 792): **prática ou intenção registrada como decisão.** Reclassificadas por
+     subagente, só a chave mudou. ⚠ **Quatro casos ficaram no limite** e seguem como `decisao`
+     com a ressalva registrada pelo subagente.

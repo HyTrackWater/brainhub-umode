@@ -46,14 +46,14 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-04-29
 
-- decisao: Na validação presencial com a Lofty Style, o fluxo mapeado de Estilo, Modelagem, Compras/Sourcing e PCP representa a sequência de como o processo é hoje, sem escala de tempo, incluindo ferramentas e planilhas paralelas. — [transcrição automática 2025-04-29 · 00:02:44] ⚠ PROPOSTA · DERIVADA
+- processo: Na validação presencial com a Lofty Style, o fluxo mapeado de Estilo, Modelagem, Compras/Sourcing e PCP representa a sequência de como o processo é hoje, sem escala de tempo, incluindo ferramentas e planilhas paralelas. — [transcrição automática 2025-04-29 · 00:02:44] ⚠ PROPOSTA · DERIVADA
 - dor: Na Lofty Style, a área de Planejamento hoje não atua no fluxo de desenvolvimento até a liberação do produto para produção. — [transcrição automática 2025-04-29 · 00:02:30] ⚠ PROPOSTA · DERIVADA
 - dor: Na Lofty Style, controles importantes rodam em planilhas Excel paralelas, como a planilha de produção e o registro do produto após alocação de fornecedor. — [transcrição automática 2025-04-29 · 00:04:22] ⚠ PROPOSTA · DERIVADA
 - dor: Na Lofty Style não havia planejamento formal de compras por categoria (ex.: tricô); os ajustes entre categorias eram feitos no improviso, ao longo da coleção. — [transcrição automática 2025-04-29 · 00:05:53] ⚠ PROPOSTA · DERIVADA
 - dor: Na Lofty Style, o próprio Estilo faz hoje a compra de tecidos nacionais, papel que o grupo entende não caber ao Estilo e sim à área de compras. — [transcrição automática 2025-04-29 · 00:54:38] ⚠ PROPOSTA · DERIVADA
 - decisao: Na Lofty Style, o cadastro de produto acabado fica com as assistentes de estilo, que o fazem para as estilistas. — [transcrição automática 2025-04-29 · 00:08:55] ⚠ PROPOSTA · DERIVADA
-- decisao: No fluxo de importado da Lofty Style, o Sourcing traduz e envia as fichas para a China, e foram incluídas etapas de follow-up de fit sample e de shipment sample. — [transcrição automática 2025-04-29 · 00:57:44] ⚠ PROPOSTA · DERIVADA
-- decisao: No fluxo da Lofty Style, a alocação do fornecedor ou da facção acontece após a prova final de armário, seguida do cadastro do produto. — [transcrição automática 2025-04-29 · 01:10:07] ⚠ PROPOSTA · DERIVADA
+- processo: No fluxo de importado da Lofty Style, o Sourcing traduz e envia as fichas para a China, e foram incluídas etapas de follow-up de fit sample e de shipment sample. — [transcrição automática 2025-04-29 · 00:57:44] ⚠ PROPOSTA · DERIVADA
+- processo: No fluxo da Lofty Style, a alocação do fornecedor ou da facção acontece após a prova final de armário, seguida do cadastro do produto. — [transcrição automática 2025-04-29 · 01:10:07] ⚠ PROPOSTA · DERIVADA
 - dor: Na Lofty Style, quando o fornecedor é trocado depois da alocação, o processo de pilotagem recomeça. — [transcrição automática 2025-04-29 · 01:11:01] ⚠ PROPOSTA · DERIVADA
 - dor: Fornecedores e facções da Lofty Style recebem a modelagem e ainda erram a contramostra, sobretudo nas medidas, o que atrasa o desenvolvimento. — [transcrição automática 2025-04-29 · 00:45:31] ⚠ PROPOSTA · DERIVADA
 - dor: A Lofty Style não tem tabela de medidas com tolerância definida, então peças chegam com medidas diferentes sem critério claro de aceite. — [transcrição automática 2025-04-29 · 00:46:52] ⚠ PROPOSTA · DERIVADA
