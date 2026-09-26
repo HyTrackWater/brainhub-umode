@@ -4726,3 +4726,12 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      Gemini (item 792): **prática ou intenção registrada como decisão.** Reclassificadas por
      subagente, só a chave mudou. ⚠ **Quatro casos ficaram no limite** e seguem como `decisao`
      com a ressalva registrada pelo subagente.
+796. 🟢 **O presente das contas vivas que só tinha resumo foi conferido contra a GRAVAÇÃO.** As 8
+     reuniões recentes com vídeo no acervo da Marina — Caedu 17/08, Lofty CriAI 20/08, Loungerie
+     (4, de 29/07 a 14/09), NK Store 30/06, NV 07/07 — foram transcritas por máquina e conferidas
+     por subagente: **77 propostas · 33 confirmadas · 44 parciais · 0 contraditas.** 🔴 **A
+     maioria das parciais é dono não verificável** — a transcrição automática não tem falante,
+     então confirma o QUE, não o QUEM. ⚠ **E o resumo do Gemini erra mais do que dono:** **prazo**
+     (fala "até março", resumo "até maio", kick-off da Loungerie) e **verbo** (fala "explorar e
+     testar", resumo "implementar", NK Store). 🔵 **Sem gravação, continuam só com resumo:** Moda
+     Objetiva (7 reuniões de jul–ago), Lofty 09/09 e 10/09, Reserva 14/07, TDC 15/07.

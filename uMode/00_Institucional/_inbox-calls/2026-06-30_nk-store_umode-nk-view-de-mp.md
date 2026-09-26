@@ -46,19 +46,19 @@ processado_em: 2026-09-25
 
 ### 🔄 Acontecendo — último estado conhecido, 2026-06-30
 
-- dor: Acesso ao Google Drive e Integração de Conta: Kemelly Fernandes relata dificuldades recorrentes de acesso à pasta do Google Drive, pois a conta corporativa da NK utiliza Outlook e não está vinculada ao sistema Google, exigindo uma solução ou link direto… — [resumo Gemini 2026-06-30] ⚠ PROPOSTA · DERIVADA
-- dor: Integridade dos Dados e Validação: Kemelly Fernandes aponta problemas na integração de dados, onde informações presentes nas fichas técnicas aparecem como campos em branco ou zerados na planilha, e propõe realizar a validação de uma amostra de itens para… — [resumo Gemini 2026-06-30] ⚠ PROPOSTA · DERIVADA
-- dor: Controle de Alterações e Notificações: Marina Santoro e Kemelly Fernandes discutem a dificuldade de monitorar as alterações diárias feitas pela equipe de estilo em cerca de 90 produtos. — [resumo Gemini 2026-06-30] ⚠ PROPOSTA · DERIVADA
+- dor: Acesso ao Google Drive e Integração de Conta: Kemelly Fernandes relata dificuldades recorrentes de acesso à pasta do Google Drive, pois a conta corporativa da NK utiliza Outlook e não está vinculada ao sistema Google, exigindo uma solução ou link direto… — [resumo Gemini 2026-06-30] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:02:04)
+- dor: Integridade dos Dados e Validação: Kemelly Fernandes aponta problemas na integração de dados, onde informações presentes nas fichas técnicas aparecem como campos em branco ou zerados na planilha, e propõe realizar a validação de uma amostra de itens para… — [resumo Gemini 2026-06-30] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:08:49)
+- dor: Controle de Alterações e Notificações: Marina Santoro e Kemelly Fernandes discutem a dificuldade de monitorar as alterações diárias feitas pela equipe de estilo em cerca de 90 produtos. — [resumo Gemini 2026-06-30] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:18:12)
 
 ### ⏭ Por vir — compromissos da reunião mais recente
 
-- entrega: [Vinicius Risoleo, Marina Santoro] Ajustar Consolidação: Somar materiais e cores nas abas de tecido e aviamento com precisão. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Vinicius Risoleo, Marina Santoro] Padronizar Formatos: Ajustar códigos de cores com zeros à esquerda e definir padrão de duas casas decimais para valores. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Vinicius Risoleo, Marina Santoro] Auditoria de Dados: Auditar integração entre fichas técnicas e planilhas para eliminar campos vazios indevidos. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Vinicius Risoleo, Marina Santoro] Remover Abas: Excluir abas consolidadas por produto que não possuem utilidade prática. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Vinicius Risoleo, Marina Santoro] Configurar Notificações: Implementar envio automático de e-mails diários sobre alterações em fichas técnicas. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Vinicius Risoleo, Marina Santoro] Resolver Acesso: Corrigir problema de permissão no Google Drive para contas com domínio Outlook. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Kemelly Fernandes] Validar Dados: Testar exemplos de materiais para confirmar correção das integrações e consolidar validação. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: [Vinicius Risoleo, Marina Santoro] Ajustar Consolidação: Somar materiais e cores nas abas de tecido e aviamento com precisão. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:24:56)
+- entrega: [Vinicius Risoleo, Marina Santoro] Padronizar Formatos: Ajustar códigos de cores com zeros à esquerda e definir padrão de duas casas decimais para valores. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:27:16)
+- entrega: [Vinicius Risoleo, Marina Santoro] Auditoria de Dados: Auditar integração entre fichas técnicas e planilhas para eliminar campos vazios indevidos. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:32:51)
+- entrega: [Vinicius Risoleo, Marina Santoro] Remover Abas: Excluir abas consolidadas por produto que não possuem utilidade prática. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:27:00)
+- entrega: [Vinicius Risoleo, Marina Santoro] Configurar Notificações: Implementar envio automático de e-mails diários sobre alterações em fichas técnicas. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:21:34)
+- entrega: [Vinicius Risoleo, Marina Santoro] Resolver Acesso: Corrigir problema de permissão no Google Drive para contas com domínio Outlook. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:30:34)
+- entrega: [Kemelly Fernandes] Validar Dados: Testar exemplos de materiais para confirmar correção das integrações e consolidar validação. — [resumo Gemini 2026-06-30 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:09:28)
 
 ## Governança
 
