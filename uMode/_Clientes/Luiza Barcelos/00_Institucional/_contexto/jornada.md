@@ -138,8 +138,8 @@ nova fase.**
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2024-11-05 | ficha técnica | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2024-11-08 | weekly | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-11-05 | ficha técnica | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-11-05_luiza-barcelos_umode-luiza-barcelos-estilo-ficha-de-combinacao.md) |
+| 2024-11-08 | weekly | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-11-08_luiza-barcelos_weekly-luiza-barcelos-umode-novo-2024-11-08-10-5.md) |
 | 2024-11-13 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-11-13_luiza-barcelos_luiza-nk-projeto-com-lider-de-marca.md) |
 | 2024-12-04 | alinhamento | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-04_luiza-barcelos_luiza-barcelos-alinhamento-pos-visita-presencial.md) |
 | 2024-12-05 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-05_luiza-barcelos_umode-luiza-barcelos-michelle.md) |
