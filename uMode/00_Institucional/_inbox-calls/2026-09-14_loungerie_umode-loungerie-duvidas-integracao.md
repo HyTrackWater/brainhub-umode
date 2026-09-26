@@ -45,10 +45,10 @@ processado_em: 2026-09-25
 
 ### ⏭ Por vir — compromissos da reunião mais recente
 
-- entrega: [Julianne Rodrigues] Conversar Cris: Conversar com a Cris da modelagem sobre o cadastro das tabelas de medidas. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Carlos Nascimento] Ajustar planilha: Concluir os acertos e verificar possíveis informações faltantes na planilha. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Carlos Nascimento] Enviar planilha: Enviar a planilha revisada para a equipe. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [A equipe] Configurar sistema: Realizar as configurações no sistema e validar os dados recebidos. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: [Julianne Rodrigues] Conversar Cris: Conversar com a Cris da modelagem sobre o cadastro das tabelas de medidas. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:01:00)
+- entrega: [Carlos Nascimento] Ajustar planilha: Concluir os acertos e verificar possíveis informações faltantes na planilha. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:02:48)
+- entrega: [Carlos Nascimento] Enviar planilha: Enviar a planilha revisada para a equipe. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:02:55)
+- entrega: [A equipe] Configurar sistema: Realizar as configurações no sistema e validar os dados recebidos. — [resumo Gemini 2026-09-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · 00:03:02)
 
 ## Governança
 

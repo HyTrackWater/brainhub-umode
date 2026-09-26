@@ -151,7 +151,7 @@ julho de 2026. `[C]`
 | 2025-08-27 | alinhamento | não confirmada | Laura | resumo | [17](../../../../00_Institucional/_inbox-calls/2025-08-27_luiza-barcelos_alinhamento-luiza-barcelos-umode.md) |
 | 2025-08-29 | weekly | não confirmada | Laura | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2025-08-29_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
 | 2025-09-05 | alinhamento | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-05_luiza-barcelos_alinhamento-tech-luiza-barcelos.md) |
-| 2025-09-11 | teste | não confirmada | Marina | vídeo + transcrição automática | — |
+| 2025-09-11 | teste | não confirmada | Marina | vídeo + transcrição automática | [6](../../../../00_Institucional/_inbox-calls/2025-09-11_luiza-barcelos_umode-luiza-barcelos-teste-novo-endpoint.md) |
 | 2025-09-16 | discovery | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-16_luiza-barcelos_discovery-fornecedores-luiza-barcelos-umode.md) |
 | 2025-09-19 | weekly | não confirmada | Laura | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-19_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
 | 2025-09-24 | alinhamento | não confirmada | Laura | resumo + **transcrição** | [15](../../../../00_Institucional/_inbox-calls/2025-09-24_luiza-barcelos_alinhamento-e-duvidas-umode-luiza-barcelos.md) |

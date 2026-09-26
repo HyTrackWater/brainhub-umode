@@ -48,15 +48,15 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-29
 
-- dor: Fabiane Sayuri Kanasiro informou que a Lô não realizou o teste, alegando que não dá para lançar em dois lugares, o que geraria retrabalho. — [resumo Gemini 2025-08-29 · 00:38:21] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro · 00:38:21)
-- dor: Fabiane explicou que, para o time de desenvolvimento, é mais fácil buscar por nome, mas que o time da Lô pode ter dificuldade. — [resumo Gemini 2025-08-29 · 00:30:33] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro · 00:30:33)
+- dor: Fabiane Sayuri Kanasiro informou que a Lô não realizou o teste, alegando que não dá para lançar em dois lugares, o que geraria retrabalho. — [resumo Gemini 2025-08-29 · 00:38:21] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro · 00:38:21)
+- dor: Fabiane explicou que, para o time de desenvolvimento, é mais fácil buscar por nome, mas que o time da Lô pode ter dificuldade. — [resumo Gemini 2025-08-29 · 00:30:33] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro · 00:30:33)
 
 ### ⌛ Compromissos de 2025-08-29 — cumprimento não verificado
 
-- entrega: Fabiane Sayuri Kanasiro vai tentar agendar a reunião de discovery comercial para segunda-feira às 11h ou 15h, ou em outras opções na próxima semana, e enviar os e-mails das participantes. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:01:08)
-- entrega: Fabiane Sayuri Kanasiro e Laura Delgado vão cobrar o feedback da Low sobre o teste da tabela de medidas, sendo que Fabiane Sayuri Kanasiro enviará um áudio para Laura Delgado com a explicação da Low. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:13:47)
-- entrega: Laura Delgado vai verificar com a equipe como obter a ordem de criação dos cards para facilitar a Fabiane Sayuri Kanasiro na renomeação. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:33:00)
-- entrega: Fabiane também questionou sobre a possibilidade de saber quais são os cards mais antigos para facilitar a renomeação, e Laura se comprometeu a verificar com a equipe. — [resumo Gemini 2025-08-29 · 00:33:00] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:33:00)
+- entrega: Fabiane Sayuri Kanasiro vai tentar agendar a reunião de discovery comercial para segunda-feira às 11h ou 15h, ou em outras opções na próxima semana, e enviar os e-mails das participantes. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:01:08)
+- entrega: Fabiane Sayuri Kanasiro e Laura Delgado vão cobrar o feedback da Low sobre o teste da tabela de medidas, sendo que Fabiane Sayuri Kanasiro enviará um áudio para Laura Delgado com a explicação da Low. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:13:47)
+- entrega: Laura Delgado vai verificar com a equipe como obter a ordem de criação dos cards para facilitar a Fabiane Sayuri Kanasiro na renomeação. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:33:00)
+- entrega: Fabiane também questionou sobre a possibilidade de saber quais são os cards mais antigos para facilitar a renomeação, e Laura se comprometeu a verificar com a equipe. — [resumo Gemini 2025-08-29 · 00:33:00] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:33:00)
 
 ## Governança
 

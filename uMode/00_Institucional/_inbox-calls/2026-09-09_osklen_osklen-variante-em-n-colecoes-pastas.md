@@ -51,14 +51,14 @@ processado_em: 2026-09-25
 
 ### 🔄 Acontecendo — último estado conhecido, 2026-09-09
 
-- dor: Marina Santoro demonstrou que é possível vincular variantes a pastas específicas dentro das coleções, mas identificou um problema técnico onde a contagem de produtos aparece zerada na visão de "todas as coleções", apesar dos produtos terem sido alocados… — [resumo Gemini 2026-09-09 · 00:00:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro · 00:00:42)
+- dor: Marina Santoro demonstrou que é possível vincular variantes a pastas específicas dentro das coleções, mas identificou um problema técnico onde a contagem de produtos aparece zerada na visão de "todas as coleções", apesar dos produtos terem sido alocados… — [resumo Gemini 2026-09-09 · 00:00:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Marina Santoro · 00:00:42)
 
 ### ⏭ Por vir — compromissos da reunião mais recente
 
-- entrega: [Bergson de Lima Marques] Ajustar Funcionalidades: Corrigir a exibição do contador de produtos nas coleções e ajustar a visualização do mapa para mostrar apenas as variantes vinculadas à coleção específica. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Bergson de Lima Marques, Marina Santoro · 00:06:01)
-- entrega: [Marina Santoro] Documentar Ajustes: Comentar os dois últimos ajustes necessários na tarefa da prova de conceito para documentar as pendências. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro · 00:06:01)
-- entrega: [Marina Santoro] Validar Alterações: Testar os ajustes em ambiente de homologação após a liberação e validar com o time interno. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro · 00:06:01)
-- entrega: [Marina Santoro] Apresentar ao Cliente: Apresentar as funcionalidades atualizadas em homologação para o cliente antes da reunião de segunda-feira. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Marina Santoro · 00:06:01)
+- entrega: [Bergson de Lima Marques] Ajustar Funcionalidades: Corrigir a exibição do contador de produtos nas coleções e ajustar a visualização do mapa para mostrar apenas as variantes vinculadas à coleção específica. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Bergson de Lima Marques, Marina Santoro · 00:06:01)
+- entrega: [Marina Santoro] Documentar Ajustes: Comentar os dois últimos ajustes necessários na tarefa da prova de conceito para documentar as pendências. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Marina Santoro · 00:06:01)
+- entrega: [Marina Santoro] Validar Alterações: Testar os ajustes em ambiente de homologação após a liberação e validar com o time interno. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Marina Santoro · 00:06:01)
+- entrega: [Marina Santoro] Apresentar ao Cliente: Apresentar as funcionalidades atualizadas em homologação para o cliente antes da reunião de segunda-feira. — [resumo Gemini 2026-09-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · Marina Santoro · 00:06:01)
 
 ## Governança
 

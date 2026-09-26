@@ -30,7 +30,52 @@ def chave(arq, texto):
     return hashlib.sha1((arq + u"|" + texto).encode(u"utf-8")).hexdigest()[:12]
 
 
+def pacotes_de_asr(pasta):
+    u"""
+    Conferencia contra TRANSCRICAO AUTOMATICA (faster-whisper, sem falante):
+    para reuniao que tem resumo E gravacao, mas nao tem fala no .docx. Cada
+    `NNN.txt` da pasta comeca com `# <nome do video>`; casa com a reuniao por
+    data + titulo. \u26a0 O pacote leva `sem_falante: true` - o veredito
+    confirma CONTEUDO, nunca DONO.
+    """
+    os.makedirs(PACOTES, exist_ok=True)
+    n = 0
+    for f in sorted(os.listdir(pasta)):
+        if not re.match(u"^\\d{3}\\.txt$", f):
+            continue
+        cab = io.open(os.path.join(pasta, f), encoding=u"utf-8").readline()[2:].strip()
+        md = ext.RE_DATA.search(cab)
+        if not md:
+            continue
+        data = u"-".join(md.groups())
+        k = ext.kebab(ext.titulo_limpo(re.sub(u"\\.mp4$", u"", cab)))
+        cands = [x for x in os.listdir(ext.INBOX) if x.startswith(data + u"_") and k[:30] in x]
+        if not cands:
+            print(u"sem inbox para %s (%s)" % (f, cab[:50]))
+            continue
+        arq = cands[0][:-3]
+        props = []
+        for l in io.open(os.path.join(ext.INBOX, cands[0]), encoding=u"utf-8"):
+            m = RE_LINHA.match(l)
+            if m:
+                props.append({u"id": chave(arq, m.group(2)), u"chave": m.group(1),
+                              u"texto": m.group(2), u"ts": m.group(4) or u""})
+        if not props:
+            continue
+        base = PACOTES + arq
+        json.dump({u"arq": arq, u"titulo": cab, u"data": data, u"sem_falante": True,
+                   u"transcricao": os.path.join(pasta, f), u"saida": base + u".veredito.json",
+                   u"propostas": props},
+                  io.open(base + u".pacote.json", u"w", encoding=u"utf-8"), ensure_ascii=False, indent=1)
+        n += 1
+        print(u"%s  %3d propostas  %s" % (data, len(props), arq))
+    print(u"pacotes (transcri\u00e7\u00e3o autom\u00e1tica): %d" % n)
+    return 0
+
+
 def main():
+    if sys.argv[1:2] == [u"--asr"]:
+        return pacotes_de_asr(sys.argv[2])
     alvo = set(sys.argv[1:])
     os.makedirs(PACOTES, exist_ok=True)
     reunioes, _ = ext.le_acervo()

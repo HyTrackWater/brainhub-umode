@@ -49,7 +49,7 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-06-20
 
-- marco: Michele Rodrigues mencionou que a mudança seria interessante para a virada do inverno. — [resumo Gemini 2025-06-20 · 00:07:13] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Michelle Rodrigues · 00:07:13)
+- marco: Michele Rodrigues mencionou que a mudança seria interessante para a virada do inverno. — [resumo Gemini 2025-06-20 · 00:07:13] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Michelle Rodrigues · 00:07:13)
 
 ## Governança
 

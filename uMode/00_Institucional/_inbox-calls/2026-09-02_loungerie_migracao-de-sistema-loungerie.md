@@ -54,13 +54,13 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2026-09-02
 
-- dor: Desejo de Funcionalidade "Canva": Juliana Ferré discute uma melhoria futura, apelidada de "Canva", que funcionaria como uma tela livre para upload de imagens e anotações (setas, textos) estilo formato A4, superando a atual limitação de espaço para rabiscos. — [resumo Gemini 2026-09-02] ⚠ PROPOSTA · DERIVADA
+- dor: Desejo de Funcionalidade "Canva": Juliana Ferré discute uma melhoria futura, apelidada de "Canva", que funcionaria como uma tela livre para upload de imagens e anotações (setas, textos) estilo formato A4, superando a atual limitação de espaço para rabiscos. — [resumo Gemini 2026-09-02] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:16:25)
 
 ### ⌛ Compromissos de 2026-09-02 — cumprimento não verificado
 
-- entrega: [O grupo] Testar sistema: Explorar as funcionalidades de solicitações e aprovações via computador e celular. Enviar feedbacks sobre usabilidade e possíveis melhorias para a equipe. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Fernanda Araujo] Apresentar fluxos: Apresentar o fluxo completo de lote e aposta para o time na próxima reunião. Demonstrar como o processo funcionará de forma independente para diferentes clientes. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Julianne Rodrigues] Montar cenários: Analisar a documentação disponível. Montar cenários de uso dentro do sistema para validar os campos e as aprovações dos clientes. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: [O grupo] Testar sistema: Explorar as funcionalidades de solicitações e aprovações via computador e celular. Enviar feedbacks sobre usabilidade e possíveis melhorias para a equipe. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · 00:30:06)
+- entrega: [Fernanda Araujo] Apresentar fluxos: Apresentar o fluxo completo de lote e aposta para o time na próxima reunião. Demonstrar como o processo funcionará de forma independente para diferentes clientes. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · 00:34:03)
+- entrega: [Julianne Rodrigues] Montar cenários: Analisar a documentação disponível. Montar cenários de uso dentro do sistema para validar os campos e as aprovações dos clientes. — [resumo Gemini 2026-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:30:30)
 
 ## Governança
 

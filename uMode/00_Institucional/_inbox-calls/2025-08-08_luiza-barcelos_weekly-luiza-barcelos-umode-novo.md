@@ -50,13 +50,13 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-08
 
-- dor: Ela sugeriu uma reunião interna para o time da Michelle Rodrigues e da TI para resolver as dificuldades de movimentação no fluxo, pois o início seria manual e causaria idas e vindas. — [resumo Gemini 2025-08-08 · 00:01:10] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:01:10)
-- decisao: Discussão sobre Pré-Custo Marina Santoro levantou a questão da função de pré-custo, que exigiria o recebimento do custo da matéria-prima, algo que foi decidido anteriormente que não seria enviado. — [resumo Gemini 2025-08-08 · 00:06:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro · 00:06:42)
+- dor: Ela sugeriu uma reunião interna para o time da Michelle Rodrigues e da TI para resolver as dificuldades de movimentação no fluxo, pois o início seria manual e causaria idas e vindas. — [resumo Gemini 2025-08-08 · 00:01:10] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Laura Delgado · 00:01:10)
+- decisao: Discussão sobre Pré-Custo Marina Santoro levantou a questão da função de pré-custo, que exigiria o recebimento do custo da matéria-prima, algo que foi decidido anteriormente que não seria enviado. — [resumo Gemini 2025-08-08 · 00:06:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Marina Santoro · 00:06:42)
 
 ### ⌛ Compromissos de 2025-08-08 — cumprimento não verificado
 
-- entrega: Laura Delgado solicitou a Michele Rodrigues que passasse a lista de novos desenhistas para que pudessem fazer os ajustes necessários, e Michele Rodrigues se comprometeu a enviar a lista na segunda-feira. — [resumo Gemini 2025-08-08] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Michelle Rodrigues · 00:04:07)
-- entrega: Marina Santoro se comprometeu a verificar com Sandro se havia algum combinado adicional sobre isso, pois a expectativa da integração era diferente do que foi apresentado. — [resumo Gemini 2025-08-08 · 00:12:40] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro, Gustavo Sobrinho · 00:12:40)
+- entrega: Laura Delgado solicitou a Michele Rodrigues que passasse a lista de novos desenhistas para que pudessem fazer os ajustes necessários, e Michele Rodrigues se comprometeu a enviar a lista na segunda-feira. — [resumo Gemini 2025-08-08] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Laura Delgado, Michelle Rodrigues · 00:04:07)
+- entrega: Marina Santoro se comprometeu a verificar com Sandro se havia algum combinado adicional sobre isso, pois a expectativa da integração era diferente do que foi apresentado. — [resumo Gemini 2025-08-08 · 00:12:40] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Marina Santoro, Gustavo Sobrinho · 00:12:40)
 
 ## Governança
 

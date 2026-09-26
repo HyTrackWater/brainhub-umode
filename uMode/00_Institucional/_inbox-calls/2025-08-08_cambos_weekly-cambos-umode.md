@@ -48,13 +48,13 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-08
 
-- dor: Fabiane Sayuri Kanasiro e Laura Delgado concordaram em incluir todos os dados do QM na versão, em vez de apenas o campo de lavanderia, para evitar problemas futuros com a necessidade de mudanças. — [resumo Gemini 2025-08-08 · 00:03:33] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:03:33)
-- decisao: Laura Delgado também esclareceu que as versões estão vinculadas às aprovações, permitindo visualizar as alterações de aviamento em cada variante, o que foi definido para trabalhar cada versão como uma pilotagem. — [resumo Gemini 2025-08-08 · 00:12:48] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:13:50)
-- dor: Desafios na Impressão do Lote e Notificações Fabiane Sayuri Kanasiro apontou que a quantidade para pilotar e o lote não aparecem na ficha de aprovação, um problema que Laura Delgado já havia discutido com a equipe e prometeu verificar. — [resumo Gemini 2025-08-08 · 00:14:58] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:14:58)
+- dor: Fabiane Sayuri Kanasiro e Laura Delgado concordaram em incluir todos os dados do QM na versão, em vez de apenas o campo de lavanderia, para evitar problemas futuros com a necessidade de mudanças. — [resumo Gemini 2025-08-08 · 00:03:33] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-26 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:03:33)
+- decisao: Laura Delgado também esclareceu que as versões estão vinculadas às aprovações, permitindo visualizar as alterações de aviamento em cada variante, o que foi definido para trabalhar cada versão como uma pilotagem. — [resumo Gemini 2025-08-08 · 00:12:48] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:13:50)
+- dor: Desafios na Impressão do Lote e Notificações Fabiane Sayuri Kanasiro apontou que a quantidade para pilotar e o lote não aparecem na ficha de aprovação, um problema que Laura Delgado já havia discutido com a equipe e prometeu verificar. — [resumo Gemini 2025-08-08 · 00:14:58] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:14:58)
 
 ### ⌛ Compromissos de 2025-08-08 — cumprimento não verificado
 
-- entrega: Laura Delgado se comprometeu a pensar em uma forma de notificação ou "playbook" para ajudar a equipe com a adaptação ao novo formato. — [resumo Gemini 2025-08-08 · 00:20:16] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:21:32)
+- entrega: Laura Delgado se comprometeu a pensar em uma forma de notificação ou "playbook" para ajudar a equipe com a adaptação ao novo formato. — [resumo Gemini 2025-08-08 · 00:20:16] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Laura Delgado, Fabiane Sayuri Kanasiro · 00:21:32)
 
 ## Governança
 

@@ -49,11 +49,11 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-08
 
-- dor: Ajustes na Ficha Técnica e Preocupações com o UPIC André Rodrigues identificou um problema onde é possível incluir um item na ficha técnica sem atribuir valor, o que causou um custo incorreto em um produto. — [resumo Gemini 2025-08-08 · 00:09:30] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · André Rodrigues, Marina Santoro · 00:09:30)
+- dor: Ajustes na Ficha Técnica e Preocupações com o UPIC André Rodrigues identificou um problema onde é possível incluir um item na ficha técnica sem atribuir valor, o que causou um custo incorreto em um produto. — [resumo Gemini 2025-08-08 · 00:09:30] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · André Rodrigues, Marina Santoro · 00:09:30)
 
 ### ⌛ Compromissos de 2025-08-08 — cumprimento não verificado
 
-- entrega: Marina Santoro se comprometeu a validar a possibilidade de travar essa funcionalidade, embora tenha receio de implementar a trava imediatamente para não gerar atrito com a equipe, sugerindo uma sinalização inicial para adaptação. — [resumo Gemini 2025-08-08 · 00:11:03] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro, André Rodrigues · 00:11:03)
+- entrega: Marina Santoro se comprometeu a validar a possibilidade de travar essa funcionalidade, embora tenha receio de implementar a trava imediatamente para não gerar atrito com a equipe, sugerindo uma sinalização inicial para adaptação. — [resumo Gemini 2025-08-08 · 00:11:03] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Marina Santoro, André Rodrigues · 00:11:03)
 
 ## Governança
 

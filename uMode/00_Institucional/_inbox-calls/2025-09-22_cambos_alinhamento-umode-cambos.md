@@ -49,13 +49,13 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-09-22
 
-- dor: Andrea Holmer acrescentou que o fluxo de clientes em shoppings diminuiu e que o mercado de produtos importados está enfrentando dificuldades devido ao alto custo do dólar, impactando o consumo. — [resumo Gemini 2025-09-22 · 00:02:25] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Andrea Holmer · 00:05:25)
-- marco: Reunião de Alinhamento e Projeto Go-Live Fabiane Sayuri Kanasiro se desculpou pelo atraso e, ao se juntar à reunião, discutiu a necessidade de um alinhamento importante para os próximos passos do projeto, que está se aproximando da fase de Go-Live. — [resumo Gemini 2025-09-22 · 00:12:44] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:15:17)
-- dor: Desafios na Busca de Produtos e Padronização de Dados Fabiane Sayuri Kanasiro levantou uma questão sobre a dificuldade de buscar produtos pela referência do cliente no sistema, especialmente para clientes como a CIA, que utilizam códigos variáveis. — [resumo Gemini 2025-09-22] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:26:20)
+- dor: Andrea Holmer acrescentou que o fluxo de clientes em shoppings diminuiu e que o mercado de produtos importados está enfrentando dificuldades devido ao alto custo do dólar, impactando o consumo. — [resumo Gemini 2025-09-22 · 00:02:25] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-26 · Andrea Holmer · 00:05:25)
+- marco: Reunião de Alinhamento e Projeto Go-Live Fabiane Sayuri Kanasiro se desculpou pelo atraso e, ao se juntar à reunião, discutiu a necessidade de um alinhamento importante para os próximos passos do projeto, que está se aproximando da fase de Go-Live. — [resumo Gemini 2025-09-22 · 00:12:44] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:15:17)
+- dor: Desafios na Busca de Produtos e Padronização de Dados Fabiane Sayuri Kanasiro levantou uma questão sobre a dificuldade de buscar produtos pela referência do cliente no sistema, especialmente para clientes como a CIA, que utilizam códigos variáveis. — [resumo Gemini 2025-09-22] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:26:20)
 
 ### ⌛ Compromissos de 2025-09-22 — cumprimento não verificado
 
-- entrega: Fabiane Sayuri Kanasiro will falar com o Tony para agendar a reunião para amanhã às 10h e remarcar a reunião comercial para mais tarde, e comunicará o horário da reunião. — [resumo Gemini 2025-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:17:40)
+- entrega: Fabiane Sayuri Kanasiro will falar com o Tony para agendar a reunião para amanhã às 10h e remarcar a reunião comercial para mais tarde, e comunicará o horário da reunião. — [resumo Gemini 2025-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Fabiane Sayuri Kanasiro, Laura Delgado · 00:17:40)
 
 ## 🔴 Sensibilidade detectada — nenhum valor escrito
 

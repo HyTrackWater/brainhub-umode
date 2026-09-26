@@ -49,13 +49,13 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-12-03
 
-- dor: A classificação ajuda a decidir se o problema é de configuração ou se exige uma discussão mais aprofundada, e se o assunto cabe ou não no projeto. — [resumo Gemini 2025-12-03 · 00:08:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Juliana Ferré · 00:08:42)
-- marco: A coluna de priorização ajuda a entender quais são os assuntos de Nível Um (base) que levam aos de Nível Dois (Go-Live), sendo o objetivo base o que precisa ser entregue primeiro pelo desenvolvimento. — [resumo Gemini 2025-12-03] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Juliana Ferré · 00:10:43)
-- marco: Priorização e Caminho a Seguir O grupo concordou que precisa haver uma lógica para priorização, focando no que é base para o Go-Live, o que reduz custos e o que foi priorizado. — [resumo Gemini 2025-12-03 · 00:31:43] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Juliana Ferré, Fernanda Araujo · 00:31:43)
+- dor: A classificação ajuda a decidir se o problema é de configuração ou se exige uma discussão mais aprofundada, e se o assunto cabe ou não no projeto. — [resumo Gemini 2025-12-03 · 00:08:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Juliana Ferré · 00:08:42)
+- marco: A coluna de priorização ajuda a entender quais são os assuntos de Nível Um (base) que levam aos de Nível Dois (Go-Live), sendo o objetivo base o que precisa ser entregue primeiro pelo desenvolvimento. — [resumo Gemini 2025-12-03] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Juliana Ferré · 00:10:43)
+- marco: Priorização e Caminho a Seguir O grupo concordou que precisa haver uma lógica para priorização, focando no que é base para o Go-Live, o que reduz custos e o que foi priorizado. — [resumo Gemini 2025-12-03 · 00:31:43] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-26 · Juliana Ferré, Fernanda Araujo · 00:31:43)
 
 ### ⌛ Compromissos de 2025-12-03 — cumprimento não verificado
 
-- entrega: Ana Lucia e Fernanda Araujo podem entrar em contato com o time que usou a plataforma, mas nunca deu feedback, se acharem que é estratégico. — [resumo Gemini 2025-12-03 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Juliana Ferré, Ana Lucia · 00:19:13)
+- entrega: Ana Lucia e Fernanda Araujo podem entrar em contato com o time que usou a plataforma, mas nunca deu feedback, se acharem que é estratégico. — [resumo Gemini 2025-12-03 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · Juliana Ferré, Ana Lucia · 00:19:13)
 
 ## 🔴 Sensibilidade detectada — nenhum valor escrito
 

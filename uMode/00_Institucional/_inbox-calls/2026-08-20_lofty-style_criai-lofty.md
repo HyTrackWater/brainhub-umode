@@ -48,15 +48,15 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2026-08-20
 
-- decisao: Marina aplicou a foto de uma blusa em uma modelo obtida no site da empresa e realizou ajustes, como a decisão de colocar a peça para dentro ou fora da calça e a remoção de botões. — [resumo Gemini 2026-08-20] ⚠ PROPOSTA · DERIVADA
-- decisao: Foi estabelecido que, quando existe uma peça física, a foto desta substitui a ficha técnica, mas a ficha permanece no histórico. — [resumo Gemini 2026-08-20] ⚠ PROPOSTA · DERIVADA
+- decisao: Marina aplicou a foto de uma blusa em uma modelo obtida no site da empresa e realizou ajustes, como a decisão de colocar a peça para dentro ou fora da calça e a remoção de botões. — [resumo Gemini 2026-08-20] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:02:06)
+- decisao: Foi estabelecido que, quando existe uma peça física, a foto desta substitui a ficha técnica, mas a ficha permanece no histórico. — [resumo Gemini 2026-08-20] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:07:01)
 
 ### ⌛ Compromissos de 2026-08-20 — cumprimento não verificado
 
-- entrega: [O grupo] Testar look completo: Realizar o teste do look completo em uma modelo. Utilizar a peça física para garantir o realismo máximo da prova. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [O grupo] Ajustar modelo técnica: Ajustar a representação da modelo com base nas especificações técnicas. Validar se a ferramenta consegue reproduzir fielmente os detalhes das roupas conforme as instruções dadas. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [O grupo] Testar fluxo ficha: Executar o processo de criação de imagem partindo apenas da ficha técnica. Avaliar a viabilidade deste fluxo como padrão inicial para as futuras coleções. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Laura Delgado] Solicitar ambiente teste: Solicitar uma base de teste do sistema por uma semana. Avaliar as necessidades do novo processo de produção e os ajustes necessários na ferramenta. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: [O grupo] Testar look completo: Realizar o teste do look completo em uma modelo. Utilizar a peça física para garantir o realismo máximo da prova. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · 00:04:44)
+- entrega: [O grupo] Ajustar modelo técnica: Ajustar a representação da modelo com base nas especificações técnicas. Validar se a ferramenta consegue reproduzir fielmente os detalhes das roupas conforme as instruções dadas. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:05:39)
+- entrega: [O grupo] Testar fluxo ficha: Executar o processo de criação de imagem partindo apenas da ficha técnica. Avaliar a viabilidade deste fluxo como padrão inicial para as futuras coleções. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · 00:05:08)
+- entrega: [Laura Delgado] Solicitar ambiente teste: Solicitar uma base de teste do sistema por uma semana. Avaliar as necessidades do novo processo de produção e os ajustes necessários na ferramenta. — [resumo Gemini 2026-08-20 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:12:12)
 
 ## Governança
 
