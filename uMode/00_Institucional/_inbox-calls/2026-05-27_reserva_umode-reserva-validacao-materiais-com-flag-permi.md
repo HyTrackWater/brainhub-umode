@@ -53,13 +53,13 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2026-05-27
 
-- decisao: Reversão do teste e próximos passos: Ficou decidido que João Ferraz retornaria as configurações do produto para o estado original, revertendo o agrupamento alterado durante o teste. — [resumo Gemini 2026-05-27] ⚠ PROPOSTA · DERIVADA
+- decisao: Reversão do teste e próximos passos: Ficou decidido que João Ferraz retornaria as configurações do produto para o estado original, revertendo o agrupamento alterado durante o teste. — [resumo Gemini 2026-05-27] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro, João Ferraz · 00:22:39)
 
 ### ⌛ Compromissos de 2026-05-27 — cumprimento não verificado
 
-- entrega: [Regina Thomasi] Incluir membros: Adicionar a coordenadora de Sourcing e a equipe de cadastro de produtos ao grupo de WhatsApp. — [resumo Gemini 2026-05-27 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Regina Thomasi] Agendar reunião: Coordenar o horário da reunião de validação com as novas pessoas envolvidas. — [resumo Gemini 2026-05-27 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Marina Santoro] Conceder administrador: Atribuir permissões de administrador a Regina Thomasi no WhatsApp. — [resumo Gemini 2026-05-27 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: [Regina Thomasi] Incluir membros: Adicionar a coordenadora de Sourcing e a equipe de cadastro de produtos ao grupo de WhatsApp. — [resumo Gemini 2026-05-27 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Regina Thomasi · 00:22:39)
+- entrega: [Regina Thomasi] Agendar reunião: Coordenar o horário da reunião de validação com as novas pessoas envolvidas. — [resumo Gemini 2026-05-27 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Regina Thomasi, Pati Roldo · 00:24:35)
+- entrega: [Marina Santoro] Conceder administrador: Atribuir permissões de administrador a Regina Thomasi no WhatsApp. — [resumo Gemini 2026-05-27 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro, Regina Thomasi · 00:24:35)
 
 ## Governança
 

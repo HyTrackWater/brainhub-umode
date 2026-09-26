@@ -49,9 +49,9 @@ processado_em: 2026-09-25
 
 ### ⌛ Compromissos de 2025-09-02 — cumprimento não verificado
 
-- entrega: Laura Delgado irá adicionar um campo de piloteiro que está faltando. — [resumo Gemini 2025-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado irá definir um tamanho limite para as imagens, para que elas não quebrem ou cortem na impressão. — [resumo Gemini 2025-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado irá trazer as variantes do produto para a segunda página na impressão, para evitar quebras. — [resumo Gemini 2025-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: Laura Delgado irá adicionar um campo de piloteiro que está faltando. — [resumo Gemini 2025-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Gabriela Cunha, Laura Delgado · 00:12:54)
+- entrega: Laura Delgado irá definir um tamanho limite para as imagens, para que elas não quebrem ou cortem na impressão. — [resumo Gemini 2025-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Gabriela Cunha · 00:16:01)
+- entrega: Laura Delgado irá trazer as variantes do produto para a segunda página na impressão, para evitar quebras. — [resumo Gemini 2025-09-02 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Gabriela Cunha, Laura Delgado · 00:32:45)
 
 ## Governança
 

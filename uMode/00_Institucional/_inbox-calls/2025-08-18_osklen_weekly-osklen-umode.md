@@ -55,14 +55,14 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-18
 
-- erp: Marina Santoro complementou que a integração pode definir se um dado vem da Molde para o Linx ou se a Molde faz apenas o primeiro input. — [resumo Gemini 2025-08-18 · 00:27:51] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- dor: Problema de Etiquetagem na Fábrica Ana Claudia Lopes Dias explica a Jose Prior um problema de etiquetagem na fábrica, onde a etiqueta interna (silk) de uma peça de tamanho 38 foi marcada incorretamente como 40, o que resultou na colocação de uma etiqueta… — [resumo Gemini 2025-08-18 · 00:59:53] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- dor: Jose Prior compreende que foi um erro da fábrica e questiona por que a revisora no final da linha não identificou o problema, com Ana Claudia Lopes Dias sugerindo que a revisora pode estar focada apenas em problemas visuais e não medindo as peças. — [resumo Gemini 2025-08-18 · 01:03:30] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- erp: Marina Santoro complementou que a integração pode definir se um dado vem da Molde para o Linx ou se a Molde faz apenas o primeiro input. — [resumo Gemini 2025-08-18 · 00:27:51] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro · 00:27:51)
+- dor: Problema de Etiquetagem na Fábrica Ana Claudia Lopes Dias explica a Jose Prior um problema de etiquetagem na fábrica, onde a etiqueta interna (silk) de uma peça de tamanho 38 foi marcada incorretamente como 40, o que resultou na colocação de uma etiqueta… — [resumo Gemini 2025-08-18 · 00:59:53] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Jose Prior, Ana Claudia Lopes Dias · 01:00:39)
+- dor: Jose Prior compreende que foi um erro da fábrica e questiona por que a revisora no final da linha não identificou o problema, com Ana Claudia Lopes Dias sugerindo que a revisora pode estar focada apenas em problemas visuais e não medindo as peças. — [resumo Gemini 2025-08-18 · 01:03:30] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Jose Prior, Ana Claudia Lopes Dias · 01:03:30)
 
 ### ⌛ Compromissos de 2025-08-18 — cumprimento não verificado
 
-- entrega: Marcelle Nóbrega se comprometeu a tentar resolver essa pendência na próxima reunião. — [resumo Gemini 2025-08-18 · 00:23:21] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- erp: Vanessa Rinaldi explicou que a atualização do cadastro será igual na Molde devido à integração com o Linx, e que nem tudo que está na ficha digital precisa ser impresso. — [resumo Gemini 2025-08-18 · 00:25:34] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- entrega: Marcelle Nóbrega se comprometeu a tentar resolver essa pendência na próxima reunião. — [resumo Gemini 2025-08-18 · 00:23:21] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marcelle Nóbrega, Vanessa Rinaldi · 00:23:21)
+- erp: Vanessa Rinaldi explicou que a atualização do cadastro será igual na Molde devido à integração com o Linx, e que nem tudo que está na ficha digital precisa ser impresso. — [resumo Gemini 2025-08-18 · 00:25:34] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Vanessa Rinaldi, Bruno Vasconcellos · 00:25:34)
 
 ## Governança
 

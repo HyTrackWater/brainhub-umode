@@ -44,7 +44,7 @@ processado_em: 2026-09-25
 
 ### ⌛ Compromissos de 2025-12-09 — cumprimento não verificado
 
-- entrega: Não foram encontradas próximas etapas sugeridas para esta reunião. — [resumo Gemini 2025-12-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: Não foram encontradas próximas etapas sugeridas para esta reunião. — [resumo Gemini 2025-12-09 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚪ não encontrada na fala
 
 ## Governança
 

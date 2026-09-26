@@ -50,16 +50,16 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2026-09-01
 
-- dor: Limitação de Exportação e Solução Temporária: Laura Delgado explicou que o sistema enfrenta limitações na exportação de dados, o que causou travamentos recentes, incluindo um caso na semana anterior com outro cliente. — [resumo Gemini 2026-09-01] ⚠ PROPOSTA · DERIVADA
-- dor: Foi mencionado um histórico de problemas relacionados a informações de tecido, possivelmente devido à consulta em campos incorretos, como na aba de e-commerce. — [resumo Gemini 2026-09-01 · 00:04:03] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- incidente: Protocolo para Reportar Instabilidades: Laura Delgado solicitou que qualquer problema de lentidão no sistema seja reportado imediatamente ao time de suporte ou a ela no chat, enquanto a instabilidade está ocorrendo, pois relatos tardios dificultam a… — [resumo Gemini 2026-09-01 · 00:23:56] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- dor: Marcello Saga confirmou que, em casos anteriores, a lentidão estava de fato relacionada ao processamento dos relatórios de exportação. — [resumo Gemini 2026-09-01 · 00:25:49] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- dor: Limitação de Exportação e Solução Temporária: Laura Delgado explicou que o sistema enfrenta limitações na exportação de dados, o que causou travamentos recentes, incluindo um caso na semana anterior com outro cliente. — [resumo Gemini 2026-09-01] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:00:24)
+- dor: Foi mencionado um histórico de problemas relacionados a informações de tecido, possivelmente devido à consulta em campos incorretos, como na aba de e-commerce. — [resumo Gemini 2026-09-01 · 00:04:03] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:04:03)
+- incidente: Protocolo para Reportar Instabilidades: Laura Delgado solicitou que qualquer problema de lentidão no sistema seja reportado imediatamente ao time de suporte ou a ela no chat, enquanto a instabilidade está ocorrendo, pois relatos tardios dificultam a… — [resumo Gemini 2026-09-01 · 00:23:56] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:23:56)
+- dor: Marcello Saga confirmou que, em casos anteriores, a lentidão estava de fato relacionada ao processamento dos relatórios de exportação. — [resumo Gemini 2026-09-01 · 00:25:49] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Marcello Saga, Laura Delgado · 00:24:55)
 
 ### ⌛ Compromissos de 2026-09-01 — cumprimento não verificado
 
-- entrega: [Laura Delgado] Enviar link: Disponibilizar o link do relatório de gestão de coleção para o Marcello. — [resumo Gemini 2026-09-01 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Marcello Saga] Agendar reunião: Verificar a disponibilidade de Tamara e Jéssica e enviar pelo menos duas opções de horários para a Laura. — [resumo Gemini 2026-09-01 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Laura Delgado] Alinhar licenciamento: Reportar ao Sandro a necessidade de uma solução para usuários de visualização visando a redução de custos. — [resumo Gemini 2026-09-01 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: [Laura Delgado] Enviar link: Disponibilizar o link do relatório de gestão de coleção para o Marcello. — [resumo Gemini 2026-09-01 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:26:50)
+- entrega: [Marcello Saga] Agendar reunião: Verificar a disponibilidade de Tamara e Jéssica e enviar pelo menos duas opções de horários para a Laura. — [resumo Gemini 2026-09-01 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Marcello Saga, Laura Delgado · 00:26:50)
+- entrega: [Laura Delgado] Alinhar licenciamento: Reportar ao Sandro a necessidade de uma solução para usuários de visualização visando a redução de custos. — [resumo Gemini 2026-09-01 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Marcello Saga · 00:20:51)
 
 ## Governança
 

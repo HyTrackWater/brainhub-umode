@@ -55,14 +55,14 @@ processado_em: 2026-09-25
 
 ### ⌛ Compromissos de 2025-11-10 — cumprimento não verificado
 
-- entrega: Luciana Vidal vai pedir a Johnny para verificar se a avaliação já está compilada. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Marcelle Nóbrega vai disponibilizar o link com as informações de perfis de acesso, por aba, para Mariana Maia e a equipe. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Mariana Maia vai confirmar com o pessoal de planejamento se eles ainda precisam da informação do campo critério para vestuário e calçados. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Julianne Rodrigues vai aguardar o envio da planilha das meninas para realizar uma reunião amanhã com o time de planejamento e importar os dados do mix da próxima coleção. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Vanessa Rinaldi buscará um horário com o grupo esta semana para trazer uma devolutiva de configuração e tirar dúvidas em relação às planilhas de fase dois que foram liberadas. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Julianne Rodrigues vai aproveitar a discussão com a Marina sobre o mix de produtos para buscar novidades e avaliar se é o caso de subir o mix do Inverno 27 para o Molde. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Marcelle Nóbrega deve verificar se as pessoas da lista que Pedro Murillo enviou vão aceitar o convite da Molde e avisá-lo para que ele possa enviar um novo convite com o perfil correto. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- decisao: Em relação ao mix de produtos, ficou definido que o Planejamento importará o macro do mix, e o time de Design de Moda fará o preenchimento, ficando livre para criar outros produtos. — [resumo Gemini 2025-11-10 · 00:10:05] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- entrega: Luciana Vidal vai pedir a Johnny para verificar se a avaliação já está compilada. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Luciana Vidal · 00:00:00)
+- entrega: Marcelle Nóbrega vai disponibilizar o link com as informações de perfis de acesso, por aba, para Mariana Maia e a equipe. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marcelle Nóbrega, Mariana Maia · 00:03:35)
+- entrega: Mariana Maia vai confirmar com o pessoal de planejamento se eles ainda precisam da informação do campo critério para vestuário e calçados. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Mariana Maia, Vanessa Rinaldi · 00:07:47)
+- entrega: Julianne Rodrigues vai aguardar o envio da planilha das meninas para realizar uma reunião amanhã com o time de planejamento e importar os dados do mix da próxima coleção. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Julianne Rodrigues · 00:10:05)
+- entrega: Vanessa Rinaldi buscará um horário com o grupo esta semana para trazer uma devolutiva de configuração e tirar dúvidas em relação às planilhas de fase dois que foram liberadas. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Vanessa Rinaldi · 00:11:28)
+- entrega: Julianne Rodrigues vai aproveitar a discussão com a Marina sobre o mix de produtos para buscar novidades e avaliar se é o caso de subir o mix do Inverno 27 para o Molde. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Julianne Rodrigues, Vanessa Rinaldi, Juan Oliveira de Souza · 00:28:38)
+- entrega: Marcelle Nóbrega deve verificar se as pessoas da lista que Pedro Murillo enviou vão aceitar o convite da Molde e avisá-lo para que ele possa enviar um novo convite com o perfil correto. — [resumo Gemini 2025-11-10 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Pedro Murillo, Marcelle Nóbrega · 00:32:32)
+- decisao: Em relação ao mix de produtos, ficou definido que o Planejamento importará o macro do mix, e o time de Design de Moda fará o preenchimento, ficando livre para criar outros produtos. — [resumo Gemini 2025-11-10 · 00:10:05] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Julianne Rodrigues · 00:10:05)
 
 ## Governança
 

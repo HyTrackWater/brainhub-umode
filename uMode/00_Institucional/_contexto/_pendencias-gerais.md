@@ -4693,3 +4693,19 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      Laura, com a data real da passagem; (c) a jornada da Casa registra o marco. 🔴 **O fato de
      hoje não tem validade embutida** — é a mesma lacuna de sempre (fato sem intervalo), e aqui
      ela tem data marcada para virar erro se ninguém voltar.
+792. 🟢 **Conferência contra a fala: 188 propostas de 32 reuniões com transcrição, todas conferidas.**
+     **149 confirmadas (79%) · 38 parciais (20%) · 1 não encontrada · 0 contraditas.** Feita por
+     subagentes com o método por escrito; vereditos em `_inbox-calls/_verificacao-na-fala.tsv`,
+     marcados em cada linha do inbox. 🔴 **O critério que sai daqui — o resumo do Gemini acerta
+     o FATO e erra o DONO:** das parciais, a causa mais frequente é **pessoa errada** (quem disse,
+     quem assumiu); depois, **intenção ou pedido registrado como decisão ou compromisso** ("tô
+     querendo eliminar" virou "foi decidido"), e **responsáveis diferentes fundidos** sob "o grupo".
+     ⚠ **Consequência:** o `por vir` com dono, e a detecção de compromisso órfão (item 776), só são
+     confiáveis depois da conferência. **Proposta de resumo não conferida não deve virar fato de
+     responsabilidade.**
+793. 🔴 **Em reunião PRESENCIAL, o rótulo de falante é o dono do aparelho, não quem fala.** Na
+     `CAEDU (presencial)` de 29/04/2025, **84 falas** saem como "Mauricio" e são várias vozes, da
+     Caedu e da uMode. **Nem a transcrição com falante resolve quem disse o quê** nesse caso.
+     🔵 **Regra proposta:** reunião com uma sala num aparelho só (título com "presencial", ou um
+     falante com fatia desproporcional das falas) tem identidade de falante `não confiável`.
+     ⚠ Pode ser a mesma raiz da `Rose` da CAEDU no Tactiq (733 falas, item 762) — **não verificado.**

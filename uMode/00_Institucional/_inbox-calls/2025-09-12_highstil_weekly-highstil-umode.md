@@ -49,16 +49,16 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-09-12
 
-- dor: Laura Delgado explicou que há uma limitação no esticamento da imagem para evitar quebras de página na impressão, sugerindo que as imagens sejam salvas em uma dimensão específica para se ajustarem ao espaço disponível. — [resumo Gemini 2025-09-12] ⚠ PROPOSTA · DERIVADA
+- dor: Laura Delgado explicou que há uma limitação no esticamento da imagem para evitar quebras de página na impressão, sugerindo que as imagens sejam salvas em uma dimensão específica para se ajustarem ao espaço disponível. — [resumo Gemini 2025-09-12] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:01:06)
 
 ### ⌛ Compromissos de 2025-09-12 — cumprimento não verificado
 
-- entrega: Laura Delgado irá passar para Ariana Anciutti a dimensão exata para subir as imagens no padrão, para que não quebre a página na impressão. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Ariana Anciutti irá validar a ficha técnica final até a próxima sexta-feira, imprimindo e recortando as imagens no padrão e entendendo a questão do campo de mostruário, para que o treinamento possa ser marcado. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Vanessa Rinaldi irá copiar novamente a lista de 'to-dos' mais importantes no grupo e dar feedback sobre as dúvidas levantadas por Michele no e-mail. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Vanessa Rinaldi irá convocar o grupo para homologações de integração nas próximas duas semanas. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Ariana Anciutti irá preparar e enviar a planilha com os códigos dos produtos contínuos para Laura Delgado, Andrea Holmer e Vanessa Rinaldi por e-mail. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🔴 envolve pessoa HOJE desligada (Andrea Holmer)
-- entrega: Ariana Anciutti se comprometeu a passar a finalização da ficha técnica e as imagens recortadas na próxima sexta-feira, além de entender a questão do campo de mostruário. — [resumo Gemini 2025-09-12 · 00:03:22] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- entrega: Laura Delgado irá passar para Ariana Anciutti a dimensão exata para subir as imagens no padrão, para que não quebre a página na impressão. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Ariana Anciutti · 00:01:06)
+- entrega: Ariana Anciutti irá validar a ficha técnica final até a próxima sexta-feira, imprimindo e recortando as imagens no padrão e entendendo a questão do campo de mostruário, para que o treinamento possa ser marcado. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Ariana Anciutti, Laura Delgado · 00:03:22)
+- entrega: Vanessa Rinaldi irá copiar novamente a lista de 'to-dos' mais importantes no grupo e dar feedback sobre as dúvidas levantadas por Michele no e-mail. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Vanessa Rinaldi · 00:03:22)
+- entrega: Vanessa Rinaldi irá convocar o grupo para homologações de integração nas próximas duas semanas. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Vanessa Rinaldi · 00:04:28)
+- entrega: Ariana Anciutti irá preparar e enviar a planilha com os códigos dos produtos contínuos para Laura Delgado, Andrea Holmer e Vanessa Rinaldi por e-mail. — [resumo Gemini 2025-09-12 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🔴 envolve pessoa HOJE desligada (Andrea Holmer) · 🟢 CONFIRMADA NA FALA (2026-09-25 · Vanessa Rinaldi, Ariana Anciutti · 00:06:45)
+- entrega: Ariana Anciutti se comprometeu a passar a finalização da ficha técnica e as imagens recortadas na próxima sexta-feira, além de entender a questão do campo de mostruário. — [resumo Gemini 2025-09-12 · 00:03:22] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Ariana Anciutti · 00:03:22)
 
 ## Governança
 

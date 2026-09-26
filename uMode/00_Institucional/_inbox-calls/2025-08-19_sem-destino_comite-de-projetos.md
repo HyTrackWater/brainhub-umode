@@ -50,14 +50,14 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-19
 
-- dor: Vanessa Rinaldi sugeriu incluir Fê para uma visão mais ampla dos processos, mas Juliana Ferré questionou se isso implicaria em convidar todos os KAs, o que não seria um problema, pois a reunião deveria evoluir para que cada um apresente seus projetos. — [resumo Gemini 2025-08-19 · 00:00:48] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- dor: Juliana Ferré e André Borges também ressaltaram os riscos operacionais de envolver um grande número de usuários sem que os líderes estejam seguros e validem o sistema, o que pode transformar pequenos problemas em grandes discussões. — [resumo Gemini 2025-08-19 · 00:29:50] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- dor: Ela mencionou que clientes como Loft e Osklin estão ansiosos pela integração, sendo este último impulsionado por problemas anteriores com outras plataformas. — [resumo Gemini 2025-08-19 · 00:40:28] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- dor: Vanessa Rinaldi sugeriu incluir Fê para uma visão mais ampla dos processos, mas Juliana Ferré questionou se isso implicaria em convidar todos os KAs, o que não seria um problema, pois a reunião deveria evoluir para que cada um apresente seus projetos. — [resumo Gemini 2025-08-19 · 00:00:48] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Vanessa Rinaldi, Juliana Ferré · 00:00:48)
+- dor: Juliana Ferré e André Borges também ressaltaram os riscos operacionais de envolver um grande número de usuários sem que os líderes estejam seguros e validem o sistema, o que pode transformar pequenos problemas em grandes discussões. — [resumo Gemini 2025-08-19 · 00:29:50] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Juliana Ferré, André Borges · 00:29:50)
+- dor: Ela mencionou que clientes como Loft e Osklin estão ansiosos pela integração, sendo este último impulsionado por problemas anteriores com outras plataformas. — [resumo Gemini 2025-08-19 · 00:40:28] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Vanessa Rinaldi · 00:40:28)
 
 ### ⌛ Compromissos de 2025-08-19 — cumprimento não verificado
 
-- entrega: A integração de leitura seria feita após o horário comercial, com uma reunião para definir o gatilho, esperando concluir até o dia seguinte. — [resumo Gemini 2025-08-19 · 00:12:32] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- entrega: Outro assunto urgente é o da Peila do Pablo, com duas classes já liberadas e as demais previstas para serem liberadas até o dia 22/08. — [resumo Gemini 2025-08-19 · 00:16:28] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- entrega: A integração de leitura seria feita após o horário comercial, com uma reunião para definir o gatilho, esperando concluir até o dia seguinte. — [resumo Gemini 2025-08-19 · 00:12:32] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro · 00:12:32)
+- entrega: Outro assunto urgente é o da Peila do Pablo, com duas classes já liberadas e as demais previstas para serem liberadas até o dia 22/08. — [resumo Gemini 2025-08-19 · 00:16:28] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Marina Santoro · 00:16:28)
 
 ## 🔴 Sensibilidade detectada — nenhum valor escrito
 

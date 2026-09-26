@@ -49,12 +49,12 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-28
 
-- dor: Carolina Carvalho ressaltou a dificuldade de ajustar o cadastro de produtos antigos, que representam 40% a 45% das vendas, devido à falta de recursos para a organização. — [resumo Gemini 2025-08-28 · 00:15:53] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- dor: Carolina Carvalho ressaltou a dificuldade de ajustar o cadastro de produtos antigos, que representam 40% a 45% das vendas, devido à falta de recursos para a organização. — [resumo Gemini 2025-08-28 · 00:15:53] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · ⚠ PARCIAL NA FALA (2026-09-25 · Carolina Carvalho · 00:15:53)
 
 ### ⌛ Compromissos de 2025-08-28 — cumprimento não verificado
 
-- entrega: Andrea Holmer irá enviar um convite para o retorno da jornada na sexta-feira às 9h. — [resumo Gemini 2025-08-28 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🔴 envolve pessoa HOJE desligada (Andrea Holmer)
-- entrega: Carolina Carvalho irá priorizar a finalização do Miro antes de sair de férias. — [resumo Gemini 2025-08-28 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: Andrea Holmer irá enviar um convite para o retorno da jornada na sexta-feira às 9h. — [resumo Gemini 2025-08-28 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🔴 envolve pessoa HOJE desligada (Andrea Holmer) · 🟢 CONFIRMADA NA FALA (2026-09-25 · Andrea Holmer, Carolina Carvalho · 00:01:01)
+- entrega: Carolina Carvalho irá priorizar a finalização do Miro antes de sair de férias. — [resumo Gemini 2025-08-28 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Carolina Carvalho · 00:19:08)
 
 ## 🔴 Sensibilidade detectada — nenhum valor escrito
 
