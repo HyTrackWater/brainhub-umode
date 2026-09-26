@@ -15,9 +15,10 @@ participantes_sem_email:
   - "Gustavo Sobrinho"
   - "Andrea Holmer"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 15/25
-reunioes_depois: 10
+posicao_na_linha_do_tempo: 22/33
+reunioes_depois: 11
 idade_em_dias: 392
 horizonte: historico
 tier: T0
@@ -37,29 +38,29 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **15 de 25** de Luiza Barcelos nos acervos |
+| Reunião | **22 de 33** de Luiza Barcelos nos acervos |
 | Data | **2025-08-29** — **392 dias atrás** |
-| Depois dela | **10 reuniões** — a última em **2026-09-22** |
+| Depois dela | **11 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-08-29**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **10 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **11 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 
 ### ✅ Aconteceu — em 2025-08-29
 
-- decisao: Treinamento de Pré-Custo e Fornecedores Laura Delgado propôs a realização de um treinamento de pré-custo, enfatizando que é uma funcionalidade já disponível na Molde e que a decisão de incluir preços na integração depende da equipe do Gustavo Sobrinho. — [resumo Gemini 2025-08-29 · 00:17:59] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- decisao: Treinamento de Pré-Custo e Fornecedores Laura Delgado propôs a realização de um treinamento de pré-custo, enfatizando que é uma funcionalidade já disponível na Molde e que a decisão de incluir preços na integração depende da equipe do Gustavo Sobrinho. — [resumo Gemini 2025-08-29 · 00:17:59] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:17:59)
 
 ### ⌛ Compromissos de 2025-08-29 — cumprimento não verificado
 
-- entrega: Marina Santoro e Laura Delgado compartilharão o documento de integração com Gustavo Sobrinho por e-mail. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Gustavo Sobrinho encaminhará o documento de integração para a equipe interna e conversará com ela para alinhar e aprofundar o estudo. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado enviará no grupo uma previsão para a primeira visão do relatório de gestão de produto e definirá datas e cronogramas para os próximos passos. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado dará o treinamento ou o overview do pré-custo para a equipe entender como funciona no Molde e enviará sugestões de agenda para o treinamento ainda hoje. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado mudará a agenda do weekly da semana que vem para a parte da manhã ou quinta-feira, já que Michelle Rodrigues não estará disponível na sexta-feira à tarde. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado e Andrea Holmer deverão trazer exemplos do que é possível para o fornecedor na próxima reunião sobre fornecedores. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🔴 envolve pessoa HOJE desligada (Andrea Holmer)
-- entrega: Laura Delgado conversará com o time de produto para entender a viabilidade e as datas estimadas para as melhorias, como a ordenação do mapa. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: Marina Santoro e Laura Delgado compartilharão o documento de integração com Gustavo Sobrinho por e-mail. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · André Borges, Laura Delgado · 00:09:27)
+- entrega: Gustavo Sobrinho encaminhará o documento de integração para a equipe interna e conversará com ela para alinhar e aprofundar o estudo. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Gustavo Sobrinho · 00:09:27)
+- entrega: Laura Delgado enviará no grupo uma previsão para a primeira visão do relatório de gestão de produto e definirá datas e cronogramas para os próximos passos. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Gustavo Sobrinho, Laura Delgado · 00:20:37)
+- entrega: Laura Delgado dará o treinamento ou o overview do pré-custo para a equipe entender como funciona no Molde e enviará sugestões de agenda para o treinamento ainda hoje. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Gustavo Sobrinho, Laura Delgado · 00:21:49)
+- entrega: Laura Delgado mudará a agenda do weekly da semana que vem para a parte da manhã ou quinta-feira, já que Michelle Rodrigues não estará disponível na sexta-feira à tarde. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Michelle Rodrigues, Laura Delgado · 00:23:11)
+- entrega: Laura Delgado e Andrea Holmer deverão trazer exemplos do que é possível para o fornecedor na próxima reunião sobre fornecedores. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🔴 envolve pessoa HOJE desligada (Andrea Holmer) · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Andrea Holmer · 00:25:59)
+- entrega: Laura Delgado conversará com o time de produto para entender a viabilidade e as datas estimadas para as melhorias, como a ordenação do mapa. — [resumo Gemini 2025-08-29 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Gustavo Sobrinho · 00:27:18)
 
 ## 🔴 Sensibilidade detectada — nenhum valor escrito
 

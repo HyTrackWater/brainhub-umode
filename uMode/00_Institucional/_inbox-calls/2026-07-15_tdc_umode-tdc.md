@@ -13,6 +13,7 @@ participantes:
 participantes_email_pessoal_omitido: 1   # T0, valor nao escrito
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 1/1
 reunioes_depois: 0

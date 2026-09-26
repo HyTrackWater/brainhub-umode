@@ -93,13 +93,14 @@ externas — e cronograma sem data firme.** **uBuy iniciado em jan/2026.**
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 12 reuniões, de 2023-10-18 a 2026-09-09
+#### ✅ Aconteceu — 13 reuniões, de 2023-10-18 a 2026-09-09
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2023-10-18 | teste | não confirmada | Juliana | só chat | — |
 | 2023-10-27 | teste | não confirmada | Juliana | só chat | — |
-| 2025-04-24 | — | não confirmada | Marina | só chat | — |
+| 2025-03-25 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-24 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-06-18 | — | não confirmada | Marina | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-06-18_osklen_umode-osklen-devolutiva-mapa-de-jornadas-assunto.md) |
 | 2025-07-14 | weekly | não confirmada | Marina | resumo + **transcrição** | — |
 | 2025-08-18 | weekly | não confirmada | Marina | resumo + **transcrição** | [5](../../../../00_Institucional/_inbox-calls/2025-08-18_osklen_weekly-osklen-umode.md) |

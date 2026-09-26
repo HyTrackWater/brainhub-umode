@@ -14,11 +14,12 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Juliana Ferré -> juliana.ferre@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 6/6
-reunioes_depois: 0
+posicao_na_linha_do_tempo: 6/7
+reunioes_depois: 1
 idade_em_dias: 73
-horizonte: recente
+horizonte: historico
 tier: T2
 tier_motivo: "sem dado pessoal nem valor comercial detectado"
 processado_em: 2026-09-25
@@ -34,24 +35,24 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **6 de 6** de Reserva nos acervos |
+| Reunião | **6 de 7** de Reserva nos acervos |
 | Data | **2026-07-14** — **73 dias atrás** |
-| Depois dela | **0 reuniões** — **é a mais recente** |
+| Depois dela | **1 reuniões** — a última em **2026-09-09** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
-🟢 **É a evidência mais recente deste cliente e tem até 90 dias.** O que ela afirma é o
-**último estado conhecido** — não "o estado"; e o que ela promete é o que está **por vir**.
+⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-07-14**; o que prometia
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 
-### 🔄 Acontecendo — último estado conhecido, 2026-07-14
+### ✅ Aconteceu — em 2026-07-14
 
 - decisao: Ficou decidido que, para o futuro, esse fluxo, denominado como "desenvolvimentos paralelos", deve ser mapeado dentro do sistema para evitar gargalos e dependência de processos externos manuais. — [resumo Gemini 2026-07-14] ⚠ PROPOSTA · DERIVADA
 - dor: Relatório de Lacre e Estrutura de Dados na Nuvem: O time discutiu a dificuldade em gerar o relatório de lacre e a falta de visibilidade nos dados atuais. — [resumo Gemini 2026-07-14] ⚠ PROPOSTA · DERIVADA
 - dor: Correlação de Produtos (Pai e Filho): Foi identificado um problema onde o sistema não apresenta a visão de conexão entre produtos ("pai" e "filho" ou kits), causando confusão na gestão de estoque e planejamento. — [resumo Gemini 2026-07-14] ⚠ PROPOSTA · DERIVADA
 - decisao: Ficou decidido focar no Planejaí para o Verão 2028, com uma nova reunião agendada para 22 de julho para avançar na configuração; o cronograma e as apostas de produtos foram relegados a um plano secundário em favor da estabilização dos processos internos. — [resumo Gemini 2026-07-14] ⚠ PROPOSTA · DERIVADA
 
-### ⏭ Por vir — compromissos da reunião mais recente
+### ⌛ Compromissos de 2026-07-14 — cumprimento não verificado
 
 - entrega: [Fernanda Araujo, Juliana Ferré] Alinhar Cadastros: Agendar uma reuniao de uma hora com o pessoal de cadastros para alinhar os atributos e descritivos do relatório. — [resumo Gemini 2026-07-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA
 - entrega: [Fernanda Araujo] Cobrar Planilha: Cobrar a planilha da coordenadora Luna do Mini para que Joao possa realizar a integracao dos dados no relatório. — [resumo Gemini 2026-07-14 · próximas etapas] ⚠ PROPOSTA · DERIVADA

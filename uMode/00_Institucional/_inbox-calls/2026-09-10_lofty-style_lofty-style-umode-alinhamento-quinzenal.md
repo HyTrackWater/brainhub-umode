@@ -13,8 +13,9 @@ participantes:
   - marcello.saga@loftystyle.com.br
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 18/18
+posicao_na_linha_do_tempo: 23/23
 reunioes_depois: 0
 idade_em_dias: 15
 horizonte: recente
@@ -33,7 +34,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **18 de 18** de Lofty Style nos acervos |
+| Reunião | **23 de 23** de Lofty Style nos acervos |
 | Data | **2026-09-10** — **15 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

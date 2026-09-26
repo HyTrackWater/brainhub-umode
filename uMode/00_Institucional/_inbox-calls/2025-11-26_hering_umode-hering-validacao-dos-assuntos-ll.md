@@ -11,6 +11,7 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 2/2
 reunioes_depois: 0

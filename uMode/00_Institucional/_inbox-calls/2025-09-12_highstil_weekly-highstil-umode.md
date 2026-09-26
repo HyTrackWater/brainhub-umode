@@ -14,8 +14,9 @@ participantes_sem_email:
   - "Vanessa Rinaldi"
   - "Apresentação de Andrea Holmer"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 7/12
+posicao_na_linha_do_tempo: 10/15
 reunioes_depois: 5
 idade_em_dias: 378
 horizonte: historico
@@ -36,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **7 de 12** de Highstil nos acervos |
+| Reunião | **10 de 15** de Highstil nos acervos |
 | Data | **2025-09-12** — **378 dias atrás** |
 | Depois dela | **5 reuniões** — a última em **2026-02-20** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

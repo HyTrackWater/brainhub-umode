@@ -51,12 +51,22 @@ tags:
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 2 reuniões, de 2023-11-30 a 2024-03-05
+#### ✅ Aconteceu — 12 reuniões, de 2023-03-17 a 2024-03-05
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2023-11-30 | treinamento | não confirmada | Marina | só chat | — |
-| 2024-03-05 | — | não confirmada | Marina | só chat | — |
+| 2023-03-17 | treinamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-03-24 | treinamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-05-08 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-11-07 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-11-14 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-11-16 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-11-21 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-11-30 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-11-30 | treinamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-12-12 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2023-12-14 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-03-05 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 
 #### 🔄 Acontecendo — o último estado conhecido
 

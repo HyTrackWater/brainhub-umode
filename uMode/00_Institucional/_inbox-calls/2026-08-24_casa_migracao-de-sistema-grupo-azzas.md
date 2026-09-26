@@ -21,6 +21,7 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Victor Aragão -> victor.aragao@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 2/3
 reunioes_depois: 1

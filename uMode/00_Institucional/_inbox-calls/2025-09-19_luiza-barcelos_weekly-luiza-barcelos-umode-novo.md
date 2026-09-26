@@ -14,8 +14,9 @@ participantes_sem_email:
   - "Laura Delgado"
   - "Andrea Holmer"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 18/25
+posicao_na_linha_do_tempo: 26/33
 reunioes_depois: 7
 idade_em_dias: 371
 horizonte: historico
@@ -36,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **18 de 25** de Luiza Barcelos nos acervos |
+| Reunião | **26 de 33** de Luiza Barcelos nos acervos |
 | Data | **2025-09-19** — **371 dias atrás** |
 | Depois dela | **7 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
@@ -48,9 +49,9 @@ processado_em: 2026-09-25
 
 ### ⌛ Compromissos de 2025-09-19 — cumprimento não verificado
 
-- entrega: Laura Delgado vai verificar se é possível aplicar a mesma solução do campo de composição em outro cliente para o campo de informação de moda, permitindo o preenchimento no modelo e a replicação automática para as versões, com a possibilidade de edição para… — [resumo Gemini 2025-09-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado vai passar o documento com as regras de automação das datas, que estão vinculadas às etapas do fluxo, para Gustavo Sobrinho. — [resumo Gemini 2025-09-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: Laura Delgado vai enviar sugestões de datas e tópicos de discussão para a reunião de usabilidade com a Michele e os desenhistas no grupo, com o objetivo de organizar uma agenda compatível e discutir filtros, workflow e funcionalidades do mapa. — [resumo Gemini 2025-09-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: Laura Delgado vai verificar se é possível aplicar a mesma solução do campo de composição em outro cliente para o campo de informação de moda, permitindo o preenchimento no modelo e a replicação automática para as versões, com a possibilidade de edição para… — [resumo Gemini 2025-09-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Andrea Holmer, Laura Delgado · 00:05:18)
+- entrega: Laura Delgado vai passar o documento com as regras de automação das datas, que estão vinculadas às etapas do fluxo, para Gustavo Sobrinho. — [resumo Gemini 2025-09-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Gustavo Sobrinho, Laura Delgado · 00:06:35)
+- entrega: Laura Delgado vai enviar sugestões de datas e tópicos de discussão para a reunião de usabilidade com a Michele e os desenhistas no grupo, com o objetivo de organizar uma agenda compatível e discutir filtros, workflow e funcionalidades do mapa. — [resumo Gemini 2025-09-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Gustavo Sobrinho · 00:19:17)
 
 ## Governança
 

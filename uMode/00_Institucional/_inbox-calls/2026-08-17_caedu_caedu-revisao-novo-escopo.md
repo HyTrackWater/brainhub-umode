@@ -15,11 +15,12 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Marina Santoro -> marina.santoro@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 5/5
-reunioes_depois: 0
+posicao_na_linha_do_tempo: 10/11
+reunioes_depois: 1
 idade_em_dias: 39
-horizonte: recente
+horizonte: historico
 tier: T1
 tier_motivo: "valor comercial detectado; valor não escrito"
 processado_em: 2026-09-25
@@ -35,17 +36,17 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **5 de 5** de Caedu nos acervos |
+| Reunião | **10 de 11** de Caedu nos acervos |
 | Data | **2026-08-17** — **39 dias atrás** |
-| Depois dela | **0 reuniões** — **é a mais recente** |
+| Depois dela | **1 reuniões** — a última em **2026-09-03** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
-🟢 **É a evidência mais recente deste cliente e tem até 90 dias.** O que ela afirma é o
-**último estado conhecido** — não "o estado"; e o que ela promete é o que está **por vir**.
+⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2026-08-17**; o que prometia
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 
-### 🔄 Acontecendo — último estado conhecido, 2026-08-17
+### ✅ Aconteceu — em 2026-08-17
 
 - dor: Identificação de Dores Técnicas: Durante a visita, foram levantados diversos problemas técnicos pelo time do cliente, incluindo campos repetidos ou redundantes, falta de uso de *workflow*, problemas de hierarquia entre pastas, necessidade de conciliação de… — [resumo Gemini 2026-08-17] ⚠ PROPOSTA · DERIVADA
 - marco: Cronograma de Implantação - Primeiros Meses: O plano inicial prevê que, a partir da assinatura do contrato, o primeiro mês seja dedicado à definição de escopo, *kickoff* e diagnóstico técnico entre PLM e Links. — [resumo Gemini 2026-08-17] ⚠ PROPOSTA · DERIVADA
@@ -53,7 +54,7 @@ processado_em: 2026-09-25
 - decisao: Priorização da Caedu: Foi acordado que o projeto da Caedu deve ter prioridade sobre outros, como o da Pq, para garantir o sucesso do contrato e mitigar os problemas de gestão enfrentados pelo cliente. — [resumo Gemini 2026-08-17] ⚠ PROPOSTA · DERIVADA
 - decisao: Flexibilidade e Gestão do Cronograma: Ficou estabelecido que, embora exista um plano de 12 meses, o escopo deve ser revisto mensalmente conforme as dores do cliente evoluírem. — [resumo Gemini 2026-08-17] ⚠ PROPOSTA · DERIVADA
 
-### ⏭ Por vir — compromissos da reunião mais recente
+### ⌛ Compromissos de 2026-08-17 — cumprimento não verificado
 
 - entrega: [A equipe] Agendar Workshop Caedu: Agendar workshop presencial com o time de negócios e técnico da Caedu para a próxima semana. O objetivo é realizar o mapeamento de necessidades e definir o escopo do projeto antes da assinatura do contrato. — [resumo Gemini 2026-08-17 · próximas etapas] ⚠ PROPOSTA · DERIVADA
 - entrega: [Marina Santoro] Mapear Integração Técnica: Realizar o levantamento detalhado das integrações com o time técnico da Caedu. Validar os insumos necessários para a correta reimplantação do sistema. — [resumo Gemini 2026-08-17 · próximas etapas] ⚠ PROPOSTA · DERIVADA

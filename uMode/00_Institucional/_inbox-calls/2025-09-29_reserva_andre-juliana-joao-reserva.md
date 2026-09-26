@@ -11,9 +11,10 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 4/6
-reunioes_depois: 2
+posicao_na_linha_do_tempo: 4/7
+reunioes_depois: 3
 idade_em_dias: 361
 horizonte: historico
 tier: T2
@@ -31,13 +32,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **4 de 6** de Reserva nos acervos |
+| Reunião | **4 de 7** de Reserva nos acervos |
 | Data | **2025-09-29** — **361 dias atrás** |
-| Depois dela | **2 reuniões** — a última em **2026-07-14** |
+| Depois dela | **3 reuniões** — a última em **2026-09-09** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-09-29**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **2 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **3 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

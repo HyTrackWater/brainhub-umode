@@ -14,8 +14,9 @@ participantes_sem_email:
   - "André Rodrigues"
   - "Apresentação de Marina Santoro"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 7/11
+posicao_na_linha_do_tempo: 11/15
 reunioes_depois: 4
 idade_em_dias: 413
 horizonte: historico
@@ -36,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **7 de 11** de Lenny Niemeyer nos acervos |
+| Reunião | **11 de 15** de Lenny Niemeyer nos acervos |
 | Data | **2025-08-08** — **413 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2026-03-13** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

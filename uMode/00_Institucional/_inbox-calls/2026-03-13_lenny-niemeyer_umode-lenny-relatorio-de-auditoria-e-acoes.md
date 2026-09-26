@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 11/11
+posicao_na_linha_do_tempo: 15/15
 reunioes_depois: 0
 idade_em_dias: 196
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **11 de 11** de Lenny Niemeyer nos acervos |
+| Reunião | **15 de 15** de Lenny Niemeyer nos acervos |
 | Data | **2026-03-13** — **196 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

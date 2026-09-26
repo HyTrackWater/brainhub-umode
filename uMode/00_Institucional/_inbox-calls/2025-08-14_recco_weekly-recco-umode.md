@@ -13,8 +13,9 @@ participantes_sem_email:
   - "Marina Santoro"
   - "Vanessa Rinaldi"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/11
+posicao_na_linha_do_tempo: 11/14
 reunioes_depois: 3
 idade_em_dias: 407
 horizonte: historico
@@ -35,7 +36,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 11** de Recco nos acervos |
+| Reunião | **11 de 14** de Recco nos acervos |
 | Data | **2025-08-14** — **407 dias atrás** |
 | Depois dela | **3 reuniões** — a última em **2025-10-16** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

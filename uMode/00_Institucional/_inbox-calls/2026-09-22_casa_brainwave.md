@@ -22,6 +22,7 @@ participantes_sem_email:
   - "Victor Aragão"
   - "Bergson de Lima Marques"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 1/1
 reunioes_depois: 0

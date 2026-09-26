@@ -15,8 +15,9 @@ participantes_sem_email:
   - "Laura Delgado"
   - "Thayane Almeida"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 25/25
+posicao_na_linha_do_tempo: 33/33
 reunioes_depois: 0
 idade_em_dias: 3
 horizonte: recente
@@ -37,7 +38,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **25 de 25** de Luiza Barcelos nos acervos |
+| Reunião | **33 de 33** de Luiza Barcelos nos acervos |
 | Data | **2026-09-22** — **3 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
@@ -49,11 +50,11 @@ processado_em: 2026-09-25
 
 ### ⏭ Por vir — compromissos da reunião mais recente
 
-- entrega: [Laura Delgado] Enviar Pendências: Compartilhar a lista de itens pendentes com a Thayane para alinhar as prioridades do projeto. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Thayane Almeida] Organizar Informações: Reunir os dados sobre o desenvolvimento de enfeites e linhas coletados junto à equipe para compilar as necessidades. Utilizar essas informações para orientar a estruturação dos novos campos na plataforma. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Thayane Almeida] Propor Melhorias: Definir e solicitar a criação de novos campos e estruturas para as fichas de cadastro de produtos na ferramenta. Adequar os modelos de ficha de enfeites e linhas aos requisitos atuais do processo. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [O grupo] Agendar Fórum: Marcar uma reunião para discutir os requisitos e expectativas da nova ferramenta personalizada de gestão de carteira de pedidos. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- decisao: Ficou decidido que Laura Delgado marcará um fórum específico com uma pessoa do time de produto para ouvir as demandas e expectativas de Thayane Almeida e desenhar a ferramenta sob medida. — [resumo Gemini 2026-09-22 · 00:03:45] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- entrega: [Laura Delgado] Enviar Pendências: Compartilhar a lista de itens pendentes com a Thayane para alinhar as prioridades do projeto. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Thayane Almeida, Laura Delgado · 00:20:15)
+- entrega: [Thayane Almeida] Organizar Informações: Reunir os dados sobre o desenvolvimento de enfeites e linhas coletados junto à equipe para compilar as necessidades. Utilizar essas informações para orientar a estruturação dos novos campos na plataforma. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Thayane Almeida · 00:17:08)
+- entrega: [Thayane Almeida] Propor Melhorias: Definir e solicitar a criação de novos campos e estruturas para as fichas de cadastro de produtos na ferramenta. Adequar os modelos de ficha de enfeites e linhas aos requisitos atuais do processo. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-25 · Laura Delgado, Thayane Almeida · 00:12:34)
+- entrega: [O grupo] Agendar Fórum: Marcar uma reunião para discutir os requisitos e expectativas da nova ferramenta personalizada de gestão de carteira de pedidos. — [resumo Gemini 2026-09-22 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Thayane Almeida · 00:03:45)
+- decisao: Ficou decidido que Laura Delgado marcará um fórum específico com uma pessoa do time de produto para ouvir as demandas e expectativas de Thayane Almeida e desenhar a ferramenta sob medida. — [resumo Gemini 2026-09-22 · 00:03:45] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:16:08)
 
 ## Governança
 

@@ -20,8 +20,9 @@ participantes_sem_email:
   - "Luciana Vidal"
   - "Juan Oliveira de Souza"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/12
+posicao_na_linha_do_tempo: 9/13
 reunioes_depois: 4
 idade_em_dias: 319
 horizonte: historico
@@ -42,7 +43,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 12** de Osklen nos acervos |
+| Reunião | **9 de 13** de Osklen nos acervos |
 | Data | **2025-11-10** — **319 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2026-09-09** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

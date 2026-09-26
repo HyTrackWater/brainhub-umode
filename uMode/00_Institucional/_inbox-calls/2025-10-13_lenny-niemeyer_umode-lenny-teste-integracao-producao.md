@@ -15,8 +15,9 @@ participantes_sem_email:
   - "Julianne Rodrigues"
   - "Thamiris"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/11
+posicao_na_linha_do_tempo: 12/15
 reunioes_depois: 3
 idade_em_dias: 347
 horizonte: historico
@@ -37,7 +38,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 11** de Lenny Niemeyer nos acervos |
+| Reunião | **12 de 15** de Lenny Niemeyer nos acervos |
 | Data | **2025-10-13** — **347 dias atrás** |
 | Depois dela | **3 reuniões** — a última em **2026-03-13** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

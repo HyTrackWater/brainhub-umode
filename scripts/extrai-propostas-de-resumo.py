@@ -460,7 +460,74 @@ def le_acervo():
                 r[u"docxs"].append(os.path.join(pasta_acervo, fn))
             else:
                 r[u"chat"] = True
+        # \U0001F534 GRAVACAO tambem e reuniao. Ate 25/09 so texto entrava, e as
+        # 122 reunioes da Marina que so existem em video sumiam da linha do
+        # tempo. Titulo e data do arquivo de video sao dado primario.
+        vid = os.path.join(pasta_acervo, u"_videos.txt")
+        if os.path.exists(vid):
+            asr = transcricoes_de(pasta_acervo)
+            for nome in io.open(vid, encoding=u"utf-8").read().splitlines():
+                if not nome or any(k in nome.lower() for k in nao_ler):
+                    continue
+                md = RE_DATA.search(nome)
+                if not md:
+                    continue
+                try:
+                    d = datetime.date(*(int(x) for x in md.groups()))
+                except ValueError:
+                    continue
+                titulo = titulo_limpo(re.sub(u"\\.mp4$", u"", nome))
+                k = (d, kebab(titulo, 30))
+                r = reunioes.setdefault(k, {u"data": d, u"titulo": titulo,
+                                            u"assunto": assunto_de(nome), u"docxs": [],
+                                            u"chat": False, u"acervos": set()})
+                r[u"acervos"].add(pessoa)
+                r[u"video"] = True
+                if nome in asr:
+                    r[u"asr"] = asr[nome]
     return list(reunioes.values()), nao_lidos
+
+
+def transcricoes_de(pasta_acervo):
+    u"""
+    nome do video -> (transcricao .txt, propostas .json ou None), lendo o
+    cabecalho `# <nome>` que o `transcreve-gravacoes.py` escreve.
+    """
+    d = os.path.join(pasta_acervo, u"transcricoes")
+    out = {}
+    if not os.path.isdir(d):
+        return out
+    for f in os.listdir(d):
+        if not re.match(u"^\\d{3}\\.txt$", f):
+            continue
+        cab = io.open(os.path.join(d, f), encoding=u"utf-8").readline()
+        if cab.startswith(u"# "):
+            pj = os.path.join(d, f[:3] + u".propostas.json")
+            out[cab[2:].strip()] = (os.path.join(d, f), pj if os.path.exists(pj) else None)
+    return out
+
+
+def propostas_de_asr(r):
+    u"""
+    Propostas extraidas da transcricao AUTOMATICA por subagente (JSON). Passam
+    pelos MESMOS filtros T0/T0-P/T1 aqui - o subagente e instruido a nao
+    escrever sensivel, mas quem garante e este codigo.
+    """
+    import json
+    props, t0, t0p, t1 = [], [], [], []
+    tx, pj = r[u"asr"]
+    if not pj:
+        return None
+    for p in json.load(io.open(pj, encoding=u"utf-8")).get(u"propostas", []):
+        texto = re.sub(u"\\s+", u" ", p.get(u"texto", u"")).strip()
+        ts = p.get(u"ts") or None
+        chave = p.get(u"chave")
+        if not texto or chave not in (u"decisao", u"entrega", u"dor", u"marco", u"incidente", u"erp"):
+            continue
+        if sensivel(texto, ts, t0, t0p, t1):
+            continue
+        props.append((chave, corta(texto), ts, bool(p.get(u"futuro")) or chave == u"entrega"))
+    return props, t0, t0p, t1
 
 
 def le_resumo(caminho):
@@ -611,6 +678,42 @@ def orfao(texto):
     return max(achados, key=len) if achados else None
 
 
+_VERIF = None
+
+
+def verificacao():
+    u"""(arq, id) -> linha da `_verificacao-na-fala.tsv`. Ver aplica-verificacao-na-fala.py."""
+    global _VERIF
+    if _VERIF is None:
+        _VERIF = {}
+        f = os.path.join(INBOX, u"_verificacao-na-fala.tsv")
+        if os.path.exists(f):
+            for l in io.open(f, encoding=u"utf-8").read().splitlines()[1:]:
+                c = l.split(u"\t")
+                if len(c) == 7:
+                    _VERIF[(c[0], c[1])] = c
+    return _VERIF
+
+
+def marca_fala(arq, texto):
+    u"""
+    Sufixo com o veredito da conferencia contra a fala. \U0001F7E2 `confirmada`
+    e o unico que tira a proposta do "o Gemini disse que" - passa a ser "foi
+    dito, por X, no minuto Y". Continua PROPOSTA: aprovar segue humano.
+    """
+    import hashlib
+    c = verificacao().get((arq, hashlib.sha1((arq + u"|" + texto).encode(u"utf-8")).hexdigest()[:12]))
+    if not c:
+        return u""
+    quem = (u" \u00b7 " + c[4]) if c[4] else u""
+    ts = (u" \u00b7 " + c[3]) if c[3] else u""
+    rot = {u"confirmada": u"\U0001F7E2 CONFIRMADA NA FALA",
+           u"parcial": u"\u26a0 PARCIAL NA FALA",
+           u"contradita": u"\U0001F534 CONTRADITA PELA FALA",
+           u"nao_encontrada": u"\u26aa n\u00e3o encontrada na fala"}[c[2]]
+    return u" \u00b7 %s (%s%s%s)" % (rot, c[6], quem, ts) if c[2] != u"nao_encontrada" else u" \u00b7 %s" % rot
+
+
 def dias(n):
     return u"%d dia%s" % (n, u"" if n == 1 else u"s")
 
@@ -626,7 +729,9 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
     origem = u"acervo " + u" + ".join(sorted(r[u"acervos"]))
 
     L = [u"---", u"tipo: registro",
-         u"origem: google-meet \u00b7 resumo do Gemini" + (u" + transcri\u00e7\u00e3o" if tem_tr else u""),
+         (u"origem: google-meet \u00b7 grava\u00e7\u00e3o \u00b7 transcri\u00e7\u00e3o autom\u00e1tica (faster-whisper), sem falante"
+          if r.get(u"asr") and not r[u"docx"] else
+          u"origem: google-meet \u00b7 resumo do Gemini" + (u" + transcri\u00e7\u00e3o" if tem_tr else u"")),
          u"acervo: %s" % origem,
          u'titulo: "%s"' % r[u"titulo"].replace(u'"', u"'"),
          u"data: %s" % data, u"referente_a: %s" % data,
@@ -650,8 +755,10 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
         L += [u'  - "%s"' % f.replace(u'"', u"'") for f in falantes]
     else:
         L.append(u"participantes_sem_email: []")
-    L += [u"tem_transcricao: %s" % (u"true" if tem_tr else u"false"),
-          u"tem_resumo: true",
+    asr = bool(r.get(u"asr")) and not r[u"docx"]
+    L += [u"tem_transcricao: %s" % (u"true" if (tem_tr or asr) else u"false"),
+          u"transcricao_automatica: %s" % (u"true" if asr else u"false"),
+          u"tem_resumo: %s" % (u"false" if asr else u"true"),
           u"posicao_na_linha_do_tempo: %d/%d" % (pos[u"k"], pos[u"n"]),
           u"reunioes_depois: %d" % pos[u"depois"],
           u"idade_em_dias: %d" % pos[u"idade"],
@@ -664,7 +771,12 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
           u"processado_em: %s" % HOJE.isoformat(), u"---",
           u"# %s \u2014 %s" % (r[u"titulo"], data), u"",
           u"> **Classe: `REGISTRO`.** Evid\u00eancia datada. \U0001F534 **N\u00e3o \u00e9 autoridade e n\u00e3o se edita.**"]
-    if tem_tr:
+    if asr:
+        L += [u"> **Fonte:** grava\u00e7\u00e3o em v\u00eddeo, %s, **transcrita por m\u00e1quina** (faster-whisper) e lida" % origem,
+              u"> por subagente. \u26a0 **Sem falante** \u2014 ningu\u00e9m sabe quem disse cada frase \u2014 e com erro de",
+              u"> reconhecimento em nome de campo, sistema e pessoa. **Derivado.** \U0001F534 V\u00eddeo e transcri\u00e7\u00e3o",
+              u"> bruta n\u00e3o entram no reposit\u00f3rio."]
+    elif tem_tr:
         L += [u"> **Fonte:** resumo do Gemini, %s. \U0001F7E2 **Esta reuni\u00e3o TEM transcri\u00e7\u00e3o de fala** no" % origem,
               u"> `.docx` original \u2014 **%d falas, %d falantes**. As propostas abaixo v\u00eam do **resumo**" % (n_falas, len(falantes)),
               u"> (derivado); **cada uma com minuto \u00e9 confer\u00edvel contra a fala**. \U0001F534 A transcri\u00e7\u00e3o",
@@ -720,10 +832,12 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
         L += [u"### %s" % rot[g], u""]
         for k, corpo, ts in itens:
             o = orfao(corpo) if g in (u"por-vir", u"compromisso-antigo") else None
-            L.append(u"- %s: %s \u2014 [resumo Gemini %s%s] \u26a0 PROPOSTA \u00b7 DERIVADA%s%s"
-                     % (k, corpo, data, (u" \u00b7 " + ts) if ts else u"",
+            L.append(u"- %s: %s \u2014 [%s %s%s] \u26a0 PROPOSTA \u00b7 DERIVADA%s%s"
+                     % (k, corpo, u"transcri\u00e7\u00e3o autom\u00e1tica" if asr else u"resumo Gemini",
+                        data, (u" \u00b7 " + ts) if ts else u"",
                         u" \u00b7 confer\u00edvel na transcri\u00e7\u00e3o" if (tem_tr and ts and ts[0].isdigit()) else u"",
-                        (u" \u00b7 \U0001F534 envolve pessoa HOJE desligada (%s)" % o.title()) if o else u""))
+                        (u" \u00b7 \U0001F534 envolve pessoa HOJE desligada (%s)" % o.title()) if o else u"")
+                     + marca_fala(r[u"arq"], corpo))
         L.append(u"")
     if t0 or t0p or t1:
         L += [u"## \U0001F534 Sensibilidade detectada \u2014 nenhum valor escrito", u""]
@@ -783,6 +897,10 @@ def escreve_jornada(pasta, linha, st, res):
     for r in linha:
         if r[u"docx"]:
             fonte = u"resumo" + (u" + **transcri\u00e7\u00e3o**" if r.get(u"n_falas") else u"")
+        elif r.get(u"asr"):
+            fonte = u"v\u00eddeo + transcri\u00e7\u00e3o autom\u00e1tica"
+        elif r.get(u"video"):
+            fonte = u"\u26a0 **s\u00f3 v\u00eddeo** \u2014 n\u00e3o lido"
         else:
             fonte = u"s\u00f3 chat"
         if r.get(u"arq"):
@@ -965,7 +1083,31 @@ def main():
         st = status_do_corpus(linha[0][u"pasta"])
         for r in linha:
             pornat[r[u"natureza"]] += 1
+            if r.get(u"video"):
+                tot[u"com grava\u00e7\u00e3o"] += 1
             if not r[u"docx"]:
+                pa = propostas_de_asr(r) if r.get(u"asr") else None
+                if not pa:
+                    continue
+                props, t0, t0p, t1 = pa
+                tot[u"transcri\u00e7\u00e3o autom\u00e1tica lida"] += 1
+                tot[u"propostas"] += len(props)
+                if not props and not (t0 or t0p or t1):
+                    continue
+                base = u"%s_%s_%s" % (r[u"data"].isoformat(), slug or u"sem-destino", kebab(r[u"titulo"]))
+                arq, n = base, 2
+                while arq in usados:
+                    arq = u"%s-%d" % (base, n)
+                    n += 1
+                usados.add(arq)
+                r[u"arq"] = arq
+                ref = linha
+                if slug == u"casa":
+                    ref = [x for x in linha if kebab(x[u"titulo"], 30) == kebab(r[u"titulo"], 30)]
+                g = escreve_inbox(r, tempo_da(r, ref), props, t0, t0p, t1, st)
+                res[arq] = g
+                for k, v in g.items():
+                    porbloco[k] += len(v)
                 continue
             det, etapas = lidos[id(r)]
             for a in r[u"acervos"]:
@@ -1013,7 +1155,7 @@ def main():
     w(u"=" * 70 + u"\nPROPOSTAS COM EIXO DE TEMPO · %s\n" % u" + ".join(a[1] for a in ACERVOS) + u"=" * 70 + u"\n\n")
     w(u"reuniões distintas     : %d\n" % len(reunioes))
     w(u"arquivos no _inbox-calls/ : %d\n" % len(res))
-    for k in (u"reuniões lidas", u"em mais de um acervo", u"com transcrição", u"com próximas etapas",
+    for k in (u"reuniões lidas", u"com gravação", u"transcrição automática lida", u"em mais de um acervo", u"com transcrição", u"com próximas etapas",
               u"reuniões sem proposta", u"propostas", u"T0 descartado", u"T0-P descartado", u"T1 descartado"):
         w(u"   %-24s %5d\n" % (k, tot[k]))
     w(u"\nPOR ACERVO (resumos lidos)\n")

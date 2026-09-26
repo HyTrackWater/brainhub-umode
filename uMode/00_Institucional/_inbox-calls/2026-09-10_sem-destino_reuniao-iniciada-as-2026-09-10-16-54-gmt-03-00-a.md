@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 125/127
+posicao_na_linha_do_tempo: 133/135
 reunioes_depois: 2
 idade_em_dias: 15
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **125 de 127** de destino não identificado nos acervos |
+| Reunião | **133 de 135** de destino não identificado nos acervos |
 | Data | **2026-09-10** — **15 dias atrás** |
 | Depois dela | **2 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |

@@ -14,8 +14,9 @@ participantes_sem_email:
   - "Laura Delgado"
   - "Andrea Holmer"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 3/18
+posicao_na_linha_do_tempo: 8/23
 reunioes_depois: 15
 idade_em_dias: 388
 horizonte: historico
@@ -36,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **3 de 18** de Lofty Style nos acervos |
+| Reunião | **8 de 23** de Lofty Style nos acervos |
 | Data | **2025-09-02** — **388 dias atrás** |
 | Depois dela | **15 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

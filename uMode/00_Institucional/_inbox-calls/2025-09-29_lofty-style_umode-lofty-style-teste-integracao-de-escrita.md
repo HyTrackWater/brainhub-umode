@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 5/18
+posicao_na_linha_do_tempo: 10/23
 reunioes_depois: 13
 idade_em_dias: 361
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **5 de 18** de Lofty Style nos acervos |
+| Reunião | **10 de 23** de Lofty Style nos acervos |
 | Data | **2025-09-29** — **361 dias atrás** |
 | Depois dela | **13 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

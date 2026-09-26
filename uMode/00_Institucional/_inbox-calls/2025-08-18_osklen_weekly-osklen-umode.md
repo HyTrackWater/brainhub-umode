@@ -20,8 +20,9 @@ participantes_sem_email:
   - "Marina Santoro"
   - "Carol Carol"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 6/12
+posicao_na_linha_do_tempo: 7/13
 reunioes_depois: 6
 idade_em_dias: 403
 horizonte: historico
@@ -42,7 +43,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **6 de 12** de Osklen nos acervos |
+| Reunião | **7 de 13** de Osklen nos acervos |
 | Data | **2025-08-18** — **403 dias atrás** |
 | Depois dela | **6 reuniões** — a última em **2026-09-09** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

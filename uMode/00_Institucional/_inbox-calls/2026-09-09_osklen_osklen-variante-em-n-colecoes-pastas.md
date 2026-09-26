@@ -16,8 +16,9 @@ participantes_sem_email:
   - "Marina Santoro"
   - "Bergson de Lima Marques"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 12/12
+posicao_na_linha_do_tempo: 13/13
 reunioes_depois: 0
 idade_em_dias: 16
 horizonte: recente
@@ -38,7 +39,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **12 de 12** de Osklen nos acervos |
+| Reunião | **13 de 13** de Osklen nos acervos |
 | Data | **2026-09-09** — **16 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

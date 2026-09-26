@@ -12,9 +12,10 @@ participantes: []
 participantes_sem_email:
   - "Mauricio"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 4/5
-reunioes_depois: 1
+posicao_na_linha_do_tempo: 9/11
+reunioes_depois: 2
 idade_em_dias: 514
 horizonte: historico
 tier: T2
@@ -34,13 +35,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **4 de 5** de Caedu nos acervos |
+| Reunião | **9 de 11** de Caedu nos acervos |
 | Data | **2025-04-29** — **514 dias atrás** |
-| Depois dela | **1 reuniões** — a última em **2026-08-17** |
+| Depois dela | **2 reuniões** — a última em **2026-09-03** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-04-29**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **1 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **2 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

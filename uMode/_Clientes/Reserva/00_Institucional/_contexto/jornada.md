@@ -109,7 +109,7 @@ página, que foi editada pela última vez em **30/06/2026**.
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 6 reuniões, de 2024-06-12 a 2026-07-14
+#### ✅ Aconteceu — 7 reuniões, de 2024-06-12 a 2026-09-09
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
@@ -119,36 +119,17 @@ página, que foi editada pela última vez em **30/06/2026**.
 | 2025-09-29 | — | não confirmada | Juliana | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-09-29_reserva_andre-juliana-joao-reserva.md) |
 | 2026-05-27 | — | externa | Marina | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2026-05-27_reserva_umode-reserva-validacao-materiais-com-flag-permi.md) |
 | 2026-07-14 | — | interna | Juliana | resumo | [18](../../../../00_Institucional/_inbox-calls/2026-07-14_reserva_reserva-proximos-passos.md) |
+| 2026-09-09 | weekly | não confirmada | Marina | vídeo + transcrição automática | — |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
-- **Última reunião nos acervos:** 2026-07-14 — *Reserva Próximos Passos* — **73 dias atrás**.
+- **Última reunião nos acervos:** 2026-09-09 — *Reserva & uMode· Weekly* — **16 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
-- **Quem esteve na última reunião:** Fernanda Araujo · Juliana Ferré.
-- 🟢 **Coerente:** status ativo e reunião há 73 dias.
-- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 4 de 4 itens):
-  - `decisao` Ficou decidido que, para o futuro, esse fluxo, denominado como "desenvolvimentos paralelos", deve ser mapeado dentro do sistema para evitar gargalos e dependência de processos externos manuais.
-  - `dor` Relatório de Lacre e Estrutura de Dados na Nuvem: O time discutiu a dificuldade em gerar o relatório de lacre e a falta de visibilidade nos dados atuais.
-  - `dor` Correlação de Produtos (Pai e Filho): Foi identificado um problema onde o sistema não apresenta a visão de conexão entre produtos ("pai" e "filho" ou kits), causando confusão na gestão de estoque e planejamento.
-  - `decisao` Ficou decidido focar no Planejaí para o Verão 2028, com uma nova reunião agendada para 22 de julho para avançar na configuração; o cronograma e as apostas de produtos foram relegados a um plano secundário em favor da estabilização dos processos internos.
+- 🟢 **Coerente:** status ativo e reunião há 16 dias.
 
 #### ⏭ Por vir
 
-⚠ **Compromissos da reunião de 2026-07-14** — derivados do resumo, **não aprovados**:
-- [Fernanda Araujo, Juliana Ferré] Alinhar Cadastros: Agendar uma reuniao de uma hora com o pessoal de cadastros para alinhar os atributos e descritivos do relatório.
-- [Fernanda Araujo] Cobrar Planilha: Cobrar a planilha da coordenadora Luna do Mini para que Joao possa realizar a integracao dos dados no relatório.
-- [Fernanda Araujo] Investigar Participacao: Questionar Priscila sobre a participacao de Joao do grupo Soma nas reunioes.
-- [Fernanda Araujo] Notificar Raquel: Avisar Raquel durante a reuniao semanal que Justin ja enviou a lista de atributos necessaria.
-- [Fernanda Araujo] Solicitar Cronograma: Cobrar o cronograma de verao 28 da Raquel para preparar o plano de acao da reuniao de quinta-feira.
-- [The group] Apresentar Plano: Preparar um plano de acao com datas para a reuniao de quinta-feira que inclua melhorias no Planeja e Cria e integracoes para o verao 28.
-- [Fernanda Araujo, Juliana Ferré] Discutir Cloud: Conversar com Joao para entender a estrutura e o plano referente ao uso do Cloud para disponibilizacao de base de dados.
-- [Fernanda Araujo] Solicitar cronogramas: Solicitar cronogramas para a equipe de suporte incluindo Trine e Rodrigo para planejar as próximas etapas.
-- [Fernanda Araujo, Juliana Ferré] Definir datas: Definir datas para a reunião mensal presencial com Adriana Joana e Trine no Rio de Janeiro.
-- [The group] Preparar imersão: Preparar uma imersão de descoberta com o time de estilo para alinhar processos.
-- [Fernanda Araujo] Revisar processo: Revisar o vídeo da reunião anterior com a Pri para entender o processo de desenvolvimento e as necessidades do sistema Cria Ai.
-- [Fernanda Araujo, Juliana Ferré] Alinhar dados: Organizar uma reunião para alinhar os dados do verão 20 com o verão 28 no sistema Planeja Ai para a apresentação do dia 22.
-- Ficou decidido que, independentemente da solução técnica final, a equipe continuará trabalhando no que é possível com os dados atuais enquanto aguardam definições estruturais mais robustas.
-- Implementação do Criaí para o Verão 2028: Foi acordado que Priscila e Tábata utilizarão a plataforma Criaí para o planejamento do Verão 2028.
+`[a preencher]` — a última reunião (2026-09-09) não tem compromisso extraído.
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas

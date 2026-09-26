@@ -112,7 +112,7 @@ tags:
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2022-09-21 | integração | não confirmada | Juliana | só chat | — |
-| 2024-01-15 | — | não confirmada | Marina | só chat | — |
+| 2024-01-15 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 
 #### 🔄 Acontecendo — o último estado conhecido
 

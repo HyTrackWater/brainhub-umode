@@ -11,9 +11,10 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 101/127
-reunioes_depois: 26
+posicao_na_linha_do_tempo: 107/135
+reunioes_depois: 28
 idade_em_dias: 281
 horizonte: historico
 tier: T0
@@ -31,13 +32,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **101 de 127** de destino não identificado nos acervos |
+| Reunião | **107 de 135** de destino não identificado nos acervos |
 | Data | **2025-12-18** — **281 dias atrás** |
-| Depois dela | **26 reuniões** — a última em **2026-09-22** |
+| Depois dela | **28 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-12-18**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **26 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **28 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

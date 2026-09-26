@@ -16,8 +16,9 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Victor Aragão -> victor.aragao@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 8/10
+posicao_na_linha_do_tempo: 9/11
 reunioes_depois: 2
 idade_em_dias: 107
 horizonte: historico
@@ -36,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **8 de 10** de NV nos acervos |
+| Reunião | **9 de 11** de NV nos acervos |
 | Data | **2026-06-10** — **107 dias atrás** |
 | Depois dela | **2 reuniões** — a última em **2026-07-07** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

@@ -97,13 +97,14 @@ mesmos limites**. Cinco chamados em dez dias só para *cadastrar opção de camp
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 10 reuniões, de 2023-07-27 a 2026-07-07
+#### ✅ Aconteceu — 11 reuniões, de 2023-07-27 a 2026-07-07
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2023-07-27 | alinhamento | não confirmada | Juliana | só chat | — |
-| 2024-01-08 | cronograma | não confirmada | Marina | só chat | — |
-| 2024-01-09 | — | não confirmada | Marina | só chat | — |
+| 2023-07-31 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-01-08 | cronograma | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-01-09 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-03-19 | cronograma | não confirmada | Juliana | só chat | — |
 | 2025-03-24 | — | não confirmada | Juliana | só chat | — |
 | 2025-12-18 | — | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-12-18_nv_vanessa-marina-nv-relatorio-de-compras.md) |

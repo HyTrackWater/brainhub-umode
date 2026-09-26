@@ -22,8 +22,9 @@ participantes_sem_email:
   - "Marina Santoro"
   - "Ana Lucia"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 9/10
+posicao_na_linha_do_tempo: 10/11
 reunioes_depois: 1
 idade_em_dias: 101
 horizonte: historico
@@ -44,7 +45,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **9 de 10** de NV nos acervos |
+| Reunião | **10 de 11** de NV nos acervos |
 | Data | **2026-06-16** — **101 dias atrás** |
 | Depois dela | **1 reuniões** — a última em **2026-07-07** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

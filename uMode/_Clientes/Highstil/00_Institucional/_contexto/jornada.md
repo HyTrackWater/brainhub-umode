@@ -50,13 +50,16 @@ tags:
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 12 reuniões, de 2025-02-24 a 2026-02-20
+#### ✅ Aconteceu — 15 reuniões, de 2025-02-24 a 2026-02-20
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2025-02-24 | — | não confirmada | Marina | só chat | — |
-| 2025-04-02 | — | não confirmada | Marina | só chat | — |
-| 2025-04-03 | ficha técnica | não confirmada | Marina | só chat | — |
+| 2025-02-24 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-13 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-17 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-18 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-02 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-03 | ficha técnica | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-06-10 | — | não confirmada | Marina | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-10_highstil_umode-highstil-mapa-de-jornada.md) |
 | 2025-08-08 | weekly | não confirmada | Marina | resumo + **transcrição** | — |
 | 2025-08-13 | treinamento | não confirmada | Marina | resumo | [5](../../../../00_Institucional/_inbox-calls/2025-08-13_highstil_umode-highstil-uflow-fase-1-treinamento-usuarios.md) |

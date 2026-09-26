@@ -54,12 +54,16 @@ tags:
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 11 reuniões, de 2025-02-14 a 2026-03-13
+#### ✅ Aconteceu — 15 reuniões, de 2025-02-12 a 2026-03-13
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2025-02-14 | — | não confirmada | Marina | só chat | — |
-| 2025-04-09 | — | não confirmada | Marina | só chat | — |
+| 2025-02-12 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-02-13 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-02-14 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-02-20 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-02-20 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-09 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-06-03 | — | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-06-03_lenny-niemeyer_umode-lenny-mapa-de-jornadas.md) |
 | 2025-06-27 | weekly | não confirmada | Marina | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-06-27_lenny-niemeyer_weekly-lenny-niemeyer-umode.md) |
 | 2025-07-21 | treinamento | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-07-21_lenny-niemeyer_umode-lenny-niemeyer-treinamento-usuarios-chave.md) |

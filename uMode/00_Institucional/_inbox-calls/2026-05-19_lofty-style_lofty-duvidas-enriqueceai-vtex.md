@@ -17,8 +17,9 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Victor Aragão -> victor.aragao@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 12/18
+posicao_na_linha_do_tempo: 17/23
 reunioes_depois: 6
 idade_em_dias: 129
 horizonte: historico
@@ -37,7 +38,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **12 de 18** de Lofty Style nos acervos |
+| Reunião | **17 de 23** de Lofty Style nos acervos |
 | Data | **2026-05-19** — **129 dias atrás** |
 | Depois dela | **6 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

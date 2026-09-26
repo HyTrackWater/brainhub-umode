@@ -15,8 +15,9 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Juliana Ferré -> juliana.ferre@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 15/18
+posicao_na_linha_do_tempo: 20/23
 reunioes_depois: 3
 idade_em_dias: 36
 horizonte: historico
@@ -35,7 +36,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **15 de 18** de Lofty Style nos acervos |
+| Reunião | **20 de 23** de Lofty Style nos acervos |
 | Data | **2026-08-20** — **36 dias atrás** |
 | Depois dela | **3 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

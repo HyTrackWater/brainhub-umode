@@ -15,9 +15,10 @@ participantes_sem_email:
   - "Laura Delgado"
   - "Michelle Rodrigues"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 13/25
-reunioes_depois: 12
+posicao_na_linha_do_tempo: 20/33
+reunioes_depois: 13
 idade_em_dias: 413
 horizonte: historico
 tier: T2
@@ -37,25 +38,25 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **13 de 25** de Luiza Barcelos nos acervos |
+| Reunião | **20 de 33** de Luiza Barcelos nos acervos |
 | Data | **2025-08-08** — **413 dias atrás** |
-| Depois dela | **12 reuniões** — a última em **2026-09-22** |
+| Depois dela | **13 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-08-08**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **12 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **13 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 
 ### ✅ Aconteceu — em 2025-08-08
 
-- dor: Ela sugeriu uma reunião interna para o time da Michelle Rodrigues e da TI para resolver as dificuldades de movimentação no fluxo, pois o início seria manual e causaria idas e vindas. — [resumo Gemini 2025-08-08 · 00:01:10] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
-- decisao: Discussão sobre Pré-Custo Marina Santoro levantou a questão da função de pré-custo, que exigiria o recebimento do custo da matéria-prima, algo que foi decidido anteriormente que não seria enviado. — [resumo Gemini 2025-08-08 · 00:06:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- dor: Ela sugeriu uma reunião interna para o time da Michelle Rodrigues e da TI para resolver as dificuldades de movimentação no fluxo, pois o início seria manual e causaria idas e vindas. — [resumo Gemini 2025-08-08 · 00:01:10] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado · 00:01:10)
+- decisao: Discussão sobre Pré-Custo Marina Santoro levantou a questão da função de pré-custo, que exigiria o recebimento do custo da matéria-prima, algo que foi decidido anteriormente que não seria enviado. — [resumo Gemini 2025-08-08 · 00:06:42] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro · 00:06:42)
 
 ### ⌛ Compromissos de 2025-08-08 — cumprimento não verificado
 
-- entrega: Laura Delgado solicitou a Michele Rodrigues que passasse a lista de novos desenhistas para que pudessem fazer os ajustes necessários, e Michele Rodrigues se comprometeu a enviar a lista na segunda-feira. — [resumo Gemini 2025-08-08] ⚠ PROPOSTA · DERIVADA
-- entrega: Marina Santoro se comprometeu a verificar com Sandro se havia algum combinado adicional sobre isso, pois a expectativa da integração era diferente do que foi apresentado. — [resumo Gemini 2025-08-08 · 00:12:40] ⚠ PROPOSTA · DERIVADA · conferível na transcrição
+- entrega: Laura Delgado solicitou a Michele Rodrigues que passasse a lista de novos desenhistas para que pudessem fazer os ajustes necessários, e Michele Rodrigues se comprometeu a enviar a lista na segunda-feira. — [resumo Gemini 2025-08-08] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-25 · Laura Delgado, Michelle Rodrigues · 00:04:07)
+- entrega: Marina Santoro se comprometeu a verificar com Sandro se havia algum combinado adicional sobre isso, pois a expectativa da integração era diferente do que foi apresentado. — [resumo Gemini 2025-08-08 · 00:12:40] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-25 · Marina Santoro, Gustavo Sobrinho · 00:12:40)
 
 ## Governança
 

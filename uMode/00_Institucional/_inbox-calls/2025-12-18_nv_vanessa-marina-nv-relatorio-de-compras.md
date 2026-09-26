@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 6/10
+posicao_na_linha_do_tempo: 7/11
 reunioes_depois: 4
 idade_em_dias: 281
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **6 de 10** de NV nos acervos |
+| Reunião | **7 de 11** de NV nos acervos |
 | Data | **2025-12-18** — **281 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2026-07-07** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

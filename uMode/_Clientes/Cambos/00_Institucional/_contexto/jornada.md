@@ -94,11 +94,12 @@ tags:
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 14 reuniões, de 2024-05-08 a 2026-09-23
+#### ✅ Aconteceu — 15 reuniões, de 2024-05-08 a 2026-09-23
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2024-05-08 | kick-off | não confirmada | Marina | só chat | — |
+| 2024-05-08 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-07 | weekly | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-06-12 | treinamento | não confirmada | Laura | resumo | [13](../../../../00_Institucional/_inbox-calls/2025-06-12_cambos_treinamento-cambos-umode.md) |
 | 2025-06-18 | workflow | não confirmada | Laura | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-18_cambos_workflow-cambos.md) |
 | 2025-07-23 | discovery | não confirmada | Laura | resumo | — |

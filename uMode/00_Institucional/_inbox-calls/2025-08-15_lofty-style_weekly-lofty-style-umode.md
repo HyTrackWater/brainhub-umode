@@ -14,8 +14,9 @@ participantes_sem_email:
   - "Vanessa Rinaldi"
   - "Gabriela Cunha"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 2/18
+posicao_na_linha_do_tempo: 7/23
 reunioes_depois: 16
 idade_em_dias: 406
 horizonte: historico
@@ -36,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **2 de 18** de Lofty Style nos acervos |
+| Reunião | **7 de 23** de Lofty Style nos acervos |
 | Data | **2025-08-15** — **406 dias atrás** |
 | Depois dela | **16 reuniões** — a última em **2026-09-10** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

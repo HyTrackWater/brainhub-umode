@@ -88,16 +88,19 @@ tags:
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 11 reuniões, de 2025-02-27 a 2025-10-16
+#### ✅ Aconteceu — 14 reuniões, de 2025-02-27 a 2025-10-16
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2025-02-27 | — | não confirmada | Marina | só chat | — |
-| 2025-02-27 | kick-off | não confirmada | Marina | só chat | — |
-| 2025-03-28 | — | não confirmada | Marina | só chat | — |
-| 2025-04-01 | — | não confirmada | Marina | só chat | — |
-| 2025-04-02 | tabela de medidas | não confirmada | Marina | só chat | — |
-| 2025-04-10 | — | não confirmada | Marina | só chat | — |
+| 2025-02-27 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-02-27 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-18 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-19 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-27 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-28 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-01 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-02 | tabela de medidas | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-10 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-08-01 | treinamento | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-08-01_recco_umode-recco-uflow-fase-1-treinamento-usuarios-ch.md) |
 | 2025-08-14 | weekly | não confirmada | Marina | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-08-14_recco_weekly-recco-umode.md) |
 | 2025-09-04 | weekly | não confirmada | Marina | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-09-04_recco_weekly-recco-umode.md) |

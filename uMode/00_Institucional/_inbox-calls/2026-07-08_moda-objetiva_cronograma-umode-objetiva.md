@@ -13,6 +13,7 @@ participantes:
   - eliane.moura@modaobjetiva.com.br
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 11/16
 reunioes_depois: 5

@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 21/25
+posicao_na_linha_do_tempo: 29/33
 reunioes_depois: 4
 idade_em_dias: 325
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **21 de 25** de Luiza Barcelos nos acervos |
+| Reunião | **29 de 33** de Luiza Barcelos nos acervos |
 | Data | **2025-11-04** — **325 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

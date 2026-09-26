@@ -21,6 +21,7 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Julianne Rodrigues -> julianne.dias@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 3/3
 reunioes_depois: 0

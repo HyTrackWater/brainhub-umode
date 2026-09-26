@@ -16,8 +16,9 @@ participantes_sem_email:
   - "Jose Prior"
   - "Pedro Murillo"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 9/12
+posicao_na_linha_do_tempo: 10/13
 reunioes_depois: 3
 idade_em_dias: 291
 horizonte: historico
@@ -38,7 +39,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **9 de 12** de Osklen nos acervos |
+| Reunião | **10 de 13** de Osklen nos acervos |
 | Data | **2025-12-08** — **291 dias atrás** |
 | Depois dela | **3 reuniões** — a última em **2026-09-09** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

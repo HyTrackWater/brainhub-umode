@@ -19,6 +19,7 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Fernanda Araujo -> fernanda.araujo@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 3/4
 reunioes_depois: 1

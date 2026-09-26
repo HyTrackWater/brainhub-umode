@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 4/12
+posicao_na_linha_do_tempo: 5/13
 reunioes_depois: 8
 idade_em_dias: 464
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **4 de 12** de Osklen nos acervos |
+| Reunião | **5 de 13** de Osklen nos acervos |
 | Data | **2025-06-18** — **464 dias atrás** |
 | Depois dela | **8 reuniões** — a última em **2026-09-09** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

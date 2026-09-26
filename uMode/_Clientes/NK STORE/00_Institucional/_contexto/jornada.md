@@ -122,15 +122,22 @@ sobre **campos duplicados no cadastro** e **valores da ficha que não chegam ao 
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 10 reuniões, de 2024-06-18 a 2026-06-30
+#### ✅ Aconteceu — 17 reuniões, de 2024-06-18 a 2026-06-30
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2024-06-18 | kick-off | não confirmada | Marina | só chat | — |
-| 2024-11-12 | — | não confirmada | Marina | só chat | — |
-| 2024-11-13 | — | não confirmada | Marina | só chat | — |
-| 2025-01-07 | — | não confirmada | Marina | só chat | — |
-| 2025-03-12 | — | não confirmada | Marina | só chat | — |
+| 2024-06-18 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-10-22 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-11-12 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-11-13 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-11 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-17 | integração | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-27 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-01-07 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-02-10 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-12 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-24 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-04-15 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-08-08 | integração | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-08-08_nk-store_umode-nk-revisao-integracao-leitura-e-escrita.md) |
 | 2025-09-19 | weekly | não confirmada | Marina | resumo | [8](../../../../00_Institucional/_inbox-calls/2025-09-19_nk-store_weekly-nk-store-umode.md) |
 | 2026-04-02 | teste | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2026-04-02_nk-store_umode-nk-teste-rota-operacao-homologacao.md) |

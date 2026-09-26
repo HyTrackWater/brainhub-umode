@@ -14,6 +14,7 @@ participantes_resolvidos_por_nome:   # cabecalho sem e-mail; indice do corpus
   - "Bergson de Lima Marques -> bergson.marques@umode.com.br"
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 1/1
 reunioes_depois: 0

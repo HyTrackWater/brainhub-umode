@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 9/9
+posicao_na_linha_do_tempo: 14/14
 reunioes_depois: 0
 idade_em_dias: 360
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **9 de 9** de VIX nos acervos |
+| Reunião | **14 de 14** de VIX nos acervos |
 | Data | **2025-09-30** — **360 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

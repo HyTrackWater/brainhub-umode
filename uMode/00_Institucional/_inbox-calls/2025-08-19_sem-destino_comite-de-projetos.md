@@ -15,9 +15,10 @@ participantes_sem_email:
   - "Vanessa Rinaldi"
   - "Juliana Ferré"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 89/127
-reunioes_depois: 38
+posicao_na_linha_do_tempo: 95/135
+reunioes_depois: 40
 idade_em_dias: 402
 horizonte: historico
 tier: T1
@@ -37,13 +38,13 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **89 de 127** de destino não identificado nos acervos |
+| Reunião | **95 de 135** de destino não identificado nos acervos |
 | Data | **2025-08-19** — **402 dias atrás** |
-| Depois dela | **38 reuniões** — a última em **2026-09-22** |
+| Depois dela | **40 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-08-19**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **38 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **40 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

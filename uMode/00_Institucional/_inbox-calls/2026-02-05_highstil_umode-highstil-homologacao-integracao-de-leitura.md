@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 11/12
+posicao_na_linha_do_tempo: 14/15
 reunioes_depois: 1
 idade_em_dias: 232
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **11 de 12** de Highstil nos acervos |
+| Reunião | **14 de 15** de Highstil nos acervos |
 | Data | **2026-02-05** — **232 dias atrás** |
 | Depois dela | **1 reuniões** — a última em **2026-02-20** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

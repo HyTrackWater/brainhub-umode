@@ -11,8 +11,9 @@ natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 7/11
+posicao_na_linha_do_tempo: 10/14
 reunioes_depois: 4
 idade_em_dias: 420
 horizonte: historico
@@ -31,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **7 de 11** de Recco nos acervos |
+| Reunião | **10 de 14** de Recco nos acervos |
 | Data | **2025-08-01** — **420 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2025-10-16** |
 | Status no corpus | `Churn` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

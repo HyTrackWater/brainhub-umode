@@ -16,8 +16,9 @@ participantes:
   - thays.pantaleao@osklen.com.br
 participantes_sem_email: []
 tem_transcricao: false
+transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 11/12
+posicao_na_linha_do_tempo: 12/13
 reunioes_depois: 1
 idade_em_dias: 144
 horizonte: historico
@@ -36,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **11 de 12** de Osklen nos acervos |
+| Reunião | **12 de 13** de Osklen nos acervos |
 | Data | **2026-05-04** — **144 dias atrás** |
 | Depois dela | **1 reuniões** — a última em **2026-09-09** |
 | Status no corpus | `Operação Assistida` — varredura de **2026-09-22**, que é a data da **leitura**, não da transição |

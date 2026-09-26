@@ -124,15 +124,22 @@ julho de 2026. `[C]`
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 25 reuniões, de 2024-11-08 a 2026-09-22
+#### ✅ Aconteceu — 33 reuniões, de 2024-11-05 a 2026-09-22
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2024-11-08 | weekly | não confirmada | Marina | só chat | — |
-| 2024-12-05 | — | não confirmada | Marina | só chat | — |
-| 2024-12-10 | dúvidas | não confirmada | Marina | só chat | — |
-| 2025-01-30 | integração | não confirmada | Marina | só chat | — |
-| 2025-03-17 | — | não confirmada | Marina | só chat | — |
+| 2024-11-05 | ficha técnica | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-11-08 | weekly | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-04 | alinhamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-05 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-10 | dúvidas | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2024-12-20 | weekly | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-01-06 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-01-28 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-01-30 | integração | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-02-07 | treinamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-13 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-17 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-05-06 | treinamento | não confirmada | Laura | só chat | — |
 | 2025-05-27 | alinhamento | não confirmada | Laura | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_luiza-barcelos-umode-alinhamento-de-demandas-tim.md) |
 | 2025-05-27 | weekly | não confirmada | Laura | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_weekly-tech-luiza-barcelos-umode.md) |
@@ -144,6 +151,7 @@ julho de 2026. `[C]`
 | 2025-08-27 | alinhamento | não confirmada | Laura | resumo | [17](../../../../00_Institucional/_inbox-calls/2025-08-27_luiza-barcelos_alinhamento-luiza-barcelos-umode.md) |
 | 2025-08-29 | weekly | não confirmada | Laura | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2025-08-29_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
 | 2025-09-05 | alinhamento | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-05_luiza-barcelos_alinhamento-tech-luiza-barcelos.md) |
+| 2025-09-11 | teste | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-09-16 | discovery | não confirmada | Laura | resumo | [6](../../../../00_Institucional/_inbox-calls/2025-09-16_luiza-barcelos_discovery-fornecedores-luiza-barcelos-umode.md) |
 | 2025-09-19 | weekly | não confirmada | Laura | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-09-19_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
 | 2025-09-24 | alinhamento | não confirmada | Laura | resumo + **transcrição** | [15](../../../../00_Institucional/_inbox-calls/2025-09-24_luiza-barcelos_alinhamento-e-duvidas-umode-luiza-barcelos.md) |

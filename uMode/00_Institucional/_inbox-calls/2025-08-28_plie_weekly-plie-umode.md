@@ -14,6 +14,7 @@ participantes_sem_email:
   - "Vanessa Rinaldi"
   - "Andrea Holmer"
 tem_transcricao: true
+transcricao_automatica: false
 tem_resumo: true
 posicao_na_linha_do_tempo: 7/11
 reunioes_depois: 4
