@@ -4735,3 +4735,15 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      (fala "até março", resumo "até maio", kick-off da Loungerie) e **verbo** (fala "explorar e
      testar", resumo "implementar", NK Store). 🔵 **Sem gravação, continuam só com resumo:** Moda
      Objetiva (7 reuniões de jul–ago), Lofty 09/09 e 10/09, Reserva 14/07, TDC 15/07.
+797. 🔴 **Isolamento de cliente aplicado às propostas — e havia vazamento.** Varridas as linhas do
+     `_inbox-calls/`: **6 citavam outro cliente, 2 eram vazamento real** — "a solução para o
+     problema da **Osklen**" no registro da **Lenny**, e "a **Reserva** ainda demanda muito" no da
+     **Recco**; nas gravações, combinados da **Cambos** e KRs da **Luiza Barcelos** apareceram em
+     reuniões "da NK". 🟢 **Conserto de método:** o extrator omite proposta que cita outro cliente
+     por **nome próprio** (inicial maiúscula — "oficina" e "reserva" também são substantivos
+     comuns), e a tabela de verificação ganhou o veredito `fora_do_cliente` para o que o teste não
+     pega. A instrução dos subagentes passou a mandar omitir. ⚠ **Mantido de propósito:**
+     "(reserva e oficina)" na homologação conjunta das duas contas do mesmo grupo.
+     🔴 **E o filtro vale só para registro de CLIENTE.** Na primeira versão ele omitiu 37 propostas —
+     35 eram de reuniões da **Casa** ou sem destino, que falam de clientes legitimamente
+     ("configurar a ficha da NV"). **O isolamento é entre clientes; a Casa enxerga todos.**

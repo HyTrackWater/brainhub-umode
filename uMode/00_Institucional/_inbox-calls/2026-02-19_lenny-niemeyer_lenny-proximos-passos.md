@@ -54,7 +54,6 @@ processado_em: 2026-09-25
 
 ### ⌛ Compromissos de 2026-02-19 — cumprimento não verificado
 
-- entrega: Juliana Ferré irá desenhar e enviar a Vanessa Rinaldi a solução encontrada para o problema da Osklen, que não utiliza campo de múltipla seleção. — [resumo Gemini 2026-02-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA
 - entrega: Juliana Ferré irá se sentar com André para discutir melhorias no legado, incluindo a colocação de um totalizador no cambã e a fixação do card como primeiro no cambã. — [resumo Gemini 2026-02-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA
 - entrega: Ana Lucia vai entrar em um 'discovery' de produto com a cliente para desenhar o dashboard necessário, abordando a questão sob a perspectiva de produto. — [resumo Gemini 2026-02-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA
 - entrega: Juliana Ferré vai juntar todos os pontos discutidos para listar os próximos passos de forma a não gerar expectativas, incluindo a pauta de marcar reuniões de produto para falar de dashboard, repetir sobre as integrações e o que os clientes estão devendo. — [resumo Gemini 2026-02-19 · próximas etapas] ⚠ PROPOSTA · DERIVADA

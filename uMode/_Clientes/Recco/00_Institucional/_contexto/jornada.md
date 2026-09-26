@@ -102,7 +102,7 @@ tags:
 | 2025-04-02 | tabela de medidas | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-04-10 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-08-01 | treinamento | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-08-01_recco_umode-recco-uflow-fase-1-treinamento-usuarios-ch.md) |
-| 2025-08-14 | weekly | não confirmada | Marina | resumo + **transcrição** | [3](../../../../00_Institucional/_inbox-calls/2025-08-14_recco_weekly-recco-umode.md) |
+| 2025-08-14 | weekly | não confirmada | Marina | resumo + **transcrição** | [2](../../../../00_Institucional/_inbox-calls/2025-08-14_recco_weekly-recco-umode.md) |
 | 2025-09-04 | weekly | não confirmada | Marina | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-09-04_recco_weekly-recco-umode.md) |
 | 2025-09-11 | weekly | não confirmada | Marina | resumo | [12](../../../../00_Institucional/_inbox-calls/2025-09-11_recco_weekly-recco-umode.md) |
 | 2025-10-16 | weekly | não confirmada | Marina | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-10-16_recco_weekly-recco-umode.md) |

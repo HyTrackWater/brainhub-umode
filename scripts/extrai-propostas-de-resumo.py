@@ -679,6 +679,7 @@ def orfao(texto):
 
 
 _VERIF = None
+ISOLAMENTO = [0]   # propostas omitidas por citar outro cliente
 
 
 def verificacao():
@@ -693,6 +694,39 @@ def verificacao():
                 if len(c) == 7:
                     _VERIF[(c[0], c[1])] = c
     return _VERIF
+
+
+def fora_do_cliente(r, texto):
+    u"""
+    \U0001F534 Isolamento de cliente (regra travada no CONTEXT.md): proposta
+    que cita OUTRO cliente nao entra no registro deste. Verificado em 26/09:
+    6 linhas do inbox citavam outro cliente, 2 eram vazamento real
+    ("o problema da Osklen" numa reuniao da Lenny). Exige NOME PROPRIO
+    (inicial maiuscula), porque "oficina" e "reserva" sao tambem
+    substantivos comuns. O que o teste nao pega vai para a tabela de
+    verificacao com o veredito `fora_do_cliente`.
+    """
+    import hashlib
+    arq = r.get(u"arq") or u""
+    c = verificacao().get((arq, hashlib.sha1((arq + u"|" + texto).encode(u"utf-8")).hexdigest()[:12]))
+    if c and c[2] == u"fora_do_cliente":
+        return True
+    proprio = r.get(u"pasta")
+    if not proprio:
+        # Casa ou reuniao sem destino: a Casa enxerga todos os clientes, e o
+        # isolamento e ENTRE clientes. Filtrar aqui apagava 35 propostas
+        # legitimas ("configurar a ficha da NV" numa reuniao interna).
+        return False
+    ap = {}
+    for a, pasta in apelidos_do_corpus():
+        ap.setdefault(pasta, []).append(a)
+    for pasta in clientes_no_titulo(texto):
+        if pasta == proprio:
+            continue
+        nomes = [pasta] + ap.get(pasta, []) + [pasta.split()[0]]
+        if any(n[:1].isupper() and re.search(u"(?<![\\w])%s(?![\\w])" % re.escape(n), texto) for n in nomes):
+            return True
+    return False
 
 
 def marca_fala(arq, texto):
@@ -821,8 +855,14 @@ def escreve_inbox(r, pos, props, t0, t0p, t1, st):
            u"compromisso-antigo": u"\u231b Compromissos de %s \u2014 cumprimento n\u00e3o verificado" % data}
     grupos = collections.OrderedDict((k, []) for k in
                                      (u"acontecendo", u"por-vir", u"aconteceu", u"compromisso-antigo"))
+    fora = 0
     for k, corpo, ts, futuro in props:
+        if fora_do_cliente(r, corpo):
+            fora += 1
+            continue
         grupos[bloco_de(futuro, pos)].append((k, corpo, ts))
+    if fora:
+        ISOLAMENTO[0] += fora
     L += [u"", u"## \u26a0 Fatos propostos \u2014 ainda N\u00c3O s\u00e3o fatos", u""]
     if not props:
         L += [u"_Nenhuma proposta fora das faixas sens\u00edveis._", u""]
@@ -1174,6 +1214,7 @@ def main():
     amb = [r for r in porcli.get(None, []) if len(r[u"candidatos"]) > 1]
     for r in amb:
         w(u"   ⚠ ambígua %s  %s -> %s\n" % (r[u"data"].isoformat(), r[u"titulo"][:50], u" / ".join(r[u"candidatos"])))
+    w(u"omitidas por citar OUTRO cliente (isolamento): %d\n" % ISOLAMENTO[0])
     w(u"NÃO lidos (1:1 e dupla interna): %d\n" % len(nao_lidos))
     for p, n in nao_lidos:
         w(u"   %s · %s\n" % (p, n[:60]))

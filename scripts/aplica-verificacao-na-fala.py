@@ -23,7 +23,7 @@ spec = importlib.util.spec_from_file_location(
 ext = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ext)
 TABELA = os.path.join(ext.INBOX, u"_verificacao-na-fala.tsv")
-VALIDOS = (u"confirmada", u"parcial", u"contradita", u"nao_encontrada")
+VALIDOS = (u"confirmada", u"parcial", u"contradita", u"nao_encontrada", u"fora_do_cliente")
 CAB = u"arq\tid\tveredito\tts_fala\tfalantes\tmotivo\tconferido_em"
 
 

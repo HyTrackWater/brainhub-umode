@@ -71,7 +71,7 @@ tags:
 | 2025-08-08 | weekly | não confirmada | Marina | resumo + **transcrição** | [2](../../../../00_Institucional/_inbox-calls/2025-08-08_lenny-niemeyer_weekly-lenny-niemeyer-umode.md) |
 | 2025-10-13 | integração | não confirmada | Marina | resumo + **transcrição** | [8](../../../../00_Institucional/_inbox-calls/2025-10-13_lenny-niemeyer_umode-lenny-teste-integracao-producao.md) |
 | 2026-02-03 | — | não confirmada | Juliana | resumo | [9](../../../../00_Institucional/_inbox-calls/2026-02-03_lenny-niemeyer_lenny-plano-de-acao.md) |
-| 2026-02-19 | — | não confirmada | Juliana | resumo | [13](../../../../00_Institucional/_inbox-calls/2026-02-19_lenny-niemeyer_lenny-proximos-passos.md) |
+| 2026-02-19 | — | não confirmada | Juliana | resumo | [12](../../../../00_Institucional/_inbox-calls/2026-02-19_lenny-niemeyer_lenny-proximos-passos.md) |
 | 2026-03-13 | — | não confirmada | Marina | resumo | [4](../../../../00_Institucional/_inbox-calls/2026-03-13_lenny-niemeyer_umode-lenny-relatorio-de-auditoria-e-acoes.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido

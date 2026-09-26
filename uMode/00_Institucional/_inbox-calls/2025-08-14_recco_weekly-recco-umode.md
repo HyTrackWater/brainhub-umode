@@ -48,7 +48,6 @@ processado_em: 2026-09-25
 
 ### ✅ Aconteceu — em 2025-08-14
 
-- dor: Desafios e Alocação da Equipe Marina Santoro detalhou os desafios atuais, como o fato de que a reserva ainda demanda muito, além de problemas no legado que exigem interrupção das tarefas dos desenvolvedores. — [resumo Gemini 2025-08-14 · 00:01:21] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Marina Santoro, Vanessa Rinaldi · 00:01:21)
 - dor: Agendamento de Treinamento e Problemas Técnicos Marina Santoro e Vanessa Rinaldi discutiram o agendamento de um treinamento para o time, com sugestões de datas para o final de agosto. — [resumo Gemini 2025-08-14 · 00:26:50] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Vanessa Rinaldi, Marina Santoro · 00:26:50)
 - dor: Vanessa também relatou problemas técnicos com seu microfone no Meet, que não funciona apesar de o áudio estar normal, e Marina tentou ajudar com a solução de problemas nas configurações do navegador. — [resumo Gemini 2025-08-14 · 00:12:06] ⚠ PROPOSTA · DERIVADA · conferível na transcrição · 🟢 CONFIRMADA NA FALA (2026-09-26 · Vanessa Rinaldi, Marina Santoro · 00:12:06)
 
