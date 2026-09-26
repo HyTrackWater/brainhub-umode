@@ -40,8 +40,8 @@ tags:
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 53 — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 6 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
-- atendimento: pessoa:julianne.dias@umode.com.br — [export de CRM · 2026-09-25]
-- atendimento: pessoa:pedro.murillo@umode.com.br — [export de CRM · 2026-09-25]
+- atendimento: pessoa:julianne.dias@umode.com.br — [informado pelo Vinicius · 2026-09-25]
+- atendimento: pessoa:pedro.murillo@umode.com.br — [informado pelo Vinicius · 2026-09-25]
 - tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-21]
 
 ## Identidade
@@ -114,6 +114,8 @@ tabelas e colunas reais do ERP (`PRODUTOS`, `PROP_PRODUTOS`).
 
 > 🟢 **Apelido desambiguado em 25/09/2026:** o rótulo do CRM trazia só o primeiro nome, que **não identifica** — o nome completo veio da base `Demandas de Clientes` · `Key Account/Responsável`, **deste mesmo cliente**.
 > ⚠ **Duas fontes; nenhuma delas resolveria sozinha.**
+
+> 🔄 **Confirmado como vigente — informado pelo Vinicius em 25/09/2026.**
 
 ## Contrato
 

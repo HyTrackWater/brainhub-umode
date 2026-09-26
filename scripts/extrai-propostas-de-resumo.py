@@ -222,8 +222,38 @@ def padroes_de_titulo():
         ps = [(re.escape(sem_acento(p)), p) for p in os.listdir(CLIENTES_DIR)
               if not p.startswith(u"_") and os.path.isdir(os.path.join(CLIENTES_DIR, p))]
         ps += [(a, p) for a, p in APELIDOS]
+        ps += [(re.escape(sem_acento(a)), p) for a, p in apelidos_do_corpus()]
         _PADROES = sorted(ps, key=lambda x: -len(x[0]))
     return _PADROES
+
+
+def apelidos_do_corpus():
+    u"""
+    `### Aliases do cliente` do `institucional.md` de cada pasta - o lugar que
+    o CONTEXT.md define para apelido. \U0001F534 Em 25/09 eu escrevi que "nada no
+    corpus declara RSV" para a Reserva: estava declarado ali, e eu nao li. O
+    extrator passa a ler a fonte em vez de depender de lista a mao.
+    So termo entre crases, sem ponto nem arroba (dominio nao e apelido), com
+    2+ caracteres; apelido que aparece em mais de um cliente e descartado.
+    """
+    achados = collections.defaultdict(set)
+    for pasta in os.listdir(CLIENTES_DIR):
+        f = os.path.join(CLIENTES_DIR, pasta, u"00_Institucional", u"_contexto", u"institucional.md")
+        if pasta.startswith(u"_") or not os.path.exists(f):
+            continue
+        t = io.open(f, encoding=u"utf-8", errors=u"replace").read()
+        m = re.search(u"^### Aliases do cliente\\n(.*?)(?=^#)", t, re.S | re.M)
+        if not m:
+            continue
+        # \u26a0 so linha de apelido: o blockquote de aviso cita `Enterprise`
+        # (grupo de segmentacao), e "base `Portal do Cliente`" e nome de BASE
+        linhas = u"\n".join(l for l in m.group(1).split(u"\n") if not l.lstrip().startswith(u">"))
+        linhas = re.sub(u"base \\*{0,2}`[^`]+`", u"", linhas)
+        for a in re.findall(u"`([^`\\n]{2,40})`", linhas):
+            if u"." in a or u"@" in a or u"[" in a:
+                continue
+            achados[a.strip()].add(pasta)
+    return [(a, list(ps)[0]) for a, ps in achados.items() if len(ps) == 1]
 
 
 def clientes_no_titulo(nome):

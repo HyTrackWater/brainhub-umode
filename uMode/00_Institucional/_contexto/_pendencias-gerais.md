@@ -4673,3 +4673,23 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
 788. ⚠ **`RSV` não roteou.** `RSV + uMode · Checkpoint #3` (29/05/2025) pode ser **Reserva**, mas
      **nenhuma fonte do corpus declara esse apelido.** 🔵 **Confirmar** — se for, entra em
      `### Aliases do cliente` do `institucional.md` da Reserva, e o extrator passa a ler de lá.
+789. 🔴 **CORREÇÃO do item 788: o corpus JÁ declarava `RSV` como apelido da Reserva** — no
+     `institucional.md` dela, `### Aliases do cliente`. Eu escrevi "nada no corpus declara" sem
+     ler. **Quinta variação de "ausência de fonte é hipótese" nesta sessão.** O Vinicius
+     confirmou em 25/09. 🟢 **Conserto de método, não de caso:** o extrator passou a ler os
+     apelidos do `institucional.md` de cada cliente (55 lidos, os de blockquote e os nomes de base
+     excluídos), em vez de lista escrita à mão.
+790. 🟢 **Atendimento registrado com o tempo explícito — informado pelo Vinicius em 25/09/2026:**
+     🔄 **Hoje:** VIX = **Julianne Dias Rodrigues + Pedro Murillo** (confirmado) · Oficina Reserva =
+     **Fernanda Araujo** (o CRM dizia Holmer & Laura — virou histórico) · Lofty Style = **Laura
+     Delgado Cardoso** (confirmado). ⏭ **Por vir:** a **Fernanda fica na uMode até 30/09/2026**;
+     com a saída dela, a **Laura** passa a atender **Reserva, Oficina Reserva e NV** e segue com a
+     Lofty. ⚠ **Reserva e NV:** o atendimento atual segue o do CRM — o Vinicius não o alterou.
+     🟢 O `gera-fatos.py` ganhou a fonte `informado pelo Vinicius`, e os fatos de Oficina Reserva,
+     VIX e Lofty passaram a citá-la. **Data exata da passagem: `[a preencher]`.**
+791. ⏰ **Revisitar em 01/10/2026 — isto vence.** Na saída da Fernanda: (a) a ficha
+     `fernanda-araujo.md` passa a `desligada`, e o `gera-fatos.py` marca `⚠ DESLIGADO` nos fatos
+     de atendimento dela; (b) Reserva, Oficina Reserva e NV trocam o atendimento vigente para a
+     Laura, com a data real da passagem; (c) a jornada da Casa registra o marco. 🔴 **O fato de
+     hoje não tem validade embutida** — é a mesma lacuna de sempre (fato sem intervalo), e aqui
+     ela tem data marcada para virar erro se ninguém voltar.

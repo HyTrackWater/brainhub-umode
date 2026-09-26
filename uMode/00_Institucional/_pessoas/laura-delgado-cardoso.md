@@ -50,6 +50,8 @@ Gestão de relacionamento com clientes como Key Account
 ### Áreas de atuação histórica
 [a preencher]
 ### Clientes atuais atendidos
+⏭ **Por vir (Vinicius, 25/09/2026):** com a saída da Fernanda Araujo em **30/09/2026**, passa a atender **Reserva, Oficina Reserva e NV**, e **segue com a Lofty Style**. Data exata da passagem `[a preencher]`.
+
 Como Key Account (9): Baw · Cambos · DRO · Highstil · Lofty Style · Luiza Barcelos ·
 Moda Objetiva · Oficina Reserva · Plie
 > Lista completada em 03 ago 2026, na varredura dos **46 clientes reais** do CRM "Mapa de

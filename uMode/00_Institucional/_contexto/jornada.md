@@ -249,6 +249,9 @@ As fichas de ferramenta vivem em `03_Produto-e-Solucoes/_ferramentas/` e
 `[a preencher]`
 
 ## Próximos passos
+0. ⏭ **30/09/2026 — redistribuição de carteira** (Vinicius, 25/09/2026): a **Fernanda Araujo** sai
+   da uMode; a **Laura Delgado Cardoso** passa a atender **Reserva, Oficina Reserva e NV** e segue
+   com a **Lofty Style**. Data exata da passagem `[a preencher]`.
 1. 🔴 **Declarar o escopo do programa de migração** — de qual sistema para qual, quais clientes,
    com que prazo. **É o fato mais importante da Casa hoje e nenhuma fonte lida o diz.**
 2. **Aprovar ou recusar as propostas dos arquivos `*_casa_*`** do `_inbox-calls/`.

@@ -109,12 +109,13 @@ página, que foi editada pela última vez em **30/06/2026**.
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 5 reuniões, de 2024-06-12 a 2026-07-14
+#### ✅ Aconteceu — 6 reuniões, de 2024-06-12 a 2026-07-14
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2024-06-12 | cronograma | não confirmada | Juliana | só chat | — |
 | 2024-10-17 | — | não confirmada | Juliana | só chat | — |
+| 2025-05-29 | — | não confirmada | Marina | resumo | [2](../../../../00_Institucional/_inbox-calls/2025-05-29_reserva_rsv-umode-checkpoint-3.md) |
 | 2025-09-29 | — | não confirmada | Juliana | resumo | [4](../../../../00_Institucional/_inbox-calls/2025-09-29_reserva_andre-juliana-joao-reserva.md) |
 | 2026-05-27 | — | externa | Marina | resumo + **transcrição** | [4](../../../../00_Institucional/_inbox-calls/2026-05-27_reserva_umode-reserva-validacao-materiais-com-flag-permi.md) |
 | 2026-07-14 | — | interna | Juliana | resumo | [18](../../../../00_Institucional/_inbox-calls/2026-07-14_reserva_reserva-proximos-passos.md) |

@@ -19,6 +19,7 @@ tags:
 > (25/03/2025). **A prática existe em pelo menos 2 clientes e não está padronizada.**
 
 ## Responsável de atendimento (uMode)
+- 🔄 **Hoje (25/09/2026):** **Laura Delgado Cardoso** — confirmado pelo Vinicius; **segue** com a conta depois de 30/09/2026.
 - **2025:** **Laura** — atende **4 contas**: Lofty Style, Cambos, Luiza Barcelos e Moda Objetiva.
 - **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
 

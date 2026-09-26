@@ -122,6 +122,11 @@ LISTAS = {
 # pista -> nome da fonte. A primeira que casa vence: ordem do mais especifico
 # para o mais generico.
 FONTES = [
+    # declaracao do Vinicius em conversa, com data (25/09/2026: atendimento
+    # VIGENTE). Vem PRIMEIRO porque convive, no mesmo trecho, com o historico
+    # do CRM - e a pista do CRM nao pode roubar a procedencia do fato atual.
+    # ⚠ So escrever "informado pelo Vinicius" onde ELE e a fonte do fato.
+    (u"informado pelo Vinicius",       u"informado pelo Vinicius"),
     (u"Segmenta\u00e7\u00e3o Grupos",  u"base Segmenta\u00e7\u00e3o Grupos"),
     (u"Mapa de Clientes",              u"base Mapa de Clientes"),
     (u"base de contratos",             u"planilha de contratos do Financeiro"),

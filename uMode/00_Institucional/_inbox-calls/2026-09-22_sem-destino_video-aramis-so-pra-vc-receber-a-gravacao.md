@@ -15,7 +15,7 @@ participantes_nao_resolvidos: "Danilo"
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 128/128
+posicao_na_linha_do_tempo: 127/127
 reunioes_depois: 0
 idade_em_dias: 3
 horizonte: recente
@@ -34,7 +34,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **128 de 128** de destino não identificado nos acervos |
+| Reunião | **127 de 127** de destino não identificado nos acervos |
 | Data | **2026-09-22** — **3 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |

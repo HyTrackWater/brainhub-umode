@@ -32,9 +32,9 @@ por si a Área das 8 travadas em CONTEXT.md; não presumido]
 ### Data de entrada na uMode
 [a preencher]
 ### Status na uMode
-[a preencher — aparecer no CRM não prova vínculo ativo hoje; o CRM é snapshot de mar 2026]
+Ativa em 25/09/2026 — **saída da uMode anunciada para 30/09/2026** (informado pelo Vinicius em 25/09/2026).
 ### Data de saída da uMode
-[a preencher]
+**30/09/2026 — anunciada, ainda não ocorrida em 25/09/2026.** ⚠ Depois dessa data, esta ficha passa a `desligada` e o atendimento dela nos clientes deixa de ser vigente.
 
 ## Papel
 ### Missão da cadeira
@@ -48,6 +48,8 @@ Gestão de relacionamento com clientes como Key Account
 ### Áreas de atuação histórica
 [a preencher]
 ### Clientes atuais atendidos
+🔄 **Em 25/09/2026 (Vinicius):** **Oficina Reserva**, além de NV e Reserva pelo CRM. ⏭ **Com a saída dela em 30/09/2026, as três passam para a Laura Delgado Cardoso.**
+
 Como Key Account (2): NV · Reserva
 > Lista extraída do CRM sobre os 46 clientes reais — inclui clientes em Churn/Inativo,
 > que são vínculo histórico e não atendimento ativo. A separação ativo × histórico exige

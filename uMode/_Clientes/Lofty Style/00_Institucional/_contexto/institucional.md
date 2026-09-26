@@ -57,7 +57,7 @@ tags:
 - indice-reajuste: IPCA — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: 12 internos — [planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 28 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
-- atendimento: pessoa:laura.delgado@umode.com.br — [base Mapa de Clientes · 2026-09-21]
+- atendimento: pessoa:laura.delgado@umode.com.br — [informado pelo Vinicius · 2026-09-25]
 - tamanho-atendimento: Grupo Médios — [varredura do Notion · 2026-09-21]
 
 ## Identidade
@@ -128,6 +128,9 @@ Há também duas páginas dedicadas a regra fiscal e a defeito:
 
 ### Responsável de atendimento (uMode)
 **Laura** — campo `Atendimento 2025` da base `Mapa de Clientes`, lido ao vivo em 23 set 2026.
+
+> 🔄 **Confirmado como vigente — informado pelo Vinicius em 25/09/2026.** A Laura **segue** com a conta depois da redistribuição de 30/09/2026.
+
 ## Contrato
 
 `[a preencher]` — 🔴 **A autoridade deste bloco é a base de contratos do Financeiro**, não o Notion. Ver `_recebido-2026-09-23-base-contratos-flavia-campello.md`.

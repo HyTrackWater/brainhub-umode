@@ -120,6 +120,11 @@ Matéria-prima para Facção"*.
 > ⚠ **A contagem é de demanda trabalhada, não de designação formal.**
 > É evidência de quem atendeu — **e a diferença importa quando a conta
 > trocou de mão.**
+>
+> ⏭ **Por vir — segundo o Vinicius, em 25/09/2026:** a **Fernanda Araujo fica na uMode até
+> 30/09/2026**, e com a saída dela a conta passa para a **Laura Delgado Cardoso**
+> (`laura.delgado@umode.com.br`). **Data exata da passagem: `[a preencher]`.** ⚠ O time acima
+> é o que o CRM registra; **o Vinicius não alterou o atendimento atual desta conta.**
 
 ## Contrato
 
@@ -280,7 +285,7 @@ Grupo **`Enterprise`** · `WIP 6,00` · **Fernanda**, com 3 contas.
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Fernanda (2025)
+Fernanda (2025) → Laura Delgado Cardoso a partir da saída da Fernanda, em 30/09/2026 (segundo o Vinicius, 25/09/2026)
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

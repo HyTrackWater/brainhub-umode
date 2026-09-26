@@ -11,6 +11,7 @@ tags:
 > **Reescrito em 21 set 2026 a partir do Notion ao vivo.** Campo sem fonte fica `[a preencher]`.
 
 ## Responsável de atendimento (uMode)
+- ⏭ **Por vir (Vinicius, 25/09/2026):** a Fernanda Araujo fica na uMode **até 30/09/2026**; com a saída dela, **Laura Delgado Cardoso** assume a conta. Data exata `[a preencher]`.
 - **2025:** **Fernanda** — atende as 3 contas `Enterprise`: NV, Reserva e Oficina Reserva.
 - **2024:** três pessoas registradas como relação na base, **nomes não resolvidos** — `[a preencher]`
 

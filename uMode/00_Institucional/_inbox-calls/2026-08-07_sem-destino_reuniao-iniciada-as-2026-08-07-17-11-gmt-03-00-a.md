@@ -12,7 +12,7 @@ participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 123/128
+posicao_na_linha_do_tempo: 122/127
 reunioes_depois: 5
 idade_em_dias: 49
 horizonte: historico
@@ -31,7 +31,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **123 de 128** de destino não identificado nos acervos |
+| Reunião | **122 de 127** de destino não identificado nos acervos |
 | Data | **2026-08-07** — **49 dias atrás** |
 | Depois dela | **5 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |

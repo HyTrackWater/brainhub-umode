@@ -5,15 +5,15 @@ acervo: acervo Marina Santoro
 titulo: "RSV + uMode · Checkpoint #3"
 data: 2025-05-29
 referente_a: 2025-05-29
-destino: "[a preencher]"
-confianca_destino: baixa
+destino: reserva
+confianca_destino: media
 natureza: "[a preencher]"
 participantes: []
 participantes_sem_email: []
 tem_transcricao: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 75/128
-reunioes_depois: 53
+posicao_na_linha_do_tempo: 3/6
+reunioes_depois: 3
 idade_em_dias: 484
 horizonte: historico
 tier: T2
@@ -25,19 +25,19 @@ processado_em: 2026-09-25
 > **Classe: `REGISTRO`.** Evidência datada. 🔴 **Não é autoridade e não se edita.**
 > **Fonte:** resumo do Gemini, acervo Marina Santoro. 🔴 **Não há transcrição de fala desta reunião** —
 > tudo abaixo foi escrito por um modelo e é **derivado**.
-> 🔴 **Destino não roteado** — candidatos: nenhum. **Rotear exige olho humano.**
+> ⚠ **Destino `reserva` saiu só do título:** o título mente — pode ser reunião interna *sobre* o cliente.
 
 ## ⏱ Posição no tempo
 
 | | |
 |---|---|
-| Reunião | **75 de 128** de destino não identificado nos acervos |
+| Reunião | **3 de 6** de Reserva nos acervos |
 | Data | **2025-05-29** — **484 dias atrás** |
-| Depois dela | **53 reuniões** — a última em **2026-09-22** |
-| Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |
+| Depois dela | **3 reuniões** — a última em **2026-07-14** |
+| Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
 
 ⚠ **Esta reunião é história.** O que ela afirma **aconteceu em 2025-05-29**; o que prometia
-**estava por vir naquela data**, e o cumprimento **não está verificado** — há **53 reuniões posteriores** onde conferir.
+**estava por vir naquela data**, e o cumprimento **não está verificado** — há **3 reuniões posteriores** onde conferir.
 
 ## ⚠ Fatos propostos — ainda NÃO são fatos
 

@@ -37,8 +37,7 @@ tags:
 - indice-reajuste: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-contratados: ? — [não consta em: planilha de contratos do Financeiro · 2026-09-23]
 - usuarios-conta: 7 pessoas com ficha própria no corpus — [varredura do Notion · 2026-09-21]
-- atendimento: pessoa:andrea.holmer@umode.com.br ⚠ DESLIGADO — [base Mapa de Clientes · 2026-09-25]
-- atendimento: pessoa:laura.delgado@umode.com.br — [base Mapa de Clientes · 2026-09-25]
+- atendimento: pessoa:fernanda.araujo@umode.com.br — [informado pelo Vinicius · 2026-09-25]
 - tamanho-atendimento: Grupo Enterprise — [varredura do Notion · 2026-09-21]
 
 ## Identidade
@@ -160,15 +159,25 @@ A Oficina Reserva está no grupo **`Enterprise`**, cuja descrição na base é l
 > com muitas etapas entre SAP e Linx."* · *"**90% do tempo dedicado ao SAP**"* (pedido de compra).
 
 ### Responsável de atendimento (uMode)
-**Time de atendimento (base `Mapa de Clientes`): Holmer & Laura**
+- Fernanda Araujo
 
-- Andrea Holmer — 14 de 29 demandas atribuídas (48%)
-- Laura Delgado — 14 de 29 demandas atribuídas (48%)
-
-> **Fonte:** `Mapa de Clientes` · `Time de Atendimento` + `Demandas de Clientes` · `Key Account/Responsável` · conferido em 25/09/2026.
-> ⚠ **A contagem é de demanda trabalhada, não de designação formal.**
-> É evidência de quem atendeu — **e a diferença importa quando a conta
-> trocou de mão.**
+> 🔄 **Vigente em 25/09/2026 — informado pelo Vinicius em 25/09/2026.**
+> ⚠ **A Fernanda fica na uMode até 30/09/2026.**
+>
+> ⏭ **Por vir:** com a saída dela, a conta passa para a **Laura Delgado Cardoso**
+> (`laura.delgado@umode.com.br`). **Data exata da passagem: `[a preencher]`.**
+>
+> ✅ **Aconteceu — o que as bases registravam até esta informação** (histórico, não vigente):
+>
+> **Time de atendimento (base `Mapa de Clientes`): Holmer & Laura**
+>
+> - Andrea Holmer — 14 de 29 demandas atribuídas (48%)
+> - Laura Delgado — 14 de 29 demandas atribuídas (48%)
+>
+> > **Fonte:** `Mapa de Clientes` · `Time de Atendimento` + `Demandas de Clientes` · `Key Account/Responsável` · conferido em 25/09/2026.
+> > ⚠ **A contagem é de demanda trabalhada, não de designação formal.**
+> > É evidência de quem atendeu — **e a diferença importa quando a conta
+> > trocou de mão.**
 
 ## Contrato
 
@@ -342,7 +351,7 @@ Grupo **`Enterprise`** · `WIP 6,00` · **Fernanda**, com 3 contas.
 
 ## Governança
 ### Responsável de atendimento (uMode)
-Fernanda (2025)
+Fernanda Araujo até 30/09/2026 → Laura Delgado Cardoso a partir da saída dela (informado pelo Vinicius em 25/09/2026)
 
 ### Quem pode alterar este documento
 Responsável de atendimento + liderança de Atendimento uMode

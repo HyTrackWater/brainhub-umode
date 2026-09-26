@@ -16,7 +16,7 @@ participantes_sem_email:
   - "Juliana Ferré"
 tem_transcricao: true
 tem_resumo: true
-posicao_na_linha_do_tempo: 90/128
+posicao_na_linha_do_tempo: 89/127
 reunioes_depois: 38
 idade_em_dias: 402
 horizonte: historico
@@ -37,7 +37,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **90 de 128** de destino não identificado nos acervos |
+| Reunião | **89 de 127** de destino não identificado nos acervos |
 | Data | **2025-08-19** — **402 dias atrás** |
 | Depois dela | **38 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `[a preencher]` — cliente sem pasta ou sem fato `status` |

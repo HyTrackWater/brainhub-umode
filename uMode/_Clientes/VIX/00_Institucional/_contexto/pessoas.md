@@ -12,6 +12,7 @@ tags:
 > *[Vix] Perfil de Usuário e Permissionamento*. Campo sem fonte fica `[a preencher]`.
 
 ## Responsável de atendimento (uMode)
+- 🔄 **Hoje (25/09/2026):** **Julianne Dias Rodrigues + Pedro Murillo** — confirmado pelo Vinicius.
 - **2025:** **Julianne & Pedro** — dupla que atende **6 contas**: VIX, NK STORE, Caedu, Puket,
   Osklen e Loungerie.
 - **2024:** duas pessoas registradas como relação, **nomes não resolvidos** — `[a preencher]`
