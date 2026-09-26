@@ -46,13 +46,13 @@ processado_em: 2026-09-25
 
 ### 🔄 Acontecendo — último estado conhecido, 2026-07-07
 
-- dor: Problemas de visualização da tela compartilhada: Vinicius Dias, Marina Santoro, Fernanda Araujo e Allie Terassi discutem dificuldades técnicas iniciais com a visualização da tela compartilhada durante a reunião. — [resumo Gemini 2026-07-07] ⚠ PROPOSTA · DERIVADA
+- dor: Problemas de visualização da tela compartilhada: Vinicius Dias, Marina Santoro, Fernanda Araujo e Allie Terassi discutem dificuldades técnicas iniciais com a visualização da tela compartilhada durante a reunião. — [resumo Gemini 2026-07-07] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:00:00)
 
 ### ⏭ Por vir — compromissos da reunião mais recente
 
-- entrega: [Anderson Nascimento] Ajustar Integração: Alterar o fluxo de envio de dados para que os campos se tornem imutáveis após o primeiro preenchimento, impedindo que novas ações alterem valores já registrados. — [resumo Gemini 2026-07-07 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Anderson Nascimento, Marina Santoro] Realizar Teste: Executar uma nova validação de produto no ambiente de homologação para confirmar se a integração mantém os dados consistentes conforme o esperado. — [resumo Gemini 2026-07-07 · próximas etapas] ⚠ PROPOSTA · DERIVADA
-- entrega: [Vinicius Dias] Validar com Equipe: Coordenar com as colaboradoras da NV a validação final do fluxo de liberação após a conclusão dos testes técnicos. — [resumo Gemini 2026-07-07 · próximas etapas] ⚠ PROPOSTA · DERIVADA
+- entrega: [Anderson Nascimento] Ajustar Integração: Alterar o fluxo de envio de dados para que os campos se tornem imutáveis após o primeiro preenchimento, impedindo que novas ações alterem valores já registrados. — [resumo Gemini 2026-07-07 · próximas etapas] ⚠ PROPOSTA · DERIVADA · 🟢 CONFIRMADA NA FALA (2026-09-26 · 00:24:31)
+- entrega: [Anderson Nascimento, Marina Santoro] Realizar Teste: Executar uma nova validação de produto no ambiente de homologação para confirmar se a integração mantém os dados consistentes conforme o esperado. — [resumo Gemini 2026-07-07 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:22:44)
+- entrega: [Vinicius Dias] Validar com Equipe: Coordenar com as colaboradoras da NV a validação final do fluxo de liberação após a conclusão dos testes técnicos. — [resumo Gemini 2026-07-07 · próximas etapas] ⚠ PROPOSTA · DERIVADA · ⚠ PARCIAL NA FALA (2026-09-26 · 00:25:32)
 
 ## Governança
 
