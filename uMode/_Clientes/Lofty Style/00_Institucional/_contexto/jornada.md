@@ -106,8 +106,8 @@ com CSat 9,6 e entusiasmo 4,9. Três meses depois, **15 chamados em 24 dias e 12
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
-| 2025-03-27 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-03-28 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-27 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-03-27_lofty-style_umode-lofty-time-pcp.md) |
+| 2025-03-28 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-03-28_lofty-style_umode-lofty-time-estilo-cadastro-de-produto-no-l.md) |
 | 2025-04-01 | — | não confirmada | Marina | vídeo + transcrição automática | [13](../../../../00_Institucional/_inbox-calls/2025-04-01_lofty-style_umode-lofty-style-time-de-compras.md) |
 | 2025-04-11 | ficha técnica | não confirmada | Marina | vídeo + transcrição automática | [13](../../../../00_Institucional/_inbox-calls/2025-04-11_lofty-style_umode-lofty-style-pcp-ficha-tecnica-no-linx.md) |
 | 2025-04-22 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-04-22_lofty-style_umode-lofty-style-sourcing.md) |
