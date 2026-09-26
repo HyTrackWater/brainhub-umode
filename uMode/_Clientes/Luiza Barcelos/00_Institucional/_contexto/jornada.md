@@ -138,8 +138,8 @@ julho de 2026. `[C]`
 | 2025-01-28 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-01-30 | integração | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2025-02-07 | treinamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-03-13 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-03-17 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-13 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-03-13_luiza-barcelos_umode-luiza-barcelos-time-de-estilo.md) |
+| 2025-03-17 | — | não confirmada | Marina | vídeo + transcrição automática | [7](../../../../00_Institucional/_inbox-calls/2025-03-17_luiza-barcelos_luiza-barcelos-email-ticiane.md) |
 | 2025-05-06 | treinamento | não confirmada | Laura | só chat | — |
 | 2025-05-27 | alinhamento | não confirmada | Laura | resumo | [7](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_luiza-barcelos-umode-alinhamento-de-demandas-tim.md) |
 | 2025-05-27 | weekly | não confirmada | Laura | resumo | [9](../../../../00_Institucional/_inbox-calls/2025-05-27_luiza-barcelos_weekly-tech-luiza-barcelos-umode.md) |

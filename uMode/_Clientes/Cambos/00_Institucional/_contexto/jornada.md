@@ -99,7 +99,7 @@ tags:
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2024-05-08 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2025-03-07 | weekly | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2025-03-07 | weekly | não confirmada | Marina | vídeo + transcrição automática | — |
 | 2025-06-12 | treinamento | não confirmada | Laura | resumo | [13](../../../../00_Institucional/_inbox-calls/2025-06-12_cambos_treinamento-cambos-umode.md) |
 | 2025-06-18 | workflow | não confirmada | Laura | resumo | [1](../../../../00_Institucional/_inbox-calls/2025-06-18_cambos_workflow-cambos.md) |
 | 2025-07-23 | discovery | não confirmada | Laura | resumo | — |
