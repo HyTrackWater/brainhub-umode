@@ -13,7 +13,7 @@ participantes_sem_email: []
 tem_transcricao: true
 transcricao_automatica: true
 tem_resumo: false
-posicao_na_linha_do_tempo: 12/33
+posicao_na_linha_do_tempo: 13/34
 reunioes_depois: 21
 idade_em_dias: 557
 horizonte: historico
@@ -34,7 +34,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **12 de 33** de Luiza Barcelos nos acervos |
+| Reunião | **13 de 34** de Luiza Barcelos nos acervos |
 | Data | **2025-03-17** — **557 dias atrás** |
 | Depois dela | **21 reuniões** — a última em **2026-09-22** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

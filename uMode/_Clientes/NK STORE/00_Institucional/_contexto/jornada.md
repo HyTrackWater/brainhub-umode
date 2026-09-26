@@ -122,14 +122,13 @@ sobre **campos duplicados no cadastro** e **valores da ficha que não chegam ao 
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 17 reuniões, de 2024-06-18 a 2026-06-30
+#### ✅ Aconteceu — 16 reuniões, de 2024-06-18 a 2026-06-30
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2024-06-18 | kick-off | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-10-22 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-11-12 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2024-11-13 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-12-11 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-11_nk-store_umode-nk-estilo-book.md) |
 | 2024-12-17 | integração | não confirmada | Marina | vídeo + transcrição automática | [9](../../../../00_Institucional/_inbox-calls/2024-12-17_nk-store_nk-integracao.md) |
 | 2024-12-27 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-27_nk-store_umode-nk-aprofundamento-metricas-de-sucesso.md) |

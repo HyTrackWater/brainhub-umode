@@ -356,8 +356,32 @@ def resolve_cabecalho(texto):
     return ok, sobra
 
 
+_ROTA_MANUAL = None
+
+
+def rota_manual():
+    u"""
+    `_inbox-calls/_roteamento-manual.tsv`: (data, titulo-kebab) -> pasta,
+    com motivo e data da decisao. Para o caso em que titulo e e-mail enganam
+    e o CONTEUDO decide - ex.: "[Luiza & NK] Projeto com Lider de Marca"
+    (13/11/2024) e inteira sobre a crise da Luiza Barcelos. Cada linha e uma
+    decisao registrada, nunca inferencia silenciosa.
+    """
+    global _ROTA_MANUAL
+    if _ROTA_MANUAL is None:
+        _ROTA_MANUAL = {}
+        f = os.path.join(INBOX, u"_roteamento-manual.tsv")
+        if os.path.exists(f):
+            for l in io.open(f, encoding=u"utf-8").read().splitlines()[1:]:
+                c = l.split(u"\t")
+                if len(c) >= 3:
+                    _ROTA_MANUAL[(c[0], c[1])] = c[2]
+    return _ROTA_MANUAL
+
+
 def roteia(r):
     u"""destino, confianca e natureza - e-mail primeiro, titulo depois."""
+    manual = rota_manual().get((r[u"data"].isoformat(), kebab(r[u"titulo"], 30)))
     doms = set(e.split(u"@")[1] for e in r.get(u"emails", []))
     doms |= set(e.split(u"@")[1] for _, e in r.get(u"resolvidos", []))
     if r.get(u"sobra"):
@@ -372,7 +396,9 @@ def roteia(r):
         r[u"natureza"] = u"externa"
     else:
         r[u"natureza"] = u"não confirmada"
-    if len(por_email) == 1:
+    if manual:
+        r[u"pasta"], r[u"conf"] = manual, u"media"
+    elif len(por_email) == 1:
         r[u"pasta"], r[u"conf"] = por_email[0], u"alta"
     elif len(por_titulo) == 1 and not por_email:
         r[u"pasta"], r[u"conf"] = por_titulo[0], u"media"

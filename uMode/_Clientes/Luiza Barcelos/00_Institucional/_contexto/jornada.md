@@ -124,14 +124,15 @@ julho de 2026. `[C]`
 > **sobre** o cliente · `não confirmada` = sem cabeçalho, só o título indica.
 > ⚠ **Gerado por `scripts/extrai-propostas-de-resumo.py` — não editar à mão.**
 
-#### ✅ Aconteceu — 33 reuniões, de 2024-11-05 a 2026-09-22
+#### ✅ Aconteceu — 34 reuniões, de 2024-11-05 a 2026-09-22
 
 | Data | Assunto (do título) | Natureza | Acervo | Fonte | Propostas no inbox |
 |---|---|---|---|---|---|
 | 2024-11-05 | ficha técnica | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
 | 2024-11-08 | weekly | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2024-12-04 | alinhamento | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
-| 2024-12-05 | — | não confirmada | Marina | vídeo + transcrição automática | [3](../../../../00_Institucional/_inbox-calls/2024-12-05_luiza-barcelos_umode-luiza-barcelos-michelle.md) |
+| 2024-11-13 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-11-13_luiza-barcelos_luiza-nk-projeto-com-lider-de-marca.md) |
+| 2024-12-04 | alinhamento | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-04_luiza-barcelos_luiza-barcelos-alinhamento-pos-visita-presencial.md) |
+| 2024-12-05 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-05_luiza-barcelos_umode-luiza-barcelos-michelle.md) |
 | 2024-12-10 | dúvidas | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2024-12-10_luiza-barcelos_umode-luiza-barcelos-duvidas-do-fluxo-do-jestor.md) |
 | 2024-12-20 | weekly | não confirmada | Marina | vídeo + transcrição automática | [14](../../../../00_Institucional/_inbox-calls/2024-12-20_luiza-barcelos_weekly-luiza-barcelos-umode-novo.md) |
 | 2025-01-06 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2025-01-06_luiza-barcelos_umode-ferias-marina-luiza-barcelos.md) |

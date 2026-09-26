@@ -13,7 +13,7 @@ participantes_sem_email: []
 tem_transcricao: false
 transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 13/17
+posicao_na_linha_do_tempo: 12/16
 reunioes_depois: 4
 idade_em_dias: 413
 horizonte: historico
@@ -32,7 +32,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **13 de 17** de NK STORE nos acervos |
+| Reunião | **12 de 16** de NK STORE nos acervos |
 | Data | **2025-08-08** — **413 dias atrás** |
 | Depois dela | **4 reuniões** — a última em **2026-06-30** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |

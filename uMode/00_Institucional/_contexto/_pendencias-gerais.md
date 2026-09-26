@@ -4747,3 +4747,12 @@ Hoje: **CAEDU 0 de 259** — 158 lacunas de contexto + 100 cargos + 1 `integraca
      🔴 **E o filtro vale só para registro de CLIENTE.** Na primeira versão ele omitiu 37 propostas —
      35 eram de reuniões da **Casa** ou sem destino, que falam de clientes legitimamente
      ("configurar a ficha da NV"). **O isolamento é entre clientes; a Casa enxerga todos.**
+798. 🟢 **Roteamento manual, com motivo e data, para quando título e e-mail enganam.**
+     `_inbox-calls/_roteamento-manual.tsv`, lido pelo extrator antes do título. Primeira linha: a
+     gravação `[Luiza & NK] Projeto com Líder de Marca` (13/11/2024) caía na **NK Store** — "Luiza"
+     sozinho não casa com a pasta — e é **inteira sobre a crise do projeto da Luiza Barcelos**: o
+     estilo esperava ferramenta de desenho, o uFlow é de gestão, e o faseamento proposto (merch e
+     desenvolvimento até jan, integração Safe Tech a partir de jan, suprimentos em mai).
+     🔴 **Fora do inbox, de propósito:** a fala de que o cliente **cancelaria** sem ferramenta de
+     desenho — é condição de contrato (`T1`) e só pode viver na pasta da LB. 🔵 **Decisão do
+     Vinicius:** registrar esse risco de cancelamento na `jornada.md` da Luiza Barcelos, com a data.

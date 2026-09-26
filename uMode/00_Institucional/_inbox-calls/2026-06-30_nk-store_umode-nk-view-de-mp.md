@@ -15,7 +15,7 @@ participantes_sem_email: []
 tem_transcricao: false
 transcricao_automatica: false
 tem_resumo: true
-posicao_na_linha_do_tempo: 17/17
+posicao_na_linha_do_tempo: 16/16
 reunioes_depois: 0
 idade_em_dias: 87
 horizonte: recente
@@ -34,7 +34,7 @@ processado_em: 2026-09-25
 
 | | |
 |---|---|
-| Reunião | **17 de 17** de NK STORE nos acervos |
+| Reunião | **16 de 16** de NK STORE nos acervos |
 | Data | **2026-06-30** — **87 dias atrás** |
 | Depois dela | **0 reuniões** — **é a mais recente** |
 | Status no corpus | `Ongoing` — varredura de **2026-09-21**, que é a data da **leitura**, não da transição |
