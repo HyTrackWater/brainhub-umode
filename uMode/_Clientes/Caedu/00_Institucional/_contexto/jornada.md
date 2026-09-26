@@ -160,17 +160,29 @@ tags:
 | 2025-04-07 | — | não confirmada | Juliana | só chat | — |
 | 2025-04-29 | — | não confirmada | Juliana | resumo + **transcrição** | [6](../../../../00_Institucional/_inbox-calls/2025-04-29_caedu_caedu-presencial.md) |
 | 2026-08-17 | — | interna | Juliana + Marina | resumo | [11](../../../../00_Institucional/_inbox-calls/2026-08-17_caedu_caedu-revisao-novo-escopo.md) |
-| 2026-09-03 | — | não confirmada | Marina | ⚠ **só vídeo** — não lido | — |
+| 2026-09-03 | — | não confirmada | Marina | vídeo + transcrição automática | [15](../../../../00_Institucional/_inbox-calls/2026-09-03_caedu_umode-caedu-nova-jornada-de-evolucao.md) |
 
 #### 🔄 Acontecendo — o último estado conhecido
 
 - **Última reunião nos acervos:** 2026-09-03 — *uMode & Caedu - Nova Jornada de Evolução* — **22 dias atrás**.
 - **Status no corpus:** `Ongoing` — varredura de 2026-09-21 (data da **leitura**, não da transição).
 - 🟢 **Coerente:** status ativo e reunião há 22 dias.
+- **O que a última reunião afirma** (⚠ derivado do resumo, não aprovado — 6 de 10 itens):
+  - `dor` Na avaliação dos quatro anos do projeto PLM na Caedu, o prazo foi subestimado e houve muita troca de pessoas; quem chegou não recebeu o mesmo treinamento e perdeu-se conhecimento do PLM.
+  - `dor` A Caedu não tem integração do PLM com BI, e não consegue extrair relatórios de gestão, que fazem falta principalmente aos gerentes de produto.
+  - `decisao` Após uma conversa de cerca de um mês sobre o futuro do PLM, Caedu e uMode decidiram fazer um relançamento do projeto, uma nova jornada que aprende com os erros do primeiro ciclo.
+  - `erp` Integração PLM x Linx na Caedu: grupo e subgrupo cadastrados no Linx exigem atualização manual no PLM, e as informações de pedido não chegam ao PLM, obrigando as assistentes a consultar o Linx.
+  - `dor` O rascunho de pré-pedido, criado para ser importado a partir do PLM, não funciona hoje; as assistentes seguem cadastrando as duas telas no Linx sem o ganho de tempo esperado.
+  - `erp` Alguns campos específicos atualizados no PLM não enviam a atualização para o Linx, e o time precisa atualizar a mesma informação nos dois sistemas.
 
 #### ⏭ Por vir
 
-`[a preencher]` — a última reunião (2026-09-03) não tem compromisso extraído.
+⚠ **Compromissos da reunião de 2026-09-03** — derivados do resumo, **não aprovados**:
+- Os conceitos de cada campo definidos no desenho do projeto se perderam; será preciso redefinir a taxonomia e sanear a base de dados do PLM.
+- A nova fase terá dois escopos: migração da Caedu para o novo ambiente da uMode nos primeiros três meses e, em paralelo, iniciativas priorizadas junto com o time de negócio e a diretoria.
+- Ficou combinado que um representante da uMode estará presencialmente na Caedu duas vezes por semana, acompanhando o projeto por pelo menos um ano.
+- Premissas da nova jornada: ter pessoas dedicadas ao projeto e um acompanhamento de três meses; se a forma de trabalhar não mudar nesse prazo, busca-se outro caminho.
+- A integração será refeita na nova arquitetura, com dados migrados e checkpoint semanal com o Danilo; a integração anterior levou quase um ano.
 <!-- acervos-reunioes:linha-do-tempo:fim -->
 
 ## Entregas comprometidas

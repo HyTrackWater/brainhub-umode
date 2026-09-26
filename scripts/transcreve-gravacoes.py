@@ -44,22 +44,29 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument(u"--limite", type=int, default=0)
     ap.add_argument(u"--modelo", default=u"small")
+    # segunda fila em paralelo (ex.: gravacoes COM resumo, para conferir o
+    # presente das contas vivas): outra fila, outra saida, outro temporario
+    ap.add_argument(u"--fila", default=FILA)
+    ap.add_argument(u"--saida", default=SAIDA)
+    ap.add_argument(u"--tmp", default=TMP + u"atual.mp4")
+    ap.add_argument(u"--threads", type=int, default=max(1, (os.cpu_count() or 4) - 1))
     a = ap.parse_args()
+    saida = a.saida.rstrip(u"/") + u"/"
+    log = saida + u"_log.tsv"
     from faster_whisper import WhisperModel
-    os.makedirs(SAIDA, exist_ok=True)
-    os.makedirs(TMP, exist_ok=True)
-    modelo = WhisperModel(a.modelo, device=u"cpu", compute_type=u"int8",
-                          cpu_threads=max(1, (os.cpu_count() or 4) - 1))
-    fila = [l.split(u"\t") for l in io.open(FILA, encoding=u"utf-8").read().splitlines() if l]
+    os.makedirs(saida, exist_ok=True)
+    os.makedirs(os.path.dirname(a.tmp), exist_ok=True)
+    modelo = WhisperModel(a.modelo, device=u"cpu", compute_type=u"int8", cpu_threads=a.threads)
+    fila = [l.split(u"\t") for l in io.open(a.fila, encoding=u"utf-8").read().splitlines() if l]
     feitos = 0
     for n, (prio, data, zipf, membro, base, pasta, status, tam) in enumerate(fila, 1):
-        alvo = SAIDA + u"%03d.txt" % n
+        alvo = saida + u"%03d.txt" % n
         if os.path.exists(alvo):
             continue
         if a.limite and feitos >= a.limite:
             break
         t0 = time.time()
-        tmp = TMP + u"atual.mp4"
+        tmp = a.tmp
         with zipfile.ZipFile(zipf) as z, z.open(membro) as src, open(tmp, u"wb") as dst:
             while True:
                 b = src.read(1 << 22)
@@ -76,7 +83,7 @@ def main():
         os.remove(tmp)
         dur = info.duration or 0
         gasto = time.time() - t0
-        io.open(LOG, u"a", encoding=u"utf-8").write(u"%03d\t%s\t%s\t%.0f\t%.0f\t%.2f\t%s\n" % (
+        io.open(log, u"a", encoding=u"utf-8").write(u"%03d\t%s\t%s\t%.0f\t%.0f\t%.2f\t%s\n" % (
             n, data, pasta, dur, gasto, (dur / gasto) if gasto else 0, datetime.datetime.now().isoformat(u" ", u"seconds")))
         feitos += 1
         print(u"%03d/%d  %s  %-16s audio %s em %s  (%.1fx)" % (
